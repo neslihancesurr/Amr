@@ -1,0 +1,11 @@
+<Amr>
+<Word name="4/git" positionX="750" positionY="100"/>
+<Word name="1/dün" positionX="650" positionY="200"/>
+<Word name="2/çocuk" positionX="763" positionY="309"/>
+<Word name="3/okul" positionX="906" positionY="334"/>
+<Word name="amr-unknown" positionX="950" positionY="200"/>
+<Connection from="4/git" to="1/dün" with="time"/>
+<Connection from="4/git" to="2/çocuk" with="ARG0"/>
+<Connection from="4/git" to="3/okul" with="ARG1"/>
+<Connection from="4/git" to="amr-unknown" with="polarity"/>
+</Amr>

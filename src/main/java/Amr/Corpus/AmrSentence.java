@@ -11,6 +11,8 @@ import org.xml.sax.SAXException;
 import java.awt.*;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
 
 public class AmrSentence extends Sentence {
     private ArrayList<AmrConnection> connections;
@@ -125,6 +127,37 @@ public class AmrSentence extends Sentence {
             connections = new ArrayList<>();
             reload();
         }
+    }
+
+    private AmrWord getRoot(){
+        HashSet<AmrWord> done = new HashSet<>();
+        for (int i = 0; i < words.size(); i++){
+            done.add((AmrWord) getWord(i));
+        }
+        for (AmrConnection connection : connections){
+            done.remove(connection.to());
+        }
+        return done.iterator().next();
+    }
+
+    private String wordToString(AmrWord word, int tabCount){
+        String result = "(" + word.getName();
+        for (AmrConnection connection : connections){
+            if (connection.from().equals(word)){
+                String child = "\n";
+                for (int i = 1; i <= tabCount + 1; i++){
+                    child += "\t";
+                }
+                child += ":" + connection.with();
+                child += " " + wordToString(connection.to(), tabCount + 1);
+                result += child;
+            }
+        }
+        return result + ")";
+    }
+
+    public String toString(){
+        return getFileName() + "\n" + wordToString(getRoot(), 0);
     }
 
 }

@@ -1,0 +1,9 @@
+<Amr>
+<Word name="4/iste" positionX="819" positionY="220"/>
+<Word name="sen" positionX="746" positionY="301"/>
+<Word name="2/sokak 3/çık" positionX="878" positionY="312"/>
+<Connection from="4/iste" to="sen" with="ARG0"/>
+<Connection from="4/iste" to="2/sokak 3/çık" with="ARG1"/>
+<Word name="S" positionX="768" positionY="123"/>
+<Connection from="S" to="4/iste" with="cond"/>
+</Amr>

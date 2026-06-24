@@ -1,0 +1,12 @@
+<Amr>
+<Word name="6/ye" positionX="696" positionY="118"/>
+<Word name="1/o" positionX="358" positionY="436"/>
+<Word name="2/her 3/zaman" positionX="846" positionY="486"/>
+<Word name="4/yemek" positionX="272" positionY="60"/>
+<Word name="5/lokanta" positionX="1033" positionY="223"/>
+<Connection from="6/ye" to="1/o" with="ARG0"/>
+<Connection from="6/ye" to="2/her 3/zaman" with="time"/>
+<Connection from="6/ye" to="4/yemek" with="ARG1"/>
+<Connection from="6/ye" to="5/lokanta" with="location"/>
+<Connection from="4/yemek" to="1/o" with="poss"/>
+</Amr>

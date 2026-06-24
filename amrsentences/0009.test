@@ -1,0 +1,15 @@
+<Amr>
+<Word name="city" positionX="598" positionY="105"/>
+<Word name="amr-unknown" positionX="435" positionY="237"/>
+<Word name="3/git" positionX="652" positionY="254"/>
+<Word name="siz" positionX="552" positionY="353"/>
+<Word name="name" positionX="789" positionY="180"/>
+<Word name="1/londra" positionX="730" positionY="386"/>
+<Word name="Londra" positionX="981" positionY="372"/>
+<Connection from="city" to="amr-unknown" with="polarity"/>
+<Connection from="city" to="3/git" with="ARG1-of"/>
+<Connection from="3/git" to="siz" with="ARG0"/>
+<Connection from="city" to="name" with="name"/>
+<Connection from="name" to="1/londra" with="op1"/>
+<Connection from="name" to="Londra" with="wiki"/>
+</Amr>

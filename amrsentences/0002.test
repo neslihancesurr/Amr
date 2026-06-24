@@ -1,0 +1,9 @@
+<Amr>
+<Word name="4/git" positionX="750" positionY="100"/>
+<Word name="sen" positionX="600" positionY="209"/>
+<Word name="1/her 2/gün" positionX="757" positionY="229"/>
+<Word name="amr-unknown" positionX="940" positionY="171"/>
+<Connection from="4/git" to="sen" with="ARG0"/>
+<Connection from="4/git" to="1/her 2/gün" with="time"/>
+<Connection from="4/git" to="amr-unknown" with="ARG1"/>
+</Amr>

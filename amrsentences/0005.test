@@ -1,0 +1,15 @@
+<Amr>
+<Word name="and" positionX="689" positionY="83"/>
+<Word name="5/al" positionX="538" positionY="229"/>
+<Word name="4/çanta" positionX="526" positionY="484"/>
+<Word name="ben" positionX="827" positionY="524"/>
+<Word name="2/git" positionX="843" positionY="196"/>
+<Word name="1/ev" positionX="738" positionY="317"/>
+<Connection from="and" to="5/al" with="op1"/>
+<Connection from="5/al" to="ben" with="ARG0"/>
+<Connection from="5/al" to="4/çanta" with="ARG1"/>
+<Connection from="4/çanta" to="ben" with="poss"/>
+<Connection from="and" to="2/git" with="op2"/>
+<Connection from="2/git" to="ben" with="ARG0"/>
+<Connection from="2/git" to="1/ev" with="ARG1"/>
+</Amr>

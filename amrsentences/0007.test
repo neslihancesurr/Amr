@@ -1,0 +1,13 @@
+<Amr>
+<Word name="4/ver" positionX="750" positionY="100"/>
+<Word name="ben" positionX="604" positionY="178"/>
+<Word name="2/anahtar" positionX="704" positionY="263"/>
+<Word name="1/şu" positionX="674" positionY="389"/>
+<Word name="amr-unknown" positionX="866" positionY="177"/>
+<Word name="siz" positionX="966" positionY="301"/>
+<Connection from="4/ver" to="ben" with="ARG0"/>
+<Connection from="4/ver" to="2/anahtar" with="ARG1"/>
+<Connection from="2/anahtar" to="1/şu" with="mod"/>
+<Connection from="4/ver" to="amr-unknown" with="ARG2"/>
+<Connection from="amr-unknown" to="siz" with="poss"/>
+</Amr>
