@@ -1,0 +1,20 @@
+<Amr sentence="“ Akşama gelecek misin ? ” diye sordu annem bana .">
+<Word name="8/sor" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="8/sor" to="o" with="ARG0"/>
+<Word name="3/gel" positionX="750" positionY="200"/>
+<Connection from="8/sor" to="3/gel"/>
+<Connection from="3/gel" to="o" with="ARG0"/>
+<Word name="2/akşam" positionX="750" positionY="300"/>
+<Connection from="3/gel" to="2/akşam"/>
+<Word name="4/mi" positionX="850" positionY="300"/>
+<Connection from="3/gel" to="4/mi"/>
+<Word name="7/diye" positionX="950" positionY="300"/>
+<Connection from="3/gel" to="7/diye"/>
+<Word name="9/anne" positionX="850" positionY="200"/>
+<Connection from="8/sor" to="9/anne"/>
+<Word name="ben" positionX="750" positionY="300"/>
+<Connection from="9/anne" to="ben" with="poss"/>
+<Word name="10/ben" positionX="950" positionY="200"/>
+<Connection from="8/sor" to="10/ben"/>
+</Amr>

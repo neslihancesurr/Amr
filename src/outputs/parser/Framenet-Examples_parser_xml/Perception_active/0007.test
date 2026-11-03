@@ -1,0 +1,18 @@
+<Amr sentence="Uzun oturmayacağım , sadece hemen havayı koklayacağım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/otur" positionX="650" positionY="200"/>
+<Connection from="and" to="2/otur" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="2/otur" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="2/otur" to="ben" with="ARG0"/>
+<Word name="1/uzun" positionX="750" positionY="300"/>
+<Connection from="2/otur" to="1/uzun" with="manner"/>
+<Word name="6/hava 7/kokla" positionX="750" positionY="200"/>
+<Connection from="and" to="6/hava 7/kokla" with="op2"/>
+<Connection from="6/hava 7/kokla" to="ben" with="ARG0"/>
+<Word name="4/sadece" positionX="750" positionY="300"/>
+<Connection from="6/hava 7/kokla" to="4/sadece" with="manner"/>
+<Word name="5/hemen" positionX="850" positionY="300"/>
+<Connection from="6/hava 7/kokla" to="5/hemen" with="manner"/>
+</Amr>

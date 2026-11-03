@@ -1,0 +1,7 @@
+<Amr sentence="Karşı taraf işi uzattı .">
+<Word name="3/iş 4/uzat" positionX="750" positionY="100"/>
+<Word name="2/taraf" positionX="650" positionY="200"/>
+<Connection from="3/iş 4/uzat" to="2/taraf" with="ARG0"/>
+<Word name="1/karşı" positionX="550" positionY="300"/>
+<Connection from="2/taraf" to="1/karşı" with="mod"/>
+</Amr>

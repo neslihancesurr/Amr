@@ -1,0 +1,15 @@
+<Amr sentence="Gözünü hamamcının geleceği yola çiviledi .">
+<Word name="5/çivile" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/çivile" to="o" with="ARG0"/>
+<Word name="1/göz" positionX="750" positionY="200"/>
+<Connection from="5/çivile" to="1/göz" with="ARG1"/>
+<Connection from="1/göz" to="o" with="poss"/>
+<Word name="4/yol" positionX="850" positionY="200"/>
+<Connection from="5/çivile" to="4/yol" with="ARG2"/>
+<Word name="3/gelecek" positionX="750" positionY="300"/>
+<Connection from="4/yol" to="3/gelecek"/>
+<Connection from="3/gelecek" to="o" with="poss"/>
+<Word name="2/hamamcı" positionX="750" positionY="400"/>
+<Connection from="3/gelecek" to="2/hamamcı"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Okuyamadım ama .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="1/oku" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="1/oku"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="1/oku" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="1/oku" to="ben" with="ARG0"/>
+</Amr>

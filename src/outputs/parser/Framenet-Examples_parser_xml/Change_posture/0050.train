@@ -1,0 +1,9 @@
+<Amr sentence="Maça beyi gibi kuruldu karşıma .">
+<Word name="1/maça 2/bey 3/gibi 4/kur" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="1/maça 2/bey 3/gibi 4/kur" to="o" with="ARG0"/>
+<Word name="5/karşı" positionX="750" positionY="200"/>
+<Connection from="1/maça 2/bey 3/gibi 4/kur" to="5/karşı"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="5/karşı" to="ben" with="poss"/>
+</Amr>

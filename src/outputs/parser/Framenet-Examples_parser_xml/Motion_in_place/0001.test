@@ -1,0 +1,28 @@
+<Amr sentence="Kaptan , gemiyi ağzına kadar doldurmuş , gemi yan yatmış , bir deniz çalkantısıyla alabora olmuş .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/dol" positionX="650" positionY="200"/>
+<Connection from="and" to="6/dol" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="6/dol" to="o" with="ARG0"/>
+<Word name="1/kaptan" positionX="650" positionY="300"/>
+<Connection from="6/dol" to="1/kaptan"/>
+<Word name="3/gemi" positionX="750" positionY="300"/>
+<Connection from="6/dol" to="3/gemi" with="ARG1"/>
+<Word name="4/ağız 5/kadar" positionX="850" positionY="300"/>
+<Connection from="6/dol" to="4/ağız 5/kadar" with="mod"/>
+<Word name="9/yan 10/yat" positionX="750" positionY="200"/>
+<Connection from="and" to="9/yan 10/yat" with="op2"/>
+<Connection from="9/yan 10/yat" to="o" with="ARG0"/>
+<Word name="8/gemi" positionX="750" positionY="300"/>
+<Connection from="9/yan 10/yat" to="8/gemi" with="ARG1"/>
+<Word name="15/alabora 16/ol" positionX="850" positionY="200"/>
+<Connection from="and" to="15/alabora 16/ol" with="op3"/>
+<Word name="yap" positionX="750" positionY="300"/>
+<Connection from="15/alabora 16/ol" to="yap"/>
+<Word name="14/çalkantı" positionX="850" positionY="300"/>
+<Connection from="15/alabora 16/ol" to="14/çalkantı" with="instrument"/>
+<Word name="12/bir" positionX="750" positionY="400"/>
+<Connection from="14/çalkantı" to="12/bir"/>
+<Word name="13/deniz" positionX="850" positionY="400"/>
+<Connection from="14/çalkantı" to="13/deniz" with="mod"/>
+</Amr>

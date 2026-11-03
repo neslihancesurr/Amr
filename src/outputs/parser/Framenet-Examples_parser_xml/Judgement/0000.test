@@ -1,0 +1,15 @@
+<Amr sentence="Annesine bile hakaret ettiğini görünce ondan tamamen iğrendim .">
+<Word name="8/iğren" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="8/iğren" to="ben" with="ARG0"/>
+<Word name="5/gör" positionX="750" positionY="200"/>
+<Connection from="8/iğren" to="5/gör"/>
+<Word name="3/hakaret 4/et" positionX="650" positionY="300"/>
+<Connection from="5/gör" to="3/hakaret 4/et" with="ARG1"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="3/hakaret 4/et" to="o" with="poss"/>
+<Word name="6/o" positionX="850" positionY="200"/>
+<Connection from="8/iğren" to="6/o" with="ARG1"/>
+<Word name="7/tamamen" positionX="950" positionY="200"/>
+<Connection from="8/iğren" to="7/tamamen" with="manner"/>
+</Amr>

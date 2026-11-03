@@ -1,0 +1,19 @@
+<Amr sentence="Zehra senin kimi aradığını sanıyormuş ?">
+<Word name="5/san" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="5/san" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/zehra" positionX="450" positionY="400"/>
+<Connection from="name" to="1/zehra" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/ara" positionX="750" positionY="200"/>
+<Connection from="5/san" to="4/ara" with="ARG1"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="4/ara" to="sen" with="ARG0"/>
+<Word name="2/sen" positionX="750" positionY="300"/>
+<Connection from="4/ara" to="2/sen" with="ARG0"/>
+<Word name="3/kim" positionX="850" positionY="300"/>
+<Connection from="4/ara" to="3/kim" with="ARG1"/>
+</Amr>

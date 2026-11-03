@@ -1,0 +1,5 @@
+<Amr sentence="ayın birinde">
+<Word name="2/bir:location" positionX="750" positionY="100"/>
+<Word name="1/ay" positionX="650" positionY="200"/>
+<Connection from="2/bir:location" to="1/ay" with="mod"/>
+</Amr>

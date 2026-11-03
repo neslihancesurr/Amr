@@ -1,0 +1,9 @@
+<Amr sentence="Bu tür artık yok olmuştur .">
+<Word name="4/yok 5/ol" positionX="750" positionY="100"/>
+<Word name="2/tür" positionX="650" positionY="200"/>
+<Connection from="4/yok 5/ol" to="2/tür" with="ARG0"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/tür" to="1/bu" with="mod"/>
+<Word name="3/artık" positionX="750" positionY="200"/>
+<Connection from="4/yok 5/ol" to="3/artık" with="manner"/>
+</Amr>

@@ -1,0 +1,24 @@
+<Amr sentence="Türkiye Cumhuriyeti Milli Eğitim Bakanlığı Kadıköy Kız Yüksek Meslek Okulu">
+<Word name="9/meslek 10/okul" positionX="750" positionY="100"/>
+<Word name="5/bakanlık" positionX="650" positionY="200"/>
+<Connection from="9/meslek 10/okul" to="5/bakanlık" with="mod"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="5/bakanlık" to="person"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/türkiye" positionX="350" positionY="500"/>
+<Connection from="name" to="1/türkiye" with="op1"/>
+<Word name="2/cumhuriyet" positionX="450" positionY="500"/>
+<Connection from="name" to="2/cumhuriyet" with="op2"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/milli 4/eğitim" positionX="650" positionY="300"/>
+<Connection from="5/bakanlık" to="3/milli 4/eğitim" with="mod"/>
+<Connection from="9/meslek 10/okul" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="6/kadıköy" positionX="550" positionY="400"/>
+<Connection from="name" to="6/kadıköy" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="7/kız" positionX="850" positionY="200"/>
+<Connection from="9/meslek 10/okul" to="7/kız" with="mod"/>
+</Amr>

@@ -1,0 +1,21 @@
+<Amr sentence="Bütün okullar Bakanlık'ın denetimi altına alındı .">
+<Word name="6/al" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/al" to="o" with="ARG0"/>
+<Word name="2/okul" positionX="750" positionY="200"/>
+<Connection from="6/al" to="2/okul"/>
+<Word name="1/bütün" positionX="650" positionY="300"/>
+<Connection from="2/okul" to="1/bütün" with="mod"/>
+<Word name="5/alt" positionX="850" positionY="200"/>
+<Connection from="6/al" to="5/alt"/>
+<Word name="4/denetim" positionX="750" positionY="300"/>
+<Connection from="5/alt" to="4/denetim" with="mod"/>
+<Word name="person" positionX="650" positionY="400"/>
+<Connection from="4/denetim" to="person"/>
+<Word name="name" positionX="550" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/bakanlık" positionX="450" positionY="600"/>
+<Connection from="name" to="3/bakanlık" with="op1"/>
+<Word name="-" positionX="650" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

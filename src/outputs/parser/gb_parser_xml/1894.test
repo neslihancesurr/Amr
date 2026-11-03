@@ -1,0 +1,15 @@
+<Amr sentence="Bugün gençler yemek yapmasını bilmiyorlar .">
+<Word name="5/bil" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/bil" to="-" with="polarity"/>
+<Word name="1/bugün" positionX="750" positionY="200"/>
+<Connection from="5/bil" to="1/bugün"/>
+<Word name="2/genç" positionX="850" positionY="200"/>
+<Connection from="5/bil" to="2/genç" with="ARG0"/>
+<Word name="4/yapma" positionX="950" positionY="200"/>
+<Connection from="5/bil" to="4/yapma"/>
+<Word name="o" positionX="850" positionY="300"/>
+<Connection from="4/yapma" to="o" with="poss"/>
+<Word name="3/yemek" positionX="950" positionY="300"/>
+<Connection from="4/yapma" to="3/yemek"/>
+</Amr>

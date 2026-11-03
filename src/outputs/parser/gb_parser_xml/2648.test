@@ -1,0 +1,11 @@
+<Amr sentence="Hatta bunu açıkça söylüyor .">
+<Word name="4/söyle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/söyle" to="o" with="ARG0"/>
+<Word name="1/hatta" positionX="750" positionY="200"/>
+<Connection from="4/söyle" to="1/hatta" with="manner"/>
+<Word name="2/bu" positionX="850" positionY="200"/>
+<Connection from="4/söyle" to="2/bu" with="ARG1"/>
+<Word name="3/açıkça" positionX="950" positionY="200"/>
+<Connection from="4/söyle" to="3/açıkça" with="manner"/>
+</Amr>

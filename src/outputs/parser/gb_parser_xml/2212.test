@@ -1,0 +1,9 @@
+<Amr sentence="Oyuncunun rolü büyük değil .">
+<Word name="3/büyük" positionX="750" positionY="100"/>
+<Word name="2/rol" positionX="650" positionY="200"/>
+<Connection from="3/büyük" to="2/rol"/>
+<Word name="1/oyuncu" positionX="550" positionY="300"/>
+<Connection from="2/rol" to="1/oyuncu" with="mod"/>
+<Word name="-" positionX="750" positionY="200"/>
+<Connection from="3/büyük" to="-" with="polarity"/>
+</Amr>

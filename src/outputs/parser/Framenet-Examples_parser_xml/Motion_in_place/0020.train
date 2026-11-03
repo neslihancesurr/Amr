@@ -1,0 +1,9 @@
+<Amr sentence="Bütün vücudu yaprak gibi titriyordu .">
+<Word name="3/yaprak 4/gibi 5/titre" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/yaprak 4/gibi 5/titre" to="o" with="ARG0"/>
+<Word name="2/vücut" positionX="750" positionY="200"/>
+<Connection from="3/yaprak 4/gibi 5/titre" to="2/vücut" with="ARG1"/>
+<Word name="1/bütün" positionX="650" positionY="300"/>
+<Connection from="2/vücut" to="1/bütün" with="mod"/>
+</Amr>

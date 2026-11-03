@@ -1,0 +1,11 @@
+<Amr sentence="O köpeği aldık alalı hiç rahat yüzü görmedik .">
+<Word name="6/rahat 7/yüz 8/gör" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="6/rahat 7/yüz 8/gör" to="-" with="polarity"/>
+<Word name="biz" positionX="750" positionY="200"/>
+<Connection from="6/rahat 7/yüz 8/gör" to="biz" with="ARG0"/>
+<Word name="3/al 4/al" positionX="850" positionY="200"/>
+<Connection from="6/rahat 7/yüz 8/gör" to="3/al 4/al"/>
+<Word name="5/hiç" positionX="950" positionY="200"/>
+<Connection from="6/rahat 7/yüz 8/gör" to="5/hiç" with="degree"/>
+</Amr>

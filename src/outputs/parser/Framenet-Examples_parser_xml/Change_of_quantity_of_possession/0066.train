@@ -1,0 +1,9 @@
+<Amr sentence="Artık buraya bağışıklık kazandım .">
+<Word name="3/bağışıklık 4/kazan" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/bağışıklık 4/kazan" to="ben" with="ARG0"/>
+<Word name="1/artık" positionX="750" positionY="200"/>
+<Connection from="3/bağışıklık 4/kazan" to="1/artık" with="manner"/>
+<Word name="2/bura" positionX="850" positionY="200"/>
+<Connection from="3/bağışıklık 4/kazan" to="2/bura" with="ARG1"/>
+</Amr>

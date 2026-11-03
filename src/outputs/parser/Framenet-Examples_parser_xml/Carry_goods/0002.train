@@ -1,0 +1,11 @@
+<Amr sentence="Her türlü ihtiyacınız elinde bulunur .">
+<Word name="4/el 5/bul" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/el 5/bul" to="o" with="ARG0"/>
+<Word name="3/ihtiyaç" positionX="750" positionY="200"/>
+<Connection from="4/el 5/bul" to="3/ihtiyaç" with="ARG1"/>
+<Word name="2/türlü" positionX="650" positionY="300"/>
+<Connection from="3/ihtiyaç" to="2/türlü" with="mod"/>
+<Word name="1/her" positionX="550" positionY="400"/>
+<Connection from="2/türlü" to="1/her" with="mod"/>
+</Amr>

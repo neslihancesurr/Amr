@@ -1,0 +1,19 @@
+<Amr sentence="Öğretmen dersi baltalayan öğrencilerden birkaç tanesini idareye bildirdi .">
+<Word name="8/bildir" positionX="750" positionY="100"/>
+<Word name="1/öğretmen" positionX="650" positionY="200"/>
+<Connection from="8/bildir" to="1/öğretmen" with="ARG0"/>
+<Word name="6/tane" positionX="750" positionY="200"/>
+<Connection from="8/bildir" to="6/tane" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="6/tane" to="o" with="poss"/>
+<Word name="4/öğrenci" positionX="750" positionY="300"/>
+<Connection from="6/tane" to="4/öğrenci"/>
+<Word name="3/baltala" positionX="650" positionY="400"/>
+<Connection from="4/öğrenci" to="3/baltala"/>
+<Word name="2/ders" positionX="550" positionY="500"/>
+<Connection from="3/baltala" to="2/ders" with="ARG1"/>
+<Word name="5/birkaç" positionX="850" positionY="300"/>
+<Connection from="6/tane" to="5/birkaç" with="mod"/>
+<Word name="7/idare" positionX="850" positionY="200"/>
+<Connection from="8/bildir" to="7/idare"/>
+</Amr>

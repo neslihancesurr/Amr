@@ -1,0 +1,15 @@
+<Amr sentence="Piyasa değerlerinden bizim paramız da iyice nemalandı .">
+<Word name="7/nemalan" positionX="750" positionY="100"/>
+<Word name="1/piyasa 2/değer" positionX="650" positionY="200"/>
+<Connection from="7/nemalan" to="1/piyasa 2/değer" with="mod"/>
+<Word name="4/para" positionX="750" positionY="200"/>
+<Connection from="7/nemalan" to="4/para" with="ARG0"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="4/para" to="biz" with="poss"/>
+<Word name="3/biz" positionX="750" positionY="300"/>
+<Connection from="4/para" to="3/biz" with="mod"/>
+<Word name="5/da" positionX="850" positionY="300"/>
+<Connection from="4/para" to="5/da"/>
+<Word name="6/iyice" positionX="850" positionY="200"/>
+<Connection from="7/nemalan" to="6/iyice" with="manner"/>
+</Amr>

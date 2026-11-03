@@ -1,0 +1,11 @@
+<Amr sentence="Elindeki kupayı kahveyle doldurdu .">
+<Word name="4/doldur" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/doldur" to="o" with="ARG0"/>
+<Word name="2/kupa" positionX="750" positionY="200"/>
+<Connection from="4/doldur" to="2/kupa" with="ARG1"/>
+<Word name="1/el" positionX="650" positionY="300"/>
+<Connection from="2/kupa" to="1/el" with="mod"/>
+<Word name="3/kahve" positionX="850" positionY="200"/>
+<Connection from="4/doldur" to="3/kahve" with="instrument"/>
+</Amr>

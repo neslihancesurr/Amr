@@ -1,0 +1,21 @@
+<Amr sentence="Hesaptan biraz anlayan herkes , ilk iş banka borcunu tamamen öder">
+<Word name="10/tamamen 11/öde" positionX="750" positionY="100"/>
+<Word name="4/herkes" positionX="650" positionY="200"/>
+<Connection from="10/tamamen 11/öde" to="4/herkes" with="ARG0"/>
+<Word name="onlar" positionX="550" positionY="300"/>
+<Connection from="4/herkes" to="onlar" with="poss"/>
+<Word name="3/anla" positionX="650" positionY="300"/>
+<Connection from="4/herkes" to="3/anla"/>
+<Word name="1/hesap" positionX="550" positionY="400"/>
+<Connection from="3/anla" to="1/hesap" with="ARG1"/>
+<Word name="2/biraz" positionX="650" positionY="400"/>
+<Connection from="3/anla" to="2/biraz" with="manner"/>
+<Word name="7/iş" positionX="750" positionY="200"/>
+<Connection from="10/tamamen 11/öde" to="7/iş" with="mod"/>
+<Word name="6/ilk" positionX="650" positionY="300"/>
+<Connection from="7/iş" to="6/ilk" with="mod"/>
+<Word name="9/borç" positionX="850" positionY="200"/>
+<Connection from="10/tamamen 11/öde" to="9/borç" with="ARG1"/>
+<Word name="8/banka" positionX="750" positionY="300"/>
+<Connection from="9/borç" to="8/banka" with="mod"/>
+</Amr>

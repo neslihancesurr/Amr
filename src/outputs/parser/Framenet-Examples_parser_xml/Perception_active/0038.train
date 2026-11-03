@@ -1,0 +1,11 @@
+<Amr sentence="Komşusu , ağlayan çocuğa eğri gözle baktı .">
+<Word name="5/eğri 6/göz 7/bak" positionX="750" positionY="100"/>
+<Word name="1/komşu" positionX="650" positionY="200"/>
+<Connection from="5/eğri 6/göz 7/bak" to="1/komşu" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/komşu" to="o" with="poss"/>
+<Word name="4/çocuk" positionX="750" positionY="200"/>
+<Connection from="5/eğri 6/göz 7/bak" to="4/çocuk" with="ARG1"/>
+<Word name="3/ağla" positionX="650" positionY="300"/>
+<Connection from="4/çocuk" to="3/ağla"/>
+</Amr>

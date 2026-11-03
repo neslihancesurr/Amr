@@ -1,0 +1,15 @@
+<Amr sentence="Hiçbir çocuk arkadaşından ayrılmak istemez .">
+<Word name="5/iste" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/iste" to="-" with="polarity"/>
+<Word name="2/çocuk" positionX="750" positionY="200"/>
+<Connection from="5/iste" to="2/çocuk" with="ARG0"/>
+<Word name="1/hiçbir" positionX="650" positionY="300"/>
+<Connection from="2/çocuk" to="1/hiçbir" with="mod"/>
+<Word name="4/ayrıl" positionX="850" positionY="200"/>
+<Connection from="5/iste" to="4/ayrıl" with="ARG1"/>
+<Word name="3/arkadaş" positionX="750" positionY="300"/>
+<Connection from="4/ayrıl" to="3/arkadaş" with="ARG1"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="3/arkadaş" to="o" with="poss"/>
+</Amr>

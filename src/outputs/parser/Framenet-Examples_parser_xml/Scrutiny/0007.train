@@ -1,0 +1,20 @@
+<Amr sentence="Onun konuyu anlayabilmesi için öğretmeni kılı kırk yardı">
+<Word name="8/yar" positionX="750" positionY="100"/>
+<Word name="mümkün" positionX="650" positionY="200"/>
+<Connection from="8/yar" to="mümkün"/>
+<Word name="3/anla" positionX="550" positionY="300"/>
+<Connection from="mümkün" to="3/anla" with="cause"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="3/anla" to="o" with="poss"/>
+<Word name="1/o" positionX="550" positionY="400"/>
+<Connection from="3/anla" to="1/o" with="ARG0"/>
+<Word name="2/konu" positionX="650" positionY="400"/>
+<Connection from="3/anla" to="2/konu" with="ARG1"/>
+<Word name="5/öğretmen" positionX="750" positionY="200"/>
+<Connection from="8/yar" to="5/öğretmen"/>
+<Connection from="5/öğretmen" to="o" with="poss"/>
+<Word name="7/kırk" positionX="850" positionY="200"/>
+<Connection from="8/yar" to="7/kırk"/>
+<Word name="6/kıl" positionX="750" positionY="300"/>
+<Connection from="7/kırk" to="6/kıl"/>
+</Amr>

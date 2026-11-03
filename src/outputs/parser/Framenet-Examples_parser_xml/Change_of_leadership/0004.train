@@ -1,0 +1,11 @@
+<Amr sentence="Yoruldum , beni dama taşı gibi oynatıyorlar .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/yorul" positionX="650" positionY="200"/>
+<Connection from="and" to="1/yorul" with="op1"/>
+<Word name="4/dama 5/taş 6/gibi 7/oynat" positionX="750" positionY="200"/>
+<Connection from="and" to="4/dama 5/taş 6/gibi 7/oynat" with="op2"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="4/dama 5/taş 6/gibi 7/oynat" to="onlar" with="ARG0"/>
+<Word name="3/ben" positionX="750" positionY="300"/>
+<Connection from="4/dama 5/taş 6/gibi 7/oynat" to="3/ben" with="ARG1"/>
+</Amr>

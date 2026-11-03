@@ -1,0 +1,7 @@
+<Amr sentence="Boşu boşuna vazifesinden oldu .">
+<Word name="3/vazife 4/ol" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/vazife 4/ol" to="o" with="ARG0"/>
+<Word name="1/boş 2/boşuna" positionX="750" positionY="200"/>
+<Connection from="3/vazife 4/ol" to="1/boş 2/boşuna"/>
+</Amr>

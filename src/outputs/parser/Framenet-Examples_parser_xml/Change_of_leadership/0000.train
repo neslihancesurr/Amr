@@ -1,0 +1,7 @@
+<Amr sentence="Müdürü atadılar .">
+<Word name="2/ata" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="2/ata" to="onlar" with="ARG0"/>
+<Word name="1/müdür" positionX="750" positionY="200"/>
+<Connection from="2/ata" to="1/müdür" with="ARG1"/>
+</Amr>

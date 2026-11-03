@@ -1,0 +1,9 @@
+<Amr sentence="Hani benim payım ?">
+<Word name="1/hani" positionX="750" positionY="100"/>
+<Word name="3/pay" positionX="650" positionY="200"/>
+<Connection from="1/hani" to="3/pay"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="3/pay" to="ben" with="poss"/>
+<Word name="2/ben" positionX="650" positionY="300"/>
+<Connection from="3/pay" to="2/ben" with="mod"/>
+</Amr>

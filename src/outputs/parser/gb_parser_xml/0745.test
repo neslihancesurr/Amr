@@ -1,0 +1,7 @@
+<Amr sentence="öğrencilerinden memnun bir öğretmen">
+<Word name="4/öğretmen" positionX="750" positionY="100"/>
+<Word name="2/memnun" positionX="650" positionY="200"/>
+<Connection from="4/öğretmen" to="2/memnun" with="mod"/>
+<Word name="1/öğrenci" positionX="550" positionY="300"/>
+<Connection from="2/memnun" to="1/öğrenci" with="mod"/>
+</Amr>

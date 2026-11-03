@@ -1,0 +1,13 @@
+<Amr sentence="Ayağına basarak hareketini engelledi .">
+<Word name="4/engelle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/engelle" to="o" with="ARG0"/>
+<Word name="2/bas" positionX="750" positionY="200"/>
+<Connection from="4/engelle" to="2/bas"/>
+<Word name="1/ayak" positionX="650" positionY="300"/>
+<Connection from="2/bas" to="1/ayak"/>
+<Connection from="1/ayak" to="o" with="poss"/>
+<Word name="3/hareket" positionX="850" positionY="200"/>
+<Connection from="4/engelle" to="3/hareket"/>
+<Connection from="3/hareket" to="o" with="poss"/>
+</Amr>

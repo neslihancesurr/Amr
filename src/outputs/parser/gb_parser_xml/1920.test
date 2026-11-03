@@ -1,0 +1,9 @@
+<Amr sentence="Terzi elbisemi bitirmiş .">
+<Word name="3/bitir" positionX="750" positionY="100"/>
+<Word name="1/terzi" positionX="650" positionY="200"/>
+<Connection from="3/bitir" to="1/terzi" with="ARG0"/>
+<Word name="2/elbise" positionX="750" positionY="200"/>
+<Connection from="3/bitir" to="2/elbise" with="ARG1"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="2/elbise" to="ben" with="poss"/>
+</Amr>

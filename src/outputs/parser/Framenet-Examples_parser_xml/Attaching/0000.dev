@@ -1,0 +1,15 @@
+<Amr sentence="Gömleğin düğmeleri kopunca iğne ile tutturdum .">
+<Word name="6/tuttur" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="6/tuttur" to="ben" with="ARG0"/>
+<Word name="3/kop" positionX="750" positionY="200"/>
+<Connection from="6/tuttur" to="3/kop"/>
+<Word name="2/düğme" positionX="650" positionY="300"/>
+<Connection from="3/kop" to="2/düğme" with="ARG0"/>
+<Word name="1/gömlek" positionX="550" positionY="400"/>
+<Connection from="2/düğme" to="1/gömlek" with="mod"/>
+<Word name="4/iğne" positionX="850" positionY="200"/>
+<Connection from="6/tuttur" to="4/iğne"/>
+<Word name="5/ile" positionX="750" positionY="300"/>
+<Connection from="4/iğne" to="5/ile"/>
+</Amr>

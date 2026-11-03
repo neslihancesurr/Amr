@@ -1,0 +1,26 @@
+<Amr sentence="Hikmet ve Bora paslaşarak kale önüne kadar geldiler .">
+<Word name="8/gel" positionX="750" positionY="100"/>
+<Word name="4/paslaş" positionX="650" positionY="200"/>
+<Connection from="8/gel" to="4/paslaş"/>
+<Word name="and" positionX="550" positionY="300"/>
+<Connection from="4/paslaş" to="and"/>
+<Word name="person" positionX="450" positionY="400"/>
+<Connection from="and" to="person" with="op1"/>
+<Word name="name" positionX="350" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/bora" positionX="250" positionY="600"/>
+<Connection from="name" to="3/bora" with="op1"/>
+<Word name="-" positionX="450" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="and" to="person" with="op2"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/hikmet" positionX="350" positionY="600"/>
+<Connection from="name" to="1/hikmet" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="6/ön" positionX="750" positionY="200"/>
+<Connection from="8/gel" to="6/ön" with="ARG1"/>
+<Word name="5/kale" positionX="650" positionY="300"/>
+<Connection from="6/ön" to="5/kale" with="mod"/>
+<Word name="7/kadar" positionX="750" positionY="300"/>
+<Connection from="6/ön" to="7/kadar"/>
+</Amr>

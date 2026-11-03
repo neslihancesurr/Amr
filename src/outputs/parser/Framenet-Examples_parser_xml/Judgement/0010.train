@@ -1,0 +1,19 @@
+<Amr sentence="Daha önce kimse bu şiirden böyle bir anlam çıkarmamıştı .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="8/anlam 9/çık" positionX="650" positionY="200"/>
+<Connection from="yap" to="8/anlam 9/çık"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="8/anlam 9/çık" to="-" with="polarity"/>
+<Word name="2/önce" positionX="650" positionY="300"/>
+<Connection from="8/anlam 9/çık" to="2/önce" with="manner"/>
+<Word name="1/daha" positionX="550" positionY="400"/>
+<Connection from="2/önce" to="1/daha" with="degree"/>
+<Word name="3/kimse" positionX="750" positionY="300"/>
+<Connection from="8/anlam 9/çık" to="3/kimse" with="ARG0"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="3/kimse" to="o" with="poss"/>
+<Word name="5/şiir" positionX="850" positionY="300"/>
+<Connection from="8/anlam 9/çık" to="5/şiir" with="ARG2"/>
+<Word name="4/bu" positionX="750" positionY="400"/>
+<Connection from="5/şiir" to="4/bu" with="mod"/>
+</Amr>

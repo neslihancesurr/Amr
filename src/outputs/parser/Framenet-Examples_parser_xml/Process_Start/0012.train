@@ -1,0 +1,17 @@
+<Amr sentence="Harp patlıyor ve askerlere edebiyatçılık , edebiyatçılara askerlik yapmak düşüyor .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="10/düş" positionX="650" positionY="200"/>
+<Connection from="and" to="10/düş" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="10/düş" to="o" with="ARG0"/>
+<Word name="4/asker" positionX="650" positionY="300"/>
+<Connection from="10/düş" to="4/asker" with="ARG2"/>
+<Word name="7/edebiyatçı" positionX="750" positionY="300"/>
+<Connection from="10/düş" to="7/edebiyatçı" with="ARG2"/>
+<Word name="8/askerlik 9/yap" positionX="850" positionY="300"/>
+<Connection from="10/düş" to="8/askerlik 9/yap" with="ARG1"/>
+<Word name="2/patla" positionX="750" positionY="200"/>
+<Connection from="and" to="2/patla" with="op2"/>
+<Word name="1/harp" positionX="650" positionY="300"/>
+<Connection from="2/patla" to="1/harp" with="ARG0"/>
+</Amr>

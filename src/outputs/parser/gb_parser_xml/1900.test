@@ -1,0 +1,9 @@
+<Amr sentence="Mühendis mimarı kıskanır .">
+<Word name="3/kıskan" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/kıskan" to="o" with="ARG0"/>
+<Word name="1/mühendis" positionX="750" positionY="200"/>
+<Connection from="3/kıskan" to="1/mühendis"/>
+<Word name="2/mimar" positionX="850" positionY="200"/>
+<Connection from="3/kıskan" to="2/mimar"/>
+</Amr>

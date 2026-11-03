@@ -1,0 +1,11 @@
+<Amr sentence="Sadece iki defa geldiler .">
+<Word name="4/gel" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/gel" to="onlar" with="ARG0"/>
+<Word name="1/sadece" positionX="750" positionY="200"/>
+<Connection from="4/gel" to="1/sadece" with="manner"/>
+<Word name="3/defa" positionX="850" positionY="200"/>
+<Connection from="4/gel" to="3/defa"/>
+<Word name="2/iki" positionX="750" positionY="300"/>
+<Connection from="3/defa" to="2/iki"/>
+</Amr>

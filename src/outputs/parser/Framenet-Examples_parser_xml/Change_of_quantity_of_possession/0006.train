@@ -1,0 +1,15 @@
+<Amr sentence="Gönlümü çelen bir söz söyle .">
+<Word name="5/söyle" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="5/söyle" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="5/söyle" to="imperative" with="mode"/>
+<Word name="4/söz" positionX="850" positionY="200"/>
+<Connection from="5/söyle" to="4/söz"/>
+<Word name="2/çel" positionX="750" positionY="300"/>
+<Connection from="4/söz" to="2/çel"/>
+<Word name="1/gönül" positionX="650" positionY="400"/>
+<Connection from="2/çel" to="1/gönül"/>
+<Word name="ben" positionX="550" positionY="500"/>
+<Connection from="1/gönül" to="ben" with="poss"/>
+</Amr>

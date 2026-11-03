@@ -1,0 +1,10 @@
+<Amr sentence="İtirazını sonunda kabul etti .">
+<Word name="3/kabul 4/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/kabul 4/et" to="o" with="ARG0"/>
+<Word name="1/itiraz" positionX="750" positionY="200"/>
+<Connection from="3/kabul 4/et" to="1/itiraz" with="ARG1"/>
+<Connection from="1/itiraz" to="o" with="poss"/>
+<Word name="2/sonunda" positionX="850" positionY="200"/>
+<Connection from="3/kabul 4/et" to="2/sonunda" with="manner"/>
+</Amr>

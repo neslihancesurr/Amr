@@ -1,0 +1,19 @@
+<Amr sentence="Hani sana göstermiştim ya , işte o elbise .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/göster" positionX="650" positionY="200"/>
+<Connection from="and" to="3/göster" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="3/göster" to="ben" with="ARG0"/>
+<Word name="1/hani" positionX="650" positionY="300"/>
+<Connection from="3/göster" to="1/hani" with="manner"/>
+<Word name="2/sen" positionX="750" positionY="300"/>
+<Connection from="3/göster" to="2/sen" with="ARG2"/>
+<Word name="4/ya" positionX="850" positionY="300"/>
+<Connection from="3/göster" to="4/ya"/>
+<Word name="8/elbise" positionX="750" positionY="200"/>
+<Connection from="and" to="8/elbise" with="op2"/>
+<Word name="6/işte" positionX="650" positionY="300"/>
+<Connection from="8/elbise" to="6/işte"/>
+<Word name="7/o" positionX="750" positionY="300"/>
+<Connection from="8/elbise" to="7/o" with="mod"/>
+</Amr>

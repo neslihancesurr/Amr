@@ -1,0 +1,9 @@
+<Amr sentence="İki kızkardeş seyahate gittiler .">
+<Word name="4/git" positionX="750" positionY="100"/>
+<Word name="2/kızkardeş" positionX="650" positionY="200"/>
+<Connection from="4/git" to="2/kızkardeş" with="ARG0"/>
+<Word name="1/iki" positionX="550" positionY="300"/>
+<Connection from="2/kızkardeş" to="1/iki"/>
+<Word name="3/seyahat" positionX="750" positionY="200"/>
+<Connection from="4/git" to="3/seyahat" with="ARG1"/>
+</Amr>

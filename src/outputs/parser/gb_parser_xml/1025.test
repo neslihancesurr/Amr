@@ -1,0 +1,15 @@
+<Amr sentence="Jale işe arabayla gidiyor .">
+<Word name="4/git" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="4/git" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/jale" positionX="450" positionY="400"/>
+<Connection from="name" to="1/jale" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/iş" positionX="750" positionY="200"/>
+<Connection from="4/git" to="2/iş" with="ARG1"/>
+<Word name="3/araba" positionX="850" positionY="200"/>
+<Connection from="4/git" to="3/araba" with="instrument"/>
+</Amr>

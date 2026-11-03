@@ -1,0 +1,11 @@
+<Amr sentence="Kumarbaz , ömrünün büyük bölümünde parasızlık çekmiş .">
+<Word name="6/para 7/çek" positionX="750" positionY="100"/>
+<Word name="1/kumarbaz" positionX="650" positionY="200"/>
+<Connection from="6/para 7/çek" to="1/kumarbaz" with="ARG0"/>
+<Word name="5/bölüm" positionX="750" positionY="200"/>
+<Connection from="6/para 7/çek" to="5/bölüm" with="location"/>
+<Word name="3/ömür" positionX="650" positionY="300"/>
+<Connection from="5/bölüm" to="3/ömür" with="mod"/>
+<Word name="4/büyük" positionX="750" positionY="300"/>
+<Connection from="5/bölüm" to="4/büyük" with="mod"/>
+</Amr>

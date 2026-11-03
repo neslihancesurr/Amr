@@ -1,0 +1,25 @@
+<Amr sentence="Eskiden Kayseri'ye gitmiş , hatta orada yaşamışlar .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="7/yaşa" positionX="650" positionY="200"/>
+<Connection from="and" to="7/yaşa" with="op1"/>
+<Word name="onlar" positionX="550" positionY="300"/>
+<Connection from="7/yaşa" to="onlar" with="ARG0"/>
+<Word name="5/hatta" positionX="650" positionY="300"/>
+<Connection from="7/yaşa" to="5/hatta" with="manner"/>
+<Word name="6/ora" positionX="750" positionY="300"/>
+<Connection from="7/yaşa" to="6/ora" with="ARG1"/>
+<Word name="3/git" positionX="750" positionY="200"/>
+<Connection from="and" to="3/git" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/git" to="o" with="ARG0"/>
+<Word name="1/eskiden" positionX="750" positionY="300"/>
+<Connection from="3/git" to="1/eskiden" with="manner"/>
+<Word name="city" positionX="850" positionY="300"/>
+<Connection from="3/git" to="city" with="ARG1"/>
+<Word name="name" positionX="750" positionY="400"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="2/kayseri" positionX="650" positionY="500"/>
+<Connection from="name" to="2/kayseri" with="op1"/>
+<Word name="kayseri" positionX="850" positionY="400"/>
+<Connection from="city" to="kayseri" with="wiki"/>
+</Amr>

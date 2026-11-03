@@ -1,0 +1,11 @@
+<Amr sentence="Köylülerin koyunlarını kurt kaptı .">
+<Word name="4/kap" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/kap" to="o" with="ARG0"/>
+<Word name="2/koyun" positionX="750" positionY="200"/>
+<Connection from="4/kap" to="2/koyun"/>
+<Word name="1/köylü" positionX="650" positionY="300"/>
+<Connection from="2/koyun" to="1/köylü" with="mod"/>
+<Word name="3/kurt" positionX="850" positionY="200"/>
+<Connection from="4/kap" to="3/kurt"/>
+</Amr>

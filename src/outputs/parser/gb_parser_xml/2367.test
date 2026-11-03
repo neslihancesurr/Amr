@@ -1,0 +1,25 @@
+<Amr sentence="Ertan küskün duruyor , sanki biz ona kötü davranıyormuşuz gibi .">
+<Word name="3/dur" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="3/dur" to="person"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ertan" positionX="450" positionY="400"/>
+<Connection from="name" to="1/ertan" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/küskün" positionX="750" positionY="200"/>
+<Connection from="3/dur" to="2/küskün"/>
+<Word name="9/davran" positionX="850" positionY="200"/>
+<Connection from="3/dur" to="9/davran"/>
+<Word name="5/sanki" positionX="750" positionY="300"/>
+<Connection from="9/davran" to="5/sanki" with="manner"/>
+<Word name="6/biz" positionX="850" positionY="300"/>
+<Connection from="9/davran" to="6/biz"/>
+<Word name="7/o" positionX="950" positionY="300"/>
+<Connection from="9/davran" to="7/o"/>
+<Word name="8/kötü" positionX="1050" positionY="300"/>
+<Connection from="9/davran" to="8/kötü" with="manner"/>
+<Word name="10/gibi" positionX="1150" positionY="300"/>
+<Connection from="9/davran" to="10/gibi"/>
+</Amr>

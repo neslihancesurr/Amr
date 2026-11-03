@@ -1,0 +1,9 @@
+<Amr sentence="arkasında adam olan çocuk">
+<Word name="4/çocuk" positionX="750" positionY="100"/>
+<Word name="3/ol" positionX="650" positionY="200"/>
+<Connection from="4/çocuk" to="3/ol"/>
+<Word name="1/arka" positionX="550" positionY="300"/>
+<Connection from="3/ol" to="1/arka" with="location"/>
+<Word name="2/adam" positionX="650" positionY="300"/>
+<Connection from="3/ol" to="2/adam"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Eskiden bütün otobüslerde biletçi olurdu .">
+<Word name="5/ol" positionX="750" positionY="100"/>
+<Word name="1/eskiden" positionX="650" positionY="200"/>
+<Connection from="5/ol" to="1/eskiden" with="manner"/>
+<Word name="3/otobüs" positionX="750" positionY="200"/>
+<Connection from="5/ol" to="3/otobüs" with="ARG1"/>
+<Word name="2/bütün" positionX="650" positionY="300"/>
+<Connection from="3/otobüs" to="2/bütün" with="mod"/>
+<Word name="4/biletçi" positionX="850" positionY="200"/>
+<Connection from="5/ol" to="4/biletçi" with="ARG0"/>
+</Amr>

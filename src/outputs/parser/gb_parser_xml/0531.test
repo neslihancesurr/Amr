@@ -1,0 +1,7 @@
+<Amr sentence="Ablamlar nerede ?">
+<Word name="2/nere:location" positionX="750" positionY="100"/>
+<Word name="1/abla" positionX="650" positionY="200"/>
+<Connection from="2/nere:location" to="1/abla"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="1/abla" to="ben" with="poss"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Saksıların parasını çiftçi ödeyecek .">
+<Word name="4/öde" positionX="750" positionY="100"/>
+<Word name="2/para" positionX="650" positionY="200"/>
+<Connection from="4/öde" to="2/para" with="ARG1"/>
+<Word name="1/saksı" positionX="550" positionY="300"/>
+<Connection from="2/para" to="1/saksı" with="mod"/>
+<Word name="3/çiftçi" positionX="750" positionY="200"/>
+<Connection from="4/öde" to="3/çiftçi" with="ARG0"/>
+</Amr>

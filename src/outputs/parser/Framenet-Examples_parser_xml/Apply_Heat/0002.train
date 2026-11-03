@@ -1,0 +1,20 @@
+<Amr sentence="Marine ettiği balığı fırında buğuladı .">
+<Word name="5/buğula" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/buğula" to="o" with="ARG0"/>
+<Word name="3/balığı" positionX="750" positionY="200"/>
+<Connection from="5/buğula" to="3/balığı" with="ARG1"/>
+<Word name="2/et" positionX="650" positionY="300"/>
+<Connection from="3/balığı" to="2/et"/>
+<Connection from="2/et" to="o" with="poss"/>
+<Word name="person" positionX="650" positionY="400"/>
+<Connection from="2/et" to="person"/>
+<Word name="name" positionX="550" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/marine" positionX="450" positionY="600"/>
+<Connection from="name" to="1/marine" with="op1"/>
+<Word name="-" positionX="650" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/fırın" positionX="850" positionY="200"/>
+<Connection from="5/buğula" to="4/fırın" with="location"/>
+</Amr>

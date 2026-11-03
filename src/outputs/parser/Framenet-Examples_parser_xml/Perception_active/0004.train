@@ -1,0 +1,19 @@
+<Amr sentence="Herkesin gözleri hayret ve tecessüsle onun üzerine dikilir .">
+<Word name="8/dikil" positionX="750" positionY="100"/>
+<Word name="2/göz" positionX="650" positionY="200"/>
+<Connection from="8/dikil" to="2/göz" with="ARG0"/>
+<Word name="1/herkes" positionX="550" positionY="300"/>
+<Connection from="2/göz" to="1/herkes" with="mod"/>
+<Word name="and" positionX="750" positionY="200"/>
+<Connection from="8/dikil" to="and"/>
+<Word name="5/tecessüs" positionX="650" positionY="300"/>
+<Connection from="and" to="5/tecessüs" with="instrument"/>
+<Word name="3/hayret" positionX="750" positionY="300"/>
+<Connection from="and" to="3/hayret" with="op2"/>
+<Word name="7/üzeri" positionX="850" positionY="200"/>
+<Connection from="8/dikil" to="7/üzeri" with="ARG1"/>
+<Word name="sen" positionX="750" positionY="300"/>
+<Connection from="7/üzeri" to="sen" with="poss"/>
+<Word name="6/o" positionX="850" positionY="300"/>
+<Connection from="7/üzeri" to="6/o" with="mod"/>
+</Amr>

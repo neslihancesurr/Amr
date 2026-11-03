@@ -1,0 +1,11 @@
+<Amr sentence="O sıralarda bütün kadınlar eve kapanmıştı .">
+<Word name="6/kapan" positionX="750" positionY="100"/>
+<Word name="1/o 2/sıra" positionX="650" positionY="200"/>
+<Connection from="6/kapan" to="1/o 2/sıra" with="mod"/>
+<Word name="4/kadın" positionX="750" positionY="200"/>
+<Connection from="6/kapan" to="4/kadın" with="ARG0"/>
+<Word name="3/bütün" positionX="650" positionY="300"/>
+<Connection from="4/kadın" to="3/bütün" with="mod"/>
+<Word name="5/ev" positionX="850" positionY="200"/>
+<Connection from="6/kapan" to="5/ev"/>
+</Amr>

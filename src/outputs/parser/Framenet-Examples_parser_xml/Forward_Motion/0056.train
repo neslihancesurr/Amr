@@ -1,0 +1,11 @@
+<Amr sentence="Ameliyattan sonra sürekli topallıyordu .">
+<Word name="4/topalla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/topalla" to="o" with="ARG0"/>
+<Word name="1/ameliyat" positionX="750" positionY="200"/>
+<Connection from="4/topalla" to="1/ameliyat"/>
+<Word name="2/sonra" positionX="650" positionY="300"/>
+<Connection from="1/ameliyat" to="2/sonra"/>
+<Word name="3/sürekli" positionX="850" positionY="200"/>
+<Connection from="4/topalla" to="3/sürekli" with="frequency"/>
+</Amr>

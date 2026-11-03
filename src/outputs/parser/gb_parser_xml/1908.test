@@ -1,0 +1,9 @@
+<Amr sentence="Öğrenciler arka sıralarda oturacak .">
+<Word name="4/otur" positionX="750" positionY="100"/>
+<Word name="1/öğrenci" positionX="650" positionY="200"/>
+<Connection from="4/otur" to="1/öğrenci" with="ARG0"/>
+<Word name="3/sıra" positionX="750" positionY="200"/>
+<Connection from="4/otur" to="3/sıra" with="ARG1"/>
+<Word name="2/arka" positionX="650" positionY="300"/>
+<Connection from="3/sıra" to="2/arka" with="mod"/>
+</Amr>

@@ -1,0 +1,27 @@
+<Amr sentence="O öğrenciler film analizi dersinin son sınav konularında zorla da olsa iyice pişti .">
+<Word name="13/piş" positionX="750" positionY="100"/>
+<Word name="2/öğrenci" positionX="650" positionY="200"/>
+<Connection from="13/piş" to="2/öğrenci" with="ARG0"/>
+<Word name="1/o" positionX="550" positionY="300"/>
+<Connection from="2/öğrenci" to="1/o" with="mod"/>
+<Word name="8/konu" positionX="750" positionY="200"/>
+<Connection from="13/piş" to="8/konu" with="ARG1"/>
+<Word name="5/ders" positionX="650" positionY="300"/>
+<Connection from="8/konu" to="5/ders" with="mod"/>
+<Word name="4/analiz" positionX="550" positionY="400"/>
+<Connection from="5/ders" to="4/analiz" with="mod"/>
+<Word name="3/film" positionX="450" positionY="500"/>
+<Connection from="4/analiz" to="3/film" with="mod"/>
+<Word name="7/sınav" positionX="750" positionY="300"/>
+<Connection from="8/konu" to="7/sınav" with="mod"/>
+<Word name="6/son" positionX="650" positionY="400"/>
+<Connection from="7/sınav" to="6/son" with="mod"/>
+<Word name="11/ol" positionX="850" positionY="200"/>
+<Connection from="13/piş" to="11/ol"/>
+<Word name="9/zor" positionX="750" positionY="300"/>
+<Connection from="11/ol" to="9/zor" with="instrument"/>
+<Word name="10/da" positionX="650" positionY="400"/>
+<Connection from="9/zor" to="10/da" with="manner"/>
+<Word name="12/iyice" positionX="950" positionY="200"/>
+<Connection from="13/piş" to="12/iyice" with="manner"/>
+</Amr>

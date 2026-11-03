@@ -1,0 +1,8 @@
+<Amr sentence="Kendi evine gidip serilip yatmak istiyordu .">
+<Word name="6/iste" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/iste" to="o" with="ARG0"/>
+<Word name="4/seril 5/yat" positionX="750" positionY="200"/>
+<Connection from="6/iste" to="4/seril 5/yat" with="ARG1"/>
+<Connection from="4/seril 5/yat" to="o" with="ARG0"/>
+</Amr>

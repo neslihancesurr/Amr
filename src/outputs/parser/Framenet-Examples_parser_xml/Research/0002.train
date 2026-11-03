@@ -1,0 +1,25 @@
+<Amr sentence="Babacan Batı Trakya'daki Türk azınlıkları ele aldı .">
+<Word name="6/el 7/al" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="6/el 7/al" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/babacan" positionX="450" positionY="400"/>
+<Connection from="name" to="1/babacan" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/azınlık" positionX="750" positionY="200"/>
+<Connection from="6/el 7/al" to="5/azınlık" with="ARG1"/>
+<Word name="4/türk" positionX="650" positionY="300"/>
+<Connection from="5/azınlık" to="4/türk" with="mod"/>
+<Connection from="4/türk" to="person" with="location"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/trakya" positionX="350" positionY="600"/>
+<Connection from="name" to="3/trakya" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="person" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/batı" positionX="450" positionY="700"/>
+<Connection from="name" to="2/batı" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

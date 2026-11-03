@@ -1,0 +1,13 @@
+<Amr sentence="Artık elindeki kozu kaybetti , sıra bende .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/koz 4/kaybet" positionX="650" positionY="200"/>
+<Connection from="and" to="3/koz 4/kaybet" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/koz 4/kaybet" to="o" with="ARG0"/>
+<Word name="1/artık" positionX="650" positionY="300"/>
+<Connection from="3/koz 4/kaybet" to="1/artık" with="manner"/>
+<Word name="7/ben" positionX="750" positionY="200"/>
+<Connection from="and" to="7/ben" with="location"/>
+<Word name="6/sıra" positionX="650" positionY="300"/>
+<Connection from="7/ben" to="6/sıra"/>
+</Amr>

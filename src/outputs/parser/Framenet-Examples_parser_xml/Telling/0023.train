@@ -1,0 +1,11 @@
+<Amr sentence="Ona neden geciktiğini anlattı .">
+<Word name="4/anlat" positionX="750" positionY="100"/>
+<Word name="1/o" positionX="650" positionY="200"/>
+<Connection from="4/anlat" to="1/o" with="ARG2"/>
+<Word name="3/gecik" positionX="750" positionY="200"/>
+<Connection from="4/anlat" to="3/gecik" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/gecik" to="o" with="poss"/>
+<Word name="2/neden" positionX="750" positionY="300"/>
+<Connection from="3/gecik" to="2/neden" with="manner"/>
+</Amr>

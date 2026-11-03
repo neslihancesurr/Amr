@@ -1,0 +1,9 @@
+<Amr sentence="Stajdan sonra şirkette kalmanın yerini yapıyor .">
+<Word name="5/yer 6/yap" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/yer 6/yap" to="o" with="ARG0"/>
+<Word name="1/staj" positionX="750" positionY="200"/>
+<Connection from="5/yer 6/yap" to="1/staj" with="mod"/>
+<Word name="2/sonra" positionX="650" positionY="300"/>
+<Connection from="1/staj" to="2/sonra"/>
+</Amr>

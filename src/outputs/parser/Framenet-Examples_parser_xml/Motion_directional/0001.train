@@ -1,0 +1,16 @@
+<Amr sentence="Balık boldu , sahile indim , olta attım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/bol" positionX="650" positionY="200"/>
+<Connection from="and" to="2/bol" with="op1"/>
+<Word name="1/balık" positionX="550" positionY="300"/>
+<Connection from="2/bol" to="1/balık"/>
+<Word name="5/in" positionX="750" positionY="200"/>
+<Connection from="and" to="5/in" with="op2"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="5/in" to="ben" with="ARG0"/>
+<Word name="4/sahil" positionX="750" positionY="300"/>
+<Connection from="5/in" to="4/sahil" with="ARG1"/>
+<Word name="7/olta 8/at" positionX="850" positionY="200"/>
+<Connection from="and" to="7/olta 8/at" with="op3"/>
+<Connection from="7/olta 8/at" to="ben" with="ARG0"/>
+</Amr>

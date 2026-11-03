@@ -1,0 +1,15 @@
+<Amr sentence="Benim yazdığım mektubu almışlar .">
+<Word name="4/al" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/al" to="onlar" with="ARG0"/>
+<Word name="3/mektup" positionX="750" positionY="200"/>
+<Connection from="4/al" to="3/mektup"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/mektup" to="o" with="poss"/>
+<Word name="2/yaz" positionX="750" positionY="300"/>
+<Connection from="3/mektup" to="2/yaz"/>
+<Word name="ben" positionX="650" positionY="400"/>
+<Connection from="2/yaz" to="ben" with="poss"/>
+<Word name="1/ben" positionX="750" positionY="400"/>
+<Connection from="2/yaz" to="1/ben" with="ARG0"/>
+</Amr>

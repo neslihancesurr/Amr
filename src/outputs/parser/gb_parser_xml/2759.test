@@ -1,0 +1,7 @@
+<Amr sentence="Üşürsün sonra .">
+<Word name="1/üşü" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="1/üşü" to="sen" with="ARG0"/>
+<Word name="2/sonra" positionX="750" positionY="200"/>
+<Connection from="1/üşü" to="2/sonra" with="manner"/>
+</Amr>

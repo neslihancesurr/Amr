@@ -1,0 +1,20 @@
+<Amr sentence="Semra ücretini alamamış bile .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="3/al" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="3/al"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="3/al" to="-" with="polarity"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="3/al" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/semra" positionX="450" positionY="500"/>
+<Connection from="name" to="1/semra" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/ücret" positionX="750" positionY="300"/>
+<Connection from="3/al" to="2/ücret" with="ARG1"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="2/ücret" to="o" with="poss"/>
+<Word name="4/bile" positionX="850" positionY="300"/>
+<Connection from="3/al" to="4/bile"/>
+</Amr>

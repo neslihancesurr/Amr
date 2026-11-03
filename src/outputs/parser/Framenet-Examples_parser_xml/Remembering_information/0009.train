@@ -1,0 +1,18 @@
+<Amr sentence="Onu unuttum artık hatırlamıyorum bile .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/unut" positionX="650" positionY="200"/>
+<Connection from="and" to="2/unut" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="2/unut" to="ben" with="ARG0"/>
+<Word name="1/o" positionX="650" positionY="300"/>
+<Connection from="2/unut" to="1/o" with="ARG1"/>
+<Word name="4/hatırla" positionX="750" positionY="200"/>
+<Connection from="and" to="4/hatırla" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="4/hatırla" to="-" with="polarity"/>
+<Connection from="4/hatırla" to="ben" with="ARG0"/>
+<Word name="3/artık" positionX="850" positionY="300"/>
+<Connection from="4/hatırla" to="3/artık" with="manner"/>
+<Word name="5/bile" positionX="950" positionY="300"/>
+<Connection from="4/hatırla" to="5/bile" with="manner"/>
+</Amr>

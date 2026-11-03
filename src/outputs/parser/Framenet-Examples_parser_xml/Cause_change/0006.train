@@ -1,0 +1,9 @@
+<Amr sentence="Karışımı alçıladık .">
+<Word name="2/alçıla" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="2/alçıla" to="biz" with="ARG0"/>
+<Word name="1/karışım" positionX="750" positionY="200"/>
+<Connection from="2/alçıla" to="1/karışım" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="1/karışım" to="o" with="poss"/>
+</Amr>

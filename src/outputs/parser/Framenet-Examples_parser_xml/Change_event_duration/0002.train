@@ -1,0 +1,13 @@
+<Amr sentence="Mahkeme işi 5 yıl boyunca sürüklendi .">
+<Word name="6/sürüklen" positionX="750" positionY="100"/>
+<Word name="2/iş" positionX="650" positionY="200"/>
+<Connection from="6/sürüklen" to="2/iş" with="ARG0"/>
+<Word name="1/mahkeme" positionX="550" positionY="300"/>
+<Connection from="2/iş" to="1/mahkeme" with="mod"/>
+<Word name="5/boyunca" positionX="750" positionY="200"/>
+<Connection from="6/sürüklen" to="5/boyunca"/>
+<Word name="4/yıl" positionX="650" positionY="300"/>
+<Connection from="5/boyunca" to="4/yıl" with="mod"/>
+<Word name="3/5" positionX="550" positionY="400"/>
+<Connection from="4/yıl" to="3/5"/>
+</Amr>

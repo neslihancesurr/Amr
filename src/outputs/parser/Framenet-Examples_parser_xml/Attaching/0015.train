@@ -1,0 +1,17 @@
+<Amr sentence="Bu iki çubuğu birbirine kenetle .">
+<Word name="5/kenetle" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="5/kenetle" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="5/kenetle" to="imperative" with="mode"/>
+<Word name="3/çubuk" positionX="850" positionY="200"/>
+<Connection from="5/kenetle" to="3/çubuk" with="ARG1"/>
+<Word name="1/bu" positionX="750" positionY="300"/>
+<Connection from="3/çubuk" to="1/bu" with="mod"/>
+<Word name="2/iki" positionX="850" positionY="300"/>
+<Connection from="3/çubuk" to="2/iki"/>
+<Word name="4/birbiri" positionX="950" positionY="200"/>
+<Connection from="5/kenetle" to="4/birbiri" with="ARG1"/>
+<Word name="o" positionX="850" positionY="300"/>
+<Connection from="4/birbiri" to="o" with="poss"/>
+</Amr>

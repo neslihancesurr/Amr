@@ -1,0 +1,11 @@
+<Amr sentence="Sınav stresi yüzünden iyice kilo verdi .">
+<Word name="5/kilo 6/ver" positionX="750" positionY="100"/>
+<Word name="3/yüzünden" positionX="650" positionY="200"/>
+<Connection from="5/kilo 6/ver" to="3/yüzünden" with="manner"/>
+<Word name="2/stres" positionX="550" positionY="300"/>
+<Connection from="3/yüzünden" to="2/stres" with="mod"/>
+<Word name="1/sınav" positionX="450" positionY="400"/>
+<Connection from="2/stres" to="1/sınav" with="mod"/>
+<Word name="4/iyice" positionX="750" positionY="200"/>
+<Connection from="5/kilo 6/ver" to="4/iyice" with="manner"/>
+</Amr>

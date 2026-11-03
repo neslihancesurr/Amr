@@ -1,0 +1,7 @@
+<Amr sentence="Olayları temize havale edecekti .">
+<Word name="2/temiz 3/havale 4/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="2/temiz 3/havale 4/et" to="o" with="ARG0"/>
+<Word name="1/olay" positionX="750" positionY="200"/>
+<Connection from="2/temiz 3/havale 4/et" to="1/olay" with="ARG1"/>
+</Amr>

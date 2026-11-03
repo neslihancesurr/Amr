@@ -1,0 +1,11 @@
+<Amr sentence="Ev bu yıl artık satılacak .">
+<Word name="5/sat" positionX="750" positionY="100"/>
+<Word name="1/ev" positionX="650" positionY="200"/>
+<Connection from="5/sat" to="1/ev" with="ARG0"/>
+<Word name="3/yıl" positionX="750" positionY="200"/>
+<Connection from="5/sat" to="3/yıl"/>
+<Word name="2/bu" positionX="650" positionY="300"/>
+<Connection from="3/yıl" to="2/bu" with="mod"/>
+<Word name="4/artık" positionX="850" positionY="200"/>
+<Connection from="5/sat" to="4/artık" with="manner"/>
+</Amr>

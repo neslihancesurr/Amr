@@ -1,0 +1,14 @@
+<Amr sentence="Dedesi ona mirasından zırnık koklatmadı .">
+<Word name="4/zırnık 5/koklat" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/zırnık 5/koklat" to="-" with="polarity"/>
+<Word name="1/dede" positionX="750" positionY="200"/>
+<Connection from="4/zırnık 5/koklat" to="1/dede"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="1/dede" to="o" with="poss"/>
+<Word name="2/o" positionX="850" positionY="200"/>
+<Connection from="4/zırnık 5/koklat" to="2/o"/>
+<Word name="3/miras" positionX="950" positionY="200"/>
+<Connection from="4/zırnık 5/koklat" to="3/miras"/>
+<Connection from="3/miras" to="o" with="poss"/>
+</Amr>

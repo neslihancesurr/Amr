@@ -1,0 +1,17 @@
+<Amr sentence="Önümüzdeki hafta Bursa'da deplasmana çıkacağız .">
+<Word name="4/deplasman 5/çık" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="4/deplasman 5/çık" to="biz" with="ARG0"/>
+<Word name="2/hafta" positionX="750" positionY="200"/>
+<Connection from="4/deplasman 5/çık" to="2/hafta"/>
+<Word name="1/ön" positionX="650" positionY="300"/>
+<Connection from="2/hafta" to="1/ön" with="mod"/>
+<Word name="city" positionX="850" positionY="200"/>
+<Connection from="4/deplasman 5/çık" to="city" with="location"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="3/bursa" positionX="650" positionY="400"/>
+<Connection from="name" to="3/bursa" with="op1"/>
+<Word name="bursa" positionX="850" positionY="300"/>
+<Connection from="city" to="bursa" with="wiki"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Tüm işlerinde müdüre payandalık etti .">
+<Word name="4/payandalık 5/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/payandalık 5/et" to="o" with="ARG0"/>
+<Word name="2/iş" positionX="750" positionY="200"/>
+<Connection from="4/payandalık 5/et" to="2/iş" with="location"/>
+<Word name="1/tüm" positionX="650" positionY="300"/>
+<Connection from="2/iş" to="1/tüm" with="mod"/>
+<Word name="3/müdür" positionX="850" positionY="200"/>
+<Connection from="4/payandalık 5/et" to="3/müdür" with="ARG1"/>
+</Amr>

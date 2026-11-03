@@ -1,0 +1,13 @@
+<Amr sentence="Konferans boyunca fısıldaşmaya devam ettiler .">
+<Word name="4/devam 5/et" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/devam 5/et" to="onlar" with="ARG0"/>
+<Word name="1/konferans" positionX="750" positionY="200"/>
+<Connection from="4/devam 5/et" to="1/konferans" with="ARG2"/>
+<Word name="2/boyunca" positionX="650" positionY="300"/>
+<Connection from="1/konferans" to="2/boyunca"/>
+<Word name="3/fısıldaş" positionX="850" positionY="200"/>
+<Connection from="4/devam 5/et" to="3/fısıldaş" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="3/fısıldaş" to="o" with="ARG0"/>
+</Amr>

@@ -1,0 +1,10 @@
+<Amr sentence="Sırtını verdi ve çöktü .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/çök" positionX="650" positionY="200"/>
+<Connection from="and" to="4/çök" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/çök" to="o" with="ARG0"/>
+<Word name="1/sırt 2/ver" positionX="750" positionY="200"/>
+<Connection from="and" to="1/sırt 2/ver" with="op2"/>
+<Connection from="1/sırt 2/ver" to="o" with="ARG0"/>
+</Amr>

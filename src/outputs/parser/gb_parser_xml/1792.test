@@ -1,0 +1,13 @@
+<Amr sentence="Akşama kadar bütün bu gazeteler paketlenmiş olacak .">
+<Word name="6/paketle" positionX="750" positionY="100"/>
+<Word name="1/akşam 2/kadar" positionX="650" positionY="200"/>
+<Connection from="6/paketle" to="1/akşam 2/kadar" with="extent"/>
+<Word name="5/gazete" positionX="750" positionY="200"/>
+<Connection from="6/paketle" to="5/gazete" with="ARG1"/>
+<Word name="3/bütün" positionX="650" positionY="300"/>
+<Connection from="5/gazete" to="3/bütün" with="mod"/>
+<Word name="4/bu" positionX="750" positionY="300"/>
+<Connection from="5/gazete" to="4/bu" with="mod"/>
+<Word name="7/ol" positionX="850" positionY="200"/>
+<Connection from="6/paketle" to="7/ol"/>
+</Amr>

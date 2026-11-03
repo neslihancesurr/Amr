@@ -1,0 +1,7 @@
+<Amr sentence="İşi sürüncemede bıraktılar .">
+<Word name="2/sürünceme 3/bırak" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="2/sürünceme 3/bırak" to="onlar" with="ARG0"/>
+<Word name="1/iş" positionX="750" positionY="200"/>
+<Connection from="2/sürünceme 3/bırak" to="1/iş" with="ARG1"/>
+</Amr>

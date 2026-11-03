@@ -1,0 +1,11 @@
+<Amr sentence="Rıhtımdaki gemi resmen yana yatmış .">
+<Word name="4/yan 5/yat" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/yan 5/yat" to="o" with="ARG0"/>
+<Word name="2/gemi" positionX="750" positionY="200"/>
+<Connection from="4/yan 5/yat" to="2/gemi" with="ARG1"/>
+<Word name="1/rıhtım" positionX="650" positionY="300"/>
+<Connection from="2/gemi" to="1/rıhtım" with="mod"/>
+<Word name="3/resmen" positionX="850" positionY="200"/>
+<Connection from="4/yan 5/yat" to="3/resmen" with="manner"/>
+</Amr>

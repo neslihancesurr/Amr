@@ -1,0 +1,10 @@
+<Amr sentence="Eski çalışanımı inha ettim .">
+<Word name="3/inha 4/et" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/inha 4/et" to="ben" with="ARG0"/>
+<Word name="2/çalışan" positionX="750" positionY="200"/>
+<Connection from="3/inha 4/et" to="2/çalışan" with="ARG1"/>
+<Connection from="2/çalışan" to="ben" with="poss"/>
+<Word name="1/eski" positionX="750" positionY="300"/>
+<Connection from="2/çalışan" to="1/eski" with="mod"/>
+</Amr>

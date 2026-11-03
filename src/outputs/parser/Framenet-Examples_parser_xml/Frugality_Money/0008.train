@@ -1,0 +1,7 @@
+<Amr sentence="Bir katibin dikkatsizliği masraftan çıktı .">
+<Word name="4/masraf 5/çık" positionX="750" positionY="100"/>
+<Word name="3/dikkatsiz" positionX="650" positionY="200"/>
+<Connection from="4/masraf 5/çık" to="3/dikkatsiz" with="ARG0"/>
+<Word name="2/katip" positionX="550" positionY="300"/>
+<Connection from="3/dikkatsiz" to="2/katip" with="mod"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Tohumları soğukta mı bırakmıştın ki ?">
+<Word name="4/bırak" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="4/bırak" to="sen" with="ARG0"/>
+<Word name="1/tohum" positionX="750" positionY="200"/>
+<Connection from="4/bırak" to="1/tohum" with="ARG1"/>
+<Word name="2/soğuk" positionX="850" positionY="200"/>
+<Connection from="4/bırak" to="2/soğuk" with="manner"/>
+<Word name="3/mi" positionX="750" positionY="300"/>
+<Connection from="2/soğuk" to="3/mi"/>
+<Word name="5/ki" positionX="950" positionY="200"/>
+<Connection from="4/bırak" to="5/ki"/>
+</Amr>

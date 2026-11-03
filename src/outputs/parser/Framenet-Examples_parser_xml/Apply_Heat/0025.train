@@ -1,0 +1,35 @@
+<Amr sentence="Askerin yaralı kolunu mikrop kapmasın diye ocakta ısıttığı demir parçasıyla dağladı .">
+<Word name="11/dağla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="11/dağla" to="o" with="ARG0"/>
+<Word name="3/kol" positionX="750" positionY="200"/>
+<Connection from="11/dağla" to="3/kol" with="ARG1"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="3/kol" to="sen" with="poss"/>
+<Word name="1/asker" positionX="750" positionY="300"/>
+<Connection from="3/kol" to="1/asker" with="mod"/>
+<Word name="2/yaralı" positionX="850" positionY="300"/>
+<Connection from="3/kol" to="2/yaralı" with="mod"/>
+<Word name="5/kap" positionX="850" positionY="200"/>
+<Connection from="11/dağla" to="5/kap"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="5/kap" to="-" with="polarity"/>
+<Connection from="5/kap" to="o" with="ARG0"/>
+<Word name="imperative" positionX="950" positionY="300"/>
+<Connection from="5/kap" to="imperative" with="mode"/>
+<Word name="4/mikrop" positionX="1050" positionY="300"/>
+<Connection from="5/kap" to="4/mikrop" with="ARG1"/>
+<Word name="6/diye" positionX="1150" positionY="300"/>
+<Connection from="5/kap" to="6/diye"/>
+<Word name="10/parça" positionX="950" positionY="200"/>
+<Connection from="11/dağla" to="10/parça" with="instrument"/>
+<Word name="8/ısıt" positionX="850" positionY="300"/>
+<Connection from="10/parça" to="8/ısıt"/>
+<Connection from="8/ısıt" to="o" with="poss"/>
+<Word name="date-entity" positionX="850" positionY="400"/>
+<Connection from="8/ısıt" to="date-entity" with="date"/>
+<Word name="7/ocak" positionX="750" positionY="500"/>
+<Connection from="date-entity" to="7/ocak" with="month"/>
+<Word name="9/demir" positionX="950" positionY="300"/>
+<Connection from="10/parça" to="9/demir" with="mod"/>
+</Amr>

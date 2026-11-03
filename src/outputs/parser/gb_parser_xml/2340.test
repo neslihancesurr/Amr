@@ -1,0 +1,21 @@
+<Amr sentence="Bizim okulda hiçbir öğrenci yok ki Bilge Hanım'dan azar işitmemiş olsun .">
+<Word name="5/yok" positionX="750" positionY="100"/>
+<Word name="2/okul" positionX="650" positionY="200"/>
+<Connection from="5/yok" to="2/okul" with="mod"/>
+<Word name="1/biz" positionX="550" positionY="300"/>
+<Connection from="2/okul" to="1/biz" with="mod"/>
+<Word name="4/öğrenci" positionX="750" positionY="200"/>
+<Connection from="5/yok" to="4/öğrenci"/>
+<Word name="3/hiçbir" positionX="650" positionY="300"/>
+<Connection from="4/öğrenci" to="3/hiçbir" with="mod"/>
+<Word name="11/ol" positionX="850" positionY="200"/>
+<Connection from="5/yok" to="11/ol"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="11/ol" to="o" with="ARG0"/>
+<Word name="imperative" positionX="850" positionY="300"/>
+<Connection from="11/ol" to="imperative" with="mode"/>
+<Word name="9/azar 10/işit" positionX="950" positionY="300"/>
+<Connection from="11/ol" to="9/azar 10/işit"/>
+<Word name="-" positionX="850" positionY="400"/>
+<Connection from="9/azar 10/işit" to="-" with="polarity"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Kızı mutlu etmek için bütün parasını suya saldı .">
+<Word name="7/su 8/sal" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/su 8/sal" to="o" with="ARG0"/>
+<Word name="2/mutlu 3/et" positionX="750" positionY="200"/>
+<Connection from="7/su 8/sal" to="2/mutlu 3/et" with="mod"/>
+<Word name="6/para" positionX="850" positionY="200"/>
+<Connection from="7/su 8/sal" to="6/para" with="ARG1"/>
+<Word name="5/bütün" positionX="750" positionY="300"/>
+<Connection from="6/para" to="5/bütün" with="mod"/>
+</Amr>

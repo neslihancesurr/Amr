@@ -1,0 +1,13 @@
+<Amr sentence="Soba iyice kızışmış , sıcakladım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/kızış" positionX="650" positionY="200"/>
+<Connection from="and" to="3/kızış" with="op1"/>
+<Word name="1/soba" positionX="550" positionY="300"/>
+<Connection from="3/kızış" to="1/soba" with="ARG0"/>
+<Word name="2/iyice" positionX="650" positionY="300"/>
+<Connection from="3/kızış" to="2/iyice" with="manner"/>
+<Word name="5/sıcakla" positionX="750" positionY="200"/>
+<Connection from="and" to="5/sıcakla" with="op2"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="5/sıcakla" to="ben" with="ARG0"/>
+</Amr>

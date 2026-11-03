@@ -1,0 +1,16 @@
+<Amr sentence="Bilgisayar sürekli takılıyor , format atmak gerek .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/takıl" positionX="650" positionY="200"/>
+<Connection from="and" to="3/takıl" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/takıl" to="o" with="ARG0"/>
+<Word name="1/bilgisayar" positionX="650" positionY="300"/>
+<Connection from="3/takıl" to="1/bilgisayar" with="ARG1"/>
+<Word name="2/sürekli" positionX="750" positionY="300"/>
+<Connection from="3/takıl" to="2/sürekli" with="frequency"/>
+<Word name="7/gerek" positionX="750" positionY="200"/>
+<Connection from="and" to="7/gerek" with="op2"/>
+<Word name="5/format 6/at" positionX="650" positionY="300"/>
+<Connection from="7/gerek" to="5/format 6/at"/>
+<Connection from="5/format 6/at" to="o" with="ARG0"/>
+</Amr>

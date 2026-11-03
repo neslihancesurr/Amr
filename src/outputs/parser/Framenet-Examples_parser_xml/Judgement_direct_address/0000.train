@@ -1,0 +1,13 @@
+<Amr sentence="Kızı resmen tüm gün diliyle soktu .">
+<Word name="5/dil 6/sok" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/dil 6/sok" to="o" with="ARG0"/>
+<Word name="1/kız" positionX="750" positionY="200"/>
+<Connection from="5/dil 6/sok" to="1/kız" with="ARG1"/>
+<Word name="2/resmen" positionX="850" positionY="200"/>
+<Connection from="5/dil 6/sok" to="2/resmen" with="manner"/>
+<Word name="4/gün" positionX="950" positionY="200"/>
+<Connection from="5/dil 6/sok" to="4/gün" with="mod"/>
+<Word name="3/tüm" positionX="850" positionY="300"/>
+<Connection from="4/gün" to="3/tüm" with="mod"/>
+</Amr>

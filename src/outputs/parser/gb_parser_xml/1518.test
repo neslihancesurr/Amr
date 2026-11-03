@@ -1,0 +1,32 @@
+<Amr sentence="O kitaba sadece şöyle bir göz gezdirdim , yani ne okudum ne okumadım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="11/oku" positionX="650" positionY="200"/>
+<Connection from="and" to="11/oku" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="11/oku" to="ben" with="ARG0"/>
+<Word name="9/yani" positionX="650" positionY="300"/>
+<Connection from="11/oku" to="9/yani" with="manner"/>
+<Word name="10/ne" positionX="750" positionY="300"/>
+<Connection from="11/oku" to="10/ne"/>
+<Word name="13/oku" positionX="850" positionY="300"/>
+<Connection from="11/oku" to="13/oku"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="13/oku" to="-" with="polarity"/>
+<Connection from="13/oku" to="ben" with="ARG0"/>
+<Word name="12/ne" positionX="950" positionY="400"/>
+<Connection from="13/oku" to="12/ne"/>
+<Word name="7/gezdir" positionX="750" positionY="200"/>
+<Connection from="and" to="7/gezdir" with="op2"/>
+<Connection from="7/gezdir" to="ben" with="ARG0"/>
+<Word name="2/kitap" positionX="750" positionY="300"/>
+<Connection from="7/gezdir" to="2/kitap" with="ARG1"/>
+<Word name="1/o" positionX="650" positionY="400"/>
+<Connection from="2/kitap" to="1/o" with="mod"/>
+<Word name="3/sadece" positionX="850" positionY="300"/>
+<Connection from="7/gezdir" to="3/sadece" with="manner"/>
+<Word name="4/şöyle" positionX="950" positionY="300"/>
+<Connection from="7/gezdir" to="4/şöyle" with="manner"/>
+<Word name="5/bir 6/göz" positionX="850" positionY="400"/>
+<Connection from="4/şöyle" to="5/bir 6/göz"/>
+<Connection from="7/gezdir" to="and"/>
+</Amr>

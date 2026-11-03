@@ -1,0 +1,9 @@
+<Amr sentence="Saat bire kadar beklerim .">
+<Word name="4/bekle" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/bekle" to="ben" with="ARG0"/>
+<Word name="2/bir" positionX="750" positionY="200"/>
+<Connection from="4/bekle" to="2/bir" with="extent"/>
+<Word name="1/saat" positionX="650" positionY="300"/>
+<Connection from="2/bir" to="1/saat" with="mod"/>
+</Amr>

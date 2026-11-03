@@ -1,0 +1,16 @@
+<Amr sentence="Burada ekonomik ve toplumsal sorunlarımızı konuşuyoruz .">
+<Word name="6/konuş" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="6/konuş" to="biz" with="ARG0"/>
+<Word name="1/burada" positionX="750" positionY="200"/>
+<Connection from="6/konuş" to="1/burada"/>
+<Word name="5/sorun" positionX="850" positionY="200"/>
+<Connection from="6/konuş" to="5/sorun"/>
+<Connection from="5/sorun" to="biz" with="poss"/>
+<Word name="and" positionX="850" positionY="300"/>
+<Connection from="5/sorun" to="and"/>
+<Word name="4/toplumsal" positionX="750" positionY="400"/>
+<Connection from="and" to="4/toplumsal" with="mod"/>
+<Word name="2/ekonomik" positionX="850" positionY="400"/>
+<Connection from="and" to="2/ekonomik" with="mod"/>
+</Amr>

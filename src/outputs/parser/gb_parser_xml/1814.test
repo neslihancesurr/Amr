@@ -1,0 +1,9 @@
+<Amr sentence="Bir odada birtakım kutular vardı .">
+<Word name="5/var" positionX="750" positionY="100"/>
+<Word name="2/oda" positionX="650" positionY="200"/>
+<Connection from="5/var" to="2/oda" with="mod"/>
+<Word name="4/kutu" positionX="750" positionY="200"/>
+<Connection from="5/var" to="4/kutu"/>
+<Word name="3/birtakım" positionX="650" positionY="300"/>
+<Connection from="4/kutu" to="3/birtakım" with="mod"/>
+</Amr>

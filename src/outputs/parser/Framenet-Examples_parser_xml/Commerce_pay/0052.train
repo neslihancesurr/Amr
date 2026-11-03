@@ -1,0 +1,19 @@
+<Amr sentence="Bu işe çok para ve emek harcandı gitti .">
+<Word name="8/git" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="8/git" to="o" with="ARG0"/>
+<Word name="2/iş" positionX="750" positionY="200"/>
+<Connection from="8/git" to="2/iş"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/iş" to="1/bu" with="mod"/>
+<Word name="and" positionX="850" positionY="200"/>
+<Connection from="8/git" to="and"/>
+<Word name="6/emek" positionX="750" positionY="300"/>
+<Connection from="and" to="6/emek" with="op1"/>
+<Word name="4/para" positionX="850" positionY="300"/>
+<Connection from="and" to="4/para" with="op2"/>
+<Word name="3/çok" positionX="750" positionY="400"/>
+<Connection from="4/para" to="3/çok" with="degree"/>
+<Word name="7/harcan" positionX="950" positionY="200"/>
+<Connection from="8/git" to="7/harcan"/>
+</Amr>

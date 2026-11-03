@@ -1,0 +1,26 @@
+<Amr sentence="Maç boyunca çok güzel savundular ama mağlup olmaktan kaçamadılar .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="9/kaç" positionX="650" positionY="200"/>
+<Connection from="and" to="9/kaç" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="9/kaç" to="-" with="polarity"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="9/kaç" to="onlar" with="ARG0"/>
+<Word name="7/mağlup 8/ol" positionX="750" positionY="300"/>
+<Connection from="9/kaç" to="7/mağlup 8/ol" with="ARG1"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="7/mağlup 8/ol" to="o" with="ARG0"/>
+<Word name="5/savun" positionX="750" positionY="200"/>
+<Connection from="and" to="5/savun" with="op2"/>
+<Connection from="5/savun" to="onlar" with="ARG0"/>
+<Word name="1/maç" positionX="750" positionY="300"/>
+<Connection from="5/savun" to="1/maç"/>
+<Word name="2/boyunca" positionX="650" positionY="400"/>
+<Connection from="1/maç" to="2/boyunca"/>
+<Word name="4/güzel" positionX="850" positionY="300"/>
+<Connection from="5/savun" to="4/güzel" with="manner"/>
+<Word name="3/çok" positionX="750" positionY="400"/>
+<Connection from="4/güzel" to="3/çok" with="degree"/>
+<Word name="mümkün" positionX="950" positionY="300"/>
+<Connection from="5/savun" to="mümkün"/>
+</Amr>

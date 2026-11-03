@@ -1,0 +1,13 @@
+<Amr sentence="Evinin çatısını bu kış aktardı .">
+<Word name="5/aktar" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/aktar" to="o" with="ARG0"/>
+<Word name="2/çatı" positionX="750" positionY="200"/>
+<Connection from="5/aktar" to="2/çatı" with="ARG1"/>
+<Word name="1/evin" positionX="650" positionY="300"/>
+<Connection from="2/çatı" to="1/evin" with="mod"/>
+<Word name="4/kış" positionX="850" positionY="200"/>
+<Connection from="5/aktar" to="4/kış" with="mod"/>
+<Word name="3/bu" positionX="750" positionY="300"/>
+<Connection from="4/kış" to="3/bu" with="mod"/>
+</Amr>

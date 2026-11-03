@@ -1,0 +1,18 @@
+<Amr sentence="Herkesin para katkısında bulunması isteniyor anlaşılan .">
+<Word name="5/iste" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/iste" to="o" with="ARG0"/>
+<Word name="1/herkes" positionX="750" positionY="200"/>
+<Connection from="5/iste" to="1/herkes" with="ARG2"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="1/herkes" to="onlar" with="poss"/>
+<Word name="4/bulun" positionX="850" positionY="200"/>
+<Connection from="5/iste" to="4/bulun" with="ARG1"/>
+<Connection from="4/bulun" to="o" with="poss"/>
+<Word name="3/katkı" positionX="850" positionY="300"/>
+<Connection from="4/bulun" to="3/katkı" with="ARG1"/>
+<Word name="2/para" positionX="750" positionY="400"/>
+<Connection from="3/katkı" to="2/para" with="mod"/>
+<Word name="6/anlaşılan" positionX="950" positionY="200"/>
+<Connection from="5/iste" to="6/anlaşılan"/>
+</Amr>

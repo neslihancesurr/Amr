@@ -1,0 +1,17 @@
+<Amr sentence="Zehra'yla biz eve gidiyoruz .">
+<Word name="4/git" positionX="750" positionY="100"/>
+<Word name="and" positionX="650" positionY="200"/>
+<Connection from="4/git" to="and"/>
+<Word name="2/biz" positionX="550" positionY="300"/>
+<Connection from="and" to="2/biz" with="op1"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="and" to="person" with="instrument"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/zehra" positionX="450" positionY="500"/>
+<Connection from="name" to="1/zehra" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/ev" positionX="750" positionY="200"/>
+<Connection from="4/git" to="3/ev"/>
+</Amr>

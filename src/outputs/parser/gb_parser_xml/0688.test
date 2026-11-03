@@ -1,0 +1,7 @@
+<Amr sentence="eski tarz mobilya">
+<Word name="3/mobilya" positionX="750" positionY="100"/>
+<Word name="2/tarz" positionX="650" positionY="200"/>
+<Connection from="3/mobilya" to="2/tarz" with="mod"/>
+<Word name="1/eski" positionX="550" positionY="300"/>
+<Connection from="2/tarz" to="1/eski" with="mod"/>
+</Amr>

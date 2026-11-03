@@ -1,0 +1,10 @@
+<Amr sentence="Abisini her daim omuzlarda taşır .">
+<Word name="4/omuz 5/taşı" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/omuz 5/taşı" to="o" with="ARG0"/>
+<Word name="1/abis" positionX="750" positionY="200"/>
+<Connection from="4/omuz 5/taşı" to="1/abis" with="ARG1"/>
+<Connection from="1/abis" to="o" with="poss"/>
+<Word name="2/her 3/daim" positionX="850" positionY="200"/>
+<Connection from="4/omuz 5/taşı" to="2/her 3/daim" with="mod"/>
+</Amr>

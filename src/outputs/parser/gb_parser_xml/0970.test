@@ -1,0 +1,7 @@
+<Amr sentence="Yukarı çıktılar .">
+<Word name="2/çık" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="2/çık" to="onlar" with="ARG0"/>
+<Word name="1/yukarı" positionX="750" positionY="200"/>
+<Connection from="2/çık" to="1/yukarı"/>
+</Amr>

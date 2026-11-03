@@ -1,0 +1,18 @@
+<Amr sentence="Artık umudunu kaybetti , hiçbir şey düzelmeyecekti .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/umut 3/kaybet" positionX="650" positionY="200"/>
+<Connection from="and" to="2/umut 3/kaybet" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/umut 3/kaybet" to="o" with="ARG0"/>
+<Word name="1/artık" positionX="650" positionY="300"/>
+<Connection from="2/umut 3/kaybet" to="1/artık" with="manner"/>
+<Word name="7/düzel" positionX="750" positionY="200"/>
+<Connection from="and" to="7/düzel" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="7/düzel" to="-" with="polarity"/>
+<Connection from="7/düzel" to="o" with="ARG0"/>
+<Word name="6/şey" positionX="850" positionY="300"/>
+<Connection from="7/düzel" to="6/şey" with="ARG1"/>
+<Word name="5/hiçbir" positionX="750" positionY="400"/>
+<Connection from="6/şey" to="5/hiçbir" with="mod"/>
+</Amr>

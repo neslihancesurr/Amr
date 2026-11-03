@@ -1,0 +1,28 @@
+<Amr sentence="Ahmet bu konuda çok şey bilmekle birlikte bütün ayrıntıları anlamış değil .">
+<Word name="10/anla" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="10/anla" to="person"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ahmet" positionX="450" positionY="400"/>
+<Connection from="name" to="1/ahmet" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="6/bil" positionX="750" positionY="200"/>
+<Connection from="10/anla" to="6/bil"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="6/bil" to="o" with="ARG0"/>
+<Word name="3/konu" positionX="750" positionY="300"/>
+<Connection from="6/bil" to="3/konu" with="location"/>
+<Word name="2/bu" positionX="650" positionY="400"/>
+<Connection from="3/konu" to="2/bu" with="mod"/>
+<Word name="4/çok 5/şey" positionX="850" positionY="300"/>
+<Connection from="6/bil" to="4/çok 5/şey" with="mod"/>
+<Word name="7/birlikte" positionX="950" positionY="300"/>
+<Connection from="6/bil" to="7/birlikte"/>
+<Word name="9/ayrıntı" positionX="850" positionY="200"/>
+<Connection from="10/anla" to="9/ayrıntı"/>
+<Word name="8/bütün" positionX="750" positionY="300"/>
+<Connection from="9/ayrıntı" to="8/bütün" with="mod"/>
+<Connection from="10/anla" to="-" with="polarity"/>
+</Amr>

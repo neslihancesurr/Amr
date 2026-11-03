@@ -1,0 +1,17 @@
+<Amr sentence="Atlar bazen dörtnala kalkıyor , bazen tırısa geçiyordu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/dörtnala 4/kalk" positionX="650" positionY="200"/>
+<Connection from="and" to="3/dörtnala 4/kalk" with="op1"/>
+<Word name="1/at" positionX="550" positionY="300"/>
+<Connection from="3/dörtnala 4/kalk" to="1/at" with="ARG0"/>
+<Word name="2/bazen" positionX="650" positionY="300"/>
+<Connection from="3/dörtnala 4/kalk" to="2/bazen" with="manner"/>
+<Word name="8/geç" positionX="750" positionY="200"/>
+<Connection from="and" to="8/geç" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="8/geç" to="o" with="ARG0"/>
+<Word name="6/bazen" positionX="750" positionY="300"/>
+<Connection from="8/geç" to="6/bazen" with="manner"/>
+<Word name="7/tırıs" positionX="850" positionY="300"/>
+<Connection from="8/geç" to="7/tırıs"/>
+</Amr>

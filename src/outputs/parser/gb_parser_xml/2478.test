@@ -1,0 +1,19 @@
+<Amr sentence="Parası vardıysa eve neden hiç bakmamış ?">
+<Word name="6/bak" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="6/bak" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="6/bak" to="o" with="ARG0"/>
+<Word name="2/var" positionX="850" positionY="200"/>
+<Connection from="6/bak" to="2/var" with="cond"/>
+<Connection from="2/var" to="o" with="ARG0"/>
+<Word name="1/para" positionX="850" positionY="300"/>
+<Connection from="2/var" to="1/para" with="ARG2"/>
+<Connection from="1/para" to="o" with="poss"/>
+<Word name="3/ev" positionX="950" positionY="200"/>
+<Connection from="6/bak" to="3/ev" with="ARG1"/>
+<Word name="4/neden" positionX="1050" positionY="200"/>
+<Connection from="6/bak" to="4/neden" with="manner"/>
+<Word name="5/hiç" positionX="1150" positionY="200"/>
+<Connection from="6/bak" to="5/hiç" with="degree"/>
+</Amr>

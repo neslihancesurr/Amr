@@ -1,0 +1,9 @@
+<Amr sentence="Günlük raporlar virüsün yayılma hızını sayısal olarak ifade ediyor .">
+<Word name="6/sayısal 7/ol 8/ifade 9/et" positionX="750" positionY="100"/>
+<Word name="2/rapor" positionX="650" positionY="200"/>
+<Connection from="6/sayısal 7/ol 8/ifade 9/et" to="2/rapor" with="ARG0"/>
+<Word name="1/gün" positionX="550" positionY="300"/>
+<Connection from="2/rapor" to="1/gün" with="mod"/>
+<Word name="4/yay 5/hız" positionX="750" positionY="200"/>
+<Connection from="6/sayısal 7/ol 8/ifade 9/et" to="4/yay 5/hız" with="ARG1"/>
+</Amr>

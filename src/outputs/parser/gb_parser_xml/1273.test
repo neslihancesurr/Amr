@@ -1,0 +1,13 @@
+<Amr sentence="Görünen o ki , dünyanın iklimi değişiyor .">
+<Word name="2/o" positionX="750" positionY="100"/>
+<Word name="1/görün" positionX="650" positionY="200"/>
+<Connection from="2/o" to="1/görün"/>
+<Word name="7/değiş" positionX="750" positionY="200"/>
+<Connection from="2/o" to="7/değiş"/>
+<Word name="3/ki" positionX="650" positionY="300"/>
+<Connection from="7/değiş" to="3/ki"/>
+<Word name="6/iklim" positionX="750" positionY="300"/>
+<Connection from="7/değiş" to="6/iklim" with="ARG0"/>
+<Word name="5/dünya" positionX="650" positionY="400"/>
+<Connection from="6/iklim" to="5/dünya" with="mod"/>
+</Amr>

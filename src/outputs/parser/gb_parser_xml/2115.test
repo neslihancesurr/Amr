@@ -1,0 +1,20 @@
+<Amr sentence="Bu işin iki günde bitmeyebileceğinin farkındayım .">
+<Word name="6/fark:location" positionX="750" positionY="100"/>
+<Word name="mümkün" positionX="650" positionY="200"/>
+<Connection from="6/fark:location" to="mümkün"/>
+<Word name="5/bit" positionX="550" positionY="300"/>
+<Connection from="mümkün" to="5/bit"/>
+<Word name="-" positionX="450" positionY="400"/>
+<Connection from="5/bit" to="-" with="polarity"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="5/bit" to="o" with="ARG0"/>
+<Connection from="5/bit" to="o" with="poss"/>
+<Word name="2/iş" positionX="750" positionY="400"/>
+<Connection from="5/bit" to="2/iş"/>
+<Word name="1/bu" positionX="650" positionY="500"/>
+<Connection from="2/iş" to="1/bu" with="mod"/>
+<Word name="4/gün" positionX="850" positionY="400"/>
+<Connection from="5/bit" to="4/gün" with="location"/>
+<Word name="3/iki" positionX="750" positionY="500"/>
+<Connection from="4/gün" to="3/iki"/>
+</Amr>

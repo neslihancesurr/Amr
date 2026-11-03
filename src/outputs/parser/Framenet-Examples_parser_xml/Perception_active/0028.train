@@ -1,0 +1,14 @@
+<Amr sentence="Kimden para koparabileceğini anlamak için etrafa cin cin bakıyordu .">
+<Word name="7/cin 8/cin 9/bak" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/cin 8/cin 9/bak" to="o" with="ARG0"/>
+<Word name="4/anla" positionX="750" positionY="200"/>
+<Connection from="7/cin 8/cin 9/bak" to="4/anla" with="cause"/>
+<Connection from="4/anla" to="o" with="ARG0"/>
+<Word name="2/para 3/kopar" positionX="750" positionY="300"/>
+<Connection from="4/anla" to="2/para 3/kopar"/>
+<Connection from="2/para 3/kopar" to="o" with="ARG0"/>
+<Connection from="2/para 3/kopar" to="o" with="poss"/>
+<Word name="6/etraf" positionX="850" positionY="200"/>
+<Connection from="7/cin 8/cin 9/bak" to="6/etraf" with="ARG1"/>
+</Amr>

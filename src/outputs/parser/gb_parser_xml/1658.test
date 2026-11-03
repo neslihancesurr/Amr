@@ -1,0 +1,19 @@
+<Amr sentence="Osmanlı Türkleri de bu kültüre katkıda bulunmuşlardır .">
+<Word name="6/katkı 7/bulun" positionX="750" positionY="100"/>
+<Word name="2/türk" positionX="650" positionY="200"/>
+<Connection from="6/katkı 7/bulun" to="2/türk" with="ARG0"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="2/türk" to="person"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/osmanlı" positionX="350" positionY="500"/>
+<Connection from="name" to="1/osmanlı" with="op1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/de" positionX="650" positionY="300"/>
+<Connection from="2/türk" to="3/de"/>
+<Word name="5/kültür" positionX="750" positionY="200"/>
+<Connection from="6/katkı 7/bulun" to="5/kültür" with="ARG1"/>
+<Word name="4/bu" positionX="650" positionY="300"/>
+<Connection from="5/kültür" to="4/bu" with="mod"/>
+</Amr>

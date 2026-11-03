@@ -1,0 +1,14 @@
+<Amr sentence="Terfi aldıktan sonra hep kabararak yürüyordu .">
+<Word name="5/kabar 6/yürü" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/kabar 6/yürü" to="o" with="ARG0"/>
+<Word name="2/al" positionX="750" positionY="200"/>
+<Connection from="5/kabar 6/yürü" to="2/al"/>
+<Connection from="2/al" to="o" with="ARG0"/>
+<Word name="1/terfi" positionX="750" positionY="300"/>
+<Connection from="2/al" to="1/terfi"/>
+<Word name="3/sonra" positionX="850" positionY="300"/>
+<Connection from="2/al" to="3/sonra"/>
+<Word name="4/hep" positionX="850" positionY="200"/>
+<Connection from="5/kabar 6/yürü" to="4/hep" with="frequency"/>
+</Amr>

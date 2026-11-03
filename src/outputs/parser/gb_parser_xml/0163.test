@@ -1,0 +1,9 @@
+<Amr sentence="İngiliz ve Alman sinemaları">
+<Word name="4/sinema" positionX="750" positionY="100"/>
+<Word name="and" positionX="650" positionY="200"/>
+<Connection from="4/sinema" to="and"/>
+<Word name="3/alman" positionX="550" positionY="300"/>
+<Connection from="and" to="3/alman" with="mod"/>
+<Word name="1/ingiliz" positionX="650" positionY="300"/>
+<Connection from="and" to="1/ingiliz" with="mod"/>
+</Amr>

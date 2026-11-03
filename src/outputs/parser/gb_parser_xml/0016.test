@@ -1,0 +1,10 @@
+<Amr sentence="Arkadaşlarımızla burada buluşacağız .">
+<Word name="3/buluş" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="3/buluş" to="biz" with="ARG0"/>
+<Word name="1/arkadaş" positionX="750" positionY="200"/>
+<Connection from="3/buluş" to="1/arkadaş" with="ARG1"/>
+<Connection from="1/arkadaş" to="biz" with="poss"/>
+<Word name="2/bura" positionX="850" positionY="200"/>
+<Connection from="3/buluş" to="2/bura" with="location"/>
+</Amr>

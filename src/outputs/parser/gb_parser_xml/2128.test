@@ -1,0 +1,23 @@
+<Amr sentence="Zehra'yı her görüşünü ayrı bir zevkle hatırlıyordu .">
+<Word name="7/hatırla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/hatırla" to="o" with="ARG0"/>
+<Word name="3/gör" positionX="750" positionY="200"/>
+<Connection from="7/hatırla" to="3/gör"/>
+<Connection from="3/gör" to="o" with="ARG0"/>
+<Connection from="3/gör" to="o" with="poss"/>
+<Word name="person" positionX="850" positionY="300"/>
+<Connection from="3/gör" to="person"/>
+<Word name="name" positionX="750" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/zehra" positionX="650" positionY="500"/>
+<Connection from="name" to="1/zehra" with="op1"/>
+<Word name="-" positionX="850" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/her" positionX="950" positionY="300"/>
+<Connection from="3/gör" to="2/her" with="mod"/>
+<Word name="6/zevk" positionX="850" positionY="200"/>
+<Connection from="7/hatırla" to="6/zevk" with="instrument"/>
+<Word name="4/ayrı" positionX="750" positionY="300"/>
+<Connection from="6/zevk" to="4/ayrı" with="mod"/>
+</Amr>

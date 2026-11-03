@@ -1,0 +1,21 @@
+<Amr sentence="Kızcağız hasta olmuş , gidip bir çorba koyayım da kaynasın .">
+<Word name="10/kayna" positionX="750" positionY="100"/>
+<Word name="imperative" positionX="650" positionY="200"/>
+<Connection from="10/kayna" to="imperative" with="mode"/>
+<Word name="and" positionX="750" positionY="200"/>
+<Connection from="10/kayna" to="and"/>
+<Word name="2/hasta 3/ol" positionX="650" positionY="300"/>
+<Connection from="and" to="2/hasta 3/ol" with="op1"/>
+<Word name="1/kızcağız" positionX="550" positionY="400"/>
+<Connection from="2/hasta 3/ol" to="1/kızcağız" with="ARG0"/>
+<Word name="8/koy" positionX="750" positionY="300"/>
+<Connection from="and" to="8/koy" with="op2"/>
+<Word name="ben" positionX="650" positionY="400"/>
+<Connection from="8/koy" to="ben" with="ARG0"/>
+<Word name="5/git" positionX="750" positionY="400"/>
+<Connection from="8/koy" to="5/git"/>
+<Word name="7/çorba" positionX="850" positionY="400"/>
+<Connection from="8/koy" to="7/çorba" with="ARG1"/>
+<Word name="9/da" positionX="950" positionY="400"/>
+<Connection from="8/koy" to="9/da"/>
+</Amr>

@@ -1,0 +1,7 @@
+<Amr sentence="Şimdi gelirim .">
+<Word name="2/gel" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="2/gel" to="ben" with="ARG0"/>
+<Word name="1/şimdi" positionX="750" positionY="200"/>
+<Connection from="2/gel" to="1/şimdi" with="manner"/>
+</Amr>

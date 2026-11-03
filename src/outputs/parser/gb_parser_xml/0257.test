@@ -1,0 +1,19 @@
+<Amr sentence="Nejat'ta sadece 10 dolar varmış .">
+<Word name="5/var" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/var" to="o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="5/var" to="person" with="location"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/nejat" positionX="550" positionY="400"/>
+<Connection from="name" to="1/nejat" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/sadece" positionX="850" positionY="200"/>
+<Connection from="5/var" to="2/sadece" with="manner"/>
+<Word name="4/dolar" positionX="950" positionY="200"/>
+<Connection from="5/var" to="4/dolar"/>
+<Word name="3/10" positionX="850" positionY="300"/>
+<Connection from="4/dolar" to="3/10"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Çekmecede birtakım defterler bulduk .">
+<Word name="4/bul" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="4/bul" to="biz" with="ARG0"/>
+<Word name="1/çekmece" positionX="750" positionY="200"/>
+<Connection from="4/bul" to="1/çekmece" with="location"/>
+<Word name="3/defter" positionX="850" positionY="200"/>
+<Connection from="4/bul" to="3/defter" with="ARG1"/>
+<Word name="2/birtakım" positionX="750" positionY="300"/>
+<Connection from="3/defter" to="2/birtakım" with="mod"/>
+</Amr>

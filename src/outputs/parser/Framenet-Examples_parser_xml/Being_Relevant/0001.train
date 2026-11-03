@@ -1,0 +1,15 @@
+<Amr sentence="Bu tür davranışlar , bilinçaltındaki düşüncelerimizi imler .">
+<Word name="7/imle" positionX="750" positionY="100"/>
+<Word name="3/davranış" positionX="650" positionY="200"/>
+<Connection from="7/imle" to="3/davranış" with="ARG0"/>
+<Word name="2/tür" positionX="550" positionY="300"/>
+<Connection from="3/davranış" to="2/tür" with="mod"/>
+<Word name="1/bu" positionX="450" positionY="400"/>
+<Connection from="2/tür" to="1/bu" with="mod"/>
+<Word name="6/düşünce" positionX="750" positionY="200"/>
+<Connection from="7/imle" to="6/düşünce" with="ARG1"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="6/düşünce" to="biz" with="poss"/>
+<Word name="5/bilinçalt" positionX="750" positionY="300"/>
+<Connection from="6/düşünce" to="5/bilinçalt" with="mod"/>
+</Amr>

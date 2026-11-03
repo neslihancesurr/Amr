@@ -1,0 +1,13 @@
+<Amr sentence="Yaşıtlarımın arasında sivrilmiştim , başarılıydım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/sivril" positionX="650" positionY="200"/>
+<Connection from="and" to="3/sivril" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="3/sivril" to="ben" with="ARG0"/>
+<Word name="2/ara" positionX="650" positionY="300"/>
+<Connection from="3/sivril" to="2/ara" with="location"/>
+<Word name="1/yaşıt" positionX="550" positionY="400"/>
+<Connection from="2/ara" to="1/yaşıt" with="mod"/>
+<Word name="5/başarılı" positionX="750" positionY="200"/>
+<Connection from="and" to="5/başarılı" with="op2"/>
+</Amr>

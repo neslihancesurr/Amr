@@ -1,0 +1,24 @@
+<Amr sentence="Eline geçen her şeyi silkip akrepler varmış gibi bakıyor .">
+<Word name="9/bak" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="9/bak" to="o" with="ARG0"/>
+<Word name="5/silk" positionX="750" positionY="200"/>
+<Connection from="9/bak" to="5/silk"/>
+<Word name="4/şey" positionX="650" positionY="300"/>
+<Connection from="5/silk" to="4/şey" with="ARG1"/>
+<Connection from="4/şey" to="o" with="poss"/>
+<Word name="2/geçen" positionX="650" positionY="400"/>
+<Connection from="4/şey" to="2/geçen"/>
+<Word name="1/el" positionX="550" positionY="500"/>
+<Connection from="2/geçen" to="1/el"/>
+<Connection from="1/el" to="o" with="poss"/>
+<Word name="3/her" positionX="750" positionY="400"/>
+<Connection from="4/şey" to="3/her" with="mod"/>
+<Word name="7/var" positionX="850" positionY="200"/>
+<Connection from="9/bak" to="7/var"/>
+<Connection from="7/var" to="o" with="ARG0"/>
+<Word name="6/akrepler" positionX="850" positionY="300"/>
+<Connection from="7/var" to="6/akrepler"/>
+<Word name="8/gibi" positionX="950" positionY="300"/>
+<Connection from="7/var" to="8/gibi"/>
+</Amr>

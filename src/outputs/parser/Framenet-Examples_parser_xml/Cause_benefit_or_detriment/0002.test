@@ -1,0 +1,19 @@
+<Amr sentence="Aldığı eğitimlerden edindiği bilgi adamı iş hayatında zenginleştirdi .">
+<Word name="8/zenginleştir" positionX="750" positionY="100"/>
+<Word name="4/bilgi" positionX="650" positionY="200"/>
+<Connection from="8/zenginleştir" to="4/bilgi" with="ARG0"/>
+<Word name="3/edin" positionX="550" positionY="300"/>
+<Connection from="4/bilgi" to="3/edin"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="3/edin" to="o" with="poss"/>
+<Word name="2/eğitim" positionX="550" positionY="400"/>
+<Connection from="3/edin" to="2/eğitim"/>
+<Word name="1/al" positionX="450" positionY="500"/>
+<Connection from="2/eğitim" to="1/al"/>
+<Connection from="1/al" to="o" with="poss"/>
+<Word name="5/adam" positionX="750" positionY="200"/>
+<Connection from="8/zenginleştir" to="5/adam" with="ARG1"/>
+<Connection from="5/adam" to="o" with="poss"/>
+<Word name="6/iş 7/hayat" positionX="850" positionY="200"/>
+<Connection from="8/zenginleştir" to="6/iş 7/hayat" with="location"/>
+</Amr>

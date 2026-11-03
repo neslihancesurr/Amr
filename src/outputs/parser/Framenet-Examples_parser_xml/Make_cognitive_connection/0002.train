@@ -1,0 +1,12 @@
+<Amr sentence="Gördüklerini kötü olarak yorumlamış .">
+<Word name="4/yorumla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/yorumla" to="o" with="ARG0"/>
+<Word name="1/gör" positionX="750" positionY="200"/>
+<Connection from="4/yorumla" to="1/gör" with="ARG1"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="1/gör" to="onlar" with="ARG0"/>
+<Connection from="1/gör" to="o" with="poss"/>
+<Word name="2/kötü 3/ol" positionX="850" positionY="200"/>
+<Connection from="4/yorumla" to="2/kötü 3/ol" with="manner"/>
+</Amr>

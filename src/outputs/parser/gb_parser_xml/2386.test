@@ -1,0 +1,24 @@
+<Amr sentence="Ahmet yeni eve geçtikten sonra daha rahat olacak .">
+<Word name="7/rahat 8/ol" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/rahat 8/ol" to="o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="7/rahat 8/ol" to="person"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ahmet" positionX="550" positionY="400"/>
+<Connection from="name" to="1/ahmet" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/geç" positionX="850" positionY="200"/>
+<Connection from="7/rahat 8/ol" to="4/geç"/>
+<Connection from="4/geç" to="o" with="ARG0"/>
+<Word name="3/ev" positionX="850" positionY="300"/>
+<Connection from="4/geç" to="3/ev"/>
+<Word name="2/yeni" positionX="750" positionY="400"/>
+<Connection from="3/ev" to="2/yeni" with="mod"/>
+<Word name="5/sonra" positionX="950" positionY="300"/>
+<Connection from="4/geç" to="5/sonra"/>
+<Word name="6/daha" positionX="950" positionY="200"/>
+<Connection from="7/rahat 8/ol" to="6/daha" with="degree"/>
+</Amr>

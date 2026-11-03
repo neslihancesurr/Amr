@@ -1,0 +1,7 @@
+<Amr sentence="Anlıyor musun ?">
+<Word name="1/anla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="1/anla" to="o" with="ARG0"/>
+<Word name="2/mi" positionX="750" positionY="200"/>
+<Connection from="1/anla" to="2/mi"/>
+</Amr>

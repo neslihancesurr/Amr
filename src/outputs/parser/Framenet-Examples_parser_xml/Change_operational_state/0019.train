@@ -1,0 +1,21 @@
+<Amr sentence="Binada sorun yok , sadece bu dairede kontak atmış .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/yok" positionX="650" positionY="200"/>
+<Connection from="and" to="3/yok" with="op1"/>
+<Word name="1/bina" positionX="550" positionY="300"/>
+<Connection from="3/yok" to="1/bina" with="location"/>
+<Word name="2/sorun" positionX="650" positionY="300"/>
+<Connection from="3/yok" to="2/sorun"/>
+<Word name="9/at" positionX="750" positionY="200"/>
+<Connection from="and" to="9/at" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="9/at" to="o" with="ARG0"/>
+<Word name="5/sadece" positionX="750" positionY="300"/>
+<Connection from="9/at" to="5/sadece" with="manner"/>
+<Word name="7/daire" positionX="850" positionY="300"/>
+<Connection from="9/at" to="7/daire" with="location"/>
+<Word name="6/bu" positionX="750" positionY="400"/>
+<Connection from="7/daire" to="6/bu" with="mod"/>
+<Word name="8/kontak" positionX="950" positionY="300"/>
+<Connection from="9/at" to="8/kontak"/>
+</Amr>

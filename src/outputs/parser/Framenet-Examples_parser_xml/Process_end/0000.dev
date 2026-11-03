@@ -1,0 +1,21 @@
+<Amr sentence="İki kız kardeş güle söyleye sofralarını hazırlayıp yemeklerini kotardılar .">
+<Word name="9/kotar" positionX="750" positionY="100"/>
+<Word name="2/kız 3/kardeş" positionX="650" positionY="200"/>
+<Connection from="9/kotar" to="2/kız 3/kardeş" with="ARG0"/>
+<Word name="7/hazırla" positionX="750" positionY="200"/>
+<Connection from="9/kotar" to="7/hazırla"/>
+<Word name="5/söyle" positionX="650" positionY="300"/>
+<Connection from="7/hazırla" to="5/söyle"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="5/söyle" to="o" with="ARG0"/>
+<Word name="4/gül" positionX="650" positionY="400"/>
+<Connection from="5/söyle" to="4/gül"/>
+<Connection from="4/gül" to="o" with="ARG0"/>
+<Word name="6/sofra" positionX="750" positionY="300"/>
+<Connection from="7/hazırla" to="6/sofra" with="ARG1"/>
+<Connection from="6/sofra" to="o" with="poss"/>
+<Word name="8/yemek" positionX="850" positionY="200"/>
+<Connection from="9/kotar" to="8/yemek" with="ARG1"/>
+<Word name="onlar" positionX="750" positionY="300"/>
+<Connection from="8/yemek" to="onlar" with="poss"/>
+</Amr>

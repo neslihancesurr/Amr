@@ -1,0 +1,24 @@
+<Amr sentence="Annemin kışın üşümemesi için acaba ne yapabiliriz ?">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="7/yap" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="7/yap"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="7/yap" to="biz" with="ARG0"/>
+<Word name="3/üşü" positionX="650" positionY="300"/>
+<Connection from="7/yap" to="3/üşü" with="cause"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="3/üşü" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="3/üşü" to="o" with="ARG0"/>
+<Connection from="3/üşü" to="o" with="poss"/>
+<Word name="1/anne" positionX="850" positionY="400"/>
+<Connection from="3/üşü" to="1/anne"/>
+<Word name="ben" positionX="750" positionY="500"/>
+<Connection from="1/anne" to="ben" with="poss"/>
+<Word name="2/kışın" positionX="950" positionY="400"/>
+<Connection from="3/üşü" to="2/kışın" with="manner"/>
+<Word name="5/acaba" positionX="750" positionY="300"/>
+<Connection from="7/yap" to="5/acaba" with="manner"/>
+<Word name="6/ne" positionX="850" positionY="300"/>
+<Connection from="7/yap" to="6/ne"/>
+</Amr>

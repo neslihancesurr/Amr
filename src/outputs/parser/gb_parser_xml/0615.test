@@ -1,0 +1,15 @@
+<Amr sentence="Ayten'in iki kız kardeşi var .">
+<Word name="5/var" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="5/var" to="person"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ayten" positionX="450" positionY="400"/>
+<Connection from="name" to="1/ayten" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/kız 4/kardeş" positionX="750" positionY="200"/>
+<Connection from="5/var" to="3/kız 4/kardeş"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/kız 4/kardeş" to="o" with="poss"/>
+</Amr>

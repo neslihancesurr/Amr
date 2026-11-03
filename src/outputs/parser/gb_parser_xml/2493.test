@@ -1,0 +1,27 @@
+<Amr sentence="Ahmet evliliklerinin yıldönümünü unutursa Şebnem çok kızıyor .">
+<Word name="7/kız" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/kız" to="o" with="ARG0"/>
+<Word name="4/unut" positionX="750" positionY="200"/>
+<Connection from="7/kız" to="4/unut" with="cond"/>
+<Connection from="4/unut" to="o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="4/unut" to="person"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ahmet" positionX="550" positionY="500"/>
+<Connection from="name" to="1/ahmet" with="op1"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/yıldönüm" positionX="850" positionY="300"/>
+<Connection from="4/unut" to="3/yıldönüm"/>
+<Word name="2/evlilik" positionX="750" positionY="400"/>
+<Connection from="3/yıldönüm" to="2/evlilik" with="mod"/>
+<Connection from="7/kız" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="5/şebnem" positionX="650" positionY="400"/>
+<Connection from="name" to="5/şebnem" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="6/çok" positionX="950" positionY="200"/>
+<Connection from="7/kız" to="6/çok" with="degree"/>
+</Amr>

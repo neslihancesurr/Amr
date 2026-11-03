@@ -1,0 +1,22 @@
+<Amr sentence="Leyla içeri girdiğinde bütün konuşmalar bıçak gibi kesildi .">
+<Word name="6/bıçak 7/gibi 8/kes" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/bıçak 7/gibi 8/kes" to="o" with="ARG0"/>
+<Word name="3/gir" positionX="750" positionY="200"/>
+<Connection from="6/bıçak 7/gibi 8/kes" to="3/gir"/>
+<Connection from="3/gir" to="o" with="poss"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="3/gir" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/leyla" positionX="550" positionY="500"/>
+<Connection from="name" to="1/leyla" with="op1"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/içeri" positionX="850" positionY="300"/>
+<Connection from="3/gir" to="2/içeri" with="ARG1"/>
+<Word name="5/konuşma" positionX="850" positionY="200"/>
+<Connection from="6/bıçak 7/gibi 8/kes" to="5/konuşma" with="ARG1"/>
+<Word name="4/bütün" positionX="750" positionY="300"/>
+<Connection from="5/konuşma" to="4/bütün" with="mod"/>
+</Amr>

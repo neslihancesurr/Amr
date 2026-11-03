@@ -1,0 +1,7 @@
+<Amr sentence="Türkiye Cumhuriyeti Milli Eğitim Bakanlığı Kadıköy Kız Yüksek Meslek Okulu Müdürlüğü">
+<Word name="11/müdürlük" positionX="750" positionY="100"/>
+<Word name="9/meslek 10/okul" positionX="650" positionY="200"/>
+<Connection from="11/müdürlük" to="9/meslek 10/okul" with="mod"/>
+<Word name="8/yüksek" positionX="550" positionY="300"/>
+<Connection from="9/meslek 10/okul" to="8/yüksek" with="mod"/>
+</Amr>

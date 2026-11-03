@@ -1,0 +1,26 @@
+<Amr sentence="Bu ata oyna , diye tembihledi , bire dört veriyor .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/tembihle" positionX="650" positionY="200"/>
+<Connection from="and" to="6/tembihle" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="6/tembihle" to="o" with="ARG0"/>
+<Word name="3/oyna" positionX="650" positionY="300"/>
+<Connection from="6/tembihle" to="3/oyna" with="ARG1"/>
+<Word name="sen" positionX="550" positionY="400"/>
+<Connection from="3/oyna" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="650" positionY="400"/>
+<Connection from="3/oyna" to="imperative" with="mode"/>
+<Word name="2/at" positionX="750" positionY="400"/>
+<Connection from="3/oyna" to="2/at" with="ARG1"/>
+<Word name="1/bu" positionX="650" positionY="500"/>
+<Connection from="2/at" to="1/bu" with="mod"/>
+<Word name="5/diye" positionX="850" positionY="400"/>
+<Connection from="3/oyna" to="5/diye"/>
+<Word name="10/ver" positionX="750" positionY="200"/>
+<Connection from="and" to="10/ver" with="op2"/>
+<Connection from="10/ver" to="o" with="ARG0"/>
+<Word name="8/bir" positionX="750" positionY="300"/>
+<Connection from="10/ver" to="8/bir"/>
+<Word name="9/dört" positionX="850" positionY="300"/>
+<Connection from="10/ver" to="9/dört"/>
+</Amr>

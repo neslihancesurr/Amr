@@ -1,0 +1,7 @@
+<Amr sentence="Birinci sınıfı atladı .">
+<Word name="3/atla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/atla" to="o" with="ARG0"/>
+<Word name="1/birinci 2/sınıf" positionX="750" positionY="200"/>
+<Connection from="3/atla" to="1/birinci 2/sınıf" with="ARG1"/>
+</Amr>

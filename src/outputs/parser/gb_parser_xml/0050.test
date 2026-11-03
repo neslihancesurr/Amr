@@ -1,0 +1,12 @@
+<Amr sentence="Sorun yaratmaktansa sonuçları kabullendi .">
+<Word name="4/kabullen" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/kabullen" to="o" with="ARG0"/>
+<Word name="2/yarat" positionX="750" positionY="200"/>
+<Connection from="4/kabullen" to="2/yarat" with="cond"/>
+<Connection from="2/yarat" to="o" with="ARG0"/>
+<Word name="1/sorun" positionX="750" positionY="300"/>
+<Connection from="2/yarat" to="1/sorun" with="ARG1"/>
+<Word name="3/sonuç" positionX="850" positionY="200"/>
+<Connection from="4/kabullen" to="3/sonuç" with="ARG1"/>
+</Amr>

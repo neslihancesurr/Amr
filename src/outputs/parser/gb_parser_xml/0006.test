@@ -1,0 +1,15 @@
+<Amr sentence="Aydın bana çiçek getirdi .">
+<Word name="4/getir" positionX="750" positionY="100"/>
+<Word name="city" positionX="650" positionY="200"/>
+<Connection from="4/getir" to="city" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="1/aydın" positionX="450" positionY="400"/>
+<Connection from="name" to="1/aydın" with="op1"/>
+<Word name="aydın" positionX="650" positionY="300"/>
+<Connection from="city" to="aydın" with="wiki"/>
+<Word name="2/ben" positionX="750" positionY="200"/>
+<Connection from="4/getir" to="2/ben"/>
+<Word name="3/çiçek" positionX="850" positionY="200"/>
+<Connection from="4/getir" to="3/çiçek" with="ARG1"/>
+</Amr>

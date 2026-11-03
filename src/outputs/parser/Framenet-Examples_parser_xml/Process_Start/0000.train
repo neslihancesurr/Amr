@@ -1,0 +1,15 @@
+<Amr sentence="Tiyatro topluluğu 'Kaos' adlı oyunla ilk kez perdelerini açmıştı .">
+<Word name="8/perde 9/aç" positionX="750" positionY="100"/>
+<Word name="2/topluluk" positionX="650" positionY="200"/>
+<Connection from="8/perde 9/aç" to="2/topluluk" with="ARG1"/>
+<Word name="1/tiyatro" positionX="550" positionY="300"/>
+<Connection from="2/topluluk" to="1/tiyatro" with="mod"/>
+<Word name="5/oyun" positionX="750" positionY="200"/>
+<Connection from="8/perde 9/aç" to="5/oyun" with="instrument"/>
+<Word name="4/ad" positionX="650" positionY="300"/>
+<Connection from="5/oyun" to="4/ad" with="mod"/>
+<Word name="3/'Kaos'" positionX="550" positionY="400"/>
+<Connection from="4/ad" to="3/'Kaos'" with="mod"/>
+<Word name="6/ilk" positionX="850" positionY="200"/>
+<Connection from="8/perde 9/aç" to="6/ilk"/>
+</Amr>

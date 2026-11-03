@@ -1,0 +1,9 @@
+<Amr sentence="İhtiyar kadın torununa yan yan bakıyordu .">
+<Word name="6/bak" positionX="750" positionY="100"/>
+<Word name="2/kadın" positionX="650" positionY="200"/>
+<Connection from="6/bak" to="2/kadın" with="ARG0"/>
+<Word name="1/ihtiyar" positionX="550" positionY="300"/>
+<Connection from="2/kadın" to="1/ihtiyar" with="mod"/>
+<Word name="3/torun 4/yan 5/yan" positionX="750" positionY="200"/>
+<Connection from="6/bak" to="3/torun 4/yan 5/yan"/>
+</Amr>

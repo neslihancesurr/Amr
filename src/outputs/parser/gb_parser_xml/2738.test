@@ -1,0 +1,11 @@
+<Amr sentence="Aksine , görecek diye ödü kopuyor .">
+<Word name="5/öd 6/kop" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/öd 6/kop" to="o" with="ARG0"/>
+<Word name="1/aksine" positionX="750" positionY="200"/>
+<Connection from="5/öd 6/kop" to="1/aksine" with="manner"/>
+<Word name="3/gör" positionX="850" positionY="200"/>
+<Connection from="5/öd 6/kop" to="3/gör" with="ARG1"/>
+<Word name="4/diye" positionX="750" positionY="300"/>
+<Connection from="3/gör" to="4/diye"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Sanki bana kendimi anlatıyorlardı .">
+<Word name="4/anlat" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/anlat" to="onlar" with="ARG0"/>
+<Word name="1/sanki" positionX="750" positionY="200"/>
+<Connection from="4/anlat" to="1/sanki" with="manner"/>
+<Word name="2/ben" positionX="850" positionY="200"/>
+<Connection from="4/anlat" to="2/ben" with="ARG2"/>
+<Word name="3/kendi" positionX="950" positionY="200"/>
+<Connection from="4/anlat" to="3/kendi" with="ARG1"/>
+<Word name="ben" positionX="850" positionY="300"/>
+<Connection from="3/kendi" to="ben" with="poss"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr sentence="Bu işle ilgilenen kişi sayısını oldukça daralttık .">
+<Word name="7/daralt" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="7/daralt" to="biz" with="ARG0"/>
+<Word name="5/sayı" positionX="750" positionY="200"/>
+<Connection from="7/daralt" to="5/sayı" with="ARG1"/>
+<Word name="4/kişi" positionX="650" positionY="300"/>
+<Connection from="5/sayı" to="4/kişi" with="mod"/>
+<Word name="3/ilgilen" positionX="550" positionY="400"/>
+<Connection from="4/kişi" to="3/ilgilen"/>
+<Word name="2/iş" positionX="450" positionY="500"/>
+<Connection from="3/ilgilen" to="2/iş" with="instrument"/>
+<Word name="1/bu" positionX="350" positionY="600"/>
+<Connection from="2/iş" to="1/bu" with="mod"/>
+<Word name="6/oldukça" positionX="850" positionY="200"/>
+<Connection from="7/daralt" to="6/oldukça" with="manner"/>
+</Amr>

@@ -1,0 +1,26 @@
+<Amr sentence="Koşturduğu , gideceği yere bir an önce varmak için ivedilendi , kimseyi beklemedi .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="10/ivedilen" positionX="650" positionY="200"/>
+<Connection from="and" to="10/ivedilen" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="10/ivedilen" to="o" with="ARG0"/>
+<Word name="8/var" positionX="650" positionY="300"/>
+<Connection from="10/ivedilen" to="8/var" with="cause"/>
+<Connection from="8/var" to="o" with="ARG0"/>
+<Word name="4/yer" positionX="650" positionY="400"/>
+<Connection from="8/var" to="4/yer" with="ARG1"/>
+<Word name="1/koştur" positionX="550" positionY="500"/>
+<Connection from="4/yer" to="1/koştur"/>
+<Connection from="1/koştur" to="o" with="ARG0"/>
+<Connection from="1/koştur" to="o" with="poss"/>
+<Word name="3/git" positionX="650" positionY="500"/>
+<Connection from="4/yer" to="3/git"/>
+<Connection from="3/git" to="o" with="poss"/>
+<Word name="13/bekle" positionX="750" positionY="200"/>
+<Connection from="and" to="13/bekle" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="13/bekle" to="-" with="polarity"/>
+<Connection from="13/bekle" to="o" with="ARG0"/>
+<Word name="12/kimse" positionX="850" positionY="300"/>
+<Connection from="13/bekle" to="12/kimse" with="ARG1"/>
+</Amr>

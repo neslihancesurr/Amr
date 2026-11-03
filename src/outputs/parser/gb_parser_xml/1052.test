@@ -1,0 +1,11 @@
+<Amr sentence="Toplantıdan beri konuşmamışlar .">
+<Word name="3/konuş" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/konuş" to="-" with="polarity"/>
+<Word name="onlar" positionX="750" positionY="200"/>
+<Connection from="3/konuş" to="onlar" with="ARG0"/>
+<Word name="1/toplantı" positionX="850" positionY="200"/>
+<Connection from="3/konuş" to="1/toplantı"/>
+<Word name="2/beri" positionX="750" positionY="300"/>
+<Connection from="1/toplantı" to="2/beri"/>
+</Amr>

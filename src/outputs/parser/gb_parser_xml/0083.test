@@ -1,0 +1,5 @@
+<Amr sentence="ufak tefek bir çocuk">
+<Word name="4/çocuk" positionX="750" positionY="100"/>
+<Word name="1/ufak 2/tefek" positionX="650" positionY="200"/>
+<Connection from="4/çocuk" to="1/ufak 2/tefek" with="mod"/>
+</Amr>

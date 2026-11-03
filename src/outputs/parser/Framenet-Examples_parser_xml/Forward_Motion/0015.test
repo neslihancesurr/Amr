@@ -1,0 +1,26 @@
+<Amr sentence="O çirkin , kaba kunduralarla sıcak günde serin denize daldım ve rahatladım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="12/rahatla" positionX="650" positionY="200"/>
+<Connection from="and" to="12/rahatla" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="12/rahatla" to="ben" with="ARG0"/>
+<Word name="10/dal" positionX="750" positionY="200"/>
+<Connection from="and" to="10/dal" with="op2"/>
+<Connection from="10/dal" to="ben" with="ARG0"/>
+<Word name="5/kundura" positionX="750" positionY="300"/>
+<Connection from="10/dal" to="5/kundura" with="instrument"/>
+<Word name="2/çirkin" positionX="650" positionY="400"/>
+<Connection from="5/kundura" to="2/çirkin" with="mod"/>
+<Word name="1/o" positionX="550" positionY="500"/>
+<Connection from="2/çirkin" to="1/o" with="mod"/>
+<Word name="4/kaba" positionX="750" positionY="400"/>
+<Connection from="5/kundura" to="4/kaba" with="mod"/>
+<Word name="7/gün" positionX="850" positionY="300"/>
+<Connection from="10/dal" to="7/gün" with="mod"/>
+<Word name="6/sıcak" positionX="750" positionY="400"/>
+<Connection from="7/gün" to="6/sıcak" with="mod"/>
+<Word name="9/deniz" positionX="950" positionY="300"/>
+<Connection from="10/dal" to="9/deniz" with="ARG1"/>
+<Word name="8/serin" positionX="850" positionY="400"/>
+<Connection from="9/deniz" to="8/serin" with="mod"/>
+</Amr>

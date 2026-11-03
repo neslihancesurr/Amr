@@ -1,0 +1,21 @@
+<Amr sentence="Bozulmasın diye annem köfteyi buzdolabına koymuştu .">
+<Word name="6/koy" positionX="750" positionY="100"/>
+<Word name="1/bozul" positionX="650" positionY="200"/>
+<Connection from="6/koy" to="1/bozul"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="1/bozul" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="1/bozul" to="o" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="300"/>
+<Connection from="1/bozul" to="imperative" with="mode"/>
+<Word name="2/diye" positionX="850" positionY="300"/>
+<Connection from="1/bozul" to="2/diye"/>
+<Word name="3/anne" positionX="750" positionY="200"/>
+<Connection from="6/koy" to="3/anne" with="ARG0"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="3/anne" to="ben" with="poss"/>
+<Word name="4/köfte" positionX="850" positionY="200"/>
+<Connection from="6/koy" to="4/köfte" with="ARG1"/>
+<Word name="5/buzdolabı" positionX="950" positionY="200"/>
+<Connection from="6/koy" to="5/buzdolabı"/>
+</Amr>

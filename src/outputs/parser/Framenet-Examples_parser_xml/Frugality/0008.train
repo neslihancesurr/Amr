@@ -1,0 +1,19 @@
+<Amr sentence="Kumar sevdası yüzünden elinde eteğinde ne varsa havaya savurdu .">
+<Word name="8/hava 9/savur" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="8/hava 9/savur" to="o" with="ARG0"/>
+<Word name="3/yüzünden" positionX="750" positionY="200"/>
+<Connection from="8/hava 9/savur" to="3/yüzünden" with="manner"/>
+<Word name="2/sevda" positionX="650" positionY="300"/>
+<Connection from="3/yüzünden" to="2/sevda" with="mod"/>
+<Word name="1/kumar" positionX="550" positionY="400"/>
+<Connection from="2/sevda" to="1/kumar" with="mod"/>
+<Word name="7/var" positionX="850" positionY="200"/>
+<Connection from="8/hava 9/savur" to="7/var" with="ARG1"/>
+<Word name="5/etek" positionX="750" positionY="300"/>
+<Connection from="7/var" to="5/etek" with="location"/>
+<Word name="4/el" positionX="650" positionY="400"/>
+<Connection from="5/etek" to="4/el" with="location"/>
+<Word name="6/ne" positionX="850" positionY="300"/>
+<Connection from="7/var" to="6/ne"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr sentence="Yarın çıkacak olan gazetede önemli bir yazı bulunacak .">
+<Word name="8/bulun" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="8/bulun" to="o" with="ARG0"/>
+<Word name="4/gazete" positionX="750" positionY="200"/>
+<Connection from="8/bulun" to="4/gazete" with="location"/>
+<Word name="3/ol" positionX="650" positionY="300"/>
+<Connection from="4/gazete" to="3/ol"/>
+<Word name="2/çık" positionX="550" positionY="400"/>
+<Connection from="3/ol" to="2/çık"/>
+<Word name="1/yarın" positionX="450" positionY="500"/>
+<Connection from="2/çık" to="1/yarın"/>
+<Word name="7/yazı" positionX="850" positionY="200"/>
+<Connection from="8/bulun" to="7/yazı"/>
+<Word name="5/önemli" positionX="750" positionY="300"/>
+<Connection from="7/yazı" to="5/önemli" with="mod"/>
+</Amr>

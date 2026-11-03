@@ -1,0 +1,17 @@
+<Amr sentence="Bitirdi Fatma üniversiteyi bu yıl .">
+<Word name="1/bitir" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="1/bitir" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/fatma" positionX="450" positionY="400"/>
+<Connection from="name" to="2/fatma" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/üniversite" positionX="750" positionY="200"/>
+<Connection from="1/bitir" to="3/üniversite" with="ARG1"/>
+<Word name="5/yıl" positionX="850" positionY="200"/>
+<Connection from="1/bitir" to="5/yıl"/>
+<Word name="4/bu" positionX="750" positionY="300"/>
+<Connection from="5/yıl" to="4/bu" with="mod"/>
+</Amr>

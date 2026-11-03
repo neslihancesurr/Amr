@@ -1,0 +1,16 @@
+<Amr sentence="Kalk yataktan artık , geç kalıyorsun .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/kalk" positionX="650" positionY="200"/>
+<Connection from="and" to="1/kalk" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="1/kalk" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="650" positionY="300"/>
+<Connection from="1/kalk" to="imperative" with="mode"/>
+<Word name="2/yatak" positionX="750" positionY="300"/>
+<Connection from="1/kalk" to="2/yatak"/>
+<Word name="3/artık" positionX="850" positionY="300"/>
+<Connection from="1/kalk" to="3/artık" with="manner"/>
+<Word name="5/geç 6/kal" positionX="750" positionY="200"/>
+<Connection from="and" to="5/geç 6/kal" with="op2"/>
+<Connection from="5/geç 6/kal" to="sen" with="ARG0"/>
+</Amr>

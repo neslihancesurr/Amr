@@ -1,0 +1,20 @@
+<Amr sentence="Sen beni dinle , altını şimdi bozma .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/dinle" positionX="650" positionY="200"/>
+<Connection from="and" to="3/dinle" with="op1"/>
+<Word name="imperative" positionX="550" positionY="300"/>
+<Connection from="3/dinle" to="imperative" with="mode"/>
+<Word name="1/sen" positionX="650" positionY="300"/>
+<Connection from="3/dinle" to="1/sen" with="ARG0"/>
+<Word name="2/ben" positionX="750" positionY="300"/>
+<Connection from="3/dinle" to="2/ben" with="ARG1"/>
+<Word name="7/boz" positionX="750" positionY="200"/>
+<Connection from="and" to="7/boz" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="7/boz" to="-" with="polarity"/>
+<Connection from="7/boz" to="imperative" with="mode"/>
+<Word name="5/altın" positionX="850" positionY="300"/>
+<Connection from="7/boz" to="5/altın" with="ARG1"/>
+<Word name="6/şimdi" positionX="950" positionY="300"/>
+<Connection from="7/boz" to="6/şimdi" with="manner"/>
+</Amr>

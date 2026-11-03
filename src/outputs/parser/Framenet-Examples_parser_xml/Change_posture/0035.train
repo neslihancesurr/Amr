@@ -1,0 +1,16 @@
+<Amr sentence="Dolabın tepesine doğru uzanarak tabakları indirdi .">
+<Word name="6/indir" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/indir" to="o" with="ARG0"/>
+<Word name="4/uzan" positionX="750" positionY="200"/>
+<Connection from="6/indir" to="4/uzan"/>
+<Word name="2/tepe" positionX="650" positionY="300"/>
+<Connection from="4/uzan" to="2/tepe" with="ARG1"/>
+<Word name="1/dolap" positionX="550" positionY="400"/>
+<Connection from="2/tepe" to="1/dolap" with="mod"/>
+<Word name="3/doğru" positionX="650" positionY="400"/>
+<Connection from="2/tepe" to="3/doğru"/>
+<Word name="5/tabak" positionX="850" positionY="200"/>
+<Connection from="6/indir" to="5/tabak"/>
+<Connection from="5/tabak" to="o" with="poss"/>
+</Amr>

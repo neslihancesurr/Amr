@@ -1,0 +1,12 @@
+<Amr sentence="Kimden almış olursak olalım , bin yıldır onu kendimize mal etmişiz .">
+<Word name="10/mal 11/et" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="10/mal 11/et" to="biz" with="ARG0"/>
+<Word name="3/ol 4/ol" positionX="750" positionY="200"/>
+<Connection from="10/mal 11/et" to="3/ol 4/ol" with="cond"/>
+<Connection from="3/ol 4/ol" to="biz" with="ARG0"/>
+<Word name="6/bin" positionX="850" positionY="200"/>
+<Connection from="10/mal 11/et" to="6/bin"/>
+<Word name="8/o" positionX="950" positionY="200"/>
+<Connection from="10/mal 11/et" to="8/o" with="ARG1"/>
+</Amr>

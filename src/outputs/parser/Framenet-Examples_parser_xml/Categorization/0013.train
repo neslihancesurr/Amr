@@ -1,0 +1,19 @@
+<Amr sentence="Avrupa tarihini çağlara göre kategorize etti .">
+<Word name="5/kategorize 6/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/kategorize 6/et" to="o" with="ARG0"/>
+<Word name="2/tarih" positionX="750" positionY="200"/>
+<Connection from="5/kategorize 6/et" to="2/tarih" with="ARG1"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="2/tarih" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/avrupa" positionX="450" positionY="500"/>
+<Connection from="name" to="1/avrupa" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/çağlar" positionX="850" positionY="200"/>
+<Connection from="5/kategorize 6/et" to="3/çağlar"/>
+<Word name="4/göre" positionX="750" positionY="300"/>
+<Connection from="3/çağlar" to="4/göre"/>
+</Amr>

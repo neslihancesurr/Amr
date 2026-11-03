@@ -1,0 +1,15 @@
+<Amr sentence="Halil benim dayızadem .">
+<Word name="3/dayızade" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/dayızade" to="ben" with="poss"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="3/dayızade" to="person"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/halil" positionX="550" positionY="400"/>
+<Connection from="name" to="1/halil" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/ben" positionX="850" positionY="200"/>
+<Connection from="3/dayızade" to="2/ben" with="mod"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Bu ürünün elde yıkanması tavsiye edilir .">
+<Word name="5/tavsiye 6/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/tavsiye 6/et" to="o" with="ARG0"/>
+<Word name="4/yıka" positionX="750" positionY="200"/>
+<Connection from="5/tavsiye 6/et" to="4/yıka"/>
+<Connection from="4/yıka" to="o" with="ARG0"/>
+<Connection from="4/yıka" to="o" with="poss"/>
+<Word name="2/ürün" positionX="850" positionY="300"/>
+<Connection from="4/yıka" to="2/ürün"/>
+<Word name="1/bu" positionX="750" positionY="400"/>
+<Connection from="2/ürün" to="1/bu" with="mod"/>
+<Word name="3/el" positionX="950" positionY="300"/>
+<Connection from="4/yıka" to="3/el" with="location"/>
+</Amr>

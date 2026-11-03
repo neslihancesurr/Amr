@@ -1,0 +1,21 @@
+<Amr sentence="Büyüklere saygı hiç kalmamış , bana bile çene yetiştiriyorlar !">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/kal" positionX="650" positionY="200"/>
+<Connection from="and" to="4/kal" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="4/kal" to="-" with="polarity"/>
+<Word name="2/saygı" positionX="650" positionY="300"/>
+<Connection from="4/kal" to="2/saygı" with="ARG1"/>
+<Word name="1/büyük" positionX="550" positionY="400"/>
+<Connection from="2/saygı" to="1/büyük" with="mod"/>
+<Word name="3/hiç" positionX="750" positionY="300"/>
+<Connection from="4/kal" to="3/hiç" with="degree"/>
+<Word name="8/çene 9/yetiştir" positionX="750" positionY="200"/>
+<Connection from="and" to="8/çene 9/yetiştir" with="op2"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="8/çene 9/yetiştir" to="onlar" with="ARG0"/>
+<Word name="6/ben" positionX="750" positionY="300"/>
+<Connection from="8/çene 9/yetiştir" to="6/ben" with="ARG1"/>
+<Word name="7/bile" positionX="650" positionY="400"/>
+<Connection from="6/ben" to="7/bile" with="manner"/>
+</Amr>

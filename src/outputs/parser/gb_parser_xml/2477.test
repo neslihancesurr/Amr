@@ -1,0 +1,11 @@
+<Amr sentence="Yorgunlarsa yarına bırakabiliriz .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="3/bırak" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="3/bırak"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="3/bırak" to="biz" with="ARG0"/>
+<Word name="1/yorgun" positionX="650" positionY="300"/>
+<Connection from="3/bırak" to="1/yorgun" with="cond"/>
+<Word name="2/yarın" positionX="750" positionY="300"/>
+<Connection from="3/bırak" to="2/yarın"/>
+</Amr>

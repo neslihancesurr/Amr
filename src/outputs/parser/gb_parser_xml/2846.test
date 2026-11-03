@@ -1,0 +1,12 @@
+<Amr sentence="Şu sıralarda konferansımı hazırlamaktayım .">
+<Word name="4/hazırla" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/hazırla" to="ben" with="ARG0"/>
+<Word name="2/sıra" positionX="750" positionY="200"/>
+<Connection from="4/hazırla" to="2/sıra" with="location"/>
+<Word name="1/şu" positionX="650" positionY="300"/>
+<Connection from="2/sıra" to="1/şu" with="mod"/>
+<Word name="3/konferans" positionX="850" positionY="200"/>
+<Connection from="4/hazırla" to="3/konferans" with="ARG1"/>
+<Connection from="3/konferans" to="ben" with="poss"/>
+</Amr>

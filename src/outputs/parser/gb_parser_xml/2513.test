@@ -1,0 +1,23 @@
+<Amr sentence="Oraya gittiğim zaman çalışıyor olursa bir merhaba deyip dönerim .">
+<Word name="9/dön" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="9/dön" to="ben" with="ARG0"/>
+<Word name="5/ol" positionX="750" positionY="200"/>
+<Connection from="9/dön" to="5/ol" with="cond"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/ol" to="o" with="ARG0"/>
+<Word name="4/çalış" positionX="750" positionY="300"/>
+<Connection from="5/ol" to="4/çalış"/>
+<Connection from="4/çalış" to="o" with="ARG0"/>
+<Word name="3/zaman" positionX="750" positionY="400"/>
+<Connection from="4/çalış" to="3/zaman"/>
+<Word name="2/git" positionX="650" positionY="500"/>
+<Connection from="3/zaman" to="2/git"/>
+<Connection from="2/git" to="ben" with="poss"/>
+<Word name="1/ora" positionX="650" positionY="600"/>
+<Connection from="2/git" to="1/ora"/>
+<Word name="8/de" positionX="850" positionY="200"/>
+<Connection from="9/dön" to="8/de"/>
+<Word name="7/merhaba" positionX="750" positionY="300"/>
+<Connection from="8/de" to="7/merhaba"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Bugün öğrendiklerini aklının bir köşesine yaz">
+<Word name="3/akıl 4/bir 5/köşe 6/yaz" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="3/akıl 4/bir 5/köşe 6/yaz" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="3/akıl 4/bir 5/köşe 6/yaz" to="imperative" with="mode"/>
+<Word name="2/öğren" positionX="850" positionY="200"/>
+<Connection from="3/akıl 4/bir 5/köşe 6/yaz" to="2/öğren" with="ARG1"/>
+<Word name="onlar" positionX="750" positionY="300"/>
+<Connection from="2/öğren" to="onlar" with="ARG0"/>
+<Word name="o" positionX="850" positionY="300"/>
+<Connection from="2/öğren" to="o" with="poss"/>
+<Word name="1/bugün" positionX="950" positionY="300"/>
+<Connection from="2/öğren" to="1/bugün" with="manner"/>
+</Amr>

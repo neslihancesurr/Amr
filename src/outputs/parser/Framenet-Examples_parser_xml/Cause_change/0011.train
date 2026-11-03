@@ -1,0 +1,7 @@
+<Amr sentence="Lambaları parıldattı .">
+<Word name="2/parıldat" positionX="750" positionY="100"/>
+<Word name="1/lamba" positionX="650" positionY="200"/>
+<Connection from="2/parıldat" to="1/lamba" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/lamba" to="o" with="poss"/>
+</Amr>

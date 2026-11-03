@@ -1,0 +1,23 @@
+<Amr sentence="Toplantıya katılırım ya ne diyeceğimi bilemem .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/bil" positionX="650" positionY="200"/>
+<Connection from="and" to="6/bil" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="6/bil" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="6/bil" to="ben" with="ARG0"/>
+<Word name="3/ya" positionX="750" positionY="300"/>
+<Connection from="6/bil" to="3/ya"/>
+<Word name="5/de" positionX="850" positionY="300"/>
+<Connection from="6/bil" to="5/de" with="ARG1"/>
+<Connection from="5/de" to="ben" with="ARG0"/>
+<Word name="4/ne" positionX="850" positionY="400"/>
+<Connection from="5/de" to="4/ne" with="ARG1"/>
+<Word name="2/katıl" positionX="750" positionY="200"/>
+<Connection from="and" to="2/katıl" with="op2"/>
+<Connection from="2/katıl" to="ben" with="ARG0"/>
+<Word name="1/toplantı" positionX="750" positionY="300"/>
+<Connection from="2/katıl" to="1/toplantı" with="ARG1"/>
+<Word name="mümkün" positionX="850" positionY="300"/>
+<Connection from="2/katıl" to="mümkün"/>
+</Amr>

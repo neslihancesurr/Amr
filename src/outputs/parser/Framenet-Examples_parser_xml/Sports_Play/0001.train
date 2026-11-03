@@ -1,0 +1,13 @@
+<Amr sentence="Maraton koşmadan önce egzersiz yapmalısın .">
+<Word name="gerek" positionX="750" positionY="100"/>
+<Word name="4/egzersiz 5/yap" positionX="650" positionY="200"/>
+<Connection from="gerek" to="4/egzersiz 5/yap"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="4/egzersiz 5/yap" to="sen" with="ARG0"/>
+<Word name="2/koş" positionX="650" positionY="300"/>
+<Connection from="4/egzersiz 5/yap" to="2/koş"/>
+<Word name="1/maraton" positionX="550" positionY="400"/>
+<Connection from="2/koş" to="1/maraton"/>
+<Word name="3/önce" positionX="650" positionY="400"/>
+<Connection from="2/koş" to="3/önce"/>
+</Amr>

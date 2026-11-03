@@ -1,0 +1,23 @@
+<Amr sentence="Ha Boğaziçi'ne gitmişsin ha Bilkent'e .">
+<Word name="3/git" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="3/git" to="sen" with="ARG0"/>
+<Word name="and" positionX="750" positionY="200"/>
+<Connection from="3/git" to="and"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="and" to="person" with="op1"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="5/bilkent" positionX="450" positionY="500"/>
+<Connection from="name" to="5/bilkent" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/ha" positionX="750" positionY="400"/>
+<Connection from="person" to="4/ha"/>
+<Word name="2/boğaziç" positionX="750" positionY="300"/>
+<Connection from="and" to="2/boğaziç" with="op2"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="2/boğaziç" to="o" with="poss"/>
+<Word name="1/ha" positionX="750" positionY="400"/>
+<Connection from="2/boğaziç" to="1/ha"/>
+</Amr>

@@ -1,0 +1,19 @@
+<Amr sentence="Sonunda gittiğin okul nasıl olsa bir spor akademisi olacak .">
+<Word name="8/akademi" positionX="750" positionY="100"/>
+<Word name="3/okul" positionX="650" positionY="200"/>
+<Connection from="8/akademi" to="3/okul"/>
+<Word name="2/git" positionX="550" positionY="300"/>
+<Connection from="3/okul" to="2/git"/>
+<Word name="sen" positionX="450" positionY="400"/>
+<Connection from="2/git" to="sen" with="poss"/>
+<Word name="1/sonunda" positionX="550" positionY="400"/>
+<Connection from="2/git" to="1/sonunda" with="manner"/>
+<Word name="4/nasıl 5/ol" positionX="750" positionY="200"/>
+<Connection from="8/akademi" to="4/nasıl 5/ol" with="manner"/>
+<Word name="7/spor" positionX="850" positionY="200"/>
+<Connection from="8/akademi" to="7/spor" with="mod"/>
+<Word name="9/ol" positionX="950" positionY="200"/>
+<Connection from="8/akademi" to="9/ol"/>
+<Word name="o" positionX="850" positionY="300"/>
+<Connection from="9/ol" to="o" with="ARG0"/>
+</Amr>

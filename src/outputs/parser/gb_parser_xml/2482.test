@@ -1,0 +1,23 @@
+<Amr sentence="Hasan bu mektubu okuduysa eğer , çok kötü olmuştur .">
+<Word name="8/kötü" positionX="750" positionY="100"/>
+<Word name="4/oku" positionX="650" positionY="200"/>
+<Connection from="8/kötü" to="4/oku" with="cond"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="4/oku" to="person" with="ARG0"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/hasan" positionX="350" positionY="500"/>
+<Connection from="name" to="1/hasan" with="op1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/mektup" positionX="650" positionY="300"/>
+<Connection from="4/oku" to="3/mektup" with="ARG1"/>
+<Word name="2/bu" positionX="550" positionY="400"/>
+<Connection from="3/mektup" to="2/bu" with="mod"/>
+<Word name="5/eğer" positionX="750" positionY="300"/>
+<Connection from="4/oku" to="5/eğer"/>
+<Word name="7/çok" positionX="750" positionY="200"/>
+<Connection from="8/kötü" to="7/çok" with="degree"/>
+<Word name="9/ol" positionX="850" positionY="200"/>
+<Connection from="8/kötü" to="9/ol"/>
+</Amr>

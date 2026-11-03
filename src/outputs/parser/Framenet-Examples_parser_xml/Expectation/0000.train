@@ -1,0 +1,17 @@
+<Amr sentence="Bu hareketleri terbiyenizden hiç memul etmezdim .">
+<Word name="5/memul 6/et" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/memul 6/et" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="5/memul 6/et" to="ben" with="ARG0"/>
+<Word name="2/hareket" positionX="850" positionY="200"/>
+<Connection from="5/memul 6/et" to="2/hareket" with="ARG1"/>
+<Word name="1/bu" positionX="750" positionY="300"/>
+<Connection from="2/hareket" to="1/bu" with="mod"/>
+<Word name="3/terbiye" positionX="950" positionY="200"/>
+<Connection from="5/memul 6/et" to="3/terbiye"/>
+<Word name="siz" positionX="850" positionY="300"/>
+<Connection from="3/terbiye" to="siz" with="poss"/>
+<Word name="4/hiç" positionX="1050" positionY="200"/>
+<Connection from="5/memul 6/et" to="4/hiç" with="degree"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Evin bahçesi var .">
+<Word name="3/var" positionX="750" positionY="100"/>
+<Word name="1/ev" positionX="650" positionY="200"/>
+<Connection from="3/var" to="1/ev"/>
+<Word name="2/bahçe" positionX="750" positionY="200"/>
+<Connection from="3/var" to="2/bahçe"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/bahçe" to="o" with="poss"/>
+</Amr>

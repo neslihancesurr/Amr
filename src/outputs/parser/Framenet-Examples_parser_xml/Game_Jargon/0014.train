@@ -1,0 +1,19 @@
+<Amr sentence="Kumar oynamam , oynayandan da hoşlanmam .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/kumar 2/oyna" positionX="650" positionY="200"/>
+<Connection from="and" to="1/kumar 2/oyna" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="1/kumar 2/oyna" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="1/kumar 2/oyna" to="ben" with="ARG0"/>
+<Word name="6/hoşlan" positionX="750" positionY="200"/>
+<Connection from="and" to="6/hoşlan" with="op2"/>
+<Connection from="6/hoşlan" to="-" with="polarity"/>
+<Connection from="6/hoşlan" to="ben" with="ARG0"/>
+<Word name="4/oyna" positionX="850" positionY="300"/>
+<Connection from="6/hoşlan" to="4/oyna" with="ARG1"/>
+<Word name="o" positionX="750" positionY="400"/>
+<Connection from="4/oyna" to="o" with="ARG0"/>
+<Word name="5/da" positionX="850" positionY="400"/>
+<Connection from="4/oyna" to="5/da" with="manner"/>
+</Amr>

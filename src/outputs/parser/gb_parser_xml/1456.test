@@ -1,0 +1,14 @@
+<Amr sentence="Hani ne zaman yaptın dersini ?">
+<Word name="4/yap" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="4/yap" to="sen" with="ARG0"/>
+<Word name="1/hani" positionX="750" positionY="200"/>
+<Connection from="4/yap" to="1/hani" with="manner"/>
+<Word name="2/ne" positionX="850" positionY="200"/>
+<Connection from="4/yap" to="2/ne"/>
+<Word name="3/zaman" positionX="750" positionY="300"/>
+<Connection from="2/ne" to="3/zaman"/>
+<Word name="5/ders" positionX="950" positionY="200"/>
+<Connection from="4/yap" to="5/ders" with="ARG1"/>
+<Connection from="5/ders" to="sen" with="poss"/>
+</Amr>

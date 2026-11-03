@@ -1,0 +1,13 @@
+<Amr sentence="Rüştü sağ açığa doğru muhteşem bir degaj yaptı .">
+<Word name="7/degaj 8/yap" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="7/degaj 8/yap" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/rüştü" positionX="450" positionY="400"/>
+<Connection from="name" to="1/rüştü" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/sağ 3/açık" positionX="750" positionY="200"/>
+<Connection from="7/degaj 8/yap" to="2/sağ 3/açık"/>
+</Amr>

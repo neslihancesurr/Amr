@@ -1,0 +1,9 @@
+<Amr sentence="Çocukların karyolalarını sarsıyorlardı .">
+<Word name="3/sars" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="3/sars" to="onlar" with="ARG0"/>
+<Word name="2/karyola" positionX="750" positionY="200"/>
+<Connection from="3/sars" to="2/karyola" with="ARG1"/>
+<Word name="1/çocuk" positionX="650" positionY="300"/>
+<Connection from="2/karyola" to="1/çocuk" with="mod"/>
+</Amr>

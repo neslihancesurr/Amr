@@ -1,0 +1,17 @@
+<Amr sentence="Bu iş bitinceye kadar hepimiz yaşlanmış olacağız .">
+<Word name="6/yaşlan" positionX="750" positionY="100"/>
+<Word name="3/bit" positionX="650" positionY="200"/>
+<Connection from="6/yaşlan" to="3/bit" with="extent"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/bit" to="o" with="ARG0"/>
+<Word name="2/iş" positionX="650" positionY="300"/>
+<Connection from="3/bit" to="2/iş"/>
+<Word name="1/bu" positionX="550" positionY="400"/>
+<Connection from="2/iş" to="1/bu" with="mod"/>
+<Word name="5/hep" positionX="750" positionY="200"/>
+<Connection from="6/yaşlan" to="5/hep" with="frequency"/>
+<Word name="7/ol" positionX="850" positionY="200"/>
+<Connection from="6/yaşlan" to="7/ol"/>
+<Word name="biz" positionX="750" positionY="300"/>
+<Connection from="7/ol" to="biz" with="ARG0"/>
+</Amr>

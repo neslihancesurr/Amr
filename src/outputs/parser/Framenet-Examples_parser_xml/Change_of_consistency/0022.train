@@ -1,0 +1,11 @@
+<Amr sentence="Buradaki fosiller zamanla kömürleşiyor .">
+<Word name="4/kömürleş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/kömürleş" to="o" with="ARG0"/>
+<Word name="2/fosil" positionX="750" positionY="200"/>
+<Connection from="4/kömürleş" to="2/fosil" with="ARG1"/>
+<Word name="1/bura" positionX="650" positionY="300"/>
+<Connection from="2/fosil" to="1/bura" with="mod"/>
+<Word name="3/zaman" positionX="850" positionY="200"/>
+<Connection from="4/kömürleş" to="3/zaman" with="instrument"/>
+</Amr>

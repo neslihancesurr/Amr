@@ -1,0 +1,19 @@
+<Amr sentence="Parası hiç kalmadı , hep borç yiyor .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/kal" positionX="650" positionY="200"/>
+<Connection from="and" to="3/kal" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="3/kal" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/kal" to="o" with="ARG0"/>
+<Word name="1/para" positionX="750" positionY="300"/>
+<Connection from="3/kal" to="1/para"/>
+<Connection from="1/para" to="o" with="poss"/>
+<Word name="2/hiç" positionX="850" positionY="300"/>
+<Connection from="3/kal" to="2/hiç" with="degree"/>
+<Word name="6/borç 7/ye" positionX="750" positionY="200"/>
+<Connection from="and" to="6/borç 7/ye" with="op2"/>
+<Connection from="6/borç 7/ye" to="o" with="ARG0"/>
+<Word name="5/hep" positionX="750" positionY="300"/>
+<Connection from="6/borç 7/ye" to="5/hep" with="frequency"/>
+</Amr>

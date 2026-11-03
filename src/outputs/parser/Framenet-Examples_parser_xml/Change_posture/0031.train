@@ -1,0 +1,13 @@
+<Amr sentence="Tablo sallanıyor , düşecek sanırım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/salla" positionX="650" positionY="200"/>
+<Connection from="and" to="2/salla" with="op1"/>
+<Word name="1/tablo" positionX="550" positionY="300"/>
+<Connection from="2/salla" to="1/tablo" with="ARG0"/>
+<Word name="4/düş" positionX="750" positionY="200"/>
+<Connection from="and" to="4/düş" with="op2"/>
+<Word name="5/san" positionX="650" positionY="300"/>
+<Connection from="4/düş" to="5/san"/>
+<Word name="ben" positionX="550" positionY="400"/>
+<Connection from="5/san" to="ben" with="ARG0"/>
+</Amr>

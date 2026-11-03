@@ -1,0 +1,5 @@
+<Amr sentence="Bilgisayar kapandı .">
+<Word name="2/kapan" positionX="750" positionY="100"/>
+<Word name="1/bilgisayar" positionX="650" positionY="200"/>
+<Connection from="2/kapan" to="1/bilgisayar" with="ARG0"/>
+</Amr>

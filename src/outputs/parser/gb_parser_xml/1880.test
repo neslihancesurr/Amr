@@ -1,0 +1,14 @@
+<Amr sentence="Dert gitmez , değişir .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/değiş" positionX="650" positionY="200"/>
+<Connection from="and" to="4/değiş" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/değiş" to="o" with="ARG0"/>
+<Word name="2/git" positionX="750" positionY="200"/>
+<Connection from="and" to="2/git" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="2/git" to="-" with="polarity"/>
+<Connection from="2/git" to="o" with="ARG0"/>
+<Word name="1/dert" positionX="850" positionY="300"/>
+<Connection from="2/git" to="1/dert"/>
+</Amr>

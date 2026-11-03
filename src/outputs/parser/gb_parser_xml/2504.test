@@ -1,0 +1,23 @@
+<Amr sentence="Yarın ev fazla soğuk olmazsa burada çalışabiliriz .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="7/çalış" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="7/çalış"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="7/çalış" to="biz" with="ARG0"/>
+<Word name="5/ol" positionX="650" positionY="300"/>
+<Connection from="7/çalış" to="5/ol" with="cond"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="5/ol" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="5/ol" to="o" with="ARG0"/>
+<Word name="4/soğuk" positionX="750" positionY="400"/>
+<Connection from="5/ol" to="4/soğuk" with="manner"/>
+<Word name="1/yarın" positionX="650" positionY="500"/>
+<Connection from="4/soğuk" to="1/yarın"/>
+<Word name="2/ev" positionX="750" positionY="500"/>
+<Connection from="4/soğuk" to="2/ev"/>
+<Word name="3/fazla" positionX="850" positionY="500"/>
+<Connection from="4/soğuk" to="3/fazla" with="degree"/>
+<Word name="6/burada" positionX="750" positionY="300"/>
+<Connection from="7/çalış" to="6/burada"/>
+</Amr>

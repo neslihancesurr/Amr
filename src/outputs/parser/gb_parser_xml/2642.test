@@ -1,0 +1,17 @@
+<Amr sentence="Ya ben evde olmasaydım seni kim kurtaracaktı ?">
+<Word name="7/kurtar" positionX="750" positionY="100"/>
+<Word name="1/ya" positionX="650" positionY="200"/>
+<Connection from="7/kurtar" to="1/ya"/>
+<Word name="4/ol" positionX="750" positionY="200"/>
+<Connection from="7/kurtar" to="4/ol"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="4/ol" to="-" with="polarity"/>
+<Word name="3/ev" positionX="750" positionY="300"/>
+<Connection from="4/ol" to="3/ev" with="location"/>
+<Word name="2/ben" positionX="650" positionY="400"/>
+<Connection from="3/ev" to="2/ben"/>
+<Word name="5/sen" positionX="850" positionY="200"/>
+<Connection from="7/kurtar" to="5/sen" with="ARG1"/>
+<Word name="6/kim" positionX="950" positionY="200"/>
+<Connection from="7/kurtar" to="6/kim" with="ARG0"/>
+</Amr>

@@ -1,0 +1,23 @@
+<Amr sentence="Ahmet kendi kendine yurt dışına çıkamaz .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="6/çık" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="6/çık"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="6/çık" to="-" with="polarity"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="6/çık" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ahmet" positionX="450" positionY="500"/>
+<Connection from="name" to="1/ahmet" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/kendi" positionX="750" positionY="300"/>
+<Connection from="6/çık" to="3/kendi"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="3/kendi" to="o" with="poss"/>
+<Word name="2/kendi" positionX="750" positionY="400"/>
+<Connection from="3/kendi" to="2/kendi"/>
+<Connection from="2/kendi" to="o" with="poss"/>
+<Word name="4/yurt 5/dış" positionX="850" positionY="300"/>
+<Connection from="6/çık" to="4/yurt 5/dış" with="ARG1"/>
+</Amr>

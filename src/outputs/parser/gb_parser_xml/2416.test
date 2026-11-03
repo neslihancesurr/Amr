@@ -1,0 +1,11 @@
+<Amr sentence="Çocuklar koşarak içeri girdiler .">
+<Word name="4/gir" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/gir" to="onlar" with="ARG0"/>
+<Word name="1/çocuk" positionX="750" positionY="200"/>
+<Connection from="4/gir" to="1/çocuk"/>
+<Word name="2/koş" positionX="850" positionY="200"/>
+<Connection from="4/gir" to="2/koş"/>
+<Word name="3/içeri" positionX="950" positionY="200"/>
+<Connection from="4/gir" to="3/içeri"/>
+</Amr>

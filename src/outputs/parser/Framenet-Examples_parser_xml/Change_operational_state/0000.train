@@ -1,0 +1,13 @@
+<Amr sentence="Lamba düğmesini açabilir misin ?">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="3/aç" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="3/aç"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/aç" to="o" with="ARG0"/>
+<Word name="2/düğme" positionX="650" positionY="300"/>
+<Connection from="3/aç" to="2/düğme" with="ARG1"/>
+<Word name="1/lamba" positionX="550" positionY="400"/>
+<Connection from="2/düğme" to="1/lamba" with="mod"/>
+<Word name="4/mi" positionX="750" positionY="300"/>
+<Connection from="3/aç" to="4/mi"/>
+</Amr>

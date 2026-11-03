@@ -1,0 +1,9 @@
+<Amr sentence="Sakat yeğenine aylık bağladı .">
+<Word name="3/aylık 4/bağla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/aylık 4/bağla" to="o" with="ARG0"/>
+<Word name="2/yeğen" positionX="750" positionY="200"/>
+<Connection from="3/aylık 4/bağla" to="2/yeğen" with="ARG1"/>
+<Word name="1/sakat" positionX="650" positionY="300"/>
+<Connection from="2/yeğen" to="1/sakat" with="mod"/>
+</Amr>

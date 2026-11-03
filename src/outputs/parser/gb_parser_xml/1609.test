@@ -1,0 +1,17 @@
+<Amr sentence="Yemekte Tülay yanımda oturuyordu .">
+<Word name="4/otur" positionX="750" positionY="100"/>
+<Word name="1/yemek" positionX="650" positionY="200"/>
+<Connection from="4/otur" to="1/yemek" with="location"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="4/otur" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/tülay" positionX="550" positionY="400"/>
+<Connection from="name" to="2/tülay" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/yan" positionX="850" positionY="200"/>
+<Connection from="4/otur" to="3/yan" with="ARG1"/>
+<Word name="ben" positionX="750" positionY="300"/>
+<Connection from="3/yan" to="ben" with="poss"/>
+</Amr>

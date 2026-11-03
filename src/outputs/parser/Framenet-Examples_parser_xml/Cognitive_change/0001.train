@@ -1,0 +1,11 @@
+<Amr sentence="Sen bu kafayı değiştirmelisin yoksa başına çok iş açarsın .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/kafa 4/değiştir" positionX="650" positionY="200"/>
+<Connection from="and" to="3/kafa 4/değiştir" with="op1"/>
+<Word name="1/sen" positionX="550" positionY="300"/>
+<Connection from="3/kafa 4/değiştir" to="1/sen" with="ARG0"/>
+<Word name="8/iş 9/aç" positionX="750" positionY="200"/>
+<Connection from="and" to="8/iş 9/aç" with="op2"/>
+<Word name="5/yoksa" positionX="650" positionY="300"/>
+<Connection from="8/iş 9/aç" to="5/yoksa"/>
+</Amr>

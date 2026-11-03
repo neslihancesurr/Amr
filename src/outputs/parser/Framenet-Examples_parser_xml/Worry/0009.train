@@ -1,0 +1,10 @@
+<Amr sentence="Radikalliği etrafındakilere kaygı veriyordu .">
+<Word name="3/kaygı 4/ver" positionX="750" positionY="100"/>
+<Word name="1/radikal" positionX="650" positionY="200"/>
+<Connection from="3/kaygı 4/ver" to="1/radikal" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/radikal" to="o" with="poss"/>
+<Word name="2/etraf" positionX="750" positionY="200"/>
+<Connection from="3/kaygı 4/ver" to="2/etraf" with="ARG2"/>
+<Connection from="2/etraf" to="o" with="poss"/>
+</Amr>

@@ -1,0 +1,18 @@
+<Amr sentence="İşini düzgün yapmazsa hemen kuyruğuna teneke bağlarlar .">
+<Word name="5/kuyruk 6/teneke 7/bağla" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="5/kuyruk 6/teneke 7/bağla" to="onlar" with="ARG0"/>
+<Word name="3/yap" positionX="750" positionY="200"/>
+<Connection from="5/kuyruk 6/teneke 7/bağla" to="3/yap" with="cond"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="3/yap" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="3/yap" to="o" with="ARG0"/>
+<Word name="1/iş" positionX="850" positionY="300"/>
+<Connection from="3/yap" to="1/iş" with="ARG1"/>
+<Connection from="1/iş" to="o" with="poss"/>
+<Word name="2/düzgün" positionX="950" positionY="300"/>
+<Connection from="3/yap" to="2/düzgün" with="manner"/>
+<Word name="4/hemen" positionX="850" positionY="200"/>
+<Connection from="5/kuyruk 6/teneke 7/bağla" to="4/hemen" with="mod"/>
+</Amr>

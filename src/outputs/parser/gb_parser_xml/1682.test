@@ -1,0 +1,20 @@
+<Amr sentence="Belki bunca zamandan sonra birbirimizi tanıyamayız .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="6/tanı" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="6/tanı"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="6/tanı" to="-" with="polarity"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="6/tanı" to="biz" with="ARG0"/>
+<Word name="1/belki" positionX="750" positionY="300"/>
+<Connection from="6/tanı" to="1/belki" with="manner"/>
+<Word name="3/zaman" positionX="850" positionY="300"/>
+<Connection from="6/tanı" to="3/zaman"/>
+<Word name="2/bunca" positionX="750" positionY="400"/>
+<Connection from="3/zaman" to="2/bunca" with="mod"/>
+<Word name="4/sonra" positionX="850" positionY="400"/>
+<Connection from="3/zaman" to="4/sonra"/>
+<Word name="5/birbiri" positionX="950" positionY="300"/>
+<Connection from="6/tanı" to="5/birbiri" with="ARG1"/>
+<Connection from="5/birbiri" to="biz" with="poss"/>
+</Amr>

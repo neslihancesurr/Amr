@@ -1,0 +1,7 @@
+<Amr sentence="birtakım ceviz ağacından sehpalar">
+<Word name="4/sehpa" positionX="750" positionY="100"/>
+<Word name="1/birtakım" positionX="650" positionY="200"/>
+<Connection from="4/sehpa" to="1/birtakım" with="mod"/>
+<Word name="2/ceviz 3/ağaç" positionX="750" positionY="200"/>
+<Connection from="4/sehpa" to="2/ceviz 3/ağaç" with="mod"/>
+</Amr>

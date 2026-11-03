@@ -1,0 +1,7 @@
+<Amr sentence="Uğultular hızla çoğaldı .">
+<Word name="2/hızla 3/çoğal" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="2/hızla 3/çoğal" to="o" with="ARG0"/>
+<Word name="1/uğultu" positionX="750" positionY="200"/>
+<Connection from="2/hızla 3/çoğal" to="1/uğultu" with="ARG1"/>
+</Amr>

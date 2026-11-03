@@ -1,0 +1,5 @@
+<Amr sentence="kuzu fırın">
+<Word name="2/fırın" positionX="750" positionY="100"/>
+<Word name="1/kuzu" positionX="650" positionY="200"/>
+<Connection from="2/fırın" to="1/kuzu" with="mod"/>
+</Amr>

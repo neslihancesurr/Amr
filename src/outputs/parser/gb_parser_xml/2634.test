@@ -1,0 +1,9 @@
+<Amr sentence="Çok da uslu maşallah .">
+<Word name="3/uslu" positionX="750" positionY="100"/>
+<Word name="1/çok" positionX="650" positionY="200"/>
+<Connection from="3/uslu" to="1/çok" with="degree"/>
+<Word name="2/da" positionX="550" positionY="300"/>
+<Connection from="1/çok" to="2/da"/>
+<Word name="4/maşallah" positionX="750" positionY="200"/>
+<Connection from="3/uslu" to="4/maşallah"/>
+</Amr>

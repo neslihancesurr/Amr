@@ -1,0 +1,15 @@
+<Amr sentence="Şimdi vitesi değiştir , biraz hızlanalım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/vites 3/değiştir" positionX="650" positionY="200"/>
+<Connection from="and" to="2/vites 3/değiştir" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="2/vites 3/değiştir" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="650" positionY="300"/>
+<Connection from="2/vites 3/değiştir" to="imperative" with="mode"/>
+<Word name="1/şimdi" positionX="750" positionY="300"/>
+<Connection from="2/vites 3/değiştir" to="1/şimdi" with="manner"/>
+<Word name="6/hız" positionX="750" positionY="200"/>
+<Connection from="and" to="6/hız" with="op2"/>
+<Word name="5/biraz" positionX="650" positionY="300"/>
+<Connection from="6/hız" to="5/biraz" with="manner"/>
+</Amr>

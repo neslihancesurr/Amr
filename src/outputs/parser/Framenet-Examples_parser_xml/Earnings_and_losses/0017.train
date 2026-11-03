@@ -1,0 +1,15 @@
+<Amr sentence="Devlet , ne yapar eder , vergiyi tahsil eder .">
+<Word name="8/tahsil 9/et" positionX="750" positionY="100"/>
+<Word name="1/devlet" positionX="650" positionY="200"/>
+<Connection from="8/tahsil 9/et" to="1/devlet" with="ARG0"/>
+<Word name="5/et" positionX="750" positionY="200"/>
+<Connection from="8/tahsil 9/et" to="5/et"/>
+<Word name="3/ne" positionX="650" positionY="300"/>
+<Connection from="5/et" to="3/ne" with="ARG1"/>
+<Word name="4/yap" positionX="750" positionY="300"/>
+<Connection from="5/et" to="4/yap"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="4/yap" to="o" with="ARG0"/>
+<Word name="7/vergi" positionX="850" positionY="200"/>
+<Connection from="8/tahsil 9/et" to="7/vergi" with="ARG1"/>
+</Amr>

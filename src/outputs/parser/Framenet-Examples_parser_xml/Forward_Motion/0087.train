@@ -1,0 +1,17 @@
+<Amr sentence="Babamla pazar günü etrafta dolaştık .">
+<Word name="5/dolaş" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/dolaş" to="biz" with="ARG0"/>
+<Word name="1/baba" positionX="750" positionY="200"/>
+<Connection from="5/dolaş" to="1/baba" with="ARG0"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="1/baba" to="ben" with="poss"/>
+<Word name="3/gün" positionX="850" positionY="200"/>
+<Connection from="5/dolaş" to="3/gün" with="mod"/>
+<Word name="date-entity" positionX="750" positionY="300"/>
+<Connection from="3/gün" to="date-entity" with="date"/>
+<Word name="2/pazar" positionX="650" positionY="400"/>
+<Connection from="date-entity" to="2/pazar" with="weekday"/>
+<Word name="4/etraf" positionX="950" positionY="200"/>
+<Connection from="5/dolaş" to="4/etraf" with="ARG1"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="beş yatak odalı ev">
+<Word name="4/ev" positionX="750" positionY="100"/>
+<Word name="3/odalı" positionX="650" positionY="200"/>
+<Connection from="4/ev" to="3/odalı" with="mod"/>
+<Word name="1/beş" positionX="550" positionY="300"/>
+<Connection from="3/odalı" to="1/beş"/>
+<Word name="2/yatak" positionX="650" positionY="300"/>
+<Connection from="3/odalı" to="2/yatak" with="mod"/>
+</Amr>

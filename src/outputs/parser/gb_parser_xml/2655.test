@@ -1,0 +1,24 @@
+<Amr sentence="Necla hem Boğaziçi Üniversitesi hem de Bilkent'e girebiliyormuş .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="8/gir" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="8/gir"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="8/gir" to="person" with="ARG0"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/necla" positionX="350" positionY="500"/>
+<Connection from="name" to="1/necla" with="op1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="and" positionX="650" positionY="300"/>
+<Connection from="8/gir" to="and"/>
+<Connection from="and" to="person" with="op1"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="7/bilkent" positionX="350" positionY="600"/>
+<Connection from="name" to="7/bilkent" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/üniversite" positionX="650" positionY="400"/>
+<Connection from="and" to="4/üniversite" with="mod"/>
+<Word name="3/boğaziç" positionX="550" positionY="500"/>
+<Connection from="4/üniversite" to="3/boğaziç" with="mod"/>
+</Amr>

@@ -1,0 +1,20 @@
+<Amr sentence="Biraz serinledi sanki , hırkanı giy .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/serinle" positionX="650" positionY="200"/>
+<Connection from="and" to="2/serinle" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/serinle" to="o" with="ARG0"/>
+<Word name="1/biraz" positionX="650" positionY="300"/>
+<Connection from="2/serinle" to="1/biraz" with="manner"/>
+<Word name="3/sanki" positionX="750" positionY="300"/>
+<Connection from="2/serinle" to="3/sanki" with="manner"/>
+<Word name="6/giy" positionX="750" positionY="200"/>
+<Connection from="and" to="6/giy" with="op2"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="6/giy" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="300"/>
+<Connection from="6/giy" to="imperative" with="mode"/>
+<Word name="5/hırka" positionX="850" positionY="300"/>
+<Connection from="6/giy" to="5/hırka" with="ARG1"/>
+<Connection from="5/hırka" to="sen" with="poss"/>
+</Amr>

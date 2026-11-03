@@ -1,0 +1,13 @@
+<Amr sentence="Yeni paltomu gördün mü ?">
+<Word name="3/gör" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="3/gör" to="sen" with="ARG0"/>
+<Word name="2/palto" positionX="750" positionY="200"/>
+<Connection from="3/gör" to="2/palto" with="ARG1"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="2/palto" to="ben" with="poss"/>
+<Word name="1/yeni" positionX="750" positionY="300"/>
+<Connection from="2/palto" to="1/yeni" with="mod"/>
+<Word name="4/mi" positionX="850" positionY="200"/>
+<Connection from="3/gör" to="4/mi"/>
+</Amr>

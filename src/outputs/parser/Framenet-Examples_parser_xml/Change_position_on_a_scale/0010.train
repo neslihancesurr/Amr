@@ -1,0 +1,13 @@
+<Amr sentence="Kırkı boylamış bir ateşle par par yanıyordu .">
+<Word name="7/yan" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/yan" to="o" with="ARG0"/>
+<Word name="4/ateş" positionX="750" positionY="200"/>
+<Connection from="7/yan" to="4/ateş" with="instrument"/>
+<Word name="2/boyla" positionX="650" positionY="300"/>
+<Connection from="4/ateş" to="2/boyla"/>
+<Word name="1/kırk" positionX="550" positionY="400"/>
+<Connection from="2/boyla" to="1/kırk"/>
+<Word name="5/par 6/par" positionX="850" positionY="200"/>
+<Connection from="7/yan" to="5/par 6/par"/>
+</Amr>

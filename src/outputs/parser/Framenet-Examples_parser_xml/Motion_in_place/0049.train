@@ -1,0 +1,8 @@
+<Amr sentence="Saçlarımı büktüm .">
+<Word name="2/bük" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="2/bük" to="ben" with="ARG0"/>
+<Word name="1/saç" positionX="750" positionY="200"/>
+<Connection from="2/bük" to="1/saç" with="ARG1"/>
+<Connection from="1/saç" to="ben" with="poss"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Bir kenara çekilip köy meydanını seyreyledi .">
+<Word name="6/seyreyle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/seyreyle" to="o" with="ARG0"/>
+<Word name="2/kenar 3/çekil" positionX="750" positionY="200"/>
+<Connection from="6/seyreyle" to="2/kenar 3/çekil"/>
+<Word name="4/köy 5/meydan" positionX="850" positionY="200"/>
+<Connection from="6/seyreyle" to="4/köy 5/meydan" with="ARG1"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Onun kaçamak bakışlarını yakaladım .">
+<Word name="4/yakala" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/yakala" to="ben" with="ARG0"/>
+<Word name="3/bak" positionX="750" positionY="200"/>
+<Connection from="4/yakala" to="3/bak" with="ARG1"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="3/bak" to="onlar" with="ARG0"/>
+<Word name="1/o" positionX="750" positionY="300"/>
+<Connection from="3/bak" to="1/o" with="mod"/>
+<Word name="2/kaçamak" positionX="850" positionY="300"/>
+<Connection from="3/bak" to="2/kaçamak" with="mod"/>
+</Amr>

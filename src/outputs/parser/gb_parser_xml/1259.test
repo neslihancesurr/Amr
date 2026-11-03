@@ -1,0 +1,15 @@
+<Amr sentence="Zeki'nin arabası evin önündeymiş .">
+<Word name="4/ön:location" positionX="750" positionY="100"/>
+<Word name="3/ev" positionX="650" positionY="200"/>
+<Connection from="4/ön:location" to="3/ev" with="mod"/>
+<Word name="2/araba" positionX="550" positionY="300"/>
+<Connection from="3/ev" to="2/araba"/>
+<Word name="person" positionX="450" positionY="400"/>
+<Connection from="2/araba" to="person"/>
+<Word name="name" positionX="350" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/zeki" positionX="250" positionY="600"/>
+<Connection from="name" to="1/zeki" with="op1"/>
+<Word name="-" positionX="450" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

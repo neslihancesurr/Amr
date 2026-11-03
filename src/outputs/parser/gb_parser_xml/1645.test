@@ -1,0 +1,7 @@
+<Amr sentence="Girilmez .">
+<Word name="1/gir" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="1/gir" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="1/gir" to="o" with="ARG0"/>
+</Amr>

@@ -1,0 +1,14 @@
+<Amr sentence="Arabayı çalıştırmak için kontak açmak gerekir .">
+<Word name="6/gerek" positionX="750" positionY="100"/>
+<Word name="yap" positionX="650" positionY="200"/>
+<Connection from="6/gerek" to="yap"/>
+<Word name="2/çalış" positionX="550" positionY="300"/>
+<Connection from="yap" to="2/çalış" with="cause"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="2/çalış" to="o" with="ARG0"/>
+<Word name="1/araba" positionX="550" positionY="400"/>
+<Connection from="2/çalış" to="1/araba"/>
+<Word name="4/kontak 5/aç" positionX="750" positionY="200"/>
+<Connection from="6/gerek" to="4/kontak 5/aç" with="ARG0"/>
+<Connection from="4/kontak 5/aç" to="o" with="ARG0"/>
+</Amr>

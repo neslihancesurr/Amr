@@ -1,0 +1,9 @@
+<Amr sentence="İnsanların gözünde büyük bir yara aldım .">
+<Word name="5/yara 6/al" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/yara 6/al" to="ben" with="ARG0"/>
+<Word name="2/gözünde" positionX="750" positionY="200"/>
+<Connection from="5/yara 6/al" to="2/gözünde"/>
+<Word name="1/insan" positionX="650" positionY="300"/>
+<Connection from="2/gözünde" to="1/insan" with="mod"/>
+</Amr>

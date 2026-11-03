@@ -1,0 +1,11 @@
+<Amr sentence="Annesinin hastalığından sonra işi gücü bıraktı .">
+<Word name="4/iş 5/güç 6/bırak" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/iş 5/güç 6/bırak" to="o" with="ARG0"/>
+<Word name="2/hastalık" positionX="750" positionY="200"/>
+<Connection from="4/iş 5/güç 6/bırak" to="2/hastalık" with="mod"/>
+<Word name="1/anne" positionX="650" positionY="300"/>
+<Connection from="2/hastalık" to="1/anne" with="mod"/>
+<Word name="3/sonra" positionX="750" positionY="300"/>
+<Connection from="2/hastalık" to="3/sonra"/>
+</Amr>

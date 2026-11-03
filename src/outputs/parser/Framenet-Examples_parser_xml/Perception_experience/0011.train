@@ -1,0 +1,15 @@
+<Amr sentence="Son günlerde hasta biriyle temasta bulundunuz mu ?">
+<Word name="5/temas 6/bulun" positionX="750" positionY="100"/>
+<Word name="siz" positionX="650" positionY="200"/>
+<Connection from="5/temas 6/bulun" to="siz" with="ARG0"/>
+<Word name="2/gün" positionX="750" positionY="200"/>
+<Connection from="5/temas 6/bulun" to="2/gün" with="location"/>
+<Word name="1/son" positionX="650" positionY="300"/>
+<Connection from="2/gün" to="1/son" with="mod"/>
+<Word name="4/biri" positionX="850" positionY="200"/>
+<Connection from="5/temas 6/bulun" to="4/biri" with="ARG1"/>
+<Word name="3/hasta" positionX="750" positionY="300"/>
+<Connection from="4/biri" to="3/hasta" with="mod"/>
+<Word name="7/mi" positionX="950" positionY="200"/>
+<Connection from="5/temas 6/bulun" to="7/mi"/>
+</Amr>

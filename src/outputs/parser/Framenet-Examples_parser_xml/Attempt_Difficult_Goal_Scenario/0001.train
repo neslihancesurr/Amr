@@ -1,0 +1,19 @@
+<Amr sentence="Sanat aşkına saygı duyuyorum ama şu an tek kürekle mehtaba çıkıyorsun .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="8/tek 9/kürek 10/mehtap 11/çık" positionX="650" positionY="200"/>
+<Connection from="and" to="8/tek 9/kürek 10/mehtap 11/çık" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="8/tek 9/kürek 10/mehtap 11/çık" to="sen" with="ARG0"/>
+<Word name="7/an" positionX="650" positionY="300"/>
+<Connection from="8/tek 9/kürek 10/mehtap 11/çık" to="7/an" with="mod"/>
+<Word name="6/şu" positionX="550" positionY="400"/>
+<Connection from="7/an" to="6/şu" with="mod"/>
+<Word name="3/saygı 4/duy" positionX="750" positionY="200"/>
+<Connection from="and" to="3/saygı 4/duy" with="op2"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="3/saygı 4/duy" to="ben" with="ARG0"/>
+<Word name="2/aşk" positionX="750" positionY="300"/>
+<Connection from="3/saygı 4/duy" to="2/aşk" with="ARG1"/>
+<Word name="1/sanat" positionX="650" positionY="400"/>
+<Connection from="2/aşk" to="1/sanat" with="mod"/>
+</Amr>

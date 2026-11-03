@@ -1,0 +1,11 @@
+<Amr sentence="Eksik kalan kısmı cepten verdi .">
+<Word name="4/cep 5/ver" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="4/cep 5/ver" to="sen" with="ARG0"/>
+<Word name="3/kısım" positionX="750" positionY="200"/>
+<Connection from="4/cep 5/ver" to="3/kısım" with="ARG1"/>
+<Word name="2/kalan" positionX="650" positionY="300"/>
+<Connection from="3/kısım" to="2/kalan"/>
+<Word name="1/eksik" positionX="550" positionY="400"/>
+<Connection from="2/kalan" to="1/eksik" with="manner"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Genellikle kardeşler arasında kuvvetli bir dayanışma var .">
+<Word name="7/var" positionX="750" positionY="100"/>
+<Word name="1/genellikle" positionX="650" positionY="200"/>
+<Connection from="7/var" to="1/genellikle" with="manner"/>
+<Word name="3/ara" positionX="750" positionY="200"/>
+<Connection from="7/var" to="3/ara" with="location"/>
+<Word name="2/kardeş" positionX="650" positionY="300"/>
+<Connection from="3/ara" to="2/kardeş" with="mod"/>
+<Word name="6/dayanışma" positionX="850" positionY="200"/>
+<Connection from="7/var" to="6/dayanışma"/>
+<Word name="4/kuvvetli" positionX="750" positionY="300"/>
+<Connection from="6/dayanışma" to="4/kuvvetli" with="mod"/>
+</Amr>

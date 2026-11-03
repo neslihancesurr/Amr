@@ -1,0 +1,13 @@
+<Amr sentence="Çocuğun babası kim biliniyor mu ?">
+<Word name="4/bil" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/bil" to="o" with="ARG0"/>
+<Word name="3/kim" positionX="750" positionY="200"/>
+<Connection from="4/bil" to="3/kim"/>
+<Word name="2/baba" positionX="650" positionY="300"/>
+<Connection from="3/kim" to="2/baba"/>
+<Word name="1/çocuk" positionX="550" positionY="400"/>
+<Connection from="2/baba" to="1/çocuk" with="mod"/>
+<Word name="5/mi" positionX="850" positionY="200"/>
+<Connection from="4/bil" to="5/mi"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Karşı tarafı lafa tutarak biraz vakit kazandı .">
+<Word name="6/vakit 7/kazan" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/vakit 7/kazan" to="o" with="ARG0"/>
+<Word name="4/tut" positionX="750" positionY="200"/>
+<Connection from="6/vakit 7/kazan" to="4/tut"/>
+<Word name="2/taraf" positionX="650" positionY="300"/>
+<Connection from="4/tut" to="2/taraf"/>
+<Word name="1/karşı" positionX="550" positionY="400"/>
+<Connection from="2/taraf" to="1/karşı" with="mod"/>
+<Word name="3/laf" positionX="750" positionY="300"/>
+<Connection from="4/tut" to="3/laf"/>
+</Amr>

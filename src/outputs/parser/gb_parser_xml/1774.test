@@ -1,0 +1,11 @@
+<Amr sentence="Bu konuda kime danışsam acaba ?">
+<Word name="4/danış:cond" positionX="750" positionY="100"/>
+<Word name="2/konu" positionX="650" positionY="200"/>
+<Connection from="4/danış:cond" to="2/konu" with="location"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/konu" to="1/bu" with="mod"/>
+<Word name="3/kim" positionX="750" positionY="200"/>
+<Connection from="4/danış:cond" to="3/kim"/>
+<Word name="5/acaba" positionX="850" positionY="200"/>
+<Connection from="4/danış:cond" to="5/acaba" with="manner"/>
+</Amr>

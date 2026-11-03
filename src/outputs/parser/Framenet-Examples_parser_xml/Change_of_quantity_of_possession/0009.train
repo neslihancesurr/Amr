@@ -1,0 +1,14 @@
+<Amr sentence="Yaptığım işte ciddi bir meblağ iktisap ettim .">
+<Word name="6/iktisap 7/et" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="6/iktisap 7/et" to="ben" with="ARG0"/>
+<Word name="2/iş" positionX="750" positionY="200"/>
+<Connection from="6/iktisap 7/et" to="2/iş" with="location"/>
+<Word name="1/yap" positionX="650" positionY="300"/>
+<Connection from="2/iş" to="1/yap"/>
+<Connection from="1/yap" to="ben" with="poss"/>
+<Word name="5/meblağ" positionX="850" positionY="200"/>
+<Connection from="6/iktisap 7/et" to="5/meblağ" with="ARG1"/>
+<Word name="3/ciddi" positionX="750" positionY="300"/>
+<Connection from="5/meblağ" to="3/ciddi" with="mod"/>
+</Amr>

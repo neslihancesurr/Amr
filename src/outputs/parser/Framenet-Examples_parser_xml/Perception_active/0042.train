@@ -1,0 +1,20 @@
+<Amr sentence="5 dakika içinde çıkması gerektiğini öğrenince gözleri fıldır fıldır oldu .">
+<Word name="7/göz 8/fıldır 9/fıldır 10/ol" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/göz 8/fıldır 9/fıldır 10/ol" to="o" with="ARG0"/>
+<Word name="6/öğren" positionX="750" positionY="200"/>
+<Connection from="7/göz 8/fıldır 9/fıldır 10/ol" to="6/öğren"/>
+<Word name="5/gerek" positionX="650" positionY="300"/>
+<Connection from="6/öğren" to="5/gerek" with="ARG1"/>
+<Connection from="5/gerek" to="o" with="ARG0"/>
+<Connection from="5/gerek" to="o" with="poss"/>
+<Word name="4/çık" positionX="750" positionY="400"/>
+<Connection from="5/gerek" to="4/çık"/>
+<Connection from="4/çık" to="o" with="ARG0"/>
+<Word name="3/iç" positionX="750" positionY="500"/>
+<Connection from="4/çık" to="3/iç" with="mod"/>
+<Word name="2/dakika" positionX="650" positionY="600"/>
+<Connection from="3/iç" to="2/dakika" with="mod"/>
+<Word name="1/5" positionX="550" positionY="700"/>
+<Connection from="2/dakika" to="1/5"/>
+</Amr>

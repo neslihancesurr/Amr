@@ -1,0 +1,25 @@
+<Amr sentence="Banu toplantılarımıza gelse de pek bir şey söylemiyor .">
+<Word name="8/söyle" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="8/söyle" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="8/söyle" to="o" with="ARG0"/>
+<Word name="3/gel" positionX="850" positionY="200"/>
+<Connection from="8/söyle" to="3/gel"/>
+<Connection from="3/gel" to="o" with="ARG0"/>
+<Word name="person" positionX="850" positionY="300"/>
+<Connection from="3/gel" to="person"/>
+<Word name="name" positionX="750" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/banu" positionX="650" positionY="500"/>
+<Connection from="name" to="1/banu" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/toplantı" positionX="950" positionY="300"/>
+<Connection from="3/gel" to="2/toplantı"/>
+<Word name="biz" positionX="850" positionY="400"/>
+<Connection from="2/toplantı" to="biz" with="poss"/>
+<Word name="4/de" positionX="1050" positionY="300"/>
+<Connection from="3/gel" to="4/de"/>
+<Word name="5/pek" positionX="950" positionY="200"/>
+<Connection from="8/söyle" to="5/pek" with="manner"/>
+</Amr>

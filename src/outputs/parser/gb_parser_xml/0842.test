@@ -1,0 +1,15 @@
+<Amr sentence="Berna kocasından ayrılmıştı .">
+<Word name="3/ayrıl" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="3/ayrıl" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/berna" positionX="450" positionY="400"/>
+<Connection from="name" to="1/berna" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/koca" positionX="750" positionY="200"/>
+<Connection from="3/ayrıl" to="2/koca" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/koca" to="o" with="poss"/>
+</Amr>

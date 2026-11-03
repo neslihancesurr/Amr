@@ -1,0 +1,13 @@
+<Amr sentence="Füsun bu kitapları öğretmenlik yaparken kullanmıştı .">
+<Word name="6/kullan" positionX="750" positionY="100"/>
+<Word name="1/füsun" positionX="650" positionY="200"/>
+<Connection from="6/kullan" to="1/füsun" with="ARG0"/>
+<Word name="3/kitap" positionX="750" positionY="200"/>
+<Connection from="6/kullan" to="3/kitap" with="ARG1"/>
+<Word name="2/bu" positionX="650" positionY="300"/>
+<Connection from="3/kitap" to="2/bu" with="mod"/>
+<Word name="5/yap" positionX="850" positionY="200"/>
+<Connection from="6/kullan" to="5/yap"/>
+<Word name="4/öğretmenlik" positionX="750" positionY="300"/>
+<Connection from="5/yap" to="4/öğretmenlik" with="ARG1"/>
+</Amr>

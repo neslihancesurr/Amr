@@ -1,0 +1,9 @@
+<Amr sentence="Herkes bana bakıyordu .">
+<Word name="3/bak" positionX="750" positionY="100"/>
+<Word name="1/herkes" positionX="650" positionY="200"/>
+<Connection from="3/bak" to="1/herkes" with="ARG0"/>
+<Word name="onlar" positionX="550" positionY="300"/>
+<Connection from="1/herkes" to="onlar" with="poss"/>
+<Word name="2/ben" positionX="750" positionY="200"/>
+<Connection from="3/bak" to="2/ben" with="ARG1"/>
+</Amr>

@@ -1,0 +1,19 @@
+<Amr sentence="İki saat oldu , yapınamadı bu kızanlar .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/ol" positionX="650" positionY="200"/>
+<Connection from="and" to="3/ol" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/ol" to="o" with="ARG0"/>
+<Word name="2/saat" positionX="650" positionY="300"/>
+<Connection from="3/ol" to="2/saat" with="ARG1"/>
+<Word name="1/iki" positionX="550" positionY="400"/>
+<Connection from="2/saat" to="1/iki"/>
+<Word name="5/yapın" positionX="750" positionY="200"/>
+<Connection from="and" to="5/yapın" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="5/yapın" to="-" with="polarity"/>
+<Word name="7/kızan" positionX="750" positionY="300"/>
+<Connection from="5/yapın" to="7/kızan" with="ARG0"/>
+<Word name="6/bu" positionX="650" positionY="400"/>
+<Connection from="7/kızan" to="6/bu" with="mod"/>
+</Amr>

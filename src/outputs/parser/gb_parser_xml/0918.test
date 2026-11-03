@@ -1,0 +1,28 @@
+<Amr sentence="Önce bütün kitabı gözden geçir , sonra önemli gördüğün bölümlere geri dön .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="11/geri 12/dön" positionX="650" positionY="200"/>
+<Connection from="and" to="11/geri 12/dön" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="11/geri 12/dön" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="650" positionY="300"/>
+<Connection from="11/geri 12/dön" to="imperative" with="mode"/>
+<Word name="7/sonra" positionX="750" positionY="300"/>
+<Connection from="11/geri 12/dön" to="7/sonra" with="manner"/>
+<Word name="10/bölüm" positionX="850" positionY="300"/>
+<Connection from="11/geri 12/dön" to="10/bölüm" with="ARG1"/>
+<Word name="9/gör" positionX="750" positionY="400"/>
+<Connection from="10/bölüm" to="9/gör"/>
+<Connection from="9/gör" to="sen" with="poss"/>
+<Word name="8/önemli" positionX="750" positionY="500"/>
+<Connection from="9/gör" to="8/önemli"/>
+<Word name="4/göz 5/geçir" positionX="750" positionY="200"/>
+<Connection from="and" to="4/göz 5/geçir" with="op2"/>
+<Connection from="4/göz 5/geçir" to="sen" with="ARG0"/>
+<Connection from="4/göz 5/geçir" to="imperative" with="mode"/>
+<Word name="1/önce" positionX="850" positionY="300"/>
+<Connection from="4/göz 5/geçir" to="1/önce" with="manner"/>
+<Word name="3/kitap" positionX="950" positionY="300"/>
+<Connection from="4/göz 5/geçir" to="3/kitap" with="ARG1"/>
+<Word name="2/bütün" positionX="850" positionY="400"/>
+<Connection from="3/kitap" to="2/bütün" with="mod"/>
+</Amr>

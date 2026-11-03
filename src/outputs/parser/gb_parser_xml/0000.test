@@ -1,0 +1,13 @@
+<Amr sentence="O her zaman yemeklerini lokantada yer .">
+<Word name="6/ye" positionX="750" positionY="100"/>
+<Word name="1/o" positionX="650" positionY="200"/>
+<Connection from="6/ye" to="1/o" with="ARG0"/>
+<Word name="2/her 3/zaman" positionX="750" positionY="200"/>
+<Connection from="6/ye" to="2/her 3/zaman" with="mod"/>
+<Word name="4/yemek" positionX="850" positionY="200"/>
+<Connection from="6/ye" to="4/yemek" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="4/yemek" to="o" with="poss"/>
+<Word name="5/lokanta" positionX="950" positionY="200"/>
+<Connection from="6/ye" to="5/lokanta" with="location"/>
+</Amr>

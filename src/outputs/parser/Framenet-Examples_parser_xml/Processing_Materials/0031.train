@@ -1,0 +1,11 @@
+<Amr sentence="Burada otomobil parçaları nikelleniyor .">
+<Word name="4/nikelle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/nikelle" to="o" with="ARG0"/>
+<Word name="1/burada" positionX="750" positionY="200"/>
+<Connection from="4/nikelle" to="1/burada" with="manner"/>
+<Word name="3/parça" positionX="850" positionY="200"/>
+<Connection from="4/nikelle" to="3/parça" with="ARG1"/>
+<Word name="2/otomobil" positionX="750" positionY="300"/>
+<Connection from="3/parça" to="2/otomobil" with="mod"/>
+</Amr>

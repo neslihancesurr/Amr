@@ -1,0 +1,14 @@
+<Amr sentence="Olabilecekleri tasavvur edemiyorum .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="2/tasavvur 3/et" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="2/tasavvur 3/et"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="2/tasavvur 3/et" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="2/tasavvur 3/et" to="ben" with="ARG0"/>
+<Connection from="2/tasavvur 3/et" to="mümkün"/>
+<Word name="1/ol" positionX="650" positionY="400"/>
+<Connection from="mümkün" to="1/ol" with="ARG1"/>
+<Word name="onlar" positionX="550" positionY="500"/>
+<Connection from="1/ol" to="onlar" with="poss"/>
+</Amr>

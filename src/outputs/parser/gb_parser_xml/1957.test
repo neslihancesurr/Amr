@@ -1,0 +1,15 @@
+<Amr sentence="Ahmet öğrencilere sınav kağıtlarını verdi .">
+<Word name="5/ver" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="5/ver" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ahmet" positionX="450" positionY="400"/>
+<Connection from="name" to="1/ahmet" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/öğrenci" positionX="750" positionY="200"/>
+<Connection from="5/ver" to="2/öğrenci" with="ARG2"/>
+<Word name="3/sınav 4/kağıt" positionX="850" positionY="200"/>
+<Connection from="5/ver" to="3/sınav 4/kağıt" with="ARG1"/>
+</Amr>

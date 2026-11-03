@@ -1,0 +1,11 @@
+<Amr sentence="iki kilometre yüzecek birisi">
+<Word name="4/biri" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/biri" to="o" with="poss"/>
+<Word name="3/yüz" positionX="750" positionY="200"/>
+<Connection from="4/biri" to="3/yüz"/>
+<Word name="2/kilometre" positionX="650" positionY="300"/>
+<Connection from="3/yüz" to="2/kilometre"/>
+<Word name="1/iki" positionX="550" positionY="400"/>
+<Connection from="2/kilometre" to="1/iki"/>
+</Amr>

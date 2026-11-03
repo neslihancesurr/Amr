@@ -1,0 +1,17 @@
+<Amr sentence="Semra'ya hediye alsam mı acaba ?">
+<Word name="3/al:cond" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="3/al:cond" to="person"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/semra" positionX="450" positionY="400"/>
+<Connection from="name" to="1/semra" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/hediye" positionX="750" positionY="200"/>
+<Connection from="3/al:cond" to="2/hediye"/>
+<Word name="4/mi" positionX="850" positionY="200"/>
+<Connection from="3/al:cond" to="4/mi"/>
+<Word name="5/acaba" positionX="950" positionY="200"/>
+<Connection from="3/al:cond" to="5/acaba" with="manner"/>
+</Amr>

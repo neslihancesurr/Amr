@@ -1,0 +1,13 @@
+<Amr sentence="Firar eden mahküm gümrükte kıskıvrak yakalandı .">
+<Word name="6/yakala" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/yakala" to="o" with="ARG0"/>
+<Word name="3/mahkum" positionX="750" positionY="200"/>
+<Connection from="6/yakala" to="3/mahkum" with="ARG1"/>
+<Word name="1/firar 2/et" positionX="650" positionY="300"/>
+<Connection from="3/mahkum" to="1/firar 2/et"/>
+<Word name="4/gümrük" positionX="850" positionY="200"/>
+<Connection from="6/yakala" to="4/gümrük" with="location"/>
+<Word name="5/kıskıvrak" positionX="950" positionY="200"/>
+<Connection from="6/yakala" to="5/kıskıvrak" with="manner"/>
+</Amr>

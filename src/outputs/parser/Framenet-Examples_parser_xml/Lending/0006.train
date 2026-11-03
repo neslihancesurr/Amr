@@ -1,0 +1,14 @@
+<Amr sentence="Sonunda parayı buldum , borçtan kurtuldum !">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/bul" positionX="650" positionY="200"/>
+<Connection from="and" to="3/bul" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="3/bul" to="ben" with="ARG0"/>
+<Word name="1/sonunda" positionX="650" positionY="300"/>
+<Connection from="3/bul" to="1/sonunda" with="manner"/>
+<Word name="2/para" positionX="750" positionY="300"/>
+<Connection from="3/bul" to="2/para" with="ARG1"/>
+<Word name="5/borç 6/kurtul" positionX="750" positionY="200"/>
+<Connection from="and" to="5/borç 6/kurtul" with="op2"/>
+<Connection from="5/borç 6/kurtul" to="ben" with="ARG0"/>
+</Amr>

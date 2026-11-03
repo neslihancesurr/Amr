@@ -1,0 +1,11 @@
+<Amr sentence="gelmeleri beklenen misafirler">
+<Word name="3/misafir" positionX="750" positionY="100"/>
+<Word name="2/bekle" positionX="650" positionY="200"/>
+<Connection from="3/misafir" to="2/bekle"/>
+<Word name="1/gel" positionX="550" positionY="300"/>
+<Connection from="2/bekle" to="1/gel"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="1/gel" to="o" with="ARG0"/>
+<Word name="onlar" positionX="550" positionY="400"/>
+<Connection from="1/gel" to="onlar" with="poss"/>
+</Amr>

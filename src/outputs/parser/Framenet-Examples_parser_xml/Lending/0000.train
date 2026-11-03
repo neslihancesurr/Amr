@@ -1,0 +1,5 @@
+<Amr sentence="On beş lira borç aldım .">
+<Word name="4/borç 5/al" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/borç 5/al" to="ben" with="ARG0"/>
+</Amr>

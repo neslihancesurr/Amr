@@ -1,0 +1,5 @@
+<Amr sentence="Ağaç yüksek .">
+<Word name="2/yüksek" positionX="750" positionY="100"/>
+<Word name="1/ağaç" positionX="650" positionY="200"/>
+<Connection from="2/yüksek" to="1/ağaç"/>
+</Amr>

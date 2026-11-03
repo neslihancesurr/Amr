@@ -1,0 +1,9 @@
+<Amr sentence="Yanlış işlere tevessül etme .">
+<Word name="3/tevessül 4/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/tevessül 4/et" to="o" with="ARG0"/>
+<Word name="2/iş" positionX="750" positionY="200"/>
+<Connection from="3/tevessül 4/et" to="2/iş" with="ARG1"/>
+<Word name="1/yanlış" positionX="650" positionY="300"/>
+<Connection from="2/iş" to="1/yanlış" with="mod"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="İlk defa geçimini doğrultmuştu .">
+<Word name="3/geçim 4/doğrult" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/geçim 4/doğrult" to="o" with="ARG0"/>
+<Word name="2/defa" positionX="750" positionY="200"/>
+<Connection from="3/geçim 4/doğrult" to="2/defa"/>
+<Word name="1/ilk" positionX="650" positionY="300"/>
+<Connection from="2/defa" to="1/ilk" with="manner"/>
+</Amr>

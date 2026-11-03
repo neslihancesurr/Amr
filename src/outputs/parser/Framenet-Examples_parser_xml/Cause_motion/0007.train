@@ -1,0 +1,13 @@
+<Amr sentence="Kadın elini kızın saçına dokundurdu .">
+<Word name="5/dokundur" positionX="750" positionY="100"/>
+<Word name="1/kadın" positionX="650" positionY="200"/>
+<Connection from="5/dokundur" to="1/kadın" with="ARG0"/>
+<Word name="2/el" positionX="750" positionY="200"/>
+<Connection from="5/dokundur" to="2/el" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/el" to="o" with="poss"/>
+<Word name="4/saç" positionX="850" positionY="200"/>
+<Connection from="5/dokundur" to="4/saç" with="ARG2"/>
+<Word name="3/kız" positionX="750" positionY="300"/>
+<Connection from="4/saç" to="3/kız" with="mod"/>
+</Amr>

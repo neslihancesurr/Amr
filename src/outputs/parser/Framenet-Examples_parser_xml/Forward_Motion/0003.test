@@ -1,0 +1,19 @@
+<Amr sentence="Yarışta diğer koşucuyu kovaladım ama işe yaramadı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/iş 7/yara" positionX="650" positionY="200"/>
+<Connection from="and" to="6/iş 7/yara" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="6/iş 7/yara" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="6/iş 7/yara" to="o" with="ARG0"/>
+<Word name="4/kovala" positionX="750" positionY="200"/>
+<Connection from="and" to="4/kovala" with="op2"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="4/kovala" to="ben" with="ARG0"/>
+<Word name="1/yarış" positionX="750" positionY="300"/>
+<Connection from="4/kovala" to="1/yarış" with="location"/>
+<Word name="3/koşucu" positionX="850" positionY="300"/>
+<Connection from="4/kovala" to="3/koşucu" with="ARG1"/>
+<Word name="2/diğer" positionX="750" positionY="400"/>
+<Connection from="3/koşucu" to="2/diğer" with="mod"/>
+</Amr>

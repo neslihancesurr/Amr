@@ -1,0 +1,16 @@
+<Amr sentence="Burada bir kat tuttum , yazı geçireceğim .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/tut" positionX="650" positionY="200"/>
+<Connection from="and" to="4/tut" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="4/tut" to="ben" with="ARG0"/>
+<Word name="1/burada" positionX="650" positionY="300"/>
+<Connection from="4/tut" to="1/burada" with="ARG1"/>
+<Word name="3/kat" positionX="750" positionY="300"/>
+<Connection from="4/tut" to="3/kat" with="ARG1"/>
+<Word name="7/geçir" positionX="750" positionY="200"/>
+<Connection from="and" to="7/geçir" with="op2"/>
+<Connection from="7/geçir" to="ben" with="ARG0"/>
+<Word name="6/yaz" positionX="750" positionY="300"/>
+<Connection from="7/geçir" to="6/yaz" with="ARG1"/>
+</Amr>

@@ -1,0 +1,20 @@
+<Amr sentence="Kemal'le Zeki birbirleriyle dövüştüler .">
+<Word name="4/dövüş" positionX="750" positionY="100"/>
+<Word name="and" positionX="650" positionY="200"/>
+<Connection from="4/dövüş" to="and"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="and" to="person" with="ARG0"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/zeki" positionX="350" positionY="500"/>
+<Connection from="name" to="2/zeki" with="op1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="and" to="person" with="ARG0"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/kemal" positionX="450" positionY="500"/>
+<Connection from="name" to="1/kemal" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/birbirleri" positionX="750" positionY="200"/>
+<Connection from="4/dövüş" to="3/birbirleri" with="instrument"/>
+</Amr>

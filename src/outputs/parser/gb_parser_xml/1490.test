@@ -1,0 +1,13 @@
+<Amr sentence="Her yere taksiyle gitmiyorum .">
+<Word name="4/git" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/git" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="4/git" to="ben" with="ARG0"/>
+<Word name="2/yer" positionX="850" positionY="200"/>
+<Connection from="4/git" to="2/yer"/>
+<Word name="1/her" positionX="750" positionY="300"/>
+<Connection from="2/yer" to="1/her" with="mod"/>
+<Word name="3/taksi" positionX="950" positionY="200"/>
+<Connection from="4/git" to="3/taksi" with="instrument"/>
+</Amr>

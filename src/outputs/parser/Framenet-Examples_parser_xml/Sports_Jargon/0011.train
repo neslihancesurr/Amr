@@ -1,0 +1,15 @@
+<Amr sentence="Antrenör , skandallarıyla gündemden düşmeyen oyuncuyu kesti .">
+<Word name="7/kes" positionX="750" positionY="100"/>
+<Word name="1/antrenör" positionX="650" positionY="200"/>
+<Connection from="7/kes" to="1/antrenör" with="ARG0"/>
+<Word name="6/oyuncu" positionX="750" positionY="200"/>
+<Connection from="7/kes" to="6/oyuncu" with="ARG1"/>
+<Word name="5/düş" positionX="650" positionY="300"/>
+<Connection from="6/oyuncu" to="5/düş"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="5/düş" to="-" with="polarity"/>
+<Word name="3/skandal" positionX="650" positionY="400"/>
+<Connection from="5/düş" to="3/skandal" with="instrument"/>
+<Word name="4/gündem" positionX="750" positionY="400"/>
+<Connection from="5/düş" to="4/gündem"/>
+</Amr>

@@ -1,0 +1,20 @@
+<Amr sentence="Çok yanlış bir tavır almıştım , elimdekini Okan'a kaptırmıştım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/tavır 5/al" positionX="650" positionY="200"/>
+<Connection from="and" to="4/tavır 5/al" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="4/tavır 5/al" to="ben" with="ARG0"/>
+<Word name="9/kaptır" positionX="750" positionY="200"/>
+<Connection from="and" to="9/kaptır" with="op2"/>
+<Connection from="9/kaptır" to="ben" with="ARG0"/>
+<Word name="7/elim" positionX="750" positionY="300"/>
+<Connection from="9/kaptır" to="7/elim" with="location"/>
+<Word name="person" positionX="850" positionY="300"/>
+<Connection from="9/kaptır" to="person" with="ARG1"/>
+<Word name="name" positionX="750" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="8/okan" positionX="650" positionY="500"/>
+<Connection from="name" to="8/okan" with="op1"/>
+<Word name="-" positionX="850" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

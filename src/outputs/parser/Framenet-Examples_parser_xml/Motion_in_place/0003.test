@@ -1,0 +1,10 @@
+<Amr sentence="Yürürken bir anda ayağımı burktum .">
+<Word name="5/burk" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/burk" to="ben" with="ARG0"/>
+<Word name="1/yürü" positionX="750" positionY="200"/>
+<Connection from="5/burk" to="1/yürü"/>
+<Word name="4/ayak" positionX="850" positionY="200"/>
+<Connection from="5/burk" to="4/ayak"/>
+<Connection from="4/ayak" to="ben" with="poss"/>
+</Amr>

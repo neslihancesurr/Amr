@@ -1,0 +1,7 @@
+<Amr sentence="Bir haftadır başı çatlıyor .">
+<Word name="3/baş 4/çatla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/baş 4/çatla" to="o" with="ARG0"/>
+<Word name="2/hafta" positionX="750" positionY="200"/>
+<Connection from="3/baş 4/çatla" to="2/hafta" with="mod"/>
+</Amr>

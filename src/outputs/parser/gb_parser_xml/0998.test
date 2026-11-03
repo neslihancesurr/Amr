@@ -1,0 +1,17 @@
+<Amr sentence="En çok Akdeniz ülkelerinde yetişir zeytin ağacı .">
+<Word name="5/yetiş" positionX="750" positionY="100"/>
+<Word name="1/en 2/çok" positionX="650" positionY="200"/>
+<Connection from="5/yetiş" to="1/en 2/çok" with="degree"/>
+<Word name="4/ülke" positionX="750" positionY="200"/>
+<Connection from="5/yetiş" to="4/ülke" with="location"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="4/ülke" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/akdeniz" positionX="450" positionY="500"/>
+<Connection from="name" to="3/akdeniz" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="6/zeytin 7/ağaç" positionX="850" positionY="200"/>
+<Connection from="5/yetiş" to="6/zeytin 7/ağaç" with="ARG0"/>
+</Amr>

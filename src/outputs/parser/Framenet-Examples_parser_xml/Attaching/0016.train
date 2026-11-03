@@ -1,0 +1,12 @@
+<Amr sentence="İki parçayı birbirine kenetledi .">
+<Word name="4/kenetle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/kenetle" to="o" with="ARG0"/>
+<Word name="2/parça" positionX="750" positionY="200"/>
+<Connection from="4/kenetle" to="2/parça" with="ARG1"/>
+<Word name="1/iki" positionX="650" positionY="300"/>
+<Connection from="2/parça" to="1/iki"/>
+<Word name="3/birbiri" positionX="850" positionY="200"/>
+<Connection from="4/kenetle" to="3/birbiri" with="ARG1"/>
+<Connection from="3/birbiri" to="o" with="poss"/>
+</Amr>

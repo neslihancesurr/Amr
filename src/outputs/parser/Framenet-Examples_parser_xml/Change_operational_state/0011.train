@@ -1,0 +1,18 @@
+<Amr sentence="Ödevi tamamladım , geriye çıktı almak kaldı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/tamamla" positionX="650" positionY="200"/>
+<Connection from="and" to="2/tamamla" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="2/tamamla" to="ben" with="ARG0"/>
+<Word name="1/ödev" positionX="650" positionY="300"/>
+<Connection from="2/tamamla" to="1/ödev" with="ARG1"/>
+<Word name="7/kal" positionX="750" positionY="200"/>
+<Connection from="and" to="7/kal" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="7/kal" to="o" with="ARG0"/>
+<Word name="4/geri" positionX="750" positionY="300"/>
+<Connection from="7/kal" to="4/geri" with="mod"/>
+<Word name="5/çıktı 6/al" positionX="850" positionY="300"/>
+<Connection from="7/kal" to="5/çıktı 6/al"/>
+<Connection from="5/çıktı 6/al" to="o" with="ARG0"/>
+</Amr>

@@ -1,0 +1,7 @@
+<Amr sentence="kömürde pişmiş patlıcan">
+<Word name="3/patlıcan" positionX="750" positionY="100"/>
+<Word name="2/piş" positionX="650" positionY="200"/>
+<Connection from="3/patlıcan" to="2/piş"/>
+<Word name="1/kömür" positionX="550" positionY="300"/>
+<Connection from="2/piş" to="1/kömür" with="location"/>
+</Amr>

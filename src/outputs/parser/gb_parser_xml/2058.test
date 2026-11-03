@@ -1,0 +1,15 @@
+<Amr sentence="Hayattaki en büyük nimetlerden biri sevilmektir .">
+<Word name="6/sev" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/sev" to="o" with="ARG0"/>
+<Word name="5/bir" positionX="750" positionY="200"/>
+<Connection from="6/sev" to="5/bir"/>
+<Word name="4/nimet" positionX="650" positionY="300"/>
+<Connection from="5/bir" to="4/nimet"/>
+<Word name="1/hayat" positionX="550" positionY="400"/>
+<Connection from="4/nimet" to="1/hayat" with="mod"/>
+<Word name="3/büyük" positionX="650" positionY="400"/>
+<Connection from="4/nimet" to="3/büyük" with="mod"/>
+<Word name="2/en" positionX="550" positionY="500"/>
+<Connection from="3/büyük" to="2/en" with="manner"/>
+</Amr>

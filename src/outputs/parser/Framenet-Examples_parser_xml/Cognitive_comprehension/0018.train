@@ -1,0 +1,15 @@
+<Amr sentence="Matmazel Nihal'in mutsuzluğunu yüzünden okudu .">
+<Word name="4/yüzünden 5/oku" positionX="750" positionY="100"/>
+<Word name="1/matmazel" positionX="650" positionY="200"/>
+<Connection from="4/yüzünden 5/oku" to="1/matmazel" with="ARG0"/>
+<Word name="3/mutsuzluk" positionX="750" positionY="200"/>
+<Connection from="4/yüzünden 5/oku" to="3/mutsuzluk" with="ARG1"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="3/mutsuzluk" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/Nihal'in" positionX="450" positionY="500"/>
+<Connection from="name" to="2/Nihal'in" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

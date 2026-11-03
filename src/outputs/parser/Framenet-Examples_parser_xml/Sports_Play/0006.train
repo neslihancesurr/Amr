@@ -1,0 +1,11 @@
+<Amr sentence="Sahilde yürüyüş yapalım mı beraber ?">
+<Word name="2/yürüyüş 3/yap" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="2/yürüyüş 3/yap" to="biz" with="ARG0"/>
+<Word name="1/sahil" positionX="750" positionY="200"/>
+<Connection from="2/yürüyüş 3/yap" to="1/sahil" with="location"/>
+<Word name="4/mi" positionX="850" positionY="200"/>
+<Connection from="2/yürüyüş 3/yap" to="4/mi"/>
+<Word name="5/beraber" positionX="950" positionY="200"/>
+<Connection from="2/yürüyüş 3/yap" to="5/beraber"/>
+</Amr>

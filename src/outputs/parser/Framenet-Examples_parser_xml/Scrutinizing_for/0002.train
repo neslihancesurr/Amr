@@ -1,0 +1,18 @@
+<Amr sentence="Hakkındakileri öğrenmek için ıcığını cıncığını sordu .">
+<Word name="6/sor" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/sor" to="o" with="ARG0"/>
+<Word name="2/öğren" positionX="750" positionY="200"/>
+<Connection from="6/sor" to="2/öğren" with="cause"/>
+<Connection from="2/öğren" to="o" with="ARG0"/>
+<Word name="1/hak" positionX="750" positionY="300"/>
+<Connection from="2/öğren" to="1/hak" with="ARG1"/>
+<Connection from="1/hak" to="o" with="poss"/>
+<Word name="onlar" positionX="750" positionY="400"/>
+<Connection from="1/hak" to="onlar" with="poss"/>
+<Word name="5/cıncık" positionX="850" positionY="200"/>
+<Connection from="6/sor" to="5/cıncık" with="ARG1"/>
+<Connection from="5/cıncık" to="o" with="poss"/>
+<Word name="4/ı" positionX="850" positionY="300"/>
+<Connection from="5/cıncık" to="4/ı"/>
+</Amr>

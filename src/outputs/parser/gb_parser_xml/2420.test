@@ -1,0 +1,19 @@
+<Amr sentence="Sanki uykuda gezer gibi dolaştım birkaç gün .">
+<Word name="5/dolaş" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/dolaş" to="ben" with="ARG0"/>
+<Word name="3/gez" positionX="750" positionY="200"/>
+<Connection from="5/dolaş" to="3/gez"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/gez" to="o" with="ARG0"/>
+<Word name="1/sanki" positionX="750" positionY="300"/>
+<Connection from="3/gez" to="1/sanki" with="manner"/>
+<Word name="2/uyku" positionX="850" positionY="300"/>
+<Connection from="3/gez" to="2/uyku" with="location"/>
+<Word name="4/gibi" positionX="950" positionY="300"/>
+<Connection from="3/gez" to="4/gibi"/>
+<Word name="7/gün" positionX="850" positionY="200"/>
+<Connection from="5/dolaş" to="7/gün"/>
+<Word name="6/birkaç" positionX="750" positionY="300"/>
+<Connection from="7/gün" to="6/birkaç" with="mod"/>
+</Amr>

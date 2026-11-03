@@ -1,0 +1,21 @@
+<Amr sentence="Onu evde göremeyince başına bir şey geldiyse diye canı gitti .">
+<Word name="9/can 10/git" positionX="750" positionY="100"/>
+<Word name="mümkün" positionX="650" positionY="200"/>
+<Connection from="9/can 10/git" to="mümkün"/>
+<Word name="3/gör" positionX="550" positionY="300"/>
+<Connection from="mümkün" to="3/gör"/>
+<Word name="-" positionX="450" positionY="400"/>
+<Connection from="3/gör" to="-" with="polarity"/>
+<Word name="1/o" positionX="550" positionY="400"/>
+<Connection from="3/gör" to="1/o" with="ARG1"/>
+<Word name="2/ev" positionX="650" positionY="400"/>
+<Connection from="3/gör" to="2/ev" with="location"/>
+<Word name="7/gel" positionX="750" positionY="200"/>
+<Connection from="9/can 10/git" to="7/gel" with="ARG1"/>
+<Word name="4/baş" positionX="650" positionY="300"/>
+<Connection from="7/gel" to="4/baş" with="ARG0"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="4/baş" to="o" with="poss"/>
+<Word name="8/diye" positionX="750" positionY="300"/>
+<Connection from="7/gel" to="8/diye"/>
+</Amr>

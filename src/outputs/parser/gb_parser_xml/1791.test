@@ -1,0 +1,13 @@
+<Amr sentence="- Seni o kıyafette tanımamış olacak .">
+<Word name="5/tanı" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/tanı" to="-" with="polarity"/>
+<Word name="2/sen" positionX="750" positionY="200"/>
+<Connection from="5/tanı" to="2/sen" with="ARG1"/>
+<Word name="4/kıyafet" positionX="850" positionY="200"/>
+<Connection from="5/tanı" to="4/kıyafet" with="location"/>
+<Word name="3/o" positionX="750" positionY="300"/>
+<Connection from="4/kıyafet" to="3/o" with="mod"/>
+<Word name="6/ol" positionX="950" positionY="200"/>
+<Connection from="5/tanı" to="6/ol"/>
+</Amr>

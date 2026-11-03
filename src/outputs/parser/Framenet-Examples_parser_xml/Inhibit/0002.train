@@ -1,0 +1,11 @@
+<Amr sentence="Olağanüstü hal ilan edildiğinden beri devlet vatandaşların bazı temel haklarını kıstı .">
+<Word name="11/kıs" positionX="750" positionY="100"/>
+<Word name="3/ilan 4/et" positionX="650" positionY="200"/>
+<Connection from="11/kıs" to="3/ilan 4/et"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/ilan 4/et" to="o" with="poss"/>
+<Word name="6/devlet" positionX="750" positionY="200"/>
+<Connection from="11/kıs" to="6/devlet" with="ARG0"/>
+<Word name="9/temel 10/hak" positionX="850" positionY="200"/>
+<Connection from="11/kıs" to="9/temel 10/hak" with="ARG1"/>
+</Amr>

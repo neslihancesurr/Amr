@@ -1,0 +1,9 @@
+<Amr sentence="Hainler tüm köyü yağma ettiler .">
+<Word name="4/yağma 5/et" positionX="750" positionY="100"/>
+<Word name="1/hain" positionX="650" positionY="200"/>
+<Connection from="4/yağma 5/et" to="1/hain" with="ARG0"/>
+<Word name="3/köy" positionX="750" positionY="200"/>
+<Connection from="4/yağma 5/et" to="3/köy" with="ARG1"/>
+<Word name="2/tüm" positionX="650" positionY="300"/>
+<Connection from="3/köy" to="2/tüm" with="mod"/>
+</Amr>

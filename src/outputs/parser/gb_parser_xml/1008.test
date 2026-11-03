@@ -1,0 +1,7 @@
+<Amr sentence="benim yerime">
+<Word name="2/yer" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="2/yer" to="ben" with="poss"/>
+<Word name="1/ben" positionX="750" positionY="200"/>
+<Connection from="2/yer" to="1/ben" with="mod"/>
+</Amr>

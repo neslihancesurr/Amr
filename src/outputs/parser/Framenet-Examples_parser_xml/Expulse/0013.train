@@ -1,0 +1,7 @@
+<Amr sentence="Dağdan gelip bağdakini kovmuş gibi davranıyor .">
+<Word name="6/davran" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/davran" to="o" with="ARG0"/>
+<Word name="1/dağ 2/gel 3/bağ 4/kov" positionX="750" positionY="200"/>
+<Connection from="6/davran" to="1/dağ 2/gel 3/bağ 4/kov" with="ARG1"/>
+</Amr>

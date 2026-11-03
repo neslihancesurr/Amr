@@ -1,0 +1,13 @@
+<Amr sentence="Dizginleri ele vermiştim , kurtuluş yoktu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/dizgin 2/el 3/ver" positionX="650" positionY="200"/>
+<Connection from="and" to="1/dizgin 2/el 3/ver" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="1/dizgin 2/el 3/ver" to="ben" with="ARG0"/>
+<Word name="6/yok" positionX="750" positionY="200"/>
+<Connection from="and" to="6/yok" with="op2"/>
+<Word name="5/kurtul" positionX="650" positionY="300"/>
+<Connection from="6/yok" to="5/kurtul"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="5/kurtul" to="o" with="ARG0"/>
+</Amr>

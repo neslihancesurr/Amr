@@ -1,0 +1,19 @@
+<Amr sentence="Misafirler geldiği zaman onlara önce kahve ikram edeceğiz .">
+<Word name="7/ikram 8/et" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="7/ikram 8/et" to="biz" with="ARG0"/>
+<Word name="3/zaman" positionX="750" positionY="200"/>
+<Connection from="7/ikram 8/et" to="3/zaman"/>
+<Word name="2/gel" positionX="650" positionY="300"/>
+<Connection from="3/zaman" to="2/gel"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="2/gel" to="o" with="poss"/>
+<Word name="1/misafir" positionX="650" positionY="400"/>
+<Connection from="2/gel" to="1/misafir"/>
+<Word name="4/o" positionX="850" positionY="200"/>
+<Connection from="7/ikram 8/et" to="4/o"/>
+<Word name="5/önce" positionX="950" positionY="200"/>
+<Connection from="7/ikram 8/et" to="5/önce" with="manner"/>
+<Word name="6/kahve" positionX="1050" positionY="200"/>
+<Connection from="7/ikram 8/et" to="6/kahve"/>
+</Amr>

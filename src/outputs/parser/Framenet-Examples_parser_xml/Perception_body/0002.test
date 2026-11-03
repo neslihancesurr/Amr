@@ -1,0 +1,14 @@
+<Amr sentence="Dışarıya çıktığımda soğuktan resmen kıkırdıyordum .">
+<Word name="5/kıkırda" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/kıkırda" to="ben" with="ARG0"/>
+<Word name="2/çık" positionX="750" positionY="200"/>
+<Connection from="5/kıkırda" to="2/çık"/>
+<Connection from="2/çık" to="ben" with="ARG0"/>
+<Word name="1/dışarı" positionX="750" positionY="300"/>
+<Connection from="2/çık" to="1/dışarı" with="ARG1"/>
+<Word name="3/soğuk" positionX="850" positionY="200"/>
+<Connection from="5/kıkırda" to="3/soğuk"/>
+<Word name="4/resmen" positionX="950" positionY="200"/>
+<Connection from="5/kıkırda" to="4/resmen" with="manner"/>
+</Amr>

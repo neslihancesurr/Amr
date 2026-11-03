@@ -1,0 +1,13 @@
+<Amr sentence="Bu araba benimkinin tam aynısı değil .">
+<Word name="5/aynısı" positionX="750" positionY="100"/>
+<Word name="2/araba" positionX="650" positionY="200"/>
+<Connection from="5/aynısı" to="2/araba"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/araba" to="1/bu" with="mod"/>
+<Word name="3/benimki" positionX="750" positionY="200"/>
+<Connection from="5/aynısı" to="3/benimki" with="mod"/>
+<Word name="4/tam" positionX="850" positionY="200"/>
+<Connection from="5/aynısı" to="4/tam" with="degree"/>
+<Word name="-" positionX="950" positionY="200"/>
+<Connection from="5/aynısı" to="-" with="polarity"/>
+</Amr>

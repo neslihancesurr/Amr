@@ -1,0 +1,9 @@
+<Amr sentence="Kadın bu hamamı mezada çıkardı .">
+<Word name="4/mezat 5/çık" positionX="750" positionY="100"/>
+<Word name="1/kadın" positionX="650" positionY="200"/>
+<Connection from="4/mezat 5/çık" to="1/kadın" with="ARG0"/>
+<Word name="3/hamam" positionX="750" positionY="200"/>
+<Connection from="4/mezat 5/çık" to="3/hamam" with="ARG1"/>
+<Word name="2/bu" positionX="650" positionY="300"/>
+<Connection from="3/hamam" to="2/bu" with="mod"/>
+</Amr>

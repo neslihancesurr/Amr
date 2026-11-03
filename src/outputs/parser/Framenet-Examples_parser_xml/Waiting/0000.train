@@ -1,0 +1,16 @@
+<Amr sentence="Öğretmeninin karşısında sorutmuş , sorularını cevaplıyordu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/sorut" positionX="650" positionY="200"/>
+<Connection from="and" to="3/sorut" with="op1"/>
+<Word name="2/karşı" positionX="550" positionY="300"/>
+<Connection from="3/sorut" to="2/karşı" with="ARG1"/>
+<Word name="1/öğretmen" positionX="450" positionY="400"/>
+<Connection from="2/karşı" to="1/öğretmen" with="mod"/>
+<Word name="6/cevapla" positionX="750" positionY="200"/>
+<Connection from="and" to="6/cevapla" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="6/cevapla" to="o" with="ARG0"/>
+<Word name="5/soru" positionX="750" positionY="300"/>
+<Connection from="6/cevapla" to="5/soru" with="ARG1"/>
+<Connection from="5/soru" to="o" with="poss"/>
+</Amr>

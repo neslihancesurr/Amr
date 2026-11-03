@@ -1,0 +1,18 @@
+<Amr sentence="Bu dosyayı yanıma alıp uzun uzun incelemeliyim .">
+<Word name="gerek" positionX="750" positionY="100"/>
+<Word name="7/incele" positionX="650" positionY="200"/>
+<Connection from="gerek" to="7/incele"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="7/incele" to="ben" with="ARG0"/>
+<Word name="4/al" positionX="650" positionY="300"/>
+<Connection from="7/incele" to="4/al"/>
+<Word name="2/dosya" positionX="550" positionY="400"/>
+<Connection from="4/al" to="2/dosya" with="ARG1"/>
+<Word name="1/bu" positionX="450" positionY="500"/>
+<Connection from="2/dosya" to="1/bu" with="mod"/>
+<Word name="3/yan" positionX="650" positionY="400"/>
+<Connection from="4/al" to="3/yan"/>
+<Connection from="3/yan" to="ben" with="poss"/>
+<Word name="5/uzun 6/uzun" positionX="750" positionY="300"/>
+<Connection from="7/incele" to="5/uzun 6/uzun"/>
+</Amr>

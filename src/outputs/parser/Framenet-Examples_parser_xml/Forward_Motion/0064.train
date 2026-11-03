@@ -1,0 +1,13 @@
+<Amr sentence="Yangın büyüyünce eşyayı bostana aşırdılar .">
+<Word name="5/aşır" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="5/aşır" to="onlar" with="ARG0"/>
+<Word name="2/büyü" positionX="750" positionY="200"/>
+<Connection from="5/aşır" to="2/büyü"/>
+<Word name="1/yangın" positionX="650" positionY="300"/>
+<Connection from="2/büyü" to="1/yangın" with="ARG1"/>
+<Word name="3/eşya" positionX="850" positionY="200"/>
+<Connection from="5/aşır" to="3/eşya" with="ARG1"/>
+<Word name="4/bostan" positionX="950" positionY="200"/>
+<Connection from="5/aşır" to="4/bostan"/>
+</Amr>

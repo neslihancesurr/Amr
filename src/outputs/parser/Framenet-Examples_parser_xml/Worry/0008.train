@@ -1,0 +1,21 @@
+<Amr sentence="Evhamlı babaanneleri depremden sonra onları göremeyince çok kaygılanmıştı .">
+<Word name="8/kaygılan" positionX="750" positionY="100"/>
+<Word name="2/babaanne" positionX="650" positionY="200"/>
+<Connection from="8/kaygılan" to="2/babaanne" with="ARG0"/>
+<Word name="1/evhamlı" positionX="550" positionY="300"/>
+<Connection from="2/babaanne" to="1/evhamlı" with="mod"/>
+<Word name="mümkün" positionX="750" positionY="200"/>
+<Connection from="8/kaygılan" to="mümkün"/>
+<Word name="6/gör" positionX="650" positionY="300"/>
+<Connection from="mümkün" to="6/gör"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="6/gör" to="-" with="polarity"/>
+<Word name="3/deprem" positionX="650" positionY="400"/>
+<Connection from="6/gör" to="3/deprem"/>
+<Word name="4/sonra" positionX="550" positionY="500"/>
+<Connection from="3/deprem" to="4/sonra"/>
+<Word name="5/o" positionX="750" positionY="400"/>
+<Connection from="6/gör" to="5/o" with="ARG1"/>
+<Word name="7/çok" positionX="850" positionY="200"/>
+<Connection from="8/kaygılan" to="7/çok" with="degree"/>
+</Amr>

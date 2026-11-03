@@ -1,0 +1,9 @@
+<Amr sentence="yirminin sekizde yedisi">
+<Word name="3/yedi" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/yedi" to="o" with="poss"/>
+<Word name="1/yirmi" positionX="750" positionY="200"/>
+<Connection from="3/yedi" to="1/yirmi"/>
+<Word name="2/sekiz" positionX="850" positionY="200"/>
+<Connection from="3/yedi" to="2/sekiz"/>
+</Amr>

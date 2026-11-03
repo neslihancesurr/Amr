@@ -1,0 +1,7 @@
+<Amr sentence="İki genç , kılıçlama kaçıyorlardı .">
+<Word name="4/kılıçlama 5/kaç" positionX="750" positionY="100"/>
+<Word name="2/genç" positionX="650" positionY="200"/>
+<Connection from="4/kılıçlama 5/kaç" to="2/genç" with="ARG0"/>
+<Word name="1/iki" positionX="550" positionY="300"/>
+<Connection from="2/genç" to="1/iki"/>
+</Amr>

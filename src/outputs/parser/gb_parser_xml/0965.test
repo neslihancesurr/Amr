@@ -1,0 +1,15 @@
+<Amr sentence="Bak , şurada yeni bir leke var .">
+<Word name="7/var" positionX="750" positionY="100"/>
+<Word name="1/bak" positionX="650" positionY="200"/>
+<Connection from="7/var" to="1/bak"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="1/bak" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="650" positionY="300"/>
+<Connection from="1/bak" to="imperative" with="mode"/>
+<Word name="3/şura" positionX="750" positionY="200"/>
+<Connection from="7/var" to="3/şura" with="mod"/>
+<Word name="6/leke" positionX="850" positionY="200"/>
+<Connection from="7/var" to="6/leke"/>
+<Word name="4/yeni" positionX="750" positionY="300"/>
+<Connection from="6/leke" to="4/yeni" with="mod"/>
+</Amr>

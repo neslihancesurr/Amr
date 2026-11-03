@@ -1,0 +1,9 @@
+<Amr sentence="Esnaf gün sonu cebini doldurmuştu .">
+<Word name="4/cep 5/doldur" positionX="750" positionY="100"/>
+<Word name="1/esnaf" positionX="650" positionY="200"/>
+<Connection from="4/cep 5/doldur" to="1/esnaf" with="ARG0"/>
+<Word name="3/son" positionX="750" positionY="200"/>
+<Connection from="4/cep 5/doldur" to="3/son"/>
+<Word name="2/gün" positionX="650" positionY="300"/>
+<Connection from="3/son" to="2/gün" with="mod"/>
+</Amr>

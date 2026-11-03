@@ -1,0 +1,13 @@
+<Amr sentence="Bu hafta yeni bir kapı açılacak umarım .">
+<Word name="5/kapı 6/aç" positionX="750" positionY="100"/>
+<Word name="2/hafta" positionX="650" positionY="200"/>
+<Connection from="5/kapı 6/aç" to="2/hafta" with="mod"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/hafta" to="1/bu" with="mod"/>
+<Word name="3/yeni" positionX="750" positionY="200"/>
+<Connection from="5/kapı 6/aç" to="3/yeni" with="mod"/>
+<Word name="7/um" positionX="850" positionY="200"/>
+<Connection from="5/kapı 6/aç" to="7/um"/>
+<Word name="ben" positionX="750" positionY="300"/>
+<Connection from="7/um" to="ben" with="ARG0"/>
+</Amr>

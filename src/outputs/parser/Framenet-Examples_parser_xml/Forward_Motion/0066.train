@@ -1,0 +1,11 @@
+<Amr sentence="Bağırtıları beni evden kaçırdı .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="4/kaç" positionX="650" positionY="200"/>
+<Connection from="yap" to="4/kaç"/>
+<Word name="1/bağırtı" positionX="550" positionY="300"/>
+<Connection from="4/kaç" to="1/bağırtı" with="ARG0"/>
+<Word name="2/ben" positionX="650" positionY="300"/>
+<Connection from="4/kaç" to="2/ben" with="ARG1"/>
+<Word name="3/ev" positionX="750" positionY="300"/>
+<Connection from="4/kaç" to="3/ev"/>
+</Amr>

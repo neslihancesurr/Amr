@@ -1,0 +1,15 @@
+<Amr sentence="Ona söyleyeceklerini önceden kafasında tasarladı .">
+<Word name="5/tasarla" positionX="750" positionY="100"/>
+<Word name="2/söyle" positionX="650" positionY="200"/>
+<Connection from="5/tasarla" to="2/söyle" with="ARG1"/>
+<Word name="onlar" positionX="550" positionY="300"/>
+<Connection from="2/söyle" to="onlar" with="ARG0"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/söyle" to="o" with="poss"/>
+<Word name="1/o" positionX="750" positionY="300"/>
+<Connection from="2/söyle" to="1/o"/>
+<Word name="3/önceden" positionX="750" positionY="200"/>
+<Connection from="5/tasarla" to="3/önceden" with="manner"/>
+<Word name="4/kafa" positionX="850" positionY="200"/>
+<Connection from="5/tasarla" to="4/kafa" with="location"/>
+</Amr>

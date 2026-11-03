@@ -1,0 +1,25 @@
+<Amr sentence="İster büyük olsun , ister küçük , evlerin sorunları bitmiyor .">
+<Word name="10/bit" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="10/bit" to="-" with="polarity"/>
+<Word name="3/ol" positionX="750" positionY="200"/>
+<Connection from="10/bit" to="3/ol"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/ol" to="o" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="300"/>
+<Connection from="3/ol" to="imperative" with="mode"/>
+<Word name="and" positionX="850" positionY="300"/>
+<Connection from="3/ol" to="and"/>
+<Word name="6/küçük" positionX="750" positionY="400"/>
+<Connection from="and" to="6/küçük" with="manner"/>
+<Word name="5/ister" positionX="650" positionY="500"/>
+<Connection from="6/küçük" to="5/ister"/>
+<Word name="2/büyük" positionX="850" positionY="400"/>
+<Connection from="and" to="2/büyük" with="manner"/>
+<Word name="1/ister" positionX="750" positionY="500"/>
+<Connection from="2/büyük" to="1/ister"/>
+<Word name="9/sorun" positionX="850" positionY="200"/>
+<Connection from="10/bit" to="9/sorun" with="ARG0"/>
+<Word name="8/ev" positionX="750" positionY="300"/>
+<Connection from="9/sorun" to="8/ev" with="mod"/>
+</Amr>

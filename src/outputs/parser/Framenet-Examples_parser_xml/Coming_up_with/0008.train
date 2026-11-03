@@ -1,0 +1,5 @@
+<Amr sentence="Hemen ondan kurtulmanın bir yolunu buldu .">
+<Word name="4/bir 5/yol 6/bul" positionX="750" positionY="100"/>
+<Word name="1/hemen" positionX="650" positionY="200"/>
+<Connection from="4/bir 5/yol 6/bul" to="1/hemen" with="manner"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Kızı kışlık giysilerle donattılar .">
+<Word name="4/donat" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/donat" to="onlar" with="ARG0"/>
+<Word name="1/kız" positionX="750" positionY="200"/>
+<Connection from="4/donat" to="1/kız" with="ARG1"/>
+<Word name="3/giysi" positionX="850" positionY="200"/>
+<Connection from="4/donat" to="3/giysi" with="instrument"/>
+<Word name="2/kışlık" positionX="750" positionY="300"/>
+<Connection from="3/giysi" to="2/kışlık" with="mod"/>
+</Amr>

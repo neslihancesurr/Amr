@@ -1,0 +1,11 @@
+<Amr sentence="Lego parçalarını kenetle .">
+<Word name="3/kenetle" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="3/kenetle" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="3/kenetle" to="imperative" with="mode"/>
+<Word name="2/parça" positionX="850" positionY="200"/>
+<Connection from="3/kenetle" to="2/parça" with="ARG1"/>
+<Word name="1/lego" positionX="750" positionY="300"/>
+<Connection from="2/parça" to="1/lego" with="mod"/>
+</Amr>

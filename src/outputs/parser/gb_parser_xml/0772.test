@@ -1,0 +1,11 @@
+<Amr sentence="iki oda dolusu eski gazete">
+<Word name="5/gazete" positionX="750" positionY="100"/>
+<Word name="3/dolu" positionX="650" positionY="200"/>
+<Connection from="5/gazete" to="3/dolu" with="mod"/>
+<Word name="2/oda" positionX="550" positionY="300"/>
+<Connection from="3/dolu" to="2/oda" with="mod"/>
+<Word name="1/iki" positionX="450" positionY="400"/>
+<Connection from="2/oda" to="1/iki"/>
+<Word name="4/eski" positionX="750" positionY="200"/>
+<Connection from="5/gazete" to="4/eski" with="mod"/>
+</Amr>

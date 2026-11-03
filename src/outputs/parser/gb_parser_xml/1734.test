@@ -1,0 +1,17 @@
+<Amr sentence="Ali bahçesine bir meşe ağacı dikmiş .">
+<Word name="6/dik" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="6/dik" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ali" positionX="450" positionY="400"/>
+<Connection from="name" to="1/ali" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/bahçe" positionX="750" positionY="200"/>
+<Connection from="6/dik" to="2/bahçe" with="ARG2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/bahçe" to="o" with="poss"/>
+<Word name="4/meşe 5/ağaç" positionX="850" positionY="200"/>
+<Connection from="6/dik" to="4/meşe 5/ağaç" with="ARG1"/>
+</Amr>

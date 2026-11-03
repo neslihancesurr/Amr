@@ -1,0 +1,16 @@
+<Amr sentence="Necla galiba artık bankada değil .">
+<Word name="4/banka:location" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="4/banka:location" to="person"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/necla" positionX="450" positionY="400"/>
+<Connection from="name" to="1/necla" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/galiba" positionX="750" positionY="200"/>
+<Connection from="4/banka:location" to="2/galiba" with="manner"/>
+<Word name="3/artık" positionX="850" positionY="200"/>
+<Connection from="4/banka:location" to="3/artık" with="manner"/>
+<Connection from="4/banka:location" to="-" with="polarity"/>
+</Amr>

@@ -1,0 +1,32 @@
+<Amr sentence="Ali çocuk gibi perendeler atıyor otlarla , yamaçlarla sarmaş dolaş oluyordu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/perende 5/at" positionX="650" positionY="200"/>
+<Connection from="and" to="4/perende 5/at" with="op1"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="4/perende 5/at" to="person" with="ARG0"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ali" positionX="350" positionY="500"/>
+<Connection from="name" to="1/ali" with="op1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/çocuk 3/gibi" positionX="650" positionY="300"/>
+<Connection from="4/perende 5/at" to="2/çocuk 3/gibi"/>
+<Word name="11/ol" positionX="750" positionY="200"/>
+<Connection from="and" to="11/ol" with="op2"/>
+<Connection from="11/ol" to="and"/>
+<Word name="8/yamaç" positionX="550" positionY="400"/>
+<Connection from="and" to="8/yamaç" with="instrument"/>
+<Word name="6/ot" positionX="650" positionY="400"/>
+<Connection from="and" to="6/ot" with="instrument"/>
+<Word name="10/dola" positionX="750" positionY="300"/>
+<Connection from="11/ol" to="10/dola"/>
+<Word name="sen" positionX="650" positionY="400"/>
+<Connection from="10/dola" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="400"/>
+<Connection from="10/dola" to="imperative" with="mode"/>
+<Word name="9/sarmaş" positionX="850" positionY="400"/>
+<Connection from="10/dola" to="9/sarmaş"/>
+<Connection from="9/sarmaş" to="sen" with="ARG0"/>
+<Connection from="9/sarmaş" to="imperative" with="mode"/>
+</Amr>

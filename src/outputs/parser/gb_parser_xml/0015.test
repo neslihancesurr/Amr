@@ -1,0 +1,17 @@
+<Amr sentence="Dün Zeki'nin ablası işten ayrılmış .">
+<Word name="5/ayrıl" positionX="750" positionY="100"/>
+<Word name="1/dün" positionX="650" positionY="200"/>
+<Connection from="5/ayrıl" to="1/dün"/>
+<Word name="3/abla" positionX="750" positionY="200"/>
+<Connection from="5/ayrıl" to="3/abla" with="ARG0"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="3/abla" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/zeki" positionX="450" positionY="500"/>
+<Connection from="name" to="2/zeki" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/iş" positionX="850" positionY="200"/>
+<Connection from="5/ayrıl" to="4/iş" with="ARG1"/>
+</Amr>

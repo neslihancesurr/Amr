@@ -1,0 +1,11 @@
+<Amr sentence="Çocuklar sayesinde alışveriş işleri pek sorun olmuyor .">
+<Word name="6/sorun 7/ol:cause" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="6/sorun 7/ol:cause" to="-" with="polarity"/>
+<Word name="4/işler" positionX="750" positionY="200"/>
+<Connection from="6/sorun 7/ol:cause" to="4/işler" with="ARG0"/>
+<Word name="3/alışveriş" positionX="650" positionY="300"/>
+<Connection from="4/işler" to="3/alışveriş" with="mod"/>
+<Word name="5/pek" positionX="850" positionY="200"/>
+<Connection from="6/sorun 7/ol:cause" to="5/pek" with="manner"/>
+</Amr>

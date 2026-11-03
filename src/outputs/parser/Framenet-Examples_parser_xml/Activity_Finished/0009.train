@@ -1,0 +1,20 @@
+<Amr sentence="Çok uğraştı ama bu zor görevi de pişirip kotardı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="8/pişir 9/kotar" positionX="650" positionY="200"/>
+<Connection from="and" to="8/pişir 9/kotar" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="8/pişir 9/kotar" to="o" with="ARG0"/>
+<Word name="6/görev" positionX="650" positionY="300"/>
+<Connection from="8/pişir 9/kotar" to="6/görev" with="ARG1"/>
+<Word name="4/bu" positionX="550" positionY="400"/>
+<Connection from="6/görev" to="4/bu" with="mod"/>
+<Word name="5/zor" positionX="650" positionY="400"/>
+<Connection from="6/görev" to="5/zor" with="mod"/>
+<Word name="7/de" positionX="750" positionY="400"/>
+<Connection from="6/görev" to="7/de" with="manner"/>
+<Word name="2/uğraş" positionX="750" positionY="200"/>
+<Connection from="and" to="2/uğraş" with="op2"/>
+<Connection from="2/uğraş" to="o" with="ARG0"/>
+<Word name="1/çok" positionX="750" positionY="300"/>
+<Connection from="2/uğraş" to="1/çok" with="degree"/>
+</Amr>

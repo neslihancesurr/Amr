@@ -1,0 +1,7 @@
+<Amr sentence="dörde yirmi kala">
+<Word name="2/yirmi" positionX="750" positionY="100"/>
+<Word name="1/dörd" positionX="650" positionY="200"/>
+<Connection from="2/yirmi" to="1/dörd" with="quant"/>
+<Word name="3/kala" positionX="750" positionY="200"/>
+<Connection from="2/yirmi" to="3/kala"/>
+</Amr>

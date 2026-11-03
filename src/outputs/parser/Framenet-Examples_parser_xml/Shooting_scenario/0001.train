@@ -1,0 +1,13 @@
+<Amr sentence="Dikkat et , tüfek atıyorlar .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/dikkat 2/et" positionX="650" positionY="200"/>
+<Connection from="and" to="1/dikkat 2/et" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="1/dikkat 2/et" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="650" positionY="300"/>
+<Connection from="1/dikkat 2/et" to="imperative" with="mode"/>
+<Word name="4/tüfek 5/at" positionX="750" positionY="200"/>
+<Connection from="and" to="4/tüfek 5/at" with="op2"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="4/tüfek 5/at" to="onlar" with="ARG0"/>
+</Amr>

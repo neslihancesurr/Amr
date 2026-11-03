@@ -1,0 +1,13 @@
+<Amr sentence="Şu sıralar ilginç bir şeyler okumuyor musun ?">
+<Word name="6/oku" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="6/oku" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="6/oku" to="o" with="ARG0"/>
+<Word name="2/sıra" positionX="850" positionY="200"/>
+<Connection from="6/oku" to="2/sıra"/>
+<Word name="1/şu" positionX="750" positionY="300"/>
+<Connection from="2/sıra" to="1/şu" with="mod"/>
+<Word name="7/mi" positionX="950" positionY="200"/>
+<Connection from="6/oku" to="7/mi"/>
+</Amr>

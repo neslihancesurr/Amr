@@ -1,0 +1,13 @@
+<Amr sentence="Yandaki masada oturan adam beni süzüyordu .">
+<Word name="6/süz" positionX="750" positionY="100"/>
+<Word name="4/adam" positionX="650" positionY="200"/>
+<Connection from="6/süz" to="4/adam" with="ARG0"/>
+<Word name="3/otur" positionX="550" positionY="300"/>
+<Connection from="4/adam" to="3/otur"/>
+<Word name="2/masa" positionX="450" positionY="400"/>
+<Connection from="3/otur" to="2/masa" with="location"/>
+<Word name="1/yan" positionX="350" positionY="500"/>
+<Connection from="2/masa" to="1/yan" with="mod"/>
+<Word name="5/ben" positionX="750" positionY="200"/>
+<Connection from="6/süz" to="5/ben" with="ARG1"/>
+</Amr>

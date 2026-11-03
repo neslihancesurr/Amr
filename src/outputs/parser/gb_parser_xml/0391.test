@@ -1,0 +1,9 @@
+<Amr sentence="Güzel oku .">
+<Word name="2/oku" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="2/oku" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="2/oku" to="imperative" with="mode"/>
+<Word name="1/güzel" positionX="850" positionY="200"/>
+<Connection from="2/oku" to="1/güzel" with="manner"/>
+</Amr>

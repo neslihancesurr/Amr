@@ -1,0 +1,11 @@
+<Amr sentence="Hızla çarptığı adam devrildi .">
+<Word name="4/devir" positionX="750" positionY="100"/>
+<Word name="3/adam" positionX="650" positionY="200"/>
+<Connection from="4/devir" to="3/adam" with="ARG0"/>
+<Word name="2/çarp" positionX="550" positionY="300"/>
+<Connection from="3/adam" to="2/çarp"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="2/çarp" to="o" with="poss"/>
+<Word name="1/hızla" positionX="550" positionY="400"/>
+<Connection from="2/çarp" to="1/hızla" with="manner"/>
+</Amr>

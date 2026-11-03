@@ -1,0 +1,11 @@
+<Amr sentence="Ormanda dolaşırken bir tilki gördüm .">
+<Word name="5/gör" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/gör" to="ben" with="ARG0"/>
+<Word name="2/dolaş" positionX="750" positionY="200"/>
+<Connection from="5/gör" to="2/dolaş"/>
+<Word name="1/orman" positionX="650" positionY="300"/>
+<Connection from="2/dolaş" to="1/orman" with="location"/>
+<Word name="4/tilki" positionX="850" positionY="200"/>
+<Connection from="5/gör" to="4/tilki"/>
+</Amr>

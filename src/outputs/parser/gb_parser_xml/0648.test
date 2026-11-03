@@ -1,0 +1,25 @@
+<Amr sentence="Bu yılki misafirlerimizden yirmi otuz aile şimdiden gelecek yıl için rezervasyon yaptılar .">
+<Word name="11/rezervasyon 12/yap" positionX="750" positionY="100"/>
+<Word name="6/aile" positionX="650" positionY="200"/>
+<Connection from="11/rezervasyon 12/yap" to="6/aile" with="ARG0"/>
+<Word name="3/misafir" positionX="550" positionY="300"/>
+<Connection from="6/aile" to="3/misafir"/>
+<Word name="biz" positionX="450" positionY="400"/>
+<Connection from="3/misafir" to="biz" with="poss"/>
+<Word name="2/yıl" positionX="550" positionY="400"/>
+<Connection from="3/misafir" to="2/yıl" with="mod"/>
+<Word name="1/bu" positionX="450" positionY="500"/>
+<Connection from="2/yıl" to="1/bu" with="mod"/>
+<Word name="and" positionX="650" positionY="300"/>
+<Connection from="6/aile" to="and"/>
+<Word name="5/otuz" positionX="550" positionY="400"/>
+<Connection from="and" to="5/otuz" with="op1"/>
+<Word name="4/yirmi" positionX="650" positionY="400"/>
+<Connection from="and" to="4/yirmi" with="op2"/>
+<Word name="7/şimdiden" positionX="750" positionY="200"/>
+<Connection from="11/rezervasyon 12/yap" to="7/şimdiden" with="manner"/>
+<Word name="9/yıl" positionX="850" positionY="200"/>
+<Connection from="11/rezervasyon 12/yap" to="9/yıl" with="cause"/>
+<Word name="8/gel" positionX="750" positionY="300"/>
+<Connection from="9/yıl" to="8/gel" with="mod"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Bağdaş kurmak kan akışı açısından tavsiye edilmeyen bir oturuş biçimidir .">
+<Word name="10/biçim" positionX="750" positionY="100"/>
+<Word name="1/bağdaş 2/kur" positionX="650" positionY="200"/>
+<Connection from="10/biçim" to="1/bağdaş 2/kur"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/bağdaş 2/kur" to="o" with="ARG0"/>
+<Word name="9/oturuş" positionX="750" positionY="200"/>
+<Connection from="10/biçim" to="9/oturuş" with="mod"/>
+<Word name="6/tavsiye 7/et" positionX="650" positionY="300"/>
+<Connection from="9/oturuş" to="6/tavsiye 7/et"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="6/tavsiye 7/et" to="-" with="polarity"/>
+</Amr>

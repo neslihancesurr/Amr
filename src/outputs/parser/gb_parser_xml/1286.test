@@ -1,0 +1,17 @@
+<Amr sentence="Bütün kalemler kayboldu sanmıştım ama ikisi burada .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="7/burada" positionX="650" positionY="200"/>
+<Connection from="and" to="7/burada" with="op1"/>
+<Word name="6/iki" positionX="550" positionY="300"/>
+<Connection from="7/burada" to="6/iki"/>
+<Word name="4/san" positionX="750" positionY="200"/>
+<Connection from="and" to="4/san" with="op2"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="4/san" to="ben" with="ARG0"/>
+<Word name="3/kaybol" positionX="750" positionY="300"/>
+<Connection from="4/san" to="3/kaybol" with="ARG1"/>
+<Word name="2/kalem" positionX="650" positionY="400"/>
+<Connection from="3/kaybol" to="2/kalem" with="ARG0"/>
+<Word name="1/bütün" positionX="550" positionY="500"/>
+<Connection from="2/kalem" to="1/bütün" with="mod"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="İnanıyorum ki her şey düzelecek .">
+<Word name="1/inan" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="1/inan" to="ben" with="ARG0"/>
+<Word name="5/düzel" positionX="750" positionY="200"/>
+<Connection from="1/inan" to="5/düzel"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/düzel" to="o" with="ARG0"/>
+<Word name="4/şey" positionX="750" positionY="300"/>
+<Connection from="5/düzel" to="4/şey"/>
+<Word name="2/ki" positionX="650" positionY="400"/>
+<Connection from="4/şey" to="2/ki"/>
+<Word name="3/her" positionX="750" positionY="400"/>
+<Connection from="4/şey" to="3/her" with="mod"/>
+</Amr>

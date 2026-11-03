@@ -1,0 +1,11 @@
+<Amr sentence="Ustanın evinden yana saptı .">
+<Word name="4/sap" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/sap" to="o" with="ARG0"/>
+<Word name="2/ev" positionX="750" positionY="200"/>
+<Connection from="4/sap" to="2/ev"/>
+<Word name="1/usta" positionX="650" positionY="300"/>
+<Connection from="2/ev" to="1/usta" with="mod"/>
+<Word name="3/yan" positionX="850" positionY="200"/>
+<Connection from="4/sap" to="3/yan"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Kimseyi görmedim ki !">
+<Word name="2/gör" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="2/gör" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="2/gör" to="ben" with="ARG0"/>
+<Word name="1/kimse" positionX="850" positionY="200"/>
+<Connection from="2/gör" to="1/kimse" with="ARG1"/>
+<Word name="3/ki" positionX="950" positionY="200"/>
+<Connection from="2/gör" to="3/ki"/>
+</Amr>

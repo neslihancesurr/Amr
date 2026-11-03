@@ -1,0 +1,17 @@
+<Amr sentence="Bu konuda seni ikinci kez ikaz ediyorum .">
+<Word name="6/ikaz 7/et" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="6/ikaz 7/et" to="ben" with="ARG0"/>
+<Word name="2/konu" positionX="750" positionY="200"/>
+<Connection from="6/ikaz 7/et" to="2/konu" with="mod"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/konu" to="1/bu" with="mod"/>
+<Word name="3/sen" positionX="850" positionY="200"/>
+<Connection from="6/ikaz 7/et" to="3/sen" with="ARG1"/>
+<Word name="5/kez" positionX="950" positionY="200"/>
+<Connection from="6/ikaz 7/et" to="5/kez" with="mod"/>
+<Word name="ordinal-entity" positionX="850" positionY="300"/>
+<Connection from="5/kez" to="ordinal-entity" with="ord"/>
+<Word name="2" positionX="750" positionY="400"/>
+<Connection from="ordinal-entity" to="2" with="value"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Neden olmasın deyip köyün arka tarafından ters yüz geri döndük .">
+<Word name="7/ters 8/yüz 9/geri 10/dön" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="7/ters 8/yüz 9/geri 10/dön" to="biz" with="ARG0"/>
+<Word name="3/de" positionX="750" positionY="200"/>
+<Connection from="7/ters 8/yüz 9/geri 10/dön" to="3/de"/>
+<Word name="1/neden 2/ol" positionX="650" positionY="300"/>
+<Connection from="3/de" to="1/neden 2/ol" with="manner"/>
+<Word name="6/taraf" positionX="850" positionY="200"/>
+<Connection from="7/ters 8/yüz 9/geri 10/dön" to="6/taraf"/>
+<Word name="4/köy" positionX="750" positionY="300"/>
+<Connection from="6/taraf" to="4/köy" with="mod"/>
+<Word name="5/arka" positionX="850" positionY="300"/>
+<Connection from="6/taraf" to="5/arka" with="mod"/>
+</Amr>

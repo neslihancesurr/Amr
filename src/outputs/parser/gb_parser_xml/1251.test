@@ -1,0 +1,13 @@
+<Amr sentence="Onun kaza geçirmesi bütün planları altüst edecek .">
+<Word name="6/altüst 7/et" positionX="750" positionY="100"/>
+<Word name="2/kaza 3/geçir" positionX="650" positionY="200"/>
+<Connection from="6/altüst 7/et" to="2/kaza 3/geçir" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/kaza 3/geçir" to="o" with="poss"/>
+<Word name="1/o" positionX="650" positionY="300"/>
+<Connection from="2/kaza 3/geçir" to="1/o" with="ARG0"/>
+<Word name="5/plan" positionX="750" positionY="200"/>
+<Connection from="6/altüst 7/et" to="5/plan" with="ARG1"/>
+<Word name="4/bütün" positionX="650" positionY="300"/>
+<Connection from="5/plan" to="4/bütün" with="mod"/>
+</Amr>

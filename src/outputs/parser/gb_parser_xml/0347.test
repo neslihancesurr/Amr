@@ -1,0 +1,11 @@
+<Amr sentence="Çocuğu öylesine seviyor ki …">
+<Word name="3/sev" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/sev" to="o" with="ARG0"/>
+<Word name="1/çocuk" positionX="750" positionY="200"/>
+<Connection from="3/sev" to="1/çocuk" with="ARG1"/>
+<Word name="2/öylesine" positionX="850" positionY="200"/>
+<Connection from="3/sev" to="2/öylesine" with="manner"/>
+<Word name="4/ki" positionX="950" positionY="200"/>
+<Connection from="3/sev" to="4/ki"/>
+</Amr>

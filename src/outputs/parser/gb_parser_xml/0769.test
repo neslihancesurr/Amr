@@ -1,0 +1,7 @@
+<Amr sentence="İpeğin metresi ne kadar ?">
+<Word name="3/ne:extent" positionX="750" positionY="100"/>
+<Word name="2/metre" positionX="650" positionY="200"/>
+<Connection from="3/ne:extent" to="2/metre"/>
+<Word name="1/ipek" positionX="550" positionY="300"/>
+<Connection from="2/metre" to="1/ipek" with="mod"/>
+</Amr>

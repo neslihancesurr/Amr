@@ -1,0 +1,16 @@
+<Amr sentence="Nejat gençliğinde bu kadar inatçı değildi .">
+<Word name="5/inatçı" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="5/inatçı" to="person"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/nejat" positionX="450" positionY="400"/>
+<Connection from="name" to="1/nejat" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/gençlik" positionX="750" positionY="200"/>
+<Connection from="5/inatçı" to="2/gençlik" with="mod"/>
+<Word name="3/bu 4/kadar" positionX="850" positionY="200"/>
+<Connection from="5/inatçı" to="3/bu 4/kadar" with="mod"/>
+<Connection from="5/inatçı" to="-" with="polarity"/>
+</Amr>

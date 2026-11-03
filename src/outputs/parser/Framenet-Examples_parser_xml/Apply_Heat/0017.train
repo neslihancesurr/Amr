@@ -1,0 +1,20 @@
+<Amr sentence="Tüyleri yolunmuş bütün tavuğu dikkatle ocakta üttü .">
+<Word name="7/üt" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/üt" to="o" with="ARG0"/>
+<Word name="4/tavuk" positionX="750" positionY="200"/>
+<Connection from="7/üt" to="4/tavuk" with="ARG1"/>
+<Word name="2/yolun" positionX="650" positionY="300"/>
+<Connection from="4/tavuk" to="2/yolun"/>
+<Word name="1/tüy" positionX="550" positionY="400"/>
+<Connection from="2/yolun" to="1/tüy" with="ARG0"/>
+<Connection from="1/tüy" to="o" with="poss"/>
+<Word name="3/bütün" positionX="750" positionY="300"/>
+<Connection from="4/tavuk" to="3/bütün" with="mod"/>
+<Word name="5/dikkatle" positionX="850" positionY="200"/>
+<Connection from="7/üt" to="5/dikkatle" with="manner"/>
+<Word name="date-entity" positionX="950" positionY="200"/>
+<Connection from="7/üt" to="date-entity" with="date"/>
+<Word name="6/ocak" positionX="850" positionY="300"/>
+<Connection from="date-entity" to="6/ocak" with="month"/>
+</Amr>

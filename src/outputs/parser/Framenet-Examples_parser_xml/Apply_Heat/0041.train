@@ -1,0 +1,15 @@
+<Amr sentence="Tavuğun tüylerini haşlamadan önce üt .">
+<Word name="5/üt" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="5/üt" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="5/üt" to="imperative" with="mode"/>
+<Word name="3/haşla" positionX="850" positionY="200"/>
+<Connection from="5/üt" to="3/haşla"/>
+<Word name="2/tüy" positionX="750" positionY="300"/>
+<Connection from="3/haşla" to="2/tüy"/>
+<Word name="1/tavuk" positionX="650" positionY="400"/>
+<Connection from="2/tüy" to="1/tavuk" with="mod"/>
+<Word name="4/önce" positionX="850" positionY="300"/>
+<Connection from="3/haşla" to="4/önce"/>
+</Amr>

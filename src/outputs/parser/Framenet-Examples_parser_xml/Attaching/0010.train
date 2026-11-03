@@ -1,0 +1,14 @@
+<Amr sentence="Topuzunu sabitlemek için saçını firketeledi .">
+<Word name="5/firketele" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/firketele" to="o" with="ARG0"/>
+<Word name="2/sabitle" positionX="750" positionY="200"/>
+<Connection from="5/firketele" to="2/sabitle" with="cause"/>
+<Connection from="2/sabitle" to="o" with="ARG0"/>
+<Word name="1/topuz" positionX="750" positionY="300"/>
+<Connection from="2/sabitle" to="1/topuz"/>
+<Connection from="1/topuz" to="o" with="poss"/>
+<Word name="4/saç" positionX="850" positionY="200"/>
+<Connection from="5/firketele" to="4/saç" with="ARG1"/>
+<Connection from="4/saç" to="o" with="poss"/>
+</Amr>

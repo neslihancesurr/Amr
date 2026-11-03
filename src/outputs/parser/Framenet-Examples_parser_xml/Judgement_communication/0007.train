@@ -1,0 +1,11 @@
+<Amr sentence="Bizimkiler tüm gece adamları kesintiye aldılar .">
+<Word name="5/kesinti 6/al" positionX="750" positionY="100"/>
+<Word name="1/bizimki" positionX="650" positionY="200"/>
+<Connection from="5/kesinti 6/al" to="1/bizimki" with="ARG0"/>
+<Word name="3/gece" positionX="750" positionY="200"/>
+<Connection from="5/kesinti 6/al" to="3/gece" with="mod"/>
+<Word name="2/tüm" positionX="650" positionY="300"/>
+<Connection from="3/gece" to="2/tüm" with="mod"/>
+<Word name="4/adam" positionX="850" positionY="200"/>
+<Connection from="5/kesinti 6/al" to="4/adam" with="ARG1"/>
+</Amr>

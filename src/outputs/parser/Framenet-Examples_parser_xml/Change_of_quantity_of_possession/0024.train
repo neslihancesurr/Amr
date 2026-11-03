@@ -1,0 +1,26 @@
+<Amr sentence="Uzun yıllar sonunda paralandı , artık istediği her şeyi alabiliyordu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/paralan" positionX="650" positionY="200"/>
+<Connection from="and" to="4/paralan" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/paralan" to="o" with="ARG0"/>
+<Word name="3/sonunda" positionX="650" positionY="300"/>
+<Connection from="4/paralan" to="3/sonunda" with="manner"/>
+<Word name="2/yıl" positionX="550" positionY="400"/>
+<Connection from="3/sonunda" to="2/yıl" with="mod"/>
+<Word name="1/uzun" positionX="450" positionY="500"/>
+<Connection from="2/yıl" to="1/uzun" with="mod"/>
+<Word name="10/al" positionX="750" positionY="200"/>
+<Connection from="and" to="10/al" with="op2"/>
+<Connection from="10/al" to="o" with="ARG0"/>
+<Word name="9/şey" positionX="750" positionY="300"/>
+<Connection from="10/al" to="9/şey" with="ARG1"/>
+<Connection from="9/şey" to="o" with="poss"/>
+<Word name="7/iste" positionX="750" positionY="400"/>
+<Connection from="9/şey" to="7/iste"/>
+<Connection from="7/iste" to="o" with="poss"/>
+<Word name="6/artık" positionX="750" positionY="500"/>
+<Connection from="7/iste" to="6/artık" with="manner"/>
+<Word name="8/her" positionX="850" positionY="400"/>
+<Connection from="9/şey" to="8/her" with="mod"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Teminat konusunda şirket ofsaytta kaldı .">
+<Word name="4/ofsayt 5/kal" positionX="750" positionY="100"/>
+<Word name="2/konu" positionX="650" positionY="200"/>
+<Connection from="4/ofsayt 5/kal" to="2/konu" with="location"/>
+<Word name="1/teminat" positionX="550" positionY="300"/>
+<Connection from="2/konu" to="1/teminat" with="mod"/>
+<Word name="3/şirket" positionX="750" positionY="200"/>
+<Connection from="4/ofsayt 5/kal" to="3/şirket" with="ARG0"/>
+</Amr>

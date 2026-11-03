@@ -1,0 +1,9 @@
+<Amr sentence="Meyveleri şuna koyalım .">
+<Word name="3/koy" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="3/koy" to="biz" with="ARG0"/>
+<Word name="1/meyve" positionX="750" positionY="200"/>
+<Connection from="3/koy" to="1/meyve"/>
+<Word name="2/şu" positionX="850" positionY="200"/>
+<Connection from="3/koy" to="2/şu" with="ARG1"/>
+</Amr>

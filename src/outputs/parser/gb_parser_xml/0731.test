@@ -1,0 +1,9 @@
+<Amr sentence="bundan az büyük bir araba">
+<Word name="5/araba" positionX="750" positionY="100"/>
+<Word name="3/büyük" positionX="650" positionY="200"/>
+<Connection from="5/araba" to="3/büyük" with="mod"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="3/büyük" to="1/bu" with="mod"/>
+<Word name="2/az" positionX="650" positionY="300"/>
+<Connection from="3/büyük" to="2/az" with="manner"/>
+</Amr>

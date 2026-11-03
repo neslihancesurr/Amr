@@ -1,0 +1,11 @@
+<Amr sentence="Bu mevsimde yılanlar gömlek değiştirir .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="4/gömlek 5/değiş" positionX="650" positionY="200"/>
+<Connection from="yap" to="4/gömlek 5/değiş"/>
+<Word name="2/mevsim" positionX="550" positionY="300"/>
+<Connection from="4/gömlek 5/değiş" to="2/mevsim" with="location"/>
+<Word name="1/bu" positionX="450" positionY="400"/>
+<Connection from="2/mevsim" to="1/bu" with="mod"/>
+<Word name="3/yılan" positionX="650" positionY="300"/>
+<Connection from="4/gömlek 5/değiş" to="3/yılan" with="ARG0"/>
+</Amr>

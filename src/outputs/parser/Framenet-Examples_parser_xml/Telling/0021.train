@@ -1,0 +1,9 @@
+<Amr sentence="Onunla ilgili hislerini bir kağıda döktü .">
+<Word name="5/kağıt 6/dök" positionX="750" positionY="100"/>
+<Word name="3/his" positionX="650" positionY="200"/>
+<Connection from="5/kağıt 6/dök" to="3/his" with="ARG1"/>
+<Word name="2/ilgili" positionX="550" positionY="300"/>
+<Connection from="3/his" to="2/ilgili" with="mod"/>
+<Word name="1/o" positionX="450" positionY="400"/>
+<Connection from="2/ilgili" to="1/o" with="instrument"/>
+</Amr>

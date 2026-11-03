@@ -1,0 +1,9 @@
+<Amr sentence="Olanlar Adnan Bey'in ancak kafasına dank etti .">
+<Word name="5/kafa 6/dank 7/et" positionX="750" positionY="100"/>
+<Word name="1/ol" positionX="650" positionY="200"/>
+<Connection from="5/kafa 6/dank 7/et" to="1/ol" with="ARG1"/>
+<Word name="onlar" positionX="550" positionY="300"/>
+<Connection from="1/ol" to="onlar" with="ARG0"/>
+<Word name="4/ancak" positionX="750" positionY="200"/>
+<Connection from="5/kafa 6/dank 7/et" to="4/ancak" with="manner"/>
+</Amr>

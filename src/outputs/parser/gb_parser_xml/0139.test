@@ -1,0 +1,5 @@
+<Amr sentence="Fransız edebiyatı">
+<Word name="2/edebiyat" positionX="750" positionY="100"/>
+<Word name="1/fransız" positionX="650" positionY="200"/>
+<Connection from="2/edebiyat" to="1/fransız" with="mod"/>
+</Amr>

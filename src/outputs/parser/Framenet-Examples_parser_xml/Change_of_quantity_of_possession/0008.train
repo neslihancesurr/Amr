@@ -1,0 +1,13 @@
+<Amr sentence="Onu dikkate alma , söyledikleri geçersizleşti .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/dikkat 3/al" positionX="650" positionY="200"/>
+<Connection from="and" to="2/dikkat 3/al" with="op1"/>
+<Word name="1/o" positionX="550" positionY="300"/>
+<Connection from="2/dikkat 3/al" to="1/o" with="ARG1"/>
+<Word name="6/geçersizleş" positionX="750" positionY="200"/>
+<Connection from="and" to="6/geçersizleş" with="op2"/>
+<Word name="5/söyle" positionX="650" positionY="300"/>
+<Connection from="6/geçersizleş" to="5/söyle" with="ARG1"/>
+<Word name="onlar" positionX="550" positionY="400"/>
+<Connection from="5/söyle" to="onlar" with="poss"/>
+</Amr>

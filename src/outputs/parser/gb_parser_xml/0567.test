@@ -1,0 +1,9 @@
+<Amr sentence="Yol boyunca konuştu .">
+<Word name="3/konuş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/konuş" to="o" with="ARG0"/>
+<Word name="1/yol" positionX="750" positionY="200"/>
+<Connection from="3/konuş" to="1/yol"/>
+<Word name="2/boyunca" positionX="650" positionY="300"/>
+<Connection from="1/yol" to="2/boyunca"/>
+</Amr>

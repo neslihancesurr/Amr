@@ -1,0 +1,15 @@
+<Amr sentence="Zerrin tenis oynamaktan vazgeçti .">
+<Word name="4/vazgeç" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="4/vazgeç" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/zerrin" positionX="450" positionY="400"/>
+<Connection from="name" to="1/zerrin" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/oyna" positionX="750" positionY="200"/>
+<Connection from="4/vazgeç" to="3/oyna" with="ARG1"/>
+<Word name="2/tenis" positionX="650" positionY="300"/>
+<Connection from="3/oyna" to="2/tenis" with="ARG1"/>
+</Amr>

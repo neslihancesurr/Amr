@@ -1,0 +1,9 @@
+<Amr sentence="Masraflar yüzünden borçlu oldum .">
+<Word name="3/borç 4/ol" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/borç 4/ol" to="ben" with="ARG0"/>
+<Word name="2/yüzünden" positionX="750" positionY="200"/>
+<Connection from="3/borç 4/ol" to="2/yüzünden" with="manner"/>
+<Word name="1/masraf" positionX="650" positionY="300"/>
+<Connection from="2/yüzünden" to="1/masraf" with="mod"/>
+</Amr>

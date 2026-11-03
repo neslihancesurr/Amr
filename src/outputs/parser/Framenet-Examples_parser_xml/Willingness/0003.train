@@ -1,0 +1,9 @@
+<Amr sentence="Okula giderken içi kağşıyordu .">
+<Word name="3/iç 4/kağşa" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/iç 4/kağşa" to="o" with="ARG0"/>
+<Word name="2/git" positionX="750" positionY="200"/>
+<Connection from="3/iç 4/kağşa" to="2/git"/>
+<Word name="1/okul" positionX="650" positionY="300"/>
+<Connection from="2/git" to="1/okul" with="ARG1"/>
+</Amr>

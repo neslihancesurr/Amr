@@ -1,0 +1,26 @@
+<Amr sentence="Kemal bana kaç defa anlatsa da gene anlamayacaktım .">
+<Word name="8/anla" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="8/anla" to="-" with="polarity"/>
+<Word name="5/anlat" positionX="750" positionY="200"/>
+<Connection from="8/anla" to="5/anlat"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/anlat" to="o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="5/anlat" to="person"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/kemal" positionX="550" positionY="500"/>
+<Connection from="name" to="1/kemal" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/ben" positionX="850" positionY="300"/>
+<Connection from="5/anlat" to="2/ben"/>
+<Word name="4/defa" positionX="950" positionY="300"/>
+<Connection from="5/anlat" to="4/defa" with="mod"/>
+<Word name="3/kaç" positionX="850" positionY="400"/>
+<Connection from="4/defa" to="3/kaç" with="mod"/>
+<Word name="6/da" positionX="1050" positionY="300"/>
+<Connection from="5/anlat" to="6/da"/>
+<Word name="7/gene" positionX="850" positionY="200"/>
+<Connection from="8/anla" to="7/gene" with="manner"/>
+</Amr>

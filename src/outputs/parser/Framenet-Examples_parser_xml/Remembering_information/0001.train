@@ -1,0 +1,17 @@
+<Amr sentence="Zarfın üstündeki yazıyı hemen doğru olarak tanıdı .">
+<Word name="7/tanı" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/tanı" to="o" with="ARG0"/>
+<Word name="3/yazı" positionX="750" positionY="200"/>
+<Connection from="7/tanı" to="3/yazı" with="ARG1"/>
+<Word name="2/üst" positionX="650" positionY="300"/>
+<Connection from="3/yazı" to="2/üst" with="mod"/>
+<Word name="1/zarf" positionX="550" positionY="400"/>
+<Connection from="2/üst" to="1/zarf" with="mod"/>
+<Word name="4/hemen" positionX="850" positionY="200"/>
+<Connection from="7/tanı" to="4/hemen" with="manner"/>
+<Word name="6/ol" positionX="950" positionY="200"/>
+<Connection from="7/tanı" to="6/ol"/>
+<Word name="5/doğru" positionX="850" positionY="300"/>
+<Connection from="6/ol" to="5/doğru" with="manner"/>
+</Amr>

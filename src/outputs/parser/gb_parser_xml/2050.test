@@ -1,0 +1,9 @@
+<Amr sentence="Belli ki birbirini çekemiyorlar .">
+<Word name="1/belli" positionX="750" positionY="100"/>
+<Word name="3/birbiri 4/çek" positionX="650" positionY="200"/>
+<Connection from="1/belli" to="3/birbiri 4/çek"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="3/birbiri 4/çek" to="-" with="polarity"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="3/birbiri 4/çek" to="onlar" with="ARG0"/>
+</Amr>

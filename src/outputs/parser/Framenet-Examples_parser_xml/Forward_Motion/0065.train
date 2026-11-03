@@ -1,0 +1,11 @@
+<Amr sentence="Sekiz numaralı jokey hızla kaçırdı .">
+<Word name="5/kaçır" positionX="750" positionY="100"/>
+<Word name="3/jokey" positionX="650" positionY="200"/>
+<Connection from="5/kaçır" to="3/jokey" with="ARG0"/>
+<Word name="2/numara" positionX="550" positionY="300"/>
+<Connection from="3/jokey" to="2/numara" with="mod"/>
+<Word name="1/sekiz" positionX="450" positionY="400"/>
+<Connection from="2/numara" to="1/sekiz"/>
+<Word name="4/hızla" positionX="750" positionY="200"/>
+<Connection from="5/kaçır" to="4/hızla" with="manner"/>
+</Amr>

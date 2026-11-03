@@ -1,0 +1,10 @@
+<Amr sentence="İşi uzatmak için resmen ayağını sürüdü .">
+<Word name="5/ayak 6/sürü" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/ayak 6/sürü" to="o" with="ARG0"/>
+<Word name="1/iş 2/uzat" positionX="750" positionY="200"/>
+<Connection from="5/ayak 6/sürü" to="1/iş 2/uzat"/>
+<Connection from="1/iş 2/uzat" to="o" with="ARG0"/>
+<Word name="4/resmen" positionX="850" positionY="200"/>
+<Connection from="5/ayak 6/sürü" to="4/resmen" with="manner"/>
+</Amr>

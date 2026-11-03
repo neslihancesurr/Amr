@@ -1,0 +1,11 @@
+<Amr sentence="Ay arabanın şeyini kırmışlar !">
+<Word name="4/kır" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/kır" to="onlar" with="ARG0"/>
+<Word name="1/ay" positionX="750" positionY="200"/>
+<Connection from="4/kır" to="1/ay"/>
+<Word name="3/şey" positionX="850" positionY="200"/>
+<Connection from="4/kır" to="3/şey" with="ARG1"/>
+<Word name="2/araba" positionX="750" positionY="300"/>
+<Connection from="3/şey" to="2/araba" with="mod"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Dişli rakibini kolayca engelledi .">
+<Word name="4/engelle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/engelle" to="o" with="ARG0"/>
+<Word name="2/rakip" positionX="750" positionY="200"/>
+<Connection from="4/engelle" to="2/rakip" with="ARG1"/>
+<Word name="1/dişli" positionX="650" positionY="300"/>
+<Connection from="2/rakip" to="1/dişli" with="mod"/>
+<Word name="3/kolay" positionX="850" positionY="200"/>
+<Connection from="4/engelle" to="3/kolay" with="manner"/>
+</Amr>

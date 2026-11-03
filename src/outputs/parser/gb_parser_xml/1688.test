@@ -1,0 +1,11 @@
+<Amr sentence="Burada oturamazsınız .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="2/otur" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="2/otur"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="2/otur" to="-" with="polarity"/>
+<Word name="siz" positionX="650" positionY="300"/>
+<Connection from="2/otur" to="siz" with="ARG0"/>
+<Word name="1/burada" positionX="750" positionY="300"/>
+<Connection from="2/otur" to="1/burada" with="ARG1"/>
+</Amr>

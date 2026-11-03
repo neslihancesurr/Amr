@@ -1,0 +1,39 @@
+<Amr sentence="Nazlı ister kursa yazılsın ister yazılmasın , bir şekilde Fransızca öğrenmesi gerekiyor .">
+<Word name="12/gerek" positionX="750" positionY="100"/>
+<Word name="and" positionX="650" positionY="200"/>
+<Connection from="12/gerek" to="and"/>
+<Word name="6/yazıl" positionX="550" positionY="300"/>
+<Connection from="and" to="6/yazıl" with="op1"/>
+<Word name="-" positionX="450" positionY="400"/>
+<Connection from="6/yazıl" to="-" with="polarity"/>
+<Word name="imperative" positionX="550" positionY="400"/>
+<Connection from="6/yazıl" to="imperative" with="mode"/>
+<Word name="5/ister" positionX="650" positionY="400"/>
+<Connection from="6/yazıl" to="5/ister"/>
+<Word name="4/yazıl" positionX="650" positionY="300"/>
+<Connection from="and" to="4/yazıl" with="op2"/>
+<Connection from="4/yazıl" to="imperative" with="mode"/>
+<Word name="person" positionX="650" positionY="400"/>
+<Connection from="4/yazıl" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/nazlı" positionX="450" positionY="600"/>
+<Connection from="name" to="1/nazlı" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/kurs" positionX="750" positionY="400"/>
+<Connection from="4/yazıl" to="3/kurs"/>
+<Word name="2/ister" positionX="650" positionY="500"/>
+<Connection from="3/kurs" to="2/ister"/>
+<Word name="11/öğren" positionX="750" positionY="200"/>
+<Connection from="12/gerek" to="11/öğren" with="ARG0"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="11/öğren" to="o" with="ARG0"/>
+<Connection from="11/öğren" to="o" with="poss"/>
+<Word name="9/şekil" positionX="850" positionY="300"/>
+<Connection from="11/öğren" to="9/şekil" with="location"/>
+<Connection from="11/öğren" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="10/fransızca" positionX="750" positionY="500"/>
+<Connection from="name" to="10/fransızca" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

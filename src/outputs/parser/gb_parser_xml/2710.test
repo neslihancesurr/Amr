@@ -1,0 +1,13 @@
+<Amr sentence="- Dükkanlar daha açılmamıştır ki .">
+<Word name="4/aç" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/aç" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="4/aç" to="o" with="ARG0"/>
+<Word name="2/dükkan" positionX="850" positionY="200"/>
+<Connection from="4/aç" to="2/dükkan" with="ARG1"/>
+<Word name="3/daha" positionX="950" positionY="200"/>
+<Connection from="4/aç" to="3/daha" with="degree"/>
+<Word name="5/ki" positionX="1050" positionY="200"/>
+<Connection from="4/aç" to="5/ki"/>
+</Amr>

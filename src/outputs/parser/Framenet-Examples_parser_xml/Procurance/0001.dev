@@ -1,0 +1,9 @@
+<Amr sentence="Geceleri , arka sokakta haraca kesiyorlar .">
+<Word name="5/haraç 6/kes" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="5/haraç 6/kes" to="onlar" with="ARG0"/>
+<Word name="1/geceleri" positionX="750" positionY="200"/>
+<Connection from="5/haraç 6/kes" to="1/geceleri"/>
+<Word name="3/arka 4/sokak" positionX="850" positionY="200"/>
+<Connection from="5/haraç 6/kes" to="3/arka 4/sokak" with="location"/>
+</Amr>

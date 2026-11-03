@@ -1,0 +1,14 @@
+<Amr sentence="Annesine bulaşık yıkatmıyor .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="3/yıka" positionX="650" positionY="200"/>
+<Connection from="yap" to="3/yıka"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="3/yıka" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/yıka" to="o" with="ARG0"/>
+<Word name="1/anne" positionX="750" positionY="300"/>
+<Connection from="3/yıka" to="1/anne"/>
+<Connection from="1/anne" to="o" with="poss"/>
+<Word name="2/bulaşık" positionX="850" positionY="300"/>
+<Connection from="3/yıka" to="2/bulaşık" with="ARG1"/>
+</Amr>

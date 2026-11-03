@@ -1,0 +1,9 @@
+<Amr sentence="Soğuktu , tirildiyordum .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/soğuk" positionX="650" positionY="200"/>
+<Connection from="and" to="1/soğuk" with="op1"/>
+<Word name="3/tirilde" positionX="750" positionY="200"/>
+<Connection from="and" to="3/tirilde" with="op2"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="3/tirilde" to="ben" with="ARG0"/>
+</Amr>

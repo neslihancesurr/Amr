@@ -1,0 +1,16 @@
+<Amr sentence="Bugün burada temizlik yapılsa iyi olur .">
+<Word name="6/ol" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/ol" to="o" with="ARG0"/>
+<Word name="4/yap" positionX="750" positionY="200"/>
+<Connection from="6/ol" to="4/yap"/>
+<Connection from="4/yap" to="o" with="ARG0"/>
+<Word name="1/bugün" positionX="750" positionY="300"/>
+<Connection from="4/yap" to="1/bugün"/>
+<Word name="2/burada" positionX="850" positionY="300"/>
+<Connection from="4/yap" to="2/burada"/>
+<Word name="3/temizlik" positionX="950" positionY="300"/>
+<Connection from="4/yap" to="3/temizlik"/>
+<Word name="5/iyi" positionX="850" positionY="200"/>
+<Connection from="6/ol" to="5/iyi" with="manner"/>
+</Amr>

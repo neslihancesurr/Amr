@@ -1,0 +1,19 @@
+<Amr sentence="Türkiye'deki depremler konusunda bir kitap yazmış .">
+<Word name="6/yaz" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/yaz" to="o" with="ARG0"/>
+<Word name="5/kitap" positionX="750" positionY="200"/>
+<Connection from="6/yaz" to="5/kitap" with="ARG1"/>
+<Word name="3/konu" positionX="650" positionY="300"/>
+<Connection from="5/kitap" to="3/konu" with="mod"/>
+<Word name="2/deprem" positionX="550" positionY="400"/>
+<Connection from="3/konu" to="2/deprem" with="mod"/>
+<Word name="person" positionX="450" positionY="500"/>
+<Connection from="2/deprem" to="person" with="location"/>
+<Word name="name" positionX="350" positionY="600"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/türkiye" positionX="250" positionY="700"/>
+<Connection from="name" to="1/türkiye" with="op1"/>
+<Word name="-" positionX="450" positionY="600"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

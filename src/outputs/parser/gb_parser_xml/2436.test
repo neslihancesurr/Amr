@@ -1,0 +1,19 @@
+<Amr sentence="Ayşe kızını görmeye gitti .">
+<Word name="4/git" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/git" to="o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="4/git" to="person"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ayşe" positionX="550" positionY="400"/>
+<Connection from="name" to="1/ayşe" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/gör" positionX="850" positionY="200"/>
+<Connection from="4/git" to="3/gör"/>
+<Connection from="3/gör" to="o" with="ARG0"/>
+<Word name="2/kız" positionX="850" positionY="300"/>
+<Connection from="3/gör" to="2/kız"/>
+<Connection from="2/kız" to="o" with="poss"/>
+</Amr>

@@ -1,0 +1,7 @@
+<Amr sentence="Sular , sandalı kıyıya atıyordu .">
+<Word name="4/kıyı 5/at" positionX="750" positionY="100"/>
+<Word name="1/su" positionX="650" positionY="200"/>
+<Connection from="4/kıyı 5/at" to="1/su" with="ARG0"/>
+<Word name="3/sandal" positionX="750" positionY="200"/>
+<Connection from="4/kıyı 5/at" to="3/sandal" with="ARG1"/>
+</Amr>

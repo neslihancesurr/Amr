@@ -1,0 +1,20 @@
+<Amr sentence="Çay içmedim diye başım tuttu yine .">
+<Word name="5/tut" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/tut" to="o" with="ARG0"/>
+<Word name="2/iç" positionX="750" positionY="200"/>
+<Connection from="5/tut" to="2/iç"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="2/iç" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="300"/>
+<Connection from="2/iç" to="ben" with="ARG0"/>
+<Word name="1/çay" positionX="850" positionY="300"/>
+<Connection from="2/iç" to="1/çay" with="ARG1"/>
+<Word name="3/diye" positionX="950" positionY="300"/>
+<Connection from="2/iç" to="3/diye"/>
+<Word name="4/baş" positionX="850" positionY="200"/>
+<Connection from="5/tut" to="4/baş" with="ARG1"/>
+<Connection from="4/baş" to="ben" with="poss"/>
+<Word name="6/yine" positionX="950" positionY="200"/>
+<Connection from="5/tut" to="6/yine" with="manner"/>
+</Amr>

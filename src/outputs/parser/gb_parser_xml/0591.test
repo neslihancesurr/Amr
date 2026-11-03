@@ -1,0 +1,12 @@
+<Amr sentence="Hepsini denemekte ısrar etti .">
+<Word name="3/ısrar 4/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/ısrar 4/et" to="o" with="ARG0"/>
+<Word name="2/dene" positionX="750" positionY="200"/>
+<Connection from="3/ısrar 4/et" to="2/dene" with="ARG1"/>
+<Connection from="2/dene" to="o" with="ARG0"/>
+<Word name="1/hepsi" positionX="750" positionY="300"/>
+<Connection from="2/dene" to="1/hepsi"/>
+<Word name="onlar" positionX="650" positionY="400"/>
+<Connection from="1/hepsi" to="onlar" with="poss"/>
+</Amr>

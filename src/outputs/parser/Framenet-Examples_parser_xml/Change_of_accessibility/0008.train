@@ -1,0 +1,11 @@
+<Amr sentence="Firariyi aramak için polisler caddeyi tuttu .">
+<Word name="5/cadde 6/tut" positionX="750" positionY="100"/>
+<Word name="2/ara" positionX="650" positionY="200"/>
+<Connection from="5/cadde 6/tut" to="2/ara" with="cause"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/ara" to="o" with="ARG0"/>
+<Word name="1/firari" positionX="650" positionY="300"/>
+<Connection from="2/ara" to="1/firari"/>
+<Word name="4/polis" positionX="750" positionY="200"/>
+<Connection from="5/cadde 6/tut" to="4/polis" with="ARG0"/>
+</Amr>

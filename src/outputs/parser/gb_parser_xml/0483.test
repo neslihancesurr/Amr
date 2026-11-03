@@ -1,0 +1,11 @@
+<Amr sentence="Şuradan biraz şeftali alalım .">
+<Word name="4/al" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="4/al" to="biz" with="ARG0"/>
+<Word name="1/şura" positionX="750" positionY="200"/>
+<Connection from="4/al" to="1/şura"/>
+<Word name="3/şeftali" positionX="850" positionY="200"/>
+<Connection from="4/al" to="3/şeftali" with="ARG1"/>
+<Word name="2/biraz" positionX="750" positionY="300"/>
+<Connection from="3/şeftali" to="2/biraz" with="mod"/>
+</Amr>

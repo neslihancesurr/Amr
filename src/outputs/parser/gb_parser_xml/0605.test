@@ -1,0 +1,13 @@
+<Amr sentence="Çikolatalı pastadan iki dilim yedi .">
+<Word name="5/ye" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/ye" to="o" with="ARG0"/>
+<Word name="4/dilim" positionX="750" positionY="200"/>
+<Connection from="5/ye" to="4/dilim"/>
+<Word name="2/pasta" positionX="650" positionY="300"/>
+<Connection from="4/dilim" to="2/pasta"/>
+<Word name="1/çikolatalı" positionX="550" positionY="400"/>
+<Connection from="2/pasta" to="1/çikolatalı" with="mod"/>
+<Word name="3/iki" positionX="750" positionY="300"/>
+<Connection from="4/dilim" to="3/iki"/>
+</Amr>

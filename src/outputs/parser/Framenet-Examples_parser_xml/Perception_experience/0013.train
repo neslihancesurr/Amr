@@ -1,0 +1,19 @@
+<Amr sentence="Eli bardağa ilişince bardak devrildi .">
+<Word name="5/devir" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/devir" to="o" with="ARG0"/>
+<Word name="3/iliş" positionX="750" positionY="200"/>
+<Connection from="5/devir" to="3/iliş"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="3/iliş" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/eli" positionX="450" positionY="500"/>
+<Connection from="name" to="1/eli" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/bardak" positionX="750" positionY="300"/>
+<Connection from="3/iliş" to="2/bardak" with="ARG1"/>
+<Word name="4/bardak" positionX="850" positionY="200"/>
+<Connection from="5/devir" to="4/bardak" with="ARG1"/>
+</Amr>

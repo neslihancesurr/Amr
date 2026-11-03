@@ -1,0 +1,7 @@
+<Amr sentence="Senin ablanın yanında olduğunu biliyordum .">
+<Word name="5/bil" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/bil" to="ben" with="ARG0"/>
+<Word name="3/yan 4/ol" positionX="750" positionY="200"/>
+<Connection from="5/bil" to="3/yan 4/ol" with="mod"/>
+</Amr>

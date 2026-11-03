@@ -1,0 +1,19 @@
+<Amr sentence="Öyküyü daha bitirmedinizse daha sonra da okuyabilirim .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="7/oku" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="7/oku"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="7/oku" to="ben" with="ARG0"/>
+<Word name="3/bitirmedinizse" positionX="650" positionY="300"/>
+<Connection from="7/oku" to="3/bitirmedinizse"/>
+<Word name="1/öykü" positionX="550" positionY="400"/>
+<Connection from="3/bitirmedinizse" to="1/öykü"/>
+<Word name="2/daha" positionX="650" positionY="400"/>
+<Connection from="3/bitirmedinizse" to="2/daha" with="degree"/>
+<Word name="5/sonra" positionX="750" positionY="300"/>
+<Connection from="7/oku" to="5/sonra" with="manner"/>
+<Word name="4/daha" positionX="650" positionY="400"/>
+<Connection from="5/sonra" to="4/daha" with="degree"/>
+<Word name="6/da" positionX="750" positionY="400"/>
+<Connection from="5/sonra" to="6/da"/>
+</Amr>

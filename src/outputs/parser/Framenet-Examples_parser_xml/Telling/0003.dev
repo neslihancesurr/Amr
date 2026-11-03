@@ -1,0 +1,15 @@
+<Amr sentence="Merak etmeyin kısa tutacağım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/merak 2/et" positionX="650" positionY="200"/>
+<Connection from="and" to="1/merak 2/et" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="1/merak 2/et" to="-" with="polarity"/>
+<Word name="siz" positionX="650" positionY="300"/>
+<Connection from="1/merak 2/et" to="siz" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="300"/>
+<Connection from="1/merak 2/et" to="imperative" with="mode"/>
+<Word name="3/kısa 4/tut" positionX="750" positionY="200"/>
+<Connection from="and" to="3/kısa 4/tut" with="op2"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="3/kısa 4/tut" to="ben" with="ARG0"/>
+</Amr>

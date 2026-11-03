@@ -1,0 +1,7 @@
+<Amr sentence="Çocuk erken yürüdü .">
+<Word name="3/yürü" positionX="750" positionY="100"/>
+<Word name="1/çocuk" positionX="650" positionY="200"/>
+<Connection from="3/yürü" to="1/çocuk" with="ARG0"/>
+<Word name="2/erken" positionX="750" positionY="200"/>
+<Connection from="3/yürü" to="2/erken" with="manner"/>
+</Amr>

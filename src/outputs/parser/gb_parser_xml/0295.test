@@ -1,0 +1,15 @@
+<Amr sentence="Bazı arkadaşlarımız bu fikre katılmadı .">
+<Word name="5/katıl" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/katıl" to="-" with="polarity"/>
+<Word name="2/arkadaş" positionX="750" positionY="200"/>
+<Connection from="5/katıl" to="2/arkadaş" with="ARG0"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="2/arkadaş" to="biz" with="poss"/>
+<Word name="1/bazı" positionX="750" positionY="300"/>
+<Connection from="2/arkadaş" to="1/bazı" with="mod"/>
+<Word name="4/fikir" positionX="850" positionY="200"/>
+<Connection from="5/katıl" to="4/fikir" with="ARG1"/>
+<Word name="3/bu" positionX="750" positionY="300"/>
+<Connection from="4/fikir" to="3/bu" with="mod"/>
+</Amr>

@@ -1,0 +1,24 @@
+<Amr sentence="Bebek mamasına biraz su eklesene , biraz ılıştır .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/ekle" positionX="650" positionY="200"/>
+<Connection from="and" to="5/ekle" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="5/ekle" to="sen" with="ARG0"/>
+<Word name="2/mama" positionX="650" positionY="300"/>
+<Connection from="5/ekle" to="2/mama"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="2/mama" to="o" with="poss"/>
+<Word name="1/bebek" positionX="650" positionY="400"/>
+<Connection from="2/mama" to="1/bebek"/>
+<Word name="3/biraz" positionX="750" positionY="300"/>
+<Connection from="5/ekle" to="3/biraz" with="mod"/>
+<Word name="4/su" positionX="850" positionY="300"/>
+<Connection from="5/ekle" to="4/su"/>
+<Word name="8/ılıştır" positionX="750" positionY="200"/>
+<Connection from="and" to="8/ılıştır" with="op2"/>
+<Connection from="8/ılıştır" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="300"/>
+<Connection from="8/ılıştır" to="imperative" with="mode"/>
+<Word name="7/biraz" positionX="850" positionY="300"/>
+<Connection from="8/ılıştır" to="7/biraz" with="manner"/>
+</Amr>

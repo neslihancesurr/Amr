@@ -1,0 +1,34 @@
+<Amr sentence="Tülin İstanbul'a gelince yeniden buluşuruz diye ayrılmışlar o gün .">
+<Word name="7/ayrıl" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="7/ayrıl" to="onlar" with="ARG0"/>
+<Word name="5/buluş" positionX="750" positionY="200"/>
+<Connection from="7/ayrıl" to="5/buluş"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="5/buluş" to="biz" with="ARG0"/>
+<Word name="3/gel" positionX="750" positionY="300"/>
+<Connection from="5/buluş" to="3/gel"/>
+<Word name="person" positionX="650" positionY="400"/>
+<Connection from="3/gel" to="person"/>
+<Word name="name" positionX="550" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/tülin" positionX="450" positionY="600"/>
+<Connection from="name" to="1/tülin" with="op1"/>
+<Word name="-" positionX="650" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="city" positionX="750" positionY="400"/>
+<Connection from="3/gel" to="city"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="2/istanbul" positionX="550" positionY="600"/>
+<Connection from="name" to="2/istanbul" with="op1"/>
+<Word name="istanbul" positionX="750" positionY="500"/>
+<Connection from="city" to="istanbul" with="wiki"/>
+<Word name="4/yeniden" positionX="850" positionY="300"/>
+<Connection from="5/buluş" to="4/yeniden" with="manner"/>
+<Word name="6/diye" positionX="950" positionY="300"/>
+<Connection from="5/buluş" to="6/diye"/>
+<Word name="9/gün" positionX="850" positionY="200"/>
+<Connection from="7/ayrıl" to="9/gün"/>
+<Word name="8/o" positionX="750" positionY="300"/>
+<Connection from="9/gün" to="8/o" with="mod"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Senevi de yıllık demek olacak .">
+<Word name="4/de 5/ol" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="4/de 5/ol" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/senevi" positionX="450" positionY="400"/>
+<Connection from="name" to="1/senevi" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/de" positionX="750" positionY="300"/>
+<Connection from="person" to="2/de" with="manner"/>
+<Word name="3/yıl" positionX="750" positionY="200"/>
+<Connection from="4/de 5/ol" to="3/yıl" with="ARG1"/>
+</Amr>

@@ -1,0 +1,22 @@
+<Amr sentence="Osman bu yaz tatile çıkıp çıkmama konusunda tereddütlüymüş .">
+<Word name="8/tereddütlü" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="8/tereddütlü" to="person"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/osman" positionX="450" positionY="400"/>
+<Connection from="name" to="1/osman" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="7/konu" positionX="750" positionY="200"/>
+<Connection from="8/tereddütlü" to="7/konu" with="location"/>
+<Word name="5/çık 6/çık" positionX="650" positionY="300"/>
+<Connection from="7/konu" to="5/çık 6/çık"/>
+<Connection from="5/çık 6/çık" to="-" with="polarity"/>
+<Word name="3/yaz" positionX="650" positionY="400"/>
+<Connection from="5/çık 6/çık" to="3/yaz" with="mod"/>
+<Word name="2/bu" positionX="550" positionY="500"/>
+<Connection from="3/yaz" to="2/bu" with="mod"/>
+<Word name="4/tatil" positionX="750" positionY="400"/>
+<Connection from="5/çık 6/çık" to="4/tatil"/>
+</Amr>

@@ -1,0 +1,21 @@
+<Amr sentence="Bizi işimizde gücümüzde serbest bırakmak şöyle dursun , çoluk çocuğumuzun nafakasına el koydular .">
+<Word name="12/el 13/koy" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="12/el 13/koy" to="onlar" with="ARG0"/>
+<Word name="7/dur" positionX="750" positionY="200"/>
+<Connection from="12/el 13/koy" to="7/dur"/>
+<Word name="imperative" positionX="650" positionY="300"/>
+<Connection from="7/dur" to="imperative" with="mode"/>
+<Word name="4/serbest 5/bırak" positionX="750" positionY="300"/>
+<Connection from="7/dur" to="4/serbest 5/bırak"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="4/serbest 5/bırak" to="o" with="ARG0"/>
+<Word name="6/şöyle" positionX="850" positionY="300"/>
+<Connection from="7/dur" to="6/şöyle"/>
+<Word name="11/nafaka" positionX="850" positionY="200"/>
+<Connection from="12/el 13/koy" to="11/nafaka" with="ARG1"/>
+<Word name="9/çocuk 10/çocuk" positionX="750" positionY="300"/>
+<Connection from="11/nafaka" to="9/çocuk 10/çocuk"/>
+<Word name="biz" positionX="650" positionY="400"/>
+<Connection from="9/çocuk 10/çocuk" to="biz" with="poss"/>
+</Amr>

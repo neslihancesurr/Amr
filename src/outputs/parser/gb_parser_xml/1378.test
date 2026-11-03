@@ -1,0 +1,18 @@
+<Amr sentence="Serap Almanya'ya neyle gidiyor ?">
+<Word name="4/git" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="4/git" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/serap" positionX="450" positionY="400"/>
+<Connection from="name" to="1/serap" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="4/git" to="person" with="ARG1"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/almanya" positionX="550" positionY="400"/>
+<Connection from="name" to="2/almanya" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/ne" positionX="850" positionY="200"/>
+<Connection from="4/git" to="3/ne" with="instrument"/>
+</Amr>

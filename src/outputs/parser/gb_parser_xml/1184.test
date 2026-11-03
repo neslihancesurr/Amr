@@ -1,0 +1,21 @@
+<Amr sentence="Bu durumda kendinize araba almak çok zor olacak .">
+<Word name="7/zor" positionX="750" positionY="100"/>
+<Word name="2/durum" positionX="650" positionY="200"/>
+<Connection from="7/zor" to="2/durum" with="location"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/durum" to="1/bu" with="mod"/>
+<Word name="5/al" positionX="750" positionY="200"/>
+<Connection from="7/zor" to="5/al"/>
+<Word name="3/kendi" positionX="650" positionY="300"/>
+<Connection from="5/al" to="3/kendi" with="ARG0"/>
+<Word name="siz" positionX="550" positionY="400"/>
+<Connection from="3/kendi" to="siz" with="poss"/>
+<Word name="4/araba" positionX="750" positionY="300"/>
+<Connection from="5/al" to="4/araba" with="ARG1"/>
+<Word name="6/çok" positionX="850" positionY="200"/>
+<Connection from="7/zor" to="6/çok" with="degree"/>
+<Word name="8/ol" positionX="950" positionY="200"/>
+<Connection from="7/zor" to="8/ol"/>
+<Word name="o" positionX="850" positionY="300"/>
+<Connection from="8/ol" to="o" with="ARG0"/>
+</Amr>

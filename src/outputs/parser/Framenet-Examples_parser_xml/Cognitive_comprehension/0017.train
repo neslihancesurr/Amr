@@ -1,0 +1,22 @@
+<Amr sentence="Firdevs Hanım anlatılanları hızla kavradı .">
+<Word name="5/kavra" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="5/kavra" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/hanım" positionX="450" positionY="400"/>
+<Connection from="name" to="2/hanım" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="person" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/firdevs" positionX="550" positionY="500"/>
+<Connection from="name" to="1/firdevs" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/anlat" positionX="750" positionY="200"/>
+<Connection from="5/kavra" to="3/anlat" with="ARG1"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="3/anlat" to="onlar" with="ARG0"/>
+<Word name="4/hızla" positionX="850" positionY="200"/>
+<Connection from="5/kavra" to="4/hızla" with="manner"/>
+</Amr>

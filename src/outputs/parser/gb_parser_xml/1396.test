@@ -1,0 +1,11 @@
+<Amr sentence="Asistanlardan hangisi bugün görevli ?">
+<Word name="4/görevli" positionX="750" positionY="100"/>
+<Word name="2/hangi" positionX="650" positionY="200"/>
+<Connection from="4/görevli" to="2/hangi"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/hangi" to="o" with="poss"/>
+<Word name="1/asistan" positionX="650" positionY="300"/>
+<Connection from="2/hangi" to="1/asistan"/>
+<Word name="3/bugün" positionX="750" positionY="200"/>
+<Connection from="4/görevli" to="3/bugün"/>
+</Amr>

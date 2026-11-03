@@ -1,0 +1,15 @@
+<Amr sentence="Meyva olarak ne var ?">
+<Word name="4/var" positionX="750" positionY="100"/>
+<Word name="2/ol" positionX="650" positionY="200"/>
+<Connection from="4/var" to="2/ol"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="2/ol" to="person"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/Meyva" positionX="350" positionY="500"/>
+<Connection from="name" to="1/Meyva" with="op1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/ne" positionX="750" positionY="200"/>
+<Connection from="4/var" to="3/ne"/>
+</Amr>

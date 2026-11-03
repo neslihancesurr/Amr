@@ -1,0 +1,18 @@
+<Amr sentence="Bu yanlış uygulamayı düzeltmemiz zamanı geldi .">
+<Word name="6/gel" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/gel" to="o" with="ARG0"/>
+<Word name="5/zaman" positionX="750" positionY="200"/>
+<Connection from="6/gel" to="5/zaman"/>
+<Connection from="5/zaman" to="o" with="poss"/>
+<Word name="4/düzelt" positionX="750" positionY="300"/>
+<Connection from="5/zaman" to="4/düzelt"/>
+<Word name="biz" positionX="650" positionY="400"/>
+<Connection from="4/düzelt" to="biz" with="ARG0"/>
+<Word name="3/uygulama" positionX="750" positionY="400"/>
+<Connection from="4/düzelt" to="3/uygulama"/>
+<Word name="1/bu" positionX="650" positionY="500"/>
+<Connection from="3/uygulama" to="1/bu" with="mod"/>
+<Word name="2/yanlış" positionX="750" positionY="500"/>
+<Connection from="3/uygulama" to="2/yanlış" with="mod"/>
+</Amr>

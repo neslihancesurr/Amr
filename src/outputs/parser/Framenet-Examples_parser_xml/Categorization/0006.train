@@ -1,0 +1,11 @@
+<Amr sentence="Köy halkı yeni gelenleri tekfir etti .">
+<Word name="5/tekfir 6/et" positionX="750" positionY="100"/>
+<Word name="1/köy 2/halk" positionX="650" positionY="200"/>
+<Connection from="5/tekfir 6/et" to="1/köy 2/halk" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/köy 2/halk" to="o" with="poss"/>
+<Word name="4/gelen" positionX="750" positionY="200"/>
+<Connection from="5/tekfir 6/et" to="4/gelen" with="ARG1"/>
+<Word name="3/yeni" positionX="650" positionY="300"/>
+<Connection from="4/gelen" to="3/yeni" with="mod"/>
+</Amr>

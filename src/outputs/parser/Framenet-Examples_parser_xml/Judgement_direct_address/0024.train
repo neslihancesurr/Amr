@@ -1,0 +1,13 @@
+<Amr sentence="Bu sabah bizi resmen bombardıman etti .">
+<Word name="5/bombardıman 6/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/bombardıman 6/et" to="o" with="ARG0"/>
+<Word name="2/sabah" positionX="750" positionY="200"/>
+<Connection from="5/bombardıman 6/et" to="2/sabah" with="mod"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/sabah" to="1/bu" with="mod"/>
+<Word name="3/biz" positionX="850" positionY="200"/>
+<Connection from="5/bombardıman 6/et" to="3/biz" with="ARG1"/>
+<Word name="4/resmen" positionX="950" positionY="200"/>
+<Connection from="5/bombardıman 6/et" to="4/resmen" with="manner"/>
+</Amr>

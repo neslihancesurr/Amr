@@ -1,0 +1,9 @@
+<Amr sentence="Taşıt orman yolda seyrediyordu .">
+<Word name="4/seyret" positionX="750" positionY="100"/>
+<Word name="1/taşıt" positionX="650" positionY="200"/>
+<Connection from="4/seyret" to="1/taşıt" with="ARG0"/>
+<Word name="3/yol" positionX="750" positionY="200"/>
+<Connection from="4/seyret" to="3/yol" with="ARG1"/>
+<Word name="2/orman" positionX="650" positionY="300"/>
+<Connection from="3/yol" to="2/orman" with="mod"/>
+</Amr>

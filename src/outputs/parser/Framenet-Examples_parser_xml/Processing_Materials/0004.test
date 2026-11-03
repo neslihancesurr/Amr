@@ -1,0 +1,16 @@
+<Amr sentence="Tarlalarımızı bu sene tırmıklatmadık .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="4/tırmıkla" positionX="650" positionY="200"/>
+<Connection from="yap" to="4/tırmıkla"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="4/tırmıkla" to="-" with="polarity"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="4/tırmıkla" to="biz" with="ARG0"/>
+<Word name="1/tarla" positionX="750" positionY="300"/>
+<Connection from="4/tırmıkla" to="1/tarla" with="ARG1"/>
+<Connection from="1/tarla" to="biz" with="poss"/>
+<Word name="3/sene" positionX="850" positionY="300"/>
+<Connection from="4/tırmıkla" to="3/sene" with="mod"/>
+<Word name="2/bu" positionX="750" positionY="400"/>
+<Connection from="3/sene" to="2/bu" with="mod"/>
+</Amr>

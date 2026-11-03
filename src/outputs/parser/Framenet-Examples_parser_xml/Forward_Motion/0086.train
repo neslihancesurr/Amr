@@ -1,0 +1,9 @@
+<Amr sentence="Tatilde sadece gezdim dolaştım .">
+<Word name="3/gez 4/dolaş" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/gez 4/dolaş" to="ben" with="ARG0"/>
+<Word name="1/tatil" positionX="750" positionY="200"/>
+<Connection from="3/gez 4/dolaş" to="1/tatil" with="location"/>
+<Word name="2/sadece" positionX="850" positionY="200"/>
+<Connection from="3/gez 4/dolaş" to="2/sadece" with="manner"/>
+</Amr>

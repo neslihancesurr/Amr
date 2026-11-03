@@ -1,0 +1,5 @@
+<Amr sentence="Pazarlığı pişirdiler .">
+<Word name="1/pazarlık 2/pişir" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="1/pazarlık 2/pişir" to="onlar" with="ARG0"/>
+</Amr>

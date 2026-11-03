@@ -1,0 +1,7 @@
+<Amr sentence="Eskilerden bir kısmını yok pahasına elden çıkarmak gerekecek .">
+<Word name="8/gerek" positionX="750" positionY="100"/>
+<Word name="6/el 7/çık" positionX="650" positionY="200"/>
+<Connection from="8/gerek" to="6/el 7/çık" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="6/el 7/çık" to="o" with="ARG0"/>
+</Amr>

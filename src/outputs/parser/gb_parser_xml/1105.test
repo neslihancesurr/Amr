@@ -1,0 +1,26 @@
+<Amr sentence="Diyarbakır - Urfa arasında otobüs işletiyordu .">
+<Word name="6/işlet" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/işlet" to="o" with="ARG0"/>
+<Word name="4/ara" positionX="750" positionY="200"/>
+<Connection from="6/işlet" to="4/ara" with="ARG1"/>
+<Word name="and" positionX="650" positionY="300"/>
+<Connection from="4/ara" to="and"/>
+<Word name="person" positionX="550" positionY="400"/>
+<Connection from="and" to="person" with="op1"/>
+<Word name="name" positionX="450" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/urfa" positionX="350" positionY="600"/>
+<Connection from="name" to="3/urfa" with="op1"/>
+<Word name="-" positionX="550" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="city" positionX="650" positionY="400"/>
+<Connection from="and" to="city" with="op2"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="1/diyarbakır" positionX="450" positionY="600"/>
+<Connection from="name" to="1/diyarbakır" with="op1"/>
+<Word name="diyarbakır" positionX="650" positionY="500"/>
+<Connection from="city" to="diyarbakır" with="wiki"/>
+<Word name="5/otobüs" positionX="850" positionY="200"/>
+<Connection from="6/işlet" to="5/otobüs" with="ARG1"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Gazete bile okumuyorum .">
+<Word name="3/oku" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/oku" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="3/oku" to="ben" with="ARG0"/>
+<Word name="1/gazete" positionX="850" positionY="200"/>
+<Connection from="3/oku" to="1/gazete" with="ARG1"/>
+<Word name="2/bile" positionX="750" positionY="300"/>
+<Connection from="1/gazete" to="2/bile" with="manner"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr sentence="Bu hediyeyi de Enver aldı .">
+<Word name="5/al" positionX="750" positionY="100"/>
+<Word name="2/hediye" positionX="650" positionY="200"/>
+<Connection from="5/al" to="2/hediye" with="ARG1"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/hediye" to="1/bu" with="mod"/>
+<Word name="3/de" positionX="650" positionY="300"/>
+<Connection from="2/hediye" to="3/de"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="5/al" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="4/enver" positionX="550" positionY="400"/>
+<Connection from="name" to="4/enver" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

@@ -1,0 +1,7 @@
+<Amr sentence="Ara sokakları da asfaltlayacaklarmış .">
+<Word name="4/asfaltla" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/asfaltla" to="onlar" with="ARG0"/>
+<Word name="1/ara 2/sokak" positionX="750" positionY="200"/>
+<Connection from="4/asfaltla" to="1/ara 2/sokak" with="ARG1"/>
+</Amr>

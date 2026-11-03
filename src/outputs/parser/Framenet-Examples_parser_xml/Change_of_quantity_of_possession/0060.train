@@ -1,0 +1,11 @@
+<Amr sentence="Bütün mirasını açıktan kazanarak oluşturmuştu .">
+<Word name="5/oluştur" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/oluştur" to="o" with="ARG0"/>
+<Word name="2/miras" positionX="750" positionY="200"/>
+<Connection from="5/oluştur" to="2/miras" with="ARG1"/>
+<Word name="1/bütün" positionX="650" positionY="300"/>
+<Connection from="2/miras" to="1/bütün" with="mod"/>
+<Word name="3/açıktan 4/kazan" positionX="850" positionY="200"/>
+<Connection from="5/oluştur" to="3/açıktan 4/kazan"/>
+</Amr>

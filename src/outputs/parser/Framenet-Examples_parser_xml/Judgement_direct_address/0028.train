@@ -1,0 +1,27 @@
+<Amr sentence="Bizim Abdullah ve kardeşi bir kediyi et çaldı diye cezalandırmışlar .">
+<Word name="10/cezalandır" positionX="750" positionY="100"/>
+<Word name="and" positionX="650" positionY="200"/>
+<Connection from="10/cezalandır" to="and"/>
+<Word name="4/kardeş" positionX="550" positionY="300"/>
+<Connection from="and" to="4/kardeş" with="ARG0"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="4/kardeş" to="o" with="poss"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="and" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/abdullah" positionX="450" positionY="500"/>
+<Connection from="name" to="2/abdullah" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="1/biz" positionX="750" positionY="400"/>
+<Connection from="person" to="1/biz" with="mod"/>
+<Word name="6/kedi" positionX="750" positionY="200"/>
+<Connection from="10/cezalandır" to="6/kedi" with="ARG1"/>
+<Word name="8/çal" positionX="850" positionY="200"/>
+<Connection from="10/cezalandır" to="8/çal"/>
+<Word name="7/et" positionX="750" positionY="300"/>
+<Connection from="8/çal" to="7/et" with="ARG1"/>
+<Word name="9/diye" positionX="850" positionY="300"/>
+<Connection from="8/çal" to="9/diye"/>
+</Amr>

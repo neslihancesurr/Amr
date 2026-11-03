@@ -1,0 +1,13 @@
+<Amr sentence="Sen telefon ettiğin sırada sokağa çıkmak üzereydim .">
+<Word name="5/sokak 6/çık" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/sokak 6/çık" to="o" with="ARG0"/>
+<Word name="4/sıra" positionX="750" positionY="200"/>
+<Connection from="5/sokak 6/çık" to="4/sıra" with="location"/>
+<Word name="2/telefon 3/et" positionX="650" positionY="300"/>
+<Connection from="4/sıra" to="2/telefon 3/et"/>
+<Word name="sen" positionX="550" positionY="400"/>
+<Connection from="2/telefon 3/et" to="sen" with="poss"/>
+<Word name="7/üzere" positionX="850" positionY="200"/>
+<Connection from="5/sokak 6/çık" to="7/üzere"/>
+</Amr>

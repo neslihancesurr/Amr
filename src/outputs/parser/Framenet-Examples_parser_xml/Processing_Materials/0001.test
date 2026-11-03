@@ -1,0 +1,11 @@
+<Amr sentence="Balık ağı ördük burada .">
+<Word name="3/ör" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="3/ör" to="biz" with="ARG0"/>
+<Word name="1/balık 2/ağ" positionX="750" positionY="200"/>
+<Connection from="3/ör" to="1/balık 2/ağ" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="1/balık 2/ağ" to="o" with="poss"/>
+<Word name="4/burada" positionX="850" positionY="200"/>
+<Connection from="3/ör" to="4/burada" with="manner"/>
+</Amr>

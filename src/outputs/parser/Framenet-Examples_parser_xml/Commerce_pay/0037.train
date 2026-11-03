@@ -1,0 +1,15 @@
+<Amr sentence="Bu fabrika sermayesini beş yılda ödedi .">
+<Word name="6/öde" positionX="750" positionY="100"/>
+<Word name="2/fabrika" positionX="650" positionY="200"/>
+<Connection from="6/öde" to="2/fabrika" with="ARG0"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/fabrika" to="1/bu" with="mod"/>
+<Word name="3/sermaye" positionX="750" positionY="200"/>
+<Connection from="6/öde" to="3/sermaye" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/sermaye" to="o" with="poss"/>
+<Word name="5/yıl" positionX="850" positionY="200"/>
+<Connection from="6/öde" to="5/yıl" with="mod"/>
+<Word name="4/beş" positionX="750" positionY="300"/>
+<Connection from="5/yıl" to="4/beş"/>
+</Amr>

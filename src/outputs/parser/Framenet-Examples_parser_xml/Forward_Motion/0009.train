@@ -1,0 +1,11 @@
+<Amr sentence="Doru at bugün koşmayacak .">
+<Word name="4/koş" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/koş" to="-" with="polarity"/>
+<Word name="2/at" positionX="750" positionY="200"/>
+<Connection from="4/koş" to="2/at" with="ARG0"/>
+<Word name="1/doru" positionX="650" positionY="300"/>
+<Connection from="2/at" to="1/doru" with="mod"/>
+<Word name="3/bugün" positionX="850" positionY="200"/>
+<Connection from="4/koş" to="3/bugün" with="manner"/>
+</Amr>

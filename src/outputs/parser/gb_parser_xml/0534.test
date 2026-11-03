@@ -1,0 +1,13 @@
+<Amr sentence="İlaç hastaya göre seçilmelidir .">
+<Word name="gerek" positionX="750" positionY="100"/>
+<Word name="4/seç" positionX="650" positionY="200"/>
+<Connection from="gerek" to="4/seç"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/seç" to="o" with="ARG0"/>
+<Word name="1/ilaç" positionX="650" positionY="300"/>
+<Connection from="4/seç" to="1/ilaç" with="ARG1"/>
+<Word name="2/hasta" positionX="750" positionY="300"/>
+<Connection from="4/seç" to="2/hasta"/>
+<Word name="3/göre" positionX="650" positionY="400"/>
+<Connection from="2/hasta" to="3/göre"/>
+</Amr>

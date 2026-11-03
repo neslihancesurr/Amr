@@ -1,0 +1,9 @@
+<Amr sentence="Kapı kapı dolaşıyor .">
+<Word name="3/dolaş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/dolaş" to="o" with="ARG0"/>
+<Word name="2/kapı" positionX="750" positionY="200"/>
+<Connection from="3/dolaş" to="2/kapı"/>
+<Word name="1/kapı" positionX="650" positionY="300"/>
+<Connection from="2/kapı" to="1/kapı"/>
+</Amr>

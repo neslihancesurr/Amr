@@ -1,0 +1,17 @@
+<Amr sentence="Sırf üstünlüğünü kanıtlamak amacıyla yapıyor bunları .">
+<Word name="5/yap" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/yap" to="o" with="ARG0"/>
+<Word name="4/amaç" positionX="750" positionY="200"/>
+<Connection from="5/yap" to="4/amaç" with="instrument"/>
+<Word name="3/kanıtla" positionX="650" positionY="300"/>
+<Connection from="4/amaç" to="3/kanıtla"/>
+<Connection from="3/kanıtla" to="o" with="ARG0"/>
+<Word name="1/sırf" positionX="650" positionY="400"/>
+<Connection from="3/kanıtla" to="1/sırf" with="manner"/>
+<Word name="2/üstünlük" positionX="750" positionY="400"/>
+<Connection from="3/kanıtla" to="2/üstünlük" with="ARG1"/>
+<Connection from="2/üstünlük" to="o" with="poss"/>
+<Word name="6/bu" positionX="850" positionY="200"/>
+<Connection from="5/yap" to="6/bu"/>
+</Amr>

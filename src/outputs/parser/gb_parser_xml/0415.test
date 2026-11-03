@@ -1,0 +1,9 @@
+<Amr sentence="Keten ayışığında parçalanırmış .">
+<Word name="3/parçalan" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/parçalan" to="o" with="ARG0"/>
+<Word name="1/keten" positionX="750" positionY="200"/>
+<Connection from="3/parçalan" to="1/keten" with="ARG1"/>
+<Word name="2/ayışık" positionX="850" positionY="200"/>
+<Connection from="3/parçalan" to="2/ayışık" with="location"/>
+</Amr>

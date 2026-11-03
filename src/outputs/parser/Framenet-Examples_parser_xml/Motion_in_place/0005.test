@@ -1,0 +1,9 @@
+<Amr sentence="Aşırı sıcaklar demiri büktü .">
+<Word name="4/bük" positionX="750" positionY="100"/>
+<Word name="2/sıcak" positionX="650" positionY="200"/>
+<Connection from="4/bük" to="2/sıcak" with="ARG0"/>
+<Word name="1/aşırı" positionX="550" positionY="300"/>
+<Connection from="2/sıcak" to="1/aşırı" with="mod"/>
+<Word name="3/demir" positionX="750" positionY="200"/>
+<Connection from="4/bük" to="3/demir" with="ARG1"/>
+</Amr>

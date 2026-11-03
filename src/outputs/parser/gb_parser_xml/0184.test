@@ -1,0 +1,17 @@
+<Amr sentence="Sana bunu söylüyorum ki sonradan şaşırmayasın .">
+<Word name="3/söyle" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/söyle" to="ben" with="ARG0"/>
+<Word name="1/sen" positionX="750" positionY="200"/>
+<Connection from="3/söyle" to="1/sen"/>
+<Word name="2/bu" positionX="850" positionY="200"/>
+<Connection from="3/söyle" to="2/bu" with="ARG1"/>
+<Word name="6/şaşır" positionX="950" positionY="200"/>
+<Connection from="3/söyle" to="6/şaşır"/>
+<Word name="-" positionX="850" positionY="300"/>
+<Connection from="6/şaşır" to="-" with="polarity"/>
+<Word name="4/ki" positionX="950" positionY="300"/>
+<Connection from="6/şaşır" to="4/ki"/>
+<Word name="5/sonradan" positionX="1050" positionY="300"/>
+<Connection from="6/şaşır" to="5/sonradan" with="manner"/>
+</Amr>

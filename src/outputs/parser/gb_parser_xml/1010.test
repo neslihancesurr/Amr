@@ -1,0 +1,7 @@
+<Amr sentence="başka bir kalemle">
+<Word name="3/kalem:instrument" positionX="750" positionY="100"/>
+<Word name="1/başka" positionX="650" positionY="200"/>
+<Connection from="3/kalem:instrument" to="1/başka" with="mod"/>
+<Word name="2/bir" positionX="550" positionY="300"/>
+<Connection from="1/başka" to="2/bir"/>
+</Amr>

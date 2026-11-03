@@ -1,0 +1,37 @@
+<Amr sentence="Başkanlık konusunda Coşkun'u ikna edemeyebileceğim için başka kişiler üzerinde de durmamız gerekiyor .">
+<Word name="12/gerek" positionX="750" positionY="100"/>
+<Word name="mümkün" positionX="650" positionY="200"/>
+<Connection from="12/gerek" to="mümkün"/>
+<Word name="5/edeme" positionX="550" positionY="300"/>
+<Connection from="mümkün" to="5/edeme" with="ARG0"/>
+<Word name="ben" positionX="450" positionY="400"/>
+<Connection from="5/edeme" to="ben" with="ARG0"/>
+<Word name="2/konu" positionX="550" positionY="400"/>
+<Connection from="5/edeme" to="2/konu" with="location"/>
+<Word name="1/başkanlık" positionX="450" positionY="500"/>
+<Connection from="2/konu" to="1/başkanlık" with="mod"/>
+<Word name="4/ikna" positionX="650" positionY="400"/>
+<Connection from="5/edeme" to="4/ikna"/>
+<Word name="person" positionX="550" positionY="500"/>
+<Connection from="4/ikna" to="person"/>
+<Word name="name" positionX="450" positionY="600"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/coşkun" positionX="350" positionY="700"/>
+<Connection from="name" to="3/coşkun" with="op1"/>
+<Word name="-" positionX="550" positionY="600"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="6/için" positionX="750" positionY="400"/>
+<Connection from="5/edeme" to="6/için"/>
+<Word name="11/dur" positionX="750" positionY="200"/>
+<Connection from="12/gerek" to="11/dur" with="ARG1"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="11/dur" to="biz" with="ARG0"/>
+<Word name="9/üzerinde" positionX="750" positionY="300"/>
+<Connection from="11/dur" to="9/üzerinde"/>
+<Word name="8/kişi" positionX="650" positionY="400"/>
+<Connection from="9/üzerinde" to="8/kişi" with="mod"/>
+<Word name="7/başka" positionX="550" positionY="500"/>
+<Connection from="8/kişi" to="7/başka" with="mod"/>
+<Word name="10/de" positionX="750" positionY="400"/>
+<Connection from="9/üzerinde" to="10/de"/>
+</Amr>

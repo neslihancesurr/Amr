@@ -1,0 +1,9 @@
+<Amr sentence="Yan yan bakma bana !">
+<Word name="3/bak" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/bak" to="o" with="ARG0"/>
+<Word name="1/yan 2/yan" positionX="750" positionY="200"/>
+<Connection from="3/bak" to="1/yan 2/yan"/>
+<Word name="4/ben" positionX="850" positionY="200"/>
+<Connection from="3/bak" to="4/ben" with="ARG1"/>
+</Amr>

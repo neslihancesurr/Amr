@@ -1,0 +1,15 @@
+<Amr sentence="Genç kadın ağlaya ağlaya hikayesini anlattı .">
+<Word name="6/anlat" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/anlat" to="o" with="ARG0"/>
+<Word name="2/kadın" positionX="750" positionY="200"/>
+<Connection from="6/anlat" to="2/kadın"/>
+<Word name="1/genç" positionX="650" positionY="300"/>
+<Connection from="2/kadın" to="1/genç" with="mod"/>
+<Word name="3/ağla 4/ağla" positionX="850" positionY="200"/>
+<Connection from="6/anlat" to="3/ağla 4/ağla"/>
+<Connection from="3/ağla 4/ağla" to="o" with="ARG0"/>
+<Word name="5/hikaye" positionX="950" positionY="200"/>
+<Connection from="6/anlat" to="5/hikaye"/>
+<Connection from="5/hikaye" to="o" with="poss"/>
+</Amr>

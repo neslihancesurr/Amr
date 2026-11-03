@@ -1,0 +1,23 @@
+<Amr sentence="O kağıdı imzalarsak artık yakamızı hiç kurtaramayız .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="7/kurtar" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="7/kurtar"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="7/kurtar" to="-" with="polarity"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="7/kurtar" to="biz" with="ARG0"/>
+<Word name="3/imzala" positionX="750" positionY="300"/>
+<Connection from="7/kurtar" to="3/imzala" with="cond"/>
+<Connection from="3/imzala" to="biz" with="ARG0"/>
+<Word name="2/kağıt" positionX="750" positionY="400"/>
+<Connection from="3/imzala" to="2/kağıt" with="ARG1"/>
+<Word name="1/o" positionX="650" positionY="500"/>
+<Connection from="2/kağıt" to="1/o" with="mod"/>
+<Word name="4/artık" positionX="850" positionY="300"/>
+<Connection from="7/kurtar" to="4/artık" with="manner"/>
+<Word name="5/yaka" positionX="950" positionY="300"/>
+<Connection from="7/kurtar" to="5/yaka" with="ARG1"/>
+<Connection from="5/yaka" to="biz" with="poss"/>
+<Word name="6/hiç" positionX="1050" positionY="300"/>
+<Connection from="7/kurtar" to="6/hiç" with="degree"/>
+</Amr>

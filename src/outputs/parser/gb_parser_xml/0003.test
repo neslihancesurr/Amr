@@ -1,0 +1,11 @@
+<Amr sentence="Eğer sokağa çıkmak istiyorsan …">
+<Word name="4/iste:cond" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="4/iste:cond" to="sen" with="ARG0"/>
+<Word name="1/eğer" positionX="750" positionY="200"/>
+<Connection from="4/iste:cond" to="1/eğer"/>
+<Word name="2/sokak 3/çık" positionX="850" positionY="200"/>
+<Connection from="4/iste:cond" to="2/sokak 3/çık" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="2/sokak 3/çık" to="o" with="ARG0"/>
+</Amr>

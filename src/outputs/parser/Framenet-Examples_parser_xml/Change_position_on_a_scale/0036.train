@@ -1,0 +1,18 @@
+<Amr sentence="Yeni problemler türüyor , elimden bir şey gelmez .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/türe" positionX="650" positionY="200"/>
+<Connection from="and" to="3/türe" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/türe" to="o" with="ARG0"/>
+<Word name="2/problem" positionX="650" positionY="300"/>
+<Connection from="3/türe" to="2/problem" with="ARG1"/>
+<Word name="1/yeni" positionX="550" positionY="400"/>
+<Connection from="2/problem" to="1/yeni" with="mod"/>
+<Word name="8/gel" positionX="750" positionY="200"/>
+<Connection from="and" to="8/gel" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="8/gel" to="-" with="polarity"/>
+<Connection from="8/gel" to="o" with="ARG0"/>
+<Word name="5/elim" positionX="850" positionY="300"/>
+<Connection from="8/gel" to="5/elim" with="ARG1"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Bizim dikeceğimiz elbiselerde hata var .">
+<Word name="5/var" positionX="750" positionY="100"/>
+<Word name="3/elbise" positionX="650" positionY="200"/>
+<Connection from="5/var" to="3/elbise" with="location"/>
+<Word name="2/dik" positionX="550" positionY="300"/>
+<Connection from="3/elbise" to="2/dik"/>
+<Word name="biz" positionX="450" positionY="400"/>
+<Connection from="2/dik" to="biz" with="poss"/>
+<Word name="1/biz" positionX="550" positionY="400"/>
+<Connection from="2/dik" to="1/biz"/>
+<Word name="4/hata" positionX="750" positionY="200"/>
+<Connection from="5/var" to="4/hata"/>
+</Amr>

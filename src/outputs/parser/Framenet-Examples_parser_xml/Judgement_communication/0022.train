@@ -1,0 +1,22 @@
+<Amr sentence="Kışın çok karlı , tipili günlerinden başka günlerini günahı kadar sevmezdi .">
+<Word name="9/günah 10/kadar 11/sev:extent" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="9/günah 10/kadar 11/sev:extent" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="9/günah 10/kadar 11/sev:extent" to="o" with="ARG0"/>
+<Word name="6/gün" positionX="850" positionY="200"/>
+<Connection from="9/günah 10/kadar 11/sev:extent" to="6/gün" with="ARG1"/>
+<Word name="1/kış" positionX="750" positionY="300"/>
+<Connection from="6/gün" to="1/kış" with="mod"/>
+<Word name="3/karlı" positionX="850" positionY="300"/>
+<Connection from="6/gün" to="3/karlı" with="mod"/>
+<Word name="2/çok" positionX="750" positionY="400"/>
+<Connection from="3/karlı" to="2/çok" with="degree"/>
+<Word name="5/tipili" positionX="950" positionY="300"/>
+<Connection from="6/gün" to="5/tipili" with="mod"/>
+<Word name="7/başka" positionX="1050" positionY="300"/>
+<Connection from="6/gün" to="7/başka"/>
+<Word name="8/gün" positionX="950" positionY="200"/>
+<Connection from="9/günah 10/kadar 11/sev:extent" to="8/gün" with="ARG1"/>
+<Connection from="8/gün" to="o" with="poss"/>
+</Amr>

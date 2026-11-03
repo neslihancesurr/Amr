@@ -1,0 +1,9 @@
+<Amr sentence="Seni postayla bilgilendireceğiz .">
+<Word name="3/bilgilendir" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="3/bilgilendir" to="biz" with="ARG0"/>
+<Word name="1/sen" positionX="750" positionY="200"/>
+<Connection from="3/bilgilendir" to="1/sen" with="ARG1"/>
+<Word name="2/posta" positionX="850" positionY="200"/>
+<Connection from="3/bilgilendir" to="2/posta" with="instrument"/>
+</Amr>

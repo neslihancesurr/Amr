@@ -1,0 +1,9 @@
+<Amr sentence="Ben de içmeyeceğim .">
+<Word name="3/iç" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/iç" to="-" with="polarity"/>
+<Word name="1/ben" positionX="750" positionY="200"/>
+<Connection from="3/iç" to="1/ben"/>
+<Word name="2/de" positionX="650" positionY="300"/>
+<Connection from="1/ben" to="2/de"/>
+</Amr>

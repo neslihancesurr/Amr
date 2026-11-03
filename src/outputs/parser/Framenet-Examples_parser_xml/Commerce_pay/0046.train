@@ -1,0 +1,17 @@
+<Amr sentence="Garantide olmak için her ay bankaya para yatırırım .">
+<Word name="7/para 8/yatır" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="7/para 8/yatır" to="ben" with="ARG0"/>
+<Word name="2/ol" positionX="750" positionY="200"/>
+<Connection from="7/para 8/yatır" to="2/ol" with="cause"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/ol" to="o" with="ARG0"/>
+<Word name="1/garanti" positionX="750" positionY="300"/>
+<Connection from="2/ol" to="1/garanti" with="location"/>
+<Word name="5/ay" positionX="850" positionY="200"/>
+<Connection from="7/para 8/yatır" to="5/ay" with="mod"/>
+<Word name="4/her" positionX="750" positionY="300"/>
+<Connection from="5/ay" to="4/her" with="mod"/>
+<Word name="6/banka" positionX="950" positionY="200"/>
+<Connection from="7/para 8/yatır" to="6/banka" with="ARG1"/>
+</Amr>

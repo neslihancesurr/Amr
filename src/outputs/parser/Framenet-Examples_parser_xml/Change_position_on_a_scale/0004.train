@@ -1,0 +1,9 @@
+<Amr sentence="Hisselerin değeri arttı .">
+<Word name="3/art" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/art" to="o" with="ARG0"/>
+<Word name="2/değer" positionX="750" positionY="200"/>
+<Connection from="3/art" to="2/değer" with="ARG1"/>
+<Word name="1/hisse" positionX="650" positionY="300"/>
+<Connection from="2/değer" to="1/hisse" with="mod"/>
+</Amr>

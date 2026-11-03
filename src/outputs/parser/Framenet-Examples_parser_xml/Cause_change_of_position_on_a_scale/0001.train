@@ -1,0 +1,9 @@
+<Amr sentence="Gitarist gitarları akort etti .">
+<Word name="3/akort 4/et" positionX="750" positionY="100"/>
+<Word name="1/gitarist" positionX="650" positionY="200"/>
+<Connection from="3/akort 4/et" to="1/gitarist" with="ARG0"/>
+<Word name="2/gitar" positionX="750" positionY="200"/>
+<Connection from="3/akort 4/et" to="2/gitar" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/gitar" to="o" with="poss"/>
+</Amr>

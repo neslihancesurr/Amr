@@ -1,0 +1,9 @@
+<Amr sentence="Hızlıca okula seyirttim .">
+<Word name="3/seyirt" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/seyirt" to="ben" with="ARG0"/>
+<Word name="1/hızlıca" positionX="750" positionY="200"/>
+<Connection from="3/seyirt" to="1/hızlıca" with="manner"/>
+<Word name="2/okul" positionX="850" positionY="200"/>
+<Connection from="3/seyirt" to="2/okul" with="ARG1"/>
+</Amr>

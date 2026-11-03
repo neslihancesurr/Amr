@@ -1,0 +1,12 @@
+<Amr sentence="Bu alanda iş saatleri içinde sigara içmek yasaklandı .">
+<Word name="8/yasaklan" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="8/yasaklan" to="o" with="ARG0"/>
+<Word name="2/alan" positionX="750" positionY="200"/>
+<Connection from="8/yasaklan" to="2/alan" with="location"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/alan" to="1/bu" with="mod"/>
+<Word name="6/sigara 7/iç" positionX="850" positionY="200"/>
+<Connection from="8/yasaklan" to="6/sigara 7/iç" with="ARG1"/>
+<Connection from="6/sigara 7/iç" to="o" with="ARG0"/>
+</Amr>

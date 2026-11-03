@@ -1,0 +1,11 @@
+<Amr sentence="Resim defterini yapıştırmalarla süsledim .">
+<Word name="4/süsle" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/süsle" to="ben" with="ARG0"/>
+<Word name="2/defter" positionX="750" positionY="200"/>
+<Connection from="4/süsle" to="2/defter" with="ARG1"/>
+<Word name="1/resim" positionX="650" positionY="300"/>
+<Connection from="2/defter" to="1/resim" with="mod"/>
+<Word name="3/yapıştırma" positionX="850" positionY="200"/>
+<Connection from="4/süsle" to="3/yapıştırma" with="instrument"/>
+</Amr>

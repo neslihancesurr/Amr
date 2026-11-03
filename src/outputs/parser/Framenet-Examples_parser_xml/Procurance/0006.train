@@ -1,0 +1,9 @@
+<Amr sentence="Yeni bir unvan kazanmış .">
+<Word name="4/kazan" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/kazan" to="o" with="ARG0"/>
+<Word name="3/unvan" positionX="750" positionY="200"/>
+<Connection from="4/kazan" to="3/unvan" with="ARG1"/>
+<Word name="1/yeni" positionX="650" positionY="300"/>
+<Connection from="3/unvan" to="1/yeni" with="mod"/>
+</Amr>

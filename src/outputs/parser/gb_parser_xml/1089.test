@@ -1,0 +1,9 @@
+<Amr sentence="Yanımda beş kişi çalışıyor .">
+<Word name="4/çalış" positionX="750" positionY="100"/>
+<Word name="1/yan" positionX="650" positionY="200"/>
+<Connection from="4/çalış" to="1/yan" with="location"/>
+<Word name="3/kişi" positionX="750" positionY="200"/>
+<Connection from="4/çalış" to="3/kişi" with="ARG0"/>
+<Word name="2/beş" positionX="650" positionY="300"/>
+<Connection from="3/kişi" to="2/beş"/>
+</Amr>

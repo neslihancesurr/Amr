@@ -1,0 +1,25 @@
+<Amr sentence="Sinema işlerinden anlayan bir arkadaşa bu konuşmayı anlattığım zaman o muammayı halletti .">
+<Word name="12/hallet" positionX="750" positionY="100"/>
+<Word name="9/zaman" positionX="650" positionY="200"/>
+<Connection from="12/hallet" to="9/zaman" with="mod"/>
+<Word name="8/anlat" positionX="550" positionY="300"/>
+<Connection from="9/zaman" to="8/anlat"/>
+<Word name="ben" positionX="450" positionY="400"/>
+<Connection from="8/anlat" to="ben" with="poss"/>
+<Word name="5/arkadaş" positionX="550" positionY="400"/>
+<Connection from="8/anlat" to="5/arkadaş" with="ARG2"/>
+<Word name="3/anla" positionX="450" positionY="500"/>
+<Connection from="5/arkadaş" to="3/anla"/>
+<Word name="2/işler" positionX="350" positionY="600"/>
+<Connection from="3/anla" to="2/işler" with="ARG1"/>
+<Word name="1/sinema" positionX="250" positionY="700"/>
+<Connection from="2/işler" to="1/sinema" with="mod"/>
+<Word name="7/konuşma" positionX="650" positionY="400"/>
+<Connection from="8/anlat" to="7/konuşma" with="ARG2"/>
+<Word name="6/bu" positionX="550" positionY="500"/>
+<Connection from="7/konuşma" to="6/bu" with="mod"/>
+<Word name="11/muamma" positionX="750" positionY="200"/>
+<Connection from="12/hallet" to="11/muamma" with="ARG1"/>
+<Word name="10/o" positionX="650" positionY="300"/>
+<Connection from="11/muamma" to="10/o" with="mod"/>
+</Amr>

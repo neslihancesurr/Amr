@@ -1,0 +1,19 @@
+<Amr sentence="İnsanlar artık komşularını bile tanımıyorlar büyük kentlerde .">
+<Word name="5/tanı" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/tanı" to="-" with="polarity"/>
+<Word name="1/insan" positionX="750" positionY="200"/>
+<Connection from="5/tanı" to="1/insan" with="ARG0"/>
+<Word name="2/artık" positionX="850" positionY="200"/>
+<Connection from="5/tanı" to="2/artık" with="manner"/>
+<Word name="3/komşu" positionX="950" positionY="200"/>
+<Connection from="5/tanı" to="3/komşu" with="ARG1"/>
+<Word name="onlar" positionX="850" positionY="300"/>
+<Connection from="3/komşu" to="onlar" with="poss"/>
+<Word name="4/bile" positionX="950" positionY="300"/>
+<Connection from="3/komşu" to="4/bile"/>
+<Word name="7/kent" positionX="1050" positionY="200"/>
+<Connection from="5/tanı" to="7/kent" with="location"/>
+<Word name="6/büyük" positionX="950" positionY="300"/>
+<Connection from="7/kent" to="6/büyük" with="mod"/>
+</Amr>

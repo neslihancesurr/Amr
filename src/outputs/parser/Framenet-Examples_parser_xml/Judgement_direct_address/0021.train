@@ -1,0 +1,11 @@
+<Amr sentence="Bu kızcağıza hep bağırıyor .">
+<Word name="4/bağır" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/bağır" to="o" with="ARG0"/>
+<Word name="2/kızcağız" positionX="750" positionY="200"/>
+<Connection from="4/bağır" to="2/kızcağız" with="ARG1"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/kızcağız" to="1/bu" with="mod"/>
+<Word name="3/hep" positionX="850" positionY="200"/>
+<Connection from="4/bağır" to="3/hep" with="frequency"/>
+</Amr>

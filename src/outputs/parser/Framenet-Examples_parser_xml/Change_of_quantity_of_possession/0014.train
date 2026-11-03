@@ -1,0 +1,12 @@
+<Amr sentence="Piyasa böyleyken kar etmek pek mümkün görünmüyor .">
+<Word name="6/mümkün 7/görün" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="6/mümkün 7/görün" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="6/mümkün 7/görün" to="o" with="ARG0"/>
+<Word name="3/kar 4/et" positionX="850" positionY="200"/>
+<Connection from="6/mümkün 7/görün" to="3/kar 4/et" with="ARG1"/>
+<Connection from="3/kar 4/et" to="o" with="ARG0"/>
+<Word name="5/pek" positionX="950" positionY="200"/>
+<Connection from="6/mümkün 7/görün" to="5/pek" with="manner"/>
+</Amr>

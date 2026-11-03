@@ -1,0 +1,11 @@
+<Amr sentence="Bütün gün ev baktık .">
+<Word name="4/bak" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="4/bak" to="biz" with="ARG0"/>
+<Word name="2/gün" positionX="750" positionY="200"/>
+<Connection from="4/bak" to="2/gün"/>
+<Word name="1/bütün" positionX="650" positionY="300"/>
+<Connection from="2/gün" to="1/bütün" with="mod"/>
+<Word name="3/ev" positionX="850" positionY="200"/>
+<Connection from="4/bak" to="3/ev" with="ARG1"/>
+</Amr>

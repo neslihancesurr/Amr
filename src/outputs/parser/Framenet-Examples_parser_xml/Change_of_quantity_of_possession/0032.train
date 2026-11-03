@@ -1,0 +1,14 @@
+<Amr sentence="Her şey mahvoldu , yandı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/mahvol" positionX="650" positionY="200"/>
+<Connection from="and" to="3/mahvol" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/mahvol" to="o" with="ARG0"/>
+<Word name="2/şey" positionX="650" positionY="300"/>
+<Connection from="3/mahvol" to="2/şey" with="ARG1"/>
+<Word name="1/her" positionX="550" positionY="400"/>
+<Connection from="2/şey" to="1/her" with="mod"/>
+<Word name="5/yan" positionX="750" positionY="200"/>
+<Connection from="and" to="5/yan" with="op2"/>
+<Connection from="5/yan" to="o" with="ARG0"/>
+</Amr>

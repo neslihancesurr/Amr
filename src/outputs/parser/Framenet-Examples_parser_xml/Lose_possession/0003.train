@@ -1,0 +1,16 @@
+<Amr sentence="Burayı hiç bilmiyordu , yolunu kaybetmişti .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/bil" positionX="650" positionY="200"/>
+<Connection from="and" to="3/bil" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="3/bil" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/bil" to="o" with="ARG0"/>
+<Word name="1/bura" positionX="750" positionY="300"/>
+<Connection from="3/bil" to="1/bura" with="ARG1"/>
+<Word name="2/hiç" positionX="850" positionY="300"/>
+<Connection from="3/bil" to="2/hiç" with="degree"/>
+<Word name="5/yol 6/kaybet" positionX="750" positionY="200"/>
+<Connection from="and" to="5/yol 6/kaybet" with="op2"/>
+<Connection from="5/yol 6/kaybet" to="o" with="ARG0"/>
+</Amr>

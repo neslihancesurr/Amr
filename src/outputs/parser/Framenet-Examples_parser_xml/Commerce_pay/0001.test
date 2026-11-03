@@ -1,0 +1,11 @@
+<Amr sentence="Kendine her ay masraf kapısı açıyor .">
+<Word name="4/masraf 5/kapı 6/aç" positionX="750" positionY="100"/>
+<Word name="1/kendi" positionX="650" positionY="200"/>
+<Connection from="4/masraf 5/kapı 6/aç" to="1/kendi" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/kendi" to="o" with="poss"/>
+<Word name="3/ay" positionX="750" positionY="200"/>
+<Connection from="4/masraf 5/kapı 6/aç" to="3/ay" with="mod"/>
+<Word name="2/her" positionX="650" positionY="300"/>
+<Connection from="3/ay" to="2/her" with="mod"/>
+</Amr>

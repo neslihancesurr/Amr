@@ -1,0 +1,12 @@
+<Amr sentence="Oturmaktan bacaklarım uyuşmuş .">
+<Word name="3/uyuş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/uyuş" to="o" with="ARG0"/>
+<Word name="1/otur" positionX="750" positionY="200"/>
+<Connection from="3/uyuş" to="1/otur"/>
+<Connection from="1/otur" to="o" with="ARG0"/>
+<Word name="2/bacak" positionX="850" positionY="200"/>
+<Connection from="3/uyuş" to="2/bacak" with="ARG1"/>
+<Word name="ben" positionX="750" positionY="300"/>
+<Connection from="2/bacak" to="ben" with="poss"/>
+</Amr>

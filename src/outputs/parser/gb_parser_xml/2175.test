@@ -1,0 +1,13 @@
+<Amr sentence="Onlar bizi farkında değiliz sanıyorlar .">
+<Word name="5/san" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="5/san" to="onlar" with="ARG0"/>
+<Word name="1/o" positionX="750" positionY="200"/>
+<Connection from="5/san" to="1/o"/>
+<Word name="2/biz" positionX="850" positionY="200"/>
+<Connection from="5/san" to="2/biz"/>
+<Word name="3/fark" positionX="950" positionY="200"/>
+<Connection from="5/san" to="3/fark" with="location"/>
+<Word name="-" positionX="850" positionY="300"/>
+<Connection from="3/fark" to="-" with="polarity"/>
+</Amr>

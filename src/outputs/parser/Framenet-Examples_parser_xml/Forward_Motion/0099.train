@@ -1,0 +1,7 @@
+<Amr sentence="Futbolcu sahada turladı .">
+<Word name="3/turla" positionX="750" positionY="100"/>
+<Word name="1/futbolcu" positionX="650" positionY="200"/>
+<Connection from="3/turla" to="1/futbolcu" with="ARG0"/>
+<Word name="2/saha" positionX="750" positionY="200"/>
+<Connection from="3/turla" to="2/saha" with="ARG1"/>
+</Amr>

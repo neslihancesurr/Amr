@@ -1,0 +1,17 @@
+<Amr sentence="Var gücümle kalenin sağ üst köşesine şut çektim .">
+<Word name="7/şut 8/çek" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="7/şut 8/çek" to="ben" with="ARG0"/>
+<Word name="2/güç" positionX="750" positionY="200"/>
+<Connection from="7/şut 8/çek" to="2/güç" with="instrument"/>
+<Word name="1/var" positionX="650" positionY="300"/>
+<Connection from="2/güç" to="1/var" with="mod"/>
+<Word name="6/köşe" positionX="850" positionY="200"/>
+<Connection from="7/şut 8/çek" to="6/köşe" with="ARG1"/>
+<Word name="3/kale" positionX="750" positionY="300"/>
+<Connection from="6/köşe" to="3/kale" with="mod"/>
+<Word name="5/üst" positionX="850" positionY="300"/>
+<Connection from="6/köşe" to="5/üst" with="mod"/>
+<Word name="4/sağ" positionX="750" positionY="400"/>
+<Connection from="5/üst" to="4/sağ" with="manner"/>
+</Amr>

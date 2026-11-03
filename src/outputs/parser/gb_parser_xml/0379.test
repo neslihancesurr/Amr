@@ -1,0 +1,9 @@
+<Amr sentence="Kanepede uyu .">
+<Word name="2/uyu" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="2/uyu" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="2/uyu" to="imperative" with="mode"/>
+<Word name="1/kanepe" positionX="850" positionY="200"/>
+<Connection from="2/uyu" to="1/kanepe" with="location"/>
+</Amr>

@@ -1,0 +1,18 @@
+<Amr sentence="Korkut'a yeni gömlek almadık .">
+<Word name="4/al" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/al" to="-" with="polarity"/>
+<Word name="biz" positionX="750" positionY="200"/>
+<Connection from="4/al" to="biz" with="ARG0"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="4/al" to="person" with="ARG2"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/korkut" positionX="650" positionY="400"/>
+<Connection from="name" to="1/korkut" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/gömlek" positionX="950" positionY="200"/>
+<Connection from="4/al" to="3/gömlek" with="ARG1"/>
+<Word name="2/yeni" positionX="850" positionY="300"/>
+<Connection from="3/gömlek" to="2/yeni" with="mod"/>
+</Amr>

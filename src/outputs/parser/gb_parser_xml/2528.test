@@ -1,0 +1,22 @@
+<Amr sentence="Dişçiye birkaç ay önce gitseymişim dişimi kurtarabilecekmiş .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="7/kurtar" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="7/kurtar"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="7/kurtar" to="o" with="ARG0"/>
+<Word name="5/git" positionX="650" positionY="300"/>
+<Connection from="7/kurtar" to="5/git"/>
+<Word name="ben" positionX="550" positionY="400"/>
+<Connection from="5/git" to="ben" with="ARG0"/>
+<Word name="1/dişçi" positionX="650" positionY="400"/>
+<Connection from="5/git" to="1/dişçi"/>
+<Word name="3/ay" positionX="750" positionY="400"/>
+<Connection from="5/git" to="3/ay"/>
+<Word name="2/birkaç" positionX="650" positionY="500"/>
+<Connection from="3/ay" to="2/birkaç" with="mod"/>
+<Word name="4/önce" positionX="750" positionY="500"/>
+<Connection from="3/ay" to="4/önce"/>
+<Word name="6/diş" positionX="750" positionY="300"/>
+<Connection from="7/kurtar" to="6/diş"/>
+<Connection from="6/diş" to="ben" with="poss"/>
+</Amr>

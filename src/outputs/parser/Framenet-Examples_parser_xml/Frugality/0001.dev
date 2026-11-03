@@ -1,0 +1,16 @@
+<Amr sentence="Kombi bozulunca 500 lira çıkmak zorunda kaldı .">
+<Word name="6/zorun 7/kal" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/zorun 7/kal" to="o" with="ARG0"/>
+<Word name="2/bozul" positionX="750" positionY="200"/>
+<Connection from="6/zorun 7/kal" to="2/bozul"/>
+<Word name="1/kombi" positionX="650" positionY="300"/>
+<Connection from="2/bozul" to="1/kombi" with="ARG1"/>
+<Word name="5/çık" positionX="850" positionY="200"/>
+<Connection from="6/zorun 7/kal" to="5/çık" with="ARG1"/>
+<Connection from="5/çık" to="o" with="ARG0"/>
+<Word name="4/lira" positionX="850" positionY="300"/>
+<Connection from="5/çık" to="4/lira" with="ARG1"/>
+<Word name="3/500" positionX="750" positionY="400"/>
+<Connection from="4/lira" to="3/500"/>
+</Amr>

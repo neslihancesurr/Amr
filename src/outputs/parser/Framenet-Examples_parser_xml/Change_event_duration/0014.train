@@ -1,0 +1,14 @@
+<Amr sentence="Gelir gelmez kadıncağızı lakırtıya boğdu .">
+<Word name="4/lakırtı 5/boğ" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/lakırtı 5/boğ" to="o" with="ARG0"/>
+<Word name="2/gel" positionX="750" positionY="200"/>
+<Connection from="4/lakırtı 5/boğ" to="2/gel"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="2/gel" to="-" with="polarity"/>
+<Word name="1/gel" positionX="750" positionY="300"/>
+<Connection from="2/gel" to="1/gel"/>
+<Connection from="1/gel" to="o" with="ARG0"/>
+<Word name="3/kadıncağız" positionX="850" positionY="200"/>
+<Connection from="4/lakırtı 5/boğ" to="3/kadıncağız"/>
+</Amr>

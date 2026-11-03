@@ -1,0 +1,9 @@
+<Amr sentence="gördüğünüz şu kalabalık">
+<Word name="3/kalabalık" positionX="750" positionY="100"/>
+<Word name="1/gör" positionX="650" positionY="200"/>
+<Connection from="3/kalabalık" to="1/gör"/>
+<Word name="siz" positionX="550" positionY="300"/>
+<Connection from="1/gör" to="siz" with="poss"/>
+<Word name="2/şu" positionX="750" positionY="200"/>
+<Connection from="3/kalabalık" to="2/şu" with="mod"/>
+</Amr>

@@ -1,0 +1,14 @@
+<Amr sentence="Hastalığı hâlâ çok ağır seyrediyor .">
+<Word name="5/seyret" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/seyret" to="o" with="ARG0"/>
+<Word name="1/hastalık" positionX="750" positionY="200"/>
+<Connection from="5/seyret" to="1/hastalık" with="ARG1"/>
+<Connection from="1/hastalık" to="o" with="poss"/>
+<Word name="2/hâlâ" positionX="850" positionY="200"/>
+<Connection from="5/seyret" to="2/hâlâ" with="manner"/>
+<Word name="4/ağır" positionX="950" positionY="200"/>
+<Connection from="5/seyret" to="4/ağır" with="manner"/>
+<Word name="3/çok" positionX="850" positionY="300"/>
+<Connection from="4/ağır" to="3/çok" with="degree"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Haberi duyduğunuz sırada burada mıydınız ?">
+<Word name="4/burada" positionX="750" positionY="100"/>
+<Word name="3/sıra" positionX="650" positionY="200"/>
+<Connection from="4/burada" to="3/sıra" with="location"/>
+<Word name="2/duy" positionX="550" positionY="300"/>
+<Connection from="3/sıra" to="2/duy"/>
+<Word name="siz" positionX="450" positionY="400"/>
+<Connection from="2/duy" to="siz" with="poss"/>
+<Word name="1/haber" positionX="550" positionY="400"/>
+<Connection from="2/duy" to="1/haber"/>
+<Word name="5/mi" positionX="750" positionY="200"/>
+<Connection from="4/burada" to="5/mi"/>
+</Amr>

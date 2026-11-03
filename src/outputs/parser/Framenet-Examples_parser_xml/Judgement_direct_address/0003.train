@@ -1,0 +1,16 @@
+<Amr sentence="Aramızda olmayan insanlara ithamda bulunmayın .">
+<Word name="4/itham 5/bulun" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/itham 5/bulun" to="-" with="polarity"/>
+<Word name="siz" positionX="750" positionY="200"/>
+<Connection from="4/itham 5/bulun" to="siz" with="ARG0"/>
+<Word name="imperative" positionX="850" positionY="200"/>
+<Connection from="4/itham 5/bulun" to="imperative" with="mode"/>
+<Word name="3/insan" positionX="950" positionY="200"/>
+<Connection from="4/itham 5/bulun" to="3/insan" with="ARG1"/>
+<Word name="2/ol" positionX="850" positionY="300"/>
+<Connection from="3/insan" to="2/ol"/>
+<Connection from="2/ol" to="-" with="polarity"/>
+<Word name="1/ara" positionX="850" positionY="400"/>
+<Connection from="2/ol" to="1/ara" with="location"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Bu maç iki kere gol yedim .">
+<Word name="5/gol 6/ye" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/gol 6/ye" to="ben" with="ARG0"/>
+<Word name="2/maç" positionX="750" positionY="200"/>
+<Connection from="5/gol 6/ye" to="2/maç"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/maç" to="1/bu" with="mod"/>
+<Word name="4/kere" positionX="850" positionY="200"/>
+<Connection from="5/gol 6/ye" to="4/kere"/>
+<Word name="3/iki" positionX="750" positionY="300"/>
+<Connection from="4/kere" to="3/iki"/>
+</Amr>

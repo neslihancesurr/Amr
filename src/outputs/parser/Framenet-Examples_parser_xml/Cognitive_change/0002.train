@@ -1,0 +1,17 @@
+<Amr sentence="Aradan geçen senelerde biricik dostum adeta gömlek değiştirmişti .">
+<Word name="7/gömlek 8/değiştir" positionX="750" positionY="100"/>
+<Word name="3/sene" positionX="650" positionY="200"/>
+<Connection from="7/gömlek 8/değiştir" to="3/sene" with="location"/>
+<Word name="2/geçen" positionX="550" positionY="300"/>
+<Connection from="3/sene" to="2/geçen"/>
+<Word name="1/ara" positionX="450" positionY="400"/>
+<Connection from="2/geçen" to="1/ara"/>
+<Word name="5/dost" positionX="750" positionY="200"/>
+<Connection from="7/gömlek 8/değiştir" to="5/dost" with="ARG0"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="5/dost" to="ben" with="poss"/>
+<Word name="4/biricik" positionX="750" positionY="300"/>
+<Connection from="5/dost" to="4/biricik" with="mod"/>
+<Word name="6/adeta" positionX="850" positionY="200"/>
+<Connection from="7/gömlek 8/değiştir" to="6/adeta" with="manner"/>
+</Amr>

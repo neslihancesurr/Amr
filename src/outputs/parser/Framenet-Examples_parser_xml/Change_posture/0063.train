@@ -1,0 +1,13 @@
+<Amr sentence="Başköşeye kurulmuş , herkese emir veriyor .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/başköşe 2/kur" positionX="650" positionY="200"/>
+<Connection from="and" to="1/başköşe 2/kur" with="op1"/>
+<Word name="5/emir 6/ver" positionX="750" positionY="200"/>
+<Connection from="and" to="5/emir 6/ver" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/emir 6/ver" to="o" with="ARG0"/>
+<Word name="4/herkes" positionX="750" positionY="300"/>
+<Connection from="5/emir 6/ver" to="4/herkes" with="ARG1"/>
+<Word name="onlar" positionX="650" positionY="400"/>
+<Connection from="4/herkes" to="onlar" with="poss"/>
+</Amr>

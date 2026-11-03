@@ -1,0 +1,18 @@
+<Amr sentence="Turhan Kural adında bir yazar">
+<Word name="5/yazar" positionX="750" positionY="100"/>
+<Word name="3/ad" positionX="650" positionY="200"/>
+<Connection from="5/yazar" to="3/ad" with="mod"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="3/ad" to="person"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/turhan" positionX="350" positionY="500"/>
+<Connection from="name" to="1/turhan" with="op1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="person" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/kural" positionX="450" positionY="600"/>
+<Connection from="name" to="2/kural" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

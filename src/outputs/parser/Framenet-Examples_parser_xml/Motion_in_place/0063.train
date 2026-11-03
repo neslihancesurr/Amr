@@ -1,0 +1,19 @@
+<Amr sentence="Kirli suratlı üç çocuk , ellerindeki birer dilim ekmeği geveliyorlar .">
+<Word name="10/gevele" positionX="750" positionY="100"/>
+<Word name="4/çocuk" positionX="650" positionY="200"/>
+<Connection from="10/gevele" to="4/çocuk" with="ARG0"/>
+<Word name="2/surat" positionX="550" positionY="300"/>
+<Connection from="4/çocuk" to="2/surat" with="mod"/>
+<Word name="1/kirli" positionX="450" positionY="400"/>
+<Connection from="2/surat" to="1/kirli" with="mod"/>
+<Word name="3/üç" positionX="650" positionY="300"/>
+<Connection from="4/çocuk" to="3/üç"/>
+<Word name="9/ekmek" positionX="750" positionY="200"/>
+<Connection from="10/gevele" to="9/ekmek" with="ARG1"/>
+<Word name="6/el" positionX="650" positionY="300"/>
+<Connection from="9/ekmek" to="6/el" with="mod"/>
+<Word name="8/dil" positionX="750" positionY="300"/>
+<Connection from="9/ekmek" to="8/dil" with="mod"/>
+<Word name="7/bir" positionX="650" positionY="400"/>
+<Connection from="8/dil" to="7/bir"/>
+</Amr>

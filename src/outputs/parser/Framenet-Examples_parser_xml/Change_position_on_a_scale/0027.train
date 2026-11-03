@@ -1,0 +1,11 @@
+<Amr sentence="Sınava kalan vakit çok kısaldı .">
+<Word name="5/kısal" positionX="750" positionY="100"/>
+<Word name="3/vakit" positionX="650" positionY="200"/>
+<Connection from="5/kısal" to="3/vakit" with="ARG0"/>
+<Word name="2/kalan" positionX="550" positionY="300"/>
+<Connection from="3/vakit" to="2/kalan"/>
+<Word name="1/sınav" positionX="450" positionY="400"/>
+<Connection from="2/kalan" to="1/sınav"/>
+<Word name="4/çok" positionX="750" positionY="200"/>
+<Connection from="5/kısal" to="4/çok" with="degree"/>
+</Amr>

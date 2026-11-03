@@ -1,0 +1,5 @@
+<Amr sentence="Manav , çamura yatıyor .">
+<Word name="3/çamur 4/yat" positionX="750" positionY="100"/>
+<Word name="1/manav" positionX="650" positionY="200"/>
+<Connection from="3/çamur 4/yat" to="1/manav" with="ARG0"/>
+</Amr>

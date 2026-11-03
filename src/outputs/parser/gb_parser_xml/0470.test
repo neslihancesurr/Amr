@@ -1,0 +1,21 @@
+<Amr sentence="Bunları Amerika'nın dış politikasını daha iyi anlamak isteyenler için yazıyorum .">
+<Word name="10/yaz" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="10/yaz" to="ben" with="ARG0"/>
+<Word name="1/bu" positionX="750" positionY="200"/>
+<Connection from="10/yaz" to="1/bu" with="ARG1"/>
+<Word name="8/iste" positionX="850" positionY="200"/>
+<Connection from="10/yaz" to="8/iste" with="cause"/>
+<Word name="onlar" positionX="750" positionY="300"/>
+<Connection from="8/iste" to="onlar" with="ARG0"/>
+<Word name="7/anla" positionX="850" positionY="300"/>
+<Connection from="8/iste" to="7/anla" with="ARG1"/>
+<Word name="o" positionX="750" positionY="400"/>
+<Connection from="7/anla" to="o" with="ARG0"/>
+<Word name="3/dış 4/politika" positionX="850" positionY="400"/>
+<Connection from="7/anla" to="3/dış 4/politika" with="ARG1"/>
+<Word name="6/iyi" positionX="950" positionY="400"/>
+<Connection from="7/anla" to="6/iyi" with="manner"/>
+<Word name="5/daha" positionX="850" positionY="500"/>
+<Connection from="6/iyi" to="5/daha" with="degree"/>
+</Amr>

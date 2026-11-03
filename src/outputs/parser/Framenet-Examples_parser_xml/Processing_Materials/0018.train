@@ -1,0 +1,19 @@
+<Amr sentence="Ayna ve avizeleri ev sahibinin isteği üzerine varakladık .">
+<Word name="8/varakla" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="8/varakla" to="biz" with="ARG0"/>
+<Word name="and" positionX="750" positionY="200"/>
+<Connection from="8/varakla" to="and"/>
+<Word name="3/avize" positionX="650" positionY="300"/>
+<Connection from="and" to="3/avize" with="ARG1"/>
+<Word name="1/ayna" positionX="750" positionY="300"/>
+<Connection from="and" to="1/ayna" with="ARG1"/>
+<Word name="7/üzerine" positionX="850" positionY="200"/>
+<Connection from="8/varakla" to="7/üzerine" with="manner"/>
+<Word name="6/istek" positionX="750" positionY="300"/>
+<Connection from="7/üzerine" to="6/istek" with="mod"/>
+<Word name="4/ev 5/sahip" positionX="650" positionY="400"/>
+<Connection from="6/istek" to="4/ev 5/sahip"/>
+<Word name="o" positionX="550" positionY="500"/>
+<Connection from="4/ev 5/sahip" to="o" with="poss"/>
+</Amr>

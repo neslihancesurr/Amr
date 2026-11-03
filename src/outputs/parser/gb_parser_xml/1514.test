@@ -1,0 +1,17 @@
+<Amr sentence="Ne yiyecek bulabildim ne içecek .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="3/bul" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="3/bul"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="3/bul" to="ben" with="ARG0"/>
+<Word name="and" positionX="650" positionY="300"/>
+<Connection from="3/bul" to="and"/>
+<Word name="5/içecek" positionX="550" positionY="400"/>
+<Connection from="and" to="5/içecek" with="ARG1"/>
+<Word name="4/ne" positionX="450" positionY="500"/>
+<Connection from="5/içecek" to="4/ne"/>
+<Word name="2/yiyecek" positionX="650" positionY="400"/>
+<Connection from="and" to="2/yiyecek" with="ARG1"/>
+<Word name="1/ne" positionX="550" positionY="500"/>
+<Connection from="2/yiyecek" to="1/ne"/>
+</Amr>

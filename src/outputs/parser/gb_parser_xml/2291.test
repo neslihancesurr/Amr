@@ -1,0 +1,9 @@
+<Amr sentence="yarın okuyacağım makale">
+<Word name="3/makale" positionX="750" positionY="100"/>
+<Word name="2/oku" positionX="650" positionY="200"/>
+<Connection from="3/makale" to="2/oku"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="2/oku" to="ben" with="poss"/>
+<Word name="1/yarın" positionX="650" positionY="300"/>
+<Connection from="2/oku" to="1/yarın"/>
+</Amr>

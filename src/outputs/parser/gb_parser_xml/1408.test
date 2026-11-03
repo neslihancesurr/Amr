@@ -1,0 +1,13 @@
+<Amr sentence="Muhallebiye ne kadar şeker koyulur ?">
+<Word name="5/koy" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/koy" to="o" with="ARG0"/>
+<Word name="1/muhallebi" positionX="750" positionY="200"/>
+<Connection from="5/koy" to="1/muhallebi" with="ARG1"/>
+<Word name="4/şeker" positionX="850" positionY="200"/>
+<Connection from="5/koy" to="4/şeker"/>
+<Word name="2/ne" positionX="750" positionY="300"/>
+<Connection from="4/şeker" to="2/ne" with="mod"/>
+<Word name="3/kadar" positionX="650" positionY="400"/>
+<Connection from="2/ne" to="3/kadar"/>
+</Amr>

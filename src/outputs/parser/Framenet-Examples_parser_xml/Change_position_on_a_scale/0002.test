@@ -1,0 +1,14 @@
+<Amr sentence="Artık kâr edemiyorum , zam yapacağım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/kâr 3/et" positionX="650" positionY="200"/>
+<Connection from="and" to="2/kâr 3/et" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="2/kâr 3/et" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="2/kâr 3/et" to="ben" with="ARG0"/>
+<Word name="1/artık" positionX="750" positionY="300"/>
+<Connection from="2/kâr 3/et" to="1/artık" with="manner"/>
+<Word name="5/zam 6/yap" positionX="750" positionY="200"/>
+<Connection from="and" to="5/zam 6/yap" with="op2"/>
+<Connection from="5/zam 6/yap" to="ben" with="ARG0"/>
+</Amr>

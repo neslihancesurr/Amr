@@ -1,0 +1,21 @@
+<Amr sentence="Milli takım salı günü Hırvatistan karşısında sahaya çıkacak .">
+<Word name="7/saha 8/çık" positionX="750" positionY="100"/>
+<Word name="1/milli 2/takım" positionX="650" positionY="200"/>
+<Connection from="7/saha 8/çık" to="1/milli 2/takım" with="ARG0"/>
+<Word name="4/gün" positionX="750" positionY="200"/>
+<Connection from="7/saha 8/çık" to="4/gün" with="mod"/>
+<Word name="date-entity" positionX="650" positionY="300"/>
+<Connection from="4/gün" to="date-entity" with="date"/>
+<Word name="3/salı" positionX="550" positionY="400"/>
+<Connection from="date-entity" to="3/salı" with="weekday"/>
+<Word name="6/karşı" positionX="850" positionY="200"/>
+<Connection from="7/saha 8/çık" to="6/karşı" with="location"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="6/karşı" to="person"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="5/hırvatistan" positionX="550" positionY="500"/>
+<Connection from="name" to="5/hırvatistan" with="op1"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

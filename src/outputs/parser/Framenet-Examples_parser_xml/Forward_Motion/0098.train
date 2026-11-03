@@ -1,0 +1,13 @@
+<Amr sentence="Müslümanlar , Kâbe'yi tavaf ettiler .">
+<Word name="4/tavaf 5/et" positionX="750" positionY="100"/>
+<Word name="1/müslüman" positionX="650" positionY="200"/>
+<Connection from="4/tavaf 5/et" to="1/müslüman" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="4/tavaf 5/et" to="person" with="ARG1"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/kâbe" positionX="550" positionY="400"/>
+<Connection from="name" to="3/kâbe" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

@@ -1,0 +1,19 @@
+<Amr sentence="Artık makine yılda dört beş defa arızalanıyor .">
+<Word name="7/arızalan" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/arızalan" to="o" with="ARG0"/>
+<Word name="1/artık" positionX="750" positionY="200"/>
+<Connection from="7/arızalan" to="1/artık" with="manner"/>
+<Word name="2/makine" positionX="850" positionY="200"/>
+<Connection from="7/arızalan" to="2/makine" with="ARG1"/>
+<Word name="6/defa" positionX="950" positionY="200"/>
+<Connection from="7/arızalan" to="6/defa"/>
+<Word name="3/yıl" positionX="850" positionY="300"/>
+<Connection from="6/defa" to="3/yıl" with="mod"/>
+<Word name="and" positionX="950" positionY="300"/>
+<Connection from="6/defa" to="and"/>
+<Word name="5/beş" positionX="850" positionY="400"/>
+<Connection from="and" to="5/beş" with="op1"/>
+<Word name="4/dört" positionX="950" positionY="400"/>
+<Connection from="and" to="4/dört" with="op2"/>
+</Amr>

@@ -1,0 +1,19 @@
+<Amr sentence="Hani şu marangoz İbrahim var ya ?">
+<Word name="5/var" positionX="750" positionY="100"/>
+<Word name="1/hani" positionX="650" positionY="200"/>
+<Connection from="5/var" to="1/hani"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="5/var" to="person"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="4/ibrahim" positionX="550" positionY="400"/>
+<Connection from="name" to="4/ibrahim" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/şu" positionX="850" positionY="300"/>
+<Connection from="person" to="2/şu" with="mod"/>
+<Word name="3/marangoz" positionX="950" positionY="300"/>
+<Connection from="person" to="3/marangoz" with="mod"/>
+<Word name="6/ya" positionX="850" positionY="200"/>
+<Connection from="5/var" to="6/ya"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr sentence="Hâlimizi görüp bize merhamet etti .">
+<Word name="4/merhamet 5/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/merhamet 5/et" to="o" with="ARG0"/>
+<Word name="2/gör" positionX="750" positionY="200"/>
+<Connection from="4/merhamet 5/et" to="2/gör"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="2/gör" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/Hâlimizi" positionX="450" positionY="500"/>
+<Connection from="name" to="1/Hâlimizi" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/biz" positionX="850" positionY="200"/>
+<Connection from="4/merhamet 5/et" to="3/biz" with="ARG1"/>
+</Amr>

@@ -1,0 +1,21 @@
+<Amr sentence="Ziver canı çok yanmışçasına tabanları kaldırdı heyecanla .">
+<Word name="5/taban 6/kaldır" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="5/taban 6/kaldır" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ziver" positionX="450" positionY="400"/>
+<Connection from="name" to="1/ziver" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/yan" positionX="750" positionY="200"/>
+<Connection from="5/taban 6/kaldır" to="4/yan"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="4/yan" to="o" with="ARG0"/>
+<Word name="2/can" positionX="750" positionY="300"/>
+<Connection from="4/yan" to="2/can"/>
+<Word name="3/çok" positionX="850" positionY="300"/>
+<Connection from="4/yan" to="3/çok" with="degree"/>
+<Word name="7/heyecanla" positionX="850" positionY="200"/>
+<Connection from="5/taban 6/kaldır" to="7/heyecanla" with="manner"/>
+</Amr>

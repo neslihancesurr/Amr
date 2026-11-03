@@ -1,0 +1,13 @@
+<Amr sentence="Mafya adamları , arka sokakta bir gencin kafasına sıkmış .">
+<Word name="9/sık" positionX="750" positionY="100"/>
+<Word name="2/adam" positionX="650" positionY="200"/>
+<Connection from="9/sık" to="2/adam" with="ARG0"/>
+<Word name="1/mafya" positionX="550" positionY="300"/>
+<Connection from="2/adam" to="1/mafya" with="mod"/>
+<Word name="4/arka 5/sokak" positionX="750" positionY="200"/>
+<Connection from="9/sık" to="4/arka 5/sokak" with="location"/>
+<Word name="8/kafa" positionX="850" positionY="200"/>
+<Connection from="9/sık" to="8/kafa" with="ARG1"/>
+<Word name="7/gencin" positionX="750" positionY="300"/>
+<Connection from="8/kafa" to="7/gencin" with="mod"/>
+</Amr>

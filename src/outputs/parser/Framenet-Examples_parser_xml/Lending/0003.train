@@ -1,0 +1,13 @@
+<Amr sentence="Kiracı , kirayı taktı ve kaçtı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/kaç" positionX="650" positionY="200"/>
+<Connection from="and" to="6/kaç" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="6/kaç" to="o" with="ARG0"/>
+<Word name="4/tak" positionX="750" positionY="200"/>
+<Connection from="and" to="4/tak" with="op2"/>
+<Word name="1/kiracı" positionX="650" positionY="300"/>
+<Connection from="4/tak" to="1/kiracı" with="ARG0"/>
+<Word name="3/kira" positionX="750" positionY="300"/>
+<Connection from="4/tak" to="3/kira"/>
+</Amr>

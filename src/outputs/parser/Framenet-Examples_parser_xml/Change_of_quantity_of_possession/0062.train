@@ -1,0 +1,17 @@
+<Amr sentence="O berberin adı çıkmış , aslında iyi tıraş edemiyor .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/çık" positionX="650" positionY="200"/>
+<Connection from="and" to="4/çık" with="op1"/>
+<Word name="3/ad" positionX="550" positionY="300"/>
+<Connection from="4/çık" to="3/ad"/>
+<Word name="2/berber" positionX="450" positionY="400"/>
+<Connection from="3/ad" to="2/berber" with="mod"/>
+<Word name="1/o" positionX="350" positionY="500"/>
+<Connection from="2/berber" to="1/o" with="mod"/>
+<Word name="8/tıraş 9/et" positionX="750" positionY="200"/>
+<Connection from="and" to="8/tıraş 9/et" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="8/tıraş 9/et" to="-" with="polarity"/>
+<Word name="6/aslında" positionX="750" positionY="300"/>
+<Connection from="8/tıraş 9/et" to="6/aslında" with="manner"/>
+</Amr>

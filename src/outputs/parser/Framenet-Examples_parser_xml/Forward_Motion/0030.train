@@ -1,0 +1,17 @@
+<Amr sentence="Egzersiz amaçlı kas gelişimini artırmak için suda yürüyoruz .">
+<Word name="7/su 8/yürü" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="7/su 8/yürü" to="biz" with="ARG0"/>
+<Word name="5/artır" positionX="750" positionY="200"/>
+<Connection from="7/su 8/yürü" to="5/artır" with="cause"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/artır" to="o" with="ARG0"/>
+<Word name="4/gelişim" positionX="750" positionY="300"/>
+<Connection from="5/artır" to="4/gelişim"/>
+<Word name="2/amaç" positionX="650" positionY="400"/>
+<Connection from="4/gelişim" to="2/amaç" with="mod"/>
+<Word name="1/egzersiz" positionX="550" positionY="500"/>
+<Connection from="2/amaç" to="1/egzersiz" with="mod"/>
+<Word name="3/kas" positionX="750" positionY="400"/>
+<Connection from="4/gelişim" to="3/kas" with="mod"/>
+</Amr>

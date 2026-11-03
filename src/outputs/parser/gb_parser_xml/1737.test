@@ -1,0 +1,19 @@
+<Amr sentence="İki tarafın temsilcileri Hilton Oteli'nde bir araya gelmişler .">
+<Word name="6/bir 7/ara 8/gel" positionX="750" positionY="100"/>
+<Word name="3/temsilci" positionX="650" positionY="200"/>
+<Connection from="6/bir 7/ara 8/gel" to="3/temsilci" with="ARG0"/>
+<Word name="2/taraf" positionX="550" positionY="300"/>
+<Connection from="3/temsilci" to="2/taraf" with="mod"/>
+<Word name="1/iki" positionX="450" positionY="400"/>
+<Connection from="2/taraf" to="1/iki"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="6/bir 7/ara 8/gel" to="person" with="ARG1"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="4/hilton" positionX="550" positionY="400"/>
+<Connection from="name" to="4/hilton" with="op1"/>
+<Word name="5/otel" positionX="650" positionY="400"/>
+<Connection from="name" to="5/otel" with="op2"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

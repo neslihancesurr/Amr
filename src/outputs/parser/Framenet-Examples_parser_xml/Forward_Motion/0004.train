@@ -1,0 +1,18 @@
+<Amr sentence="Ben kaçıyorum , abim de arkamdan koşuyor .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/kaç" positionX="650" positionY="200"/>
+<Connection from="and" to="2/kaç" with="op1"/>
+<Word name="1/ben" positionX="550" positionY="300"/>
+<Connection from="2/kaç" to="1/ben" with="ARG0"/>
+<Word name="7/koş" positionX="750" positionY="200"/>
+<Connection from="and" to="7/koş" with="op2"/>
+<Word name="4/abi" positionX="650" positionY="300"/>
+<Connection from="7/koş" to="4/abi" with="ARG0"/>
+<Word name="ben" positionX="550" positionY="400"/>
+<Connection from="4/abi" to="ben" with="poss"/>
+<Word name="5/de" positionX="650" positionY="400"/>
+<Connection from="4/abi" to="5/de" with="manner"/>
+<Word name="6/arka" positionX="750" positionY="300"/>
+<Connection from="7/koş" to="6/arka"/>
+<Connection from="6/arka" to="ben" with="poss"/>
+</Amr>

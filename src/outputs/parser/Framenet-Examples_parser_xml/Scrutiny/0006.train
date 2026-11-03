@@ -1,0 +1,23 @@
+<Amr sentence="Genç şair ile hanım ilk anlarda birbirlerini tepeden ayağa süzgeçten geçirdiler .">
+<Word name="10/süzgeç 11/geçir" positionX="750" positionY="100"/>
+<Word name="and" positionX="650" positionY="200"/>
+<Connection from="10/süzgeç 11/geçir" to="and"/>
+<Word name="4/hanım" positionX="550" positionY="300"/>
+<Connection from="and" to="4/hanım" with="ARG0"/>
+<Word name="3/ile" positionX="450" positionY="400"/>
+<Connection from="4/hanım" to="3/ile"/>
+<Word name="2/şair" positionX="650" positionY="300"/>
+<Connection from="and" to="2/şair" with="ARG0"/>
+<Word name="1/genç" positionX="550" positionY="400"/>
+<Connection from="2/şair" to="1/genç" with="mod"/>
+<Word name="6/an" positionX="750" positionY="200"/>
+<Connection from="10/süzgeç 11/geçir" to="6/an" with="location"/>
+<Word name="5/ilk" positionX="650" positionY="300"/>
+<Connection from="6/an" to="5/ilk" with="mod"/>
+<Word name="7/birbirleri" positionX="850" positionY="200"/>
+<Connection from="10/süzgeç 11/geçir" to="7/birbirleri" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="7/birbirleri" to="o" with="poss"/>
+<Word name="8/tepe 9/ayak" positionX="950" positionY="200"/>
+<Connection from="10/süzgeç 11/geçir" to="8/tepe 9/ayak"/>
+</Amr>

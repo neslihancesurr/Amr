@@ -1,0 +1,13 @@
+<Amr sentence="Babaannesi sürekli diz ağrılarından dert yanıyor .">
+<Word name="5/dert 6/yan" positionX="750" positionY="100"/>
+<Word name="1/babaanne" positionX="650" positionY="200"/>
+<Connection from="5/dert 6/yan" to="1/babaanne" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/babaanne" to="o" with="poss"/>
+<Word name="2/sürekli" positionX="750" positionY="200"/>
+<Connection from="5/dert 6/yan" to="2/sürekli" with="frequency"/>
+<Word name="4/ağrı" positionX="850" positionY="200"/>
+<Connection from="5/dert 6/yan" to="4/ağrı" with="ARG1"/>
+<Word name="3/diz" positionX="750" positionY="300"/>
+<Connection from="4/ağrı" to="3/diz" with="mod"/>
+</Amr>

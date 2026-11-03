@@ -1,0 +1,11 @@
+<Amr sentence="Ya da öyle söylüyor .">
+<Word name="4/söyle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/söyle" to="o" with="ARG0"/>
+<Word name="1/ya" positionX="750" positionY="200"/>
+<Connection from="4/söyle" to="1/ya"/>
+<Word name="2/da" positionX="650" positionY="300"/>
+<Connection from="1/ya" to="2/da"/>
+<Word name="3/öyle" positionX="850" positionY="200"/>
+<Connection from="4/söyle" to="3/öyle" with="manner"/>
+</Amr>

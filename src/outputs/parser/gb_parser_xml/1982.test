@@ -1,0 +1,15 @@
+<Amr sentence="Hiç seyahate gitmemiş yalnız başına daha önce .">
+<Word name="3/git" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/git" to="-" with="polarity"/>
+<Word name="1/hiç" positionX="750" positionY="200"/>
+<Connection from="3/git" to="1/hiç" with="degree"/>
+<Word name="2/seyahat" positionX="850" positionY="200"/>
+<Connection from="3/git" to="2/seyahat" with="ARG1"/>
+<Word name="4/yalnız 5/baş" positionX="950" positionY="200"/>
+<Connection from="3/git" to="4/yalnız 5/baş" with="mod"/>
+<Word name="7/önce" positionX="1050" positionY="200"/>
+<Connection from="3/git" to="7/önce" with="manner"/>
+<Word name="6/daha" positionX="950" positionY="300"/>
+<Connection from="7/önce" to="6/daha" with="degree"/>
+</Amr>

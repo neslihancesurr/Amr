@@ -1,0 +1,17 @@
+<Amr sentence="Domates ne kadar azdı , baksana , iyice büyümüş .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/az" positionX="650" positionY="200"/>
+<Connection from="and" to="4/az" with="op1"/>
+<Word name="1/domates" positionX="550" positionY="300"/>
+<Connection from="4/az" to="1/domates"/>
+<Word name="2/ne 3/kadar" positionX="650" positionY="300"/>
+<Connection from="4/az" to="2/ne 3/kadar"/>
+<Word name="6/bak" positionX="750" positionY="200"/>
+<Connection from="and" to="6/bak" with="op2"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="6/bak" to="sen" with="ARG0"/>
+<Word name="9/büyü" positionX="850" positionY="200"/>
+<Connection from="and" to="9/büyü" with="op3"/>
+<Word name="8/iyice" positionX="750" positionY="300"/>
+<Connection from="9/büyü" to="8/iyice" with="manner"/>
+</Amr>

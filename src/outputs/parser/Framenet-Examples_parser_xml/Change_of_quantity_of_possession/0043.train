@@ -1,0 +1,13 @@
+<Amr sentence="Güven kazandık , gerisi kolay .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/güven 2/kazan" positionX="650" positionY="200"/>
+<Connection from="and" to="1/güven 2/kazan" with="op1"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="1/güven 2/kazan" to="biz" with="ARG0"/>
+<Word name="5/kolay" positionX="750" positionY="200"/>
+<Connection from="and" to="5/kolay" with="op2"/>
+<Word name="4/geri" positionX="650" positionY="300"/>
+<Connection from="5/kolay" to="4/geri"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="4/geri" to="o" with="poss"/>
+</Amr>

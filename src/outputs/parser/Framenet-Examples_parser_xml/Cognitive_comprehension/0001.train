@@ -1,0 +1,13 @@
+<Amr sentence="Öğrencilerimiz bu konuya yeterince vâkıf olmaktadır .">
+<Word name="5/vâkıf 6/ol" positionX="750" positionY="100"/>
+<Word name="1/öğrenci" positionX="650" positionY="200"/>
+<Connection from="5/vâkıf 6/ol" to="1/öğrenci" with="ARG0"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="1/öğrenci" to="biz" with="poss"/>
+<Word name="3/konu" positionX="750" positionY="200"/>
+<Connection from="5/vâkıf 6/ol" to="3/konu" with="ARG1"/>
+<Word name="2/bu" positionX="650" positionY="300"/>
+<Connection from="3/konu" to="2/bu" with="mod"/>
+<Word name="4/yeterince" positionX="850" positionY="200"/>
+<Connection from="5/vâkıf 6/ol" to="4/yeterince" with="manner"/>
+</Amr>

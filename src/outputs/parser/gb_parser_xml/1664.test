@@ -1,0 +1,11 @@
+<Amr sentence="O konsere gitmek hoş olurdu .">
+<Word name="5/ol" positionX="750" positionY="100"/>
+<Word name="3/git" positionX="650" positionY="200"/>
+<Connection from="5/ol" to="3/git"/>
+<Word name="2/konser" positionX="550" positionY="300"/>
+<Connection from="3/git" to="2/konser"/>
+<Word name="1/o" positionX="450" positionY="400"/>
+<Connection from="2/konser" to="1/o" with="mod"/>
+<Word name="4/hoş" positionX="750" positionY="200"/>
+<Connection from="5/ol" to="4/hoş" with="manner"/>
+</Amr>

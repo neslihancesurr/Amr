@@ -1,0 +1,7 @@
+<Amr sentence="Ağır sözler sarf etti .">
+<Word name="3/sarf 4/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/sarf 4/et" to="o" with="ARG0"/>
+<Word name="1/ağır 2/söz" positionX="750" positionY="200"/>
+<Connection from="3/sarf 4/et" to="1/ağır 2/söz" with="ARG1"/>
+</Amr>

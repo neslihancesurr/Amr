@@ -1,0 +1,21 @@
+<Amr sentence="Herkesten gizli bir sevgili yapmış kendine , ona para yediriyormuş .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/yap" positionX="650" positionY="200"/>
+<Connection from="and" to="5/yap" with="op1"/>
+<Word name="4/sevgili" positionX="550" positionY="300"/>
+<Connection from="5/yap" to="4/sevgili" with="ARG1"/>
+<Word name="2/gizli" positionX="450" positionY="400"/>
+<Connection from="4/sevgili" to="2/gizli" with="mod"/>
+<Word name="1/herkes" positionX="350" positionY="500"/>
+<Connection from="2/gizli" to="1/herkes"/>
+<Word name="onlar" positionX="250" positionY="600"/>
+<Connection from="1/herkes" to="onlar" with="poss"/>
+<Word name="6/kendi" positionX="650" positionY="300"/>
+<Connection from="5/yap" to="6/kendi"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="6/kendi" to="o" with="poss"/>
+<Word name="9/para 10/yedir" positionX="750" positionY="200"/>
+<Connection from="and" to="9/para 10/yedir" with="op2"/>
+<Word name="8/o" positionX="650" positionY="300"/>
+<Connection from="9/para 10/yedir" to="8/o" with="ARG1"/>
+</Amr>

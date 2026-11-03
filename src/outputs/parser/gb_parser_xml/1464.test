@@ -1,0 +1,16 @@
+<Amr sentence="Yepyeni şemsiyemi takside unutmayayım mı ?">
+<Word name="4/unut" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/unut" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="4/unut" to="ben" with="ARG0"/>
+<Word name="2/şemsiye" positionX="850" positionY="200"/>
+<Connection from="4/unut" to="2/şemsiye" with="ARG1"/>
+<Connection from="2/şemsiye" to="ben" with="poss"/>
+<Word name="1/yepyeni" positionX="850" positionY="300"/>
+<Connection from="2/şemsiye" to="1/yepyeni" with="mod"/>
+<Word name="3/taksi" positionX="950" positionY="200"/>
+<Connection from="4/unut" to="3/taksi" with="location"/>
+<Word name="5/mi" positionX="1050" positionY="200"/>
+<Connection from="4/unut" to="5/mi"/>
+</Amr>

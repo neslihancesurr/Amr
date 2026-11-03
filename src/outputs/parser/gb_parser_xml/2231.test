@@ -1,0 +1,11 @@
+<Amr sentence="benim korktuğum bazı hayvanlar">
+<Word name="4/hayvan" positionX="750" positionY="100"/>
+<Word name="2/kork" positionX="650" positionY="200"/>
+<Connection from="4/hayvan" to="2/kork"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="2/kork" to="ben" with="poss"/>
+<Word name="1/ben" positionX="650" positionY="300"/>
+<Connection from="2/kork" to="1/ben"/>
+<Word name="3/bazı" positionX="750" positionY="200"/>
+<Connection from="4/hayvan" to="3/bazı" with="mod"/>
+</Amr>

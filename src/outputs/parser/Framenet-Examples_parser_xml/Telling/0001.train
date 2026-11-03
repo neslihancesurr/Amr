@@ -1,0 +1,15 @@
+<Amr sentence="Olan biten her şeyi iki dakikada özetledi .">
+<Word name="7/özetle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/özetle" to="o" with="ARG0"/>
+<Word name="4/şey" positionX="750" positionY="200"/>
+<Connection from="7/özetle" to="4/şey" with="ARG1"/>
+<Word name="1/ol 2/bit" positionX="650" positionY="300"/>
+<Connection from="4/şey" to="1/ol 2/bit"/>
+<Word name="3/her" positionX="750" positionY="300"/>
+<Connection from="4/şey" to="3/her" with="mod"/>
+<Word name="6/dakika" positionX="850" positionY="200"/>
+<Connection from="7/özetle" to="6/dakika" with="location"/>
+<Word name="5/iki" positionX="750" positionY="300"/>
+<Connection from="6/dakika" to="5/iki"/>
+</Amr>

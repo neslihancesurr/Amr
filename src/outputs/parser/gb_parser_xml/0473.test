@@ -1,0 +1,11 @@
+<Amr sentence="Mustafa'nın çalışma odası olarak kullandığı oda">
+<Word name="6/oda" positionX="750" positionY="100"/>
+<Word name="5/kullan" positionX="650" positionY="200"/>
+<Connection from="6/oda" to="5/kullan"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="5/kullan" to="o" with="poss"/>
+<Word name="4/ol" positionX="650" positionY="300"/>
+<Connection from="5/kullan" to="4/ol"/>
+<Word name="2/çalışma 3/oda" positionX="550" positionY="400"/>
+<Connection from="4/ol" to="2/çalışma 3/oda" with="ARG1"/>
+</Amr>

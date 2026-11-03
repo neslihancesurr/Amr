@@ -1,0 +1,10 @@
+<Amr sentence="Boşandıktan sonra dımdızlak ortada kaldı .">
+<Word name="3/dımdızlak 4/orta 5/kal" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/dımdızlak 4/orta 5/kal" to="o" with="ARG0"/>
+<Word name="1/boşan" positionX="750" positionY="200"/>
+<Connection from="3/dımdızlak 4/orta 5/kal" to="1/boşan"/>
+<Connection from="1/boşan" to="o" with="ARG0"/>
+<Word name="2/sonra" positionX="750" positionY="300"/>
+<Connection from="1/boşan" to="2/sonra"/>
+</Amr>

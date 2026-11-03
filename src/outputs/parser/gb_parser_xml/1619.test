@@ -1,0 +1,15 @@
+<Amr sentence="Geçen haftaki toplantı çok sıkıcı oldu .">
+<Word name="5/sıkıcı" positionX="750" positionY="100"/>
+<Word name="3/toplantı" positionX="650" positionY="200"/>
+<Connection from="5/sıkıcı" to="3/toplantı"/>
+<Word name="2/haf" positionX="550" positionY="300"/>
+<Connection from="3/toplantı" to="2/haf" with="mod"/>
+<Word name="1/geçen" positionX="450" positionY="400"/>
+<Connection from="2/haf" to="1/geçen"/>
+<Word name="4/çok" positionX="750" positionY="200"/>
+<Connection from="5/sıkıcı" to="4/çok" with="degree"/>
+<Word name="6/ol" positionX="850" positionY="200"/>
+<Connection from="5/sıkıcı" to="6/ol"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="6/ol" to="o" with="ARG0"/>
+</Amr>

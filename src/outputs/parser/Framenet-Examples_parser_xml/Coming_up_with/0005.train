@@ -1,0 +1,20 @@
+<Amr sentence="Behlül amcasını ikna edebilmek için olmayacak yalanlar uydurdu .">
+<Word name="8/uydur" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="8/uydur" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/behlül" positionX="450" positionY="400"/>
+<Connection from="name" to="1/behlül" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/ikna 4/et" positionX="750" positionY="200"/>
+<Connection from="8/uydur" to="3/ikna 4/et"/>
+<Word name="7/yalan" positionX="850" positionY="200"/>
+<Connection from="8/uydur" to="7/yalan"/>
+<Word name="6/ol" positionX="750" positionY="300"/>
+<Connection from="7/yalan" to="6/ol"/>
+<Connection from="6/ol" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="400"/>
+<Connection from="6/ol" to="o" with="ARG0"/>
+</Amr>

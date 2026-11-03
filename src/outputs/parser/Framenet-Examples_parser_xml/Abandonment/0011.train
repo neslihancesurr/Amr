@@ -1,0 +1,15 @@
+<Amr sentence="Böyle önemli evrakları meydanda bırakmamalısın .">
+<Word name="gerek" positionX="750" positionY="100"/>
+<Word name="4/meydanda 5/bırak" positionX="650" positionY="200"/>
+<Connection from="gerek" to="4/meydanda 5/bırak"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="4/meydanda 5/bırak" to="-" with="polarity"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="4/meydanda 5/bırak" to="sen" with="ARG0"/>
+<Word name="3/evrak" positionX="750" positionY="300"/>
+<Connection from="4/meydanda 5/bırak" to="3/evrak" with="ARG1"/>
+<Word name="1/böyle" positionX="650" positionY="400"/>
+<Connection from="3/evrak" to="1/böyle" with="mod"/>
+<Word name="2/önemli" positionX="750" positionY="400"/>
+<Connection from="3/evrak" to="2/önemli" with="mod"/>
+</Amr>

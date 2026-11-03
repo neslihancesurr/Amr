@@ -1,0 +1,22 @@
+<Amr sentence="Şey gibi olmasın ama , sana bir şey sormak istiyorum .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="10/iste" positionX="650" positionY="200"/>
+<Connection from="and" to="10/iste" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="10/iste" to="ben" with="ARG0"/>
+<Word name="9/sor" positionX="650" positionY="300"/>
+<Connection from="10/iste" to="9/sor" with="ARG1"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="9/sor" to="o" with="ARG0"/>
+<Word name="6/sen" positionX="650" positionY="400"/>
+<Connection from="9/sor" to="6/sen"/>
+<Word name="1/şey" positionX="750" positionY="200"/>
+<Connection from="and" to="1/şey" with="op2"/>
+<Word name="2/gibi 3/ol" positionX="650" positionY="300"/>
+<Connection from="1/şey" to="2/gibi 3/ol"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="2/gibi 3/ol" to="-" with="polarity"/>
+<Connection from="2/gibi 3/ol" to="o" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="400"/>
+<Connection from="2/gibi 3/ol" to="imperative" with="mode"/>
+</Amr>

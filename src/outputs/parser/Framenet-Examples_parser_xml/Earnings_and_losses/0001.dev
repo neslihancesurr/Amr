@@ -1,0 +1,16 @@
+<Amr sentence="Paranı değerlendir , faizlendir .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/değerlendir" positionX="650" positionY="200"/>
+<Connection from="and" to="2/değerlendir" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="2/değerlendir" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="650" positionY="300"/>
+<Connection from="2/değerlendir" to="imperative" with="mode"/>
+<Word name="1/para" positionX="750" positionY="300"/>
+<Connection from="2/değerlendir" to="1/para" with="ARG1"/>
+<Connection from="1/para" to="sen" with="poss"/>
+<Word name="4/faizlendir" positionX="750" positionY="200"/>
+<Connection from="and" to="4/faizlendir" with="op2"/>
+<Connection from="4/faizlendir" to="sen" with="ARG0"/>
+<Connection from="4/faizlendir" to="imperative" with="mode"/>
+</Amr>

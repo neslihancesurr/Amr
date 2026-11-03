@@ -1,0 +1,13 @@
+<Amr sentence="Makine tamir edildikten sonra işe yeniden başladık .">
+<Word name="7/başla" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="7/başla" to="biz" with="ARG0"/>
+<Word name="2/tamir 3/et" positionX="750" positionY="200"/>
+<Connection from="7/başla" to="2/tamir 3/et"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/tamir 3/et" to="o" with="ARG0"/>
+<Word name="5/iş" positionX="850" positionY="200"/>
+<Connection from="7/başla" to="5/iş"/>
+<Word name="6/yeniden" positionX="950" positionY="200"/>
+<Connection from="7/başla" to="6/yeniden" with="manner"/>
+</Amr>

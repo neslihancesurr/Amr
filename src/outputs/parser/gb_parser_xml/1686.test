@@ -1,0 +1,13 @@
+<Amr sentence="Plastik parçalar zamanla aşınabiliyor .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="4/aşın" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="4/aşın"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/aşın" to="o" with="ARG0"/>
+<Word name="2/parça" positionX="650" positionY="300"/>
+<Connection from="4/aşın" to="2/parça" with="ARG1"/>
+<Word name="1/plastik" positionX="550" positionY="400"/>
+<Connection from="2/parça" to="1/plastik" with="mod"/>
+<Word name="3/zaman" positionX="750" positionY="300"/>
+<Connection from="4/aşın" to="3/zaman" with="instrument"/>
+</Amr>

@@ -1,0 +1,12 @@
+<Amr sentence="Beni duymazdan geldi .">
+<Word name="3/gel" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/gel" to="o" with="ARG0"/>
+<Word name="1/ben" positionX="750" positionY="200"/>
+<Connection from="3/gel" to="1/ben"/>
+<Word name="2/duy" positionX="850" positionY="200"/>
+<Connection from="3/gel" to="2/duy"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="2/duy" to="-" with="polarity"/>
+<Connection from="2/duy" to="o" with="ARG0"/>
+</Amr>

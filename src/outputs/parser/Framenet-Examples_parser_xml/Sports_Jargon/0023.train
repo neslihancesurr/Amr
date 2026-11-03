@@ -1,0 +1,19 @@
+<Amr sentence="Mustafa'nın şutu ile top auta çıktı .">
+<Word name="5/aut 6/çık" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/aut 6/çık" to="o" with="ARG0"/>
+<Word name="2/şut" positionX="750" positionY="200"/>
+<Connection from="5/aut 6/çık" to="2/şut"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="2/şut" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/mustafa" positionX="450" positionY="500"/>
+<Connection from="name" to="1/mustafa" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/ile" positionX="750" positionY="300"/>
+<Connection from="2/şut" to="3/ile"/>
+<Word name="4/top" positionX="850" positionY="200"/>
+<Connection from="5/aut 6/çık" to="4/top" with="ARG1"/>
+</Amr>

@@ -1,0 +1,18 @@
+<Amr sentence="Bu hesapları yapabildiğimi göstermek için sözü bu kadar uzatıyorum .">
+<Word name="9/uzat" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="9/uzat" to="ben" with="ARG0"/>
+<Word name="4/göster" positionX="750" positionY="200"/>
+<Connection from="9/uzat" to="4/göster" with="cause"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="4/göster" to="o" with="ARG0"/>
+<Word name="2/hesap 3/yap" positionX="750" positionY="300"/>
+<Connection from="4/göster" to="2/hesap 3/yap" with="ARG1"/>
+<Connection from="2/hesap 3/yap" to="ben" with="ARG0"/>
+<Word name="1/bu" positionX="750" positionY="400"/>
+<Connection from="2/hesap 3/yap" to="1/bu" with="mod"/>
+<Word name="6/söz" positionX="850" positionY="200"/>
+<Connection from="9/uzat" to="6/söz"/>
+<Word name="7/bu 8/kadar" positionX="950" positionY="200"/>
+<Connection from="9/uzat" to="7/bu 8/kadar" with="mod"/>
+</Amr>

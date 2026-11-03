@@ -1,0 +1,5 @@
+<Amr sentence="Avukat kaleyi içinden fethetti .">
+<Word name="2/kale 3/iç 4/fethet" positionX="750" positionY="100"/>
+<Word name="1/avukat" positionX="650" positionY="200"/>
+<Connection from="2/kale 3/iç 4/fethet" to="1/avukat" with="ARG0"/>
+</Amr>

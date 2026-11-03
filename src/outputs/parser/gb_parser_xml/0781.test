@@ -1,0 +1,7 @@
+<Amr sentence="o küçük dolap">
+<Word name="3/dolap" positionX="750" positionY="100"/>
+<Word name="1/o" positionX="650" positionY="200"/>
+<Connection from="3/dolap" to="1/o" with="mod"/>
+<Word name="2/küçük" positionX="750" positionY="200"/>
+<Connection from="3/dolap" to="2/küçük" with="mod"/>
+</Amr>

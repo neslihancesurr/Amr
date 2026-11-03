@@ -1,0 +1,11 @@
+<Amr sentence="Bardakları hemen yıka .">
+<Word name="3/yıka" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="3/yıka" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="3/yıka" to="imperative" with="mode"/>
+<Word name="1/bardak" positionX="850" positionY="200"/>
+<Connection from="3/yıka" to="1/bardak" with="ARG1"/>
+<Word name="2/hemen" positionX="950" positionY="200"/>
+<Connection from="3/yıka" to="2/hemen" with="manner"/>
+</Amr>

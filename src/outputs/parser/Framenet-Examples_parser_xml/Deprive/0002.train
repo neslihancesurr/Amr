@@ -1,0 +1,18 @@
+<Amr sentence="İntikam hırsıyla onu evinden ve arabasından etti .">
+<Word name="7/et" positionX="750" positionY="100"/>
+<Word name="2/hırs" positionX="650" positionY="200"/>
+<Connection from="7/et" to="2/hırs" with="instrument"/>
+<Word name="1/intikam" positionX="550" positionY="300"/>
+<Connection from="2/hırs" to="1/intikam" with="mod"/>
+<Word name="3/o" positionX="750" positionY="200"/>
+<Connection from="7/et" to="3/o" with="ARG1"/>
+<Word name="and" positionX="850" positionY="200"/>
+<Connection from="7/et" to="and"/>
+<Word name="6/araba" positionX="750" positionY="300"/>
+<Connection from="and" to="6/araba" with="ARG2"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="6/araba" to="o" with="poss"/>
+<Word name="4/ev" positionX="850" positionY="300"/>
+<Connection from="and" to="4/ev" with="ARG2"/>
+<Connection from="4/ev" to="o" with="poss"/>
+</Amr>

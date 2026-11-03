@@ -1,0 +1,18 @@
+<Amr sentence="Sıcaktan bayılanlar , hatta ölenler olmuş .">
+<Word name="6/ol" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/ol" to="o" with="ARG0"/>
+<Word name="and" positionX="750" positionY="200"/>
+<Connection from="6/ol" to="and"/>
+<Word name="5/öl" positionX="650" positionY="300"/>
+<Connection from="and" to="5/öl" with="op1"/>
+<Word name="onlar" positionX="550" positionY="400"/>
+<Connection from="5/öl" to="onlar" with="ARG0"/>
+<Word name="4/hatta" positionX="650" positionY="400"/>
+<Connection from="5/öl" to="4/hatta" with="manner"/>
+<Word name="2/bayıl" positionX="750" positionY="300"/>
+<Connection from="and" to="2/bayıl" with="op2"/>
+<Connection from="2/bayıl" to="onlar" with="ARG0"/>
+<Word name="1/sıcak" positionX="750" positionY="400"/>
+<Connection from="2/bayıl" to="1/sıcak"/>
+</Amr>

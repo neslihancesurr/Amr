@@ -1,0 +1,18 @@
+<Amr sentence="Saat altıda hazır olma komutunu aldık .">
+<Word name="6/al" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="6/al" to="biz" with="ARG0"/>
+<Word name="5/komut" positionX="750" positionY="200"/>
+<Connection from="6/al" to="5/komut"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/komut" to="o" with="poss"/>
+<Word name="4/ol" positionX="750" positionY="300"/>
+<Connection from="5/komut" to="4/ol"/>
+<Connection from="4/ol" to="o" with="ARG0"/>
+<Word name="2/altı" positionX="750" positionY="400"/>
+<Connection from="4/ol" to="2/altı"/>
+<Word name="1/saat" positionX="650" positionY="500"/>
+<Connection from="2/altı" to="1/saat" with="mod"/>
+<Word name="3/hazır" positionX="850" positionY="400"/>
+<Connection from="4/ol" to="3/hazır" with="manner"/>
+</Amr>

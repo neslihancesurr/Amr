@@ -1,0 +1,15 @@
+<Amr sentence="Oynarken yaptığı hatalar üstüne kafa yoruyor .">
+<Word name="5/kafa 6/yor" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/kafa 6/yor" to="o" with="ARG0"/>
+<Word name="4/üst" positionX="750" positionY="200"/>
+<Connection from="5/kafa 6/yor" to="4/üst"/>
+<Word name="3/hata" positionX="650" positionY="300"/>
+<Connection from="4/üst" to="3/hata" with="mod"/>
+<Word name="2/yap" positionX="550" positionY="400"/>
+<Connection from="3/hata" to="2/yap"/>
+<Connection from="2/yap" to="o" with="ARG0"/>
+<Connection from="2/yap" to="o" with="poss"/>
+<Word name="1/oyna" positionX="650" positionY="500"/>
+<Connection from="2/yap" to="1/oyna"/>
+</Amr>

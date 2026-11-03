@@ -1,0 +1,7 @@
+<Amr sentence="Güzelmiş bu ev .">
+<Word name="1/güzel" positionX="750" positionY="100"/>
+<Word name="3/ev" positionX="650" positionY="200"/>
+<Connection from="1/güzel" to="3/ev"/>
+<Word name="2/bu" positionX="550" positionY="300"/>
+<Connection from="3/ev" to="2/bu" with="mod"/>
+</Amr>

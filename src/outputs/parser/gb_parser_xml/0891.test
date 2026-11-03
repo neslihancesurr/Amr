@@ -1,0 +1,11 @@
+<Amr sentence="haziran ayının on yedisinde">
+<Word name="4/yedi:location" positionX="750" positionY="100"/>
+<Word name="2/ay" positionX="650" positionY="200"/>
+<Connection from="4/yedi:location" to="2/ay" with="mod"/>
+<Word name="date-entity" positionX="550" positionY="300"/>
+<Connection from="2/ay" to="date-entity" with="date"/>
+<Word name="1/haziran" positionX="450" positionY="400"/>
+<Connection from="date-entity" to="1/haziran" with="month"/>
+<Word name="3/on" positionX="750" positionY="200"/>
+<Connection from="4/yedi:location" to="3/on"/>
+</Amr>

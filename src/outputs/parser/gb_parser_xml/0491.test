@@ -1,0 +1,5 @@
+<Amr sentence="Yedi Cüceler">
+<Word name="2/cüce" positionX="750" positionY="100"/>
+<Word name="1/yedi" positionX="650" positionY="200"/>
+<Connection from="2/cüce" to="1/yedi"/>
+</Amr>

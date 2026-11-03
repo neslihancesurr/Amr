@@ -1,0 +1,7 @@
+<Amr sentence="Bende bir kitap var .">
+<Word name="4/var" positionX="750" positionY="100"/>
+<Word name="1/ben" positionX="650" positionY="200"/>
+<Connection from="4/var" to="1/ben" with="location"/>
+<Word name="3/kitap" positionX="750" positionY="200"/>
+<Connection from="4/var" to="3/kitap"/>
+</Amr>

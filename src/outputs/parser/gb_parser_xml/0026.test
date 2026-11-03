@@ -1,0 +1,9 @@
+<Amr sentence="yapılaştırılmamış">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="1/yapılaş" positionX="650" positionY="200"/>
+<Connection from="yap" to="1/yapılaş"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="1/yapılaş" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="1/yapılaş" to="o" with="ARG0"/>
+</Amr>

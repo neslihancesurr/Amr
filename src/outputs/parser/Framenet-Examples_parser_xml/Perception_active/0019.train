@@ -1,0 +1,23 @@
+<Amr sentence="Yarı kapalı , yumuk yumuk gözlerini büsbütün küçülterek nehrin iki kıyısını süzdü .">
+<Word name="12/süz" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="12/süz" to="o" with="ARG0"/>
+<Word name="8/küçült" positionX="750" positionY="200"/>
+<Connection from="12/süz" to="8/küçült"/>
+<Word name="6/göz" positionX="650" positionY="300"/>
+<Connection from="8/küçült" to="6/göz"/>
+<Word name="2/kapalı" positionX="550" positionY="400"/>
+<Connection from="6/göz" to="2/kapalı" with="mod"/>
+<Word name="1/yarı" positionX="450" positionY="500"/>
+<Connection from="2/kapalı" to="1/yarı" with="mod"/>
+<Word name="4/yumuk 5/yumuk" positionX="650" positionY="400"/>
+<Connection from="6/göz" to="4/yumuk 5/yumuk"/>
+<Word name="7/büsbütün" positionX="750" positionY="300"/>
+<Connection from="8/küçült" to="7/büsbütün" with="manner"/>
+<Word name="11/kıyı" positionX="850" positionY="200"/>
+<Connection from="12/süz" to="11/kıyı" with="ARG1"/>
+<Word name="9/nehir" positionX="750" positionY="300"/>
+<Connection from="11/kıyı" to="9/nehir" with="mod"/>
+<Word name="10/iki" positionX="850" positionY="300"/>
+<Connection from="11/kıyı" to="10/iki"/>
+</Amr>

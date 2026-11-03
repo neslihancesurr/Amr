@@ -1,0 +1,11 @@
+<Amr sentence="İşler güzeldi , para basıyordum .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/güzel" positionX="650" positionY="200"/>
+<Connection from="and" to="2/güzel" with="op1"/>
+<Word name="1/iş" positionX="550" positionY="300"/>
+<Connection from="2/güzel" to="1/iş"/>
+<Word name="4/para 5/bas" positionX="750" positionY="200"/>
+<Connection from="and" to="4/para 5/bas" with="op2"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="4/para 5/bas" to="ben" with="ARG0"/>
+</Amr>

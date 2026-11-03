@@ -1,0 +1,21 @@
+<Amr sentence="Bu fikrin iflas etti , artık savunmayı bırak .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/iflas 4/et" positionX="650" positionY="200"/>
+<Connection from="and" to="3/iflas 4/et" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/iflas 4/et" to="o" with="ARG0"/>
+<Word name="2/fikir" positionX="650" positionY="300"/>
+<Connection from="3/iflas 4/et" to="2/fikir" with="ARG1"/>
+<Word name="1/bu" positionX="550" positionY="400"/>
+<Connection from="2/fikir" to="1/bu" with="mod"/>
+<Word name="8/bırak" positionX="750" positionY="200"/>
+<Connection from="and" to="8/bırak" with="op2"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="8/bırak" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="300"/>
+<Connection from="8/bırak" to="imperative" with="mode"/>
+<Word name="6/artık" positionX="850" positionY="300"/>
+<Connection from="8/bırak" to="6/artık" with="manner"/>
+<Word name="7/savunma" positionX="950" positionY="300"/>
+<Connection from="8/bırak" to="7/savunma" with="ARG1"/>
+</Amr>

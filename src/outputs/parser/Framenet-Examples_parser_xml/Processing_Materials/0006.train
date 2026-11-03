@@ -1,0 +1,21 @@
+<Amr sentence="Arka kapak için , dünya karikatürleri için seçtiklerini istif eder , o renklendirir .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="9/istif 10/et" positionX="650" positionY="200"/>
+<Connection from="and" to="9/istif 10/et" with="op1"/>
+<Word name="8/seç" positionX="550" positionY="300"/>
+<Connection from="9/istif 10/et" to="8/seç" with="ARG1"/>
+<Word name="onlar" positionX="450" positionY="400"/>
+<Connection from="8/seç" to="onlar" with="poss"/>
+<Word name="2/kapak" positionX="550" positionY="400"/>
+<Connection from="8/seç" to="2/kapak" with="cause"/>
+<Word name="1/arka" positionX="450" positionY="500"/>
+<Connection from="2/kapak" to="1/arka" with="mod"/>
+<Word name="6/karikatür" positionX="650" positionY="400"/>
+<Connection from="8/seç" to="6/karikatür" with="cause"/>
+<Word name="5/dünya" positionX="550" positionY="500"/>
+<Connection from="6/karikatür" to="5/dünya" with="mod"/>
+<Word name="13/renklendir" positionX="750" positionY="200"/>
+<Connection from="and" to="13/renklendir" with="op2"/>
+<Word name="12/o" positionX="650" positionY="300"/>
+<Connection from="13/renklendir" to="12/o" with="ARG0"/>
+</Amr>

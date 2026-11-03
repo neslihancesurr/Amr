@@ -1,0 +1,13 @@
+<Amr sentence="Burası evimizden daha sıcak .">
+<Word name="4/sıcak" positionX="750" positionY="100"/>
+<Word name="1/bura" positionX="650" positionY="200"/>
+<Connection from="4/sıcak" to="1/bura"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/bura" to="o" with="poss"/>
+<Word name="2/ev" positionX="750" positionY="200"/>
+<Connection from="4/sıcak" to="2/ev"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="2/ev" to="biz" with="poss"/>
+<Word name="3/daha" positionX="850" positionY="200"/>
+<Connection from="4/sıcak" to="3/daha" with="degree"/>
+</Amr>

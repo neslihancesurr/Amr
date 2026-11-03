@@ -1,0 +1,16 @@
+<Amr sentence="Hiçbir şeyin denize atılması doğru değil .">
+<Word name="5/doğru" positionX="750" positionY="100"/>
+<Word name="4/at" positionX="650" positionY="200"/>
+<Connection from="5/doğru" to="4/at"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/at" to="o" with="ARG0"/>
+<Connection from="4/at" to="o" with="poss"/>
+<Word name="2/şey" positionX="750" positionY="300"/>
+<Connection from="4/at" to="2/şey" with="ARG1"/>
+<Word name="1/hiçbir" positionX="650" positionY="400"/>
+<Connection from="2/şey" to="1/hiçbir" with="mod"/>
+<Word name="3/deniz" positionX="850" positionY="300"/>
+<Connection from="4/at" to="3/deniz"/>
+<Word name="-" positionX="750" positionY="200"/>
+<Connection from="5/doğru" to="-" with="polarity"/>
+</Amr>

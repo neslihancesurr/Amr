@@ -1,0 +1,24 @@
+<Amr sentence="Yakında her gün görüyor olacağım terapist acaba bana dayanabilecek mi ?">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="9/dayan" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="9/dayan"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="9/dayan" to="o" with="ARG0"/>
+<Word name="6/terapist" positionX="650" positionY="300"/>
+<Connection from="9/dayan" to="6/terapist"/>
+<Word name="5/ol" positionX="550" positionY="400"/>
+<Connection from="6/terapist" to="5/ol"/>
+<Word name="4/gör" positionX="450" positionY="500"/>
+<Connection from="5/ol" to="4/gör"/>
+<Connection from="4/gör" to="o" with="ARG0"/>
+<Word name="1/yakında" positionX="450" positionY="600"/>
+<Connection from="4/gör" to="1/yakında" with="manner"/>
+<Word name="2/her 3/gün" positionX="550" positionY="600"/>
+<Connection from="4/gör" to="2/her 3/gün" with="mod"/>
+<Word name="7/acaba" positionX="750" positionY="300"/>
+<Connection from="9/dayan" to="7/acaba" with="manner"/>
+<Word name="8/ben" positionX="850" positionY="300"/>
+<Connection from="9/dayan" to="8/ben"/>
+<Word name="10/mi" positionX="950" positionY="300"/>
+<Connection from="9/dayan" to="10/mi"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="En sonunda rüzgârların istikametine baş verdi .">
+<Word name="5/baş 6/ver" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/baş 6/ver" to="o" with="ARG0"/>
+<Word name="2/sonunda" positionX="750" positionY="200"/>
+<Connection from="5/baş 6/ver" to="2/sonunda" with="manner"/>
+<Word name="1/en" positionX="650" positionY="300"/>
+<Connection from="2/sonunda" to="1/en" with="manner"/>
+<Word name="4/istikamet" positionX="850" positionY="200"/>
+<Connection from="5/baş 6/ver" to="4/istikamet"/>
+<Word name="3/rüzgâr" positionX="750" positionY="300"/>
+<Connection from="4/istikamet" to="3/rüzgâr" with="mod"/>
+</Amr>

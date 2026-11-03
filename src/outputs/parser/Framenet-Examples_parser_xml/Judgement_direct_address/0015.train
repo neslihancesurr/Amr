@@ -1,0 +1,14 @@
+<Amr sentence="Güzel olanın yıkılmasını kimse öğütlemez .">
+<Word name="5/öğütle" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/öğütle" to="-" with="polarity"/>
+<Word name="3/yıkılma" positionX="750" positionY="200"/>
+<Connection from="5/öğütle" to="3/yıkılma" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/yıkılma" to="o" with="poss"/>
+<Word name="1/güzel 2/ol" positionX="750" positionY="300"/>
+<Connection from="3/yıkılma" to="1/güzel 2/ol" with="mod"/>
+<Word name="4/kimse" positionX="850" positionY="200"/>
+<Connection from="5/öğütle" to="4/kimse" with="ARG0"/>
+<Connection from="4/kimse" to="o" with="poss"/>
+</Amr>

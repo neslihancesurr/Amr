@@ -1,0 +1,5 @@
+<Amr sentence="Uzun zamandır görüşmediğimizden yüzlerini unuttum hepsinin .">
+<Word name="4/yüz 5/unut" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/yüz 5/unut" to="ben" with="ARG0"/>
+</Amr>

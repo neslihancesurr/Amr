@@ -1,0 +1,16 @@
+<Amr sentence="En sevdiği şeylerden biri gölde yüzmekti .">
+<Word name="6/yüz" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/yüz" to="o" with="ARG0"/>
+<Word name="4/biri" positionX="750" positionY="200"/>
+<Connection from="6/yüz" to="4/biri"/>
+<Word name="3/şey" positionX="650" positionY="300"/>
+<Connection from="4/biri" to="3/şey" with="mod"/>
+<Word name="2/sev" positionX="550" positionY="400"/>
+<Connection from="3/şey" to="2/sev"/>
+<Connection from="2/sev" to="o" with="poss"/>
+<Word name="1/en" positionX="550" positionY="500"/>
+<Connection from="2/sev" to="1/en" with="manner"/>
+<Word name="5/göl" positionX="850" positionY="200"/>
+<Connection from="6/yüz" to="5/göl" with="location"/>
+</Amr>

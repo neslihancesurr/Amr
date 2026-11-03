@@ -1,0 +1,16 @@
+<Amr sentence="Misafirler üşümesin diye eski elektrikli ısıtıcının ensesinde boza pişir .">
+<Word name="7/ense 8/boza 9/pişir" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="7/ense 8/boza 9/pişir" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="7/ense 8/boza 9/pişir" to="imperative" with="mode"/>
+<Word name="2/üşü" positionX="850" positionY="200"/>
+<Connection from="7/ense 8/boza 9/pişir" to="2/üşü"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="2/üşü" to="-" with="polarity"/>
+<Connection from="2/üşü" to="imperative" with="mode"/>
+<Word name="1/misafir" positionX="950" positionY="300"/>
+<Connection from="2/üşü" to="1/misafir" with="ARG0"/>
+<Word name="3/diye" positionX="1050" positionY="300"/>
+<Connection from="2/üşü" to="3/diye"/>
+</Amr>

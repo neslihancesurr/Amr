@@ -1,0 +1,7 @@
+<Amr sentence="som altından bir taht">
+<Word name="4/taht" positionX="750" positionY="100"/>
+<Word name="2/altın" positionX="650" positionY="200"/>
+<Connection from="4/taht" to="2/altın" with="mod"/>
+<Word name="1/som" positionX="550" positionY="300"/>
+<Connection from="2/altın" to="1/som" with="mod"/>
+</Amr>

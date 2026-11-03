@@ -1,0 +1,16 @@
+<Amr sentence="Hiçbirimizi dinlemiyor , parasını sokağa atıyor .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/dinle" positionX="650" positionY="200"/>
+<Connection from="and" to="2/dinle" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="2/dinle" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/dinle" to="o" with="ARG0"/>
+<Word name="1/hiçbiri" positionX="750" positionY="300"/>
+<Connection from="2/dinle" to="1/hiçbiri" with="ARG1"/>
+<Word name="biz" positionX="650" positionY="400"/>
+<Connection from="1/hiçbiri" to="biz" with="poss"/>
+<Word name="4/para 5/sokak 6/at" positionX="750" positionY="200"/>
+<Connection from="and" to="4/para 5/sokak 6/at" with="op2"/>
+<Connection from="4/para 5/sokak 6/at" to="o" with="ARG0"/>
+</Amr>

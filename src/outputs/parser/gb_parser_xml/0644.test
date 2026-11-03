@@ -1,0 +1,23 @@
+<Amr sentence="Bugünkü konuğumuz , ülkemizin genç şairlerinden Küçük İskender .">
+<Word name="person" positionX="750" positionY="100"/>
+<Word name="name" positionX="650" positionY="200"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="8/iskender" positionX="550" positionY="300"/>
+<Connection from="name" to="8/iskender" with="op1"/>
+<Word name="-" positionX="750" positionY="200"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/konuk" positionX="850" positionY="200"/>
+<Connection from="person" to="2/konuk"/>
+<Word name="biz" positionX="750" positionY="300"/>
+<Connection from="2/konuk" to="biz" with="poss"/>
+<Word name="1/bugün" positionX="850" positionY="300"/>
+<Connection from="2/konuk" to="1/bugün" with="mod"/>
+<Word name="6/şair" positionX="950" positionY="200"/>
+<Connection from="person" to="6/şair"/>
+<Word name="4/ülke" positionX="850" positionY="300"/>
+<Connection from="6/şair" to="4/ülke" with="mod"/>
+<Word name="5/genç" positionX="950" positionY="300"/>
+<Connection from="6/şair" to="5/genç" with="mod"/>
+<Word name="7/küçük" positionX="1050" positionY="200"/>
+<Connection from="person" to="7/küçük" with="mod"/>
+</Amr>

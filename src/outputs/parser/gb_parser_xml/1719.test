@@ -1,0 +1,17 @@
+<Amr sentence="Hüseyin artık karar vermeliydi .">
+<Word name="gerek" positionX="750" positionY="100"/>
+<Word name="3/karar 4/ver" positionX="650" positionY="200"/>
+<Connection from="gerek" to="3/karar 4/ver"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/karar 4/ver" to="o" with="ARG0"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="3/karar 4/ver" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/hüseyin" positionX="450" positionY="500"/>
+<Connection from="name" to="1/hüseyin" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/artık" positionX="750" positionY="300"/>
+<Connection from="3/karar 4/ver" to="2/artık" with="manner"/>
+</Amr>

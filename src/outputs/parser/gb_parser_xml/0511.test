@@ -1,0 +1,7 @@
+<Amr sentence="Kumlara uzandım .">
+<Word name="2/uzan" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="2/uzan" to="ben" with="ARG0"/>
+<Word name="1/kum" positionX="750" positionY="200"/>
+<Connection from="2/uzan" to="1/kum" with="ARG1"/>
+</Amr>

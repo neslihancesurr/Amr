@@ -1,0 +1,9 @@
+<Amr sentence="O zaten oldum olası dağınıktır .">
+<Word name="5/dağınık" positionX="750" positionY="100"/>
+<Word name="1/o" positionX="650" positionY="200"/>
+<Connection from="5/dağınık" to="1/o"/>
+<Word name="2/zaten" positionX="750" positionY="200"/>
+<Connection from="5/dağınık" to="2/zaten" with="manner"/>
+<Word name="3/oldu 4/olası" positionX="850" positionY="200"/>
+<Connection from="5/dağınık" to="3/oldu 4/olası"/>
+</Amr>

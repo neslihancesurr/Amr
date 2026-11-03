@@ -1,0 +1,9 @@
+<Amr sentence="Tanışmak şerefine nail oldum .">
+<Word name="3/nail 4/ol" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/nail 4/ol" to="ben" with="ARG0"/>
+<Word name="2/şeref" positionX="750" positionY="200"/>
+<Connection from="3/nail 4/ol" to="2/şeref" with="ARG1"/>
+<Word name="1/tanış" positionX="650" positionY="300"/>
+<Connection from="2/şeref" to="1/tanış" with="mod"/>
+</Amr>

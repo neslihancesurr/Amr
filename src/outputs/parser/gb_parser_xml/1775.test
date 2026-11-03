@@ -1,0 +1,13 @@
+<Amr sentence="Acaba başka bir yere mi gitsek ?">
+<Word name="6/git" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="6/git" to="biz" with="ARG0"/>
+<Word name="1/acaba" positionX="750" positionY="200"/>
+<Connection from="6/git" to="1/acaba" with="manner"/>
+<Word name="4/yer" positionX="850" positionY="200"/>
+<Connection from="6/git" to="4/yer" with="ARG1"/>
+<Word name="2/başka" positionX="750" positionY="300"/>
+<Connection from="4/yer" to="2/başka" with="mod"/>
+<Word name="5/mi" positionX="850" positionY="300"/>
+<Connection from="4/yer" to="5/mi"/>
+</Amr>

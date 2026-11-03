@@ -1,0 +1,22 @@
+<Amr sentence="Çok kızgın bir fikir çarpışmasının üzerine gelmişim , kulak kesildim .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="7/gel" positionX="650" positionY="200"/>
+<Connection from="and" to="7/gel" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="7/gel" to="ben" with="ARG0"/>
+<Word name="6/üzeri" positionX="650" positionY="300"/>
+<Connection from="7/gel" to="6/üzeri" with="ARG1"/>
+<Word name="sen" positionX="550" positionY="400"/>
+<Connection from="6/üzeri" to="sen" with="poss"/>
+<Word name="5/çarpışma" positionX="650" positionY="400"/>
+<Connection from="6/üzeri" to="5/çarpışma" with="mod"/>
+<Word name="2/kızgın" positionX="550" positionY="500"/>
+<Connection from="5/çarpışma" to="2/kızgın" with="mod"/>
+<Word name="1/çok" positionX="450" positionY="600"/>
+<Connection from="2/kızgın" to="1/çok" with="degree"/>
+<Word name="4/fikir" positionX="650" positionY="500"/>
+<Connection from="5/çarpışma" to="4/fikir" with="mod"/>
+<Word name="9/kulak 10/kesil" positionX="750" positionY="200"/>
+<Connection from="and" to="9/kulak 10/kesil" with="op2"/>
+<Connection from="9/kulak 10/kesil" to="ben" with="ARG0"/>
+</Amr>

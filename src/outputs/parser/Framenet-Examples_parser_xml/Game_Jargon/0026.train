@@ -1,0 +1,19 @@
+<Amr sentence="Bugün şansın yerinde , eve dönerken bir piyango çek !">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/yer" positionX="650" positionY="200"/>
+<Connection from="and" to="3/yer" with="location"/>
+<Word name="1/bugün" positionX="550" positionY="300"/>
+<Connection from="3/yer" to="1/bugün" with="mod"/>
+<Word name="2/şans" positionX="650" positionY="300"/>
+<Connection from="3/yer" to="2/şans"/>
+<Word name="8/piyango 9/çek" positionX="750" positionY="200"/>
+<Connection from="and" to="8/piyango 9/çek" with="op2"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="8/piyango 9/çek" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="300"/>
+<Connection from="8/piyango 9/çek" to="imperative" with="mode"/>
+<Word name="6/döner" positionX="850" positionY="300"/>
+<Connection from="8/piyango 9/çek" to="6/döner"/>
+<Word name="5/ev" positionX="750" positionY="400"/>
+<Connection from="6/döner" to="5/ev"/>
+</Amr>

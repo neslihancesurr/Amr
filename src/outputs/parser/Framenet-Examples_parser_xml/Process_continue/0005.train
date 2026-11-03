@@ -1,0 +1,13 @@
+<Amr sentence="Her odanın ziyareti bir saat sürmüştü .">
+<Word name="6/sür" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/sür" to="o" with="ARG0"/>
+<Word name="3/ziyaret" positionX="750" positionY="200"/>
+<Connection from="6/sür" to="3/ziyaret" with="ARG1"/>
+<Word name="2/oda" positionX="650" positionY="300"/>
+<Connection from="3/ziyaret" to="2/oda" with="mod"/>
+<Word name="1/her" positionX="550" positionY="400"/>
+<Connection from="2/oda" to="1/her" with="mod"/>
+<Word name="5/saat" positionX="850" positionY="200"/>
+<Connection from="6/sür" to="5/saat" with="mod"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Bugün kimse evinde değil .">
+<Word name="3/ev:location" positionX="750" positionY="100"/>
+<Word name="1/bugün" positionX="650" positionY="200"/>
+<Connection from="3/ev:location" to="1/bugün"/>
+<Word name="2/kimse" positionX="750" positionY="200"/>
+<Connection from="3/ev:location" to="2/kimse"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/kimse" to="o" with="poss"/>
+<Word name="-" positionX="850" positionY="200"/>
+<Connection from="3/ev:location" to="-" with="polarity"/>
+</Amr>

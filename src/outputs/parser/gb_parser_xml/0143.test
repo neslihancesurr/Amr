@@ -1,0 +1,5 @@
+<Amr sentence="Hintli müzisyen">
+<Word name="2/müzisyen" positionX="750" positionY="100"/>
+<Word name="1/hintli" positionX="650" positionY="200"/>
+<Connection from="2/müzisyen" to="1/hintli" with="mod"/>
+</Amr>

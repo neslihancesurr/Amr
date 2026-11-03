@@ -1,0 +1,18 @@
+<Amr sentence="Uzun süredir resim yapmıyordu , körelmişti .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/yap" positionX="650" positionY="200"/>
+<Connection from="and" to="4/yap" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="4/yap" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="4/yap" to="o" with="ARG0"/>
+<Word name="2/süre" positionX="750" positionY="300"/>
+<Connection from="4/yap" to="2/süre" with="mod"/>
+<Word name="1/uzun" positionX="650" positionY="400"/>
+<Connection from="2/süre" to="1/uzun" with="manner"/>
+<Word name="3/resim" positionX="850" positionY="300"/>
+<Connection from="4/yap" to="3/resim" with="ARG1"/>
+<Word name="6/körel" positionX="750" positionY="200"/>
+<Connection from="and" to="6/körel" with="op2"/>
+<Connection from="6/körel" to="o" with="ARG0"/>
+</Amr>

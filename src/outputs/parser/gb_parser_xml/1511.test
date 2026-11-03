@@ -1,0 +1,17 @@
+<Amr sentence="Bu filmden ne kadınlar ne erkekler hoşlandılar .">
+<Word name="7/hoşlan" positionX="750" positionY="100"/>
+<Word name="2/film" positionX="650" positionY="200"/>
+<Connection from="7/hoşlan" to="2/film" with="ARG1"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/film" to="1/bu" with="mod"/>
+<Word name="and" positionX="750" positionY="200"/>
+<Connection from="7/hoşlan" to="and"/>
+<Word name="6/erkek" positionX="650" positionY="300"/>
+<Connection from="and" to="6/erkek" with="ARG0"/>
+<Word name="5/ne" positionX="550" positionY="400"/>
+<Connection from="6/erkek" to="5/ne"/>
+<Word name="4/kadın" positionX="750" positionY="300"/>
+<Connection from="and" to="4/kadın" with="ARG0"/>
+<Word name="3/ne" positionX="650" positionY="400"/>
+<Connection from="4/kadın" to="3/ne"/>
+</Amr>

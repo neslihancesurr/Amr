@@ -1,0 +1,15 @@
+<Amr sentence="Bu yıl bütün sınıflar daha kalabalık olacak .">
+<Word name="6/kalabalık" positionX="750" positionY="100"/>
+<Word name="2/yıl" positionX="650" positionY="200"/>
+<Connection from="6/kalabalık" to="2/yıl"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/yıl" to="1/bu" with="mod"/>
+<Word name="4/sınıf" positionX="750" positionY="200"/>
+<Connection from="6/kalabalık" to="4/sınıf"/>
+<Word name="3/bütün" positionX="650" positionY="300"/>
+<Connection from="4/sınıf" to="3/bütün" with="mod"/>
+<Word name="5/daha" positionX="850" positionY="200"/>
+<Connection from="6/kalabalık" to="5/daha" with="degree"/>
+<Word name="7/ol" positionX="950" positionY="200"/>
+<Connection from="6/kalabalık" to="7/ol"/>
+</Amr>

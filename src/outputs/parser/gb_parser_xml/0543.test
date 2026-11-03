@@ -1,0 +1,7 @@
+<Amr sentence="Biletleri burada .">
+<Word name="2/burada" positionX="750" positionY="100"/>
+<Word name="1/bilet" positionX="650" positionY="200"/>
+<Connection from="2/burada" to="1/bilet"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/bilet" to="o" with="poss"/>
+</Amr>

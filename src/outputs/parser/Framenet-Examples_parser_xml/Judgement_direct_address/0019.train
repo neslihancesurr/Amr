@@ -1,0 +1,16 @@
+<Amr sentence="İşi istediği gibi yapmıyor diye bir güzel fırçaladı .">
+<Word name="8/fırçala" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="8/fırçala" to="o" with="ARG0"/>
+<Word name="4/yap" positionX="750" positionY="200"/>
+<Connection from="8/fırçala" to="4/yap"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="4/yap" to="-" with="polarity"/>
+<Connection from="4/yap" to="o" with="ARG0"/>
+<Word name="1/iş" positionX="850" positionY="300"/>
+<Connection from="4/yap" to="1/iş"/>
+<Word name="2/iste 3/gibi" positionX="950" positionY="300"/>
+<Connection from="4/yap" to="2/iste 3/gibi"/>
+<Word name="5/diye" positionX="1050" positionY="300"/>
+<Connection from="4/yap" to="5/diye"/>
+</Amr>

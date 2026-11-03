@@ -1,0 +1,17 @@
+<Amr sentence="Yılmaz hâlâ aynı yerde çalışıyor .">
+<Word name="5/çalış" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="5/çalış" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/yılmaz" positionX="450" positionY="400"/>
+<Connection from="name" to="1/yılmaz" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/hâlâ" positionX="750" positionY="200"/>
+<Connection from="5/çalış" to="2/hâlâ" with="manner"/>
+<Word name="4/yer" positionX="850" positionY="200"/>
+<Connection from="5/çalış" to="4/yer" with="location"/>
+<Word name="3/aynı" positionX="750" positionY="300"/>
+<Connection from="4/yer" to="3/aynı" with="mod"/>
+</Amr>

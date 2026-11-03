@@ -1,0 +1,16 @@
+<Amr sentence="Bunlar şehir subaşısının adamları , dizdarlardı . Kol geziyorlardı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/dizdar" positionX="650" positionY="200"/>
+<Connection from="and" to="6/dizdar" with="op1"/>
+<Word name="4/adam" positionX="550" positionY="300"/>
+<Connection from="6/dizdar" to="4/adam"/>
+<Word name="1/bu" positionX="450" positionY="400"/>
+<Connection from="4/adam" to="1/bu"/>
+<Word name="3/subaşısının" positionX="550" positionY="400"/>
+<Connection from="4/adam" to="3/subaşısının" with="mod"/>
+<Word name="2/şehir" positionX="450" positionY="500"/>
+<Connection from="3/subaşısının" to="2/şehir" with="mod"/>
+<Word name="8/kol 9/gez" positionX="750" positionY="200"/>
+<Connection from="and" to="8/kol 9/gez" with="op2"/>
+<Connection from="8/kol 9/gez" to="and"/>
+</Amr>

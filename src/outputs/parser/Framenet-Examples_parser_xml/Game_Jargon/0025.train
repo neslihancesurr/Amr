@@ -1,0 +1,17 @@
+<Amr sentence="Akşam bize gelin , konkende bir parti çeviririz .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/gel" positionX="650" positionY="200"/>
+<Connection from="and" to="3/gel" with="op1"/>
+<Word name="siz" positionX="550" positionY="300"/>
+<Connection from="3/gel" to="siz" with="ARG0"/>
+<Word name="imperative" positionX="650" positionY="300"/>
+<Connection from="3/gel" to="imperative" with="mode"/>
+<Word name="1/akşam" positionX="750" positionY="300"/>
+<Connection from="3/gel" to="1/akşam" with="mod"/>
+<Word name="2/biz" positionX="850" positionY="300"/>
+<Connection from="3/gel" to="2/biz" with="ARG1"/>
+<Word name="7/parti 8/çevir" positionX="750" positionY="200"/>
+<Connection from="and" to="7/parti 8/çevir" with="op2"/>
+<Word name="5/konken" positionX="650" positionY="300"/>
+<Connection from="7/parti 8/çevir" to="5/konken" with="location"/>
+</Amr>

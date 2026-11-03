@@ -1,0 +1,13 @@
+<Amr sentence="Bugün hastalara öğle yemeğinde ne verdiler ?">
+<Word name="6/ver" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="6/ver" to="onlar" with="ARG0"/>
+<Word name="1/bugün" positionX="750" positionY="200"/>
+<Connection from="6/ver" to="1/bugün"/>
+<Word name="2/hasta" positionX="850" positionY="200"/>
+<Connection from="6/ver" to="2/hasta" with="ARG2"/>
+<Word name="3/öğle 4/yemek" positionX="950" positionY="200"/>
+<Connection from="6/ver" to="3/öğle 4/yemek" with="mod"/>
+<Word name="5/ne" positionX="1050" positionY="200"/>
+<Connection from="6/ver" to="5/ne" with="ARG1"/>
+</Amr>

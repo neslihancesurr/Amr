@@ -1,0 +1,13 @@
+<Amr sentence="Usta büyük bir titizlikle her yere badana vurdu .">
+<Word name="7/badana 8/vur" positionX="750" positionY="100"/>
+<Word name="1/usta" positionX="650" positionY="200"/>
+<Connection from="7/badana 8/vur" to="1/usta" with="ARG0"/>
+<Word name="4/titizlikle" positionX="750" positionY="200"/>
+<Connection from="7/badana 8/vur" to="4/titizlikle"/>
+<Word name="2/büyük" positionX="650" positionY="300"/>
+<Connection from="4/titizlikle" to="2/büyük" with="mod"/>
+<Word name="6/yer" positionX="850" positionY="200"/>
+<Connection from="7/badana 8/vur" to="6/yer" with="ARG1"/>
+<Word name="5/her" positionX="750" positionY="300"/>
+<Connection from="6/yer" to="5/her" with="mod"/>
+</Amr>

@@ -1,0 +1,16 @@
+<Amr sentence="Sinemaya gitsek ve güzel bir film seyretsek .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="7/seyret" positionX="650" positionY="200"/>
+<Connection from="and" to="7/seyret" with="op1"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="7/seyret" to="biz" with="ARG0"/>
+<Word name="6/film" positionX="650" positionY="300"/>
+<Connection from="7/seyret" to="6/film" with="ARG1"/>
+<Word name="4/güzel" positionX="550" positionY="400"/>
+<Connection from="6/film" to="4/güzel" with="mod"/>
+<Word name="2/git" positionX="750" positionY="200"/>
+<Connection from="and" to="2/git" with="op2"/>
+<Connection from="2/git" to="biz" with="ARG0"/>
+<Word name="1/sinema" positionX="750" positionY="300"/>
+<Connection from="2/git" to="1/sinema" with="ARG1"/>
+</Amr>

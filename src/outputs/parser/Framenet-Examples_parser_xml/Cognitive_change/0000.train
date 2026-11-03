@@ -1,0 +1,25 @@
+<Amr sentence="Tuğçe böyledir , kılıktan kılığa girer , her mevsim başka bir fikri destekler .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/böyle" positionX="650" positionY="200"/>
+<Connection from="and" to="2/böyle" with="op1"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="2/böyle" to="person"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/tuğçe" positionX="350" positionY="500"/>
+<Connection from="name" to="1/tuğçe" with="op1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/kılık 5/kılık 6/gir" positionX="750" positionY="200"/>
+<Connection from="and" to="4/kılık 5/kılık 6/gir" with="op2"/>
+<Word name="13/destek" positionX="850" positionY="200"/>
+<Connection from="and" to="13/destek" with="op3"/>
+<Word name="9/mevsim" positionX="750" positionY="300"/>
+<Connection from="13/destek" to="9/mevsim"/>
+<Word name="8/her" positionX="650" positionY="400"/>
+<Connection from="9/mevsim" to="8/her" with="mod"/>
+<Word name="12/fikir" positionX="850" positionY="300"/>
+<Connection from="13/destek" to="12/fikir"/>
+<Word name="10/başka" positionX="750" positionY="400"/>
+<Connection from="12/fikir" to="10/başka" with="mod"/>
+</Amr>

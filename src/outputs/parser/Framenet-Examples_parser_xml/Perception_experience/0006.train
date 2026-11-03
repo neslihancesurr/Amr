@@ -1,0 +1,25 @@
+<Amr sentence="O anda pek çok şeyler yapmak istediği hâlde , köşeyi ağır ağır dönen tramvaya gözleri takılıp kalmıştı .">
+<Word name="15/göz 16/takıl 17/kal" positionX="750" positionY="100"/>
+<Word name="8/hâl" positionX="650" positionY="200"/>
+<Connection from="15/göz 16/takıl 17/kal" to="8/hâl" with="location"/>
+<Word name="7/iste" positionX="550" positionY="300"/>
+<Connection from="8/hâl" to="7/iste"/>
+<Word name="2/an" positionX="450" positionY="400"/>
+<Connection from="7/iste" to="2/an" with="mod"/>
+<Word name="1/o" positionX="350" positionY="500"/>
+<Connection from="2/an" to="1/o" with="mod"/>
+<Word name="6/yap" positionX="550" positionY="400"/>
+<Connection from="7/iste" to="6/yap" with="ARG1"/>
+<Word name="5/şey" positionX="450" positionY="500"/>
+<Connection from="6/yap" to="5/şey" with="ARG1"/>
+<Word name="3/pek 4/çok" positionX="350" positionY="600"/>
+<Connection from="5/şey" to="3/pek 4/çok" with="degree"/>
+<Word name="14/tramvay" positionX="750" positionY="200"/>
+<Connection from="15/göz 16/takıl 17/kal" to="14/tramvay" with="ARG1"/>
+<Word name="13/dön" positionX="650" positionY="300"/>
+<Connection from="14/tramvay" to="13/dön"/>
+<Word name="10/köşe" positionX="550" positionY="400"/>
+<Connection from="13/dön" to="10/köşe"/>
+<Word name="11/ağır 12/ağır" positionX="650" positionY="400"/>
+<Connection from="13/dön" to="11/ağır 12/ağır"/>
+</Amr>

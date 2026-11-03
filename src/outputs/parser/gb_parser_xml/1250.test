@@ -1,0 +1,9 @@
+<Amr sentence="Zeki'nin kaza geçirdiğini duydum .">
+<Word name="4/duy" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/duy" to="ben" with="ARG0"/>
+<Word name="2/kaza 3/geçir" positionX="750" positionY="200"/>
+<Connection from="4/duy" to="2/kaza 3/geçir"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/kaza 3/geçir" to="o" with="poss"/>
+</Amr>

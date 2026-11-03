@@ -1,0 +1,13 @@
+<Amr sentence="Konuşmadık , cehennem olup gitti .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/konuş" positionX="650" positionY="200"/>
+<Connection from="and" to="1/konuş" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="1/konuş" to="-" with="polarity"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="1/konuş" to="biz" with="ARG0"/>
+<Word name="3/cehennem 4/ol 5/git" positionX="750" positionY="200"/>
+<Connection from="and" to="3/cehennem 4/ol 5/git" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/cehennem 4/ol 5/git" to="o" with="ARG0"/>
+</Amr>

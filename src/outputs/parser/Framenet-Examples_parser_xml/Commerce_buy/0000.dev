@@ -1,0 +1,19 @@
+<Amr sentence="Tramvay caddesine çıktı , bir eczaneye girdi , reçete yaptırdı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/çık" positionX="650" positionY="200"/>
+<Connection from="and" to="3/çık" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/çık" to="o" with="ARG0"/>
+<Word name="2/cadde" positionX="650" positionY="300"/>
+<Connection from="3/çık" to="2/cadde" with="ARG1"/>
+<Word name="1/tramvay" positionX="550" positionY="400"/>
+<Connection from="2/cadde" to="1/tramvay" with="mod"/>
+<Word name="7/gir" positionX="750" positionY="200"/>
+<Connection from="and" to="7/gir" with="op2"/>
+<Connection from="7/gir" to="o" with="ARG0"/>
+<Word name="6/eczane" positionX="750" positionY="300"/>
+<Connection from="7/gir" to="6/eczane" with="ARG1"/>
+<Word name="9/reçete 10/yap" positionX="850" positionY="200"/>
+<Connection from="and" to="9/reçete 10/yap" with="op3"/>
+<Connection from="9/reçete 10/yap" to="o" with="ARG0"/>
+</Amr>

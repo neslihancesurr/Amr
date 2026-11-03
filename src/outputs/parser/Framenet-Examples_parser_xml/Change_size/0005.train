@@ -1,0 +1,13 @@
+<Amr sentence="Bu elbise de iyice darlaştı .">
+<Word name="5/darlaş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/darlaş" to="o" with="ARG0"/>
+<Word name="2/elbise" positionX="750" positionY="200"/>
+<Connection from="5/darlaş" to="2/elbise" with="ARG1"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/elbise" to="1/bu" with="mod"/>
+<Word name="3/de" positionX="750" positionY="300"/>
+<Connection from="2/elbise" to="3/de"/>
+<Word name="4/iyice" positionX="850" positionY="200"/>
+<Connection from="5/darlaş" to="4/iyice" with="manner"/>
+</Amr>

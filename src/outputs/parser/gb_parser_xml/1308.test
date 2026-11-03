@@ -1,0 +1,11 @@
+<Amr sentence="Benimki iyi çalışmıyor .">
+<Word name="3/çalış" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/çalış" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="3/çalış" to="o" with="ARG0"/>
+<Word name="1/benimki" positionX="850" positionY="200"/>
+<Connection from="3/çalış" to="1/benimki"/>
+<Word name="2/iyi" positionX="950" positionY="200"/>
+<Connection from="3/çalış" to="2/iyi" with="manner"/>
+</Amr>

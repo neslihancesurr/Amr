@@ -1,0 +1,9 @@
+<Amr sentence="Bebek altı aylıkken emekliyordu .">
+<Word name="4/emekle" positionX="750" positionY="100"/>
+<Word name="1/bebek" positionX="650" positionY="200"/>
+<Connection from="4/emekle" to="1/bebek" with="ARG0"/>
+<Word name="3/aylık" positionX="750" positionY="200"/>
+<Connection from="4/emekle" to="3/aylık"/>
+<Word name="2/altı" positionX="650" positionY="300"/>
+<Connection from="3/aylık" to="2/altı"/>
+</Amr>

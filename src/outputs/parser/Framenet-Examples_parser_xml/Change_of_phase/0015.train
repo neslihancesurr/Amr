@@ -1,0 +1,7 @@
+<Amr sentence="Suyu tebahhur ettim .">
+<Word name="2/tebahhur 3/et" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="2/tebahhur 3/et" to="ben" with="ARG0"/>
+<Word name="1/su" positionX="750" positionY="200"/>
+<Connection from="2/tebahhur 3/et" to="1/su" with="ARG1"/>
+</Amr>

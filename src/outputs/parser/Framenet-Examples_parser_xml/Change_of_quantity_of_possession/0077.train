@@ -1,0 +1,5 @@
+<Amr sentence="Bizim üzerimizdeki forsunu yitirdi .">
+<Word name="3/fors 4/yitir" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/fors 4/yitir" to="o" with="ARG0"/>
+</Amr>

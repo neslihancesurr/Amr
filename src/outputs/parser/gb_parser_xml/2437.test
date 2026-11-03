@@ -1,0 +1,13 @@
+<Amr sentence="Komşuları uyutmayacak kadar gürültü yapıyorlardı .">
+<Word name="4/gürültü 5/yap" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/gürültü 5/yap" to="onlar" with="ARG0"/>
+<Word name="yap" positionX="750" positionY="200"/>
+<Connection from="4/gürültü 5/yap" to="yap"/>
+<Word name="2/uyu" positionX="650" positionY="300"/>
+<Connection from="yap" to="2/uyu" with="extent"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="2/uyu" to="-" with="polarity"/>
+<Word name="1/komşu" positionX="650" positionY="400"/>
+<Connection from="2/uyu" to="1/komşu"/>
+</Amr>

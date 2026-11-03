@@ -1,0 +1,13 @@
+<Amr sentence="Bulaşık bile daha yıkanmamıştı .">
+<Word name="4/yıka" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/yıka" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="4/yıka" to="o" with="ARG0"/>
+<Word name="1/bulaşık" positionX="850" positionY="200"/>
+<Connection from="4/yıka" to="1/bulaşık" with="ARG1"/>
+<Word name="2/bile" positionX="750" positionY="300"/>
+<Connection from="1/bulaşık" to="2/bile"/>
+<Word name="3/daha" positionX="950" positionY="200"/>
+<Connection from="4/yıka" to="3/daha" with="degree"/>
+</Amr>

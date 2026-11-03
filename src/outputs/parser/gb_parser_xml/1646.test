@@ -1,0 +1,9 @@
+<Amr sentence="Park yapılmaz .">
+<Word name="1/park" positionX="750" positionY="100"/>
+<Word name="2/yap" positionX="650" positionY="200"/>
+<Connection from="1/park" to="2/yap"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="2/yap" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/yap" to="o" with="ARG0"/>
+</Amr>

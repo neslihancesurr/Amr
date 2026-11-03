@@ -1,0 +1,11 @@
+<Amr sentence="Yeni çalışması herkes tarafından büyük alkış aldı .">
+<Word name="6/alkış 7/al" positionX="750" positionY="100"/>
+<Word name="2/çalışma" positionX="650" positionY="200"/>
+<Connection from="6/alkış 7/al" to="2/çalışma" with="ARG0"/>
+<Word name="1/yeni" positionX="550" positionY="300"/>
+<Connection from="2/çalışma" to="1/yeni" with="mod"/>
+<Word name="4/tarafından" positionX="750" positionY="200"/>
+<Connection from="6/alkış 7/al" to="4/tarafından" with="ARG1"/>
+<Word name="3/herkes" positionX="650" positionY="300"/>
+<Connection from="4/tarafından" to="3/herkes" with="mod"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="- Dükkanlar saat 5'te kapanıyormuş .">
+<Word name="5/kapan" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/kapan" to="o" with="ARG0"/>
+<Word name="2/dükkan" positionX="750" positionY="200"/>
+<Connection from="5/kapan" to="2/dükkan" with="ARG1"/>
+<Word name="4/5" positionX="850" positionY="200"/>
+<Connection from="5/kapan" to="4/5"/>
+<Word name="3/saat" positionX="750" positionY="300"/>
+<Connection from="4/5" to="3/saat" with="mod"/>
+</Amr>

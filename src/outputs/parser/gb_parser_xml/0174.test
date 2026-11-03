@@ -1,0 +1,18 @@
+<Amr sentence="Bakabilirim de , beklemesi gerek .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/bak" positionX="650" positionY="200"/>
+<Connection from="and" to="1/bak" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="1/bak" to="ben" with="ARG0"/>
+<Word name="2/de" positionX="650" positionY="300"/>
+<Connection from="1/bak" to="2/de"/>
+<Word name="5/gerek" positionX="750" positionY="200"/>
+<Connection from="and" to="5/gerek" with="op2"/>
+<Word name="mümkün" positionX="650" positionY="300"/>
+<Connection from="5/gerek" to="mümkün"/>
+<Word name="4/bekle" positionX="750" positionY="300"/>
+<Connection from="5/gerek" to="4/bekle"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="4/bekle" to="o" with="ARG0"/>
+<Connection from="4/bekle" to="o" with="poss"/>
+</Amr>

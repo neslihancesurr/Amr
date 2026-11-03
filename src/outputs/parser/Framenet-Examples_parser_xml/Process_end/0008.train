@@ -1,0 +1,11 @@
+<Amr sentence="Yavaş yavaş bu hırs geçer .">
+<Word name="5/geç" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/geç" to="o" with="ARG0"/>
+<Word name="1/yavaş 2/yavaş" positionX="750" positionY="200"/>
+<Connection from="5/geç" to="1/yavaş 2/yavaş"/>
+<Word name="4/hırs" positionX="850" positionY="200"/>
+<Connection from="5/geç" to="4/hırs" with="ARG1"/>
+<Word name="3/bu" positionX="750" positionY="300"/>
+<Connection from="4/hırs" to="3/bu" with="mod"/>
+</Amr>

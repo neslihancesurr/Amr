@@ -1,0 +1,17 @@
+<Amr sentence="Bu gözlükle sahneyi mi göremiyormuş ?">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="5/gör" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="5/gör"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="5/gör" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/gör" to="o" with="ARG0"/>
+<Word name="2/gözlük" positionX="750" positionY="300"/>
+<Connection from="5/gör" to="2/gözlük" with="instrument"/>
+<Word name="1/bu" positionX="650" positionY="400"/>
+<Connection from="2/gözlük" to="1/bu" with="mod"/>
+<Word name="3/sahne" positionX="850" positionY="300"/>
+<Connection from="5/gör" to="3/sahne" with="ARG1"/>
+<Word name="4/mi" positionX="750" positionY="400"/>
+<Connection from="3/sahne" to="4/mi"/>
+</Amr>

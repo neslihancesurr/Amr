@@ -1,0 +1,26 @@
+<Amr sentence="İster kal , ister git , yeter ki bugün şu işi bitir .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/kal" positionX="650" positionY="200"/>
+<Connection from="and" to="2/kal" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="2/kal" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="650" positionY="300"/>
+<Connection from="2/kal" to="imperative" with="mode"/>
+<Word name="1/ister" positionX="750" positionY="300"/>
+<Connection from="2/kal" to="1/ister"/>
+<Word name="5/git" positionX="850" positionY="300"/>
+<Connection from="2/kal" to="5/git"/>
+<Connection from="5/git" to="sen" with="ARG0"/>
+<Connection from="5/git" to="imperative" with="mode"/>
+<Word name="4/ister" positionX="950" positionY="400"/>
+<Connection from="5/git" to="4/ister"/>
+<Word name="7/yeter 8/ki" positionX="750" positionY="200"/>
+<Connection from="and" to="7/yeter 8/ki" with="op2"/>
+<Connection from="7/yeter 8/ki" to="and"/>
+<Word name="11/iş 12/bitir" positionX="750" positionY="300"/>
+<Connection from="7/yeter 8/ki" to="11/iş 12/bitir"/>
+<Connection from="11/iş 12/bitir" to="sen" with="ARG0"/>
+<Connection from="11/iş 12/bitir" to="imperative" with="mode"/>
+<Word name="10/şu" positionX="850" positionY="400"/>
+<Connection from="11/iş 12/bitir" to="10/şu" with="mod"/>
+</Amr>

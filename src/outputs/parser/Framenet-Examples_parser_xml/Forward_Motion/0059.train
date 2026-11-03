@@ -1,0 +1,17 @@
+<Amr sentence="Bu arabayla saatte 200 kilometre yol alabilirsiniz .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="6/yol 7/al" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="6/yol 7/al"/>
+<Word name="siz" positionX="550" positionY="300"/>
+<Connection from="6/yol 7/al" to="siz" with="ARG0"/>
+<Word name="2/araba" positionX="650" positionY="300"/>
+<Connection from="6/yol 7/al" to="2/araba" with="instrument"/>
+<Word name="1/bu" positionX="550" positionY="400"/>
+<Connection from="2/araba" to="1/bu" with="mod"/>
+<Word name="3/saat" positionX="750" positionY="300"/>
+<Connection from="6/yol 7/al" to="3/saat" with="ARG1"/>
+<Word name="5/kilometre" positionX="850" positionY="300"/>
+<Connection from="6/yol 7/al" to="5/kilometre" with="ARG1"/>
+<Word name="4/200" positionX="750" positionY="400"/>
+<Connection from="5/kilometre" to="4/200"/>
+</Amr>

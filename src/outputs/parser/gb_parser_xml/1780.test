@@ -1,0 +1,9 @@
+<Amr sentence="- Benimle evlenir misin ?">
+<Word name="3/evlen" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/evlen" to="o" with="ARG0"/>
+<Word name="2/ben" positionX="750" positionY="200"/>
+<Connection from="3/evlen" to="2/ben" with="ARG1"/>
+<Word name="4/mi" positionX="850" positionY="200"/>
+<Connection from="3/evlen" to="4/mi"/>
+</Amr>

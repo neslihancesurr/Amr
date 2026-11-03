@@ -1,0 +1,11 @@
+<Amr sentence="İki yetişkin arasında bir gerilim süregidiyordu .">
+<Word name="6/süregidiyordu" positionX="750" positionY="100"/>
+<Word name="3/ara" positionX="650" positionY="200"/>
+<Connection from="6/süregidiyordu" to="3/ara" with="location"/>
+<Word name="2/yetişkin" positionX="550" positionY="300"/>
+<Connection from="3/ara" to="2/yetişkin" with="mod"/>
+<Word name="1/iki" positionX="450" positionY="400"/>
+<Connection from="2/yetişkin" to="1/iki"/>
+<Word name="5/gerilim" positionX="750" positionY="200"/>
+<Connection from="6/süregidiyordu" to="5/gerilim"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="O çocukta bir tuhaflık var gibime geliyor .">
+<Word name="6/gibi 7/gel" positionX="750" positionY="100"/>
+<Word name="5/var" positionX="650" positionY="200"/>
+<Connection from="6/gibi 7/gel" to="5/var"/>
+<Word name="2/çocuk" positionX="550" positionY="300"/>
+<Connection from="5/var" to="2/çocuk" with="mod"/>
+<Word name="1/o" positionX="450" positionY="400"/>
+<Connection from="2/çocuk" to="1/o" with="mod"/>
+<Word name="4/tuhaflık" positionX="650" positionY="300"/>
+<Connection from="5/var" to="4/tuhaflık"/>
+</Amr>

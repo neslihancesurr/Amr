@@ -1,0 +1,9 @@
+<Amr sentence="Köşedeki dükkan yedide kapanıyor .">
+<Word name="4/kapan" positionX="750" positionY="100"/>
+<Word name="2/dükkan" positionX="650" positionY="200"/>
+<Connection from="4/kapan" to="2/dükkan" with="ARG0"/>
+<Word name="1/köşe" positionX="550" positionY="300"/>
+<Connection from="2/dükkan" to="1/köşe" with="mod"/>
+<Word name="3/yedi" positionX="750" positionY="200"/>
+<Connection from="4/kapan" to="3/yedi"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Ayrıldığı sevgilisini sonunda akıldan çıkardı .">
+<Word name="4/akıl 5/çık" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/akıl 5/çık" to="o" with="ARG0"/>
+<Word name="2/sevgili" positionX="750" positionY="200"/>
+<Connection from="4/akıl 5/çık" to="2/sevgili" with="ARG1"/>
+<Connection from="2/sevgili" to="o" with="poss"/>
+<Word name="1/ayrıl" positionX="750" positionY="300"/>
+<Connection from="2/sevgili" to="1/ayrıl"/>
+<Connection from="1/ayrıl" to="o" with="poss"/>
+<Word name="3/sonunda" positionX="850" positionY="200"/>
+<Connection from="4/akıl 5/çık" to="3/sonunda" with="manner"/>
+</Amr>

@@ -1,0 +1,16 @@
+<Amr sentence="Memleketin en iyi ressamlarından biri sayılır .">
+<Word name="6/say" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/say" to="o" with="ARG0"/>
+<Word name="5/biri" positionX="750" positionY="200"/>
+<Connection from="6/say" to="5/biri" with="ARG1"/>
+<Connection from="5/biri" to="o" with="poss"/>
+<Word name="4/ressam" positionX="750" positionY="300"/>
+<Connection from="5/biri" to="4/ressam"/>
+<Word name="1/memleket" positionX="650" positionY="400"/>
+<Connection from="4/ressam" to="1/memleket" with="mod"/>
+<Word name="3/iyi" positionX="750" positionY="400"/>
+<Connection from="4/ressam" to="3/iyi" with="mod"/>
+<Word name="2/en" positionX="650" positionY="500"/>
+<Connection from="3/iyi" to="2/en" with="manner"/>
+</Amr>

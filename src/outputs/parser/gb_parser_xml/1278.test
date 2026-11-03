@@ -1,0 +1,7 @@
+<Amr sentence="Filmin orası çok önemliydi .">
+<Word name="3/çok 4/önemli" positionX="750" positionY="100"/>
+<Word name="2/ora" positionX="650" positionY="200"/>
+<Connection from="3/çok 4/önemli" to="2/ora"/>
+<Word name="1/film" positionX="550" positionY="300"/>
+<Connection from="2/ora" to="1/film" with="mod"/>
+</Amr>

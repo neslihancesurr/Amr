@@ -1,0 +1,18 @@
+<Amr sentence="Kimseye bir şey söylememek kolay olmayacak benim için .">
+<Word name="5/kolay" positionX="750" positionY="100"/>
+<Word name="4/söyle" positionX="650" positionY="200"/>
+<Connection from="5/kolay" to="4/söyle"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="4/söyle" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="4/söyle" to="o" with="ARG0"/>
+<Word name="1/kimse" positionX="750" positionY="300"/>
+<Connection from="4/söyle" to="1/kimse"/>
+<Connection from="1/kimse" to="o" with="poss"/>
+<Word name="6/ol" positionX="750" positionY="200"/>
+<Connection from="5/kolay" to="6/ol"/>
+<Connection from="6/ol" to="-" with="polarity"/>
+<Connection from="6/ol" to="o" with="ARG0"/>
+<Word name="7/ben" positionX="850" positionY="200"/>
+<Connection from="5/kolay" to="7/ben" with="cause"/>
+</Amr>

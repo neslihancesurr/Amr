@@ -1,0 +1,22 @@
+<Amr sentence="Diyorlar ki New York ağustosta çekilmez .">
+<Word name="1/de 2/ki" positionX="750" positionY="100"/>
+<Word name="6/çekil" positionX="650" positionY="200"/>
+<Connection from="1/de 2/ki" to="6/çekil"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="6/çekil" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="6/çekil" to="o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="6/çekil" to="person"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/new" positionX="550" positionY="500"/>
+<Connection from="name" to="3/new" with="op1"/>
+<Word name="4/york" positionX="650" positionY="500"/>
+<Connection from="name" to="4/york" with="op2"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="date-entity" positionX="850" positionY="300"/>
+<Connection from="6/çekil" to="date-entity" with="date"/>
+<Word name="5/ağustos" positionX="750" positionY="400"/>
+<Connection from="date-entity" to="5/ağustos" with="month"/>
+</Amr>

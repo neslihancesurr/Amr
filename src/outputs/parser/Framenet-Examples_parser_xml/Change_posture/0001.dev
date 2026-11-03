@@ -1,0 +1,9 @@
+<Amr sentence="Babasının kucağına oturarak nasihat verdi .">
+<Word name="4/nasihat 5/ver" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/nasihat 5/ver" to="o" with="ARG0"/>
+<Word name="2/kucak 3/otur" positionX="750" positionY="200"/>
+<Connection from="4/nasihat 5/ver" to="2/kucak 3/otur"/>
+<Word name="1/baba" positionX="650" positionY="300"/>
+<Connection from="2/kucak 3/otur" to="1/baba" with="mod"/>
+</Amr>

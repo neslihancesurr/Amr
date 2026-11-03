@@ -1,0 +1,7 @@
+<Amr sentence="Erken buluşalım .">
+<Word name="2/buluş" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="2/buluş" to="biz" with="ARG0"/>
+<Word name="1/erken" positionX="750" positionY="200"/>
+<Connection from="2/buluş" to="1/erken" with="manner"/>
+</Amr>

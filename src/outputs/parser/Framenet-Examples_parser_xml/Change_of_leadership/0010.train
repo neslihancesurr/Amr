@@ -1,0 +1,7 @@
+<Amr sentence="Seneye işlerin başına geçeceğim .">
+<Word name="3/baş 4/geç" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/baş 4/geç" to="ben" with="ARG0"/>
+<Word name="1/seneye" positionX="750" positionY="200"/>
+<Connection from="3/baş 4/geç" to="1/seneye"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Bu alandaki tüm çalışmaları durdurduk .">
+<Word name="5/durdur" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/durdur" to="biz" with="ARG0"/>
+<Word name="4/çalışma" positionX="750" positionY="200"/>
+<Connection from="5/durdur" to="4/çalışma" with="ARG1"/>
+<Word name="2/alan" positionX="650" positionY="300"/>
+<Connection from="4/çalışma" to="2/alan" with="mod"/>
+<Word name="1/bu" positionX="550" positionY="400"/>
+<Connection from="2/alan" to="1/bu" with="mod"/>
+<Word name="3/tüm" positionX="750" positionY="300"/>
+<Connection from="4/çalışma" to="3/tüm" with="mod"/>
+</Amr>

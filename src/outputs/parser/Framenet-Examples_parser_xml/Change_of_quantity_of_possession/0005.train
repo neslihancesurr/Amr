@@ -1,0 +1,16 @@
+<Amr sentence="Seneler içerisinde çok değişmiş , bozulmuş .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/değiş" positionX="650" positionY="200"/>
+<Connection from="and" to="4/değiş" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/değiş" to="o" with="ARG0"/>
+<Word name="2/içeri" positionX="650" positionY="300"/>
+<Connection from="4/değiş" to="2/içeri" with="location"/>
+<Word name="1/sene" positionX="550" positionY="400"/>
+<Connection from="2/içeri" to="1/sene" with="mod"/>
+<Word name="3/çok" positionX="750" positionY="300"/>
+<Connection from="4/değiş" to="3/çok" with="degree"/>
+<Word name="6/bozul" positionX="750" positionY="200"/>
+<Connection from="and" to="6/bozul" with="op2"/>
+<Connection from="6/bozul" to="o" with="ARG0"/>
+</Amr>

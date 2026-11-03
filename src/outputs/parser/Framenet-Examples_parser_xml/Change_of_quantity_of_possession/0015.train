@@ -1,0 +1,19 @@
+<Amr sentence="İşler iyi gitmiyordu , bu ay bayağı kaybetti .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/iyi 3/git" positionX="650" positionY="200"/>
+<Connection from="and" to="2/iyi 3/git" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="2/iyi 3/git" to="-" with="polarity"/>
+<Word name="1/iş" positionX="650" positionY="300"/>
+<Connection from="2/iyi 3/git" to="1/iş" with="ARG0"/>
+<Word name="8/kaybet" positionX="750" positionY="200"/>
+<Connection from="and" to="8/kaybet" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="8/kaybet" to="o" with="ARG0"/>
+<Word name="6/ay" positionX="750" positionY="300"/>
+<Connection from="8/kaybet" to="6/ay"/>
+<Word name="5/bu" positionX="650" positionY="400"/>
+<Connection from="6/ay" to="5/bu" with="mod"/>
+<Word name="7/bayağı" positionX="850" positionY="300"/>
+<Connection from="8/kaybet" to="7/bayağı" with="degree"/>
+</Amr>

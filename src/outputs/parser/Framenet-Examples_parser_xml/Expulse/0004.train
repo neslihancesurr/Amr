@@ -1,0 +1,10 @@
+<Amr sentence="Öfkelenmiştim , paçasından tutup attım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/öfkelen" positionX="650" positionY="200"/>
+<Connection from="and" to="1/öfkelen" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="1/öfkelen" to="ben" with="ARG0"/>
+<Word name="3/paça 4/tut 5/at" positionX="750" positionY="200"/>
+<Connection from="and" to="3/paça 4/tut 5/at" with="op2"/>
+<Connection from="3/paça 4/tut 5/at" to="ben" with="ARG0"/>
+</Amr>

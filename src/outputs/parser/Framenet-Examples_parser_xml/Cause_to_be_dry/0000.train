@@ -1,0 +1,11 @@
+<Amr sentence="Eski gölün etrafını akaçladılar .">
+<Word name="4/akaçla" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/akaçla" to="onlar" with="ARG0"/>
+<Word name="3/etraf" positionX="750" positionY="200"/>
+<Connection from="4/akaçla" to="3/etraf" with="ARG1"/>
+<Word name="2/göl" positionX="650" positionY="300"/>
+<Connection from="3/etraf" to="2/göl" with="mod"/>
+<Word name="1/eski" positionX="550" positionY="400"/>
+<Connection from="2/göl" to="1/eski" with="mod"/>
+</Amr>

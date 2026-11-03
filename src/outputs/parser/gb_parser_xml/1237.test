@@ -1,0 +1,26 @@
+<Amr sentence="O gün sen , Ayten ve Yavuz sınava girmiştiniz .">
+<Word name="8/sınav 9/gir" positionX="750" positionY="100"/>
+<Word name="siz" positionX="650" positionY="200"/>
+<Connection from="8/sınav 9/gir" to="siz" with="ARG0"/>
+<Word name="2/gün" positionX="750" positionY="200"/>
+<Connection from="8/sınav 9/gir" to="2/gün"/>
+<Word name="1/o" positionX="650" positionY="300"/>
+<Connection from="2/gün" to="1/o" with="mod"/>
+<Word name="and" positionX="850" positionY="200"/>
+<Connection from="8/sınav 9/gir" to="and"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="and" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="5/ayten" positionX="550" positionY="500"/>
+<Connection from="name" to="5/ayten" with="op1"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="and" to="person" with="ARG0"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="7/yavuz" positionX="650" positionY="500"/>
+<Connection from="name" to="7/yavuz" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/sen" positionX="950" positionY="300"/>
+<Connection from="and" to="3/sen" with="ARG0"/>
+</Amr>

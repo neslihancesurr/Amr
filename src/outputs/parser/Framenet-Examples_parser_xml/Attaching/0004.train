@@ -1,0 +1,11 @@
+<Amr sentence="Metalleri ölçüp kontrol ettikten sonra lehimleyeceğim .">
+<Word name="6/lehimle" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="6/lehimle" to="ben" with="ARG0"/>
+<Word name="1/metal" positionX="750" positionY="200"/>
+<Connection from="6/lehimle" to="1/metal" with="ARG1"/>
+<Word name="3/kontrol 4/et" positionX="850" positionY="200"/>
+<Connection from="6/lehimle" to="3/kontrol 4/et"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="3/kontrol 4/et" to="o" with="ARG0"/>
+</Amr>

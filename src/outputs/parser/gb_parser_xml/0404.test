@@ -1,0 +1,12 @@
+<Amr sentence="Saçımı berbere kestirttim .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="3/kes" positionX="650" positionY="200"/>
+<Connection from="yap" to="3/kes"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="3/kes" to="ben" with="ARG0"/>
+<Word name="1/saç" positionX="650" positionY="300"/>
+<Connection from="3/kes" to="1/saç" with="ARG1"/>
+<Connection from="1/saç" to="ben" with="poss"/>
+<Word name="2/berber" positionX="750" positionY="300"/>
+<Connection from="3/kes" to="2/berber" with="ARG0"/>
+</Amr>

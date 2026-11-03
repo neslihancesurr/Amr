@@ -1,0 +1,15 @@
+<Amr sentence="Pek de tatlı bir oğlunuz varmış !">
+<Word name="6/var" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/var" to="o" with="ARG0"/>
+<Word name="5/oğul" positionX="750" positionY="200"/>
+<Connection from="6/var" to="5/oğul"/>
+<Word name="siz" positionX="650" positionY="300"/>
+<Connection from="5/oğul" to="siz" with="poss"/>
+<Word name="3/tatlı" positionX="750" positionY="300"/>
+<Connection from="5/oğul" to="3/tatlı" with="mod"/>
+<Word name="1/pek" positionX="650" positionY="400"/>
+<Connection from="3/tatlı" to="1/pek" with="manner"/>
+<Word name="2/de" positionX="550" positionY="500"/>
+<Connection from="1/pek" to="2/de"/>
+</Amr>

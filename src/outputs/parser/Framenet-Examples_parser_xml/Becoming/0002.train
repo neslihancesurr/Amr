@@ -1,0 +1,7 @@
+<Amr sentence="Sonunda şansı döndü .">
+<Word name="2/şans 3/dön" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="2/şans 3/dön" to="o" with="ARG0"/>
+<Word name="1/sonunda" positionX="750" positionY="200"/>
+<Connection from="2/şans 3/dön" to="1/sonunda" with="ARG1"/>
+</Amr>

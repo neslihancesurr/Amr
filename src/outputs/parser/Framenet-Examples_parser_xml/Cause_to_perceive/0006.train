@@ -1,0 +1,13 @@
+<Amr sentence="Haberi bütün köye aksettirdi .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="4/akset" positionX="650" positionY="200"/>
+<Connection from="yap" to="4/akset"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/akset" to="o" with="ARG0"/>
+<Word name="1/haber" positionX="650" positionY="300"/>
+<Connection from="4/akset" to="1/haber" with="ARG1"/>
+<Word name="3/köy" positionX="750" positionY="300"/>
+<Connection from="4/akset" to="3/köy" with="ARG2"/>
+<Word name="2/bütün" positionX="650" positionY="400"/>
+<Connection from="3/köy" to="2/bütün" with="mod"/>
+</Amr>

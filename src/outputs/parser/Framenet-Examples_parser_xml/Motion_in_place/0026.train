@@ -1,0 +1,19 @@
+<Amr sentence="Bana çok bağırıyordu , durduğum yerde sakırdıyordum .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/bağır" positionX="650" positionY="200"/>
+<Connection from="and" to="3/bağır" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/bağır" to="o" with="ARG0"/>
+<Word name="1/ben" positionX="650" positionY="300"/>
+<Connection from="3/bağır" to="1/ben" with="ARG1"/>
+<Word name="2/çok" positionX="750" positionY="300"/>
+<Connection from="3/bağır" to="2/çok" with="degree"/>
+<Word name="7/sakırda" positionX="750" positionY="200"/>
+<Connection from="and" to="7/sakırda" with="op2"/>
+<Word name="6/yer" positionX="650" positionY="300"/>
+<Connection from="7/sakırda" to="6/yer" with="location"/>
+<Word name="5/dur" positionX="550" positionY="400"/>
+<Connection from="6/yer" to="5/dur"/>
+<Word name="ben" positionX="450" positionY="500"/>
+<Connection from="5/dur" to="ben" with="poss"/>
+</Amr>

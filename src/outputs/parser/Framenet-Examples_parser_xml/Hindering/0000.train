@@ -1,0 +1,11 @@
+<Amr sentence="Elini attığı her iş ayağına dolandı .">
+<Word name="5/ayak 6/dolan" positionX="750" positionY="100"/>
+<Word name="4/iş" positionX="650" positionY="200"/>
+<Connection from="5/ayak 6/dolan" to="4/iş" with="ARG0"/>
+<Word name="1/el 2/at" positionX="550" positionY="300"/>
+<Connection from="4/iş" to="1/el 2/at"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="1/el 2/at" to="o" with="poss"/>
+<Word name="3/her" positionX="650" positionY="300"/>
+<Connection from="4/iş" to="3/her" with="mod"/>
+</Amr>

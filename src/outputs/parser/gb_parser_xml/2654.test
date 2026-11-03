@@ -1,0 +1,19 @@
+<Amr sentence="Dünya Kupasında Güney Kore de Türkiye de yarı finale kaldı .">
+<Word name="10/kal" positionX="750" positionY="100"/>
+<Word name="2/kupa" positionX="650" positionY="200"/>
+<Connection from="10/kal" to="2/kupa" with="ARG1"/>
+<Word name="1/dünya" positionX="550" positionY="300"/>
+<Connection from="2/kupa" to="1/dünya" with="mod"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="10/kal" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/güney" positionX="550" positionY="400"/>
+<Connection from="name" to="3/güney" with="op1"/>
+<Word name="4/kore" positionX="650" positionY="400"/>
+<Connection from="name" to="4/kore" with="op2"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="8/yarı 9/final" positionX="850" positionY="200"/>
+<Connection from="10/kal" to="8/yarı 9/final" with="mod"/>
+</Amr>

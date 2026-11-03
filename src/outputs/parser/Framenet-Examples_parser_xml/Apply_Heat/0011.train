@@ -1,0 +1,19 @@
+<Amr sentence="Soğanları koymadan önce yağı kızdır .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="5/kız" positionX="650" positionY="200"/>
+<Connection from="yap" to="5/kız"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="5/kız" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="650" positionY="300"/>
+<Connection from="5/kız" to="imperative" with="mode"/>
+<Word name="2/koyma" positionX="750" positionY="300"/>
+<Connection from="5/kız" to="2/koyma"/>
+<Word name="1/soğan" positionX="650" positionY="400"/>
+<Connection from="2/koyma" to="1/soğan"/>
+<Word name="o" positionX="550" positionY="500"/>
+<Connection from="1/soğan" to="o" with="poss"/>
+<Word name="3/önce" positionX="750" positionY="400"/>
+<Connection from="2/koyma" to="3/önce"/>
+<Word name="4/yağ" positionX="850" positionY="300"/>
+<Connection from="5/kız" to="4/yağ" with="ARG0"/>
+</Amr>

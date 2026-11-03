@@ -1,0 +1,12 @@
+<Amr sentence="Çamaşırları yıkadım , burktum .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/yıka" positionX="650" positionY="200"/>
+<Connection from="and" to="2/yıka" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="2/yıka" to="ben" with="ARG0"/>
+<Word name="1/çamaşır" positionX="650" positionY="300"/>
+<Connection from="2/yıka" to="1/çamaşır" with="ARG1"/>
+<Word name="4/burk" positionX="750" positionY="200"/>
+<Connection from="and" to="4/burk" with="op2"/>
+<Connection from="4/burk" to="ben" with="ARG0"/>
+</Amr>

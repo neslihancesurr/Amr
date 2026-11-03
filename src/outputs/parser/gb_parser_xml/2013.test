@@ -1,0 +1,24 @@
+<Amr sentence="Yaprağı Ayşe herhangi birinin sarabileceğine inanmıyordu .">
+<Word name="6/inan" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="6/inan" to="-" with="polarity"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="6/inan" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/ayşe" positionX="550" positionY="400"/>
+<Connection from="name" to="2/ayşe" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="mümkün" positionX="850" positionY="200"/>
+<Connection from="6/inan" to="mümkün"/>
+<Word name="5/sar" positionX="750" positionY="300"/>
+<Connection from="mümkün" to="5/sar" with="ARG1"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="5/sar" to="o" with="ARG0"/>
+<Connection from="5/sar" to="o" with="poss"/>
+<Word name="1/yaprak" positionX="850" positionY="400"/>
+<Connection from="5/sar" to="1/yaprak"/>
+<Word name="3/herhangi 4/biri" positionX="950" positionY="400"/>
+<Connection from="5/sar" to="3/herhangi 4/biri"/>
+<Connection from="3/herhangi 4/biri" to="o" with="poss"/>
+</Amr>

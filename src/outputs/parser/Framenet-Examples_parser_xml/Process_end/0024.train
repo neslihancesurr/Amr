@@ -1,0 +1,11 @@
+<Amr sentence="Sonunda tartışmadan işi bağladık .">
+<Word name="4/bağla" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="4/bağla" to="biz" with="ARG0"/>
+<Word name="1/sonunda" positionX="750" positionY="200"/>
+<Connection from="4/bağla" to="1/sonunda" with="manner"/>
+<Word name="2/tartış" positionX="850" positionY="200"/>
+<Connection from="4/bağla" to="2/tartış"/>
+<Word name="3/iş" positionX="950" positionY="200"/>
+<Connection from="4/bağla" to="3/iş" with="ARG1"/>
+</Amr>

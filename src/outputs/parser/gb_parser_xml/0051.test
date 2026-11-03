@@ -1,0 +1,5 @@
+<Amr sentence="koşmak için">
+<Word name="1/koş:cause" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="1/koş:cause" to="o" with="ARG0"/>
+</Amr>

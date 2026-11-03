@@ -1,0 +1,11 @@
+<Amr sentence="Çalışırken radyoyu hep açık tutarım .">
+<Word name="4/açık 5/tut" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/açık 5/tut" to="ben" with="ARG0"/>
+<Word name="1/çalış" positionX="750" positionY="200"/>
+<Connection from="4/açık 5/tut" to="1/çalış"/>
+<Word name="2/radyo" positionX="850" positionY="200"/>
+<Connection from="4/açık 5/tut" to="2/radyo"/>
+<Word name="3/hep" positionX="950" positionY="200"/>
+<Connection from="4/açık 5/tut" to="3/hep" with="frequency"/>
+</Amr>

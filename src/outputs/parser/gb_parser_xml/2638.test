@@ -1,0 +1,30 @@
+<Amr sentence="80 yaşında Almanca öğrenmeye başladı ve de bundan çok memnun .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="10/memnun" positionX="650" positionY="200"/>
+<Connection from="and" to="10/memnun" with="op1"/>
+<Word name="7/de" positionX="550" positionY="300"/>
+<Connection from="10/memnun" to="7/de"/>
+<Word name="8/bu" positionX="650" positionY="300"/>
+<Connection from="10/memnun" to="8/bu" with="mod"/>
+<Word name="9/çok" positionX="750" positionY="300"/>
+<Connection from="10/memnun" to="9/çok" with="degree"/>
+<Word name="5/başla" positionX="750" positionY="200"/>
+<Connection from="and" to="5/başla" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/başla" to="o" with="ARG0"/>
+<Word name="4/öğren" positionX="750" positionY="300"/>
+<Connection from="5/başla" to="4/öğren" with="ARG1"/>
+<Connection from="4/öğren" to="o" with="ARG0"/>
+<Word name="2/yaş" positionX="750" positionY="400"/>
+<Connection from="4/öğren" to="2/yaş" with="location"/>
+<Word name="1/80" positionX="650" positionY="500"/>
+<Connection from="2/yaş" to="1/80"/>
+<Word name="person" positionX="850" positionY="400"/>
+<Connection from="4/öğren" to="person" with="ARG1"/>
+<Word name="name" positionX="750" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/almanca" positionX="650" positionY="600"/>
+<Connection from="name" to="3/almanca" with="op1"/>
+<Word name="-" positionX="850" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

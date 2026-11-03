@@ -1,0 +1,21 @@
+<Amr sentence="Ertesi gün ayrılırken tekrar oradan geçmemi sıkı sıkı tembih ediyorlar .">
+<Word name="9/tembih 10/et" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="9/tembih 10/et" to="onlar" with="ARG0"/>
+<Word name="3/ayrıl" positionX="750" positionY="200"/>
+<Connection from="9/tembih 10/et" to="3/ayrıl"/>
+<Word name="2/gün" positionX="650" positionY="300"/>
+<Connection from="3/ayrıl" to="2/gün" with="mod"/>
+<Word name="1/ertesi" positionX="550" positionY="400"/>
+<Connection from="2/gün" to="1/ertesi" with="mod"/>
+<Word name="6/geç" positionX="850" positionY="200"/>
+<Connection from="9/tembih 10/et" to="6/geç" with="ARG1"/>
+<Word name="ben" positionX="750" positionY="300"/>
+<Connection from="6/geç" to="ben" with="ARG0"/>
+<Word name="4/tekrar" positionX="850" positionY="300"/>
+<Connection from="6/geç" to="4/tekrar" with="manner"/>
+<Word name="5/oradan" positionX="950" positionY="300"/>
+<Connection from="6/geç" to="5/oradan" with="manner"/>
+<Word name="7/sıkı 8/sıkı" positionX="950" positionY="200"/>
+<Connection from="9/tembih 10/et" to="7/sıkı 8/sıkı"/>
+</Amr>

@@ -1,0 +1,19 @@
+<Amr sentence="O telaş içinde hastanın ateşine bakmamış bulundum .">
+<Word name="6/bak" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="6/bak" to="-" with="polarity"/>
+<Word name="3/içinde" positionX="750" positionY="200"/>
+<Connection from="6/bak" to="3/içinde"/>
+<Word name="2/telaş" positionX="650" positionY="300"/>
+<Connection from="3/içinde" to="2/telaş" with="mod"/>
+<Word name="1/o" positionX="550" positionY="400"/>
+<Connection from="2/telaş" to="1/o" with="mod"/>
+<Word name="5/ateş" positionX="850" positionY="200"/>
+<Connection from="6/bak" to="5/ateş"/>
+<Word name="4/hasta" positionX="750" positionY="300"/>
+<Connection from="5/ateş" to="4/hasta" with="mod"/>
+<Word name="7/bulun" positionX="950" positionY="200"/>
+<Connection from="6/bak" to="7/bulun"/>
+<Word name="ben" positionX="850" positionY="300"/>
+<Connection from="7/bulun" to="ben" with="ARG0"/>
+</Amr>

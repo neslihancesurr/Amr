@@ -1,0 +1,24 @@
+<Amr sentence="Saat 5'te toplantı hala sürüyor olursa sessizce kalkıp giderim .">
+<Word name="9/git" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="9/git" to="ben" with="ARG0"/>
+<Word name="6/ol" positionX="750" positionY="200"/>
+<Connection from="9/git" to="6/ol" with="cond"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="6/ol" to="o" with="ARG0"/>
+<Word name="5/sür" positionX="750" positionY="300"/>
+<Connection from="6/ol" to="5/sür"/>
+<Connection from="5/sür" to="o" with="ARG0"/>
+<Word name="2/5" positionX="750" positionY="400"/>
+<Connection from="5/sür" to="2/5"/>
+<Word name="1/saat" positionX="650" positionY="500"/>
+<Connection from="2/5" to="1/saat" with="mod"/>
+<Word name="3/toplantı" positionX="850" positionY="400"/>
+<Connection from="5/sür" to="3/toplantı"/>
+<Word name="4/hala" positionX="950" positionY="400"/>
+<Connection from="5/sür" to="4/hala" with="manner"/>
+<Word name="8/kalk" positionX="850" positionY="200"/>
+<Connection from="9/git" to="8/kalk"/>
+<Word name="7/sessizce" positionX="750" positionY="300"/>
+<Connection from="8/kalk" to="7/sessizce" with="manner"/>
+</Amr>

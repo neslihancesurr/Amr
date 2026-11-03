@@ -1,0 +1,17 @@
+<Amr sentence="Beni üç sene boyunca oraya gitmekten alıkoydu .">
+<Word name="7/alıkoy" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/alıkoy" to="o" with="ARG0"/>
+<Word name="1/ben" positionX="750" positionY="200"/>
+<Connection from="7/alıkoy" to="1/ben" with="ARG1"/>
+<Word name="3/sene" positionX="850" positionY="200"/>
+<Connection from="7/alıkoy" to="3/sene"/>
+<Word name="2/üç" positionX="750" positionY="300"/>
+<Connection from="3/sene" to="2/üç"/>
+<Word name="4/boyunca" positionX="850" positionY="300"/>
+<Connection from="3/sene" to="4/boyunca"/>
+<Word name="6/git" positionX="950" positionY="200"/>
+<Connection from="7/alıkoy" to="6/git"/>
+<Word name="5/oraya" positionX="850" positionY="300"/>
+<Connection from="6/git" to="5/oraya" with="ARG1"/>
+</Amr>

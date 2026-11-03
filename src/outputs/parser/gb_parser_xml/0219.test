@@ -1,0 +1,9 @@
+<Amr sentence="Ya parası yoksa ?">
+<Word name="3/yok:cond" positionX="750" positionY="100"/>
+<Word name="1/ya" positionX="650" positionY="200"/>
+<Connection from="3/yok:cond" to="1/ya"/>
+<Word name="2/para" positionX="750" positionY="200"/>
+<Connection from="3/yok:cond" to="2/para"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/para" to="o" with="poss"/>
+</Amr>

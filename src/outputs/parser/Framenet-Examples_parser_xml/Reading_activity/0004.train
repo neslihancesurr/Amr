@@ -1,0 +1,13 @@
+<Amr sentence="Orada yazan her şeyi hatmetmişti .">
+<Word name="5/hatmet" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/hatmet" to="o" with="ARG0"/>
+<Word name="4/şey" positionX="750" positionY="200"/>
+<Connection from="5/hatmet" to="4/şey" with="ARG1"/>
+<Word name="2/yaz" positionX="650" positionY="300"/>
+<Connection from="4/şey" to="2/yaz"/>
+<Word name="1/orada" positionX="550" positionY="400"/>
+<Connection from="2/yaz" to="1/orada"/>
+<Word name="3/her" positionX="750" positionY="300"/>
+<Connection from="4/şey" to="3/her" with="mod"/>
+</Amr>

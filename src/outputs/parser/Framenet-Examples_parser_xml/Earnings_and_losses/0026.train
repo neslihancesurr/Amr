@@ -1,0 +1,19 @@
+<Amr sentence="Zaten müdür aç herifin biri , zil kalmış da gelmiş buralara .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/biri" positionX="650" positionY="200"/>
+<Connection from="and" to="5/biri" with="ARG0"/>
+<Word name="1/zaten" positionX="550" positionY="300"/>
+<Connection from="5/biri" to="1/zaten"/>
+<Word name="2/müdür" positionX="650" positionY="300"/>
+<Connection from="5/biri" to="2/müdür"/>
+<Word name="4/herif" positionX="750" positionY="300"/>
+<Connection from="5/biri" to="4/herif" with="mod"/>
+<Word name="3/aç" positionX="650" positionY="400"/>
+<Connection from="4/herif" to="3/aç" with="mod"/>
+<Word name="10/gel" positionX="750" positionY="200"/>
+<Connection from="and" to="10/gel" with="op2"/>
+<Word name="7/zil 8/kal" positionX="650" positionY="300"/>
+<Connection from="10/gel" to="7/zil 8/kal"/>
+<Word name="11/bura" positionX="750" positionY="300"/>
+<Connection from="10/gel" to="11/bura" with="ARG1"/>
+</Amr>

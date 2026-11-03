@@ -1,0 +1,25 @@
+<Amr sentence="Sana bugün iki mektup geldi . Semra'ya da bir paket .">
+<Word name="5/gel" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/gel" to="o" with="ARG0"/>
+<Word name="1/sen" positionX="750" positionY="200"/>
+<Connection from="5/gel" to="1/sen"/>
+<Word name="2/bugün" positionX="850" positionY="200"/>
+<Connection from="5/gel" to="2/bugün"/>
+<Word name="4/mektup" positionX="950" positionY="200"/>
+<Connection from="5/gel" to="4/mektup"/>
+<Word name="3/iki" positionX="850" positionY="300"/>
+<Connection from="4/mektup" to="3/iki"/>
+<Word name="person" positionX="1050" positionY="200"/>
+<Connection from="5/gel" to="person"/>
+<Word name="name" positionX="950" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="7/semra" positionX="850" positionY="400"/>
+<Connection from="name" to="7/semra" with="op1"/>
+<Word name="-" positionX="1050" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="8/da" positionX="1150" positionY="300"/>
+<Connection from="person" to="8/da"/>
+<Word name="10/paket" positionX="1150" positionY="200"/>
+<Connection from="5/gel" to="10/paket"/>
+</Amr>

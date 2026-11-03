@@ -1,0 +1,11 @@
+<Amr sentence="Yangından sonra dükkanı mühürlediler .">
+<Word name="4/mühürle" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/mühürle" to="onlar" with="ARG0"/>
+<Word name="1/yangın" positionX="750" positionY="200"/>
+<Connection from="4/mühürle" to="1/yangın"/>
+<Word name="2/sonra" positionX="650" positionY="300"/>
+<Connection from="1/yangın" to="2/sonra"/>
+<Word name="3/dükkan" positionX="850" positionY="200"/>
+<Connection from="4/mühürle" to="3/dükkan" with="ARG1"/>
+</Amr>

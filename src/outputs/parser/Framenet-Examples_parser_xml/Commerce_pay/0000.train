@@ -1,0 +1,13 @@
+<Amr sentence="Firma , hizmetçilerin maaşını vermiyor .">
+<Word name="5/ver" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/ver" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="5/ver" to="o" with="ARG0"/>
+<Word name="1/firma" positionX="850" positionY="200"/>
+<Connection from="5/ver" to="1/firma"/>
+<Word name="4/maaş" positionX="950" positionY="200"/>
+<Connection from="5/ver" to="4/maaş"/>
+<Word name="3/hizmetçi" positionX="850" positionY="300"/>
+<Connection from="4/maaş" to="3/hizmetçi" with="ARG1"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Tuvali alladı .">
+<Word name="2/alla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="2/alla" to="o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="2/alla" to="person" with="ARG1"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/Tuvali" positionX="550" positionY="400"/>
+<Connection from="name" to="1/Tuvali" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

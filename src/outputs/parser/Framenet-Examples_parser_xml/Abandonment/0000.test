@@ -1,0 +1,16 @@
+<Amr sentence="Doğum günü hediyesi olarak alınan oyuncaklar bir kenara atılmıştı .">
+<Word name="7/bir 8/kenar 9/at" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/bir 8/kenar 9/at" to="o" with="ARG0"/>
+<Word name="6/oyuncak" positionX="750" positionY="200"/>
+<Connection from="7/bir 8/kenar 9/at" to="6/oyuncak" with="ARG1"/>
+<Word name="5/al" positionX="650" positionY="300"/>
+<Connection from="6/oyuncak" to="5/al"/>
+<Word name="4/ol" positionX="550" positionY="400"/>
+<Connection from="5/al" to="4/ol"/>
+<Word name="3/hediye" positionX="450" positionY="500"/>
+<Connection from="4/ol" to="3/hediye"/>
+<Word name="1/doğum 2/gün" positionX="350" positionY="600"/>
+<Connection from="3/hediye" to="1/doğum 2/gün"/>
+<Connection from="1/doğum 2/gün" to="o" with="poss"/>
+</Amr>

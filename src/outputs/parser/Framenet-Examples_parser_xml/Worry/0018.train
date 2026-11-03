@@ -1,0 +1,11 @@
+<Amr sentence="Yaşlı insanlar çok çabuk kuruntuya kapılıyor .">
+<Word name="5/kuruntu 6/kapıl" positionX="750" positionY="100"/>
+<Word name="2/insan" positionX="650" positionY="200"/>
+<Connection from="5/kuruntu 6/kapıl" to="2/insan" with="ARG0"/>
+<Word name="1/yaşlı" positionX="550" positionY="300"/>
+<Connection from="2/insan" to="1/yaşlı" with="mod"/>
+<Word name="4/çabuk" positionX="750" positionY="200"/>
+<Connection from="5/kuruntu 6/kapıl" to="4/çabuk" with="manner"/>
+<Word name="3/çok" positionX="650" positionY="300"/>
+<Connection from="4/çabuk" to="3/çok" with="degree"/>
+</Amr>

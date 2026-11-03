@@ -1,0 +1,7 @@
+<Amr sentence="Askerler , bahçede tadada çıkıyorlardı .">
+<Word name="4/tadat 5/çık" positionX="750" positionY="100"/>
+<Word name="1/asker" positionX="650" positionY="200"/>
+<Connection from="4/tadat 5/çık" to="1/asker" with="ARG0"/>
+<Word name="3/bahçe" positionX="750" positionY="200"/>
+<Connection from="4/tadat 5/çık" to="3/bahçe" with="location"/>
+</Amr>

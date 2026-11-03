@@ -1,0 +1,11 @@
+<Amr sentence="Burada böylece oturup kaldık .">
+<Word name="4/kal" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="4/kal" to="biz" with="ARG0"/>
+<Word name="1/bura" positionX="750" positionY="200"/>
+<Connection from="4/kal" to="1/bura" with="location"/>
+<Word name="2/böylece" positionX="850" positionY="200"/>
+<Connection from="4/kal" to="2/böylece" with="manner"/>
+<Word name="3/otur" positionX="950" positionY="200"/>
+<Connection from="4/kal" to="3/otur"/>
+</Amr>

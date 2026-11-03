@@ -1,0 +1,9 @@
+<Amr sentence="Doktorun söyledikleri Ali'nin aklına takıldı .">
+<Word name="4/akıl 5/tak" positionX="750" positionY="100"/>
+<Word name="2/söyle" positionX="650" positionY="200"/>
+<Connection from="4/akıl 5/tak" to="2/söyle" with="ARG1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/söyle" to="o" with="poss"/>
+<Word name="1/doktor" positionX="650" positionY="300"/>
+<Connection from="2/söyle" to="1/doktor" with="ARG0"/>
+</Amr>

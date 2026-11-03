@@ -1,0 +1,17 @@
+<Amr sentence="Bakkala gittiğinde gazete de alır mısın ?">
+<Word name="5/al" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/al" to="o" with="ARG0"/>
+<Word name="2/git" positionX="750" positionY="200"/>
+<Connection from="5/al" to="2/git"/>
+<Connection from="2/git" to="o" with="ARG0"/>
+<Connection from="2/git" to="o" with="poss"/>
+<Word name="1/bakkal" positionX="850" positionY="300"/>
+<Connection from="2/git" to="1/bakkal" with="ARG1"/>
+<Word name="3/gazete" positionX="850" positionY="200"/>
+<Connection from="5/al" to="3/gazete" with="ARG1"/>
+<Word name="4/de" positionX="750" positionY="300"/>
+<Connection from="3/gazete" to="4/de"/>
+<Word name="6/mi" positionX="950" positionY="200"/>
+<Connection from="5/al" to="6/mi"/>
+</Amr>

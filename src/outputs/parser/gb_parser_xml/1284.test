@@ -1,0 +1,11 @@
+<Amr sentence="Yenisini almamız lazım .">
+<Word name="3/lazım" positionX="750" positionY="100"/>
+<Word name="2/al" positionX="650" positionY="200"/>
+<Connection from="3/lazım" to="2/al"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="2/al" to="biz" with="ARG0"/>
+<Word name="1/yeni" positionX="650" positionY="300"/>
+<Connection from="2/al" to="1/yeni" with="ARG1"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="1/yeni" to="o" with="poss"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="İlk defa bu kadar kilo verdim .">
+<Word name="5/kilo 6/ver" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/kilo 6/ver" to="ben" with="ARG0"/>
+<Word name="2/defa" positionX="750" positionY="200"/>
+<Connection from="5/kilo 6/ver" to="2/defa"/>
+<Word name="1/ilk" positionX="650" positionY="300"/>
+<Connection from="2/defa" to="1/ilk" with="manner"/>
+<Word name="3/bu" positionX="850" positionY="200"/>
+<Connection from="5/kilo 6/ver" to="3/bu" with="mod"/>
+<Word name="4/kadar" positionX="750" positionY="300"/>
+<Connection from="3/bu" to="4/kadar"/>
+</Amr>

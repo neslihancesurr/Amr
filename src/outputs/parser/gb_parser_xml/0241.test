@@ -1,0 +1,7 @@
+<Amr sentence="Sözüm sanaydı .">
+<Word name="2/sen" positionX="750" positionY="100"/>
+<Word name="1/söz" positionX="650" positionY="200"/>
+<Connection from="2/sen" to="1/söz"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="1/söz" to="ben" with="poss"/>
+</Amr>

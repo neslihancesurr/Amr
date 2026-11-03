@@ -1,0 +1,18 @@
+<Amr sentence="Hasan Fransızca okuyabiliyor .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="3/oku" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="3/oku"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="3/oku" to="person" with="ARG0"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/hasan" positionX="350" positionY="500"/>
+<Connection from="name" to="1/hasan" with="op1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="3/oku" to="person" with="ARG1"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/fransızca" positionX="450" positionY="500"/>
+<Connection from="name" to="2/fransızca" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

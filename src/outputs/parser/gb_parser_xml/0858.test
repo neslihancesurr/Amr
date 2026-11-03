@@ -1,0 +1,9 @@
+<Amr sentence="Biz üç arkadaş olarak konuşuyoruz .">
+<Word name="5/konuş" positionX="750" positionY="100"/>
+<Word name="1/biz" positionX="650" positionY="200"/>
+<Connection from="5/konuş" to="1/biz" with="ARG0"/>
+<Word name="3/arkadaş 4/ol" positionX="750" positionY="200"/>
+<Connection from="5/konuş" to="3/arkadaş 4/ol" with="mod"/>
+<Word name="2/üç" positionX="650" positionY="300"/>
+<Connection from="3/arkadaş 4/ol" to="2/üç"/>
+</Amr>

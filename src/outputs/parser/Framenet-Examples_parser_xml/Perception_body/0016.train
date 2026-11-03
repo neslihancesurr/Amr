@@ -1,0 +1,23 @@
+<Amr sentence="Koşarken ters bir hareket yaptım herhalde , bacağımın arkası gerildi .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/yap" positionX="650" positionY="200"/>
+<Connection from="and" to="5/yap" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="5/yap" to="ben" with="ARG0"/>
+<Word name="1/koş" positionX="650" positionY="300"/>
+<Connection from="5/yap" to="1/koş"/>
+<Word name="4/hareket" positionX="750" positionY="300"/>
+<Connection from="5/yap" to="4/hareket" with="ARG1"/>
+<Word name="2/ters" positionX="650" positionY="400"/>
+<Connection from="4/hareket" to="2/ters" with="mod"/>
+<Word name="6/herhalde" positionX="850" positionY="300"/>
+<Connection from="5/yap" to="6/herhalde" with="manner"/>
+<Word name="10/ger" positionX="750" positionY="200"/>
+<Connection from="and" to="10/ger" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="10/ger" to="o" with="ARG0"/>
+<Word name="9/arka" positionX="750" positionY="300"/>
+<Connection from="10/ger" to="9/arka" with="ARG1"/>
+<Word name="8/bacak" positionX="650" positionY="400"/>
+<Connection from="9/arka" to="8/bacak" with="mod"/>
+</Amr>

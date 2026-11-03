@@ -1,0 +1,11 @@
+<Amr sentence="O kadar harcamadan sonra doğal olarak kesenin dibi göründü .">
+<Word name="7/kese 8/dip 9/görün" positionX="750" positionY="100"/>
+<Word name="3/harcama" positionX="650" positionY="200"/>
+<Connection from="7/kese 8/dip 9/görün" to="3/harcama" with="extent"/>
+<Word name="1/o 2/kadar" positionX="550" positionY="300"/>
+<Connection from="3/harcama" to="1/o 2/kadar" with="mod"/>
+<Word name="4/sonra" positionX="650" positionY="300"/>
+<Connection from="3/harcama" to="4/sonra"/>
+<Word name="5/doğal 6/ol" positionX="750" positionY="200"/>
+<Connection from="7/kese 8/dip 9/görün" to="5/doğal 6/ol" with="manner"/>
+</Amr>

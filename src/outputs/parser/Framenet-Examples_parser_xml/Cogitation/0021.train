@@ -1,0 +1,21 @@
+<Amr sentence="Toplumun değer yargılarını her an , hiç durmamacasına yeniden ölçüp biçiyordu .">
+<Word name="10/ölç 11/biç" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="10/ölç 11/biç" to="o" with="ARG0"/>
+<Word name="2/değer 3/yargı" positionX="750" positionY="200"/>
+<Connection from="10/ölç 11/biç" to="2/değer 3/yargı" with="ARG1"/>
+<Word name="5/an" positionX="850" positionY="200"/>
+<Connection from="10/ölç 11/biç" to="5/an" with="mod"/>
+<Word name="4/her" positionX="750" positionY="300"/>
+<Connection from="5/an" to="4/her" with="mod"/>
+<Word name="8/dur" positionX="950" positionY="200"/>
+<Connection from="10/ölç 11/biç" to="8/dur"/>
+<Word name="-" positionX="850" positionY="300"/>
+<Connection from="8/dur" to="-" with="polarity"/>
+<Connection from="8/dur" to="o" with="ARG0"/>
+<Connection from="8/dur" to="o" with="poss"/>
+<Word name="7/hiç" positionX="1150" positionY="300"/>
+<Connection from="8/dur" to="7/hiç" with="degree"/>
+<Word name="9/yeniden" positionX="1050" positionY="200"/>
+<Connection from="10/ölç 11/biç" to="9/yeniden" with="manner"/>
+</Amr>

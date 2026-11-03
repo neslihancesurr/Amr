@@ -1,0 +1,18 @@
+<Amr sentence="Tülin çayını soğuk içiyor .">
+<Word name="4/iç" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/iç" to="o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="4/iç" to="person"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/tülin" positionX="550" positionY="400"/>
+<Connection from="name" to="1/tülin" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/çay" positionX="850" positionY="200"/>
+<Connection from="4/iç" to="2/çay"/>
+<Connection from="2/çay" to="o" with="poss"/>
+<Word name="3/soğuk" positionX="950" positionY="200"/>
+<Connection from="4/iç" to="3/soğuk"/>
+</Amr>

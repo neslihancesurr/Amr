@@ -1,0 +1,19 @@
+<Amr sentence="Robotu demonte ettim , başka türlü taşınmazdı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/demonte 3/et" positionX="650" positionY="200"/>
+<Connection from="and" to="2/demonte 3/et" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="2/demonte 3/et" to="ben" with="ARG0"/>
+<Word name="1/robot" positionX="650" positionY="300"/>
+<Connection from="2/demonte 3/et" to="1/robot" with="ARG1"/>
+<Word name="7/taşı" positionX="750" positionY="200"/>
+<Connection from="and" to="7/taşı" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="7/taşı" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="7/taşı" to="o" with="ARG0"/>
+<Word name="6/türlü" positionX="850" positionY="300"/>
+<Connection from="7/taşı" to="6/türlü" with="mod"/>
+<Word name="5/başka" positionX="750" positionY="400"/>
+<Connection from="6/türlü" to="5/başka" with="mod"/>
+</Amr>

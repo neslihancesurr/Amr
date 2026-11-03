@@ -1,0 +1,15 @@
+<Amr sentence="Eve gittim , çantamı aldım …">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/al" positionX="650" positionY="200"/>
+<Connection from="and" to="5/al" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="5/al" to="ben" with="ARG0"/>
+<Word name="4/çanta" positionX="650" positionY="300"/>
+<Connection from="5/al" to="4/çanta" with="ARG1"/>
+<Connection from="4/çanta" to="ben" with="poss"/>
+<Word name="2/git" positionX="750" positionY="200"/>
+<Connection from="and" to="2/git" with="op2"/>
+<Connection from="2/git" to="ben" with="ARG0"/>
+<Word name="1/ev" positionX="750" positionY="300"/>
+<Connection from="2/git" to="1/ev" with="ARG1"/>
+</Amr>

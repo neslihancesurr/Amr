@@ -1,0 +1,9 @@
+<Amr sentence="Minik serçe kanat çırptı .">
+<Word name="3/kanat 4/çırp" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/kanat 4/çırp" to="o" with="ARG0"/>
+<Word name="2/serçe" positionX="750" positionY="200"/>
+<Connection from="3/kanat 4/çırp" to="2/serçe" with="ARG1"/>
+<Word name="1/minik" positionX="650" positionY="300"/>
+<Connection from="2/serçe" to="1/minik" with="mod"/>
+</Amr>

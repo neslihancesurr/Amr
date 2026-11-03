@@ -1,0 +1,11 @@
+<Amr sentence="Onların yüzünden yaşadıkları sıkıntıları dile getirdi .">
+<Word name="5/dil 6/getir" positionX="750" positionY="100"/>
+<Word name="4/sıkıntı" positionX="650" positionY="200"/>
+<Connection from="5/dil 6/getir" to="4/sıkıntı" with="ARG1"/>
+<Word name="3/yaşa" positionX="550" positionY="300"/>
+<Connection from="4/sıkıntı" to="3/yaşa" with="mod"/>
+<Word name="2/yüzünden" positionX="450" positionY="400"/>
+<Connection from="3/yaşa" to="2/yüzünden" with="manner"/>
+<Word name="1/o" positionX="350" positionY="500"/>
+<Connection from="2/yüzünden" to="1/o" with="mod"/>
+</Amr>

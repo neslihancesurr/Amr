@@ -1,0 +1,21 @@
+<Amr sentence="Fino , beni görünce kuyruğunu kıvırıp düşmanca havlaya havlaya beyaz dişlerini gösterdi .">
+<Word name="12/göster" positionX="750" positionY="100"/>
+<Word name="1/fino" positionX="650" positionY="200"/>
+<Connection from="12/göster" to="1/fino" with="ARG0"/>
+<Word name="4/gör" positionX="750" positionY="200"/>
+<Connection from="12/göster" to="4/gör"/>
+<Word name="3/ben" positionX="650" positionY="300"/>
+<Connection from="4/gör" to="3/ben" with="ARG1"/>
+<Word name="6/kıvır" positionX="850" positionY="200"/>
+<Connection from="12/göster" to="6/kıvır"/>
+<Word name="5/kuyruk" positionX="750" positionY="300"/>
+<Connection from="6/kıvır" to="5/kuyruk" with="ARG1"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="5/kuyruk" to="o" with="poss"/>
+<Word name="8/havla 9/havla" positionX="950" positionY="200"/>
+<Connection from="12/göster" to="8/havla 9/havla"/>
+<Word name="11/diş" positionX="1050" positionY="200"/>
+<Connection from="12/göster" to="11/diş" with="ARG1"/>
+<Word name="10/beyaz" positionX="950" positionY="300"/>
+<Connection from="11/diş" to="10/beyaz" with="mod"/>
+</Amr>

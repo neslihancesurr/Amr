@@ -1,0 +1,9 @@
+<Amr sentence="Oyuncakları ile oyalanıyor .">
+<Word name="3/oyalan" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/oyalan" to="o" with="ARG0"/>
+<Word name="1/oyuncak" positionX="750" positionY="200"/>
+<Connection from="3/oyalan" to="1/oyuncak"/>
+<Word name="2/ile" positionX="650" positionY="300"/>
+<Connection from="1/oyuncak" to="2/ile"/>
+</Amr>

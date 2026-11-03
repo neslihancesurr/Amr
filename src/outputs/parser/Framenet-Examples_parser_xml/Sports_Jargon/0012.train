@@ -1,0 +1,15 @@
+<Amr sentence="Milli sporcumuz bu maçta da puan kazandı .">
+<Word name="6/puan 7/kazan" positionX="750" positionY="100"/>
+<Word name="2/sporcu" positionX="650" positionY="200"/>
+<Connection from="6/puan 7/kazan" to="2/sporcu" with="ARG0"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="2/sporcu" to="biz" with="poss"/>
+<Word name="1/milli" positionX="650" positionY="300"/>
+<Connection from="2/sporcu" to="1/milli" with="mod"/>
+<Word name="4/maç" positionX="750" positionY="200"/>
+<Connection from="6/puan 7/kazan" to="4/maç" with="location"/>
+<Word name="3/bu" positionX="650" positionY="300"/>
+<Connection from="4/maç" to="3/bu" with="mod"/>
+<Word name="5/da" positionX="750" positionY="300"/>
+<Connection from="4/maç" to="5/da"/>
+</Amr>

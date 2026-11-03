@@ -1,0 +1,13 @@
+<Amr sentence="Annesini olmayacak kişilerin yanında yerdi .">
+<Word name="5/yer" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/yer" to="o" with="ARG0"/>
+<Word name="1/anne 2/ol" positionX="750" positionY="200"/>
+<Connection from="5/yer" to="1/anne 2/ol"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="1/anne 2/ol" to="-" with="polarity"/>
+<Word name="4/yan" positionX="850" positionY="200"/>
+<Connection from="5/yer" to="4/yan" with="location"/>
+<Word name="3/kişi" positionX="750" positionY="300"/>
+<Connection from="4/yan" to="3/kişi" with="mod"/>
+</Amr>

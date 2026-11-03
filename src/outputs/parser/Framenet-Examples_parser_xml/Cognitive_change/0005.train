@@ -1,0 +1,15 @@
+<Amr sentence="İstediğini almak için gerekirse bin kalıba girer .">
+<Word name="5/bin 6/kalıp 7/gir" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/bin 6/kalıp 7/gir" to="o" with="ARG0"/>
+<Word name="2/al" positionX="750" positionY="200"/>
+<Connection from="5/bin 6/kalıp 7/gir" to="2/al" with="cause"/>
+<Connection from="2/al" to="o" with="ARG0"/>
+<Word name="1/iste" positionX="750" positionY="300"/>
+<Connection from="2/al" to="1/iste"/>
+<Connection from="1/iste" to="o" with="ARG0"/>
+<Connection from="1/iste" to="o" with="poss"/>
+<Word name="4/gerek" positionX="850" positionY="200"/>
+<Connection from="5/bin 6/kalıp 7/gir" to="4/gerek" with="cond"/>
+<Connection from="4/gerek" to="o" with="ARG0"/>
+</Amr>

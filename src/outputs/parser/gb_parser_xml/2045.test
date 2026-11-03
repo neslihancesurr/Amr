@@ -1,0 +1,31 @@
+<Amr sentence="Bana öyle geliyor ki Ömer'le ablasının araları pek iyi değil .">
+<Word name="2/öyle 3/gel" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="2/öyle 3/gel" to="o" with="ARG0"/>
+<Word name="1/ben" positionX="750" positionY="200"/>
+<Connection from="2/öyle 3/gel" to="1/ben"/>
+<Word name="9/iyi" positionX="850" positionY="200"/>
+<Connection from="2/öyle 3/gel" to="9/iyi"/>
+<Word name="4/ki" positionX="750" positionY="300"/>
+<Connection from="9/iyi" to="4/ki"/>
+<Word name="and" positionX="850" positionY="300"/>
+<Connection from="9/iyi" to="and"/>
+<Word name="6/abla" positionX="750" positionY="400"/>
+<Connection from="and" to="6/abla" with="op1"/>
+<Connection from="6/abla" to="o" with="poss"/>
+<Word name="person" positionX="850" positionY="400"/>
+<Connection from="and" to="person" with="instrument"/>
+<Word name="name" positionX="750" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="5/ömer" positionX="650" positionY="600"/>
+<Connection from="name" to="5/ömer" with="op1"/>
+<Word name="-" positionX="850" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="7/ara" positionX="950" positionY="300"/>
+<Connection from="9/iyi" to="7/ara"/>
+<Word name="onlar" positionX="850" positionY="400"/>
+<Connection from="7/ara" to="onlar" with="poss"/>
+<Word name="8/pek" positionX="1050" positionY="300"/>
+<Connection from="9/iyi" to="8/pek" with="manner"/>
+<Connection from="9/iyi" to="-" with="polarity"/>
+</Amr>

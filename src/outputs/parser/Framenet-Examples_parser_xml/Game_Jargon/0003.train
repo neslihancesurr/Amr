@@ -1,0 +1,9 @@
+<Amr sentence="Çaresiz kalınca koz kırdı .">
+<Word name="3/koz 4/kır" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/koz 4/kır" to="o" with="ARG0"/>
+<Word name="2/kalınca" positionX="750" positionY="200"/>
+<Connection from="3/koz 4/kır" to="2/kalınca"/>
+<Word name="1/çaresiz" positionX="650" positionY="300"/>
+<Connection from="2/kalınca" to="1/çaresiz" with="manner"/>
+</Amr>

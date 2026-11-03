@@ -1,0 +1,13 @@
+<Amr sentence="Yabani otlar yeni ekilen gül fidelerini ürküttü .">
+<Word name="7/ürküt" positionX="750" positionY="100"/>
+<Word name="1/yabani 2/ot" positionX="650" positionY="200"/>
+<Connection from="7/ürküt" to="1/yabani 2/ot" with="ARG0"/>
+<Word name="6/fide" positionX="750" positionY="200"/>
+<Connection from="7/ürküt" to="6/fide" with="ARG1"/>
+<Word name="4/ek" positionX="650" positionY="300"/>
+<Connection from="6/fide" to="4/ek"/>
+<Word name="3/yeni" positionX="550" positionY="400"/>
+<Connection from="4/ek" to="3/yeni" with="manner"/>
+<Word name="5/gül" positionX="750" positionY="300"/>
+<Connection from="6/fide" to="5/gül" with="mod"/>
+</Amr>

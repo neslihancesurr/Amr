@@ -1,0 +1,34 @@
+<Amr sentence="İstanbul'da oturuyor olsaydım her akşam tiyatro ya da konsere gidebilirdim .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="10/git" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="10/git"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="10/git" to="ben" with="ARG0"/>
+<Word name="3/ol" positionX="650" positionY="300"/>
+<Connection from="10/git" to="3/ol"/>
+<Connection from="3/ol" to="ben" with="ARG0"/>
+<Word name="2/otur" positionX="650" positionY="400"/>
+<Connection from="3/ol" to="2/otur"/>
+<Word name="city" positionX="550" positionY="500"/>
+<Connection from="2/otur" to="city" with="location"/>
+<Word name="name" positionX="450" positionY="600"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="1/istanbul" positionX="350" positionY="700"/>
+<Connection from="name" to="1/istanbul" with="op1"/>
+<Word name="istanbul" positionX="550" positionY="600"/>
+<Connection from="city" to="istanbul" with="wiki"/>
+<Word name="5/akşam" positionX="750" positionY="300"/>
+<Connection from="10/git" to="5/akşam"/>
+<Word name="4/her" positionX="650" positionY="400"/>
+<Connection from="5/akşam" to="4/her" with="mod"/>
+<Word name="and" positionX="850" positionY="300"/>
+<Connection from="10/git" to="and"/>
+<Word name="9/konser" positionX="750" positionY="400"/>
+<Connection from="and" to="9/konser" with="mod"/>
+<Word name="7/ya" positionX="650" positionY="500"/>
+<Connection from="9/konser" to="7/ya"/>
+<Word name="8/da" positionX="550" positionY="600"/>
+<Connection from="7/ya" to="8/da"/>
+<Word name="6/tiyatro" positionX="850" positionY="400"/>
+<Connection from="and" to="6/tiyatro" with="mod"/>
+</Amr>

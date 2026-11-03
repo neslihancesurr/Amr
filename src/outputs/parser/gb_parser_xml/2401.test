@@ -1,0 +1,31 @@
+<Amr sentence="Hakan'ın çene çalmasından başka çocukların koşuşması da beni deli ediyordu .">
+<Word name="9/deli 10/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="9/deli 10/et" to="o" with="ARG0"/>
+<Word name="3/çal" positionX="750" positionY="200"/>
+<Connection from="9/deli 10/et" to="3/çal"/>
+<Connection from="3/çal" to="o" with="ARG0"/>
+<Connection from="3/çal" to="o" with="poss"/>
+<Word name="person" positionX="850" positionY="300"/>
+<Connection from="3/çal" to="person"/>
+<Word name="name" positionX="750" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/hakan" positionX="650" positionY="500"/>
+<Connection from="name" to="1/hakan" with="op1"/>
+<Word name="-" positionX="850" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/çene" positionX="950" positionY="300"/>
+<Connection from="3/çal" to="2/çene"/>
+<Word name="4/başka" positionX="1050" positionY="300"/>
+<Connection from="3/çal" to="4/başka"/>
+<Word name="6/koşuş" positionX="850" positionY="200"/>
+<Connection from="9/deli 10/et" to="6/koşuş"/>
+<Connection from="6/koşuş" to="o" with="ARG0"/>
+<Connection from="6/koşuş" to="o" with="poss"/>
+<Word name="5/çocuk" positionX="950" positionY="300"/>
+<Connection from="6/koşuş" to="5/çocuk"/>
+<Word name="7/da" positionX="1050" positionY="300"/>
+<Connection from="6/koşuş" to="7/da"/>
+<Word name="8/ben" positionX="950" positionY="200"/>
+<Connection from="9/deli 10/et" to="8/ben"/>
+</Amr>

@@ -1,0 +1,12 @@
+<Amr sentence="Sevgilisini birkaç gün ağırsadı .">
+<Word name="4/ağırsa" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/ağırsa" to="o" with="ARG0"/>
+<Word name="1/sevgili" positionX="750" positionY="200"/>
+<Connection from="4/ağırsa" to="1/sevgili" with="ARG1"/>
+<Connection from="1/sevgili" to="o" with="poss"/>
+<Word name="3/gün" positionX="850" positionY="200"/>
+<Connection from="4/ağırsa" to="3/gün" with="mod"/>
+<Word name="2/birkaç" positionX="750" positionY="300"/>
+<Connection from="3/gün" to="2/birkaç" with="mod"/>
+</Amr>

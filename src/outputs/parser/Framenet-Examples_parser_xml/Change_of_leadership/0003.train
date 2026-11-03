@@ -1,0 +1,11 @@
+<Amr sentence="Yeni müdürü makama getirmişlerdi .">
+<Word name="4/getir" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/getir" to="onlar" with="ARG0"/>
+<Word name="2/müdür" positionX="750" positionY="200"/>
+<Connection from="4/getir" to="2/müdür" with="ARG1"/>
+<Word name="1/yeni" positionX="650" positionY="300"/>
+<Connection from="2/müdür" to="1/yeni" with="mod"/>
+<Word name="3/makam" positionX="850" positionY="200"/>
+<Connection from="4/getir" to="3/makam" with="ARG2"/>
+</Amr>

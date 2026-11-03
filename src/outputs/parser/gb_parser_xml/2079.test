@@ -1,0 +1,26 @@
+<Amr sentence="Evi kendim temizlemek , başkasına temizletmekten daha kolay geliyor .">
+<Word name="9/gel" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="9/gel" to="o" with="ARG0"/>
+<Word name="3/temizle" positionX="750" positionY="200"/>
+<Connection from="9/gel" to="3/temizle"/>
+<Connection from="3/temizle" to="o" with="ARG0"/>
+<Word name="1/ev" positionX="750" positionY="300"/>
+<Connection from="3/temizle" to="1/ev"/>
+<Word name="2/kendi" positionX="850" positionY="300"/>
+<Connection from="3/temizle" to="2/kendi"/>
+<Word name="ben" positionX="750" positionY="400"/>
+<Connection from="2/kendi" to="ben" with="poss"/>
+<Word name="yap" positionX="850" positionY="200"/>
+<Connection from="9/gel" to="yap"/>
+<Word name="6/temizle" positionX="750" positionY="300"/>
+<Connection from="yap" to="6/temizle"/>
+<Connection from="6/temizle" to="o" with="ARG0"/>
+<Word name="5/başkası" positionX="750" positionY="400"/>
+<Connection from="6/temizle" to="5/başkası"/>
+<Connection from="5/başkası" to="o" with="poss"/>
+<Word name="8/kolay" positionX="950" positionY="200"/>
+<Connection from="9/gel" to="8/kolay"/>
+<Word name="7/daha" positionX="850" positionY="300"/>
+<Connection from="8/kolay" to="7/daha" with="degree"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Kızlar denize doğru koşuyordu .">
+<Word name="4/koş" positionX="750" positionY="100"/>
+<Word name="1/kız" positionX="650" positionY="200"/>
+<Connection from="4/koş" to="1/kız" with="ARG0"/>
+<Word name="2/deniz" positionX="750" positionY="200"/>
+<Connection from="4/koş" to="2/deniz"/>
+<Word name="3/doğru" positionX="650" positionY="300"/>
+<Connection from="2/deniz" to="3/doğru"/>
+</Amr>

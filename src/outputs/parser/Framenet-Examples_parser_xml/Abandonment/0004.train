@@ -1,0 +1,13 @@
+<Amr sentence="Bu sene bizim tarlayı kendi hâlinde bırakacağım .">
+<Word name="5/kendi 6/hâlinde 7/bırak" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/kendi 6/hâlinde 7/bırak" to="ben" with="ARG0"/>
+<Word name="2/sene" positionX="750" positionY="200"/>
+<Connection from="5/kendi 6/hâlinde 7/bırak" to="2/sene" with="mod"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/sene" to="1/bu" with="mod"/>
+<Word name="4/tarla" positionX="850" positionY="200"/>
+<Connection from="5/kendi 6/hâlinde 7/bırak" to="4/tarla" with="ARG1"/>
+<Word name="3/biz" positionX="750" positionY="300"/>
+<Connection from="4/tarla" to="3/biz" with="mod"/>
+</Amr>

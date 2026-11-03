@@ -1,0 +1,9 @@
+<Amr sentence="Bir el daha okey çevirelim .">
+<Word name="5/çevir" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/çevir" to="biz" with="ARG0"/>
+<Word name="1/bir" positionX="750" positionY="200"/>
+<Connection from="5/çevir" to="1/bir"/>
+<Word name="4/okey" positionX="850" positionY="200"/>
+<Connection from="5/çevir" to="4/okey" with="ARG1"/>
+</Amr>

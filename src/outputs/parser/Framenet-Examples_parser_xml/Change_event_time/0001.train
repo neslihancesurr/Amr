@@ -1,0 +1,9 @@
+<Amr sentence="Çalışmaya bir süre ara verdim .">
+<Word name="4/ara 5/ver" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/ara 5/ver" to="ben" with="ARG0"/>
+<Word name="1/çalışma" positionX="750" positionY="200"/>
+<Connection from="4/ara 5/ver" to="1/çalışma" with="ARG1"/>
+<Word name="3/süre" positionX="850" positionY="200"/>
+<Connection from="4/ara 5/ver" to="3/süre"/>
+</Amr>

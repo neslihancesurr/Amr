@@ -1,0 +1,15 @@
+<Amr sentence="O kalmış pırasayı yedi ya , şimdi midesi kaynıyor .">
+<Word name="8/mide 9/kayna" positionX="750" positionY="100"/>
+<Word name="4/ye" positionX="650" positionY="200"/>
+<Connection from="8/mide 9/kayna" to="4/ye"/>
+<Word name="3/pırasa" positionX="550" positionY="300"/>
+<Connection from="4/ye" to="3/pırasa" with="ARG1"/>
+<Word name="1/o" positionX="450" positionY="400"/>
+<Connection from="3/pırasa" to="1/o" with="mod"/>
+<Word name="2/kal" positionX="550" positionY="400"/>
+<Connection from="3/pırasa" to="2/kal"/>
+<Word name="5/ya" positionX="650" positionY="300"/>
+<Connection from="4/ye" to="5/ya"/>
+<Word name="7/şimdi" positionX="750" positionY="200"/>
+<Connection from="8/mide 9/kayna" to="7/şimdi" with="manner"/>
+</Amr>

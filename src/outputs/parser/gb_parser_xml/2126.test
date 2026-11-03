@@ -1,0 +1,30 @@
+<Amr sentence="Adana'ya geldiğimin ikinci günü Turhan'la görüştük .">
+<Word name="6/görüş" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="6/görüş" to="biz" with="ARG0"/>
+<Word name="4/gün" positionX="750" positionY="200"/>
+<Connection from="6/görüş" to="4/gün"/>
+<Word name="2/gel" positionX="650" positionY="300"/>
+<Connection from="4/gün" to="2/gel"/>
+<Word name="ben" positionX="550" positionY="400"/>
+<Connection from="2/gel" to="ben" with="ARG0"/>
+<Word name="city" positionX="650" positionY="400"/>
+<Connection from="2/gel" to="city"/>
+<Word name="name" positionX="550" positionY="500"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="1/adana" positionX="450" positionY="600"/>
+<Connection from="name" to="1/adana" with="op1"/>
+<Word name="adana" positionX="650" positionY="500"/>
+<Connection from="city" to="adana" with="wiki"/>
+<Word name="ordinal-entity" positionX="750" positionY="300"/>
+<Connection from="4/gün" to="ordinal-entity" with="ord"/>
+<Word name="2" positionX="650" positionY="400"/>
+<Connection from="ordinal-entity" to="2" with="value"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="6/görüş" to="person" with="instrument"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="5/turhan" positionX="650" positionY="400"/>
+<Connection from="name" to="5/turhan" with="op1"/>
+<Word name="-" positionX="850" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

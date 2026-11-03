@@ -1,0 +1,13 @@
+<Amr sentence="Hamakta sallanıyordum , çok güzeldi .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/salla" positionX="650" positionY="200"/>
+<Connection from="and" to="2/salla" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="2/salla" to="ben" with="ARG0"/>
+<Word name="1/hamak" positionX="650" positionY="300"/>
+<Connection from="2/salla" to="1/hamak" with="location"/>
+<Word name="5/güzel" positionX="750" positionY="200"/>
+<Connection from="and" to="5/güzel" with="op2"/>
+<Word name="4/çok" positionX="650" positionY="300"/>
+<Connection from="5/güzel" to="4/çok" with="degree"/>
+</Amr>

@@ -1,0 +1,32 @@
+<Amr sentence="Aysel oğlunu Amerika'da okutma isteğini yenemiyordu .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="6/yen" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="6/yen"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="6/yen" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="6/yen" to="o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="6/yen" to="person"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/aysel" positionX="550" positionY="500"/>
+<Connection from="name" to="1/aysel" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/istek" positionX="850" positionY="300"/>
+<Connection from="6/yen" to="5/istek"/>
+<Connection from="5/istek" to="o" with="poss"/>
+<Word name="yap" positionX="850" positionY="400"/>
+<Connection from="5/istek" to="yap"/>
+<Word name="4/oku" positionX="750" positionY="500"/>
+<Connection from="yap" to="4/oku"/>
+<Connection from="4/oku" to="o" with="ARG0"/>
+<Word name="2/oğul" positionX="750" positionY="600"/>
+<Connection from="4/oku" to="2/oğul"/>
+<Connection from="2/oğul" to="o" with="poss"/>
+<Connection from="4/oku" to="person" with="location"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/amerika" positionX="650" positionY="800"/>
+<Connection from="name" to="3/amerika" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

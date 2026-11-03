@@ -1,0 +1,15 @@
+<Amr sentence="Daha büyük bir araba almayı düşünüyoruz .">
+<Word name="6/düşün" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="6/düşün" to="biz" with="ARG0"/>
+<Word name="5/al" positionX="750" positionY="200"/>
+<Connection from="6/düşün" to="5/al" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/al" to="o" with="ARG0"/>
+<Word name="4/araba" positionX="750" positionY="300"/>
+<Connection from="5/al" to="4/araba"/>
+<Word name="2/büyük" positionX="650" positionY="400"/>
+<Connection from="4/araba" to="2/büyük" with="mod"/>
+<Word name="1/daha" positionX="550" positionY="500"/>
+<Connection from="2/büyük" to="1/daha" with="degree"/>
+</Amr>

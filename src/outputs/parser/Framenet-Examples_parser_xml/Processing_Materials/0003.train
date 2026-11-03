@@ -1,0 +1,11 @@
+<Amr sentence="Evin her odasına boya vuruldu .">
+<Word name="4/boya 5/vur" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/boya 5/vur" to="o" with="ARG0"/>
+<Word name="3/oda" positionX="750" positionY="200"/>
+<Connection from="4/boya 5/vur" to="3/oda" with="ARG1"/>
+<Word name="1/ev" positionX="650" positionY="300"/>
+<Connection from="3/oda" to="1/ev" with="mod"/>
+<Word name="2/her" positionX="750" positionY="300"/>
+<Connection from="3/oda" to="2/her" with="mod"/>
+</Amr>

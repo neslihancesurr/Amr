@@ -1,0 +1,20 @@
+<Amr sentence="Balta ve küskü ile onu kaldırır , aşağıya yuvarlarız .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/kaldır" positionX="650" positionY="200"/>
+<Connection from="and" to="6/kaldır" with="op1"/>
+<Connection from="6/kaldır" to="and"/>
+<Word name="3/küskü" positionX="450" positionY="400"/>
+<Connection from="and" to="3/küskü" with="op1"/>
+<Word name="4/ile" positionX="350" positionY="500"/>
+<Connection from="3/küskü" to="4/ile"/>
+<Word name="1/balta" positionX="550" positionY="400"/>
+<Connection from="and" to="1/balta" with="op2"/>
+<Word name="5/o" positionX="650" positionY="300"/>
+<Connection from="6/kaldır" to="5/o" with="ARG1"/>
+<Word name="9/yuvarla" positionX="750" positionY="200"/>
+<Connection from="and" to="9/yuvarla" with="op2"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="9/yuvarla" to="biz" with="ARG0"/>
+<Word name="8/aşağı" positionX="750" positionY="300"/>
+<Connection from="9/yuvarla" to="8/aşağı"/>
+</Amr>

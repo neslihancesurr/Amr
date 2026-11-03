@@ -1,0 +1,18 @@
+<Amr sentence="Paranı nerede bulamayınca telaşa kapıldın ?">
+<Word name="5/kapıl" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="5/kapıl" to="sen" with="ARG0"/>
+<Word name="mümkün" positionX="750" positionY="200"/>
+<Connection from="5/kapıl" to="mümkün"/>
+<Word name="3/bul" positionX="650" positionY="300"/>
+<Connection from="mümkün" to="3/bul"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="3/bul" to="-" with="polarity"/>
+<Word name="1/para" positionX="650" positionY="400"/>
+<Connection from="3/bul" to="1/para" with="ARG1"/>
+<Connection from="1/para" to="sen" with="poss"/>
+<Word name="2/nere" positionX="750" positionY="400"/>
+<Connection from="3/bul" to="2/nere" with="location"/>
+<Word name="4/telaş" positionX="850" positionY="200"/>
+<Connection from="5/kapıl" to="4/telaş" with="ARG1"/>
+</Amr>

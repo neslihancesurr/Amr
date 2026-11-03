@@ -1,0 +1,11 @@
+<Amr sentence="Sözünüzü senet ittihaz ediyorum .">
+<Word name="3/ittihaz 4/et" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/ittihaz 4/et" to="ben" with="ARG0"/>
+<Word name="1/söz" positionX="750" positionY="200"/>
+<Connection from="3/ittihaz 4/et" to="1/söz" with="ARG1"/>
+<Word name="siz" positionX="650" positionY="300"/>
+<Connection from="1/söz" to="siz" with="poss"/>
+<Word name="2/senet" positionX="850" positionY="200"/>
+<Connection from="3/ittihaz 4/et" to="2/senet" with="ARG2"/>
+</Amr>

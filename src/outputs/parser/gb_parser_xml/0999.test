@@ -1,0 +1,15 @@
+<Amr sentence="Bunu asıl senin amcan iyi yapar .">
+<Word name="6/yap" positionX="750" positionY="100"/>
+<Word name="1/bu" positionX="650" positionY="200"/>
+<Connection from="6/yap" to="1/bu" with="ARG1"/>
+<Word name="2/asıl" positionX="750" positionY="200"/>
+<Connection from="6/yap" to="2/asıl" with="mod"/>
+<Word name="4/amca" positionX="850" positionY="200"/>
+<Connection from="6/yap" to="4/amca" with="ARG0"/>
+<Word name="sen" positionX="750" positionY="300"/>
+<Connection from="4/amca" to="sen" with="poss"/>
+<Word name="3/sen" positionX="850" positionY="300"/>
+<Connection from="4/amca" to="3/sen" with="mod"/>
+<Word name="5/iyi" positionX="950" positionY="200"/>
+<Connection from="6/yap" to="5/iyi" with="manner"/>
+</Amr>

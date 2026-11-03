@@ -1,0 +1,11 @@
+<Amr sentence="Kocası bir hata ederse karısı elbette ihtar eder .">
+<Word name="7/ihtar 8/et" positionX="750" positionY="100"/>
+<Word name="3/hata 4/et" positionX="650" positionY="200"/>
+<Connection from="7/ihtar 8/et" to="3/hata 4/et"/>
+<Word name="5/karı" positionX="750" positionY="200"/>
+<Connection from="7/ihtar 8/et" to="5/karı" with="ARG0"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/karı" to="o" with="poss"/>
+<Word name="6/elbette" positionX="850" positionY="200"/>
+<Connection from="7/ihtar 8/et" to="6/elbette" with="manner"/>
+</Amr>

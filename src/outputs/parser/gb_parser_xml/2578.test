@@ -1,0 +1,15 @@
+<Amr sentence="Kime sorduksa aynı cevabı aldık .">
+<Word name="5/al" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/al" to="biz" with="ARG0"/>
+<Word name="2/sorduk" positionX="750" positionY="200"/>
+<Connection from="5/al" to="2/sorduk" with="cond"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/sorduk" to="o" with="ARG0"/>
+<Word name="1/kim" positionX="750" positionY="300"/>
+<Connection from="2/sorduk" to="1/kim"/>
+<Word name="4/cevap" positionX="850" positionY="200"/>
+<Connection from="5/al" to="4/cevap" with="ARG1"/>
+<Word name="3/aynı" positionX="750" positionY="300"/>
+<Connection from="4/cevap" to="3/aynı" with="mod"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Kadın biraz yoğurtla süte maya çaldı .">
+<Word name="5/maya 6/çal" positionX="750" positionY="100"/>
+<Word name="1/kadın" positionX="650" positionY="200"/>
+<Connection from="5/maya 6/çal" to="1/kadın" with="ARG0"/>
+<Word name="3/yoğurt" positionX="750" positionY="200"/>
+<Connection from="5/maya 6/çal" to="3/yoğurt" with="ARG1"/>
+<Word name="2/biraz" positionX="650" positionY="300"/>
+<Connection from="3/yoğurt" to="2/biraz" with="mod"/>
+<Word name="4/süt" positionX="850" positionY="200"/>
+<Connection from="5/maya 6/çal" to="4/süt" with="ARG2"/>
+</Amr>

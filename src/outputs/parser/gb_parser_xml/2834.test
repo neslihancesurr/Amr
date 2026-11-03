@@ -1,0 +1,7 @@
+<Amr sentence="- Tabii . Ben yaptım .">
+<Word name="5/yap" positionX="750" positionY="100"/>
+<Word name="2/tabii" positionX="650" positionY="200"/>
+<Connection from="5/yap" to="2/tabii"/>
+<Word name="4/ben" positionX="750" positionY="200"/>
+<Connection from="5/yap" to="4/ben"/>
+</Amr>

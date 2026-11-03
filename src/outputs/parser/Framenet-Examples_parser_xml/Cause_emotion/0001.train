@@ -1,0 +1,11 @@
+<Amr sentence="Kadını kendisine aşık etti .">
+<Word name="3/aşık 4/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/aşık 4/et" to="o" with="ARG0"/>
+<Word name="1/kadın" positionX="750" positionY="200"/>
+<Connection from="3/aşık 4/et" to="1/kadın" with="ARG1"/>
+<Connection from="1/kadın" to="o" with="poss"/>
+<Word name="2/kendi" positionX="850" positionY="200"/>
+<Connection from="3/aşık 4/et" to="2/kendi"/>
+<Connection from="2/kendi" to="o" with="poss"/>
+</Amr>

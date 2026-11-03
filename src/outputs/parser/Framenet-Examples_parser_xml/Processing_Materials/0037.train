@@ -1,0 +1,11 @@
+<Amr sentence="Çileklerin tamamını şekere buladık .">
+<Word name="4/bula" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="4/bula" to="biz" with="ARG0"/>
+<Word name="2/tamam" positionX="750" positionY="200"/>
+<Connection from="4/bula" to="2/tamam" with="ARG1"/>
+<Word name="1/çilek" positionX="650" positionY="300"/>
+<Connection from="2/tamam" to="1/çilek" with="mod"/>
+<Word name="3/şeker" positionX="850" positionY="200"/>
+<Connection from="4/bula" to="3/şeker"/>
+</Amr>

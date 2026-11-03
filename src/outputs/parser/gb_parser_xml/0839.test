@@ -1,0 +1,15 @@
+<Amr sentence="Kimse buradan kolay kolay kaçamaz .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="5/kaç" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="5/kaç"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="5/kaç" to="-" with="polarity"/>
+<Word name="1/kimse" positionX="650" positionY="300"/>
+<Connection from="5/kaç" to="1/kimse" with="ARG0"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="1/kimse" to="o" with="poss"/>
+<Word name="2/buradan" positionX="750" positionY="300"/>
+<Connection from="5/kaç" to="2/buradan"/>
+<Word name="3/kolay 4/kolay" positionX="850" positionY="300"/>
+<Connection from="5/kaç" to="3/kolay 4/kolay"/>
+</Amr>

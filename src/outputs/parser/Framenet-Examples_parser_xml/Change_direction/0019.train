@@ -1,0 +1,5 @@
+<Amr sentence="Tekne dalgayı başa aldı .">
+<Word name="2/dalga 3/baş 4/al" positionX="750" positionY="100"/>
+<Word name="1/tekne" positionX="650" positionY="200"/>
+<Connection from="2/dalga 3/baş 4/al" to="1/tekne" with="ARG0"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Kocası evin renginde ısrar ediyor .">
+<Word name="4/ısrar 5/et" positionX="750" positionY="100"/>
+<Word name="1/koca" positionX="650" positionY="200"/>
+<Connection from="4/ısrar 5/et" to="1/koca" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/koca" to="o" with="poss"/>
+<Word name="3/renk" positionX="750" positionY="200"/>
+<Connection from="4/ısrar 5/et" to="3/renk" with="ARG1"/>
+<Word name="2/ev" positionX="650" positionY="300"/>
+<Connection from="3/renk" to="2/ev" with="mod"/>
+</Amr>

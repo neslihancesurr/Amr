@@ -1,0 +1,7 @@
+<Amr sentence="Dişi sallanıyor .">
+<Word name="2/salla" positionX="750" positionY="100"/>
+<Word name="1/diş" positionX="650" positionY="200"/>
+<Connection from="2/salla" to="1/diş" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/diş" to="o" with="poss"/>
+</Amr>

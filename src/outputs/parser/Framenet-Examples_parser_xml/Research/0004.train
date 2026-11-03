@@ -1,0 +1,18 @@
+<Amr sentence="İbni Haldun külliyatını tetebbu etmişti .">
+<Word name="4/tetebbu 5/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/tetebbu 5/et" to="o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="4/tetebbu 5/et" to="person" with="ARG1"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ibni" positionX="550" positionY="400"/>
+<Connection from="name" to="1/ibni" with="op1"/>
+<Word name="2/haldun" positionX="650" positionY="400"/>
+<Connection from="name" to="2/haldun" with="op2"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/külliyat" positionX="850" positionY="200"/>
+<Connection from="4/tetebbu 5/et" to="3/külliyat" with="ARG1"/>
+<Connection from="3/külliyat" to="o" with="poss"/>
+</Amr>

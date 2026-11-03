@@ -1,0 +1,7 @@
+<Amr sentence="O sırada lise öğrencisiydik .">
+<Word name="4/öğrenci" positionX="750" positionY="100"/>
+<Word name="1/o 2/sıra" positionX="650" positionY="200"/>
+<Connection from="4/öğrenci" to="1/o 2/sıra" with="mod"/>
+<Word name="3/lise" positionX="750" positionY="200"/>
+<Connection from="4/öğrenci" to="3/lise" with="mod"/>
+</Amr>

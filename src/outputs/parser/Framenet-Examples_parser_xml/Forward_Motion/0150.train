@@ -1,0 +1,23 @@
+<Amr sentence="Herkes çok acıktı , masayı çok beklemeden kurdum .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/acık" positionX="650" positionY="200"/>
+<Connection from="and" to="3/acık" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/acık" to="o" with="ARG0"/>
+<Word name="1/herkes" positionX="650" positionY="300"/>
+<Connection from="3/acık" to="1/herkes" with="ARG1"/>
+<Word name="onlar" positionX="550" positionY="400"/>
+<Connection from="1/herkes" to="onlar" with="poss"/>
+<Word name="2/çok" positionX="750" positionY="300"/>
+<Connection from="3/acık" to="2/çok" with="degree"/>
+<Word name="8/kur" positionX="750" positionY="200"/>
+<Connection from="and" to="8/kur" with="op2"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="8/kur" to="ben" with="ARG0"/>
+<Word name="5/masa" positionX="750" positionY="300"/>
+<Connection from="8/kur" to="5/masa" with="ARG1"/>
+<Word name="7/bekle" positionX="850" positionY="300"/>
+<Connection from="8/kur" to="7/bekle"/>
+<Word name="6/çok" positionX="750" positionY="400"/>
+<Connection from="7/bekle" to="6/çok" with="degree"/>
+</Amr>

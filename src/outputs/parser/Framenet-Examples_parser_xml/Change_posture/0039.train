@@ -1,0 +1,16 @@
+<Amr sentence="Sedyenin üzerine yatarak doktorun gelmesini bekledi .">
+<Word name="6/bekle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/bekle" to="o" with="ARG0"/>
+<Word name="3/yat" positionX="750" positionY="200"/>
+<Connection from="6/bekle" to="3/yat"/>
+<Word name="2/üzerine" positionX="650" positionY="300"/>
+<Connection from="3/yat" to="2/üzerine" with="manner"/>
+<Word name="1/sedye" positionX="550" positionY="400"/>
+<Connection from="2/üzerine" to="1/sedye" with="mod"/>
+<Word name="5/gel" positionX="850" positionY="200"/>
+<Connection from="6/bekle" to="5/gel" with="ARG1"/>
+<Connection from="5/gel" to="o" with="poss"/>
+<Word name="4/doktor" positionX="850" positionY="300"/>
+<Connection from="5/gel" to="4/doktor" with="ARG0"/>
+</Amr>

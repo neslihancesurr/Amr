@@ -1,0 +1,17 @@
+<Amr sentence="Fasulye kart olduğundan üç saatte pişti .">
+<Word name="6/piş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/piş" to="o" with="ARG0"/>
+<Word name="3/ol" positionX="750" positionY="200"/>
+<Connection from="6/piş" to="3/ol"/>
+<Connection from="3/ol" to="o" with="ARG0"/>
+<Connection from="3/ol" to="o" with="poss"/>
+<Word name="1/fasulye" positionX="850" positionY="300"/>
+<Connection from="3/ol" to="1/fasulye"/>
+<Word name="2/kart" positionX="950" positionY="300"/>
+<Connection from="3/ol" to="2/kart" with="manner"/>
+<Word name="5/saat" positionX="850" positionY="200"/>
+<Connection from="6/piş" to="5/saat" with="location"/>
+<Word name="4/üç" positionX="750" positionY="300"/>
+<Connection from="5/saat" to="4/üç"/>
+</Amr>

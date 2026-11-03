@@ -1,0 +1,13 @@
+<Amr sentence="Nasıl bir eve taşınmak istiyorsunuz ?">
+<Word name="5/iste" positionX="750" positionY="100"/>
+<Word name="siz" positionX="650" positionY="200"/>
+<Connection from="5/iste" to="siz" with="ARG0"/>
+<Word name="4/taşın" positionX="750" positionY="200"/>
+<Connection from="5/iste" to="4/taşın"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="4/taşın" to="o" with="ARG0"/>
+<Word name="3/ev" positionX="750" positionY="300"/>
+<Connection from="4/taşın" to="3/ev" with="ARG1"/>
+<Word name="1/nasıl" positionX="650" positionY="400"/>
+<Connection from="3/ev" to="1/nasıl" with="mod"/>
+</Amr>

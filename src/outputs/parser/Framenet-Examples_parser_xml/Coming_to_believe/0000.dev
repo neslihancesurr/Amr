@@ -1,0 +1,16 @@
+<Amr sentence="Orada tanıştığı birileri hemencecik derdine deva bulacaktı .">
+<Word name="5/dert 6/deva 7/bul" positionX="750" positionY="100"/>
+<Word name="3/biri" positionX="650" positionY="200"/>
+<Connection from="5/dert 6/deva 7/bul" to="3/biri" with="ARG0"/>
+<Word name="onlar" positionX="550" positionY="300"/>
+<Connection from="3/biri" to="onlar" with="poss"/>
+<Word name="2/tanış" positionX="650" positionY="300"/>
+<Connection from="3/biri" to="2/tanış"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="2/tanış" to="o" with="ARG0"/>
+<Connection from="2/tanış" to="o" with="poss"/>
+<Word name="1/orada" positionX="750" positionY="400"/>
+<Connection from="2/tanış" to="1/orada" with="ARG1"/>
+<Word name="4/hemencecik" positionX="750" positionY="200"/>
+<Connection from="5/dert 6/deva 7/bul" to="4/hemencecik" with="manner"/>
+</Amr>

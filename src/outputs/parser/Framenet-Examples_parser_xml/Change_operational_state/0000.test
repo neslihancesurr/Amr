@@ -1,0 +1,22 @@
+<Amr sentence="Emniyet kemerini tak , arabayı vitese tak , hazırsın .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/tak" positionX="650" positionY="200"/>
+<Connection from="and" to="3/tak" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="3/tak" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="650" positionY="300"/>
+<Connection from="3/tak" to="imperative" with="mode"/>
+<Word name="1/emniyet 2/kemer" positionX="750" positionY="300"/>
+<Connection from="3/tak" to="1/emniyet 2/kemer"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="1/emniyet 2/kemer" to="o" with="poss"/>
+<Word name="6/vites 7/tak" positionX="750" positionY="200"/>
+<Connection from="and" to="6/vites 7/tak" with="op2"/>
+<Connection from="6/vites 7/tak" to="sen" with="ARG0"/>
+<Connection from="6/vites 7/tak" to="imperative" with="mode"/>
+<Word name="5/araba" positionX="850" positionY="300"/>
+<Connection from="6/vites 7/tak" to="5/araba" with="ARG1"/>
+<Word name="9/hazır" positionX="850" positionY="200"/>
+<Connection from="and" to="9/hazır" with="op3"/>
+<Connection from="9/hazır" to="sen" with="poss"/>
+</Amr>

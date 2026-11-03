@@ -1,0 +1,12 @@
+<Amr sentence="Derisi kızgın güneşin altında yandı .">
+<Word name="5/yan" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/yan" to="o" with="ARG0"/>
+<Word name="1/deri" positionX="750" positionY="200"/>
+<Connection from="5/yan" to="1/deri"/>
+<Connection from="1/deri" to="o" with="poss"/>
+<Word name="3/güneş 4/alt" positionX="850" positionY="200"/>
+<Connection from="5/yan" to="3/güneş 4/alt" with="mod"/>
+<Word name="2/kızgın" positionX="750" positionY="300"/>
+<Connection from="3/güneş 4/alt" to="2/kızgın" with="mod"/>
+</Amr>

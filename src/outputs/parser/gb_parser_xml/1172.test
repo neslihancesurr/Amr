@@ -1,0 +1,14 @@
+<Amr sentence="Kendiniz oraya gitmeniz gerekiyor .">
+<Word name="4/gerek" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/gerek" to="o" with="ARG0"/>
+<Word name="3/gitme" positionX="750" positionY="200"/>
+<Connection from="4/gerek" to="3/gitme" with="ARG1"/>
+<Word name="siz" positionX="650" positionY="300"/>
+<Connection from="3/gitme" to="siz" with="poss"/>
+<Word name="1/kendi" positionX="750" positionY="300"/>
+<Connection from="3/gitme" to="1/kendi" with="ARG0"/>
+<Connection from="1/kendi" to="siz" with="poss"/>
+<Word name="2/ora" positionX="850" positionY="300"/>
+<Connection from="3/gitme" to="2/ora" with="ARG1"/>
+</Amr>

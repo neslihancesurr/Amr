@@ -1,0 +1,19 @@
+<Amr sentence="Şimdi belediye ile anlaşamayan müteşebbis cereyanı kesmiş .">
+<Word name="7/kes" positionX="750" positionY="100"/>
+<Word name="1/şimdi" positionX="650" positionY="200"/>
+<Connection from="7/kes" to="1/şimdi" with="manner"/>
+<Word name="5/müteşebbis" positionX="750" positionY="200"/>
+<Connection from="7/kes" to="5/müteşebbis" with="ARG0"/>
+<Word name="mümkün" positionX="650" positionY="300"/>
+<Connection from="5/müteşebbis" to="mümkün"/>
+<Word name="4/anlaş" positionX="550" positionY="400"/>
+<Connection from="mümkün" to="4/anlaş"/>
+<Word name="-" positionX="450" positionY="500"/>
+<Connection from="4/anlaş" to="-" with="polarity"/>
+<Word name="2/belediye" positionX="550" positionY="500"/>
+<Connection from="4/anlaş" to="2/belediye" with="ARG0"/>
+<Word name="3/ile" positionX="450" positionY="600"/>
+<Connection from="2/belediye" to="3/ile"/>
+<Word name="6/cereyan" positionX="850" positionY="200"/>
+<Connection from="7/kes" to="6/cereyan" with="ARG1"/>
+</Amr>

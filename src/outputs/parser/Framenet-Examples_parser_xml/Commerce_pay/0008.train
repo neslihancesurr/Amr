@@ -1,0 +1,15 @@
+<Amr sentence="Oraya çıkınca hamallara onar kuruştan hesap göreceksin .">
+<Word name="6/hesap 7/gör" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="6/hesap 7/gör" to="sen" with="ARG0"/>
+<Word name="2/çık" positionX="750" positionY="200"/>
+<Connection from="6/hesap 7/gör" to="2/çık"/>
+<Word name="1/oraya" positionX="650" positionY="300"/>
+<Connection from="2/çık" to="1/oraya"/>
+<Word name="3/hamal" positionX="850" positionY="200"/>
+<Connection from="6/hesap 7/gör" to="3/hamal" with="ARG1"/>
+<Word name="5/kuruş" positionX="950" positionY="200"/>
+<Connection from="6/hesap 7/gör" to="5/kuruş"/>
+<Word name="4/on" positionX="850" positionY="300"/>
+<Connection from="5/kuruş" to="4/on"/>
+</Amr>

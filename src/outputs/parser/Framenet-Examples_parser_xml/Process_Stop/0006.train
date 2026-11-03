@@ -1,0 +1,15 @@
+<Amr sentence="Şirket ödemeleri bu ay kesintiye uğradı .">
+<Word name="5/kesinti 6/uğra" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/kesinti 6/uğra" to="o" with="ARG0"/>
+<Word name="2/öde" positionX="750" positionY="200"/>
+<Connection from="5/kesinti 6/uğra" to="2/öde" with="ARG1"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="2/öde" to="onlar" with="ARG0"/>
+<Word name="1/şirket" positionX="750" positionY="300"/>
+<Connection from="2/öde" to="1/şirket" with="mod"/>
+<Word name="4/ay" positionX="850" positionY="200"/>
+<Connection from="5/kesinti 6/uğra" to="4/ay" with="mod"/>
+<Word name="3/bu" positionX="750" positionY="300"/>
+<Connection from="4/ay" to="3/bu" with="mod"/>
+</Amr>

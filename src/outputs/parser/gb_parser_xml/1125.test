@@ -1,0 +1,7 @@
+<Amr sentence="senin kadar bir çocuk">
+<Word name="4/çocuk" positionX="750" positionY="100"/>
+<Word name="1/sen" positionX="650" positionY="200"/>
+<Connection from="4/çocuk" to="1/sen" with="mod"/>
+<Word name="2/kadar" positionX="550" positionY="300"/>
+<Connection from="1/sen" to="2/kadar"/>
+</Amr>

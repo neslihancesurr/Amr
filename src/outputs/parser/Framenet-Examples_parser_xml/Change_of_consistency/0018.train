@@ -1,0 +1,11 @@
+<Amr sentence="Mağaranın içindeki taşlar kalkerleşmiş .">
+<Word name="4/kalkerleş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/kalkerleş" to="o" with="ARG0"/>
+<Word name="3/taş" positionX="750" positionY="200"/>
+<Connection from="4/kalkerleş" to="3/taş" with="ARG1"/>
+<Word name="2/iç" positionX="650" positionY="300"/>
+<Connection from="3/taş" to="2/iç" with="mod"/>
+<Word name="1/mağara" positionX="550" positionY="400"/>
+<Connection from="2/iç" to="1/mağara" with="mod"/>
+</Amr>

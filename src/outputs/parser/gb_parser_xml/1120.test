@@ -1,0 +1,18 @@
+<Amr sentence="Yokluğum süresince komşum her gün uğrayıp kediye yiyecek verdi .">
+<Word name="8/yiyecek 9/ver" positionX="750" positionY="100"/>
+<Word name="1/yokluk" positionX="650" positionY="200"/>
+<Connection from="8/yiyecek 9/ver" to="1/yokluk"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="1/yokluk" to="ben" with="poss"/>
+<Word name="2/süresince" positionX="650" positionY="300"/>
+<Connection from="1/yokluk" to="2/süresince"/>
+<Word name="3/komşu" positionX="750" positionY="200"/>
+<Connection from="8/yiyecek 9/ver" to="3/komşu" with="ARG0"/>
+<Connection from="3/komşu" to="ben" with="poss"/>
+<Word name="6/uğra" positionX="850" positionY="200"/>
+<Connection from="8/yiyecek 9/ver" to="6/uğra"/>
+<Word name="4/her 5/gün" positionX="750" positionY="300"/>
+<Connection from="6/uğra" to="4/her 5/gün" with="mod"/>
+<Word name="7/kedi" positionX="950" positionY="200"/>
+<Connection from="8/yiyecek 9/ver" to="7/kedi" with="ARG1"/>
+</Amr>

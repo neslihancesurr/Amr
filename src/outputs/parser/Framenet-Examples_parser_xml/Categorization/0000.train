@@ -1,0 +1,17 @@
+<Amr sentence="Yanlış yerde bekleyince bizi erkek tarafından saydılar .">
+<Word name="7/say" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="7/say" to="onlar" with="ARG0"/>
+<Word name="3/bekle" positionX="750" positionY="200"/>
+<Connection from="7/say" to="3/bekle"/>
+<Word name="2/yer" positionX="650" positionY="300"/>
+<Connection from="3/bekle" to="2/yer" with="ARG2"/>
+<Word name="1/yanlış" positionX="550" positionY="400"/>
+<Connection from="2/yer" to="1/yanlış" with="mod"/>
+<Word name="4/biz" positionX="850" positionY="200"/>
+<Connection from="7/say" to="4/biz" with="ARG1"/>
+<Word name="6/tarafından" positionX="950" positionY="200"/>
+<Connection from="7/say" to="6/tarafından" with="ARG2"/>
+<Word name="5/erkek" positionX="850" positionY="300"/>
+<Connection from="6/tarafından" to="5/erkek" with="mod"/>
+</Amr>

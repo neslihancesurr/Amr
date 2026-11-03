@@ -1,0 +1,19 @@
+<Amr sentence="Sen Ömer'i benden daha iyi tanıyordun .">
+<Word name="6/tanı" positionX="750" positionY="100"/>
+<Word name="1/sen" positionX="650" positionY="200"/>
+<Connection from="6/tanı" to="1/sen" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="6/tanı" to="person" with="ARG1"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/ömer" positionX="550" positionY="400"/>
+<Connection from="name" to="2/ömer" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/iyi" positionX="850" positionY="200"/>
+<Connection from="6/tanı" to="5/iyi" with="manner"/>
+<Word name="3/ben" positionX="750" positionY="300"/>
+<Connection from="5/iyi" to="3/ben"/>
+<Word name="4/daha" positionX="850" positionY="300"/>
+<Connection from="5/iyi" to="4/daha" with="degree"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr sentence="Sevil bu konuyu araştırsın .">
+<Word name="4/araştır" positionX="750" positionY="100"/>
+<Word name="imperative" positionX="650" positionY="200"/>
+<Connection from="4/araştır" to="imperative" with="mode"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="4/araştır" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/sevil" positionX="550" positionY="400"/>
+<Connection from="name" to="1/sevil" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/konu" positionX="850" positionY="200"/>
+<Connection from="4/araştır" to="3/konu" with="ARG1"/>
+<Word name="2/bu" positionX="750" positionY="300"/>
+<Connection from="3/konu" to="2/bu" with="mod"/>
+</Amr>

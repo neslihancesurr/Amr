@@ -1,0 +1,16 @@
+<Amr sentence="Düşeş atınca oğlanın pulunu vurdu .">
+<Word name="5/vur" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/vur" to="o" with="ARG0"/>
+<Word name="2/at" positionX="750" positionY="200"/>
+<Connection from="5/vur" to="2/at"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="2/at" to="sen" with="poss"/>
+<Word name="1/düşeş" positionX="750" positionY="300"/>
+<Connection from="2/at" to="1/düşeş"/>
+<Word name="4/pul" positionX="850" positionY="200"/>
+<Connection from="5/vur" to="4/pul" with="ARG1"/>
+<Connection from="4/pul" to="sen" with="poss"/>
+<Word name="3/oğlan" positionX="850" positionY="300"/>
+<Connection from="4/pul" to="3/oğlan" with="mod"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="kitap ya da deftersiz">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/defter" positionX="650" positionY="200"/>
+<Connection from="and" to="4/defter" with="op1"/>
+<Word name="2/ya" positionX="550" positionY="300"/>
+<Connection from="4/defter" to="2/ya"/>
+<Word name="3/da" positionX="450" positionY="400"/>
+<Connection from="2/ya" to="3/da"/>
+<Word name="1/kitap" positionX="750" positionY="200"/>
+<Connection from="and" to="1/kitap" with="op2"/>
+</Amr>

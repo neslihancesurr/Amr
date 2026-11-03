@@ -1,0 +1,23 @@
+<Amr sentence="Kaç çocukları var anlamadım , mantar gibi üremişler .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/anla" positionX="650" positionY="200"/>
+<Connection from="and" to="4/anla" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="4/anla" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="4/anla" to="ben" with="ARG0"/>
+<Word name="3/var" positionX="750" positionY="300"/>
+<Connection from="4/anla" to="3/var" with="ARG1"/>
+<Word name="2/çocuk" positionX="650" positionY="400"/>
+<Connection from="3/var" to="2/çocuk"/>
+<Word name="1/kaç" positionX="550" positionY="500"/>
+<Connection from="2/çocuk" to="1/kaç" with="mod"/>
+<Word name="8/üre" positionX="750" positionY="200"/>
+<Connection from="and" to="8/üre" with="op2"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="8/üre" to="onlar" with="ARG0"/>
+<Word name="7/gibi" positionX="750" positionY="300"/>
+<Connection from="8/üre" to="7/gibi"/>
+<Word name="6/mantar" positionX="650" positionY="400"/>
+<Connection from="7/gibi" to="6/mantar"/>
+</Amr>

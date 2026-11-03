@@ -1,0 +1,9 @@
+<Amr sentence="Böyle bir şey yapabileceğine hiç ihtimal vermemiştim .">
+<Word name="6/ihtimal 7/ver" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="6/ihtimal 7/ver" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="6/ihtimal 7/ver" to="ben" with="ARG0"/>
+<Word name="5/hiç" positionX="850" positionY="200"/>
+<Connection from="6/ihtimal 7/ver" to="5/hiç" with="degree"/>
+</Amr>

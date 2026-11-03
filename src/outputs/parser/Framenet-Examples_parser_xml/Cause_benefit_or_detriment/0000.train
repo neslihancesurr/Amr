@@ -1,0 +1,14 @@
+<Amr sentence="Ekonomik ihtiyaçları için tamamen annesine abandı .">
+<Word name="6/aban" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/aban" to="o" with="ARG0"/>
+<Word name="2/ihtiyaç" positionX="750" positionY="200"/>
+<Connection from="6/aban" to="2/ihtiyaç" with="cause"/>
+<Word name="1/ekonomik" positionX="650" positionY="300"/>
+<Connection from="2/ihtiyaç" to="1/ekonomik" with="mod"/>
+<Word name="4/tamamen" positionX="850" positionY="200"/>
+<Connection from="6/aban" to="4/tamamen" with="manner"/>
+<Word name="5/anne" positionX="950" positionY="200"/>
+<Connection from="6/aban" to="5/anne" with="ARG1"/>
+<Connection from="5/anne" to="o" with="poss"/>
+</Amr>

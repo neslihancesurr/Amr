@@ -1,0 +1,7 @@
+<Amr sentence="Bize verilen tarihleri yakalamak için projede gaza basmamız gerekli .">
+<Word name="9/gerekli" positionX="750" positionY="100"/>
+<Word name="7/gaz 8/bas" positionX="650" positionY="200"/>
+<Connection from="9/gerekli" to="7/gaz 8/bas"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="7/gaz 8/bas" to="biz" with="ARG0"/>
+</Amr>

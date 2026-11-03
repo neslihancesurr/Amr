@@ -1,0 +1,23 @@
+<Amr sentence="Sözü sohbeti yerinde görünen birkaç erkeği haftalarca göz hapsine aldı .">
+<Word name="8/göz 9/hapis 10/al" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="8/göz 9/hapis 10/al" to="o" with="ARG0"/>
+<Word name="6/erkek" positionX="750" positionY="200"/>
+<Connection from="8/göz 9/hapis 10/al" to="6/erkek" with="ARG1"/>
+<Connection from="6/erkek" to="o" with="poss"/>
+<Word name="4/görün" positionX="750" positionY="300"/>
+<Connection from="6/erkek" to="4/görün"/>
+<Word name="3/yer" positionX="650" positionY="400"/>
+<Connection from="4/görün" to="3/yer" with="ARG0"/>
+<Connection from="3/yer" to="o" with="poss"/>
+<Word name="2/sohbet" positionX="650" positionY="500"/>
+<Connection from="3/yer" to="2/sohbet"/>
+<Connection from="2/sohbet" to="o" with="poss"/>
+<Word name="1/söz" positionX="650" positionY="600"/>
+<Connection from="2/sohbet" to="1/söz"/>
+<Connection from="1/söz" to="o" with="poss"/>
+<Word name="5/birkaç" positionX="850" positionY="300"/>
+<Connection from="6/erkek" to="5/birkaç" with="mod"/>
+<Word name="7/haftalarca" positionX="850" positionY="200"/>
+<Connection from="8/göz 9/hapis 10/al" to="7/haftalarca" with="manner"/>
+</Amr>

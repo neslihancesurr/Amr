@@ -1,0 +1,11 @@
+<Amr sentence="Hangilerinizden para istediler ?">
+<Word name="3/iste" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="3/iste" to="onlar" with="ARG0"/>
+<Word name="1/Hangi" positionX="750" positionY="200"/>
+<Connection from="3/iste" to="1/Hangi"/>
+<Word name="siz" positionX="650" positionY="300"/>
+<Connection from="1/Hangi" to="siz" with="poss"/>
+<Word name="2/para" positionX="850" positionY="200"/>
+<Connection from="3/iste" to="2/para" with="ARG1"/>
+</Amr>

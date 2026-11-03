@@ -1,0 +1,7 @@
+<Amr sentence="Annen nasıl ?">
+<Word name="2/nasıl" positionX="750" positionY="100"/>
+<Word name="1/anne" positionX="650" positionY="200"/>
+<Connection from="2/nasıl" to="1/anne"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="1/anne" to="sen" with="poss"/>
+</Amr>

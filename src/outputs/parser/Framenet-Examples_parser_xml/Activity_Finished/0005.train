@@ -1,0 +1,25 @@
+<Amr sentence="Sen Yusuf'u ara , o çok iyi iş bitirir .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/ara" positionX="650" positionY="200"/>
+<Connection from="and" to="3/ara" with="op1"/>
+<Word name="imperative" positionX="550" positionY="300"/>
+<Connection from="3/ara" to="imperative" with="mode"/>
+<Word name="1/sen" positionX="650" positionY="300"/>
+<Connection from="3/ara" to="1/sen" with="ARG0"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="3/ara" to="person" with="ARG1"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/yusuf" positionX="550" positionY="500"/>
+<Connection from="name" to="2/yusuf" with="op1"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="8/iş 9/bitir" positionX="750" positionY="200"/>
+<Connection from="and" to="8/iş 9/bitir" with="op2"/>
+<Word name="5/o" positionX="650" positionY="300"/>
+<Connection from="8/iş 9/bitir" to="5/o" with="ARG0"/>
+<Word name="7/iyi" positionX="750" positionY="300"/>
+<Connection from="8/iş 9/bitir" to="7/iyi" with="manner"/>
+<Word name="6/çok" positionX="650" positionY="400"/>
+<Connection from="7/iyi" to="6/çok" with="degree"/>
+</Amr>

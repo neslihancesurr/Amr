@@ -1,0 +1,13 @@
+<Amr sentence="Sizler için en yeni ürünleri getirdik .">
+<Word name="6/getir" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="6/getir" to="biz" with="ARG0"/>
+<Word name="1/siz" positionX="750" positionY="200"/>
+<Connection from="6/getir" to="1/siz" with="cause"/>
+<Word name="5/ürün" positionX="850" positionY="200"/>
+<Connection from="6/getir" to="5/ürün" with="ARG1"/>
+<Word name="4/yeni" positionX="750" positionY="300"/>
+<Connection from="5/ürün" to="4/yeni" with="mod"/>
+<Word name="3/en" positionX="650" positionY="400"/>
+<Connection from="4/yeni" to="3/en" with="manner"/>
+</Amr>

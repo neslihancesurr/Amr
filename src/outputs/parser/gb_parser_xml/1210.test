@@ -1,0 +1,26 @@
+<Amr sentence="Almanya ve Brezilya takımları birbirlerinden haklı olarak korkuyorlar .">
+<Word name="8/kork" positionX="750" positionY="100"/>
+<Word name="4/takım" positionX="650" positionY="200"/>
+<Connection from="8/kork" to="4/takım" with="ARG0"/>
+<Word name="and" positionX="550" positionY="300"/>
+<Connection from="4/takım" to="and"/>
+<Word name="person" positionX="450" positionY="400"/>
+<Connection from="and" to="person" with="op1"/>
+<Word name="name" positionX="350" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/brezilya" positionX="250" positionY="600"/>
+<Connection from="name" to="3/brezilya" with="op1"/>
+<Word name="-" positionX="450" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="and" to="person" with="op2"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/almanya" positionX="350" positionY="600"/>
+<Connection from="name" to="1/almanya" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/birbirleri" positionX="750" positionY="200"/>
+<Connection from="8/kork" to="5/birbirleri" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/birbirleri" to="o" with="poss"/>
+<Word name="6/haklı 7/ol" positionX="850" positionY="200"/>
+<Connection from="8/kork" to="6/haklı 7/ol"/>
+</Amr>

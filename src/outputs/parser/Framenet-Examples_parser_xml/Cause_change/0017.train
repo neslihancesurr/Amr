@@ -1,0 +1,23 @@
+<Amr sentence="Kili öyle bir evirdi ki ortaya muhteşem bir heykel çıktı .">
+<Word name="10/çık" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="10/çık" to="o" with="ARG0"/>
+<Word name="4/evir" positionX="750" positionY="200"/>
+<Connection from="10/çık" to="4/evir"/>
+<Connection from="4/evir" to="o" with="ARG0"/>
+<Word name="1/kil" positionX="750" positionY="300"/>
+<Connection from="4/evir" to="1/kil" with="ARG1"/>
+<Connection from="1/kil" to="o" with="poss"/>
+<Word name="3/bir" positionX="850" positionY="300"/>
+<Connection from="4/evir" to="3/bir" with="manner"/>
+<Word name="2/öyle" positionX="750" positionY="400"/>
+<Connection from="3/bir" to="2/öyle"/>
+<Word name="5/ki" positionX="950" positionY="300"/>
+<Connection from="4/evir" to="5/ki"/>
+<Word name="6/orta" positionX="850" positionY="200"/>
+<Connection from="10/çık" to="6/orta"/>
+<Word name="9/heykel" positionX="950" positionY="200"/>
+<Connection from="10/çık" to="9/heykel" with="ARG1"/>
+<Word name="7/muhteşem" positionX="850" positionY="300"/>
+<Connection from="9/heykel" to="7/muhteşem" with="mod"/>
+</Amr>

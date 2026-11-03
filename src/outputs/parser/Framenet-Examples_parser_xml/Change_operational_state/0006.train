@@ -1,0 +1,17 @@
+<Amr sentence="Usta , çırağa elindekini hızlıca elektrikletti .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="6/elektrikle" positionX="650" positionY="200"/>
+<Connection from="yap" to="6/elektrikle"/>
+<Word name="1/usta" positionX="550" positionY="300"/>
+<Connection from="6/elektrikle" to="1/usta" with="ARG0"/>
+<Word name="3/çırak" positionX="650" positionY="300"/>
+<Connection from="6/elektrikle" to="3/çırak"/>
+<Word name="4/el" positionX="750" positionY="300"/>
+<Connection from="6/elektrikle" to="4/el" with="ARG1"/>
+<Word name="sen" positionX="650" positionY="400"/>
+<Connection from="4/el" to="sen" with="poss"/>
+<Word name="o" positionX="750" positionY="400"/>
+<Connection from="4/el" to="o" with="poss"/>
+<Word name="5/hızlıca" positionX="850" positionY="300"/>
+<Connection from="6/elektrikle" to="5/hızlıca" with="manner"/>
+</Amr>

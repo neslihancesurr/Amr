@@ -1,0 +1,24 @@
+<Amr sentence="O olaydan sonra Hakan bir süre bize uğramaz oldu .">
+<Word name="8/uğra" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="8/uğra" to="-" with="polarity"/>
+<Word name="2/olay" positionX="750" positionY="200"/>
+<Connection from="8/uğra" to="2/olay"/>
+<Word name="1/o" positionX="650" positionY="300"/>
+<Connection from="2/olay" to="1/o" with="mod"/>
+<Word name="3/sonra" positionX="750" positionY="300"/>
+<Connection from="2/olay" to="3/sonra"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="8/uğra" to="person" with="ARG0"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="4/hakan" positionX="650" positionY="400"/>
+<Connection from="name" to="4/hakan" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="6/süre" positionX="950" positionY="200"/>
+<Connection from="8/uğra" to="6/süre"/>
+<Word name="7/biz" positionX="1050" positionY="200"/>
+<Connection from="8/uğra" to="7/biz" with="ARG1"/>
+<Word name="9/ol" positionX="1150" positionY="200"/>
+<Connection from="8/uğra" to="9/ol"/>
+</Amr>

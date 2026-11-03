@@ -1,0 +1,11 @@
+<Amr sentence="Öğleden sonra bize gelsin .">
+<Word name="4/gel" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/gel" to="o" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="4/gel" to="imperative" with="mode"/>
+<Word name="1/öğle 2/sonra" positionX="850" positionY="200"/>
+<Connection from="4/gel" to="1/öğle 2/sonra"/>
+<Word name="3/biz" positionX="950" positionY="200"/>
+<Connection from="4/gel" to="3/biz" with="ARG1"/>
+</Amr>

@@ -1,0 +1,19 @@
+<Amr sentence="Cansev geçmişte olanları düşünüp efkarlanıyordu .">
+<Word name="5/efkarlan" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="5/efkarlan" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/cansev" positionX="450" positionY="400"/>
+<Connection from="name" to="1/cansev" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/düşün" positionX="750" positionY="200"/>
+<Connection from="5/efkarlan" to="4/düşün" with="ARG1"/>
+<Word name="3/ol" positionX="650" positionY="300"/>
+<Connection from="4/düşün" to="3/ol" with="ARG1"/>
+<Word name="onlar" positionX="550" positionY="400"/>
+<Connection from="3/ol" to="onlar" with="ARG0"/>
+<Word name="2/geçmiş" positionX="650" positionY="400"/>
+<Connection from="3/ol" to="2/geçmiş" with="location"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Yoğurt ilginç bir şekilde jöleleşti .">
+<Word name="5/jöleleş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/jöleleş" to="o" with="ARG0"/>
+<Word name="1/yoğurt" positionX="750" positionY="200"/>
+<Connection from="5/jöleleş" to="1/yoğurt" with="ARG1"/>
+<Word name="4/şekil" positionX="850" positionY="200"/>
+<Connection from="5/jöleleş" to="4/şekil" with="location"/>
+<Word name="2/ilginç" positionX="750" positionY="300"/>
+<Connection from="4/şekil" to="2/ilginç" with="manner"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr sentence="Suları durmadan temizlikçiye balkondan aşağı akıttırıyor .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="6/akıt" positionX="650" positionY="200"/>
+<Connection from="yap" to="6/akıt"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="6/akıt" to="o" with="ARG0"/>
+<Word name="1/su" positionX="650" positionY="300"/>
+<Connection from="6/akıt" to="1/su" with="ARG1"/>
+<Word name="2/durmadan" positionX="750" positionY="300"/>
+<Connection from="6/akıt" to="2/durmadan" with="manner"/>
+<Word name="3/temizlikçi" positionX="850" positionY="300"/>
+<Connection from="6/akıt" to="3/temizlikçi"/>
+<Word name="4/balkon" positionX="950" positionY="300"/>
+<Connection from="6/akıt" to="4/balkon"/>
+<Word name="5/aşağı" positionX="850" positionY="400"/>
+<Connection from="4/balkon" to="5/aşağı"/>
+</Amr>

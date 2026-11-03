@@ -1,0 +1,32 @@
+<Amr sentence="Kaybettikçe viskiye sarıldı , içtikçe de daha kötü oynadı ; gecenin sonunda adeta temizlenmişti .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="9/oyna" positionX="650" positionY="200"/>
+<Connection from="and" to="9/oyna" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="9/oyna" to="o" with="ARG0"/>
+<Word name="3/sarıl" positionX="650" positionY="300"/>
+<Connection from="9/oyna" to="3/sarıl"/>
+<Connection from="3/sarıl" to="o" with="ARG0"/>
+<Word name="1/kaybet" positionX="650" positionY="400"/>
+<Connection from="3/sarıl" to="1/kaybet"/>
+<Word name="2/viski" positionX="750" positionY="400"/>
+<Connection from="3/sarıl" to="2/viski" with="ARG1"/>
+<Word name="5/iç" positionX="750" positionY="300"/>
+<Connection from="9/oyna" to="5/iç"/>
+<Word name="6/de" positionX="650" positionY="400"/>
+<Connection from="5/iç" to="6/de" with="manner"/>
+<Word name="8/kötü" positionX="850" positionY="300"/>
+<Connection from="9/oyna" to="8/kötü" with="manner"/>
+<Word name="7/daha" positionX="750" positionY="400"/>
+<Connection from="8/kötü" to="7/daha" with="degree"/>
+<Word name="14/temizlen" positionX="750" positionY="200"/>
+<Connection from="and" to="14/temizlen" with="op2"/>
+<Connection from="14/temizlen" to="o" with="ARG0"/>
+<Connection from="14/temizlen" to="and"/>
+<Word name="12/son" positionX="850" positionY="300"/>
+<Connection from="14/temizlen" to="12/son" with="mod"/>
+<Word name="11/gece" positionX="750" positionY="400"/>
+<Connection from="12/son" to="11/gece" with="mod"/>
+<Word name="13/adeta" positionX="950" positionY="300"/>
+<Connection from="14/temizlen" to="13/adeta" with="manner"/>
+</Amr>

@@ -1,0 +1,10 @@
+<Amr sentence="Kızları görünce , ağzın dilin tutuldu .">
+<Word name="5/dil 6/tut" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/dil 6/tut" to="o" with="ARG0"/>
+<Word name="2/gör" positionX="750" positionY="200"/>
+<Connection from="5/dil 6/tut" to="2/gör"/>
+<Word name="1/kız" positionX="650" positionY="300"/>
+<Connection from="2/gör" to="1/kız" with="ARG0"/>
+<Connection from="1/kız" to="o" with="poss"/>
+</Amr>

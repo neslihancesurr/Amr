@@ -1,0 +1,11 @@
+<Amr sentence="Bisikletin motorlusuna motosiklet denir .">
+<Word name="4/de" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/de" to="o" with="ARG0"/>
+<Word name="2/motorlu" positionX="750" positionY="200"/>
+<Connection from="4/de" to="2/motorlu" with="ARG1"/>
+<Word name="1/bisiklet" positionX="650" positionY="300"/>
+<Connection from="2/motorlu" to="1/bisiklet" with="mod"/>
+<Word name="3/motosiklet" positionX="850" positionY="200"/>
+<Connection from="4/de" to="3/motosiklet"/>
+</Amr>

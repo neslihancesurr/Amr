@@ -1,0 +1,18 @@
+<Amr sentence="Bütün zeytinyağlılarda şeker vardır bir iki kaşık .">
+<Word name="4/var" positionX="750" positionY="100"/>
+<Word name="2/zeytinyağlı" positionX="650" positionY="200"/>
+<Connection from="4/var" to="2/zeytinyağlı" with="mod"/>
+<Word name="1/bütün" positionX="550" positionY="300"/>
+<Connection from="2/zeytinyağlı" to="1/bütün" with="mod"/>
+<Word name="3/şeker" positionX="750" positionY="200"/>
+<Connection from="4/var" to="3/şeker"/>
+<Word name="7/kaşık" positionX="650" positionY="300"/>
+<Connection from="3/şeker" to="7/kaşık" with="mod"/>
+<Word name="and" positionX="550" positionY="400"/>
+<Connection from="7/kaşık" to="and"/>
+<Word name="6/iki" positionX="450" positionY="500"/>
+<Connection from="and" to="6/iki" with="op1"/>
+<Word name="5/bir" positionX="550" positionY="500"/>
+<Connection from="and" to="5/bir" with="op2"/>
+<Connection from="5/bir" to="and"/>
+</Amr>

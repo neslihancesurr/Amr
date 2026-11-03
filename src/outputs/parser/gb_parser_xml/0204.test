@@ -1,0 +1,7 @@
+<Amr sentence="Yürüdünüz mü ?">
+<Word name="1/yürü" positionX="750" positionY="100"/>
+<Word name="siz" positionX="650" positionY="200"/>
+<Connection from="1/yürü" to="siz" with="ARG0"/>
+<Word name="2/mi" positionX="750" positionY="200"/>
+<Connection from="1/yürü" to="2/mi"/>
+</Amr>

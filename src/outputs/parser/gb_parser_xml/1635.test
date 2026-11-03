@@ -1,0 +1,9 @@
+<Amr sentence="Ortak dilimiz Fransızcaydı .">
+<Word name="3/fransızca" positionX="750" positionY="100"/>
+<Word name="2/dil" positionX="650" positionY="200"/>
+<Connection from="3/fransızca" to="2/dil"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="2/dil" to="biz" with="poss"/>
+<Word name="1/ortak" positionX="650" positionY="300"/>
+<Connection from="2/dil" to="1/ortak" with="mod"/>
+</Amr>

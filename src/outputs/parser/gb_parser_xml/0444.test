@@ -1,0 +1,11 @@
+<Amr sentence="Bu arenada her zaman dövüşülmüştür .">
+<Word name="5/dövüş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/dövüş" to="o" with="ARG0"/>
+<Word name="2/arena" positionX="750" positionY="200"/>
+<Connection from="5/dövüş" to="2/arena" with="location"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/arena" to="1/bu" with="mod"/>
+<Word name="3/her 4/zaman" positionX="850" positionY="200"/>
+<Connection from="5/dövüş" to="3/her 4/zaman" with="mod"/>
+</Amr>

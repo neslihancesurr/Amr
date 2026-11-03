@@ -1,0 +1,18 @@
+<Amr sentence="Havadaki tozu yutmaktan , konuştuğum anda gıcık tuttu .">
+<Word name="7/gıcık 8/tut" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/gıcık 8/tut" to="o" with="ARG0"/>
+<Word name="3/yut" positionX="750" positionY="200"/>
+<Connection from="7/gıcık 8/tut" to="3/yut"/>
+<Connection from="3/yut" to="o" with="ARG0"/>
+<Word name="2/toz" positionX="750" positionY="300"/>
+<Connection from="3/yut" to="2/toz" with="ARG1"/>
+<Word name="1/hava" positionX="650" positionY="400"/>
+<Connection from="2/toz" to="1/hava" with="mod"/>
+<Word name="6/an" positionX="850" positionY="200"/>
+<Connection from="7/gıcık 8/tut" to="6/an" with="location"/>
+<Word name="5/konuş" positionX="750" positionY="300"/>
+<Connection from="6/an" to="5/konuş"/>
+<Word name="ben" positionX="650" positionY="400"/>
+<Connection from="5/konuş" to="ben" with="poss"/>
+</Amr>

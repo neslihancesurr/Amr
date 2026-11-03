@@ -1,0 +1,11 @@
+<Amr sentence="Yan odadan bir tıkırtı duydum .">
+<Word name="5/duy" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/duy" to="ben" with="ARG0"/>
+<Word name="2/oda" positionX="750" positionY="200"/>
+<Connection from="5/duy" to="2/oda"/>
+<Word name="1/yan" positionX="650" positionY="300"/>
+<Connection from="2/oda" to="1/yan"/>
+<Word name="4/tıkırtı" positionX="850" positionY="200"/>
+<Connection from="5/duy" to="4/tıkırtı" with="ARG1"/>
+</Amr>

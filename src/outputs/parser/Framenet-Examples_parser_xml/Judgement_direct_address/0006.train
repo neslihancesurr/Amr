@@ -1,0 +1,29 @@
+<Amr sentence="Evvela kendi kendisini cezalandırdı , sonra kendisi gibi yaşamak istemeyenlere ders verdi .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/cezalandır" positionX="650" positionY="200"/>
+<Connection from="and" to="4/cezalandır" with="op1"/>
+<Word name="1/evvela" positionX="550" positionY="300"/>
+<Connection from="4/cezalandır" to="1/evvela" with="manner"/>
+<Word name="2/kendi 3/kendi" positionX="650" positionY="300"/>
+<Connection from="4/cezalandır" to="2/kendi 3/kendi" with="ARG1"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="2/kendi 3/kendi" to="o" with="poss"/>
+<Word name="11/ders 12/ver" positionX="750" positionY="200"/>
+<Connection from="and" to="11/ders 12/ver" with="op2"/>
+<Connection from="11/ders 12/ver" to="o" with="ARG0"/>
+<Word name="6/sonra" positionX="750" positionY="300"/>
+<Connection from="11/ders 12/ver" to="6/sonra" with="manner"/>
+<Word name="10/iste" positionX="850" positionY="300"/>
+<Connection from="11/ders 12/ver" to="10/iste" with="ARG1"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="10/iste" to="-" with="polarity"/>
+<Word name="onlar" positionX="850" positionY="400"/>
+<Connection from="10/iste" to="onlar" with="ARG0"/>
+<Word name="9/yaşa" positionX="950" positionY="400"/>
+<Connection from="10/iste" to="9/yaşa"/>
+<Connection from="9/yaşa" to="o" with="ARG0"/>
+<Word name="7/kendi" positionX="950" positionY="500"/>
+<Connection from="9/yaşa" to="7/kendi" with="mod"/>
+<Word name="8/gibi" positionX="850" positionY="600"/>
+<Connection from="7/kendi" to="8/gibi"/>
+</Amr>

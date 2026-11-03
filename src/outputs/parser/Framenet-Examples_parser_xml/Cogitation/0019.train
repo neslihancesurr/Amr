@@ -1,0 +1,13 @@
+<Amr sentence="Yanaklarına allık sürdüğü zannedildi">
+<Word name="4/zannedil" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/zannedil" to="o" with="ARG0"/>
+<Word name="3/sür" positionX="750" positionY="200"/>
+<Connection from="4/zannedil" to="3/sür" with="ARG2"/>
+<Connection from="3/sür" to="o" with="poss"/>
+<Word name="1/yanak" positionX="750" positionY="300"/>
+<Connection from="3/sür" to="1/yanak" with="ARG2"/>
+<Connection from="1/yanak" to="o" with="poss"/>
+<Word name="2/allık" positionX="850" positionY="300"/>
+<Connection from="3/sür" to="2/allık" with="ARG1"/>
+</Amr>

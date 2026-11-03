@@ -1,0 +1,18 @@
+<Amr sentence="Misafirler geldiği zaman çocuklar evde olmayacak .">
+<Word name="5/ev:location" positionX="750" positionY="100"/>
+<Word name="3/zaman" positionX="650" positionY="200"/>
+<Connection from="5/ev:location" to="3/zaman"/>
+<Word name="2/gel" positionX="550" positionY="300"/>
+<Connection from="3/zaman" to="2/gel"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="2/gel" to="o" with="poss"/>
+<Word name="1/misafir" positionX="550" positionY="400"/>
+<Connection from="2/gel" to="1/misafir"/>
+<Word name="4/çocuk" positionX="750" positionY="200"/>
+<Connection from="5/ev:location" to="4/çocuk"/>
+<Word name="6/ol" positionX="850" positionY="200"/>
+<Connection from="5/ev:location" to="6/ol"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="6/ol" to="-" with="polarity"/>
+<Connection from="6/ol" to="o" with="ARG0"/>
+</Amr>

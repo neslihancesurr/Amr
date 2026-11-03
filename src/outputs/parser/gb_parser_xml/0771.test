@@ -1,0 +1,9 @@
+<Amr sentence="Şişesi 100 sterlin .">
+<Word name="3/sterlin" positionX="750" positionY="100"/>
+<Word name="1/şişe" positionX="650" positionY="200"/>
+<Connection from="3/sterlin" to="1/şişe"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/şişe" to="o" with="poss"/>
+<Word name="2/100" positionX="750" positionY="200"/>
+<Connection from="3/sterlin" to="2/100"/>
+</Amr>

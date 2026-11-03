@@ -1,0 +1,22 @@
+<Amr sentence="Bu tatlı sohbetin arasında kapı çalındı , lakırtıları bıçak gibi kesildi .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/çal" positionX="650" positionY="200"/>
+<Connection from="and" to="6/çal" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="6/çal" to="o" with="ARG0"/>
+<Word name="4/ara 5/kapı" positionX="650" positionY="300"/>
+<Connection from="6/çal" to="4/ara 5/kapı" with="ARG1"/>
+<Word name="3/sohbet" positionX="550" positionY="400"/>
+<Connection from="4/ara 5/kapı" to="3/sohbet" with="mod"/>
+<Word name="1/bu" positionX="450" positionY="500"/>
+<Connection from="3/sohbet" to="1/bu" with="mod"/>
+<Word name="2/tatlı" positionX="550" positionY="500"/>
+<Connection from="3/sohbet" to="2/tatlı" with="mod"/>
+<Word name="9/bıçak 10/gibi 11/kesil" positionX="750" positionY="200"/>
+<Connection from="and" to="9/bıçak 10/gibi 11/kesil" with="op2"/>
+<Connection from="9/bıçak 10/gibi 11/kesil" to="o" with="ARG0"/>
+<Word name="8/lakırtı" positionX="750" positionY="300"/>
+<Connection from="9/bıçak 10/gibi 11/kesil" to="8/lakırtı" with="ARG1"/>
+<Word name="onlar" positionX="650" positionY="400"/>
+<Connection from="8/lakırtı" to="onlar" with="poss"/>
+</Amr>

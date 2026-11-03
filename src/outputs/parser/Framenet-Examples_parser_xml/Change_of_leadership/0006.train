@@ -1,0 +1,13 @@
+<Amr sentence="İspanya'da halk hükûmeti devirdi .">
+<Word name="3/hükûmet 4/devir" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="3/hükûmet 4/devir" to="person" with="location"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ispanya" positionX="450" positionY="400"/>
+<Connection from="name" to="1/ispanya" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/halk" positionX="750" positionY="200"/>
+<Connection from="3/hükûmet 4/devir" to="2/halk" with="ARG0"/>
+</Amr>

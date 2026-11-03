@@ -1,0 +1,18 @@
+<Amr sentence="Camdan uzanmış , sokaktan aşağı inen adamı gözleriyle tartıyordu .">
+<Word name="8/gözle 9/tart" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="8/gözle 9/tart" to="o" with="ARG0"/>
+<Word name="2/uzan" positionX="750" positionY="200"/>
+<Connection from="8/gözle 9/tart" to="2/uzan"/>
+<Word name="1/cam" positionX="650" positionY="300"/>
+<Connection from="2/uzan" to="1/cam" with="ARG1"/>
+<Word name="7/adam" positionX="850" positionY="200"/>
+<Connection from="8/gözle 9/tart" to="7/adam" with="ARG1"/>
+<Connection from="7/adam" to="o" with="poss"/>
+<Word name="6/in" positionX="850" positionY="300"/>
+<Connection from="7/adam" to="6/in"/>
+<Word name="4/sokak" positionX="750" positionY="400"/>
+<Connection from="6/in" to="4/sokak" with="mod"/>
+<Word name="5/aşağı" positionX="650" positionY="500"/>
+<Connection from="4/sokak" to="5/aşağı"/>
+</Amr>

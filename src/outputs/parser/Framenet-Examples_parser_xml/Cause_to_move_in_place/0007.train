@@ -1,0 +1,11 @@
+<Amr sentence="Arabayı tam virajda gazladı .">
+<Word name="4/gazla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/gazla" to="o" with="ARG0"/>
+<Word name="1/araba" positionX="750" positionY="200"/>
+<Connection from="4/gazla" to="1/araba" with="ARG1"/>
+<Word name="3/viraj" positionX="850" positionY="200"/>
+<Connection from="4/gazla" to="3/viraj" with="location"/>
+<Word name="2/tam" positionX="750" positionY="300"/>
+<Connection from="3/viraj" to="2/tam" with="degree"/>
+</Amr>

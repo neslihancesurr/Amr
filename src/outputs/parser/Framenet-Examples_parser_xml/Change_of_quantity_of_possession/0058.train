@@ -1,0 +1,13 @@
+<Amr sentence="Birçok kimyasal işlemden sonra abanoz kesildi .">
+<Word name="5/abanoz 6/kesil" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/abanoz 6/kesil" to="o" with="ARG0"/>
+<Word name="3/işlem" positionX="750" positionY="200"/>
+<Connection from="5/abanoz 6/kesil" to="3/işlem"/>
+<Word name="2/kimyasal" positionX="650" positionY="300"/>
+<Connection from="3/işlem" to="2/kimyasal" with="mod"/>
+<Word name="1/birçok" positionX="550" positionY="400"/>
+<Connection from="2/kimyasal" to="1/birçok" with="mod"/>
+<Word name="4/sonra" positionX="750" positionY="300"/>
+<Connection from="3/işlem" to="4/sonra"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Yarı yolda kaptan hava durumuna bakıp rota değiştirdi .">
+<Word name="7/rota 8/değiştir" positionX="750" positionY="100"/>
+<Word name="2/yol" positionX="650" positionY="200"/>
+<Connection from="7/rota 8/değiştir" to="2/yol" with="location"/>
+<Word name="1/yarı" positionX="550" positionY="300"/>
+<Connection from="2/yol" to="1/yarı" with="mod"/>
+<Word name="3/kaptan" positionX="750" positionY="200"/>
+<Connection from="7/rota 8/değiştir" to="3/kaptan" with="ARG0"/>
+<Word name="6/bak" positionX="850" positionY="200"/>
+<Connection from="7/rota 8/değiştir" to="6/bak"/>
+<Word name="4/hava 5/durum" positionX="750" positionY="300"/>
+<Connection from="6/bak" to="4/hava 5/durum" with="ARG1"/>
+</Amr>

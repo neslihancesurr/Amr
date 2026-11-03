@@ -1,0 +1,26 @@
+<Amr sentence="Semra hep gezmek istiyor fakat zamanı yok .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="7/yok" positionX="650" positionY="200"/>
+<Connection from="and" to="7/yok" with="op1"/>
+<Word name="5/fakat" positionX="550" positionY="300"/>
+<Connection from="7/yok" to="5/fakat"/>
+<Word name="6/zaman" positionX="650" positionY="300"/>
+<Connection from="7/yok" to="6/zaman"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="6/zaman" to="o" with="poss"/>
+<Word name="4/iste" positionX="750" positionY="200"/>
+<Connection from="and" to="4/iste" with="op2"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="4/iste" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/semra" positionX="450" positionY="500"/>
+<Connection from="name" to="1/semra" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/gez" positionX="750" positionY="300"/>
+<Connection from="4/iste" to="3/gez" with="ARG1"/>
+<Connection from="3/gez" to="o" with="ARG0"/>
+<Word name="2/hep" positionX="750" positionY="400"/>
+<Connection from="3/gez" to="2/hep" with="frequency"/>
+</Amr>

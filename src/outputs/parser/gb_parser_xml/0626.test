@@ -1,0 +1,19 @@
+<Amr sentence="Bu haberi Ali'nin oğlundan aldım .">
+<Word name="5/al" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/al" to="ben" with="ARG0"/>
+<Word name="2/haber" positionX="750" positionY="200"/>
+<Connection from="5/al" to="2/haber" with="ARG1"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/haber" to="1/bu" with="mod"/>
+<Word name="4/oğul" positionX="850" positionY="200"/>
+<Connection from="5/al" to="4/oğul" with="ARG2"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="4/oğul" to="person"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/ali" positionX="550" positionY="500"/>
+<Connection from="name" to="3/ali" with="op1"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

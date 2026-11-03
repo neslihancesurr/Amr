@@ -1,0 +1,20 @@
+<Amr sentence="Füsun'un kullanılmıyor diye kitapları satması">
+<Word name="5/sat" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/sat" to="o" with="poss"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="5/sat" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/füsun" positionX="550" positionY="400"/>
+<Connection from="name" to="1/füsun" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/kullan" positionX="850" positionY="200"/>
+<Connection from="5/sat" to="2/kullan"/>
+<Connection from="2/kullan" to="-" with="polarity"/>
+<Word name="3/diye" positionX="850" positionY="300"/>
+<Connection from="2/kullan" to="3/diye"/>
+<Word name="4/kitap" positionX="950" positionY="200"/>
+<Connection from="5/sat" to="4/kitap" with="ARG1"/>
+</Amr>

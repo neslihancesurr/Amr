@@ -1,0 +1,11 @@
+<Amr sentence="Sen nereye gitmek istiyorsun ?">
+<Word name="4/iste" positionX="750" positionY="100"/>
+<Word name="1/sen" positionX="650" positionY="200"/>
+<Connection from="4/iste" to="1/sen"/>
+<Word name="3/git" positionX="750" positionY="200"/>
+<Connection from="4/iste" to="3/git"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/git" to="o" with="ARG0"/>
+<Word name="2/nereye" positionX="750" positionY="300"/>
+<Connection from="3/git" to="2/nereye"/>
+</Amr>

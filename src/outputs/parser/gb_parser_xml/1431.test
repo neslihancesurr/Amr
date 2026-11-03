@@ -1,0 +1,22 @@
+<Amr sentence="Nasıl oldu da bu kadar az çalışarak üniversiteyi bitirebildi ?">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="9/bitir" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="9/bitir"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="9/bitir" to="o" with="ARG0"/>
+<Word name="2/ol" positionX="650" positionY="300"/>
+<Connection from="9/bitir" to="2/ol"/>
+<Connection from="2/ol" to="o" with="ARG0"/>
+<Word name="1/nasıl" positionX="650" positionY="400"/>
+<Connection from="2/ol" to="1/nasıl" with="manner"/>
+<Word name="3/da" positionX="750" positionY="400"/>
+<Connection from="2/ol" to="3/da"/>
+<Word name="7/çalış" positionX="750" positionY="300"/>
+<Connection from="9/bitir" to="7/çalış"/>
+<Word name="6/az" positionX="650" positionY="400"/>
+<Connection from="7/çalış" to="6/az" with="manner"/>
+<Word name="4/bu 5/kadar" positionX="550" positionY="500"/>
+<Connection from="6/az" to="4/bu 5/kadar" with="mod"/>
+<Word name="8/üniversite" positionX="850" positionY="300"/>
+<Connection from="9/bitir" to="8/üniversite" with="ARG1"/>
+</Amr>

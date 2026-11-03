@@ -1,0 +1,11 @@
+<Amr sentence="Bizim primleri de tenzil ettiler .">
+<Word name="4/tenzil 5/et" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/tenzil 5/et" to="onlar" with="ARG0"/>
+<Word name="2/prim" positionX="750" positionY="200"/>
+<Connection from="4/tenzil 5/et" to="2/prim" with="ARG1"/>
+<Word name="1/biz" positionX="650" positionY="300"/>
+<Connection from="2/prim" to="1/biz" with="mod"/>
+<Word name="3/de" positionX="750" positionY="300"/>
+<Connection from="2/prim" to="3/de"/>
+</Amr>

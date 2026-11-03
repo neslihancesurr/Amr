@@ -1,0 +1,11 @@
+<Amr sentence="Sonucu size mektupla bildiririz .">
+<Word name="4/bildir" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="4/bildir" to="biz" with="ARG0"/>
+<Word name="1/sonuç" positionX="750" positionY="200"/>
+<Connection from="4/bildir" to="1/sonuç" with="ARG1"/>
+<Word name="2/siz" positionX="850" positionY="200"/>
+<Connection from="4/bildir" to="2/siz"/>
+<Word name="3/mektup" positionX="950" positionY="200"/>
+<Connection from="4/bildir" to="3/mektup" with="instrument"/>
+</Amr>

@@ -1,0 +1,27 @@
+<Amr sentence="Ahmet gezide fotoğraf çekecekti ama makinasını yanına almamış ki !">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="8/al" positionX="650" positionY="200"/>
+<Connection from="and" to="8/al" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="8/al" to="-" with="polarity"/>
+<Word name="6/makina" positionX="650" positionY="300"/>
+<Connection from="8/al" to="6/makina" with="ARG1"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="6/makina" to="o" with="poss"/>
+<Word name="7/yan" positionX="750" positionY="300"/>
+<Connection from="8/al" to="7/yan"/>
+<Connection from="7/yan" to="o" with="poss"/>
+<Word name="9/ki" positionX="850" positionY="300"/>
+<Connection from="8/al" to="9/ki"/>
+<Word name="3/fotoğraf 4/çek" positionX="750" positionY="200"/>
+<Connection from="and" to="3/fotoğraf 4/çek" with="op2"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="3/fotoğraf 4/çek" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ahmet" positionX="450" positionY="500"/>
+<Connection from="name" to="1/ahmet" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/gezi" positionX="750" positionY="300"/>
+<Connection from="3/fotoğraf 4/çek" to="2/gezi" with="location"/>
+</Amr>

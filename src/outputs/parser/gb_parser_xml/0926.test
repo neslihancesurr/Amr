@@ -1,0 +1,13 @@
+<Amr sentence="Gece yağmur yağmıştı , yerler ıslaktı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/yağmur 3/yağ" positionX="650" positionY="200"/>
+<Connection from="and" to="2/yağmur 3/yağ" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/yağmur 3/yağ" to="o" with="ARG0"/>
+<Word name="1/gece" positionX="650" positionY="300"/>
+<Connection from="2/yağmur 3/yağ" to="1/gece"/>
+<Word name="6/ıslak" positionX="750" positionY="200"/>
+<Connection from="and" to="6/ıslak" with="op2"/>
+<Word name="5/yer" positionX="650" positionY="300"/>
+<Connection from="6/ıslak" to="5/yer"/>
+</Amr>

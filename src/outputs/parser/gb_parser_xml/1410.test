@@ -1,0 +1,11 @@
+<Amr sentence="Yeni bürosu acaba ne kadar büyük ?">
+<Word name="6/büyük" positionX="750" positionY="100"/>
+<Word name="2/büro" positionX="650" positionY="200"/>
+<Connection from="6/büyük" to="2/büro"/>
+<Word name="1/yeni" positionX="550" positionY="300"/>
+<Connection from="2/büro" to="1/yeni" with="mod"/>
+<Word name="3/acaba" positionX="750" positionY="200"/>
+<Connection from="6/büyük" to="3/acaba" with="manner"/>
+<Word name="4/ne" positionX="850" positionY="200"/>
+<Connection from="6/büyük" to="4/ne" with="extent"/>
+</Amr>

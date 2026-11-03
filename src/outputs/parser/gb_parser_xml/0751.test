@@ -1,0 +1,9 @@
+<Amr sentence="bin yüz doksan dokuz">
+<Word name="4/dokuz" positionX="750" positionY="100"/>
+<Word name="1/bin" positionX="650" positionY="200"/>
+<Connection from="4/dokuz" to="1/bin"/>
+<Word name="2/yüz" positionX="750" positionY="200"/>
+<Connection from="4/dokuz" to="2/yüz"/>
+<Word name="3/doksan" positionX="850" positionY="200"/>
+<Connection from="4/dokuz" to="3/doksan"/>
+</Amr>

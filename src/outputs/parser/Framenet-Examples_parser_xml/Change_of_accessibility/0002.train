@@ -1,0 +1,7 @@
+<Amr sentence="Kar yolu kapamıştı .">
+<Word name="3/kapa" positionX="750" positionY="100"/>
+<Word name="1/kar" positionX="650" positionY="200"/>
+<Connection from="3/kapa" to="1/kar" with="ARG0"/>
+<Word name="2/yol" positionX="750" positionY="200"/>
+<Connection from="3/kapa" to="2/yol" with="ARG1"/>
+</Amr>

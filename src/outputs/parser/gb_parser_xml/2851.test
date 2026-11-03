@@ -1,0 +1,19 @@
+<Amr sentence="Herkes saat ikide burada olacak , anlaşıldı mı ?">
+<Word name="7/anla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/anla" to="o" with="ARG0"/>
+<Word name="5/ol" positionX="750" positionY="200"/>
+<Connection from="7/anla" to="5/ol"/>
+<Word name="1/herkes" positionX="650" positionY="300"/>
+<Connection from="5/ol" to="1/herkes" with="ARG0"/>
+<Word name="onlar" positionX="550" positionY="400"/>
+<Connection from="1/herkes" to="onlar" with="poss"/>
+<Word name="4/burada" positionX="750" positionY="300"/>
+<Connection from="5/ol" to="4/burada" with="ARG1"/>
+<Word name="3/iki" positionX="650" positionY="400"/>
+<Connection from="4/burada" to="3/iki"/>
+<Word name="2/saat" positionX="550" positionY="500"/>
+<Connection from="3/iki" to="2/saat" with="mod"/>
+<Word name="8/mi" positionX="850" positionY="200"/>
+<Connection from="7/anla" to="8/mi"/>
+</Amr>

@@ -1,0 +1,22 @@
+<Amr sentence="Yeni sistemin yürürlüğe girmesinden itibaren bu sorunlar yaşanmayacaktır .">
+<Word name="8/yaşa" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="8/yaşa" to="-" with="polarity"/>
+<Word name="4/gir" positionX="750" positionY="200"/>
+<Connection from="8/yaşa" to="4/gir" with="ARG0"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="4/gir" to="o" with="ARG0"/>
+<Connection from="4/gir" to="o" with="poss"/>
+<Word name="2/sistem" positionX="850" positionY="300"/>
+<Connection from="4/gir" to="2/sistem"/>
+<Word name="1/yeni" positionX="750" positionY="400"/>
+<Connection from="2/sistem" to="1/yeni" with="mod"/>
+<Word name="3/yürürlük" positionX="950" positionY="300"/>
+<Connection from="4/gir" to="3/yürürlük"/>
+<Word name="5/itibaren" positionX="1050" positionY="300"/>
+<Connection from="4/gir" to="5/itibaren"/>
+<Word name="7/sorun" positionX="850" positionY="200"/>
+<Connection from="8/yaşa" to="7/sorun" with="ARG0"/>
+<Word name="6/bu" positionX="750" positionY="300"/>
+<Connection from="7/sorun" to="6/bu" with="mod"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Emekli albay ikramiyesini eritti .">
+<Word name="4/erit" positionX="750" positionY="100"/>
+<Word name="2/albay" positionX="650" positionY="200"/>
+<Connection from="4/erit" to="2/albay" with="ARG0"/>
+<Word name="1/emekli" positionX="550" positionY="300"/>
+<Connection from="2/albay" to="1/emekli" with="mod"/>
+<Word name="3/ikramiye" positionX="750" positionY="200"/>
+<Connection from="4/erit" to="3/ikramiye" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/ikramiye" to="o" with="poss"/>
+</Amr>

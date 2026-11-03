@@ -1,0 +1,13 @@
+<Amr sentence="Murat'ta bir resim var .">
+<Word name="4/var" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="4/var" to="person" with="location"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/murat" positionX="450" positionY="400"/>
+<Connection from="name" to="1/murat" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/resim" positionX="750" positionY="200"/>
+<Connection from="4/var" to="3/resim"/>
+</Amr>

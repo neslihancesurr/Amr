@@ -1,0 +1,11 @@
+<Amr sentence="Masayı şuraya koyabiliriz .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="3/koy" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="3/koy"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="3/koy" to="biz" with="ARG0"/>
+<Word name="1/masa" positionX="650" positionY="300"/>
+<Connection from="3/koy" to="1/masa"/>
+<Word name="2/şura" positionX="750" positionY="300"/>
+<Connection from="3/koy" to="2/şura"/>
+</Amr>

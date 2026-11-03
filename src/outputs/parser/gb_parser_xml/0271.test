@@ -1,0 +1,13 @@
+<Amr sentence="evde su olmadığı zaman">
+<Word name="4/zaman" positionX="750" positionY="100"/>
+<Word name="3/ol" positionX="650" positionY="200"/>
+<Connection from="4/zaman" to="3/ol"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="3/ol" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/ol" to="o" with="poss"/>
+<Word name="1/ev" positionX="750" positionY="300"/>
+<Connection from="3/ol" to="1/ev" with="ARG1"/>
+<Word name="2/su" positionX="850" positionY="300"/>
+<Connection from="3/ol" to="2/su" with="ARG0"/>
+</Amr>

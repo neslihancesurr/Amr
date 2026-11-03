@@ -1,0 +1,14 @@
+<Amr sentence="Aidatını ödemediği için üyeliği düştü .">
+<Word name="4/üyelik 5/düş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/üyelik 5/düş" to="o" with="ARG0"/>
+<Word name="2/öde" positionX="750" positionY="200"/>
+<Connection from="4/üyelik 5/düş" to="2/öde" with="cause"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="2/öde" to="-" with="polarity"/>
+<Connection from="2/öde" to="o" with="ARG0"/>
+<Connection from="2/öde" to="o" with="poss"/>
+<Word name="1/aidat" positionX="950" positionY="300"/>
+<Connection from="2/öde" to="1/aidat" with="ARG1"/>
+<Connection from="1/aidat" to="o" with="poss"/>
+</Amr>

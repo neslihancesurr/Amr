@@ -1,0 +1,9 @@
+<Amr sentence="Tekne , denizde gelişigüzel sürükleniyordu .">
+<Word name="5/sürüklen" positionX="750" positionY="100"/>
+<Word name="1/tekne" positionX="650" positionY="200"/>
+<Connection from="5/sürüklen" to="1/tekne" with="ARG0"/>
+<Word name="3/deniz" positionX="750" positionY="200"/>
+<Connection from="5/sürüklen" to="3/deniz" with="ARG1"/>
+<Word name="4/gelişigüzel" positionX="850" positionY="200"/>
+<Connection from="5/sürüklen" to="4/gelişigüzel" with="manner"/>
+</Amr>

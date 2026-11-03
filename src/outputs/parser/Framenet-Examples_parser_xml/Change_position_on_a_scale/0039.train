@@ -1,0 +1,22 @@
+<Amr sentence="Bu hisseleri yükseltelim , alıcısı daha fazla olur .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/yükselt" positionX="650" positionY="200"/>
+<Connection from="and" to="3/yükselt" with="op1"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="3/yükselt" to="biz" with="ARG0"/>
+<Word name="2/hisse" positionX="650" positionY="300"/>
+<Connection from="3/yükselt" to="2/hisse" with="ARG1"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="2/hisse" to="o" with="poss"/>
+<Word name="1/bu" positionX="650" positionY="400"/>
+<Connection from="2/hisse" to="1/bu" with="mod"/>
+<Word name="8/ol" positionX="750" positionY="200"/>
+<Connection from="and" to="8/ol" with="op2"/>
+<Word name="5/alıcı" positionX="650" positionY="300"/>
+<Connection from="8/ol" to="5/alıcı" with="ARG0"/>
+<Connection from="5/alıcı" to="o" with="poss"/>
+<Word name="7/fazla" positionX="750" positionY="300"/>
+<Connection from="8/ol" to="7/fazla" with="degree"/>
+<Word name="6/daha" positionX="650" positionY="400"/>
+<Connection from="7/fazla" to="6/daha" with="degree"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr sentence="Yemek hala hazır değil , çok acıktım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/hazır" positionX="650" positionY="200"/>
+<Connection from="and" to="3/hazır" with="op1"/>
+<Word name="1/yemek" positionX="550" positionY="300"/>
+<Connection from="3/hazır" to="1/yemek"/>
+<Word name="2/hala" positionX="650" positionY="300"/>
+<Connection from="3/hazır" to="2/hala" with="manner"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="3/hazır" to="-" with="polarity"/>
+<Word name="7/acık" positionX="750" positionY="200"/>
+<Connection from="and" to="7/acık" with="op2"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="7/acık" to="ben" with="ARG0"/>
+<Word name="6/çok" positionX="750" positionY="300"/>
+<Connection from="7/acık" to="6/çok" with="degree"/>
+</Amr>

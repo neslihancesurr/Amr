@@ -1,0 +1,11 @@
+<Amr sentence="Kuru buz sıcaklıkta süblimleşir .">
+<Word name="4/süblimleş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/süblimleş" to="o" with="ARG0"/>
+<Word name="2/buz" positionX="750" positionY="200"/>
+<Connection from="4/süblimleş" to="2/buz" with="ARG1"/>
+<Word name="1/kuru" positionX="650" positionY="300"/>
+<Connection from="2/buz" to="1/kuru" with="mod"/>
+<Word name="3/sıcaklık" positionX="850" positionY="200"/>
+<Connection from="4/süblimleş" to="3/sıcaklık" with="location"/>
+</Amr>

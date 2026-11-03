@@ -1,0 +1,9 @@
+<Amr sentence="Kırmızı renk gücü temsil eder .">
+<Word name="4/temsil 5/et" positionX="750" positionY="100"/>
+<Word name="2/renk" positionX="650" positionY="200"/>
+<Connection from="4/temsil 5/et" to="2/renk" with="ARG0"/>
+<Word name="1/kırmızı" positionX="550" positionY="300"/>
+<Connection from="2/renk" to="1/kırmızı" with="mod"/>
+<Word name="3/güç" positionX="750" positionY="200"/>
+<Connection from="4/temsil 5/et" to="3/güç" with="ARG1"/>
+</Amr>

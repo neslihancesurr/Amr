@@ -1,0 +1,13 @@
+<Amr sentence="Gemi , dün sabah kuzeye doğru harmanladı .">
+<Word name="7/harmanla" positionX="750" positionY="100"/>
+<Word name="1/gemi" positionX="650" positionY="200"/>
+<Connection from="7/harmanla" to="1/gemi" with="ARG0"/>
+<Word name="4/sabah" positionX="750" positionY="200"/>
+<Connection from="7/harmanla" to="4/sabah" with="mod"/>
+<Word name="3/dün" positionX="650" positionY="300"/>
+<Connection from="4/sabah" to="3/dün" with="mod"/>
+<Word name="5/kuzey" positionX="850" positionY="200"/>
+<Connection from="7/harmanla" to="5/kuzey"/>
+<Word name="6/doğru" positionX="750" positionY="300"/>
+<Connection from="5/kuzey" to="6/doğru"/>
+</Amr>

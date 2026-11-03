@@ -1,0 +1,19 @@
+<Amr sentence="Şan derslerine gidip duruyor ama şarkı söylediği yok .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="8/yok" positionX="650" positionY="200"/>
+<Connection from="and" to="8/yok" with="op1"/>
+<Word name="6/şarkı 7/söyle" positionX="550" positionY="300"/>
+<Connection from="8/yok" to="6/şarkı 7/söyle"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="6/şarkı 7/söyle" to="o" with="ARG0"/>
+<Connection from="6/şarkı 7/söyle" to="o" with="poss"/>
+<Word name="4/dur" positionX="750" positionY="200"/>
+<Connection from="and" to="4/dur" with="op2"/>
+<Connection from="4/dur" to="o" with="ARG0"/>
+<Word name="3/git" positionX="750" positionY="300"/>
+<Connection from="4/dur" to="3/git"/>
+<Word name="2/ders" positionX="650" positionY="400"/>
+<Connection from="3/git" to="2/ders" with="ARG1"/>
+<Word name="1/şan" positionX="550" positionY="500"/>
+<Connection from="2/ders" to="1/şan" with="mod"/>
+</Amr>

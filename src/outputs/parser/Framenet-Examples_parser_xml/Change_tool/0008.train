@@ -1,0 +1,13 @@
+<Amr sentence="Eve gelince üstünü değiştir lütfen .">
+<Word name="3/üst 4/değiştir" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="3/üst 4/değiştir" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="3/üst 4/değiştir" to="imperative" with="mode"/>
+<Word name="2/gel" positionX="850" positionY="200"/>
+<Connection from="3/üst 4/değiştir" to="2/gel"/>
+<Word name="1/ev" positionX="750" positionY="300"/>
+<Connection from="2/gel" to="1/ev" with="ARG1"/>
+<Word name="5/lütfen" positionX="950" positionY="200"/>
+<Connection from="3/üst 4/değiştir" to="5/lütfen"/>
+</Amr>

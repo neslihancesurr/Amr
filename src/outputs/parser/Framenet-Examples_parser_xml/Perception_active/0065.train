@@ -1,0 +1,14 @@
+<Amr sentence="Ablamın anlattığı öyküyü cankulağı ile dinliyordum .">
+<Word name="4/cankulağı 5/ile 6/dinle" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/cankulağı 5/ile 6/dinle" to="ben" with="ARG0"/>
+<Word name="3/öykü" positionX="750" positionY="200"/>
+<Connection from="4/cankulağı 5/ile 6/dinle" to="3/öykü" with="ARG1"/>
+<Word name="2/anlat" positionX="650" positionY="300"/>
+<Connection from="3/öykü" to="2/anlat"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="2/anlat" to="o" with="poss"/>
+<Word name="1/abla" positionX="650" positionY="400"/>
+<Connection from="2/anlat" to="1/abla" with="ARG0"/>
+<Connection from="1/abla" to="ben" with="poss"/>
+</Amr>

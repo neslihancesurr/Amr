@@ -1,0 +1,28 @@
+<Amr sentence="Ayten şapkayı başkalarında seviyor , ama saçları güzel olduğu için kendisi pek giymiyor .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="13/giy" positionX="650" positionY="200"/>
+<Connection from="and" to="13/giy" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="13/giy" to="-" with="polarity"/>
+<Word name="8/güzel 9/ol" positionX="650" positionY="300"/>
+<Connection from="13/giy" to="8/güzel 9/ol" with="manner"/>
+<Word name="11/kendi" positionX="750" positionY="300"/>
+<Connection from="13/giy" to="11/kendi" with="ARG0"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="11/kendi" to="o" with="poss"/>
+<Word name="12/pek" positionX="850" positionY="300"/>
+<Connection from="13/giy" to="12/pek" with="manner"/>
+<Word name="4/sev" positionX="750" positionY="200"/>
+<Connection from="and" to="4/sev" with="op2"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="4/sev" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ayten" positionX="450" positionY="500"/>
+<Connection from="name" to="1/ayten" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/şapka" positionX="750" positionY="300"/>
+<Connection from="4/sev" to="2/şapka" with="ARG1"/>
+<Word name="3/başka" positionX="850" positionY="300"/>
+<Connection from="4/sev" to="3/başka" with="location"/>
+</Amr>

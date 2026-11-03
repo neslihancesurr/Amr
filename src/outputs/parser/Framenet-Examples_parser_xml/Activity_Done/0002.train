@@ -1,0 +1,8 @@
+<Amr sentence="Her sabah oflaya puflaya işe gide gide günü doldu .">
+<Word name="8/gün 9/dol" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="8/gün 9/dol" to="o" with="ARG0"/>
+<Word name="6/git 7/git" positionX="750" positionY="200"/>
+<Connection from="8/gün 9/dol" to="6/git 7/git"/>
+<Connection from="6/git 7/git" to="o" with="ARG0"/>
+</Amr>

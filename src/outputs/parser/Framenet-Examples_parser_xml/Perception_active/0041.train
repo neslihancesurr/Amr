@@ -1,0 +1,11 @@
+<Amr sentence="Yoldan geçen kadın , eve şöyle bir baktı .">
+<Word name="6/şöyle 7/bir 8/bak" positionX="750" positionY="100"/>
+<Word name="3/kadın" positionX="650" positionY="200"/>
+<Connection from="6/şöyle 7/bir 8/bak" to="3/kadın" with="ARG0"/>
+<Word name="2/geçen" positionX="550" positionY="300"/>
+<Connection from="3/kadın" to="2/geçen"/>
+<Word name="1/yol" positionX="450" positionY="400"/>
+<Connection from="2/geçen" to="1/yol"/>
+<Word name="5/ev" positionX="750" positionY="200"/>
+<Connection from="6/şöyle 7/bir 8/bak" to="5/ev" with="ARG1"/>
+</Amr>

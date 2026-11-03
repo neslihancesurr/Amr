@@ -1,0 +1,9 @@
+<Amr sentence="annesiyle tanışacağım kız">
+<Word name="3/kız" positionX="750" positionY="100"/>
+<Word name="2/tanış" positionX="650" positionY="200"/>
+<Connection from="3/kız" to="2/tanış"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="2/tanış" to="ben" with="poss"/>
+<Word name="1/anne" positionX="650" positionY="300"/>
+<Connection from="2/tanış" to="1/anne" with="instrument"/>
+</Amr>

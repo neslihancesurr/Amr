@@ -1,0 +1,20 @@
+<Amr sentence="Yâr mendilin oyaladım , baş harfini koyamadım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/oyala" positionX="650" positionY="200"/>
+<Connection from="and" to="3/oyala" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="3/oyala" to="ben" with="ARG0"/>
+<Word name="1/yâr" positionX="650" positionY="300"/>
+<Connection from="3/oyala" to="1/yâr"/>
+<Word name="2/mendil" positionX="750" positionY="300"/>
+<Connection from="3/oyala" to="2/mendil" with="ARG1"/>
+<Word name="7/koy" positionX="750" positionY="200"/>
+<Connection from="and" to="7/koy" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="7/koy" to="-" with="polarity"/>
+<Connection from="7/koy" to="ben" with="ARG0"/>
+<Word name="6/harf" positionX="850" positionY="300"/>
+<Connection from="7/koy" to="6/harf" with="ARG1"/>
+<Word name="5/baş" positionX="750" positionY="400"/>
+<Connection from="6/harf" to="5/baş" with="mod"/>
+</Amr>

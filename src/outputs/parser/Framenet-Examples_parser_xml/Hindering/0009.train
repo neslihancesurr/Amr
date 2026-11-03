@@ -1,0 +1,15 @@
+<Amr sentence="Gole giden rakibini engellemek için taban girdi .">
+<Word name="6/taban 7/gir" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/taban 7/gir" to="o" with="ARG0"/>
+<Word name="4/engelle" positionX="750" positionY="200"/>
+<Connection from="6/taban 7/gir" to="4/engelle" with="cause"/>
+<Connection from="4/engelle" to="o" with="ARG0"/>
+<Word name="3/rakip" positionX="750" positionY="300"/>
+<Connection from="4/engelle" to="3/rakip" with="ARG1"/>
+<Connection from="3/rakip" to="o" with="poss"/>
+<Word name="2/git" positionX="750" positionY="400"/>
+<Connection from="3/rakip" to="2/git"/>
+<Word name="1/gol" positionX="650" positionY="500"/>
+<Connection from="2/git" to="1/gol" with="ARG1"/>
+</Amr>

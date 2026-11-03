@@ -1,0 +1,13 @@
+<Amr sentence="Bazen o pis köpeği okşuyor bile .">
+<Word name="5/okşa" positionX="750" positionY="100"/>
+<Word name="1/bazen" positionX="650" positionY="200"/>
+<Connection from="5/okşa" to="1/bazen" with="manner"/>
+<Word name="4/köpek" positionX="750" positionY="200"/>
+<Connection from="5/okşa" to="4/köpek" with="ARG1"/>
+<Word name="2/o" positionX="650" positionY="300"/>
+<Connection from="4/köpek" to="2/o" with="mod"/>
+<Word name="3/pis" positionX="750" positionY="300"/>
+<Connection from="4/köpek" to="3/pis" with="mod"/>
+<Word name="6/bile" positionX="850" positionY="200"/>
+<Connection from="5/okşa" to="6/bile"/>
+</Amr>

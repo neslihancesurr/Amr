@@ -1,0 +1,9 @@
+<Amr sentence="Akşam olunca serinledim .">
+<Word name="3/serinle" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/serinle" to="ben" with="ARG0"/>
+<Word name="2/ol" positionX="750" positionY="200"/>
+<Connection from="3/serinle" to="2/ol"/>
+<Word name="1/akşam" positionX="650" positionY="300"/>
+<Connection from="2/ol" to="1/akşam" with="ARG1"/>
+</Amr>

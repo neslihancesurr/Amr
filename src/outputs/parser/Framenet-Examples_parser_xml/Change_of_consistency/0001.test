@@ -1,0 +1,8 @@
+<Amr sentence="Beklemekten tortulanmış .">
+<Word name="2/tortulan" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="2/tortulan" to="o" with="ARG0"/>
+<Word name="1/bekle" positionX="750" positionY="200"/>
+<Connection from="2/tortulan" to="1/bekle"/>
+<Connection from="1/bekle" to="o" with="ARG0"/>
+</Amr>

@@ -1,0 +1,7 @@
+<Amr sentence="aynı üç konuşmacı">
+<Word name="3/konuşmacı" positionX="750" positionY="100"/>
+<Word name="1/aynı" positionX="650" positionY="200"/>
+<Connection from="3/konuşmacı" to="1/aynı" with="mod"/>
+<Word name="2/üç" positionX="750" positionY="200"/>
+<Connection from="3/konuşmacı" to="2/üç"/>
+</Amr>

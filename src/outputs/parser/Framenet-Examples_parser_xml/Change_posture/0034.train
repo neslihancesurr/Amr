@@ -1,0 +1,24 @@
+<Amr sentence="Kimseye görünmek istemiyordu , bir köşeye geçip tabureye tünedi .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/iste" positionX="650" positionY="200"/>
+<Connection from="and" to="3/iste" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="3/iste" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/iste" to="o" with="ARG0"/>
+<Word name="2/görün" positionX="750" positionY="300"/>
+<Connection from="3/iste" to="2/görün" with="ARG1"/>
+<Connection from="2/görün" to="o" with="ARG0"/>
+<Word name="1/kimse" positionX="750" positionY="400"/>
+<Connection from="2/görün" to="1/kimse"/>
+<Connection from="1/kimse" to="o" with="poss"/>
+<Word name="9/tüne" positionX="750" positionY="200"/>
+<Connection from="and" to="9/tüne" with="op2"/>
+<Connection from="9/tüne" to="o" with="ARG0"/>
+<Word name="7/geç" positionX="750" positionY="300"/>
+<Connection from="9/tüne" to="7/geç"/>
+<Word name="6/köşe" positionX="650" positionY="400"/>
+<Connection from="7/geç" to="6/köşe" with="ARG1"/>
+<Word name="8/tabure" positionX="850" positionY="300"/>
+<Connection from="9/tüne" to="8/tabure" with="ARG1"/>
+</Amr>

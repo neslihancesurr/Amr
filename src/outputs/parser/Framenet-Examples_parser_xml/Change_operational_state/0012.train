@@ -1,0 +1,13 @@
+<Amr sentence="Mumu üflesene , söndürelim .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/üfle" positionX="650" positionY="200"/>
+<Connection from="and" to="2/üfle" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="2/üfle" to="sen" with="ARG0"/>
+<Word name="1/mum" positionX="650" positionY="300"/>
+<Connection from="2/üfle" to="1/mum"/>
+<Word name="4/söndür" positionX="750" positionY="200"/>
+<Connection from="and" to="4/söndür" with="op2"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="4/söndür" to="biz" with="ARG0"/>
+</Amr>

@@ -1,0 +1,20 @@
+<Amr sentence="İki bin lira saydı , bana bir küpe aldı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/say" positionX="650" positionY="200"/>
+<Connection from="and" to="4/say" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/say" to="o" with="ARG0"/>
+<Word name="3/lira" positionX="650" positionY="300"/>
+<Connection from="4/say" to="3/lira" with="ARG1"/>
+<Word name="2/bin" positionX="550" positionY="400"/>
+<Connection from="3/lira" to="2/bin"/>
+<Word name="1/iki" positionX="450" positionY="500"/>
+<Connection from="2/bin" to="1/iki"/>
+<Word name="9/al" positionX="750" positionY="200"/>
+<Connection from="and" to="9/al" with="op2"/>
+<Connection from="9/al" to="o" with="ARG0"/>
+<Word name="6/ben" positionX="750" positionY="300"/>
+<Connection from="9/al" to="6/ben" with="ARG1"/>
+<Word name="8/küpe" positionX="850" positionY="300"/>
+<Connection from="9/al" to="8/küpe" with="ARG1"/>
+</Amr>

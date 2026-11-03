@@ -1,0 +1,32 @@
+<Amr sentence="Reçelleri kepçeyle tencereden kavanozlara aktar , sonra da kavanozları güzelce kapat .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/aktar" positionX="650" positionY="200"/>
+<Connection from="and" to="5/aktar" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="5/aktar" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="650" positionY="300"/>
+<Connection from="5/aktar" to="imperative" with="mode"/>
+<Word name="1/reçel" positionX="750" positionY="300"/>
+<Connection from="5/aktar" to="1/reçel" with="ARG1"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="1/reçel" to="o" with="poss"/>
+<Word name="2/kepçe" positionX="850" positionY="300"/>
+<Connection from="5/aktar" to="2/kepçe" with="instrument"/>
+<Word name="4/kavanoz" positionX="950" positionY="300"/>
+<Connection from="5/aktar" to="4/kavanoz"/>
+<Word name="3/tencere" positionX="850" positionY="400"/>
+<Connection from="4/kavanoz" to="3/tencere" with="mod"/>
+<Word name="7/sonra" positionX="1050" positionY="300"/>
+<Connection from="5/aktar" to="7/sonra"/>
+<Word name="8/da" positionX="950" positionY="400"/>
+<Connection from="7/sonra" to="8/da"/>
+<Word name="11/kapat" positionX="750" positionY="200"/>
+<Connection from="and" to="11/kapat" with="op2"/>
+<Connection from="11/kapat" to="sen" with="ARG0"/>
+<Connection from="11/kapat" to="imperative" with="mode"/>
+<Word name="9/kavanoz" positionX="850" positionY="300"/>
+<Connection from="11/kapat" to="9/kavanoz" with="ARG1"/>
+<Connection from="9/kavanoz" to="o" with="poss"/>
+<Word name="10/güzel" positionX="950" positionY="300"/>
+<Connection from="11/kapat" to="10/güzel" with="manner"/>
+</Amr>

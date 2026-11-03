@@ -1,0 +1,25 @@
+<Amr sentence="Fiilimsilerin durumu gerçekten ilginç , bir öğrencim tezinde bu konuyu ele aldı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/ilginç" positionX="650" positionY="200"/>
+<Connection from="and" to="4/ilginç" with="op1"/>
+<Word name="2/durum" positionX="550" positionY="300"/>
+<Connection from="4/ilginç" to="2/durum"/>
+<Word name="1/fiilimsi" positionX="450" positionY="400"/>
+<Connection from="2/durum" to="1/fiilimsi" with="mod"/>
+<Word name="3/gerçekten" positionX="650" positionY="300"/>
+<Connection from="4/ilginç" to="3/gerçekten" with="manner"/>
+<Word name="11/el 12/al" positionX="750" positionY="200"/>
+<Connection from="and" to="11/el 12/al" with="op2"/>
+<Word name="7/öğrenci" positionX="650" positionY="300"/>
+<Connection from="11/el 12/al" to="7/öğrenci" with="ARG0"/>
+<Word name="ben" positionX="550" positionY="400"/>
+<Connection from="7/öğrenci" to="ben" with="poss"/>
+<Word name="8/tez" positionX="750" positionY="300"/>
+<Connection from="11/el 12/al" to="8/tez" with="ARG2"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="8/tez" to="o" with="poss"/>
+<Word name="10/konu" positionX="850" positionY="300"/>
+<Connection from="11/el 12/al" to="10/konu" with="ARG1"/>
+<Word name="9/bu" positionX="750" positionY="400"/>
+<Connection from="10/konu" to="9/bu" with="mod"/>
+</Amr>

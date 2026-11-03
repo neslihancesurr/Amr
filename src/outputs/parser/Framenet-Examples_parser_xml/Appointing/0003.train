@@ -1,0 +1,5 @@
+<Amr sentence="Astsubayın rütbesini düşürdüler .">
+<Word name="2/rütbe 3/düşür" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="2/rütbe 3/düşür" to="onlar" with="ARG0"/>
+</Amr>

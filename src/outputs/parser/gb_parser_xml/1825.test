@@ -1,0 +1,11 @@
+<Amr sentence="Pek kimseyi görmüyorum .">
+<Word name="3/gör" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/gör" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="3/gör" to="ben" with="ARG0"/>
+<Word name="1/pek" positionX="850" positionY="200"/>
+<Connection from="3/gör" to="1/pek" with="manner"/>
+<Word name="2/kimse" positionX="950" positionY="200"/>
+<Connection from="3/gör" to="2/kimse" with="ARG1"/>
+</Amr>

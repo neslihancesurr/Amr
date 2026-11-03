@@ -1,0 +1,13 @@
+<Amr sentence="Bu davranışınız beni size bağladı .">
+<Word name="5/bağla" positionX="750" positionY="100"/>
+<Word name="2/davranış" positionX="650" positionY="200"/>
+<Connection from="5/bağla" to="2/davranış"/>
+<Word name="siz" positionX="550" positionY="300"/>
+<Connection from="2/davranış" to="siz" with="poss"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/davranış" to="1/bu" with="mod"/>
+<Word name="3/ben" positionX="750" positionY="200"/>
+<Connection from="5/bağla" to="3/ben" with="ARG1"/>
+<Word name="4/size" positionX="850" positionY="200"/>
+<Connection from="5/bağla" to="4/size" with="ARG0"/>
+</Amr>

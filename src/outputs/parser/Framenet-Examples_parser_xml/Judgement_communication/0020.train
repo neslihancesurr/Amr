@@ -1,0 +1,15 @@
+<Amr sentence="Bu olaydan sonra herkes ona cephe aldı .">
+<Word name="6/cephe 7/al" positionX="750" positionY="100"/>
+<Word name="2/olay" positionX="650" positionY="200"/>
+<Connection from="6/cephe 7/al" to="2/olay" with="mod"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/olay" to="1/bu" with="mod"/>
+<Word name="3/sonra" positionX="650" positionY="300"/>
+<Connection from="2/olay" to="3/sonra"/>
+<Word name="4/herkes" positionX="750" positionY="200"/>
+<Connection from="6/cephe 7/al" to="4/herkes" with="ARG0"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="4/herkes" to="onlar" with="poss"/>
+<Word name="5/o" positionX="850" positionY="200"/>
+<Connection from="6/cephe 7/al" to="5/o" with="ARG1"/>
+</Amr>

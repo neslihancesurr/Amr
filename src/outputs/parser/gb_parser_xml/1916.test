@@ -1,0 +1,9 @@
+<Amr sentence="Hanımelinin kokusu çok güzel .">
+<Word name="4/güzel" positionX="750" positionY="100"/>
+<Word name="2/koku" positionX="650" positionY="200"/>
+<Connection from="4/güzel" to="2/koku"/>
+<Word name="1/hanımel" positionX="550" positionY="300"/>
+<Connection from="2/koku" to="1/hanımel" with="mod"/>
+<Word name="3/çok" positionX="750" positionY="200"/>
+<Connection from="4/güzel" to="3/çok" with="degree"/>
+</Amr>

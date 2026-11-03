@@ -1,0 +1,11 @@
+<Amr sentence="Zaten bugün trenler çalışmıyor .">
+<Word name="4/çalış" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/çalış" to="-" with="polarity"/>
+<Word name="1/zaten" positionX="750" positionY="200"/>
+<Connection from="4/çalış" to="1/zaten" with="manner"/>
+<Word name="2/bugün" positionX="850" positionY="200"/>
+<Connection from="4/çalış" to="2/bugün"/>
+<Word name="3/tren" positionX="950" positionY="200"/>
+<Connection from="4/çalış" to="3/tren" with="ARG0"/>
+</Amr>

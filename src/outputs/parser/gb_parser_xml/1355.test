@@ -1,0 +1,16 @@
+<Amr sentence="Umduğundan daha da mı hızlı yüzdün ?">
+<Word name="6/yüz" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="6/yüz" to="sen" with="ARG0"/>
+<Word name="5/hızlı" positionX="750" positionY="200"/>
+<Connection from="6/yüz" to="5/hızlı" with="manner"/>
+<Word name="1/um" positionX="650" positionY="300"/>
+<Connection from="5/hızlı" to="1/um"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="1/um" to="o" with="ARG0"/>
+<Connection from="1/um" to="o" with="poss"/>
+<Word name="2/daha 3/da" positionX="750" positionY="300"/>
+<Connection from="5/hızlı" to="2/daha 3/da" with="manner"/>
+<Word name="4/mi" positionX="650" positionY="400"/>
+<Connection from="2/daha 3/da" to="4/mi"/>
+</Amr>

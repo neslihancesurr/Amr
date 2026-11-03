@@ -1,0 +1,19 @@
+<Amr sentence="Ne yabancılar ne mahalle halkı otobüs turlarından memnunlar .">
+<Word name="8/memnun" positionX="750" positionY="100"/>
+<Word name="and" positionX="650" positionY="200"/>
+<Connection from="8/memnun" to="and"/>
+<Word name="5/halk" positionX="550" positionY="300"/>
+<Connection from="and" to="5/halk" with="op1"/>
+<Word name="3/ne" positionX="450" positionY="400"/>
+<Connection from="5/halk" to="3/ne"/>
+<Word name="4/mahalle" positionX="550" positionY="400"/>
+<Connection from="5/halk" to="4/mahalle" with="mod"/>
+<Word name="2/yabancı" positionX="650" positionY="300"/>
+<Connection from="and" to="2/yabancı" with="op2"/>
+<Word name="1/ne" positionX="550" positionY="400"/>
+<Connection from="2/yabancı" to="1/ne"/>
+<Word name="7/tur" positionX="750" positionY="200"/>
+<Connection from="8/memnun" to="7/tur"/>
+<Word name="6/otobüs" positionX="650" positionY="300"/>
+<Connection from="7/tur" to="6/otobüs" with="mod"/>
+</Amr>

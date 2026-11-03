@@ -1,0 +1,9 @@
+<Amr sentence="Ancak omurgasız insanlar bukalemun gibi renkten renge girer .">
+<Word name="5/gibi 6/renk 7/renk 8/gir" positionX="750" positionY="100"/>
+<Word name="1/ancak" positionX="650" positionY="200"/>
+<Connection from="5/gibi 6/renk 7/renk 8/gir" to="1/ancak"/>
+<Word name="3/insan" positionX="750" positionY="200"/>
+<Connection from="5/gibi 6/renk 7/renk 8/gir" to="3/insan" with="ARG0"/>
+<Word name="2/omurgasız" positionX="650" positionY="300"/>
+<Connection from="3/insan" to="2/omurgasız" with="mod"/>
+</Amr>

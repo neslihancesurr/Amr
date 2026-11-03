@@ -1,0 +1,13 @@
+<Amr sentence="Gülü , başkasına aldırdım .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="4/al" positionX="650" positionY="200"/>
+<Connection from="yap" to="4/al"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="4/al" to="ben" with="ARG0"/>
+<Word name="1/gül" positionX="650" positionY="300"/>
+<Connection from="4/al" to="1/gül"/>
+<Word name="3/başkası" positionX="750" positionY="300"/>
+<Connection from="4/al" to="3/başkası"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="3/başkası" to="o" with="poss"/>
+</Amr>

@@ -1,0 +1,20 @@
+<Amr sentence="Bence bu resim sanat eseri sayılmaz .">
+<Word name="6/say" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="6/say" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="6/say" to="o" with="ARG0"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="6/say" to="person"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/bence" positionX="650" positionY="400"/>
+<Connection from="name" to="1/bence" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/resim" positionX="950" positionY="200"/>
+<Connection from="6/say" to="3/resim" with="ARG1"/>
+<Word name="2/bu" positionX="850" positionY="300"/>
+<Connection from="3/resim" to="2/bu" with="mod"/>
+<Word name="4/sanat 5/eser" positionX="1050" positionY="200"/>
+<Connection from="6/say" to="4/sanat 5/eser" with="ARG2"/>
+</Amr>

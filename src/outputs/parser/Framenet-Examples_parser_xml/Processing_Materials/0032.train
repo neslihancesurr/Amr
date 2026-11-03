@@ -1,0 +1,11 @@
+<Amr sentence="Dükkan camlarını dün sütreledik .">
+<Word name="4/sütrele" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="4/sütrele" to="biz" with="ARG0"/>
+<Word name="2/cam" positionX="750" positionY="200"/>
+<Connection from="4/sütrele" to="2/cam" with="ARG1"/>
+<Word name="1/dükkan" positionX="650" positionY="300"/>
+<Connection from="2/cam" to="1/dükkan" with="mod"/>
+<Word name="3/dün" positionX="850" positionY="200"/>
+<Connection from="4/sütrele" to="3/dün" with="mod"/>
+</Amr>

@@ -1,0 +1,21 @@
+<Amr sentence="Böyle bir tesadüf olursa gözlerini kaçırmayı doğru bulmuyorlardı .">
+<Word name="7/doğru 8/bul" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="7/doğru 8/bul" to="-" with="polarity"/>
+<Word name="onlar" positionX="750" positionY="200"/>
+<Connection from="7/doğru 8/bul" to="onlar" with="ARG0"/>
+<Word name="4/ol" positionX="850" positionY="200"/>
+<Connection from="7/doğru 8/bul" to="4/ol" with="cond"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="4/ol" to="o" with="ARG0"/>
+<Word name="3/tesadüf" positionX="850" positionY="300"/>
+<Connection from="4/ol" to="3/tesadüf"/>
+<Word name="1/böyle" positionX="750" positionY="400"/>
+<Connection from="3/tesadüf" to="1/böyle" with="mod"/>
+<Word name="6/kaçır" positionX="950" positionY="200"/>
+<Connection from="7/doğru 8/bul" to="6/kaçır" with="ARG1"/>
+<Connection from="6/kaçır" to="o" with="ARG0"/>
+<Word name="5/göz" positionX="950" positionY="300"/>
+<Connection from="6/kaçır" to="5/göz" with="ARG1"/>
+<Connection from="5/göz" to="o" with="poss"/>
+</Amr>

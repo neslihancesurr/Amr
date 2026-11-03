@@ -1,0 +1,25 @@
+<Amr sentence="Rüzgâr kesilmiş , toprak üstüne yalın ayak basılmayacak kadar ısınmıştı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/kesil" positionX="650" positionY="200"/>
+<Connection from="and" to="2/kesil" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/kesil" to="o" with="ARG0"/>
+<Word name="1/rüzgâr" positionX="650" positionY="300"/>
+<Connection from="2/kesil" to="1/rüzgâr" with="ARG1"/>
+<Word name="10/ısın" positionX="750" positionY="200"/>
+<Connection from="and" to="10/ısın" with="op2"/>
+<Connection from="10/ısın" to="o" with="ARG0"/>
+<Word name="4/toprak" positionX="750" positionY="300"/>
+<Connection from="10/ısın" to="4/toprak" with="ARG1"/>
+<Word name="8/bas" positionX="850" positionY="300"/>
+<Connection from="10/ısın" to="8/bas" with="extent"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="8/bas" to="-" with="polarity"/>
+<Word name="5/üst" positionX="850" positionY="400"/>
+<Connection from="8/bas" to="5/üst"/>
+<Connection from="5/üst" to="o" with="poss"/>
+<Word name="7/ayak" positionX="950" positionY="400"/>
+<Connection from="8/bas" to="7/ayak"/>
+<Word name="6/yalın" positionX="850" positionY="500"/>
+<Connection from="7/ayak" to="6/yalın"/>
+</Amr>

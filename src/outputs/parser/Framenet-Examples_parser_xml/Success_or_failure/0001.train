@@ -1,0 +1,7 @@
+<Amr sentence="Parti , seçimde tulum çıkardı .">
+<Word name="4/tulum 5/çık" positionX="750" positionY="100"/>
+<Word name="1/parti" positionX="650" positionY="200"/>
+<Connection from="4/tulum 5/çık" to="1/parti" with="ARG0"/>
+<Word name="3/seçim" positionX="750" positionY="200"/>
+<Connection from="4/tulum 5/çık" to="3/seçim" with="ARG1"/>
+</Amr>

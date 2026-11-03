@@ -1,0 +1,22 @@
+<Amr sentence="Fatma genellikle Ankara'ya otobüsle gidiyor .">
+<Word name="5/git" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/git" to="o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="5/git" to="person" with="ARG1"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/fatma" positionX="550" positionY="400"/>
+<Connection from="name" to="1/fatma" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/genellikle" positionX="850" positionY="200"/>
+<Connection from="5/git" to="2/genellikle" with="manner"/>
+<Connection from="5/git" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/ankara" positionX="750" positionY="400"/>
+<Connection from="name" to="3/ankara" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/otobüs" positionX="1050" positionY="200"/>
+<Connection from="5/git" to="4/otobüs" with="instrument"/>
+</Amr>

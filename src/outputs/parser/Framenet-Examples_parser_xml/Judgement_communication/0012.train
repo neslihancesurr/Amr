@@ -1,0 +1,13 @@
+<Amr sentence="Her fırsatta acımasızca kızcağızı tahkir ediyor .">
+<Word name="5/tahkir 6/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/tahkir 6/et" to="o" with="ARG0"/>
+<Word name="2/fırsat" positionX="750" positionY="200"/>
+<Connection from="5/tahkir 6/et" to="2/fırsat" with="mod"/>
+<Word name="1/her" positionX="650" positionY="300"/>
+<Connection from="2/fırsat" to="1/her" with="mod"/>
+<Word name="3/acımasız" positionX="850" positionY="200"/>
+<Connection from="5/tahkir 6/et" to="3/acımasız" with="manner"/>
+<Word name="4/kızcağız" positionX="950" positionY="200"/>
+<Connection from="5/tahkir 6/et" to="4/kızcağız" with="ARG1"/>
+</Amr>

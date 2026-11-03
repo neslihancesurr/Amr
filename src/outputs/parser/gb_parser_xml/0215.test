@@ -1,0 +1,7 @@
+<Amr sentence="hızlı mı hızlı">
+<Word name="3/hız" positionX="750" positionY="100"/>
+<Word name="1/hız" positionX="650" positionY="200"/>
+<Connection from="3/hız" to="1/hız"/>
+<Word name="2/mi" positionX="550" positionY="300"/>
+<Connection from="1/hız" to="2/mi"/>
+</Amr>

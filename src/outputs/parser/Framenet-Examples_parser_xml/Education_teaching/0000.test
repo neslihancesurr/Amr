@@ -1,0 +1,11 @@
+<Amr sentence="Bu sayede nitelikli nesiller yetişmiştir .">
+<Word name="5/yetiş" positionX="750" positionY="100"/>
+<Word name="2/saye" positionX="650" positionY="200"/>
+<Connection from="5/yetiş" to="2/saye" with="mod"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/saye" to="1/bu" with="mod"/>
+<Word name="4/nesil" positionX="750" positionY="200"/>
+<Connection from="5/yetiş" to="4/nesil" with="ARG0"/>
+<Word name="3/nitelikli" positionX="650" positionY="300"/>
+<Connection from="4/nesil" to="3/nitelikli" with="mod"/>
+</Amr>

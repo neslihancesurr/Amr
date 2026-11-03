@@ -1,0 +1,16 @@
+<Amr sentence="İçi kıyıldı , biraz peynir ekmek atıştırdı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/iç 2/kıyıl" positionX="650" positionY="200"/>
+<Connection from="and" to="1/iç 2/kıyıl" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/iç 2/kıyıl" to="o" with="ARG0"/>
+<Word name="7/atıştır" positionX="750" positionY="200"/>
+<Connection from="and" to="7/atıştır" with="op2"/>
+<Connection from="7/atıştır" to="o" with="ARG0"/>
+<Word name="6/ekmek" positionX="750" positionY="300"/>
+<Connection from="7/atıştır" to="6/ekmek" with="ARG1"/>
+<Word name="4/biraz" positionX="650" positionY="400"/>
+<Connection from="6/ekmek" to="4/biraz" with="mod"/>
+<Word name="5/peynir" positionX="750" positionY="400"/>
+<Connection from="6/ekmek" to="5/peynir"/>
+</Amr>

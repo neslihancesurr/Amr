@@ -1,0 +1,10 @@
+<Amr sentence="Çocuğu suya itmek .">
+<Word name="3/it" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/it" to="o" with="ARG0"/>
+<Word name="1/çocuk" positionX="750" positionY="200"/>
+<Connection from="3/it" to="1/çocuk" with="ARG1"/>
+<Connection from="1/çocuk" to="o" with="poss"/>
+<Word name="2/su" positionX="850" positionY="200"/>
+<Connection from="3/it" to="2/su"/>
+</Amr>

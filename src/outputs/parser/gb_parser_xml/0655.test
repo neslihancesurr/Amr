@@ -1,0 +1,13 @@
+<Amr sentence="Şu kırmızı çiçekli kumaştan alalım .">
+<Word name="5/al" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/al" to="biz" with="ARG0"/>
+<Word name="4/kumaş" positionX="750" positionY="200"/>
+<Connection from="5/al" to="4/kumaş" with="ARG1"/>
+<Word name="1/şu" positionX="650" positionY="300"/>
+<Connection from="4/kumaş" to="1/şu" with="mod"/>
+<Word name="3/çiçekli" positionX="750" positionY="300"/>
+<Connection from="4/kumaş" to="3/çiçekli" with="mod"/>
+<Word name="2/kırmızı" positionX="650" positionY="400"/>
+<Connection from="3/çiçekli" to="2/kırmızı" with="mod"/>
+</Amr>

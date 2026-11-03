@@ -1,0 +1,9 @@
+<Amr sentence="Aynalar eşyanın görüntülerini evirtir .">
+<Word name="4/evirt" positionX="750" positionY="100"/>
+<Word name="1/ayna" positionX="650" positionY="200"/>
+<Connection from="4/evirt" to="1/ayna" with="ARG0"/>
+<Word name="3/görüntü" positionX="750" positionY="200"/>
+<Connection from="4/evirt" to="3/görüntü" with="ARG1"/>
+<Word name="2/eşya" positionX="650" positionY="300"/>
+<Connection from="3/görüntü" to="2/eşya" with="mod"/>
+</Amr>

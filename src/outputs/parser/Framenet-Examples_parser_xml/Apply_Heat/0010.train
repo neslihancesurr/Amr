@@ -1,0 +1,9 @@
+<Amr sentence="Akşam yemeği için patates kızartacak .">
+<Word name="5/kızart" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/kızart" to="o" with="ARG0"/>
+<Word name="1/akşam 2/yemek" positionX="750" positionY="200"/>
+<Connection from="5/kızart" to="1/akşam 2/yemek" with="mod"/>
+<Word name="4/patates" positionX="850" positionY="200"/>
+<Connection from="5/kızart" to="4/patates" with="ARG1"/>
+</Amr>

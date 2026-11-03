@@ -1,0 +1,15 @@
+<Amr sentence="Soba yanmıyordu , tir tir titriyordum .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/yan" positionX="650" positionY="200"/>
+<Connection from="and" to="2/yan" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="2/yan" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/yan" to="o" with="ARG0"/>
+<Word name="1/soba" positionX="750" positionY="300"/>
+<Connection from="2/yan" to="1/soba" with="ARG1"/>
+<Word name="4/tir 5/tir 6/titre" positionX="750" positionY="200"/>
+<Connection from="and" to="4/tir 5/tir 6/titre" with="op2"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="4/tir 5/tir 6/titre" to="ben" with="ARG0"/>
+</Amr>

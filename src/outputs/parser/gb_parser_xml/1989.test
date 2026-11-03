@@ -1,0 +1,13 @@
+<Amr sentence="Bana da getir bir kahve .">
+<Word name="3/getir" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="3/getir" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="3/getir" to="imperative" with="mode"/>
+<Word name="1/ben" positionX="850" positionY="200"/>
+<Connection from="3/getir" to="1/ben"/>
+<Word name="2/da" positionX="750" positionY="300"/>
+<Connection from="1/ben" to="2/da"/>
+<Word name="5/kahve" positionX="950" positionY="200"/>
+<Connection from="3/getir" to="5/kahve" with="ARG1"/>
+</Amr>

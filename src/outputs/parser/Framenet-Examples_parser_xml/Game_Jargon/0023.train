@@ -1,0 +1,11 @@
+<Amr sentence="Beklenmedik bir vezir hamlesiyle oyunu aldı .">
+<Word name="5/oyun 6/al" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/oyun 6/al" to="o" with="ARG0"/>
+<Word name="4/hamle" positionX="750" positionY="200"/>
+<Connection from="5/oyun 6/al" to="4/hamle" with="instrument"/>
+<Word name="1/beklenmedik" positionX="650" positionY="300"/>
+<Connection from="4/hamle" to="1/beklenmedik"/>
+<Word name="3/vezir" positionX="750" positionY="300"/>
+<Connection from="4/hamle" to="3/vezir" with="mod"/>
+</Amr>

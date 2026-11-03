@@ -1,0 +1,17 @@
+<Amr sentence="Özdemir o şarkıyı güzel söyledi .">
+<Word name="5/söyle" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="5/söyle" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/özdemir" positionX="450" positionY="400"/>
+<Connection from="name" to="1/özdemir" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/şarkı" positionX="750" positionY="200"/>
+<Connection from="5/söyle" to="3/şarkı" with="ARG1"/>
+<Word name="2/o" positionX="650" positionY="300"/>
+<Connection from="3/şarkı" to="2/o" with="mod"/>
+<Word name="4/güzel" positionX="850" positionY="200"/>
+<Connection from="5/söyle" to="4/güzel" with="manner"/>
+</Amr>

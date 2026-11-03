@@ -1,0 +1,20 @@
+<Amr sentence="Erol'un evleneceğini düşündüğüm kız">
+<Word name="4/kız" positionX="750" positionY="100"/>
+<Word name="3/düşün" positionX="650" positionY="200"/>
+<Connection from="4/kız" to="3/düşün"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="3/düşün" to="ben" with="poss"/>
+<Word name="2/evlen" positionX="650" positionY="300"/>
+<Connection from="3/düşün" to="2/evlen"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="2/evlen" to="o" with="ARG0"/>
+<Connection from="2/evlen" to="o" with="poss"/>
+<Word name="person" positionX="750" positionY="400"/>
+<Connection from="2/evlen" to="person"/>
+<Word name="name" positionX="650" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/erol" positionX="550" positionY="600"/>
+<Connection from="name" to="1/erol" with="op1"/>
+<Word name="-" positionX="750" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

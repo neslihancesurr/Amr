@@ -1,0 +1,25 @@
+<Amr sentence="Ocağın metal kısmı yanıyor , çok dokunma .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/yan" positionX="650" positionY="200"/>
+<Connection from="and" to="4/yan" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/yan" to="o" with="ARG0"/>
+<Word name="3/kısım" positionX="650" positionY="300"/>
+<Connection from="4/yan" to="3/kısım" with="ARG1"/>
+<Word name="date-entity" positionX="550" positionY="400"/>
+<Connection from="3/kısım" to="date-entity" with="date"/>
+<Word name="1/ocak" positionX="450" positionY="500"/>
+<Connection from="date-entity" to="1/ocak" with="month"/>
+<Word name="2/metal" positionX="650" positionY="400"/>
+<Connection from="3/kısım" to="2/metal" with="mod"/>
+<Word name="7/dokun" positionX="750" positionY="200"/>
+<Connection from="and" to="7/dokun" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="7/dokun" to="-" with="polarity"/>
+<Word name="sen" positionX="750" positionY="300"/>
+<Connection from="7/dokun" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="850" positionY="300"/>
+<Connection from="7/dokun" to="imperative" with="mode"/>
+<Word name="6/çok" positionX="950" positionY="300"/>
+<Connection from="7/dokun" to="6/çok" with="degree"/>
+</Amr>

@@ -1,0 +1,12 @@
+<Amr sentence="Ali sigara içmez .">
+<Word name="2/sigara 3/iç" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="2/sigara 3/iç" to="-" with="polarity"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="2/sigara 3/iç" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ali" positionX="550" positionY="400"/>
+<Connection from="name" to="1/ali" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

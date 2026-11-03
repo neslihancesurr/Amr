@@ -1,0 +1,5 @@
+<Amr sentence="göz hastalıkları hastanesi">
+<Word name="3/hastane" positionX="750" positionY="100"/>
+<Word name="1/göz 2/hastalık" positionX="650" positionY="200"/>
+<Connection from="3/hastane" to="1/göz 2/hastalık" with="mod"/>
+</Amr>

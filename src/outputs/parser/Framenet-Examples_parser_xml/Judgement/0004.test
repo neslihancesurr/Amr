@@ -1,0 +1,15 @@
+<Amr sentence="Teyzeme ne getirsek beğenmeyip kötümsüyor .">
+<Word name="5/kötümse" positionX="750" positionY="100"/>
+<Word name="3/getir" positionX="650" positionY="200"/>
+<Connection from="5/kötümse" to="3/getir" with="ARG1"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="3/getir" to="biz" with="ARG0"/>
+<Word name="1/teyze" positionX="650" positionY="300"/>
+<Connection from="3/getir" to="1/teyze"/>
+<Word name="ben" positionX="550" positionY="400"/>
+<Connection from="1/teyze" to="ben" with="poss"/>
+<Word name="2/ne" positionX="750" positionY="300"/>
+<Connection from="3/getir" to="2/ne" with="ARG1"/>
+<Word name="4/beğenme" positionX="750" positionY="200"/>
+<Connection from="5/kötümse" to="4/beğenme"/>
+</Amr>

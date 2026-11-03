@@ -1,0 +1,21 @@
+<Amr sentence="Bunu yapsa yapsa Gürkan yapar .">
+<Word name="5/yap" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/yap" to="o" with="ARG0"/>
+<Word name="1/bu" positionX="750" positionY="200"/>
+<Connection from="5/yap" to="1/bu"/>
+<Word name="3/yap" positionX="850" positionY="200"/>
+<Connection from="5/yap" to="3/yap"/>
+<Connection from="3/yap" to="o" with="ARG0"/>
+<Word name="2/yap" positionX="850" positionY="300"/>
+<Connection from="3/yap" to="2/yap"/>
+<Connection from="2/yap" to="o" with="ARG0"/>
+<Word name="person" positionX="950" positionY="200"/>
+<Connection from="5/yap" to="person"/>
+<Word name="name" positionX="850" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="4/gürkan" positionX="750" positionY="400"/>
+<Connection from="name" to="4/gürkan" with="op1"/>
+<Word name="-" positionX="950" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

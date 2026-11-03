@@ -1,0 +1,15 @@
+<Amr sentence="Ben yemek hazırlarken sen de sofrayı kur .">
+<Word name="6/sofra 7/kur" positionX="750" positionY="100"/>
+<Word name="imperative" positionX="650" positionY="200"/>
+<Connection from="6/sofra 7/kur" to="imperative" with="mode"/>
+<Word name="3/hazırla" positionX="750" positionY="200"/>
+<Connection from="6/sofra 7/kur" to="3/hazırla"/>
+<Word name="1/ben" positionX="650" positionY="300"/>
+<Connection from="3/hazırla" to="1/ben" with="ARG0"/>
+<Word name="2/yemek" positionX="750" positionY="300"/>
+<Connection from="3/hazırla" to="2/yemek" with="ARG1"/>
+<Word name="4/sen" positionX="850" positionY="200"/>
+<Connection from="6/sofra 7/kur" to="4/sen" with="ARG0"/>
+<Word name="5/de" positionX="750" positionY="300"/>
+<Connection from="4/sen" to="5/de" with="manner"/>
+</Amr>

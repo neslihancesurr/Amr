@@ -1,0 +1,9 @@
+<Amr sentence="Yakalanınca hemen bir şeyler doğaçladı .">
+<Word name="5/doğaçla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/doğaçla" to="o" with="ARG0"/>
+<Word name="1/yakalan" positionX="750" positionY="200"/>
+<Connection from="5/doğaçla" to="1/yakalan"/>
+<Word name="2/hemen" positionX="850" positionY="200"/>
+<Connection from="5/doğaçla" to="2/hemen" with="manner"/>
+</Amr>

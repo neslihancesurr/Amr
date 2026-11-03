@@ -1,0 +1,17 @@
+<Amr sentence="Artık gözden düştü , kimse onunla ilgilenmez .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/göz 3/düş" positionX="650" positionY="200"/>
+<Connection from="and" to="2/göz 3/düş" with="op1"/>
+<Word name="1/artık" positionX="550" positionY="300"/>
+<Connection from="2/göz 3/düş" to="1/artık" with="manner"/>
+<Word name="7/ilgilen" positionX="750" positionY="200"/>
+<Connection from="and" to="7/ilgilen" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="7/ilgilen" to="-" with="polarity"/>
+<Word name="5/kimse" positionX="750" positionY="300"/>
+<Connection from="7/ilgilen" to="5/kimse" with="ARG0"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="5/kimse" to="o" with="poss"/>
+<Word name="6/o" positionX="850" positionY="300"/>
+<Connection from="7/ilgilen" to="6/o" with="ARG1"/>
+</Amr>

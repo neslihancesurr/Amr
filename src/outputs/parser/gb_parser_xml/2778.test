@@ -1,0 +1,11 @@
+<Amr sentence="İmza gerektiren bir paket varmış .">
+<Word name="5/var" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/var" to="o" with="ARG0"/>
+<Word name="4/paket" positionX="750" positionY="200"/>
+<Connection from="5/var" to="4/paket"/>
+<Word name="2/gerektir" positionX="650" positionY="300"/>
+<Connection from="4/paket" to="2/gerektir"/>
+<Word name="1/imza" positionX="550" positionY="400"/>
+<Connection from="2/gerektir" to="1/imza" with="ARG1"/>
+</Amr>

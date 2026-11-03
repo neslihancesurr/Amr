@@ -1,0 +1,14 @@
+<Amr sentence="Sorular sorar ve dersimi sekteye uğratırdı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/sekte 6/uğrat" positionX="650" positionY="200"/>
+<Connection from="and" to="5/sekte 6/uğrat" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="5/sekte 6/uğrat" to="o" with="ARG0"/>
+<Word name="4/ders" positionX="650" positionY="300"/>
+<Connection from="5/sekte 6/uğrat" to="4/ders" with="ARG1"/>
+<Word name="ben" positionX="550" positionY="400"/>
+<Connection from="4/ders" to="ben" with="poss"/>
+<Word name="1/soru 2/sor" positionX="750" positionY="200"/>
+<Connection from="and" to="1/soru 2/sor" with="op2"/>
+<Connection from="1/soru 2/sor" to="o" with="ARG0"/>
+</Amr>

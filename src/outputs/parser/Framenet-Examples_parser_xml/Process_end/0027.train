@@ -1,0 +1,10 @@
+<Amr sentence="Onunla ilişkimize nokta koyduk .">
+<Word name="3/nokta 4/koy" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="3/nokta 4/koy" to="biz" with="ARG0"/>
+<Word name="1/o" positionX="750" positionY="200"/>
+<Connection from="3/nokta 4/koy" to="1/o" with="instrument"/>
+<Word name="2/ilişki" positionX="850" positionY="200"/>
+<Connection from="3/nokta 4/koy" to="2/ilişki" with="ARG1"/>
+<Connection from="2/ilişki" to="biz" with="poss"/>
+</Amr>

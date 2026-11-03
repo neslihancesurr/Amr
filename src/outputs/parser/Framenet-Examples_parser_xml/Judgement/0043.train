@@ -1,0 +1,15 @@
+<Amr sentence="Bütün Bucaklılar bana tapıyor , biliyorsun .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/tap" positionX="650" positionY="200"/>
+<Connection from="and" to="4/tap" with="ARG1"/>
+<Word name="2/bucaklı" positionX="550" positionY="300"/>
+<Connection from="4/tap" to="2/bucaklı" with="ARG0"/>
+<Word name="1/bütün" positionX="450" positionY="400"/>
+<Connection from="2/bucaklı" to="1/bütün" with="mod"/>
+<Word name="3/ben" positionX="650" positionY="300"/>
+<Connection from="4/tap" to="3/ben" with="ARG1"/>
+<Word name="6/bil" positionX="750" positionY="200"/>
+<Connection from="and" to="6/bil" with="op2"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="6/bil" to="sen" with="ARG0"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Odanın halısı biraz sağa kaçmış .">
+<Word name="5/kaç" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/kaç" to="o" with="ARG0"/>
+<Word name="2/halı" positionX="750" positionY="200"/>
+<Connection from="5/kaç" to="2/halı" with="ARG1"/>
+<Word name="1/oda" positionX="650" positionY="300"/>
+<Connection from="2/halı" to="1/oda" with="mod"/>
+<Word name="3/biraz" positionX="850" positionY="200"/>
+<Connection from="5/kaç" to="3/biraz" with="manner"/>
+<Word name="4/sağ" positionX="950" positionY="200"/>
+<Connection from="5/kaç" to="4/sağ"/>
+</Amr>

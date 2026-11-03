@@ -1,0 +1,9 @@
+<Amr sentence="Bir yaşındayken kalp ameliyatı olmuşum .">
+<Word name="4/ameliyat 5/ol" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/ameliyat 5/ol" to="ben" with="ARG0"/>
+<Word name="2/yaş" positionX="750" positionY="200"/>
+<Connection from="4/ameliyat 5/ol" to="2/yaş" with="location"/>
+<Word name="1/bir" positionX="650" positionY="300"/>
+<Connection from="2/yaş" to="1/bir"/>
+</Amr>

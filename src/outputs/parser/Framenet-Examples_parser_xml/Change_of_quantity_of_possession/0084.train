@@ -1,0 +1,5 @@
+<Amr sentence="Buralarda onun hükmü geçer .">
+<Word name="3/hüküm 4/geç" positionX="750" positionY="100"/>
+<Word name="1/bura" positionX="650" positionY="200"/>
+<Connection from="3/hüküm 4/geç" to="1/bura" with="ARG1"/>
+</Amr>

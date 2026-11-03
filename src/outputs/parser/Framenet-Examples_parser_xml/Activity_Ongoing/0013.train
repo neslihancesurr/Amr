@@ -1,0 +1,9 @@
+<Amr sentence="Bu muhabbeti saatlerce sürüdü .">
+<Word name="4/sürü" positionX="750" positionY="100"/>
+<Word name="2/muhabbet" positionX="650" positionY="200"/>
+<Connection from="4/sürü" to="2/muhabbet" with="ARG0"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/muhabbet" to="1/bu" with="mod"/>
+<Word name="3/saatlerce" positionX="750" positionY="200"/>
+<Connection from="4/sürü" to="3/saatlerce" with="manner"/>
+</Amr>

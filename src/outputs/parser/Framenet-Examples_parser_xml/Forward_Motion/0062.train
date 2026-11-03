@@ -1,0 +1,9 @@
+<Amr sentence="Minik at yorgunlukla yorgalıyordu .">
+<Word name="4/yorgala" positionX="750" positionY="100"/>
+<Word name="2/at" positionX="650" positionY="200"/>
+<Connection from="4/yorgala" to="2/at" with="ARG0"/>
+<Word name="1/minik" positionX="550" positionY="300"/>
+<Connection from="2/at" to="1/minik" with="mod"/>
+<Word name="3/yorgunluk" positionX="750" positionY="200"/>
+<Connection from="4/yorgala" to="3/yorgunluk" with="instrument"/>
+</Amr>

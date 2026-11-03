@@ -1,0 +1,11 @@
+<Amr sentence="İşte onun dükkanından söz ediyorum .">
+<Word name="4/söz 5/et" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/söz 5/et" to="ben" with="ARG0"/>
+<Word name="1/işte" positionX="750" positionY="200"/>
+<Connection from="4/söz 5/et" to="1/işte"/>
+<Word name="3/dükkan" positionX="850" positionY="200"/>
+<Connection from="4/söz 5/et" to="3/dükkan" with="ARG1"/>
+<Word name="2/o" positionX="750" positionY="300"/>
+<Connection from="3/dükkan" to="2/o" with="mod"/>
+</Amr>

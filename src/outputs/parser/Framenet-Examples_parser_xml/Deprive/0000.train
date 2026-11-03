@@ -1,0 +1,10 @@
+<Amr sentence="Aldatan kocasını dımdızlak ortalıkta bıraktı .">
+<Word name="3/dımdızlak 4/ortalıkta 5/bırak" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/dımdızlak 4/ortalıkta 5/bırak" to="o" with="ARG0"/>
+<Word name="2/koca" positionX="750" positionY="200"/>
+<Connection from="3/dımdızlak 4/ortalıkta 5/bırak" to="2/koca" with="ARG1"/>
+<Connection from="2/koca" to="o" with="poss"/>
+<Word name="1/aldat" positionX="750" positionY="300"/>
+<Connection from="2/koca" to="1/aldat"/>
+</Amr>

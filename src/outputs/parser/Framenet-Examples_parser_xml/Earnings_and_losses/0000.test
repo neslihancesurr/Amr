@@ -1,0 +1,23 @@
+<Amr sentence="Tasarım departmanının bütçesinde açık var , başka bir departmandan buraya aktarma yapmalıyız .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/var" positionX="650" positionY="200"/>
+<Connection from="and" to="5/var" with="op1"/>
+<Word name="3/bütçe" positionX="550" positionY="300"/>
+<Connection from="5/var" to="3/bütçe" with="location"/>
+<Word name="2/departman" positionX="450" positionY="400"/>
+<Connection from="3/bütçe" to="2/departman" with="mod"/>
+<Word name="1/tasarım" positionX="350" positionY="500"/>
+<Connection from="2/departman" to="1/tasarım" with="mod"/>
+<Word name="4/açık" positionX="650" positionY="300"/>
+<Connection from="5/var" to="4/açık"/>
+<Word name="11/aktarma 12/yap" positionX="750" positionY="200"/>
+<Connection from="and" to="11/aktarma 12/yap" with="op2"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="11/aktarma 12/yap" to="biz" with="ARG0"/>
+<Word name="9/departman" positionX="750" positionY="300"/>
+<Connection from="11/aktarma 12/yap" to="9/departman" with="ARG1"/>
+<Word name="7/başka" positionX="650" positionY="400"/>
+<Connection from="9/departman" to="7/başka" with="mod"/>
+<Word name="10/bura" positionX="850" positionY="300"/>
+<Connection from="11/aktarma 12/yap" to="10/bura"/>
+</Amr>

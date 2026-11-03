@@ -1,0 +1,19 @@
+<Amr sentence="Sen ormanda onu ararken Bahri buradaydı .">
+<Word name="6/bura:location" positionX="750" positionY="100"/>
+<Word name="4/ara" positionX="650" positionY="200"/>
+<Connection from="6/bura:location" to="4/ara"/>
+<Word name="1/sen" positionX="550" positionY="300"/>
+<Connection from="4/ara" to="1/sen" with="ARG0"/>
+<Word name="2/orman" positionX="650" positionY="300"/>
+<Connection from="4/ara" to="2/orman" with="location"/>
+<Word name="3/o" positionX="750" positionY="300"/>
+<Connection from="4/ara" to="3/o" with="ARG1"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="6/bura:location" to="person"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="5/bahri" positionX="550" positionY="400"/>
+<Connection from="name" to="5/bahri" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

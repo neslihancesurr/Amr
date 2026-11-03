@@ -1,0 +1,8 @@
+<Amr sentence="Gelene geçene pis pis bakıyordu .">
+<Word name="3/pis 4/pis 5/bak" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/pis 4/pis 5/bak" to="o" with="ARG0"/>
+<Word name="1/gel 2/geç" positionX="750" positionY="200"/>
+<Connection from="3/pis 4/pis 5/bak" to="1/gel 2/geç" with="ARG1"/>
+<Connection from="1/gel 2/geç" to="o" with="ARG0"/>
+</Amr>

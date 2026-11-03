@@ -1,0 +1,18 @@
+<Amr sentence="Titanik yola çıkmayacaktı , tornistan etmişti .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/yol 3/çık" positionX="650" positionY="200"/>
+<Connection from="and" to="2/yol 3/çık" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="2/yol 3/çık" to="-" with="polarity"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="2/yol 3/çık" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/Titanik" positionX="450" positionY="500"/>
+<Connection from="name" to="1/Titanik" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/tornistan 6/et" positionX="750" positionY="200"/>
+<Connection from="and" to="5/tornistan 6/et" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/tornistan 6/et" to="o" with="ARG0"/>
+</Amr>

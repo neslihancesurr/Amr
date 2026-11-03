@@ -1,0 +1,9 @@
+<Amr sentence="Pazartesiden beri hastayım .">
+<Word name="3/hasta" positionX="750" positionY="100"/>
+<Word name="date-entity" positionX="650" positionY="200"/>
+<Connection from="3/hasta" to="date-entity" with="date"/>
+<Word name="1/pazartesi" positionX="550" positionY="300"/>
+<Connection from="date-entity" to="1/pazartesi" with="weekday"/>
+<Word name="2/beri" positionX="650" positionY="300"/>
+<Connection from="date-entity" to="2/beri"/>
+</Amr>

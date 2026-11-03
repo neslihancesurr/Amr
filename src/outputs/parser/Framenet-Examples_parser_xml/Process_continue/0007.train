@@ -1,0 +1,11 @@
+<Amr sentence="Velhasılıkelam , spor terakki ediyor bizde !">
+<Word name="4/terakki 5/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/terakki 5/et" to="o" with="ARG0"/>
+<Word name="1/velhasılıkelam" positionX="750" positionY="200"/>
+<Connection from="4/terakki 5/et" to="1/velhasılıkelam"/>
+<Word name="3/spor" positionX="850" positionY="200"/>
+<Connection from="4/terakki 5/et" to="3/spor" with="ARG1"/>
+<Word name="6/biz" positionX="950" positionY="200"/>
+<Connection from="4/terakki 5/et" to="6/biz" with="location"/>
+</Amr>

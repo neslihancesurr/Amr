@@ -1,0 +1,19 @@
+<Amr sentence="Elektrikçi elinde aletleri sorunu düzeltmeye , indüklemeye çalışıyordu .">
+<Word name="8/çalış" positionX="750" positionY="100"/>
+<Word name="1/elektrikçi" positionX="650" positionY="200"/>
+<Connection from="8/çalış" to="1/elektrikçi" with="ARG0"/>
+<Word name="3/alet" positionX="750" positionY="200"/>
+<Connection from="8/çalış" to="3/alet" with="ARG1"/>
+<Word name="2/el" positionX="650" positionY="300"/>
+<Connection from="3/alet" to="2/el" with="mod"/>
+<Word name="and" positionX="850" positionY="200"/>
+<Connection from="8/çalış" to="and"/>
+<Word name="7/indükle" positionX="750" positionY="300"/>
+<Connection from="and" to="7/indükle" with="op1"/>
+<Word name="5/düzeltme" positionX="850" positionY="300"/>
+<Connection from="and" to="5/düzeltme" with="ARG1"/>
+<Word name="4/sorun" positionX="750" positionY="400"/>
+<Connection from="5/düzeltme" to="4/sorun"/>
+<Word name="o" positionX="650" positionY="500"/>
+<Connection from="4/sorun" to="o" with="poss"/>
+</Amr>

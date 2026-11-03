@@ -1,0 +1,15 @@
+<Amr sentence="Bu duruma tabii ki üzülünebilir .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="5/üzül" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="5/üzül"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="5/üzül" to="o" with="ARG0"/>
+<Word name="2/durum" positionX="650" positionY="300"/>
+<Connection from="5/üzül" to="2/durum"/>
+<Word name="1/bu" positionX="550" positionY="400"/>
+<Connection from="2/durum" to="1/bu" with="mod"/>
+<Word name="3/tabii" positionX="750" positionY="300"/>
+<Connection from="5/üzül" to="3/tabii" with="manner"/>
+<Word name="4/ki" positionX="650" positionY="400"/>
+<Connection from="3/tabii" to="4/ki"/>
+</Amr>

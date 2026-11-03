@@ -1,0 +1,11 @@
+<Amr sentence="Atatürk kadar ünlü">
+<Word name="3/ünlü" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="3/ünlü" to="person" with="extent"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/atatürk" positionX="450" positionY="400"/>
+<Connection from="name" to="1/atatürk" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

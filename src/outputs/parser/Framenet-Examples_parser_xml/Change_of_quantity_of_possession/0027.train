@@ -1,0 +1,7 @@
+<Amr sentence="Küçük çocuk erkenden okumayı söktü .">
+<Word name="4/oku 5/sök" positionX="750" positionY="100"/>
+<Word name="2/çocuk" positionX="650" positionY="200"/>
+<Connection from="4/oku 5/sök" to="2/çocuk" with="ARG0"/>
+<Word name="1/küçük" positionX="550" positionY="300"/>
+<Connection from="2/çocuk" to="1/küçük" with="mod"/>
+</Amr>

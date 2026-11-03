@@ -1,0 +1,7 @@
+<Amr sentence="Anahtar yerinde değil .">
+<Word name="2/yer:location" positionX="750" positionY="100"/>
+<Word name="1/anahtar" positionX="650" positionY="200"/>
+<Connection from="2/yer:location" to="1/anahtar"/>
+<Word name="-" positionX="750" positionY="200"/>
+<Connection from="2/yer:location" to="-" with="polarity"/>
+</Amr>

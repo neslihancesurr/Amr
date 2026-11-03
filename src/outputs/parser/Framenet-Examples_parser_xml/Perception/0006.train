@@ -1,0 +1,17 @@
+<Amr sentence="Hançer saplanmış gibi keskin bir sızı hissetmişti kasıklarında .">
+<Word name="7/hisset" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/hisset" to="o" with="ARG0"/>
+<Word name="6/sızı" positionX="750" positionY="200"/>
+<Connection from="7/hisset" to="6/sızı" with="ARG1"/>
+<Word name="4/keskin" positionX="650" positionY="300"/>
+<Connection from="6/sızı" to="4/keskin" with="mod"/>
+<Word name="2/sapla" positionX="550" positionY="400"/>
+<Connection from="4/keskin" to="2/sapla"/>
+<Word name="1/hançer" positionX="450" positionY="500"/>
+<Connection from="2/sapla" to="1/hançer" with="ARG0"/>
+<Word name="3/gibi" positionX="550" positionY="500"/>
+<Connection from="2/sapla" to="3/gibi"/>
+<Word name="8/kasık" positionX="850" positionY="200"/>
+<Connection from="7/hisset" to="8/kasık" with="location"/>
+</Amr>

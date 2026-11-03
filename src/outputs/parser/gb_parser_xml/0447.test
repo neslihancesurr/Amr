@@ -1,0 +1,11 @@
+<Amr sentence="Her gün çikolata yiyebilirim .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="4/ye" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="4/ye"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="4/ye" to="ben" with="ARG0"/>
+<Word name="1/her 2/gün" positionX="650" positionY="300"/>
+<Connection from="4/ye" to="1/her 2/gün" with="mod"/>
+<Word name="3/çikolata" positionX="750" positionY="300"/>
+<Connection from="4/ye" to="3/çikolata" with="ARG1"/>
+</Amr>

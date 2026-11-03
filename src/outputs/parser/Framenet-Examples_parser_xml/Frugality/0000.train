@@ -1,0 +1,18 @@
+<Amr sentence="Babasından kalan mirası 2 sene içinde tüketti .">
+<Word name="7/tüket" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/tüket" to="o" with="ARG0"/>
+<Word name="3/miras" positionX="750" positionY="200"/>
+<Connection from="7/tüket" to="3/miras" with="ARG1"/>
+<Word name="2/kal" positionX="650" positionY="300"/>
+<Connection from="3/miras" to="2/kal"/>
+<Word name="1/baba" positionX="550" positionY="400"/>
+<Connection from="2/kal" to="1/baba"/>
+<Connection from="1/baba" to="o" with="poss"/>
+<Word name="6/içinde" positionX="850" positionY="200"/>
+<Connection from="7/tüket" to="6/içinde" with="manner"/>
+<Word name="5/sene" positionX="750" positionY="300"/>
+<Connection from="6/içinde" to="5/sene" with="mod"/>
+<Word name="4/2" positionX="650" positionY="400"/>
+<Connection from="5/sene" to="4/2"/>
+</Amr>

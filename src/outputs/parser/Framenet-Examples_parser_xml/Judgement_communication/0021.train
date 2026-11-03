@@ -1,0 +1,13 @@
+<Amr sentence="Şu dakikadan sonra senden nefret ediyorum .">
+<Word name="5/nefret 6/et" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/nefret 6/et" to="ben" with="ARG0"/>
+<Word name="2/dakika" positionX="750" positionY="200"/>
+<Connection from="5/nefret 6/et" to="2/dakika" with="mod"/>
+<Word name="1/şu" positionX="650" positionY="300"/>
+<Connection from="2/dakika" to="1/şu" with="mod"/>
+<Word name="3/sonra" positionX="750" positionY="300"/>
+<Connection from="2/dakika" to="3/sonra"/>
+<Word name="4/senden" positionX="850" positionY="200"/>
+<Connection from="5/nefret 6/et" to="4/senden" with="ARG1"/>
+</Amr>

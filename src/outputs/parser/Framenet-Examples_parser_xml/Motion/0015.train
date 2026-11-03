@@ -1,0 +1,11 @@
+<Amr sentence="Küçük serçe yavaş yavaş pervaz etti .">
+<Word name="5/pervaz 6/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/pervaz 6/et" to="o" with="ARG0"/>
+<Word name="2/serçe" positionX="750" positionY="200"/>
+<Connection from="5/pervaz 6/et" to="2/serçe" with="ARG1"/>
+<Word name="1/küçük" positionX="650" positionY="300"/>
+<Connection from="2/serçe" to="1/küçük" with="mod"/>
+<Word name="3/yavaş 4/yavaş" positionX="850" positionY="200"/>
+<Connection from="5/pervaz 6/et" to="3/yavaş 4/yavaş"/>
+</Amr>

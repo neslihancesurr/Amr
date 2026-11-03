@@ -1,0 +1,20 @@
+<Amr sentence="Bir taraftan tahsile koşarken bir taraftan da bu memuriyetine devam ediyordu .">
+<Word name="10/devam 11/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="10/devam 11/et" to="o" with="ARG0"/>
+<Word name="4/koş" positionX="750" positionY="200"/>
+<Connection from="10/devam 11/et" to="4/koş"/>
+<Word name="2/taraf" positionX="650" positionY="300"/>
+<Connection from="4/koş" to="2/taraf" with="mod"/>
+<Word name="3/tahsil" positionX="750" positionY="300"/>
+<Connection from="4/koş" to="3/tahsil"/>
+<Word name="6/taraf" positionX="850" positionY="200"/>
+<Connection from="10/devam 11/et" to="6/taraf" with="ARG2"/>
+<Word name="7/da" positionX="750" positionY="300"/>
+<Connection from="6/taraf" to="7/da"/>
+<Word name="9/memuriyet" positionX="950" positionY="200"/>
+<Connection from="10/devam 11/et" to="9/memuriyet" with="ARG1"/>
+<Connection from="9/memuriyet" to="o" with="poss"/>
+<Word name="8/bu" positionX="950" positionY="300"/>
+<Connection from="9/memuriyet" to="8/bu" with="mod"/>
+</Amr>

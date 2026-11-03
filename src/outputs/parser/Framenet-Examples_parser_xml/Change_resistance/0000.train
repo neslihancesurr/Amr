@@ -1,0 +1,19 @@
+<Amr sentence="Yıkılmasın diye çadırları iyice sağlamlaştırıyoruz .">
+<Word name="5/sağlamlaştır" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/sağlamlaştır" to="biz" with="ARG0"/>
+<Word name="1/yıkıl" positionX="750" positionY="200"/>
+<Connection from="5/sağlamlaştır" to="1/yıkıl"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="1/yıkıl" to="-" with="polarity"/>
+<Word name="imperative" positionX="750" positionY="300"/>
+<Connection from="1/yıkıl" to="imperative" with="mode"/>
+<Word name="2/diye" positionX="850" positionY="300"/>
+<Connection from="1/yıkıl" to="2/diye"/>
+<Word name="3/çadır" positionX="850" positionY="200"/>
+<Connection from="5/sağlamlaştır" to="3/çadır" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="3/çadır" to="o" with="poss"/>
+<Word name="4/iyice" positionX="950" positionY="200"/>
+<Connection from="5/sağlamlaştır" to="4/iyice" with="manner"/>
+</Amr>

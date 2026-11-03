@@ -1,0 +1,12 @@
+<Amr sentence="Kendime bakamıyorum .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="2/bak" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="2/bak"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="2/bak" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="2/bak" to="ben" with="ARG0"/>
+<Word name="1/kendi" positionX="750" positionY="300"/>
+<Connection from="2/bak" to="1/kendi" with="ARG0"/>
+<Connection from="1/kendi" to="ben" with="poss"/>
+</Amr>

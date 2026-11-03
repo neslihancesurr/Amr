@@ -1,0 +1,11 @@
+<Amr sentence="Polisler , kaçan hırsızları saatlerce kovaladılar .">
+<Word name="6/kovala" positionX="750" positionY="100"/>
+<Word name="1/polis" positionX="650" positionY="200"/>
+<Connection from="6/kovala" to="1/polis" with="ARG0"/>
+<Word name="4/hırsız" positionX="750" positionY="200"/>
+<Connection from="6/kovala" to="4/hırsız" with="ARG1"/>
+<Word name="3/kaç" positionX="650" positionY="300"/>
+<Connection from="4/hırsız" to="3/kaç" with="mod"/>
+<Word name="5/saatlerce" positionX="850" positionY="200"/>
+<Connection from="6/kovala" to="5/saatlerce" with="manner"/>
+</Amr>

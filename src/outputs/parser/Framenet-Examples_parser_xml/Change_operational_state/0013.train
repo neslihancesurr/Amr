@@ -1,0 +1,21 @@
+<Amr sentence="Balonu söndür , böyle taşıyamayız .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/söndür" positionX="650" positionY="200"/>
+<Connection from="and" to="2/söndür" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="2/söndür" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="650" positionY="300"/>
+<Connection from="2/söndür" to="imperative" with="mode"/>
+<Word name="1/balon" positionX="750" positionY="300"/>
+<Connection from="2/söndür" to="1/balon" with="ARG1"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="1/balon" to="o" with="poss"/>
+<Word name="5/taşı" positionX="750" positionY="200"/>
+<Connection from="and" to="5/taşı" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="5/taşı" to="-" with="polarity"/>
+<Word name="biz" positionX="750" positionY="300"/>
+<Connection from="5/taşı" to="biz" with="ARG0"/>
+<Word name="4/böyle" positionX="850" positionY="300"/>
+<Connection from="5/taşı" to="4/böyle" with="manner"/>
+</Amr>

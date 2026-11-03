@@ -1,0 +1,11 @@
+<Amr sentence="Akan su burada iyice birikmiş .">
+<Word name="5/birik" positionX="750" positionY="100"/>
+<Word name="2/su" positionX="650" positionY="200"/>
+<Connection from="5/birik" to="2/su" with="ARG0"/>
+<Word name="1/ak" positionX="550" positionY="300"/>
+<Connection from="2/su" to="1/ak"/>
+<Word name="3/burada" positionX="750" positionY="200"/>
+<Connection from="5/birik" to="3/burada" with="manner"/>
+<Word name="4/iyice" positionX="850" positionY="200"/>
+<Connection from="5/birik" to="4/iyice" with="manner"/>
+</Amr>

@@ -1,0 +1,14 @@
+<Amr sentence="Bu şirketle olan projelerimizi noktaladık .">
+<Word name="5/noktala" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/noktala" to="biz" with="ARG0"/>
+<Word name="4/proje" positionX="750" positionY="200"/>
+<Connection from="5/noktala" to="4/proje" with="ARG1"/>
+<Connection from="4/proje" to="biz" with="poss"/>
+<Word name="3/ol" positionX="750" positionY="300"/>
+<Connection from="4/proje" to="3/ol"/>
+<Word name="2/şirket" positionX="650" positionY="400"/>
+<Connection from="3/ol" to="2/şirket" with="instrument"/>
+<Word name="1/bu" positionX="550" positionY="500"/>
+<Connection from="2/şirket" to="1/bu" with="mod"/>
+</Amr>

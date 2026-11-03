@@ -1,0 +1,17 @@
+<Amr sentence="Önümüzdeki araç aniden fren yaptı , suç bizde değil .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/fren 5/yap" positionX="650" positionY="200"/>
+<Connection from="and" to="4/fren 5/yap" with="op1"/>
+<Word name="2/araç" positionX="550" positionY="300"/>
+<Connection from="4/fren 5/yap" to="2/araç" with="ARG0"/>
+<Word name="1/ön" positionX="450" positionY="400"/>
+<Connection from="2/araç" to="1/ön" with="mod"/>
+<Word name="3/aniden" positionX="650" positionY="300"/>
+<Connection from="4/fren 5/yap" to="3/aniden" with="manner"/>
+<Word name="8/biz" positionX="750" positionY="200"/>
+<Connection from="and" to="8/biz" with="location"/>
+<Word name="7/suç" positionX="650" positionY="300"/>
+<Connection from="8/biz" to="7/suç"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="8/biz" to="-" with="polarity"/>
+</Amr>

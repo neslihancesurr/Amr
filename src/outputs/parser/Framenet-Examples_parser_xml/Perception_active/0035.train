@@ -1,0 +1,17 @@
+<Amr sentence="Yaşlı kadın , yoldan geçen kırmızı saçlı kıza yan gözle baktı .">
+<Word name="9/yan 10/göz 11/bak" positionX="750" positionY="100"/>
+<Word name="2/kadın" positionX="650" positionY="200"/>
+<Connection from="9/yan 10/göz 11/bak" to="2/kadın" with="ARG0"/>
+<Word name="1/yaş" positionX="550" positionY="300"/>
+<Connection from="2/kadın" to="1/yaş" with="mod"/>
+<Word name="8/kız" positionX="750" positionY="200"/>
+<Connection from="9/yan 10/göz 11/bak" to="8/kız" with="ARG1"/>
+<Word name="5/geçen" positionX="650" positionY="300"/>
+<Connection from="8/kız" to="5/geçen"/>
+<Word name="4/yol" positionX="550" positionY="400"/>
+<Connection from="5/geçen" to="4/yol"/>
+<Word name="7/saç" positionX="750" positionY="300"/>
+<Connection from="8/kız" to="7/saç" with="mod"/>
+<Word name="6/kırmızı" positionX="650" positionY="400"/>
+<Connection from="7/saç" to="6/kırmızı" with="mod"/>
+</Amr>

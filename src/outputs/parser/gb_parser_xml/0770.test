@@ -1,0 +1,7 @@
+<Amr sentence="Çok pahalı bir ilaç .">
+<Word name="4/ilaç" positionX="750" positionY="100"/>
+<Word name="2/pahalı" positionX="650" positionY="200"/>
+<Connection from="4/ilaç" to="2/pahalı" with="mod"/>
+<Word name="1/çok" positionX="550" positionY="300"/>
+<Connection from="2/pahalı" to="1/çok" with="degree"/>
+</Amr>

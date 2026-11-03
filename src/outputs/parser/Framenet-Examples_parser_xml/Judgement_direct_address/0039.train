@@ -1,0 +1,13 @@
+<Amr sentence="Onu bana kötüleme .">
+<Word name="3/kötüle" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/kötüle" to="-" with="polarity"/>
+<Word name="sen" positionX="750" positionY="200"/>
+<Connection from="3/kötüle" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="850" positionY="200"/>
+<Connection from="3/kötüle" to="imperative" with="mode"/>
+<Word name="1/o" positionX="950" positionY="200"/>
+<Connection from="3/kötüle" to="1/o" with="ARG1"/>
+<Word name="2/ben" positionX="1050" positionY="200"/>
+<Connection from="3/kötüle" to="2/ben"/>
+</Amr>

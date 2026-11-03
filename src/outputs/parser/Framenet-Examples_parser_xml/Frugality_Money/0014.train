@@ -1,0 +1,21 @@
+<Amr sentence="Her gece sabahlara kadar o bar benim bu pavyon senin hovardalık ediyor .">
+<Word name="11/hovardalık 12/et" positionX="750" positionY="100"/>
+<Word name="2/gece" positionX="650" positionY="200"/>
+<Connection from="11/hovardalık 12/et" to="2/gece" with="mod"/>
+<Word name="1/her" positionX="550" positionY="300"/>
+<Connection from="2/gece" to="1/her" with="mod"/>
+<Word name="3/sabah 4/kadar" positionX="750" positionY="200"/>
+<Connection from="11/hovardalık 12/et" to="3/sabah 4/kadar" with="mod"/>
+<Word name="10/sen" positionX="850" positionY="200"/>
+<Connection from="11/hovardalık 12/et" to="10/sen"/>
+<Word name="7/ben" positionX="750" positionY="300"/>
+<Connection from="10/sen" to="7/ben"/>
+<Word name="6/bar" positionX="650" positionY="400"/>
+<Connection from="7/ben" to="6/bar"/>
+<Word name="5/o" positionX="550" positionY="500"/>
+<Connection from="6/bar" to="5/o" with="mod"/>
+<Word name="9/pavyon" positionX="850" positionY="300"/>
+<Connection from="10/sen" to="9/pavyon"/>
+<Word name="8/bu" positionX="750" positionY="400"/>
+<Connection from="9/pavyon" to="8/bu" with="mod"/>
+</Amr>

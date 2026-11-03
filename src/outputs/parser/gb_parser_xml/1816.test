@@ -1,0 +1,11 @@
+<Amr sentence="Eskiden çocuk , büyüklerine saygı gösterirdi .">
+<Word name="5/saygı 6/göster" positionX="750" positionY="100"/>
+<Word name="1/eskiden" positionX="650" positionY="200"/>
+<Connection from="5/saygı 6/göster" to="1/eskiden" with="ARG0"/>
+<Word name="2/çocuk" positionX="750" positionY="200"/>
+<Connection from="5/saygı 6/göster" to="2/çocuk" with="ARG0"/>
+<Word name="4/büyük" positionX="850" positionY="200"/>
+<Connection from="5/saygı 6/göster" to="4/büyük" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="4/büyük" to="o" with="poss"/>
+</Amr>

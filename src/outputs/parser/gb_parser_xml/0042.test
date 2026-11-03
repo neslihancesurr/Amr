@@ -1,0 +1,9 @@
+<Amr sentence="Mutlaka zamanı vardır .">
+<Word name="3/var" positionX="750" positionY="100"/>
+<Word name="1/mutlaka" positionX="650" positionY="200"/>
+<Connection from="3/var" to="1/mutlaka" with="manner"/>
+<Word name="2/zaman" positionX="750" positionY="200"/>
+<Connection from="3/var" to="2/zaman"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/zaman" to="o" with="poss"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Modele bakarak sakince resim yapıyordu .">
+<Word name="5/yap" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/yap" to="o" with="ARG0"/>
+<Word name="2/bakarak" positionX="750" positionY="200"/>
+<Connection from="5/yap" to="2/bakarak"/>
+<Word name="1/model" positionX="650" positionY="300"/>
+<Connection from="2/bakarak" to="1/model"/>
+<Word name="3/sakince" positionX="850" positionY="200"/>
+<Connection from="5/yap" to="3/sakince" with="manner"/>
+<Word name="4/resim" positionX="950" positionY="200"/>
+<Connection from="5/yap" to="4/resim"/>
+</Amr>

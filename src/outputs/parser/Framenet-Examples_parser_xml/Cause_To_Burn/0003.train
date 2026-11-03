@@ -1,0 +1,11 @@
+<Amr sentence="Sinirle bütün mektupları ateşe verdi .">
+<Word name="4/ateş 5/ver" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/ateş 5/ver" to="o" with="ARG0"/>
+<Word name="1/sinir" positionX="750" positionY="200"/>
+<Connection from="4/ateş 5/ver" to="1/sinir" with="instrument"/>
+<Word name="3/mektup" positionX="850" positionY="200"/>
+<Connection from="4/ateş 5/ver" to="3/mektup" with="ARG1"/>
+<Word name="2/bütün" positionX="750" positionY="300"/>
+<Connection from="3/mektup" to="2/bütün" with="mod"/>
+</Amr>

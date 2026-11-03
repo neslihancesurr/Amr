@@ -1,0 +1,13 @@
+<Amr sentence="Her gece yatmadan evvel okuyup üflerdi .">
+<Word name="5/oku 6/üfle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/oku 6/üfle" to="o" with="ARG0"/>
+<Word name="2/gece" positionX="750" positionY="200"/>
+<Connection from="5/oku 6/üfle" to="2/gece" with="mod"/>
+<Word name="1/her" positionX="650" positionY="300"/>
+<Connection from="2/gece" to="1/her" with="mod"/>
+<Word name="3/yat" positionX="850" positionY="200"/>
+<Connection from="5/oku 6/üfle" to="3/yat" with="mod"/>
+<Word name="4/evvel" positionX="750" positionY="300"/>
+<Connection from="3/yat" to="4/evvel"/>
+</Amr>

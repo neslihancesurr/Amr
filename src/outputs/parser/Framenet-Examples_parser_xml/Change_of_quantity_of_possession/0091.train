@@ -1,0 +1,18 @@
+<Amr sentence="Hastalığından sonra kendini toparlamıştı , artık daha iyiydi .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/kendi 4/toparla" positionX="650" positionY="200"/>
+<Connection from="and" to="3/kendi 4/toparla" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/kendi 4/toparla" to="o" with="ARG0"/>
+<Word name="1/hastalık" positionX="650" positionY="300"/>
+<Connection from="3/kendi 4/toparla" to="1/hastalık"/>
+<Connection from="1/hastalık" to="o" with="poss"/>
+<Word name="2/sonra" positionX="650" positionY="400"/>
+<Connection from="1/hastalık" to="2/sonra"/>
+<Word name="8/iyi" positionX="750" positionY="200"/>
+<Connection from="and" to="8/iyi" with="op2"/>
+<Word name="6/artık" positionX="650" positionY="300"/>
+<Connection from="8/iyi" to="6/artık" with="manner"/>
+<Word name="7/daha" positionX="750" positionY="300"/>
+<Connection from="8/iyi" to="7/daha" with="degree"/>
+</Amr>

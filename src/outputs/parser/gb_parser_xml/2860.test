@@ -1,0 +1,13 @@
+<Amr sentence="Bu ceket senin olmalı .">
+<Word name="3/sen" positionX="750" positionY="100"/>
+<Word name="2/ceket" positionX="650" positionY="200"/>
+<Connection from="3/sen" to="2/ceket"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/ceket" to="1/bu" with="mod"/>
+<Word name="gerek" positionX="750" positionY="200"/>
+<Connection from="3/sen" to="gerek"/>
+<Word name="4/ol" positionX="650" positionY="300"/>
+<Connection from="gerek" to="4/ol"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="4/ol" to="o" with="ARG0"/>
+</Amr>

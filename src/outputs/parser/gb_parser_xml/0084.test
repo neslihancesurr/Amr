@@ -1,0 +1,7 @@
+<Amr sentence="Paldır küldür gittiler .">
+<Word name="3/git" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="3/git" to="onlar" with="ARG0"/>
+<Word name="1/pal 2/kül" positionX="750" positionY="200"/>
+<Connection from="3/git" to="1/pal 2/kül" with="manner"/>
+</Amr>

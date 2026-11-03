@@ -1,0 +1,15 @@
+<Amr sentence="Tüketicinin enflasyondan etkilenmemesi için devlet fiyatları donduracak .">
+<Word name="6/fiyat 7/dondur" positionX="750" positionY="100"/>
+<Word name="3/etkilen" positionX="650" positionY="200"/>
+<Connection from="6/fiyat 7/dondur" to="3/etkilen" with="cause"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="3/etkilen" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/etkilen" to="o" with="poss"/>
+<Word name="1/tüketici" positionX="750" positionY="300"/>
+<Connection from="3/etkilen" to="1/tüketici" with="ARG0"/>
+<Word name="2/enflasyon" positionX="850" positionY="300"/>
+<Connection from="3/etkilen" to="2/enflasyon" with="ARG1"/>
+<Word name="5/devlet" positionX="750" positionY="200"/>
+<Connection from="6/fiyat 7/dondur" to="5/devlet" with="ARG0"/>
+</Amr>

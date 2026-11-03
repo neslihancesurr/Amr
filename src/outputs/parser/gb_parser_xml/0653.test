@@ -1,0 +1,13 @@
+<Amr sentence="Küçüklerden on tane yeter mi ?">
+<Word name="4/yet" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/yet" to="o" with="ARG0"/>
+<Word name="3/tane" positionX="750" positionY="200"/>
+<Connection from="4/yet" to="3/tane"/>
+<Word name="1/küçük" positionX="650" positionY="300"/>
+<Connection from="3/tane" to="1/küçük"/>
+<Word name="2/on" positionX="750" positionY="300"/>
+<Connection from="3/tane" to="2/on"/>
+<Word name="5/mi" positionX="850" positionY="200"/>
+<Connection from="4/yet" to="5/mi"/>
+</Amr>

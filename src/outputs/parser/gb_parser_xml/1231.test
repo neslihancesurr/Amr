@@ -1,0 +1,14 @@
+<Amr sentence="Zeki bugün sokağa çıkmayacakmış .">
+<Word name="3/sokak 4/çık" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/sokak 4/çık" to="-" with="polarity"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="3/sokak 4/çık" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/zeki" positionX="550" positionY="400"/>
+<Connection from="name" to="1/zeki" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/bugün" positionX="850" positionY="200"/>
+<Connection from="3/sokak 4/çık" to="2/bugün"/>
+</Amr>

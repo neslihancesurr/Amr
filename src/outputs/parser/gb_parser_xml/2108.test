@@ -1,0 +1,9 @@
+<Amr sentence="Ayşe'nin ameliyat olduğu doğru mu ?">
+<Word name="4/doğru" positionX="750" positionY="100"/>
+<Word name="2/ameliyat 3/ol" positionX="650" positionY="200"/>
+<Connection from="4/doğru" to="2/ameliyat 3/ol"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/ameliyat 3/ol" to="o" with="poss"/>
+<Word name="5/mi" positionX="750" positionY="200"/>
+<Connection from="4/doğru" to="5/mi"/>
+</Amr>

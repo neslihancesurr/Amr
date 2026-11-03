@@ -1,0 +1,15 @@
+<Amr sentence="Eleştirmenler yazarın son yazısına birçok yönden saldırdı .">
+<Word name="7/saldır" positionX="750" positionY="100"/>
+<Word name="1/eleştirmen" positionX="650" positionY="200"/>
+<Connection from="7/saldır" to="1/eleştirmen" with="ARG0"/>
+<Word name="4/yazı" positionX="750" positionY="200"/>
+<Connection from="7/saldır" to="4/yazı" with="ARG1"/>
+<Word name="2/yazar" positionX="650" positionY="300"/>
+<Connection from="4/yazı" to="2/yazar" with="mod"/>
+<Word name="3/son" positionX="750" positionY="300"/>
+<Connection from="4/yazı" to="3/son" with="mod"/>
+<Word name="6/yön" positionX="850" positionY="200"/>
+<Connection from="7/saldır" to="6/yön" with="mod"/>
+<Word name="5/birçok" positionX="750" positionY="300"/>
+<Connection from="6/yön" to="5/birçok" with="mod"/>
+</Amr>

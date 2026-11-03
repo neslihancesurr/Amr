@@ -1,0 +1,12 @@
+<Amr sentence="Çocuğa döndüm , kafamı salladım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/dön" positionX="650" positionY="200"/>
+<Connection from="and" to="2/dön" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="2/dön" to="ben" with="ARG0"/>
+<Word name="1/çocuk" positionX="650" positionY="300"/>
+<Connection from="2/dön" to="1/çocuk" with="ARG1"/>
+<Word name="4/kafa 5/salla" positionX="750" positionY="200"/>
+<Connection from="and" to="4/kafa 5/salla" with="op2"/>
+<Connection from="4/kafa 5/salla" to="ben" with="ARG0"/>
+</Amr>

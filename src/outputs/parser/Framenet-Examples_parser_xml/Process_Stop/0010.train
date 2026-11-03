@@ -1,0 +1,13 @@
+<Amr sentence="Sabahtan beri hiç durmadım .">
+<Word name="4/dur" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/dur" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="4/dur" to="ben" with="ARG0"/>
+<Word name="1/sabah" positionX="850" positionY="200"/>
+<Connection from="4/dur" to="1/sabah"/>
+<Word name="2/beri" positionX="750" positionY="300"/>
+<Connection from="1/sabah" to="2/beri"/>
+<Word name="3/hiç" positionX="950" positionY="200"/>
+<Connection from="4/dur" to="3/hiç" with="degree"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Limonun tanesi 20 peni .">
+<Word name="4/peni" positionX="750" positionY="100"/>
+<Word name="2/tane" positionX="650" positionY="200"/>
+<Connection from="4/peni" to="2/tane"/>
+<Word name="1/limon" positionX="550" positionY="300"/>
+<Connection from="2/tane" to="1/limon" with="mod"/>
+<Word name="3/20" positionX="750" positionY="200"/>
+<Connection from="4/peni" to="3/20"/>
+</Amr>

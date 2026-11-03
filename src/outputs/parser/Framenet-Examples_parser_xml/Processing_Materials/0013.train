@@ -1,0 +1,11 @@
+<Amr sentence="Yollar daha dün şeritlendi .">
+<Word name="4/şeritle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/şeritle" to="o" with="ARG0"/>
+<Word name="1/yol" positionX="750" positionY="200"/>
+<Connection from="4/şeritle" to="1/yol" with="ARG1"/>
+<Word name="3/dün" positionX="850" positionY="200"/>
+<Connection from="4/şeritle" to="3/dün" with="mod"/>
+<Word name="2/daha" positionX="750" positionY="300"/>
+<Connection from="3/dün" to="2/daha" with="degree"/>
+</Amr>

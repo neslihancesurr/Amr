@@ -1,0 +1,9 @@
+<Amr sentence="Buranın işlerini avaraya aldı .">
+<Word name="3/avara 4/al" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/avara 4/al" to="o" with="ARG0"/>
+<Word name="2/iş" positionX="750" positionY="200"/>
+<Connection from="3/avara 4/al" to="2/iş" with="ARG1"/>
+<Word name="1/bura" positionX="650" positionY="300"/>
+<Connection from="2/iş" to="1/bura" with="mod"/>
+</Amr>

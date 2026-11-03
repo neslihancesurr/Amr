@@ -1,0 +1,21 @@
+<Amr sentence="Ortalıkta hiç iz bırakmayan hırsız , yandaki evi de soymuş .">
+<Word name="10/soy" positionX="750" positionY="100"/>
+<Word name="5/hırsız" positionX="650" positionY="200"/>
+<Connection from="10/soy" to="5/hırsız" with="ARG0"/>
+<Word name="4/bırak" positionX="550" positionY="300"/>
+<Connection from="5/hırsız" to="4/bırak"/>
+<Word name="-" positionX="450" positionY="400"/>
+<Connection from="4/bırak" to="-" with="polarity"/>
+<Word name="1/ortalıkta" positionX="550" positionY="400"/>
+<Connection from="4/bırak" to="1/ortalıkta"/>
+<Word name="2/hiç" positionX="650" positionY="400"/>
+<Connection from="4/bırak" to="2/hiç" with="degree"/>
+<Word name="3/iz" positionX="750" positionY="400"/>
+<Connection from="4/bırak" to="3/iz"/>
+<Word name="8/ev" positionX="750" positionY="200"/>
+<Connection from="10/soy" to="8/ev"/>
+<Word name="7/yan" positionX="650" positionY="300"/>
+<Connection from="8/ev" to="7/yan" with="mod"/>
+<Word name="9/de" positionX="750" positionY="300"/>
+<Connection from="8/ev" to="9/de"/>
+</Amr>

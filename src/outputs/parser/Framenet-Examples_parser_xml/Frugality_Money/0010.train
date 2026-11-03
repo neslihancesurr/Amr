@@ -1,0 +1,9 @@
+<Amr sentence="Balo ve kokteyl partisine bir davetiye alabilmek için kesenin ağzını açmak kifayet etmezse avuçlarını açarlar .">
+<Word name="14/avuç 15/aç" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="14/avuç 15/aç" to="onlar" with="ARG0"/>
+<Word name="12/kifayet 13/et" positionX="750" positionY="200"/>
+<Connection from="14/avuç 15/aç" to="12/kifayet 13/et"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="12/kifayet 13/et" to="-" with="polarity"/>
+</Amr>

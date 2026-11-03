@@ -1,0 +1,11 @@
+<Amr sentence="Belge sayısı daha da indi .">
+<Word name="5/in" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/in" to="o" with="ARG0"/>
+<Word name="2/sayı" positionX="750" positionY="200"/>
+<Connection from="5/in" to="2/sayı" with="ARG1"/>
+<Word name="1/belge" positionX="650" positionY="300"/>
+<Connection from="2/sayı" to="1/belge" with="mod"/>
+<Word name="3/daha 4/da" positionX="850" positionY="200"/>
+<Connection from="5/in" to="3/daha 4/da" with="manner"/>
+</Amr>

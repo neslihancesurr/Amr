@@ -1,0 +1,13 @@
+<Amr sentence="Onlar eşyalarını daha toplamamış .">
+<Word name="4/topla" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/topla" to="-" with="polarity"/>
+<Word name="1/o" positionX="750" positionY="200"/>
+<Connection from="4/topla" to="1/o" with="ARG0"/>
+<Word name="2/eşya" positionX="850" positionY="200"/>
+<Connection from="4/topla" to="2/eşya"/>
+<Word name="onlar" positionX="750" positionY="300"/>
+<Connection from="2/eşya" to="onlar" with="poss"/>
+<Word name="3/daha" positionX="950" positionY="200"/>
+<Connection from="4/topla" to="3/daha" with="degree"/>
+</Amr>

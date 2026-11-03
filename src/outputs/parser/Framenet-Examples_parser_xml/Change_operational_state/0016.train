@@ -1,0 +1,15 @@
+<Amr sentence="Elektriği yak , hava karardı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/elektrik 2/yak" positionX="650" positionY="200"/>
+<Connection from="and" to="1/elektrik 2/yak" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="1/elektrik 2/yak" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="650" positionY="300"/>
+<Connection from="1/elektrik 2/yak" to="imperative" with="mode"/>
+<Word name="5/karar" positionX="750" positionY="200"/>
+<Connection from="and" to="5/karar" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/karar" to="o" with="ARG0"/>
+<Word name="4/hava" positionX="750" positionY="300"/>
+<Connection from="5/karar" to="4/hava"/>
+</Amr>

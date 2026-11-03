@@ -1,0 +1,23 @@
+<Amr sentence="Önümüzdeki çok yavaş gidiyor , sollamak için şerit değiştir .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/git" positionX="650" positionY="200"/>
+<Connection from="and" to="4/git" with="op1"/>
+<Word name="1/ön" positionX="550" positionY="300"/>
+<Connection from="4/git" to="1/ön" with="ARG0"/>
+<Word name="biz" positionX="450" positionY="400"/>
+<Connection from="1/ön" to="biz" with="poss"/>
+<Word name="3/yavaş" positionX="650" positionY="300"/>
+<Connection from="4/git" to="3/yavaş" with="manner"/>
+<Word name="2/çok" positionX="550" positionY="400"/>
+<Connection from="3/yavaş" to="2/çok" with="degree"/>
+<Word name="8/şerit 9/değiştir" positionX="750" positionY="200"/>
+<Connection from="and" to="8/şerit 9/değiştir" with="op2"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="8/şerit 9/değiştir" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="300"/>
+<Connection from="8/şerit 9/değiştir" to="imperative" with="mode"/>
+<Word name="6/solla" positionX="850" positionY="300"/>
+<Connection from="8/şerit 9/değiştir" to="6/solla" with="cause"/>
+<Word name="o" positionX="750" positionY="400"/>
+<Connection from="6/solla" to="o" with="ARG0"/>
+</Amr>

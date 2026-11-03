@@ -1,0 +1,28 @@
+<Amr sentence="Hayriye Hanım nereye giderse köpeğini de yanında götürüyordu .">
+<Word name="8/götür" positionX="750" positionY="100"/>
+<Word name="4/git" positionX="650" positionY="200"/>
+<Connection from="8/götür" to="4/git" with="cond"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="4/git" to="person" with="ARG0"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/hanım" positionX="350" positionY="500"/>
+<Connection from="name" to="2/hanım" with="op1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="person" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/hayriye" positionX="450" positionY="600"/>
+<Connection from="name" to="1/hayriye" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/nereye" positionX="650" positionY="300"/>
+<Connection from="4/git" to="3/nereye"/>
+<Word name="5/köpek" positionX="750" positionY="200"/>
+<Connection from="8/götür" to="5/köpek" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/köpek" to="o" with="poss"/>
+<Word name="6/de" positionX="750" positionY="300"/>
+<Connection from="5/köpek" to="6/de"/>
+<Word name="7/yanında" positionX="850" positionY="200"/>
+<Connection from="8/götür" to="7/yanında" with="ARG2"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Ahfeşin keçisi gibi başını sallama diyorum .">
+<Word name="6/de" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="6/de" to="ben" with="ARG0"/>
+<Word name="2/keçi 3/gibi 4/baş 5/salla" positionX="750" positionY="200"/>
+<Connection from="6/de" to="2/keçi 3/gibi 4/baş 5/salla"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/keçi 3/gibi 4/baş 5/salla" to="o" with="ARG0"/>
+<Word name="1/ahfeş" positionX="750" positionY="300"/>
+<Connection from="2/keçi 3/gibi 4/baş 5/salla" to="1/ahfeş"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Aldığın elbiselerin masrafını gördün mü ?">
+<Word name="4/gör" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="4/gör" to="sen" with="ARG0"/>
+<Word name="3/masraf" positionX="750" positionY="200"/>
+<Connection from="4/gör" to="3/masraf"/>
+<Connection from="3/masraf" to="sen" with="poss"/>
+<Word name="2/elbise" positionX="750" positionY="300"/>
+<Connection from="3/masraf" to="2/elbise" with="mod"/>
+<Word name="1/al" positionX="650" positionY="400"/>
+<Connection from="2/elbise" to="1/al"/>
+<Connection from="1/al" to="sen" with="poss"/>
+<Word name="5/mi" positionX="850" positionY="200"/>
+<Connection from="4/gör" to="5/mi"/>
+</Amr>

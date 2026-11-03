@@ -1,0 +1,13 @@
+<Amr sentence="O da belgeleri görünce istihraç etti .">
+<Word name="5/istihraç 6/et" positionX="750" positionY="100"/>
+<Word name="1/o" positionX="650" positionY="200"/>
+<Connection from="5/istihraç 6/et" to="1/o" with="ARG0"/>
+<Word name="2/da" positionX="550" positionY="300"/>
+<Connection from="1/o" to="2/da"/>
+<Word name="4/gör" positionX="750" positionY="200"/>
+<Connection from="5/istihraç 6/et" to="4/gör"/>
+<Word name="3/belge" positionX="650" positionY="300"/>
+<Connection from="4/gör" to="3/belge"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="3/belge" to="o" with="poss"/>
+</Amr>

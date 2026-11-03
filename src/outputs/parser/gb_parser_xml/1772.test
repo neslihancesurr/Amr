@@ -1,0 +1,11 @@
+<Amr sentence="Şu tabakları nereye koyalım ?">
+<Word name="4/koy" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="4/koy" to="biz" with="ARG0"/>
+<Word name="2/tabak" positionX="750" positionY="200"/>
+<Connection from="4/koy" to="2/tabak" with="ARG1"/>
+<Word name="1/şu" positionX="650" positionY="300"/>
+<Connection from="2/tabak" to="1/şu" with="mod"/>
+<Word name="3/nereye" positionX="850" positionY="200"/>
+<Connection from="4/koy" to="3/nereye"/>
+</Amr>

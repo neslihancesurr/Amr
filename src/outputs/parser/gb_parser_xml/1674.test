@@ -1,0 +1,15 @@
+<Amr sentence="Herkesin afişi görmüş olması gerek .">
+<Word name="5/gerek" positionX="750" positionY="100"/>
+<Word name="4/olma" positionX="650" positionY="200"/>
+<Connection from="5/gerek" to="4/olma"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/olma" to="o" with="poss"/>
+<Word name="3/görmüş" positionX="650" positionY="300"/>
+<Connection from="4/olma" to="3/görmüş"/>
+<Word name="1/herkes" positionX="550" positionY="400"/>
+<Connection from="3/görmüş" to="1/herkes" with="ARG0"/>
+<Word name="onlar" positionX="450" positionY="500"/>
+<Connection from="1/herkes" to="onlar" with="poss"/>
+<Word name="2/afiş" positionX="650" positionY="400"/>
+<Connection from="3/görmüş" to="2/afiş" with="ARG1"/>
+</Amr>

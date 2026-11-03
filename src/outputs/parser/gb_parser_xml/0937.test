@@ -1,0 +1,19 @@
+<Amr sentence="Pazartesileri Taksim'deki ofisimizde çalışıyorum .">
+<Word name="4/çalış" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/çalış" to="ben" with="ARG0"/>
+<Word name="date-entity" positionX="750" positionY="200"/>
+<Connection from="4/çalış" to="date-entity" with="date"/>
+<Word name="1/pazartesi" positionX="650" positionY="300"/>
+<Connection from="date-entity" to="1/pazartesi" with="weekday"/>
+<Word name="3/ofis" positionX="850" positionY="200"/>
+<Connection from="4/çalış" to="3/ofis" with="location"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="3/ofis" to="person" with="location"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/taksim" positionX="550" positionY="500"/>
+<Connection from="name" to="2/taksim" with="op1"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

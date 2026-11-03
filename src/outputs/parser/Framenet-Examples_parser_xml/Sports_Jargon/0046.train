@@ -1,0 +1,23 @@
+<Amr sentence="Hikmet sayıya gidiyordu , önüne çıkan herkesi çalımlayarak ilerliyordu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/sayı 3/git" positionX="650" positionY="200"/>
+<Connection from="and" to="2/sayı 3/git" with="op1"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="2/sayı 3/git" to="person" with="ARG0"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/hikmet" positionX="350" positionY="500"/>
+<Connection from="name" to="1/hikmet" with="op1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="9/ilerle" positionX="750" positionY="200"/>
+<Connection from="and" to="9/ilerle" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="9/ilerle" to="o" with="ARG0"/>
+<Word name="8/çalımla" positionX="750" positionY="300"/>
+<Connection from="9/ilerle" to="8/çalımla"/>
+<Word name="7/herkes" positionX="650" positionY="400"/>
+<Connection from="8/çalımla" to="7/herkes"/>
+<Word name="5/ön 6/çık" positionX="550" positionY="500"/>
+<Connection from="7/herkes" to="5/ön 6/çık"/>
+</Amr>

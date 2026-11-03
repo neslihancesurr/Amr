@@ -1,0 +1,17 @@
+<Amr sentence="Hoca bugün sınıfta derse geç gelenler yüzünden ateş yağdırdı .">
+<Word name="8/ateş 9/yağdır" positionX="750" positionY="100"/>
+<Word name="1/hoca" positionX="650" positionY="200"/>
+<Connection from="8/ateş 9/yağdır" to="1/hoca" with="ARG0"/>
+<Word name="2/bugün" positionX="750" positionY="200"/>
+<Connection from="8/ateş 9/yağdır" to="2/bugün" with="mod"/>
+<Word name="3/sınıf" positionX="850" positionY="200"/>
+<Connection from="8/ateş 9/yağdır" to="3/sınıf" with="location"/>
+<Word name="7/yüzünden" positionX="950" positionY="200"/>
+<Connection from="8/ateş 9/yağdır" to="7/yüzünden" with="ARG1"/>
+<Word name="6/gel" positionX="850" positionY="300"/>
+<Connection from="7/yüzünden" to="6/gel" with="mod"/>
+<Word name="4/ders" positionX="750" positionY="400"/>
+<Connection from="6/gel" to="4/ders"/>
+<Word name="5/geç" positionX="850" positionY="400"/>
+<Connection from="6/gel" to="5/geç" with="manner"/>
+</Amr>

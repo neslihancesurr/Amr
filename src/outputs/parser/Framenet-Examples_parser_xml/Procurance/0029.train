@@ -1,0 +1,9 @@
+<Amr sentence="Muhasebeci , tüm kârı zimmetine geçirmiş .">
+<Word name="5/zimmet 6/geçir" positionX="750" positionY="100"/>
+<Word name="1/muhasebeci" positionX="650" positionY="200"/>
+<Connection from="5/zimmet 6/geçir" to="1/muhasebeci" with="ARG0"/>
+<Word name="4/kâr" positionX="750" positionY="200"/>
+<Connection from="5/zimmet 6/geçir" to="4/kâr" with="ARG1"/>
+<Word name="3/tüm" positionX="650" positionY="300"/>
+<Connection from="4/kâr" to="3/tüm" with="mod"/>
+</Amr>

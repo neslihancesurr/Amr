@@ -1,0 +1,13 @@
+<Amr sentence="Babam bu yaz tarlayı üçleyecek .">
+<Word name="5/üçle" positionX="750" positionY="100"/>
+<Word name="1/baba" positionX="650" positionY="200"/>
+<Connection from="5/üçle" to="1/baba" with="ARG0"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="1/baba" to="ben" with="poss"/>
+<Word name="3/yaz" positionX="750" positionY="200"/>
+<Connection from="5/üçle" to="3/yaz"/>
+<Word name="2/bu" positionX="650" positionY="300"/>
+<Connection from="3/yaz" to="2/bu" with="mod"/>
+<Word name="4/tarla" positionX="850" positionY="200"/>
+<Connection from="5/üçle" to="4/tarla" with="ARG1"/>
+</Amr>

@@ -1,0 +1,25 @@
+<Amr sentence="Önümüzdeki günlerde Fenerbahçe ve Galatasaray , Kadıköy'de karşılaşacak .">
+<Word name="8/karşılaş" positionX="750" positionY="100"/>
+<Word name="1/ön 2/gün" positionX="650" positionY="200"/>
+<Connection from="8/karşılaş" to="1/ön 2/gün" with="location"/>
+<Word name="and" positionX="750" positionY="200"/>
+<Connection from="8/karşılaş" to="and"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="and" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="5/galatasaray" positionX="450" positionY="500"/>
+<Connection from="name" to="5/galatasaray" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="and" to="person" with="ARG0"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/fenerbahçe" positionX="550" positionY="500"/>
+<Connection from="name" to="3/fenerbahçe" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="8/karşılaş" to="person" with="location"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="7/kadıköy" positionX="650" positionY="400"/>
+<Connection from="name" to="7/kadıköy" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

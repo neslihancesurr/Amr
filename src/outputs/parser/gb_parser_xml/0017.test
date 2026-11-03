@@ -1,0 +1,13 @@
+<Amr sentence="Çamaşırları gene makinanın içinde bırakmışım .">
+<Word name="5/bırak" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/bırak" to="ben" with="ARG0"/>
+<Word name="1/çamaşır" positionX="750" positionY="200"/>
+<Connection from="5/bırak" to="1/çamaşır" with="ARG1"/>
+<Word name="2/gene" positionX="850" positionY="200"/>
+<Connection from="5/bırak" to="2/gene" with="manner"/>
+<Word name="4/iç" positionX="950" positionY="200"/>
+<Connection from="5/bırak" to="4/iç" with="ARG2"/>
+<Word name="3/makina" positionX="850" positionY="300"/>
+<Connection from="4/iç" to="3/makina" with="mod"/>
+</Amr>

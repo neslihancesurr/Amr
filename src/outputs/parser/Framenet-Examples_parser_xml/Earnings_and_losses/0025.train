@@ -1,0 +1,9 @@
+<Amr sentence="Balıkçılar bu sezon meteliğe kurşun atıyor .">
+<Word name="4/metelik 5/kurşun 6/at" positionX="750" positionY="100"/>
+<Word name="1/balıkçı" positionX="650" positionY="200"/>
+<Connection from="4/metelik 5/kurşun 6/at" to="1/balıkçı" with="ARG0"/>
+<Word name="3/sezon" positionX="750" positionY="200"/>
+<Connection from="4/metelik 5/kurşun 6/at" to="3/sezon" with="mod"/>
+<Word name="2/bu" positionX="650" positionY="300"/>
+<Connection from="3/sezon" to="2/bu" with="mod"/>
+</Amr>

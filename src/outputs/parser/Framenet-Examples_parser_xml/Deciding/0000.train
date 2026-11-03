@@ -1,0 +1,20 @@
+<Amr sentence="Tekrar masa başına dönmekten zevkli bir iş bulamayacağımda karar kıldım .">
+<Word name="9/karar 10/kıl" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="9/karar 10/kıl" to="ben" with="ARG0"/>
+<Word name="8/bula" positionX="750" positionY="200"/>
+<Connection from="9/karar 10/kıl" to="8/bula" with="ARG1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="8/bula" to="-" with="polarity"/>
+<Connection from="8/bula" to="ben" with="ARG0"/>
+<Word name="7/iş" positionX="850" positionY="300"/>
+<Connection from="8/bula" to="7/iş"/>
+<Word name="5/zevkli" positionX="750" positionY="400"/>
+<Connection from="7/iş" to="5/zevkli" with="mod"/>
+<Word name="4/dön" positionX="650" positionY="500"/>
+<Connection from="5/zevkli" to="4/dön" with="mod"/>
+<Word name="1/tekrar" positionX="550" positionY="600"/>
+<Connection from="4/dön" to="1/tekrar" with="manner"/>
+<Word name="2/masa 3/baş" positionX="650" positionY="600"/>
+<Connection from="4/dön" to="2/masa 3/baş" with="mod"/>
+</Amr>

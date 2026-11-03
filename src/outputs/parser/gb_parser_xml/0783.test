@@ -1,0 +1,7 @@
+<Amr sentence="üç tarihi şehir">
+<Word name="3/şehir" positionX="750" positionY="100"/>
+<Word name="1/üç" positionX="650" positionY="200"/>
+<Connection from="3/şehir" to="1/üç"/>
+<Word name="2/tarihi" positionX="750" positionY="200"/>
+<Connection from="3/şehir" to="2/tarihi" with="mod"/>
+</Amr>

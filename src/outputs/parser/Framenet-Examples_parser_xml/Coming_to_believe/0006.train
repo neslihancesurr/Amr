@@ -1,0 +1,17 @@
+<Amr sentence="İleride ne olacağını bir türlü kestiremedi .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="6/kestir" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="6/kestir"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="6/kestir" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="6/kestir" to="o" with="ARG0"/>
+<Word name="3/ol" positionX="750" positionY="300"/>
+<Connection from="6/kestir" to="3/ol" with="ARG1"/>
+<Connection from="3/ol" to="o" with="ARG0"/>
+<Connection from="3/ol" to="o" with="poss"/>
+<Word name="1/ileride" positionX="850" positionY="400"/>
+<Connection from="3/ol" to="1/ileride" with="manner"/>
+<Word name="2/ne" positionX="950" positionY="400"/>
+<Connection from="3/ol" to="2/ne"/>
+</Amr>

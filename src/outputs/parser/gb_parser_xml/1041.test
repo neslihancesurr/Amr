@@ -1,0 +1,9 @@
+<Amr sentence="Sabaha karşı fırtına dindi .">
+<Word name="4/din" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/din" to="o" with="ARG0"/>
+<Word name="1/sabah 2/karşı" positionX="750" positionY="200"/>
+<Connection from="4/din" to="1/sabah 2/karşı"/>
+<Word name="3/fırtına" positionX="850" positionY="200"/>
+<Connection from="4/din" to="3/fırtına" with="ARG1"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Kalbini kazanmıştım , bu beni mutlu ediyordu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/kalp 2/kazan" positionX="650" positionY="200"/>
+<Connection from="and" to="1/kalp 2/kazan" with="op1"/>
+<Word name="6/mutlu 7/et" positionX="750" positionY="200"/>
+<Connection from="and" to="6/mutlu 7/et" with="op2"/>
+<Word name="5/ben" positionX="650" positionY="300"/>
+<Connection from="6/mutlu 7/et" to="5/ben" with="ARG0"/>
+<Word name="4/bu" positionX="550" positionY="400"/>
+<Connection from="5/ben" to="4/bu" with="mod"/>
+</Amr>

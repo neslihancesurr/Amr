@@ -1,0 +1,11 @@
+<Amr sentence="Kadın kediyi iki günde dinceltti .">
+<Word name="5/dincelt" positionX="750" positionY="100"/>
+<Word name="1/kadın" positionX="650" positionY="200"/>
+<Connection from="5/dincelt" to="1/kadın" with="ARG0"/>
+<Word name="2/kedi" positionX="750" positionY="200"/>
+<Connection from="5/dincelt" to="2/kedi" with="ARG1"/>
+<Word name="4/gün" positionX="850" positionY="200"/>
+<Connection from="5/dincelt" to="4/gün" with="mod"/>
+<Word name="3/iki" positionX="750" positionY="300"/>
+<Connection from="4/gün" to="3/iki"/>
+</Amr>

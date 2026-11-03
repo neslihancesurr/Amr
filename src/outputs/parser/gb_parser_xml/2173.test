@@ -1,0 +1,9 @@
+<Amr sentence="Biz seni gittin sandık .">
+<Word name="4/san" positionX="750" positionY="100"/>
+<Word name="1/biz" positionX="650" positionY="200"/>
+<Connection from="4/san" to="1/biz"/>
+<Word name="2/sen" positionX="750" positionY="200"/>
+<Connection from="4/san" to="2/sen"/>
+<Word name="3/git" positionX="850" positionY="200"/>
+<Connection from="4/san" to="3/git"/>
+</Amr>

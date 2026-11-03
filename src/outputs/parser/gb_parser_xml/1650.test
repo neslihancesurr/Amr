@@ -1,0 +1,15 @@
+<Amr sentence="Amerika'lılar çok süt içiyor .">
+<Word name="4/iç" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="4/iç" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/amerika" positionX="450" positionY="400"/>
+<Connection from="name" to="1/amerika" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/çok" positionX="750" positionY="200"/>
+<Connection from="4/iç" to="2/çok" with="degree"/>
+<Word name="3/süt" positionX="850" positionY="200"/>
+<Connection from="4/iç" to="3/süt" with="ARG1"/>
+</Amr>

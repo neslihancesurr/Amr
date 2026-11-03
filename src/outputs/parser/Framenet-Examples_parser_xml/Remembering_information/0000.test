@@ -1,0 +1,12 @@
+<Amr sentence="Mürebbiyeden duyduklarını aklının bir köşesine yazdı .">
+<Word name="3/akıl 4/bir 5/köşe 6/yaz" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/akıl 4/bir 5/köşe 6/yaz" to="o" with="ARG0"/>
+<Word name="2/duy" positionX="750" positionY="200"/>
+<Connection from="3/akıl 4/bir 5/köşe 6/yaz" to="2/duy" with="ARG1"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="2/duy" to="onlar" with="ARG0"/>
+<Connection from="2/duy" to="o" with="poss"/>
+<Word name="1/mürebbiye" positionX="850" positionY="300"/>
+<Connection from="2/duy" to="1/mürebbiye"/>
+</Amr>

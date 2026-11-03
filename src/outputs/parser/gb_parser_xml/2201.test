@@ -1,0 +1,7 @@
+<Amr sentence="ağır yaralı olan hastalar">
+<Word name="4/hasta" positionX="750" positionY="100"/>
+<Word name="3/ol" positionX="650" positionY="200"/>
+<Connection from="4/hasta" to="3/ol"/>
+<Word name="1/ağır 2/yaralı" positionX="550" positionY="300"/>
+<Connection from="3/ol" to="1/ağır 2/yaralı" with="manner"/>
+</Amr>

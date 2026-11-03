@@ -1,0 +1,20 @@
+<Amr sentence="Çantanı hafifletirsen daha kolay taşırsın .">
+<Word name="5/taşır" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/taşır" to="o" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="5/taşır" to="imperative" with="mode"/>
+<Word name="yap" positionX="850" positionY="200"/>
+<Connection from="5/taşır" to="yap"/>
+<Word name="2/hafifle" positionX="750" positionY="300"/>
+<Connection from="yap" to="2/hafifle" with="cond"/>
+<Word name="sen" positionX="650" positionY="400"/>
+<Connection from="2/hafifle" to="sen" with="ARG0"/>
+<Word name="1/çanta" positionX="750" positionY="400"/>
+<Connection from="2/hafifle" to="1/çanta" with="ARG1"/>
+<Connection from="1/çanta" to="sen" with="poss"/>
+<Word name="4/kolay" positionX="950" positionY="200"/>
+<Connection from="5/taşır" to="4/kolay" with="manner"/>
+<Word name="3/daha" positionX="850" positionY="300"/>
+<Connection from="4/kolay" to="3/daha" with="degree"/>
+</Amr>

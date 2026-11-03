@@ -1,0 +1,24 @@
+<Amr sentence="Etleri kavur , üzerine domates ve tuz ekle .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/kavur" positionX="650" positionY="200"/>
+<Connection from="and" to="2/kavur" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="2/kavur" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="650" positionY="300"/>
+<Connection from="2/kavur" to="imperative" with="mode"/>
+<Word name="1/et" positionX="750" positionY="300"/>
+<Connection from="2/kavur" to="1/et" with="ARG1"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="1/et" to="o" with="poss"/>
+<Word name="8/ekle" positionX="750" positionY="200"/>
+<Connection from="and" to="8/ekle" with="op2"/>
+<Connection from="8/ekle" to="sen" with="ARG0"/>
+<Connection from="8/ekle" to="imperative" with="mode"/>
+<Word name="4/üzerine" positionX="850" positionY="300"/>
+<Connection from="8/ekle" to="4/üzerine"/>
+<Connection from="8/ekle" to="and"/>
+<Word name="7/tuz" positionX="850" positionY="400"/>
+<Connection from="and" to="7/tuz" with="ARG1"/>
+<Word name="5/domates" positionX="950" positionY="400"/>
+<Connection from="and" to="5/domates" with="ARG1"/>
+</Amr>

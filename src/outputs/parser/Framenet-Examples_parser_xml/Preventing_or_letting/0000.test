@@ -1,0 +1,7 @@
+<Amr sentence="İş yerindeki herkes ayağına çelme taktı .">
+<Word name="4/ayak 5/çelme 6/tak" positionX="750" positionY="100"/>
+<Word name="3/herkes" positionX="650" positionY="200"/>
+<Connection from="4/ayak 5/çelme 6/tak" to="3/herkes" with="ARG0"/>
+<Word name="1/iş 2/yer" positionX="550" positionY="300"/>
+<Connection from="3/herkes" to="1/iş 2/yer" with="mod"/>
+</Amr>

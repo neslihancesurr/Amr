@@ -1,0 +1,13 @@
+<Amr sentence="Yemeği tencerede beş dakika kaynattı .">
+<Word name="5/kaynat" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/kaynat" to="o" with="ARG0"/>
+<Word name="1/yemek" positionX="750" positionY="200"/>
+<Connection from="5/kaynat" to="1/yemek" with="ARG1"/>
+<Word name="2/tencere" positionX="850" positionY="200"/>
+<Connection from="5/kaynat" to="2/tencere" with="location"/>
+<Word name="4/dakika" positionX="950" positionY="200"/>
+<Connection from="5/kaynat" to="4/dakika" with="mod"/>
+<Word name="3/beş" positionX="850" positionY="300"/>
+<Connection from="4/dakika" to="3/beş"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Meral çabucak hasta oldu .">
+<Word name="3/hasta 4/ol" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="3/hasta 4/ol" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/meral" positionX="450" positionY="400"/>
+<Connection from="name" to="1/meral" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/çabucak" positionX="750" positionY="200"/>
+<Connection from="3/hasta 4/ol" to="2/çabucak" with="manner"/>
+</Amr>

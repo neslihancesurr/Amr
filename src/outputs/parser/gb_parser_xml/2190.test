@@ -1,0 +1,24 @@
+<Amr sentence="Başkalarından saygı bekleme alışkanlığı insanı düş kırıklığına uğratır .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="8/uğra" positionX="650" positionY="200"/>
+<Connection from="yap" to="8/uğra"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="8/uğra" to="o" with="ARG0"/>
+<Word name="4/alışkanlık" positionX="650" positionY="300"/>
+<Connection from="8/uğra" to="4/alışkanlık"/>
+<Connection from="4/alışkanlık" to="o" with="poss"/>
+<Word name="3/bekle" positionX="650" positionY="400"/>
+<Connection from="4/alışkanlık" to="3/bekle"/>
+<Connection from="3/bekle" to="o" with="ARG0"/>
+<Word name="1/başka" positionX="650" positionY="500"/>
+<Connection from="3/bekle" to="1/başka"/>
+<Connection from="1/başka" to="o" with="poss"/>
+<Word name="2/saygı" positionX="750" positionY="500"/>
+<Connection from="3/bekle" to="2/saygı"/>
+<Word name="5/insan" positionX="750" positionY="300"/>
+<Connection from="8/uğra" to="5/insan"/>
+<Word name="7/kırıklık" positionX="850" positionY="300"/>
+<Connection from="8/uğra" to="7/kırıklık"/>
+<Word name="6/düş" positionX="750" positionY="400"/>
+<Connection from="7/kırıklık" to="6/düş" with="mod"/>
+</Amr>

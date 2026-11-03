@@ -1,0 +1,13 @@
+<Amr sentence="Paris'e uçtum .">
+<Word name="2/uç" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="2/uç" to="ben" with="ARG0"/>
+<Word name="city" positionX="750" positionY="200"/>
+<Connection from="2/uç" to="city" with="ARG1"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="1/paris" positionX="550" positionY="400"/>
+<Connection from="name" to="1/paris" with="op1"/>
+<Word name="paris" positionX="750" positionY="300"/>
+<Connection from="city" to="paris" with="wiki"/>
+</Amr>

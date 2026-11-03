@@ -1,0 +1,20 @@
+<Amr sentence="Partiye gelmek istemiyor , çünkü kimseyi tanımıyormuş .">
+<Word name="3/iste" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/iste" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="3/iste" to="o" with="ARG0"/>
+<Word name="2/gel" positionX="850" positionY="200"/>
+<Connection from="3/iste" to="2/gel" with="ARG1"/>
+<Connection from="2/gel" to="o" with="ARG0"/>
+<Word name="1/parti" positionX="850" positionY="300"/>
+<Connection from="2/gel" to="1/parti" with="ARG1"/>
+<Word name="7/tanı" positionX="950" positionY="200"/>
+<Connection from="3/iste" to="7/tanı"/>
+<Connection from="7/tanı" to="-" with="polarity"/>
+<Connection from="7/tanı" to="o" with="ARG0"/>
+<Word name="5/çünkü" positionX="1050" positionY="300"/>
+<Connection from="7/tanı" to="5/çünkü"/>
+<Word name="6/kimse" positionX="1150" positionY="300"/>
+<Connection from="7/tanı" to="6/kimse" with="ARG1"/>
+</Amr>

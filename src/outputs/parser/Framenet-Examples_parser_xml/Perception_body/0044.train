@@ -1,0 +1,18 @@
+<Amr sentence="Uzun süre bir şey yemezse açlıktan gözü kararır .">
+<Word name="8/kararır" positionX="750" positionY="100"/>
+<Word name="5/ye" positionX="650" positionY="200"/>
+<Connection from="8/kararır" to="5/ye" with="cond"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="5/ye" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/ye" to="o" with="ARG0"/>
+<Word name="2/süre" positionX="750" positionY="300"/>
+<Connection from="5/ye" to="2/süre" with="mod"/>
+<Word name="1/uzun" positionX="650" positionY="400"/>
+<Connection from="2/süre" to="1/uzun" with="mod"/>
+<Word name="6/açlık" positionX="750" positionY="200"/>
+<Connection from="8/kararır" to="6/açlık"/>
+<Word name="7/göz" positionX="850" positionY="200"/>
+<Connection from="8/kararır" to="7/göz"/>
+<Connection from="7/göz" to="o" with="poss"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Firavunlar , yeri göğü tutar , herkese hükmederdi .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/yer 4/gök 5/tut" positionX="650" positionY="200"/>
+<Connection from="and" to="3/yer 4/gök 5/tut" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/yer 4/gök 5/tut" to="o" with="ARG0"/>
+<Word name="1/firavun" positionX="650" positionY="300"/>
+<Connection from="3/yer 4/gök 5/tut" to="1/firavun" with="ARG1"/>
+<Word name="8/hükmet" positionX="750" positionY="200"/>
+<Connection from="and" to="8/hükmet" with="op2"/>
+<Word name="7/herkes" positionX="650" positionY="300"/>
+<Connection from="8/hükmet" to="7/herkes" with="ARG1"/>
+<Word name="onlar" positionX="550" positionY="400"/>
+<Connection from="7/herkes" to="onlar" with="poss"/>
+</Amr>

@@ -1,0 +1,5 @@
+<Amr sentence="Ünlü şarkıcının yıldızı söndü .">
+<Word name="3/yıldız 4/sön" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/yıldız 4/sön" to="o" with="ARG0"/>
+</Amr>

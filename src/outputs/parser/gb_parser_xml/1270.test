@@ -1,0 +1,13 @@
+<Amr sentence="Adamın şapkasının rengini hatırlıyor musun ?">
+<Word name="4/hatırla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/hatırla" to="o" with="ARG0"/>
+<Word name="3/renk" positionX="750" positionY="200"/>
+<Connection from="4/hatırla" to="3/renk" with="ARG1"/>
+<Word name="2/şapka" positionX="650" positionY="300"/>
+<Connection from="3/renk" to="2/şapka" with="mod"/>
+<Word name="1/adam" positionX="550" positionY="400"/>
+<Connection from="2/şapka" to="1/adam" with="mod"/>
+<Word name="5/mi" positionX="850" positionY="200"/>
+<Connection from="4/hatırla" to="5/mi"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Birisi kentteki tüm altın saatleri kaldırdı .">
+<Word name="6/kaldır" positionX="750" positionY="100"/>
+<Word name="1/biri" positionX="650" positionY="200"/>
+<Connection from="6/kaldır" to="1/biri" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/biri" to="o" with="poss"/>
+<Word name="5/saat" positionX="750" positionY="200"/>
+<Connection from="6/kaldır" to="5/saat" with="ARG1"/>
+<Word name="2/kent" positionX="650" positionY="300"/>
+<Connection from="5/saat" to="2/kent" with="mod"/>
+<Word name="3/tüm" positionX="750" positionY="300"/>
+<Connection from="5/saat" to="3/tüm" with="mod"/>
+<Word name="4/altın" positionX="850" positionY="300"/>
+<Connection from="5/saat" to="4/altın" with="mod"/>
+</Amr>

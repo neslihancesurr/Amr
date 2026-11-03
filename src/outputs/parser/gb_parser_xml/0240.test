@@ -1,0 +1,9 @@
+<Amr sentence="Siz çok iyi bir doktorsunuz .">
+<Word name="5/doktor" positionX="750" positionY="100"/>
+<Word name="1/siz" positionX="650" positionY="200"/>
+<Connection from="5/doktor" to="1/siz"/>
+<Word name="3/iyi" positionX="750" positionY="200"/>
+<Connection from="5/doktor" to="3/iyi" with="mod"/>
+<Word name="2/çok" positionX="650" positionY="300"/>
+<Connection from="3/iyi" to="2/çok" with="degree"/>
+</Amr>

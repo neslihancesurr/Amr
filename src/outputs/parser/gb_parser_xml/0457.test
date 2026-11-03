@@ -1,0 +1,19 @@
+<Amr sentence="Kayıtları bugün saat 17 itibariyle kapatmış bulunuyoruz .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="6/kapa" positionX="650" positionY="200"/>
+<Connection from="yap" to="6/kapa"/>
+<Word name="1/kayıt" positionX="550" positionY="300"/>
+<Connection from="6/kapa" to="1/kayıt" with="ARG1"/>
+<Word name="5/itibari" positionX="650" positionY="300"/>
+<Connection from="6/kapa" to="5/itibari" with="instrument"/>
+<Word name="4/17" positionX="550" positionY="400"/>
+<Connection from="5/itibari" to="4/17"/>
+<Word name="2/bugün" positionX="450" positionY="500"/>
+<Connection from="4/17" to="2/bugün" with="mod"/>
+<Word name="3/saat" positionX="550" positionY="500"/>
+<Connection from="4/17" to="3/saat" with="mod"/>
+<Word name="7/bulun" positionX="750" positionY="300"/>
+<Connection from="6/kapa" to="7/bulun"/>
+<Word name="biz" positionX="650" positionY="400"/>
+<Connection from="7/bulun" to="biz" with="ARG0"/>
+</Amr>

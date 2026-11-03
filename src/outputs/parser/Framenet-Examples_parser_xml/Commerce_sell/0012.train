@@ -1,0 +1,9 @@
+<Amr sentence="Satıcı , elmaların çürüklerini sokmuş .">
+<Word name="5/sok" positionX="750" positionY="100"/>
+<Word name="1/satıcı" positionX="650" positionY="200"/>
+<Connection from="5/sok" to="1/satıcı" with="ARG0"/>
+<Word name="4/çürük" positionX="750" positionY="200"/>
+<Connection from="5/sok" to="4/çürük" with="ARG1"/>
+<Word name="3/elma" positionX="650" positionY="300"/>
+<Connection from="4/çürük" to="3/elma" with="mod"/>
+</Amr>

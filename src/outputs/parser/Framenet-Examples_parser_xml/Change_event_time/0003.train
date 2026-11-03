@@ -1,0 +1,27 @@
+<Amr sentence="Ev sahibinin gözünü boyarım , kalan borcu bir müddet daha sallarım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/boya" positionX="650" positionY="200"/>
+<Connection from="and" to="4/boya" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="4/boya" to="ben" with="ARG0"/>
+<Word name="2/sahip" positionX="650" positionY="300"/>
+<Connection from="4/boya" to="2/sahip"/>
+<Word name="1/ev" positionX="550" positionY="400"/>
+<Connection from="2/sahip" to="1/ev" with="mod"/>
+<Word name="3/göz" positionX="750" positionY="300"/>
+<Connection from="4/boya" to="3/göz"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="3/göz" to="o" with="poss"/>
+<Word name="11/salla" positionX="750" positionY="200"/>
+<Connection from="and" to="11/salla" with="op2"/>
+<Connection from="11/salla" to="ben" with="ARG0"/>
+<Word name="7/borç" positionX="750" positionY="300"/>
+<Connection from="11/salla" to="7/borç" with="ARG1"/>
+<Connection from="7/borç" to="o" with="poss"/>
+<Word name="6/kal" positionX="750" positionY="400"/>
+<Connection from="7/borç" to="6/kal"/>
+<Word name="10/daha" positionX="850" positionY="300"/>
+<Connection from="11/salla" to="10/daha" with="degree"/>
+<Word name="9/müddet" positionX="750" positionY="400"/>
+<Connection from="10/daha" to="9/müddet" with="mod"/>
+</Amr>

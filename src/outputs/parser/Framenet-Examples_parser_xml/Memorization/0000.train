@@ -1,0 +1,9 @@
+<Amr sentence="O repliklerini su gibi ezberlemişti .">
+<Word name="3/su 4/gibi 5/ezberle" positionX="750" positionY="100"/>
+<Word name="2/replik" positionX="650" positionY="200"/>
+<Connection from="3/su 4/gibi 5/ezberle" to="2/replik" with="ARG1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/replik" to="o" with="poss"/>
+<Word name="1/o" positionX="650" positionY="300"/>
+<Connection from="2/replik" to="1/o" with="mod"/>
+</Amr>

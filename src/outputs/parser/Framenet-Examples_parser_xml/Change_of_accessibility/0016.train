@@ -1,0 +1,23 @@
+<Amr sentence="Pandemiden dolayı hükümetler ticari malların gümrükten geçişini kısıtladı .">
+<Word name="8/kısıtla" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="8/kısıtla" to="person" with="cause"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/Pandemiden" positionX="450" positionY="400"/>
+<Connection from="name" to="1/Pandemiden" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/hükümet" positionX="750" positionY="200"/>
+<Connection from="8/kısıtla" to="3/hükümet" with="ARG0"/>
+<Word name="7/geç" positionX="850" positionY="200"/>
+<Connection from="8/kısıtla" to="7/geç" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="7/geç" to="o" with="ARG0"/>
+<Word name="5/mal" positionX="850" positionY="300"/>
+<Connection from="7/geç" to="5/mal" with="mod"/>
+<Word name="4/ticari" positionX="750" positionY="400"/>
+<Connection from="5/mal" to="4/ticari" with="mod"/>
+<Word name="6/gümrük" positionX="950" positionY="300"/>
+<Connection from="7/geç" to="6/gümrük" with="mod"/>
+</Amr>

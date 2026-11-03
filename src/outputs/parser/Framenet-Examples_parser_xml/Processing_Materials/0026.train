@@ -1,0 +1,9 @@
+<Amr sentence="Bunları hep biz kumladık .">
+<Word name="4/kumla" positionX="750" positionY="100"/>
+<Word name="1/bu" positionX="650" positionY="200"/>
+<Connection from="4/kumla" to="1/bu" with="ARG1"/>
+<Word name="2/hep" positionX="750" positionY="200"/>
+<Connection from="4/kumla" to="2/hep" with="frequency"/>
+<Word name="3/biz" positionX="850" positionY="200"/>
+<Connection from="4/kumla" to="3/biz" with="ARG0"/>
+</Amr>

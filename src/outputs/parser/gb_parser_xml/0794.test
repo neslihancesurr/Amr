@@ -1,0 +1,7 @@
+<Amr sentence="birkaç kırık iskemle">
+<Word name="3/iskemle" positionX="750" positionY="100"/>
+<Word name="1/birkaç" positionX="650" positionY="200"/>
+<Connection from="3/iskemle" to="1/birkaç" with="mod"/>
+<Word name="2/kırık" positionX="750" positionY="200"/>
+<Connection from="3/iskemle" to="2/kırık" with="mod"/>
+</Amr>

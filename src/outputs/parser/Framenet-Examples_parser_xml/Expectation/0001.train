@@ -1,0 +1,25 @@
+<Amr sentence="Her açılan kapının arkasından istediğin şeylerin çıkacağını sanma .">
+<Word name="8/san" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="8/san" to="-" with="polarity"/>
+<Word name="sen" positionX="750" positionY="200"/>
+<Connection from="8/san" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="850" positionY="200"/>
+<Connection from="8/san" to="imperative" with="mode"/>
+<Word name="7/çık" positionX="950" positionY="200"/>
+<Connection from="8/san" to="7/çık" with="ARG1"/>
+<Connection from="7/çık" to="sen" with="ARG0"/>
+<Word name="4/arka" positionX="950" positionY="300"/>
+<Connection from="7/çık" to="4/arka"/>
+<Word name="3/kapı" positionX="850" positionY="400"/>
+<Connection from="4/arka" to="3/kapı" with="mod"/>
+<Word name="1/her" positionX="750" positionY="500"/>
+<Connection from="3/kapı" to="1/her" with="mod"/>
+<Word name="2/aç" positionX="850" positionY="500"/>
+<Connection from="3/kapı" to="2/aç"/>
+<Word name="6/şey" positionX="1050" positionY="300"/>
+<Connection from="7/çık" to="6/şey"/>
+<Word name="5/iste" positionX="950" positionY="400"/>
+<Connection from="6/şey" to="5/iste"/>
+<Connection from="5/iste" to="sen" with="poss"/>
+</Amr>

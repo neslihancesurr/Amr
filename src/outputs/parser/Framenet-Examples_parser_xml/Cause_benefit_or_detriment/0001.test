@@ -1,0 +1,14 @@
+<Amr sentence="Yediği organik gıdalar çocuğa yaradı .">
+<Word name="5/yara" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/yara" to="o" with="ARG0"/>
+<Word name="3/gıda" positionX="750" positionY="200"/>
+<Connection from="5/yara" to="3/gıda" with="ARG1"/>
+<Word name="1/ye" positionX="650" positionY="300"/>
+<Connection from="3/gıda" to="1/ye"/>
+<Connection from="1/ye" to="o" with="poss"/>
+<Word name="2/organik" positionX="750" positionY="300"/>
+<Connection from="3/gıda" to="2/organik" with="mod"/>
+<Word name="4/çocuk" positionX="850" positionY="200"/>
+<Connection from="5/yara" to="4/çocuk" with="ARG2"/>
+</Amr>

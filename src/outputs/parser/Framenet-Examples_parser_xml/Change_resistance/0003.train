@@ -1,0 +1,10 @@
+<Amr sentence="Söylediklerinizi neye isnat ediyorsunuz ?">
+<Word name="3/isnat 4/et" positionX="750" positionY="100"/>
+<Word name="siz" positionX="650" positionY="200"/>
+<Connection from="3/isnat 4/et" to="siz" with="ARG0"/>
+<Word name="1/söyle" positionX="750" positionY="200"/>
+<Connection from="3/isnat 4/et" to="1/söyle" with="ARG1"/>
+<Connection from="1/söyle" to="siz" with="ARG0"/>
+<Word name="2/ne" positionX="850" positionY="200"/>
+<Connection from="3/isnat 4/et" to="2/ne"/>
+</Amr>

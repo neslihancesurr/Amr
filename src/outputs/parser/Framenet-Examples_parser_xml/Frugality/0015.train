@@ -1,0 +1,13 @@
+<Amr sentence="Güzel boyaları karalama yaparak araya verdi .">
+<Word name="5/ara 6/ver" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/ara 6/ver" to="o" with="ARG0"/>
+<Word name="2/boya" positionX="750" positionY="200"/>
+<Connection from="5/ara 6/ver" to="2/boya" with="ARG1"/>
+<Word name="1/güzel" positionX="650" positionY="300"/>
+<Connection from="2/boya" to="1/güzel" with="mod"/>
+<Word name="4/yap" positionX="850" positionY="200"/>
+<Connection from="5/ara 6/ver" to="4/yap"/>
+<Word name="3/karalama" positionX="750" positionY="300"/>
+<Connection from="4/yap" to="3/karalama" with="ARG1"/>
+</Amr>

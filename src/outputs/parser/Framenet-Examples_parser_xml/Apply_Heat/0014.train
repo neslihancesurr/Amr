@@ -1,0 +1,19 @@
+<Amr sentence="Ayşe Nine de onlara bir yorgunluk kahvesi pişiriyordu .">
+<Word name="8/pişir" positionX="750" positionY="100"/>
+<Word name="2/nine" positionX="650" positionY="200"/>
+<Connection from="8/pişir" to="2/nine" with="ARG0"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="2/nine" to="person"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ayşe" positionX="350" positionY="500"/>
+<Connection from="name" to="1/ayşe" with="op1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/de" positionX="650" positionY="300"/>
+<Connection from="2/nine" to="3/de" with="manner"/>
+<Word name="4/o" positionX="750" positionY="200"/>
+<Connection from="8/pişir" to="4/o"/>
+<Word name="6/yorgunluk 7/kahve" positionX="850" positionY="200"/>
+<Connection from="8/pişir" to="6/yorgunluk 7/kahve" with="ARG1"/>
+</Amr>

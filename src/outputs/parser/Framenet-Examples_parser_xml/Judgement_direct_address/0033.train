@@ -1,0 +1,13 @@
+<Amr sentence="Prim yapmak için vatandaşa nutuk çekiyor .">
+<Word name="5/nutuk 6/çek" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/nutuk 6/çek" to="o" with="ARG0"/>
+<Word name="2/yap" positionX="750" positionY="200"/>
+<Connection from="5/nutuk 6/çek" to="2/yap" with="mod"/>
+<Word name="1/prim" positionX="650" positionY="300"/>
+<Connection from="2/yap" to="1/prim" with="ARG1"/>
+<Word name="3/için" positionX="750" positionY="300"/>
+<Connection from="2/yap" to="3/için"/>
+<Word name="4/vatandaş" positionX="850" positionY="200"/>
+<Connection from="5/nutuk 6/çek" to="4/vatandaş" with="ARG1"/>
+</Amr>

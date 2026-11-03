@@ -1,0 +1,18 @@
+<Amr sentence="Bilim insanları virüse karşı yapılması gerekenleri açıkladı .">
+<Word name="7/açıkla" positionX="750" positionY="100"/>
+<Word name="1/bilim 2/insan" positionX="650" positionY="200"/>
+<Connection from="7/açıkla" to="1/bilim 2/insan" with="ARG0"/>
+<Word name="6/gerek" positionX="750" positionY="200"/>
+<Connection from="7/açıkla" to="6/gerek" with="ARG1"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="6/gerek" to="onlar" with="ARG0"/>
+<Word name="3/virüs" positionX="750" positionY="300"/>
+<Connection from="6/gerek" to="3/virüs" with="mod"/>
+<Word name="4/karşı" positionX="650" positionY="400"/>
+<Connection from="3/virüs" to="4/karşı"/>
+<Word name="5/yap" positionX="850" positionY="300"/>
+<Connection from="6/gerek" to="5/yap"/>
+<Word name="o" positionX="750" positionY="400"/>
+<Connection from="5/yap" to="o" with="ARG0"/>
+<Connection from="5/yap" to="o" with="poss"/>
+</Amr>

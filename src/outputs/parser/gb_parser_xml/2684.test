@@ -1,0 +1,13 @@
+<Amr sentence="Yalnız aksiliği yüzünden müşterileri kaçırıyor .">
+<Word name="5/kaçır" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/kaçır" to="o" with="ARG0"/>
+<Word name="1/yalnız" positionX="750" positionY="200"/>
+<Connection from="5/kaçır" to="1/yalnız" with="manner"/>
+<Word name="3/yüzünden" positionX="850" positionY="200"/>
+<Connection from="5/kaçır" to="3/yüzünden"/>
+<Word name="2/aksilik" positionX="750" positionY="300"/>
+<Connection from="3/yüzünden" to="2/aksilik" with="mod"/>
+<Word name="4/müşteri" positionX="950" positionY="200"/>
+<Connection from="5/kaçır" to="4/müşteri" with="ARG1"/>
+</Amr>

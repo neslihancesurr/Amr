@@ -1,0 +1,9 @@
+<Amr sentence="Çabuk çabuk yürüdük .">
+<Word name="3/yürü" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="3/yürü" to="biz" with="ARG0"/>
+<Word name="2/çabuk" positionX="750" positionY="200"/>
+<Connection from="3/yürü" to="2/çabuk" with="manner"/>
+<Word name="1/çabuk" positionX="650" positionY="300"/>
+<Connection from="2/çabuk" to="1/çabuk"/>
+</Amr>

@@ -1,0 +1,19 @@
+<Amr sentence="Madem biliyordun neden söylemedin ?">
+<Word name="4/söyle" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/söyle" to="-" with="polarity"/>
+<Word name="sen" positionX="750" positionY="200"/>
+<Connection from="4/söyle" to="sen" with="ARG0"/>
+<Word name="2/bil" positionX="850" positionY="200"/>
+<Connection from="4/söyle" to="2/bil"/>
+<Connection from="2/bil" to="sen" with="ARG0"/>
+<Word name="person" positionX="850" positionY="300"/>
+<Connection from="2/bil" to="person"/>
+<Word name="name" positionX="750" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/Madem" positionX="650" positionY="500"/>
+<Connection from="name" to="1/Madem" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/neden" positionX="950" positionY="200"/>
+<Connection from="4/söyle" to="3/neden" with="manner"/>
+</Amr>

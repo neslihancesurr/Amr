@@ -1,0 +1,22 @@
+<Amr sentence="Kumaşları güzelce ölçüp teyel yaptım , şimdi de dikeceğim .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/teyel 5/yap" positionX="650" positionY="200"/>
+<Connection from="and" to="4/teyel 5/yap" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="4/teyel 5/yap" to="ben" with="ARG0"/>
+<Word name="1/kumaş" positionX="650" positionY="300"/>
+<Connection from="4/teyel 5/yap" to="1/kumaş" with="ARG1"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="1/kumaş" to="o" with="poss"/>
+<Word name="3/ölç" positionX="750" positionY="300"/>
+<Connection from="4/teyel 5/yap" to="3/ölç"/>
+<Word name="2/güzel" positionX="650" positionY="400"/>
+<Connection from="3/ölç" to="2/güzel" with="manner"/>
+<Word name="9/dik" positionX="750" positionY="200"/>
+<Connection from="and" to="9/dik" with="op2"/>
+<Connection from="9/dik" to="ben" with="ARG0"/>
+<Word name="7/şimdi" positionX="750" positionY="300"/>
+<Connection from="9/dik" to="7/şimdi" with="manner"/>
+<Word name="8/de" positionX="650" positionY="400"/>
+<Connection from="7/şimdi" to="8/de" with="manner"/>
+</Amr>

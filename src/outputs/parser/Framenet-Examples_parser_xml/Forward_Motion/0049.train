@@ -1,0 +1,7 @@
+<Amr sentence="Genç kızlar podyumda kıvırıyordu .">
+<Word name="4/kıvır" positionX="750" positionY="100"/>
+<Word name="1/genç 2/kız" positionX="650" positionY="200"/>
+<Connection from="4/kıvır" to="1/genç 2/kız" with="ARG0"/>
+<Word name="3/podyum" positionX="750" positionY="200"/>
+<Connection from="4/kıvır" to="3/podyum" with="location"/>
+</Amr>

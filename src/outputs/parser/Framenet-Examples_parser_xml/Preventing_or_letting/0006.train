@@ -1,0 +1,13 @@
+<Amr sentence="Başarılı olmak için kardeşini çelmeledi .">
+<Word name="5/çelmele" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/çelmele" to="o" with="ARG0"/>
+<Word name="2/ol" positionX="750" positionY="200"/>
+<Connection from="5/çelmele" to="2/ol" with="cause"/>
+<Connection from="2/ol" to="o" with="ARG0"/>
+<Word name="1/başarılı" positionX="750" positionY="300"/>
+<Connection from="2/ol" to="1/başarılı" with="mod"/>
+<Word name="4/kardeş" positionX="850" positionY="200"/>
+<Connection from="5/çelmele" to="4/kardeş" with="ARG1"/>
+<Connection from="4/kardeş" to="o" with="poss"/>
+</Amr>

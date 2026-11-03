@@ -1,0 +1,27 @@
+<Amr sentence="Değer yargılarımızı her an , hiç durmamacasına yeniden ölçüp biçmeliyiz .">
+<Word name="gerek" positionX="750" positionY="100"/>
+<Word name="9/ölç 10/biç" positionX="650" positionY="200"/>
+<Connection from="gerek" to="9/ölç 10/biç"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="9/ölç 10/biç" to="biz" with="ARG0"/>
+<Word name="2/yargıla" positionX="650" positionY="300"/>
+<Connection from="9/ölç 10/biç" to="2/yargıla" with="ARG1"/>
+<Connection from="2/yargıla" to="biz" with="ARG0"/>
+<Word name="1/değer" positionX="650" positionY="400"/>
+<Connection from="2/yargıla" to="1/değer" with="mod"/>
+<Word name="4/an" positionX="750" positionY="300"/>
+<Connection from="9/ölç 10/biç" to="4/an" with="mod"/>
+<Word name="3/her" positionX="650" positionY="400"/>
+<Connection from="4/an" to="3/her" with="mod"/>
+<Word name="7/dur" positionX="850" positionY="300"/>
+<Connection from="9/ölç 10/biç" to="7/dur"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="7/dur" to="-" with="polarity"/>
+<Word name="o" positionX="850" positionY="400"/>
+<Connection from="7/dur" to="o" with="ARG0"/>
+<Connection from="7/dur" to="o" with="poss"/>
+<Word name="6/hiç" positionX="1050" positionY="400"/>
+<Connection from="7/dur" to="6/hiç" with="degree"/>
+<Word name="8/yeniden" positionX="950" positionY="300"/>
+<Connection from="9/ölç 10/biç" to="8/yeniden" with="manner"/>
+</Amr>

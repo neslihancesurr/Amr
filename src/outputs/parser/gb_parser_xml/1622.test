@@ -1,0 +1,13 @@
+<Amr sentence="Partide seni soranlar oldu .">
+<Word name="3/sor" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="3/sor" to="onlar" with="ARG0"/>
+<Word name="1/parti" positionX="750" positionY="200"/>
+<Connection from="3/sor" to="1/parti" with="location"/>
+<Word name="2/sen" positionX="850" positionY="200"/>
+<Connection from="3/sor" to="2/sen"/>
+<Word name="4/ol" positionX="950" positionY="200"/>
+<Connection from="3/sor" to="4/ol"/>
+<Word name="o" positionX="850" positionY="300"/>
+<Connection from="4/ol" to="o" with="ARG0"/>
+</Amr>

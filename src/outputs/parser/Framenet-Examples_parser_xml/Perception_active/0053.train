@@ -1,0 +1,13 @@
+<Amr sentence="Astronotlar , roketin havada yanışını gözlemliyorlar .">
+<Word name="6/gözlemle" positionX="750" positionY="100"/>
+<Word name="1/astronot" positionX="650" positionY="200"/>
+<Connection from="6/gözlemle" to="1/astronot" with="ARG0"/>
+<Word name="5/yan" positionX="750" positionY="200"/>
+<Connection from="6/gözlemle" to="5/yan" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/yan" to="o" with="ARG0"/>
+<Word name="3/roket" positionX="750" positionY="300"/>
+<Connection from="5/yan" to="3/roket" with="mod"/>
+<Word name="4/hava" positionX="850" positionY="300"/>
+<Connection from="5/yan" to="4/hava" with="location"/>
+</Amr>

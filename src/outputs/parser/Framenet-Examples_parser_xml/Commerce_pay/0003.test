@@ -1,0 +1,13 @@
+<Amr sentence="Bankaya ikramiyesinin yarı parasını yatırdı .">
+<Word name="5/yatır" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/yatır" to="o" with="ARG0"/>
+<Word name="1/banka" positionX="750" positionY="200"/>
+<Connection from="5/yatır" to="1/banka"/>
+<Word name="4/para" positionX="850" positionY="200"/>
+<Connection from="5/yatır" to="4/para"/>
+<Word name="2/ikramiye" positionX="750" positionY="300"/>
+<Connection from="4/para" to="2/ikramiye" with="mod"/>
+<Word name="3/yarı" positionX="850" positionY="300"/>
+<Connection from="4/para" to="3/yarı" with="mod"/>
+</Amr>

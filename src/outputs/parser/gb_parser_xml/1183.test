@@ -1,0 +1,14 @@
+<Amr sentence="Kendimize araba almak istiyoruz .">
+<Word name="4/iste" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="4/iste" to="biz" with="ARG0"/>
+<Word name="3/al" positionX="750" positionY="200"/>
+<Connection from="4/iste" to="3/al" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/al" to="o" with="ARG0"/>
+<Word name="1/kendi" positionX="750" positionY="300"/>
+<Connection from="3/al" to="1/kendi"/>
+<Connection from="1/kendi" to="biz" with="poss"/>
+<Word name="2/araba" positionX="850" positionY="300"/>
+<Connection from="3/al" to="2/araba"/>
+</Amr>

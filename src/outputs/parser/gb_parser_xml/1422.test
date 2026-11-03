@@ -1,0 +1,9 @@
+<Amr sentence="Ne zamana kadar bekleyeyim ?">
+<Word name="4/bekle" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/bekle" to="ben" with="ARG0"/>
+<Word name="1/ne" positionX="750" positionY="200"/>
+<Connection from="4/bekle" to="1/ne" with="extent"/>
+<Word name="2/zaman" positionX="650" positionY="300"/>
+<Connection from="1/ne" to="2/zaman"/>
+</Amr>

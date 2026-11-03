@@ -1,0 +1,17 @@
+<Amr sentence="Nine , yolda yerim diye iki yumurta haşladıydı .">
+<Word name="8/haşla" positionX="750" positionY="100"/>
+<Word name="1/nine" positionX="650" positionY="200"/>
+<Connection from="8/haşla" to="1/nine" with="ARG0"/>
+<Word name="4/ye" positionX="750" positionY="200"/>
+<Connection from="8/haşla" to="4/ye"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="4/ye" to="ben" with="ARG0"/>
+<Word name="3/yol" positionX="750" positionY="300"/>
+<Connection from="4/ye" to="3/yol" with="location"/>
+<Word name="5/diye" positionX="850" positionY="300"/>
+<Connection from="4/ye" to="5/diye"/>
+<Word name="7/yumurta" positionX="850" positionY="200"/>
+<Connection from="8/haşla" to="7/yumurta" with="ARG1"/>
+<Word name="6/iki" positionX="750" positionY="300"/>
+<Connection from="7/yumurta" to="6/iki"/>
+</Amr>

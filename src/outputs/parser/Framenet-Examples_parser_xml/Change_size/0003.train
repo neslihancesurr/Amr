@@ -1,0 +1,15 @@
+<Amr sentence="Yüksek ısıda yıkayınca tüm kıyafetlerim küçüldü .">
+<Word name="6/küçül" positionX="750" positionY="100"/>
+<Word name="3/yıka" positionX="650" positionY="200"/>
+<Connection from="6/küçül" to="3/yıka"/>
+<Word name="2/ısı" positionX="550" positionY="300"/>
+<Connection from="3/yıka" to="2/ısı" with="location"/>
+<Word name="1/yüksek" positionX="450" positionY="400"/>
+<Connection from="2/ısı" to="1/yüksek" with="mod"/>
+<Word name="5/kıyafet" positionX="750" positionY="200"/>
+<Connection from="6/küçül" to="5/kıyafet" with="ARG0"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="5/kıyafet" to="ben" with="poss"/>
+<Word name="4/tüm" positionX="750" positionY="300"/>
+<Connection from="5/kıyafet" to="4/tüm" with="mod"/>
+</Amr>

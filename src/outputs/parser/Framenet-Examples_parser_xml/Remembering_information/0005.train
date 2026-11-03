@@ -1,0 +1,13 @@
+<Amr sentence="Bu söylediklerim kulağına küpe olsun .">
+<Word name="3/kulak 4/küpe 5/ol" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/kulak 4/küpe 5/ol" to="o" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="3/kulak 4/küpe 5/ol" to="imperative" with="mode"/>
+<Word name="2/söyle" positionX="850" positionY="200"/>
+<Connection from="3/kulak 4/küpe 5/ol" to="2/söyle" with="ARG1"/>
+<Word name="ben" positionX="750" positionY="300"/>
+<Connection from="2/söyle" to="ben" with="ARG0"/>
+<Word name="1/bu" positionX="850" positionY="300"/>
+<Connection from="2/söyle" to="1/bu" with="mod"/>
+</Amr>

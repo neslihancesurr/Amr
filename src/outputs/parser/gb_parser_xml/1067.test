@@ -1,0 +1,13 @@
+<Amr sentence="Bu tabloyu kanepenin üstüne asalım .">
+<Word name="5/as" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/as" to="biz" with="ARG0"/>
+<Word name="2/tablo" positionX="750" positionY="200"/>
+<Connection from="5/as" to="2/tablo" with="ARG2"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/tablo" to="1/bu" with="mod"/>
+<Word name="4/üst" positionX="850" positionY="200"/>
+<Connection from="5/as" to="4/üst" with="ARG2"/>
+<Word name="3/kanepe" positionX="750" positionY="300"/>
+<Connection from="4/üst" to="3/kanepe" with="mod"/>
+</Amr>

@@ -1,0 +1,28 @@
+<Amr sentence="Mademki seksen yaşındaki komşum bilgisayar kullanmayı öğrenmiş , ben de öğrenebilirim .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="11/öğren" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="11/öğren"/>
+<Word name="7/öğren" positionX="550" positionY="300"/>
+<Connection from="11/öğren" to="7/öğren"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="7/öğren" to="o" with="ARG0"/>
+<Word name="1/mademki" positionX="550" positionY="400"/>
+<Connection from="7/öğren" to="1/mademki"/>
+<Word name="4/komşu" positionX="650" positionY="400"/>
+<Connection from="7/öğren" to="4/komşu"/>
+<Word name="ben" positionX="550" positionY="500"/>
+<Connection from="4/komşu" to="ben" with="poss"/>
+<Word name="3/yaş" positionX="650" positionY="500"/>
+<Connection from="4/komşu" to="3/yaş" with="mod"/>
+<Word name="2/seksen" positionX="550" positionY="600"/>
+<Connection from="3/yaş" to="2/seksen"/>
+<Word name="6/kullan" positionX="750" positionY="400"/>
+<Connection from="7/öğren" to="6/kullan"/>
+<Connection from="6/kullan" to="o" with="ARG0"/>
+<Word name="5/bilgisayar" positionX="750" positionY="500"/>
+<Connection from="6/kullan" to="5/bilgisayar"/>
+<Word name="9/ben" positionX="650" positionY="300"/>
+<Connection from="11/öğren" to="9/ben"/>
+<Word name="10/de" positionX="550" positionY="400"/>
+<Connection from="9/ben" to="10/de"/>
+</Amr>

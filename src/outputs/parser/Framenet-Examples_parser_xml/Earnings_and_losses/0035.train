@@ -1,0 +1,7 @@
+<Amr sentence="Dedesi , iflas bayrağını çekti .">
+<Word name="3/iflas 4/bayrak 5/çek" positionX="750" positionY="100"/>
+<Word name="1/dede" positionX="650" positionY="200"/>
+<Connection from="3/iflas 4/bayrak 5/çek" to="1/dede" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/dede" to="o" with="poss"/>
+</Amr>

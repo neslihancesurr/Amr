@@ -1,0 +1,9 @@
+<Amr sentence="Kotların parasını terzinin avucuna saydım .">
+<Word name="4/avuç 5/say" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/avuç 5/say" to="ben" with="ARG0"/>
+<Word name="2/para" positionX="750" positionY="200"/>
+<Connection from="4/avuç 5/say" to="2/para" with="ARG1"/>
+<Word name="1/kot" positionX="650" positionY="300"/>
+<Connection from="2/para" to="1/kot" with="mod"/>
+</Amr>

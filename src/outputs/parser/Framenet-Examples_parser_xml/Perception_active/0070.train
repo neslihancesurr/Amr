@@ -1,0 +1,14 @@
+<Amr sentence="Lafı kıçından mı dinliyorsun ?">
+<Word name="4/dinle" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="4/dinle" to="sen" with="ARG0"/>
+<Word name="1/laf" positionX="750" positionY="200"/>
+<Connection from="4/dinle" to="1/laf" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="1/laf" to="o" with="poss"/>
+<Word name="2/kıç" positionX="850" positionY="200"/>
+<Connection from="4/dinle" to="2/kıç"/>
+<Connection from="2/kıç" to="o" with="poss"/>
+<Word name="3/mi" positionX="850" positionY="300"/>
+<Connection from="2/kıç" to="3/mi"/>
+</Amr>

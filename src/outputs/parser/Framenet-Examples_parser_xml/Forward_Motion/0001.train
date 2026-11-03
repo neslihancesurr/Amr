@@ -1,0 +1,7 @@
+<Amr sentence="Bezi bağlanınca ufaklık badikliyor .">
+<Word name="4/badikle" positionX="750" positionY="100"/>
+<Word name="1/bez 2/bağla" positionX="650" positionY="200"/>
+<Connection from="4/badikle" to="1/bez 2/bağla"/>
+<Word name="3/ufaklık" positionX="750" positionY="200"/>
+<Connection from="4/badikle" to="3/ufaklık" with="ARG0"/>
+</Amr>

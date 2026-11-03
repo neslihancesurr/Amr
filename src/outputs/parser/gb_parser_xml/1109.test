@@ -1,0 +1,15 @@
+<Amr sentence="Bütün bunları sizin sayenizde yapabildik .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="5/yap" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="5/yap"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="5/yap" to="biz" with="ARG0"/>
+<Word name="2/bu" positionX="650" positionY="300"/>
+<Connection from="5/yap" to="2/bu" with="ARG1"/>
+<Word name="1/bütün" positionX="550" positionY="400"/>
+<Connection from="2/bu" to="1/bütün" with="mod"/>
+<Word name="4/saye" positionX="750" positionY="300"/>
+<Connection from="5/yap" to="4/saye" with="location"/>
+<Word name="3/siz" positionX="650" positionY="400"/>
+<Connection from="4/saye" to="3/siz" with="mod"/>
+</Amr>

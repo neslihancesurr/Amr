@@ -1,0 +1,12 @@
+<Amr sentence="Demet otobüsle gitmekte direniyor .">
+<Word name="4/diren" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/diren" to="o" with="ARG0"/>
+<Word name="1/demet" positionX="750" positionY="200"/>
+<Connection from="4/diren" to="1/demet"/>
+<Word name="3/git" positionX="850" positionY="200"/>
+<Connection from="4/diren" to="3/git"/>
+<Connection from="3/git" to="o" with="ARG0"/>
+<Word name="2/otobüs" positionX="850" positionY="300"/>
+<Connection from="3/git" to="2/otobüs" with="instrument"/>
+</Amr>

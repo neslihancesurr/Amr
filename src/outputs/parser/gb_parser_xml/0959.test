@@ -1,0 +1,24 @@
+<Amr sentence="Hazır Ali buradayken bilgisayar sorunumuzu ona soralım .">
+<Word name="7/sor" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="7/sor" to="biz" with="ARG0"/>
+<Word name="3/bura" positionX="750" positionY="200"/>
+<Connection from="7/sor" to="3/bura" with="location"/>
+<Word name="1/hazır" positionX="650" positionY="300"/>
+<Connection from="3/bura" to="1/hazır" with="manner"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="3/bura" to="person"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/ali" positionX="550" positionY="500"/>
+<Connection from="name" to="2/ali" with="op1"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/sorun" positionX="850" positionY="200"/>
+<Connection from="7/sor" to="5/sorun" with="ARG1"/>
+<Connection from="5/sorun" to="biz" with="poss"/>
+<Word name="4/bilgisayar" positionX="850" positionY="300"/>
+<Connection from="5/sorun" to="4/bilgisayar" with="mod"/>
+<Word name="6/o" positionX="950" positionY="200"/>
+<Connection from="7/sor" to="6/o"/>
+</Amr>

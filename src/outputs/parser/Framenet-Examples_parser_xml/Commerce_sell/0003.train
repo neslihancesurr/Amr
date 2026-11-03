@@ -1,0 +1,9 @@
+<Amr sentence="Bugün firma epey satış yaptı .">
+<Word name="4/satış 5/yap" positionX="750" positionY="100"/>
+<Word name="1/bugün" positionX="650" positionY="200"/>
+<Connection from="4/satış 5/yap" to="1/bugün" with="manner"/>
+<Word name="2/firma" positionX="750" positionY="200"/>
+<Connection from="4/satış 5/yap" to="2/firma" with="ARG0"/>
+<Word name="3/epey" positionX="850" positionY="200"/>
+<Connection from="4/satış 5/yap" to="3/epey" with="manner"/>
+</Amr>

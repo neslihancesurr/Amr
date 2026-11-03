@@ -1,0 +1,19 @@
+<Amr sentence="Uzun süredir görüşmeyen arkadaşlar bir araya geldiklerinde uzun uzun kucaklaştılar .">
+<Word name="10/kucaklaş" positionX="750" positionY="100"/>
+<Word name="4/arkadaş" positionX="650" positionY="200"/>
+<Connection from="10/kucaklaş" to="4/arkadaş" with="ARG0"/>
+<Word name="3/görüş" positionX="550" positionY="300"/>
+<Connection from="4/arkadaş" to="3/görüş"/>
+<Word name="-" positionX="450" positionY="400"/>
+<Connection from="3/görüş" to="-" with="polarity"/>
+<Word name="2/süre" positionX="550" positionY="400"/>
+<Connection from="3/görüş" to="2/süre" with="mod"/>
+<Word name="1/uzun" positionX="450" positionY="500"/>
+<Connection from="2/süre" to="1/uzun" with="mod"/>
+<Word name="5/bir 6/ara 7/gel" positionX="750" positionY="200"/>
+<Connection from="10/kucaklaş" to="5/bir 6/ara 7/gel"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/bir 6/ara 7/gel" to="o" with="poss"/>
+<Word name="8/uzun 9/uzun" positionX="850" positionY="200"/>
+<Connection from="10/kucaklaş" to="8/uzun 9/uzun"/>
+</Amr>

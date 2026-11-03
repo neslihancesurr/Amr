@@ -1,0 +1,7 @@
+<Amr sentence="Misafirler için kuzu çevirdi .">
+<Word name="3/kuzu 4/çevir" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/kuzu 4/çevir" to="o" with="ARG0"/>
+<Word name="1/misafir" positionX="750" positionY="200"/>
+<Connection from="3/kuzu 4/çevir" to="1/misafir" with="cause"/>
+</Amr>

@@ -1,0 +1,12 @@
+<Amr sentence="Burada istediğin kadar kalabilirsin .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="4/kal" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="4/kal"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="4/kal" to="sen" with="ARG0"/>
+<Word name="1/burada" positionX="650" positionY="300"/>
+<Connection from="4/kal" to="1/burada"/>
+<Word name="2/iste" positionX="750" positionY="300"/>
+<Connection from="4/kal" to="2/iste" with="extent"/>
+<Connection from="2/iste" to="sen" with="poss"/>
+</Amr>

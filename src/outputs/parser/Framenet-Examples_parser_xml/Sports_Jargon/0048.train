@@ -1,0 +1,19 @@
+<Amr sentence="Hakan yine kontrpiyede kaldı , gol yedi .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/kontrpiye 4/kal" positionX="650" positionY="200"/>
+<Connection from="and" to="3/kontrpiye 4/kal" with="op1"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="3/kontrpiye 4/kal" to="person" with="ARG0"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/hakan" positionX="350" positionY="500"/>
+<Connection from="name" to="1/hakan" with="op1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/yine" positionX="650" positionY="300"/>
+<Connection from="3/kontrpiye 4/kal" to="2/yine" with="manner"/>
+<Word name="6/gol 7/ye" positionX="750" positionY="200"/>
+<Connection from="and" to="6/gol 7/ye" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="6/gol 7/ye" to="o" with="ARG0"/>
+</Amr>

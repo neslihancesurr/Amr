@@ -1,0 +1,13 @@
+<Amr sentence="O şarkıyı ne güzel söyledin !">
+<Word name="5/söyle" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="5/söyle" to="sen" with="ARG0"/>
+<Word name="2/şarkı" positionX="750" positionY="200"/>
+<Connection from="5/söyle" to="2/şarkı" with="ARG1"/>
+<Word name="1/o" positionX="650" positionY="300"/>
+<Connection from="2/şarkı" to="1/o" with="mod"/>
+<Word name="4/güzel" positionX="850" positionY="200"/>
+<Connection from="5/söyle" to="4/güzel" with="manner"/>
+<Word name="3/ne" positionX="750" positionY="300"/>
+<Connection from="4/güzel" to="3/ne" with="manner"/>
+</Amr>

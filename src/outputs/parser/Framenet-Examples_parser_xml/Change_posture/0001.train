@@ -1,0 +1,21 @@
+<Amr sentence="Maç esnasında taraflardan biri öbürüne doğru abanarak yere düşürdü .">
+<Word name="9/düşür" positionX="750" positionY="100"/>
+<Word name="2/esnasında" positionX="650" positionY="200"/>
+<Connection from="9/düşür" to="2/esnasında" with="manner"/>
+<Word name="1/maç" positionX="550" positionY="300"/>
+<Connection from="2/esnasında" to="1/maç" with="mod"/>
+<Word name="4/biri" positionX="750" positionY="200"/>
+<Connection from="9/düşür" to="4/biri" with="ARG1"/>
+<Word name="3/taraf" positionX="650" positionY="300"/>
+<Connection from="4/biri" to="3/taraf" with="mod"/>
+<Word name="7/aban" positionX="850" positionY="200"/>
+<Connection from="9/düşür" to="7/aban"/>
+<Word name="5/öbür" positionX="750" positionY="300"/>
+<Connection from="7/aban" to="5/öbür" with="ARG1"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="5/öbür" to="o" with="poss"/>
+<Word name="6/doğru" positionX="750" positionY="400"/>
+<Connection from="5/öbür" to="6/doğru"/>
+<Word name="8/yer" positionX="950" positionY="200"/>
+<Connection from="9/düşür" to="8/yer"/>
+</Amr>

@@ -1,0 +1,16 @@
+<Amr sentence="Arapça ve Farsça">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="and" to="person" with="op1"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/farsça" positionX="450" positionY="400"/>
+<Connection from="name" to="3/farsça" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="and" to="person" with="op2"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/arapça" positionX="550" positionY="400"/>
+<Connection from="name" to="1/arapça" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

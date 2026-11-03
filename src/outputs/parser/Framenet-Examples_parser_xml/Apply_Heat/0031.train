@@ -1,0 +1,15 @@
+<Amr sentence="Şu hamuru tavaya dök .">
+<Word name="4/dök" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="4/dök" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="4/dök" to="imperative" with="mode"/>
+<Word name="2/hamur" positionX="850" positionY="200"/>
+<Connection from="4/dök" to="2/hamur" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="2/hamur" to="o" with="poss"/>
+<Word name="1/şu" positionX="850" positionY="300"/>
+<Connection from="2/hamur" to="1/şu" with="mod"/>
+<Word name="3/tava" positionX="950" positionY="200"/>
+<Connection from="4/dök" to="3/tava"/>
+</Amr>

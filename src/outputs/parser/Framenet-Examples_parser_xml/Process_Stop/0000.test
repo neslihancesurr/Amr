@@ -1,0 +1,13 @@
+<Amr sentence="Öfkeleri bir yaz fırtınası gibi birdenbire sönüverdi .">
+<Word name="7/sön" positionX="750" positionY="100"/>
+<Word name="1/öfke" positionX="650" positionY="200"/>
+<Connection from="7/sön" to="1/öfke" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/öfke" to="o" with="poss"/>
+<Word name="4/fırtına 5/gibi" positionX="750" positionY="200"/>
+<Connection from="7/sön" to="4/fırtına 5/gibi" with="mod"/>
+<Word name="3/yaz" positionX="650" positionY="300"/>
+<Connection from="4/fırtına 5/gibi" to="3/yaz" with="mod"/>
+<Word name="6/birdenbire" positionX="850" positionY="200"/>
+<Connection from="7/sön" to="6/birdenbire" with="manner"/>
+</Amr>

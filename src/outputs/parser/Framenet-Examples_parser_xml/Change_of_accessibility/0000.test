@@ -1,0 +1,13 @@
+<Amr sentence="Gazetecileri dahi başbakanın yanına yaklaştırmadılar .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="4/yan 5/yaklaş" positionX="650" positionY="200"/>
+<Connection from="yap" to="4/yan 5/yaklaş"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="4/yan 5/yaklaş" to="-" with="polarity"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="4/yan 5/yaklaş" to="onlar" with="ARG0"/>
+<Word name="1/gazeteci" positionX="750" positionY="300"/>
+<Connection from="4/yan 5/yaklaş" to="1/gazeteci"/>
+<Word name="2/dahi" positionX="650" positionY="400"/>
+<Connection from="1/gazeteci" to="2/dahi"/>
+</Amr>

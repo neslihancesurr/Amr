@@ -1,0 +1,18 @@
+<Amr sentence="Sokağa çıkalım diye tutturdun ama bir blok yürümekle sokağa çıkmış olmadık .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="11/ol" positionX="650" positionY="200"/>
+<Connection from="and" to="11/ol" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="11/ol" to="-" with="polarity"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="11/ol" to="biz" with="ARG0"/>
+<Word name="9/sokak 10/çık" positionX="750" positionY="300"/>
+<Connection from="11/ol" to="9/sokak 10/çık" with="ARG0"/>
+<Word name="4/tuttur" positionX="750" positionY="200"/>
+<Connection from="and" to="4/tuttur" with="op2"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="4/tuttur" to="sen" with="ARG0"/>
+<Word name="1/sokak 2/çık" positionX="750" positionY="300"/>
+<Connection from="4/tuttur" to="1/sokak 2/çık" with="ARG1"/>
+<Connection from="1/sokak 2/çık" to="biz" with="ARG0"/>
+</Amr>

@@ -1,0 +1,7 @@
+<Amr sentence="Uçağın sorti yapması kulenin ilgisini çekmişti .">
+<Word name="5/ilgi 6/çek" positionX="750" positionY="100"/>
+<Word name="2/sorti 3/yap" positionX="650" positionY="200"/>
+<Connection from="5/ilgi 6/çek" to="2/sorti 3/yap"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/sorti 3/yap" to="o" with="poss"/>
+</Amr>

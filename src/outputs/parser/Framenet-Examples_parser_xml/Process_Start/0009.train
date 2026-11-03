@@ -1,0 +1,23 @@
+<Amr sentence="Ben bu iş için temel atıyorum , gerisini siz getirin .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/temel 6/at" positionX="650" positionY="200"/>
+<Connection from="and" to="5/temel 6/at" with="op1"/>
+<Word name="1/ben" positionX="550" positionY="300"/>
+<Connection from="5/temel 6/at" to="1/ben"/>
+<Word name="3/iş" positionX="650" positionY="300"/>
+<Connection from="5/temel 6/at" to="3/iş" with="ARG1"/>
+<Word name="2/bu" positionX="550" positionY="400"/>
+<Connection from="3/iş" to="2/bu" with="mod"/>
+<Word name="4/için" positionX="650" positionY="400"/>
+<Connection from="3/iş" to="4/için"/>
+<Word name="10/getir" positionX="750" positionY="200"/>
+<Connection from="and" to="10/getir" with="op2"/>
+<Word name="imperative" positionX="650" positionY="300"/>
+<Connection from="10/getir" to="imperative" with="mode"/>
+<Word name="8/geri" positionX="750" positionY="300"/>
+<Connection from="10/getir" to="8/geri" with="ARG1"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="8/geri" to="o" with="poss"/>
+<Word name="9/siz" positionX="850" positionY="300"/>
+<Connection from="10/getir" to="9/siz" with="ARG0"/>
+</Amr>

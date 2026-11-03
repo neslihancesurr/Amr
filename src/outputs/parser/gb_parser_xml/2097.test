@@ -1,0 +1,19 @@
+<Amr sentence="Turgut bizden taşınacağı gün kendisine yardım etmemizi istedi .">
+<Word name="8/iste" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="8/iste" to="o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="8/iste" to="person"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/turgut" positionX="550" positionY="400"/>
+<Connection from="name" to="1/turgut" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/biz" positionX="850" positionY="200"/>
+<Connection from="8/iste" to="2/biz"/>
+<Word name="6/yardım 7/et" positionX="950" positionY="200"/>
+<Connection from="8/iste" to="6/yardım 7/et"/>
+<Word name="biz" positionX="850" positionY="300"/>
+<Connection from="6/yardım 7/et" to="biz" with="ARG0"/>
+</Amr>

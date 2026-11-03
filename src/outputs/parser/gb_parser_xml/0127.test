@@ -1,0 +1,5 @@
+<Amr sentence="kasımpatılar">
+<Word name="1/kasımpat" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="1/kasımpat" to="o" with="poss"/>
+</Amr>

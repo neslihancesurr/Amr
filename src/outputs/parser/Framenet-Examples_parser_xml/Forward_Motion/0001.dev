@@ -1,0 +1,13 @@
+<Amr sentence="Yıldız kaydı ve dilek diledim .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/dile" positionX="650" positionY="200"/>
+<Connection from="and" to="5/dile" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="5/dile" to="ben" with="ARG0"/>
+<Word name="4/dilek" positionX="650" positionY="300"/>
+<Connection from="5/dile" to="4/dilek" with="ARG1"/>
+<Word name="1/yıldız 2/kay" positionX="750" positionY="200"/>
+<Connection from="and" to="1/yıldız 2/kay" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="1/yıldız 2/kay" to="o" with="ARG0"/>
+</Amr>

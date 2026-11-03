@@ -1,0 +1,14 @@
+<Amr sentence="Annesine aldığı hediyelerle ona haz verdi .">
+<Word name="5/haz 6/ver" positionX="750" positionY="100"/>
+<Word name="3/hediye" positionX="650" positionY="200"/>
+<Connection from="5/haz 6/ver" to="3/hediye" with="ARG0"/>
+<Word name="2/al" positionX="550" positionY="300"/>
+<Connection from="3/hediye" to="2/al"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="2/al" to="o" with="poss"/>
+<Word name="1/anne" positionX="550" positionY="400"/>
+<Connection from="2/al" to="1/anne"/>
+<Connection from="1/anne" to="o" with="poss"/>
+<Word name="4/o" positionX="750" positionY="200"/>
+<Connection from="5/haz 6/ver" to="4/o" with="ARG1"/>
+</Amr>

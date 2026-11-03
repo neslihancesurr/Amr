@@ -1,0 +1,24 @@
+<Amr sentence="Biletlerini memurun elinden kaptı , gişede yakalanmamak için kaçtı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/kap" positionX="650" positionY="200"/>
+<Connection from="and" to="4/kap" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/kap" to="o" with="ARG0"/>
+<Word name="1/bilet" positionX="650" positionY="300"/>
+<Connection from="4/kap" to="1/bilet" with="ARG1"/>
+<Connection from="1/bilet" to="o" with="poss"/>
+<Word name="3/el" positionX="750" positionY="300"/>
+<Connection from="4/kap" to="3/el"/>
+<Word name="2/memur" positionX="650" positionY="400"/>
+<Connection from="3/el" to="2/memur" with="mod"/>
+<Word name="9/kaç" positionX="750" positionY="200"/>
+<Connection from="and" to="9/kaç" with="op2"/>
+<Connection from="9/kaç" to="o" with="ARG0"/>
+<Word name="7/yakalan" positionX="750" positionY="300"/>
+<Connection from="9/kaç" to="7/yakalan" with="cause"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="7/yakalan" to="-" with="polarity"/>
+<Connection from="7/yakalan" to="o" with="ARG0"/>
+<Word name="6/gişe" positionX="850" positionY="400"/>
+<Connection from="7/yakalan" to="6/gişe" with="location"/>
+</Amr>

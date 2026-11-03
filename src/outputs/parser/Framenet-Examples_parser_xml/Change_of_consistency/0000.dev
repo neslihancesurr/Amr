@@ -1,0 +1,7 @@
+<Amr sentence="Meyveler yumuşamış .">
+<Word name="2/yumuşa" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="2/yumuşa" to="o" with="ARG0"/>
+<Word name="1/meyve" positionX="750" positionY="200"/>
+<Connection from="2/yumuşa" to="1/meyve" with="ARG1"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="O çocuğun yaptığı resim .">
+<Word name="4/resim" positionX="750" positionY="100"/>
+<Word name="1/o" positionX="650" positionY="200"/>
+<Connection from="4/resim" to="1/o"/>
+<Word name="3/yap" positionX="750" positionY="200"/>
+<Connection from="4/resim" to="3/yap"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/yap" to="o" with="poss"/>
+<Word name="2/çocuk" positionX="750" positionY="300"/>
+<Connection from="3/yap" to="2/çocuk" with="ARG0"/>
+</Amr>

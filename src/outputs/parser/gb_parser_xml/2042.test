@@ -1,0 +1,17 @@
+<Amr sentence="Bir gün duyduk ki adam taşınıp gitmiş .">
+<Word name="3/duy" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="3/duy" to="biz" with="ARG0"/>
+<Word name="2/gün" positionX="750" positionY="200"/>
+<Connection from="3/duy" to="2/gün"/>
+<Word name="7/git" positionX="850" positionY="200"/>
+<Connection from="3/duy" to="7/git"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="7/git" to="o" with="ARG0"/>
+<Word name="4/ki" positionX="850" positionY="300"/>
+<Connection from="7/git" to="4/ki"/>
+<Word name="5/adam" positionX="950" positionY="300"/>
+<Connection from="7/git" to="5/adam"/>
+<Word name="6/taşın" positionX="1050" positionY="300"/>
+<Connection from="7/git" to="6/taşın"/>
+</Amr>

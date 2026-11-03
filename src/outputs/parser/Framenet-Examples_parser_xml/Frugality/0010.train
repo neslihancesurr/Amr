@@ -1,0 +1,11 @@
+<Amr sentence="Çok fazla sabun kullanıyor .">
+<Word name="4/kullan" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/kullan" to="o" with="ARG0"/>
+<Word name="3/sabun" positionX="750" positionY="200"/>
+<Connection from="4/kullan" to="3/sabun" with="ARG1"/>
+<Word name="2/fazla" positionX="650" positionY="300"/>
+<Connection from="3/sabun" to="2/fazla" with="degree"/>
+<Word name="1/çok" positionX="550" positionY="400"/>
+<Connection from="2/fazla" to="1/çok" with="degree"/>
+</Amr>

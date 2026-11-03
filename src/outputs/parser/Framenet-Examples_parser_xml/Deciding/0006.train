@@ -1,0 +1,9 @@
+<Amr sentence="Mahkemeden beklenen karar çıktı .">
+<Word name="4/çık" positionX="750" positionY="100"/>
+<Word name="1/mahkeme" positionX="650" positionY="200"/>
+<Connection from="4/çık" to="1/mahkeme" with="ARG0"/>
+<Word name="3/karar" positionX="750" positionY="200"/>
+<Connection from="4/çık" to="3/karar" with="ARG1"/>
+<Word name="2/bekle" positionX="650" positionY="300"/>
+<Connection from="3/karar" to="2/bekle"/>
+</Amr>

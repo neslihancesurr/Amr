@@ -1,0 +1,11 @@
+<Amr sentence="Sizin söylediklerinizi beğendim .">
+<Word name="3/beğen" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/beğen" to="ben" with="ARG0"/>
+<Word name="2/söyle" positionX="750" positionY="200"/>
+<Connection from="3/beğen" to="2/söyle"/>
+<Word name="siz" positionX="650" positionY="300"/>
+<Connection from="2/söyle" to="siz" with="ARG0"/>
+<Word name="1/siz" positionX="750" positionY="300"/>
+<Connection from="2/söyle" to="1/siz" with="ARG0"/>
+</Amr>

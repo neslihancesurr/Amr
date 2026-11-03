@@ -1,0 +1,17 @@
+<Amr sentence="Bir önemli toplumsal sorunumuz da ailenin dağılmasıdır .">
+<Word name="7/dağıl" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/dağıl" to="o" with="poss"/>
+<Word name="4/sorun" positionX="750" positionY="200"/>
+<Connection from="7/dağıl" to="4/sorun"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="4/sorun" to="biz" with="poss"/>
+<Word name="2/önemli" positionX="750" positionY="300"/>
+<Connection from="4/sorun" to="2/önemli" with="mod"/>
+<Word name="3/toplumsal" positionX="850" positionY="300"/>
+<Connection from="4/sorun" to="3/toplumsal" with="mod"/>
+<Word name="5/da" positionX="950" positionY="300"/>
+<Connection from="4/sorun" to="5/da"/>
+<Word name="6/aile" positionX="850" positionY="200"/>
+<Connection from="7/dağıl" to="6/aile" with="ARG0"/>
+</Amr>

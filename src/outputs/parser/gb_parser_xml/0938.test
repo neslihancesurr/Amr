@@ -1,0 +1,9 @@
+<Amr sentence="Birkaç dakika bekledik .">
+<Word name="3/bekle" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="3/bekle" to="biz" with="ARG0"/>
+<Word name="2/dakika" positionX="750" positionY="200"/>
+<Connection from="3/bekle" to="2/dakika"/>
+<Word name="1/birkaç" positionX="650" positionY="300"/>
+<Connection from="2/dakika" to="1/birkaç" with="mod"/>
+</Amr>

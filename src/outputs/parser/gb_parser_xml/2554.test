@@ -1,0 +1,14 @@
+<Amr sentence="Sabahları yesem yesem bir dilim ekmek yerim .">
+<Word name="7/ye" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="7/ye" to="ben" with="ARG0"/>
+<Word name="1/sabahları" positionX="750" positionY="200"/>
+<Connection from="7/ye" to="1/sabahları"/>
+<Word name="2/ye 3/ye" positionX="850" positionY="200"/>
+<Connection from="7/ye" to="2/ye 3/ye"/>
+<Connection from="2/ye 3/ye" to="ben" with="ARG0"/>
+<Word name="6/ekmek" positionX="950" positionY="200"/>
+<Connection from="7/ye" to="6/ekmek"/>
+<Word name="5/dilim" positionX="850" positionY="300"/>
+<Connection from="6/ekmek" to="5/dilim" with="mod"/>
+</Amr>

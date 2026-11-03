@@ -1,0 +1,13 @@
+<Amr sentence="Bu ilaçlardan hangilerini alıyorsun ?">
+<Word name="4/al" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="4/al" to="sen" with="ARG0"/>
+<Word name="3/hangi" positionX="750" positionY="200"/>
+<Connection from="4/al" to="3/hangi" with="ARG1"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="3/hangi" to="onlar" with="poss"/>
+<Word name="2/ilaç" positionX="750" positionY="300"/>
+<Connection from="3/hangi" to="2/ilaç"/>
+<Word name="1/bu" positionX="650" positionY="400"/>
+<Connection from="2/ilaç" to="1/bu" with="mod"/>
+</Amr>

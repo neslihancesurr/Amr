@@ -1,0 +1,15 @@
+<Amr sentence="Çay stoğu bitmişti , tedarik ettim .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/bit" positionX="650" positionY="200"/>
+<Connection from="and" to="3/bit" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/bit" to="o" with="ARG0"/>
+<Word name="2/stok" positionX="650" positionY="300"/>
+<Connection from="3/bit" to="2/stok" with="ARG1"/>
+<Word name="1/çay" positionX="550" positionY="400"/>
+<Connection from="2/stok" to="1/çay" with="mod"/>
+<Word name="5/tedarik 6/et" positionX="750" positionY="200"/>
+<Connection from="and" to="5/tedarik 6/et" with="op2"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="5/tedarik 6/et" to="ben" with="ARG0"/>
+</Amr>

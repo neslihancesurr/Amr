@@ -1,0 +1,18 @@
+<Amr sentence="Eyvah , dedi panikle , cüzdanımı evde unuttum !">
+<Word name="3/de" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/de" to="o" with="ARG0"/>
+<Word name="1/eyvah" positionX="750" positionY="200"/>
+<Connection from="3/de" to="1/eyvah" with="ARG1"/>
+<Word name="4/panik" positionX="850" positionY="200"/>
+<Connection from="3/de" to="4/panik" with="mod"/>
+<Word name="8/unut" positionX="950" positionY="200"/>
+<Connection from="3/de" to="8/unut"/>
+<Word name="ben" positionX="850" positionY="300"/>
+<Connection from="8/unut" to="ben" with="ARG0"/>
+<Word name="6/cüzdan" positionX="950" positionY="300"/>
+<Connection from="8/unut" to="6/cüzdan" with="ARG1"/>
+<Connection from="6/cüzdan" to="ben" with="poss"/>
+<Word name="7/ev" positionX="1050" positionY="300"/>
+<Connection from="8/unut" to="7/ev" with="ARG2"/>
+</Amr>

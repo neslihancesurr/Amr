@@ -1,0 +1,11 @@
+<Amr sentence="Sahil boyunca küçük köyler vardı .">
+<Word name="5/var" positionX="750" positionY="100"/>
+<Word name="1/sahil" positionX="650" positionY="200"/>
+<Connection from="5/var" to="1/sahil"/>
+<Word name="2/boyunca" positionX="550" positionY="300"/>
+<Connection from="1/sahil" to="2/boyunca"/>
+<Word name="4/köy" positionX="750" positionY="200"/>
+<Connection from="5/var" to="4/köy"/>
+<Word name="3/küçük" positionX="650" positionY="300"/>
+<Connection from="4/köy" to="3/küçük" with="mod"/>
+</Amr>

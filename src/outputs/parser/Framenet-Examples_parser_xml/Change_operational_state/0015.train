@@ -1,0 +1,13 @@
+<Amr sentence="Binada kaçak varmış , elektriği kestiler .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/var" positionX="650" positionY="200"/>
+<Connection from="and" to="3/var" with="op1"/>
+<Word name="1/bina" positionX="550" positionY="300"/>
+<Connection from="3/var" to="1/bina" with="location"/>
+<Word name="2/kaçak" positionX="650" positionY="300"/>
+<Connection from="3/var" to="2/kaçak"/>
+<Word name="5/elektrik 6/kes" positionX="750" positionY="200"/>
+<Connection from="and" to="5/elektrik 6/kes" with="op2"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="5/elektrik 6/kes" to="onlar" with="ARG0"/>
+</Amr>

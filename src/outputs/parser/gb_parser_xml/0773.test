@@ -1,0 +1,13 @@
+<Amr sentence="Aşağı yukarı 100 sayfa okudum .">
+<Word name="5/oku" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/oku" to="ben" with="ARG0"/>
+<Word name="4/sayfa" positionX="750" positionY="200"/>
+<Connection from="5/oku" to="4/sayfa" with="ARG1"/>
+<Word name="3/100" positionX="650" positionY="300"/>
+<Connection from="4/sayfa" to="3/100"/>
+<Word name="1/aşağı" positionX="550" positionY="400"/>
+<Connection from="3/100" to="1/aşağı" with="manner"/>
+<Word name="2/yukarı" positionX="450" positionY="500"/>
+<Connection from="1/aşağı" to="2/yukarı"/>
+</Amr>

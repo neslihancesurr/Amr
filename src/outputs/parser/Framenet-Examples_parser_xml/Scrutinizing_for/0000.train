@@ -1,0 +1,26 @@
+<Amr sentence="Berlin'e taşındıktan sonra orayı daha iyi açınsayabildi .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="7/açınsa" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="7/açınsa"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="7/açınsa" to="o" with="ARG0"/>
+<Word name="2/taşın" positionX="650" positionY="300"/>
+<Connection from="7/açınsa" to="2/taşın"/>
+<Connection from="2/taşın" to="o" with="ARG0"/>
+<Word name="city" positionX="650" positionY="400"/>
+<Connection from="2/taşın" to="city" with="ARG1"/>
+<Word name="name" positionX="550" positionY="500"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="1/berlin" positionX="450" positionY="600"/>
+<Connection from="name" to="1/berlin" with="op1"/>
+<Word name="berlin" positionX="650" positionY="500"/>
+<Connection from="city" to="berlin" with="wiki"/>
+<Word name="3/sonra" positionX="750" positionY="400"/>
+<Connection from="2/taşın" to="3/sonra"/>
+<Word name="4/ora" positionX="750" positionY="300"/>
+<Connection from="7/açınsa" to="4/ora" with="ARG1"/>
+<Word name="6/iyi" positionX="850" positionY="300"/>
+<Connection from="7/açınsa" to="6/iyi" with="manner"/>
+<Word name="5/daha" positionX="750" positionY="400"/>
+<Connection from="6/iyi" to="5/daha" with="degree"/>
+</Amr>

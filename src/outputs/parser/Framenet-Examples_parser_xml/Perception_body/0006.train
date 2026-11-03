@@ -1,0 +1,21 @@
+<Amr sentence="Çorba yapmıştım ama içi kabul etmedi , midesini bozmuş .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/yap" positionX="650" positionY="200"/>
+<Connection from="and" to="2/yap" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="2/yap" to="ben" with="ARG0"/>
+<Word name="1/çorba" positionX="650" positionY="300"/>
+<Connection from="2/yap" to="1/çorba" with="ARG1"/>
+<Word name="4/iç 5/kabul 6/et" positionX="750" positionY="300"/>
+<Connection from="2/yap" to="4/iç 5/kabul 6/et"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="4/iç 5/kabul 6/et" to="-" with="polarity"/>
+<Word name="9/boz" positionX="750" positionY="200"/>
+<Connection from="and" to="9/boz" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="9/boz" to="o" with="ARG0"/>
+<Connection from="9/boz" to="and"/>
+<Word name="8/mide" positionX="850" positionY="300"/>
+<Connection from="9/boz" to="8/mide" with="ARG1"/>
+<Connection from="8/mide" to="o" with="poss"/>
+</Amr>

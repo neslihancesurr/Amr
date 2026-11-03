@@ -1,0 +1,7 @@
+<Amr sentence="Unutmuşlar mıdır ?">
+<Word name="1/unut" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="1/unut" to="onlar" with="ARG0"/>
+<Word name="2/mi" positionX="750" positionY="200"/>
+<Connection from="1/unut" to="2/mi"/>
+</Amr>

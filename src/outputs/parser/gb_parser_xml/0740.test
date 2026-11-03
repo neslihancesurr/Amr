@@ -1,0 +1,11 @@
+<Amr sentence="benim en sevdiğim tiyatro oyuncusu">
+<Word name="4/tiyatro 5/oyuncu" positionX="750" positionY="100"/>
+<Word name="3/sev" positionX="650" positionY="200"/>
+<Connection from="4/tiyatro 5/oyuncu" to="3/sev"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="3/sev" to="ben" with="poss"/>
+<Word name="1/ben" positionX="650" positionY="300"/>
+<Connection from="3/sev" to="1/ben" with="ARG0"/>
+<Word name="2/en" positionX="750" positionY="300"/>
+<Connection from="3/sev" to="2/en" with="manner"/>
+</Amr>

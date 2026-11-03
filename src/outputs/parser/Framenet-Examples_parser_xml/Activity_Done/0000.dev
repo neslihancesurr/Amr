@@ -1,0 +1,13 @@
+<Amr sentence="Bu seneyi de kazasız belasız neticelendirdik .">
+<Word name="6/çöz" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="6/çöz" to="biz" with="ARG0"/>
+<Word name="2/sene" positionX="750" positionY="200"/>
+<Connection from="6/çöz" to="2/sene" with="ARG1"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/sene" to="1/bu" with="mod"/>
+<Word name="3/de" positionX="750" positionY="300"/>
+<Connection from="2/sene" to="3/de" with="manner"/>
+<Word name="4/kazasız 5/belasız" positionX="850" positionY="200"/>
+<Connection from="6/çöz" to="4/kazasız 5/belasız"/>
+</Amr>

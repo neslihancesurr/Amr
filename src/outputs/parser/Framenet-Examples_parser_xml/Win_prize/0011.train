@@ -1,0 +1,11 @@
+<Amr sentence="Projenin birincisi olarak ödül aldı .">
+<Word name="4/ödül 5/al" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/ödül 5/al" to="o" with="ARG0"/>
+<Word name="3/ol" positionX="750" positionY="200"/>
+<Connection from="4/ödül 5/al" to="3/ol"/>
+<Word name="2/bir" positionX="650" positionY="300"/>
+<Connection from="3/ol" to="2/bir"/>
+<Word name="1/proje" positionX="550" positionY="400"/>
+<Connection from="2/bir" to="1/proje" with="mod"/>
+</Amr>

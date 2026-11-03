@@ -1,0 +1,9 @@
+<Amr sentence="Hediyeyi parlak kağıtla aldı .">
+<Word name="4/al" positionX="750" positionY="100"/>
+<Word name="1/hediye" positionX="650" positionY="200"/>
+<Connection from="4/al" to="1/hediye" with="ARG0"/>
+<Word name="3/kağıt" positionX="750" positionY="200"/>
+<Connection from="4/al" to="3/kağıt" with="instrument"/>
+<Word name="2/parlak" positionX="650" positionY="300"/>
+<Connection from="3/kağıt" to="2/parlak" with="mod"/>
+</Amr>

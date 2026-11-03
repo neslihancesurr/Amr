@@ -1,0 +1,17 @@
+<Amr sentence="İşe gitmesi gerekiyormuş , erken kalktı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/gerek" positionX="650" positionY="200"/>
+<Connection from="and" to="3/gerek" with="op1"/>
+<Word name="2/git" positionX="550" positionY="300"/>
+<Connection from="3/gerek" to="2/git" with="ARG0"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="2/git" to="o" with="ARG0"/>
+<Connection from="2/git" to="o" with="poss"/>
+<Word name="1/iş" positionX="650" positionY="400"/>
+<Connection from="2/git" to="1/iş" with="ARG1"/>
+<Word name="6/kalk" positionX="750" positionY="200"/>
+<Connection from="and" to="6/kalk" with="op2"/>
+<Connection from="6/kalk" to="o" with="ARG0"/>
+<Word name="5/erken" positionX="750" positionY="300"/>
+<Connection from="6/kalk" to="5/erken" with="manner"/>
+</Amr>

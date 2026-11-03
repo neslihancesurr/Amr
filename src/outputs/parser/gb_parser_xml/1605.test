@@ -1,0 +1,13 @@
+<Amr sentence="Genellikle yazın bu rakam artmaktaydı .">
+<Word name="5/art" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/art" to="o" with="ARG0"/>
+<Word name="1/genellikle" positionX="750" positionY="200"/>
+<Connection from="5/art" to="1/genellikle" with="manner"/>
+<Word name="2/yazın" positionX="850" positionY="200"/>
+<Connection from="5/art" to="2/yazın" with="manner"/>
+<Word name="4/rakam" positionX="950" positionY="200"/>
+<Connection from="5/art" to="4/rakam" with="ARG1"/>
+<Word name="3/bu" positionX="850" positionY="300"/>
+<Connection from="4/rakam" to="3/bu" with="mod"/>
+</Amr>

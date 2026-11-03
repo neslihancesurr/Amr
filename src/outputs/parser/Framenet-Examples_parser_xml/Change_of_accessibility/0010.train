@@ -1,0 +1,9 @@
+<Amr sentence="Siyasi gerginlikten dolayı hükümet boğazdaki gemilere ambargo koydu .">
+<Word name="7/ambargo 8/koy:cause" positionX="750" positionY="100"/>
+<Word name="4/hükümet" positionX="650" positionY="200"/>
+<Connection from="7/ambargo 8/koy:cause" to="4/hükümet" with="ARG0"/>
+<Word name="6/gemi" positionX="750" positionY="200"/>
+<Connection from="7/ambargo 8/koy:cause" to="6/gemi" with="ARG1"/>
+<Word name="5/boğaz" positionX="650" positionY="300"/>
+<Connection from="6/gemi" to="5/boğaz" with="mod"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Kitaplarsa hala kutularda duruyor .">
+<Word name="4/dur" positionX="750" positionY="100"/>
+<Word name="1/kitap" positionX="650" positionY="200"/>
+<Connection from="4/dur" to="1/kitap" with="ARG0"/>
+<Word name="2/hala" positionX="750" positionY="200"/>
+<Connection from="4/dur" to="2/hala" with="manner"/>
+<Word name="3/kutu" positionX="850" positionY="200"/>
+<Connection from="4/dur" to="3/kutu" with="ARG1"/>
+</Amr>

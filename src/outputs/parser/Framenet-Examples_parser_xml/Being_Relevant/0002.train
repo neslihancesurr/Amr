@@ -1,0 +1,17 @@
+<Amr sentence="Onun kitabı çok kısaltıldığı için çocuk kitabına döndü .">
+<Word name="8/dön" positionX="750" positionY="100"/>
+<Word name="4/kısalt" positionX="650" positionY="200"/>
+<Connection from="8/dön" to="4/kısalt" with="cause"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/kısalt" to="o" with="poss"/>
+<Word name="2/kitap" positionX="650" positionY="300"/>
+<Connection from="4/kısalt" to="2/kitap" with="ARG1"/>
+<Word name="1/o" positionX="550" positionY="400"/>
+<Connection from="2/kitap" to="1/o" with="mod"/>
+<Word name="3/çok" positionX="750" positionY="300"/>
+<Connection from="4/kısalt" to="3/çok" with="degree"/>
+<Word name="7/kitap" positionX="750" positionY="200"/>
+<Connection from="8/dön" to="7/kitap" with="ARG2"/>
+<Word name="6/çocuk" positionX="650" positionY="300"/>
+<Connection from="7/kitap" to="6/çocuk" with="mod"/>
+</Amr>

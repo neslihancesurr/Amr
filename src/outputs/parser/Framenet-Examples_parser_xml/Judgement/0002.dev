@@ -1,0 +1,12 @@
+<Amr sentence="O çocukların ağlamasına içi sızladı .">
+<Word name="4/iç 5/sızla" positionX="750" positionY="100"/>
+<Word name="3/ağlama" positionX="650" positionY="200"/>
+<Connection from="4/iç 5/sızla" to="3/ağlama" with="ARG1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/ağlama" to="o" with="poss"/>
+<Word name="2/çocuk" positionX="650" positionY="300"/>
+<Connection from="3/ağlama" to="2/çocuk"/>
+<Connection from="2/çocuk" to="o" with="poss"/>
+<Word name="1/o" positionX="650" positionY="400"/>
+<Connection from="2/çocuk" to="1/o" with="mod"/>
+</Amr>

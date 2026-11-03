@@ -1,0 +1,10 @@
+<Amr sentence="Bütün şanslarımı fevt ettim .">
+<Word name="3/fevt 4/et" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/fevt 4/et" to="ben" with="ARG0"/>
+<Word name="2/şans" positionX="750" positionY="200"/>
+<Connection from="3/fevt 4/et" to="2/şans" with="ARG1"/>
+<Connection from="2/şans" to="ben" with="poss"/>
+<Word name="1/bütün" positionX="750" positionY="300"/>
+<Connection from="2/şans" to="1/bütün" with="mod"/>
+</Amr>

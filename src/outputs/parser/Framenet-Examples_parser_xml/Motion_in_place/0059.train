@@ -1,0 +1,14 @@
+<Amr sentence="Sapanı fırıldattı , taşı saldı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/fırıldat" positionX="650" positionY="200"/>
+<Connection from="and" to="2/fırıldat" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/fırıldat" to="o" with="ARG0"/>
+<Word name="1/sapan" positionX="650" positionY="300"/>
+<Connection from="2/fırıldat" to="1/sapan" with="ARG1"/>
+<Word name="5/sal" positionX="750" positionY="200"/>
+<Connection from="and" to="5/sal" with="op2"/>
+<Connection from="5/sal" to="o" with="ARG0"/>
+<Word name="4/taş" positionX="750" positionY="300"/>
+<Connection from="5/sal" to="4/taş"/>
+</Amr>

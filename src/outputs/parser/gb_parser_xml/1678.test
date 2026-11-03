@@ -1,0 +1,9 @@
+<Amr sentence="söylemeyebilmek">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="1/söyle" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="1/söyle"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="1/söyle" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="1/söyle" to="o" with="ARG0"/>
+</Amr>

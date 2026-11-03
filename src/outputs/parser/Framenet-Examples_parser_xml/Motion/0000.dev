@@ -1,0 +1,17 @@
+<Amr sentence="Bel kaslarını kuvvetlendirmek için her gün okulda yüzüyordu .">
+<Word name="8/yüz" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="8/yüz" to="o" with="ARG0"/>
+<Word name="3/kuvvetlendir" positionX="750" positionY="200"/>
+<Connection from="8/yüz" to="3/kuvvetlendir" with="mod"/>
+<Word name="2/kas" positionX="650" positionY="300"/>
+<Connection from="3/kuvvetlendir" to="2/kas" with="ARG1"/>
+<Word name="1/bel" positionX="550" positionY="400"/>
+<Connection from="2/kas" to="1/bel" with="mod"/>
+<Word name="4/için" positionX="750" positionY="300"/>
+<Connection from="3/kuvvetlendir" to="4/için"/>
+<Word name="5/her 6/gün" positionX="850" positionY="200"/>
+<Connection from="8/yüz" to="5/her 6/gün" with="mod"/>
+<Word name="7/okul" positionX="950" positionY="200"/>
+<Connection from="8/yüz" to="7/okul" with="location"/>
+</Amr>

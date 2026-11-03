@@ -1,0 +1,9 @@
+<Amr sentence="Yeni kral tahta çıktı .">
+<Word name="3/taht 4/çık" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/taht 4/çık" to="o" with="ARG0"/>
+<Word name="2/kral" positionX="750" positionY="200"/>
+<Connection from="3/taht 4/çık" to="2/kral" with="ARG1"/>
+<Word name="1/yeni" positionX="650" positionY="300"/>
+<Connection from="2/kral" to="1/yeni" with="mod"/>
+</Amr>

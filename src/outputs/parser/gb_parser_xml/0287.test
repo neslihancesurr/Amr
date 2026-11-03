@@ -1,0 +1,13 @@
+<Amr sentence="Anadolu halkı denizden çok dağları bilir .">
+<Word name="6/bil" positionX="750" positionY="100"/>
+<Word name="2/halk" positionX="650" positionY="200"/>
+<Connection from="6/bil" to="2/halk" with="ARG0"/>
+<Word name="1/anadolu" positionX="550" positionY="300"/>
+<Connection from="2/halk" to="1/anadolu" with="mod"/>
+<Word name="3/deniz" positionX="750" positionY="200"/>
+<Connection from="6/bil" to="3/deniz" with="ARG1"/>
+<Word name="4/çok" positionX="650" positionY="300"/>
+<Connection from="3/deniz" to="4/çok" with="degree"/>
+<Word name="5/dağ" positionX="850" positionY="200"/>
+<Connection from="6/bil" to="5/dağ" with="ARG0"/>
+</Amr>

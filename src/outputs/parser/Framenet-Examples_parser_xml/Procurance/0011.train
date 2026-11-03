@@ -1,0 +1,15 @@
+<Amr sentence="Çok kötü bir adammış , malı götürmüş diye duydum .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/adam" positionX="650" positionY="200"/>
+<Connection from="and" to="4/adam" with="ARG1"/>
+<Word name="2/kötü" positionX="550" positionY="300"/>
+<Connection from="4/adam" to="2/kötü" with="mod"/>
+<Word name="1/çok" positionX="450" positionY="400"/>
+<Connection from="2/kötü" to="1/çok" with="degree"/>
+<Word name="9/duy" positionX="750" positionY="200"/>
+<Connection from="and" to="9/duy" with="op2"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="9/duy" to="ben" with="ARG0"/>
+<Word name="6/mal 7/götür" positionX="750" positionY="300"/>
+<Connection from="9/duy" to="6/mal 7/götür" with="ARG1"/>
+</Amr>

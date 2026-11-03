@@ -1,0 +1,11 @@
+<Amr sentence="Kendi akıllarınca öğretmeni makaraya alıyorlar .">
+<Word name="4/makara 5/al" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/makara 5/al" to="onlar" with="ARG0"/>
+<Word name="2/akıl" positionX="750" positionY="200"/>
+<Connection from="4/makara 5/al" to="2/akıl" with="mod"/>
+<Word name="1/kendi" positionX="650" positionY="300"/>
+<Connection from="2/akıl" to="1/kendi" with="mod"/>
+<Word name="3/öğretmen" positionX="850" positionY="200"/>
+<Connection from="4/makara 5/al" to="3/öğretmen" with="ARG1"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Aferin ! Çabucak giyindin .">
+<Word name="4/giyin" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="4/giyin" to="sen" with="ARG0"/>
+<Word name="1/aferin" positionX="750" positionY="200"/>
+<Connection from="4/giyin" to="1/aferin"/>
+<Word name="3/çabucak" positionX="850" positionY="200"/>
+<Connection from="4/giyin" to="3/çabucak" with="manner"/>
+</Amr>

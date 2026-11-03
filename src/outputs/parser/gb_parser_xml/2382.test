@@ -1,0 +1,16 @@
+<Amr sentence="Çocuk , dondurma almak için bizden para istedi .">
+<Word name="8/iste" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="8/iste" to="o" with="ARG0"/>
+<Word name="1/çocuk" positionX="750" positionY="200"/>
+<Connection from="8/iste" to="1/çocuk"/>
+<Word name="4/al" positionX="850" positionY="200"/>
+<Connection from="8/iste" to="4/al" with="cause"/>
+<Connection from="4/al" to="o" with="ARG0"/>
+<Word name="3/dondurma" positionX="850" positionY="300"/>
+<Connection from="4/al" to="3/dondurma"/>
+<Word name="6/biz" positionX="950" positionY="200"/>
+<Connection from="8/iste" to="6/biz"/>
+<Word name="7/para" positionX="1050" positionY="200"/>
+<Connection from="8/iste" to="7/para"/>
+</Amr>

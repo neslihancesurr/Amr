@@ -1,0 +1,16 @@
+<Amr sentence="Taş ocağın üstünde güveci ateşe vurdu .">
+<Word name="5/ateş 6/vur" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/ateş 6/vur" to="o" with="ARG0"/>
+<Word name="3/üst" positionX="750" positionY="200"/>
+<Connection from="5/ateş 6/vur" to="3/üst" with="location"/>
+<Word name="date-entity" positionX="650" positionY="300"/>
+<Connection from="3/üst" to="date-entity" with="date"/>
+<Word name="2/ocak" positionX="550" positionY="400"/>
+<Connection from="date-entity" to="2/ocak" with="month"/>
+<Word name="1/taş" positionX="650" positionY="400"/>
+<Connection from="date-entity" to="1/taş"/>
+<Word name="4/güveç" positionX="850" positionY="200"/>
+<Connection from="5/ateş 6/vur" to="4/güveç" with="ARG1"/>
+<Connection from="4/güveç" to="o" with="poss"/>
+</Amr>

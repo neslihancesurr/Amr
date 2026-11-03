@@ -1,0 +1,15 @@
+<Amr sentence="1994'te Ahmet derneğin başkanıydı .">
+<Word name="4/başkan" positionX="750" positionY="100"/>
+<Word name="1/1994" positionX="650" positionY="200"/>
+<Connection from="4/başkan" to="1/1994"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="4/başkan" to="person"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/ahmet" positionX="550" positionY="400"/>
+<Connection from="name" to="2/ahmet" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/dernek" positionX="850" positionY="200"/>
+<Connection from="4/başkan" to="3/dernek" with="mod"/>
+</Amr>

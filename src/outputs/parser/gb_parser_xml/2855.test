@@ -1,0 +1,11 @@
+<Amr sentence="Sen oradaki havayı beğenmezsin .">
+<Word name="4/beğen" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/beğen" to="-" with="polarity"/>
+<Word name="1/sen" positionX="750" positionY="200"/>
+<Connection from="4/beğen" to="1/sen" with="ARG0"/>
+<Word name="3/hava" positionX="850" positionY="200"/>
+<Connection from="4/beğen" to="3/hava" with="ARG1"/>
+<Word name="2/ora" positionX="750" positionY="300"/>
+<Connection from="3/hava" to="2/ora" with="mod"/>
+</Amr>

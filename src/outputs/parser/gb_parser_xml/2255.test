@@ -1,0 +1,11 @@
+<Amr sentence="Arabanın sol aynasını kırdın .">
+<Word name="4/kır" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="4/kır" to="sen" with="ARG0"/>
+<Word name="3/ayna" positionX="750" positionY="200"/>
+<Connection from="4/kır" to="3/ayna"/>
+<Word name="1/araba" positionX="650" positionY="300"/>
+<Connection from="3/ayna" to="1/araba" with="mod"/>
+<Word name="2/sol" positionX="750" positionY="300"/>
+<Connection from="3/ayna" to="2/sol" with="mod"/>
+</Amr>

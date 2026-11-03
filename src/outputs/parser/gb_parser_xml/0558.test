@@ -1,0 +1,7 @@
+<Amr sentence="kapısı açık duran bir oda">
+<Word name="5/oda" positionX="750" positionY="100"/>
+<Word name="3/dur" positionX="650" positionY="200"/>
+<Connection from="5/oda" to="3/dur"/>
+<Word name="1/kapı 2/açık" positionX="550" positionY="300"/>
+<Connection from="3/dur" to="1/kapı 2/açık"/>
+</Amr>

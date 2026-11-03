@@ -1,0 +1,23 @@
+<Amr sentence="Geceleri arkadaşlarıyla meyhaneye gitmeyi adet edinen adam alkole iyiden iyiye alışmıştı .">
+<Word name="11/alış" positionX="750" positionY="100"/>
+<Word name="7/adam" positionX="650" positionY="200"/>
+<Connection from="11/alış" to="7/adam" with="ARG0"/>
+<Word name="6/edin" positionX="550" positionY="300"/>
+<Connection from="7/adam" to="6/edin"/>
+<Word name="4/git" positionX="450" positionY="400"/>
+<Connection from="6/edin" to="4/git"/>
+<Word name="o" positionX="350" positionY="500"/>
+<Connection from="4/git" to="o" with="ARG0"/>
+<Word name="1/geceleri" positionX="450" positionY="500"/>
+<Connection from="4/git" to="1/geceleri" with="manner"/>
+<Word name="2/arkadaş" positionX="550" positionY="500"/>
+<Connection from="4/git" to="2/arkadaş" with="instrument"/>
+<Word name="3/meyhane" positionX="650" positionY="500"/>
+<Connection from="4/git" to="3/meyhane"/>
+<Word name="5/adet" positionX="550" positionY="400"/>
+<Connection from="6/edin" to="5/adet"/>
+<Word name="8/alkol" positionX="750" positionY="200"/>
+<Connection from="11/alış" to="8/alkol" with="ARG1"/>
+<Word name="9/iyi 10/iyi" positionX="850" positionY="200"/>
+<Connection from="11/alış" to="9/iyi 10/iyi"/>
+</Amr>

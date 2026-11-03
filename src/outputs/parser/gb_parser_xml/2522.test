@@ -1,0 +1,18 @@
+<Amr sentence="Ali çocuğun kötü bir şey yaptığını bilse bana söylerdi .">
+<Word name="9/söyle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="9/söyle" to="o" with="ARG0"/>
+<Word name="7/bil" positionX="750" positionY="200"/>
+<Connection from="9/söyle" to="7/bil"/>
+<Connection from="7/bil" to="o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="7/bil" to="person"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ali" positionX="550" positionY="500"/>
+<Connection from="name" to="1/ali" with="op1"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="8/ben" positionX="850" positionY="200"/>
+<Connection from="9/söyle" to="8/ben"/>
+</Amr>

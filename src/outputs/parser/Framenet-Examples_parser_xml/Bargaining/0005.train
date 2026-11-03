@@ -1,0 +1,15 @@
+<Amr sentence="Pazarlığa girişti ve istediklerini istediği fiyata aldı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="7/al" positionX="650" positionY="200"/>
+<Connection from="and" to="7/al" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="7/al" to="o" with="ARG0"/>
+<Word name="4/iste 5/iste" positionX="650" positionY="300"/>
+<Connection from="7/al" to="4/iste 5/iste"/>
+<Connection from="4/iste 5/iste" to="o" with="poss"/>
+<Word name="6/fiyat" positionX="750" positionY="300"/>
+<Connection from="7/al" to="6/fiyat"/>
+<Word name="1/pazarlık 2/giriş" positionX="750" positionY="200"/>
+<Connection from="and" to="1/pazarlık 2/giriş" with="op2"/>
+<Connection from="1/pazarlık 2/giriş" to="o" with="ARG0"/>
+</Amr>

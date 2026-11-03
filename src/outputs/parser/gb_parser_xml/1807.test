@@ -1,0 +1,19 @@
+<Amr sentence="Bazen bir şey söyleyecek oluyorum ama bir türlü çıkmıyor .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="9/çık" positionX="650" positionY="200"/>
+<Connection from="and" to="9/çık" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="9/çık" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="9/çık" to="o" with="ARG0"/>
+<Word name="8/türlü" positionX="750" positionY="300"/>
+<Connection from="9/çık" to="8/türlü"/>
+<Word name="4/söyle" positionX="750" positionY="200"/>
+<Connection from="and" to="4/söyle" with="op2"/>
+<Word name="1/bazen" positionX="650" positionY="300"/>
+<Connection from="4/söyle" to="1/bazen" with="manner"/>
+<Word name="5/ol" positionX="750" positionY="300"/>
+<Connection from="4/söyle" to="5/ol"/>
+<Word name="ben" positionX="650" positionY="400"/>
+<Connection from="5/ol" to="ben" with="ARG0"/>
+</Amr>

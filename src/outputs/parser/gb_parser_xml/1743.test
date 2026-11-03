@@ -1,0 +1,5 @@
+<Amr sentence="Sözde inatçıymışım .">
+<Word name="2/inatçı" positionX="750" positionY="100"/>
+<Word name="1/sözde" positionX="650" positionY="200"/>
+<Connection from="2/inatçı" to="1/sözde" with="manner"/>
+</Amr>

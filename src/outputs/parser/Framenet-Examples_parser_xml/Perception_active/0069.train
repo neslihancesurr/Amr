@@ -1,0 +1,15 @@
+<Amr sentence="Duvara iyi yanaşmış , komşuların kavgasına kulak tutmuştu .">
+<Word name="7/kulak 8/tut" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/kulak 8/tut" to="o" with="ARG0"/>
+<Word name="3/yanaş" positionX="750" positionY="200"/>
+<Connection from="7/kulak 8/tut" to="3/yanaş"/>
+<Word name="1/duvar" positionX="650" positionY="300"/>
+<Connection from="3/yanaş" to="1/duvar" with="ARG1"/>
+<Word name="2/iyi" positionX="750" positionY="300"/>
+<Connection from="3/yanaş" to="2/iyi" with="manner"/>
+<Word name="6/kavga" positionX="850" positionY="200"/>
+<Connection from="7/kulak 8/tut" to="6/kavga" with="ARG1"/>
+<Word name="5/komşu" positionX="750" positionY="300"/>
+<Connection from="6/kavga" to="5/komşu" with="mod"/>
+</Amr>

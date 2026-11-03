@@ -1,0 +1,17 @@
+<Amr sentence="Yer öpmek yaşına hiç yakıştırmadığı bir şeydi .">
+<Word name="6/bir 7/şey" positionX="750" positionY="100"/>
+<Word name="1/yer 2/öp" positionX="650" positionY="200"/>
+<Connection from="6/bir 7/şey" to="1/yer 2/öp"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/yer 2/öp" to="o" with="ARG0"/>
+<Word name="5/yakıştır" positionX="750" positionY="200"/>
+<Connection from="6/bir 7/şey" to="5/yakıştır"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="5/yakıştır" to="-" with="polarity"/>
+<Connection from="5/yakıştır" to="o" with="poss"/>
+<Word name="3/yaş" positionX="850" positionY="300"/>
+<Connection from="5/yakıştır" to="3/yaş"/>
+<Connection from="3/yaş" to="o" with="poss"/>
+<Word name="4/hiç" positionX="950" positionY="300"/>
+<Connection from="5/yakıştır" to="4/hiç" with="degree"/>
+</Amr>

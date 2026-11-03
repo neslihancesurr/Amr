@@ -1,0 +1,17 @@
+<Amr sentence="İhalede herkesten yüksek teklif vererek düşeş attı .">
+<Word name="6/düşeş 7/at" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/düşeş 7/at" to="o" with="ARG0"/>
+<Word name="5/ver" positionX="750" positionY="200"/>
+<Connection from="6/düşeş 7/at" to="5/ver"/>
+<Word name="1/ihale" positionX="650" positionY="300"/>
+<Connection from="5/ver" to="1/ihale" with="location"/>
+<Word name="4/teklif" positionX="750" positionY="300"/>
+<Connection from="5/ver" to="4/teklif"/>
+<Word name="3/yüksek" positionX="650" positionY="400"/>
+<Connection from="4/teklif" to="3/yüksek" with="ARG1"/>
+<Word name="2/herkes" positionX="550" positionY="500"/>
+<Connection from="3/yüksek" to="2/herkes"/>
+<Word name="onlar" positionX="450" positionY="600"/>
+<Connection from="2/herkes" to="onlar" with="poss"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Siz ona koltuk veriyorsunuz ama bir gün darbeyi yiyeceksiniz .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="8/darbe 9/ye" positionX="650" positionY="200"/>
+<Connection from="and" to="8/darbe 9/ye" with="op1"/>
+<Word name="7/gün" positionX="550" positionY="300"/>
+<Connection from="8/darbe 9/ye" to="7/gün" with="mod"/>
+<Word name="3/koltuk 4/ver" positionX="750" positionY="200"/>
+<Connection from="and" to="3/koltuk 4/ver" with="op2"/>
+<Word name="1/siz" positionX="650" positionY="300"/>
+<Connection from="3/koltuk 4/ver" to="1/siz" with="ARG0"/>
+<Word name="2/o" positionX="750" positionY="300"/>
+<Connection from="3/koltuk 4/ver" to="2/o" with="ARG1"/>
+</Amr>

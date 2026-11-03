@@ -1,0 +1,11 @@
+<Amr sentence="Sesiniz duyulmuyor .">
+<Word name="2/duyul" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="2/duyul" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="2/duyul" to="o" with="ARG0"/>
+<Word name="1/ses" positionX="850" positionY="200"/>
+<Connection from="2/duyul" to="1/ses"/>
+<Word name="siz" positionX="750" positionY="300"/>
+<Connection from="1/ses" to="siz" with="poss"/>
+</Amr>

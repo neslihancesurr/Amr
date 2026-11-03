@@ -1,0 +1,32 @@
+<Amr sentence="Neler yapabileceğine , kasabayı , memurları iki parmağı üstünde oynattığına çok şahit olmuşlardı .">
+<Word name="12/şahit 13/ol" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="12/şahit 13/ol" to="onlar" with="ARG0"/>
+<Word name="and" positionX="750" positionY="200"/>
+<Connection from="12/şahit 13/ol" to="and"/>
+<Word name="10/oynat" positionX="650" positionY="300"/>
+<Connection from="and" to="10/oynat" with="ARG1"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="10/oynat" to="o" with="ARG0"/>
+<Connection from="10/oynat" to="o" with="poss"/>
+<Connection from="10/oynat" to="and"/>
+<Word name="6/memur" positionX="650" positionY="500"/>
+<Connection from="and" to="6/memur" with="ARG1"/>
+<Connection from="6/memur" to="o" with="poss"/>
+<Word name="4/kasaba" positionX="750" positionY="500"/>
+<Connection from="and" to="4/kasaba" with="ARG1"/>
+<Word name="9/üst" positionX="850" positionY="400"/>
+<Connection from="10/oynat" to="9/üst" with="location"/>
+<Word name="8/parmak" positionX="750" positionY="500"/>
+<Connection from="9/üst" to="8/parmak" with="mod"/>
+<Word name="7/iki" positionX="650" positionY="600"/>
+<Connection from="8/parmak" to="7/iki"/>
+<Word name="2/yap" positionX="750" positionY="300"/>
+<Connection from="and" to="2/yap" with="op2"/>
+<Connection from="2/yap" to="o" with="ARG0"/>
+<Connection from="2/yap" to="o" with="poss"/>
+<Word name="1/ne" positionX="850" positionY="400"/>
+<Connection from="2/yap" to="1/ne"/>
+<Word name="11/çok" positionX="850" positionY="200"/>
+<Connection from="12/şahit 13/ol" to="11/çok" with="degree"/>
+</Amr>

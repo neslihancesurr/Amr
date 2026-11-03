@@ -1,0 +1,23 @@
+<Amr sentence="Erkekler bütün gün bahçelerinde bağ budar , gül aşılar , kirizma yaparlar .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/bağ 6/buda" positionX="650" positionY="200"/>
+<Connection from="and" to="5/bağ 6/buda" with="op1"/>
+<Word name="1/erkek" positionX="550" positionY="300"/>
+<Connection from="5/bağ 6/buda" to="1/erkek" with="ARG0"/>
+<Word name="3/gün" positionX="650" positionY="300"/>
+<Connection from="5/bağ 6/buda" to="3/gün" with="mod"/>
+<Word name="2/bütün" positionX="550" positionY="400"/>
+<Connection from="3/gün" to="2/bütün" with="mod"/>
+<Word name="4/bahçe" positionX="750" positionY="300"/>
+<Connection from="5/bağ 6/buda" to="4/bahçe" with="location"/>
+<Word name="9/aşıla" positionX="750" positionY="200"/>
+<Connection from="and" to="9/aşıla" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="9/aşıla" to="o" with="ARG0"/>
+<Word name="8/gül" positionX="750" positionY="300"/>
+<Connection from="9/aşıla" to="8/gül" with="ARG2"/>
+<Word name="11/kirizma 12/yap" positionX="850" positionY="200"/>
+<Connection from="and" to="11/kirizma 12/yap" with="op3"/>
+<Word name="onlar" positionX="750" positionY="300"/>
+<Connection from="11/kirizma 12/yap" to="onlar" with="ARG0"/>
+</Amr>

@@ -1,0 +1,7 @@
+<Amr sentence="Yeni gelin çarşı pazar dolaştı .">
+<Word name="3/çarşı 4/pazar 5/dolaş" positionX="750" positionY="100"/>
+<Word name="2/gelin" positionX="650" positionY="200"/>
+<Connection from="3/çarşı 4/pazar 5/dolaş" to="2/gelin" with="ARG0"/>
+<Word name="1/yeni" positionX="550" positionY="300"/>
+<Connection from="2/gelin" to="1/yeni" with="mod"/>
+</Amr>

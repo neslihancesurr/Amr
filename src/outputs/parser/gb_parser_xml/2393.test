@@ -1,0 +1,27 @@
+<Amr sentence="Sen cumartesi burada olmadığın için Mehmet'le tanışamadın .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="7/tanış" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="7/tanış"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="7/tanış" to="-" with="polarity"/>
+<Word name="4/ol" positionX="650" positionY="300"/>
+<Connection from="7/tanış" to="4/ol" with="cause"/>
+<Connection from="4/ol" to="-" with="polarity"/>
+<Word name="sen" positionX="650" positionY="400"/>
+<Connection from="4/ol" to="sen" with="poss"/>
+<Word name="1/sen" positionX="750" positionY="400"/>
+<Connection from="4/ol" to="1/sen"/>
+<Word name="date-entity" positionX="850" positionY="400"/>
+<Connection from="4/ol" to="date-entity" with="date"/>
+<Word name="2/cumartesi" positionX="750" positionY="500"/>
+<Connection from="date-entity" to="2/cumartesi" with="weekday"/>
+<Word name="3/burada" positionX="950" positionY="400"/>
+<Connection from="4/ol" to="3/burada" with="manner"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="7/tanış" to="person" with="instrument"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="6/mehmet" positionX="550" positionY="500"/>
+<Connection from="name" to="6/mehmet" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

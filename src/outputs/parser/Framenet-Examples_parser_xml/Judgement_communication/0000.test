@@ -1,0 +1,21 @@
+<Amr sentence="Herkes hakkında laf çıkarır , bu yüzden kimse tarafından sevilmezdi .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/laf 4/çık" positionX="650" positionY="200"/>
+<Connection from="and" to="3/laf 4/çık" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/laf 4/çık" to="o" with="ARG0"/>
+<Word name="2/hakkında" positionX="650" positionY="300"/>
+<Connection from="3/laf 4/çık" to="2/hakkında" with="mod"/>
+<Word name="1/herkes" positionX="550" positionY="400"/>
+<Connection from="2/hakkında" to="1/herkes" with="mod"/>
+<Word name="10/sev" positionX="750" positionY="200"/>
+<Connection from="and" to="10/sev" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="10/sev" to="-" with="polarity"/>
+<Word name="6/bu 7/yüzden" positionX="750" positionY="300"/>
+<Connection from="10/sev" to="6/bu 7/yüzden" with="mod"/>
+<Word name="9/tarafından" positionX="850" positionY="300"/>
+<Connection from="10/sev" to="9/tarafından" with="ARG0"/>
+<Word name="8/kimse" positionX="750" positionY="400"/>
+<Connection from="9/tarafından" to="8/kimse" with="mod"/>
+</Amr>

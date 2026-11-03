@@ -1,0 +1,13 @@
+<Amr sentence="En iyisi bu olsa gerek .">
+<Word name="5/gerek" positionX="750" positionY="100"/>
+<Word name="2/iyi" positionX="650" positionY="200"/>
+<Connection from="5/gerek" to="2/iyi" with="manner"/>
+<Word name="1/en" positionX="550" positionY="300"/>
+<Connection from="2/iyi" to="1/en" with="manner"/>
+<Word name="3/bu" positionX="750" positionY="200"/>
+<Connection from="5/gerek" to="3/bu"/>
+<Word name="4/ol" positionX="850" positionY="200"/>
+<Connection from="5/gerek" to="4/ol"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="4/ol" to="o" with="ARG0"/>
+</Amr>

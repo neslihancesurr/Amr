@@ -1,0 +1,19 @@
+<Amr sentence="Patronun acımasızlığından bıkan işçiler haklarını aramak için paydos ettiler .">
+<Word name="8/paydos 9/et" positionX="750" positionY="100"/>
+<Word name="4/işçi" positionX="650" positionY="200"/>
+<Connection from="8/paydos 9/et" to="4/işçi" with="ARG0"/>
+<Word name="3/bık" positionX="550" positionY="300"/>
+<Connection from="4/işçi" to="3/bık"/>
+<Word name="2/acımasız" positionX="450" positionY="400"/>
+<Connection from="3/bık" to="2/acımasız"/>
+<Word name="1/patron" positionX="350" positionY="500"/>
+<Connection from="2/acımasız" to="1/patron" with="mod"/>
+<Word name="6/ara" positionX="750" positionY="200"/>
+<Connection from="8/paydos 9/et" to="6/ara" with="cause"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="6/ara" to="o" with="ARG0"/>
+<Word name="5/hak" positionX="750" positionY="300"/>
+<Connection from="6/ara" to="5/hak"/>
+<Word name="onlar" positionX="650" positionY="400"/>
+<Connection from="5/hak" to="onlar" with="poss"/>
+</Amr>

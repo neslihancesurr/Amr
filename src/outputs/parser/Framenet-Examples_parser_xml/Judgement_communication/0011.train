@@ -1,0 +1,15 @@
+<Amr sentence="Öyle bir resim yapmış ki , hayran kaldık .">
+<Word name="7/hayran 8/kal" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="7/hayran 8/kal" to="biz" with="ARG0"/>
+<Word name="4/yap" positionX="750" positionY="200"/>
+<Connection from="7/hayran 8/kal" to="4/yap" with="ARG2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="4/yap" to="o" with="ARG0"/>
+<Word name="1/öyle" positionX="750" positionY="300"/>
+<Connection from="4/yap" to="1/öyle" with="manner"/>
+<Word name="3/resim" positionX="850" positionY="300"/>
+<Connection from="4/yap" to="3/resim"/>
+<Word name="5/ki" positionX="950" positionY="300"/>
+<Connection from="4/yap" to="5/ki"/>
+</Amr>

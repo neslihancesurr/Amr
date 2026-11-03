@@ -1,0 +1,27 @@
+<Amr sentence="Onun yaptığı yemekleri görünce eski sağlıklı günlerindeki gibi evde yemek yapmaya başlamak aklına geldi .">
+<Word name="13/akıl 14/gel" positionX="750" positionY="100"/>
+<Word name="4/gör" positionX="650" positionY="200"/>
+<Connection from="13/akıl 14/gel" to="4/gör"/>
+<Word name="3/yemek" positionX="550" positionY="300"/>
+<Connection from="4/gör" to="3/yemek" with="ARG1"/>
+<Word name="2/yap" positionX="450" positionY="400"/>
+<Connection from="3/yemek" to="2/yap"/>
+<Word name="1/o" positionX="350" positionY="500"/>
+<Connection from="2/yap" to="1/o" with="mod"/>
+<Word name="12/başla" positionX="750" positionY="200"/>
+<Connection from="13/akıl 14/gel" to="12/başla" with="ARG1"/>
+<Word name="11/yap" positionX="650" positionY="300"/>
+<Connection from="12/başla" to="11/yap"/>
+<Word name="7/gün" positionX="550" positionY="400"/>
+<Connection from="11/yap" to="7/gün" with="location"/>
+<Word name="5/eski" positionX="450" positionY="500"/>
+<Connection from="7/gün" to="5/eski" with="mod"/>
+<Word name="6/sağlıklı" positionX="550" positionY="500"/>
+<Connection from="7/gün" to="6/sağlıklı" with="mod"/>
+<Word name="8/gibi" positionX="650" positionY="500"/>
+<Connection from="7/gün" to="8/gibi"/>
+<Word name="9/ev" positionX="650" positionY="400"/>
+<Connection from="11/yap" to="9/ev" with="location"/>
+<Word name="10/yemek" positionX="750" positionY="400"/>
+<Connection from="11/yap" to="10/yemek"/>
+</Amr>

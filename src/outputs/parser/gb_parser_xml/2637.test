@@ -1,0 +1,11 @@
+<Amr sentence="O filmi gördüm bile .">
+<Word name="3/gör" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/gör" to="ben" with="ARG0"/>
+<Word name="2/film" positionX="750" positionY="200"/>
+<Connection from="3/gör" to="2/film" with="ARG1"/>
+<Word name="1/o" positionX="650" positionY="300"/>
+<Connection from="2/film" to="1/o" with="mod"/>
+<Word name="4/bile" positionX="850" positionY="200"/>
+<Connection from="3/gör" to="4/bile"/>
+</Amr>

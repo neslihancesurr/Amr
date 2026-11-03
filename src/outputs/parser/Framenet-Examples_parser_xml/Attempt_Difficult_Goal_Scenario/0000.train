@@ -1,0 +1,16 @@
+<Amr sentence="Cin olmadan adam çarpma , boyunun ölçüsünü alırsın yoksa .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/cin 2/ol 3/adam 4/çarp" positionX="650" positionY="200"/>
+<Connection from="and" to="1/cin 2/ol 3/adam 4/çarp" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="1/cin 2/ol 3/adam 4/çarp" to="-" with="polarity"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="1/cin 2/ol 3/adam 4/çarp" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="300"/>
+<Connection from="1/cin 2/ol 3/adam 4/çarp" to="imperative" with="mode"/>
+<Word name="6/boy 7/ölçü 8/al" positionX="750" positionY="200"/>
+<Connection from="and" to="6/boy 7/ölçü 8/al" with="op2"/>
+<Connection from="6/boy 7/ölçü 8/al" to="sen" with="ARG0"/>
+<Word name="9/yoksa" positionX="750" positionY="300"/>
+<Connection from="6/boy 7/ölçü 8/al" to="9/yoksa"/>
+</Amr>

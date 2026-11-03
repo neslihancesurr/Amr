@@ -1,0 +1,19 @@
+<Amr sentence="Gerçi Ziya kayak yapmayı sevmez ama yine de gidecekmiş .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="9/git" positionX="650" positionY="200"/>
+<Connection from="and" to="9/git" with="op1"/>
+<Word name="7/yine" positionX="550" positionY="300"/>
+<Connection from="9/git" to="7/yine" with="manner"/>
+<Word name="8/de" positionX="450" positionY="400"/>
+<Connection from="7/yine" to="8/de"/>
+<Word name="5/sev" positionX="750" positionY="200"/>
+<Connection from="and" to="5/sev" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="5/sev" to="-" with="polarity"/>
+<Word name="1/gerçi" positionX="750" positionY="300"/>
+<Connection from="5/sev" to="1/gerçi" with="manner"/>
+<Word name="3/kayak 4/yap" positionX="850" positionY="300"/>
+<Connection from="5/sev" to="3/kayak 4/yap" with="ARG0"/>
+<Word name="o" positionX="750" positionY="400"/>
+<Connection from="3/kayak 4/yap" to="o" with="ARG0"/>
+</Amr>

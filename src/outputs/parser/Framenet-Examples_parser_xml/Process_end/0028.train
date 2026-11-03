@@ -1,0 +1,13 @@
+<Amr sentence="Bu işi ancak sen bitirirsin .">
+<Word name="5/bitir" positionX="750" positionY="100"/>
+<Word name="2/iş" positionX="650" positionY="200"/>
+<Connection from="5/bitir" to="2/iş" with="ARG1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/iş" to="o" with="poss"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/iş" to="1/bu" with="mod"/>
+<Word name="3/ancak" positionX="750" positionY="200"/>
+<Connection from="5/bitir" to="3/ancak" with="manner"/>
+<Word name="4/sen" positionX="850" positionY="200"/>
+<Connection from="5/bitir" to="4/sen" with="ARG0"/>
+</Amr>

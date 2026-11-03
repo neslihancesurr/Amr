@@ -1,0 +1,9 @@
+<Amr sentence="Kuş , ağacın tepesinde kuluçkaya yatmış .">
+<Word name="5/kuluçka 6/yat" positionX="750" positionY="100"/>
+<Word name="1/kuş" positionX="650" positionY="200"/>
+<Connection from="5/kuluçka 6/yat" to="1/kuş" with="ARG0"/>
+<Word name="4/tepe" positionX="750" positionY="200"/>
+<Connection from="5/kuluçka 6/yat" to="4/tepe" with="location"/>
+<Word name="3/ağaç" positionX="650" positionY="300"/>
+<Connection from="4/tepe" to="3/ağaç" with="mod"/>
+</Amr>

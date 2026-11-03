@@ -1,0 +1,17 @@
+<Amr sentence="Sağlık bakımından bu kadar çikolata yemek doğru değil .">
+<Word name="7/doğru" positionX="750" positionY="100"/>
+<Word name="2/bakımından" positionX="650" positionY="200"/>
+<Connection from="7/doğru" to="2/bakımından"/>
+<Word name="1/sağlık" positionX="550" positionY="300"/>
+<Connection from="2/bakımından" to="1/sağlık" with="mod"/>
+<Word name="6/ye" positionX="750" positionY="200"/>
+<Connection from="7/doğru" to="6/ye"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="6/ye" to="o" with="ARG0"/>
+<Word name="5/çikolata" positionX="750" positionY="300"/>
+<Connection from="6/ye" to="5/çikolata" with="ARG1"/>
+<Word name="3/bu 4/kadar" positionX="650" positionY="400"/>
+<Connection from="5/çikolata" to="3/bu 4/kadar" with="mod"/>
+<Word name="-" positionX="850" positionY="200"/>
+<Connection from="7/doğru" to="-" with="polarity"/>
+</Amr>

@@ -1,0 +1,22 @@
+<Amr sentence="Satış işinin güçlüğünü ondan iyice öğrendim , mecburen tehir ettim .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/öğren" positionX="650" positionY="200"/>
+<Connection from="and" to="6/öğren" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="6/öğren" to="ben" with="ARG0"/>
+<Word name="3/güçlük" positionX="650" positionY="300"/>
+<Connection from="6/öğren" to="3/güçlük" with="ARG1"/>
+<Word name="2/iş" positionX="550" positionY="400"/>
+<Connection from="3/güçlük" to="2/iş" with="mod"/>
+<Word name="1/satış" positionX="450" positionY="500"/>
+<Connection from="2/iş" to="1/satış" with="mod"/>
+<Word name="4/o" positionX="750" positionY="300"/>
+<Connection from="6/öğren" to="4/o"/>
+<Word name="5/iyice" positionX="850" positionY="300"/>
+<Connection from="6/öğren" to="5/iyice" with="manner"/>
+<Word name="9/tehir 10/et" positionX="750" positionY="200"/>
+<Connection from="and" to="9/tehir 10/et" with="op2"/>
+<Connection from="9/tehir 10/et" to="ben" with="ARG0"/>
+<Word name="8/mecburen" positionX="750" positionY="300"/>
+<Connection from="9/tehir 10/et" to="8/mecburen" with="manner"/>
+</Amr>

@@ -1,0 +1,7 @@
+<Amr sentence="Bir hastalık geldi köye .">
+<Word name="3/gel" positionX="750" positionY="100"/>
+<Word name="2/hastalık" positionX="650" positionY="200"/>
+<Connection from="3/gel" to="2/hastalık" with="ARG0"/>
+<Word name="4/köy" positionX="750" positionY="200"/>
+<Connection from="3/gel" to="4/köy"/>
+</Amr>

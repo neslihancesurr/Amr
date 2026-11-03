@@ -1,0 +1,7 @@
+<Amr sentence="Elma hamilelikte sütlendiriyormuş .">
+<Word name="3/sütlendir" positionX="750" positionY="100"/>
+<Word name="1/elma" positionX="650" positionY="200"/>
+<Connection from="3/sütlendir" to="1/elma" with="ARG0"/>
+<Word name="2/hamilelik" positionX="750" positionY="200"/>
+<Connection from="3/sütlendir" to="2/hamilelik" with="location"/>
+</Amr>

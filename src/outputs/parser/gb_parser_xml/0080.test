@@ -1,0 +1,9 @@
+<Amr sentence="Güzel mi güzel bir kız .">
+<Word name="5/kız" positionX="750" positionY="100"/>
+<Word name="3/güzel" positionX="650" positionY="200"/>
+<Connection from="5/kız" to="3/güzel" with="mod"/>
+<Word name="1/güzel" positionX="550" positionY="300"/>
+<Connection from="3/güzel" to="1/güzel"/>
+<Word name="2/mi" positionX="450" positionY="400"/>
+<Connection from="1/güzel" to="2/mi"/>
+</Amr>

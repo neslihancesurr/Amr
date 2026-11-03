@@ -1,0 +1,18 @@
+<Amr sentence="Bilgisayarı aç da işimizi halledelim .">
+<Word name="5/hallet" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/hallet" to="biz" with="ARG0"/>
+<Word name="2/aç" positionX="750" positionY="200"/>
+<Connection from="5/hallet" to="2/aç"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="2/aç" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="300"/>
+<Connection from="2/aç" to="imperative" with="mode"/>
+<Word name="1/bilgisayar" positionX="850" positionY="300"/>
+<Connection from="2/aç" to="1/bilgisayar" with="ARG1"/>
+<Word name="3/da" positionX="950" positionY="300"/>
+<Connection from="2/aç" to="3/da"/>
+<Word name="4/iş" positionX="850" positionY="200"/>
+<Connection from="5/hallet" to="4/iş" with="ARG1"/>
+<Connection from="4/iş" to="biz" with="poss"/>
+</Amr>

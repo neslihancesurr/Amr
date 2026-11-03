@@ -1,0 +1,5 @@
+<Amr sentence="Başkan , inisiyatifi ele aldı .">
+<Word name="3/inisiyatif 4/el 5/al" positionX="750" positionY="100"/>
+<Word name="1/başkan" positionX="650" positionY="200"/>
+<Connection from="3/inisiyatif 4/el 5/al" to="1/başkan" with="ARG0"/>
+</Amr>

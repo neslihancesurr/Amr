@@ -1,0 +1,17 @@
+<Amr sentence="Kendini affettirmek için hiçbir girişimde bulunmadı .">
+<Word name="5/girişim 6/bulun" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/girişim 6/bulun" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="5/girişim 6/bulun" to="o" with="ARG0"/>
+<Word name="yap" positionX="850" positionY="200"/>
+<Connection from="5/girişim 6/bulun" to="yap"/>
+<Word name="2/affet" positionX="750" positionY="300"/>
+<Connection from="yap" to="2/affet" with="ARG1"/>
+<Connection from="2/affet" to="o" with="ARG0"/>
+<Word name="1/kendi" positionX="750" positionY="400"/>
+<Connection from="2/affet" to="1/kendi" with="ARG1"/>
+<Connection from="1/kendi" to="o" with="poss"/>
+<Word name="3/için" positionX="850" positionY="400"/>
+<Connection from="2/affet" to="3/için"/>
+</Amr>

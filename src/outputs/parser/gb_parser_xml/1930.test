@@ -1,0 +1,13 @@
+<Amr sentence="Bu köyde çoktandır genetik bir hastalık varmış .">
+<Word name="7/var" positionX="750" positionY="100"/>
+<Word name="2/köy" positionX="650" positionY="200"/>
+<Connection from="7/var" to="2/köy" with="location"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/köy" to="1/bu" with="mod"/>
+<Word name="3/çoktandır" positionX="750" positionY="200"/>
+<Connection from="7/var" to="3/çoktandır" with="manner"/>
+<Word name="6/hastalık" positionX="850" positionY="200"/>
+<Connection from="7/var" to="6/hastalık"/>
+<Word name="4/genetik" positionX="750" positionY="300"/>
+<Connection from="6/hastalık" to="4/genetik" with="mod"/>
+</Amr>

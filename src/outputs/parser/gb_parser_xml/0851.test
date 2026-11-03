@@ -1,0 +1,18 @@
+<Amr sentence="Evdeki durumdan dolayı Filiz gelemeyebilir .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="5/gel" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="5/gel"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="5/gel" to="-" with="polarity"/>
+<Word name="2/durum" positionX="650" positionY="300"/>
+<Connection from="5/gel" to="2/durum" with="cause"/>
+<Word name="1/ev" positionX="550" positionY="400"/>
+<Connection from="2/durum" to="1/ev" with="mod"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="5/gel" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="4/filiz" positionX="550" positionY="500"/>
+<Connection from="name" to="4/filiz" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

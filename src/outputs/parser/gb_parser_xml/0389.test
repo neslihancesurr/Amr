@@ -1,0 +1,7 @@
+<Amr sentence="Korkakça kaçtı .">
+<Word name="2/kaç" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="2/kaç" to="o" with="ARG0"/>
+<Word name="1/korkakça" positionX="750" positionY="200"/>
+<Connection from="2/kaç" to="1/korkakça" with="manner"/>
+</Amr>

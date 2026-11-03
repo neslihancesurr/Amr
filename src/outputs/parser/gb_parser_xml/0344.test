@@ -1,0 +1,11 @@
+<Amr sentence="Burası ne güzel bir yer !">
+<Word name="5/yer" positionX="750" positionY="100"/>
+<Word name="1/bura" positionX="650" positionY="200"/>
+<Connection from="5/yer" to="1/bura"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/bura" to="o" with="poss"/>
+<Word name="3/güzel" positionX="750" positionY="200"/>
+<Connection from="5/yer" to="3/güzel" with="mod"/>
+<Word name="2/ne" positionX="650" positionY="300"/>
+<Connection from="3/güzel" to="2/ne" with="manner"/>
+</Amr>

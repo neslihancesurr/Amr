@@ -1,0 +1,17 @@
+<Amr sentence="Bazen masaya sarı çiçeklerle işlenmiş bir örtüyü yayardık .">
+<Word name="8/yay" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="8/yay" to="biz" with="ARG0"/>
+<Word name="1/bazen" positionX="750" positionY="200"/>
+<Connection from="8/yay" to="1/bazen" with="manner"/>
+<Word name="2/masa" positionX="850" positionY="200"/>
+<Connection from="8/yay" to="2/masa" with="ARG2"/>
+<Word name="7/örtü" positionX="950" positionY="200"/>
+<Connection from="8/yay" to="7/örtü" with="ARG1"/>
+<Word name="5/işle" positionX="850" positionY="300"/>
+<Connection from="7/örtü" to="5/işle"/>
+<Word name="4/çiçek" positionX="750" positionY="400"/>
+<Connection from="5/işle" to="4/çiçek" with="instrument"/>
+<Word name="3/sarı" positionX="650" positionY="500"/>
+<Connection from="4/çiçek" to="3/sarı" with="mod"/>
+</Amr>

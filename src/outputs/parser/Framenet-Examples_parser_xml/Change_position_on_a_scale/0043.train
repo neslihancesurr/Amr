@@ -1,0 +1,13 @@
+<Amr sentence="Isı düştü , biraz arttıralım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/düş" positionX="650" positionY="200"/>
+<Connection from="and" to="2/düş" with="op1"/>
+<Word name="1/ısı" positionX="550" positionY="300"/>
+<Connection from="2/düş" to="1/ısı" with="ARG0"/>
+<Word name="5/art" positionX="750" positionY="200"/>
+<Connection from="and" to="5/art" with="op2"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="5/art" to="biz" with="ARG0"/>
+<Word name="4/biraz" positionX="750" positionY="300"/>
+<Connection from="5/art" to="4/biraz" with="manner"/>
+</Amr>

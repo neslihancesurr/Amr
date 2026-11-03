@@ -1,0 +1,5 @@
+<Amr sentence="bu haftanın sonlarına doğru">
+<Word name="2/hafta 3/son" positionX="750" positionY="100"/>
+<Word name="4/doğru" positionX="650" positionY="200"/>
+<Connection from="2/hafta 3/son" to="4/doğru"/>
+</Amr>

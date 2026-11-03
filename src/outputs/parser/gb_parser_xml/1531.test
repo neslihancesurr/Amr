@@ -1,0 +1,11 @@
+<Amr sentence="Herhangi bir yerde su var mı ?">
+<Word name="5/var" positionX="750" positionY="100"/>
+<Word name="3/yer" positionX="650" positionY="200"/>
+<Connection from="5/var" to="3/yer" with="location"/>
+<Word name="1/herhangi 2/bir" positionX="550" positionY="300"/>
+<Connection from="3/yer" to="1/herhangi 2/bir" with="mod"/>
+<Word name="4/su" positionX="750" positionY="200"/>
+<Connection from="5/var" to="4/su"/>
+<Word name="6/mi" positionX="850" positionY="200"/>
+<Connection from="5/var" to="6/mi"/>
+</Amr>

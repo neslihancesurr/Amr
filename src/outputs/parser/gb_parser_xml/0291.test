@@ -1,0 +1,13 @@
+<Amr sentence="Bu sınıfta elli iki öğrenci var .">
+<Word name="6/var" positionX="750" positionY="100"/>
+<Word name="2/sınıf" positionX="650" positionY="200"/>
+<Connection from="6/var" to="2/sınıf" with="mod"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/sınıf" to="1/bu" with="mod"/>
+<Word name="5/öğrenci" positionX="750" positionY="200"/>
+<Connection from="6/var" to="5/öğrenci"/>
+<Word name="4/iki" positionX="650" positionY="300"/>
+<Connection from="5/öğrenci" to="4/iki"/>
+<Word name="3/elli" positionX="550" positionY="400"/>
+<Connection from="4/iki" to="3/elli"/>
+</Amr>

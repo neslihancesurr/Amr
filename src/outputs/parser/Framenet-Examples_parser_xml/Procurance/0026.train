@@ -1,0 +1,20 @@
+<Amr sentence="Nereden bulmuş bilmiyorum , sanki sokaktan toplamış .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/bil" positionX="650" positionY="200"/>
+<Connection from="and" to="3/bil" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="3/bil" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="3/bil" to="ben" with="ARG0"/>
+<Word name="2/bul" positionX="750" positionY="300"/>
+<Connection from="3/bil" to="2/bul" with="ARG1"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="2/bul" to="o" with="ARG0"/>
+<Word name="1/nereden" positionX="750" positionY="400"/>
+<Connection from="2/bul" to="1/nereden" with="manner"/>
+<Word name="6/sokak 7/topla" positionX="750" positionY="200"/>
+<Connection from="and" to="6/sokak 7/topla" with="op2"/>
+<Connection from="6/sokak 7/topla" to="o" with="ARG0"/>
+<Word name="5/sanki" positionX="750" positionY="300"/>
+<Connection from="6/sokak 7/topla" to="5/sanki" with="manner"/>
+</Amr>

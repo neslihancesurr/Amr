@@ -1,0 +1,9 @@
+<Amr sentence="Biz bu konuyu biliştik .">
+<Word name="4/biliş" positionX="750" positionY="100"/>
+<Word name="1/biz" positionX="650" positionY="200"/>
+<Connection from="4/biliş" to="1/biz" with="ARG0"/>
+<Word name="3/konu" positionX="750" positionY="200"/>
+<Connection from="4/biliş" to="3/konu" with="ARG1"/>
+<Word name="2/bu" positionX="650" positionY="300"/>
+<Connection from="3/konu" to="2/bu" with="mod"/>
+</Amr>

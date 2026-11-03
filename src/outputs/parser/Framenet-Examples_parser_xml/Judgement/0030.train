@@ -1,0 +1,11 @@
+<Amr sentence="Olaylara pozitif yönden bakıyoruz .">
+<Word name="4/bak" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="4/bak" to="biz" with="ARG0"/>
+<Word name="1/olay" positionX="750" positionY="200"/>
+<Connection from="4/bak" to="1/olay" with="ARG1"/>
+<Word name="3/yön" positionX="850" positionY="200"/>
+<Connection from="4/bak" to="3/yön"/>
+<Word name="2/pozitif" positionX="750" positionY="300"/>
+<Connection from="3/yön" to="2/pozitif" with="mod"/>
+</Amr>

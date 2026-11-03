@@ -1,0 +1,13 @@
+<Amr sentence="Arabayı , kuvvetli atlar tenha yolda uçuruyordu .">
+<Word name="7/uçur" positionX="750" positionY="100"/>
+<Word name="1/araba" positionX="650" positionY="200"/>
+<Connection from="7/uçur" to="1/araba" with="ARG1"/>
+<Word name="4/at" positionX="750" positionY="200"/>
+<Connection from="7/uçur" to="4/at" with="ARG0"/>
+<Word name="3/kuvvet" positionX="650" positionY="300"/>
+<Connection from="4/at" to="3/kuvvet" with="mod"/>
+<Word name="6/yol" positionX="850" positionY="200"/>
+<Connection from="7/uçur" to="6/yol" with="location"/>
+<Word name="5/tenha" positionX="750" positionY="300"/>
+<Connection from="6/yol" to="5/tenha" with="mod"/>
+</Amr>

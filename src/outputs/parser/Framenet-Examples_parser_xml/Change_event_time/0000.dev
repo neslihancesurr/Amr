@@ -1,0 +1,9 @@
+<Amr sentence="Okul öğleden sonra tatil oldu .">
+<Word name="4/tatil 5/ol" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/tatil 5/ol" to="o" with="ARG0"/>
+<Word name="1/okul" positionX="750" positionY="200"/>
+<Connection from="4/tatil 5/ol" to="1/okul" with="ARG1"/>
+<Word name="2/öğle 3/sonra" positionX="850" positionY="200"/>
+<Connection from="4/tatil 5/ol" to="2/öğle 3/sonra" with="ARG2"/>
+</Amr>

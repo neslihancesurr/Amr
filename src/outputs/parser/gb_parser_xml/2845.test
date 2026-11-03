@@ -1,0 +1,15 @@
+<Amr sentence="Yarın Paris'e gidiyoruz .">
+<Word name="3/git" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="3/git" to="biz" with="ARG0"/>
+<Word name="1/yarın" positionX="750" positionY="200"/>
+<Connection from="3/git" to="1/yarın"/>
+<Word name="city" positionX="850" positionY="200"/>
+<Connection from="3/git" to="city"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="2/paris" positionX="650" positionY="400"/>
+<Connection from="name" to="2/paris" with="op1"/>
+<Word name="paris" positionX="850" positionY="300"/>
+<Connection from="city" to="paris" with="wiki"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Onlar Timur'un vasıtasıyla tanışmışlar .">
+<Word name="4/tanış" positionX="750" positionY="100"/>
+<Word name="1/o" positionX="650" positionY="200"/>
+<Connection from="4/tanış" to="1/o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="4/tanış" to="person"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/timur" positionX="550" positionY="400"/>
+<Connection from="name" to="2/timur" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/vasıtasıyla" positionX="850" positionY="300"/>
+<Connection from="person" to="3/vasıtasıyla"/>
+</Amr>

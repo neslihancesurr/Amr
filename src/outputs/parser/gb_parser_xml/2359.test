@@ -1,0 +1,22 @@
+<Amr sentence="Ali'nin odası o kadar dağınıktı ki oturacak yer bulamadık .">
+<Word name="5/dağınık" positionX="750" positionY="100"/>
+<Word name="2/oda" positionX="650" positionY="200"/>
+<Connection from="5/dağınık" to="2/oda"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="2/oda" to="person"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ali" positionX="350" positionY="500"/>
+<Connection from="name" to="1/ali" with="op1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/o" positionX="750" positionY="200"/>
+<Connection from="5/dağınık" to="3/o" with="extent"/>
+<Word name="8/yer 9/bul" positionX="850" positionY="200"/>
+<Connection from="5/dağınık" to="8/yer 9/bul"/>
+<Connection from="8/yer 9/bul" to="-" with="polarity"/>
+<Word name="biz" positionX="850" positionY="300"/>
+<Connection from="8/yer 9/bul" to="biz" with="ARG0"/>
+<Word name="7/otur" positionX="950" positionY="300"/>
+<Connection from="8/yer 9/bul" to="7/otur"/>
+</Amr>

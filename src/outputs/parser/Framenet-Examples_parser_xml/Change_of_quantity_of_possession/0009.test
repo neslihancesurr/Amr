@@ -1,0 +1,16 @@
+<Amr sentence="Bu kazak çok eskimiş , rengini yitirmiş .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/eski" positionX="650" positionY="200"/>
+<Connection from="and" to="4/eski" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/eski" to="o" with="ARG0"/>
+<Word name="2/kazak" positionX="650" positionY="300"/>
+<Connection from="4/eski" to="2/kazak"/>
+<Word name="1/bu" positionX="550" positionY="400"/>
+<Connection from="2/kazak" to="1/bu" with="mod"/>
+<Word name="3/çok" positionX="750" positionY="300"/>
+<Connection from="4/eski" to="3/çok" with="degree"/>
+<Word name="6/renk 7/yitir" positionX="750" positionY="200"/>
+<Connection from="and" to="6/renk 7/yitir" with="op2"/>
+<Connection from="6/renk 7/yitir" to="o" with="ARG0"/>
+</Amr>

@@ -1,0 +1,23 @@
+<Amr sentence="Jordan rakibini perdeleyerek skorun eşitlenmesine izin vermedi .">
+<Word name="6/izin 7/ver" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="6/izin 7/ver" to="-" with="polarity"/>
+<Word name="3/perdele" positionX="750" positionY="200"/>
+<Connection from="6/izin 7/ver" to="3/perdele"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="3/perdele" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/jordan" positionX="450" positionY="500"/>
+<Connection from="name" to="1/jordan" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/rakip" positionX="750" positionY="300"/>
+<Connection from="3/perdele" to="2/rakip"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="2/rakip" to="o" with="poss"/>
+<Word name="5/eşitlen" positionX="850" positionY="200"/>
+<Connection from="6/izin 7/ver" to="5/eşitlen" with="ARG1"/>
+<Connection from="5/eşitlen" to="o" with="ARG0"/>
+<Word name="4/skor" positionX="850" positionY="300"/>
+<Connection from="5/eşitlen" to="4/skor" with="mod"/>
+</Amr>

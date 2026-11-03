@@ -1,0 +1,23 @@
+<Amr sentence="O tabloyu almayı çok istiyordum , düşünmeden teklifimi artırdım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/iste" positionX="650" positionY="200"/>
+<Connection from="and" to="5/iste" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="5/iste" to="ben" with="ARG0"/>
+<Word name="3/al" positionX="650" positionY="300"/>
+<Connection from="5/iste" to="3/al" with="ARG1"/>
+<Word name="2/tablo" positionX="550" positionY="400"/>
+<Connection from="3/al" to="2/tablo" with="ARG1"/>
+<Word name="1/o" positionX="450" positionY="500"/>
+<Connection from="2/tablo" to="1/o" with="mod"/>
+<Word name="4/çok" positionX="750" positionY="300"/>
+<Connection from="5/iste" to="4/çok" with="degree"/>
+<Word name="9/artır" positionX="750" positionY="200"/>
+<Connection from="and" to="9/artır" with="op2"/>
+<Connection from="9/artır" to="ben" with="ARG0"/>
+<Word name="7/düşünme" positionX="750" positionY="300"/>
+<Connection from="9/artır" to="7/düşünme"/>
+<Word name="8/teklif" positionX="850" positionY="300"/>
+<Connection from="9/artır" to="8/teklif" with="ARG1"/>
+<Connection from="8/teklif" to="ben" with="poss"/>
+</Amr>

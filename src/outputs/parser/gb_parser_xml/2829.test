@@ -1,0 +1,31 @@
+<Amr sentence="Beyaz Kale'yi ilk defa 1990'da okudum ve çok sevdim .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="9/sev" positionX="650" positionY="200"/>
+<Connection from="and" to="9/sev" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="9/sev" to="ben" with="ARG0"/>
+<Word name="8/çok" positionX="650" positionY="300"/>
+<Connection from="9/sev" to="8/çok" with="degree"/>
+<Word name="6/oku" positionX="750" positionY="200"/>
+<Connection from="and" to="6/oku" with="op2"/>
+<Connection from="6/oku" to="ben" with="ARG0"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="6/oku" to="person" with="ARG1"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/kale" positionX="550" positionY="500"/>
+<Connection from="name" to="2/kale" with="op1"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="person" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/beyaz" positionX="650" positionY="600"/>
+<Connection from="name" to="1/beyaz" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/defa" positionX="850" positionY="300"/>
+<Connection from="6/oku" to="4/defa"/>
+<Word name="3/ilk" positionX="750" positionY="400"/>
+<Connection from="4/defa" to="3/ilk" with="mod"/>
+<Word name="5/1990" positionX="950" positionY="300"/>
+<Connection from="6/oku" to="5/1990"/>
+</Amr>

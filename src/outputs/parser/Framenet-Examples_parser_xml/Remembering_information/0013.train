@@ -1,0 +1,11 @@
+<Amr sentence="Bütün yaşadıklarımız hatırında oldu .">
+<Word name="3/hatır 4/ol" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/hatır 4/ol" to="o" with="ARG0"/>
+<Word name="2/yaşa" positionX="750" positionY="200"/>
+<Connection from="3/hatır 4/ol" to="2/yaşa" with="ARG1"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="2/yaşa" to="biz" with="ARG0"/>
+<Word name="1/bütün" positionX="750" positionY="300"/>
+<Connection from="2/yaşa" to="1/bütün" with="mod"/>
+</Amr>

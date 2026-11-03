@@ -1,0 +1,11 @@
+<Amr sentence="Sinirliydi , odada volta atıyordu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/sinir" positionX="650" positionY="200"/>
+<Connection from="and" to="1/sinir" with="op1"/>
+<Word name="4/volta 5/at" positionX="750" positionY="200"/>
+<Connection from="and" to="4/volta 5/at" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="4/volta 5/at" to="o" with="ARG0"/>
+<Word name="3/oda" positionX="750" positionY="300"/>
+<Connection from="4/volta 5/at" to="3/oda" with="ARG1"/>
+</Amr>

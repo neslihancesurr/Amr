@@ -1,0 +1,9 @@
+<Amr sentence="Epey servet toplamış .">
+<Word name="3/topla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/topla" to="o" with="ARG0"/>
+<Word name="1/epey" positionX="750" positionY="200"/>
+<Connection from="3/topla" to="1/epey" with="ARG1"/>
+<Word name="2/servet" positionX="850" positionY="200"/>
+<Connection from="3/topla" to="2/servet" with="ARG1"/>
+</Amr>

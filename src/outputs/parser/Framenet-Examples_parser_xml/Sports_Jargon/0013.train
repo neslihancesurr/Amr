@@ -1,0 +1,17 @@
+<Amr sentence="Mor sarılı takım ortaya çıkmayacağını düşünerek bu maçta şike yaptı .">
+<Word name="9/şike 10/yap" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="9/şike 10/yap" to="o" with="ARG0"/>
+<Word name="6/düşün" positionX="750" positionY="200"/>
+<Connection from="9/şike 10/yap" to="6/düşün"/>
+<Word name="4/orta 5/çık" positionX="650" positionY="300"/>
+<Connection from="6/düşün" to="4/orta 5/çık"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="4/orta 5/çık" to="-" with="polarity"/>
+<Connection from="4/orta 5/çık" to="o" with="ARG0"/>
+<Connection from="4/orta 5/çık" to="o" with="poss"/>
+<Word name="8/maç" positionX="850" positionY="200"/>
+<Connection from="9/şike 10/yap" to="8/maç" with="location"/>
+<Word name="7/bu" positionX="750" positionY="300"/>
+<Connection from="8/maç" to="7/bu" with="mod"/>
+</Amr>

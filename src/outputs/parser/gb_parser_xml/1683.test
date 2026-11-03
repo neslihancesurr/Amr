@@ -1,0 +1,23 @@
+<Amr sentence="Geçen yıl Bodrum'a dört defa gidebildik .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="6/git" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="6/git"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="6/git" to="biz" with="ARG0"/>
+<Word name="2/yıl" positionX="650" positionY="300"/>
+<Connection from="6/git" to="2/yıl"/>
+<Word name="1/geçen" positionX="550" positionY="400"/>
+<Connection from="2/yıl" to="1/geçen"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="6/git" to="person" with="ARG1"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/bodrum" positionX="550" positionY="500"/>
+<Connection from="name" to="3/bodrum" with="op1"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/defa" positionX="850" positionY="300"/>
+<Connection from="6/git" to="5/defa"/>
+<Word name="4/dört" positionX="750" positionY="400"/>
+<Connection from="5/defa" to="4/dört"/>
+</Amr>

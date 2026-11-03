@@ -1,0 +1,19 @@
+<Amr sentence="Memur , geç işareti verince gaza bastı ve viraj aldı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="9/viraj 10/al" positionX="650" positionY="200"/>
+<Connection from="and" to="9/viraj 10/al" with="op1"/>
+<Word name="7/bas" positionX="750" positionY="200"/>
+<Connection from="and" to="7/bas" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="7/bas" to="o" with="ARG0"/>
+<Word name="4/işaret 5/ver" positionX="750" positionY="300"/>
+<Connection from="7/bas" to="4/işaret 5/ver"/>
+<Word name="3/geç" positionX="650" positionY="400"/>
+<Connection from="4/işaret 5/ver" to="3/geç" with="ARG1"/>
+<Word name="sen" positionX="550" positionY="500"/>
+<Connection from="3/geç" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="650" positionY="500"/>
+<Connection from="3/geç" to="imperative" with="mode"/>
+<Word name="6/gaz" positionX="850" positionY="300"/>
+<Connection from="7/bas" to="6/gaz"/>
+</Amr>

@@ -1,0 +1,7 @@
+<Amr sentence="Avucumun içi biber gibi yanıyor .">
+<Word name="3/biber 4/gibi 5/yan" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/biber 4/gibi 5/yan" to="o" with="ARG0"/>
+<Word name="1/avuç 2/iç" positionX="750" positionY="200"/>
+<Connection from="3/biber 4/gibi 5/yan" to="1/avuç 2/iç" with="ARG1"/>
+</Amr>

@@ -1,0 +1,24 @@
+<Amr sentence="Fatma Hanımın üç kat merdiven çıkması çok zor .">
+<Word name="8/zor" positionX="750" positionY="100"/>
+<Word name="6/çık" positionX="650" positionY="200"/>
+<Connection from="8/zor" to="6/çık"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="6/çık" to="o" with="ARG0"/>
+<Connection from="6/çık" to="o" with="poss"/>
+<Word name="2/hanım" positionX="750" positionY="300"/>
+<Connection from="6/çık" to="2/hanım"/>
+<Word name="person" positionX="650" positionY="400"/>
+<Connection from="2/hanım" to="person"/>
+<Word name="name" positionX="550" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/fatma" positionX="450" positionY="600"/>
+<Connection from="name" to="1/fatma" with="op1"/>
+<Word name="-" positionX="650" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/merdiven" positionX="850" positionY="300"/>
+<Connection from="6/çık" to="5/merdiven"/>
+<Word name="3/üç" positionX="750" positionY="400"/>
+<Connection from="5/merdiven" to="3/üç"/>
+<Word name="7/çok" positionX="750" positionY="200"/>
+<Connection from="8/zor" to="7/çok" with="degree"/>
+</Amr>

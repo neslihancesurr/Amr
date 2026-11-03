@@ -1,0 +1,27 @@
+<Amr sentence="Meral , Turgut onu Selim'le görürse diye korkuyordu .">
+<Word name="8/kork" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="8/kork" to="person"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/meral" positionX="450" positionY="400"/>
+<Connection from="name" to="1/meral" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="6/gör" positionX="750" positionY="200"/>
+<Connection from="8/kork" to="6/gör" with="cond"/>
+<Connection from="6/gör" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/turgut" positionX="450" positionY="500"/>
+<Connection from="name" to="3/turgut" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/o" positionX="750" positionY="300"/>
+<Connection from="6/gör" to="4/o"/>
+<Connection from="6/gör" to="person" with="instrument"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="5/selim" positionX="650" positionY="500"/>
+<Connection from="name" to="5/selim" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="7/diye" positionX="950" positionY="300"/>
+<Connection from="6/gör" to="7/diye"/>
+</Amr>

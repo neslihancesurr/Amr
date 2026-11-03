@@ -1,0 +1,35 @@
+<Amr sentence="Tosca'yı Verdi'nin mi , Puccini'nin mi yazdığını bilmiyorum .">
+<Word name="8/bil" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="8/bil" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="8/bil" to="ben" with="ARG0"/>
+<Word name="7/yaz" positionX="850" positionY="200"/>
+<Connection from="8/bil" to="7/yaz"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="7/yaz" to="o" with="ARG0"/>
+<Connection from="7/yaz" to="o" with="poss"/>
+<Word name="person" positionX="950" positionY="300"/>
+<Connection from="7/yaz" to="person"/>
+<Word name="name" positionX="850" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/tosca" positionX="750" positionY="500"/>
+<Connection from="name" to="1/tosca" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="and" positionX="1050" positionY="300"/>
+<Connection from="7/yaz" to="and"/>
+<Connection from="and" to="person" with="op1"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="5/puccini" positionX="750" positionY="600"/>
+<Connection from="name" to="5/puccini" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="6/mi" positionX="1050" positionY="500"/>
+<Connection from="person" to="6/mi"/>
+<Connection from="and" to="person" with="op2"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/verdi" positionX="850" positionY="600"/>
+<Connection from="name" to="2/verdi" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/mi" positionX="1150" positionY="500"/>
+<Connection from="person" to="3/mi"/>
+</Amr>

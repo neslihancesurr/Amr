@@ -1,0 +1,12 @@
+<Amr sentence="Kitapların hepsini çantasına aldı .">
+<Word name="4/al" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/al" to="o" with="ARG0"/>
+<Word name="2/hepsi" positionX="750" positionY="200"/>
+<Connection from="4/al" to="2/hepsi" with="ARG1"/>
+<Word name="1/kitap" positionX="650" positionY="300"/>
+<Connection from="2/hepsi" to="1/kitap" with="mod"/>
+<Word name="3/çanta" positionX="850" positionY="200"/>
+<Connection from="4/al" to="3/çanta"/>
+<Connection from="3/çanta" to="o" with="poss"/>
+</Amr>

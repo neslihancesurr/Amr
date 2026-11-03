@@ -1,0 +1,13 @@
+<Amr sentence="Bu karışıklık , sorunun kendi özelliklerinden kaynaklanıyor .">
+<Word name="7/kaynaklan" positionX="750" positionY="100"/>
+<Word name="2/karışıklık" positionX="650" positionY="200"/>
+<Connection from="7/kaynaklan" to="2/karışıklık" with="ARG0"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/karışıklık" to="1/bu" with="mod"/>
+<Word name="6/özellik" positionX="750" positionY="200"/>
+<Connection from="7/kaynaklan" to="6/özellik"/>
+<Word name="4/sorun" positionX="650" positionY="300"/>
+<Connection from="6/özellik" to="4/sorun" with="mod"/>
+<Word name="5/kendi" positionX="750" positionY="300"/>
+<Connection from="6/özellik" to="5/kendi" with="mod"/>
+</Amr>

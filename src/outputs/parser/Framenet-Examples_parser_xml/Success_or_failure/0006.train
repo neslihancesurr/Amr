@@ -1,0 +1,13 @@
+<Amr sentence="Tartışmalar bitmiş , partiyi kaybetmiştim .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/bit" positionX="650" positionY="200"/>
+<Connection from="and" to="2/bit" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/bit" to="o" with="ARG0"/>
+<Word name="1/tartışma" positionX="650" positionY="300"/>
+<Connection from="2/bit" to="1/tartışma" with="ARG1"/>
+<Word name="4/parti 5/kaybet" positionX="750" positionY="200"/>
+<Connection from="and" to="4/parti 5/kaybet" with="op2"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="4/parti 5/kaybet" to="ben" with="ARG0"/>
+</Amr>

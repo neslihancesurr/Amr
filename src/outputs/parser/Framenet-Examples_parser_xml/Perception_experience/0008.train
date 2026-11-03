@@ -1,0 +1,11 @@
+<Amr sentence="Pizzadan fesleğen tadı alamadım .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="3/tat 4/al" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="3/tat 4/al"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="3/tat 4/al" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="3/tat 4/al" to="ben" with="ARG0"/>
+<Word name="1/pizza" positionX="750" positionY="300"/>
+<Connection from="3/tat 4/al" to="1/pizza"/>
+</Amr>

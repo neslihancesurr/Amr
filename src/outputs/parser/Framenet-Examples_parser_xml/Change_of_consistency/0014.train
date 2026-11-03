@@ -1,0 +1,12 @@
+<Amr sentence="Elma çok beklediği için kepeklenmiş .">
+<Word name="5/kepeklen" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/kepeklen" to="o" with="ARG0"/>
+<Word name="3/bekle" positionX="750" positionY="200"/>
+<Connection from="5/kepeklen" to="3/bekle" with="cause"/>
+<Connection from="3/bekle" to="o" with="poss"/>
+<Word name="1/elma" positionX="750" positionY="300"/>
+<Connection from="3/bekle" to="1/elma" with="ARG0"/>
+<Word name="2/çok" positionX="850" positionY="300"/>
+<Connection from="3/bekle" to="2/çok" with="degree"/>
+</Amr>

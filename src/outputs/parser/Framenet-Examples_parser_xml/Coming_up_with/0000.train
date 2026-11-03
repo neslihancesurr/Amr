@@ -1,0 +1,27 @@
+<Amr sentence="Acaba , bütün bu söylediklerinin altında bir takaza da var mı diye iyice hesap ettim .">
+<Word name="14/hesap 15/et" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="14/hesap 15/et" to="ben" with="ARG0"/>
+<Word name="10/var" positionX="750" positionY="200"/>
+<Connection from="14/hesap 15/et" to="10/var" with="ARG1"/>
+<Word name="1/acaba" positionX="650" positionY="300"/>
+<Connection from="10/var" to="1/acaba"/>
+<Word name="6/alt" positionX="750" positionY="300"/>
+<Connection from="10/var" to="6/alt" with="location"/>
+<Word name="5/söyle" positionX="650" positionY="400"/>
+<Connection from="6/alt" to="5/söyle" with="mod"/>
+<Word name="3/bütün" positionX="550" positionY="500"/>
+<Connection from="5/söyle" to="3/bütün" with="ARG1"/>
+<Word name="4/bu" positionX="650" positionY="500"/>
+<Connection from="5/söyle" to="4/bu" with="ARG1"/>
+<Word name="8/takaza" positionX="850" positionY="300"/>
+<Connection from="10/var" to="8/takaza"/>
+<Word name="9/da" positionX="750" positionY="400"/>
+<Connection from="8/takaza" to="9/da"/>
+<Word name="11/mi" positionX="950" positionY="300"/>
+<Connection from="10/var" to="11/mi"/>
+<Word name="12/diye" positionX="1050" positionY="300"/>
+<Connection from="10/var" to="12/diye"/>
+<Word name="13/iyice" positionX="850" positionY="200"/>
+<Connection from="14/hesap 15/et" to="13/iyice" with="manner"/>
+</Amr>

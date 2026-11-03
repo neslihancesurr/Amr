@@ -1,0 +1,14 @@
+<Amr sentence="Burasını da doldurmak gerekiyor mu ?">
+<Word name="4/gerek" positionX="750" positionY="100"/>
+<Word name="3/doldur" positionX="650" positionY="200"/>
+<Connection from="4/gerek" to="3/doldur" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/doldur" to="o" with="ARG0"/>
+<Word name="1/bura" positionX="650" positionY="300"/>
+<Connection from="3/doldur" to="1/bura" with="ARG1"/>
+<Connection from="1/bura" to="o" with="poss"/>
+<Word name="2/da" positionX="650" positionY="400"/>
+<Connection from="1/bura" to="2/da"/>
+<Word name="5/mi" positionX="750" positionY="200"/>
+<Connection from="4/gerek" to="5/mi"/>
+</Amr>

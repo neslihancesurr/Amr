@@ -1,0 +1,7 @@
+<Amr sentence="Zıplayıp uçmuştum .">
+<Word name="2/uç" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="2/uç" to="ben" with="ARG0"/>
+<Word name="1/zıpla" positionX="750" positionY="200"/>
+<Connection from="2/uç" to="1/zıpla"/>
+</Amr>

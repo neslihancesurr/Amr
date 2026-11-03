@@ -1,0 +1,11 @@
+<Amr sentence="bin sekiz yüz otuzlu yıllarda">
+<Word name="5/yıl:location" positionX="750" positionY="100"/>
+<Word name="4/otuz" positionX="650" positionY="200"/>
+<Connection from="5/yıl:location" to="4/otuz"/>
+<Word name="1/bin" positionX="550" positionY="300"/>
+<Connection from="4/otuz" to="1/bin"/>
+<Word name="2/sekiz" positionX="650" positionY="300"/>
+<Connection from="4/otuz" to="2/sekiz"/>
+<Word name="3/yüz" positionX="750" positionY="300"/>
+<Connection from="4/otuz" to="3/yüz"/>
+</Amr>

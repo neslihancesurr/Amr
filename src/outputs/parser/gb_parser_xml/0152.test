@@ -1,0 +1,5 @@
+<Amr sentence="Japon askerleri">
+<Word name="2/asker" positionX="750" positionY="100"/>
+<Word name="1/japon" positionX="650" positionY="200"/>
+<Connection from="2/asker" to="1/japon" with="mod"/>
+</Amr>

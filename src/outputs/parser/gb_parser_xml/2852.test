@@ -1,0 +1,9 @@
+<Amr sentence="Burada çok yağmur yağar .">
+<Word name="3/yağmur 4/yağ" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/yağmur 4/yağ" to="o" with="ARG0"/>
+<Word name="1/burada" positionX="750" positionY="200"/>
+<Connection from="3/yağmur 4/yağ" to="1/burada"/>
+<Word name="2/çok" positionX="850" positionY="200"/>
+<Connection from="3/yağmur 4/yağ" to="2/çok" with="degree"/>
+</Amr>

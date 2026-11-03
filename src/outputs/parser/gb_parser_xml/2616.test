@@ -1,0 +1,22 @@
+<Amr sentence="Ahmet mesajı bulup da anlamamış mı acaba ?">
+<Word name="5/anla" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/anla" to="-" with="polarity"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="5/anla" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ahmet" positionX="550" positionY="400"/>
+<Connection from="name" to="1/ahmet" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/bul" positionX="850" positionY="200"/>
+<Connection from="5/anla" to="3/bul"/>
+<Word name="2/mesaj" positionX="750" positionY="300"/>
+<Connection from="3/bul" to="2/mesaj" with="ARG1"/>
+<Word name="4/da" positionX="850" positionY="300"/>
+<Connection from="3/bul" to="4/da"/>
+<Word name="6/mi" positionX="950" positionY="200"/>
+<Connection from="5/anla" to="6/mi"/>
+<Word name="7/acaba" positionX="1050" positionY="200"/>
+<Connection from="5/anla" to="7/acaba" with="manner"/>
+</Amr>

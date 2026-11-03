@@ -1,0 +1,16 @@
+<Amr sentence="Kumar masasına oturdu mu paraya para demiyor .">
+<Word name="5/para 6/para 7/de" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/para 6/para 7/de" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="5/para 6/para 7/de" to="o" with="ARG0"/>
+<Word name="3/otur" positionX="850" positionY="200"/>
+<Connection from="5/para 6/para 7/de" to="3/otur"/>
+<Connection from="3/otur" to="o" with="ARG0"/>
+<Word name="2/masa" positionX="850" positionY="300"/>
+<Connection from="3/otur" to="2/masa" with="ARG1"/>
+<Word name="1/kumar" positionX="750" positionY="400"/>
+<Connection from="2/masa" to="1/kumar" with="mod"/>
+<Word name="4/mi" positionX="950" positionY="300"/>
+<Connection from="3/otur" to="4/mi"/>
+</Amr>

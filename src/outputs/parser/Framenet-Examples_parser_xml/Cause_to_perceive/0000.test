@@ -1,0 +1,15 @@
+<Amr sentence="Başına gelenler onu uyandırabildi .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="4/uyandır" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="4/uyandır"/>
+<Word name="2/gel" positionX="550" positionY="300"/>
+<Connection from="4/uyandır" to="2/gel" with="ARG0"/>
+<Word name="onlar" positionX="450" positionY="400"/>
+<Connection from="2/gel" to="onlar" with="ARG0"/>
+<Word name="1/baş" positionX="550" positionY="400"/>
+<Connection from="2/gel" to="1/baş"/>
+<Word name="o" positionX="450" positionY="500"/>
+<Connection from="1/baş" to="o" with="poss"/>
+<Word name="3/o" positionX="650" positionY="300"/>
+<Connection from="4/uyandır" to="3/o" with="ARG1"/>
+</Amr>

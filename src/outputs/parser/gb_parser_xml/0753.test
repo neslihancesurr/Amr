@@ -1,0 +1,7 @@
+<Amr sentence="kırk iki bin">
+<Word name="3/bin" positionX="750" positionY="100"/>
+<Word name="1/kırk" positionX="650" positionY="200"/>
+<Connection from="3/bin" to="1/kırk"/>
+<Word name="2/iki" positionX="750" positionY="200"/>
+<Connection from="3/bin" to="2/iki"/>
+</Amr>

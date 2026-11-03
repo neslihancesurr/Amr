@@ -1,0 +1,20 @@
+<Amr sentence="Filiz o gün oğluyla konuşamamıştı .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="5/konuş" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="5/konuş"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="5/konuş" to="-" with="polarity"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="5/konuş" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/filiz" positionX="450" positionY="500"/>
+<Connection from="name" to="1/filiz" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/gün" positionX="750" positionY="300"/>
+<Connection from="5/konuş" to="3/gün"/>
+<Word name="2/o" positionX="650" positionY="400"/>
+<Connection from="3/gün" to="2/o" with="mod"/>
+<Word name="4/oğul" positionX="850" positionY="300"/>
+<Connection from="5/konuş" to="4/oğul" with="instrument"/>
+</Amr>

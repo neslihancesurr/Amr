@@ -1,0 +1,29 @@
+<Amr sentence="Çiğdem Almanya'ya taşındığından beri ondan bir haber alamadım .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="7/haber 8/al" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="7/haber 8/al"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="7/haber 8/al" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="7/haber 8/al" to="ben" with="ARG0"/>
+<Word name="3/taşın" positionX="750" positionY="300"/>
+<Connection from="7/haber 8/al" to="3/taşın"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="3/taşın" to="o" with="poss"/>
+<Word name="person" positionX="750" positionY="400"/>
+<Connection from="3/taşın" to="person"/>
+<Word name="name" positionX="650" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/çiğdem" positionX="550" positionY="600"/>
+<Connection from="name" to="1/çiğdem" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="3/taşın" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/almanya" positionX="650" positionY="600"/>
+<Connection from="name" to="2/almanya" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/beri" positionX="950" positionY="400"/>
+<Connection from="3/taşın" to="4/beri"/>
+<Word name="5/o" positionX="850" positionY="300"/>
+<Connection from="7/haber 8/al" to="5/o"/>
+</Amr>

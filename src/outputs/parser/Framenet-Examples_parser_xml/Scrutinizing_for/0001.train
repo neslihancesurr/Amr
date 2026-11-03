@@ -1,0 +1,13 @@
+<Amr sentence="Polis uyuşturucuları bulmak için şüphelinin evinde arama yaptı .">
+<Word name="7/arama 8/yap" positionX="750" positionY="100"/>
+<Word name="1/polis" positionX="650" positionY="200"/>
+<Connection from="7/arama 8/yap" to="1/polis" with="ARG0"/>
+<Word name="3/bul" positionX="750" positionY="200"/>
+<Connection from="7/arama 8/yap" to="3/bul" with="cause"/>
+<Word name="2/uyuşturucu" positionX="650" positionY="300"/>
+<Connection from="3/bul" to="2/uyuşturucu" with="ARG1"/>
+<Word name="6/ev" positionX="850" positionY="200"/>
+<Connection from="7/arama 8/yap" to="6/ev" with="ARG2"/>
+<Word name="5/şüpheli" positionX="750" positionY="300"/>
+<Connection from="6/ev" to="5/şüpheli" with="mod"/>
+</Amr>

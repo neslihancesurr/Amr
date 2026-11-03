@@ -1,0 +1,17 @@
+<Amr sentence="Yaşlıların gençleri kıskanabileceklerini herkes bilir .">
+<Word name="5/bil" positionX="750" positionY="100"/>
+<Word name="mümkün" positionX="650" positionY="200"/>
+<Connection from="5/bil" to="mümkün"/>
+<Word name="3/kıskan" positionX="550" positionY="300"/>
+<Connection from="mümkün" to="3/kıskan" with="ARG1"/>
+<Word name="onlar" positionX="450" positionY="400"/>
+<Connection from="3/kıskan" to="onlar" with="ARG0"/>
+<Connection from="3/kıskan" to="onlar" with="poss"/>
+<Word name="1/yaşlı" positionX="650" positionY="400"/>
+<Connection from="3/kıskan" to="1/yaşlı"/>
+<Word name="2/genç" positionX="750" positionY="400"/>
+<Connection from="3/kıskan" to="2/genç"/>
+<Word name="4/herkes" positionX="750" positionY="200"/>
+<Connection from="5/bil" to="4/herkes" with="ARG0"/>
+<Connection from="4/herkes" to="onlar" with="poss"/>
+</Amr>

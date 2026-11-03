@@ -1,0 +1,12 @@
+<Amr sentence="Dersimi aldım , bir daha tekrarlamam .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/ders 2/al" positionX="650" positionY="200"/>
+<Connection from="and" to="1/ders 2/al" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="1/ders 2/al" to="ben" with="ARG0"/>
+<Word name="6/tekrarla" positionX="750" positionY="200"/>
+<Connection from="and" to="6/tekrarla" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="6/tekrarla" to="-" with="polarity"/>
+<Connection from="6/tekrarla" to="ben" with="ARG0"/>
+</Amr>

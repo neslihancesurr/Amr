@@ -1,0 +1,22 @@
+<Amr sentence="Bihter Behlül'le konuşurken her şeyin çok güzel olacağına dair ümit besliyordu .">
+<Word name="10/ümit 11/besle" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="10/ümit 11/besle" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/bihter" positionX="450" positionY="400"/>
+<Connection from="name" to="1/bihter" with="op1"/>
+<Word name="2/behlül" positionX="550" positionY="400"/>
+<Connection from="name" to="2/behlül" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/konuş" positionX="750" positionY="200"/>
+<Connection from="10/ümit 11/besle" to="3/konuş"/>
+<Word name="7/güzel 8/ol" positionX="850" positionY="200"/>
+<Connection from="10/ümit 11/besle" to="7/güzel 8/ol" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="7/güzel 8/ol" to="o" with="ARG0"/>
+<Connection from="7/güzel 8/ol" to="o" with="poss"/>
+<Word name="6/çok" positionX="950" positionY="300"/>
+<Connection from="7/güzel 8/ol" to="6/çok" with="degree"/>
+</Amr>

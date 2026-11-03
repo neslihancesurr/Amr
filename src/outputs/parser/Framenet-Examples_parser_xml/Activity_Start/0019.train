@@ -1,0 +1,17 @@
+<Amr sentence="Oturduğumuz yeter , artık biz de eyleme geçelim .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/yet" positionX="650" positionY="200"/>
+<Connection from="and" to="2/yet" with="op1"/>
+<Word name="1/otur" positionX="550" positionY="300"/>
+<Connection from="2/yet" to="1/otur" with="ARG0"/>
+<Word name="biz" positionX="450" positionY="400"/>
+<Connection from="1/otur" to="biz" with="ARG0"/>
+<Word name="7/eylem 8/geç" positionX="750" positionY="200"/>
+<Connection from="and" to="7/eylem 8/geç" with="op2"/>
+<Word name="4/artık" positionX="650" positionY="300"/>
+<Connection from="7/eylem 8/geç" to="4/artık" with="manner"/>
+<Word name="5/biz" positionX="750" positionY="300"/>
+<Connection from="7/eylem 8/geç" to="5/biz" with="ARG0"/>
+<Word name="6/de" positionX="650" positionY="400"/>
+<Connection from="5/biz" to="6/de" with="manner"/>
+</Amr>

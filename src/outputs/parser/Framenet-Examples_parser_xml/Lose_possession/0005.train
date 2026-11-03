@@ -1,0 +1,19 @@
+<Amr sentence="O treni kaçırdı çok zaman önce , artık elinden bir şey gelmez .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/tren 3/kaçır" positionX="650" positionY="200"/>
+<Connection from="and" to="2/tren 3/kaçır" with="op1"/>
+<Word name="1/o" positionX="550" positionY="300"/>
+<Connection from="2/tren 3/kaçır" to="1/o"/>
+<Word name="5/zaman" positionX="650" positionY="300"/>
+<Connection from="2/tren 3/kaçır" to="5/zaman" with="mod"/>
+<Word name="4/çok" positionX="550" positionY="400"/>
+<Connection from="5/zaman" to="4/çok" with="degree"/>
+<Word name="6/önce" positionX="650" positionY="400"/>
+<Connection from="5/zaman" to="6/önce"/>
+<Word name="9/el 10/bir 11/şey 12/gel" positionX="750" positionY="200"/>
+<Connection from="and" to="9/el 10/bir 11/şey 12/gel" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="9/el 10/bir 11/şey 12/gel" to="-" with="polarity"/>
+<Word name="8/artık" positionX="750" positionY="300"/>
+<Connection from="9/el 10/bir 11/şey 12/gel" to="8/artık" with="manner"/>
+</Amr>

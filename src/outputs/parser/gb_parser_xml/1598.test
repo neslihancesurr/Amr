@@ -1,0 +1,11 @@
+<Amr sentence="Bugün aile yapısı hızla değişmektedir .">
+<Word name="5/değiş" positionX="750" positionY="100"/>
+<Word name="1/bugün" positionX="650" positionY="200"/>
+<Connection from="5/değiş" to="1/bugün"/>
+<Word name="3/yapı" positionX="750" positionY="200"/>
+<Connection from="5/değiş" to="3/yapı" with="ARG0"/>
+<Word name="2/aile" positionX="650" positionY="300"/>
+<Connection from="3/yapı" to="2/aile" with="mod"/>
+<Word name="4/hızla" positionX="850" positionY="200"/>
+<Connection from="5/değiş" to="4/hızla"/>
+</Amr>

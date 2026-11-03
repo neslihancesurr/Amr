@@ -1,0 +1,28 @@
+<Amr sentence="Bunun üzerine Turgut elindeki bardağı duvara doğru fırlatmasın mı ?">
+<Word name="8/fırlat" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="8/fırlat" to="-" with="polarity"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="8/fırlat" to="imperative" with="mode"/>
+<Word name="2/üzerine" positionX="850" positionY="200"/>
+<Connection from="8/fırlat" to="2/üzerine"/>
+<Word name="1/bu" positionX="750" positionY="300"/>
+<Connection from="2/üzerine" to="1/bu" with="mod"/>
+<Word name="person" positionX="950" positionY="200"/>
+<Connection from="8/fırlat" to="person" with="ARG0"/>
+<Word name="name" positionX="850" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/turgut" positionX="750" positionY="400"/>
+<Connection from="name" to="3/turgut" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/bardak" positionX="1050" positionY="200"/>
+<Connection from="8/fırlat" to="5/bardak" with="ARG1"/>
+<Word name="4/el" positionX="950" positionY="300"/>
+<Connection from="5/bardak" to="4/el" with="mod"/>
+<Word name="6/duvar" positionX="1150" positionY="200"/>
+<Connection from="8/fırlat" to="6/duvar"/>
+<Word name="7/doğru" positionX="1050" positionY="300"/>
+<Connection from="6/duvar" to="7/doğru"/>
+<Word name="9/mi" positionX="1250" positionY="200"/>
+<Connection from="8/fırlat" to="9/mi"/>
+</Amr>

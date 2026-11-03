@@ -1,0 +1,19 @@
+<Amr sentence="Başta kamu işçileri olmak üzere bütün işçiler sıkıntıda .">
+<Word name="8/sıkıntı:location" positionX="750" positionY="100"/>
+<Word name="4/ol" positionX="650" positionY="200"/>
+<Connection from="8/sıkıntı:location" to="4/ol"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/ol" to="o" with="ARG0"/>
+<Word name="3/işçi" positionX="650" positionY="300"/>
+<Connection from="4/ol" to="3/işçi" with="mod"/>
+<Word name="1/başta" positionX="550" positionY="400"/>
+<Connection from="3/işçi" to="1/başta" with="manner"/>
+<Word name="2/kamu" positionX="650" positionY="400"/>
+<Connection from="3/işçi" to="2/kamu" with="mod"/>
+<Word name="5/üzere" positionX="750" positionY="300"/>
+<Connection from="4/ol" to="5/üzere"/>
+<Word name="7/işçi" positionX="750" positionY="200"/>
+<Connection from="8/sıkıntı:location" to="7/işçi"/>
+<Word name="6/bütün" positionX="650" positionY="300"/>
+<Connection from="7/işçi" to="6/bütün" with="mod"/>
+</Amr>

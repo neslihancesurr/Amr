@@ -1,0 +1,33 @@
+<Amr sentence="20 sene gece gündüz çalıştıysa da kıymetini bilemediler , o da şimdi görevinden ayrılacak .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="8/bil" positionX="650" positionY="200"/>
+<Connection from="and" to="8/bil" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="8/bil" to="-" with="polarity"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="8/bil" to="onlar" with="ARG0"/>
+<Word name="5/çalış" positionX="750" positionY="300"/>
+<Connection from="8/bil" to="5/çalış" with="cond"/>
+<Word name="2/sene 3/gece" positionX="650" positionY="400"/>
+<Connection from="5/çalış" to="2/sene 3/gece" with="mod"/>
+<Word name="1/20" positionX="550" positionY="500"/>
+<Connection from="2/sene 3/gece" to="1/20"/>
+<Word name="4/gündüz" positionX="750" positionY="400"/>
+<Connection from="5/çalış" to="4/gündüz" with="mod"/>
+<Word name="6/da" positionX="850" positionY="400"/>
+<Connection from="5/çalış" to="6/da"/>
+<Word name="7/kıymet" positionX="850" positionY="300"/>
+<Connection from="8/bil" to="7/kıymet"/>
+<Word name="o" positionX="750" positionY="400"/>
+<Connection from="7/kıymet" to="o" with="poss"/>
+<Word name="13/görev 14/ayrıl" positionX="750" positionY="200"/>
+<Connection from="and" to="13/görev 14/ayrıl" with="op2"/>
+<Word name="mümkün" positionX="650" positionY="300"/>
+<Connection from="13/görev 14/ayrıl" to="mümkün"/>
+<Word name="10/o" positionX="750" positionY="300"/>
+<Connection from="13/görev 14/ayrıl" to="10/o" with="ARG0"/>
+<Word name="11/da" positionX="650" positionY="400"/>
+<Connection from="10/o" to="11/da" with="manner"/>
+<Word name="12/şimdi" positionX="850" positionY="300"/>
+<Connection from="13/görev 14/ayrıl" to="12/şimdi" with="manner"/>
+</Amr>

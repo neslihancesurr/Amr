@@ -1,0 +1,11 @@
+<Amr sentence="Köprü evlerin önünden geçiyor .">
+<Word name="4/geç" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/geç" to="o" with="ARG0"/>
+<Word name="1/köprü" positionX="750" positionY="200"/>
+<Connection from="4/geç" to="1/köprü"/>
+<Word name="3/ön" positionX="850" positionY="200"/>
+<Connection from="4/geç" to="3/ön"/>
+<Word name="2/ev" positionX="750" positionY="300"/>
+<Connection from="3/ön" to="2/ev" with="mod"/>
+</Amr>

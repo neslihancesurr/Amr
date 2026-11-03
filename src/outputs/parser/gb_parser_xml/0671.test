@@ -1,0 +1,11 @@
+<Amr sentence="sorusu olan her öğrenci">
+<Word name="4/öğrenci" positionX="750" positionY="100"/>
+<Word name="2/ol" positionX="650" positionY="200"/>
+<Connection from="4/öğrenci" to="2/ol"/>
+<Word name="1/soru" positionX="550" positionY="300"/>
+<Connection from="2/ol" to="1/soru"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="1/soru" to="o" with="poss"/>
+<Word name="3/her" positionX="750" positionY="200"/>
+<Connection from="4/öğrenci" to="3/her" with="mod"/>
+</Amr>

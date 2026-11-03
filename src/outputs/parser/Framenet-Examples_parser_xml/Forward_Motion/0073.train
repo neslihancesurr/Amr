@@ -1,0 +1,9 @@
+<Amr sentence="Ateşin çevresinde dolandım .">
+<Word name="3/dolan" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/dolan" to="ben" with="ARG0"/>
+<Word name="2/çevre" positionX="750" positionY="200"/>
+<Connection from="3/dolan" to="2/çevre" with="ARG1"/>
+<Word name="1/ateş" positionX="650" positionY="300"/>
+<Connection from="2/çevre" to="1/ateş" with="mod"/>
+</Amr>

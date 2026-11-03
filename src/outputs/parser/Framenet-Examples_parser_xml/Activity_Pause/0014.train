@@ -1,0 +1,15 @@
+<Amr sentence="Adam aylarca projenin ikinci aşamasında kaldı .">
+<Word name="6/kal" positionX="750" positionY="100"/>
+<Word name="1/adam" positionX="650" positionY="200"/>
+<Connection from="6/kal" to="1/adam" with="ARG0"/>
+<Word name="2/aylarca" positionX="750" positionY="200"/>
+<Connection from="6/kal" to="2/aylarca" with="manner"/>
+<Word name="5/aşama" positionX="850" positionY="200"/>
+<Connection from="6/kal" to="5/aşama" with="ARG1"/>
+<Word name="3/proje" positionX="750" positionY="300"/>
+<Connection from="5/aşama" to="3/proje" with="mod"/>
+<Word name="ordinal-entity" positionX="850" positionY="300"/>
+<Connection from="5/aşama" to="ordinal-entity" with="ord"/>
+<Word name="2" positionX="750" positionY="400"/>
+<Connection from="ordinal-entity" to="2" with="value"/>
+</Amr>

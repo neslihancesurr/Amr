@@ -1,0 +1,13 @@
+<Amr sentence="Sınavın sessizliğinde karnım guruldadı .">
+<Word name="4/gurulda" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/gurulda" to="o" with="ARG0"/>
+<Word name="2/sessizlik" positionX="750" positionY="200"/>
+<Connection from="4/gurulda" to="2/sessizlik" with="location"/>
+<Word name="1/sınav" positionX="650" positionY="300"/>
+<Connection from="2/sessizlik" to="1/sınav" with="mod"/>
+<Word name="3/karın" positionX="850" positionY="200"/>
+<Connection from="4/gurulda" to="3/karın" with="ARG1"/>
+<Word name="ben" positionX="750" positionY="300"/>
+<Connection from="3/karın" to="ben" with="poss"/>
+</Amr>

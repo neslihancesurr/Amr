@@ -1,0 +1,9 @@
+<Amr sentence="her hızlı akan nehir">
+<Word name="4/nehir" positionX="750" positionY="100"/>
+<Word name="1/her" positionX="650" positionY="200"/>
+<Connection from="4/nehir" to="1/her" with="mod"/>
+<Word name="3/ak" positionX="750" positionY="200"/>
+<Connection from="4/nehir" to="3/ak"/>
+<Word name="2/hızlı" positionX="650" positionY="300"/>
+<Connection from="3/ak" to="2/hızlı" with="manner"/>
+</Amr>

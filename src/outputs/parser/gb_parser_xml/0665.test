@@ -1,0 +1,19 @@
+<Amr sentence="Güney Amerika ülkelerinden en çok Arjantin'le ticaret yapıyoruz .">
+<Word name="8/yap" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="8/yap" to="biz" with="ARG0"/>
+<Word name="4/en 5/çok" positionX="750" positionY="200"/>
+<Connection from="8/yap" to="4/en 5/çok" with="degree"/>
+<Word name="7/ticaret" positionX="850" positionY="200"/>
+<Connection from="8/yap" to="7/ticaret" with="ARG1"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="7/ticaret" to="person" with="instrument"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="6/arjantin" positionX="550" positionY="500"/>
+<Connection from="name" to="6/arjantin" with="op1"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="1/güney 2/amerika 3/ülke" positionX="850" positionY="400"/>
+<Connection from="person" to="1/güney 2/amerika 3/ülke" with="mod"/>
+</Amr>

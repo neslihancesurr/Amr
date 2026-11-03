@@ -1,0 +1,23 @@
+<Amr sentence="Özdemir'e bilgisayarımı kullanabileceğini söyledim .">
+<Word name="4/söyle" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/söyle" to="ben" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="4/söyle" to="person" with="ARG2"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/özdemir" positionX="550" positionY="400"/>
+<Connection from="name" to="1/özdemir" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="mümkün" positionX="850" positionY="200"/>
+<Connection from="4/söyle" to="mümkün"/>
+<Word name="3/kullan" positionX="750" positionY="300"/>
+<Connection from="mümkün" to="3/kullan" with="ARG1"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="3/kullan" to="o" with="ARG0"/>
+<Connection from="3/kullan" to="o" with="poss"/>
+<Word name="2/bilgisayar" positionX="850" positionY="400"/>
+<Connection from="3/kullan" to="2/bilgisayar" with="ARG1"/>
+<Connection from="2/bilgisayar" to="ben" with="poss"/>
+</Amr>

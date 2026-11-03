@@ -1,0 +1,11 @@
+<Amr sentence="Öğrencilerden kaçı derse girmemiş ?">
+<Word name="4/gir" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/gir" to="-" with="polarity"/>
+<Word name="2/kaçı" positionX="750" positionY="200"/>
+<Connection from="4/gir" to="2/kaçı"/>
+<Word name="1/öğrenci" positionX="650" positionY="300"/>
+<Connection from="2/kaçı" to="1/öğrenci"/>
+<Word name="3/ders" positionX="850" positionY="200"/>
+<Connection from="4/gir" to="3/ders" with="ARG1"/>
+</Amr>

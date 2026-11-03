@@ -1,0 +1,11 @@
+<Amr sentence="Bu makineler iyi kesmiyor .">
+<Word name="4/kes" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/kes" to="-" with="polarity"/>
+<Word name="2/makineler" positionX="750" positionY="200"/>
+<Connection from="4/kes" to="2/makineler" with="ARG0"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/makineler" to="1/bu" with="mod"/>
+<Word name="3/iyi" positionX="850" positionY="200"/>
+<Connection from="4/kes" to="3/iyi" with="manner"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Sekiz kuruşluk bir mal için benimle çekişe çekişe pazarlık edersin .">
+<Word name="7/çek 8/çek 9/pazarlık 10/et" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="7/çek 8/çek 9/pazarlık 10/et" to="sen" with="ARG0"/>
+<Word name="4/mal" positionX="750" positionY="200"/>
+<Connection from="7/çek 8/çek 9/pazarlık 10/et" to="4/mal" with="ARG1"/>
+<Word name="2/kuruşluk" positionX="650" positionY="300"/>
+<Connection from="4/mal" to="2/kuruşluk" with="mod"/>
+<Word name="1/sekiz" positionX="550" positionY="400"/>
+<Connection from="2/kuruşluk" to="1/sekiz"/>
+<Word name="5/için" positionX="750" positionY="300"/>
+<Connection from="4/mal" to="5/için"/>
+<Word name="6/ben" positionX="850" positionY="200"/>
+<Connection from="7/çek 8/çek 9/pazarlık 10/et" to="6/ben" with="ARG2"/>
+</Amr>

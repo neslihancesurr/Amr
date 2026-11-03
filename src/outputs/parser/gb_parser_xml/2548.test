@@ -1,0 +1,26 @@
+<Amr sentence="Ali o sırada burada idiyse neden ondan yardım istemedin ?">
+<Word name="9/iste" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="9/iste" to="-" with="polarity"/>
+<Word name="sen" positionX="750" positionY="200"/>
+<Connection from="9/iste" to="sen" with="ARG0"/>
+<Word name="5/i" positionX="850" positionY="200"/>
+<Connection from="9/iste" to="5/i" with="cond"/>
+<Word name="4/burada" positionX="750" positionY="300"/>
+<Connection from="5/i" to="4/burada" with="manner"/>
+<Word name="person" positionX="650" positionY="400"/>
+<Connection from="4/burada" to="person"/>
+<Word name="name" positionX="550" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ali" positionX="450" positionY="600"/>
+<Connection from="name" to="1/ali" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/o 3/sıra" positionX="750" positionY="400"/>
+<Connection from="4/burada" to="2/o 3/sıra" with="mod"/>
+<Word name="6/neden" positionX="950" positionY="200"/>
+<Connection from="9/iste" to="6/neden" with="manner"/>
+<Word name="7/o" positionX="1050" positionY="200"/>
+<Connection from="9/iste" to="7/o"/>
+<Word name="8/yardım" positionX="1150" positionY="200"/>
+<Connection from="9/iste" to="8/yardım"/>
+</Amr>

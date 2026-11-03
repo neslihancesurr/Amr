@@ -1,0 +1,23 @@
+<Amr sentence="Erkek arkadaşları ile sosyal nizam üzerinde sonu gelmeyen tartışmalara girişirdi .">
+<Word name="10/giriş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="10/giriş" to="o" with="ARG0"/>
+<Word name="2/arkadaş" positionX="750" positionY="200"/>
+<Connection from="10/giriş" to="2/arkadaş"/>
+<Word name="1/erkek" positionX="650" positionY="300"/>
+<Connection from="2/arkadaş" to="1/erkek" with="mod"/>
+<Word name="3/ile" positionX="750" positionY="300"/>
+<Connection from="2/arkadaş" to="3/ile"/>
+<Word name="9/tartışma" positionX="850" positionY="200"/>
+<Connection from="10/giriş" to="9/tartışma" with="ARG1"/>
+<Word name="6/üzerinde" positionX="750" positionY="300"/>
+<Connection from="9/tartışma" to="6/üzerinde" with="mod"/>
+<Word name="5/nizam" positionX="650" positionY="400"/>
+<Connection from="6/üzerinde" to="5/nizam" with="mod"/>
+<Word name="4/sosyal" positionX="550" positionY="500"/>
+<Connection from="5/nizam" to="4/sosyal" with="mod"/>
+<Word name="7/son 8/gel" positionX="850" positionY="300"/>
+<Connection from="9/tartışma" to="7/son 8/gel"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="7/son 8/gel" to="-" with="polarity"/>
+</Amr>

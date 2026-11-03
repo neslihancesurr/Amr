@@ -1,0 +1,11 @@
+<Amr sentence="Annemin isteğine uymadım .">
+<Word name="3/uy" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/uy" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="3/uy" to="ben" with="ARG0"/>
+<Word name="2/istek" positionX="850" positionY="200"/>
+<Connection from="3/uy" to="2/istek" with="ARG1"/>
+<Word name="1/anne" positionX="750" positionY="300"/>
+<Connection from="2/istek" to="1/anne" with="mod"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Onu iki sene daha o koşullara dayandırdı .">
+<Word name="7/dayandır" positionX="750" positionY="100"/>
+<Word name="1/o" positionX="650" positionY="200"/>
+<Connection from="7/dayandır" to="1/o" with="ARG1"/>
+<Word name="3/sene" positionX="750" positionY="200"/>
+<Connection from="7/dayandır" to="3/sene" with="mod"/>
+<Word name="2/iki" positionX="650" positionY="300"/>
+<Connection from="3/sene" to="2/iki"/>
+<Word name="4/daha" positionX="750" positionY="300"/>
+<Connection from="3/sene" to="4/daha" with="degree"/>
+<Word name="6/koşul" positionX="850" positionY="200"/>
+<Connection from="7/dayandır" to="6/koşul"/>
+<Word name="5/o" positionX="750" positionY="300"/>
+<Connection from="6/koşul" to="5/o" with="mod"/>
+</Amr>

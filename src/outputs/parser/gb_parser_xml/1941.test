@@ -1,0 +1,20 @@
+<Amr sentence="Neslihan elbiselerini üstüne denemeden alır .">
+<Word name="5/al" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="5/al" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/neslihan" positionX="450" positionY="400"/>
+<Connection from="name" to="1/neslihan" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/elbise" positionX="750" positionY="200"/>
+<Connection from="5/al" to="2/elbise" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/elbise" to="o" with="poss"/>
+<Word name="4/dene" positionX="850" positionY="200"/>
+<Connection from="5/al" to="4/dene"/>
+<Word name="3/üst" positionX="750" positionY="300"/>
+<Connection from="4/dene" to="3/üst"/>
+<Connection from="3/üst" to="o" with="poss"/>
+</Amr>

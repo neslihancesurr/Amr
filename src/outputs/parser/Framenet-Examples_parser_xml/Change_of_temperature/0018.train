@@ -1,0 +1,13 @@
+<Amr sentence="Üç günlük hastalıktan sonra ateşi düştü .">
+<Word name="5/ateş 6/düş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/ateş 6/düş" to="o" with="ARG0"/>
+<Word name="3/hastalık" positionX="750" positionY="200"/>
+<Connection from="5/ateş 6/düş" to="3/hastalık"/>
+<Word name="2/gün" positionX="650" positionY="300"/>
+<Connection from="3/hastalık" to="2/gün" with="mod"/>
+<Word name="1/üç" positionX="550" positionY="400"/>
+<Connection from="2/gün" to="1/üç"/>
+<Word name="4/sonra" positionX="750" positionY="300"/>
+<Connection from="3/hastalık" to="4/sonra"/>
+</Amr>

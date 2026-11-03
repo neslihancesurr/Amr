@@ -1,0 +1,11 @@
+<Amr sentence="Sınav sonuçları genç öğrenciyi bir hayli korkutuyordu .">
+<Word name="7/korkut" positionX="750" positionY="100"/>
+<Word name="2/sonuç" positionX="650" positionY="200"/>
+<Connection from="7/korkut" to="2/sonuç" with="ARG0"/>
+<Word name="1/sınav" positionX="550" positionY="300"/>
+<Connection from="2/sonuç" to="1/sınav" with="mod"/>
+<Word name="4/öğrenci" positionX="750" positionY="200"/>
+<Connection from="7/korkut" to="4/öğrenci" with="ARG1"/>
+<Word name="3/genç" positionX="650" positionY="300"/>
+<Connection from="4/öğrenci" to="3/genç" with="mod"/>
+</Amr>

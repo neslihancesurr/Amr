@@ -1,0 +1,9 @@
+<Amr sentence="Hayatından memnun görünüyor .">
+<Word name="3/görün" positionX="750" positionY="100"/>
+<Word name="2/memnun" positionX="650" positionY="200"/>
+<Connection from="3/görün" to="2/memnun"/>
+<Word name="1/hayat" positionX="550" positionY="300"/>
+<Connection from="2/memnun" to="1/hayat"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="1/hayat" to="o" with="poss"/>
+</Amr>

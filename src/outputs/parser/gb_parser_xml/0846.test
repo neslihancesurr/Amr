@@ -1,0 +1,11 @@
+<Amr sentence="Bu mektubu haftalarca beklemiştik .">
+<Word name="4/bekle" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="4/bekle" to="biz" with="ARG0"/>
+<Word name="2/mektup" positionX="750" positionY="200"/>
+<Connection from="4/bekle" to="2/mektup" with="ARG1"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/mektup" to="1/bu" with="mod"/>
+<Word name="3/haftalarca" positionX="850" positionY="200"/>
+<Connection from="4/bekle" to="3/haftalarca"/>
+</Amr>

@@ -1,0 +1,14 @@
+<Amr sentence="İşim erken bitince toplantıyı öne aldım .">
+<Word name="5/ön 6/al" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/ön 6/al" to="ben" with="ARG0"/>
+<Word name="3/bit" positionX="750" positionY="200"/>
+<Connection from="5/ön 6/al" to="3/bit"/>
+<Word name="1/iş" positionX="650" positionY="300"/>
+<Connection from="3/bit" to="1/iş"/>
+<Connection from="1/iş" to="ben" with="poss"/>
+<Word name="2/erken" positionX="750" positionY="300"/>
+<Connection from="3/bit" to="2/erken" with="manner"/>
+<Word name="4/toplantı" positionX="850" positionY="200"/>
+<Connection from="5/ön 6/al" to="4/toplantı" with="ARG1"/>
+</Amr>

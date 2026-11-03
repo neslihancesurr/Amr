@@ -1,0 +1,13 @@
+<Amr sentence="Bütün gıda ürünlerinin fiyatı fırlamış .">
+<Word name="5/fırla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/fırla" to="o" with="ARG0"/>
+<Word name="4/fiyat" positionX="750" positionY="200"/>
+<Connection from="5/fırla" to="4/fiyat" with="ARG1"/>
+<Word name="3/ürün" positionX="650" positionY="300"/>
+<Connection from="4/fiyat" to="3/ürün" with="mod"/>
+<Word name="1/bütün" positionX="550" positionY="400"/>
+<Connection from="3/ürün" to="1/bütün" with="mod"/>
+<Word name="2/gıda" positionX="650" positionY="400"/>
+<Connection from="3/ürün" to="2/gıda" with="mod"/>
+</Amr>

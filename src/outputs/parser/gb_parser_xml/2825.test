@@ -1,0 +1,17 @@
+<Amr sentence="Esra'nın anne ve babası">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/baba" positionX="650" positionY="200"/>
+<Connection from="and" to="4/baba" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/baba" to="o" with="poss"/>
+<Word name="2/anne" positionX="750" positionY="200"/>
+<Connection from="and" to="2/anne" with="op2"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="2/anne" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/esra" positionX="450" positionY="500"/>
+<Connection from="name" to="1/esra" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

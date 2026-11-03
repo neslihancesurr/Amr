@@ -1,0 +1,25 @@
+<Amr sentence="Ertan'ı neden bu kadar beğendiğini anlayamıyorum .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="6/anla" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="6/anla"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="6/anla" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="6/anla" to="ben" with="ARG0"/>
+<Word name="5/beğen" positionX="750" positionY="300"/>
+<Connection from="6/anla" to="5/beğen"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="5/beğen" to="o" with="ARG0"/>
+<Connection from="5/beğen" to="o" with="poss"/>
+<Word name="person" positionX="850" positionY="400"/>
+<Connection from="5/beğen" to="person"/>
+<Word name="name" positionX="750" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ertan" positionX="650" positionY="600"/>
+<Connection from="name" to="1/ertan" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/neden" positionX="950" positionY="400"/>
+<Connection from="5/beğen" to="2/neden" with="manner"/>
+<Word name="3/bu 4/kadar" positionX="1050" positionY="400"/>
+<Connection from="5/beğen" to="3/bu 4/kadar" with="extent"/>
+</Amr>

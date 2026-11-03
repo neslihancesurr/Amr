@@ -1,0 +1,7 @@
+<Amr sentence="Misafir mi gelecek ?">
+<Word name="3/gel" positionX="750" positionY="100"/>
+<Word name="1/misafir" positionX="650" positionY="200"/>
+<Connection from="3/gel" to="1/misafir" with="ARG0"/>
+<Word name="2/mi" positionX="550" positionY="300"/>
+<Connection from="1/misafir" to="2/mi"/>
+</Amr>

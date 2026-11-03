@@ -1,0 +1,25 @@
+<Amr sentence="O evde kaldığım sürece kimse benimle tek kelime konuşmadı .">
+<Word name="9/konuş" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="9/konuş" to="-" with="polarity"/>
+<Word name="4/süreç" positionX="750" positionY="200"/>
+<Connection from="9/konuş" to="4/süreç"/>
+<Word name="3/kal" positionX="650" positionY="300"/>
+<Connection from="4/süreç" to="3/kal"/>
+<Word name="ben" positionX="550" positionY="400"/>
+<Connection from="3/kal" to="ben" with="poss"/>
+<Word name="2/ev" positionX="650" positionY="400"/>
+<Connection from="3/kal" to="2/ev" with="ARG1"/>
+<Word name="1/o" positionX="550" positionY="500"/>
+<Connection from="2/ev" to="1/o" with="mod"/>
+<Word name="5/kimse" positionX="850" positionY="200"/>
+<Connection from="9/konuş" to="5/kimse" with="ARG0"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="5/kimse" to="o" with="poss"/>
+<Word name="6/ben" positionX="950" positionY="200"/>
+<Connection from="9/konuş" to="6/ben" with="instrument"/>
+<Word name="8/kelime" positionX="1050" positionY="200"/>
+<Connection from="9/konuş" to="8/kelime" with="ARG1"/>
+<Word name="7/tek" positionX="950" positionY="300"/>
+<Connection from="8/kelime" to="7/tek" with="mod"/>
+</Amr>

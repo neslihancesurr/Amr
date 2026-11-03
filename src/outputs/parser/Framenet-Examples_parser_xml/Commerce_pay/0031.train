@@ -1,0 +1,13 @@
+<Amr sentence="Niye her yıl sonu ulufe dağıtıyorsun ?">
+<Word name="5/ulufe 6/dağıt" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="5/ulufe 6/dağıt" to="sen" with="ARG0"/>
+<Word name="1/niye" positionX="750" positionY="200"/>
+<Connection from="5/ulufe 6/dağıt" to="1/niye" with="manner"/>
+<Word name="4/son" positionX="850" positionY="200"/>
+<Connection from="5/ulufe 6/dağıt" to="4/son" with="mod"/>
+<Word name="2/her" positionX="750" positionY="300"/>
+<Connection from="4/son" to="2/her" with="mod"/>
+<Word name="3/yıl" positionX="850" positionY="300"/>
+<Connection from="4/son" to="3/yıl" with="mod"/>
+</Amr>

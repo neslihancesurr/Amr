@@ -1,0 +1,17 @@
+<Amr sentence="Sen ne kadar çabalarsan çabala , bu düzen böyle süregelmiş , böyle süregidecek .">
+<Word name="13/süregidecek" positionX="750" positionY="100"/>
+<Word name="4/çabala 5/çabala" positionX="650" positionY="200"/>
+<Connection from="13/süregidecek" to="4/çabala 5/çabala" with="cond"/>
+<Word name="imperative" positionX="550" positionY="300"/>
+<Connection from="4/çabala 5/çabala" to="imperative" with="mode"/>
+<Word name="10/süregel" positionX="750" positionY="200"/>
+<Connection from="13/süregidecek" to="10/süregel"/>
+<Word name="8/düzen" positionX="650" positionY="300"/>
+<Connection from="10/süregel" to="8/düzen" with="ARG0"/>
+<Word name="7/bu" positionX="550" positionY="400"/>
+<Connection from="8/düzen" to="7/bu" with="mod"/>
+<Word name="9/böyle" positionX="750" positionY="300"/>
+<Connection from="10/süregel" to="9/böyle" with="manner"/>
+<Word name="12/böyle" positionX="850" positionY="200"/>
+<Connection from="13/süregidecek" to="12/böyle" with="manner"/>
+</Amr>

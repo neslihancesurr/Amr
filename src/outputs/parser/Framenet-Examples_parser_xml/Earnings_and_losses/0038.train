@@ -1,0 +1,16 @@
+<Amr sentence="Başı daraldı , gelip benden para istedi .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/baş 2/daral" positionX="650" positionY="200"/>
+<Connection from="and" to="1/baş 2/daral" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/baş 2/daral" to="o" with="ARG0"/>
+<Word name="7/iste" positionX="750" positionY="200"/>
+<Connection from="and" to="7/iste" with="op2"/>
+<Connection from="7/iste" to="o" with="ARG0"/>
+<Word name="4/gel" positionX="750" positionY="300"/>
+<Connection from="7/iste" to="4/gel"/>
+<Word name="5/ben" positionX="850" positionY="300"/>
+<Connection from="7/iste" to="5/ben" with="ARG2"/>
+<Word name="6/para" positionX="950" positionY="300"/>
+<Connection from="7/iste" to="6/para" with="ARG1"/>
+</Amr>

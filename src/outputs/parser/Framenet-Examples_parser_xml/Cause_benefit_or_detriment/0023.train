@@ -1,0 +1,14 @@
+<Amr sentence="Ona en sevdiği kolyesini verdi .">
+<Word name="5/ver" positionX="750" positionY="100"/>
+<Word name="1/o" positionX="650" positionY="200"/>
+<Connection from="5/ver" to="1/o" with="ARG2"/>
+<Word name="4/kolye" positionX="750" positionY="200"/>
+<Connection from="5/ver" to="4/kolye" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="4/kolye" to="o" with="poss"/>
+<Word name="3/sev" positionX="750" positionY="300"/>
+<Connection from="4/kolye" to="3/sev"/>
+<Connection from="3/sev" to="o" with="poss"/>
+<Word name="2/en" positionX="750" positionY="400"/>
+<Connection from="3/sev" to="2/en" with="manner"/>
+</Amr>

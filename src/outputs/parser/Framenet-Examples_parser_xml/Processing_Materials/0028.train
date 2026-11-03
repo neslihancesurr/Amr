@@ -1,0 +1,13 @@
+<Amr sentence="Buradaki her eşya altınla kaplandı .">
+<Word name="5/kapla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/kapla" to="o" with="ARG0"/>
+<Word name="3/eşya" positionX="750" positionY="200"/>
+<Connection from="5/kapla" to="3/eşya" with="ARG1"/>
+<Word name="1/bura" positionX="650" positionY="300"/>
+<Connection from="3/eşya" to="1/bura" with="mod"/>
+<Word name="2/her" positionX="750" positionY="300"/>
+<Connection from="3/eşya" to="2/her" with="mod"/>
+<Word name="4/altın" positionX="850" positionY="200"/>
+<Connection from="5/kapla" to="4/altın" with="instrument"/>
+</Amr>

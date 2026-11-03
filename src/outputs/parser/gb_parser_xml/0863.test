@@ -1,0 +1,11 @@
+<Amr sentence="Çocuğa fazla sert davranıyor .">
+<Word name="4/davran" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/davran" to="o" with="ARG0"/>
+<Word name="1/çocuk" positionX="750" positionY="200"/>
+<Connection from="4/davran" to="1/çocuk" with="ARG2"/>
+<Word name="3/sert" positionX="850" positionY="200"/>
+<Connection from="4/davran" to="3/sert" with="ARG1"/>
+<Word name="2/fazla" positionX="750" positionY="300"/>
+<Connection from="3/sert" to="2/fazla" with="degree"/>
+</Amr>

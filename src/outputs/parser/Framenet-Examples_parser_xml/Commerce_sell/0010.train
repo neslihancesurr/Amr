@@ -1,0 +1,11 @@
+<Amr sentence="Senedi kırdırtmak zorunda kaldık .">
+<Word name="3/zor 4/kal" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="3/zor 4/kal" to="biz" with="ARG0"/>
+<Word name="2/kırdırt" positionX="750" positionY="200"/>
+<Connection from="3/zor 4/kal" to="2/kırdırt" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/kırdırt" to="o" with="ARG0"/>
+<Word name="1/senet" positionX="750" positionY="300"/>
+<Connection from="2/kırdırt" to="1/senet" with="ARG1"/>
+</Amr>

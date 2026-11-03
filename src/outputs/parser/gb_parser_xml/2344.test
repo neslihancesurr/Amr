@@ -1,0 +1,32 @@
+<Amr sentence="Ahmet'ler gelinceye kadar , ki geç gelebilirlermiş , çıkmayız .">
+<Word name="9/çık" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="9/çık" to="-" with="polarity"/>
+<Word name="biz" positionX="750" positionY="200"/>
+<Connection from="9/çık" to="biz" with="ARG0"/>
+<Word name="and" positionX="850" positionY="200"/>
+<Connection from="9/çık" to="and"/>
+<Word name="7/gel" positionX="750" positionY="300"/>
+<Connection from="and" to="7/gel" with="op1"/>
+<Word name="onlar" positionX="650" positionY="400"/>
+<Connection from="7/gel" to="onlar" with="ARG0"/>
+<Word name="5/ki" positionX="750" positionY="400"/>
+<Connection from="7/gel" to="5/ki"/>
+<Word name="6/geç" positionX="850" positionY="400"/>
+<Connection from="7/gel" to="6/geç" with="manner"/>
+<Word name="2/gel" positionX="850" positionY="300"/>
+<Connection from="and" to="2/gel" with="op2"/>
+<Word name="o" positionX="750" positionY="400"/>
+<Connection from="2/gel" to="o" with="ARG0"/>
+<Word name="person" positionX="850" positionY="400"/>
+<Connection from="2/gel" to="person"/>
+<Word name="name" positionX="750" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ahmet" positionX="650" positionY="600"/>
+<Connection from="name" to="1/ahmet" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/kadar" positionX="950" positionY="400"/>
+<Connection from="2/gel" to="3/kadar"/>
+<Word name="mümkün" positionX="1050" positionY="400"/>
+<Connection from="2/gel" to="mümkün"/>
+</Amr>

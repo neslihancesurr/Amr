@@ -1,0 +1,11 @@
+<Amr sentence="Hiç kimseye söylemem .">
+<Word name="3/söyle" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/söyle" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="3/söyle" to="ben" with="ARG0"/>
+<Word name="1/hiç 2/kimse" positionX="850" positionY="200"/>
+<Connection from="3/söyle" to="1/hiç 2/kimse"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="1/hiç 2/kimse" to="o" with="poss"/>
+</Amr>

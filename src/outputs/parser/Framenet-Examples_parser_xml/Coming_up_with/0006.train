@@ -1,0 +1,5 @@
+<Amr sentence="Erler onu da yakalamanın kolayını bulmuşlardı .">
+<Word name="5/kolay 6/bul" positionX="750" positionY="100"/>
+<Word name="1/er" positionX="650" positionY="200"/>
+<Connection from="5/kolay 6/bul" to="1/er" with="ARG0"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr sentence="Seni bu görevden affettik .">
+<Word name="4/affet" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="4/affet" to="biz" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="4/affet" to="person" with="ARG1"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/seni" positionX="550" positionY="400"/>
+<Connection from="name" to="1/seni" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/görev" positionX="850" positionY="200"/>
+<Connection from="4/affet" to="3/görev"/>
+<Word name="2/bu" positionX="750" positionY="300"/>
+<Connection from="3/görev" to="2/bu" with="mod"/>
+</Amr>

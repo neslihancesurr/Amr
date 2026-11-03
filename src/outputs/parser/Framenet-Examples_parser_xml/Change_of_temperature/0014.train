@@ -1,0 +1,12 @@
+<Amr sentence="Bahar geldi , cemre düştü .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/gel" positionX="650" positionY="200"/>
+<Connection from="and" to="2/gel" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/gel" to="o" with="ARG0"/>
+<Word name="1/bahar" positionX="650" positionY="300"/>
+<Connection from="2/gel" to="1/bahar" with="ARG1"/>
+<Word name="4/cemre 5/düş" positionX="750" positionY="200"/>
+<Connection from="and" to="4/cemre 5/düş" with="op2"/>
+<Connection from="4/cemre 5/düş" to="o" with="ARG0"/>
+</Amr>

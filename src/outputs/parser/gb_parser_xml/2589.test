@@ -1,0 +1,22 @@
+<Amr sentence="Bu konuda ne kadar iyi bir kitap yazsan meşhur olamayacaksın .">
+<Word name="9/meşhur 10/ol" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="9/meşhur 10/ol" to="-" with="polarity"/>
+<Word name="sen" positionX="750" positionY="200"/>
+<Connection from="9/meşhur 10/ol" to="sen" with="ARG0"/>
+<Word name="8/yaz" positionX="850" positionY="200"/>
+<Connection from="9/meşhur 10/ol" to="8/yaz" with="cond"/>
+<Connection from="8/yaz" to="sen" with="ARG0"/>
+<Word name="2/konu" positionX="850" positionY="300"/>
+<Connection from="8/yaz" to="2/konu" with="location"/>
+<Word name="1/bu" positionX="750" positionY="400"/>
+<Connection from="2/konu" to="1/bu" with="mod"/>
+<Word name="7/kitap" positionX="950" positionY="300"/>
+<Connection from="8/yaz" to="7/kitap" with="ARG1"/>
+<Word name="5/iyi" positionX="850" positionY="400"/>
+<Connection from="7/kitap" to="5/iyi" with="mod"/>
+<Word name="3/ne" positionX="750" positionY="500"/>
+<Connection from="5/iyi" to="3/ne" with="mod"/>
+<Word name="4/kadar" positionX="650" positionY="600"/>
+<Connection from="3/ne" to="4/kadar"/>
+</Amr>

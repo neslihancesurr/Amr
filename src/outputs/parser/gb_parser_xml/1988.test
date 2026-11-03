@@ -1,0 +1,23 @@
+<Amr sentence="Üniversiteye girdiği yıl bilmiyordu hiç İngilizce .">
+<Word name="4/bil" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/bil" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="4/bil" to="o" with="ARG0"/>
+<Word name="3/yıl" positionX="850" positionY="200"/>
+<Connection from="4/bil" to="3/yıl"/>
+<Word name="2/gir" positionX="750" positionY="300"/>
+<Connection from="3/yıl" to="2/gir"/>
+<Connection from="2/gir" to="o" with="poss"/>
+<Word name="1/üniversite" positionX="750" positionY="400"/>
+<Connection from="2/gir" to="1/üniversite"/>
+<Word name="5/hiç" positionX="950" positionY="200"/>
+<Connection from="4/bil" to="5/hiç" with="degree"/>
+<Word name="person" positionX="1050" positionY="200"/>
+<Connection from="4/bil" to="person" with="ARG1"/>
+<Word name="name" positionX="950" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="6/ingilizce" positionX="850" positionY="400"/>
+<Connection from="name" to="6/ingilizce" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

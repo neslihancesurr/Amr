@@ -1,0 +1,9 @@
+<Amr sentence="- Hani alışverişe gidecektin ?">
+<Word name="4/git" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="4/git" to="sen" with="ARG0"/>
+<Word name="2/hani" positionX="750" positionY="200"/>
+<Connection from="4/git" to="2/hani" with="manner"/>
+<Word name="3/alışveriş" positionX="850" positionY="200"/>
+<Connection from="4/git" to="3/alışveriş" with="ARG1"/>
+</Amr>

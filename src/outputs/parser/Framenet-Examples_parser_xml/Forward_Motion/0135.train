@@ -1,0 +1,15 @@
+<Amr sentence="Kıştan kurtulur kurtulmaz deniz kenarları insanla dolar .">
+<Word name="7/dol" positionX="750" positionY="100"/>
+<Word name="2/kurtul 3/kurtul" positionX="650" positionY="200"/>
+<Connection from="7/dol" to="2/kurtul 3/kurtul"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="2/kurtul 3/kurtul" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/kurtul 3/kurtul" to="o" with="ARG0"/>
+<Word name="5/kenar" positionX="750" positionY="200"/>
+<Connection from="7/dol" to="5/kenar" with="ARG1"/>
+<Word name="4/deniz" positionX="650" positionY="300"/>
+<Connection from="5/kenar" to="4/deniz" with="mod"/>
+<Word name="6/insan" positionX="850" positionY="200"/>
+<Connection from="7/dol" to="6/insan" with="ARG0"/>
+</Amr>

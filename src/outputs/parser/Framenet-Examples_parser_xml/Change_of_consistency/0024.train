@@ -1,0 +1,11 @@
+<Amr sentence="Yaprakların üzerindeki damlacıklar kristalleniyor .">
+<Word name="4/kristallen" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/kristallen" to="o" with="ARG0"/>
+<Word name="3/damlacık" positionX="750" positionY="200"/>
+<Connection from="4/kristallen" to="3/damlacık" with="ARG1"/>
+<Word name="2/üzeri" positionX="650" positionY="300"/>
+<Connection from="3/damlacık" to="2/üzeri" with="mod"/>
+<Word name="1/yaprak" positionX="550" positionY="400"/>
+<Connection from="2/üzeri" to="1/yaprak" with="mod"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Kahvaltı masasını önceden hazırladı .">
+<Word name="4/hazırla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/hazırla" to="o" with="ARG0"/>
+<Word name="1/kahvaltı 2/masa" positionX="750" positionY="200"/>
+<Connection from="4/hazırla" to="1/kahvaltı 2/masa" with="ARG1"/>
+<Word name="3/önceden" positionX="850" positionY="200"/>
+<Connection from="4/hazırla" to="3/önceden" with="manner"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Ona kumaşları dümdüz ettirdiler .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="4/et" positionX="650" positionY="200"/>
+<Connection from="yap" to="4/et"/>
+<Word name="onlar" positionX="550" positionY="300"/>
+<Connection from="4/et" to="onlar" with="ARG0"/>
+<Word name="1/o" positionX="650" positionY="300"/>
+<Connection from="4/et" to="1/o" with="ARG2"/>
+<Word name="2/kumaş" positionX="750" positionY="300"/>
+<Connection from="4/et" to="2/kumaş" with="ARG1"/>
+<Word name="3/dümdüz" positionX="850" positionY="300"/>
+<Connection from="4/et" to="3/dümdüz" with="manner"/>
+</Amr>

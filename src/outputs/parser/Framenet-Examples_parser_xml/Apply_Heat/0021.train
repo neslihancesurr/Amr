@@ -1,0 +1,14 @@
+<Amr sentence="Demlenmiş çayı ısınsın diye ateşe tuttu .">
+<Word name="5/ateş 6/tut" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/ateş 6/tut" to="o" with="ARG0"/>
+<Word name="2/çay" positionX="750" positionY="200"/>
+<Connection from="5/ateş 6/tut" to="2/çay" with="ARG1"/>
+<Connection from="2/çay" to="o" with="poss"/>
+<Word name="1/demlen" positionX="750" positionY="300"/>
+<Connection from="2/çay" to="1/demlen"/>
+<Word name="3/ısın" positionX="850" positionY="200"/>
+<Connection from="5/ateş 6/tut" to="3/ısın"/>
+<Word name="4/diye" positionX="750" positionY="300"/>
+<Connection from="3/ısın" to="4/diye"/>
+</Amr>

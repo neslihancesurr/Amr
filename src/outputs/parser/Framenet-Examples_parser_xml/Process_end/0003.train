@@ -1,0 +1,17 @@
+<Amr sentence="Geçirmiş olduğum elim sergüzeşt ve sefalet nihayete erdi .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="7/nihayet 8/er" positionX="650" positionY="200"/>
+<Connection from="and" to="7/nihayet 8/er" with="op1"/>
+<Word name="6/sefalet" positionX="550" positionY="300"/>
+<Connection from="7/nihayet 8/er" to="6/sefalet" with="ARG0"/>
+<Word name="4/sergüzeşt" positionX="750" positionY="200"/>
+<Connection from="and" to="4/sergüzeşt" with="op2"/>
+<Word name="3/elim" positionX="650" positionY="300"/>
+<Connection from="4/sergüzeşt" to="3/elim"/>
+<Word name="2/ol" positionX="550" positionY="400"/>
+<Connection from="3/elim" to="2/ol"/>
+<Word name="ben" positionX="450" positionY="500"/>
+<Connection from="2/ol" to="ben" with="ARG0"/>
+<Word name="1/geçir" positionX="550" positionY="500"/>
+<Connection from="2/ol" to="1/geçir"/>
+</Amr>

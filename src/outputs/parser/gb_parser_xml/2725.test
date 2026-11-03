@@ -1,0 +1,26 @@
+<Amr sentence="Annem Afrika'yı , özellikle güney Afrika'yı çok seviyor .">
+<Word name="8/sev" positionX="750" positionY="100"/>
+<Word name="1/anne" positionX="650" positionY="200"/>
+<Connection from="8/sev" to="1/anne" with="ARG0"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="1/anne" to="ben" with="poss"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="8/sev" to="person" with="ARG1"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/afrika" positionX="550" positionY="400"/>
+<Connection from="name" to="2/afrika" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="person" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="6/afrika" positionX="650" positionY="500"/>
+<Connection from="name" to="6/afrika" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/özellikle" positionX="950" positionY="400"/>
+<Connection from="person" to="4/özellikle" with="manner"/>
+<Word name="5/güney" positionX="1050" positionY="400"/>
+<Connection from="person" to="5/güney" with="mod"/>
+<Word name="7/çok" positionX="850" positionY="200"/>
+<Connection from="8/sev" to="7/çok" with="degree"/>
+</Amr>

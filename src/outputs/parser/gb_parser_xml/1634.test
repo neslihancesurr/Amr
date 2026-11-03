@@ -1,0 +1,14 @@
+<Amr sentence="En ucuzu bu oluyor galiba .">
+<Word name="4/ol:ARG1" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/ol:ARG1" to="o" with="ARG0"/>
+<Word name="2/ucuz" positionX="750" positionY="200"/>
+<Connection from="4/ol:ARG1" to="2/ucuz"/>
+<Connection from="2/ucuz" to="o" with="poss"/>
+<Word name="1/en" positionX="750" positionY="300"/>
+<Connection from="2/ucuz" to="1/en" with="manner"/>
+<Word name="3/bu" positionX="850" positionY="200"/>
+<Connection from="4/ol:ARG1" to="3/bu" with="mod"/>
+<Word name="5/galiba" positionX="950" positionY="200"/>
+<Connection from="4/ol:ARG1" to="5/galiba" with="manner"/>
+</Amr>

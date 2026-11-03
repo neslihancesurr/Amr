@@ -1,0 +1,9 @@
+<Amr sentence="Doktor bana ilaç yazmadı .">
+<Word name="3/ilaç 4/yaz" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/ilaç 4/yaz" to="-" with="polarity"/>
+<Word name="1/doktor" positionX="750" positionY="200"/>
+<Connection from="3/ilaç 4/yaz" to="1/doktor" with="ARG0"/>
+<Word name="2/ben" positionX="850" positionY="200"/>
+<Connection from="3/ilaç 4/yaz" to="2/ben" with="ARG1"/>
+</Amr>

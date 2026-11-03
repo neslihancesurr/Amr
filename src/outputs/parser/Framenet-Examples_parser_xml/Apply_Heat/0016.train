@@ -1,0 +1,14 @@
+<Amr sentence="Odun ocağında mısırları üttü .">
+<Word name="4/üt" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/üt" to="o" with="ARG0"/>
+<Word name="date-entity" positionX="750" positionY="200"/>
+<Connection from="4/üt" to="date-entity" with="date"/>
+<Word name="2/ocak" positionX="650" positionY="300"/>
+<Connection from="date-entity" to="2/ocak" with="month"/>
+<Word name="1/odun" positionX="750" positionY="300"/>
+<Connection from="date-entity" to="1/odun"/>
+<Word name="3/mısır" positionX="850" positionY="200"/>
+<Connection from="4/üt" to="3/mısır" with="ARG1"/>
+<Connection from="3/mısır" to="o" with="poss"/>
+</Amr>

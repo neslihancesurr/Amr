@@ -1,0 +1,11 @@
+<Amr sentence="Kıyafetlerin fiyatını daha da düşürmüş .">
+<Word name="5/düşür" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/düşür" to="o" with="ARG0"/>
+<Word name="2/fiyat" positionX="750" positionY="200"/>
+<Connection from="5/düşür" to="2/fiyat" with="ARG1"/>
+<Word name="1/kıyafet" positionX="650" positionY="300"/>
+<Connection from="2/fiyat" to="1/kıyafet" with="mod"/>
+<Word name="3/daha 4/da" positionX="850" positionY="200"/>
+<Connection from="5/düşür" to="3/daha 4/da" with="manner"/>
+</Amr>

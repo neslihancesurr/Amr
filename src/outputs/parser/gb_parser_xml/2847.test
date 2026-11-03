@@ -1,0 +1,17 @@
+<Amr sentence="Cep telefonlarının kullanımı uçağın iletişim sistemini kötü yönde etkilemektedir .">
+<Word name="9/etkile" positionX="750" positionY="100"/>
+<Word name="3/kullanım" positionX="650" positionY="200"/>
+<Connection from="9/etkile" to="3/kullanım" with="ARG0"/>
+<Word name="1/cep 2/telefon" positionX="550" positionY="300"/>
+<Connection from="3/kullanım" to="1/cep 2/telefon" with="mod"/>
+<Word name="6/sistem" positionX="750" positionY="200"/>
+<Connection from="9/etkile" to="6/sistem" with="ARG1"/>
+<Word name="4/uçak" positionX="650" positionY="300"/>
+<Connection from="6/sistem" to="4/uçak" with="mod"/>
+<Word name="5/iletişim" positionX="750" positionY="300"/>
+<Connection from="6/sistem" to="5/iletişim" with="mod"/>
+<Word name="8/yön" positionX="850" positionY="200"/>
+<Connection from="9/etkile" to="8/yön" with="location"/>
+<Word name="7/kötü" positionX="750" positionY="300"/>
+<Connection from="8/yön" to="7/kötü" with="mod"/>
+</Amr>

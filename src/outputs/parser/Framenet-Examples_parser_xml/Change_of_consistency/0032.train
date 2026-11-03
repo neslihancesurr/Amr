@@ -1,0 +1,9 @@
+<Amr sentence="Kaynaya kaynaya sos pelteleşti .">
+<Word name="4/pelteleş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/pelteleş" to="o" with="ARG0"/>
+<Word name="1/kayna 2/kayna" positionX="750" positionY="200"/>
+<Connection from="4/pelteleş" to="1/kayna 2/kayna"/>
+<Word name="3/sos" positionX="850" positionY="200"/>
+<Connection from="4/pelteleş" to="3/sos" with="ARG1"/>
+</Amr>

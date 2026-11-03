@@ -1,0 +1,9 @@
+<Amr sentence="Onlar benden evvel gelmişler .">
+<Word name="4/gel" positionX="750" positionY="100"/>
+<Word name="1/o" positionX="650" positionY="200"/>
+<Connection from="4/gel" to="1/o" with="ARG0"/>
+<Word name="2/ben" positionX="750" positionY="200"/>
+<Connection from="4/gel" to="2/ben"/>
+<Word name="3/evvel" positionX="650" positionY="300"/>
+<Connection from="2/ben" to="3/evvel"/>
+</Amr>

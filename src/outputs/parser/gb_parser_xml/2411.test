@@ -1,0 +1,15 @@
+<Amr sentence="- Fatma'yla konuşacak mısın ?">
+<Word name="3/konuş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/konuş" to="o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="3/konuş" to="person" with="instrument"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/fatma" positionX="550" positionY="400"/>
+<Connection from="name" to="2/fatma" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/mi" positionX="850" positionY="200"/>
+<Connection from="3/konuş" to="4/mi"/>
+</Amr>

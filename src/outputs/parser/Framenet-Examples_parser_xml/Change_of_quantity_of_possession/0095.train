@@ -1,0 +1,7 @@
+<Amr sentence="Mezun olduktan sonra , meslek edindi .">
+<Word name="5/meslek 6/edin" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/meslek 6/edin" to="o" with="ARG0"/>
+<Word name="1/mezun 2/ol" positionX="750" positionY="200"/>
+<Connection from="5/meslek 6/edin" to="1/mezun 2/ol" with="mod"/>
+</Amr>

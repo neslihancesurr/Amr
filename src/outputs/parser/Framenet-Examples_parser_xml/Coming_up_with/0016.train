@@ -1,0 +1,14 @@
+<Amr sentence="Can sıkıntısından evde yeni yeni işler icat ediyordu .">
+<Word name="7/icat 8/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/icat 8/et" to="o" with="ARG0"/>
+<Word name="1/can 2/sıkıntı" positionX="750" positionY="200"/>
+<Connection from="7/icat 8/et" to="1/can 2/sıkıntı"/>
+<Connection from="1/can 2/sıkıntı" to="o" with="poss"/>
+<Word name="3/ev" positionX="850" positionY="200"/>
+<Connection from="7/icat 8/et" to="3/ev" with="location"/>
+<Word name="6/iş" positionX="950" positionY="200"/>
+<Connection from="7/icat 8/et" to="6/iş" with="ARG1"/>
+<Word name="4/yeni 5/yeni" positionX="850" positionY="300"/>
+<Connection from="6/iş" to="4/yeni 5/yeni"/>
+</Amr>

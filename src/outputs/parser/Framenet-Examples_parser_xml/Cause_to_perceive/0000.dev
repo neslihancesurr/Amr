@@ -1,0 +1,9 @@
+<Amr sentence="Müziğe piyano katarak ahenk verdi .">
+<Word name="4/ahenk 5/ver" positionX="750" positionY="100"/>
+<Word name="3/kat" positionX="650" positionY="200"/>
+<Connection from="4/ahenk 5/ver" to="3/kat"/>
+<Word name="1/müzik" positionX="550" positionY="300"/>
+<Connection from="3/kat" to="1/müzik"/>
+<Word name="2/piyano" positionX="650" positionY="300"/>
+<Connection from="3/kat" to="2/piyano"/>
+</Amr>

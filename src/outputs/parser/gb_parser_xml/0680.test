@@ -1,0 +1,7 @@
+<Amr sentence="evin önündeki arabalar">
+<Word name="3/araba" positionX="750" positionY="100"/>
+<Word name="2/ön" positionX="650" positionY="200"/>
+<Connection from="3/araba" to="2/ön" with="mod"/>
+<Word name="1/ev" positionX="550" positionY="300"/>
+<Connection from="2/ön" to="1/ev" with="mod"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Yakın felaketleri önlemeliyiz .">
+<Word name="gerek" positionX="750" positionY="100"/>
+<Word name="3/önle" positionX="650" positionY="200"/>
+<Connection from="gerek" to="3/önle"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="3/önle" to="biz" with="ARG0"/>
+<Word name="2/felaket" positionX="650" positionY="300"/>
+<Connection from="3/önle" to="2/felaket" with="ARG1"/>
+<Word name="1/yakın" positionX="550" positionY="400"/>
+<Connection from="2/felaket" to="1/yakın" with="mod"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Babasının karşısında yüz sürdü .">
+<Word name="3/yüz 4/sür" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/yüz 4/sür" to="o" with="ARG0"/>
+<Word name="2/karşı" positionX="750" positionY="200"/>
+<Connection from="3/yüz 4/sür" to="2/karşı" with="location"/>
+<Word name="1/baba" positionX="650" positionY="300"/>
+<Connection from="2/karşı" to="1/baba" with="mod"/>
+</Amr>

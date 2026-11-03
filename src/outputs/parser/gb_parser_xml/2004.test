@@ -1,0 +1,16 @@
+<Amr sentence="Ahmet Semra'yı hiç aramıyormuş .">
+<Word name="4/ara" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/ara" to="-" with="polarity"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="4/ara" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ahmet" positionX="550" positionY="400"/>
+<Connection from="name" to="1/ahmet" with="op1"/>
+<Word name="2/semra" positionX="650" positionY="400"/>
+<Connection from="name" to="2/semra" with="op2"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/hiç" positionX="850" positionY="200"/>
+<Connection from="4/ara" to="3/hiç" with="degree"/>
+</Amr>

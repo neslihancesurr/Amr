@@ -1,0 +1,17 @@
+<Amr sentence="Cefakar kadın , bir çuval kömürü bir hafta yetirdi .">
+<Word name="9/yetir" positionX="750" positionY="100"/>
+<Word name="2/kadın" positionX="650" positionY="200"/>
+<Connection from="9/yetir" to="2/kadın" with="ARG0"/>
+<Word name="1/cefakar" positionX="550" positionY="300"/>
+<Connection from="2/kadın" to="1/cefakar" with="mod"/>
+<Word name="6/kömür" positionX="750" positionY="200"/>
+<Connection from="9/yetir" to="6/kömür" with="ARG1"/>
+<Word name="5/çuval" positionX="650" positionY="300"/>
+<Connection from="6/kömür" to="5/çuval" with="mod"/>
+<Word name="4/bir" positionX="550" positionY="400"/>
+<Connection from="5/çuval" to="4/bir"/>
+<Word name="8/hafta" positionX="850" positionY="200"/>
+<Connection from="9/yetir" to="8/hafta" with="mod"/>
+<Word name="7/bir" positionX="750" positionY="300"/>
+<Connection from="8/hafta" to="7/bir"/>
+</Amr>

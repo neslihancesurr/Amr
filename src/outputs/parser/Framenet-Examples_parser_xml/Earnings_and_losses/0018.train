@@ -1,0 +1,9 @@
+<Amr sentence="Köpekler için defter açtılar .">
+<Word name="3/defter 4/aç" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="3/defter 4/aç" to="onlar" with="ARG0"/>
+<Word name="1/köpek" positionX="750" positionY="200"/>
+<Connection from="3/defter 4/aç" to="1/köpek" with="ARG2"/>
+<Word name="2/için" positionX="650" positionY="300"/>
+<Connection from="1/köpek" to="2/için"/>
+</Amr>

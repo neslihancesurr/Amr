@@ -1,0 +1,9 @@
+<Amr sentence="Marketten süt aldım .">
+<Word name="3/al" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/al" to="ben" with="ARG0"/>
+<Word name="1/market" positionX="750" positionY="200"/>
+<Connection from="3/al" to="1/market" with="ARG2"/>
+<Word name="2/süt" positionX="850" positionY="200"/>
+<Connection from="3/al" to="2/süt" with="ARG1"/>
+</Amr>

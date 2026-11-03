@@ -1,0 +1,34 @@
+<Amr sentence="Dünya'dan Atatürk'ler , Nehru'lar geçmeseydi şimdiye kadar ne hale gelirdik .">
+<Word name="10/gel" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="10/gel" to="biz" with="ARG0"/>
+<Word name="5/geç" positionX="750" positionY="200"/>
+<Connection from="10/gel" to="5/geç" with="cond"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="5/geç" to="-" with="polarity"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="5/geç" to="person"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/dünya" positionX="550" positionY="500"/>
+<Connection from="name" to="1/dünya" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="and" positionX="850" positionY="300"/>
+<Connection from="5/geç" to="and"/>
+<Connection from="and" to="person" with="ARG0"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="4/nehru" positionX="550" positionY="600"/>
+<Connection from="name" to="4/nehru" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="and" to="person" with="ARG0"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/atatürk" positionX="650" positionY="600"/>
+<Connection from="name" to="2/atatürk" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="6/şimdi 7/kadar" positionX="850" positionY="200"/>
+<Connection from="10/gel" to="6/şimdi 7/kadar" with="extent"/>
+<Word name="9/hal" positionX="950" positionY="200"/>
+<Connection from="10/gel" to="9/hal"/>
+<Word name="8/ne" positionX="850" positionY="300"/>
+<Connection from="9/hal" to="8/ne" with="mod"/>
+</Amr>

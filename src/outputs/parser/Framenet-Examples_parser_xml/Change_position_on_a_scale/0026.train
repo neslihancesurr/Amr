@@ -1,0 +1,13 @@
+<Amr sentence="Salgından sonra işler pek kesatlaştı .">
+<Word name="5/kesatlaş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/kesatlaş" to="o" with="ARG0"/>
+<Word name="1/salgın" positionX="750" positionY="200"/>
+<Connection from="5/kesatlaş" to="1/salgın"/>
+<Word name="2/sonra" positionX="650" positionY="300"/>
+<Connection from="1/salgın" to="2/sonra"/>
+<Word name="3/iş" positionX="850" positionY="200"/>
+<Connection from="5/kesatlaş" to="3/iş" with="ARG1"/>
+<Word name="4/pek" positionX="950" positionY="200"/>
+<Connection from="5/kesatlaş" to="4/pek" with="manner"/>
+</Amr>

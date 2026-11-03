@@ -1,0 +1,25 @@
+<Amr sentence="Dediğim şu ki , bu tip boyalar ancak dış yüzeylerde kullanılabiliyor .">
+<Word name="2/şu" positionX="750" positionY="100"/>
+<Word name="1/de" positionX="650" positionY="200"/>
+<Connection from="2/şu" to="1/de"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="1/de" to="ben" with="poss"/>
+<Word name="mümkün" positionX="750" positionY="200"/>
+<Connection from="2/şu" to="mümkün"/>
+<Word name="11/kullanıl" positionX="650" positionY="300"/>
+<Connection from="mümkün" to="11/kullanıl"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="11/kullanıl" to="o" with="ARG0"/>
+<Word name="3/ki" positionX="650" positionY="400"/>
+<Connection from="11/kullanıl" to="3/ki"/>
+<Word name="7/boya" positionX="750" positionY="400"/>
+<Connection from="11/kullanıl" to="7/boya"/>
+<Word name="6/tip" positionX="650" positionY="500"/>
+<Connection from="7/boya" to="6/tip" with="mod"/>
+<Word name="5/bu" positionX="550" positionY="600"/>
+<Connection from="6/tip" to="5/bu" with="mod"/>
+<Word name="8/ancak" positionX="850" positionY="400"/>
+<Connection from="11/kullanıl" to="8/ancak" with="manner"/>
+<Word name="9/dış 10/yüzey" positionX="950" positionY="400"/>
+<Connection from="11/kullanıl" to="9/dış 10/yüzey" with="mod"/>
+</Amr>

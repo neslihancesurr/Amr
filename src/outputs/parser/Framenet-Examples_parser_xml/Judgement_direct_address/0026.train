@@ -1,0 +1,20 @@
+<Amr sentence="Olanları duyunca Tevfik'e ağzını açıp gözünü yummuştu .">
+<Word name="4/ağız 5/aç 6/göz 7/yum" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/ağız 5/aç 6/göz 7/yum" to="o" with="ARG0"/>
+<Word name="2/duy" positionX="750" positionY="200"/>
+<Connection from="4/ağız 5/aç 6/göz 7/yum" to="2/duy"/>
+<Word name="1/ol" positionX="650" positionY="300"/>
+<Connection from="2/duy" to="1/ol"/>
+<Word name="onlar" positionX="550" positionY="400"/>
+<Connection from="1/ol" to="onlar" with="ARG0"/>
+<Connection from="1/ol" to="o" with="poss"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="4/ağız 5/aç 6/göz 7/yum" to="person" with="ARG1"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/tevfik" positionX="650" positionY="400"/>
+<Connection from="name" to="3/tevfik" with="op1"/>
+<Word name="-" positionX="850" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Bu ilaçlar piyasadan kaldırıldı .">
+<Word name="4/kaldır" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/kaldır" to="o" with="ARG0"/>
+<Word name="3/piyasa" positionX="750" positionY="200"/>
+<Connection from="4/kaldır" to="3/piyasa"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="3/piyasa" to="1/bu"/>
+<Word name="2/ilaç" positionX="750" positionY="300"/>
+<Connection from="3/piyasa" to="2/ilaç"/>
+</Amr>

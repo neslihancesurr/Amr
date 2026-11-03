@@ -1,0 +1,12 @@
+<Amr sentence="Salona girdiğimde kardeşim uzun oturuyordu .">
+<Word name="4/uzun 5/otur" positionX="750" positionY="100"/>
+<Word name="2/gir" positionX="650" positionY="200"/>
+<Connection from="4/uzun 5/otur" to="2/gir"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="2/gir" to="ben" with="ARG0"/>
+<Word name="1/salon" positionX="650" positionY="300"/>
+<Connection from="2/gir" to="1/salon" with="ARG1"/>
+<Word name="3/kardeş" positionX="750" positionY="200"/>
+<Connection from="4/uzun 5/otur" to="3/kardeş" with="ARG0"/>
+<Connection from="3/kardeş" to="ben" with="poss"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Sen yürüyedur , ben sana yetişirim .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/yürü" positionX="650" positionY="200"/>
+<Connection from="and" to="2/yürü" with="op1"/>
+<Word name="imperative" positionX="550" positionY="300"/>
+<Connection from="2/yürü" to="imperative" with="mode"/>
+<Word name="1/sen" positionX="650" positionY="300"/>
+<Connection from="2/yürü" to="1/sen" with="ARG0"/>
+<Word name="6/yetiş" positionX="750" positionY="200"/>
+<Connection from="and" to="6/yetiş" with="op2"/>
+<Word name="4/ben" positionX="650" positionY="300"/>
+<Connection from="6/yetiş" to="4/ben" with="ARG0"/>
+<Word name="5/sen" positionX="750" positionY="300"/>
+<Connection from="6/yetiş" to="5/sen" with="ARG1"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Gemi baş döndüren zaferli bir gürültüyle indi sulara ...">
+<Word name="7/in" positionX="750" positionY="100"/>
+<Word name="1/gemi" positionX="650" positionY="200"/>
+<Connection from="7/in" to="1/gemi" with="ARG0"/>
+<Word name="6/gürültü" positionX="750" positionY="200"/>
+<Connection from="7/in" to="6/gürültü" with="instrument"/>
+<Word name="2/baş 3/döndür" positionX="650" positionY="300"/>
+<Connection from="6/gürültü" to="2/baş 3/döndür"/>
+<Word name="4/zafer" positionX="750" positionY="300"/>
+<Connection from="6/gürültü" to="4/zafer" with="mod"/>
+<Word name="8/su" positionX="850" positionY="200"/>
+<Connection from="7/in" to="8/su"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Kiminiz burada değildiniz .">
+<Word name="2/burada" positionX="750" positionY="100"/>
+<Word name="1/kimi" positionX="650" positionY="200"/>
+<Connection from="2/burada" to="1/kimi"/>
+<Word name="siz" positionX="550" positionY="300"/>
+<Connection from="1/kimi" to="siz" with="poss"/>
+<Word name="-" positionX="750" positionY="200"/>
+<Connection from="2/burada" to="-" with="polarity"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Dahası tatillerde bile ders çalıştı .">
+<Word name="4/ders 5/çalış" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/ders 5/çalış" to="o" with="ARG0"/>
+<Word name="1/dahası" positionX="750" positionY="200"/>
+<Connection from="4/ders 5/çalış" to="1/dahası" with="mod"/>
+<Word name="2/tatil" positionX="850" positionY="200"/>
+<Connection from="4/ders 5/çalış" to="2/tatil" with="location"/>
+<Word name="3/bile" positionX="750" positionY="300"/>
+<Connection from="2/tatil" to="3/bile"/>
+</Amr>

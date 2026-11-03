@@ -1,0 +1,15 @@
+<Amr sentence="Nikâhtan bu kadar keramet umut etme !">
+<Word name="5/umut 6/et" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/umut 6/et" to="-" with="polarity"/>
+<Word name="sen" positionX="750" positionY="200"/>
+<Connection from="5/umut 6/et" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="850" positionY="200"/>
+<Connection from="5/umut 6/et" to="imperative" with="mode"/>
+<Word name="1/nikâh" positionX="950" positionY="200"/>
+<Connection from="5/umut 6/et" to="1/nikâh"/>
+<Word name="4/keramet" positionX="1050" positionY="200"/>
+<Connection from="5/umut 6/et" to="4/keramet" with="ARG1"/>
+<Word name="2/bu 3/kadar" positionX="950" positionY="300"/>
+<Connection from="4/keramet" to="2/bu 3/kadar"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Her cuma burada basketbol oynarız .">
+<Word name="5/oyna" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/oyna" to="biz" with="ARG0"/>
+<Word name="date-entity" positionX="750" positionY="200"/>
+<Connection from="5/oyna" to="date-entity" with="date"/>
+<Word name="2/cuma" positionX="650" positionY="300"/>
+<Connection from="date-entity" to="2/cuma" with="weekday"/>
+<Word name="1/her" positionX="750" positionY="300"/>
+<Connection from="date-entity" to="1/her" with="mod"/>
+<Word name="3/burada" positionX="850" positionY="200"/>
+<Connection from="5/oyna" to="3/burada" with="manner"/>
+<Word name="4/basketbol" positionX="950" positionY="200"/>
+<Connection from="5/oyna" to="4/basketbol" with="ARG1"/>
+</Amr>

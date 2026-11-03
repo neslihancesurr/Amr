@@ -1,0 +1,17 @@
+<Amr sentence="Sıcak havalar yüzünden son zamanlarda işler yavaş gidiyor .">
+<Word name="8/git" positionX="750" positionY="100"/>
+<Word name="3/yüzünden" positionX="650" positionY="200"/>
+<Connection from="8/git" to="3/yüzünden"/>
+<Word name="2/hava" positionX="550" positionY="300"/>
+<Connection from="3/yüzünden" to="2/hava" with="mod"/>
+<Word name="1/sıcak" positionX="450" positionY="400"/>
+<Connection from="2/hava" to="1/sıcak" with="mod"/>
+<Word name="5/zaman" positionX="750" positionY="200"/>
+<Connection from="8/git" to="5/zaman" with="location"/>
+<Word name="4/son" positionX="650" positionY="300"/>
+<Connection from="5/zaman" to="4/son" with="mod"/>
+<Word name="6/işler" positionX="850" positionY="200"/>
+<Connection from="8/git" to="6/işler" with="ARG0"/>
+<Word name="7/yavaş" positionX="950" positionY="200"/>
+<Connection from="8/git" to="7/yavaş" with="manner"/>
+</Amr>

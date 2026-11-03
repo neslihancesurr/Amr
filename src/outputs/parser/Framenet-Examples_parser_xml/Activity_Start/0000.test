@@ -1,0 +1,12 @@
+<Amr sentence="Naneleri kurutmaya tevessül edecekti .">
+<Word name="3/tevessül 4/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/tevessül 4/et" to="o" with="ARG0"/>
+<Word name="yap" positionX="750" positionY="200"/>
+<Connection from="3/tevessül 4/et" to="yap"/>
+<Word name="2/kuru" positionX="650" positionY="300"/>
+<Connection from="yap" to="2/kuru" with="ARG1"/>
+<Connection from="2/kuru" to="o" with="ARG0"/>
+<Word name="1/nane" positionX="650" positionY="400"/>
+<Connection from="2/kuru" to="1/nane" with="ARG1"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Yaşananlardan sonra büyük erozyona uğramıştım .">
+<Word name="4/erozyon 5/uğra" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/erozyon 5/uğra" to="ben" with="ARG0"/>
+<Word name="1/yaşa" positionX="750" positionY="200"/>
+<Connection from="4/erozyon 5/uğra" to="1/yaşa"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="1/yaşa" to="onlar" with="ARG0"/>
+<Word name="2/sonra" positionX="750" positionY="300"/>
+<Connection from="1/yaşa" to="2/sonra"/>
+</Amr>

@@ -1,0 +1,16 @@
+<Amr sentence="Öyle bir göçtü ki sandalyeye kırıldı .">
+<Word name="6/kır" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/kır" to="o" with="ARG0"/>
+<Word name="3/göç" positionX="750" positionY="200"/>
+<Connection from="6/kır" to="3/göç"/>
+<Connection from="3/göç" to="o" with="ARG0"/>
+<Word name="1/öyle" positionX="750" positionY="300"/>
+<Connection from="3/göç" to="1/öyle" with="manner"/>
+<Word name="2/bir" positionX="650" positionY="400"/>
+<Connection from="1/öyle" to="2/bir"/>
+<Word name="4/ki" positionX="850" positionY="300"/>
+<Connection from="3/göç" to="4/ki"/>
+<Word name="5/sandalye" positionX="950" positionY="300"/>
+<Connection from="3/göç" to="5/sandalye"/>
+</Amr>

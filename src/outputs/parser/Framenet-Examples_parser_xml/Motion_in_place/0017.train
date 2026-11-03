@@ -1,0 +1,9 @@
+<Amr sentence="Kadın birden silkinerek gözlerini açıyor .">
+<Word name="4/göz 5/aç" positionX="750" positionY="100"/>
+<Word name="1/kadın" positionX="650" positionY="200"/>
+<Connection from="4/göz 5/aç" to="1/kadın" with="ARG0"/>
+<Word name="2/birden" positionX="750" positionY="200"/>
+<Connection from="4/göz 5/aç" to="2/birden" with="manner"/>
+<Word name="3/silkin" positionX="850" positionY="200"/>
+<Connection from="4/göz 5/aç" to="3/silkin"/>
+</Amr>

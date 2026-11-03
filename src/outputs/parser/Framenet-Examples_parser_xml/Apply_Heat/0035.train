@@ -1,0 +1,15 @@
+<Amr sentence="Yemeğin yanına patates de kızart .">
+<Word name="5/kızart" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="5/kızart" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="5/kızart" to="imperative" with="mode"/>
+<Word name="2/yan" positionX="850" positionY="200"/>
+<Connection from="5/kızart" to="2/yan" with="mod"/>
+<Word name="1/yemek" positionX="750" positionY="300"/>
+<Connection from="2/yan" to="1/yemek" with="mod"/>
+<Word name="3/patates" positionX="950" positionY="200"/>
+<Connection from="5/kızart" to="3/patates" with="ARG1"/>
+<Word name="4/de" positionX="850" positionY="300"/>
+<Connection from="3/patates" to="4/de" with="manner"/>
+</Amr>

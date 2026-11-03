@@ -1,0 +1,15 @@
+<Amr sentence="Aramızdan birkaç kişi geziden memnun kalmadı .">
+<Word name="5/memnun 6/kal" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/memnun 6/kal" to="-" with="polarity"/>
+<Word name="3/kişi" positionX="750" positionY="200"/>
+<Connection from="5/memnun 6/kal" to="3/kişi" with="ARG0"/>
+<Word name="1/ara" positionX="650" positionY="300"/>
+<Connection from="3/kişi" to="1/ara"/>
+<Word name="biz" positionX="550" positionY="400"/>
+<Connection from="1/ara" to="biz" with="poss"/>
+<Word name="2/birkaç" positionX="750" positionY="300"/>
+<Connection from="3/kişi" to="2/birkaç" with="mod"/>
+<Word name="4/gezi" positionX="850" positionY="200"/>
+<Connection from="5/memnun 6/kal" to="4/gezi" with="ARG1"/>
+</Amr>

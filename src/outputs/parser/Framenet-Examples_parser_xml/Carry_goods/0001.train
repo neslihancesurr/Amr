@@ -1,0 +1,17 @@
+<Amr sentence="Her milletten alıcı için her şey bulundururlar orada .">
+<Word name="7/bulundur" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="7/bulundur" to="onlar" with="ARG0"/>
+<Word name="3/alıcı" positionX="750" positionY="200"/>
+<Connection from="7/bulundur" to="3/alıcı" with="cause"/>
+<Word name="2/millet" positionX="650" positionY="300"/>
+<Connection from="3/alıcı" to="2/millet" with="mod"/>
+<Word name="1/her" positionX="550" positionY="400"/>
+<Connection from="2/millet" to="1/her" with="mod"/>
+<Word name="6/şey" positionX="850" positionY="200"/>
+<Connection from="7/bulundur" to="6/şey" with="ARG1"/>
+<Word name="5/her" positionX="750" positionY="300"/>
+<Connection from="6/şey" to="5/her" with="mod"/>
+<Word name="8/orada" positionX="950" positionY="200"/>
+<Connection from="7/bulundur" to="8/orada"/>
+</Amr>

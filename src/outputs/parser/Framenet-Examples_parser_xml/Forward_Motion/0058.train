@@ -1,0 +1,19 @@
+<Amr sentence="Cebimde para yoktu , ben de eve doğru taban patlattım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/yok" positionX="650" positionY="200"/>
+<Connection from="and" to="3/yok" with="op1"/>
+<Word name="1/cep" positionX="550" positionY="300"/>
+<Connection from="3/yok" to="1/cep" with="location"/>
+<Word name="2/para" positionX="650" positionY="300"/>
+<Connection from="3/yok" to="2/para"/>
+<Word name="9/taban 10/patlat" positionX="750" positionY="200"/>
+<Connection from="and" to="9/taban 10/patlat" with="op2"/>
+<Word name="5/ben" positionX="650" positionY="300"/>
+<Connection from="9/taban 10/patlat" to="5/ben" with="ARG0"/>
+<Word name="6/de" positionX="550" positionY="400"/>
+<Connection from="5/ben" to="6/de" with="manner"/>
+<Word name="7/ev" positionX="750" positionY="300"/>
+<Connection from="9/taban 10/patlat" to="7/ev" with="ARG1"/>
+<Word name="8/doğru" positionX="650" positionY="400"/>
+<Connection from="7/ev" to="8/doğru"/>
+</Amr>

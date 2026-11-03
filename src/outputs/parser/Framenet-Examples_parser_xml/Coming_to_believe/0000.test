@@ -1,0 +1,13 @@
+<Amr sentence="Köylüler olacakları bir bir tayin etti .">
+<Word name="5/tayin 6/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/tayin 6/et" to="o" with="ARG0"/>
+<Word name="1/köylü" positionX="750" positionY="200"/>
+<Connection from="5/tayin 6/et" to="1/köylü"/>
+<Word name="2/ol" positionX="850" positionY="200"/>
+<Connection from="5/tayin 6/et" to="2/ol"/>
+<Word name="onlar" positionX="750" positionY="300"/>
+<Connection from="2/ol" to="onlar" with="ARG0"/>
+<Word name="3/bir 4/bir" positionX="950" positionY="200"/>
+<Connection from="5/tayin 6/et" to="3/bir 4/bir"/>
+</Amr>

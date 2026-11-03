@@ -1,0 +1,29 @@
+<Amr sentence="Madem ki göndermişler , onlardan kısaca da olsa söz açalım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/gönder" positionX="650" positionY="200"/>
+<Connection from="and" to="3/gönder" with="op1"/>
+<Word name="onlar" positionX="550" positionY="300"/>
+<Connection from="3/gönder" to="onlar" with="ARG0"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="3/gönder" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/Madem" positionX="450" positionY="500"/>
+<Connection from="name" to="1/Madem" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/ki" positionX="750" positionY="400"/>
+<Connection from="person" to="2/ki"/>
+<Word name="9/söz 10/aç" positionX="750" positionY="200"/>
+<Connection from="and" to="9/söz 10/aç" with="op2"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="9/söz 10/aç" to="biz" with="ARG0"/>
+<Word name="5/o" positionX="750" positionY="300"/>
+<Connection from="9/söz 10/aç" to="5/o" with="ARG1"/>
+<Word name="8/ol" positionX="850" positionY="300"/>
+<Connection from="9/söz 10/aç" to="8/ol"/>
+<Word name="6/kısa" positionX="750" positionY="400"/>
+<Connection from="8/ol" to="6/kısa" with="manner"/>
+<Word name="7/da" positionX="650" positionY="500"/>
+<Connection from="6/kısa" to="7/da" with="manner"/>
+</Amr>

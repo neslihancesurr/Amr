@@ -1,0 +1,9 @@
+<Amr sentence="Annem biraz rahatsız .">
+<Word name="3/rahatsız" positionX="750" positionY="100"/>
+<Word name="1/anne" positionX="650" positionY="200"/>
+<Connection from="3/rahatsız" to="1/anne"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="1/anne" to="ben" with="poss"/>
+<Word name="2/biraz" positionX="750" positionY="200"/>
+<Connection from="3/rahatsız" to="2/biraz" with="manner"/>
+</Amr>

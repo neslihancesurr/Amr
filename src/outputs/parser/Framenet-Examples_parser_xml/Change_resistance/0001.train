@@ -1,0 +1,20 @@
+<Amr sentence="Ağaç devrilmek üzereydi , altını besleyerek güçlendirdiler .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/üzere" positionX="650" positionY="200"/>
+<Connection from="and" to="3/üzere" with="op1"/>
+<Word name="2/devir" positionX="550" positionY="300"/>
+<Connection from="3/üzere" to="2/devir"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="2/devir" to="o" with="ARG0"/>
+<Word name="1/ağaç" positionX="550" positionY="400"/>
+<Connection from="2/devir" to="1/ağaç" with="ARG1"/>
+<Word name="7/güçlendir" positionX="750" positionY="200"/>
+<Connection from="and" to="7/güçlendir" with="op2"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="7/güçlendir" to="onlar" with="ARG0"/>
+<Word name="6/besle" positionX="750" positionY="300"/>
+<Connection from="7/güçlendir" to="6/besle"/>
+<Word name="5/alt" positionX="650" positionY="400"/>
+<Connection from="6/besle" to="5/alt" with="ARG1"/>
+<Connection from="5/alt" to="o" with="poss"/>
+</Amr>

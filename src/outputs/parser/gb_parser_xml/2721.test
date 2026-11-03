@@ -1,0 +1,27 @@
+<Amr sentence="Yok hava kötüymüş , yok parası yetmezmiş , yok vakti yokmuş ...">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="7/yet" positionX="650" positionY="200"/>
+<Connection from="and" to="7/yet" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="7/yet" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="7/yet" to="o" with="ARG0"/>
+<Word name="5/yok" positionX="750" positionY="300"/>
+<Connection from="7/yet" to="5/yok"/>
+<Word name="6/para" positionX="850" positionY="300"/>
+<Connection from="7/yet" to="6/para"/>
+<Connection from="6/para" to="o" with="poss"/>
+<Word name="11/yok" positionX="750" positionY="200"/>
+<Connection from="and" to="11/yok" with="op2"/>
+<Word name="9/yok" positionX="650" positionY="300"/>
+<Connection from="11/yok" to="9/yok"/>
+<Word name="10/vakit" positionX="750" positionY="300"/>
+<Connection from="11/yok" to="10/vakit"/>
+<Connection from="10/vakit" to="o" with="poss"/>
+<Word name="3/kötü" positionX="850" positionY="200"/>
+<Connection from="and" to="3/kötü" with="op3"/>
+<Word name="1/yok" positionX="750" positionY="300"/>
+<Connection from="3/kötü" to="1/yok"/>
+<Word name="2/hava" positionX="850" positionY="300"/>
+<Connection from="3/kötü" to="2/hava"/>
+</Amr>

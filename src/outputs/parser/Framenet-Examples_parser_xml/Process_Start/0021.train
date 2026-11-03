@@ -1,0 +1,20 @@
+<Amr sentence="Haydi sen de dersinin başına geç , ödevlerini yap .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/baş 6/geç" positionX="650" positionY="200"/>
+<Connection from="and" to="5/baş 6/geç" with="op1"/>
+<Word name="imperative" positionX="550" positionY="300"/>
+<Connection from="5/baş 6/geç" to="imperative" with="mode"/>
+<Word name="1/haydi" positionX="650" positionY="300"/>
+<Connection from="5/baş 6/geç" to="1/haydi"/>
+<Word name="2/sen" positionX="750" positionY="300"/>
+<Connection from="5/baş 6/geç" to="2/sen" with="ARG0"/>
+<Word name="3/de" positionX="650" positionY="400"/>
+<Connection from="2/sen" to="3/de" with="manner"/>
+<Word name="9/yap" positionX="750" positionY="200"/>
+<Connection from="and" to="9/yap" with="op2"/>
+<Connection from="9/yap" to="imperative" with="mode"/>
+<Word name="8/ödev" positionX="750" positionY="300"/>
+<Connection from="9/yap" to="8/ödev" with="ARG1"/>
+<Word name="sen" positionX="650" positionY="400"/>
+<Connection from="8/ödev" to="sen" with="poss"/>
+</Amr>

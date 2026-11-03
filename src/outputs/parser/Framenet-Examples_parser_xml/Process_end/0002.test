@@ -1,0 +1,17 @@
+<Amr sentence="Satış işini en kısa sürede pişirip kotarmalısın .">
+<Word name="gerek" positionX="750" positionY="100"/>
+<Word name="6/pişir 7/kotar" positionX="650" positionY="200"/>
+<Connection from="gerek" to="6/pişir 7/kotar"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="6/pişir 7/kotar" to="sen" with="ARG0"/>
+<Word name="2/iş" positionX="650" positionY="300"/>
+<Connection from="6/pişir 7/kotar" to="2/iş" with="ARG1"/>
+<Word name="1/satış" positionX="550" positionY="400"/>
+<Connection from="2/iş" to="1/satış" with="mod"/>
+<Word name="5/süre" positionX="750" positionY="300"/>
+<Connection from="6/pişir 7/kotar" to="5/süre" with="location"/>
+<Word name="4/kısa" positionX="650" positionY="400"/>
+<Connection from="5/süre" to="4/kısa" with="mod"/>
+<Word name="3/en" positionX="550" positionY="500"/>
+<Connection from="4/kısa" to="3/en" with="manner"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="iki yıldır süren kuraklık">
+<Word name="4/kuraklık" positionX="750" positionY="100"/>
+<Word name="3/sür" positionX="650" positionY="200"/>
+<Connection from="4/kuraklık" to="3/sür"/>
+<Word name="2/yıl" positionX="550" positionY="300"/>
+<Connection from="3/sür" to="2/yıl"/>
+<Word name="1/iki" positionX="450" positionY="400"/>
+<Connection from="2/yıl" to="1/iki"/>
+</Amr>

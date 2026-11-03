@@ -1,0 +1,11 @@
+<Amr sentence="Adamın otelden çıktığını gözüyle gördü .">
+<Word name="4/göz 5/gör" positionX="750" positionY="100"/>
+<Word name="3/çık" positionX="650" positionY="200"/>
+<Connection from="4/göz 5/gör" to="3/çık" with="ARG1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/çık" to="o" with="poss"/>
+<Word name="1/adam" positionX="650" positionY="300"/>
+<Connection from="3/çık" to="1/adam" with="ARG0"/>
+<Word name="2/otel" positionX="750" positionY="300"/>
+<Connection from="3/çık" to="2/otel" with="ARG1"/>
+</Amr>

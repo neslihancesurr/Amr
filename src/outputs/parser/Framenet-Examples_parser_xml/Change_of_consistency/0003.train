@@ -1,0 +1,11 @@
+<Amr sentence="Kıvamı güzeldi , incelmişti .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/güzel" positionX="650" positionY="200"/>
+<Connection from="and" to="2/güzel" with="op1"/>
+<Word name="1/kıvam" positionX="550" positionY="300"/>
+<Connection from="2/güzel" to="1/kıvam"/>
+<Word name="4/incel" positionX="750" positionY="200"/>
+<Connection from="and" to="4/incel" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="4/incel" to="o" with="ARG0"/>
+</Amr>

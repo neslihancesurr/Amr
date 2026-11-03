@@ -1,0 +1,19 @@
+<Amr sentence="Kili şekillendirdikten sonra tuğlaya dönüşmesi için pişiriyorlar .">
+<Word name="7/pişir" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="7/pişir" to="onlar" with="ARG0"/>
+<Word name="2/şekillendir" positionX="750" positionY="200"/>
+<Connection from="7/pişir" to="2/şekillendir"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/şekillendir" to="o" with="ARG0"/>
+<Word name="1/kil" positionX="750" positionY="300"/>
+<Connection from="2/şekillendir" to="1/kil" with="ARG1"/>
+<Connection from="1/kil" to="o" with="poss"/>
+<Word name="3/sonra" positionX="850" positionY="300"/>
+<Connection from="2/şekillendir" to="3/sonra"/>
+<Word name="5/dönüşme" positionX="850" positionY="200"/>
+<Connection from="7/pişir" to="5/dönüşme" with="cause"/>
+<Connection from="5/dönüşme" to="o" with="poss"/>
+<Word name="4/tuğla" positionX="850" positionY="300"/>
+<Connection from="5/dönüşme" to="4/tuğla"/>
+</Amr>

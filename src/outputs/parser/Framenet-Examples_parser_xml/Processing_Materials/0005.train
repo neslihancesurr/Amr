@@ -1,0 +1,7 @@
+<Amr sentence="Damacanayı kurşunladık .">
+<Word name="2/kurşunla" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="2/kurşunla" to="biz" with="ARG0"/>
+<Word name="1/damacana" positionX="750" positionY="200"/>
+<Connection from="2/kurşunla" to="1/damacana" with="ARG1"/>
+</Amr>

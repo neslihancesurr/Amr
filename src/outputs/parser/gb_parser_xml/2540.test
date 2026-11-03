@@ -1,0 +1,20 @@
+<Amr sentence="Sözleşme imzalandıktan sonra arkadaşın çekilecek olsa sen yanarsın .">
+<Word name="8/yan" positionX="750" positionY="100"/>
+<Word name="6/ol" positionX="650" positionY="200"/>
+<Connection from="8/yan" to="6/ol"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="6/ol" to="o" with="ARG0"/>
+<Word name="5/çekil" positionX="650" positionY="300"/>
+<Connection from="6/ol" to="5/çekil"/>
+<Word name="2/imzala" positionX="550" positionY="400"/>
+<Connection from="5/çekil" to="2/imzala"/>
+<Connection from="2/imzala" to="o" with="ARG0"/>
+<Word name="1/sözleşme" positionX="550" positionY="500"/>
+<Connection from="2/imzala" to="1/sözleşme"/>
+<Word name="3/sonra" positionX="650" positionY="500"/>
+<Connection from="2/imzala" to="3/sonra"/>
+<Word name="4/arkadaş" positionX="650" positionY="400"/>
+<Connection from="5/çekil" to="4/arkadaş"/>
+<Word name="7/sen" positionX="750" positionY="200"/>
+<Connection from="8/yan" to="7/sen"/>
+</Amr>

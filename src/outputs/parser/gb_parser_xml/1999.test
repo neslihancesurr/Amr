@@ -1,0 +1,11 @@
+<Amr sentence="Derslerini yapmamışlar .">
+<Word name="2/yap" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="2/yap" to="-" with="polarity"/>
+<Word name="onlar" positionX="750" positionY="200"/>
+<Connection from="2/yap" to="onlar" with="ARG0"/>
+<Word name="1/ders" positionX="850" positionY="200"/>
+<Connection from="2/yap" to="1/ders" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="1/ders" to="o" with="poss"/>
+</Amr>

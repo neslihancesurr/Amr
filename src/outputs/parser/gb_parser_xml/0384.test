@@ -1,0 +1,11 @@
+<Amr sentence="Evlerin üstünden geç .">
+<Word name="3/geç" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="3/geç" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="3/geç" to="imperative" with="mode"/>
+<Word name="2/üst" positionX="850" positionY="200"/>
+<Connection from="3/geç" to="2/üst"/>
+<Word name="1/ev" positionX="750" positionY="300"/>
+<Connection from="2/üst" to="1/ev" with="mod"/>
+</Amr>

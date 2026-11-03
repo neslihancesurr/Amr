@@ -1,0 +1,9 @@
+<Amr sentence="Bu projeyle nikâh tazeleyeceğiz .">
+<Word name="3/nikâh 4/tazele" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="3/nikâh 4/tazele" to="biz" with="ARG0"/>
+<Word name="2/proje" positionX="750" positionY="200"/>
+<Connection from="3/nikâh 4/tazele" to="2/proje" with="ARG0"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/proje" to="1/bu" with="mod"/>
+</Amr>

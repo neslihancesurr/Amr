@@ -1,0 +1,7 @@
+<Amr sentence="Sokağa çıkıyor musun ?">
+<Word name="1/sokak 2/çık" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="1/sokak 2/çık" to="o" with="ARG0"/>
+<Word name="3/mi" positionX="750" positionY="200"/>
+<Connection from="1/sokak 2/çık" to="3/mi"/>
+</Amr>

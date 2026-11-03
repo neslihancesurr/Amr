@@ -1,0 +1,13 @@
+<Amr sentence="Cildim yağlı yiyeceklerden pütürlendi .">
+<Word name="4/pütürlen" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/pütürlen" to="o" with="ARG0"/>
+<Word name="1/cilt" positionX="750" positionY="200"/>
+<Connection from="4/pütürlen" to="1/cilt" with="ARG1"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="1/cilt" to="ben" with="poss"/>
+<Word name="3/yiyecek" positionX="850" positionY="200"/>
+<Connection from="4/pütürlen" to="3/yiyecek"/>
+<Word name="2/yağlı" positionX="750" positionY="300"/>
+<Connection from="3/yiyecek" to="2/yağlı" with="mod"/>
+</Amr>

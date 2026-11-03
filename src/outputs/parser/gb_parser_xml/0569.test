@@ -1,0 +1,10 @@
+<Amr sentence="Bütün arkadaşlarımızı çağıralım .">
+<Word name="3/çağır" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="3/çağır" to="biz" with="ARG0"/>
+<Word name="2/arkadaş" positionX="750" positionY="200"/>
+<Connection from="3/çağır" to="2/arkadaş" with="ARG1"/>
+<Connection from="2/arkadaş" to="biz" with="poss"/>
+<Word name="1/bütün" positionX="750" positionY="300"/>
+<Connection from="2/arkadaş" to="1/bütün" with="mod"/>
+</Amr>

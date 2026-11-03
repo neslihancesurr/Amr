@@ -1,0 +1,9 @@
+<Amr sentence="Köy toprakları işgal edildi .">
+<Word name="3/işgal 4/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/işgal 4/et" to="o" with="ARG0"/>
+<Word name="2/toprak" positionX="750" positionY="200"/>
+<Connection from="3/işgal 4/et" to="2/toprak" with="ARG1"/>
+<Word name="1/köy" positionX="650" positionY="300"/>
+<Connection from="2/toprak" to="1/köy" with="mod"/>
+</Amr>

@@ -1,0 +1,21 @@
+<Amr sentence="Kitabı İngilizce'den Türkçe'ye aktardı .">
+<Word name="4/aktar" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/aktar" to="o" with="ARG0"/>
+<Word name="1/kitap" positionX="750" positionY="200"/>
+<Connection from="4/aktar" to="1/kitap" with="ARG1"/>
+<Connection from="1/kitap" to="o" with="poss"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="4/aktar" to="person" with="ARG2"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/ingilizce" positionX="650" positionY="400"/>
+<Connection from="name" to="2/ingilizce" with="op1"/>
+<Word name="-" positionX="850" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="4/aktar" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/türkçe" positionX="750" positionY="400"/>
+<Connection from="name" to="3/türkçe" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

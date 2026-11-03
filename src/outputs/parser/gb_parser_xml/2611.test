@@ -1,0 +1,14 @@
+<Amr sentence="Kendin gelince ve görünce anlayacaksın .">
+<Word name="5/anla" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="5/anla" to="sen" with="ARG0"/>
+<Word name="and" positionX="750" positionY="200"/>
+<Connection from="5/anla" to="and"/>
+<Word name="4/gör" positionX="650" positionY="300"/>
+<Connection from="and" to="4/gör" with="op1"/>
+<Word name="2/gel" positionX="750" positionY="300"/>
+<Connection from="and" to="2/gel" with="op2"/>
+<Word name="1/kendi" positionX="650" positionY="400"/>
+<Connection from="2/gel" to="1/kendi"/>
+<Connection from="1/kendi" to="sen" with="poss"/>
+</Amr>

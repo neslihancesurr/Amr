@@ -1,0 +1,22 @@
+<Amr sentence="Yani anlayacağın , bizimle tatile gitmemek için elinden geleni yapıyor .">
+<Word name="8/el 9/gel 10/yap" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="8/el 9/gel 10/yap" to="o" with="ARG0"/>
+<Word name="2/anla" positionX="750" positionY="200"/>
+<Connection from="8/el 9/gel 10/yap" to="2/anla"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="2/anla" to="sen" with="poss"/>
+<Word name="1/yani" positionX="750" positionY="300"/>
+<Connection from="2/anla" to="1/yani" with="manner"/>
+<Word name="6/git" positionX="850" positionY="200"/>
+<Connection from="8/el 9/gel 10/yap" to="6/git" with="ARG1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="6/git" to="-" with="polarity"/>
+<Connection from="6/git" to="o" with="ARG0"/>
+<Word name="4/biz" positionX="950" positionY="300"/>
+<Connection from="6/git" to="4/biz" with="instrument"/>
+<Word name="5/tatil" positionX="1050" positionY="300"/>
+<Connection from="6/git" to="5/tatil"/>
+<Word name="7/için" positionX="1150" positionY="300"/>
+<Connection from="6/git" to="7/için"/>
+</Amr>

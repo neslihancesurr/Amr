@@ -1,0 +1,19 @@
+<Amr sentence="O gün Ayşe'nin annesi biraz rahatsızmış .">
+<Word name="6/rahatsız" positionX="750" positionY="100"/>
+<Word name="2/gün" positionX="650" positionY="200"/>
+<Connection from="6/rahatsız" to="2/gün"/>
+<Word name="1/o" positionX="550" positionY="300"/>
+<Connection from="2/gün" to="1/o" with="mod"/>
+<Word name="4/anne" positionX="750" positionY="200"/>
+<Connection from="6/rahatsız" to="4/anne"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="4/anne" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/ayşe" positionX="450" positionY="500"/>
+<Connection from="name" to="3/ayşe" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/biraz" positionX="850" positionY="200"/>
+<Connection from="6/rahatsız" to="5/biraz" with="manner"/>
+</Amr>

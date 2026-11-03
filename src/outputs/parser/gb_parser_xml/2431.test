@@ -1,0 +1,24 @@
+<Amr sentence="Kimsenin beğenmediği bir filmi seyretmektense evde kalmayı tercih ederim .">
+<Word name="8/tercih 9/et" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="8/tercih 9/et" to="ben" with="ARG0"/>
+<Word name="5/seyret" positionX="750" positionY="200"/>
+<Connection from="8/tercih 9/et" to="5/seyret" with="cond"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/seyret" to="o" with="ARG0"/>
+<Word name="4/film" positionX="750" positionY="300"/>
+<Connection from="5/seyret" to="4/film"/>
+<Word name="2/beğen" positionX="650" positionY="400"/>
+<Connection from="4/film" to="2/beğen"/>
+<Word name="-" positionX="550" positionY="500"/>
+<Connection from="2/beğen" to="-" with="polarity"/>
+<Connection from="2/beğen" to="o" with="poss"/>
+<Word name="1/kimse" positionX="750" positionY="500"/>
+<Connection from="2/beğen" to="1/kimse"/>
+<Connection from="1/kimse" to="o" with="poss"/>
+<Word name="7/kal" positionX="850" positionY="200"/>
+<Connection from="8/tercih 9/et" to="7/kal"/>
+<Connection from="7/kal" to="o" with="ARG0"/>
+<Word name="6/ev" positionX="850" positionY="300"/>
+<Connection from="7/kal" to="6/ev" with="location"/>
+</Amr>

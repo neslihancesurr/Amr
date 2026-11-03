@@ -1,0 +1,13 @@
+<Amr sentence="Üç yıldan beri burada çalışıyorum .">
+<Word name="5/çalış" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/çalış" to="ben" with="ARG0"/>
+<Word name="2/yıl" positionX="750" positionY="200"/>
+<Connection from="5/çalış" to="2/yıl"/>
+<Word name="1/üç" positionX="650" positionY="300"/>
+<Connection from="2/yıl" to="1/üç"/>
+<Word name="3/beri" positionX="750" positionY="300"/>
+<Connection from="2/yıl" to="3/beri"/>
+<Word name="4/burada" positionX="850" positionY="200"/>
+<Connection from="5/çalış" to="4/burada"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Kapıya yakın duran bir adamı tanıdım .">
+<Word name="6/tanı" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="6/tanı" to="ben" with="ARG0"/>
+<Word name="5/adam" positionX="750" positionY="200"/>
+<Connection from="6/tanı" to="5/adam" with="ARG1"/>
+<Word name="3/dur" positionX="650" positionY="300"/>
+<Connection from="5/adam" to="3/dur"/>
+<Word name="2/yakın" positionX="550" positionY="400"/>
+<Connection from="3/dur" to="2/yakın"/>
+<Word name="1/kapı" positionX="450" positionY="500"/>
+<Connection from="2/yakın" to="1/kapı" with="mod"/>
+</Amr>

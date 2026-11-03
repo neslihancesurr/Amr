@@ -1,0 +1,9 @@
+<Amr sentence="Para sıkıntısı insana üzüntü verir .">
+<Word name="4/üzüntü 5/ver" positionX="750" positionY="100"/>
+<Word name="2/sıkıntı" positionX="650" positionY="200"/>
+<Connection from="4/üzüntü 5/ver" to="2/sıkıntı" with="ARG0"/>
+<Word name="1/para" positionX="550" positionY="300"/>
+<Connection from="2/sıkıntı" to="1/para" with="mod"/>
+<Word name="3/insan" positionX="750" positionY="200"/>
+<Connection from="4/üzüntü 5/ver" to="3/insan" with="ARG1"/>
+</Amr>

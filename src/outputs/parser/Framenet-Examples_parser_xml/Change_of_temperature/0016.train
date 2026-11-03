@@ -1,0 +1,20 @@
+<Amr sentence="Şunu ateşe tut da biraz ısınsın .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/ateş 3/tut" positionX="650" positionY="200"/>
+<Connection from="and" to="2/ateş 3/tut" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="2/ateş 3/tut" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="650" positionY="300"/>
+<Connection from="2/ateş 3/tut" to="imperative" with="mode"/>
+<Word name="1/şu" positionX="750" positionY="300"/>
+<Connection from="2/ateş 3/tut" to="1/şu" with="ARG1"/>
+<Word name="4/da" positionX="850" positionY="300"/>
+<Connection from="2/ateş 3/tut" to="4/da" with="manner"/>
+<Word name="6/ısın" positionX="750" positionY="200"/>
+<Connection from="and" to="6/ısın" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="6/ısın" to="o" with="ARG0"/>
+<Connection from="6/ısın" to="imperative" with="mode"/>
+<Word name="5/biraz" positionX="850" positionY="300"/>
+<Connection from="6/ısın" to="5/biraz" with="manner"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Sorunlar ben gelmeden önce başlamış .">
+<Word name="5/başla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/başla" to="o" with="ARG0"/>
+<Word name="1/sorun" positionX="750" positionY="200"/>
+<Connection from="5/başla" to="1/sorun"/>
+<Word name="3/gel" positionX="850" positionY="200"/>
+<Connection from="5/başla" to="3/gel"/>
+<Word name="2/ben" positionX="750" positionY="300"/>
+<Connection from="3/gel" to="2/ben"/>
+<Word name="4/önce" positionX="850" positionY="300"/>
+<Connection from="3/gel" to="4/önce"/>
+</Amr>

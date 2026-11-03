@@ -1,0 +1,15 @@
+<Amr sentence="Sezon sonu diye tüm fiyatlar indi .">
+<Word name="6/in" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/in" to="o" with="ARG0"/>
+<Word name="2/son" positionX="750" positionY="200"/>
+<Connection from="6/in" to="2/son"/>
+<Word name="1/sezon" positionX="650" positionY="300"/>
+<Connection from="2/son" to="1/sezon" with="mod"/>
+<Word name="3/diye" positionX="750" positionY="300"/>
+<Connection from="2/son" to="3/diye"/>
+<Word name="5/fiyat" positionX="850" positionY="200"/>
+<Connection from="6/in" to="5/fiyat"/>
+<Word name="4/tüm" positionX="750" positionY="300"/>
+<Connection from="5/fiyat" to="4/tüm" with="mod"/>
+</Amr>

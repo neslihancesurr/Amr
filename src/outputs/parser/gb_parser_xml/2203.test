@@ -1,0 +1,11 @@
+<Amr sentence="içinde üç top olan kutu">
+<Word name="5/kutu" positionX="750" positionY="100"/>
+<Word name="4/ol" positionX="650" positionY="200"/>
+<Connection from="5/kutu" to="4/ol"/>
+<Word name="3/top" positionX="550" positionY="300"/>
+<Connection from="4/ol" to="3/top"/>
+<Word name="1/iç" positionX="450" positionY="400"/>
+<Connection from="3/top" to="1/iç" with="mod"/>
+<Word name="2/üç" positionX="550" positionY="400"/>
+<Connection from="3/top" to="2/üç"/>
+</Amr>

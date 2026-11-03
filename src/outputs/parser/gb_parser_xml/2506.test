@@ -1,0 +1,16 @@
+<Amr sentence="Başka işim olmazsa gelirim .">
+<Word name="4/gel" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/gel" to="ben" with="ARG0"/>
+<Word name="3/ol" positionX="750" positionY="200"/>
+<Connection from="4/gel" to="3/ol" with="cond"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="3/ol" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="3/ol" to="o" with="ARG0"/>
+<Word name="2/iş" positionX="850" positionY="300"/>
+<Connection from="3/ol" to="2/iş"/>
+<Connection from="2/iş" to="ben" with="poss"/>
+<Word name="1/başka" positionX="850" positionY="400"/>
+<Connection from="2/iş" to="1/başka" with="mod"/>
+</Amr>

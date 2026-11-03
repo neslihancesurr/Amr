@@ -1,0 +1,23 @@
+<Amr sentence="Değil sinemaya gitmek , televizyon bile seyredecek zamanım yok .">
+<Word name="9/yok" positionX="750" positionY="100"/>
+<Word name="8/zaman" positionX="650" positionY="200"/>
+<Connection from="9/yok" to="8/zaman"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="8/zaman" to="ben" with="poss"/>
+<Word name="and" positionX="650" positionY="300"/>
+<Connection from="8/zaman" to="and"/>
+<Word name="7/seyret" positionX="550" positionY="400"/>
+<Connection from="and" to="7/seyret" with="op1"/>
+<Word name="5/televizyon" positionX="450" positionY="500"/>
+<Connection from="7/seyret" to="5/televizyon" with="ARG1"/>
+<Word name="6/bile" positionX="350" positionY="600"/>
+<Connection from="5/televizyon" to="6/bile" with="manner"/>
+<Word name="3/git" positionX="650" positionY="400"/>
+<Connection from="and" to="3/git" with="op2"/>
+<Word name="o" positionX="550" positionY="500"/>
+<Connection from="3/git" to="o" with="ARG0"/>
+<Word name="-" positionX="650" positionY="500"/>
+<Connection from="3/git" to="-" with="polarity"/>
+<Word name="2/sinema" positionX="750" positionY="500"/>
+<Connection from="3/git" to="2/sinema" with="ARG1"/>
+</Amr>

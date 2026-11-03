@@ -1,0 +1,11 @@
+<Amr sentence="Onun sözlerini kalbine nakşetti .">
+<Word name="4/nakşet" positionX="750" positionY="100"/>
+<Word name="2/söz" positionX="650" positionY="200"/>
+<Connection from="4/nakşet" to="2/söz"/>
+<Word name="1/o" positionX="550" positionY="300"/>
+<Connection from="2/söz" to="1/o" with="mod"/>
+<Word name="3/kalp" positionX="750" positionY="200"/>
+<Connection from="4/nakşet" to="3/kalp"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/kalp" to="o" with="poss"/>
+</Amr>

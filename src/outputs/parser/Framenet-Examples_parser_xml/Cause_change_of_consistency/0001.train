@@ -1,0 +1,19 @@
+<Amr sentence="Seni o kızla evlenmekten alıkoyacaklar .">
+<Word name="5/alıkoy" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="5/alıkoy" to="onlar" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="5/alıkoy" to="person" with="ARG1"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/seni" positionX="550" positionY="400"/>
+<Connection from="name" to="1/seni" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/evlen" positionX="850" positionY="200"/>
+<Connection from="5/alıkoy" to="4/evlen" with="ARG2"/>
+<Word name="3/kız" positionX="750" positionY="300"/>
+<Connection from="4/evlen" to="3/kız" with="instrument"/>
+<Word name="2/o" positionX="650" positionY="400"/>
+<Connection from="3/kız" to="2/o" with="mod"/>
+</Amr>

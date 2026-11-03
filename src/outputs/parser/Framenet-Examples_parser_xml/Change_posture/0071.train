@@ -1,0 +1,24 @@
+<Amr sentence="Adamı iki yandan sıkıştırmışlardı , biri kambura yatarak düşmesine sebep oldu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/sıkıştır" positionX="650" positionY="200"/>
+<Connection from="and" to="4/sıkıştır" with="op1"/>
+<Word name="1/adam" positionX="550" positionY="300"/>
+<Connection from="4/sıkıştır" to="1/adam" with="ARG1"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="1/adam" to="o" with="poss"/>
+<Word name="3/yan" positionX="650" positionY="300"/>
+<Connection from="4/sıkıştır" to="3/yan" with="mod"/>
+<Word name="2/iki" positionX="550" positionY="400"/>
+<Connection from="3/yan" to="2/iki"/>
+<Word name="10/sebep 11/ol" positionX="750" positionY="200"/>
+<Connection from="and" to="10/sebep 11/ol" with="op2"/>
+<Word name="6/biri" positionX="650" positionY="300"/>
+<Connection from="10/sebep 11/ol" to="6/biri" with="ARG0"/>
+<Connection from="6/biri" to="o" with="poss"/>
+<Word name="7/kambura 8/yat" positionX="750" positionY="300"/>
+<Connection from="10/sebep 11/ol" to="7/kambura 8/yat"/>
+<Word name="9/düş" positionX="850" positionY="300"/>
+<Connection from="10/sebep 11/ol" to="9/düş"/>
+<Connection from="9/düş" to="o" with="ARG0"/>
+<Connection from="9/düş" to="o" with="poss"/>
+</Amr>

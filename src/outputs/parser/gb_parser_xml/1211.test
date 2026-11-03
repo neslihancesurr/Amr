@@ -1,0 +1,11 @@
+<Amr sentence="Birbirinizle çok iyi anlaşıyorsunuz .">
+<Word name="4/anlaş" positionX="750" positionY="100"/>
+<Word name="siz" positionX="650" positionY="200"/>
+<Connection from="4/anlaş" to="siz" with="ARG0"/>
+<Word name="1/birbiri" positionX="750" positionY="200"/>
+<Connection from="4/anlaş" to="1/birbiri" with="instrument"/>
+<Word name="3/iyi" positionX="850" positionY="200"/>
+<Connection from="4/anlaş" to="3/iyi" with="manner"/>
+<Word name="2/çok" positionX="750" positionY="300"/>
+<Connection from="3/iyi" to="2/çok" with="degree"/>
+</Amr>

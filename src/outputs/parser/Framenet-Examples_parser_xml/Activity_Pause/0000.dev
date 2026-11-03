@@ -1,0 +1,9 @@
+<Amr sentence="Bugünlük dükkanı tatil ettik .">
+<Word name="3/tatil 4/et" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="3/tatil 4/et" to="biz" with="ARG0"/>
+<Word name="1/bugünlük" positionX="750" positionY="200"/>
+<Connection from="3/tatil 4/et" to="1/bugünlük" with="ARG2"/>
+<Word name="2/dükkan" positionX="850" positionY="200"/>
+<Connection from="3/tatil 4/et" to="2/dükkan" with="ARG1"/>
+</Amr>

@@ -1,0 +1,30 @@
+<Amr sentence="Meryem bunu Sevgi'nin yaptığını biliyorduysa bize söylemeliydi .">
+<Word name="gerek" positionX="750" positionY="100"/>
+<Word name="7/söyle" positionX="650" positionY="200"/>
+<Connection from="gerek" to="7/söyle"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="7/söyle" to="o" with="ARG0"/>
+<Word name="5/biliyorduysa" positionX="650" positionY="300"/>
+<Connection from="7/söyle" to="5/biliyorduysa"/>
+<Word name="person" positionX="550" positionY="400"/>
+<Connection from="5/biliyorduysa" to="person"/>
+<Word name="name" positionX="450" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/meryem" positionX="350" positionY="600"/>
+<Connection from="name" to="1/meryem" with="op1"/>
+<Word name="-" positionX="550" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/yap" positionX="650" positionY="400"/>
+<Connection from="5/biliyorduysa" to="4/yap"/>
+<Connection from="4/yap" to="o" with="ARG0"/>
+<Connection from="4/yap" to="o" with="poss"/>
+<Word name="2/bu" positionX="750" positionY="500"/>
+<Connection from="4/yap" to="2/bu"/>
+<Connection from="4/yap" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/sevgi" positionX="650" positionY="700"/>
+<Connection from="name" to="3/sevgi" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="6/biz" positionX="750" positionY="300"/>
+<Connection from="7/söyle" to="6/biz"/>
+</Amr>

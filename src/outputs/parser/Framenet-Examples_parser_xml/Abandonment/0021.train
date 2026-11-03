@@ -1,0 +1,24 @@
+<Amr sentence="Binlerce gence önce umut verdi , sonra da hepsini yarı yolda bıraktı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/umut 5/ver" positionX="650" positionY="200"/>
+<Connection from="and" to="4/umut 5/ver" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/umut 5/ver" to="o" with="ARG0"/>
+<Word name="2/gen" positionX="650" positionY="300"/>
+<Connection from="4/umut 5/ver" to="2/gen" with="ARG1"/>
+<Word name="1/binlerce" positionX="550" positionY="400"/>
+<Connection from="2/gen" to="1/binlerce" with="mod"/>
+<Word name="3/önce" positionX="750" positionY="300"/>
+<Connection from="4/umut 5/ver" to="3/önce" with="manner"/>
+<Word name="10/yarı 11/yol 12/bırak" positionX="750" positionY="200"/>
+<Connection from="and" to="10/yarı 11/yol 12/bırak" with="op2"/>
+<Connection from="10/yarı 11/yol 12/bırak" to="o" with="ARG0"/>
+<Word name="7/sonra" positionX="750" positionY="300"/>
+<Connection from="10/yarı 11/yol 12/bırak" to="7/sonra" with="manner"/>
+<Word name="8/da" positionX="650" positionY="400"/>
+<Connection from="7/sonra" to="8/da" with="manner"/>
+<Word name="9/hepsi" positionX="850" positionY="300"/>
+<Connection from="10/yarı 11/yol 12/bırak" to="9/hepsi" with="ARG1"/>
+<Word name="onlar" positionX="750" positionY="400"/>
+<Connection from="9/hepsi" to="onlar" with="poss"/>
+</Amr>

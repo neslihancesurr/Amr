@@ -1,0 +1,11 @@
+<Amr sentence="Son zamanlarda iyice şişmanladı .">
+<Word name="4/şişmanla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/şişmanla" to="o" with="ARG0"/>
+<Word name="2/zaman" positionX="750" positionY="200"/>
+<Connection from="4/şişmanla" to="2/zaman" with="mod"/>
+<Word name="1/son" positionX="650" positionY="300"/>
+<Connection from="2/zaman" to="1/son" with="mod"/>
+<Word name="3/iyice" positionX="850" positionY="200"/>
+<Connection from="4/şişmanla" to="3/iyice" with="manner"/>
+</Amr>

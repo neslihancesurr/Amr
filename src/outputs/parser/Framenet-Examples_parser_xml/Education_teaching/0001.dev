@@ -1,0 +1,7 @@
+<Amr sentence="O üniversitede tahsil ediyor .">
+<Word name="3/tahsil 4/et" positionX="750" positionY="100"/>
+<Word name="2/üniversite" positionX="650" positionY="200"/>
+<Connection from="3/tahsil 4/et" to="2/üniversite" with="location"/>
+<Word name="1/o" positionX="550" positionY="300"/>
+<Connection from="2/üniversite" to="1/o" with="mod"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr sentence="Onu çok seviyordum , sonunda ben de kalbini çalmıştım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/sev" positionX="650" positionY="200"/>
+<Connection from="and" to="3/sev" with="op1"/>
+<Word name="1/o" positionX="550" positionY="300"/>
+<Connection from="3/sev" to="1/o" with="ARG1"/>
+<Word name="2/çok" positionX="650" positionY="300"/>
+<Connection from="3/sev" to="2/çok" with="degree"/>
+<Word name="8/kalp 9/çal" positionX="750" positionY="200"/>
+<Connection from="and" to="8/kalp 9/çal" with="op2"/>
+<Word name="5/sonunda" positionX="650" positionY="300"/>
+<Connection from="8/kalp 9/çal" to="5/sonunda" with="manner"/>
+<Word name="6/ben" positionX="750" positionY="300"/>
+<Connection from="8/kalp 9/çal" to="6/ben" with="ARG0"/>
+<Word name="7/de" positionX="650" positionY="400"/>
+<Connection from="6/ben" to="7/de"/>
+</Amr>

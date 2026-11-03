@@ -1,0 +1,26 @@
+<Amr sentence="Zeki babasını onbeş yıldır görmüyormuş , annesini değil .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="7/anne" positionX="650" positionY="200"/>
+<Connection from="and" to="7/anne" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="7/anne" to="o" with="poss"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="7/anne" to="-" with="polarity"/>
+<Word name="5/gör" positionX="750" positionY="200"/>
+<Connection from="and" to="5/gör" with="op2"/>
+<Connection from="5/gör" to="-" with="polarity"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="5/gör" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/zeki" positionX="550" positionY="500"/>
+<Connection from="name" to="1/zeki" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/baba" positionX="850" positionY="300"/>
+<Connection from="5/gör" to="2/baba" with="ARG1"/>
+<Connection from="2/baba" to="o" with="poss"/>
+<Word name="4/yıl" positionX="950" positionY="300"/>
+<Connection from="5/gör" to="4/yıl"/>
+<Word name="3/onbeş" positionX="850" positionY="400"/>
+<Connection from="4/yıl" to="3/onbeş"/>
+</Amr>

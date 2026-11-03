@@ -1,0 +1,17 @@
+<Amr sentence="Yük boşaltma işi bir hafta boyunca gemiyi tutacak .">
+<Word name="7/gemi 8/tut" positionX="750" positionY="100"/>
+<Word name="2/boşaltma" positionX="650" positionY="200"/>
+<Connection from="7/gemi 8/tut" to="2/boşaltma" with="ARG0"/>
+<Word name="1/yük" positionX="550" positionY="300"/>
+<Connection from="2/boşaltma" to="1/yük" with="mod"/>
+<Word name="3/iş" positionX="750" positionY="200"/>
+<Connection from="7/gemi 8/tut" to="3/iş" with="ARG0"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/iş" to="o" with="poss"/>
+<Word name="4/bir" positionX="850" positionY="200"/>
+<Connection from="7/gemi 8/tut" to="4/bir"/>
+<Word name="6/boyunca" positionX="950" positionY="200"/>
+<Connection from="7/gemi 8/tut" to="6/boyunca" with="mod"/>
+<Word name="5/hafta" positionX="850" positionY="300"/>
+<Connection from="6/boyunca" to="5/hafta" with="mod"/>
+</Amr>

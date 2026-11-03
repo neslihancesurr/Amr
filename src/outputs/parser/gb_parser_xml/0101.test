@@ -1,0 +1,5 @@
+<Amr sentence="Türk çocuklar">
+<Word name="2/çocuk" positionX="750" positionY="100"/>
+<Word name="1/türk" positionX="650" positionY="200"/>
+<Connection from="2/çocuk" to="1/türk" with="mod"/>
+</Amr>

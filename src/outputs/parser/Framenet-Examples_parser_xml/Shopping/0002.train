@@ -1,0 +1,9 @@
+<Amr sentence="Bakan , tütün piyasasını açtı .">
+<Word name="5/aç" positionX="750" positionY="100"/>
+<Word name="1/bakan" positionX="650" positionY="200"/>
+<Connection from="5/aç" to="1/bakan" with="ARG0"/>
+<Word name="4/piyasa" positionX="750" positionY="200"/>
+<Connection from="5/aç" to="4/piyasa" with="ARG1"/>
+<Word name="3/tütün" positionX="650" positionY="300"/>
+<Connection from="4/piyasa" to="3/tütün" with="mod"/>
+</Amr>

@@ -1,0 +1,28 @@
+<Amr sentence="Bana iki sandık çay verdi . Bunları al okut , dedi .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/ver" positionX="650" positionY="200"/>
+<Connection from="and" to="5/ver" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="5/ver" to="o" with="ARG0"/>
+<Word name="1/ben" positionX="650" positionY="300"/>
+<Connection from="5/ver" to="1/ben" with="ARG1"/>
+<Word name="4/çay" positionX="750" positionY="300"/>
+<Connection from="5/ver" to="4/çay" with="ARG1"/>
+<Word name="3/sandık" positionX="650" positionY="400"/>
+<Connection from="4/çay" to="3/sandık" with="mod"/>
+<Word name="2/iki" positionX="550" positionY="500"/>
+<Connection from="3/sandık" to="2/iki"/>
+<Word name="11/de" positionX="750" positionY="200"/>
+<Connection from="and" to="11/de" with="op2"/>
+<Connection from="11/de" to="o" with="ARG0"/>
+<Word name="9/okut" positionX="750" positionY="300"/>
+<Connection from="11/de" to="9/okut" with="ARG1"/>
+<Word name="sen" positionX="650" positionY="400"/>
+<Connection from="9/okut" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="400"/>
+<Connection from="9/okut" to="imperative" with="mode"/>
+<Word name="8/al" positionX="850" positionY="400"/>
+<Connection from="9/okut" to="8/al"/>
+<Word name="7/bu" positionX="750" positionY="500"/>
+<Connection from="8/al" to="7/bu"/>
+</Amr>

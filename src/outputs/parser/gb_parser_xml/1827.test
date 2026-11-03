@@ -1,0 +1,11 @@
+<Amr sentence="Bana bu odayı verdiler .">
+<Word name="4/ver" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/ver" to="onlar" with="ARG0"/>
+<Word name="1/ben" positionX="750" positionY="200"/>
+<Connection from="4/ver" to="1/ben" with="ARG2"/>
+<Word name="3/oda" positionX="850" positionY="200"/>
+<Connection from="4/ver" to="3/oda" with="ARG1"/>
+<Word name="2/bu" positionX="750" positionY="300"/>
+<Connection from="3/oda" to="2/bu" with="mod"/>
+</Amr>

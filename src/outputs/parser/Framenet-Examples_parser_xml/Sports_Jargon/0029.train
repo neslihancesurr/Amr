@@ -1,0 +1,5 @@
+<Amr sentence="Herkesin maçtan ümidi kestiği bir anda karşı takımın kalesine inanılmaz bir gol attım .">
+<Word name="12/gol 13/at" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="12/gol 13/at" to="ben" with="ARG0"/>
+</Amr>

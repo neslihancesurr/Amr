@@ -1,0 +1,17 @@
+<Amr sentence="Otel müdürü odayı hemen boşaltmalarını söyledi .">
+<Word name="6/söyle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/söyle" to="o" with="ARG0"/>
+<Word name="2/müdür" positionX="750" positionY="200"/>
+<Connection from="6/söyle" to="2/müdür"/>
+<Word name="1/otel" positionX="650" positionY="300"/>
+<Connection from="2/müdür" to="1/otel" with="mod"/>
+<Word name="5/boşaltma" positionX="850" positionY="200"/>
+<Connection from="6/söyle" to="5/boşaltma"/>
+<Word name="onlar" positionX="750" positionY="300"/>
+<Connection from="5/boşaltma" to="onlar" with="poss"/>
+<Word name="3/oda" positionX="850" positionY="300"/>
+<Connection from="5/boşaltma" to="3/oda"/>
+<Word name="4/hemen" positionX="950" positionY="300"/>
+<Connection from="5/boşaltma" to="4/hemen" with="manner"/>
+</Amr>

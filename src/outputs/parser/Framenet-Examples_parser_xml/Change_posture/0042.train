@@ -1,0 +1,21 @@
+<Amr sentence="Karşısında yelpirdiyordu , oturmasını söyledim ama dinlemedi .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/yelpirde" positionX="650" positionY="200"/>
+<Connection from="and" to="2/yelpirde" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/yelpirde" to="o" with="ARG0"/>
+<Word name="1/karşı" positionX="650" positionY="300"/>
+<Connection from="2/yelpirde" to="1/karşı" with="location"/>
+<Word name="7/dinle" positionX="750" positionY="200"/>
+<Connection from="and" to="7/dinle" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="7/dinle" to="-" with="polarity"/>
+<Connection from="7/dinle" to="o" with="ARG0"/>
+<Word name="5/söyle" positionX="850" positionY="200"/>
+<Connection from="and" to="5/söyle" with="op3"/>
+<Word name="ben" positionX="750" positionY="300"/>
+<Connection from="5/söyle" to="ben" with="ARG0"/>
+<Word name="4/oturma" positionX="850" positionY="300"/>
+<Connection from="5/söyle" to="4/oturma" with="ARG1"/>
+<Connection from="4/oturma" to="o" with="poss"/>
+</Amr>

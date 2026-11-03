@@ -1,0 +1,27 @@
+<Amr sentence="Ziya beni görmek istemiyormuş , ki bunu daha önce söylemişti .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="10/söyle" positionX="650" positionY="200"/>
+<Connection from="and" to="10/söyle" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="10/söyle" to="o" with="ARG0"/>
+<Word name="6/ki" positionX="650" positionY="300"/>
+<Connection from="10/söyle" to="6/ki"/>
+<Word name="7/bu" positionX="750" positionY="300"/>
+<Connection from="10/söyle" to="7/bu"/>
+<Word name="9/önce" positionX="850" positionY="300"/>
+<Connection from="10/söyle" to="9/önce" with="manner"/>
+<Word name="8/daha" positionX="750" positionY="400"/>
+<Connection from="9/önce" to="8/daha" with="degree"/>
+<Word name="4/iste" positionX="750" positionY="200"/>
+<Connection from="and" to="4/iste" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="4/iste" to="-" with="polarity"/>
+<Connection from="4/iste" to="o" with="ARG0"/>
+<Word name="1/ziya" positionX="850" positionY="300"/>
+<Connection from="4/iste" to="1/ziya"/>
+<Word name="3/gör" positionX="950" positionY="300"/>
+<Connection from="4/iste" to="3/gör"/>
+<Connection from="3/gör" to="o" with="ARG0"/>
+<Word name="2/ben" positionX="950" positionY="400"/>
+<Connection from="3/gör" to="2/ben"/>
+</Amr>

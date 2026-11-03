@@ -1,0 +1,13 @@
+<Amr sentence="Padişah bir vezirinden memnun kalmazsa onu idam ettirirdi .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="8/et" positionX="650" positionY="200"/>
+<Connection from="yap" to="8/et"/>
+<Word name="4/memnun 5/kal" positionX="550" positionY="300"/>
+<Connection from="8/et" to="4/memnun 5/kal"/>
+<Word name="-" positionX="450" positionY="400"/>
+<Connection from="4/memnun 5/kal" to="-" with="polarity"/>
+<Word name="6/o" positionX="650" positionY="300"/>
+<Connection from="8/et" to="6/o"/>
+<Word name="7/idam" positionX="750" positionY="300"/>
+<Connection from="8/et" to="7/idam"/>
+</Amr>

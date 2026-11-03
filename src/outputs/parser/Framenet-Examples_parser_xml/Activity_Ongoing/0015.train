@@ -1,0 +1,13 @@
+<Amr sentence="Bu güzel kubbede hoş bir seda baki kalmış .">
+<Word name="7/baki 8/kal" positionX="750" positionY="100"/>
+<Word name="3/kubbe" positionX="650" positionY="200"/>
+<Connection from="7/baki 8/kal" to="3/kubbe" with="location"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="3/kubbe" to="1/bu" with="mod"/>
+<Word name="2/güzel" positionX="650" positionY="300"/>
+<Connection from="3/kubbe" to="2/güzel" with="mod"/>
+<Word name="6/seda" positionX="750" positionY="200"/>
+<Connection from="7/baki 8/kal" to="6/seda" with="ARG0"/>
+<Word name="4/hoş" positionX="650" positionY="300"/>
+<Connection from="6/seda" to="4/hoş" with="mod"/>
+</Amr>

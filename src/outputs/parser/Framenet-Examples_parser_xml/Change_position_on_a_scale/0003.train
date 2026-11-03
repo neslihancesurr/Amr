@@ -1,0 +1,15 @@
+<Amr sentence="Bu haftaki harçlığım bayağı arttı .">
+<Word name="5/art" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/art" to="o" with="ARG0"/>
+<Word name="3/harçlık" positionX="750" positionY="200"/>
+<Connection from="5/art" to="3/harçlık" with="ARG1"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="3/harçlık" to="ben" with="poss"/>
+<Word name="2/haf" positionX="750" positionY="300"/>
+<Connection from="3/harçlık" to="2/haf" with="mod"/>
+<Word name="1/bu" positionX="650" positionY="400"/>
+<Connection from="2/haf" to="1/bu" with="mod"/>
+<Word name="4/bayağı" positionX="850" positionY="200"/>
+<Connection from="5/art" to="4/bayağı" with="degree"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Olaylardan sonra kurul kabine düşmüştü .">
+<Word name="4/kabin 5/düş" positionX="750" positionY="100"/>
+<Word name="1/olay" positionX="650" positionY="200"/>
+<Connection from="4/kabin 5/düş" to="1/olay"/>
+<Word name="2/sonra" positionX="550" positionY="300"/>
+<Connection from="1/olay" to="2/sonra"/>
+<Word name="3/kurul" positionX="750" positionY="200"/>
+<Connection from="4/kabin 5/düş" to="3/kurul" with="ARG0"/>
+</Amr>

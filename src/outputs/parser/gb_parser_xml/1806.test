@@ -1,0 +1,19 @@
+<Amr sentence="Bir şey söyleyecek oldum , ama tam o anda kapı çaldı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="11/çal" positionX="650" positionY="200"/>
+<Connection from="and" to="11/çal" with="op1"/>
+<Word name="9/an" positionX="550" positionY="300"/>
+<Connection from="11/çal" to="9/an" with="location"/>
+<Word name="7/tam" positionX="450" positionY="400"/>
+<Connection from="9/an" to="7/tam" with="degree"/>
+<Word name="8/o" positionX="550" positionY="400"/>
+<Connection from="9/an" to="8/o" with="mod"/>
+<Word name="10/kapı" positionX="650" positionY="300"/>
+<Connection from="11/çal" to="10/kapı" with="ARG1"/>
+<Word name="3/söyle" positionX="750" positionY="200"/>
+<Connection from="and" to="3/söyle" with="op2"/>
+<Word name="4/ol" positionX="650" positionY="300"/>
+<Connection from="3/söyle" to="4/ol"/>
+<Word name="ben" positionX="550" positionY="400"/>
+<Connection from="4/ol" to="ben" with="ARG0"/>
+</Amr>

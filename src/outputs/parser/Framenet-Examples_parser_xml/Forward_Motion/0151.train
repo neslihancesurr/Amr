@@ -1,0 +1,9 @@
+<Amr sentence="Spor salonunda öğrenciler köprü kuruyordu .">
+<Word name="4/köprü 5/kur" positionX="750" positionY="100"/>
+<Word name="2/salon" positionX="650" positionY="200"/>
+<Connection from="4/köprü 5/kur" to="2/salon" with="location"/>
+<Word name="1/spor" positionX="550" positionY="300"/>
+<Connection from="2/salon" to="1/spor" with="mod"/>
+<Word name="3/öğrenci" positionX="750" positionY="200"/>
+<Connection from="4/köprü 5/kur" to="3/öğrenci" with="ARG0"/>
+</Amr>

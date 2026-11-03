@@ -1,0 +1,13 @@
+<Amr sentence="Ödenmeyen faturalardan dolayı elektriği kesmişler .">
+<Word name="4/elektrik 5/kes" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/elektrik 5/kes" to="onlar" with="ARG0"/>
+<Word name="2/fatura" positionX="750" positionY="200"/>
+<Connection from="4/elektrik 5/kes" to="2/fatura" with="mod"/>
+<Word name="1/öde" positionX="650" positionY="300"/>
+<Connection from="2/fatura" to="1/öde"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="1/öde" to="-" with="polarity"/>
+<Word name="3/dolayı" positionX="750" positionY="300"/>
+<Connection from="2/fatura" to="3/dolayı"/>
+</Amr>

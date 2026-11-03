@@ -1,0 +1,13 @@
+<Amr sentence="Kızım ilk defa yere basıyor .">
+<Word name="5/bas" positionX="750" positionY="100"/>
+<Word name="1/kız" positionX="650" positionY="200"/>
+<Connection from="5/bas" to="1/kız" with="ARG0"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="1/kız" to="ben" with="poss"/>
+<Word name="3/defa" positionX="750" positionY="200"/>
+<Connection from="5/bas" to="3/defa" with="mod"/>
+<Word name="2/ilk" positionX="650" positionY="300"/>
+<Connection from="3/defa" to="2/ilk" with="mod"/>
+<Word name="4/yer" positionX="850" positionY="200"/>
+<Connection from="5/bas" to="4/yer"/>
+</Amr>

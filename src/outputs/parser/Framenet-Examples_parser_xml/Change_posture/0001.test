@@ -1,0 +1,9 @@
+<Amr sentence="Adamın köpeği ileride susta duruyor .">
+<Word name="4/susta 5/dur" positionX="750" positionY="100"/>
+<Word name="2/köpek" positionX="650" positionY="200"/>
+<Connection from="4/susta 5/dur" to="2/köpek" with="ARG0"/>
+<Word name="1/adam" positionX="550" positionY="300"/>
+<Connection from="2/köpek" to="1/adam" with="mod"/>
+<Word name="3/ileride" positionX="750" positionY="200"/>
+<Connection from="4/susta 5/dur" to="3/ileride" with="manner"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Bu bisikleti iki yüz milyona almıştım .">
+<Word name="6/al" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="6/al" to="ben" with="ARG0"/>
+<Word name="2/bisiklet" positionX="750" positionY="200"/>
+<Connection from="6/al" to="2/bisiklet" with="ARG1"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/bisiklet" to="1/bu" with="mod"/>
+<Word name="5/milyon" positionX="850" positionY="200"/>
+<Connection from="6/al" to="5/milyon"/>
+<Word name="3/iki" positionX="750" positionY="300"/>
+<Connection from="5/milyon" to="3/iki"/>
+</Amr>

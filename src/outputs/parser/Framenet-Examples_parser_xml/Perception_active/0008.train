@@ -1,0 +1,11 @@
+<Amr sentence="Diğer mahalle sakinleri kavgayı alargadan seyrediyordu .">
+<Word name="5/alarga 6/seyret" positionX="750" positionY="100"/>
+<Word name="3/sakin" positionX="650" positionY="200"/>
+<Connection from="5/alarga 6/seyret" to="3/sakin" with="ARG0"/>
+<Word name="1/diğer" positionX="550" positionY="300"/>
+<Connection from="3/sakin" to="1/diğer" with="mod"/>
+<Word name="2/mahalle" positionX="650" positionY="300"/>
+<Connection from="3/sakin" to="2/mahalle" with="mod"/>
+<Word name="4/kavga" positionX="750" positionY="200"/>
+<Connection from="5/alarga 6/seyret" to="4/kavga" with="ARG1"/>
+</Amr>

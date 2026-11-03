@@ -1,0 +1,13 @@
+<Amr sentence="Yenildiğini kabul etmek büyük bir erdemdir .">
+<Word name="6/erdem" positionX="750" positionY="100"/>
+<Word name="2/kabul 3/et" positionX="650" positionY="200"/>
+<Connection from="6/erdem" to="2/kabul 3/et"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/kabul 3/et" to="o" with="ARG0"/>
+<Word name="1/yenil" positionX="650" positionY="300"/>
+<Connection from="2/kabul 3/et" to="1/yenil" with="ARG1"/>
+<Word name="sen" positionX="550" positionY="400"/>
+<Connection from="1/yenil" to="sen" with="ARG0"/>
+<Word name="4/büyük" positionX="750" positionY="200"/>
+<Connection from="6/erdem" to="4/büyük" with="mod"/>
+</Amr>

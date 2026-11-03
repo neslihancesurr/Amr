@@ -1,0 +1,11 @@
+<Amr sentence="Bakışlarındaki ilgisizliği hemen farkettim .">
+<Word name="4/farket" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/farket" to="ben" with="ARG0"/>
+<Word name="2/ilgisizlik" positionX="750" positionY="200"/>
+<Connection from="4/farket" to="2/ilgisizlik" with="ARG1"/>
+<Word name="1/bak" positionX="650" positionY="300"/>
+<Connection from="2/ilgisizlik" to="1/bak" with="mod"/>
+<Word name="3/hemen" positionX="850" positionY="200"/>
+<Connection from="4/farket" to="3/hemen" with="manner"/>
+</Amr>

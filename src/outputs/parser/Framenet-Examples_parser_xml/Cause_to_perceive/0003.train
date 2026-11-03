@@ -1,0 +1,11 @@
+<Amr sentence="Bu renk onu çok açtı .">
+<Word name="5/aç" positionX="750" positionY="100"/>
+<Word name="2/renk" positionX="650" positionY="200"/>
+<Connection from="5/aç" to="2/renk" with="ARG1"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/renk" to="1/bu" with="mod"/>
+<Word name="3/o" positionX="750" positionY="200"/>
+<Connection from="5/aç" to="3/o" with="ARG2"/>
+<Word name="4/çok" positionX="850" positionY="200"/>
+<Connection from="5/aç" to="4/çok" with="degree"/>
+</Amr>

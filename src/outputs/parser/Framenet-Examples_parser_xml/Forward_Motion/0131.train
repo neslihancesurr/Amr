@@ -1,0 +1,9 @@
+<Amr sentence="İnsanlar telefon kulübelerinin önünde kümeleşmişlerdi .">
+<Word name="5/kümeleş" positionX="750" positionY="100"/>
+<Word name="1/insan" positionX="650" positionY="200"/>
+<Connection from="5/kümeleş" to="1/insan" with="ARG0"/>
+<Word name="4/ön" positionX="750" positionY="200"/>
+<Connection from="5/kümeleş" to="4/ön" with="location"/>
+<Word name="2/telefon 3/kulübe" positionX="650" positionY="300"/>
+<Connection from="4/ön" to="2/telefon 3/kulübe" with="mod"/>
+</Amr>

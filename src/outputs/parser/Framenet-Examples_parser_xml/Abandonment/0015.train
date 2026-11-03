@@ -1,0 +1,33 @@
+<Amr sentence="Seni üzen her şeyi arkada bırak ve yeni bir hayata adım at .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="11/adım 12/at" positionX="650" positionY="200"/>
+<Connection from="and" to="11/adım 12/at" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="11/adım 12/at" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="650" positionY="300"/>
+<Connection from="11/adım 12/at" to="imperative" with="mode"/>
+<Word name="10/hayat" positionX="750" positionY="300"/>
+<Connection from="11/adım 12/at" to="10/hayat" with="ARG1"/>
+<Word name="8/yeni" positionX="650" positionY="400"/>
+<Connection from="10/hayat" to="8/yeni" with="mod"/>
+<Word name="5/arka 6/bırak" positionX="750" positionY="200"/>
+<Connection from="and" to="5/arka 6/bırak" with="op2"/>
+<Connection from="5/arka 6/bırak" to="sen" with="ARG0"/>
+<Connection from="5/arka 6/bırak" to="imperative" with="mode"/>
+<Word name="4/şey" positionX="850" positionY="300"/>
+<Connection from="5/arka 6/bırak" to="4/şey" with="ARG1"/>
+<Word name="o" positionX="750" positionY="400"/>
+<Connection from="4/şey" to="o" with="poss"/>
+<Word name="2/üz" positionX="850" positionY="400"/>
+<Connection from="4/şey" to="2/üz"/>
+<Word name="person" positionX="750" positionY="500"/>
+<Connection from="2/üz" to="person" with="ARG1"/>
+<Word name="name" positionX="650" positionY="600"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/seni" positionX="550" positionY="700"/>
+<Connection from="name" to="1/seni" with="op1"/>
+<Word name="-" positionX="750" positionY="600"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/her" positionX="950" positionY="400"/>
+<Connection from="4/şey" to="3/her" with="mod"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr sentence="Beşir o gün olaylardan haberdar olmuştu .">
+<Word name="5/haberdar 6/ol" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="5/haberdar 6/ol" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/beşir" positionX="450" positionY="400"/>
+<Connection from="name" to="1/beşir" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/gün" positionX="750" positionY="200"/>
+<Connection from="5/haberdar 6/ol" to="3/gün" with="mod"/>
+<Word name="2/o" positionX="650" positionY="300"/>
+<Connection from="3/gün" to="2/o" with="mod"/>
+<Word name="4/olay" positionX="850" positionY="200"/>
+<Connection from="5/haberdar 6/ol" to="4/olay" with="ARG1"/>
+</Amr>

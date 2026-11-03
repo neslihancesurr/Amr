@@ -1,0 +1,7 @@
+<Amr sentence="Seçimler için halkın nabzını tutuyor .">
+<Word name="4/nabız 5/tut" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/nabız 5/tut" to="o" with="ARG0"/>
+<Word name="1/seçim" positionX="750" positionY="200"/>
+<Connection from="4/nabız 5/tut" to="1/seçim" with="cause"/>
+</Amr>

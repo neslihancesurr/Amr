@@ -1,0 +1,15 @@
+<Amr sentence="Kocasının ölümü üzerine kendi memleketine döndü .">
+<Word name="6/dön" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/dön" to="o" with="ARG0"/>
+<Word name="3/üzerine" positionX="750" positionY="200"/>
+<Connection from="6/dön" to="3/üzerine"/>
+<Word name="2/ölüm" positionX="650" positionY="300"/>
+<Connection from="3/üzerine" to="2/ölüm" with="mod"/>
+<Word name="1/koca" positionX="550" positionY="400"/>
+<Connection from="2/ölüm" to="1/koca" with="mod"/>
+<Word name="5/memleket" positionX="850" positionY="200"/>
+<Connection from="6/dön" to="5/memleket"/>
+<Word name="4/kendi" positionX="750" positionY="300"/>
+<Connection from="5/memleket" to="4/kendi" with="mod"/>
+</Amr>

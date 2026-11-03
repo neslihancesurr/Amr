@@ -1,0 +1,18 @@
+<Amr sentence="Kartı herkesin görebileceği bir yere koymuştu .">
+<Word name="6/koy" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/koy" to="o" with="ARG0"/>
+<Word name="1/kart" positionX="750" positionY="200"/>
+<Connection from="6/koy" to="1/kart"/>
+<Word name="5/yer" positionX="850" positionY="200"/>
+<Connection from="6/koy" to="5/yer"/>
+<Word name="mümkün" positionX="750" positionY="300"/>
+<Connection from="5/yer" to="mümkün"/>
+<Word name="3/gör" positionX="650" positionY="400"/>
+<Connection from="mümkün" to="3/gör"/>
+<Connection from="3/gör" to="o" with="poss"/>
+<Word name="2/herkes" positionX="650" positionY="500"/>
+<Connection from="3/gör" to="2/herkes"/>
+<Word name="onlar" positionX="550" positionY="600"/>
+<Connection from="2/herkes" to="onlar" with="poss"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Çok yavaş kitap okurum .">
+<Word name="4/oku" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/oku" to="ben" with="ARG0"/>
+<Word name="2/yavaş" positionX="750" positionY="200"/>
+<Connection from="4/oku" to="2/yavaş" with="manner"/>
+<Word name="1/çok" positionX="650" positionY="300"/>
+<Connection from="2/yavaş" to="1/çok" with="degree"/>
+<Word name="3/kitap" positionX="850" positionY="200"/>
+<Connection from="4/oku" to="3/kitap" with="ARG1"/>
+</Amr>

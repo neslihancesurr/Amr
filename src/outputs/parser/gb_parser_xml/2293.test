@@ -1,0 +1,24 @@
+<Amr sentence="Geçen hafta göreceğim film Mavi Kadife'ydi .">
+<Word name="person" positionX="750" positionY="100"/>
+<Word name="name" positionX="650" positionY="200"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="6/kadife" positionX="550" positionY="300"/>
+<Connection from="name" to="6/kadife" with="op1"/>
+<Word name="-" positionX="750" positionY="200"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/film" positionX="850" positionY="200"/>
+<Connection from="person" to="4/film"/>
+<Word name="3/gör" positionX="750" positionY="300"/>
+<Connection from="4/film" to="3/gör"/>
+<Word name="ben" positionX="650" positionY="400"/>
+<Connection from="3/gör" to="ben" with="poss"/>
+<Word name="2/hafta" positionX="750" positionY="400"/>
+<Connection from="3/gör" to="2/hafta"/>
+<Word name="1/geç" positionX="650" positionY="500"/>
+<Connection from="2/hafta" to="1/geç"/>
+<Connection from="person" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="5/mavi" positionX="750" positionY="400"/>
+<Connection from="name" to="5/mavi" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

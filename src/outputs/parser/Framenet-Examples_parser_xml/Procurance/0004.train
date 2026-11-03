@@ -1,0 +1,9 @@
+<Amr sentence="Bu iddiayı ben kazandım .">
+<Word name="4/kazan" positionX="750" positionY="100"/>
+<Word name="2/iddia" positionX="650" positionY="200"/>
+<Connection from="4/kazan" to="2/iddia" with="ARG1"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/iddia" to="1/bu" with="mod"/>
+<Word name="3/ben" positionX="750" positionY="200"/>
+<Connection from="4/kazan" to="3/ben" with="ARG0"/>
+</Amr>

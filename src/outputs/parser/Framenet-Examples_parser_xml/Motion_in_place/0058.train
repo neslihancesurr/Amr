@@ -1,0 +1,12 @@
+<Amr sentence="Tişörtü aldı , çevirdi .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/al" positionX="650" positionY="200"/>
+<Connection from="and" to="2/al" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/al" to="o" with="ARG0"/>
+<Word name="1/tişört" positionX="650" positionY="300"/>
+<Connection from="2/al" to="1/tişört" with="ARG1"/>
+<Word name="4/çevir" positionX="750" positionY="200"/>
+<Connection from="and" to="4/çevir" with="op2"/>
+<Connection from="4/çevir" to="o" with="ARG0"/>
+</Amr>

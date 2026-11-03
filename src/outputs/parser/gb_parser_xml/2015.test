@@ -1,0 +1,11 @@
+<Amr sentence="Konuyu iyice anlamak gerek .">
+<Word name="4/gerek" positionX="750" positionY="100"/>
+<Word name="3/anla" positionX="650" positionY="200"/>
+<Connection from="4/gerek" to="3/anla"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/anla" to="o" with="ARG0"/>
+<Word name="1/konu" positionX="650" positionY="300"/>
+<Connection from="3/anla" to="1/konu" with="ARG1"/>
+<Word name="2/iyice" positionX="750" positionY="300"/>
+<Connection from="3/anla" to="2/iyice" with="manner"/>
+</Amr>

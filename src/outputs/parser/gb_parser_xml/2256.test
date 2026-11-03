@@ -1,0 +1,9 @@
+<Amr sentence="ev sahibinin korktuğum köpeği">
+<Word name="4/köpek" positionX="750" positionY="100"/>
+<Word name="1/ev 2/sahip" positionX="650" positionY="200"/>
+<Connection from="4/köpek" to="1/ev 2/sahip" with="mod"/>
+<Word name="3/kork" positionX="750" positionY="200"/>
+<Connection from="4/köpek" to="3/kork"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="3/kork" to="ben" with="poss"/>
+</Amr>

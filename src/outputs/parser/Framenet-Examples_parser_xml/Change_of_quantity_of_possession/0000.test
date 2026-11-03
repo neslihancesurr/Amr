@@ -1,0 +1,22 @@
+<Amr sentence="İlk tanıştığımız günden beri bana karşı gösterdiği yakınlıkla gönlünü çelmişti .">
+<Word name="9/gönül 10/çel" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="9/gönül 10/çel" to="o" with="ARG0"/>
+<Word name="8/yakınlık" positionX="750" positionY="200"/>
+<Connection from="9/gönül 10/çel" to="8/yakınlık" with="instrument"/>
+<Word name="7/göster" positionX="650" positionY="300"/>
+<Connection from="8/yakınlık" to="7/göster"/>
+<Connection from="7/göster" to="o" with="poss"/>
+<Word name="3/gün" positionX="650" positionY="400"/>
+<Connection from="7/göster" to="3/gün"/>
+<Word name="2/tanış" positionX="550" positionY="500"/>
+<Connection from="3/gün" to="2/tanış" with="mod"/>
+<Word name="1/ilk" positionX="450" positionY="600"/>
+<Connection from="2/tanış" to="1/ilk" with="manner"/>
+<Word name="4/beri" positionX="650" positionY="500"/>
+<Connection from="3/gün" to="4/beri"/>
+<Word name="5/ben" positionX="750" positionY="400"/>
+<Connection from="7/göster" to="5/ben"/>
+<Word name="6/karşı" positionX="650" positionY="500"/>
+<Connection from="5/ben" to="6/karşı"/>
+</Amr>

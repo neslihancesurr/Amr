@@ -1,0 +1,21 @@
+<Amr sentence="Acemi defans oyuncusu ne yapacağını bilemeyip topu taca bıraktı .">
+<Word name="7/top 8/taç 9/bırak" positionX="750" positionY="100"/>
+<Word name="mümkün" positionX="650" positionY="200"/>
+<Connection from="7/top 8/taç 9/bırak" to="mümkün"/>
+<Word name="6/bil" positionX="550" positionY="300"/>
+<Connection from="mümkün" to="6/bil"/>
+<Word name="-" positionX="450" positionY="400"/>
+<Connection from="6/bil" to="-" with="polarity"/>
+<Word name="3/oyuncu" positionX="550" positionY="400"/>
+<Connection from="6/bil" to="3/oyuncu"/>
+<Word name="2/defans" positionX="450" positionY="500"/>
+<Connection from="3/oyuncu" to="2/defans" with="mod"/>
+<Word name="1/acemi" positionX="350" positionY="600"/>
+<Connection from="2/defans" to="1/acemi" with="mod"/>
+<Word name="5/yap" positionX="650" positionY="400"/>
+<Connection from="6/bil" to="5/yap"/>
+<Word name="o" positionX="550" positionY="500"/>
+<Connection from="5/yap" to="o" with="ARG0"/>
+<Word name="4/ne" positionX="650" positionY="500"/>
+<Connection from="5/yap" to="4/ne" with="mod"/>
+</Amr>

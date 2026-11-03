@@ -1,0 +1,16 @@
+<Amr sentence="İşte olanları eve yansıtmadı .">
+<Word name="4/yansıt" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/yansıt" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="4/yansıt" to="o" with="ARG0"/>
+<Word name="2/ol" positionX="850" positionY="200"/>
+<Connection from="4/yansıt" to="2/ol" with="ARG1"/>
+<Word name="onlar" positionX="750" positionY="300"/>
+<Connection from="2/ol" to="onlar" with="ARG0"/>
+<Connection from="2/ol" to="o" with="poss"/>
+<Word name="1/iş" positionX="950" positionY="300"/>
+<Connection from="2/ol" to="1/iş" with="location"/>
+<Word name="3/ev" positionX="950" positionY="200"/>
+<Connection from="4/yansıt" to="3/ev" with="ARG2"/>
+</Amr>

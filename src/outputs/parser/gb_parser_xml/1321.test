@@ -1,0 +1,11 @@
+<Amr sentence="Şey … Biraz konuşmamız lazım .">
+<Word name="5/lazım" positionX="750" positionY="100"/>
+<Word name="1/şey" positionX="650" positionY="200"/>
+<Connection from="5/lazım" to="1/şey"/>
+<Word name="4/konuşma" positionX="750" positionY="200"/>
+<Connection from="5/lazım" to="4/konuşma"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="4/konuşma" to="biz" with="poss"/>
+<Word name="3/biraz" positionX="750" positionY="300"/>
+<Connection from="4/konuşma" to="3/biraz" with="manner"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Gelişmelerden daha yeni haberdar oldum .">
+<Word name="4/haberdar 5/ol" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/haberdar 5/ol" to="ben" with="ARG0"/>
+<Word name="1/gelişme" positionX="750" positionY="200"/>
+<Connection from="4/haberdar 5/ol" to="1/gelişme" with="ARG1"/>
+<Word name="3/yeni" positionX="850" positionY="200"/>
+<Connection from="4/haberdar 5/ol" to="3/yeni" with="manner"/>
+<Word name="2/daha" positionX="750" positionY="300"/>
+<Connection from="3/yeni" to="2/daha" with="degree"/>
+</Amr>

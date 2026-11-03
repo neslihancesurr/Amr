@@ -1,0 +1,24 @@
+<Amr sentence="Adam ne söylediyse karısını suçsuz olduğuna inandıramadı .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="7/inandır" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="7/inandır"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="7/inandır" to="-" with="polarity"/>
+<Word name="3/söyle" positionX="650" positionY="300"/>
+<Connection from="7/inandır" to="3/söyle" with="cond"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="3/söyle" to="o" with="ARG0"/>
+<Word name="1/adam" positionX="650" positionY="400"/>
+<Connection from="3/söyle" to="1/adam"/>
+<Word name="2/ne" positionX="750" positionY="400"/>
+<Connection from="3/söyle" to="2/ne" with="ARG1"/>
+<Word name="4/karı" positionX="750" positionY="300"/>
+<Connection from="7/inandır" to="4/karı" with="ARG1"/>
+<Connection from="4/karı" to="o" with="poss"/>
+<Word name="6/ol" positionX="850" positionY="300"/>
+<Connection from="7/inandır" to="6/ol" with="ARG2"/>
+<Connection from="6/ol" to="o" with="ARG0"/>
+<Connection from="6/ol" to="o" with="poss"/>
+<Word name="5/suçsuz" positionX="950" positionY="400"/>
+<Connection from="6/ol" to="5/suçsuz" with="manner"/>
+</Amr>

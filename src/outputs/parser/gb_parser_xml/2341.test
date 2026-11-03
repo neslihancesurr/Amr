@@ -1,0 +1,24 @@
+<Amr sentence="Bir ahçı ki baklava yapmayı bilmesin , ben ona ahçı demem .">
+<Word name="11/de" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="11/de" to="-" with="polarity"/>
+<Word name="2/ahçı" positionX="750" positionY="200"/>
+<Connection from="11/de" to="2/ahçı"/>
+<Word name="6/bil" positionX="650" positionY="300"/>
+<Connection from="2/ahçı" to="6/bil"/>
+<Connection from="6/bil" to="-" with="polarity"/>
+<Word name="imperative" positionX="650" positionY="400"/>
+<Connection from="6/bil" to="imperative" with="mode"/>
+<Word name="3/ki" positionX="750" positionY="400"/>
+<Connection from="6/bil" to="3/ki"/>
+<Word name="5/yap" positionX="850" positionY="400"/>
+<Connection from="6/bil" to="5/yap"/>
+<Word name="4/baklava" positionX="750" positionY="500"/>
+<Connection from="5/yap" to="4/baklava"/>
+<Word name="8/ben" positionX="850" positionY="200"/>
+<Connection from="11/de" to="8/ben"/>
+<Word name="9/o" positionX="950" positionY="200"/>
+<Connection from="11/de" to="9/o"/>
+<Word name="10/ahçı" positionX="1050" positionY="200"/>
+<Connection from="11/de" to="10/ahçı"/>
+</Amr>

@@ -1,0 +1,20 @@
+<Amr sentence="Ahmet çalışıyorsa rahatsız edilmek istemez .">
+<Word name="5/iste" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/iste" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="5/iste" to="o" with="ARG0"/>
+<Word name="2/çalış" positionX="850" positionY="200"/>
+<Connection from="5/iste" to="2/çalış" with="cond"/>
+<Connection from="2/çalış" to="o" with="ARG0"/>
+<Word name="person" positionX="850" positionY="300"/>
+<Connection from="2/çalış" to="person"/>
+<Word name="name" positionX="750" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ahmet" positionX="650" positionY="500"/>
+<Connection from="name" to="1/ahmet" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/rahatsız 4/et" positionX="950" positionY="200"/>
+<Connection from="5/iste" to="3/rahatsız 4/et"/>
+<Connection from="3/rahatsız 4/et" to="o" with="ARG0"/>
+</Amr>

@@ -1,0 +1,7 @@
+<Amr sentence="Borcun vadesi kısaldı .">
+<Word name="3/kısal" positionX="750" positionY="100"/>
+<Word name="2/vade" positionX="650" positionY="200"/>
+<Connection from="3/kısal" to="2/vade" with="ARG0"/>
+<Word name="1/borç" positionX="550" positionY="300"/>
+<Connection from="2/vade" to="1/borç" with="mod"/>
+</Amr>

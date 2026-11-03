@@ -1,0 +1,12 @@
+<Amr sentence="Yılan hikayesi gibi uzadı bu iş .">
+<Word name="4/uza" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/uza" to="o" with="ARG0"/>
+<Word name="1/yılan 2/hikaye" positionX="750" positionY="200"/>
+<Connection from="4/uza" to="1/yılan 2/hikaye"/>
+<Connection from="1/yılan 2/hikaye" to="o" with="poss"/>
+<Word name="6/iş" positionX="850" positionY="200"/>
+<Connection from="4/uza" to="6/iş" with="ARG1"/>
+<Word name="5/bu" positionX="750" positionY="300"/>
+<Connection from="6/iş" to="5/bu" with="mod"/>
+</Amr>

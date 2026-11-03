@@ -1,0 +1,15 @@
+<Amr sentence="Trafik kazasından sonra çok fazla kan kaybetmişti .">
+<Word name="6/kan 7/kaybet" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/kan 7/kaybet" to="o" with="ARG0"/>
+<Word name="2/kaza" positionX="750" positionY="200"/>
+<Connection from="6/kan 7/kaybet" to="2/kaza"/>
+<Word name="1/trafik" positionX="650" positionY="300"/>
+<Connection from="2/kaza" to="1/trafik" with="mod"/>
+<Word name="3/sonra" positionX="750" positionY="300"/>
+<Connection from="2/kaza" to="3/sonra"/>
+<Word name="5/fazla" positionX="850" positionY="200"/>
+<Connection from="6/kan 7/kaybet" to="5/fazla" with="degree"/>
+<Word name="4/çok" positionX="750" positionY="300"/>
+<Connection from="5/fazla" to="4/çok" with="degree"/>
+</Amr>

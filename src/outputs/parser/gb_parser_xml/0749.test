@@ -1,0 +1,5 @@
+<Amr sentence="yetmiş üç">
+<Word name="2/üç" positionX="750" positionY="100"/>
+<Word name="1/yetmiş" positionX="650" positionY="200"/>
+<Connection from="2/üç" to="1/yetmiş"/>
+</Amr>

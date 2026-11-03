@@ -1,0 +1,15 @@
+<Amr sentence="Bizim müdür yine ağzını açtı , en az yarım saat buradayız .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/ağız 5/aç" positionX="650" positionY="200"/>
+<Connection from="and" to="4/ağız 5/aç" with="op1"/>
+<Word name="2/müdür" positionX="550" positionY="300"/>
+<Connection from="4/ağız 5/aç" to="2/müdür" with="ARG0"/>
+<Word name="1/biz" positionX="450" positionY="400"/>
+<Connection from="2/müdür" to="1/biz" with="mod"/>
+<Word name="3/yine" positionX="650" positionY="300"/>
+<Connection from="4/ağız 5/aç" to="3/yine" with="manner"/>
+<Word name="11/bura" positionX="750" positionY="200"/>
+<Connection from="and" to="11/bura" with="location"/>
+<Word name="9/yarım 10/saat" positionX="650" positionY="300"/>
+<Connection from="11/bura" to="9/yarım 10/saat" with="mod"/>
+</Amr>

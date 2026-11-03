@@ -1,0 +1,5 @@
+<Amr sentence="Şuradakinden de bir tane istiyorum .">
+<Word name="5/iste" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/iste" to="ben" with="ARG0"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Gülümseyerek bir köşeyi döndü .">
+<Word name="4/dön" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/dön" to="o" with="ARG0"/>
+<Word name="1/gülümse" positionX="750" positionY="200"/>
+<Connection from="4/dön" to="1/gülümse"/>
+<Word name="3/köşe" positionX="850" positionY="200"/>
+<Connection from="4/dön" to="3/köşe" with="ARG1"/>
+</Amr>

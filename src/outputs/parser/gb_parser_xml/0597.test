@@ -1,0 +1,9 @@
+<Amr sentence="Zavallı bunu yorgunluktan yapmıştır .">
+<Word name="4/yap" positionX="750" positionY="100"/>
+<Word name="1/zavallı" positionX="650" positionY="200"/>
+<Connection from="4/yap" to="1/zavallı" with="ARG0"/>
+<Word name="2/bu" positionX="750" positionY="200"/>
+<Connection from="4/yap" to="2/bu" with="ARG1"/>
+<Word name="3/yorgunluk" positionX="850" positionY="200"/>
+<Connection from="4/yap" to="3/yorgunluk"/>
+</Amr>

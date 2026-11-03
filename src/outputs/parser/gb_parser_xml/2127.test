@@ -1,0 +1,13 @@
+<Amr sentence="O kedinin insana hoş bir sokuluşu vardı .">
+<Word name="7/var" positionX="750" positionY="100"/>
+<Word name="6/sokul" positionX="650" positionY="200"/>
+<Connection from="7/var" to="6/sokul"/>
+<Word name="2/kedi" positionX="550" positionY="300"/>
+<Connection from="6/sokul" to="2/kedi"/>
+<Word name="1/o" positionX="450" positionY="400"/>
+<Connection from="2/kedi" to="1/o" with="mod"/>
+<Word name="3/insan" positionX="650" positionY="300"/>
+<Connection from="6/sokul" to="3/insan"/>
+<Word name="4/hoş" positionX="750" positionY="300"/>
+<Connection from="6/sokul" to="4/hoş" with="mod"/>
+</Amr>

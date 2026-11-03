@@ -1,0 +1,17 @@
+<Amr sentence="Artık Türkçe'yi güzel konuşuyorsun .">
+<Word name="4/konuş" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="4/konuş" to="sen" with="ARG0"/>
+<Word name="1/artık" positionX="750" positionY="200"/>
+<Connection from="4/konuş" to="1/artık" with="manner"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="4/konuş" to="person"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/türkçe" positionX="650" positionY="400"/>
+<Connection from="name" to="2/türkçe" with="op1"/>
+<Word name="-" positionX="850" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/güzel" positionX="950" positionY="200"/>
+<Connection from="4/konuş" to="3/güzel" with="manner"/>
+</Amr>

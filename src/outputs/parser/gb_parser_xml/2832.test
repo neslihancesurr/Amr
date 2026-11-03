@@ -1,0 +1,9 @@
+<Amr sentence="- Aramadım ki .">
+<Word name="2/ara" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="2/ara" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="2/ara" to="ben" with="ARG0"/>
+<Word name="3/ki" positionX="850" positionY="200"/>
+<Connection from="2/ara" to="3/ki"/>
+</Amr>

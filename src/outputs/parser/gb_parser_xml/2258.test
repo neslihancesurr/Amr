@@ -1,0 +1,7 @@
+<Amr sentence="çayla yiyecek bir şeyler">
+<Word name="3/bir 4/şey" positionX="750" positionY="100"/>
+<Word name="2/ye" positionX="650" positionY="200"/>
+<Connection from="3/bir 4/şey" to="2/ye"/>
+<Word name="1/çay" positionX="550" positionY="300"/>
+<Connection from="2/ye" to="1/çay" with="instrument"/>
+</Amr>

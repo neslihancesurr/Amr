@@ -1,0 +1,9 @@
+<Amr sentence="Kabloların tamamı yalıtıldı .">
+<Word name="3/yalıt" positionX="750" positionY="100"/>
+<Word name="2/tamam" positionX="650" positionY="200"/>
+<Connection from="3/yalıt" to="2/tamam" with="ARG1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/tamam" to="o" with="poss"/>
+<Word name="1/kablo" positionX="650" positionY="300"/>
+<Connection from="2/tamam" to="1/kablo"/>
+</Amr>

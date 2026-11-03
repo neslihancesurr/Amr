@@ -1,0 +1,13 @@
+<Amr sentence="Bu sabah gecikenlerin hepsini haşladı .">
+<Word name="5/haşla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/haşla" to="o" with="ARG0"/>
+<Word name="2/sabah" positionX="750" positionY="200"/>
+<Connection from="5/haşla" to="2/sabah" with="ARG1"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/sabah" to="1/bu" with="mod"/>
+<Word name="4/hepsi" positionX="850" positionY="200"/>
+<Connection from="5/haşla" to="4/hepsi" with="ARG1"/>
+<Word name="3/gecik" positionX="750" positionY="300"/>
+<Connection from="4/hepsi" to="3/gecik" with="mod"/>
+</Amr>

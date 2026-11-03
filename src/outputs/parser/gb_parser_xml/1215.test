@@ -1,0 +1,15 @@
+<Amr sentence="Size birbirinizden hiç söz etmedim .">
+<Word name="4/söz 5/et" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/söz 5/et" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="4/söz 5/et" to="ben" with="ARG0"/>
+<Word name="1/siz" positionX="850" positionY="200"/>
+<Connection from="4/söz 5/et" to="1/siz" with="ARG0"/>
+<Word name="2/birbiri" positionX="950" positionY="200"/>
+<Connection from="4/söz 5/et" to="2/birbiri" with="ARG1"/>
+<Word name="siz" positionX="850" positionY="300"/>
+<Connection from="2/birbiri" to="siz" with="poss"/>
+<Word name="3/hiç" positionX="1050" positionY="200"/>
+<Connection from="4/söz 5/et" to="3/hiç" with="degree"/>
+</Amr>

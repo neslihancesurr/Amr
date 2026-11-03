@@ -1,0 +1,33 @@
+<Amr sentence="Ne tamir işleriyle uğraşır , ne yemek pişirmesini bilir , ne de çocuklarla ilgilenir .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="9/bil" positionX="650" positionY="200"/>
+<Connection from="and" to="9/bil" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="9/bil" to="o" with="ARG0"/>
+<Word name="6/ne" positionX="650" positionY="300"/>
+<Connection from="9/bil" to="6/ne"/>
+<Word name="8/pişir" positionX="750" positionY="300"/>
+<Connection from="9/bil" to="8/pişir" with="ARG1"/>
+<Connection from="8/pişir" to="o" with="ARG0"/>
+<Connection from="8/pişir" to="o" with="poss"/>
+<Word name="7/yemek" positionX="850" positionY="400"/>
+<Connection from="8/pişir" to="7/yemek" with="ARG1"/>
+<Word name="14/ilgilen" positionX="750" positionY="200"/>
+<Connection from="and" to="14/ilgilen" with="op2"/>
+<Connection from="14/ilgilen" to="o" with="ARG0"/>
+<Word name="11/ne" positionX="750" positionY="300"/>
+<Connection from="14/ilgilen" to="11/ne"/>
+<Word name="12/de" positionX="650" positionY="400"/>
+<Connection from="11/ne" to="12/de"/>
+<Word name="13/çocuk" positionX="850" positionY="300"/>
+<Connection from="14/ilgilen" to="13/çocuk" with="ARG1"/>
+<Word name="4/uğraş" positionX="850" positionY="200"/>
+<Connection from="and" to="4/uğraş" with="op3"/>
+<Connection from="4/uğraş" to="o" with="ARG0"/>
+<Word name="1/ne" positionX="850" positionY="300"/>
+<Connection from="4/uğraş" to="1/ne"/>
+<Word name="3/işler" positionX="950" positionY="300"/>
+<Connection from="4/uğraş" to="3/işler" with="instrument"/>
+<Word name="2/tamir" positionX="850" positionY="400"/>
+<Connection from="3/işler" to="2/tamir" with="mod"/>
+</Amr>

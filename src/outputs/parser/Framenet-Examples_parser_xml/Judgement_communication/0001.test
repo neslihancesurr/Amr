@@ -1,0 +1,13 @@
+<Amr sentence="Veli toplantısında öğretmen , pek çok şeyi sınıf aleyhine söyledi .">
+<Word name="9/aleyh 10/söyle" positionX="750" positionY="100"/>
+<Word name="2/toplantı" positionX="650" positionY="200"/>
+<Connection from="9/aleyh 10/söyle" to="2/toplantı" with="location"/>
+<Word name="1/veli" positionX="550" positionY="300"/>
+<Connection from="2/toplantı" to="1/veli" with="mod"/>
+<Word name="3/öğretmen" positionX="750" positionY="200"/>
+<Connection from="9/aleyh 10/söyle" to="3/öğretmen" with="ARG0"/>
+<Word name="7/şey" positionX="850" positionY="200"/>
+<Connection from="9/aleyh 10/söyle" to="7/şey"/>
+<Word name="5/pek 6/çok" positionX="750" positionY="300"/>
+<Connection from="7/şey" to="5/pek 6/çok" with="degree"/>
+</Amr>

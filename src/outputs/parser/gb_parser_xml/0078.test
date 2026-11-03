@@ -1,0 +1,9 @@
+<Amr sentence="Kutu kutu kitap taşıdık .">
+<Word name="4/taşı" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="4/taşı" to="biz" with="ARG0"/>
+<Word name="3/kitap" positionX="750" positionY="200"/>
+<Connection from="4/taşı" to="3/kitap" with="ARG1"/>
+<Word name="1/kutu 2/kutu" positionX="650" positionY="300"/>
+<Connection from="3/kitap" to="1/kutu 2/kutu"/>
+</Amr>

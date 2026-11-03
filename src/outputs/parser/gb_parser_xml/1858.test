@@ -1,0 +1,19 @@
+<Amr sentence="Şu anda konuşamayacağım , müşteri var .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/konuş" positionX="650" positionY="200"/>
+<Connection from="and" to="3/konuş" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="3/konuş" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="3/konuş" to="ben" with="ARG0"/>
+<Word name="2/an" positionX="750" positionY="300"/>
+<Connection from="3/konuş" to="2/an" with="location"/>
+<Word name="1/şu" positionX="650" positionY="400"/>
+<Connection from="2/an" to="1/şu" with="mod"/>
+<Word name="6/var" positionX="750" positionY="200"/>
+<Connection from="and" to="6/var" with="op2"/>
+<Word name="mümkün" positionX="650" positionY="300"/>
+<Connection from="6/var" to="mümkün"/>
+<Word name="5/müşteri" positionX="750" positionY="300"/>
+<Connection from="6/var" to="5/müşteri"/>
+</Amr>

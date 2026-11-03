@@ -1,0 +1,28 @@
+<Amr sentence="Tülay'ın hafta sonları Ankara'ya gidiyor olduğunu sanıyorum .">
+<Word name="7/san" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="7/san" to="ben" with="ARG0"/>
+<Word name="6/ol" positionX="750" positionY="200"/>
+<Connection from="7/san" to="6/ol"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="6/ol" to="o" with="ARG0"/>
+<Connection from="6/ol" to="o" with="poss"/>
+<Word name="5/git" positionX="850" positionY="300"/>
+<Connection from="6/ol" to="5/git"/>
+<Connection from="5/git" to="o" with="ARG0"/>
+<Word name="person" positionX="850" positionY="400"/>
+<Connection from="5/git" to="person"/>
+<Word name="name" positionX="750" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/tülay" positionX="650" positionY="600"/>
+<Connection from="name" to="1/tülay" with="op1"/>
+<Word name="-" positionX="850" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/hafta 3/son" positionX="950" positionY="400"/>
+<Connection from="5/git" to="2/hafta 3/son" with="mod"/>
+<Connection from="5/git" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="4/ankara" positionX="850" positionY="600"/>
+<Connection from="name" to="4/ankara" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

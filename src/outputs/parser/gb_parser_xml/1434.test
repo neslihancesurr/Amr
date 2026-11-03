@@ -1,0 +1,11 @@
+<Amr sentence="Kim onları okuldan kaçarken görmüş ?">
+<Word name="5/gör" positionX="750" positionY="100"/>
+<Word name="1/kim" positionX="650" positionY="200"/>
+<Connection from="5/gör" to="1/kim" with="ARG0"/>
+<Word name="2/o" positionX="750" positionY="200"/>
+<Connection from="5/gör" to="2/o"/>
+<Word name="4/kaç" positionX="850" positionY="200"/>
+<Connection from="5/gör" to="4/kaç" with="ARG1"/>
+<Word name="3/okul" positionX="750" positionY="300"/>
+<Connection from="4/kaç" to="3/okul"/>
+</Amr>

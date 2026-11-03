@@ -1,0 +1,11 @@
+<Amr sentence="Kir bir türlü çıkmıyordu .">
+<Word name="4/çık" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/çık" to="-" with="polarity"/>
+<Word name="1/kir" positionX="750" positionY="200"/>
+<Connection from="4/çık" to="1/kir" with="ARG0"/>
+<Word name="2/bir" positionX="850" positionY="200"/>
+<Connection from="4/çık" to="2/bir" with="manner"/>
+<Word name="3/türlü" positionX="750" positionY="300"/>
+<Connection from="2/bir" to="3/türlü"/>
+</Amr>

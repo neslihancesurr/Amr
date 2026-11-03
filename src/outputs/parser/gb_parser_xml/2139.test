@@ -1,0 +1,14 @@
+<Amr sentence="Buraya araba çarptığını tahmin ediyorum .">
+<Word name="4/tahmin 5/et" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/tahmin 5/et" to="ben" with="ARG0"/>
+<Word name="3/çarp" positionX="750" positionY="200"/>
+<Connection from="4/tahmin 5/et" to="3/çarp"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/çarp" to="o" with="ARG0"/>
+<Connection from="3/çarp" to="o" with="poss"/>
+<Word name="1/bura" positionX="850" positionY="300"/>
+<Connection from="3/çarp" to="1/bura"/>
+<Word name="2/araba" positionX="950" positionY="300"/>
+<Connection from="3/çarp" to="2/araba"/>
+</Amr>

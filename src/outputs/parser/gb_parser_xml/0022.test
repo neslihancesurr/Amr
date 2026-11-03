@@ -1,0 +1,24 @@
+<Amr sentence="Bugün Ziya'yla buluştuğunuz zaman bana telefon edin .">
+<Word name="6/telefon 7/et" positionX="750" positionY="100"/>
+<Word name="siz" positionX="650" positionY="200"/>
+<Connection from="6/telefon 7/et" to="siz" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="6/telefon 7/et" to="imperative" with="mode"/>
+<Word name="3/buluş" positionX="850" positionY="200"/>
+<Connection from="6/telefon 7/et" to="3/buluş"/>
+<Connection from="3/buluş" to="siz" with="poss"/>
+<Word name="1/bugün" positionX="850" positionY="300"/>
+<Connection from="3/buluş" to="1/bugün"/>
+<Word name="person" positionX="950" positionY="300"/>
+<Connection from="3/buluş" to="person" with="ARG1"/>
+<Word name="name" positionX="850" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/ziya" positionX="750" positionY="500"/>
+<Connection from="name" to="2/ziya" with="op1"/>
+<Word name="-" positionX="950" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/zaman" positionX="1050" positionY="300"/>
+<Connection from="3/buluş" to="4/zaman" with="mod"/>
+<Word name="5/ben" positionX="950" positionY="200"/>
+<Connection from="6/telefon 7/et" to="5/ben" with="ARG1"/>
+</Amr>

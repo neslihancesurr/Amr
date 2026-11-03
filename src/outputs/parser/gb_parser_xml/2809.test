@@ -1,0 +1,13 @@
+<Amr sentence="insanlar küçük ve daha konuşmazken">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/konuş" positionX="650" positionY="200"/>
+<Connection from="and" to="5/konuş" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="5/konuş" to="-" with="polarity"/>
+<Word name="4/daha" positionX="650" positionY="300"/>
+<Connection from="5/konuş" to="4/daha" with="degree"/>
+<Word name="2/küçük" positionX="750" positionY="200"/>
+<Connection from="and" to="2/küçük" with="op2"/>
+<Word name="1/insan" positionX="650" positionY="300"/>
+<Connection from="2/küçük" to="1/insan"/>
+</Amr>

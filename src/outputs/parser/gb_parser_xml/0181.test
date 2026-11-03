@@ -1,0 +1,11 @@
+<Amr sentence="Onlarınsa hiç parası yok .">
+<Word name="4/yok" positionX="750" positionY="100"/>
+<Word name="1/o" positionX="650" positionY="200"/>
+<Connection from="4/yok" to="1/o" with="cond"/>
+<Word name="2/hiç" positionX="750" positionY="200"/>
+<Connection from="4/yok" to="2/hiç" with="degree"/>
+<Word name="3/para" positionX="850" positionY="200"/>
+<Connection from="4/yok" to="3/para"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="3/para" to="o" with="poss"/>
+</Amr>

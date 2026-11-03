@@ -1,0 +1,11 @@
+<Amr sentence="Çocuk , heyecanla çömlek yapımını seyrediyordu .">
+<Word name="6/seyret" positionX="750" positionY="100"/>
+<Word name="1/çocuk" positionX="650" positionY="200"/>
+<Connection from="6/seyret" to="1/çocuk" with="ARG0"/>
+<Word name="3/heyecanla" positionX="750" positionY="200"/>
+<Connection from="6/seyret" to="3/heyecanla" with="manner"/>
+<Word name="5/yapım" positionX="850" positionY="200"/>
+<Connection from="6/seyret" to="5/yapım" with="ARG1"/>
+<Word name="4/çömlek" positionX="750" positionY="300"/>
+<Connection from="5/yapım" to="4/çömlek" with="mod"/>
+</Amr>

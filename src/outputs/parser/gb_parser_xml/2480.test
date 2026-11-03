@@ -1,0 +1,13 @@
+<Amr sentence="Arabayı satarsa hepimiz rahatlarız .">
+<Word name="4/rahatla" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="4/rahatla" to="biz" with="ARG0"/>
+<Word name="2/sat" positionX="750" positionY="200"/>
+<Connection from="4/rahatla" to="2/sat" with="cond"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/sat" to="o" with="ARG0"/>
+<Word name="1/araba" positionX="750" positionY="300"/>
+<Connection from="2/sat" to="1/araba" with="ARG1"/>
+<Word name="3/hep" positionX="850" positionY="200"/>
+<Connection from="4/rahatla" to="3/hep" with="frequency"/>
+</Amr>

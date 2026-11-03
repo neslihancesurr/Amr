@@ -1,0 +1,23 @@
+<Amr sentence="Aynur Zehra'yla buluştuktan sonra mı çocukları okuldan aldı ?">
+<Word name="8/al" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="8/al" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/aynur" positionX="450" positionY="400"/>
+<Connection from="name" to="1/aynur" with="op1"/>
+<Word name="2/zehra" positionX="550" positionY="400"/>
+<Connection from="name" to="2/zehra" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/buluş" positionX="750" positionY="200"/>
+<Connection from="8/al" to="3/buluş"/>
+<Word name="4/sonra" positionX="650" positionY="300"/>
+<Connection from="3/buluş" to="4/sonra"/>
+<Word name="5/mi" positionX="750" positionY="300"/>
+<Connection from="3/buluş" to="5/mi"/>
+<Word name="6/çocuk" positionX="850" positionY="200"/>
+<Connection from="8/al" to="6/çocuk" with="ARG1"/>
+<Word name="7/okul" positionX="950" positionY="200"/>
+<Connection from="8/al" to="7/okul" with="ARG2"/>
+</Amr>

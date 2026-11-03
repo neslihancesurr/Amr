@@ -1,0 +1,7 @@
+<Amr sentence="Bayramlarda ev ev gezerdim .">
+<Word name="2/ev 3/ev 4/gez" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="2/ev 3/ev 4/gez" to="ben" with="ARG0"/>
+<Word name="1/bayram" positionX="750" positionY="200"/>
+<Connection from="2/ev 3/ev 4/gez" to="1/bayram" with="location"/>
+</Amr>

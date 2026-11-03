@@ -1,0 +1,11 @@
+<Amr sentence="Evde bir tane bile fazla ampul yok .">
+<Word name="7/yok" positionX="750" positionY="100"/>
+<Word name="1/ev" positionX="650" positionY="200"/>
+<Connection from="7/yok" to="1/ev" with="mod"/>
+<Word name="6/ampul" positionX="750" positionY="200"/>
+<Connection from="7/yok" to="6/ampul"/>
+<Word name="2/bir" positionX="650" positionY="300"/>
+<Connection from="6/ampul" to="2/bir"/>
+<Word name="5/fazla" positionX="750" positionY="300"/>
+<Connection from="6/ampul" to="5/fazla" with="degree"/>
+</Amr>

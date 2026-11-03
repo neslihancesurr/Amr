@@ -1,0 +1,30 @@
+<Amr sentence="Görüşmeler hakkında ne hükümetten , ne iş adamlarından , ne işçi sendikalarından bir bilgi alamadık .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="15/al" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="15/al"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="15/al" to="-" with="polarity"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="15/al" to="biz" with="ARG0"/>
+<Word name="2/hakkında" positionX="750" positionY="300"/>
+<Connection from="15/al" to="2/hakkında"/>
+<Word name="1/görüşme" positionX="650" positionY="400"/>
+<Connection from="2/hakkında" to="1/görüşme" with="mod"/>
+<Word name="and" positionX="850" positionY="300"/>
+<Connection from="15/al" to="and"/>
+<Word name="8/adam" positionX="750" positionY="400"/>
+<Connection from="and" to="8/adam" with="mod"/>
+<Word name="6/ne" positionX="650" positionY="500"/>
+<Connection from="8/adam" to="6/ne"/>
+<Word name="7/iş" positionX="750" positionY="500"/>
+<Connection from="8/adam" to="7/iş" with="mod"/>
+<Word name="11/işçi 12/sendika" positionX="850" positionY="500"/>
+<Connection from="8/adam" to="11/işçi 12/sendika" with="mod"/>
+<Word name="4/hükümet" positionX="850" positionY="400"/>
+<Connection from="and" to="4/hükümet" with="mod"/>
+<Word name="3/ne" positionX="750" positionY="500"/>
+<Connection from="4/hükümet" to="3/ne"/>
+<Connection from="4/hükümet" to="and"/>
+<Word name="14/bilgi" positionX="950" positionY="300"/>
+<Connection from="15/al" to="14/bilgi" with="ARG1"/>
+</Amr>

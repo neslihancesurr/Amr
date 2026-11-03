@@ -1,0 +1,11 @@
+<Amr sentence="Yerlerde gazete kağıtları , kitaplar .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/kitap" positionX="650" positionY="200"/>
+<Connection from="and" to="5/kitap" with="op1"/>
+<Word name="3/kağıt" positionX="750" positionY="200"/>
+<Connection from="and" to="3/kağıt" with="op2"/>
+<Word name="1/yer" positionX="650" positionY="300"/>
+<Connection from="3/kağıt" to="1/yer" with="mod"/>
+<Word name="2/gazete" positionX="750" positionY="300"/>
+<Connection from="3/kağıt" to="2/gazete" with="mod"/>
+</Amr>

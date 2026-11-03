@@ -1,0 +1,13 @@
+<Amr sentence="Paparaziler haberleri magazin programına atlattı .">
+<Word name="5/atlat" positionX="750" positionY="100"/>
+<Word name="1/paparazi" positionX="650" positionY="200"/>
+<Connection from="5/atlat" to="1/paparazi" with="ARG0"/>
+<Word name="2/haber" positionX="750" positionY="200"/>
+<Connection from="5/atlat" to="2/haber" with="ARG1"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="2/haber" to="onlar" with="poss"/>
+<Word name="4/program" positionX="850" positionY="200"/>
+<Connection from="5/atlat" to="4/program"/>
+<Word name="3/magazin" positionX="750" positionY="300"/>
+<Connection from="4/program" to="3/magazin" with="mod"/>
+</Amr>

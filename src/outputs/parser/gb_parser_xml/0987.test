@@ -1,0 +1,11 @@
+<Amr sentence="O açıdan en büyük başarılarımızdan biriydi .">
+<Word name="6/biri" positionX="750" positionY="100"/>
+<Word name="1/o 2/açı" positionX="650" positionY="200"/>
+<Connection from="6/biri" to="1/o 2/açı" with="mod"/>
+<Word name="5/başarı" positionX="750" positionY="200"/>
+<Connection from="6/biri" to="5/başarı" with="mod"/>
+<Word name="4/büyük" positionX="650" positionY="300"/>
+<Connection from="5/başarı" to="4/büyük" with="mod"/>
+<Word name="3/en" positionX="550" positionY="400"/>
+<Connection from="4/büyük" to="3/en" with="manner"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Beni herkesin önünde azarladı .">
+<Word name="4/azarla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/azarla" to="o" with="ARG0"/>
+<Word name="1/ben" positionX="750" positionY="200"/>
+<Connection from="4/azarla" to="1/ben" with="ARG1"/>
+<Word name="3/ön" positionX="850" positionY="200"/>
+<Connection from="4/azarla" to="3/ön" with="location"/>
+<Word name="2/herkes" positionX="750" positionY="300"/>
+<Connection from="3/ön" to="2/herkes" with="mod"/>
+</Amr>

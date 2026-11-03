@@ -1,0 +1,18 @@
+<Amr sentence="Şimdiye kadar pek alıcı gözüyle bakmamıştı .">
+<Word name="4/alıcı 5/göz 6/bak" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/alıcı 5/göz 6/bak" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="4/alıcı 5/göz 6/bak" to="o" with="ARG0"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="4/alıcı 5/göz 6/bak" to="person" with="extent"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/Şimdiye" positionX="650" positionY="400"/>
+<Connection from="name" to="1/Şimdiye" with="op1"/>
+<Word name="2/kadar" positionX="750" positionY="400"/>
+<Connection from="name" to="2/kadar" with="op2"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/pek" positionX="950" positionY="200"/>
+<Connection from="4/alıcı 5/göz 6/bak" to="3/pek" with="manner"/>
+</Amr>

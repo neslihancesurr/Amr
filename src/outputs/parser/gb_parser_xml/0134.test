@@ -1,0 +1,7 @@
+<Amr sentence="cuma günü">
+<Word name="2/gün" positionX="750" positionY="100"/>
+<Word name="date-entity" positionX="650" positionY="200"/>
+<Connection from="2/gün" to="date-entity" with="date"/>
+<Word name="1/cuma" positionX="550" positionY="300"/>
+<Connection from="date-entity" to="1/cuma" with="weekday"/>
+</Amr>

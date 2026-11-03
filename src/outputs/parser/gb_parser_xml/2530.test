@@ -1,0 +1,21 @@
+<Amr sentence="Hava kötü olursa Cemil gelmeyecekmiş .">
+<Word name="5/gel" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/gel" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="5/gel" to="o" with="ARG0"/>
+<Word name="3/ol" positionX="850" positionY="200"/>
+<Connection from="5/gel" to="3/ol" with="cond"/>
+<Connection from="3/ol" to="o" with="ARG0"/>
+<Word name="1/hava" positionX="850" positionY="300"/>
+<Connection from="3/ol" to="1/hava"/>
+<Word name="2/kötü" positionX="950" positionY="300"/>
+<Connection from="3/ol" to="2/kötü" with="manner"/>
+<Word name="person" positionX="950" positionY="200"/>
+<Connection from="5/gel" to="person"/>
+<Word name="name" positionX="850" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="4/cemil" positionX="750" positionY="400"/>
+<Connection from="name" to="4/cemil" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

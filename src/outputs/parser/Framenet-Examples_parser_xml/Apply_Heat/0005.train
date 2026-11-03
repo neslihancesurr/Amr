@@ -1,0 +1,18 @@
+<Amr sentence="Aşçı , domatesleri kurutmak için 1 saat fırınladı .">
+<Word name="8/fırınla" positionX="750" positionY="100"/>
+<Word name="1/aşçı" positionX="650" positionY="200"/>
+<Connection from="8/fırınla" to="1/aşçı" with="ARG0"/>
+<Word name="3/domates" positionX="750" positionY="200"/>
+<Connection from="8/fırınla" to="3/domates" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/domates" to="o" with="poss"/>
+<Word name="yap" positionX="850" positionY="200"/>
+<Connection from="8/fırınla" to="yap"/>
+<Word name="4/kuru" positionX="750" positionY="300"/>
+<Connection from="yap" to="4/kuru" with="cause"/>
+<Connection from="4/kuru" to="o" with="ARG0"/>
+<Word name="7/saat" positionX="950" positionY="200"/>
+<Connection from="8/fırınla" to="7/saat" with="mod"/>
+<Word name="6/1" positionX="850" positionY="300"/>
+<Connection from="7/saat" to="6/1"/>
+</Amr>

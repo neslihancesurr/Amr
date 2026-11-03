@@ -1,0 +1,15 @@
+<Amr sentence="Bu yemek odası takımı mutfakta iğreti duruyor .">
+<Word name="7/dur" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/dur" to="o" with="ARG0"/>
+<Word name="4/takım" positionX="750" positionY="200"/>
+<Connection from="7/dur" to="4/takım"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="4/takım" to="1/bu" with="mod"/>
+<Word name="2/yemek 3/oda" positionX="750" positionY="300"/>
+<Connection from="4/takım" to="2/yemek 3/oda" with="mod"/>
+<Word name="5/mutfak" positionX="850" positionY="200"/>
+<Connection from="7/dur" to="5/mutfak" with="location"/>
+<Word name="6/iğreti" positionX="950" positionY="200"/>
+<Connection from="7/dur" to="6/iğreti" with="mod"/>
+</Amr>

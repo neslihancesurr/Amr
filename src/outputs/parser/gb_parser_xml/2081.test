@@ -1,0 +1,25 @@
+<Amr sentence="Biz yürüyüş sırasında önce polis , sonra düzenleyiciler tarafından durdurulmak istendik .">
+<Word name="11/iste" positionX="750" positionY="100"/>
+<Word name="10/durdur" positionX="650" positionY="200"/>
+<Connection from="11/iste" to="10/durdur"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="10/durdur" to="o" with="ARG0"/>
+<Word name="1/biz" positionX="650" positionY="300"/>
+<Connection from="10/durdur" to="1/biz"/>
+<Word name="3/sıra" positionX="750" positionY="300"/>
+<Connection from="10/durdur" to="3/sıra" with="location"/>
+<Word name="2/yürüyüş" positionX="650" positionY="400"/>
+<Connection from="3/sıra" to="2/yürüyüş" with="mod"/>
+<Word name="and" positionX="850" positionY="300"/>
+<Connection from="10/durdur" to="and"/>
+<Word name="9/tarafından" positionX="750" positionY="400"/>
+<Connection from="and" to="9/tarafından" with="op1"/>
+<Word name="8/düzenleyici" positionX="650" positionY="500"/>
+<Connection from="9/tarafından" to="8/düzenleyici" with="mod"/>
+<Word name="7/sonra" positionX="550" positionY="600"/>
+<Connection from="8/düzenleyici" to="7/sonra" with="manner"/>
+<Word name="5/polis" positionX="850" positionY="400"/>
+<Connection from="and" to="5/polis" with="op2"/>
+<Word name="4/önce" positionX="750" positionY="500"/>
+<Connection from="5/polis" to="4/önce" with="manner"/>
+</Amr>

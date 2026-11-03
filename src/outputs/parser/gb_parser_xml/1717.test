@@ -1,0 +1,19 @@
+<Amr sentence="Beni gördüğünü hiç kimseye söylememelisin .">
+<Word name="gerek" positionX="750" positionY="100"/>
+<Word name="5/söyle" positionX="650" positionY="200"/>
+<Connection from="gerek" to="5/söyle"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="5/söyle" to="-" with="polarity"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="5/söyle" to="sen" with="ARG0"/>
+<Word name="2/gör" positionX="750" positionY="300"/>
+<Connection from="5/söyle" to="2/gör" with="ARG1"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="2/gör" to="o" with="ARG0"/>
+<Connection from="2/gör" to="o" with="poss"/>
+<Word name="1/ben" positionX="850" positionY="400"/>
+<Connection from="2/gör" to="1/ben" with="ARG1"/>
+<Word name="3/hiç 4/kimse" positionX="850" positionY="300"/>
+<Connection from="5/söyle" to="3/hiç 4/kimse" with="ARG2"/>
+<Connection from="3/hiç 4/kimse" to="o" with="poss"/>
+</Amr>

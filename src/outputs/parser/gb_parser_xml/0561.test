@@ -1,0 +1,19 @@
+<Amr sentence="Tanju'yu arkadaş sayıyorduk o zamanlar .">
+<Word name="3/say" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="3/say" to="biz" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="3/say" to="person" with="ARG1"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/tanju" positionX="550" positionY="400"/>
+<Connection from="name" to="1/tanju" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/arkadaş" positionX="850" positionY="200"/>
+<Connection from="3/say" to="2/arkadaş" with="ARG2"/>
+<Word name="5/zaman" positionX="950" positionY="200"/>
+<Connection from="3/say" to="5/zaman"/>
+<Word name="4/o" positionX="850" positionY="300"/>
+<Connection from="5/zaman" to="4/o" with="mod"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Ailemin gözünde puan kazandım .">
+<Word name="3/puan 4/kazan" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/puan 4/kazan" to="ben" with="ARG0"/>
+<Word name="2/gözünde" positionX="750" positionY="200"/>
+<Connection from="3/puan 4/kazan" to="2/gözünde"/>
+<Word name="1/aile" positionX="650" positionY="300"/>
+<Connection from="2/gözünde" to="1/aile" with="mod"/>
+</Amr>

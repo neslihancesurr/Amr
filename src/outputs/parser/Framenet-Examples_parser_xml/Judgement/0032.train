@@ -1,0 +1,13 @@
+<Amr sentence="Yeni tanıştığı kıza methiyeler düzüyordu .">
+<Word name="4/methiye 5/düz" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/methiye 5/düz" to="o" with="ARG0"/>
+<Word name="3/kız" positionX="750" positionY="200"/>
+<Connection from="4/methiye 5/düz" to="3/kız" with="ARG1"/>
+<Word name="2/tanış" positionX="650" positionY="300"/>
+<Connection from="3/kız" to="2/tanış"/>
+<Connection from="2/tanış" to="o" with="ARG0"/>
+<Connection from="2/tanış" to="o" with="poss"/>
+<Word name="1/yeni" positionX="750" positionY="400"/>
+<Connection from="2/tanış" to="1/yeni" with="manner"/>
+</Amr>

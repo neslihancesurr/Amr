@@ -1,0 +1,11 @@
+<Amr sentence="Bazı insanlar çocuklarına tuhaf adlar koyarlar .">
+<Word name="5/ad 6/koy" positionX="750" positionY="100"/>
+<Word name="2/insan" positionX="650" positionY="200"/>
+<Connection from="5/ad 6/koy" to="2/insan" with="ARG0"/>
+<Word name="1/bazı" positionX="550" positionY="300"/>
+<Connection from="2/insan" to="1/bazı" with="mod"/>
+<Word name="3/çocuk" positionX="750" positionY="200"/>
+<Connection from="5/ad 6/koy" to="3/çocuk" with="ARG1"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="3/çocuk" to="onlar" with="poss"/>
+</Amr>

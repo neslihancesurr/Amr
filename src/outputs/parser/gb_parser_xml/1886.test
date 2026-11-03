@@ -1,0 +1,11 @@
+<Amr sentence="Herhangi bir anne bu sorunu tanır .">
+<Word name="6/tanı" positionX="750" positionY="100"/>
+<Word name="3/anne" positionX="650" positionY="200"/>
+<Connection from="6/tanı" to="3/anne" with="ARG0"/>
+<Word name="1/herhangi 2/bir" positionX="550" positionY="300"/>
+<Connection from="3/anne" to="1/herhangi 2/bir" with="mod"/>
+<Word name="5/sorun" positionX="750" positionY="200"/>
+<Connection from="6/tanı" to="5/sorun" with="ARG1"/>
+<Word name="4/bu" positionX="650" positionY="300"/>
+<Connection from="5/sorun" to="4/bu" with="mod"/>
+</Amr>

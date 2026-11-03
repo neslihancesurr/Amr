@@ -1,0 +1,11 @@
+<Amr sentence="Yeni iş şansını fevt etti .">
+<Word name="4/fevt 5/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/fevt 5/et" to="o" with="ARG0"/>
+<Word name="3/şans" positionX="750" positionY="200"/>
+<Connection from="4/fevt 5/et" to="3/şans" with="ARG1"/>
+<Word name="2/iş" positionX="650" positionY="300"/>
+<Connection from="3/şans" to="2/iş" with="mod"/>
+<Word name="1/yeni" positionX="550" positionY="400"/>
+<Connection from="2/iş" to="1/yeni" with="mod"/>
+</Amr>

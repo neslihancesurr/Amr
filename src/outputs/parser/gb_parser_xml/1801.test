@@ -1,0 +1,13 @@
+<Amr sentence="Saat altıda çalışıyor olacağım .">
+<Word name="3/çalış" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/çalış" to="o" with="ARG0"/>
+<Word name="2/altı" positionX="750" positionY="200"/>
+<Connection from="3/çalış" to="2/altı"/>
+<Word name="1/saat" positionX="650" positionY="300"/>
+<Connection from="2/altı" to="1/saat" with="mod"/>
+<Word name="4/ol" positionX="850" positionY="200"/>
+<Connection from="3/çalış" to="4/ol"/>
+<Word name="ben" positionX="750" positionY="300"/>
+<Connection from="4/ol" to="ben" with="ARG0"/>
+</Amr>

@@ -1,0 +1,10 @@
+<Amr sentence="Kızkardeşin senin şişmanın .">
+<Word name="3/şişman" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="3/şişman" to="sen" with="poss"/>
+<Word name="1/kızkardeş" positionX="750" positionY="200"/>
+<Connection from="3/şişman" to="1/kızkardeş"/>
+<Connection from="1/kızkardeş" to="sen" with="poss"/>
+<Word name="2/sen" positionX="850" positionY="200"/>
+<Connection from="3/şişman" to="2/sen" with="mod"/>
+</Amr>

@@ -1,0 +1,23 @@
+<Amr sentence="Başkalarına on ikiye veriyoruz ama sana onar kuruştan bırakayım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="9/bırak" positionX="650" positionY="200"/>
+<Connection from="and" to="9/bırak" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="9/bırak" to="ben" with="ARG0"/>
+<Word name="6/sana" positionX="650" positionY="300"/>
+<Connection from="9/bırak" to="6/sana" with="ARG0"/>
+<Word name="8/kuruş" positionX="750" positionY="300"/>
+<Connection from="9/bırak" to="8/kuruş" with="ARG1"/>
+<Word name="7/on" positionX="650" positionY="400"/>
+<Connection from="8/kuruş" to="7/on"/>
+<Word name="4/ver" positionX="750" positionY="200"/>
+<Connection from="and" to="4/ver" with="op2"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="4/ver" to="biz" with="ARG0"/>
+<Word name="1/başka" positionX="750" positionY="300"/>
+<Connection from="4/ver" to="1/başka" with="ARG2"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="1/başka" to="o" with="poss"/>
+<Word name="2/on" positionX="850" positionY="300"/>
+<Connection from="4/ver" to="2/on"/>
+</Amr>

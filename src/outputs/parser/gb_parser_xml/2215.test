@@ -1,0 +1,15 @@
+<Amr sentence="çatısından birkaç küçük kiremit düşen ev">
+<Word name="6/ev" positionX="750" positionY="100"/>
+<Word name="5/düş" positionX="650" positionY="200"/>
+<Connection from="6/ev" to="5/düş"/>
+<Word name="1/çatı" positionX="550" positionY="300"/>
+<Connection from="5/düş" to="1/çatı"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="1/çatı" to="o" with="poss"/>
+<Word name="4/kiremit" positionX="650" positionY="300"/>
+<Connection from="5/düş" to="4/kiremit"/>
+<Word name="2/birkaç" positionX="550" positionY="400"/>
+<Connection from="4/kiremit" to="2/birkaç" with="mod"/>
+<Word name="3/küçük" positionX="650" positionY="400"/>
+<Connection from="4/kiremit" to="3/küçük" with="mod"/>
+</Amr>

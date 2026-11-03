@@ -1,0 +1,19 @@
+<Amr sentence="Bunu sana avukat olarak değil , arkadaş olarak söylüyorum .">
+<Word name="9/söyle" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="9/söyle" to="ben" with="ARG0"/>
+<Word name="1/bu" positionX="750" positionY="200"/>
+<Connection from="9/söyle" to="1/bu" with="ARG1"/>
+<Word name="2/sen" positionX="850" positionY="200"/>
+<Connection from="9/söyle" to="2/sen"/>
+<Word name="and" positionX="950" positionY="200"/>
+<Connection from="9/söyle" to="and"/>
+<Word name="7/arkadaş 8/ol" positionX="850" positionY="300"/>
+<Connection from="and" to="7/arkadaş 8/ol" with="op1"/>
+<Word name="4/ol" positionX="950" positionY="300"/>
+<Connection from="and" to="4/ol" with="op2"/>
+<Word name="3/avukat" positionX="850" positionY="400"/>
+<Connection from="4/ol" to="3/avukat"/>
+<Word name="-" positionX="950" positionY="400"/>
+<Connection from="4/ol" to="-" with="polarity"/>
+</Amr>

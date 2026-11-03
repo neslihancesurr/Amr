@@ -1,0 +1,21 @@
+<Amr sentence="Bütün birikimini yele verdi , şimdi elinde yok avucunda yok .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/yel 4/ver" positionX="650" positionY="200"/>
+<Connection from="and" to="3/yel 4/ver" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/yel 4/ver" to="o" with="ARG0"/>
+<Word name="2/birikim" positionX="650" positionY="300"/>
+<Connection from="3/yel 4/ver" to="2/birikim" with="ARG1"/>
+<Word name="1/bütün" positionX="550" positionY="400"/>
+<Connection from="2/birikim" to="1/bütün" with="mod"/>
+<Word name="10/yok" positionX="750" positionY="200"/>
+<Connection from="and" to="10/yok" with="op2"/>
+<Word name="6/şimdi" positionX="650" positionY="300"/>
+<Connection from="10/yok" to="6/şimdi" with="manner"/>
+<Word name="8/yok" positionX="750" positionY="300"/>
+<Connection from="10/yok" to="8/yok"/>
+<Word name="7/el" positionX="650" positionY="400"/>
+<Connection from="8/yok" to="7/el" with="location"/>
+<Word name="9/avuç" positionX="850" positionY="300"/>
+<Connection from="10/yok" to="9/avuç" with="location"/>
+</Amr>

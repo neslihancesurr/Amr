@@ -1,0 +1,33 @@
+<Amr sentence="Bir daha vurdum ve cevap alamayınca her zaman yaptığım gibi usulca kapıyı açıp içeri süzüldüm .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="15/süzül" positionX="650" positionY="200"/>
+<Connection from="and" to="15/süzül" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="15/süzül" to="ben" with="ARG0"/>
+<Word name="9/yap" positionX="650" positionY="300"/>
+<Connection from="15/süzül" to="9/yap"/>
+<Connection from="9/yap" to="ben" with="ARG0"/>
+<Word name="mümkün" positionX="650" positionY="400"/>
+<Connection from="9/yap" to="mümkün"/>
+<Word name="6/al" positionX="550" positionY="500"/>
+<Connection from="mümkün" to="6/al"/>
+<Word name="-" positionX="450" positionY="600"/>
+<Connection from="6/al" to="-" with="polarity"/>
+<Word name="5/cevap" positionX="550" positionY="600"/>
+<Connection from="6/al" to="5/cevap" with="ARG1"/>
+<Word name="7/her 8/zaman" positionX="750" positionY="400"/>
+<Connection from="9/yap" to="7/her 8/zaman" with="mod"/>
+<Word name="10/gibi" positionX="850" positionY="400"/>
+<Connection from="9/yap" to="10/gibi"/>
+<Word name="11/usulca" positionX="750" positionY="300"/>
+<Connection from="15/süzül" to="11/usulca" with="manner"/>
+<Word name="13/aç" positionX="850" positionY="300"/>
+<Connection from="15/süzül" to="13/aç"/>
+<Word name="12/kapı" positionX="750" positionY="400"/>
+<Connection from="13/aç" to="12/kapı" with="ARG1"/>
+<Word name="14/içeri" positionX="950" positionY="300"/>
+<Connection from="15/süzül" to="14/içeri"/>
+<Word name="3/vur" positionX="750" positionY="200"/>
+<Connection from="and" to="3/vur" with="op2"/>
+<Connection from="3/vur" to="ben" with="ARG0"/>
+</Amr>

@@ -1,0 +1,23 @@
+<Amr sentence="Mürebbiyesi Nihal'in başarılı olacağını iyi bilir .">
+<Word name="6/bil" positionX="750" positionY="100"/>
+<Word name="1/mürebbiye" positionX="650" positionY="200"/>
+<Connection from="6/bil" to="1/mürebbiye" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/mürebbiye" to="o" with="poss"/>
+<Word name="4/ol" positionX="750" positionY="200"/>
+<Connection from="6/bil" to="4/ol" with="ARG1"/>
+<Connection from="4/ol" to="o" with="ARG0"/>
+<Connection from="4/ol" to="o" with="poss"/>
+<Word name="person" positionX="850" positionY="300"/>
+<Connection from="4/ol" to="person"/>
+<Word name="name" positionX="750" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/Nihal'in" positionX="650" positionY="500"/>
+<Connection from="name" to="2/Nihal'in" with="op1"/>
+<Word name="-" positionX="850" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/başarılı" positionX="950" positionY="300"/>
+<Connection from="4/ol" to="3/başarılı" with="manner"/>
+<Word name="5/iyi" positionX="850" positionY="200"/>
+<Connection from="6/bil" to="5/iyi" with="manner"/>
+</Amr>

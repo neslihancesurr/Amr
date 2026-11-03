@@ -1,0 +1,11 @@
+<Amr sentence="Tüm gece sayıklayarak ateşler içinde yandı .">
+<Word name="4/ateşle 5/içinde 6/yan" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/ateşle 5/içinde 6/yan" to="o" with="ARG0"/>
+<Word name="2/gece" positionX="750" positionY="200"/>
+<Connection from="4/ateşle 5/içinde 6/yan" to="2/gece" with="mod"/>
+<Word name="1/tüm" positionX="650" positionY="300"/>
+<Connection from="2/gece" to="1/tüm" with="mod"/>
+<Word name="3/sayıkla" positionX="850" positionY="200"/>
+<Connection from="4/ateşle 5/içinde 6/yan" to="3/sayıkla"/>
+</Amr>

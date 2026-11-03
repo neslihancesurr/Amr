@@ -1,0 +1,13 @@
+<Amr sentence="Gözlüğümü yanıma almamışım .">
+<Word name="3/al" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/al" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="3/al" to="ben" with="ARG0"/>
+<Word name="1/gözlük" positionX="850" positionY="200"/>
+<Connection from="3/al" to="1/gözlük" with="ARG1"/>
+<Connection from="1/gözlük" to="ben" with="poss"/>
+<Word name="2/yan" positionX="950" positionY="200"/>
+<Connection from="3/al" to="2/yan"/>
+<Connection from="2/yan" to="ben" with="poss"/>
+</Amr>

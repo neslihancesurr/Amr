@@ -1,0 +1,13 @@
+<Amr sentence="Kışın başlayan yağmurlar ilkbaharda da sürdü .">
+<Word name="6/sür" positionX="750" positionY="100"/>
+<Word name="3/yağmur" positionX="650" positionY="200"/>
+<Connection from="6/sür" to="3/yağmur" with="ARG0"/>
+<Word name="2/başla" positionX="550" positionY="300"/>
+<Connection from="3/yağmur" to="2/başla"/>
+<Word name="1/kışın" positionX="450" positionY="400"/>
+<Connection from="2/başla" to="1/kışın" with="manner"/>
+<Word name="4/ilkbahar" positionX="750" positionY="200"/>
+<Connection from="6/sür" to="4/ilkbahar" with="location"/>
+<Word name="5/da" positionX="650" positionY="300"/>
+<Connection from="4/ilkbahar" to="5/da"/>
+</Amr>

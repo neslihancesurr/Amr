@@ -1,0 +1,13 @@
+<Amr sentence="Her şey hatalıydı , direksiyona geçmeliydim .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/hatalı" positionX="650" positionY="200"/>
+<Connection from="and" to="3/hatalı" with="op1"/>
+<Word name="2/şey" positionX="550" positionY="300"/>
+<Connection from="3/hatalı" to="2/şey"/>
+<Word name="1/her" positionX="450" positionY="400"/>
+<Connection from="2/şey" to="1/her" with="mod"/>
+<Word name="5/direksiyon 6/geç" positionX="750" positionY="200"/>
+<Connection from="and" to="5/direksiyon 6/geç" with="op2"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="5/direksiyon 6/geç" to="ben" with="ARG0"/>
+</Amr>

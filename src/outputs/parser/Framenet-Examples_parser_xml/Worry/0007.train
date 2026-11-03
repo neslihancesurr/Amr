@@ -1,0 +1,16 @@
+<Amr sentence="Annesi kızı eve gelmeyince merakta kaldı .">
+<Word name="5/merak 6/kal" positionX="750" positionY="100"/>
+<Word name="1/anne" positionX="650" positionY="200"/>
+<Connection from="5/merak 6/kal" to="1/anne" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/anne" to="o" with="poss"/>
+<Word name="4/gel" positionX="750" positionY="200"/>
+<Connection from="5/merak 6/kal" to="4/gel"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="4/gel" to="-" with="polarity"/>
+<Word name="2/kız" positionX="750" positionY="300"/>
+<Connection from="4/gel" to="2/kız" with="ARG0"/>
+<Connection from="2/kız" to="o" with="poss"/>
+<Word name="3/ev" positionX="850" positionY="300"/>
+<Connection from="4/gel" to="3/ev" with="ARG1"/>
+</Amr>

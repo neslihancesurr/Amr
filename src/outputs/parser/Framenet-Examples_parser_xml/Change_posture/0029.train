@@ -1,0 +1,17 @@
+<Amr sentence="Koltuğa otur da biraz dinlen .">
+<Word name="5/dinlen" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="5/dinlen" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="5/dinlen" to="imperative" with="mode"/>
+<Word name="2/otur" positionX="850" positionY="200"/>
+<Connection from="5/dinlen" to="2/otur"/>
+<Connection from="2/otur" to="sen" with="ARG0"/>
+<Connection from="2/otur" to="imperative" with="mode"/>
+<Word name="1/koltuk" positionX="950" positionY="300"/>
+<Connection from="2/otur" to="1/koltuk" with="ARG1"/>
+<Word name="3/da" positionX="1050" positionY="300"/>
+<Connection from="2/otur" to="3/da" with="manner"/>
+<Word name="4/biraz" positionX="950" positionY="200"/>
+<Connection from="5/dinlen" to="4/biraz" with="manner"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Her gün camları sildiriyorlar .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="4/sil" positionX="650" positionY="200"/>
+<Connection from="yap" to="4/sil"/>
+<Word name="onlar" positionX="550" positionY="300"/>
+<Connection from="4/sil" to="onlar" with="ARG0"/>
+<Word name="1/her 2/gün" positionX="650" positionY="300"/>
+<Connection from="4/sil" to="1/her 2/gün" with="mod"/>
+<Word name="3/cam" positionX="750" positionY="300"/>
+<Connection from="4/sil" to="3/cam" with="ARG1"/>
+</Amr>

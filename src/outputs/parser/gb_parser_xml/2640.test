@@ -1,0 +1,28 @@
+<Amr sentence="İtalya'ya gitmek istiyorum , İspanya'ya bir de .">
+<Word name="3/iste" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/iste" to="ben" with="ARG0"/>
+<Word name="2/git" positionX="750" positionY="200"/>
+<Connection from="3/iste" to="2/git" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/git" to="o" with="ARG0"/>
+<Word name="and" positionX="750" positionY="300"/>
+<Connection from="2/git" to="and"/>
+<Word name="person" positionX="650" positionY="400"/>
+<Connection from="and" to="person" with="ARG1"/>
+<Word name="name" positionX="550" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="5/ispanya" positionX="450" positionY="600"/>
+<Connection from="name" to="5/ispanya" with="op1"/>
+<Word name="-" positionX="650" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="6/bir" positionX="750" positionY="500"/>
+<Connection from="person" to="6/bir"/>
+<Word name="7/de" positionX="650" positionY="600"/>
+<Connection from="6/bir" to="7/de"/>
+<Connection from="and" to="person" with="ARG1"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/italya" positionX="550" positionY="600"/>
+<Connection from="name" to="1/italya" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Yemek yaparken dalgınlıkla yağ yakmış .">
+<Word name="4/yağ 5/yak" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/yağ 5/yak" to="o" with="ARG0"/>
+<Word name="2/yap" positionX="750" positionY="200"/>
+<Connection from="4/yağ 5/yak" to="2/yap"/>
+<Word name="1/yemek" positionX="650" positionY="300"/>
+<Connection from="2/yap" to="1/yemek" with="ARG1"/>
+<Word name="3/dalgınlıkla" positionX="850" positionY="200"/>
+<Connection from="4/yağ 5/yak" to="3/dalgınlıkla" with="manner"/>
+</Amr>

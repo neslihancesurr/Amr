@@ -1,0 +1,9 @@
+<Amr sentence="İnsanların çoğu ölümden korkar .">
+<Word name="4/kork" positionX="750" positionY="100"/>
+<Word name="2/çoğu" positionX="650" positionY="200"/>
+<Connection from="4/kork" to="2/çoğu" with="ARG0"/>
+<Word name="1/insan" positionX="550" positionY="300"/>
+<Connection from="2/çoğu" to="1/insan"/>
+<Word name="3/ölüm" positionX="750" positionY="200"/>
+<Connection from="4/kork" to="3/ölüm" with="ARG1"/>
+</Amr>

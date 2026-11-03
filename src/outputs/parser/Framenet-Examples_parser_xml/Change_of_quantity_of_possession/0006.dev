@@ -1,0 +1,16 @@
+<Amr sentence="Bayağı para yapmıştı , hepsi , bankada duruyordu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/para 3/yap" positionX="650" positionY="200"/>
+<Connection from="and" to="2/para 3/yap" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/para 3/yap" to="o" with="ARG0"/>
+<Word name="8/dur" positionX="750" positionY="200"/>
+<Connection from="and" to="8/dur" with="op2"/>
+<Connection from="8/dur" to="o" with="ARG0"/>
+<Word name="5/hepsi" positionX="750" positionY="300"/>
+<Connection from="8/dur" to="5/hepsi"/>
+<Word name="onlar" positionX="650" positionY="400"/>
+<Connection from="5/hepsi" to="onlar" with="poss"/>
+<Word name="7/banka" positionX="850" positionY="300"/>
+<Connection from="8/dur" to="7/banka" with="ARG1"/>
+</Amr>

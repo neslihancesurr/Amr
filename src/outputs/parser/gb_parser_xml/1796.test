@@ -1,0 +1,22 @@
+<Amr sentence="Dördüncü bölümün bitmesiyle kitabın yarısı yazılmış oldu .">
+<Word name="6/yaz" positionX="750" positionY="100"/>
+<Word name="3/bit" positionX="650" positionY="200"/>
+<Connection from="6/yaz" to="3/bit"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/bit" to="o" with="ARG0"/>
+<Connection from="3/bit" to="o" with="poss"/>
+<Word name="2/bölüm" positionX="750" positionY="300"/>
+<Connection from="3/bit" to="2/bölüm"/>
+<Word name="ordinal-entity" positionX="650" positionY="400"/>
+<Connection from="2/bölüm" to="ordinal-entity" with="ord"/>
+<Word name="4" positionX="550" positionY="500"/>
+<Connection from="ordinal-entity" to="4" with="value"/>
+<Word name="5/yarı" positionX="750" positionY="200"/>
+<Connection from="6/yaz" to="5/yarı" with="ARG1"/>
+<Connection from="5/yarı" to="o" with="poss"/>
+<Word name="4/kitap" positionX="750" positionY="300"/>
+<Connection from="5/yarı" to="4/kitap"/>
+<Word name="7/ol" positionX="850" positionY="200"/>
+<Connection from="6/yaz" to="7/ol"/>
+<Connection from="7/ol" to="o" with="ARG0"/>
+</Amr>

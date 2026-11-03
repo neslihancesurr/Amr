@@ -1,0 +1,9 @@
+<Amr sentence="Müzede gezerken sayısız fotoğraf çekti .">
+<Word name="4/fotoğraf 5/çek" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/fotoğraf 5/çek" to="o" with="ARG0"/>
+<Word name="2/gez" positionX="750" positionY="200"/>
+<Connection from="4/fotoğraf 5/çek" to="2/gez"/>
+<Word name="1/müze" positionX="650" positionY="300"/>
+<Connection from="2/gez" to="1/müze" with="ARG1"/>
+</Amr>

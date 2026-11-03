@@ -1,0 +1,22 @@
+<Amr sentence="Boşuna almaya çalışma , işportaya düşmüş bile .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/çalış" positionX="650" positionY="200"/>
+<Connection from="and" to="3/çalış" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="3/çalış" to="-" with="polarity"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="3/çalış" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="300"/>
+<Connection from="3/çalış" to="imperative" with="mode"/>
+<Word name="1/boşuna" positionX="850" positionY="300"/>
+<Connection from="3/çalış" to="1/boşuna" with="manner"/>
+<Word name="2/al" positionX="950" positionY="300"/>
+<Connection from="3/çalış" to="2/al"/>
+<Word name="o" positionX="850" positionY="400"/>
+<Connection from="2/al" to="o" with="ARG0"/>
+<Word name="5/işporta 6/düş" positionX="750" positionY="200"/>
+<Connection from="and" to="5/işporta 6/düş" with="op2"/>
+<Connection from="5/işporta 6/düş" to="o" with="ARG0"/>
+<Word name="7/bile" positionX="750" positionY="300"/>
+<Connection from="5/işporta 6/düş" to="7/bile" with="manner"/>
+</Amr>

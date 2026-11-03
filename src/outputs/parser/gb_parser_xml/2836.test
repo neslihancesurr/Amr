@@ -1,0 +1,7 @@
+<Amr sentence="Yağmur yağabilir .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="1/yağmur 2/yağ" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="1/yağmur 2/yağ"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/yağmur 2/yağ" to="o" with="ARG0"/>
+</Amr>

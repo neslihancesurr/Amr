@@ -1,0 +1,11 @@
+<Amr sentence="şu raftaki bütün eski kitaplar">
+<Word name="5/kitap" positionX="750" positionY="100"/>
+<Word name="2/raf" positionX="650" positionY="200"/>
+<Connection from="5/kitap" to="2/raf" with="mod"/>
+<Word name="1/şu" positionX="550" positionY="300"/>
+<Connection from="2/raf" to="1/şu" with="mod"/>
+<Word name="4/eski" positionX="750" positionY="200"/>
+<Connection from="5/kitap" to="4/eski" with="mod"/>
+<Word name="3/bütün" positionX="650" positionY="300"/>
+<Connection from="4/eski" to="3/bütün" with="mod"/>
+</Amr>

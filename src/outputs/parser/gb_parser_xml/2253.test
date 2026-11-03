@@ -1,0 +1,28 @@
+<Amr sentence="içine Handan'ın bahçesinden toplanmış birkaç çiçeğin konmuş olduğu bir vazo">
+<Word name="10/vazo" positionX="750" positionY="100"/>
+<Word name="8/ol" positionX="650" positionY="200"/>
+<Connection from="10/vazo" to="8/ol"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="8/ol" to="o" with="poss"/>
+<Word name="7/kon" positionX="650" positionY="300"/>
+<Connection from="8/ol" to="7/kon"/>
+<Word name="1/iç" positionX="550" positionY="400"/>
+<Connection from="7/kon" to="1/iç"/>
+<Connection from="1/iç" to="o" with="poss"/>
+<Word name="6/çiçek" positionX="650" positionY="400"/>
+<Connection from="7/kon" to="6/çiçek"/>
+<Word name="4/topla" positionX="550" positionY="500"/>
+<Connection from="6/çiçek" to="4/topla"/>
+<Word name="3/bahçe" positionX="450" positionY="600"/>
+<Connection from="4/topla" to="3/bahçe"/>
+<Word name="person" positionX="350" positionY="700"/>
+<Connection from="3/bahçe" to="person"/>
+<Word name="name" positionX="250" positionY="800"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/handan" positionX="150" positionY="900"/>
+<Connection from="name" to="2/handan" with="op1"/>
+<Word name="-" positionX="350" positionY="800"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/birkaç" positionX="650" positionY="500"/>
+<Connection from="6/çiçek" to="5/birkaç" with="mod"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Annesi iki dakikada çocuğun damarını buldu .">
+<Word name="5/damar 6/bul" positionX="750" positionY="100"/>
+<Word name="1/anne" positionX="650" positionY="200"/>
+<Connection from="5/damar 6/bul" to="1/anne" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/anne" to="o" with="poss"/>
+<Word name="3/dakika" positionX="750" positionY="200"/>
+<Connection from="5/damar 6/bul" to="3/dakika" with="ARG1"/>
+<Word name="2/iki" positionX="650" positionY="300"/>
+<Connection from="3/dakika" to="2/iki"/>
+</Amr>

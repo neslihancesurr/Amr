@@ -1,0 +1,23 @@
+<Amr sentence="Aralarında opera sevmeyenleri Verona'da konaklamayacaklar .">
+<Word name="5/konakla" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/konakla" to="-" with="polarity"/>
+<Word name="3/sev" positionX="750" positionY="200"/>
+<Connection from="5/konakla" to="3/sev" with="ARG0"/>
+<Connection from="3/sev" to="-" with="polarity"/>
+<Word name="onlar" positionX="750" positionY="300"/>
+<Connection from="3/sev" to="onlar" with="ARG0"/>
+<Word name="o" positionX="850" positionY="300"/>
+<Connection from="3/sev" to="o" with="poss"/>
+<Word name="1/ara" positionX="950" positionY="300"/>
+<Connection from="3/sev" to="1/ara" with="location"/>
+<Word name="2/opera" positionX="1050" positionY="300"/>
+<Connection from="3/sev" to="2/opera" with="ARG1"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="5/konakla" to="person" with="location"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="4/verona" positionX="650" positionY="400"/>
+<Connection from="name" to="4/verona" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

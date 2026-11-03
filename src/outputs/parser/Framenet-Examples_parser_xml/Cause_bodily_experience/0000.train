@@ -1,0 +1,9 @@
+<Amr sentence="Köpeği saatlerce aç bıraktı .">
+<Word name="3/aç 4/bırak" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/aç 4/bırak" to="o" with="ARG0"/>
+<Word name="1/köpek" positionX="750" positionY="200"/>
+<Connection from="3/aç 4/bırak" to="1/köpek" with="ARG1"/>
+<Word name="2/saatlerce" positionX="850" positionY="200"/>
+<Connection from="3/aç 4/bırak" to="2/saatlerce" with="manner"/>
+</Amr>

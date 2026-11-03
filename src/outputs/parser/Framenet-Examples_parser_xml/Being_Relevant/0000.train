@@ -1,0 +1,11 @@
+<Amr sentence="Son iki konu birbiriyle ilişkili olmalıdır .">
+<Word name="gerek" positionX="750" positionY="100"/>
+<Word name="5/ilişkili 6/ol" positionX="650" positionY="200"/>
+<Connection from="gerek" to="5/ilişkili 6/ol"/>
+<Word name="3/konu" positionX="550" positionY="300"/>
+<Connection from="5/ilişkili 6/ol" to="3/konu" with="ARG0"/>
+<Word name="1/son" positionX="450" positionY="400"/>
+<Connection from="3/konu" to="1/son" with="mod"/>
+<Word name="2/iki" positionX="550" positionY="400"/>
+<Connection from="3/konu" to="2/iki"/>
+</Amr>

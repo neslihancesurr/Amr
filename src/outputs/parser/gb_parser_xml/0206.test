@@ -1,0 +1,9 @@
+<Amr sentence="Başlasın mı ?">
+<Word name="1/başla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="1/başla" to="o" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="1/başla" to="imperative" with="mode"/>
+<Word name="2/mi" positionX="850" positionY="200"/>
+<Connection from="1/başla" to="2/mi"/>
+</Amr>

@@ -1,0 +1,14 @@
+<Amr sentence="Kendisi de sonradan yaptıklarından üzüntü duydu .">
+<Word name="5/üzüntü 6/duy" positionX="750" positionY="100"/>
+<Word name="1/kendi" positionX="650" positionY="200"/>
+<Connection from="5/üzüntü 6/duy" to="1/kendi" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/kendi" to="o" with="poss"/>
+<Word name="2/de" positionX="650" positionY="300"/>
+<Connection from="1/kendi" to="2/de"/>
+<Word name="3/sonradan" positionX="750" positionY="200"/>
+<Connection from="5/üzüntü 6/duy" to="3/sonradan" with="manner"/>
+<Word name="4/yap" positionX="850" positionY="200"/>
+<Connection from="5/üzüntü 6/duy" to="4/yap"/>
+<Connection from="4/yap" to="o" with="poss"/>
+</Amr>

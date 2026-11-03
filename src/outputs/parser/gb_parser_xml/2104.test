@@ -1,0 +1,26 @@
+<Amr sentence="Ev sahibimiz kedi ya da köpek beslememize izin vermiyordu .">
+<Word name="8/izin 9/ver" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="8/izin 9/ver" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="8/izin 9/ver" to="o" with="ARG0"/>
+<Word name="2/sahip" positionX="850" positionY="200"/>
+<Connection from="8/izin 9/ver" to="2/sahip"/>
+<Word name="biz" positionX="750" positionY="300"/>
+<Connection from="2/sahip" to="biz" with="poss"/>
+<Word name="1/ev" positionX="850" positionY="300"/>
+<Connection from="2/sahip" to="1/ev" with="mod"/>
+<Word name="7/besle" positionX="950" positionY="200"/>
+<Connection from="8/izin 9/ver" to="7/besle"/>
+<Connection from="7/besle" to="biz" with="ARG0"/>
+<Word name="and" positionX="950" positionY="300"/>
+<Connection from="7/besle" to="and"/>
+<Word name="6/köpek" positionX="850" positionY="400"/>
+<Connection from="and" to="6/köpek" with="op1"/>
+<Word name="4/ya" positionX="750" positionY="500"/>
+<Connection from="6/köpek" to="4/ya"/>
+<Word name="5/da" positionX="650" positionY="600"/>
+<Connection from="4/ya" to="5/da"/>
+<Word name="3/kedi" positionX="950" positionY="400"/>
+<Connection from="and" to="3/kedi" with="op2"/>
+</Amr>

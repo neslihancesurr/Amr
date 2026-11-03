@@ -1,0 +1,22 @@
+<Amr sentence="Orhan artık Amerika'ya iyice alışmış demek ki .">
+<Word name="5/alış" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="5/alış" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/orhan" positionX="450" positionY="400"/>
+<Connection from="name" to="1/orhan" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/artık" positionX="750" positionY="200"/>
+<Connection from="5/alış" to="2/artık" with="manner"/>
+<Connection from="5/alış" to="person" with="ARG1"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/amerika" positionX="650" positionY="400"/>
+<Connection from="name" to="3/amerika" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/iyice" positionX="950" positionY="200"/>
+<Connection from="5/alış" to="4/iyice" with="manner"/>
+<Word name="6/de 7/ki" positionX="1050" positionY="200"/>
+<Connection from="5/alış" to="6/de 7/ki"/>
+</Amr>

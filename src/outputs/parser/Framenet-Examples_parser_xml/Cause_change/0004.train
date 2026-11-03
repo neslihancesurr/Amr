@@ -1,0 +1,9 @@
+<Amr sentence="Usta camı alazlayacak .">
+<Word name="3/alazla" positionX="750" positionY="100"/>
+<Word name="1/usta" positionX="650" positionY="200"/>
+<Connection from="3/alazla" to="1/usta" with="ARG0"/>
+<Word name="2/cam" positionX="750" positionY="200"/>
+<Connection from="3/alazla" to="2/cam" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/cam" to="o" with="poss"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Bir işi yaptırmak için onun önce arkasını sıvıyorum .">
+<Word name="7/arka 8/sıva" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="7/arka 8/sıva" to="ben" with="ARG0"/>
+<Word name="2/iş 3/yap" positionX="750" positionY="200"/>
+<Connection from="7/arka 8/sıva" to="2/iş 3/yap"/>
+<Word name="6/önce" positionX="850" positionY="200"/>
+<Connection from="7/arka 8/sıva" to="6/önce" with="manner"/>
+</Amr>

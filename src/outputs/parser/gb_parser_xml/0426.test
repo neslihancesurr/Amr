@@ -1,0 +1,13 @@
+<Amr sentence="Okul meğer belediye başkanı tarafından kapatılmış .">
+<Word name="6/kapat" positionX="750" positionY="100"/>
+<Word name="1/okul" positionX="650" positionY="200"/>
+<Connection from="6/kapat" to="1/okul" with="ARG0"/>
+<Word name="2/meğer" positionX="750" positionY="200"/>
+<Connection from="6/kapat" to="2/meğer" with="manner"/>
+<Word name="5/tarafından" positionX="850" positionY="200"/>
+<Connection from="6/kapat" to="5/tarafından"/>
+<Word name="4/başkan" positionX="750" positionY="300"/>
+<Connection from="5/tarafından" to="4/başkan" with="mod"/>
+<Word name="3/belediye" positionX="650" positionY="400"/>
+<Connection from="4/başkan" to="3/belediye" with="mod"/>
+</Amr>

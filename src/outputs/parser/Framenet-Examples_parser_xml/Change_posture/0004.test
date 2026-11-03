@@ -1,0 +1,15 @@
+<Amr sentence="Öyle yorgundum ki koltuğa geçip uzun oturdum .">
+<Word name="6/uzun 7/otur" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="6/uzun 7/otur" to="ben" with="ARG0"/>
+<Word name="2/yorgun" positionX="750" positionY="200"/>
+<Connection from="6/uzun 7/otur" to="2/yorgun"/>
+<Word name="1/öyle" positionX="650" positionY="300"/>
+<Connection from="2/yorgun" to="1/öyle" with="manner"/>
+<Word name="3/ki" positionX="750" positionY="300"/>
+<Connection from="2/yorgun" to="3/ki"/>
+<Word name="5/geç" positionX="850" positionY="200"/>
+<Connection from="6/uzun 7/otur" to="5/geç"/>
+<Word name="4/koltuk" positionX="750" positionY="300"/>
+<Connection from="5/geç" to="4/koltuk" with="ARG1"/>
+</Amr>

@@ -1,0 +1,19 @@
+<Amr sentence="Düşmanı hem de kanadı kırık halimizle , hangi güçle geri püskürttük ?">
+<Word name="10/geri 11/püskürt" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="10/geri 11/püskürt" to="biz" with="ARG0"/>
+<Word name="1/düşman" positionX="750" positionY="200"/>
+<Connection from="10/geri 11/püskürt" to="1/düşman" with="ARG1"/>
+<Word name="6/hâlimizle" positionX="850" positionY="200"/>
+<Connection from="10/geri 11/püskürt" to="6/hâlimizle"/>
+<Word name="3/de" positionX="750" positionY="300"/>
+<Connection from="6/hâlimizle" to="3/de"/>
+<Word name="5/kırık" positionX="850" positionY="300"/>
+<Connection from="6/hâlimizle" to="5/kırık" with="mod"/>
+<Word name="4/kanat" positionX="750" positionY="400"/>
+<Connection from="5/kırık" to="4/kanat"/>
+<Word name="9/güç" positionX="950" positionY="200"/>
+<Connection from="10/geri 11/püskürt" to="9/güç" with="instrument"/>
+<Word name="8/hangi" positionX="850" positionY="300"/>
+<Connection from="9/güç" to="8/hangi" with="mod"/>
+</Amr>

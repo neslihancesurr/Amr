@@ -1,0 +1,15 @@
+<Amr sentence="Önceden haber vermedikleri için konuşmacılar sahnede emprovizasyon yaptı .">
+<Word name="7/emprovizasyon 8/yap" positionX="750" positionY="100"/>
+<Word name="2/haber 3/ver" positionX="650" positionY="200"/>
+<Connection from="7/emprovizasyon 8/yap" to="2/haber 3/ver"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="2/haber 3/ver" to="-" with="polarity"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="2/haber 3/ver" to="onlar" with="ARG0"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="2/haber 3/ver" to="o" with="poss"/>
+<Word name="5/konuşmacı" positionX="750" positionY="200"/>
+<Connection from="7/emprovizasyon 8/yap" to="5/konuşmacı" with="ARG0"/>
+<Word name="6/sahne" positionX="850" positionY="200"/>
+<Connection from="7/emprovizasyon 8/yap" to="6/sahne" with="location"/>
+</Amr>

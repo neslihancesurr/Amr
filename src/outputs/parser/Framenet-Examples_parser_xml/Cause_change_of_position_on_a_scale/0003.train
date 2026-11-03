@@ -1,0 +1,17 @@
+<Amr sentence="Berlin hükümeti bir seneliğine kira fiyatlarını dondurdu .">
+<Word name="6/fiyat 7/dondur" positionX="750" positionY="100"/>
+<Word name="2/hükümet" positionX="650" positionY="200"/>
+<Connection from="6/fiyat 7/dondur" to="2/hükümet" with="ARG0"/>
+<Word name="city" positionX="550" positionY="300"/>
+<Connection from="2/hükümet" to="city"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="1/berlin" positionX="350" positionY="500"/>
+<Connection from="name" to="1/berlin" with="op1"/>
+<Word name="berlin" positionX="550" positionY="400"/>
+<Connection from="city" to="berlin" with="wiki"/>
+<Word name="4/seneliğine" positionX="750" positionY="200"/>
+<Connection from="6/fiyat 7/dondur" to="4/seneliğine" with="mod"/>
+<Word name="3/bir" positionX="650" positionY="300"/>
+<Connection from="4/seneliğine" to="3/bir" with="mod"/>
+</Amr>

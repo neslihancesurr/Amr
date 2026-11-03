@@ -1,0 +1,9 @@
+<Amr sentence="Konser kaçta başlıyor ?">
+<Word name="3/başla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/başla" to="o" with="ARG0"/>
+<Word name="1/konser" positionX="750" positionY="200"/>
+<Connection from="3/başla" to="1/konser" with="ARG1"/>
+<Word name="2/kaçta" positionX="850" positionY="200"/>
+<Connection from="3/başla" to="2/kaçta"/>
+</Amr>

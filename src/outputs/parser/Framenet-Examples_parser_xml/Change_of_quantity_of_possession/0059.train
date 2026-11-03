@@ -1,0 +1,16 @@
+<Amr sentence="Çok kirlenmiş , baksana , abanoz kesilmiş .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/kirlen" positionX="650" positionY="200"/>
+<Connection from="and" to="2/kirlen" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/kirlen" to="o" with="ARG0"/>
+<Word name="1/çok" positionX="650" positionY="300"/>
+<Connection from="2/kirlen" to="1/çok" with="degree"/>
+<Word name="6/abanoz 7/kesil" positionX="750" positionY="200"/>
+<Connection from="and" to="6/abanoz 7/kesil" with="op2"/>
+<Connection from="6/abanoz 7/kesil" to="o" with="ARG0"/>
+<Word name="4/bak" positionX="750" positionY="300"/>
+<Connection from="6/abanoz 7/kesil" to="4/bak"/>
+<Word name="sen" positionX="650" positionY="400"/>
+<Connection from="4/bak" to="sen" with="ARG0"/>
+</Amr>

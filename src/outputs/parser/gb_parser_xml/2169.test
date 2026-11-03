@@ -1,0 +1,9 @@
+<Amr sentence="Biz kursu tamamladık addediliyoruz .">
+<Word name="4/addet" positionX="750" positionY="100"/>
+<Word name="1/biz" positionX="650" positionY="200"/>
+<Connection from="4/addet" to="1/biz"/>
+<Word name="3/tamamla" positionX="750" positionY="200"/>
+<Connection from="4/addet" to="3/tamamla"/>
+<Word name="2/kurs" positionX="650" positionY="300"/>
+<Connection from="3/tamamla" to="2/kurs"/>
+</Amr>

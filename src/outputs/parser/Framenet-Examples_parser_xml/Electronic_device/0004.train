@@ -1,0 +1,18 @@
+<Amr sentence="Üstteki sekmeye tıklayarak istediğin yere ulaşabilirsin .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="6/ulaş" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="6/ulaş"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="6/ulaş" to="sen" with="ARG0"/>
+<Word name="3/tıkla" positionX="650" positionY="300"/>
+<Connection from="6/ulaş" to="3/tıkla"/>
+<Word name="2/sekme" positionX="550" positionY="400"/>
+<Connection from="3/tıkla" to="2/sekme" with="ARG1"/>
+<Word name="1/üst" positionX="450" positionY="500"/>
+<Connection from="2/sekme" to="1/üst" with="mod"/>
+<Word name="5/yer" positionX="750" positionY="300"/>
+<Connection from="6/ulaş" to="5/yer"/>
+<Word name="4/iste" positionX="650" positionY="400"/>
+<Connection from="5/yer" to="4/iste"/>
+<Connection from="4/iste" to="sen" with="poss"/>
+</Amr>

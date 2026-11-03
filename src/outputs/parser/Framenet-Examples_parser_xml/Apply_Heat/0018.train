@@ -1,0 +1,34 @@
+<Amr sentence="Çakmak kıvılcım çıkardı , çıkarmasıyla pof diye gaz parladı ve zaten seyrek olan kirpiklerimi ütüledi .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/çık" positionX="650" positionY="200"/>
+<Connection from="and" to="3/çık" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/çık" to="o" with="ARG0"/>
+<Word name="1/çakmak" positionX="650" positionY="300"/>
+<Connection from="3/çık" to="1/çakmak"/>
+<Word name="2/kıvılcım" positionX="750" positionY="300"/>
+<Connection from="3/çık" to="2/kıvılcım" with="ARG1"/>
+<Word name="15/ütüle" positionX="750" positionY="200"/>
+<Connection from="and" to="15/ütüle" with="op2"/>
+<Word name="14/kirpik" positionX="650" positionY="300"/>
+<Connection from="15/ütüle" to="14/kirpik" with="ARG1"/>
+<Word name="ben" positionX="550" positionY="400"/>
+<Connection from="14/kirpik" to="ben" with="poss"/>
+<Word name="13/ol" positionX="650" positionY="400"/>
+<Connection from="14/kirpik" to="13/ol"/>
+<Word name="11/zaten" positionX="550" positionY="500"/>
+<Connection from="13/ol" to="11/zaten" with="manner"/>
+<Word name="12/seyrek" positionX="650" positionY="500"/>
+<Connection from="13/ol" to="12/seyrek" with="manner"/>
+<Word name="9/parla" positionX="850" positionY="200"/>
+<Connection from="and" to="9/parla" with="op3"/>
+<Connection from="9/parla" to="o" with="ARG0"/>
+<Word name="5/çıkarma" positionX="850" positionY="300"/>
+<Connection from="9/parla" to="5/çıkarma" with="instrument"/>
+<Word name="6/pof" positionX="950" positionY="300"/>
+<Connection from="9/parla" to="6/pof"/>
+<Word name="7/diye" positionX="850" positionY="400"/>
+<Connection from="6/pof" to="7/diye"/>
+<Word name="8/gaz" positionX="1050" positionY="300"/>
+<Connection from="9/parla" to="8/gaz" with="ARG1"/>
+</Amr>

@@ -1,0 +1,16 @@
+<Amr sentence="Söylediği yalanlardan sonra hepimizin gözünde itibarsızlaştı .">
+<Word name="6/itibarsızlaş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/itibarsızlaş" to="o" with="ARG0"/>
+<Word name="2/yalan" positionX="750" positionY="200"/>
+<Connection from="6/itibarsızlaş" to="2/yalan"/>
+<Word name="1/söyle" positionX="650" positionY="300"/>
+<Connection from="2/yalan" to="1/söyle"/>
+<Connection from="1/söyle" to="o" with="poss"/>
+<Word name="3/sonra" positionX="750" positionY="300"/>
+<Connection from="2/yalan" to="3/sonra"/>
+<Word name="5/gözünde" positionX="850" positionY="200"/>
+<Connection from="6/itibarsızlaş" to="5/gözünde"/>
+<Word name="4/hep" positionX="750" positionY="300"/>
+<Connection from="5/gözünde" to="4/hep" with="frequency"/>
+</Amr>

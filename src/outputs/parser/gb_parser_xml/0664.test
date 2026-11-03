@@ -1,0 +1,9 @@
+<Amr sentence="Öğrencilerin her birinin ayrı bir mazereti vardı .">
+<Word name="7/var" positionX="750" positionY="100"/>
+<Word name="6/mazeret" positionX="650" positionY="200"/>
+<Connection from="7/var" to="6/mazeret"/>
+<Word name="2/her 3/biri" positionX="550" positionY="300"/>
+<Connection from="6/mazeret" to="2/her 3/biri" with="mod"/>
+<Word name="4/ayrı" positionX="650" positionY="300"/>
+<Connection from="6/mazeret" to="4/ayrı" with="mod"/>
+</Amr>

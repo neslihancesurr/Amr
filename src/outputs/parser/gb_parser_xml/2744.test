@@ -1,0 +1,11 @@
+<Amr sentence="Görgü şahidi olarak mahkemeye çağrılmışsın .">
+<Word name="5/çağır" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="5/çağır" to="sen" with="ARG0"/>
+<Word name="2/şahit 3/ol" positionX="750" positionY="200"/>
+<Connection from="5/çağır" to="2/şahit 3/ol"/>
+<Word name="1/görgü" positionX="650" positionY="300"/>
+<Connection from="2/şahit 3/ol" to="1/görgü" with="mod"/>
+<Word name="4/mahkeme" positionX="850" positionY="200"/>
+<Connection from="5/çağır" to="4/mahkeme" with="ARG2"/>
+</Amr>

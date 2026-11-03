@@ -1,0 +1,9 @@
+<Amr sentence="Cam fabrikası önümüzdeki hafta faaliyete geçecek .">
+<Word name="5/faaliyet 6/geç" positionX="750" positionY="100"/>
+<Word name="1/cam 2/fabrika" positionX="650" positionY="200"/>
+<Connection from="5/faaliyet 6/geç" to="1/cam 2/fabrika" with="ARG0"/>
+<Word name="4/hafta" positionX="750" positionY="200"/>
+<Connection from="5/faaliyet 6/geç" to="4/hafta" with="mod"/>
+<Word name="3/ön" positionX="650" positionY="300"/>
+<Connection from="4/hafta" to="3/ön" with="mod"/>
+</Amr>

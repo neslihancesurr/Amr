@@ -1,0 +1,7 @@
+<Amr sentence="Yaşlı güreşçi , minderden kaçtı .">
+<Word name="4/minder 5/kaç" positionX="750" positionY="100"/>
+<Word name="2/güreşçi" positionX="650" positionY="200"/>
+<Connection from="4/minder 5/kaç" to="2/güreşçi" with="ARG0"/>
+<Word name="1/yaşlı" positionX="550" positionY="300"/>
+<Connection from="2/güreşçi" to="1/yaşlı" with="mod"/>
+</Amr>

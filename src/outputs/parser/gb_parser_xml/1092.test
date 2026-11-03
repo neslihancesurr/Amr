@@ -1,0 +1,9 @@
+<Amr sentence="Benim odamla onunki arasında kalın bir duvar vardı .">
+<Word name="8/var" positionX="750" positionY="100"/>
+<Word name="3/onunki 4/ara" positionX="650" positionY="200"/>
+<Connection from="8/var" to="3/onunki 4/ara" with="mod"/>
+<Word name="7/duvar" positionX="750" positionY="200"/>
+<Connection from="8/var" to="7/duvar"/>
+<Word name="5/kalın" positionX="650" positionY="300"/>
+<Connection from="7/duvar" to="5/kalın" with="mod"/>
+</Amr>

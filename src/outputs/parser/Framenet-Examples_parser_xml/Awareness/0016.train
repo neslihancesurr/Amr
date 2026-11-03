@@ -1,0 +1,22 @@
+<Amr sentence="Bütün uyarıları göz ardı eden Nihal en sonunda hata yaptığının bilincine vardı .">
+<Word name="11/bilinç 12/var" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="11/bilinç 12/var" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="6/nihal" positionX="450" positionY="400"/>
+<Connection from="name" to="6/nihal" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/göz 4/art 5/et" positionX="750" positionY="300"/>
+<Connection from="person" to="3/göz 4/art 5/et"/>
+<Word name="8/sonunda" positionX="750" positionY="200"/>
+<Connection from="11/bilinç 12/var" to="8/sonunda" with="manner"/>
+<Word name="7/en" positionX="650" positionY="300"/>
+<Connection from="8/sonunda" to="7/en" with="manner"/>
+<Word name="9/hata 10/yap" positionX="850" positionY="200"/>
+<Connection from="11/bilinç 12/var" to="9/hata 10/yap" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="9/hata 10/yap" to="o" with="ARG0"/>
+<Connection from="9/hata 10/yap" to="o" with="poss"/>
+</Amr>

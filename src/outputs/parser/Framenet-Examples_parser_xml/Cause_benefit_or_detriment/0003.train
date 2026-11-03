@@ -1,0 +1,9 @@
+<Amr sentence="Okulda &quot; Cüce &quot; diye adlandı .">
+<Word name="6/ad" positionX="750" positionY="100"/>
+<Word name="1/okul" positionX="650" positionY="200"/>
+<Connection from="6/ad" to="1/okul" with="location"/>
+<Word name="3/cüce" positionX="750" positionY="200"/>
+<Connection from="6/ad" to="3/cüce"/>
+<Word name="5/diye" positionX="650" positionY="300"/>
+<Connection from="3/cüce" to="5/diye"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="O adam ne doktoru ?">
+<Word name="4/doktor" positionX="750" positionY="100"/>
+<Word name="2/adam" positionX="650" positionY="200"/>
+<Connection from="4/doktor" to="2/adam"/>
+<Word name="1/o" positionX="550" positionY="300"/>
+<Connection from="2/adam" to="1/o" with="mod"/>
+<Word name="3/ne" positionX="750" positionY="200"/>
+<Connection from="4/doktor" to="3/ne" with="mod"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Vapurun kahvecisi kötü bir insan farz olunuyordu .">
+<Word name="6/farz 7/ol" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/farz 7/ol" to="o" with="ARG0"/>
+<Word name="2/kahveci" positionX="750" positionY="200"/>
+<Connection from="6/farz 7/ol" to="2/kahveci"/>
+<Word name="1/vapur" positionX="650" positionY="300"/>
+<Connection from="2/kahveci" to="1/vapur" with="mod"/>
+<Word name="5/insan" positionX="850" positionY="200"/>
+<Connection from="6/farz 7/ol" to="5/insan" with="ARG1"/>
+<Word name="3/kötü" positionX="750" positionY="300"/>
+<Connection from="5/insan" to="3/kötü" with="mod"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Sabah sabah beş milyon lirayı suladık .">
+<Word name="6/sula" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="6/sula" to="biz" with="ARG0"/>
+<Word name="1/sabah 2/sabah" positionX="750" positionY="200"/>
+<Connection from="6/sula" to="1/sabah 2/sabah"/>
+<Word name="5/lira" positionX="850" positionY="200"/>
+<Connection from="6/sula" to="5/lira" with="ARG1"/>
+<Word name="4/milyon" positionX="750" positionY="300"/>
+<Connection from="5/lira" to="4/milyon"/>
+<Word name="3/beş" positionX="650" positionY="400"/>
+<Connection from="4/milyon" to="3/beş"/>
+</Amr>

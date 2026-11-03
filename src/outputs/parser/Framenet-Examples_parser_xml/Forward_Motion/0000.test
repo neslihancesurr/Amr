@@ -1,0 +1,7 @@
+<Amr sentence="Herif çoktan aşmış .">
+<Word name="3/aş" positionX="750" positionY="100"/>
+<Word name="1/herif" positionX="650" positionY="200"/>
+<Connection from="3/aş" to="1/herif" with="ARG0"/>
+<Word name="2/çoktan" positionX="750" positionY="200"/>
+<Connection from="3/aş" to="2/çoktan" with="manner"/>
+</Amr>

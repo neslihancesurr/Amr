@@ -1,0 +1,21 @@
+<Amr sentence="Halat çıkmasın diye sıkı bir şekilde ağız bağı yaptık .">
+<Word name="7/ağız 8/bağ 9/yap" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="7/ağız 8/bağ 9/yap" to="biz" with="ARG0"/>
+<Word name="2/çık" positionX="750" positionY="200"/>
+<Connection from="7/ağız 8/bağ 9/yap" to="2/çık"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="2/çık" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="2/çık" to="o" with="ARG0"/>
+<Word name="imperative" positionX="850" positionY="300"/>
+<Connection from="2/çık" to="imperative" with="mode"/>
+<Word name="1/halat" positionX="950" positionY="300"/>
+<Connection from="2/çık" to="1/halat"/>
+<Word name="3/diye" positionX="1050" positionY="300"/>
+<Connection from="2/çık" to="3/diye"/>
+<Word name="6/şekil" positionX="850" positionY="200"/>
+<Connection from="7/ağız 8/bağ 9/yap" to="6/şekil" with="mod"/>
+<Word name="4/sıkı" positionX="750" positionY="300"/>
+<Connection from="6/şekil" to="4/sıkı" with="mod"/>
+</Amr>

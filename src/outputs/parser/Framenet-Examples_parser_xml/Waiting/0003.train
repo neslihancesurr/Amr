@@ -1,0 +1,11 @@
+<Amr sentence="Saatlerce ayakta durmaktan bacakları ağrımıştı .">
+<Word name="5/ağrı" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/ağrı" to="o" with="ARG0"/>
+<Word name="2/ayak 3/dur" positionX="750" positionY="200"/>
+<Connection from="5/ağrı" to="2/ayak 3/dur"/>
+<Connection from="2/ayak 3/dur" to="o" with="ARG0"/>
+<Word name="4/bacak" positionX="850" positionY="200"/>
+<Connection from="5/ağrı" to="4/bacak" with="ARG1"/>
+<Connection from="4/bacak" to="o" with="poss"/>
+</Amr>

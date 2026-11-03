@@ -1,0 +1,11 @@
+<Amr sentence="Şarkı söylemene bayılıyor .">
+<Word name="3/bayıl" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/bayıl" to="o" with="ARG0"/>
+<Word name="2/söyle" positionX="750" positionY="200"/>
+<Connection from="3/bayıl" to="2/söyle" with="ARG1"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="2/söyle" to="sen" with="ARG0"/>
+<Word name="1/şarkı" positionX="750" positionY="300"/>
+<Connection from="2/söyle" to="1/şarkı"/>
+</Amr>

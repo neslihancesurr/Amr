@@ -1,0 +1,9 @@
+<Amr sentence="Türkçe öğrenmek zor .">
+<Word name="3/zor" positionX="750" positionY="100"/>
+<Word name="2/öğren" positionX="650" positionY="200"/>
+<Connection from="3/zor" to="2/öğren"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/öğren" to="o" with="ARG0"/>
+<Word name="1/türkçe" positionX="650" positionY="300"/>
+<Connection from="2/öğren" to="1/türkçe"/>
+</Amr>

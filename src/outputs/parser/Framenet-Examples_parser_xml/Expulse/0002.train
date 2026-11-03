@@ -1,0 +1,7 @@
+<Amr sentence="Kuyruğuna teneke bağlamış gibi kovdum .">
+<Word name="5/kov" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/kov" to="ben" with="ARG0"/>
+<Word name="1/kuyruk 2/teneke 3/bağla" positionX="750" positionY="200"/>
+<Connection from="5/kov" to="1/kuyruk 2/teneke 3/bağla"/>
+</Amr>

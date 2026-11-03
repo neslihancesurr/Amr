@@ -1,0 +1,9 @@
+<Amr sentence="Açlıktan midem buruluyor .">
+<Word name="3/burul" positionX="750" positionY="100"/>
+<Word name="1/açlık" positionX="650" positionY="200"/>
+<Connection from="3/burul" to="1/açlık"/>
+<Word name="2/mide" positionX="750" positionY="200"/>
+<Connection from="3/burul" to="2/mide" with="ARG0"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="2/mide" to="ben" with="poss"/>
+</Amr>

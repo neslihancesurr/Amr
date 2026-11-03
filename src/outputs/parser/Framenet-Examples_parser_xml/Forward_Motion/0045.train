@@ -1,0 +1,27 @@
+<Amr sentence="Bir doksan boyu , doksan beş , belki de yüz kilosuyla kaldırımda tok tok yürüyordu .">
+<Word name="13/tok 14/tok 15/yürü" positionX="750" positionY="100"/>
+<Word name="and" positionX="650" positionY="200"/>
+<Connection from="13/tok 14/tok 15/yürü" to="and"/>
+<Word name="11/kilo" positionX="550" positionY="300"/>
+<Connection from="and" to="11/kilo" with="instrument"/>
+<Word name="6/beş" positionX="450" positionY="400"/>
+<Connection from="11/kilo" to="6/beş"/>
+<Word name="5/doksan" positionX="350" positionY="500"/>
+<Connection from="6/beş" to="5/doksan"/>
+<Word name="10/yüz" positionX="550" positionY="400"/>
+<Connection from="11/kilo" to="10/yüz"/>
+<Word name="8/belki" positionX="450" positionY="500"/>
+<Connection from="10/yüz" to="8/belki" with="manner"/>
+<Word name="9/de" positionX="350" positionY="600"/>
+<Connection from="8/belki" to="9/de"/>
+<Word name="3/boy" positionX="650" positionY="300"/>
+<Connection from="and" to="3/boy" with="op2"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="3/boy" to="o" with="poss"/>
+<Word name="2/doksan" positionX="650" positionY="400"/>
+<Connection from="3/boy" to="2/doksan"/>
+<Word name="1/bir" positionX="550" positionY="500"/>
+<Connection from="2/doksan" to="1/bir"/>
+<Word name="12/kaldırım" positionX="750" positionY="200"/>
+<Connection from="13/tok 14/tok 15/yürü" to="12/kaldırım" with="location"/>
+</Amr>

@@ -1,0 +1,5 @@
+<Amr sentence="Salon kalabalıktı .">
+<Word name="2/kalabalık" positionX="750" positionY="100"/>
+<Word name="1/salon" positionX="650" positionY="200"/>
+<Connection from="2/kalabalık" to="1/salon"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Bence bu sorunu bir an önce halletmeli .">
+<Word name="gerek" positionX="750" positionY="100"/>
+<Word name="7/hallet" positionX="650" positionY="200"/>
+<Connection from="gerek" to="7/hallet"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="7/hallet" to="o" with="ARG0"/>
+<Word name="1/ben" positionX="650" positionY="300"/>
+<Connection from="7/hallet" to="1/ben"/>
+<Word name="3/sorun" positionX="750" positionY="300"/>
+<Connection from="7/hallet" to="3/sorun" with="ARG1"/>
+<Word name="2/bu" positionX="650" positionY="400"/>
+<Connection from="3/sorun" to="2/bu" with="mod"/>
+</Amr>

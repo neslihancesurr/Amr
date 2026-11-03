@@ -1,0 +1,20 @@
+<Amr sentence="Sigarayı bırakmanın faydasını ilk günlerde görmeyebilirsin .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="6/gör" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="6/gör"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="6/gör" to="-" with="polarity"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="6/gör" to="sen" with="ARG0"/>
+<Word name="3/fayda" positionX="750" positionY="300"/>
+<Connection from="6/gör" to="3/fayda"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="3/fayda" to="o" with="poss"/>
+<Word name="2/bırak" positionX="750" positionY="400"/>
+<Connection from="3/fayda" to="2/bırak"/>
+<Connection from="2/bırak" to="o" with="ARG0"/>
+<Word name="1/sigara" positionX="750" positionY="500"/>
+<Connection from="2/bırak" to="1/sigara"/>
+<Word name="4/ilk 5/gün" positionX="850" positionY="300"/>
+<Connection from="6/gör" to="4/ilk 5/gün" with="mod"/>
+</Amr>

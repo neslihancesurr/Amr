@@ -1,0 +1,25 @@
+<Amr sentence="Hevesini kırmalarına izin vermeyecekti , elbiseyi dikmeye sıfırdan başladı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/izin 4/ver" positionX="650" positionY="200"/>
+<Connection from="and" to="3/izin 4/ver" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="3/izin 4/ver" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/izin 4/ver" to="o" with="ARG0"/>
+<Word name="2/kır" positionX="750" positionY="300"/>
+<Connection from="3/izin 4/ver" to="2/kır" with="ARG1"/>
+<Connection from="2/kır" to="o" with="ARG0"/>
+<Word name="onlar" positionX="750" positionY="400"/>
+<Connection from="2/kır" to="onlar" with="poss"/>
+<Word name="1/heves" positionX="850" positionY="400"/>
+<Connection from="2/kır" to="1/heves"/>
+<Connection from="1/heves" to="o" with="poss"/>
+<Word name="8/sıfır 9/başla" positionX="750" positionY="200"/>
+<Connection from="and" to="8/sıfır 9/başla" with="op2"/>
+<Connection from="8/sıfır 9/başla" to="o" with="ARG0"/>
+<Word name="7/dik" positionX="750" positionY="300"/>
+<Connection from="8/sıfır 9/başla" to="7/dik" with="ARG1"/>
+<Connection from="7/dik" to="o" with="ARG0"/>
+<Word name="6/elbise" positionX="750" positionY="400"/>
+<Connection from="7/dik" to="6/elbise"/>
+</Amr>

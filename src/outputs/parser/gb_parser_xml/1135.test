@@ -1,0 +1,9 @@
+<Amr sentence="Kapıda birisi var .">
+<Word name="3/var" positionX="750" positionY="100"/>
+<Word name="1/kapı" positionX="650" positionY="200"/>
+<Connection from="3/var" to="1/kapı" with="location"/>
+<Word name="2/biri" positionX="750" positionY="200"/>
+<Connection from="3/var" to="2/biri"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/biri" to="o" with="poss"/>
+</Amr>

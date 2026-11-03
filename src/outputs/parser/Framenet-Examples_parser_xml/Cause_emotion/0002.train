@@ -1,0 +1,9 @@
+<Amr sentence="Amcası çocukları coşturdu .">
+<Word name="3/coştur" positionX="750" positionY="100"/>
+<Word name="1/amca" positionX="650" positionY="200"/>
+<Connection from="3/coştur" to="1/amca" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/amca" to="o" with="poss"/>
+<Word name="2/çocuk" positionX="750" positionY="200"/>
+<Connection from="3/coştur" to="2/çocuk" with="ARG1"/>
+</Amr>

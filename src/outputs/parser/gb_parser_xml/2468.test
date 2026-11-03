@@ -1,0 +1,24 @@
+<Amr sentence="Fatma artık ölünceye dek burada kalmak istiyordu .">
+<Word name="7/iste" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="7/iste" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/fatma" positionX="450" positionY="400"/>
+<Connection from="name" to="1/fatma" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="6/kal" positionX="750" positionY="200"/>
+<Connection from="7/iste" to="6/kal" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="6/kal" to="o" with="ARG0"/>
+<Word name="2/artık" positionX="750" positionY="300"/>
+<Connection from="6/kal" to="2/artık" with="manner"/>
+<Word name="3/öl" positionX="850" positionY="300"/>
+<Connection from="6/kal" to="3/öl"/>
+<Connection from="3/öl" to="o" with="ARG0"/>
+<Word name="4/dek" positionX="850" positionY="400"/>
+<Connection from="3/öl" to="4/dek"/>
+<Word name="5/burada" positionX="950" positionY="300"/>
+<Connection from="6/kal" to="5/burada" with="ARG1"/>
+</Amr>

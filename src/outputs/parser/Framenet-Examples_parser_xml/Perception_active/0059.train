@@ -1,0 +1,14 @@
+<Amr sentence="Sabah akşam şurda oturup geleni geçeni dikiz eder .">
+<Word name="7/dikiz 8/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/dikiz 8/et" to="o" with="ARG0"/>
+<Word name="4/otur" positionX="750" positionY="200"/>
+<Connection from="7/dikiz 8/et" to="4/otur"/>
+<Word name="1/sabah 2/akşam" positionX="650" positionY="300"/>
+<Connection from="4/otur" to="1/sabah 2/akşam"/>
+<Word name="3/şurada" positionX="750" positionY="300"/>
+<Connection from="4/otur" to="3/şurada" with="ARG1"/>
+<Word name="5/gel 6/geç" positionX="850" positionY="200"/>
+<Connection from="7/dikiz 8/et" to="5/gel 6/geç" with="ARG1"/>
+<Connection from="5/gel 6/geç" to="o" with="ARG0"/>
+</Amr>

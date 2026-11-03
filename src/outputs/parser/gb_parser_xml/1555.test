@@ -1,0 +1,23 @@
+<Amr sentence="Hasan'ın sana yardım için hiçbir şey yaptığı yok .">
+<Word name="8/yok" positionX="750" positionY="100"/>
+<Word name="7/yap" positionX="650" positionY="200"/>
+<Connection from="8/yok" to="7/yap"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="7/yap" to="o" with="poss"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="7/yap" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/hasan" positionX="450" positionY="500"/>
+<Connection from="name" to="1/hasan" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/yardım" positionX="750" positionY="300"/>
+<Connection from="7/yap" to="3/yardım" with="cause"/>
+<Word name="2/sen" positionX="650" positionY="400"/>
+<Connection from="3/yardım" to="2/sen" with="mod"/>
+<Word name="6/şey" positionX="850" positionY="300"/>
+<Connection from="7/yap" to="6/şey" with="ARG1"/>
+<Word name="5/hiçbir" positionX="750" positionY="400"/>
+<Connection from="6/şey" to="5/hiçbir" with="mod"/>
+</Amr>

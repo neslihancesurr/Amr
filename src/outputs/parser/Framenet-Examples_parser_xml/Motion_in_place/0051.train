@@ -1,0 +1,7 @@
+<Amr sentence="Veznedar lirayı evirip çevirdi .">
+<Word name="3/evir 4/çevir" positionX="750" positionY="100"/>
+<Word name="1/veznedar" positionX="650" positionY="200"/>
+<Connection from="3/evir 4/çevir" to="1/veznedar" with="ARG0"/>
+<Word name="2/lira" positionX="750" positionY="200"/>
+<Connection from="3/evir 4/çevir" to="2/lira" with="ARG1"/>
+</Amr>

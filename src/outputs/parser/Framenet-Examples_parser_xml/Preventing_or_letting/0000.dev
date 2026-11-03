@@ -1,0 +1,5 @@
+<Amr sentence="Garibanın kısmetini bağlayıverdiler .">
+<Word name="2/kısmet 3/bağla" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="2/kısmet 3/bağla" to="onlar" with="ARG0"/>
+</Amr>

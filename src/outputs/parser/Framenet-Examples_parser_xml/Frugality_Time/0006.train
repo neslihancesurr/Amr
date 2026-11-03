@@ -1,0 +1,16 @@
+<Amr sentence="Bir süredir böyle , çalışmıyor , ense yapıyor .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/böyle" positionX="650" positionY="200"/>
+<Connection from="and" to="3/böyle" with="op1"/>
+<Word name="2/süre" positionX="550" positionY="300"/>
+<Connection from="3/böyle" to="2/süre" with="mod"/>
+<Word name="5/çalış" positionX="750" positionY="200"/>
+<Connection from="and" to="5/çalış" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="5/çalış" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="5/çalış" to="o" with="ARG0"/>
+<Word name="7/ense 8/yap" positionX="850" positionY="200"/>
+<Connection from="and" to="7/ense 8/yap" with="op3"/>
+<Connection from="7/ense 8/yap" to="o" with="ARG0"/>
+</Amr>

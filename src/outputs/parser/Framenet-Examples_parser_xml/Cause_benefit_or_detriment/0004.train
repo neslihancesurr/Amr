@@ -1,0 +1,11 @@
+<Amr sentence="Senin suçunu affediyorum .">
+<Word name="3/affet" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/affet" to="ben" with="ARG0"/>
+<Word name="2/suç" positionX="750" positionY="200"/>
+<Connection from="3/affet" to="2/suç"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="2/suç" to="sen" with="poss"/>
+<Word name="1/sen" positionX="750" positionY="300"/>
+<Connection from="2/suç" to="1/sen" with="mod"/>
+</Amr>

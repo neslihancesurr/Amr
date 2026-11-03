@@ -1,0 +1,9 @@
+<Amr sentence="Büyük fırsatlar elde ettim .">
+<Word name="3/el 4/et" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/el 4/et" to="ben" with="ARG0"/>
+<Word name="2/fırsat" positionX="750" positionY="200"/>
+<Connection from="3/el 4/et" to="2/fırsat" with="ARG1"/>
+<Word name="1/büyük" positionX="650" positionY="300"/>
+<Connection from="2/fırsat" to="1/büyük" with="mod"/>
+</Amr>

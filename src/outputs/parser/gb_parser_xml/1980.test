@@ -1,0 +1,11 @@
+<Amr sentence="Cevapları tabii ki bilecekler .">
+<Word name="4/bil" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/bil" to="onlar" with="ARG0"/>
+<Word name="1/cevap" positionX="750" positionY="200"/>
+<Connection from="4/bil" to="1/cevap" with="ARG1"/>
+<Word name="2/tabii" positionX="850" positionY="200"/>
+<Connection from="4/bil" to="2/tabii" with="manner"/>
+<Word name="3/ki" positionX="750" positionY="300"/>
+<Connection from="2/tabii" to="3/ki"/>
+</Amr>

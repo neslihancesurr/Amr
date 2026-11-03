@@ -1,0 +1,11 @@
+<Amr sentence="Böyle tembelliklerim çok oluyor .">
+<Word name="3/çok 4/ol" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/çok 4/ol" to="o" with="ARG0"/>
+<Word name="2/tembellik" positionX="750" positionY="200"/>
+<Connection from="3/çok 4/ol" to="2/tembellik"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="2/tembellik" to="ben" with="poss"/>
+<Word name="1/böyle" positionX="750" positionY="300"/>
+<Connection from="2/tembellik" to="1/böyle" with="mod"/>
+</Amr>

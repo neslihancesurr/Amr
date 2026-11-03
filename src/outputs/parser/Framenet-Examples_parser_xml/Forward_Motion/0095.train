@@ -1,0 +1,13 @@
+<Amr sentence="Futbol takımı maçın ardından sahada tur atıyordu .">
+<Word name="6/tur 7/at" positionX="750" positionY="100"/>
+<Word name="2/takım" positionX="650" positionY="200"/>
+<Connection from="6/tur 7/at" to="2/takım" with="ARG0"/>
+<Word name="1/futbol" positionX="550" positionY="300"/>
+<Connection from="2/takım" to="1/futbol" with="mod"/>
+<Word name="4/ardından" positionX="750" positionY="200"/>
+<Connection from="6/tur 7/at" to="4/ardından" with="manner"/>
+<Word name="3/maç" positionX="650" positionY="300"/>
+<Connection from="4/ardından" to="3/maç" with="mod"/>
+<Word name="5/saha" positionX="850" positionY="200"/>
+<Connection from="6/tur 7/at" to="5/saha" with="ARG1"/>
+</Amr>

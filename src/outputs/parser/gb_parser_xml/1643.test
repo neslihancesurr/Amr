@@ -1,0 +1,13 @@
+<Amr sentence="Burada musluk suyu içilmez .">
+<Word name="4/iç" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/iç" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="4/iç" to="o" with="ARG0"/>
+<Word name="1/burada" positionX="850" positionY="200"/>
+<Connection from="4/iç" to="1/burada"/>
+<Word name="3/su" positionX="950" positionY="200"/>
+<Connection from="4/iç" to="3/su" with="ARG1"/>
+<Word name="2/musluk" positionX="850" positionY="300"/>
+<Connection from="3/su" to="2/musluk" with="mod"/>
+</Amr>

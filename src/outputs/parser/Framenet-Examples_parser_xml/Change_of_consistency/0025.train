@@ -1,0 +1,9 @@
+<Amr sentence="Açıkta kalan ekmek kurumuş .">
+<Word name="4/kuru" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/kuru" to="o" with="ARG0"/>
+<Word name="3/ekmek" positionX="750" positionY="200"/>
+<Connection from="4/kuru" to="3/ekmek" with="ARG1"/>
+<Word name="1/açık 2/kal" positionX="650" positionY="300"/>
+<Connection from="3/ekmek" to="1/açık 2/kal"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Adam gözünü dikip bakıyor , hepimizi rahatsız ediyordu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/göz 3/dik 4/bak" positionX="650" positionY="200"/>
+<Connection from="and" to="2/göz 3/dik 4/bak" with="op1"/>
+<Word name="1/adam" positionX="550" positionY="300"/>
+<Connection from="2/göz 3/dik 4/bak" to="1/adam" with="ARG0"/>
+<Word name="7/rahat 8/et" positionX="750" positionY="200"/>
+<Connection from="and" to="7/rahat 8/et" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="7/rahat 8/et" to="o" with="ARG0"/>
+<Word name="6/hep" positionX="750" positionY="300"/>
+<Connection from="7/rahat 8/et" to="6/hep" with="frequency"/>
+</Amr>

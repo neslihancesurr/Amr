@@ -1,0 +1,15 @@
+<Amr sentence="Tüm yırtılmış yerleri özenerek yeniden dikti .">
+<Word name="6/dik" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/dik" to="o" with="ARG0"/>
+<Word name="3/yer" positionX="750" positionY="200"/>
+<Connection from="6/dik" to="3/yer" with="ARG1"/>
+<Word name="1/tüm" positionX="650" positionY="300"/>
+<Connection from="3/yer" to="1/tüm" with="mod"/>
+<Word name="2/yırtılmış" positionX="750" positionY="300"/>
+<Connection from="3/yer" to="2/yırtılmış"/>
+<Word name="4/özen" positionX="850" positionY="200"/>
+<Connection from="6/dik" to="4/özen"/>
+<Word name="5/yeniden" positionX="950" positionY="200"/>
+<Connection from="6/dik" to="5/yeniden" with="manner"/>
+</Amr>

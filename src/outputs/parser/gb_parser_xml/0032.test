@@ -1,0 +1,11 @@
+<Amr sentence="Şu anda evden çıktı .">
+<Word name="4/çık" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/çık" to="o" with="ARG0"/>
+<Word name="2/an" positionX="750" positionY="200"/>
+<Connection from="4/çık" to="2/an" with="location"/>
+<Word name="1/şu" positionX="650" positionY="300"/>
+<Connection from="2/an" to="1/şu" with="mod"/>
+<Word name="3/ev" positionX="850" positionY="200"/>
+<Connection from="4/çık" to="3/ev" with="ARG2"/>
+</Amr>

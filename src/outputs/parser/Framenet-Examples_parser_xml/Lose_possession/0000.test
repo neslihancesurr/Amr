@@ -1,0 +1,22 @@
+<Amr sentence="Cenazeden yeni dönmüştük , artık başsız kalmıştık , babam yoktu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/dön" positionX="650" positionY="200"/>
+<Connection from="and" to="3/dön" with="op1"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="3/dön" to="biz" with="ARG0"/>
+<Word name="1/cenaze" positionX="650" positionY="300"/>
+<Connection from="3/dön" to="1/cenaze"/>
+<Word name="2/yeni" positionX="750" positionY="300"/>
+<Connection from="3/dön" to="2/yeni" with="manner"/>
+<Word name="6/başsız 7/kal" positionX="750" positionY="200"/>
+<Connection from="and" to="6/başsız 7/kal" with="op2"/>
+<Connection from="6/başsız 7/kal" to="biz" with="ARG0"/>
+<Word name="5/artık" positionX="750" positionY="300"/>
+<Connection from="6/başsız 7/kal" to="5/artık" with="manner"/>
+<Word name="10/yok" positionX="850" positionY="200"/>
+<Connection from="and" to="10/yok" with="op3"/>
+<Word name="9/baba" positionX="750" positionY="300"/>
+<Connection from="10/yok" to="9/baba"/>
+<Word name="ben" positionX="650" positionY="400"/>
+<Connection from="9/baba" to="ben" with="poss"/>
+</Amr>

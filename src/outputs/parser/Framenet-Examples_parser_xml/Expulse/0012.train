@@ -1,0 +1,7 @@
+<Amr sentence="Bana kapıyı gösterdi .">
+<Word name="2/kapı 3/göster" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="2/kapı 3/göster" to="o" with="ARG0"/>
+<Word name="1/ben" positionX="750" positionY="200"/>
+<Connection from="2/kapı 3/göster" to="1/ben" with="ARG1"/>
+</Amr>

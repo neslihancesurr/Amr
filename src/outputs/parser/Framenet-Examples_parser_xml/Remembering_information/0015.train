@@ -1,0 +1,19 @@
+<Amr sentence="Hızla açılan kapıdan içeri girişi hâlâ gözünün önünde olur .">
+<Word name="7/göz 8/ön 9/ol" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/göz 8/ön 9/ol" to="o" with="ARG0"/>
+<Word name="5/gir" positionX="750" positionY="200"/>
+<Connection from="7/göz 8/ön 9/ol" to="5/gir" with="ARG1"/>
+<Connection from="5/gir" to="o" with="ARG0"/>
+<Connection from="5/gir" to="o" with="poss"/>
+<Word name="4/içeri" positionX="850" positionY="300"/>
+<Connection from="5/gir" to="4/içeri"/>
+<Word name="3/kapı" positionX="750" positionY="400"/>
+<Connection from="4/içeri" to="3/kapı"/>
+<Word name="2/aç" positionX="650" positionY="500"/>
+<Connection from="3/kapı" to="2/aç"/>
+<Word name="1/hızla" positionX="550" positionY="600"/>
+<Connection from="2/aç" to="1/hızla" with="manner"/>
+<Word name="6/hâlâ" positionX="850" positionY="200"/>
+<Connection from="7/göz 8/ön 9/ol" to="6/hâlâ" with="manner"/>
+</Amr>

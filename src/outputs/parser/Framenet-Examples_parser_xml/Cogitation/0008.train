@@ -1,0 +1,13 @@
+<Amr sentence="Bu konu üzerinde iyice mütalaa ettik .">
+<Word name="5/mütalaa 6/et" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/mütalaa 6/et" to="biz" with="ARG0"/>
+<Word name="3/üzerinde" positionX="750" positionY="200"/>
+<Connection from="5/mütalaa 6/et" to="3/üzerinde" with="manner"/>
+<Word name="2/konu" positionX="650" positionY="300"/>
+<Connection from="3/üzerinde" to="2/konu" with="mod"/>
+<Word name="1/bu" positionX="550" positionY="400"/>
+<Connection from="2/konu" to="1/bu" with="mod"/>
+<Word name="4/iyice" positionX="850" positionY="200"/>
+<Connection from="5/mütalaa 6/et" to="4/iyice" with="manner"/>
+</Amr>

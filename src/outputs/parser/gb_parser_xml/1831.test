@@ -1,0 +1,13 @@
+<Amr sentence="Çekmecede dört tane defter bulduk .">
+<Word name="5/bul" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/bul" to="biz" with="ARG0"/>
+<Word name="1/çekmece" positionX="750" positionY="200"/>
+<Connection from="5/bul" to="1/çekmece" with="location"/>
+<Word name="4/defter" positionX="850" positionY="200"/>
+<Connection from="5/bul" to="4/defter" with="ARG1"/>
+<Word name="3/tane" positionX="750" positionY="300"/>
+<Connection from="4/defter" to="3/tane" with="mod"/>
+<Word name="2/dört" positionX="650" positionY="400"/>
+<Connection from="3/tane" to="2/dört"/>
+</Amr>

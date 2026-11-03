@@ -1,0 +1,13 @@
+<Amr sentence="Banka , adamın otuz bin lirasını ahzetti .">
+<Word name="7/ahzet" positionX="750" positionY="100"/>
+<Word name="1/banka" positionX="650" positionY="200"/>
+<Connection from="7/ahzet" to="1/banka" with="ARG0"/>
+<Word name="6/lira" positionX="750" positionY="200"/>
+<Connection from="7/ahzet" to="6/lira" with="ARG1"/>
+<Word name="3/adam" positionX="650" positionY="300"/>
+<Connection from="6/lira" to="3/adam" with="mod"/>
+<Word name="5/bin" positionX="750" positionY="300"/>
+<Connection from="6/lira" to="5/bin"/>
+<Word name="4/otuz" positionX="650" positionY="400"/>
+<Connection from="5/bin" to="4/otuz"/>
+</Amr>

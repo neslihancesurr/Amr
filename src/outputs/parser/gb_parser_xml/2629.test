@@ -1,0 +1,11 @@
+<Amr sentence="Biraz sonra da yiyeceğim .">
+<Word name="4/ye" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/ye" to="ben" with="ARG0"/>
+<Word name="2/sonra" positionX="750" positionY="200"/>
+<Connection from="4/ye" to="2/sonra" with="manner"/>
+<Word name="1/biraz" positionX="650" positionY="300"/>
+<Connection from="2/sonra" to="1/biraz" with="manner"/>
+<Word name="3/da" positionX="750" positionY="300"/>
+<Connection from="2/sonra" to="3/da"/>
+</Amr>

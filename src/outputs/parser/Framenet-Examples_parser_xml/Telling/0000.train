@@ -1,0 +1,13 @@
+<Amr sentence="Ailesi kaybettikleri dedelerinin ardından ağıt yaktı .">
+<Word name="5/ağıt 6/yak" positionX="750" positionY="100"/>
+<Word name="1/aile" positionX="650" positionY="200"/>
+<Connection from="5/ağıt 6/yak" to="1/aile" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/aile" to="o" with="poss"/>
+<Word name="4/art" positionX="750" positionY="200"/>
+<Connection from="5/ağıt 6/yak" to="4/art" with="ARG1"/>
+<Word name="3/dede" positionX="650" positionY="300"/>
+<Connection from="4/art" to="3/dede" with="mod"/>
+<Word name="2/kaybet" positionX="550" positionY="400"/>
+<Connection from="3/dede" to="2/kaybet" with="mod"/>
+</Amr>

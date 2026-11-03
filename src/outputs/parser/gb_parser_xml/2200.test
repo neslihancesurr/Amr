@@ -1,0 +1,9 @@
+<Amr sentence="başında şapka olan kız">
+<Word name="4/kız" positionX="750" positionY="100"/>
+<Word name="3/ol" positionX="650" positionY="200"/>
+<Connection from="4/kız" to="3/ol"/>
+<Word name="1/baş" positionX="550" positionY="300"/>
+<Connection from="3/ol" to="1/baş" with="location"/>
+<Word name="2/şapka" positionX="650" positionY="300"/>
+<Connection from="3/ol" to="2/şapka"/>
+</Amr>

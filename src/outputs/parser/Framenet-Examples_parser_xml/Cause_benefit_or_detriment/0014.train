@@ -1,0 +1,12 @@
+<Amr sentence="Kızını kötü planlarına alet etti .">
+<Word name="4/alet 5/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/alet 5/et" to="o" with="ARG0"/>
+<Word name="1/kız" positionX="750" positionY="200"/>
+<Connection from="4/alet 5/et" to="1/kız" with="ARG1"/>
+<Connection from="1/kız" to="o" with="poss"/>
+<Word name="3/plan" positionX="850" positionY="200"/>
+<Connection from="4/alet 5/et" to="3/plan" with="ARG2"/>
+<Word name="2/kötü" positionX="750" positionY="300"/>
+<Connection from="3/plan" to="2/kötü" with="mod"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Okul bitmişti ; payandaları çözmüştüm .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/bit" positionX="650" positionY="200"/>
+<Connection from="and" to="2/bit" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/bit" to="o" with="ARG0"/>
+<Word name="1/okul" positionX="650" positionY="300"/>
+<Connection from="2/bit" to="1/okul" with="ARG1"/>
+<Word name="4/payanda 5/çöz" positionX="750" positionY="200"/>
+<Connection from="and" to="4/payanda 5/çöz" with="op2"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="4/payanda 5/çöz" to="ben" with="ARG0"/>
+</Amr>

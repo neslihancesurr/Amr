@@ -1,0 +1,7 @@
+<Amr sentence="Kral soytarıyı gönderdi .">
+<Word name="3/gönder" positionX="750" positionY="100"/>
+<Word name="1/kral" positionX="650" positionY="200"/>
+<Connection from="3/gönder" to="1/kral" with="ARG0"/>
+<Word name="2/soytarı" positionX="750" positionY="200"/>
+<Connection from="3/gönder" to="2/soytarı" with="ARG1"/>
+</Amr>

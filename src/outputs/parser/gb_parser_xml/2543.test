@@ -1,0 +1,15 @@
+<Amr sentence="Ben şapka giyecek olsaymışım o da giyecekmiş .">
+<Word name="7/giy" positionX="750" positionY="100"/>
+<Word name="4/ol" positionX="650" positionY="200"/>
+<Connection from="7/giy" to="4/ol"/>
+<Word name="3/giy" positionX="550" positionY="300"/>
+<Connection from="4/ol" to="3/giy"/>
+<Word name="1/ben" positionX="450" positionY="400"/>
+<Connection from="3/giy" to="1/ben"/>
+<Word name="2/şapka" positionX="550" positionY="400"/>
+<Connection from="3/giy" to="2/şapka"/>
+<Word name="5/o" positionX="750" positionY="200"/>
+<Connection from="7/giy" to="5/o"/>
+<Word name="6/da" positionX="650" positionY="300"/>
+<Connection from="5/o" to="6/da"/>
+</Amr>

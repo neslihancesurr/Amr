@@ -1,0 +1,11 @@
+<Amr sentence="Kızı okuldan aldılar .">
+<Word name="3/al" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="3/al" to="onlar" with="ARG0"/>
+<Word name="1/kız" positionX="750" positionY="200"/>
+<Connection from="3/al" to="1/kız" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="1/kız" to="o" with="poss"/>
+<Word name="2/okul" positionX="850" positionY="200"/>
+<Connection from="3/al" to="2/okul" with="ARG2"/>
+</Amr>

@@ -1,0 +1,34 @@
+<Amr sentence="Gerek İngiliz takımı , gerekse Fransızlar , bu Dünya Kupası yarışmasına iddialı giriyorlar .">
+<Word name="13/gir" positionX="750" positionY="100"/>
+<Word name="and" positionX="650" positionY="200"/>
+<Connection from="13/gir" to="and"/>
+<Word name="6/fransız" positionX="550" positionY="300"/>
+<Connection from="and" to="6/fransız" with="ARG0"/>
+<Word name="5/gerekse" positionX="450" positionY="400"/>
+<Connection from="6/fransız" to="5/gerekse"/>
+<Word name="3/takım" positionX="650" positionY="300"/>
+<Connection from="and" to="3/takım" with="ARG0"/>
+<Word name="1/gerek" positionX="550" positionY="400"/>
+<Connection from="3/takım" to="1/gerek"/>
+<Word name="person" positionX="650" positionY="400"/>
+<Connection from="3/takım" to="person"/>
+<Word name="name" positionX="550" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/ingiliz" positionX="450" positionY="600"/>
+<Connection from="name" to="2/ingiliz" with="op1"/>
+<Word name="-" positionX="650" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="11/yarışma" positionX="750" positionY="200"/>
+<Connection from="13/gir" to="11/yarışma" with="ARG1"/>
+<Word name="8/bu" positionX="650" positionY="300"/>
+<Connection from="11/yarışma" to="8/bu" with="mod"/>
+<Word name="10/kupa" positionX="750" positionY="300"/>
+<Connection from="11/yarışma" to="10/kupa" with="mod"/>
+<Connection from="10/kupa" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="9/dünya" positionX="450" positionY="600"/>
+<Connection from="name" to="9/dünya" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="12/iddialı" positionX="850" positionY="200"/>
+<Connection from="13/gir" to="12/iddialı" with="manner"/>
+</Amr>

@@ -1,0 +1,14 @@
+<Amr sentence="Adam gitmesi gerektiğini söyledi .">
+<Word name="4/söyle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/söyle" to="o" with="ARG0"/>
+<Word name="1/adam" positionX="750" positionY="200"/>
+<Connection from="4/söyle" to="1/adam" with="ARG1"/>
+<Word name="3/gerek" positionX="850" positionY="200"/>
+<Connection from="4/söyle" to="3/gerek" with="ARG1"/>
+<Connection from="3/gerek" to="o" with="poss"/>
+<Word name="2/git" positionX="850" positionY="300"/>
+<Connection from="3/gerek" to="2/git" with="ARG0"/>
+<Connection from="2/git" to="o" with="ARG0"/>
+<Connection from="2/git" to="o" with="poss"/>
+</Amr>

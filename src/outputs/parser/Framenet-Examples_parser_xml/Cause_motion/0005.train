@@ -1,0 +1,9 @@
+<Amr sentence="Gemiyi limana apıştırdılar .">
+<Word name="3/apıştır" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="3/apıştır" to="onlar" with="ARG0"/>
+<Word name="1/gemi" positionX="750" positionY="200"/>
+<Connection from="3/apıştır" to="1/gemi" with="ARG1"/>
+<Word name="2/liman" positionX="850" positionY="200"/>
+<Connection from="3/apıştır" to="2/liman"/>
+</Amr>

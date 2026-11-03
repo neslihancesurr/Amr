@@ -1,0 +1,7 @@
+<Amr sentence="Demet beş yüz milyonluk bir fotoğraf makinesi almış .">
+<Word name="8/al" positionX="750" positionY="100"/>
+<Word name="1/demet" positionX="650" positionY="200"/>
+<Connection from="8/al" to="1/demet" with="ARG0"/>
+<Word name="6/fotoğraf 7/makine" positionX="750" positionY="200"/>
+<Connection from="8/al" to="6/fotoğraf 7/makine" with="ARG1"/>
+</Amr>

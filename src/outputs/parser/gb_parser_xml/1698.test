@@ -1,0 +1,14 @@
+<Amr sentence="Toplantıya katılamayacağımı söyledim .">
+<Word name="3/söyle" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/söyle" to="ben" with="ARG0"/>
+<Word name="mümkün" positionX="750" positionY="200"/>
+<Connection from="3/söyle" to="mümkün"/>
+<Word name="2/katıl" positionX="650" positionY="300"/>
+<Connection from="mümkün" to="2/katıl"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="2/katıl" to="-" with="polarity"/>
+<Connection from="2/katıl" to="ben" with="ARG0"/>
+<Word name="1/toplantı" positionX="750" positionY="400"/>
+<Connection from="2/katıl" to="1/toplantı" with="ARG1"/>
+</Amr>

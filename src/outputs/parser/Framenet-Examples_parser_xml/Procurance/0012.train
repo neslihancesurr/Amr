@@ -1,0 +1,18 @@
+<Amr sentence="İş arkadaşımın iyiliğini unutmayacağım , sayesinde sayeban oldum .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/unut" positionX="650" positionY="200"/>
+<Connection from="and" to="4/unut" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="4/unut" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="4/unut" to="ben" with="ARG0"/>
+<Word name="3/iyilik" positionX="750" positionY="300"/>
+<Connection from="4/unut" to="3/iyilik" with="ARG1"/>
+<Word name="2/arkadaş" positionX="650" positionY="400"/>
+<Connection from="3/iyilik" to="2/arkadaş" with="mod"/>
+<Word name="1/iş" positionX="550" positionY="500"/>
+<Connection from="2/arkadaş" to="1/iş" with="mod"/>
+<Word name="6/sayesinde 7/sayeban 8/ol" positionX="750" positionY="200"/>
+<Connection from="and" to="6/sayesinde 7/sayeban 8/ol" with="op2"/>
+<Connection from="6/sayesinde 7/sayeban 8/ol" to="ben" with="ARG0"/>
+</Amr>

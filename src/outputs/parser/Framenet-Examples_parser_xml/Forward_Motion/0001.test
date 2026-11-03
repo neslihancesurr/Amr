@@ -1,0 +1,18 @@
+<Amr sentence="Norveçli koşucu rakiplerinden hızla kaçtı ve arayı açtı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="7/ara 8/aç" positionX="650" positionY="200"/>
+<Connection from="and" to="7/ara 8/aç" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="7/ara 8/aç" to="o" with="ARG0"/>
+<Word name="5/kaç" positionX="750" positionY="200"/>
+<Connection from="and" to="5/kaç" with="op2"/>
+<Word name="2/koşucu" positionX="650" positionY="300"/>
+<Connection from="5/kaç" to="2/koşucu" with="ARG0"/>
+<Word name="1/norveçli" positionX="550" positionY="400"/>
+<Connection from="2/koşucu" to="1/norveçli" with="mod"/>
+<Word name="3/rakip" positionX="750" positionY="300"/>
+<Connection from="5/kaç" to="3/rakip"/>
+<Connection from="3/rakip" to="o" with="poss"/>
+<Word name="4/hızla" positionX="850" positionY="300"/>
+<Connection from="5/kaç" to="4/hızla" with="manner"/>
+</Amr>

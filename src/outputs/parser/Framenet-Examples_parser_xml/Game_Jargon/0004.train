@@ -1,0 +1,17 @@
+<Amr sentence="Kazanmaya kararlıydı , partnerine bir şekilde elini belli edecekti .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/kararlı" positionX="650" positionY="200"/>
+<Connection from="and" to="2/kararlı" with="op1"/>
+<Word name="1/kazan" positionX="550" positionY="300"/>
+<Connection from="2/kararlı" to="1/kazan"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="1/kazan" to="o" with="ARG0"/>
+<Word name="7/el 8/belli 9/et" positionX="750" positionY="200"/>
+<Connection from="and" to="7/el 8/belli 9/et" with="op2"/>
+<Connection from="7/el 8/belli 9/et" to="o" with="ARG0"/>
+<Word name="4/partner" positionX="750" positionY="300"/>
+<Connection from="7/el 8/belli 9/et" to="4/partner"/>
+<Connection from="4/partner" to="o" with="poss"/>
+<Word name="6/şekil" positionX="850" positionY="300"/>
+<Connection from="7/el 8/belli 9/et" to="6/şekil" with="mod"/>
+</Amr>

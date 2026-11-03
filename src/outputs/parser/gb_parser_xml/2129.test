@@ -1,0 +1,28 @@
+<Amr sentence="Türkiye'ye ikinci ve üçüncü gidişlerimiz 1982'de oldu .">
+<Word name="6/1982" positionX="750" positionY="100"/>
+<Word name="5/git" positionX="650" positionY="200"/>
+<Connection from="6/1982" to="5/git"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="5/git" to="biz" with="ARG0"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="5/git" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/türkiye" positionX="450" positionY="500"/>
+<Connection from="name" to="1/türkiye" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="and" positionX="750" positionY="300"/>
+<Connection from="5/git" to="and"/>
+<Word name="ordinal-entity" positionX="650" positionY="400"/>
+<Connection from="and" to="ordinal-entity" with="ord"/>
+<Word name="3" positionX="550" positionY="500"/>
+<Connection from="ordinal-entity" to="3" with="value"/>
+<Connection from="and" to="ordinal-entity" with="ord"/>
+<Word name="2" positionX="650" positionY="500"/>
+<Connection from="ordinal-entity" to="2" with="value"/>
+<Word name="7/ol" positionX="750" positionY="200"/>
+<Connection from="6/1982" to="7/ol"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="7/ol" to="o" with="ARG0"/>
+</Amr>

@@ -1,0 +1,20 @@
+<Amr sentence="Oraya bir daha gitmeyeceksin , anladın mı ?">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/git" positionX="650" positionY="200"/>
+<Connection from="and" to="4/git" with="ARG1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="4/git" to="-" with="polarity"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="4/git" to="sen" with="ARG0"/>
+<Word name="1/ora" positionX="750" positionY="300"/>
+<Connection from="4/git" to="1/ora" with="ARG1"/>
+<Word name="2/bir" positionX="850" positionY="300"/>
+<Connection from="4/git" to="2/bir" with="manner"/>
+<Word name="3/daha" positionX="750" positionY="400"/>
+<Connection from="2/bir" to="3/daha" with="degree"/>
+<Word name="6/anla" positionX="750" positionY="200"/>
+<Connection from="and" to="6/anla" with="op2"/>
+<Connection from="6/anla" to="sen" with="ARG0"/>
+<Word name="7/mi" positionX="750" positionY="300"/>
+<Connection from="6/anla" to="7/mi"/>
+</Amr>

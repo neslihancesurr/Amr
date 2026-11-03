@@ -1,0 +1,7 @@
+<Amr sentence="Devlet çiftçileri sübvanse ediyor .">
+<Word name="3/sübvanse 4/et" positionX="750" positionY="100"/>
+<Word name="1/devlet" positionX="650" positionY="200"/>
+<Connection from="3/sübvanse 4/et" to="1/devlet" with="ARG0"/>
+<Word name="2/çiftçi" positionX="750" positionY="200"/>
+<Connection from="3/sübvanse 4/et" to="2/çiftçi" with="ARG1"/>
+</Amr>

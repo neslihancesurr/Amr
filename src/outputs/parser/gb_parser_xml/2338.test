@@ -1,0 +1,27 @@
+<Amr sentence="Dayımın çocukları , ki biz onlarla her yaz buluşurduk , çok güzel tenis oynuyorlardı .">
+<Word name="14/oyna" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="14/oyna" to="onlar" with="ARG0"/>
+<Word name="2/çocuk" positionX="750" positionY="200"/>
+<Connection from="14/oyna" to="2/çocuk"/>
+<Word name="1/dayı" positionX="650" positionY="300"/>
+<Connection from="2/çocuk" to="1/dayı" with="mod"/>
+<Word name="9/buluş" positionX="750" positionY="300"/>
+<Connection from="2/çocuk" to="9/buluş"/>
+<Word name="4/ki" positionX="650" positionY="400"/>
+<Connection from="9/buluş" to="4/ki"/>
+<Word name="5/biz" positionX="750" positionY="400"/>
+<Connection from="9/buluş" to="5/biz"/>
+<Word name="6/o" positionX="850" positionY="400"/>
+<Connection from="9/buluş" to="6/o" with="instrument"/>
+<Word name="8/yaz" positionX="950" positionY="400"/>
+<Connection from="9/buluş" to="8/yaz"/>
+<Word name="7/her" positionX="850" positionY="500"/>
+<Connection from="8/yaz" to="7/her" with="mod"/>
+<Word name="12/güzel" positionX="850" positionY="200"/>
+<Connection from="14/oyna" to="12/güzel" with="manner"/>
+<Word name="11/çok" positionX="750" positionY="300"/>
+<Connection from="12/güzel" to="11/çok" with="degree"/>
+<Word name="13/tenis" positionX="950" positionY="200"/>
+<Connection from="14/oyna" to="13/tenis"/>
+</Amr>

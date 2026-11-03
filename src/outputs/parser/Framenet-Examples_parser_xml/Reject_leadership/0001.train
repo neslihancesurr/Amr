@@ -1,0 +1,7 @@
+<Amr sentence="İşçiler , fabrikada kazan kaldırdı .">
+<Word name="4/kazan 5/kaldır" positionX="750" positionY="100"/>
+<Word name="1/işçi" positionX="650" positionY="200"/>
+<Connection from="4/kazan 5/kaldır" to="1/işçi" with="ARG0"/>
+<Word name="3/fabrika" positionX="750" positionY="200"/>
+<Connection from="4/kazan 5/kaldır" to="3/fabrika" with="location"/>
+</Amr>

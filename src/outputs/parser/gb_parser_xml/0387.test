@@ -1,0 +1,9 @@
+<Amr sentence="Yavaş yürü .">
+<Word name="2/yürü" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="2/yürü" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="2/yürü" to="imperative" with="mode"/>
+<Word name="1/yavaş" positionX="850" positionY="200"/>
+<Connection from="2/yürü" to="1/yavaş" with="manner"/>
+</Amr>

@@ -1,0 +1,14 @@
+<Amr sentence="Çocuğun bütün sırlarını ailesine ifşa etti .">
+<Word name="5/ifşa 6/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/ifşa 6/et" to="o" with="ARG0"/>
+<Word name="3/sır" positionX="750" positionY="200"/>
+<Connection from="5/ifşa 6/et" to="3/sır" with="ARG1"/>
+<Word name="1/çocuk" positionX="650" positionY="300"/>
+<Connection from="3/sır" to="1/çocuk" with="mod"/>
+<Word name="2/bütün" positionX="750" positionY="300"/>
+<Connection from="3/sır" to="2/bütün" with="mod"/>
+<Word name="4/aile" positionX="850" positionY="200"/>
+<Connection from="5/ifşa 6/et" to="4/aile"/>
+<Connection from="4/aile" to="o" with="poss"/>
+</Amr>

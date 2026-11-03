@@ -1,0 +1,21 @@
+<Amr sentence="Darvin , nevilerin değişebilme kabiliyetlerinin sebeplerini tetkik etmiştir .">
+<Word name="7/tetkik 8/et" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="7/tetkik 8/et" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/Darvin" positionX="450" positionY="400"/>
+<Connection from="name" to="1/Darvin" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="6/sebep" positionX="750" positionY="200"/>
+<Connection from="7/tetkik 8/et" to="6/sebep" with="ARG1"/>
+<Word name="5/kabiliyet" positionX="650" positionY="300"/>
+<Connection from="6/sebep" to="5/kabiliyet" with="mod"/>
+<Word name="mümkün" positionX="550" positionY="400"/>
+<Connection from="5/kabiliyet" to="mümkün"/>
+<Word name="4/değiş" positionX="450" positionY="500"/>
+<Connection from="mümkün" to="4/değiş" with="mod"/>
+<Word name="3/nevi" positionX="350" positionY="600"/>
+<Connection from="4/değiş" to="3/nevi" with="mod"/>
+</Amr>

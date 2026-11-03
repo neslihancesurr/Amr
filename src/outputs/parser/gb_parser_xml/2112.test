@@ -1,0 +1,9 @@
+<Amr sentence="Senin ablanın yanında olduğunu sanıyordum .">
+<Word name="5/san" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/san" to="ben" with="ARG0"/>
+<Word name="3/yan 4/ol" positionX="750" positionY="200"/>
+<Connection from="5/san" to="3/yan 4/ol"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="3/yan 4/ol" to="sen" with="ARG0"/>
+</Amr>

@@ -1,0 +1,22 @@
+<Amr sentence="benim İstanbul'da oturduğunu sandığım kız">
+<Word name="5/kız" positionX="750" positionY="100"/>
+<Word name="4/san" positionX="650" positionY="200"/>
+<Connection from="5/kız" to="4/san"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="4/san" to="ben" with="poss"/>
+<Word name="1/ben" positionX="650" positionY="300"/>
+<Connection from="4/san" to="1/ben"/>
+<Word name="3/otur" positionX="750" positionY="300"/>
+<Connection from="4/san" to="3/otur"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="3/otur" to="o" with="ARG0"/>
+<Connection from="3/otur" to="o" with="poss"/>
+<Word name="city" positionX="850" positionY="400"/>
+<Connection from="3/otur" to="city" with="location"/>
+<Word name="name" positionX="750" positionY="500"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="2/istanbul" positionX="650" positionY="600"/>
+<Connection from="name" to="2/istanbul" with="op1"/>
+<Word name="istanbul" positionX="850" positionY="500"/>
+<Connection from="city" to="istanbul" with="wiki"/>
+</Amr>

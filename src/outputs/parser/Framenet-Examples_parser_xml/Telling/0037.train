@@ -1,0 +1,12 @@
+<Amr sentence="Hislerini kelimelere dökemiyordu .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="2/kelime 3/dök" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="2/kelime 3/dök"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="2/kelime 3/dök" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/kelime 3/dök" to="o" with="ARG0"/>
+<Word name="1/his" positionX="750" positionY="300"/>
+<Connection from="2/kelime 3/dök" to="1/his" with="ARG1"/>
+<Connection from="1/his" to="o" with="poss"/>
+</Amr>

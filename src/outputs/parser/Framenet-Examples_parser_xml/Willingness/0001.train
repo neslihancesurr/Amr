@@ -1,0 +1,17 @@
+<Amr sentence="Kanuni hakkımı bile kullanmaya tenezzül etmiyorum .">
+<Word name="5/tenezzül 6/et" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/tenezzül 6/et" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="5/tenezzül 6/et" to="ben" with="ARG0"/>
+<Word name="4/kullan" positionX="850" positionY="200"/>
+<Connection from="5/tenezzül 6/et" to="4/kullan" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="4/kullan" to="o" with="ARG0"/>
+<Word name="2/hakkımı" positionX="850" positionY="300"/>
+<Connection from="4/kullan" to="2/hakkımı" with="ARG1"/>
+<Word name="1/kanuni" positionX="750" positionY="400"/>
+<Connection from="2/hakkımı" to="1/kanuni" with="mod"/>
+<Word name="3/bile" positionX="850" positionY="400"/>
+<Connection from="2/hakkımı" to="3/bile"/>
+</Amr>

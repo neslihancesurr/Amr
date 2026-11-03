@@ -1,0 +1,11 @@
+<Amr sentence="Yetkililer konu hakkında açıklama yapmadı .">
+<Word name="4/açıkla 5/yap" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/açıkla 5/yap" to="-" with="polarity"/>
+<Word name="1/yetki" positionX="750" positionY="200"/>
+<Connection from="4/açıkla 5/yap" to="1/yetki" with="ARG0"/>
+<Word name="3/hakkında" positionX="850" positionY="200"/>
+<Connection from="4/açıkla 5/yap" to="3/hakkında" with="ARG2"/>
+<Word name="2/konu" positionX="750" positionY="300"/>
+<Connection from="3/hakkında" to="2/konu" with="mod"/>
+</Amr>

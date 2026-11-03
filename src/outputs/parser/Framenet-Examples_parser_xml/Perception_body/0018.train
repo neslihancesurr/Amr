@@ -1,0 +1,16 @@
+<Amr sentence="Kafa kemiklerine varıncaya kadar her yanı sızlıyordu .">
+<Word name="7/sızla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/sızla" to="o" with="ARG0"/>
+<Word name="3/var 4/kadar" positionX="750" positionY="200"/>
+<Connection from="7/sızla" to="3/var 4/kadar" with="extent"/>
+<Word name="2/kemik" positionX="650" positionY="300"/>
+<Connection from="3/var 4/kadar" to="2/kemik"/>
+<Word name="1/kafa" positionX="550" positionY="400"/>
+<Connection from="2/kemik" to="1/kafa" with="mod"/>
+<Word name="6/yan" positionX="850" positionY="200"/>
+<Connection from="7/sızla" to="6/yan" with="ARG1"/>
+<Connection from="6/yan" to="o" with="poss"/>
+<Word name="5/her" positionX="850" positionY="300"/>
+<Connection from="6/yan" to="5/her" with="mod"/>
+</Amr>

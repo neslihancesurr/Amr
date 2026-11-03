@@ -1,0 +1,23 @@
+<Amr sentence="Ayşe senin arkadaşlarınla ne kadar rahat konuşuyordu .">
+<Word name="7/konuş" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="7/konuş" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ayşe" positionX="450" positionY="400"/>
+<Connection from="name" to="1/ayşe" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/arkadaş" positionX="750" positionY="200"/>
+<Connection from="7/konuş" to="3/arkadaş" with="ARG1"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="3/arkadaş" to="sen" with="poss"/>
+<Word name="2/sen" positionX="750" positionY="300"/>
+<Connection from="3/arkadaş" to="2/sen" with="mod"/>
+<Word name="6/rahat" positionX="850" positionY="200"/>
+<Connection from="7/konuş" to="6/rahat" with="mod"/>
+<Word name="4/ne" positionX="750" positionY="300"/>
+<Connection from="6/rahat" to="4/ne" with="mod"/>
+<Word name="5/kadar" positionX="650" positionY="400"/>
+<Connection from="4/ne" to="5/kadar"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Böyle davranarak çocuğun canını yakıyorsun .">
+<Word name="4/can 5/yak" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="4/can 5/yak" to="sen" with="ARG0"/>
+<Word name="2/davran" positionX="750" positionY="200"/>
+<Connection from="4/can 5/yak" to="2/davran"/>
+<Word name="1/böyle" positionX="650" positionY="300"/>
+<Connection from="2/davran" to="1/böyle" with="ARG1"/>
+</Amr>

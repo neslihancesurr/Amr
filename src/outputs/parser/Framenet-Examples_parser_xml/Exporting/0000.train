@@ -1,0 +1,17 @@
+<Amr sentence="Ülkemiz kayda değer hiçbir şey ihraç etmiyor .">
+<Word name="6/ihraç 7/et" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="6/ihraç 7/et" to="-" with="polarity"/>
+<Word name="1/ülke" positionX="750" positionY="200"/>
+<Connection from="6/ihraç 7/et" to="1/ülke" with="ARG0"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="1/ülke" to="biz" with="poss"/>
+<Word name="5/şey" positionX="850" positionY="200"/>
+<Connection from="6/ihraç 7/et" to="5/şey" with="ARG1"/>
+<Word name="3/değer" positionX="750" positionY="300"/>
+<Connection from="5/şey" to="3/değer" with="mod"/>
+<Word name="2/kayıt" positionX="650" positionY="400"/>
+<Connection from="3/değer" to="2/kayıt"/>
+<Word name="4/hiçbir" positionX="850" positionY="300"/>
+<Connection from="5/şey" to="4/hiçbir" with="mod"/>
+</Amr>

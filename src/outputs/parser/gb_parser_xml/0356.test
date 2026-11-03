@@ -1,0 +1,15 @@
+<Amr sentence="Erol duvarları yanlışlıkla boyamış .">
+<Word name="4/boya" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="4/boya" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/erol" positionX="450" positionY="400"/>
+<Connection from="name" to="1/erol" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/duvar" positionX="750" positionY="200"/>
+<Connection from="4/boya" to="2/duvar" with="ARG1"/>
+<Word name="3/yanlışlıkla" positionX="850" positionY="200"/>
+<Connection from="4/boya" to="3/yanlışlıkla" with="manner"/>
+</Amr>

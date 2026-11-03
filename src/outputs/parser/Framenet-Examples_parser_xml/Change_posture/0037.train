@@ -1,0 +1,12 @@
+<Amr sentence="Duvara yaslanarak gücünü topladı .">
+<Word name="4/topla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/topla" to="o" with="ARG0"/>
+<Word name="2/yaslan" positionX="750" positionY="200"/>
+<Connection from="4/topla" to="2/yaslan"/>
+<Word name="1/duvar" positionX="650" positionY="300"/>
+<Connection from="2/yaslan" to="1/duvar" with="ARG1"/>
+<Word name="3/güç" positionX="850" positionY="200"/>
+<Connection from="4/topla" to="3/güç"/>
+<Connection from="3/güç" to="o" with="poss"/>
+</Amr>

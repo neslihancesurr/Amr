@@ -1,0 +1,13 @@
+<Amr sentence="Üstün bilgisi ile bu tartışmaya nokta koydu .">
+<Word name="6/nokta 7/koy" positionX="750" positionY="100"/>
+<Word name="2/bilgi" positionX="650" positionY="200"/>
+<Connection from="6/nokta 7/koy" to="2/bilgi" with="ARG0"/>
+<Word name="1/üstün" positionX="550" positionY="300"/>
+<Connection from="2/bilgi" to="1/üstün" with="mod"/>
+<Word name="3/ile" positionX="650" positionY="300"/>
+<Connection from="2/bilgi" to="3/ile"/>
+<Word name="5/tartışma" positionX="750" positionY="200"/>
+<Connection from="6/nokta 7/koy" to="5/tartışma" with="ARG1"/>
+<Word name="4/bu" positionX="650" positionY="300"/>
+<Connection from="5/tartışma" to="4/bu" with="mod"/>
+</Amr>

@@ -1,0 +1,19 @@
+<Amr sentence="Anne babaları arasındaki bu gerginlik , çocuklar için zor tabii .">
+<Word name="9/zor" positionX="750" positionY="100"/>
+<Word name="5/gerginlik" positionX="650" positionY="200"/>
+<Connection from="9/zor" to="5/gerginlik"/>
+<Word name="3/ara" positionX="550" positionY="300"/>
+<Connection from="5/gerginlik" to="3/ara" with="mod"/>
+<Word name="1/anne" positionX="450" positionY="400"/>
+<Connection from="3/ara" to="1/anne" with="mod"/>
+<Word name="2/baba" positionX="350" positionY="500"/>
+<Connection from="1/anne" to="2/baba"/>
+<Word name="onlar" positionX="250" positionY="600"/>
+<Connection from="2/baba" to="onlar" with="poss"/>
+<Word name="4/bu" positionX="650" positionY="300"/>
+<Connection from="5/gerginlik" to="4/bu" with="mod"/>
+<Word name="7/çocuk" positionX="750" positionY="200"/>
+<Connection from="9/zor" to="7/çocuk" with="cause"/>
+<Word name="10/tabii" positionX="850" positionY="200"/>
+<Connection from="9/zor" to="10/tabii" with="manner"/>
+</Amr>

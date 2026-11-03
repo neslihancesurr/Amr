@@ -1,0 +1,11 @@
+<Amr sentence="Gençler çok geçmeden durumu çakozladılar .">
+<Word name="5/çakozla" positionX="750" positionY="100"/>
+<Word name="1/genç" positionX="650" positionY="200"/>
+<Connection from="5/çakozla" to="1/genç" with="ARG0"/>
+<Word name="3/geç" positionX="750" positionY="200"/>
+<Connection from="5/çakozla" to="3/geç"/>
+<Word name="2/çok" positionX="650" positionY="300"/>
+<Connection from="3/geç" to="2/çok" with="degree"/>
+<Word name="4/durum" positionX="850" positionY="200"/>
+<Connection from="5/çakozla" to="4/durum" with="ARG1"/>
+</Amr>

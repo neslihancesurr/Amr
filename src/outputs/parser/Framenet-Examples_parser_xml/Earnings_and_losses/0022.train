@@ -1,0 +1,5 @@
+<Amr sentence="Arda'nın varı yoğu kazındı .">
+<Word name="4/kazın" positionX="750" positionY="100"/>
+<Word name="2/var 3/yoğ" positionX="650" positionY="200"/>
+<Connection from="4/kazın" to="2/var 3/yoğ" with="ARG0"/>
+</Amr>

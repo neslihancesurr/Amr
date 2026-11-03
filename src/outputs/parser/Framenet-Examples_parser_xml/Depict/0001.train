@@ -1,0 +1,5 @@
+<Amr sentence="Polisler sanığın robot resmini çizdi .">
+<Word name="3/robot 4/resim 5/çiz" positionX="750" positionY="100"/>
+<Word name="1/polis" positionX="650" positionY="200"/>
+<Connection from="3/robot 4/resim 5/çiz" to="1/polis" with="ARG0"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Yemekleri ısıtıyorum , birazdan hazır olur .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/ısıt" positionX="650" positionY="200"/>
+<Connection from="and" to="2/ısıt" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="2/ısıt" to="ben" with="ARG0"/>
+<Word name="1/yemek" positionX="650" positionY="300"/>
+<Connection from="2/ısıt" to="1/yemek" with="ARG1"/>
+<Word name="5/hazır 6/ol" positionX="750" positionY="200"/>
+<Connection from="and" to="5/hazır 6/ol" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/hazır 6/ol" to="o" with="ARG0"/>
+<Word name="4/birazdan" positionX="750" positionY="300"/>
+<Connection from="5/hazır 6/ol" to="4/birazdan" with="manner"/>
+</Amr>

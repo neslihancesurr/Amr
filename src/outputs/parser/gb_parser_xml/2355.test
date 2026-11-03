@@ -1,0 +1,18 @@
+<Amr sentence="Kalorifer yaptırdık ki kışın üşümeyelim .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="2/yap" positionX="650" positionY="200"/>
+<Connection from="yap" to="2/yap"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="2/yap" to="biz" with="ARG0"/>
+<Word name="1/kalorifer" positionX="650" positionY="300"/>
+<Connection from="2/yap" to="1/kalorifer"/>
+<Word name="5/üşü" positionX="750" positionY="300"/>
+<Connection from="2/yap" to="5/üşü"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="5/üşü" to="-" with="polarity"/>
+<Connection from="5/üşü" to="biz" with="ARG0"/>
+<Word name="3/ki" positionX="850" positionY="400"/>
+<Connection from="5/üşü" to="3/ki"/>
+<Word name="4/kışın" positionX="950" positionY="400"/>
+<Connection from="5/üşü" to="4/kışın" with="manner"/>
+</Amr>

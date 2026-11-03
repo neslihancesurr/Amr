@@ -1,0 +1,13 @@
+<Amr sentence="Salona girdiğimde kumandayı kurcalıyordu .">
+<Word name="4/kurcala" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/kurcala" to="o" with="ARG0"/>
+<Word name="2/gir" positionX="750" positionY="200"/>
+<Connection from="4/kurcala" to="2/gir"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="2/gir" to="ben" with="ARG0"/>
+<Word name="1/salon" positionX="750" positionY="300"/>
+<Connection from="2/gir" to="1/salon" with="ARG1"/>
+<Word name="3/kumanda" positionX="850" positionY="200"/>
+<Connection from="4/kurcala" to="3/kumanda" with="ARG1"/>
+</Amr>

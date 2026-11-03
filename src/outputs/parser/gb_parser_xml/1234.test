@@ -1,0 +1,11 @@
+<Amr sentence="Sen de çok güzel şarkı söylersin .">
+<Word name="5/şarkı 6/söyle" positionX="750" positionY="100"/>
+<Word name="1/sen" positionX="650" positionY="200"/>
+<Connection from="5/şarkı 6/söyle" to="1/sen" with="ARG0"/>
+<Word name="2/de" positionX="550" positionY="300"/>
+<Connection from="1/sen" to="2/de"/>
+<Word name="4/güzel" positionX="750" positionY="200"/>
+<Connection from="5/şarkı 6/söyle" to="4/güzel" with="manner"/>
+<Word name="3/çok" positionX="650" positionY="300"/>
+<Connection from="4/güzel" to="3/çok" with="degree"/>
+</Amr>

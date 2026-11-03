@@ -1,0 +1,14 @@
+<Amr sentence="Annemle babam üniversitede tanışmış .">
+<Word name="4/tanış" positionX="750" positionY="100"/>
+<Word name="and" positionX="650" positionY="200"/>
+<Connection from="4/tanış" to="and"/>
+<Word name="2/baba" positionX="550" positionY="300"/>
+<Connection from="and" to="2/baba" with="ARG0"/>
+<Word name="ben" positionX="450" positionY="400"/>
+<Connection from="2/baba" to="ben" with="poss"/>
+<Word name="1/anne" positionX="650" positionY="300"/>
+<Connection from="and" to="1/anne" with="ARG0"/>
+<Connection from="1/anne" to="ben" with="poss"/>
+<Word name="3/üniversite" positionX="750" positionY="200"/>
+<Connection from="4/tanış" to="3/üniversite" with="location"/>
+</Amr>

@@ -1,0 +1,29 @@
+<Amr sentence="Bodrum'da tanıştığımız bir çift , ki onlar öğretmenmiş , bizi ziyarete gelecekler .">
+<Word name="11/ziyaret" positionX="750" positionY="100"/>
+<Word name="4/çift" positionX="650" positionY="200"/>
+<Connection from="11/ziyaret" to="4/çift"/>
+<Word name="2/tanış" positionX="550" positionY="300"/>
+<Connection from="4/çift" to="2/tanış"/>
+<Word name="biz" positionX="450" positionY="400"/>
+<Connection from="2/tanış" to="biz" with="poss"/>
+<Word name="person" positionX="550" positionY="400"/>
+<Connection from="2/tanış" to="person" with="location"/>
+<Word name="name" positionX="450" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/bodrum" positionX="350" positionY="600"/>
+<Connection from="name" to="1/bodrum" with="op1"/>
+<Word name="-" positionX="550" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="8/öğretmen" positionX="650" positionY="300"/>
+<Connection from="4/çift" to="8/öğretmen"/>
+<Word name="6/ki" positionX="550" positionY="400"/>
+<Connection from="8/öğretmen" to="6/ki"/>
+<Word name="7/o" positionX="650" positionY="400"/>
+<Connection from="8/öğretmen" to="7/o"/>
+<Word name="10/biz" positionX="750" positionY="200"/>
+<Connection from="11/ziyaret" to="10/biz"/>
+<Word name="12/gel" positionX="850" positionY="200"/>
+<Connection from="11/ziyaret" to="12/gel"/>
+<Word name="onlar" positionX="750" positionY="300"/>
+<Connection from="12/gel" to="onlar" with="ARG0"/>
+</Amr>

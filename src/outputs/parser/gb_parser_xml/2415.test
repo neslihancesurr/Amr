@@ -1,0 +1,24 @@
+<Amr sentence="Bayramda ofis kapalı olacağına göre sen bu işi nasıl bitireceksin ?">
+<Word name="10/bitir" positionX="750" positionY="100"/>
+<Word name="4/ol" positionX="650" positionY="200"/>
+<Connection from="10/bitir" to="4/ol"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/ol" to="o" with="ARG0"/>
+<Connection from="4/ol" to="o" with="poss"/>
+<Word name="1/bayram" positionX="750" positionY="300"/>
+<Connection from="4/ol" to="1/bayram" with="location"/>
+<Word name="2/ofis" positionX="850" positionY="300"/>
+<Connection from="4/ol" to="2/ofis"/>
+<Word name="3/kapalı" positionX="950" positionY="300"/>
+<Connection from="4/ol" to="3/kapalı" with="manner"/>
+<Word name="5/göre" positionX="1050" positionY="300"/>
+<Connection from="4/ol" to="5/göre"/>
+<Word name="6/sen" positionX="750" positionY="200"/>
+<Connection from="10/bitir" to="6/sen"/>
+<Word name="8/iş" positionX="850" positionY="200"/>
+<Connection from="10/bitir" to="8/iş"/>
+<Word name="7/bu" positionX="750" positionY="300"/>
+<Connection from="8/iş" to="7/bu" with="mod"/>
+<Word name="9/nasıl" positionX="950" positionY="200"/>
+<Connection from="10/bitir" to="9/nasıl" with="manner"/>
+</Amr>

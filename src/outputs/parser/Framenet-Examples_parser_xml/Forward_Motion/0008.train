@@ -1,0 +1,15 @@
+<Amr sentence="Pencerede dolaşan gölgelerden bir şeyler sezmeye çalışarak koşuyorum .">
+<Word name="8/koş" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="8/koş" to="ben" with="ARG0"/>
+<Word name="7/çalış" positionX="750" positionY="200"/>
+<Connection from="8/koş" to="7/çalış"/>
+<Word name="6/sezme" positionX="650" positionY="300"/>
+<Connection from="7/çalış" to="6/sezme" with="ARG1"/>
+<Word name="3/gölge" positionX="550" positionY="400"/>
+<Connection from="6/sezme" to="3/gölge"/>
+<Word name="2/dolaş" positionX="450" positionY="500"/>
+<Connection from="3/gölge" to="2/dolaş"/>
+<Word name="1/pencere" positionX="350" positionY="600"/>
+<Connection from="2/dolaş" to="1/pencere" with="ARG1"/>
+</Amr>

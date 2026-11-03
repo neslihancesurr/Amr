@@ -1,0 +1,17 @@
+<Amr sentence="Mutluluk bu dar kalıplarla sınırlanamaz .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="5/sınırla" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="5/sınırla"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="5/sınırla" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/sınırla" to="o" with="ARG0"/>
+<Word name="1/mutluluk" positionX="750" positionY="300"/>
+<Connection from="5/sınırla" to="1/mutluluk" with="ARG1"/>
+<Word name="4/kalıp" positionX="850" positionY="300"/>
+<Connection from="5/sınırla" to="4/kalıp" with="instrument"/>
+<Word name="3/dar" positionX="750" positionY="400"/>
+<Connection from="4/kalıp" to="3/dar" with="mod"/>
+<Word name="2/bu" positionX="650" positionY="500"/>
+<Connection from="3/dar" to="2/bu" with="mod"/>
+</Amr>

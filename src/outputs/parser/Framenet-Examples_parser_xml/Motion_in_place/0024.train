@@ -1,0 +1,23 @@
+<Amr sentence="Hayvanların etleri hala bıngıldamıyor , biraz daha beklemeliyiz .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/bıngılda" positionX="650" positionY="200"/>
+<Connection from="and" to="4/bıngılda" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="4/bıngılda" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="4/bıngılda" to="o" with="ARG0"/>
+<Word name="2/et" positionX="750" positionY="300"/>
+<Connection from="4/bıngılda" to="2/et" with="ARG1"/>
+<Word name="1/hayvan" positionX="650" positionY="400"/>
+<Connection from="2/et" to="1/hayvan" with="mod"/>
+<Word name="3/hala" positionX="850" positionY="300"/>
+<Connection from="4/bıngılda" to="3/hala" with="manner"/>
+<Word name="8/bekle" positionX="750" positionY="200"/>
+<Connection from="and" to="8/bekle" with="op2"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="8/bekle" to="biz" with="ARG0"/>
+<Word name="7/daha" positionX="750" positionY="300"/>
+<Connection from="8/bekle" to="7/daha" with="degree"/>
+<Word name="6/biraz" positionX="650" positionY="400"/>
+<Connection from="7/daha" to="6/biraz" with="manner"/>
+</Amr>

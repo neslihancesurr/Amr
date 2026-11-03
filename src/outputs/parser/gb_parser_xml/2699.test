@@ -1,0 +1,17 @@
+<Amr sentence="Sen git de ben gelmeyeceğim .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/gel" positionX="650" positionY="200"/>
+<Connection from="and" to="5/gel" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="5/gel" to="-" with="polarity"/>
+<Word name="3/de" positionX="650" positionY="300"/>
+<Connection from="5/gel" to="3/de"/>
+<Word name="4/ben" positionX="750" positionY="300"/>
+<Connection from="5/gel" to="4/ben"/>
+<Word name="2/git" positionX="750" positionY="200"/>
+<Connection from="and" to="2/git" with="op2"/>
+<Word name="imperative" positionX="650" positionY="300"/>
+<Connection from="2/git" to="imperative" with="mode"/>
+<Word name="1/sen" positionX="750" positionY="300"/>
+<Connection from="2/git" to="1/sen"/>
+</Amr>

@@ -1,0 +1,7 @@
+<Amr sentence="Dün evde değildik .">
+<Word name="2/ev:location" positionX="750" positionY="100"/>
+<Word name="1/dün" positionX="650" positionY="200"/>
+<Connection from="2/ev:location" to="1/dün"/>
+<Word name="-" positionX="750" positionY="200"/>
+<Connection from="2/ev:location" to="-" with="polarity"/>
+</Amr>

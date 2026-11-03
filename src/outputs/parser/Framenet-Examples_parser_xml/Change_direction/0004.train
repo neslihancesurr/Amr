@@ -1,0 +1,16 @@
+<Amr sentence="Arkadaşı bizi çevirdi ve evine götürdü .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/götür" positionX="650" positionY="200"/>
+<Connection from="and" to="6/götür" with="op1"/>
+<Word name="5/ev" positionX="550" positionY="300"/>
+<Connection from="6/götür" to="5/ev" with="ARG2"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="5/ev" to="o" with="poss"/>
+<Word name="3/çevir" positionX="750" positionY="200"/>
+<Connection from="and" to="3/çevir" with="op2"/>
+<Word name="1/arkadaş" positionX="650" positionY="300"/>
+<Connection from="3/çevir" to="1/arkadaş" with="ARG0"/>
+<Connection from="1/arkadaş" to="o" with="poss"/>
+<Word name="2/biz" positionX="750" positionY="300"/>
+<Connection from="3/çevir" to="2/biz" with="ARG1"/>
+</Amr>

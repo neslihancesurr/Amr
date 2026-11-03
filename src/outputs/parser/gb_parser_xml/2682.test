@@ -1,0 +1,24 @@
+<Amr sentence="Sıcak ama bunaltıcı olmayan bir havası var Ankara'nın .">
+<Word name="7/var" positionX="750" positionY="100"/>
+<Word name="6/hava" positionX="650" positionY="200"/>
+<Connection from="7/var" to="6/hava"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="6/hava" to="o" with="poss"/>
+<Word name="4/ol" positionX="650" positionY="300"/>
+<Connection from="6/hava" to="4/ol"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="4/ol" to="-" with="polarity"/>
+<Word name="and" positionX="650" positionY="400"/>
+<Connection from="4/ol" to="and"/>
+<Word name="3/bunaltıcı" positionX="550" positionY="500"/>
+<Connection from="and" to="3/bunaltıcı" with="manner"/>
+<Word name="1/sıcak" positionX="650" positionY="500"/>
+<Connection from="and" to="1/sıcak" with="manner"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="7/var" to="person"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="8/ankara" positionX="550" positionY="400"/>
+<Connection from="name" to="8/ankara" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Duvarları ne zaman boyayacaklar ?">
+<Word name="4/boya" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/boya" to="onlar" with="ARG0"/>
+<Word name="1/duvar" positionX="750" positionY="200"/>
+<Connection from="4/boya" to="1/duvar" with="ARG1"/>
+<Word name="2/ne" positionX="850" positionY="200"/>
+<Connection from="4/boya" to="2/ne"/>
+<Word name="3/zaman" positionX="750" positionY="300"/>
+<Connection from="2/ne" to="3/zaman"/>
+</Amr>

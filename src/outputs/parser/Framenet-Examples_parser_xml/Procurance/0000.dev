@@ -1,0 +1,9 @@
+<Amr sentence="Çalışanlar , şirketi hortumlayıp kaçtı .">
+<Word name="5/kaç" positionX="750" positionY="100"/>
+<Word name="1/çalışan" positionX="650" positionY="200"/>
+<Connection from="5/kaç" to="1/çalışan" with="ARG0"/>
+<Word name="4/hortumla" positionX="750" positionY="200"/>
+<Connection from="5/kaç" to="4/hortumla"/>
+<Word name="3/şirket" positionX="650" positionY="300"/>
+<Connection from="4/hortumla" to="3/şirket" with="quant"/>
+</Amr>

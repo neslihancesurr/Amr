@@ -1,0 +1,29 @@
+<Amr sentence="Ceyda anneme herkesin kalın giysilerle gelmesini söylemiş .">
+<Word name="7/söyle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/söyle" to="o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="7/söyle" to="person"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ceyda" positionX="550" positionY="400"/>
+<Connection from="name" to="1/ceyda" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/anne" positionX="850" positionY="200"/>
+<Connection from="7/söyle" to="2/anne"/>
+<Word name="ben" positionX="750" positionY="300"/>
+<Connection from="2/anne" to="ben" with="poss"/>
+<Word name="6/gel" positionX="950" positionY="200"/>
+<Connection from="7/söyle" to="6/gel"/>
+<Connection from="6/gel" to="o" with="ARG0"/>
+<Connection from="6/gel" to="o" with="poss"/>
+<Word name="3/herkes" positionX="1050" positionY="300"/>
+<Connection from="6/gel" to="3/herkes"/>
+<Word name="onlar" positionX="950" positionY="400"/>
+<Connection from="3/herkes" to="onlar" with="poss"/>
+<Word name="5/giysi" positionX="1150" positionY="300"/>
+<Connection from="6/gel" to="5/giysi" with="instrument"/>
+<Word name="4/kalın" positionX="1050" positionY="400"/>
+<Connection from="5/giysi" to="4/kalın" with="mod"/>
+</Amr>

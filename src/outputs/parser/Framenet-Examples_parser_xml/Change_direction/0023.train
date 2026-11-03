@@ -1,0 +1,13 @@
+<Amr sentence="Kaptan küçük tekneye çarpmamak için alabanda etti .">
+<Word name="6/alabanda 7/et" positionX="750" positionY="100"/>
+<Word name="1/kaptan" positionX="650" positionY="200"/>
+<Connection from="6/alabanda 7/et" to="1/kaptan" with="ARG0"/>
+<Word name="4/çarp" positionX="750" positionY="200"/>
+<Connection from="6/alabanda 7/et" to="4/çarp" with="cause"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="4/çarp" to="-" with="polarity"/>
+<Word name="3/tekne" positionX="750" positionY="300"/>
+<Connection from="4/çarp" to="3/tekne" with="ARG1"/>
+<Word name="2/küçük" positionX="650" positionY="400"/>
+<Connection from="3/tekne" to="2/küçük" with="mod"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="O her zaman kendi kendine yolunu bulmuştur .">
+<Word name="6/yol 7/bul" positionX="750" positionY="100"/>
+<Word name="1/o" positionX="650" positionY="200"/>
+<Connection from="6/yol 7/bul" to="1/o" with="ARG0"/>
+<Word name="2/her 3/zaman" positionX="750" positionY="200"/>
+<Connection from="6/yol 7/bul" to="2/her 3/zaman" with="mod"/>
+<Word name="4/kendi 5/kendi" positionX="850" positionY="200"/>
+<Connection from="6/yol 7/bul" to="4/kendi 5/kendi"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="4/kendi 5/kendi" to="o" with="poss"/>
+</Amr>

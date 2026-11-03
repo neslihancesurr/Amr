@@ -1,0 +1,11 @@
+<Amr sentence="Bu da bu sene paralandı .">
+<Word name="5/paralan" positionX="750" positionY="100"/>
+<Word name="1/bu" positionX="650" positionY="200"/>
+<Connection from="5/paralan" to="1/bu" with="ARG0"/>
+<Word name="2/da" positionX="550" positionY="300"/>
+<Connection from="1/bu" to="2/da" with="manner"/>
+<Word name="4/sene" positionX="750" positionY="200"/>
+<Connection from="5/paralan" to="4/sene" with="mod"/>
+<Word name="3/bu" positionX="650" positionY="300"/>
+<Connection from="4/sene" to="3/bu" with="mod"/>
+</Amr>

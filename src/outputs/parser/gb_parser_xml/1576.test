@@ -1,0 +1,11 @@
+<Amr sentence="Ben sana bu sabah söylediydim .">
+<Word name="5/söyle" positionX="750" positionY="100"/>
+<Word name="1/ben" positionX="650" positionY="200"/>
+<Connection from="5/söyle" to="1/ben" with="ARG0"/>
+<Word name="2/sen" positionX="750" positionY="200"/>
+<Connection from="5/söyle" to="2/sen" with="ARG2"/>
+<Word name="4/sabah" positionX="850" positionY="200"/>
+<Connection from="5/söyle" to="4/sabah"/>
+<Word name="3/bu" positionX="750" positionY="300"/>
+<Connection from="4/sabah" to="3/bu" with="mod"/>
+</Amr>

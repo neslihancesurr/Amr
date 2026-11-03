@@ -1,0 +1,15 @@
+<Amr sentence="Öteki size daha çok uydu galiba .">
+<Word name="5/uy" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/uy" to="o" with="ARG0"/>
+<Word name="1/öteki" positionX="750" positionY="200"/>
+<Connection from="5/uy" to="1/öteki"/>
+<Word name="2/siz" positionX="850" positionY="200"/>
+<Connection from="5/uy" to="2/siz"/>
+<Word name="4/çok" positionX="950" positionY="200"/>
+<Connection from="5/uy" to="4/çok" with="degree"/>
+<Word name="3/daha" positionX="850" positionY="300"/>
+<Connection from="4/çok" to="3/daha" with="degree"/>
+<Word name="6/galiba" positionX="1050" positionY="200"/>
+<Connection from="5/uy" to="6/galiba" with="manner"/>
+</Amr>

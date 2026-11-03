@@ -1,0 +1,16 @@
+<Amr sentence="Gittim ya onu göremedim .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="4/gör" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="4/gör"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="4/gör" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="4/gör" to="ben" with="ARG0"/>
+<Word name="1/git" positionX="750" positionY="300"/>
+<Connection from="4/gör" to="1/git"/>
+<Connection from="1/git" to="ben" with="ARG0"/>
+<Word name="2/ya" positionX="750" positionY="400"/>
+<Connection from="1/git" to="2/ya"/>
+<Word name="3/o" positionX="850" positionY="300"/>
+<Connection from="4/gör" to="3/o"/>
+</Amr>

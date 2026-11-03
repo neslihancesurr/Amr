@@ -1,0 +1,19 @@
+<Amr sentence="- Sana bu sabunu kullan demedim mi ?">
+<Word name="6/de" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="6/de" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="6/de" to="ben" with="ARG0"/>
+<Word name="2/sen" positionX="850" positionY="200"/>
+<Connection from="6/de" to="2/sen"/>
+<Word name="5/kullan" positionX="950" positionY="200"/>
+<Connection from="6/de" to="5/kullan" with="ARG1"/>
+<Word name="imperative" positionX="850" positionY="300"/>
+<Connection from="5/kullan" to="imperative" with="mode"/>
+<Word name="4/sabun" positionX="950" positionY="300"/>
+<Connection from="5/kullan" to="4/sabun"/>
+<Word name="3/bu" positionX="850" positionY="400"/>
+<Connection from="4/sabun" to="3/bu" with="mod"/>
+<Word name="7/mi" positionX="1050" positionY="200"/>
+<Connection from="6/de" to="7/mi"/>
+</Amr>

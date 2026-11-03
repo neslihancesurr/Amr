@@ -1,0 +1,11 @@
+<Amr sentence="Evdekilere çaktırmadan yavaşça seğirtti .">
+<Word name="4/seğirt" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/seğirt" to="o" with="ARG0"/>
+<Word name="2/çaktır" positionX="750" positionY="200"/>
+<Connection from="4/seğirt" to="2/çaktır"/>
+<Word name="1/ev" positionX="650" positionY="300"/>
+<Connection from="2/çaktır" to="1/ev" with="location"/>
+<Word name="3/yavaşça" positionX="850" positionY="200"/>
+<Connection from="4/seğirt" to="3/yavaşça" with="manner"/>
+</Amr>

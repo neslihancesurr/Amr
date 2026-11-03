@@ -1,0 +1,11 @@
+<Amr sentence="Bol bol gezdim dolaştım bu yıl .">
+<Word name="3/gez 4/dolaş" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/gez 4/dolaş" to="ben" with="ARG0"/>
+<Word name="1/bol 2/bol" positionX="750" positionY="200"/>
+<Connection from="3/gez 4/dolaş" to="1/bol 2/bol"/>
+<Word name="6/yıl" positionX="850" positionY="200"/>
+<Connection from="3/gez 4/dolaş" to="6/yıl" with="mod"/>
+<Word name="5/bu" positionX="750" positionY="300"/>
+<Connection from="6/yıl" to="5/bu" with="mod"/>
+</Amr>

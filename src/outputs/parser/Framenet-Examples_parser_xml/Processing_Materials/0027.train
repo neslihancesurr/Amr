@@ -1,0 +1,9 @@
+<Amr sentence="Kubbelerimizin tamamı kurşunlanmıştır .">
+<Word name="3/kurşunla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/kurşunla" to="o" with="ARG0"/>
+<Word name="2/tamam" positionX="750" positionY="200"/>
+<Connection from="3/kurşunla" to="2/tamam" with="ARG1"/>
+<Word name="1/kubbe" positionX="650" positionY="300"/>
+<Connection from="2/tamam" to="1/kubbe" with="mod"/>
+</Amr>

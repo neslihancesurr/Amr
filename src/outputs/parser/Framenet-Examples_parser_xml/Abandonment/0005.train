@@ -1,0 +1,9 @@
+<Amr sentence="Çocuğu büsbütün başıboş bırakmışlar .">
+<Word name="3/başıboş 4/bırak" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="3/başıboş 4/bırak" to="onlar" with="ARG0"/>
+<Word name="1/çocuk" positionX="750" positionY="200"/>
+<Connection from="3/başıboş 4/bırak" to="1/çocuk" with="ARG1"/>
+<Word name="2/büsbütün" positionX="850" positionY="200"/>
+<Connection from="3/başıboş 4/bırak" to="2/büsbütün" with="manner"/>
+</Amr>

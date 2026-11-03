@@ -1,0 +1,19 @@
+<Amr sentence="Bu ütüler bir süre sonra kendi kendilerine kapanıyor .">
+<Word name="8/kapan" positionX="750" positionY="100"/>
+<Word name="2/ütü" positionX="650" positionY="200"/>
+<Connection from="8/kapan" to="2/ütü" with="ARG0"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/ütü" to="1/bu" with="mod"/>
+<Word name="4/süre" positionX="750" positionY="200"/>
+<Connection from="8/kapan" to="4/süre"/>
+<Word name="5/sonra" positionX="650" positionY="300"/>
+<Connection from="4/süre" to="5/sonra"/>
+<Word name="7/kendi" positionX="850" positionY="200"/>
+<Connection from="8/kapan" to="7/kendi"/>
+<Word name="onlar" positionX="750" positionY="300"/>
+<Connection from="7/kendi" to="onlar" with="poss"/>
+<Word name="6/kendi" positionX="850" positionY="300"/>
+<Connection from="7/kendi" to="6/kendi"/>
+<Word name="o" positionX="750" positionY="400"/>
+<Connection from="6/kendi" to="o" with="poss"/>
+</Amr>

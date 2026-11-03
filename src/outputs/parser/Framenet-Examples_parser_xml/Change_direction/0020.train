@@ -1,0 +1,25 @@
+<Amr sentence="Kırmızı balıklar birdenbire canlanırlar ve kavanozun içinde birbiri ardınca keyifli keyifli çark çevirirler .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="12/çark 13/çevir" positionX="650" positionY="200"/>
+<Connection from="and" to="12/çark 13/çevir" with="op1"/>
+<Word name="7/içinde" positionX="550" positionY="300"/>
+<Connection from="12/çark 13/çevir" to="7/içinde" with="ARG1"/>
+<Word name="6/kavanoz" positionX="450" positionY="400"/>
+<Connection from="7/içinde" to="6/kavanoz" with="mod"/>
+<Word name="9/ardınca" positionX="650" positionY="300"/>
+<Connection from="12/çark 13/çevir" to="9/ardınca" with="manner"/>
+<Word name="8/birbiri" positionX="550" positionY="400"/>
+<Connection from="9/ardınca" to="8/birbiri" with="mod"/>
+<Word name="10/keyifli 11/keyifli" positionX="750" positionY="300"/>
+<Connection from="12/çark 13/çevir" to="10/keyifli 11/keyifli" with="manner"/>
+<Word name="4/canlan" positionX="750" positionY="200"/>
+<Connection from="and" to="4/canlan" with="op2"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="4/canlan" to="onlar" with="ARG0"/>
+<Word name="2/balık" positionX="750" positionY="300"/>
+<Connection from="4/canlan" to="2/balık" with="ARG1"/>
+<Word name="1/kırmızı" positionX="650" positionY="400"/>
+<Connection from="2/balık" to="1/kırmızı" with="mod"/>
+<Word name="3/birdenbire" positionX="850" positionY="300"/>
+<Connection from="4/canlan" to="3/birdenbire" with="manner"/>
+</Amr>

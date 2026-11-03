@@ -1,0 +1,13 @@
+<Amr sentence="Japon oyuncuyu da yenerek tur atladım .">
+<Word name="5/tur 6/atla" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/tur 6/atla" to="ben" with="ARG0"/>
+<Word name="4/yen" positionX="750" positionY="200"/>
+<Connection from="5/tur 6/atla" to="4/yen"/>
+<Word name="2/oyuncu" positionX="650" positionY="300"/>
+<Connection from="4/yen" to="2/oyuncu"/>
+<Word name="1/japon" positionX="550" positionY="400"/>
+<Connection from="2/oyuncu" to="1/japon" with="mod"/>
+<Word name="3/da" positionX="650" positionY="400"/>
+<Connection from="2/oyuncu" to="3/da"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Ancak özel izinle girilebiliyormuş kulise .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="4/gir" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="4/gir"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/gir" to="o" with="ARG0"/>
+<Word name="1/ancak" positionX="650" positionY="300"/>
+<Connection from="4/gir" to="1/ancak" with="manner"/>
+<Word name="3/izin" positionX="750" positionY="300"/>
+<Connection from="4/gir" to="3/izin" with="instrument"/>
+<Word name="2/özel" positionX="650" positionY="400"/>
+<Connection from="3/izin" to="2/özel" with="mod"/>
+<Word name="5/kulis" positionX="850" positionY="300"/>
+<Connection from="4/gir" to="5/kulis" with="ARG1"/>
+</Amr>

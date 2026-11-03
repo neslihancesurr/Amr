@@ -1,0 +1,19 @@
+<Amr sentence="Bu ustaca düzeni Osmanlıların her işinde izleyebilirsiniz .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="7/izle" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="7/izle"/>
+<Word name="siz" positionX="550" positionY="300"/>
+<Connection from="7/izle" to="siz" with="ARG0"/>
+<Word name="3/düzen" positionX="650" positionY="300"/>
+<Connection from="7/izle" to="3/düzen" with="ARG1"/>
+<Word name="1/bu" positionX="550" positionY="400"/>
+<Connection from="3/düzen" to="1/bu" with="mod"/>
+<Word name="2/ustaca" positionX="650" positionY="400"/>
+<Connection from="3/düzen" to="2/ustaca" with="mod"/>
+<Word name="6/iş" positionX="750" positionY="300"/>
+<Connection from="7/izle" to="6/iş" with="location"/>
+<Word name="4/osmanlı" positionX="650" positionY="400"/>
+<Connection from="6/iş" to="4/osmanlı" with="mod"/>
+<Word name="5/her" positionX="750" positionY="400"/>
+<Connection from="6/iş" to="5/her" with="mod"/>
+</Amr>

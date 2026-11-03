@@ -1,0 +1,11 @@
+<Amr sentence="Beni dakikalarca hazır olda tuttu .">
+<Word name="5/tut" positionX="750" positionY="100"/>
+<Word name="1/ben" positionX="650" positionY="200"/>
+<Connection from="5/tut" to="1/ben" with="ARG0"/>
+<Word name="2/dakikalarca" positionX="750" positionY="200"/>
+<Connection from="5/tut" to="2/dakikalarca" with="manner"/>
+<Word name="3/hazır 4/ol" positionX="850" positionY="200"/>
+<Connection from="5/tut" to="3/hazır 4/ol" with="ARG2"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="3/hazır 4/ol" to="o" with="ARG0"/>
+</Amr>

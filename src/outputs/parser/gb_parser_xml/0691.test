@@ -1,0 +1,7 @@
+<Amr sentence="geniş çapta bir arama">
+<Word name="4/arama" positionX="750" positionY="100"/>
+<Word name="2/çap" positionX="650" positionY="200"/>
+<Connection from="4/arama" to="2/çap" with="mod"/>
+<Word name="1/geniş" positionX="550" positionY="300"/>
+<Connection from="2/çap" to="1/geniş" with="mod"/>
+</Amr>

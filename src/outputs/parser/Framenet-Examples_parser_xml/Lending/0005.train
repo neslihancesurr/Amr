@@ -1,0 +1,9 @@
+<Amr sentence="Bu para da boynunda kaldı .">
+<Word name="4/boyun 5/kal" positionX="750" positionY="100"/>
+<Word name="2/para" positionX="650" positionY="200"/>
+<Connection from="4/boyun 5/kal" to="2/para" with="ARG0"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/para" to="1/bu" with="mod"/>
+<Word name="3/da" positionX="650" positionY="300"/>
+<Connection from="2/para" to="3/da"/>
+</Amr>

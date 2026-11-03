@@ -1,0 +1,13 @@
+<Amr sentence="Elektrik kaçağı ihtimaline karşı trafoyu izole ettiler .">
+<Word name="6/izole 7/et" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="6/izole 7/et" to="onlar" with="ARG0"/>
+<Word name="3/ihtimal" positionX="750" positionY="200"/>
+<Connection from="6/izole 7/et" to="3/ihtimal"/>
+<Word name="1/elektrik 2/kaçak" positionX="650" positionY="300"/>
+<Connection from="3/ihtimal" to="1/elektrik 2/kaçak" with="mod"/>
+<Word name="4/karşı" positionX="750" positionY="300"/>
+<Connection from="3/ihtimal" to="4/karşı"/>
+<Word name="5/trafo" positionX="850" positionY="200"/>
+<Connection from="6/izole 7/et" to="5/trafo" with="ARG1"/>
+</Amr>

@@ -1,0 +1,18 @@
+<Amr sentence="Oğluna alacağı kızı telleyip pullandırdı .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="5/pullan" positionX="650" positionY="200"/>
+<Connection from="yap" to="5/pullan"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="5/pullan" to="o" with="ARG0"/>
+<Word name="3/kız" positionX="650" positionY="300"/>
+<Connection from="5/pullan" to="3/kız" with="ARG1"/>
+<Connection from="3/kız" to="o" with="poss"/>
+<Word name="2/alacak" positionX="650" positionY="400"/>
+<Connection from="3/kız" to="2/alacak"/>
+<Connection from="2/alacak" to="o" with="poss"/>
+<Word name="1/oğul" positionX="650" positionY="500"/>
+<Connection from="2/alacak" to="1/oğul"/>
+<Connection from="1/oğul" to="o" with="poss"/>
+<Word name="4/telle" positionX="750" positionY="300"/>
+<Connection from="5/pullan" to="4/telle"/>
+</Amr>

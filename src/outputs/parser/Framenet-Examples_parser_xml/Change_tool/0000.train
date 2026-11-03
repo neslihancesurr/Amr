@@ -1,0 +1,13 @@
+<Amr sentence="Odun dirençli çıkınca testere değiştirdi .">
+<Word name="5/değiştir" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/değiştir" to="o" with="ARG0"/>
+<Word name="3/çık" positionX="750" positionY="200"/>
+<Connection from="5/değiştir" to="3/çık"/>
+<Word name="1/odun" positionX="650" positionY="300"/>
+<Connection from="3/çık" to="1/odun"/>
+<Word name="2/dirençli" positionX="750" positionY="300"/>
+<Connection from="3/çık" to="2/dirençli" with="manner"/>
+<Word name="4/testere" positionX="850" positionY="200"/>
+<Connection from="5/değiştir" to="4/testere" with="ARG1"/>
+</Amr>

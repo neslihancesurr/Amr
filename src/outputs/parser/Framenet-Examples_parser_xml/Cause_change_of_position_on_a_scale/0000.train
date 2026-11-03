@@ -1,0 +1,20 @@
+<Amr sentence="Eklediği 2 büyük patates , kantarı daha da aşağı ağdırdı .">
+<Word name="10/ağdır" positionX="750" positionY="100"/>
+<Word name="4/patates" positionX="650" positionY="200"/>
+<Connection from="10/ağdır" to="4/patates"/>
+<Word name="1/ekle" positionX="550" positionY="300"/>
+<Connection from="4/patates" to="1/ekle"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="1/ekle" to="o" with="poss"/>
+<Word name="2/2" positionX="650" positionY="300"/>
+<Connection from="4/patates" to="2/2"/>
+<Word name="3/büyük" positionX="750" positionY="300"/>
+<Connection from="4/patates" to="3/büyük" with="mod"/>
+<Word name="6/kantar" positionX="750" positionY="200"/>
+<Connection from="10/ağdır" to="6/kantar" with="ARG0"/>
+<Connection from="6/kantar" to="o" with="poss"/>
+<Word name="9/aşağı" positionX="850" positionY="200"/>
+<Connection from="10/ağdır" to="9/aşağı" with="ARG1"/>
+<Word name="7/daha 8/da" positionX="750" positionY="300"/>
+<Connection from="9/aşağı" to="7/daha 8/da" with="manner"/>
+</Amr>

@@ -1,0 +1,16 @@
+<Amr sentence="Bir haftadır emekli olunca ne yapacağını arpacı kumrusu gibi düşünüyor .">
+<Word name="7/arpacı 8/kumru 9/gibi 10/düşün" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/arpacı 8/kumru 9/gibi 10/düşün" to="o" with="ARG0"/>
+<Word name="2/hafta" positionX="750" positionY="200"/>
+<Connection from="7/arpacı 8/kumru 9/gibi 10/düşün" to="2/hafta"/>
+<Word name="1/bir" positionX="650" positionY="300"/>
+<Connection from="2/hafta" to="1/bir"/>
+<Word name="6/yap" positionX="850" positionY="200"/>
+<Connection from="7/arpacı 8/kumru 9/gibi 10/düşün" to="6/yap" with="ARG1"/>
+<Connection from="6/yap" to="o" with="ARG0"/>
+<Word name="3/emekli 4/ol" positionX="850" positionY="300"/>
+<Connection from="6/yap" to="3/emekli 4/ol"/>
+<Word name="5/ne" positionX="950" positionY="300"/>
+<Connection from="6/yap" to="5/ne" with="ARG1"/>
+</Amr>

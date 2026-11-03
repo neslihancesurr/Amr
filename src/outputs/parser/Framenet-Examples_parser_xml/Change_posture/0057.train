@@ -1,0 +1,7 @@
+<Amr sentence="Hiç tanımadığı bu adamın karşısında ayak ayak üstüne atarak saygısızlık ediyordu .">
+<Word name="10/saygısızlık 11/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="10/saygısızlık 11/et" to="o" with="ARG0"/>
+<Word name="6/ayak 7/ayak 8/üst 9/at" positionX="750" positionY="200"/>
+<Connection from="10/saygısızlık 11/et" to="6/ayak 7/ayak 8/üst 9/at"/>
+</Amr>

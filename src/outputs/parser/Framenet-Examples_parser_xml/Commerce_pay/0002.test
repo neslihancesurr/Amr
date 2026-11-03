@@ -1,0 +1,13 @@
+<Amr sentence="Bunun huyu bu , hep bol doğrar .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/bu" positionX="650" positionY="200"/>
+<Connection from="and" to="3/bu" with="op1"/>
+<Word name="2/huy" positionX="550" positionY="300"/>
+<Connection from="3/bu" to="2/huy"/>
+<Word name="1/bu" positionX="450" positionY="400"/>
+<Connection from="2/huy" to="1/bu" with="mod"/>
+<Word name="6/bol 7/doğra" positionX="750" positionY="200"/>
+<Connection from="and" to="6/bol 7/doğra" with="op2"/>
+<Word name="5/hep" positionX="650" positionY="300"/>
+<Connection from="6/bol 7/doğra" to="5/hep" with="frequency"/>
+</Amr>

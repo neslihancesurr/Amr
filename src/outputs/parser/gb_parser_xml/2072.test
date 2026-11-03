@@ -1,0 +1,15 @@
+<Amr sentence="Her gün beş sayfa yazmaya çalışıyorum .">
+<Word name="6/çalış" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="6/çalış" to="ben" with="ARG0"/>
+<Word name="5/yaz" positionX="750" positionY="200"/>
+<Connection from="6/çalış" to="5/yaz"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/yaz" to="o" with="ARG0"/>
+<Word name="1/her 2/gün" positionX="750" positionY="300"/>
+<Connection from="5/yaz" to="1/her 2/gün" with="mod"/>
+<Word name="4/sayfa" positionX="850" positionY="300"/>
+<Connection from="5/yaz" to="4/sayfa"/>
+<Word name="3/beş" positionX="750" positionY="400"/>
+<Connection from="4/sayfa" to="3/beş"/>
+</Amr>

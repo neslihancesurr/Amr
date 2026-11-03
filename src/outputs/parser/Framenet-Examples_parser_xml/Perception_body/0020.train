@@ -1,0 +1,9 @@
+<Amr sentence="Parmak uçlarım karıncalanıyor .">
+<Word name="3/karıncalan" positionX="750" positionY="100"/>
+<Word name="2/uç" positionX="650" positionY="200"/>
+<Connection from="3/karıncalan" to="2/uç" with="ARG0"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="2/uç" to="ben" with="poss"/>
+<Word name="1/parmak" positionX="650" positionY="300"/>
+<Connection from="2/uç" to="1/parmak" with="mod"/>
+</Amr>

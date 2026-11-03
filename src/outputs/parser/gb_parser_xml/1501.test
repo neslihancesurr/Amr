@@ -1,0 +1,7 @@
+<Amr sentence="Çorbanın tuzu yok .">
+<Word name="3/yok" positionX="750" positionY="100"/>
+<Word name="2/tuz" positionX="650" positionY="200"/>
+<Connection from="3/yok" to="2/tuz"/>
+<Word name="1/çorba" positionX="550" positionY="300"/>
+<Connection from="2/tuz" to="1/çorba" with="mod"/>
+</Amr>

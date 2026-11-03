@@ -1,0 +1,21 @@
+<Amr sentence="Benzer şeyler yaşamış olan insanlar konuştuklarında birbirlerinin duygularına tercüman olur .">
+<Word name="9/tercüman 10/ol" positionX="750" positionY="100"/>
+<Word name="6/konuş" positionX="650" positionY="200"/>
+<Connection from="9/tercüman 10/ol" to="6/konuş"/>
+<Word name="onlar" positionX="550" positionY="300"/>
+<Connection from="6/konuş" to="onlar" with="poss"/>
+<Word name="5/insan" positionX="650" positionY="300"/>
+<Connection from="6/konuş" to="5/insan" with="ARG0"/>
+<Word name="4/ol" positionX="550" positionY="400"/>
+<Connection from="5/insan" to="4/ol"/>
+<Word name="3/yaşa" positionX="450" positionY="500"/>
+<Connection from="4/ol" to="3/yaşa"/>
+<Word name="2/şey" positionX="350" positionY="600"/>
+<Connection from="3/yaşa" to="2/şey" with="ARG1"/>
+<Word name="1/benzer" positionX="250" positionY="700"/>
+<Connection from="2/şey" to="1/benzer" with="mod"/>
+<Word name="8/duygu" positionX="750" positionY="200"/>
+<Connection from="9/tercüman 10/ol" to="8/duygu" with="ARG1"/>
+<Word name="7/birbirleri" positionX="650" positionY="300"/>
+<Connection from="8/duygu" to="7/birbirleri" with="mod"/>
+</Amr>

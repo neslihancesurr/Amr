@@ -1,0 +1,17 @@
+<Amr sentence="Bu boyalardan hangisini yandaki dükkandan aldın ?">
+<Word name="6/al" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="6/al" to="sen" with="ARG0"/>
+<Word name="3/hangi" positionX="750" positionY="200"/>
+<Connection from="6/al" to="3/hangi" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/hangi" to="o" with="poss"/>
+<Word name="2/boya" positionX="750" positionY="300"/>
+<Connection from="3/hangi" to="2/boya"/>
+<Word name="1/bu" positionX="650" positionY="400"/>
+<Connection from="2/boya" to="1/bu" with="mod"/>
+<Word name="5/dükkan" positionX="850" positionY="200"/>
+<Connection from="6/al" to="5/dükkan" with="ARG2"/>
+<Word name="4/yan" positionX="750" positionY="300"/>
+<Connection from="5/dükkan" to="4/yan" with="mod"/>
+</Amr>

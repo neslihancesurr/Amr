@@ -1,0 +1,13 @@
+<Amr sentence="Müfettiş iki hafta sonra meseleyi istidlal etti .">
+<Word name="6/istidlal 7/et" positionX="750" positionY="100"/>
+<Word name="1/müfettiş" positionX="650" positionY="200"/>
+<Connection from="6/istidlal 7/et" to="1/müfettiş" with="ARG0"/>
+<Word name="4/sonra" positionX="750" positionY="200"/>
+<Connection from="6/istidlal 7/et" to="4/sonra" with="manner"/>
+<Word name="3/hafta" positionX="650" positionY="300"/>
+<Connection from="4/sonra" to="3/hafta" with="mod"/>
+<Word name="2/iki" positionX="550" positionY="400"/>
+<Connection from="3/hafta" to="2/iki"/>
+<Word name="5/mesele" positionX="850" positionY="200"/>
+<Connection from="6/istidlal 7/et" to="5/mesele" with="mod"/>
+</Amr>

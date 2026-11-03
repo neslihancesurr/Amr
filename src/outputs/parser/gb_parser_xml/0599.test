@@ -1,0 +1,9 @@
+<Amr sentence="O adamdan nefret ediyorum .">
+<Word name="3/nefret 4/et" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/nefret 4/et" to="ben" with="ARG0"/>
+<Word name="2/adam" positionX="750" positionY="200"/>
+<Connection from="3/nefret 4/et" to="2/adam" with="ARG1"/>
+<Word name="1/o" positionX="650" positionY="300"/>
+<Connection from="2/adam" to="1/o" with="mod"/>
+</Amr>

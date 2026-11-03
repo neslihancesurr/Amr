@@ -1,0 +1,11 @@
+<Amr sentence="Kral , tüm kenti ele geçirdi .">
+<Word name="5/el 6/geçir" positionX="750" positionY="100"/>
+<Word name="1/kral" positionX="650" positionY="200"/>
+<Connection from="5/el 6/geçir" to="1/kral" with="ARG0"/>
+<Word name="4/kent" positionX="750" positionY="200"/>
+<Connection from="5/el 6/geçir" to="4/kent" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="4/kent" to="o" with="poss"/>
+<Word name="3/tüm" positionX="750" positionY="300"/>
+<Connection from="4/kent" to="3/tüm" with="mod"/>
+</Amr>

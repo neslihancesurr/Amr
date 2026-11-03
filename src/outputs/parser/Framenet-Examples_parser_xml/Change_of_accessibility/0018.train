@@ -1,0 +1,7 @@
+<Amr sentence="Bu baraj nehrin önünü kesecek .">
+<Word name="4/ön 5/kes" positionX="750" positionY="100"/>
+<Word name="2/baraj" positionX="650" positionY="200"/>
+<Connection from="4/ön 5/kes" to="2/baraj" with="ARG0"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/baraj" to="1/bu" with="mod"/>
+</Amr>

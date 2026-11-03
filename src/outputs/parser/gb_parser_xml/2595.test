@@ -1,0 +1,23 @@
+<Amr sentence="Ne kadar konuşurlarsa konuşsunlar hiçbir zaman anlaşamayacaklar .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="7/anlaş" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="7/anlaş"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="7/anlaş" to="-" with="polarity"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="7/anlaş" to="onlar" with="ARG0"/>
+<Word name="3/konuş" positionX="750" positionY="300"/>
+<Connection from="7/anlaş" to="3/konuş" with="cond"/>
+<Connection from="3/konuş" to="onlar" with="ARG0"/>
+<Word name="1/ne" positionX="750" positionY="400"/>
+<Connection from="3/konuş" to="1/ne" with="extent"/>
+<Word name="4/konuş" positionX="850" positionY="400"/>
+<Connection from="3/konuş" to="4/konuş"/>
+<Connection from="4/konuş" to="onlar" with="ARG0"/>
+<Word name="imperative" positionX="850" positionY="500"/>
+<Connection from="4/konuş" to="imperative" with="mode"/>
+<Word name="6/zaman" positionX="850" positionY="300"/>
+<Connection from="7/anlaş" to="6/zaman"/>
+<Word name="5/hiçbir" positionX="750" positionY="400"/>
+<Connection from="6/zaman" to="5/hiçbir" with="mod"/>
+</Amr>

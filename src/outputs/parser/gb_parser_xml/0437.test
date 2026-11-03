@@ -1,0 +1,13 @@
+<Amr sentence="Kemal Zeki'yle dövüştü .">
+<Word name="3/dövüş" positionX="750" positionY="100"/>
+<Word name="1/kemal" positionX="650" positionY="200"/>
+<Connection from="3/dövüş" to="1/kemal" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="3/dövüş" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/zeki" positionX="550" positionY="400"/>
+<Connection from="name" to="2/zeki" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

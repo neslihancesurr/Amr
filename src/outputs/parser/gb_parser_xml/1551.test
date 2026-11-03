@@ -1,0 +1,13 @@
+<Amr sentence="Aslında dondurmayı o kadar sevmiyorum .">
+<Word name="5/sev" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/sev" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="5/sev" to="ben" with="ARG0"/>
+<Word name="1/aslında" positionX="850" positionY="200"/>
+<Connection from="5/sev" to="1/aslında" with="manner"/>
+<Word name="2/dondurma" positionX="950" positionY="200"/>
+<Connection from="5/sev" to="2/dondurma" with="ARG1"/>
+<Word name="3/o" positionX="1050" positionY="200"/>
+<Connection from="5/sev" to="3/o" with="extent"/>
+</Amr>

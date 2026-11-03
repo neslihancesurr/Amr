@@ -1,0 +1,7 @@
+<Amr sentence="Bütün iş alanını tekeline almıştı .">
+<Word name="4/tekel 5/al" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/tekel 5/al" to="o" with="ARG0"/>
+<Word name="2/iş 3/alan" positionX="750" positionY="200"/>
+<Connection from="4/tekel 5/al" to="2/iş 3/alan" with="ARG1"/>
+</Amr>

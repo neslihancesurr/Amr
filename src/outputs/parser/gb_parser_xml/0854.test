@@ -1,0 +1,15 @@
+<Amr sentence="Şimdilik bu sandığı masa olarak kullanıyoruz .">
+<Word name="6/kullan" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="6/kullan" to="biz" with="ARG0"/>
+<Word name="1/şimdilik" positionX="750" positionY="200"/>
+<Connection from="6/kullan" to="1/şimdilik" with="manner"/>
+<Word name="3/sandık" positionX="850" positionY="200"/>
+<Connection from="6/kullan" to="3/sandık" with="ARG1"/>
+<Word name="2/bu" positionX="750" positionY="300"/>
+<Connection from="3/sandık" to="2/bu" with="mod"/>
+<Word name="5/ol" positionX="950" positionY="200"/>
+<Connection from="6/kullan" to="5/ol"/>
+<Word name="4/masa" positionX="850" positionY="300"/>
+<Connection from="5/ol" to="4/masa" with="mod"/>
+</Amr>

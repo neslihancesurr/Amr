@@ -1,0 +1,7 @@
+<Amr sentence="Okula elini kolunu sallaya sallaya gelmişti .">
+<Word name="3/kol 4/salla 5/salla 6/gel" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/kol 4/salla 5/salla 6/gel" to="o" with="ARG0"/>
+<Word name="1/okul" positionX="750" positionY="200"/>
+<Connection from="3/kol 4/salla 5/salla 6/gel" to="1/okul"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Nilgün problemleri yavaş çözer .">
+<Word name="4/çöz" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="4/çöz" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/nilgün" positionX="450" positionY="400"/>
+<Connection from="name" to="1/nilgün" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/problem" positionX="750" positionY="200"/>
+<Connection from="4/çöz" to="2/problem" with="ARG1"/>
+<Word name="3/yavaş" positionX="850" positionY="200"/>
+<Connection from="4/çöz" to="3/yavaş" with="manner"/>
+</Amr>

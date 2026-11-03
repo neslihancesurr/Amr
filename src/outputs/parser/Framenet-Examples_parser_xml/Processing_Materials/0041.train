@@ -1,0 +1,11 @@
+<Amr sentence="Buradaki malzemeler önce islenecek .">
+<Word name="4/isle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/isle" to="o" with="ARG0"/>
+<Word name="2/malzeme" positionX="750" positionY="200"/>
+<Connection from="4/isle" to="2/malzeme" with="ARG1"/>
+<Word name="1/bura" positionX="650" positionY="300"/>
+<Connection from="2/malzeme" to="1/bura" with="mod"/>
+<Word name="3/önce" positionX="850" positionY="200"/>
+<Connection from="4/isle" to="3/önce" with="manner"/>
+</Amr>

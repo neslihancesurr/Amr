@@ -1,0 +1,13 @@
+<Amr sentence="Karantina döneminde çok fazla şişmanladım .">
+<Word name="5/şişmanla" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/şişmanla" to="ben" with="ARG0"/>
+<Word name="2/dönem" positionX="750" positionY="200"/>
+<Connection from="5/şişmanla" to="2/dönem" with="location"/>
+<Word name="1/karantina" positionX="650" positionY="300"/>
+<Connection from="2/dönem" to="1/karantina" with="mod"/>
+<Word name="4/fazla" positionX="850" positionY="200"/>
+<Connection from="5/şişmanla" to="4/fazla" with="degree"/>
+<Word name="3/çok" positionX="750" positionY="300"/>
+<Connection from="4/fazla" to="3/çok" with="degree"/>
+</Amr>

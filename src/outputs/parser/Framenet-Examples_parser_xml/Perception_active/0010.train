@@ -1,0 +1,26 @@
+<Amr sentence="Koca bir tarihin tutuştuğunu çöllerde susuz yanan insanların çatlak dudaklarında temaşa ediyoruz .">
+<Word name="11/temaşa 12/et" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="11/temaşa 12/et" to="biz" with="ARG0"/>
+<Word name="4/tutuş" positionX="750" positionY="200"/>
+<Connection from="11/temaşa 12/et" to="4/tutuş" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="4/tutuş" to="o" with="ARG0"/>
+<Connection from="4/tutuş" to="o" with="poss"/>
+<Word name="3/tarih" positionX="850" positionY="300"/>
+<Connection from="4/tutuş" to="3/tarih"/>
+<Word name="1/koca" positionX="750" positionY="400"/>
+<Connection from="3/tarih" to="1/koca" with="mod"/>
+<Word name="10/dudak" positionX="850" positionY="200"/>
+<Connection from="11/temaşa 12/et" to="10/dudak" with="location"/>
+<Word name="8/insan" positionX="750" positionY="300"/>
+<Connection from="10/dudak" to="8/insan" with="mod"/>
+<Word name="7/yan" positionX="650" positionY="400"/>
+<Connection from="8/insan" to="7/yan"/>
+<Word name="5/çöl" positionX="550" positionY="500"/>
+<Connection from="7/yan" to="5/çöl" with="location"/>
+<Word name="6/susuz" positionX="650" positionY="500"/>
+<Connection from="7/yan" to="6/susuz" with="manner"/>
+<Word name="9/çatlak" positionX="850" positionY="300"/>
+<Connection from="10/dudak" to="9/çatlak" with="mod"/>
+</Amr>

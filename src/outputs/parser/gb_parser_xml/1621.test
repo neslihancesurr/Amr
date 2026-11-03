@@ -1,0 +1,11 @@
+<Amr sentence="En beğenilen tablo bu oldu .">
+<Word name="4/bu" positionX="750" positionY="100"/>
+<Word name="3/tablo" positionX="650" positionY="200"/>
+<Connection from="4/bu" to="3/tablo"/>
+<Word name="2/beğenil" positionX="550" positionY="300"/>
+<Connection from="3/tablo" to="2/beğenil"/>
+<Word name="1/en" positionX="450" positionY="400"/>
+<Connection from="2/beğenil" to="1/en" with="manner"/>
+<Word name="5/ol" positionX="750" positionY="200"/>
+<Connection from="4/bu" to="5/ol"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Uçağa ancak yetiştik .">
+<Word name="3/yetiş" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="3/yetiş" to="biz" with="ARG0"/>
+<Word name="1/uçak" positionX="750" positionY="200"/>
+<Connection from="3/yetiş" to="1/uçak" with="ARG1"/>
+<Word name="2/ancak" positionX="850" positionY="200"/>
+<Connection from="3/yetiş" to="2/ancak" with="manner"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Önemli olan sizin bu evi beğenmeniz .">
+<Word name="6/beğen" positionX="750" positionY="100"/>
+<Word name="siz" positionX="650" positionY="200"/>
+<Connection from="6/beğen" to="siz" with="ARG0"/>
+<Word name="1/önemli 2/ol" positionX="750" positionY="200"/>
+<Connection from="6/beğen" to="1/önemli 2/ol"/>
+<Word name="3/siz" positionX="850" positionY="200"/>
+<Connection from="6/beğen" to="3/siz"/>
+<Word name="5/ev" positionX="950" positionY="200"/>
+<Connection from="6/beğen" to="5/ev"/>
+<Word name="4/bu" positionX="850" positionY="300"/>
+<Connection from="5/ev" to="4/bu" with="mod"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Kendinizi anlatmadınız siz hiç .">
+<Word name="2/anlat" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="2/anlat" to="-" with="polarity"/>
+<Word name="1/kendi" positionX="750" positionY="200"/>
+<Connection from="2/anlat" to="1/kendi" with="ARG1"/>
+<Word name="siz" positionX="650" positionY="300"/>
+<Connection from="1/kendi" to="siz" with="poss"/>
+<Word name="3/siz" positionX="850" positionY="200"/>
+<Connection from="2/anlat" to="3/siz" with="ARG0"/>
+<Word name="4/hiç" positionX="950" positionY="200"/>
+<Connection from="2/anlat" to="4/hiç" with="degree"/>
+</Amr>

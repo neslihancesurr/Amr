@@ -1,0 +1,13 @@
+<Amr sentence="yarışmaya katılanlar arasında en başarılı çocuk">
+<Word name="6/çocuk" positionX="750" positionY="100"/>
+<Word name="3/ara" positionX="650" positionY="200"/>
+<Connection from="6/çocuk" to="3/ara" with="mod"/>
+<Word name="2/katıl" positionX="550" positionY="300"/>
+<Connection from="3/ara" to="2/katıl" with="mod"/>
+<Word name="1/yarışma" positionX="450" positionY="400"/>
+<Connection from="2/katıl" to="1/yarışma"/>
+<Word name="5/başarılı" positionX="750" positionY="200"/>
+<Connection from="6/çocuk" to="5/başarılı" with="mod"/>
+<Word name="4/en" positionX="650" positionY="300"/>
+<Connection from="5/başarılı" to="4/en" with="manner"/>
+</Amr>

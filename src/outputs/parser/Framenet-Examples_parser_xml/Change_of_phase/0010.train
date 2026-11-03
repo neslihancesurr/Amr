@@ -1,0 +1,7 @@
+<Amr sentence="Camlar puslanmıştı .">
+<Word name="2/puslan" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="2/puslan" to="o" with="ARG0"/>
+<Word name="1/cam" positionX="750" positionY="200"/>
+<Connection from="2/puslan" to="1/cam" with="ARG1"/>
+</Amr>

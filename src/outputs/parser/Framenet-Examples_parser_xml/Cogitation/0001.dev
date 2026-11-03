@@ -1,0 +1,15 @@
+<Amr sentence="Bu aralar bilim - kurgu filmlerine sardırdı .">
+<Word name="7/sardır" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/sardır" to="o" with="ARG0"/>
+<Word name="2/ara" positionX="750" positionY="200"/>
+<Connection from="7/sardır" to="2/ara" with="mod"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/ara" to="1/bu" with="mod"/>
+<Word name="6/film" positionX="850" positionY="200"/>
+<Connection from="7/sardır" to="6/film" with="ARG1"/>
+<Word name="5/kurgu" positionX="750" positionY="300"/>
+<Connection from="6/film" to="5/kurgu" with="mod"/>
+<Word name="3/bilim" positionX="650" positionY="400"/>
+<Connection from="5/kurgu" to="3/bilim"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Bu şansı kaçırdın .">
+<Word name="3/kaçır" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="3/kaçır" to="sen" with="ARG0"/>
+<Word name="2/şans" positionX="750" positionY="200"/>
+<Connection from="3/kaçır" to="2/şans" with="ARG1"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/şans" to="1/bu" with="mod"/>
+</Amr>

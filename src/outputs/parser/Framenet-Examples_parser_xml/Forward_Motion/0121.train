@@ -1,0 +1,9 @@
+<Amr sentence="Küçük kediye yaklaştı .">
+<Word name="3/yaklaş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/yaklaş" to="o" with="ARG0"/>
+<Word name="2/kedi" positionX="750" positionY="200"/>
+<Connection from="3/yaklaş" to="2/kedi" with="ARG1"/>
+<Word name="1/küçük" positionX="650" positionY="300"/>
+<Connection from="2/kedi" to="1/küçük" with="mod"/>
+</Amr>

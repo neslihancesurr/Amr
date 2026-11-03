@@ -1,0 +1,17 @@
+<Amr sentence="Babası çok yorgun olduğu için oğlu direksiyona geçti .">
+<Word name="7/direksiyon 8/geç" positionX="750" positionY="100"/>
+<Word name="4/ol" positionX="650" positionY="200"/>
+<Connection from="7/direksiyon 8/geç" to="4/ol" with="cause"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/ol" to="o" with="poss"/>
+<Word name="1/baba" positionX="650" positionY="300"/>
+<Connection from="4/ol" to="1/baba" with="ARG0"/>
+<Connection from="1/baba" to="o" with="poss"/>
+<Word name="3/yorgun" positionX="750" positionY="300"/>
+<Connection from="4/ol" to="3/yorgun" with="manner"/>
+<Word name="2/çok" positionX="650" positionY="400"/>
+<Connection from="3/yorgun" to="2/çok" with="degree"/>
+<Word name="6/oğul" positionX="750" positionY="200"/>
+<Connection from="7/direksiyon 8/geç" to="6/oğul" with="ARG0"/>
+<Connection from="6/oğul" to="o" with="poss"/>
+</Amr>

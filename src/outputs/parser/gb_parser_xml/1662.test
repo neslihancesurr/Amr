@@ -1,0 +1,11 @@
+<Amr sentence="Ben bu rengi seçmezdim .">
+<Word name="4/seç" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/seç" to="-" with="polarity"/>
+<Word name="1/ben" positionX="750" positionY="200"/>
+<Connection from="4/seç" to="1/ben"/>
+<Word name="3/renk" positionX="850" positionY="200"/>
+<Connection from="4/seç" to="3/renk" with="ARG1"/>
+<Word name="2/bu" positionX="750" positionY="300"/>
+<Connection from="3/renk" to="2/bu" with="mod"/>
+</Amr>

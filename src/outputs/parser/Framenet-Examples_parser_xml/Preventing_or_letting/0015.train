@@ -1,0 +1,16 @@
+<Amr sentence="Gölge etme , başka ihsan istemez .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/gölge 2/et" positionX="650" positionY="200"/>
+<Connection from="and" to="1/gölge 2/et" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/gölge 2/et" to="o" with="ARG0"/>
+<Word name="6/iste" positionX="750" positionY="200"/>
+<Connection from="and" to="6/iste" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="6/iste" to="-" with="polarity"/>
+<Connection from="6/iste" to="o" with="ARG0"/>
+<Word name="5/ihsan" positionX="850" positionY="300"/>
+<Connection from="6/iste" to="5/ihsan" with="ARG1"/>
+<Word name="4/başka" positionX="750" positionY="400"/>
+<Connection from="5/ihsan" to="4/başka" with="mod"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Odam pek büyük değil .">
+<Word name="3/büyük" positionX="750" positionY="100"/>
+<Word name="1/oda" positionX="650" positionY="200"/>
+<Connection from="3/büyük" to="1/oda"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="1/oda" to="ben" with="poss"/>
+<Word name="2/pek" positionX="750" positionY="200"/>
+<Connection from="3/büyük" to="2/pek" with="manner"/>
+<Word name="-" positionX="850" positionY="200"/>
+<Connection from="3/büyük" to="-" with="polarity"/>
+</Amr>

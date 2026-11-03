@@ -1,0 +1,11 @@
+<Amr sentence="Çıkan yangından sonra fabrika zayiat verdi .">
+<Word name="5/zayiat 6/ver" positionX="750" positionY="100"/>
+<Word name="2/yangın" positionX="650" positionY="200"/>
+<Connection from="5/zayiat 6/ver" to="2/yangın"/>
+<Word name="1/çık" positionX="550" positionY="300"/>
+<Connection from="2/yangın" to="1/çık" with="mod"/>
+<Word name="3/sonra" positionX="650" positionY="300"/>
+<Connection from="2/yangın" to="3/sonra"/>
+<Word name="4/fabrika" positionX="750" positionY="200"/>
+<Connection from="5/zayiat 6/ver" to="4/fabrika" with="ARG0"/>
+</Amr>

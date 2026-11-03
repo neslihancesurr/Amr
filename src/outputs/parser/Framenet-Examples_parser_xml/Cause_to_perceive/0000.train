@@ -1,0 +1,12 @@
+<Amr sentence="Problemin çözümünü profesörüne açıkladı .">
+<Word name="4/açıkla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/açıkla" to="o" with="ARG0"/>
+<Word name="2/çözüm" positionX="750" positionY="200"/>
+<Connection from="4/açıkla" to="2/çözüm" with="ARG1"/>
+<Word name="1/problem" positionX="650" positionY="300"/>
+<Connection from="2/çözüm" to="1/problem" with="mod"/>
+<Word name="3/profesör" positionX="850" positionY="200"/>
+<Connection from="4/açıkla" to="3/profesör" with="ARG2"/>
+<Connection from="3/profesör" to="o" with="poss"/>
+</Amr>

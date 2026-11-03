@@ -1,0 +1,26 @@
+<Amr sentence="Bihter kaybettiği küpesini bulmak için el feneriyle odayı iyice araştırdı .">
+<Word name="10/araştır" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="10/araştır" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/bihter" positionX="450" positionY="400"/>
+<Connection from="name" to="1/bihter" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/bul" positionX="750" positionY="200"/>
+<Connection from="10/araştır" to="4/bul" with="cause"/>
+<Word name="3/küpe" positionX="650" positionY="300"/>
+<Connection from="4/bul" to="3/küpe" with="ARG1"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="3/küpe" to="o" with="poss"/>
+<Word name="2/kaybet" positionX="650" positionY="400"/>
+<Connection from="3/küpe" to="2/kaybet"/>
+<Connection from="2/kaybet" to="o" with="poss"/>
+<Word name="6/el 7/fener" positionX="850" positionY="200"/>
+<Connection from="10/araştır" to="6/el 7/fener" with="instrument"/>
+<Word name="8/oda" positionX="950" positionY="200"/>
+<Connection from="10/araştır" to="8/oda" with="ARG1"/>
+<Word name="9/iyi" positionX="1050" positionY="200"/>
+<Connection from="10/araştır" to="9/iyi" with="manner"/>
+</Amr>

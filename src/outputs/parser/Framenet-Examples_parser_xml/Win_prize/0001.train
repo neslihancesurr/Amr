@@ -1,0 +1,11 @@
+<Amr sentence="Bu ödülü hak ettim .">
+<Word name="3/hak 4/et" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/hak 4/et" to="ben" with="ARG0"/>
+<Word name="2/ödül" positionX="750" positionY="200"/>
+<Connection from="3/hak 4/et" to="2/ödül" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/ödül" to="o" with="poss"/>
+<Word name="1/bu" positionX="750" positionY="300"/>
+<Connection from="2/ödül" to="1/bu" with="mod"/>
+</Amr>

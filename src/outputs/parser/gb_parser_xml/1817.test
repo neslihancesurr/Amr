@@ -1,0 +1,11 @@
+<Amr sentence="Garson temiz tabakları masaya koydu .">
+<Word name="5/koy" positionX="750" positionY="100"/>
+<Word name="1/garson" positionX="650" positionY="200"/>
+<Connection from="5/koy" to="1/garson" with="ARG0"/>
+<Word name="3/tabak" positionX="750" positionY="200"/>
+<Connection from="5/koy" to="3/tabak" with="ARG1"/>
+<Word name="2/temiz" positionX="650" positionY="300"/>
+<Connection from="3/tabak" to="2/temiz" with="mod"/>
+<Word name="4/masa" positionX="850" positionY="200"/>
+<Connection from="5/koy" to="4/masa"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Türkiye tonlarca hıyar ithal etti .">
+<Word name="4/ithal 5/et" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="4/ithal 5/et" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/türkiye" positionX="450" positionY="400"/>
+<Connection from="name" to="1/türkiye" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/hıyar" positionX="750" positionY="200"/>
+<Connection from="4/ithal 5/et" to="3/hıyar" with="ARG1"/>
+<Word name="2/tonlarca" positionX="650" positionY="300"/>
+<Connection from="3/hıyar" to="2/tonlarca" with="mod"/>
+</Amr>

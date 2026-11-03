@@ -1,0 +1,20 @@
+<Amr sentence="Sıcak bastı yine , yaz ayları hiç çekilmiyor .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/sıcak 2/bas" positionX="650" positionY="200"/>
+<Connection from="and" to="1/sıcak 2/bas" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/sıcak 2/bas" to="o" with="ARG0"/>
+<Word name="3/yine" positionX="650" positionY="300"/>
+<Connection from="1/sıcak 2/bas" to="3/yine" with="manner"/>
+<Word name="8/çekil" positionX="750" positionY="200"/>
+<Connection from="and" to="8/çekil" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="8/çekil" to="-" with="polarity"/>
+<Connection from="8/çekil" to="o" with="ARG0"/>
+<Word name="6/ay" positionX="850" positionY="300"/>
+<Connection from="8/çekil" to="6/ay" with="ARG1"/>
+<Word name="5/yaz" positionX="750" positionY="400"/>
+<Connection from="6/ay" to="5/yaz" with="mod"/>
+<Word name="7/hiç" positionX="950" positionY="300"/>
+<Connection from="8/çekil" to="7/hiç" with="degree"/>
+</Amr>

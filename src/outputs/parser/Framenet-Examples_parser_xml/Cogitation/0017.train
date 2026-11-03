@@ -1,0 +1,21 @@
+<Amr sentence="Yola çıkmayı düşünmek gerek .">
+<Word name="4/gerek" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="4/gerek" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="4/gerek" to="imperative" with="mode"/>
+<Word name="3/düşün" positionX="850" positionY="200"/>
+<Connection from="4/gerek" to="3/düşün"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="3/düşün" to="o" with="ARG0"/>
+<Word name="person" positionX="850" positionY="300"/>
+<Connection from="3/düşün" to="person" with="ARG1"/>
+<Word name="name" positionX="750" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/yola" positionX="650" positionY="500"/>
+<Connection from="name" to="1/yola" with="op1"/>
+<Word name="2/çık" positionX="750" positionY="500"/>
+<Connection from="name" to="2/çık" with="op2"/>
+<Word name="-" positionX="850" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

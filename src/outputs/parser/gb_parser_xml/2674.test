@@ -1,0 +1,9 @@
+<Amr sentence="İkisi de iyi üniversite .">
+<Word name="4/üniversite" positionX="750" positionY="100"/>
+<Word name="1/iki" positionX="650" positionY="200"/>
+<Connection from="4/üniversite" to="1/iki"/>
+<Word name="2/de" positionX="550" positionY="300"/>
+<Connection from="1/iki" to="2/de"/>
+<Word name="3/iyi" positionX="750" positionY="200"/>
+<Connection from="4/üniversite" to="3/iyi" with="mod"/>
+</Amr>

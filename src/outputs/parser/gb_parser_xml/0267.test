@@ -1,0 +1,9 @@
+<Amr sentence="Bugün işte olurum .">
+<Word name="2/iş:location" positionX="750" positionY="100"/>
+<Word name="1/bugün" positionX="650" positionY="200"/>
+<Connection from="2/iş:location" to="1/bugün"/>
+<Word name="3/ol" positionX="750" positionY="200"/>
+<Connection from="2/iş:location" to="3/ol"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="3/ol" to="ben" with="ARG0"/>
+</Amr>

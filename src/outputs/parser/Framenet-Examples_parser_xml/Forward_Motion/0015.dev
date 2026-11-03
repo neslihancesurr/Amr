@@ -1,0 +1,15 @@
+<Amr sentence="Aliş kulübeye girerken tozu dumana kattı .">
+<Word name="4/toz 5/duman 6/kat" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="4/toz 5/duman 6/kat" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/aliş" positionX="450" positionY="400"/>
+<Connection from="name" to="1/aliş" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/gir" positionX="750" positionY="200"/>
+<Connection from="4/toz 5/duman 6/kat" to="3/gir"/>
+<Word name="2/kulübe" positionX="650" positionY="300"/>
+<Connection from="3/gir" to="2/kulübe" with="ARG1"/>
+</Amr>

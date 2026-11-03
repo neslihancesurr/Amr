@@ -1,0 +1,26 @@
+<Amr sentence="Üzüntüsünden dolayı Ayşe o akşamki toplantımıza katılamadı .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="7/katıl" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="7/katıl"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="7/katıl" to="-" with="polarity"/>
+<Word name="1/üzüntü" positionX="650" positionY="300"/>
+<Connection from="7/katıl" to="1/üzüntü" with="cause"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="1/üzüntü" to="o" with="poss"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="7/katıl" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/ayşe" positionX="550" positionY="500"/>
+<Connection from="name" to="3/ayşe" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="6/toplantı" positionX="850" positionY="300"/>
+<Connection from="7/katıl" to="6/toplantı" with="ARG1"/>
+<Word name="biz" positionX="750" positionY="400"/>
+<Connection from="6/toplantı" to="biz" with="poss"/>
+<Word name="5/akşam" positionX="850" positionY="400"/>
+<Connection from="6/toplantı" to="5/akşam" with="mod"/>
+<Word name="4/o" positionX="750" positionY="500"/>
+<Connection from="5/akşam" to="4/o" with="mod"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr sentence="Babasını mı özlemiş Hasan ?">
+<Word name="3/özle" positionX="750" positionY="100"/>
+<Word name="1/baba" positionX="650" positionY="200"/>
+<Connection from="3/özle" to="1/baba" with="ARG1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/baba" to="o" with="poss"/>
+<Word name="2/mi" positionX="650" positionY="300"/>
+<Connection from="1/baba" to="2/mi"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="3/özle" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="4/hasan" positionX="550" positionY="400"/>
+<Connection from="name" to="4/hasan" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

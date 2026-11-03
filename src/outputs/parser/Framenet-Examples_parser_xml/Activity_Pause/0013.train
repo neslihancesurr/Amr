@@ -1,0 +1,11 @@
+<Amr sentence="Fabrika mal beklerken tatile girdi .">
+<Word name="4/tatil 5/gir" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/tatil 5/gir" to="o" with="ARG0"/>
+<Word name="1/fabrika" positionX="750" positionY="200"/>
+<Connection from="4/tatil 5/gir" to="1/fabrika" with="ARG1"/>
+<Word name="3/bekle" positionX="850" positionY="200"/>
+<Connection from="4/tatil 5/gir" to="3/bekle"/>
+<Word name="2/mal" positionX="750" positionY="300"/>
+<Connection from="3/bekle" to="2/mal" with="ARG1"/>
+</Amr>

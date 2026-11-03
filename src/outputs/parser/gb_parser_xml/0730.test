@@ -1,0 +1,11 @@
+<Amr sentence="bizimkinden daha az gürültülü bir sokak">
+<Word name="6/sokak" positionX="750" positionY="100"/>
+<Word name="4/gürültülü" positionX="650" positionY="200"/>
+<Connection from="6/sokak" to="4/gürültülü" with="mod"/>
+<Word name="3/az" positionX="550" positionY="300"/>
+<Connection from="4/gürültülü" to="3/az" with="manner"/>
+<Word name="2/daha" positionX="450" positionY="400"/>
+<Connection from="3/az" to="2/daha" with="degree"/>
+<Word name="1/bizimki" positionX="350" positionY="500"/>
+<Connection from="2/daha" to="1/bizimki" with="manner"/>
+</Amr>

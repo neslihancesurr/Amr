@@ -1,0 +1,15 @@
+<Amr sentence="Bu bilgisayardaki bilgileri diğer bilgisayara yükleyelim .">
+<Word name="6/yükle" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="6/yükle" to="biz" with="ARG0"/>
+<Word name="3/bilgi" positionX="750" positionY="200"/>
+<Connection from="6/yükle" to="3/bilgi" with="ARG1"/>
+<Word name="2/bilgisayar" positionX="650" positionY="300"/>
+<Connection from="3/bilgi" to="2/bilgisayar" with="mod"/>
+<Word name="1/bu" positionX="550" positionY="400"/>
+<Connection from="2/bilgisayar" to="1/bu" with="mod"/>
+<Word name="5/bilgisayar" positionX="850" positionY="200"/>
+<Connection from="6/yükle" to="5/bilgisayar" with="ARG2"/>
+<Word name="4/diğer" positionX="750" positionY="300"/>
+<Connection from="5/bilgisayar" to="4/diğer" with="mod"/>
+</Amr>

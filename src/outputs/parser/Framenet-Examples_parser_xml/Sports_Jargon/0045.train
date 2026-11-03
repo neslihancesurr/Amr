@@ -1,0 +1,21 @@
+<Amr sentence="Hakan bu sefer topu öyle bir bloke etti ki !">
+<Word name="7/bloke 8/et" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="7/bloke 8/et" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/hakan" positionX="450" positionY="400"/>
+<Connection from="name" to="1/hakan" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/bu 3/sefer" positionX="750" positionY="200"/>
+<Connection from="7/bloke 8/et" to="2/bu 3/sefer"/>
+<Word name="4/top" positionX="850" positionY="200"/>
+<Connection from="7/bloke 8/et" to="4/top" with="ARG1"/>
+<Word name="5/öyle" positionX="950" positionY="200"/>
+<Connection from="7/bloke 8/et" to="5/öyle" with="manner"/>
+<Word name="6/bir" positionX="850" positionY="300"/>
+<Connection from="5/öyle" to="6/bir"/>
+<Word name="9/ki" positionX="1050" positionY="200"/>
+<Connection from="7/bloke 8/et" to="9/ki"/>
+</Amr>

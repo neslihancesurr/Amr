@@ -1,0 +1,25 @@
+<Amr sentence="Ali , babası öldükten iki ay sonra doğdu .">
+<Word name="8/doğ" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="8/doğ" to="o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="8/doğ" to="person"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ali" positionX="550" positionY="400"/>
+<Connection from="name" to="1/ali" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/öl" positionX="850" positionY="200"/>
+<Connection from="8/doğ" to="4/öl"/>
+<Connection from="4/öl" to="o" with="ARG0"/>
+<Word name="3/baba" positionX="850" positionY="300"/>
+<Connection from="4/öl" to="3/baba"/>
+<Connection from="3/baba" to="o" with="poss"/>
+<Word name="7/sonra" positionX="950" positionY="300"/>
+<Connection from="4/öl" to="7/sonra"/>
+<Word name="6/ay" positionX="850" positionY="400"/>
+<Connection from="7/sonra" to="6/ay"/>
+<Word name="5/iki" positionX="750" positionY="500"/>
+<Connection from="6/ay" to="5/iki"/>
+</Amr>

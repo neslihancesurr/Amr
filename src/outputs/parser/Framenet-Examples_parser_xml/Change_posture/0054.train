@@ -1,0 +1,9 @@
+<Amr sentence="Duvara doğru arka verdi .">
+<Word name="3/arka 4/ver" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/arka 4/ver" to="o" with="ARG0"/>
+<Word name="1/duvar" positionX="750" positionY="200"/>
+<Connection from="3/arka 4/ver" to="1/duvar" with="ARG2"/>
+<Word name="2/doğru" positionX="650" positionY="300"/>
+<Connection from="1/duvar" to="2/doğru"/>
+</Amr>

@@ -1,0 +1,12 @@
+<Amr sentence="Kızmıştım , bir tane salladım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/kız" positionX="650" positionY="200"/>
+<Connection from="and" to="1/kız" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="1/kız" to="ben" with="ARG0"/>
+<Word name="5/salla" positionX="750" positionY="200"/>
+<Connection from="and" to="5/salla" with="op2"/>
+<Connection from="5/salla" to="ben" with="ARG0"/>
+<Word name="3/bir" positionX="750" positionY="300"/>
+<Connection from="5/salla" to="3/bir"/>
+</Amr>

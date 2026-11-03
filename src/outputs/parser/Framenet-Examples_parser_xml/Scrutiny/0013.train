@@ -1,0 +1,23 @@
+<Amr sentence="Onun geçmişiyle ilgili bilgi alabilmek için bütün kayıtları teker teker heyecanla taradı .">
+<Word name="12/tara" positionX="750" positionY="100"/>
+<Word name="mümkün" positionX="650" positionY="200"/>
+<Connection from="12/tara" to="mümkün"/>
+<Word name="5/al" positionX="550" positionY="300"/>
+<Connection from="mümkün" to="5/al" with="cause"/>
+<Word name="4/bilgi" positionX="450" positionY="400"/>
+<Connection from="5/al" to="4/bilgi" with="ARG1"/>
+<Word name="3/ilgili" positionX="350" positionY="500"/>
+<Connection from="4/bilgi" to="3/ilgili" with="mod"/>
+<Word name="2/geçmiş" positionX="250" positionY="600"/>
+<Connection from="3/ilgili" to="2/geçmiş" with="instrument"/>
+<Word name="1/o" positionX="150" positionY="700"/>
+<Connection from="2/geçmiş" to="1/o" with="mod"/>
+<Word name="8/kayıt" positionX="750" positionY="200"/>
+<Connection from="12/tara" to="8/kayıt" with="ARG1"/>
+<Word name="7/bütün" positionX="650" positionY="300"/>
+<Connection from="8/kayıt" to="7/bütün" with="mod"/>
+<Word name="9/teker 10/teker" positionX="850" positionY="200"/>
+<Connection from="12/tara" to="9/teker 10/teker"/>
+<Word name="11/heyecanla" positionX="950" positionY="200"/>
+<Connection from="12/tara" to="11/heyecanla" with="manner"/>
+</Amr>

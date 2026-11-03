@@ -1,0 +1,23 @@
+<Amr sentence="Bize o kadar büyük bir para vereceklerine inanmamıştım .">
+<Word name="8/inan" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="8/inan" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="8/inan" to="ben" with="ARG0"/>
+<Word name="7/ver" positionX="850" positionY="200"/>
+<Connection from="8/inan" to="7/ver"/>
+<Word name="onlar" positionX="750" positionY="300"/>
+<Connection from="7/ver" to="onlar" with="ARG0"/>
+<Word name="o" positionX="850" positionY="300"/>
+<Connection from="7/ver" to="o" with="poss"/>
+<Word name="1/biz" positionX="950" positionY="300"/>
+<Connection from="7/ver" to="1/biz"/>
+<Word name="6/para" positionX="1050" positionY="300"/>
+<Connection from="7/ver" to="6/para"/>
+<Word name="4/büyük" positionX="950" positionY="400"/>
+<Connection from="6/para" to="4/büyük" with="mod"/>
+<Word name="2/o" positionX="850" positionY="500"/>
+<Connection from="4/büyük" to="2/o" with="mod"/>
+<Word name="3/kadar" positionX="750" positionY="600"/>
+<Connection from="2/o" to="3/kadar"/>
+</Amr>

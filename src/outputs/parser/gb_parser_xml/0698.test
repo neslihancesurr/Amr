@@ -1,0 +1,15 @@
+<Amr sentence="Otobüste sadece iki kişilik yer kalmış .">
+<Word name="6/kal" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/kal" to="o" with="ARG0"/>
+<Word name="1/otobüs" positionX="750" positionY="200"/>
+<Connection from="6/kal" to="1/otobüs" with="ARG1"/>
+<Word name="5/yer" positionX="850" positionY="200"/>
+<Connection from="6/kal" to="5/yer"/>
+<Word name="4/kişilik" positionX="750" positionY="300"/>
+<Connection from="5/yer" to="4/kişilik" with="mod"/>
+<Word name="2/sadece" positionX="650" positionY="400"/>
+<Connection from="4/kişilik" to="2/sadece" with="manner"/>
+<Word name="3/iki" positionX="750" positionY="400"/>
+<Connection from="4/kişilik" to="3/iki"/>
+</Amr>

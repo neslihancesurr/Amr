@@ -1,0 +1,5 @@
+<Amr sentence="Mahallenin takımı ne zaman deplasmana çıksa oyun veriyor .">
+<Word name="7/oyun 8/ver" positionX="750" positionY="100"/>
+<Word name="5/deplasman 6/çık" positionX="650" positionY="200"/>
+<Connection from="7/oyun 8/ver" to="5/deplasman 6/çık"/>
+</Amr>

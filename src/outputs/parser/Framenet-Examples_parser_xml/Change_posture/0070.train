@@ -1,0 +1,13 @@
+<Amr sentence="Spor yaptıktan sonra kalıp gibi serildim .">
+<Word name="4/kal 5/gibi 6/seril" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/kal 5/gibi 6/seril" to="ben" with="ARG0"/>
+<Word name="2/yap" positionX="750" positionY="200"/>
+<Connection from="4/kal 5/gibi 6/seril" to="2/yap"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/yap" to="o" with="ARG0"/>
+<Word name="1/spor" positionX="750" positionY="300"/>
+<Connection from="2/yap" to="1/spor" with="ARG1"/>
+<Word name="3/sonra" positionX="850" positionY="300"/>
+<Connection from="2/yap" to="3/sonra"/>
+</Amr>

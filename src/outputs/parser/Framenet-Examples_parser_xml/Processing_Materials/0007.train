@@ -1,0 +1,14 @@
+<Amr sentence="Steril etmek için ürünlerin hepsini kolonyaladı .">
+<Word name="6/kolonyala" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/kolonyala" to="o" with="ARG0"/>
+<Word name="2/et" positionX="750" positionY="200"/>
+<Connection from="6/kolonyala" to="2/et" with="cause"/>
+<Connection from="2/et" to="o" with="ARG0"/>
+<Word name="1/steril" positionX="750" positionY="300"/>
+<Connection from="2/et" to="1/steril" with="mod"/>
+<Word name="5/hepsi" positionX="850" positionY="200"/>
+<Connection from="6/kolonyala" to="5/hepsi" with="ARG1"/>
+<Word name="4/ürün" positionX="750" positionY="300"/>
+<Connection from="5/hepsi" to="4/ürün" with="mod"/>
+</Amr>

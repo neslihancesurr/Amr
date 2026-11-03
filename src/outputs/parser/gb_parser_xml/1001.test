@@ -1,0 +1,15 @@
+<Amr sentence="Sen bu konu üzerinde daha çok çalıştın .">
+<Word name="7/çalış" positionX="750" positionY="100"/>
+<Word name="1/sen" positionX="650" positionY="200"/>
+<Connection from="7/çalış" to="1/sen" with="ARG0"/>
+<Word name="4/üzerinde" positionX="750" positionY="200"/>
+<Connection from="7/çalış" to="4/üzerinde" with="ARG1"/>
+<Word name="3/konu" positionX="650" positionY="300"/>
+<Connection from="4/üzerinde" to="3/konu" with="mod"/>
+<Word name="2/bu" positionX="550" positionY="400"/>
+<Connection from="3/konu" to="2/bu" with="mod"/>
+<Word name="6/çok" positionX="850" positionY="200"/>
+<Connection from="7/çalış" to="6/çok" with="degree"/>
+<Word name="5/daha" positionX="750" positionY="300"/>
+<Connection from="6/çok" to="5/daha" with="degree"/>
+</Amr>

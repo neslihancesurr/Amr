@@ -1,0 +1,11 @@
+<Amr sentence="Meliha o ikisini ayırmanın bir kolayını buldu .">
+<Word name="5/bir 6/kolay 7/bul" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="5/bir 6/kolay 7/bul" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/meliha" positionX="450" positionY="400"/>
+<Connection from="name" to="1/meliha" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

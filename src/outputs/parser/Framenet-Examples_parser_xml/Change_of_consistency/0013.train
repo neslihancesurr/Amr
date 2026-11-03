@@ -1,0 +1,7 @@
+<Amr sentence="Soğuktan kıyafetler kemikleşmiş">
+<Word name="3/kemikleş" positionX="750" positionY="100"/>
+<Word name="1/soğuk" positionX="650" positionY="200"/>
+<Connection from="3/kemikleş" to="1/soğuk"/>
+<Word name="2/kıyafet" positionX="750" positionY="200"/>
+<Connection from="3/kemikleş" to="2/kıyafet" with="ARG1"/>
+</Amr>

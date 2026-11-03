@@ -1,0 +1,13 @@
+<Amr sentence="Biz her zaman bu tavırlarını iyiye çektik .">
+<Word name="6/iyi 7/çek" positionX="750" positionY="100"/>
+<Word name="1/biz" positionX="650" positionY="200"/>
+<Connection from="6/iyi 7/çek" to="1/biz" with="ARG0"/>
+<Word name="2/her 3/zaman" positionX="750" positionY="200"/>
+<Connection from="6/iyi 7/çek" to="2/her 3/zaman" with="mod"/>
+<Word name="5/tavır" positionX="850" positionY="200"/>
+<Connection from="6/iyi 7/çek" to="5/tavır" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="5/tavır" to="o" with="poss"/>
+<Word name="4/bu" positionX="850" positionY="300"/>
+<Connection from="5/tavır" to="4/bu" with="mod"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Çok kritik bir dakikada bizim takım gol kaçırdı .">
+<Word name="7/gol 8/kaçır" positionX="750" positionY="100"/>
+<Word name="4/dakika" positionX="650" positionY="200"/>
+<Connection from="7/gol 8/kaçır" to="4/dakika" with="location"/>
+<Word name="2/kritik" positionX="550" positionY="300"/>
+<Connection from="4/dakika" to="2/kritik" with="mod"/>
+<Word name="1/çok" positionX="450" positionY="400"/>
+<Connection from="2/kritik" to="1/çok" with="degree"/>
+<Word name="6/takım" positionX="750" positionY="200"/>
+<Connection from="7/gol 8/kaçır" to="6/takım" with="ARG0"/>
+<Word name="5/biz" positionX="650" positionY="300"/>
+<Connection from="6/takım" to="5/biz" with="mod"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Karşı takım pasları engellemek için sürekli baskı yaptı .">
+<Word name="7/baskı 8/yap" positionX="750" positionY="100"/>
+<Word name="2/takım" positionX="650" positionY="200"/>
+<Connection from="7/baskı 8/yap" to="2/takım" with="ARG0"/>
+<Word name="1/karşı" positionX="550" positionY="300"/>
+<Connection from="2/takım" to="1/karşı" with="mod"/>
+<Word name="4/engelle" positionX="750" positionY="200"/>
+<Connection from="7/baskı 8/yap" to="4/engelle" with="ARG1"/>
+<Word name="3/pas" positionX="650" positionY="300"/>
+<Connection from="4/engelle" to="3/pas" with="ARG1"/>
+<Word name="5/için" positionX="750" positionY="300"/>
+<Connection from="4/engelle" to="5/için"/>
+<Word name="6/sürekli" positionX="850" positionY="200"/>
+<Connection from="7/baskı 8/yap" to="6/sürekli" with="frequency"/>
+</Amr>

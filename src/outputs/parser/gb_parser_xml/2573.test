@@ -1,0 +1,24 @@
+<Amr sentence="Mehmet'i birkaç defa sokakta gördümse de konuşmadık .">
+<Word name="7/konuş" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="7/konuş" to="-" with="polarity"/>
+<Word name="biz" positionX="750" positionY="200"/>
+<Connection from="7/konuş" to="biz" with="ARG0"/>
+<Word name="5/gördümse" positionX="850" positionY="200"/>
+<Connection from="7/konuş" to="5/gördümse"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="5/gördümse" to="person"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/mehmet" positionX="550" positionY="500"/>
+<Connection from="name" to="1/mehmet" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/defa" positionX="850" positionY="300"/>
+<Connection from="5/gördümse" to="3/defa"/>
+<Word name="2/birkaç" positionX="750" positionY="400"/>
+<Connection from="3/defa" to="2/birkaç" with="mod"/>
+<Word name="4/sokak" positionX="950" positionY="300"/>
+<Connection from="5/gördümse" to="4/sokak" with="location"/>
+<Word name="6/de" positionX="1050" positionY="300"/>
+<Connection from="5/gördümse" to="6/de"/>
+</Amr>

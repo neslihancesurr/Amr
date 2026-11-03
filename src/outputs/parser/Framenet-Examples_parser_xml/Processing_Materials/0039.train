@@ -1,0 +1,18 @@
+<Amr sentence="Filmleri açındıralım ki bu konu hakkında bir bilgi edinelim .">
+<Word name="8/bilgi 9/edin" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="8/bilgi 9/edin" to="biz" with="ARG0"/>
+<Word name="2/açındır" positionX="750" positionY="200"/>
+<Connection from="8/bilgi 9/edin" to="2/açındır"/>
+<Connection from="2/açındır" to="biz" with="ARG0"/>
+<Word name="1/film" positionX="750" positionY="300"/>
+<Connection from="2/açındır" to="1/film" with="ARG1"/>
+<Word name="3/ki" positionX="850" positionY="300"/>
+<Connection from="2/açındır" to="3/ki"/>
+<Word name="6/hakkında" positionX="850" positionY="200"/>
+<Connection from="8/bilgi 9/edin" to="6/hakkında" with="manner"/>
+<Word name="5/konu" positionX="750" positionY="300"/>
+<Connection from="6/hakkında" to="5/konu" with="mod"/>
+<Word name="4/bu" positionX="650" positionY="400"/>
+<Connection from="5/konu" to="4/bu" with="mod"/>
+</Amr>

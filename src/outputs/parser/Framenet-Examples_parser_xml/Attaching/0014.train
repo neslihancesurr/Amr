@@ -1,0 +1,20 @@
+<Amr sentence="Atmosferin hemen dışında iki uzay aracı malzeme alış verişi için kenetlendi .">
+<Word name="11/kenetlen" positionX="750" positionY="100"/>
+<Word name="3/dış" positionX="650" positionY="200"/>
+<Connection from="11/kenetlen" to="3/dış" with="mod"/>
+<Word name="1/atmosfer" positionX="550" positionY="300"/>
+<Connection from="3/dış" to="1/atmosfer" with="mod"/>
+<Word name="2/hemen" positionX="650" positionY="300"/>
+<Connection from="3/dış" to="2/hemen" with="manner"/>
+<Word name="5/uzay 6/aracı" positionX="750" positionY="200"/>
+<Connection from="11/kenetlen" to="5/uzay 6/aracı" with="ARG0"/>
+<Word name="9/ver" positionX="850" positionY="200"/>
+<Connection from="11/kenetlen" to="9/ver" with="cause"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="9/ver" to="o" with="ARG0"/>
+<Word name="7/malzeme" positionX="850" positionY="300"/>
+<Connection from="9/ver" to="7/malzeme" with="mod"/>
+<Word name="8/al" positionX="950" positionY="300"/>
+<Connection from="9/ver" to="8/al"/>
+<Connection from="8/al" to="o" with="ARG0"/>
+</Amr>

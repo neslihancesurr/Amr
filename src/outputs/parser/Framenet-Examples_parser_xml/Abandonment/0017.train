@@ -1,0 +1,27 @@
+<Amr sentence="Orada işine yaramayacağını söylese de giderken arabamı ona bıraktım .">
+<Word name="9/bırak" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="9/bırak" to="ben" with="ARG0"/>
+<Word name="4/söyle" positionX="750" positionY="200"/>
+<Connection from="9/bırak" to="4/söyle"/>
+<Word name="1/ora" positionX="650" positionY="300"/>
+<Connection from="4/söyle" to="1/ora" with="ARG1"/>
+<Word name="3/yara" positionX="750" positionY="300"/>
+<Connection from="4/söyle" to="3/yara" with="ARG1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="3/yara" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="400"/>
+<Connection from="3/yara" to="o" with="poss"/>
+<Word name="2/iş" positionX="850" positionY="400"/>
+<Connection from="3/yara" to="2/iş" with="ARG1"/>
+<Connection from="2/iş" to="o" with="poss"/>
+<Word name="5/de" positionX="850" positionY="300"/>
+<Connection from="4/söyle" to="5/de"/>
+<Word name="6/git" positionX="850" positionY="200"/>
+<Connection from="9/bırak" to="6/git"/>
+<Word name="7/git" positionX="950" positionY="200"/>
+<Connection from="9/bırak" to="7/git" with="ARG1"/>
+<Connection from="7/git" to="o" with="poss"/>
+<Word name="8/o" positionX="1050" positionY="200"/>
+<Connection from="9/bırak" to="8/o" with="ARG2"/>
+</Amr>

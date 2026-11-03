@@ -1,0 +1,22 @@
+<Amr sentence="Ankara'da resmen ayaz kesiyor , hiç alışkın değilim .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/ayaz 4/kes" positionX="650" positionY="200"/>
+<Connection from="and" to="3/ayaz 4/kes" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/ayaz 4/kes" to="o" with="ARG0"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="3/ayaz 4/kes" to="person" with="location"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ankara" positionX="450" positionY="500"/>
+<Connection from="name" to="1/ankara" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/resmen" positionX="750" positionY="300"/>
+<Connection from="3/ayaz 4/kes" to="2/resmen" with="manner"/>
+<Word name="7/alışkın" positionX="750" positionY="200"/>
+<Connection from="and" to="7/alışkın" with="op2"/>
+<Word name="6/hiç" positionX="650" positionY="300"/>
+<Connection from="7/alışkın" to="6/hiç" with="degree"/>
+<Connection from="7/alışkın" to="-" with="polarity"/>
+</Amr>

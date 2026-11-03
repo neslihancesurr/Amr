@@ -1,0 +1,9 @@
+<Amr sentence="Pastayı annemin anlattığı gibi yapmaya çalıştım .">
+<Word name="6/çalış" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="6/çalış" to="ben" with="ARG0"/>
+<Word name="4/gibi 5/yap" positionX="750" positionY="200"/>
+<Connection from="6/çalış" to="4/gibi 5/yap"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="4/gibi 5/yap" to="o" with="ARG0"/>
+</Amr>

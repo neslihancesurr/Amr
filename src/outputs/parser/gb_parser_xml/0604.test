@@ -1,0 +1,11 @@
+<Amr sentence="Padişahın som altından bir tahtı vardı .">
+<Word name="6/var" positionX="750" positionY="100"/>
+<Word name="1/padişah" positionX="650" positionY="200"/>
+<Connection from="6/var" to="1/padişah" with="mod"/>
+<Word name="5/taht" positionX="750" positionY="200"/>
+<Connection from="6/var" to="5/taht"/>
+<Word name="3/altın" positionX="650" positionY="300"/>
+<Connection from="5/taht" to="3/altın" with="mod"/>
+<Word name="2/som" positionX="550" positionY="400"/>
+<Connection from="3/altın" to="2/som" with="mod"/>
+</Amr>

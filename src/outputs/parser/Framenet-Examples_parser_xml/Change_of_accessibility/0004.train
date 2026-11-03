@@ -1,0 +1,9 @@
+<Amr sentence="Yabani otlar kuşattı güzelim bahçeyi .">
+<Word name="3/kuşat" positionX="750" positionY="100"/>
+<Word name="1/yabani 2/ot" positionX="650" positionY="200"/>
+<Connection from="3/kuşat" to="1/yabani 2/ot" with="ARG0"/>
+<Word name="5/bahçe" positionX="750" positionY="200"/>
+<Connection from="3/kuşat" to="5/bahçe" with="ARG1"/>
+<Word name="4/güzel" positionX="650" positionY="300"/>
+<Connection from="5/bahçe" to="4/güzel" with="mod"/>
+</Amr>

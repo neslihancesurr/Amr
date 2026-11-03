@@ -1,0 +1,9 @@
+<Amr sentence="Aynaya bak .">
+<Word name="2/bak" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="2/bak" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="2/bak" to="imperative" with="mode"/>
+<Word name="1/ayna" positionX="850" positionY="200"/>
+<Connection from="2/bak" to="1/ayna" with="ARG1"/>
+</Amr>

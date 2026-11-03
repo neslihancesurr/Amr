@@ -1,0 +1,17 @@
+<Amr sentence="Spor yapmayalı aylar oldu , formdan düştüm .">
+<Word name="6/form 7/düş" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="6/form 7/düş" to="ben" with="ARG0"/>
+<Word name="4/ol" positionX="750" positionY="200"/>
+<Connection from="6/form 7/düş" to="4/ol"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="4/ol" to="o" with="ARG0"/>
+<Word name="2/yap" positionX="750" positionY="300"/>
+<Connection from="4/ol" to="2/yap"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="2/yap" to="-" with="polarity"/>
+<Word name="1/spor" positionX="750" positionY="400"/>
+<Connection from="2/yap" to="1/spor" with="ARG1"/>
+<Word name="3/ay" positionX="850" positionY="300"/>
+<Connection from="4/ol" to="3/ay"/>
+</Amr>

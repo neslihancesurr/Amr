@@ -1,0 +1,20 @@
+<Amr sentence="Annemden kalma bir evim vardı . Onu rehine koyarak bir ev tuttuk .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/var" positionX="650" positionY="200"/>
+<Connection from="and" to="5/var" with="op1"/>
+<Word name="4/ev" positionX="550" positionY="300"/>
+<Connection from="5/var" to="4/ev"/>
+<Word name="ben" positionX="450" positionY="400"/>
+<Connection from="4/ev" to="ben" with="poss"/>
+<Word name="2/kal" positionX="550" positionY="400"/>
+<Connection from="4/ev" to="2/kal"/>
+<Word name="1/anne" positionX="450" positionY="500"/>
+<Connection from="2/kal" to="1/anne" with="ARG0"/>
+<Connection from="1/anne" to="ben" with="poss"/>
+<Word name="11/ev 12/tut" positionX="750" positionY="200"/>
+<Connection from="and" to="11/ev 12/tut" with="op2"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="11/ev 12/tut" to="biz" with="ARG0"/>
+<Word name="8/rehin 9/koy" positionX="750" positionY="300"/>
+<Connection from="11/ev 12/tut" to="8/rehin 9/koy"/>
+</Amr>

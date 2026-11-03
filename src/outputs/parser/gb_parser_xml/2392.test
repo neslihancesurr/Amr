@@ -1,0 +1,18 @@
+<Amr sentence="Deniz otobüsüyle geleceklerken fırtınadan dolayı arabayla gelmek zorunda kaldılar .">
+<Word name="8/zorun 9/kal" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="8/zorun 9/kal" to="onlar" with="ARG0"/>
+<Word name="7/gel" positionX="750" positionY="200"/>
+<Connection from="8/zorun 9/kal" to="7/gel"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="7/gel" to="o" with="ARG0"/>
+<Word name="3/gel" positionX="750" positionY="300"/>
+<Connection from="7/gel" to="3/gel"/>
+<Connection from="3/gel" to="onlar" with="ARG0"/>
+<Word name="1/deniz 2/otobüs" positionX="750" positionY="400"/>
+<Connection from="3/gel" to="1/deniz 2/otobüs" with="mod"/>
+<Word name="4/fırtına" positionX="850" positionY="300"/>
+<Connection from="7/gel" to="4/fırtına" with="cause"/>
+<Word name="6/araba" positionX="950" positionY="300"/>
+<Connection from="7/gel" to="6/araba" with="instrument"/>
+</Amr>

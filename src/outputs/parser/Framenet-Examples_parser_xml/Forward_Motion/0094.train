@@ -1,0 +1,9 @@
+<Amr sentence="Bütün memleketi , elini kolunu sallaya sallaya gezmişti .">
+<Word name="5/kol 6/salla 7/salla 8/gez" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/kol 6/salla 7/salla 8/gez" to="o" with="ARG0"/>
+<Word name="2/memleket" positionX="750" positionY="200"/>
+<Connection from="5/kol 6/salla 7/salla 8/gez" to="2/memleket" with="ARG1"/>
+<Word name="1/bütün" positionX="650" positionY="300"/>
+<Connection from="2/memleket" to="1/bütün" with="mod"/>
+</Amr>

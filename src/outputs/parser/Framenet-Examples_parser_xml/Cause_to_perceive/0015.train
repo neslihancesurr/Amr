@@ -1,0 +1,16 @@
+<Amr sentence="Köpeğime yerden yememeyi öğrettim .">
+<Word name="4/öğret" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/öğret" to="ben" with="ARG0"/>
+<Word name="1/köpek" positionX="750" positionY="200"/>
+<Connection from="4/öğret" to="1/köpek" with="ARG2"/>
+<Connection from="1/köpek" to="ben" with="poss"/>
+<Word name="3/ye" positionX="850" positionY="200"/>
+<Connection from="4/öğret" to="3/ye" with="ARG1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="3/ye" to="-" with="polarity"/>
+<Word name="o" positionX="850" positionY="300"/>
+<Connection from="3/ye" to="o" with="ARG0"/>
+<Word name="2/yer" positionX="950" positionY="300"/>
+<Connection from="3/ye" to="2/yer"/>
+</Amr>

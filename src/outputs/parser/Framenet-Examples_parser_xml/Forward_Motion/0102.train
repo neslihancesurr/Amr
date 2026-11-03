@@ -1,0 +1,9 @@
+<Amr sentence="Bir kaşıkçı kuşu çok yükseklerde tur atıyor .">
+<Word name="6/tur 7/at" positionX="750" positionY="100"/>
+<Word name="2/kaşıkçı 3/kuş" positionX="650" positionY="200"/>
+<Connection from="6/tur 7/at" to="2/kaşıkçı 3/kuş" with="ARG0"/>
+<Word name="5/yüksek" positionX="750" positionY="200"/>
+<Connection from="6/tur 7/at" to="5/yüksek" with="ARG1"/>
+<Word name="4/çok" positionX="650" positionY="300"/>
+<Connection from="5/yüksek" to="4/çok" with="degree"/>
+</Amr>

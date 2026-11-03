@@ -1,0 +1,13 @@
+<Amr sentence="Sen bu işi daha güzel yapardın .">
+<Word name="6/yap" positionX="750" positionY="100"/>
+<Word name="1/sen" positionX="650" positionY="200"/>
+<Connection from="6/yap" to="1/sen" with="ARG0"/>
+<Word name="3/iş" positionX="750" positionY="200"/>
+<Connection from="6/yap" to="3/iş" with="ARG1"/>
+<Word name="2/bu" positionX="650" positionY="300"/>
+<Connection from="3/iş" to="2/bu" with="mod"/>
+<Word name="5/güzel" positionX="850" positionY="200"/>
+<Connection from="6/yap" to="5/güzel" with="manner"/>
+<Word name="4/daha" positionX="750" positionY="300"/>
+<Connection from="5/güzel" to="4/daha" with="degree"/>
+</Amr>

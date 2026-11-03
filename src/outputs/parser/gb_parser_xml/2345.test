@@ -1,0 +1,27 @@
+<Amr sentence="Uçağa bindiğimiz zaman , ki ona daha iki saat var , rahatlayacağım .">
+<Word name="12/rahatla" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="12/rahatla" to="ben" with="ARG0"/>
+<Word name="and" positionX="750" positionY="200"/>
+<Connection from="12/rahatla" to="and"/>
+<Word name="10/var" positionX="650" positionY="300"/>
+<Connection from="and" to="10/var" with="op1"/>
+<Word name="5/ki" positionX="550" positionY="400"/>
+<Connection from="10/var" to="5/ki"/>
+<Word name="6/o" positionX="650" positionY="400"/>
+<Connection from="10/var" to="6/o"/>
+<Word name="9/saat" positionX="750" positionY="400"/>
+<Connection from="10/var" to="9/saat"/>
+<Word name="7/daha" positionX="650" positionY="500"/>
+<Connection from="9/saat" to="7/daha" with="degree"/>
+<Word name="8/iki" positionX="750" positionY="500"/>
+<Connection from="9/saat" to="8/iki"/>
+<Word name="3/zaman" positionX="750" positionY="300"/>
+<Connection from="and" to="3/zaman" with="op2"/>
+<Word name="2/bin" positionX="650" positionY="400"/>
+<Connection from="3/zaman" to="2/bin"/>
+<Word name="biz" positionX="550" positionY="500"/>
+<Connection from="2/bin" to="biz" with="poss"/>
+<Word name="1/uçak" positionX="650" positionY="500"/>
+<Connection from="2/bin" to="1/uçak"/>
+</Amr>

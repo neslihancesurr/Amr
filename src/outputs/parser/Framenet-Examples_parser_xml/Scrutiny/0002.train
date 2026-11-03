@@ -1,0 +1,5 @@
+<Amr sentence="Gazeteciler konuyla ilgili sondaj yapıyor .">
+<Word name="4/sondaj 5/yap" positionX="750" positionY="100"/>
+<Word name="1/gazeteci" positionX="650" positionY="200"/>
+<Connection from="4/sondaj 5/yap" to="1/gazeteci" with="ARG0"/>
+</Amr>

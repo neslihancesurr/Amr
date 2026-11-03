@@ -1,0 +1,8 @@
+<Amr sentence="Sinirinden aşağı yukarı yürüyordu .">
+<Word name="2/aşağı 3/yukarı 4/yürü" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="2/aşağı 3/yukarı 4/yürü" to="o" with="ARG0"/>
+<Word name="1/sinir" positionX="750" positionY="200"/>
+<Connection from="2/aşağı 3/yukarı 4/yürü" to="1/sinir"/>
+<Connection from="1/sinir" to="o" with="poss"/>
+</Amr>

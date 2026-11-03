@@ -1,0 +1,7 @@
+<Amr sentence="Bu çiçekler sizin içinmiş .">
+<Word name="3/siz:cause" positionX="750" positionY="100"/>
+<Word name="2/çiçek" positionX="650" positionY="200"/>
+<Connection from="3/siz:cause" to="2/çiçek"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/çiçek" to="1/bu" with="mod"/>
+</Amr>

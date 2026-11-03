@@ -1,0 +1,10 @@
+<Amr sentence="Doktorun söylediklerini kara kara düşünüyordu .">
+<Word name="3/kara 4/kara 5/düşün" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/kara 4/kara 5/düşün" to="o" with="ARG0"/>
+<Word name="2/söyle" positionX="750" positionY="200"/>
+<Connection from="3/kara 4/kara 5/düşün" to="2/söyle" with="ARG1"/>
+<Connection from="2/söyle" to="o" with="poss"/>
+<Word name="1/doktor" positionX="750" positionY="300"/>
+<Connection from="2/söyle" to="1/doktor" with="ARG0"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Çocuk daha çok anneannesinin yanında kalıyor .">
+<Word name="6/kal" positionX="750" positionY="100"/>
+<Word name="1/çocuk" positionX="650" positionY="200"/>
+<Connection from="6/kal" to="1/çocuk" with="ARG0"/>
+<Word name="2/daha" positionX="750" positionY="200"/>
+<Connection from="6/kal" to="2/daha" with="degree"/>
+<Word name="3/çok" positionX="650" positionY="300"/>
+<Connection from="2/daha" to="3/çok" with="degree"/>
+<Word name="5/yan" positionX="850" positionY="200"/>
+<Connection from="6/kal" to="5/yan" with="ARG1"/>
+<Word name="4/anneanne" positionX="750" positionY="300"/>
+<Connection from="5/yan" to="4/anneanne" with="mod"/>
+</Amr>

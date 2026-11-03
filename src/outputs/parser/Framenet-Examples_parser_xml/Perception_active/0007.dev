@@ -1,0 +1,13 @@
+<Amr sentence="Durup durup kıza elleşme !">
+<Word name="4/elle" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/elle" to="-" with="polarity"/>
+<Word name="sen" positionX="750" positionY="200"/>
+<Connection from="4/elle" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="850" positionY="200"/>
+<Connection from="4/elle" to="imperative" with="mode"/>
+<Word name="1/dur 2/dur" positionX="950" positionY="200"/>
+<Connection from="4/elle" to="1/dur 2/dur"/>
+<Word name="3/kız" positionX="1050" positionY="200"/>
+<Connection from="4/elle" to="3/kız" with="ARG1"/>
+</Amr>

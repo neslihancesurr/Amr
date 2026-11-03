@@ -1,0 +1,13 @@
+<Amr sentence="Bu akşam güzel bir film seyretsek .">
+<Word name="6/seyret" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="6/seyret" to="biz" with="ARG0"/>
+<Word name="2/akşam" positionX="750" positionY="200"/>
+<Connection from="6/seyret" to="2/akşam"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/akşam" to="1/bu" with="mod"/>
+<Word name="5/film" positionX="850" positionY="200"/>
+<Connection from="6/seyret" to="5/film" with="ARG1"/>
+<Word name="3/güzel" positionX="750" positionY="300"/>
+<Connection from="5/film" to="3/güzel" with="mod"/>
+</Amr>

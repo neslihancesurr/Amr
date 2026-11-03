@@ -1,0 +1,18 @@
+<Amr sentence="Çocukları tatile götürüp götürmemeye henüz karar vermediler .">
+<Word name="6/karar 7/ver" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="6/karar 7/ver" to="-" with="polarity"/>
+<Word name="onlar" positionX="750" positionY="200"/>
+<Connection from="6/karar 7/ver" to="onlar" with="ARG0"/>
+<Word name="3/götür 4/götür" positionX="850" positionY="200"/>
+<Connection from="6/karar 7/ver" to="3/götür 4/götür"/>
+<Connection from="3/götür 4/götür" to="-" with="polarity"/>
+<Word name="o" positionX="850" positionY="300"/>
+<Connection from="3/götür 4/götür" to="o" with="ARG0"/>
+<Word name="1/çocuk" positionX="950" positionY="300"/>
+<Connection from="3/götür 4/götür" to="1/çocuk" with="ARG1"/>
+<Word name="2/tatil" positionX="1050" positionY="300"/>
+<Connection from="3/götür 4/götür" to="2/tatil"/>
+<Word name="5/henüz" positionX="950" positionY="200"/>
+<Connection from="6/karar 7/ver" to="5/henüz" with="manner"/>
+</Amr>

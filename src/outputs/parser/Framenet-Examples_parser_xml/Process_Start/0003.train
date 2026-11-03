@@ -1,0 +1,17 @@
+<Amr sentence="Öğrenciler Eylül'ün ilk haftası ders başı yaptılar .">
+<Word name="5/ders 6/baş 7/yap" positionX="750" positionY="100"/>
+<Word name="1/öğrenci" positionX="650" positionY="200"/>
+<Connection from="5/ders 6/baş 7/yap" to="1/öğrenci" with="ARG0"/>
+<Word name="4/hafta" positionX="750" positionY="200"/>
+<Connection from="5/ders 6/baş 7/yap" to="4/hafta" with="mod"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="4/hafta" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/eylül" positionX="450" positionY="500"/>
+<Connection from="name" to="2/eylül" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/ilk" positionX="750" positionY="300"/>
+<Connection from="4/hafta" to="3/ilk" with="mod"/>
+</Amr>

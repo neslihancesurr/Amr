@@ -1,0 +1,24 @@
+<Amr sentence="Filiz Türkiye'de olsaymış nikahınıza gelirmiş .">
+<Word name="5/gel" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/gel" to="o" with="ARG0"/>
+<Word name="3/ol" positionX="750" positionY="200"/>
+<Connection from="5/gel" to="3/ol" with="mod"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="3/ol" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/filiz" positionX="450" positionY="500"/>
+<Connection from="name" to="1/filiz" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="3/ol" to="person" with="location"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/türkiye" positionX="550" positionY="500"/>
+<Connection from="name" to="2/türkiye" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/nikah" positionX="850" positionY="200"/>
+<Connection from="5/gel" to="4/nikah"/>
+<Word name="siz" positionX="750" positionY="300"/>
+<Connection from="4/nikah" to="siz" with="poss"/>
+</Amr>

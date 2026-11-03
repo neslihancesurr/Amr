@@ -1,0 +1,13 @@
+<Amr sentence="Sonuçları onların kendilerinden öğrenebilirsin .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="4/öğren" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="4/öğren"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="4/öğren" to="sen" with="ARG0"/>
+<Word name="1/sonuç" positionX="650" positionY="300"/>
+<Connection from="4/öğren" to="1/sonuç" with="ARG1"/>
+<Word name="3/kendi" positionX="750" positionY="300"/>
+<Connection from="4/öğren" to="3/kendi"/>
+<Word name="2/o" positionX="650" positionY="400"/>
+<Connection from="3/kendi" to="2/o" with="mod"/>
+</Amr>

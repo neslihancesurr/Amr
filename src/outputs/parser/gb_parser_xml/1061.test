@@ -1,0 +1,17 @@
+<Amr sentence="Berna akrabadan yana şanslı sayılır .">
+<Word name="5/say" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="5/say" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/berna" positionX="450" positionY="400"/>
+<Connection from="name" to="1/berna" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/şanslı" positionX="750" positionY="200"/>
+<Connection from="5/say" to="4/şanslı"/>
+<Word name="2/akraba" positionX="650" positionY="300"/>
+<Connection from="4/şanslı" to="2/akraba"/>
+<Word name="3/yana" positionX="550" positionY="400"/>
+<Connection from="2/akraba" to="3/yana"/>
+</Amr>

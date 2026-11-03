@@ -1,0 +1,7 @@
+<Amr sentence="yediyi çeyrek geçe">
+<Word name="2/çeyrek" positionX="750" positionY="100"/>
+<Word name="1/yedi" positionX="650" positionY="200"/>
+<Connection from="2/çeyrek" to="1/yedi"/>
+<Word name="3/geçe" positionX="750" positionY="200"/>
+<Connection from="2/çeyrek" to="3/geçe"/>
+</Amr>

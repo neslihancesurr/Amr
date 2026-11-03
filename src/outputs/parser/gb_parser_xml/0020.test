@@ -1,0 +1,15 @@
+<Amr sentence="Bu hayvanların arasında en vahşisi kaplanmış .">
+<Word name="6/kaplan" positionX="750" positionY="100"/>
+<Word name="3/ara" positionX="650" positionY="200"/>
+<Connection from="6/kaplan" to="3/ara" with="location"/>
+<Word name="2/hayvan" positionX="550" positionY="300"/>
+<Connection from="3/ara" to="2/hayvan" with="mod"/>
+<Word name="1/bu" positionX="450" positionY="400"/>
+<Connection from="2/hayvan" to="1/bu" with="mod"/>
+<Word name="5/vahşi" positionX="750" positionY="200"/>
+<Connection from="6/kaplan" to="5/vahşi"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/vahşi" to="o" with="poss"/>
+<Word name="4/en" positionX="750" positionY="300"/>
+<Connection from="5/vahşi" to="4/en" with="manner"/>
+</Amr>

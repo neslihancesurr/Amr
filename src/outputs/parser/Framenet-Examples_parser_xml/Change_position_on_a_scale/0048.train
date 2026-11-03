@@ -1,0 +1,15 @@
+<Amr sentence="Mantarlar amipleşmiş , hiç böyle bir şey görmemiştim .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/amipleş" positionX="650" positionY="200"/>
+<Connection from="and" to="2/amipleş" with="op1"/>
+<Word name="1/mantarlar" positionX="550" positionY="300"/>
+<Connection from="2/amipleş" to="1/mantarlar" with="ARG1"/>
+<Word name="8/gör" positionX="750" positionY="200"/>
+<Connection from="and" to="8/gör" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="8/gör" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="300"/>
+<Connection from="8/gör" to="ben" with="ARG0"/>
+<Word name="4/hiç" positionX="850" positionY="300"/>
+<Connection from="8/gör" to="4/hiç" with="degree"/>
+</Amr>

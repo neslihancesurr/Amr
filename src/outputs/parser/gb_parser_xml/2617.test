@@ -1,0 +1,19 @@
+<Amr sentence="Bu havada evde oturmayıp yürüyüşe çıkmalıyız .">
+<Word name="gerek" positionX="750" positionY="100"/>
+<Word name="6/çık" positionX="650" positionY="200"/>
+<Connection from="gerek" to="6/çık"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="6/çık" to="biz" with="ARG0"/>
+<Word name="2/hava" positionX="650" positionY="300"/>
+<Connection from="6/çık" to="2/hava" with="location"/>
+<Word name="1/bu" positionX="550" positionY="400"/>
+<Connection from="2/hava" to="1/bu" with="mod"/>
+<Word name="4/otur" positionX="750" positionY="300"/>
+<Connection from="6/çık" to="4/otur"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="4/otur" to="-" with="polarity"/>
+<Word name="3/ev" positionX="750" positionY="400"/>
+<Connection from="4/otur" to="3/ev" with="location"/>
+<Word name="5/yürüyüş" positionX="850" positionY="300"/>
+<Connection from="6/çık" to="5/yürüyüş"/>
+</Amr>

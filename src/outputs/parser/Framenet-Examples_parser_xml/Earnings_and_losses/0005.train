@@ -1,0 +1,14 @@
+<Amr sentence="F1 pilotları paraya para demiyor .">
+<Word name="3/para 4/para 5/de" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/para 4/para 5/de" to="-" with="polarity"/>
+<Word name="2/pilot" positionX="750" positionY="200"/>
+<Connection from="3/para 4/para 5/de" to="2/pilot" with="ARG0"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="2/pilot" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/F1" positionX="450" positionY="500"/>
+<Connection from="name" to="1/F1" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

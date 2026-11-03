@@ -1,0 +1,11 @@
+<Amr sentence="Yün kazağım kırçıllaşmış .">
+<Word name="3/kırçıllaş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/kırçıllaş" to="o" with="ARG0"/>
+<Word name="2/kazak" positionX="750" positionY="200"/>
+<Connection from="3/kırçıllaş" to="2/kazak" with="ARG1"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="2/kazak" to="ben" with="poss"/>
+<Word name="1/yün" positionX="750" positionY="300"/>
+<Connection from="2/kazak" to="1/yün" with="mod"/>
+</Amr>

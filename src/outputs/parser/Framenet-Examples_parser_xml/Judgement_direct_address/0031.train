@@ -1,0 +1,16 @@
+<Amr sentence="Beklemediğimiz bir anda abisine harladı .">
+<Word name="5/harla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/harla" to="o" with="ARG0"/>
+<Word name="3/an" positionX="750" positionY="200"/>
+<Connection from="5/harla" to="3/an" with="mod"/>
+<Word name="1/bekle" positionX="650" positionY="300"/>
+<Connection from="3/an" to="1/bekle"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="1/bekle" to="-" with="polarity"/>
+<Word name="biz" positionX="650" positionY="400"/>
+<Connection from="1/bekle" to="biz" with="poss"/>
+<Word name="4/abi" positionX="850" positionY="200"/>
+<Connection from="5/harla" to="4/abi" with="ARG1"/>
+<Connection from="4/abi" to="o" with="poss"/>
+</Amr>

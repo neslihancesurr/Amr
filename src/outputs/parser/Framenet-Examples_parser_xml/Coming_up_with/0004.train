@@ -1,0 +1,34 @@
+<Amr sentence="Firdevs Hanım Behlül'ü Bihter'den uzaklaştırmak için Nihal'i kullanmayı akıl etti .">
+<Word name="9/akıl 10/et" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="9/akıl 10/et" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/hanım" positionX="450" positionY="400"/>
+<Connection from="name" to="2/hanım" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="person" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/firdevs" positionX="550" positionY="500"/>
+<Connection from="name" to="1/firdevs" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/uzaklaştır" positionX="750" positionY="200"/>
+<Connection from="9/akıl 10/et" to="5/uzaklaştır" with="cause"/>
+<Connection from="5/uzaklaştır" to="person" with="ARG0"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/behlül" positionX="450" positionY="500"/>
+<Connection from="name" to="3/behlül" with="op1"/>
+<Word name="4/bihter" positionX="550" positionY="500"/>
+<Connection from="name" to="4/bihter" with="op2"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="8/kullan" positionX="850" positionY="200"/>
+<Connection from="9/akıl 10/et" to="8/kullan" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="8/kullan" to="o" with="ARG0"/>
+<Connection from="8/kullan" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="7/Nihal'i" positionX="650" positionY="500"/>
+<Connection from="name" to="7/Nihal'i" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

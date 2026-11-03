@@ -1,0 +1,13 @@
+<Amr sentence="Su ve buz birbiriyle bağlılaşır .">
+<Word name="5/bağlılaş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/bağlılaş" to="o" with="ARG0"/>
+<Word name="and" positionX="750" positionY="200"/>
+<Connection from="5/bağlılaş" to="and"/>
+<Word name="3/buz" positionX="650" positionY="300"/>
+<Connection from="and" to="3/buz" with="ARG1"/>
+<Word name="1/su" positionX="750" positionY="300"/>
+<Connection from="and" to="1/su" with="ARG1"/>
+<Word name="4/birbiri" positionX="850" positionY="200"/>
+<Connection from="5/bağlılaş" to="4/birbiri" with="instrument"/>
+</Amr>

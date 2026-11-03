@@ -1,0 +1,14 @@
+<Amr sentence="Bana en sevdiği bitkiyi gösterdi .">
+<Word name="5/göster" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/göster" to="o" with="ARG0"/>
+<Word name="1/ben" positionX="750" positionY="200"/>
+<Connection from="5/göster" to="1/ben" with="ARG2"/>
+<Word name="4/bitki" positionX="850" positionY="200"/>
+<Connection from="5/göster" to="4/bitki" with="ARG1"/>
+<Word name="3/sev" positionX="750" positionY="300"/>
+<Connection from="4/bitki" to="3/sev"/>
+<Connection from="3/sev" to="o" with="poss"/>
+<Word name="2/en" positionX="750" positionY="400"/>
+<Connection from="3/sev" to="2/en" with="manner"/>
+</Amr>

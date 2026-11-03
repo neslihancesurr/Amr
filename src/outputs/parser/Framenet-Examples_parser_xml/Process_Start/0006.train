@@ -1,0 +1,11 @@
+<Amr sentence="Büyük bir motivasyonla hemen starta geçtik .">
+<Word name="5/start 6/geç" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/start 6/geç" to="biz" with="ARG0"/>
+<Word name="3/motivasyon" positionX="750" positionY="200"/>
+<Connection from="5/start 6/geç" to="3/motivasyon" with="instrument"/>
+<Word name="1/büyük" positionX="650" positionY="300"/>
+<Connection from="3/motivasyon" to="1/büyük" with="mod"/>
+<Word name="4/hemen" positionX="850" positionY="200"/>
+<Connection from="5/start 6/geç" to="4/hemen" with="manner"/>
+</Amr>

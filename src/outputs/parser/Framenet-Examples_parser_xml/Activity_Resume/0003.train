@@ -1,0 +1,15 @@
+<Amr sentence="Yarın sağlam kafayla defter açalım bu işe .">
+<Word name="4/defter 5/aç" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="4/defter 5/aç" to="biz" with="ARG0"/>
+<Word name="1/yarın" positionX="750" positionY="200"/>
+<Connection from="4/defter 5/aç" to="1/yarın" with="mod"/>
+<Word name="3/kafa" positionX="850" positionY="200"/>
+<Connection from="4/defter 5/aç" to="3/kafa" with="instrument"/>
+<Word name="2/sağlam" positionX="750" positionY="300"/>
+<Connection from="3/kafa" to="2/sağlam" with="mod"/>
+<Word name="7/iş" positionX="950" positionY="200"/>
+<Connection from="4/defter 5/aç" to="7/iş" with="ARG1"/>
+<Word name="6/bu" positionX="850" positionY="300"/>
+<Connection from="7/iş" to="6/bu" with="mod"/>
+</Amr>

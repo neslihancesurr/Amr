@@ -1,0 +1,11 @@
+<Amr sentence="Okullar pazartesi açılacak .">
+<Word name="3/aç" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/aç" to="o" with="ARG0"/>
+<Word name="1/okul" positionX="750" positionY="200"/>
+<Connection from="3/aç" to="1/okul" with="ARG1"/>
+<Word name="date-entity" positionX="850" positionY="200"/>
+<Connection from="3/aç" to="date-entity" with="date"/>
+<Word name="2/pazartesi" positionX="750" positionY="300"/>
+<Connection from="date-entity" to="2/pazartesi" with="weekday"/>
+</Amr>

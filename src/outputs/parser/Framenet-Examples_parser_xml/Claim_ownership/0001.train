@@ -1,0 +1,9 @@
+<Amr sentence="Ülke , yabancılar tarafından istila edildi .">
+<Word name="5/istila 6/et" positionX="750" positionY="100"/>
+<Word name="1/ülke" positionX="650" positionY="200"/>
+<Connection from="5/istila 6/et" to="1/ülke" with="ARG1"/>
+<Word name="3/yabancı" positionX="750" positionY="200"/>
+<Connection from="5/istila 6/et" to="3/yabancı" with="ARG0"/>
+<Word name="4/tarafından" positionX="650" positionY="300"/>
+<Connection from="3/yabancı" to="4/tarafından"/>
+</Amr>

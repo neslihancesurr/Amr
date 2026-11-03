@@ -1,0 +1,11 @@
+<Amr sentence="Bir Amerikan Doları 1 . 600 . 000 Türk Lirasına eşdeğer olur .">
+<Word name="11/eşdeğer 12/ol" positionX="750" positionY="100"/>
+<Word name="3/dolar" positionX="650" positionY="200"/>
+<Connection from="11/eşdeğer 12/ol" to="3/dolar" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/dolar" to="o" with="poss"/>
+<Word name="1/bir" positionX="650" positionY="300"/>
+<Connection from="3/dolar" to="1/bir"/>
+<Word name="2/amerikan" positionX="750" positionY="300"/>
+<Connection from="3/dolar" to="2/amerikan"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="18. Uluslararası Tıp Kongresi">
+<Word name="4/kongre" positionX="750" positionY="100"/>
+<Word name="ordinal-entity" positionX="650" positionY="200"/>
+<Connection from="4/kongre" to="ordinal-entity" with="ord"/>
+<Word name="18" positionX="550" positionY="300"/>
+<Connection from="ordinal-entity" to="18" with="value"/>
+<Word name="2/uluslararası" positionX="750" positionY="200"/>
+<Connection from="4/kongre" to="2/uluslararası" with="mod"/>
+<Word name="3/tıp" positionX="850" positionY="200"/>
+<Connection from="4/kongre" to="3/tıp" with="mod"/>
+</Amr>

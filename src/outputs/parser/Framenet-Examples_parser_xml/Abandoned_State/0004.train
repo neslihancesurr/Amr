@@ -1,0 +1,14 @@
+<Amr sentence="Zarar etmeye başlayınca dükkanı devrederek yanlıştan döndü .">
+<Word name="6/yanlış 7/dön" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/yanlış 7/dön" to="o" with="ARG0"/>
+<Word name="3/başla" positionX="750" positionY="200"/>
+<Connection from="6/yanlış 7/dön" to="3/başla"/>
+<Word name="1/zarar 2/et" positionX="650" positionY="300"/>
+<Connection from="3/başla" to="1/zarar 2/et"/>
+<Connection from="1/zarar 2/et" to="o" with="ARG0"/>
+<Word name="5/devret" positionX="850" positionY="200"/>
+<Connection from="6/yanlış 7/dön" to="5/devret"/>
+<Word name="4/dükkan" positionX="750" positionY="300"/>
+<Connection from="5/devret" to="4/dükkan" with="ARG1"/>
+</Amr>

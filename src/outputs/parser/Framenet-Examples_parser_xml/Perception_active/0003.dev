@@ -1,0 +1,15 @@
+<Amr sentence="Ana çorbaya tuz atıyor , baba mancanın tadına bakıyor .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/at" positionX="650" positionY="200"/>
+<Connection from="and" to="4/at" with="op1"/>
+<Word name="1/ana" positionX="550" positionY="300"/>
+<Connection from="4/at" to="1/ana" with="ARG0"/>
+<Word name="2/çorba" positionX="650" positionY="300"/>
+<Connection from="4/at" to="2/çorba" with="ARG2"/>
+<Word name="3/tuz" positionX="750" positionY="300"/>
+<Connection from="4/at" to="3/tuz" with="ARG1"/>
+<Word name="8/tat 9/bak" positionX="750" positionY="200"/>
+<Connection from="and" to="8/tat 9/bak" with="op2"/>
+<Word name="6/baba" positionX="650" positionY="300"/>
+<Connection from="8/tat 9/bak" to="6/baba" with="ARG0"/>
+</Amr>

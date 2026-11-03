@@ -1,0 +1,15 @@
+<Amr sentence="Eski halılarını satıyor musun yoksa ?">
+<Word name="3/sat" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/sat" to="o" with="ARG0"/>
+<Word name="2/halı" positionX="750" positionY="200"/>
+<Connection from="3/sat" to="2/halı" with="ARG1"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="2/halı" to="sen" with="poss"/>
+<Word name="1/eski" positionX="750" positionY="300"/>
+<Connection from="2/halı" to="1/eski" with="mod"/>
+<Word name="4/mi" positionX="850" positionY="200"/>
+<Connection from="3/sat" to="4/mi"/>
+<Word name="5/yoksa" positionX="950" positionY="200"/>
+<Connection from="3/sat" to="5/yoksa" with="manner"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Yeter ki onun başı darda kalmasın .">
+<Word name="4/baş 5/dar 6/kal" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/baş 5/dar 6/kal" to="-" with="polarity"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="4/baş 5/dar 6/kal" to="imperative" with="mode"/>
+<Word name="1/yeter 2/ki" positionX="850" positionY="200"/>
+<Connection from="4/baş 5/dar 6/kal" to="1/yeter 2/ki"/>
+<Word name="3/o" positionX="950" positionY="200"/>
+<Connection from="4/baş 5/dar 6/kal" to="3/o" with="ARG0"/>
+</Amr>

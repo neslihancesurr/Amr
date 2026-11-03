@@ -1,0 +1,7 @@
+<Amr sentence="Hala telefonun taksidini ödüyorum .">
+<Word name="3/taksit 4/öde" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/taksit 4/öde" to="ben" with="ARG0"/>
+<Word name="1/hala" positionX="750" positionY="200"/>
+<Connection from="3/taksit 4/öde" to="1/hala" with="manner"/>
+</Amr>

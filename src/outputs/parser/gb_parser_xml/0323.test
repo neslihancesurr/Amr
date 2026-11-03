@@ -1,0 +1,15 @@
+<Amr sentence="Bulaşıkla çamaşır mutlaka birer makine ister .">
+<Word name="6/iste" positionX="750" positionY="100"/>
+<Word name="and" positionX="650" positionY="200"/>
+<Connection from="6/iste" to="and"/>
+<Word name="2/çamaşır" positionX="550" positionY="300"/>
+<Connection from="and" to="2/çamaşır" with="ARG0"/>
+<Word name="1/bulaşık" positionX="650" positionY="300"/>
+<Connection from="and" to="1/bulaşık" with="ARG0"/>
+<Word name="3/mutlaka" positionX="750" positionY="200"/>
+<Connection from="6/iste" to="3/mutlaka" with="manner"/>
+<Word name="5/makine" positionX="850" positionY="200"/>
+<Connection from="6/iste" to="5/makine" with="ARG1"/>
+<Word name="4/bir" positionX="750" positionY="300"/>
+<Connection from="5/makine" to="4/bir"/>
+</Amr>

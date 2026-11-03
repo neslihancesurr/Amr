@@ -1,0 +1,17 @@
+<Amr sentence="Adam hemen geldi , önüne düştü , konuşmadan evine vardılar .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/gel" positionX="650" positionY="200"/>
+<Connection from="and" to="3/gel" with="op1"/>
+<Word name="1/adam" positionX="550" positionY="300"/>
+<Connection from="3/gel" to="1/adam" with="ARG0"/>
+<Word name="2/hemen" positionX="650" positionY="300"/>
+<Connection from="3/gel" to="2/hemen" with="manner"/>
+<Word name="5/ön 6/düş" positionX="750" positionY="200"/>
+<Connection from="and" to="5/ön 6/düş" with="op2"/>
+<Word name="10/var" positionX="850" positionY="200"/>
+<Connection from="and" to="10/var" with="op3"/>
+<Word name="8/konuş" positionX="750" positionY="300"/>
+<Connection from="10/var" to="8/konuş"/>
+<Word name="9/evin" positionX="850" positionY="300"/>
+<Connection from="10/var" to="9/evin" with="ARG1"/>
+</Amr>

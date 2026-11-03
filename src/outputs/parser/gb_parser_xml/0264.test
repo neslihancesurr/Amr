@@ -1,0 +1,9 @@
+<Amr sentence="Her gün işte oluyorum .">
+<Word name="3/iş:location" positionX="750" positionY="100"/>
+<Word name="1/her 2/gün" positionX="650" positionY="200"/>
+<Connection from="3/iş:location" to="1/her 2/gün" with="mod"/>
+<Word name="4/ol" positionX="750" positionY="200"/>
+<Connection from="3/iş:location" to="4/ol"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="4/ol" to="ben" with="ARG0"/>
+</Amr>

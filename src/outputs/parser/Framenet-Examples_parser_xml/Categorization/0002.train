@@ -1,0 +1,11 @@
+<Amr sentence="Bu davranışını hakaret sayıyorum .">
+<Word name="3/hakaret 4/say" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/hakaret 4/say" to="ben" with="ARG0"/>
+<Word name="2/davranış" positionX="750" positionY="200"/>
+<Connection from="3/hakaret 4/say" to="2/davranış" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/davranış" to="o" with="poss"/>
+<Word name="1/bu" positionX="750" positionY="300"/>
+<Connection from="2/davranış" to="1/bu" with="mod"/>
+</Amr>

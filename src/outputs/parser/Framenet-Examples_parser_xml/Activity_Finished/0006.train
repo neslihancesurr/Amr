@@ -1,0 +1,17 @@
+<Amr sentence="Daha fazla debelenmenin manası yok , cenazeyi kaldıralım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/yok" positionX="650" positionY="200"/>
+<Connection from="and" to="5/yok" with="op1"/>
+<Word name="4/manas" positionX="550" positionY="300"/>
+<Connection from="5/yok" to="4/manas"/>
+<Word name="3/debelen" positionX="450" positionY="400"/>
+<Connection from="4/manas" to="3/debelen" with="mod"/>
+<Word name="2/fazla" positionX="350" positionY="500"/>
+<Connection from="3/debelen" to="2/fazla" with="degree"/>
+<Word name="1/daha" positionX="250" positionY="600"/>
+<Connection from="2/fazla" to="1/daha" with="degree"/>
+<Word name="7/cenaze 8/kaldır" positionX="750" positionY="200"/>
+<Connection from="and" to="7/cenaze 8/kaldır" with="op2"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="7/cenaze 8/kaldır" to="biz" with="ARG0"/>
+</Amr>

@@ -1,0 +1,19 @@
+<Amr sentence="Çocuklar her atılımını boşa çıkarıyor , onunla alay ediyorlar .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/boş 5/çık" positionX="650" positionY="200"/>
+<Connection from="and" to="4/boş 5/çık" with="op1"/>
+<Word name="1/çocuk" positionX="550" positionY="300"/>
+<Connection from="4/boş 5/çık" to="1/çocuk" with="ARG0"/>
+<Word name="3/atılım" positionX="650" positionY="300"/>
+<Connection from="4/boş 5/çık" to="3/atılım" with="ARG1"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="3/atılım" to="o" with="poss"/>
+<Word name="2/her" positionX="650" positionY="400"/>
+<Connection from="3/atılım" to="2/her" with="mod"/>
+<Word name="8/alay 9/et" positionX="750" positionY="200"/>
+<Connection from="and" to="8/alay 9/et" with="op2"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="8/alay 9/et" to="onlar" with="ARG0"/>
+<Word name="7/o" positionX="750" positionY="300"/>
+<Connection from="8/alay 9/et" to="7/o" with="ARG1"/>
+</Amr>

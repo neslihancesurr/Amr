@@ -1,0 +1,16 @@
+<Amr sentence="Nihal henüz olabileceklerin farkında olamıyordu .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="4/fark 5/ol" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="4/fark 5/ol"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="4/fark 5/ol" to="-" with="polarity"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="4/fark 5/ol" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/nihal" positionX="450" positionY="500"/>
+<Connection from="name" to="1/nihal" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/henüz" positionX="750" positionY="300"/>
+<Connection from="4/fark 5/ol" to="2/henüz" with="manner"/>
+</Amr>

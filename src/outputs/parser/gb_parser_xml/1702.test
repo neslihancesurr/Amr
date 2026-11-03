@@ -1,0 +1,27 @@
+<Amr sentence="Osman Ali'ye yardım edebileceği halde hiçbir şey yapmadı .">
+<Word name="8/yap" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="8/yap" to="-" with="polarity"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="8/yap" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/osman" positionX="550" positionY="400"/>
+<Connection from="name" to="1/osman" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/hal" positionX="850" positionY="200"/>
+<Connection from="8/yap" to="5/hal" with="mod"/>
+<Word name="3/yardım 4/et" positionX="750" positionY="300"/>
+<Connection from="5/hal" to="3/yardım 4/et"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="3/yardım 4/et" to="o" with="poss"/>
+<Connection from="3/yardım 4/et" to="person" with="ARG1"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/ali" positionX="550" positionY="600"/>
+<Connection from="name" to="2/ali" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="7/şey" positionX="950" positionY="200"/>
+<Connection from="8/yap" to="7/şey"/>
+<Word name="6/hiçbir" positionX="850" positionY="300"/>
+<Connection from="7/şey" to="6/hiçbir" with="mod"/>
+</Amr>

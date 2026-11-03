@@ -1,0 +1,11 @@
+<Amr sentence="Parmaklık o kadar alçak ki balkondan aşağı düşülebilir .">
+<Word name="4/alçak" positionX="750" positionY="100"/>
+<Word name="1/parmaklık" positionX="650" positionY="200"/>
+<Connection from="4/alçak" to="1/parmaklık"/>
+<Word name="2/o" positionX="750" positionY="200"/>
+<Connection from="4/alçak" to="2/o" with="mod"/>
+<Word name="3/kadar" positionX="650" positionY="300"/>
+<Connection from="2/o" to="3/kadar"/>
+<Word name="7/aşağı 8/düş" positionX="850" positionY="200"/>
+<Connection from="4/alçak" to="7/aşağı 8/düş"/>
+</Amr>

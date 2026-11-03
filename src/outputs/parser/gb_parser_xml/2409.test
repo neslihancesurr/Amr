@@ -1,0 +1,19 @@
+<Amr sentence="- Bugün Hüseyin doktora gidecekti galiba .">
+<Word name="5/git" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/git" to="o" with="ARG0"/>
+<Word name="2/bugün" positionX="750" positionY="200"/>
+<Connection from="5/git" to="2/bugün"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="5/git" to="person"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/hüseyin" positionX="650" positionY="400"/>
+<Connection from="name" to="3/hüseyin" with="op1"/>
+<Word name="-" positionX="850" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/doktor" positionX="950" positionY="200"/>
+<Connection from="5/git" to="4/doktor"/>
+<Word name="6/galiba" positionX="1050" positionY="200"/>
+<Connection from="5/git" to="6/galiba" with="manner"/>
+</Amr>

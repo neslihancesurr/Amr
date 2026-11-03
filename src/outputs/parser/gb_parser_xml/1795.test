@@ -1,0 +1,18 @@
+<Amr sentence="Bu akşama kadar bu odayı bitirmiş olalım istiyoruz .">
+<Word name="8/iste" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="8/iste" to="biz" with="ARG0"/>
+<Word name="7/ol" positionX="750" positionY="200"/>
+<Connection from="8/iste" to="7/ol" with="ARG1"/>
+<Connection from="7/ol" to="biz" with="ARG0"/>
+<Word name="6/bitir" positionX="750" positionY="300"/>
+<Connection from="7/ol" to="6/bitir" with="ARG0"/>
+<Word name="2/akşam 3/kadar" positionX="650" positionY="400"/>
+<Connection from="6/bitir" to="2/akşam 3/kadar" with="extent"/>
+<Word name="1/bu" positionX="550" positionY="500"/>
+<Connection from="2/akşam 3/kadar" to="1/bu" with="mod"/>
+<Word name="5/oda" positionX="750" positionY="400"/>
+<Connection from="6/bitir" to="5/oda" with="ARG1"/>
+<Word name="4/bu" positionX="650" positionY="500"/>
+<Connection from="5/oda" to="4/bu" with="mod"/>
+</Amr>

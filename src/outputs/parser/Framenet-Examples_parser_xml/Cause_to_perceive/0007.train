@@ -1,0 +1,11 @@
+<Amr sentence="Haberi bana mektupla aktardılar .">
+<Word name="4/aktar" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/aktar" to="onlar" with="ARG0"/>
+<Word name="1/haber" positionX="750" positionY="200"/>
+<Connection from="4/aktar" to="1/haber" with="ARG1"/>
+<Word name="2/ben" positionX="850" positionY="200"/>
+<Connection from="4/aktar" to="2/ben" with="ARG2"/>
+<Word name="3/mektup" positionX="950" positionY="200"/>
+<Connection from="4/aktar" to="3/mektup" with="instrument"/>
+</Amr>

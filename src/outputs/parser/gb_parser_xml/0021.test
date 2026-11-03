@@ -1,0 +1,13 @@
+<Amr sentence="Halk politikacıların çoğuna güvenmiyor .">
+<Word name="4/güven" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/güven" to="-" with="polarity"/>
+<Word name="1/halk" positionX="750" positionY="200"/>
+<Connection from="4/güven" to="1/halk" with="ARG0"/>
+<Word name="3/çoğu" positionX="850" positionY="200"/>
+<Connection from="4/güven" to="3/çoğu" with="ARG1"/>
+<Word name="onlar" positionX="750" positionY="300"/>
+<Connection from="3/çoğu" to="onlar" with="poss"/>
+<Word name="2/politikacı" positionX="850" positionY="300"/>
+<Connection from="3/çoğu" to="2/politikacı"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="İlaç bana çok iyi geldi .">
+<Word name="5/gel" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/gel" to="o" with="ARG0"/>
+<Word name="1/ilaç" positionX="750" positionY="200"/>
+<Connection from="5/gel" to="1/ilaç" with="ARG1"/>
+<Word name="2/ben" positionX="850" positionY="200"/>
+<Connection from="5/gel" to="2/ben" with="ARG2"/>
+<Word name="4/iyi" positionX="950" positionY="200"/>
+<Connection from="5/gel" to="4/iyi"/>
+<Word name="3/çok" positionX="850" positionY="300"/>
+<Connection from="4/iyi" to="3/çok" with="degree"/>
+</Amr>

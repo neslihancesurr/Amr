@@ -1,0 +1,13 @@
+<Amr sentence="Telefon numaram sizde vardır herhalde .">
+<Word name="4/var" positionX="750" positionY="100"/>
+<Word name="2/numara" positionX="650" positionY="200"/>
+<Connection from="4/var" to="2/numara"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="2/numara" to="ben" with="poss"/>
+<Word name="1/telefon" positionX="650" positionY="300"/>
+<Connection from="2/numara" to="1/telefon" with="mod"/>
+<Word name="3/siz" positionX="750" positionY="200"/>
+<Connection from="4/var" to="3/siz" with="mod"/>
+<Word name="5/herhalde" positionX="850" positionY="200"/>
+<Connection from="4/var" to="5/herhalde" with="manner"/>
+</Amr>

@@ -1,0 +1,19 @@
+<Amr sentence="Lübnan hükûmeti Türk emlakini usulen bloke etti .">
+<Word name="6/bloke 7/et" positionX="750" positionY="100"/>
+<Word name="2/hükûmet" positionX="650" positionY="200"/>
+<Connection from="6/bloke 7/et" to="2/hükûmet" with="ARG0"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="2/hükûmet" to="person"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/lübnan" positionX="350" positionY="500"/>
+<Connection from="name" to="1/lübnan" with="op1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/emlakini" positionX="750" positionY="200"/>
+<Connection from="6/bloke 7/et" to="4/emlakini" with="ARG1"/>
+<Word name="3/türk" positionX="650" positionY="300"/>
+<Connection from="4/emlakini" to="3/türk" with="mod"/>
+<Word name="5/usulen" positionX="850" positionY="200"/>
+<Connection from="6/bloke 7/et" to="5/usulen" with="manner"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Sanık ne zaman yargıç önüne çıkar acaba ?">
+<Word name="6/çık" positionX="750" positionY="100"/>
+<Word name="1/sanık" positionX="650" positionY="200"/>
+<Connection from="6/çık" to="1/sanık" with="ARG0"/>
+<Word name="2/ne" positionX="750" positionY="200"/>
+<Connection from="6/çık" to="2/ne"/>
+<Word name="3/zaman" positionX="650" positionY="300"/>
+<Connection from="2/ne" to="3/zaman"/>
+<Word name="5/ön" positionX="850" positionY="200"/>
+<Connection from="6/çık" to="5/ön"/>
+<Word name="4/yargıç" positionX="750" positionY="300"/>
+<Connection from="5/ön" to="4/yargıç" with="mod"/>
+<Word name="7/acaba" positionX="950" positionY="200"/>
+<Connection from="6/çık" to="7/acaba" with="manner"/>
+</Amr>

@@ -1,0 +1,29 @@
+<Amr sentence="Yurt dışı seyahatleri sırasında gitmeden önce yaptığı yolsuzlukları örtbas etmenin de kulpunu bulmuştu .">
+<Word name="12/kulp 13/bul" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="12/kulp 13/bul" to="o" with="ARG0"/>
+<Word name="10/et" positionX="750" positionY="200"/>
+<Connection from="12/kulp 13/bul" to="10/et" with="ARG1"/>
+<Connection from="10/et" to="o" with="ARG0"/>
+<Word name="8/yolsuzluk" positionX="750" positionY="300"/>
+<Connection from="10/et" to="8/yolsuzluk"/>
+<Connection from="8/yolsuzluk" to="o" with="poss"/>
+<Word name="7/yap" positionX="750" positionY="400"/>
+<Connection from="8/yolsuzluk" to="7/yap"/>
+<Connection from="7/yap" to="o" with="poss"/>
+<Word name="5/gitme" positionX="750" positionY="500"/>
+<Connection from="7/yap" to="5/gitme"/>
+<Word name="4/sıra" positionX="650" positionY="600"/>
+<Connection from="5/gitme" to="4/sıra" with="location"/>
+<Word name="3/seyahat" positionX="550" positionY="700"/>
+<Connection from="4/sıra" to="3/seyahat" with="mod"/>
+<Word name="1/yurt 2/dış" positionX="450" positionY="800"/>
+<Connection from="3/seyahat" to="1/yurt 2/dış"/>
+<Connection from="1/yurt 2/dış" to="o" with="poss"/>
+<Word name="6/önce" positionX="750" positionY="600"/>
+<Connection from="5/gitme" to="6/önce"/>
+<Word name="9/örtbas" positionX="850" positionY="300"/>
+<Connection from="10/et" to="9/örtbas"/>
+<Word name="11/de" positionX="950" positionY="300"/>
+<Connection from="10/et" to="11/de"/>
+</Amr>

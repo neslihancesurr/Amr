@@ -1,0 +1,5 @@
+<Amr sentence="Geçtin .">
+<Word name="1/geç" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="1/geç" to="sen" with="ARG0"/>
+</Amr>

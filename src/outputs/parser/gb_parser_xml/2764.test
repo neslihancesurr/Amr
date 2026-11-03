@@ -1,0 +1,7 @@
+<Amr sentence="Ne de olsa fizikçi .">
+<Word name="4/fizikçi" positionX="750" positionY="100"/>
+<Word name="1/ne 2/de 3/ol" positionX="650" positionY="200"/>
+<Connection from="4/fizikçi" to="1/ne 2/de 3/ol"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/ne 2/de 3/ol" to="o" with="ARG0"/>
+</Amr>

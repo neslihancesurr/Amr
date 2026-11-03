@@ -1,0 +1,19 @@
+<Amr sentence="Zeki'ye yüz dolar vermem gerekti .">
+<Word name="5/gerek" positionX="750" positionY="100"/>
+<Word name="4/ver" positionX="650" positionY="200"/>
+<Connection from="5/gerek" to="4/ver" with="ARG0"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="4/ver" to="ben" with="ARG0"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="4/ver" to="person" with="ARG2"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/zeki" positionX="450" positionY="500"/>
+<Connection from="name" to="1/zeki" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/dolar" positionX="750" positionY="300"/>
+<Connection from="4/ver" to="3/dolar" with="ARG1"/>
+<Word name="2/yüz" positionX="650" positionY="400"/>
+<Connection from="3/dolar" to="2/yüz"/>
+</Amr>

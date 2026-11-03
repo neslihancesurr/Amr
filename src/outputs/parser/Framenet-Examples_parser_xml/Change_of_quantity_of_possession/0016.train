@@ -1,0 +1,11 @@
+<Amr sentence="Yeni işinden çok kazandı .">
+<Word name="4/kazan" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/kazan" to="o" with="ARG0"/>
+<Word name="2/iş" positionX="750" positionY="200"/>
+<Connection from="4/kazan" to="2/iş"/>
+<Word name="1/yeni" positionX="650" positionY="300"/>
+<Connection from="2/iş" to="1/yeni" with="mod"/>
+<Word name="3/çok" positionX="850" positionY="200"/>
+<Connection from="4/kazan" to="3/çok" with="degree"/>
+</Amr>

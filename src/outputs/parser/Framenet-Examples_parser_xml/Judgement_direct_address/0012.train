@@ -1,0 +1,11 @@
+<Amr sentence="Küçük kardeşi bana hep iltifat ederdi .">
+<Word name="5/iltifat 6/et" positionX="750" positionY="100"/>
+<Word name="2/kardeş" positionX="650" positionY="200"/>
+<Connection from="5/iltifat 6/et" to="2/kardeş" with="ARG0"/>
+<Word name="1/küçük" positionX="550" positionY="300"/>
+<Connection from="2/kardeş" to="1/küçük" with="mod"/>
+<Word name="3/ben" positionX="750" positionY="200"/>
+<Connection from="5/iltifat 6/et" to="3/ben" with="ARG1"/>
+<Word name="4/hep" positionX="850" positionY="200"/>
+<Connection from="5/iltifat 6/et" to="4/hep" with="frequency"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Nereye gideceğini koyu koyu düşünüyordu .">
+<Word name="3/koyu 4/koyu 5/düşün" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/koyu 4/koyu 5/düşün" to="o" with="ARG0"/>
+<Word name="2/git" positionX="750" positionY="200"/>
+<Connection from="3/koyu 4/koyu 5/düşün" to="2/git" with="ARG1"/>
+<Connection from="2/git" to="o" with="ARG0"/>
+<Connection from="2/git" to="o" with="poss"/>
+<Word name="1/nereye" positionX="850" positionY="300"/>
+<Connection from="2/git" to="1/nereye" with="ARG1"/>
+</Amr>

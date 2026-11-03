@@ -1,0 +1,15 @@
+<Amr sentence="Bu sorunu en iyi anlayan kişi sizsiniz .">
+<Word name="7/siz" positionX="750" positionY="100"/>
+<Word name="6/kişi" positionX="650" positionY="200"/>
+<Connection from="7/siz" to="6/kişi"/>
+<Word name="5/anla" positionX="550" positionY="300"/>
+<Connection from="6/kişi" to="5/anla"/>
+<Word name="2/sorun" positionX="450" positionY="400"/>
+<Connection from="5/anla" to="2/sorun" with="ARG1"/>
+<Word name="1/bu" positionX="350" positionY="500"/>
+<Connection from="2/sorun" to="1/bu" with="mod"/>
+<Word name="4/iyi" positionX="550" positionY="400"/>
+<Connection from="5/anla" to="4/iyi" with="manner"/>
+<Word name="3/en" positionX="450" positionY="500"/>
+<Connection from="4/iyi" to="3/en" with="manner"/>
+</Amr>

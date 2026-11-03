@@ -1,0 +1,15 @@
+<Amr sentence="Biraz zaman kazandım ama yeterli olmadı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/yeterli 6/ol" positionX="650" positionY="200"/>
+<Connection from="and" to="5/yeterli 6/ol" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="5/yeterli 6/ol" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/yeterli 6/ol" to="o" with="ARG0"/>
+<Word name="2/zaman 3/kazan" positionX="750" positionY="200"/>
+<Connection from="and" to="2/zaman 3/kazan" with="op2"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="2/zaman 3/kazan" to="ben" with="ARG0"/>
+<Word name="1/biraz" positionX="750" positionY="300"/>
+<Connection from="2/zaman 3/kazan" to="1/biraz" with="manner"/>
+</Amr>

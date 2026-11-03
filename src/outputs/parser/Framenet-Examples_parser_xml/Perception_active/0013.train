@@ -1,0 +1,9 @@
+<Amr sentence="Elektrikçi , önündeki devreye dikkatle bakıyordu .">
+<Word name="5/dikkatle 6/bak" positionX="750" positionY="100"/>
+<Word name="1/elektrikçi" positionX="650" positionY="200"/>
+<Connection from="5/dikkatle 6/bak" to="1/elektrikçi" with="ARG0"/>
+<Word name="4/devre" positionX="750" positionY="200"/>
+<Connection from="5/dikkatle 6/bak" to="4/devre" with="ARG1"/>
+<Word name="3/ön" positionX="650" positionY="300"/>
+<Connection from="4/devre" to="3/ön" with="mod"/>
+</Amr>

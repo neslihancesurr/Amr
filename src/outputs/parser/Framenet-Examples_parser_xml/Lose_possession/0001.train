@@ -1,0 +1,11 @@
+<Amr sentence="Eksileri artıları götürdü .">
+<Word name="3/götür" positionX="750" positionY="100"/>
+<Word name="1/eksil" positionX="650" positionY="200"/>
+<Connection from="3/götür" to="1/eksil" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/eksil" to="o" with="ARG0"/>
+<Connection from="1/eksil" to="o" with="poss"/>
+<Word name="2/artı" positionX="750" positionY="200"/>
+<Connection from="3/götür" to="2/artı" with="ARG1"/>
+<Connection from="2/artı" to="o" with="poss"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Ölenler şehitlik mertebesini ihraz eyler .">
+<Word name="4/ihraz 5/eyle" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="4/ihraz 5/eyle" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ölen" positionX="450" positionY="400"/>
+<Connection from="name" to="1/ölen" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/mertebe" positionX="750" positionY="200"/>
+<Connection from="4/ihraz 5/eyle" to="3/mertebe" with="ARG1"/>
+<Word name="2/şehitlik" positionX="650" positionY="300"/>
+<Connection from="3/mertebe" to="2/şehitlik" with="mod"/>
+</Amr>

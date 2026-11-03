@@ -1,0 +1,21 @@
+<Amr sentence="Sizlerin yazın Amerika'ya gideceğiniz doğru mu ?">
+<Word name="5/doğru" positionX="750" positionY="100"/>
+<Word name="4/git" positionX="650" positionY="200"/>
+<Connection from="5/doğru" to="4/git"/>
+<Word name="siz" positionX="550" positionY="300"/>
+<Connection from="4/git" to="siz" with="poss"/>
+<Word name="1/siz" positionX="650" positionY="300"/>
+<Connection from="4/git" to="1/siz" with="ARG0"/>
+<Word name="2/yazın" positionX="750" positionY="300"/>
+<Connection from="4/git" to="2/yazın" with="manner"/>
+<Word name="person" positionX="850" positionY="300"/>
+<Connection from="4/git" to="person" with="ARG1"/>
+<Word name="name" positionX="750" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/amerika" positionX="650" positionY="500"/>
+<Connection from="name" to="3/amerika" with="op1"/>
+<Word name="-" positionX="850" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="6/mi" positionX="750" positionY="200"/>
+<Connection from="5/doğru" to="6/mi"/>
+</Amr>

@@ -1,0 +1,5 @@
+<Amr sentence="buzdolapları">
+<Word name="1/buzdolap" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="1/buzdolap" to="o" with="poss"/>
+</Amr>

@@ -1,0 +1,27 @@
+<Amr sentence="Bütün gün çalışıp acıkan adam ocaktan yeni inen çorbayı püfleye püfleye içti .">
+<Word name="12/iç" positionX="750" positionY="100"/>
+<Word name="5/adam" positionX="650" positionY="200"/>
+<Connection from="12/iç" to="5/adam" with="ARG0"/>
+<Word name="4/acık" positionX="550" positionY="300"/>
+<Connection from="5/adam" to="4/acık"/>
+<Word name="3/çalış" positionX="450" positionY="400"/>
+<Connection from="4/acık" to="3/çalış"/>
+<Word name="2/gün" positionX="350" positionY="500"/>
+<Connection from="3/çalış" to="2/gün" with="mod"/>
+<Word name="1/bütün" positionX="250" positionY="600"/>
+<Connection from="2/gün" to="1/bütün" with="mod"/>
+<Word name="9/çorba" positionX="750" positionY="200"/>
+<Connection from="12/iç" to="9/çorba" with="ARG1"/>
+<Word name="8/in" positionX="650" positionY="300"/>
+<Connection from="9/çorba" to="8/in"/>
+<Word name="date-entity" positionX="550" positionY="400"/>
+<Connection from="8/in" to="date-entity" with="date"/>
+<Word name="6/ocak" positionX="450" positionY="500"/>
+<Connection from="date-entity" to="6/ocak" with="month"/>
+<Word name="7/yeni" positionX="650" positionY="400"/>
+<Connection from="8/in" to="7/yeni" with="manner"/>
+<Word name="10/püfle 11/püfle" positionX="850" positionY="200"/>
+<Connection from="12/iç" to="10/püfle 11/püfle"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="10/püfle 11/püfle" to="o" with="ARG0"/>
+</Amr>

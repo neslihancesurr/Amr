@@ -1,0 +1,12 @@
+<Amr sentence="Tandem oynadılar , topu kaptırdılar .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/tandem 2/oyna" positionX="650" positionY="200"/>
+<Connection from="and" to="1/tandem 2/oyna" with="op1"/>
+<Word name="onlar" positionX="550" positionY="300"/>
+<Connection from="1/tandem 2/oyna" to="onlar" with="ARG0"/>
+<Word name="5/kaptır" positionX="750" positionY="200"/>
+<Connection from="and" to="5/kaptır" with="op2"/>
+<Connection from="5/kaptır" to="onlar" with="ARG0"/>
+<Word name="4/top" positionX="750" positionY="300"/>
+<Connection from="5/kaptır" to="4/top" with="ARG1"/>
+</Amr>

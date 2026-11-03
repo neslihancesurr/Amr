@@ -1,0 +1,11 @@
+<Amr sentence="Bence endişelenecek bir şey yok .">
+<Word name="5/yok" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="5/yok" to="person"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/bence" positionX="450" positionY="400"/>
+<Connection from="name" to="1/bence" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

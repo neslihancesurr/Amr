@@ -1,0 +1,13 @@
+<Amr sentence="Şu verileri uygun şekilde biçimlendirelim .">
+<Word name="5/biçimlendir" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/biçimlendir" to="biz" with="ARG0"/>
+<Word name="2/veri" positionX="750" positionY="200"/>
+<Connection from="5/biçimlendir" to="2/veri" with="ARG1"/>
+<Word name="1/şu" positionX="650" positionY="300"/>
+<Connection from="2/veri" to="1/şu" with="mod"/>
+<Word name="4/şekil" positionX="850" positionY="200"/>
+<Connection from="5/biçimlendir" to="4/şekil" with="mod"/>
+<Word name="3/uygun" positionX="750" positionY="300"/>
+<Connection from="4/şekil" to="3/uygun" with="mod"/>
+</Amr>

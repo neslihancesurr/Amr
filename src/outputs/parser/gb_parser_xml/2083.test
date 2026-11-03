@@ -1,0 +1,31 @@
+<Amr sentence="O sıralarda sabahın köründe polis tarafından uyandırılmalar , karakola götürülmeler , gözaltına alınmalar günlük olaylardandı .">
+<Word name="15/olay" positionX="750" positionY="100"/>
+<Word name="1/o 2/sıra" positionX="650" positionY="200"/>
+<Connection from="15/olay" to="1/o 2/sıra" with="mod"/>
+<Word name="and" positionX="750" positionY="200"/>
+<Connection from="15/olay" to="and"/>
+<Word name="10/götürül" positionX="650" positionY="300"/>
+<Connection from="and" to="10/götürül" with="op1"/>
+<Word name="onlar" positionX="550" positionY="400"/>
+<Connection from="10/götürül" to="onlar" with="ARG0"/>
+<Word name="9/karakol" positionX="650" positionY="400"/>
+<Connection from="10/götürül" to="9/karakol"/>
+<Word name="13/al" positionX="750" positionY="300"/>
+<Connection from="and" to="13/al" with="op2"/>
+<Connection from="13/al" to="onlar" with="ARG0"/>
+<Word name="12/gözalt" positionX="750" positionY="400"/>
+<Connection from="13/al" to="12/gözalt"/>
+<Word name="o" positionX="650" positionY="500"/>
+<Connection from="12/gözalt" to="o" with="poss"/>
+<Word name="7/uyan" positionX="850" positionY="300"/>
+<Connection from="and" to="7/uyan" with="op3"/>
+<Connection from="7/uyan" to="onlar" with="ARG0"/>
+<Word name="3/sabah 4/kör" positionX="850" positionY="400"/>
+<Connection from="7/uyan" to="3/sabah 4/kör" with="mod"/>
+<Word name="6/tarafından" positionX="950" positionY="400"/>
+<Connection from="7/uyan" to="6/tarafından"/>
+<Word name="5/polis" positionX="850" positionY="500"/>
+<Connection from="6/tarafından" to="5/polis" with="mod"/>
+<Word name="14/günlük" positionX="850" positionY="200"/>
+<Connection from="15/olay" to="14/günlük" with="mod"/>
+</Amr>

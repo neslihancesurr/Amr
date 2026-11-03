@@ -1,0 +1,14 @@
+<Amr sentence="Çok çalışmış bugün , vurup kafayı uyudu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/çalış" positionX="650" positionY="200"/>
+<Connection from="and" to="2/çalış" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/çalış" to="o" with="ARG0"/>
+<Word name="1/çok" positionX="650" positionY="300"/>
+<Connection from="2/çalış" to="1/çok" with="degree"/>
+<Word name="3/bugün" positionX="750" positionY="300"/>
+<Connection from="2/çalış" to="3/bugün" with="manner"/>
+<Word name="5/vur 6/kafa 7/uyu" positionX="750" positionY="200"/>
+<Connection from="and" to="5/vur 6/kafa 7/uyu" with="op2"/>
+<Connection from="5/vur 6/kafa 7/uyu" to="o" with="ARG0"/>
+</Amr>

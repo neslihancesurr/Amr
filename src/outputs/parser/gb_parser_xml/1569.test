@@ -1,0 +1,19 @@
+<Amr sentence="Kerem'in babası ona biraz para vermiş .">
+<Word name="6/ver" positionX="750" positionY="100"/>
+<Word name="2/baba" positionX="650" positionY="200"/>
+<Connection from="6/ver" to="2/baba" with="ARG0"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="2/baba" to="person"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/kerem" positionX="350" positionY="500"/>
+<Connection from="name" to="1/kerem" with="op1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/o" positionX="750" positionY="200"/>
+<Connection from="6/ver" to="3/o" with="ARG2"/>
+<Word name="5/para" positionX="850" positionY="200"/>
+<Connection from="6/ver" to="5/para" with="ARG1"/>
+<Word name="4/biraz" positionX="750" positionY="300"/>
+<Connection from="5/para" to="4/biraz" with="mod"/>
+</Amr>

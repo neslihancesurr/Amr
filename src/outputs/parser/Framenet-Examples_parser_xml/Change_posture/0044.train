@@ -1,0 +1,18 @@
+<Amr sentence="Uzun süredir görmediği dedesinin karşısında yükünüyordu .">
+<Word name="6/yükün" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/yükün" to="o" with="ARG0"/>
+<Word name="5/karşı" positionX="750" positionY="200"/>
+<Connection from="6/yükün" to="5/karşı" with="location"/>
+<Word name="4/dede" positionX="650" positionY="300"/>
+<Connection from="5/karşı" to="4/dede" with="mod"/>
+<Word name="3/gör" positionX="550" positionY="400"/>
+<Connection from="4/dede" to="3/gör"/>
+<Word name="-" positionX="450" positionY="500"/>
+<Connection from="3/gör" to="-" with="polarity"/>
+<Connection from="3/gör" to="o" with="poss"/>
+<Word name="2/süre" positionX="650" positionY="500"/>
+<Connection from="3/gör" to="2/süre"/>
+<Word name="1/uzun" positionX="550" positionY="600"/>
+<Connection from="2/süre" to="1/uzun" with="mod"/>
+</Amr>

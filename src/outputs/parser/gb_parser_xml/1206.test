@@ -1,0 +1,11 @@
+<Amr sentence="Biz kendimize yemek pişiriyoruz .">
+<Word name="4/pişir" positionX="750" positionY="100"/>
+<Word name="1/biz" positionX="650" positionY="200"/>
+<Connection from="4/pişir" to="1/biz" with="ARG0"/>
+<Word name="2/kendi" positionX="750" positionY="200"/>
+<Connection from="4/pişir" to="2/kendi"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="2/kendi" to="biz" with="poss"/>
+<Word name="3/yemek" positionX="850" positionY="200"/>
+<Connection from="4/pişir" to="3/yemek" with="ARG1"/>
+</Amr>

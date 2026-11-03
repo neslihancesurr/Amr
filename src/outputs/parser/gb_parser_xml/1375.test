@@ -1,0 +1,13 @@
+<Amr sentence="En çok kiminle şakalaşmayı seviyorsun ?">
+<Word name="5/sev" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="5/sev" to="sen" with="ARG0"/>
+<Word name="4/şakalaş" positionX="750" positionY="200"/>
+<Connection from="5/sev" to="4/şakalaş" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="4/şakalaş" to="o" with="ARG0"/>
+<Word name="1/en 2/çok" positionX="750" positionY="300"/>
+<Connection from="4/şakalaş" to="1/en 2/çok" with="degree"/>
+<Word name="3/kim" positionX="850" positionY="300"/>
+<Connection from="4/şakalaş" to="3/kim" with="ARG1"/>
+</Amr>

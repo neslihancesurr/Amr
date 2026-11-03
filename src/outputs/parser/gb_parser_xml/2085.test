@@ -1,0 +1,12 @@
+<Amr sentence="Bence Ali'yi çağırmanın anlamı yok .">
+<Word name="5/yok" positionX="750" positionY="100"/>
+<Word name="1/ben 2/ali" positionX="650" positionY="200"/>
+<Connection from="5/yok" to="1/ben 2/ali" with="mod"/>
+<Word name="4/anlam" positionX="750" positionY="200"/>
+<Connection from="5/yok" to="4/anlam"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="4/anlam" to="o" with="poss"/>
+<Word name="3/çağır" positionX="750" positionY="300"/>
+<Connection from="4/anlam" to="3/çağır"/>
+<Connection from="3/çağır" to="o" with="ARG0"/>
+</Amr>

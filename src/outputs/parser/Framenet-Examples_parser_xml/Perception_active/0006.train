@@ -1,0 +1,13 @@
+<Amr sentence="Bir bankta oturmuş , çocukları seyre dalmıştım .">
+<Word name="6/seyir 7/dal" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="6/seyir 7/dal" to="ben" with="ARG0"/>
+<Word name="3/oturmuş" positionX="750" positionY="200"/>
+<Connection from="6/seyir 7/dal" to="3/oturmuş"/>
+<Word name="2/bank" positionX="650" positionY="300"/>
+<Connection from="3/oturmuş" to="2/bank" with="location"/>
+<Word name="5/çocuk" positionX="850" positionY="200"/>
+<Connection from="6/seyir 7/dal" to="5/çocuk" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="5/çocuk" to="o" with="poss"/>
+</Amr>

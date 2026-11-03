@@ -1,0 +1,30 @@
+<Amr sentence="Bu yaşa geldim , Allah'a bin şükür , namazımı kazaya bırakmadım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/gel" positionX="650" positionY="200"/>
+<Connection from="and" to="3/gel" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="3/gel" to="ben" with="ARG0"/>
+<Word name="2/yaş" positionX="650" positionY="300"/>
+<Connection from="3/gel" to="2/yaş" with="ARG1"/>
+<Word name="1/bu" positionX="550" positionY="400"/>
+<Connection from="2/yaş" to="1/bu" with="mod"/>
+<Word name="7/şükür" positionX="750" positionY="200"/>
+<Connection from="and" to="7/şükür" with="op2"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="7/şükür" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="5/allah" positionX="450" positionY="500"/>
+<Connection from="name" to="5/allah" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="6/bin" positionX="750" positionY="300"/>
+<Connection from="7/şükür" to="6/bin"/>
+<Word name="10/kaza 11/bırak" positionX="850" positionY="200"/>
+<Connection from="and" to="10/kaza 11/bırak" with="op3"/>
+<Connection from="10/kaza 11/bırak" to="-" with="polarity"/>
+<Connection from="10/kaza 11/bırak" to="ben" with="ARG0"/>
+<Word name="9/namaz" positionX="950" positionY="300"/>
+<Connection from="10/kaza 11/bırak" to="9/namaz" with="ARG1"/>
+<Connection from="9/namaz" to="ben" with="poss"/>
+</Amr>

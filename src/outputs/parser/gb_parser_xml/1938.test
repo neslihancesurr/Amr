@@ -1,0 +1,11 @@
+<Amr sentence="Yukarıya yeni kiracılar taşınmış .">
+<Word name="4/taşın" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/taşın" to="o" with="ARG0"/>
+<Word name="1/yukarı" positionX="750" positionY="200"/>
+<Connection from="4/taşın" to="1/yukarı" with="ARG2"/>
+<Word name="3/kiracı" positionX="850" positionY="200"/>
+<Connection from="4/taşın" to="3/kiracı" with="ARG1"/>
+<Word name="2/yeni" positionX="750" positionY="300"/>
+<Connection from="3/kiracı" to="2/yeni" with="mod"/>
+</Amr>

@@ -1,0 +1,16 @@
+<Amr sentence="Yemek yemeyeli saatler oldu , içi eziliyor .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/ol" positionX="650" positionY="200"/>
+<Connection from="and" to="4/ol" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/ol" to="o" with="ARG0"/>
+<Word name="1/yemek 2/ye" positionX="650" positionY="300"/>
+<Connection from="4/ol" to="1/yemek 2/ye"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="1/yemek 2/ye" to="-" with="polarity"/>
+<Word name="3/saat" positionX="750" positionY="300"/>
+<Connection from="4/ol" to="3/saat" with="ARG1"/>
+<Word name="6/iç 7/ezil" positionX="750" positionY="200"/>
+<Connection from="and" to="6/iç 7/ezil" with="op2"/>
+<Connection from="6/iç 7/ezil" to="o" with="ARG0"/>
+</Amr>

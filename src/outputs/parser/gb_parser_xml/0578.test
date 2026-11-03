@@ -1,0 +1,15 @@
+<Amr sentence="Çocuğa doğru dürüst bakamıyor .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="4/bak" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="4/bak"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="4/bak" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="4/bak" to="o" with="ARG0"/>
+<Word name="1/çocuk" positionX="750" positionY="300"/>
+<Connection from="4/bak" to="1/çocuk" with="ARG1"/>
+<Word name="3/dürüst" positionX="850" positionY="300"/>
+<Connection from="4/bak" to="3/dürüst" with="manner"/>
+<Word name="2/doğru" positionX="750" positionY="400"/>
+<Connection from="3/dürüst" to="2/doğru"/>
+</Amr>

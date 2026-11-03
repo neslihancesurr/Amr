@@ -1,0 +1,9 @@
+<Amr sentence="Temiz kalpliliği ile nam salan genç kıza sanki gaipten haber veriliyordu .">
+<Word name="9/gaip 10/haber 11/ver" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="9/gaip 10/haber 11/ver" to="o" with="ARG0"/>
+<Word name="6/genç 7/kız" positionX="750" positionY="200"/>
+<Connection from="9/gaip 10/haber 11/ver" to="6/genç 7/kız" with="ARG1"/>
+<Word name="8/sanki" positionX="850" positionY="200"/>
+<Connection from="9/gaip 10/haber 11/ver" to="8/sanki" with="manner"/>
+</Amr>

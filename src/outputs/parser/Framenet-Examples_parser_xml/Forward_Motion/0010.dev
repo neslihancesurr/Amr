@@ -1,0 +1,18 @@
+<Amr sentence="Silahını hatta başındaki şapkasını bırakıp kaçtı .">
+<Word name="6/kaç" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/kaç" to="o" with="ARG0"/>
+<Word name="5/bırak" positionX="750" positionY="200"/>
+<Connection from="6/kaç" to="5/bırak"/>
+<Word name="and" positionX="650" positionY="300"/>
+<Connection from="5/bırak" to="and"/>
+<Word name="4/şapka" positionX="550" positionY="400"/>
+<Connection from="and" to="4/şapka" with="op1"/>
+<Word name="2/hatta" positionX="450" positionY="500"/>
+<Connection from="4/şapka" to="2/hatta"/>
+<Word name="3/baş" positionX="550" positionY="500"/>
+<Connection from="4/şapka" to="3/baş" with="mod"/>
+<Word name="1/silah" positionX="650" positionY="400"/>
+<Connection from="and" to="1/silah" with="op2"/>
+<Connection from="1/silah" to="o" with="poss"/>
+</Amr>

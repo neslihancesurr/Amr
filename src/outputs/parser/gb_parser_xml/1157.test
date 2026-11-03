@@ -1,0 +1,12 @@
+<Amr sentence="Müdürler kendileri atıyorlar muavinlerini .">
+<Word name="3/ata" positionX="750" positionY="100"/>
+<Word name="1/müdür" positionX="650" positionY="200"/>
+<Connection from="3/ata" to="1/müdür" with="ARG0"/>
+<Word name="2/kendi" positionX="750" positionY="200"/>
+<Connection from="3/ata" to="2/kendi" with="ARG0"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="2/kendi" to="onlar" with="poss"/>
+<Word name="4/muavin" positionX="850" positionY="200"/>
+<Connection from="3/ata" to="4/muavin" with="ARG1"/>
+<Connection from="4/muavin" to="onlar" with="poss"/>
+</Amr>

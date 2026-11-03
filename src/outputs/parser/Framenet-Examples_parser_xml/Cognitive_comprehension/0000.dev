@@ -1,0 +1,17 @@
+<Amr sentence="Şaşırtıcı bir şekilde Nihal'in buna aklı erdi .">
+<Word name="6/akıl 7/er" positionX="750" positionY="100"/>
+<Word name="3/şekil" positionX="650" positionY="200"/>
+<Connection from="6/akıl 7/er" to="3/şekil" with="location"/>
+<Word name="1/şaşırtıcı" positionX="550" positionY="300"/>
+<Connection from="3/şekil" to="1/şaşırtıcı" with="mod"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="6/akıl 7/er" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="4/Nihal'in" positionX="550" positionY="400"/>
+<Connection from="name" to="4/Nihal'in" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/bu" positionX="850" positionY="200"/>
+<Connection from="6/akıl 7/er" to="5/bu" with="ARG1"/>
+</Amr>

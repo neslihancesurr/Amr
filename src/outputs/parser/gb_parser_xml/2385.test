@@ -1,0 +1,11 @@
+<Amr sentence="Paltosunun etekleri yerlere sürünerek yürüyordu .">
+<Word name="5/yürü" positionX="750" positionY="100"/>
+<Word name="4/sürün" positionX="650" positionY="200"/>
+<Connection from="5/yürü" to="4/sürün"/>
+<Word name="2/etek" positionX="550" positionY="300"/>
+<Connection from="4/sürün" to="2/etek"/>
+<Word name="1/palto" positionX="450" positionY="400"/>
+<Connection from="2/etek" to="1/palto" with="mod"/>
+<Word name="3/yer" positionX="650" positionY="300"/>
+<Connection from="4/sürün" to="3/yer"/>
+</Amr>

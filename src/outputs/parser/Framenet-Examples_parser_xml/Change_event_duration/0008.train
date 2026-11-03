@@ -1,0 +1,13 @@
+<Amr sentence="Bu aralar gönül işlerini rölantiye aldım .">
+<Word name="5/rölanti 6/al" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/rölanti 6/al" to="ben" with="ARG0"/>
+<Word name="2/ara" positionX="750" positionY="200"/>
+<Connection from="5/rölanti 6/al" to="2/ara"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/ara" to="1/bu" with="mod"/>
+<Word name="4/iş" positionX="850" positionY="200"/>
+<Connection from="5/rölanti 6/al" to="4/iş" with="ARG1"/>
+<Word name="3/gönül" positionX="750" positionY="300"/>
+<Connection from="4/iş" to="3/gönül" with="mod"/>
+</Amr>

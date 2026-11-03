@@ -1,0 +1,15 @@
+<Amr sentence="Sonra ipleri birbirine sıkı sıkı bağladık .">
+<Word name="6/bağla" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="6/bağla" to="biz" with="ARG0"/>
+<Word name="1/sonra" positionX="750" positionY="200"/>
+<Connection from="6/bağla" to="1/sonra" with="manner"/>
+<Word name="2/ip" positionX="850" positionY="200"/>
+<Connection from="6/bağla" to="2/ip" with="ARG1"/>
+<Word name="3/birbiri" positionX="950" positionY="200"/>
+<Connection from="6/bağla" to="3/birbiri"/>
+<Word name="o" positionX="850" positionY="300"/>
+<Connection from="3/birbiri" to="o" with="poss"/>
+<Word name="4/sıkı 5/sıkı" positionX="1050" positionY="200"/>
+<Connection from="6/bağla" to="4/sıkı 5/sıkı"/>
+</Amr>

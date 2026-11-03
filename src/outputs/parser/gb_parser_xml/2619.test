@@ -1,0 +1,19 @@
+<Amr sentence="Tam o saatte Semra işi bırakıp Ahmet işbaşı yapıyor .">
+<Word name="8/işbaş 9/yap" positionX="750" positionY="100"/>
+<Word name="3/saat" positionX="650" positionY="200"/>
+<Connection from="8/işbaş 9/yap" to="3/saat" with="location"/>
+<Word name="1/tam" positionX="550" positionY="300"/>
+<Connection from="3/saat" to="1/tam" with="degree"/>
+<Word name="2/o" positionX="650" positionY="300"/>
+<Connection from="3/saat" to="2/o" with="mod"/>
+<Word name="5/iş 6/bırak" positionX="750" positionY="200"/>
+<Connection from="8/işbaş 9/yap" to="5/iş 6/bırak"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="8/işbaş 9/yap" to="person" with="ARG0"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="7/ahmet" positionX="650" positionY="400"/>
+<Connection from="name" to="7/ahmet" with="op1"/>
+<Word name="-" positionX="850" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

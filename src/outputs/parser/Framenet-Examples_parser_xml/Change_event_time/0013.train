@@ -1,0 +1,9 @@
+<Amr sentence="Şirket en sonunda moratoryuma gitti .">
+<Word name="4/moratoryum 5/git" positionX="750" positionY="100"/>
+<Word name="1/şirket" positionX="650" positionY="200"/>
+<Connection from="4/moratoryum 5/git" to="1/şirket" with="ARG0"/>
+<Word name="3/sonunda" positionX="750" positionY="200"/>
+<Connection from="4/moratoryum 5/git" to="3/sonunda" with="manner"/>
+<Word name="2/en" positionX="650" positionY="300"/>
+<Connection from="3/sonunda" to="2/en" with="manner"/>
+</Amr>

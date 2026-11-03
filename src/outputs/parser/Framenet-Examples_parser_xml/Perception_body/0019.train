@@ -1,0 +1,15 @@
+<Amr sentence="Sıcak evden dışarı çıkınca birden ürperdim .">
+<Word name="6/ürper" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="6/ürper" to="ben" with="ARG0"/>
+<Word name="4/çık" positionX="750" positionY="200"/>
+<Connection from="6/ürper" to="4/çık"/>
+<Word name="2/ev" positionX="650" positionY="300"/>
+<Connection from="4/çık" to="2/ev" with="ARG2"/>
+<Word name="1/sıcak" positionX="550" positionY="400"/>
+<Connection from="2/ev" to="1/sıcak" with="mod"/>
+<Word name="3/dışarı" positionX="650" positionY="400"/>
+<Connection from="2/ev" to="3/dışarı"/>
+<Word name="5/birden" positionX="850" positionY="200"/>
+<Connection from="6/ürper" to="5/birden" with="manner"/>
+</Amr>

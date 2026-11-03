@@ -1,0 +1,11 @@
+<Amr sentence="Telefon etseydik belki beklerlerdi .">
+<Word name="4/bekle" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/bekle" to="onlar" with="ARG0"/>
+<Word name="1/telefon 2/et" positionX="750" positionY="200"/>
+<Connection from="4/bekle" to="1/telefon 2/et"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="1/telefon 2/et" to="biz" with="ARG0"/>
+<Word name="3/belki" positionX="850" positionY="200"/>
+<Connection from="4/bekle" to="3/belki" with="manner"/>
+</Amr>

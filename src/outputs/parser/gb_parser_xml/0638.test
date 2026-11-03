@@ -1,0 +1,11 @@
+<Amr sentence="Sizin arabanız var mı ?">
+<Word name="3/var" positionX="750" positionY="100"/>
+<Word name="2/araba" positionX="650" positionY="200"/>
+<Connection from="3/var" to="2/araba"/>
+<Word name="siz" positionX="550" positionY="300"/>
+<Connection from="2/araba" to="siz" with="poss"/>
+<Word name="1/siz" positionX="650" positionY="300"/>
+<Connection from="2/araba" to="1/siz" with="mod"/>
+<Word name="4/mi" positionX="750" positionY="200"/>
+<Connection from="3/var" to="4/mi"/>
+</Amr>

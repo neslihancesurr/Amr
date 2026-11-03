@@ -1,0 +1,19 @@
+<Amr sentence="Şoför bir şey demese de mürebbiye olanları idrak etti .">
+<Word name="8/idrak 9/et" positionX="750" positionY="100"/>
+<Word name="4/de" positionX="650" positionY="200"/>
+<Connection from="8/idrak 9/et" to="4/de"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="4/de" to="-" with="polarity"/>
+<Word name="1/şoför" positionX="650" positionY="300"/>
+<Connection from="4/de" to="1/şoför" with="ARG0"/>
+<Word name="3/şey" positionX="750" positionY="300"/>
+<Connection from="4/de" to="3/şey" with="ARG1"/>
+<Word name="5/de" positionX="850" positionY="300"/>
+<Connection from="4/de" to="5/de"/>
+<Word name="6/mürebbiye" positionX="750" positionY="200"/>
+<Connection from="8/idrak 9/et" to="6/mürebbiye" with="ARG0"/>
+<Word name="7/ol" positionX="850" positionY="200"/>
+<Connection from="8/idrak 9/et" to="7/ol" with="ARG1"/>
+<Word name="onlar" positionX="750" positionY="300"/>
+<Connection from="7/ol" to="onlar" with="ARG0"/>
+</Amr>

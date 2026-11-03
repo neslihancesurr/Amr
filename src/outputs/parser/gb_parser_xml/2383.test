@@ -1,0 +1,15 @@
+<Amr sentence="Çocuğa dondurma almak için para verdik .">
+<Word name="6/ver" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="6/ver" to="biz" with="ARG0"/>
+<Word name="1/çocuk" positionX="750" positionY="200"/>
+<Connection from="6/ver" to="1/çocuk"/>
+<Word name="3/al" positionX="850" positionY="200"/>
+<Connection from="6/ver" to="3/al" with="cause"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="3/al" to="o" with="ARG0"/>
+<Word name="2/dondurma" positionX="850" positionY="300"/>
+<Connection from="3/al" to="2/dondurma"/>
+<Word name="5/para" positionX="950" positionY="200"/>
+<Connection from="6/ver" to="5/para"/>
+</Amr>

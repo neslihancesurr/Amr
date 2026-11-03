@@ -1,0 +1,11 @@
+<Amr sentence="O olayı sık sık kafasından geçirir .">
+<Word name="5/kafa 6/geçir" positionX="750" positionY="100"/>
+<Word name="2/olay" positionX="650" positionY="200"/>
+<Connection from="5/kafa 6/geçir" to="2/olay" with="ARG1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/olay" to="o" with="poss"/>
+<Word name="1/o" positionX="650" positionY="300"/>
+<Connection from="2/olay" to="1/o" with="mod"/>
+<Word name="3/sık 4/sık" positionX="750" positionY="200"/>
+<Connection from="5/kafa 6/geçir" to="3/sık 4/sık"/>
+</Amr>

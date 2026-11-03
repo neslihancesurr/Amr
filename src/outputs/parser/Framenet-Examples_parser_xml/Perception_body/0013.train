@@ -1,0 +1,18 @@
+<Amr sentence="Şaşkınlığından bir kestane yığınına çarptı , canı acıyordu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/çarp" positionX="650" positionY="200"/>
+<Connection from="and" to="5/çarp" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="5/çarp" to="o" with="ARG0"/>
+<Word name="1/şaşkınlık" positionX="650" positionY="300"/>
+<Connection from="5/çarp" to="1/şaşkınlık"/>
+<Connection from="1/şaşkınlık" to="o" with="poss"/>
+<Word name="4/yığın" positionX="750" positionY="300"/>
+<Connection from="5/çarp" to="4/yığın" with="ARG1"/>
+<Word name="2/bir" positionX="650" positionY="400"/>
+<Connection from="4/yığın" to="2/bir"/>
+<Word name="3/kestane" positionX="750" positionY="400"/>
+<Connection from="4/yığın" to="3/kestane" with="mod"/>
+<Word name="7/can 8/acı" positionX="750" positionY="200"/>
+<Connection from="and" to="7/can 8/acı" with="op2"/>
+</Amr>

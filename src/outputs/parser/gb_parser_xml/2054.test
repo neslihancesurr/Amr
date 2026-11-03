@@ -1,0 +1,13 @@
+<Amr sentence="Öyle bir hareket için ‘ sıyrılmak ' fiilini kullanırız .">
+<Word name="9/kullan" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="9/kullan" to="biz" with="ARG0"/>
+<Word name="3/hareket" positionX="750" positionY="200"/>
+<Connection from="9/kullan" to="3/hareket" with="cause"/>
+<Word name="1/öyle" positionX="650" positionY="300"/>
+<Connection from="3/hareket" to="1/öyle" with="mod"/>
+<Word name="8/fiil" positionX="850" positionY="200"/>
+<Connection from="9/kullan" to="8/fiil"/>
+<Word name="6/sıyrıl" positionX="750" positionY="300"/>
+<Connection from="8/fiil" to="6/sıyrıl" with="mod"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Bu duvarı kireçle tertemiz badanalayalım .">
+<Word name="5/badanala" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/badanala" to="biz" with="ARG0"/>
+<Word name="2/duvar" positionX="750" positionY="200"/>
+<Connection from="5/badanala" to="2/duvar" with="ARG1"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/duvar" to="1/bu" with="mod"/>
+<Word name="3/kireç" positionX="850" positionY="200"/>
+<Connection from="5/badanala" to="3/kireç" with="instrument"/>
+<Word name="4/tertemiz" positionX="950" positionY="200"/>
+<Connection from="5/badanala" to="4/tertemiz" with="manner"/>
+</Amr>

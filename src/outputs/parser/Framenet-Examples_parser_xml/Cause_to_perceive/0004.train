@@ -1,0 +1,9 @@
+<Amr sentence="Serseriler çocuğu afyonlamış .">
+<Word name="3/afyonla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/afyonla" to="o" with="ARG0"/>
+<Word name="1/serseri" positionX="750" positionY="200"/>
+<Connection from="3/afyonla" to="1/serseri"/>
+<Word name="2/çocuk" positionX="850" positionY="200"/>
+<Connection from="3/afyonla" to="2/çocuk" with="ARG1"/>
+</Amr>

@@ -1,0 +1,19 @@
+<Amr sentence="Evde ben kendim oturacağım için bu renkleri seçtim .">
+<Word name="8/seç" positionX="750" positionY="100"/>
+<Word name="4/otur" positionX="650" positionY="200"/>
+<Connection from="8/seç" to="4/otur" with="cause"/>
+<Word name="1/ev" positionX="550" positionY="300"/>
+<Connection from="4/otur" to="1/ev" with="ARG1"/>
+<Word name="2/ben" positionX="650" positionY="300"/>
+<Connection from="4/otur" to="2/ben" with="ARG0"/>
+<Word name="3/kendi" positionX="750" positionY="300"/>
+<Connection from="4/otur" to="3/kendi" with="ARG0"/>
+<Word name="ben" positionX="650" positionY="400"/>
+<Connection from="3/kendi" to="ben" with="poss"/>
+<Word name="7/renk" positionX="750" positionY="200"/>
+<Connection from="8/seç" to="7/renk" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="7/renk" to="o" with="poss"/>
+<Word name="6/bu" positionX="750" positionY="300"/>
+<Connection from="7/renk" to="6/bu" with="mod"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Zengindi ama bütün parasının altından girip üstünden çıktı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/alt 6/gir 7/üst 8/çık" positionX="650" positionY="200"/>
+<Connection from="and" to="5/alt 6/gir 7/üst 8/çık" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="5/alt 6/gir 7/üst 8/çık" to="o" with="ARG0"/>
+<Word name="1/zengin" positionX="750" positionY="200"/>
+<Connection from="and" to="1/zengin" with="op2"/>
+</Amr>

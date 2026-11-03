@@ -1,0 +1,22 @@
+<Amr sentence="Nimet Hanım torunlarını çok seviyor .">
+<Word name="5/sev" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="5/sev" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/hanım" positionX="450" positionY="400"/>
+<Connection from="name" to="2/hanım" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="person" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/nimet" positionX="550" positionY="500"/>
+<Connection from="name" to="1/nimet" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/torun" positionX="750" positionY="200"/>
+<Connection from="5/sev" to="3/torun" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/torun" to="o" with="poss"/>
+<Word name="4/çok" positionX="850" positionY="200"/>
+<Connection from="5/sev" to="4/çok" with="degree"/>
+</Amr>

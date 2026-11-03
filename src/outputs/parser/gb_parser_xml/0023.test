@@ -1,0 +1,13 @@
+<Amr sentence="Biletleri aldıysan içeri girelim .">
+<Word name="4/gir" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="4/gir" to="biz" with="ARG0"/>
+<Word name="2/al" positionX="750" positionY="200"/>
+<Connection from="4/gir" to="2/al" with="cond"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="2/al" to="sen" with="ARG0"/>
+<Word name="1/bilet" positionX="750" positionY="300"/>
+<Connection from="2/al" to="1/bilet" with="ARG1"/>
+<Word name="3/içeri" positionX="850" positionY="200"/>
+<Connection from="4/gir" to="3/içeri" with="ARG1"/>
+</Amr>

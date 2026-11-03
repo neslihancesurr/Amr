@@ -1,0 +1,9 @@
+<Amr sentence="Uçağın içini basınçladılar .">
+<Word name="3/basınçla" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="3/basınçla" to="onlar" with="ARG0"/>
+<Word name="2/iç" positionX="750" positionY="200"/>
+<Connection from="3/basınçla" to="2/iç" with="ARG1"/>
+<Word name="1/uçak" positionX="650" positionY="300"/>
+<Connection from="2/iç" to="1/uçak" with="mod"/>
+</Amr>

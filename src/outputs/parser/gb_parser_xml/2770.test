@@ -1,0 +1,19 @@
+<Amr sentence="İşte cuma akşamları toplandığımız yer burası .">
+<Word name="6/bura" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/bura" to="o" with="poss"/>
+<Word name="1/işte" positionX="750" positionY="200"/>
+<Connection from="6/bura" to="1/işte"/>
+<Word name="5/yer" positionX="850" positionY="200"/>
+<Connection from="6/bura" to="5/yer"/>
+<Word name="4/toplan" positionX="750" positionY="300"/>
+<Connection from="5/yer" to="4/toplan"/>
+<Word name="biz" positionX="650" positionY="400"/>
+<Connection from="4/toplan" to="biz" with="poss"/>
+<Word name="3/akşam" positionX="750" positionY="400"/>
+<Connection from="4/toplan" to="3/akşam"/>
+<Word name="date-entity" positionX="650" positionY="500"/>
+<Connection from="3/akşam" to="date-entity" with="date"/>
+<Word name="2/cuma" positionX="550" positionY="600"/>
+<Connection from="date-entity" to="2/cuma" with="weekday"/>
+</Amr>

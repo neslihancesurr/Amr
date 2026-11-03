@@ -1,0 +1,18 @@
+<Amr sentence="Pek sevgisini göstermezdi ama ben gönlüne girmiştim .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/gönül 7/gir" positionX="650" positionY="200"/>
+<Connection from="and" to="6/gönül 7/gir" with="op1"/>
+<Word name="5/ben" positionX="550" positionY="300"/>
+<Connection from="6/gönül 7/gir" to="5/ben" with="ARG0"/>
+<Word name="3/göster" positionX="750" positionY="200"/>
+<Connection from="and" to="3/göster" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="3/göster" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="3/göster" to="o" with="ARG0"/>
+<Word name="1/pek" positionX="850" positionY="300"/>
+<Connection from="3/göster" to="1/pek" with="manner"/>
+<Word name="2/sevgi" positionX="950" positionY="300"/>
+<Connection from="3/göster" to="2/sevgi" with="ARG1"/>
+<Connection from="2/sevgi" to="o" with="poss"/>
+</Amr>

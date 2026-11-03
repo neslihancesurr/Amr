@@ -1,0 +1,10 @@
+<Amr sentence="onların çalışmayanları">
+<Word name="2/çalış" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="2/çalış" to="-" with="polarity"/>
+<Word name="onlar" positionX="750" positionY="200"/>
+<Connection from="2/çalış" to="onlar" with="ARG0"/>
+<Connection from="2/çalış" to="onlar" with="poss"/>
+<Word name="1/o" positionX="950" positionY="200"/>
+<Connection from="2/çalış" to="1/o"/>
+</Amr>

@@ -1,0 +1,7 @@
+<Amr sentence="öbür gazetedeki resim">
+<Word name="3/resim" positionX="750" positionY="100"/>
+<Word name="2/gazete" positionX="650" positionY="200"/>
+<Connection from="3/resim" to="2/gazete" with="mod"/>
+<Word name="1/öbür" positionX="550" positionY="300"/>
+<Connection from="2/gazete" to="1/öbür" with="mod"/>
+</Amr>

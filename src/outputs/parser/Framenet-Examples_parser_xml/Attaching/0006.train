@@ -1,0 +1,12 @@
+<Amr sentence="Kaynak yapmak yerine her birini cıvataladık .">
+<Word name="6/cıvatala" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="6/cıvatala" to="biz" with="ARG0"/>
+<Word name="1/kaynak 2/yap" positionX="750" positionY="200"/>
+<Connection from="6/cıvatala" to="1/kaynak 2/yap"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="1/kaynak 2/yap" to="o" with="ARG0"/>
+<Word name="4/her 5/biri" positionX="850" positionY="200"/>
+<Connection from="6/cıvatala" to="4/her 5/biri" with="ARG1"/>
+<Connection from="4/her 5/biri" to="o" with="poss"/>
+</Amr>

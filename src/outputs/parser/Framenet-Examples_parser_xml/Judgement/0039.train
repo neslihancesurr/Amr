@@ -1,0 +1,13 @@
+<Amr sentence="Onun tüm çalışmasını iyice ölçümledik .">
+<Word name="5/ölçümle" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/ölçümle" to="biz" with="ARG0"/>
+<Word name="3/çalışma" positionX="750" positionY="200"/>
+<Connection from="5/ölçümle" to="3/çalışma" with="ARG1"/>
+<Word name="1/o" positionX="650" positionY="300"/>
+<Connection from="3/çalışma" to="1/o" with="mod"/>
+<Word name="2/tüm" positionX="750" positionY="300"/>
+<Connection from="3/çalışma" to="2/tüm" with="mod"/>
+<Word name="4/iyi" positionX="850" positionY="200"/>
+<Connection from="5/ölçümle" to="4/iyi" with="manner"/>
+</Amr>

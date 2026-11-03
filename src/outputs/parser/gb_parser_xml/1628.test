@@ -1,0 +1,7 @@
+<Amr sentence="Öğrenciler neşeli olurlardı .">
+<Word name="2/neşeli" positionX="750" positionY="100"/>
+<Word name="1/öğrenci" positionX="650" positionY="200"/>
+<Connection from="2/neşeli" to="1/öğrenci"/>
+<Word name="3/ol" positionX="750" positionY="200"/>
+<Connection from="2/neşeli" to="3/ol"/>
+</Amr>

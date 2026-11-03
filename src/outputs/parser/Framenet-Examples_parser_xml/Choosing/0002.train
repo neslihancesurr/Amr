@@ -1,0 +1,11 @@
+<Amr sentence="Meclis bu iş için onu seçti .">
+<Word name="6/seç" positionX="750" positionY="100"/>
+<Word name="1/meclis" positionX="650" positionY="200"/>
+<Connection from="6/seç" to="1/meclis" with="ARG0"/>
+<Word name="3/iş" positionX="750" positionY="200"/>
+<Connection from="6/seç" to="3/iş" with="cause"/>
+<Word name="2/bu" positionX="650" positionY="300"/>
+<Connection from="3/iş" to="2/bu" with="mod"/>
+<Word name="5/o" positionX="850" positionY="200"/>
+<Connection from="6/seç" to="5/o" with="ARG1"/>
+</Amr>

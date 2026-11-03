@@ -1,0 +1,11 @@
+<Amr sentence="Büyücü kalemleri kağıda dönüştürmekte .">
+<Word name="4/dönüştür" positionX="750" positionY="100"/>
+<Word name="1/büyücü" positionX="650" positionY="200"/>
+<Connection from="4/dönüştür" to="1/büyücü" with="ARG0"/>
+<Word name="2/kalem" positionX="750" positionY="200"/>
+<Connection from="4/dönüştür" to="2/kalem" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/kalem" to="o" with="poss"/>
+<Word name="3/tahvil" positionX="850" positionY="200"/>
+<Connection from="4/dönüştür" to="3/tahvil" with="ARG2"/>
+</Amr>

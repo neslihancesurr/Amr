@@ -1,0 +1,9 @@
+<Amr sentence="Sonunda o da sırra erdi .">
+<Word name="4/sır 5/er" positionX="750" positionY="100"/>
+<Word name="1/sonunda" positionX="650" positionY="200"/>
+<Connection from="4/sır 5/er" to="1/sonunda" with="manner"/>
+<Word name="2/o" positionX="750" positionY="200"/>
+<Connection from="4/sır 5/er" to="2/o" with="ARG0"/>
+<Word name="3/da" positionX="650" positionY="300"/>
+<Connection from="2/o" to="3/da"/>
+</Amr>

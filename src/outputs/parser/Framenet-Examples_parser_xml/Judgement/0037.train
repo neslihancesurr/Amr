@@ -1,0 +1,16 @@
+<Amr sentence="Bitiriş konuşmasına patronu ve ekibi şapka çıkardı .">
+<Word name="6/şapka 7/çık" positionX="750" positionY="100"/>
+<Word name="2/konuşma" positionX="650" positionY="200"/>
+<Connection from="6/şapka 7/çık" to="2/konuşma" with="ARG1"/>
+<Word name="1/bitiriş" positionX="550" positionY="300"/>
+<Connection from="2/konuşma" to="1/bitiriş" with="mod"/>
+<Word name="and" positionX="750" positionY="200"/>
+<Connection from="6/şapka 7/çık" to="and"/>
+<Word name="5/ekip" positionX="650" positionY="300"/>
+<Connection from="and" to="5/ekip" with="ARG0"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="5/ekip" to="o" with="poss"/>
+<Word name="3/patron" positionX="750" positionY="300"/>
+<Connection from="and" to="3/patron" with="ARG0"/>
+<Connection from="3/patron" to="o" with="poss"/>
+</Amr>

@@ -1,0 +1,19 @@
+<Amr sentence="Edebiyat konusunda hükûmet daima bizim fikrimizi alır , ondan sonra icraata geçer .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/fikir 7/al" positionX="650" positionY="200"/>
+<Connection from="and" to="6/fikir 7/al" with="op1"/>
+<Word name="2/konu" positionX="550" positionY="300"/>
+<Connection from="6/fikir 7/al" to="2/konu" with="ARG2"/>
+<Word name="1/edebiyat" positionX="450" positionY="400"/>
+<Connection from="2/konu" to="1/edebiyat" with="mod"/>
+<Word name="3/hükûmet" positionX="650" positionY="300"/>
+<Connection from="6/fikir 7/al" to="3/hükûmet" with="ARG0"/>
+<Word name="4/daima" positionX="750" positionY="300"/>
+<Connection from="6/fikir 7/al" to="4/daima" with="manner"/>
+<Word name="11/icraat 12/geç" positionX="750" positionY="200"/>
+<Connection from="and" to="11/icraat 12/geç" with="op2"/>
+<Word name="9/o" positionX="650" positionY="300"/>
+<Connection from="11/icraat 12/geç" to="9/o" with="mod"/>
+<Word name="10/sonra" positionX="550" positionY="400"/>
+<Connection from="9/o" to="10/sonra"/>
+</Amr>

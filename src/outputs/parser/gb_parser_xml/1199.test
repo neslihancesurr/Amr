@@ -1,0 +1,18 @@
+<Amr sentence="Defalarca aradığımız yetkililer telefonlarımıza cevap vermediler .">
+<Word name="6/ver" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="6/ver" to="-" with="polarity"/>
+<Word name="3/yetkili" positionX="750" positionY="200"/>
+<Connection from="6/ver" to="3/yetkili" with="ARG0"/>
+<Word name="2/ara" positionX="650" positionY="300"/>
+<Connection from="3/yetkili" to="2/ara"/>
+<Word name="biz" positionX="550" positionY="400"/>
+<Connection from="2/ara" to="biz" with="poss"/>
+<Word name="1/defalarca" positionX="650" positionY="400"/>
+<Connection from="2/ara" to="1/defalarca"/>
+<Word name="4/telefon" positionX="850" positionY="200"/>
+<Connection from="6/ver" to="4/telefon"/>
+<Connection from="4/telefon" to="biz" with="poss"/>
+<Word name="5/cevap" positionX="950" positionY="200"/>
+<Connection from="6/ver" to="5/cevap"/>
+</Amr>

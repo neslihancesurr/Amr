@@ -1,0 +1,11 @@
+<Amr sentence="Keşke böyle küçülmeseydin .">
+<Word name="3/küçül" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/küçül" to="-" with="polarity"/>
+<Word name="sen" positionX="750" positionY="200"/>
+<Connection from="3/küçül" to="sen" with="ARG0"/>
+<Word name="1/keşke" positionX="850" positionY="200"/>
+<Connection from="3/küçül" to="1/keşke"/>
+<Word name="2/böyle" positionX="950" positionY="200"/>
+<Connection from="3/küçül" to="2/böyle" with="manner"/>
+</Amr>

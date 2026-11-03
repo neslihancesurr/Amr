@@ -1,0 +1,21 @@
+<Amr sentence="Bu sınavlarda neden bu kadar güçlük çekildiğini anlamıyor değilim .">
+<Word name="8/anla" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="8/anla" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="8/anla" to="o" with="ARG0"/>
+<Word name="7/çek" positionX="850" positionY="200"/>
+<Connection from="8/anla" to="7/çek" with="ARG1"/>
+<Connection from="7/çek" to="o" with="ARG0"/>
+<Word name="2/sınav" positionX="850" positionY="300"/>
+<Connection from="7/çek" to="2/sınav" with="mod"/>
+<Word name="1/bu" positionX="750" positionY="400"/>
+<Connection from="2/sınav" to="1/bu" with="mod"/>
+<Word name="3/neden" positionX="950" positionY="300"/>
+<Connection from="7/çek" to="3/neden" with="manner"/>
+<Word name="6/güçlük" positionX="1050" positionY="300"/>
+<Connection from="7/çek" to="6/güçlük"/>
+<Word name="4/bu 5/kadar" positionX="950" positionY="400"/>
+<Connection from="6/güçlük" to="4/bu 5/kadar" with="mod"/>
+<Connection from="8/anla" to="-" with="polarity"/>
+</Amr>

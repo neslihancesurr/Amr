@@ -1,0 +1,9 @@
+<Amr sentence="Öğretmenleri nihayet dizginini çekti .">
+<Word name="3/dizgin 4/çek" positionX="750" positionY="100"/>
+<Word name="1/öğretmen" positionX="650" positionY="200"/>
+<Connection from="3/dizgin 4/çek" to="1/öğretmen" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/öğretmen" to="o" with="poss"/>
+<Word name="2/nihayet" positionX="750" positionY="200"/>
+<Connection from="3/dizgin 4/çek" to="2/nihayet" with="manner"/>
+</Amr>

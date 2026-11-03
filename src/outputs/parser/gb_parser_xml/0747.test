@@ -1,0 +1,7 @@
+<Amr sentence="güvenlikle ilgili bir konu">
+<Word name="4/konu" positionX="750" positionY="100"/>
+<Word name="2/ilgili" positionX="650" positionY="200"/>
+<Connection from="4/konu" to="2/ilgili" with="mod"/>
+<Word name="1/güvenlik" positionX="550" positionY="300"/>
+<Connection from="2/ilgili" to="1/güvenlik" with="mod"/>
+</Amr>

@@ -1,0 +1,20 @@
+<Amr sentence="Boğaziçi'nde yaşayan bir insan , kendisini kapanmış , bütünleşmiş bir mekânda duyumsar .">
+<Word name="12/duyumsa" positionX="750" positionY="100"/>
+<Word name="4/insan" positionX="650" positionY="200"/>
+<Connection from="12/duyumsa" to="4/insan" with="ARG0"/>
+<Word name="2/yaşa" positionX="550" positionY="300"/>
+<Connection from="4/insan" to="2/yaşa"/>
+<Word name="1/boğaziç" positionX="450" positionY="400"/>
+<Connection from="2/yaşa" to="1/boğaziç" with="ARG1"/>
+<Word name="o" positionX="350" positionY="500"/>
+<Connection from="1/boğaziç" to="o" with="poss"/>
+<Word name="6/kendi" positionX="750" positionY="200"/>
+<Connection from="12/duyumsa" to="6/kendi" with="ARG0"/>
+<Connection from="6/kendi" to="o" with="poss"/>
+<Word name="11/mekân" positionX="850" positionY="200"/>
+<Connection from="12/duyumsa" to="11/mekân" with="ARG1"/>
+<Word name="7/kapan" positionX="750" positionY="300"/>
+<Connection from="11/mekân" to="7/kapan"/>
+<Word name="9/bütünleş" positionX="850" positionY="300"/>
+<Connection from="11/mekân" to="9/bütünleş"/>
+</Amr>

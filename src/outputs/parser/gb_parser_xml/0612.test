@@ -1,0 +1,17 @@
+<Amr sentence="Mustafa'nın evi bundan daha büyük .">
+<Word name="5/büyük" positionX="750" positionY="100"/>
+<Word name="2/ev" positionX="650" positionY="200"/>
+<Connection from="5/büyük" to="2/ev"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="2/ev" to="person"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/mustafa" positionX="350" positionY="500"/>
+<Connection from="name" to="1/mustafa" with="op1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/bu" positionX="750" positionY="200"/>
+<Connection from="5/büyük" to="3/bu"/>
+<Word name="4/daha" positionX="850" positionY="200"/>
+<Connection from="5/büyük" to="4/daha" with="degree"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Yoğun kar yağışından dolayı okullar tatil olacak .">
+<Word name="6/tatil 7/ol" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/tatil 7/ol" to="o" with="ARG0"/>
+<Word name="2/kar 3/yağ" positionX="750" positionY="200"/>
+<Connection from="6/tatil 7/ol" to="2/kar 3/yağ" with="mod"/>
+<Word name="5/okul" positionX="850" positionY="200"/>
+<Connection from="6/tatil 7/ol" to="5/okul" with="ARG1"/>
+</Amr>

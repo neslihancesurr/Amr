@@ -1,0 +1,9 @@
+<Amr sentence="Biz sizi başkanlığa seçtik .">
+<Word name="4/seç" positionX="750" positionY="100"/>
+<Word name="1/biz" positionX="650" positionY="200"/>
+<Connection from="4/seç" to="1/biz" with="ARG0"/>
+<Word name="2/siz" positionX="750" positionY="200"/>
+<Connection from="4/seç" to="2/siz" with="ARG1"/>
+<Word name="3/başkanlık" positionX="850" positionY="200"/>
+<Connection from="4/seç" to="3/başkanlık"/>
+</Amr>

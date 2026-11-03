@@ -1,0 +1,29 @@
+<Amr sentence="Nereye giderseniz gidin bu fiyata bu kadar güzel bir kanepe bulamazsınız .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="11/bul" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="11/bul"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="11/bul" to="-" with="polarity"/>
+<Word name="siz" positionX="650" positionY="300"/>
+<Connection from="11/bul" to="siz" with="ARG0"/>
+<Word name="2/git" positionX="750" positionY="300"/>
+<Connection from="11/bul" to="2/git" with="cond"/>
+<Connection from="2/git" to="siz" with="ARG0"/>
+<Word name="1/nereye" positionX="750" positionY="400"/>
+<Connection from="2/git" to="1/nereye"/>
+<Word name="3/git" positionX="850" positionY="400"/>
+<Connection from="2/git" to="3/git"/>
+<Connection from="3/git" to="siz" with="ARG0"/>
+<Word name="imperative" positionX="850" positionY="500"/>
+<Connection from="3/git" to="imperative" with="mode"/>
+<Word name="5/fiyat" positionX="850" positionY="300"/>
+<Connection from="11/bul" to="5/fiyat"/>
+<Word name="4/bu" positionX="750" positionY="400"/>
+<Connection from="5/fiyat" to="4/bu" with="mod"/>
+<Word name="10/kanepe" positionX="950" positionY="300"/>
+<Connection from="11/bul" to="10/kanepe" with="ARG1"/>
+<Word name="8/güzel" positionX="850" positionY="400"/>
+<Connection from="10/kanepe" to="8/güzel" with="mod"/>
+<Word name="6/bu 7/kadar" positionX="750" positionY="500"/>
+<Connection from="8/güzel" to="6/bu 7/kadar" with="mod"/>
+</Amr>

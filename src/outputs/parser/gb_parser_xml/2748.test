@@ -1,0 +1,13 @@
+<Amr sentence="Onlar da bunun üzerine grev yapmaya karar verdiler .">
+<Word name="7/karar 8/ver" positionX="750" positionY="100"/>
+<Word name="1/o" positionX="650" positionY="200"/>
+<Connection from="7/karar 8/ver" to="1/o" with="ARG0"/>
+<Word name="2/da" positionX="550" positionY="300"/>
+<Connection from="1/o" to="2/da"/>
+<Word name="3/bu" positionX="750" positionY="200"/>
+<Connection from="7/karar 8/ver" to="3/bu"/>
+<Word name="4/üzerine" positionX="650" positionY="300"/>
+<Connection from="3/bu" to="4/üzerine"/>
+<Word name="5/grev 6/yap" positionX="850" positionY="200"/>
+<Connection from="7/karar 8/ver" to="5/grev 6/yap" with="ARG1"/>
+</Amr>

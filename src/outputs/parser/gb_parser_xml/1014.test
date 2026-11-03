@@ -1,0 +1,5 @@
+<Amr sentence="Seninki gibi bir çanta almayı düşünüyordum .">
+<Word name="5/al 6/düşün" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/al 6/düşün" to="ben" with="ARG0"/>
+</Amr>

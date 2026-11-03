@@ -1,0 +1,15 @@
+<Amr sentence="Börek yapacak diye çuvallarca unu sokağa attı .">
+<Word name="6/sokak 7/at" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/sokak 7/at" to="o" with="ARG0"/>
+<Word name="2/yap" positionX="750" positionY="200"/>
+<Connection from="6/sokak 7/at" to="2/yap"/>
+<Word name="1/börek" positionX="650" positionY="300"/>
+<Connection from="2/yap" to="1/börek" with="ARG1"/>
+<Word name="3/diye" positionX="750" positionY="300"/>
+<Connection from="2/yap" to="3/diye"/>
+<Word name="5/un" positionX="850" positionY="200"/>
+<Connection from="6/sokak 7/at" to="5/un" with="ARG1"/>
+<Word name="4/çuval" positionX="750" positionY="300"/>
+<Connection from="5/un" to="4/çuval" with="mod"/>
+</Amr>

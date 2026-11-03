@@ -1,0 +1,9 @@
+<Amr sentence="Bu işte büyük para var .">
+<Word name="5/var" positionX="750" positionY="100"/>
+<Word name="2/iş" positionX="650" positionY="200"/>
+<Connection from="5/var" to="2/iş" with="location"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/iş" to="1/bu" with="mod"/>
+<Word name="3/büyük 4/para" positionX="750" positionY="200"/>
+<Connection from="5/var" to="3/büyük 4/para" with="mod"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Yeni gelen eşyaları materyallerine göre kategorize etti .">
+<Word name="6/kategorize 7/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/kategorize 7/et" to="o" with="ARG0"/>
+<Word name="3/eşya" positionX="750" positionY="200"/>
+<Connection from="6/kategorize 7/et" to="3/eşya" with="ARG1"/>
+<Word name="2/gel" positionX="650" positionY="300"/>
+<Connection from="3/eşya" to="2/gel"/>
+<Word name="1/yeni" positionX="550" positionY="400"/>
+<Connection from="2/gel" to="1/yeni" with="manner"/>
+<Word name="4/materyal" positionX="850" positionY="200"/>
+<Connection from="6/kategorize 7/et" to="4/materyal" with="mod"/>
+<Word name="5/göre" positionX="750" positionY="300"/>
+<Connection from="4/materyal" to="5/göre"/>
+</Amr>

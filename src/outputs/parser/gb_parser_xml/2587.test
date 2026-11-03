@@ -1,0 +1,35 @@
+<Amr sentence="Nasıl Hakan akşamları garsonluk yapıyorsa sen de derslerine engel olmayacak bir iş bulabilirsin .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="13/bul" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="13/bul"/>
+<Word name="5/yap" positionX="550" positionY="300"/>
+<Connection from="13/bul" to="5/yap" with="cond"/>
+<Word name="1/nasıl" positionX="450" positionY="400"/>
+<Connection from="5/yap" to="1/nasıl" with="manner"/>
+<Word name="person" positionX="550" positionY="400"/>
+<Connection from="5/yap" to="person" with="ARG0"/>
+<Word name="name" positionX="450" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/hakan" positionX="350" positionY="600"/>
+<Connection from="name" to="2/hakan" with="op1"/>
+<Word name="-" positionX="550" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/akşam" positionX="650" positionY="400"/>
+<Connection from="5/yap" to="3/akşam"/>
+<Word name="o" positionX="550" positionY="500"/>
+<Connection from="3/akşam" to="o" with="poss"/>
+<Word name="4/garsonluk" positionX="750" positionY="400"/>
+<Connection from="5/yap" to="4/garsonluk" with="ARG1"/>
+<Word name="6/sen" positionX="650" positionY="300"/>
+<Connection from="13/bul" to="6/sen" with="ARG0"/>
+<Word name="7/de" positionX="550" positionY="400"/>
+<Connection from="6/sen" to="7/de"/>
+<Word name="12/iş" positionX="750" positionY="300"/>
+<Connection from="13/bul" to="12/iş" with="ARG1"/>
+<Word name="9/engel 10/ol" positionX="650" positionY="400"/>
+<Connection from="12/iş" to="9/engel 10/ol" with="mod"/>
+<Word name="8/ders" positionX="550" positionY="500"/>
+<Connection from="9/engel 10/ol" to="8/ders" with="ARG1"/>
+<Word name="sen" positionX="450" positionY="600"/>
+<Connection from="8/ders" to="sen" with="poss"/>
+</Amr>

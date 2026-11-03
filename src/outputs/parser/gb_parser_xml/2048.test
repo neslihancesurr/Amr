@@ -1,0 +1,20 @@
+<Amr sentence="Aslında istiyor ki her taraf mermerle kaplansın .">
+<Word name="2/iste" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="2/iste" to="o" with="ARG0"/>
+<Word name="1/aslında" positionX="750" positionY="200"/>
+<Connection from="2/iste" to="1/aslında" with="manner"/>
+<Word name="7/kapla" positionX="850" positionY="200"/>
+<Connection from="2/iste" to="7/kapla"/>
+<Connection from="7/kapla" to="o" with="ARG0"/>
+<Word name="imperative" positionX="850" positionY="300"/>
+<Connection from="7/kapla" to="imperative" with="mode"/>
+<Word name="3/ki" positionX="950" positionY="300"/>
+<Connection from="7/kapla" to="3/ki"/>
+<Word name="5/taraf" positionX="1050" positionY="300"/>
+<Connection from="7/kapla" to="5/taraf"/>
+<Word name="4/her" positionX="950" positionY="400"/>
+<Connection from="5/taraf" to="4/her" with="mod"/>
+<Word name="6/mermer" positionX="1150" positionY="300"/>
+<Connection from="7/kapla" to="6/mermer" with="instrument"/>
+</Amr>

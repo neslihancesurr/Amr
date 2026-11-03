@@ -1,0 +1,30 @@
+<Amr sentence="Hayri ve Faruk bugün babalarına hediye alacaklarını söylediler .">
+<Word name="8/söyle" positionX="750" positionY="100"/>
+<Word name="and" positionX="650" positionY="200"/>
+<Connection from="8/söyle" to="and"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="and" to="person" with="ARG0"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/faruk" positionX="350" positionY="500"/>
+<Connection from="name" to="3/faruk" with="op1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="and" to="person" with="ARG0"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/hayri" positionX="450" positionY="500"/>
+<Connection from="name" to="1/hayri" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="7/al" positionX="750" positionY="200"/>
+<Connection from="8/söyle" to="7/al" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="7/al" to="o" with="poss"/>
+<Word name="4/bugün" positionX="750" positionY="300"/>
+<Connection from="7/al" to="4/bugün"/>
+<Word name="5/baba" positionX="850" positionY="300"/>
+<Connection from="7/al" to="5/baba"/>
+<Word name="onlar" positionX="750" positionY="400"/>
+<Connection from="5/baba" to="onlar" with="poss"/>
+<Word name="6/hediye" positionX="950" positionY="300"/>
+<Connection from="7/al" to="6/hediye" with="ARG1"/>
+</Amr>

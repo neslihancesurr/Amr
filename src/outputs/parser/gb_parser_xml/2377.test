@@ -1,0 +1,26 @@
+<Amr sentence="Zehra'nın torununu görebilmesi için ne yapabiliriz ?">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="6/yap" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="6/yap"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="6/yap" to="biz" with="ARG0"/>
+<Connection from="6/yap" to="mümkün"/>
+<Word name="3/gör" positionX="550" positionY="400"/>
+<Connection from="mümkün" to="3/gör" with="cause"/>
+<Word name="o" positionX="450" positionY="500"/>
+<Connection from="3/gör" to="o" with="ARG0"/>
+<Connection from="3/gör" to="o" with="poss"/>
+<Word name="person" positionX="650" positionY="500"/>
+<Connection from="3/gör" to="person"/>
+<Word name="name" positionX="550" positionY="600"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/zehra" positionX="450" positionY="700"/>
+<Connection from="name" to="1/zehra" with="op1"/>
+<Word name="-" positionX="650" positionY="600"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/torun" positionX="750" positionY="500"/>
+<Connection from="3/gör" to="2/torun"/>
+<Connection from="2/torun" to="o" with="poss"/>
+<Word name="5/ne" positionX="750" positionY="300"/>
+<Connection from="6/yap" to="5/ne"/>
+</Amr>

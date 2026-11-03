@@ -1,0 +1,13 @@
+<Amr sentence="Uçaktan indiğimizde kar yağıyordu .">
+<Word name="4/yağ" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/yağ" to="o" with="ARG0"/>
+<Word name="2/in" positionX="750" positionY="200"/>
+<Connection from="4/yağ" to="2/in"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="2/in" to="biz" with="ARG0"/>
+<Word name="1/uçak" positionX="750" positionY="300"/>
+<Connection from="2/in" to="1/uçak"/>
+<Word name="3/kar" positionX="850" positionY="200"/>
+<Connection from="4/yağ" to="3/kar"/>
+</Amr>

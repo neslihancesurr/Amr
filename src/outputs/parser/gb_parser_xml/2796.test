@@ -1,0 +1,14 @@
+<Amr sentence="Bari birimiz bileti kullanabilseydik .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="4/kullan" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="4/kullan"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="4/kullan" to="biz" with="ARG0"/>
+<Word name="1/bari" positionX="650" positionY="300"/>
+<Connection from="4/kullan" to="1/bari" with="manner"/>
+<Word name="2/biri" positionX="750" positionY="300"/>
+<Connection from="4/kullan" to="2/biri" with="ARG0"/>
+<Connection from="2/biri" to="biz" with="poss"/>
+<Word name="3/bilet" positionX="850" positionY="300"/>
+<Connection from="4/kullan" to="3/bilet" with="ARG1"/>
+</Amr>

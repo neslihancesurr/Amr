@@ -1,0 +1,21 @@
+<Amr sentence="Korkut'u o halde görmüş olan bütün arkadaşlarımız">
+<Word name="7/arkadaş" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="7/arkadaş" to="biz" with="poss"/>
+<Word name="5/ol" positionX="750" positionY="200"/>
+<Connection from="7/arkadaş" to="5/ol"/>
+<Word name="4/gör" positionX="650" positionY="300"/>
+<Connection from="5/ol" to="4/gör" with="ARG1"/>
+<Word name="person" positionX="550" positionY="400"/>
+<Connection from="4/gör" to="person" with="ARG1"/>
+<Word name="name" positionX="450" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/korkut" positionX="350" positionY="600"/>
+<Connection from="name" to="1/korkut" with="op1"/>
+<Word name="-" positionX="550" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/o 3/hal" positionX="650" positionY="400"/>
+<Connection from="4/gör" to="2/o 3/hal" with="mod"/>
+<Word name="6/bütün" positionX="850" positionY="200"/>
+<Connection from="7/arkadaş" to="6/bütün" with="mod"/>
+</Amr>

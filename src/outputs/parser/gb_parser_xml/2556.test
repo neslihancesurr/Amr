@@ -1,0 +1,24 @@
+<Amr sentence="Nazan olsa olsa cumartesi sabahı gelebilirmiş .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="6/gel" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="6/gel"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="6/gel" to="o" with="ARG0"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="6/gel" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/nazan" positionX="450" positionY="500"/>
+<Connection from="name" to="1/nazan" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/ol 3/ol" positionX="750" positionY="300"/>
+<Connection from="6/gel" to="2/ol 3/ol"/>
+<Connection from="2/ol 3/ol" to="o" with="ARG0"/>
+<Word name="5/sabah" positionX="850" positionY="300"/>
+<Connection from="6/gel" to="5/sabah"/>
+<Word name="date-entity" positionX="750" positionY="400"/>
+<Connection from="5/sabah" to="date-entity" with="date"/>
+<Word name="4/cumartesi" positionX="650" positionY="500"/>
+<Connection from="date-entity" to="4/cumartesi" with="weekday"/>
+</Amr>

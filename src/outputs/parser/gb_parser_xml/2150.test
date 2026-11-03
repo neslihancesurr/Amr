@@ -1,0 +1,10 @@
+<Amr sentence="Yarın akşama kadar kitapların yarısını gözden geçirmiş olacağımızı tahmin ediyoruz .">
+<Word name="9/tahmin 10/et" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="9/tahmin 10/et" to="biz" with="ARG0"/>
+<Word name="8/ol" positionX="750" positionY="200"/>
+<Connection from="9/tahmin 10/et" to="8/ol"/>
+<Connection from="8/ol" to="biz" with="ARG0"/>
+<Word name="6/göz 7/geçir" positionX="750" positionY="300"/>
+<Connection from="8/ol" to="6/göz 7/geçir"/>
+</Amr>

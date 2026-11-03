@@ -1,0 +1,7 @@
+<Amr sentence="Balina memeli bir hayvandır .">
+<Word name="4/hayvan" positionX="750" positionY="100"/>
+<Word name="1/balina" positionX="650" positionY="200"/>
+<Connection from="4/hayvan" to="1/balina"/>
+<Word name="2/meme" positionX="750" positionY="200"/>
+<Connection from="4/hayvan" to="2/meme" with="mod"/>
+</Amr>

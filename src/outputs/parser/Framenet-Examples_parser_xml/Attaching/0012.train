@@ -1,0 +1,13 @@
+<Amr sentence="Süpürgeyi şarj istasyonuna yerleştir .">
+<Word name="4/yerleştir" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="4/yerleştir" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="4/yerleştir" to="imperative" with="mode"/>
+<Word name="1/süpürge" positionX="850" positionY="200"/>
+<Connection from="4/yerleştir" to="1/süpürge" with="ARG1"/>
+<Word name="3/istasyon" positionX="950" positionY="200"/>
+<Connection from="4/yerleştir" to="3/istasyon" with="ARG2"/>
+<Word name="2/şarj" positionX="850" positionY="300"/>
+<Connection from="3/istasyon" to="2/şarj" with="mod"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Kitaplar burada satılıyor .">
+<Word name="3/satıl" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/satıl" to="o" with="ARG0"/>
+<Word name="1/kitap" positionX="750" positionY="200"/>
+<Connection from="3/satıl" to="1/kitap"/>
+<Word name="2/burada" positionX="850" positionY="200"/>
+<Connection from="3/satıl" to="2/burada"/>
+</Amr>

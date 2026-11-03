@@ -1,0 +1,19 @@
+<Amr sentence="Zehra Londra'ya eylülde mi gidecek ?">
+<Word name="5/git" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="5/git" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/zehra" positionX="450" positionY="400"/>
+<Connection from="name" to="1/zehra" with="op1"/>
+<Word name="2/londra" positionX="550" positionY="400"/>
+<Connection from="name" to="2/londra" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="date-entity" positionX="750" positionY="200"/>
+<Connection from="5/git" to="date-entity" with="date"/>
+<Word name="3/eylül" positionX="650" positionY="300"/>
+<Connection from="date-entity" to="3/eylül" with="month"/>
+<Word name="4/mi" positionX="750" positionY="300"/>
+<Connection from="date-entity" to="4/mi"/>
+</Amr>

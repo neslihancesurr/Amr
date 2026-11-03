@@ -1,0 +1,15 @@
+<Amr sentence="Biraz saf , her seferinde kapıyı büyük açar .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/saf" positionX="650" positionY="200"/>
+<Connection from="and" to="2/saf" with="op1"/>
+<Word name="1/biraz" positionX="550" positionY="300"/>
+<Connection from="2/saf" to="1/biraz" with="mod"/>
+<Word name="6/kapı 7/büyük 8/aç" positionX="750" positionY="200"/>
+<Connection from="and" to="6/kapı 7/büyük 8/aç" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="6/kapı 7/büyük 8/aç" to="o" with="ARG0"/>
+<Word name="5/sefer" positionX="750" positionY="300"/>
+<Connection from="6/kapı 7/büyük 8/aç" to="5/sefer" with="location"/>
+<Word name="4/her" positionX="650" positionY="400"/>
+<Connection from="5/sefer" to="4/her" with="mod"/>
+</Amr>

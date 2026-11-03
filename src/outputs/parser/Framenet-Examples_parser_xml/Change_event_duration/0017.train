@@ -1,0 +1,11 @@
+<Amr sentence="İşi sürekli sümen altı ettiler .">
+<Word name="3/sümen 4/alt 5/et" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="3/sümen 4/alt 5/et" to="onlar" with="ARG0"/>
+<Word name="1/iş" positionX="750" positionY="200"/>
+<Connection from="3/sümen 4/alt 5/et" to="1/iş" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="1/iş" to="o" with="poss"/>
+<Word name="2/sürekli" positionX="850" positionY="200"/>
+<Connection from="3/sümen 4/alt 5/et" to="2/sürekli" with="frequency"/>
+</Amr>

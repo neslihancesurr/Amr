@@ -1,0 +1,19 @@
+<Amr sentence="Aliye konuyla ilgili bütün makaleleri okudu .">
+<Word name="6/oku" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="6/oku" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/aliye" positionX="450" positionY="400"/>
+<Connection from="name" to="1/aliye" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/makale" positionX="750" positionY="200"/>
+<Connection from="6/oku" to="5/makale" with="ARG1"/>
+<Word name="3/ilgili" positionX="650" positionY="300"/>
+<Connection from="5/makale" to="3/ilgili" with="mod"/>
+<Word name="2/konu" positionX="550" positionY="400"/>
+<Connection from="3/ilgili" to="2/konu" with="instrument"/>
+<Word name="4/bütün" positionX="750" positionY="300"/>
+<Connection from="5/makale" to="4/bütün" with="mod"/>
+</Amr>

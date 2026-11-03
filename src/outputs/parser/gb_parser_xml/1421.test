@@ -1,0 +1,11 @@
+<Amr sentence="Ne zamandan beri sigara içiyorsun ?">
+<Word name="4/sigara 5/iç" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="4/sigara 5/iç" to="sen" with="ARG0"/>
+<Word name="1/ne" positionX="750" positionY="200"/>
+<Connection from="4/sigara 5/iç" to="1/ne"/>
+<Word name="2/zaman" positionX="650" positionY="300"/>
+<Connection from="1/ne" to="2/zaman"/>
+<Word name="3/beri" positionX="750" positionY="300"/>
+<Connection from="1/ne" to="3/beri"/>
+</Amr>

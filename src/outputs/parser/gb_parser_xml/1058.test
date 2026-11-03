@@ -1,0 +1,15 @@
+<Amr sentence="Her yemekten sonra mutlaka bir fincan Türk kahvesi içer .">
+<Word name="9/iç" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="9/iç" to="o" with="ARG0"/>
+<Word name="2/yemek" positionX="750" positionY="200"/>
+<Connection from="9/iç" to="2/yemek"/>
+<Word name="1/her" positionX="650" positionY="300"/>
+<Connection from="2/yemek" to="1/her" with="mod"/>
+<Word name="3/sonra" positionX="750" positionY="300"/>
+<Connection from="2/yemek" to="3/sonra"/>
+<Word name="4/mutlaka" positionX="850" positionY="200"/>
+<Connection from="9/iç" to="4/mutlaka" with="manner"/>
+<Word name="7/türk 8/kahve" positionX="950" positionY="200"/>
+<Connection from="9/iç" to="7/türk 8/kahve" with="ARG1"/>
+</Amr>

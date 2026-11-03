@@ -1,0 +1,23 @@
+<Amr sentence="Kıpırda biraz , Ayşe'ye yer aç !">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/kıpırda" positionX="650" positionY="200"/>
+<Connection from="and" to="1/kıpırda" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="1/kıpırda" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="650" positionY="300"/>
+<Connection from="1/kıpırda" to="imperative" with="mode"/>
+<Word name="2/biraz" positionX="750" positionY="300"/>
+<Connection from="1/kıpırda" to="2/biraz" with="manner"/>
+<Word name="5/yer 6/aç" positionX="750" positionY="200"/>
+<Connection from="and" to="5/yer 6/aç" with="op2"/>
+<Connection from="5/yer 6/aç" to="sen" with="ARG0"/>
+<Connection from="5/yer 6/aç" to="imperative" with="mode"/>
+<Word name="person" positionX="850" positionY="300"/>
+<Connection from="5/yer 6/aç" to="person" with="ARG1"/>
+<Word name="name" positionX="750" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="4/ayşe" positionX="650" positionY="500"/>
+<Connection from="name" to="4/ayşe" with="op1"/>
+<Word name="-" positionX="850" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

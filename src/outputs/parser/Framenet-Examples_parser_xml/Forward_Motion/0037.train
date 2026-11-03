@@ -1,0 +1,9 @@
+<Amr sentence="Askeri törende uygun adım yürüyorlardı .">
+<Word name="3/uygun 4/adım 5/yürü" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="3/uygun 4/adım 5/yürü" to="onlar" with="ARG0"/>
+<Word name="2/tören" positionX="750" positionY="200"/>
+<Connection from="3/uygun 4/adım 5/yürü" to="2/tören" with="location"/>
+<Word name="1/askeri" positionX="650" positionY="300"/>
+<Connection from="2/tören" to="1/askeri" with="mod"/>
+</Amr>

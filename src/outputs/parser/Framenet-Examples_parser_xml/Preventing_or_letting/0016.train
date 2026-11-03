@@ -1,0 +1,17 @@
+<Amr sentence="O kadar öfkeliydi ki kimseye ağız açtırmadı .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="6/ağız 7/aç" positionX="650" positionY="200"/>
+<Connection from="yap" to="6/ağız 7/aç"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="6/ağız 7/aç" to="-" with="polarity"/>
+<Word name="3/öfkeli" positionX="650" positionY="300"/>
+<Connection from="6/ağız 7/aç" to="3/öfkeli"/>
+<Word name="1/o 2/kadar" positionX="550" positionY="400"/>
+<Connection from="3/öfkeli" to="1/o 2/kadar" with="mod"/>
+<Word name="4/ki" positionX="650" positionY="400"/>
+<Connection from="3/öfkeli" to="4/ki"/>
+<Word name="5/kimse" positionX="750" positionY="300"/>
+<Connection from="6/ağız 7/aç" to="5/kimse"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="5/kimse" to="o" with="poss"/>
+</Amr>

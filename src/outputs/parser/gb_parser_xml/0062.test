@@ -1,0 +1,17 @@
+<Amr sentence="Eve çat kapı bir alıcı geldi , odaları modaları dolaştı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/gel" positionX="650" positionY="200"/>
+<Connection from="and" to="6/gel" with="op1"/>
+<Word name="1/ev" positionX="550" positionY="300"/>
+<Connection from="6/gel" to="1/ev" with="ARG1"/>
+<Word name="2/çat 3/kapı" positionX="650" positionY="300"/>
+<Connection from="6/gel" to="2/çat 3/kapı"/>
+<Word name="5/alıcı" positionX="750" positionY="300"/>
+<Connection from="6/gel" to="5/alıcı" with="ARG0"/>
+<Word name="10/dolaş" positionX="750" positionY="200"/>
+<Connection from="and" to="10/dolaş" with="op2"/>
+<Word name="8/oda" positionX="650" positionY="300"/>
+<Connection from="10/dolaş" to="8/oda" with="ARG1"/>
+<Word name="9/moda" positionX="550" positionY="400"/>
+<Connection from="8/oda" to="9/moda"/>
+</Amr>

@@ -1,0 +1,20 @@
+<Amr sentence="Yaptığı ufacık hata yüzünden adama tüm gün sövüp saydı .">
+<Word name="8/söv 9/say" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="8/söv 9/say" to="o" with="ARG0"/>
+<Word name="4/yüzünden" positionX="750" positionY="200"/>
+<Connection from="8/söv 9/say" to="4/yüzünden" with="manner"/>
+<Word name="3/hata" positionX="650" positionY="300"/>
+<Connection from="4/yüzünden" to="3/hata" with="mod"/>
+<Word name="1/yap" positionX="550" positionY="400"/>
+<Connection from="3/hata" to="1/yap"/>
+<Connection from="1/yap" to="o" with="poss"/>
+<Word name="2/ufacık" positionX="650" positionY="400"/>
+<Connection from="3/hata" to="2/ufacık" with="mod"/>
+<Word name="5/adam" positionX="850" positionY="200"/>
+<Connection from="8/söv 9/say" to="5/adam" with="ARG1"/>
+<Word name="7/gün" positionX="950" positionY="200"/>
+<Connection from="8/söv 9/say" to="7/gün" with="mod"/>
+<Word name="6/tüm" positionX="850" positionY="300"/>
+<Connection from="7/gün" to="6/tüm" with="mod"/>
+</Amr>

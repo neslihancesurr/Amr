@@ -1,0 +1,12 @@
+<Amr sentence="Düşündüklerini açıkça dile getirdi .">
+<Word name="3/dil 4/getir" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/dil 4/getir" to="o" with="ARG0"/>
+<Word name="1/düşün" positionX="750" positionY="200"/>
+<Connection from="3/dil 4/getir" to="1/düşün" with="ARG1"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="1/düşün" to="onlar" with="ARG0"/>
+<Connection from="1/düşün" to="o" with="poss"/>
+<Word name="2/açıkça" positionX="850" positionY="200"/>
+<Connection from="3/dil 4/getir" to="2/açıkça" with="manner"/>
+</Amr>

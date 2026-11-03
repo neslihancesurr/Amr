@@ -1,0 +1,13 @@
+<Amr sentence="Demir parçasını buraya perçinle .">
+<Word name="4/perçinle" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="4/perçinle" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="4/perçinle" to="imperative" with="mode"/>
+<Word name="2/parça" positionX="850" positionY="200"/>
+<Connection from="4/perçinle" to="2/parça" with="ARG1"/>
+<Word name="1/demir" positionX="750" positionY="300"/>
+<Connection from="2/parça" to="1/demir" with="mod"/>
+<Word name="3/bura" positionX="950" positionY="200"/>
+<Connection from="4/perçinle" to="3/bura"/>
+</Amr>

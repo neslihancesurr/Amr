@@ -1,0 +1,10 @@
+<Amr sentence="Telefonunu evde unutmuş .">
+<Word name="3/unut" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/unut" to="o" with="ARG0"/>
+<Word name="1/telefon" positionX="750" positionY="200"/>
+<Connection from="3/unut" to="1/telefon" with="ARG1"/>
+<Connection from="1/telefon" to="o" with="poss"/>
+<Word name="2/ev" positionX="850" positionY="200"/>
+<Connection from="3/unut" to="2/ev" with="location"/>
+</Amr>

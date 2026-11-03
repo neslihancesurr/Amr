@@ -1,0 +1,11 @@
+<Amr sentence="Bana doğru bir adım atsa keşke ...">
+<Word name="4/adım 5/at" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/adım 5/at" to="o" with="ARG0"/>
+<Word name="1/ben" positionX="750" positionY="200"/>
+<Connection from="4/adım 5/at" to="1/ben"/>
+<Word name="2/doğru" positionX="650" positionY="300"/>
+<Connection from="1/ben" to="2/doğru"/>
+<Word name="6/keşke" positionX="850" positionY="200"/>
+<Connection from="4/adım 5/at" to="6/keşke" with="manner"/>
+</Amr>

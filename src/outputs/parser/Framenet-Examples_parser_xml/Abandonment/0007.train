@@ -1,0 +1,9 @@
+<Amr sentence="Adam her şeyi kapıp koyuvermiş .">
+<Word name="4/kap 5/koyuver" positionX="750" positionY="100"/>
+<Word name="1/adam" positionX="650" positionY="200"/>
+<Connection from="4/kap 5/koyuver" to="1/adam" with="ARG0"/>
+<Word name="3/şey" positionX="750" positionY="200"/>
+<Connection from="4/kap 5/koyuver" to="3/şey" with="ARG1"/>
+<Word name="2/her" positionX="650" positionY="300"/>
+<Connection from="3/şey" to="2/her" with="mod"/>
+</Amr>

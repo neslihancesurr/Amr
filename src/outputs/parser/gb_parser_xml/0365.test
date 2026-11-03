@@ -1,0 +1,15 @@
+<Amr sentence="Bazı insanlar tatsızlık çıkarmaya bayılıyor .">
+<Word name="5/bayıl" positionX="750" positionY="100"/>
+<Word name="yap" positionX="650" positionY="200"/>
+<Connection from="5/bayıl" to="yap"/>
+<Word name="4/çık" positionX="550" positionY="300"/>
+<Connection from="yap" to="4/çık" with="ARG1"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="4/çık" to="o" with="ARG0"/>
+<Word name="2/insan" positionX="550" positionY="400"/>
+<Connection from="4/çık" to="2/insan"/>
+<Word name="1/bazı" positionX="450" positionY="500"/>
+<Connection from="2/insan" to="1/bazı" with="mod"/>
+<Word name="3/tatsızlık" positionX="650" positionY="400"/>
+<Connection from="4/çık" to="3/tatsızlık"/>
+</Amr>

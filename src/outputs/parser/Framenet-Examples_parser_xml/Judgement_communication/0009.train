@@ -1,0 +1,25 @@
+<Amr sentence="O günkü ne oldum delisi yeni zenginleri , özenti aydınları tiye alıyordu .">
+<Word name="11/ti 12/al" positionX="750" positionY="100"/>
+<Word name="and" positionX="650" positionY="200"/>
+<Connection from="11/ti 12/al" to="and"/>
+<Word name="10/aydın" positionX="550" positionY="300"/>
+<Connection from="and" to="10/aydın" with="ARG1"/>
+<Word name="9/özenti" positionX="450" positionY="400"/>
+<Connection from="10/aydın" to="9/özenti" with="mod"/>
+<Word name="7/zengin" positionX="650" positionY="300"/>
+<Connection from="and" to="7/zengin" with="ARG1"/>
+<Word name="2/gün" positionX="550" positionY="400"/>
+<Connection from="7/zengin" to="2/gün"/>
+<Word name="1/o" positionX="450" positionY="500"/>
+<Connection from="2/gün" to="1/o" with="mod"/>
+<Word name="5/deli" positionX="650" positionY="400"/>
+<Connection from="7/zengin" to="5/deli" with="mod"/>
+<Word name="4/ol" positionX="550" positionY="500"/>
+<Connection from="5/deli" to="4/ol"/>
+<Word name="ben" positionX="450" positionY="600"/>
+<Connection from="4/ol" to="ben" with="ARG0"/>
+<Word name="3/ne" positionX="550" positionY="600"/>
+<Connection from="4/ol" to="3/ne"/>
+<Word name="6/yeni" positionX="750" positionY="400"/>
+<Connection from="7/zengin" to="6/yeni" with="mod"/>
+</Amr>

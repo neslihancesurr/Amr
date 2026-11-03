@@ -1,0 +1,5 @@
+<Amr sentence="Rüştü etkileyici bir plase etti topa .">
+<Word name="4/plase 5/et" positionX="750" positionY="100"/>
+<Word name="6/top" positionX="650" positionY="200"/>
+<Connection from="4/plase 5/et" to="6/top" with="ARG1"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Oyundaki detaylar çocuğu iyice oyuna bağladı .">
+<Word name="6/bağla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/bağla" to="o" with="ARG0"/>
+<Word name="2/detay" positionX="750" positionY="200"/>
+<Connection from="6/bağla" to="2/detay" with="ARG2"/>
+<Word name="1/oyun" positionX="650" positionY="300"/>
+<Connection from="2/detay" to="1/oyun" with="mod"/>
+<Word name="3/çocuk" positionX="850" positionY="200"/>
+<Connection from="6/bağla" to="3/çocuk" with="ARG1"/>
+<Word name="4/iyice" positionX="950" positionY="200"/>
+<Connection from="6/bağla" to="4/iyice" with="manner"/>
+<Word name="5/oyun" positionX="1050" positionY="200"/>
+<Connection from="6/bağla" to="5/oyun"/>
+</Amr>

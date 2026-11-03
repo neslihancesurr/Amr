@@ -1,0 +1,7 @@
+<Amr sentence="Emekli olunca akar edindi .">
+<Word name="3/akar 4/edin" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/akar 4/edin" to="o" with="ARG0"/>
+<Word name="1/emekli 2/ol" positionX="750" positionY="200"/>
+<Connection from="3/akar 4/edin" to="1/emekli 2/ol"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr sentence="İlkbahardaki yağmurlar mahsulün bol olmasını sağladı .">
+<Word name="6/sağla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/sağla" to="o" with="ARG0"/>
+<Word name="2/yağmur" positionX="750" positionY="200"/>
+<Connection from="6/sağla" to="2/yağmur"/>
+<Word name="1/ilkbahar" positionX="650" positionY="300"/>
+<Connection from="2/yağmur" to="1/ilkbahar" with="mod"/>
+<Word name="5/ol" positionX="850" positionY="200"/>
+<Connection from="6/sağla" to="5/ol"/>
+<Connection from="5/ol" to="o" with="ARG0"/>
+<Connection from="5/ol" to="o" with="poss"/>
+<Word name="3/mahsul" positionX="950" positionY="300"/>
+<Connection from="5/ol" to="3/mahsul"/>
+<Word name="4/bol" positionX="1050" positionY="300"/>
+<Connection from="5/ol" to="4/bol" with="manner"/>
+</Amr>

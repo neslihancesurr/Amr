@@ -1,0 +1,13 @@
+<Amr sentence="Demiri dövmeden tava getirmelisin .">
+<Word name="gerek" positionX="750" positionY="100"/>
+<Word name="3/tava 4/getir" positionX="650" positionY="200"/>
+<Connection from="gerek" to="3/tava 4/getir"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="3/tava 4/getir" to="sen" with="ARG0"/>
+<Word name="1/demir" positionX="650" positionY="300"/>
+<Connection from="3/tava 4/getir" to="1/demir" with="ARG1"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="1/demir" to="o" with="poss"/>
+<Word name="2/dövme" positionX="750" positionY="300"/>
+<Connection from="3/tava 4/getir" to="2/dövme"/>
+</Amr>

@@ -1,0 +1,29 @@
+<Amr sentence="Hastalığım çok ağır seyrediyor , bazı günler gözümü bile açamıyorum .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/seyret" positionX="650" positionY="200"/>
+<Connection from="and" to="4/seyret" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/seyret" to="o" with="ARG0"/>
+<Word name="1/hastalık" positionX="650" positionY="300"/>
+<Connection from="4/seyret" to="1/hastalık" with="ARG1"/>
+<Word name="ben" positionX="550" positionY="400"/>
+<Connection from="1/hastalık" to="ben" with="poss"/>
+<Word name="3/ağır" positionX="750" positionY="300"/>
+<Connection from="4/seyret" to="3/ağır"/>
+<Word name="2/çok" positionX="650" positionY="400"/>
+<Connection from="3/ağır" to="2/çok" with="degree"/>
+<Word name="10/aç" positionX="750" positionY="200"/>
+<Connection from="and" to="10/aç" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="10/aç" to="-" with="polarity"/>
+<Connection from="10/aç" to="ben" with="ARG0"/>
+<Word name="7/gün" positionX="850" positionY="300"/>
+<Connection from="10/aç" to="7/gün" with="mod"/>
+<Word name="6/bazı" positionX="750" positionY="400"/>
+<Connection from="7/gün" to="6/bazı" with="mod"/>
+<Word name="8/göz" positionX="950" positionY="300"/>
+<Connection from="10/aç" to="8/göz" with="ARG1"/>
+<Connection from="8/göz" to="ben" with="poss"/>
+<Word name="9/bile" positionX="950" positionY="400"/>
+<Connection from="8/göz" to="9/bile" with="manner"/>
+</Amr>

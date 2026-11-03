@@ -1,0 +1,18 @@
+<Amr sentence="Bilgisayarımı ne zaman istersen kullanabilirsin .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="5/kullan" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="5/kullan"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="5/kullan" to="sen" with="ARG0"/>
+<Word name="1/bilgisayar" positionX="650" positionY="300"/>
+<Connection from="5/kullan" to="1/bilgisayar" with="ARG1"/>
+<Word name="ben" positionX="550" positionY="400"/>
+<Connection from="1/bilgisayar" to="ben" with="poss"/>
+<Word name="4/iste" positionX="750" positionY="300"/>
+<Connection from="5/kullan" to="4/iste" with="cond"/>
+<Connection from="4/iste" to="sen" with="ARG0"/>
+<Word name="3/zaman" positionX="750" positionY="400"/>
+<Connection from="4/iste" to="3/zaman"/>
+<Word name="2/ne" positionX="650" positionY="500"/>
+<Connection from="3/zaman" to="2/ne"/>
+</Amr>

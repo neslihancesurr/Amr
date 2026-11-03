@@ -1,0 +1,13 @@
+<Amr sentence="Ayten şapka seviyor .">
+<Word name="3/sev" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="3/sev" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ayten" positionX="450" positionY="400"/>
+<Connection from="name" to="1/ayten" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/şapka" positionX="750" positionY="200"/>
+<Connection from="3/sev" to="2/şapka" with="ARG1"/>
+</Amr>

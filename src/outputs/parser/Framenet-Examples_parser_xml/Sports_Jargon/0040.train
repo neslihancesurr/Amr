@@ -1,0 +1,15 @@
+<Amr sentence="Ali Mehmet , orta sahaya tek pas yapacak .">
+<Word name="6/tek 7/pas 8/yap" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="6/tek 7/pas 8/yap" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ali" positionX="450" positionY="400"/>
+<Connection from="name" to="1/ali" with="op1"/>
+<Word name="2/mehmet" positionX="550" positionY="400"/>
+<Connection from="name" to="2/mehmet" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/orta 5/saha" positionX="750" positionY="200"/>
+<Connection from="6/tek 7/pas 8/yap" to="4/orta 5/saha"/>
+</Amr>

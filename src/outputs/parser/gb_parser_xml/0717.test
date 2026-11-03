@@ -1,0 +1,7 @@
+<Amr sentence="çok daha rahat">
+<Word name="3/rahat" positionX="750" positionY="100"/>
+<Word name="2/daha" positionX="650" positionY="200"/>
+<Connection from="3/rahat" to="2/daha" with="degree"/>
+<Word name="1/çok" positionX="550" positionY="300"/>
+<Connection from="2/daha" to="1/çok" with="degree"/>
+</Amr>

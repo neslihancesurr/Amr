@@ -1,0 +1,21 @@
+<Amr sentence="Okulda karşılaştığımız zaman senin hakkında söyledikleri hatırında kalmamış .">
+<Word name="7/hatır 8/kal" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="7/hatır 8/kal" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="7/hatır 8/kal" to="o" with="ARG0"/>
+<Word name="3/zaman" positionX="850" positionY="200"/>
+<Connection from="7/hatır 8/kal" to="3/zaman"/>
+<Word name="2/karşılaş" positionX="750" positionY="300"/>
+<Connection from="3/zaman" to="2/karşılaş"/>
+<Word name="biz" positionX="650" positionY="400"/>
+<Connection from="2/karşılaş" to="biz" with="poss"/>
+<Word name="1/okul" positionX="750" positionY="400"/>
+<Connection from="2/karşılaş" to="1/okul" with="location"/>
+<Word name="6/söyle" positionX="950" positionY="200"/>
+<Connection from="7/hatır 8/kal" to="6/söyle" with="ARG1"/>
+<Word name="5/hakkında" positionX="850" positionY="300"/>
+<Connection from="6/söyle" to="5/hakkında" with="mod"/>
+<Word name="4/sen" positionX="750" positionY="400"/>
+<Connection from="5/hakkında" to="4/sen" with="mod"/>
+</Amr>

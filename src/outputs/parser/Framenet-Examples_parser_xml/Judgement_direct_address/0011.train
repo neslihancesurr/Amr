@@ -1,0 +1,13 @@
+<Amr sentence="Sanırım , yazılarımdan ötürü beni pohpohluyorlar .">
+<Word name="6/pohpohla" positionX="750" positionY="100"/>
+<Word name="1/san" positionX="650" positionY="200"/>
+<Connection from="6/pohpohla" to="1/san"/>
+<Word name="3/yazı" positionX="750" positionY="200"/>
+<Connection from="6/pohpohla" to="3/yazı" with="ARG0"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="3/yazı" to="ben" with="poss"/>
+<Word name="4/ötürü" positionX="750" positionY="300"/>
+<Connection from="3/yazı" to="4/ötürü"/>
+<Word name="5/ben" positionX="850" positionY="200"/>
+<Connection from="6/pohpohla" to="5/ben" with="ARG1"/>
+</Amr>

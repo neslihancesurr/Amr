@@ -1,0 +1,15 @@
+<Amr sentence="Onu küçüklüğünden beri kardeşi gibi görüyor .">
+<Word name="6/gör" positionX="750" positionY="100"/>
+<Word name="1/o" positionX="650" positionY="200"/>
+<Connection from="6/gör" to="1/o" with="ARG1"/>
+<Word name="2/küçük" positionX="750" positionY="200"/>
+<Connection from="6/gör" to="2/küçük" with="mod"/>
+<Word name="3/beri" positionX="650" positionY="300"/>
+<Connection from="2/küçük" to="3/beri"/>
+<Word name="4/kardeş" positionX="850" positionY="200"/>
+<Connection from="6/gör" to="4/kardeş" with="ARG2"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="4/kardeş" to="o" with="poss"/>
+<Word name="5/gibi" positionX="850" positionY="300"/>
+<Connection from="4/kardeş" to="5/gibi"/>
+</Amr>

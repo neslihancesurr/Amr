@@ -1,0 +1,11 @@
+<Amr sentence="Yabancı çeteler karşı topraktan sızmıştı .">
+<Word name="5/sız" positionX="750" positionY="100"/>
+<Word name="2/çete" positionX="650" positionY="200"/>
+<Connection from="5/sız" to="2/çete" with="ARG0"/>
+<Word name="1/yabancı" positionX="550" positionY="300"/>
+<Connection from="2/çete" to="1/yabancı" with="mod"/>
+<Word name="4/toprak" positionX="750" positionY="200"/>
+<Connection from="5/sız" to="4/toprak" with="ARG1"/>
+<Word name="3/karşı" positionX="650" positionY="300"/>
+<Connection from="4/toprak" to="3/karşı" with="mod"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Genç öğretmen açıktan atanmıştı .">
+<Word name="3/açıktan 4/ata" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/açıktan 4/ata" to="o" with="ARG0"/>
+<Word name="2/öğretmen" positionX="750" positionY="200"/>
+<Connection from="3/açıktan 4/ata" to="2/öğretmen" with="ARG1"/>
+<Word name="1/genç" positionX="650" positionY="300"/>
+<Connection from="2/öğretmen" to="1/genç" with="mod"/>
+</Amr>

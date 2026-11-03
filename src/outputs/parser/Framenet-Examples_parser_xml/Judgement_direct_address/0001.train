@@ -1,0 +1,11 @@
+<Amr sentence="Telefonu bozunca babası kulağını çekti .">
+<Word name="4/kulak 5/çek" positionX="750" positionY="100"/>
+<Word name="2/boz" positionX="650" positionY="200"/>
+<Connection from="4/kulak 5/çek" to="2/boz"/>
+<Word name="1/telefon" positionX="550" positionY="300"/>
+<Connection from="2/boz" to="1/telefon"/>
+<Word name="3/baba" positionX="750" positionY="200"/>
+<Connection from="4/kulak 5/çek" to="3/baba" with="ARG0"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/baba" to="o" with="poss"/>
+</Amr>

@@ -1,0 +1,19 @@
+<Amr sentence="- Peki , sen bu yaz evini satmayacak mıydın ?">
+<Word name="8/sat" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="8/sat" to="-" with="polarity"/>
+<Word name="2/peki" positionX="750" positionY="200"/>
+<Connection from="8/sat" to="2/peki" with="manner"/>
+<Word name="4/sen" positionX="850" positionY="200"/>
+<Connection from="8/sat" to="4/sen" with="ARG0"/>
+<Word name="6/yaz" positionX="950" positionY="200"/>
+<Connection from="8/sat" to="6/yaz"/>
+<Word name="5/bu" positionX="850" positionY="300"/>
+<Connection from="6/yaz" to="5/bu" with="mod"/>
+<Word name="7/ev" positionX="1050" positionY="200"/>
+<Connection from="8/sat" to="7/ev" with="ARG1"/>
+<Word name="sen" positionX="950" positionY="300"/>
+<Connection from="7/ev" to="sen" with="poss"/>
+<Word name="9/mi" positionX="1150" positionY="200"/>
+<Connection from="8/sat" to="9/mi"/>
+</Amr>

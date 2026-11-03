@@ -1,0 +1,21 @@
+<Amr sentence="Sıra bana gelene kadar burada otur , zaman geçir .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/otur" positionX="650" positionY="200"/>
+<Connection from="and" to="6/otur" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="6/otur" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="650" positionY="300"/>
+<Connection from="6/otur" to="imperative" with="mode"/>
+<Word name="3/gel" positionX="750" positionY="300"/>
+<Connection from="6/otur" to="3/gel" with="extent"/>
+<Word name="1/sıra" positionX="650" positionY="400"/>
+<Connection from="3/gel" to="1/sıra" with="ARG0"/>
+<Word name="2/ben" positionX="750" positionY="400"/>
+<Connection from="3/gel" to="2/ben" with="ARG1"/>
+<Word name="5/bura" positionX="850" positionY="300"/>
+<Connection from="6/otur" to="5/bura" with="ARG1"/>
+<Word name="8/zaman 9/geçir" positionX="750" positionY="200"/>
+<Connection from="and" to="8/zaman 9/geçir" with="op2"/>
+<Connection from="8/zaman 9/geçir" to="sen" with="ARG0"/>
+<Connection from="8/zaman 9/geçir" to="imperative" with="mode"/>
+</Amr>

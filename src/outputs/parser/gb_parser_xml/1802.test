@@ -1,0 +1,23 @@
+<Amr sentence="Çok gürültü var , yukarıda birisi matkap kullanıyor olmalı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/var" positionX="650" positionY="200"/>
+<Connection from="and" to="3/var" with="op1"/>
+<Word name="2/gürültü" positionX="550" positionY="300"/>
+<Connection from="3/var" to="2/gürültü"/>
+<Word name="1/çok" positionX="450" positionY="400"/>
+<Connection from="2/gürültü" to="1/çok" with="degree"/>
+<Word name="8/kullan" positionX="750" positionY="200"/>
+<Connection from="and" to="8/kullan" with="op2"/>
+<Word name="5/yukarı" positionX="650" positionY="300"/>
+<Connection from="8/kullan" to="5/yukarı" with="ARG0"/>
+<Word name="6/biri" positionX="750" positionY="300"/>
+<Connection from="8/kullan" to="6/biri" with="ARG0"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="6/biri" to="o" with="poss"/>
+<Word name="7/matkap" positionX="850" positionY="300"/>
+<Connection from="8/kullan" to="7/matkap" with="ARG1"/>
+<Word name="gerek" positionX="950" positionY="300"/>
+<Connection from="8/kullan" to="gerek"/>
+<Word name="9/ol" positionX="850" positionY="400"/>
+<Connection from="gerek" to="9/ol"/>
+</Amr>

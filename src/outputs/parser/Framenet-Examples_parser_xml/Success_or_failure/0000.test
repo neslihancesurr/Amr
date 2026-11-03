@@ -1,0 +1,13 @@
+<Amr sentence="Yarışmada çok kötü şekilde mağlup oldum .">
+<Word name="5/mağlup 6/ol" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/mağlup 6/ol" to="ben" with="ARG0"/>
+<Word name="1/yarışma" positionX="750" positionY="200"/>
+<Connection from="5/mağlup 6/ol" to="1/yarışma" with="location"/>
+<Word name="4/şekil" positionX="850" positionY="200"/>
+<Connection from="5/mağlup 6/ol" to="4/şekil" with="location"/>
+<Word name="3/kötü" positionX="750" positionY="300"/>
+<Connection from="4/şekil" to="3/kötü" with="mod"/>
+<Word name="2/çok" positionX="650" positionY="400"/>
+<Connection from="3/kötü" to="2/çok" with="degree"/>
+</Amr>

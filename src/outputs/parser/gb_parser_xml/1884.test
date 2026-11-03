@@ -1,0 +1,25 @@
+<Amr sentence="Yurtdışında okumak isteyen bir öğrenci , iyi İngilizce öğrenmeli .">
+<Word name="gerek" positionX="750" positionY="100"/>
+<Word name="9/öğren" positionX="650" positionY="200"/>
+<Connection from="gerek" to="9/öğren"/>
+<Word name="5/öğrenci" positionX="550" positionY="300"/>
+<Connection from="9/öğren" to="5/öğrenci" with="ARG0"/>
+<Word name="3/iste" positionX="450" positionY="400"/>
+<Connection from="5/öğrenci" to="3/iste"/>
+<Word name="2/oku" positionX="350" positionY="500"/>
+<Connection from="3/iste" to="2/oku" with="ARG1"/>
+<Word name="o" positionX="250" positionY="600"/>
+<Connection from="2/oku" to="o" with="ARG0"/>
+<Word name="1/Yurtdışı" positionX="350" positionY="600"/>
+<Connection from="2/oku" to="1/Yurtdışı" with="location"/>
+<Word name="7/iyi" positionX="650" positionY="300"/>
+<Connection from="9/öğren" to="7/iyi" with="ARG1"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="9/öğren" to="person" with="ARG1"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="8/ingilizce" positionX="550" positionY="500"/>
+<Connection from="name" to="8/ingilizce" with="op1"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

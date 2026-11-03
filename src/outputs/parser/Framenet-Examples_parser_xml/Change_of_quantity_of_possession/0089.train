@@ -1,0 +1,7 @@
+<Amr sentence="Yeni iş , güzel kâr bırakıyordu .">
+<Word name="5/kâr 6/bırak" positionX="750" positionY="100"/>
+<Word name="2/iş" positionX="650" positionY="200"/>
+<Connection from="5/kâr 6/bırak" to="2/iş" with="ARG0"/>
+<Word name="1/yeni" positionX="550" positionY="300"/>
+<Connection from="2/iş" to="1/yeni" with="mod"/>
+</Amr>

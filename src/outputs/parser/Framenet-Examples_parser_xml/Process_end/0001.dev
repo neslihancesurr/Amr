@@ -1,0 +1,18 @@
+<Amr sentence="Hele dur öfkemi tekmilleyeyim .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/dur" positionX="650" positionY="200"/>
+<Connection from="and" to="2/dur" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="2/dur" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="650" positionY="300"/>
+<Connection from="2/dur" to="imperative" with="mode"/>
+<Word name="1/hele" positionX="750" positionY="300"/>
+<Connection from="2/dur" to="1/hele"/>
+<Word name="4/tekmille" positionX="750" positionY="200"/>
+<Connection from="and" to="4/tekmille" with="op2"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="4/tekmille" to="ben" with="ARG0"/>
+<Word name="3/öfke" positionX="750" positionY="300"/>
+<Connection from="4/tekmille" to="3/öfke" with="ARG1"/>
+<Connection from="3/öfke" to="ben" with="poss"/>
+</Amr>

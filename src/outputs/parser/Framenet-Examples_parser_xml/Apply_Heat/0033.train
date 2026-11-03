@@ -1,0 +1,19 @@
+<Amr sentence="Yumurtaları haşladım , kahvaltıya gel .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/haşla" positionX="650" positionY="200"/>
+<Connection from="and" to="2/haşla" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="2/haşla" to="ben" with="ARG0"/>
+<Word name="1/yumurta" positionX="650" positionY="300"/>
+<Connection from="2/haşla" to="1/yumurta" with="ARG1"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="1/yumurta" to="o" with="poss"/>
+<Word name="5/gel" positionX="750" positionY="200"/>
+<Connection from="and" to="5/gel" with="op2"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="5/gel" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="300"/>
+<Connection from="5/gel" to="imperative" with="mode"/>
+<Word name="4/kahvaltı" positionX="850" positionY="300"/>
+<Connection from="5/gel" to="4/kahvaltı" with="ARG1"/>
+</Amr>

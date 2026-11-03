@@ -1,0 +1,11 @@
+<Amr sentence="Öyle bir okulda okumak zor .">
+<Word name="5/zor" positionX="750" positionY="100"/>
+<Word name="4/oku" positionX="650" positionY="200"/>
+<Connection from="5/zor" to="4/oku"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/oku" to="o" with="ARG0"/>
+<Word name="3/okul" positionX="650" positionY="300"/>
+<Connection from="4/oku" to="3/okul" with="location"/>
+<Word name="1/öyle" positionX="550" positionY="400"/>
+<Connection from="3/okul" to="1/öyle" with="mod"/>
+</Amr>

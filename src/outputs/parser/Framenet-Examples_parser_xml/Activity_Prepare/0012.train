@@ -1,0 +1,15 @@
+<Amr sentence="Bir işe girişmeden önce onu zihninde tasarla .">
+<Word name="6/zihin 7/tasarla" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="6/zihin 7/tasarla" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="6/zihin 7/tasarla" to="imperative" with="mode"/>
+<Word name="3/girişme" positionX="850" positionY="200"/>
+<Connection from="6/zihin 7/tasarla" to="3/girişme"/>
+<Word name="2/iş" positionX="750" positionY="300"/>
+<Connection from="3/girişme" to="2/iş"/>
+<Word name="4/önce" positionX="850" positionY="300"/>
+<Connection from="3/girişme" to="4/önce"/>
+<Word name="5/o" positionX="950" positionY="200"/>
+<Connection from="6/zihin 7/tasarla" to="5/o" with="ARG1"/>
+</Amr>

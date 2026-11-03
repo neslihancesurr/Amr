@@ -1,0 +1,19 @@
+<Amr sentence="Burnum tıkalı olduğu için hiçbir şeyin tadını alamıyorum .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="7/tat 8/al" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="7/tat 8/al"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="7/tat 8/al" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="7/tat 8/al" to="ben" with="ARG0"/>
+<Word name="3/ol" positionX="750" positionY="300"/>
+<Connection from="7/tat 8/al" to="3/ol" with="cause"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="3/ol" to="o" with="ARG0"/>
+<Connection from="3/ol" to="o" with="poss"/>
+<Word name="1/burun" positionX="850" positionY="400"/>
+<Connection from="3/ol" to="1/burun"/>
+<Connection from="1/burun" to="ben" with="poss"/>
+<Word name="2/tıkalı" positionX="950" positionY="400"/>
+<Connection from="3/ol" to="2/tıkalı" with="manner"/>
+</Amr>

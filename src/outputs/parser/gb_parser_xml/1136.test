@@ -1,0 +1,25 @@
+<Amr sentence="Efendim , biz sizin kadar bilemeyiz bu konuları tabii ki .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="6/bil" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="6/bil"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="6/bil" to="-" with="polarity"/>
+<Word name="1/efendi" positionX="650" positionY="300"/>
+<Connection from="6/bil" to="1/efendi"/>
+<Word name="ben" positionX="550" positionY="400"/>
+<Connection from="1/efendi" to="ben" with="poss"/>
+<Word name="3/biz" positionX="750" positionY="300"/>
+<Connection from="6/bil" to="3/biz" with="ARG0"/>
+<Word name="4/siz" positionX="850" positionY="300"/>
+<Connection from="6/bil" to="4/siz" with="extent"/>
+<Word name="8/konu" positionX="950" positionY="300"/>
+<Connection from="6/bil" to="8/konu" with="ARG1"/>
+<Word name="o" positionX="850" positionY="400"/>
+<Connection from="8/konu" to="o" with="poss"/>
+<Word name="7/bu" positionX="950" positionY="400"/>
+<Connection from="8/konu" to="7/bu" with="mod"/>
+<Word name="9/tabii" positionX="1050" positionY="300"/>
+<Connection from="6/bil" to="9/tabii" with="manner"/>
+<Word name="10/ki" positionX="950" positionY="400"/>
+<Connection from="9/tabii" to="10/ki"/>
+</Amr>

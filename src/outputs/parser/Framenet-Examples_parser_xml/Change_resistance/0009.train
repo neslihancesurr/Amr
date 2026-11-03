@@ -1,0 +1,11 @@
+<Amr sentence="Duvarlara bağın vurarak güçlendirme çalışmaları yapıyorlar .">
+<Word name="6/yap" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="6/yap" to="onlar" with="ARG0"/>
+<Word name="2/bağın 3/vur" positionX="750" positionY="200"/>
+<Connection from="6/yap" to="2/bağın 3/vur"/>
+<Word name="5/çalışma" positionX="850" positionY="200"/>
+<Connection from="6/yap" to="5/çalışma" with="ARG1"/>
+<Word name="4/güçlendirme" positionX="750" positionY="300"/>
+<Connection from="5/çalışma" to="4/güçlendirme" with="mod"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Geçen hafta her gün iki saat çalıştım .">
+<Word name="7/çalış" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="7/çalış" to="ben" with="ARG0"/>
+<Word name="2/hafta" positionX="750" positionY="200"/>
+<Connection from="7/çalış" to="2/hafta"/>
+<Word name="1/geçen" positionX="650" positionY="300"/>
+<Connection from="2/hafta" to="1/geçen"/>
+<Word name="3/her 4/gün" positionX="850" positionY="200"/>
+<Connection from="7/çalış" to="3/her 4/gün" with="mod"/>
+<Word name="6/saat" positionX="950" positionY="200"/>
+<Connection from="7/çalış" to="6/saat"/>
+<Word name="5/iki" positionX="850" positionY="300"/>
+<Connection from="6/saat" to="5/iki"/>
+</Amr>

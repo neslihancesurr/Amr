@@ -1,0 +1,9 @@
+<Amr sentence="Bir elektrik zilinin düğmesine dokunduk .">
+<Word name="5/dokun" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/dokun" to="biz" with="ARG0"/>
+<Word name="4/düğme" positionX="750" positionY="200"/>
+<Connection from="5/dokun" to="4/düğme" with="ARG1"/>
+<Word name="2/elektrik 3/zil" positionX="650" positionY="300"/>
+<Connection from="4/düğme" to="2/elektrik 3/zil" with="mod"/>
+</Amr>

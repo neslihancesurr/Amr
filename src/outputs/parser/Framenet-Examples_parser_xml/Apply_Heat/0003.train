@@ -1,0 +1,22 @@
+<Amr sentence="Odun ocağını şöyle bir karıştırdıktan sonra közlerin üzerine cezve sürdü .">
+<Word name="9/cezve 10/sür" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="9/cezve 10/sür" to="o" with="ARG0"/>
+<Word name="5/karıştır" positionX="750" positionY="200"/>
+<Connection from="9/cezve 10/sür" to="5/karıştır"/>
+<Connection from="5/karıştır" to="o" with="ARG0"/>
+<Word name="date-entity" positionX="750" positionY="300"/>
+<Connection from="5/karıştır" to="date-entity" with="date"/>
+<Word name="2/ocak" positionX="650" positionY="400"/>
+<Connection from="date-entity" to="2/ocak" with="month"/>
+<Word name="1/odun" positionX="750" positionY="400"/>
+<Connection from="date-entity" to="1/odun"/>
+<Word name="3/şöyle 4/bir" positionX="850" positionY="300"/>
+<Connection from="5/karıştır" to="3/şöyle 4/bir" with="manner"/>
+<Word name="6/sonra" positionX="950" positionY="300"/>
+<Connection from="5/karıştır" to="6/sonra"/>
+<Word name="8/üzerine" positionX="850" positionY="200"/>
+<Connection from="9/cezve 10/sür" to="8/üzerine" with="ARG1"/>
+<Word name="7/köz" positionX="750" positionY="300"/>
+<Connection from="8/üzerine" to="7/köz" with="mod"/>
+</Amr>

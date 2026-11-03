@@ -1,0 +1,11 @@
+<Amr sentence="Başbakan , Cumhurbaşkanı tarafından görevlendirilir .">
+<Word name="5/görevlendir" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/görevlendir" to="o" with="ARG0"/>
+<Word name="1/başbakan" positionX="750" positionY="200"/>
+<Connection from="5/görevlendir" to="1/başbakan"/>
+<Word name="4/tarafından" positionX="850" positionY="200"/>
+<Connection from="5/görevlendir" to="4/tarafından"/>
+<Word name="3/cumhurbaşkan" positionX="750" positionY="300"/>
+<Connection from="4/tarafından" to="3/cumhurbaşkan" with="mod"/>
+</Amr>

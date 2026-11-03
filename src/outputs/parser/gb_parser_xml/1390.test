@@ -1,0 +1,8 @@
+<Amr sentence="Burası neresi ?">
+<Word name="2/nere" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="2/nere" to="o" with="poss"/>
+<Word name="1/bura" positionX="750" positionY="200"/>
+<Connection from="2/nere" to="1/bura"/>
+<Connection from="1/bura" to="o" with="poss"/>
+</Amr>

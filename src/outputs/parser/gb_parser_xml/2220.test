@@ -1,0 +1,7 @@
+<Amr sentence="kitap imzalanan yer">
+<Word name="3/yer" positionX="750" positionY="100"/>
+<Word name="2/imzala" positionX="650" positionY="200"/>
+<Connection from="3/yer" to="2/imzala"/>
+<Word name="1/kitap" positionX="550" positionY="300"/>
+<Connection from="2/imzala" to="1/kitap"/>
+</Amr>

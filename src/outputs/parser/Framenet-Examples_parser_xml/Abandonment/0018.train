@@ -1,0 +1,25 @@
+<Amr sentence="Gelen yardımların hepsini kendine saklayıp o durumdaki arkadaşlarını zor zamanlarında yüzüstü bıraktı .">
+<Word name="11/yüzüstü 12/bırak" positionX="750" positionY="100"/>
+<Word name="5/sakla" positionX="650" positionY="200"/>
+<Connection from="11/yüzüstü 12/bırak" to="5/sakla"/>
+<Word name="3/hepsi" positionX="550" positionY="300"/>
+<Connection from="5/sakla" to="3/hepsi" with="ARG1"/>
+<Word name="2/yardım" positionX="450" positionY="400"/>
+<Connection from="3/hepsi" to="2/yardım" with="mod"/>
+<Word name="1/gelen" positionX="350" positionY="500"/>
+<Connection from="2/yardım" to="1/gelen"/>
+<Word name="4/kendi" positionX="650" positionY="300"/>
+<Connection from="5/sakla" to="4/kendi" with="ARG0"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="4/kendi" to="o" with="poss"/>
+<Word name="8/arkadaş" positionX="750" positionY="200"/>
+<Connection from="11/yüzüstü 12/bırak" to="8/arkadaş" with="ARG1"/>
+<Word name="7/durum" positionX="650" positionY="300"/>
+<Connection from="8/arkadaş" to="7/durum" with="mod"/>
+<Word name="6/o" positionX="550" positionY="400"/>
+<Connection from="7/durum" to="6/o" with="mod"/>
+<Word name="10/zaman" positionX="850" positionY="200"/>
+<Connection from="11/yüzüstü 12/bırak" to="10/zaman" with="location"/>
+<Word name="9/zor" positionX="750" positionY="300"/>
+<Connection from="10/zaman" to="9/zor" with="mod"/>
+</Amr>

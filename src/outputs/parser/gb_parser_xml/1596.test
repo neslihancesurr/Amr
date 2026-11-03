@@ -1,0 +1,11 @@
+<Amr sentence="- Şu anda ne yapıyorsunuz ?">
+<Word name="5/yap" positionX="750" positionY="100"/>
+<Word name="siz" positionX="650" positionY="200"/>
+<Connection from="5/yap" to="siz" with="ARG0"/>
+<Word name="3/an" positionX="750" positionY="200"/>
+<Connection from="5/yap" to="3/an" with="location"/>
+<Word name="2/şu" positionX="650" positionY="300"/>
+<Connection from="3/an" to="2/şu" with="mod"/>
+<Word name="4/ne" positionX="850" positionY="200"/>
+<Connection from="5/yap" to="4/ne" with="ARG1"/>
+</Amr>

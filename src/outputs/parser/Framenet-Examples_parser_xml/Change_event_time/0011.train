@@ -1,0 +1,9 @@
+<Amr sentence="Orucu mecbur kazaya bıraktım .">
+<Word name="3/kaza 4/bırak" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/kaza 4/bırak" to="ben" with="ARG0"/>
+<Word name="1/oruç" positionX="750" positionY="200"/>
+<Connection from="3/kaza 4/bırak" to="1/oruç" with="ARG0"/>
+<Word name="2/mecbur" positionX="850" positionY="200"/>
+<Connection from="3/kaza 4/bırak" to="2/mecbur" with="manner"/>
+</Amr>

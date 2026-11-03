@@ -1,0 +1,11 @@
+<Amr sentence="Devlet o bölgeye yardımları kesti .">
+<Word name="5/kes" positionX="750" positionY="100"/>
+<Word name="1/devlet" positionX="650" positionY="200"/>
+<Connection from="5/kes" to="1/devlet" with="ARG0"/>
+<Word name="4/yardım" positionX="750" positionY="200"/>
+<Connection from="5/kes" to="4/yardım" with="ARG1"/>
+<Word name="3/bölge" positionX="650" positionY="300"/>
+<Connection from="4/yardım" to="3/bölge" with="mod"/>
+<Word name="2/o" positionX="550" positionY="400"/>
+<Connection from="3/bölge" to="2/o" with="mod"/>
+</Amr>

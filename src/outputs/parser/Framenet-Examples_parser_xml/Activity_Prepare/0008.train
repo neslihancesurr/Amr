@@ -1,0 +1,11 @@
+<Amr sentence="Köpeğin karşısında kalan kedi sırtardı .">
+<Word name="5/sırtar" positionX="750" positionY="100"/>
+<Word name="4/kedi" positionX="650" positionY="200"/>
+<Connection from="5/sırtar" to="4/kedi" with="ARG0"/>
+<Word name="3/kal" positionX="550" positionY="300"/>
+<Connection from="4/kedi" to="3/kal"/>
+<Word name="2/karşı" positionX="450" positionY="400"/>
+<Connection from="3/kal" to="2/karşı" with="location"/>
+<Word name="1/köpek" positionX="350" positionY="500"/>
+<Connection from="2/karşı" to="1/köpek" with="mod"/>
+</Amr>

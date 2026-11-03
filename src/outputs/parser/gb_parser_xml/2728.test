@@ -1,0 +1,29 @@
+<Amr sentence="Seninle salı günü , yani bu iş bittikten sonra görüşebiliriz .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="10/görüş" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="10/görüş"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="10/görüş" to="biz" with="ARG0"/>
+<Word name="1/sen" positionX="650" positionY="300"/>
+<Connection from="10/görüş" to="1/sen" with="ARG0"/>
+<Word name="and" positionX="750" positionY="300"/>
+<Connection from="10/görüş" to="and"/>
+<Word name="8/bit" positionX="650" positionY="400"/>
+<Connection from="and" to="8/bit" with="op1"/>
+<Word name="o" positionX="550" positionY="500"/>
+<Connection from="8/bit" to="o" with="ARG0"/>
+<Word name="5/yani" positionX="650" positionY="500"/>
+<Connection from="8/bit" to="5/yani" with="manner"/>
+<Word name="7/iş" positionX="750" positionY="500"/>
+<Connection from="8/bit" to="7/iş"/>
+<Word name="6/bu" positionX="650" positionY="600"/>
+<Connection from="7/iş" to="6/bu" with="mod"/>
+<Word name="9/sonra" positionX="850" positionY="500"/>
+<Connection from="8/bit" to="9/sonra"/>
+<Word name="3/gün" positionX="750" positionY="400"/>
+<Connection from="and" to="3/gün" with="op2"/>
+<Word name="date-entity" positionX="650" positionY="500"/>
+<Connection from="3/gün" to="date-entity" with="date"/>
+<Word name="2/salı" positionX="550" positionY="600"/>
+<Connection from="date-entity" to="2/salı" with="weekday"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Kumları parmaklarının arasından geçiriyordu .">
+<Word name="4/geçir" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/geçir" to="o" with="ARG0"/>
+<Word name="1/kum" positionX="750" positionY="200"/>
+<Connection from="4/geçir" to="1/kum" with="ARG1"/>
+<Word name="3/ara" positionX="850" positionY="200"/>
+<Connection from="4/geçir" to="3/ara"/>
+<Word name="2/parmak" positionX="750" positionY="300"/>
+<Connection from="3/ara" to="2/parmak" with="mod"/>
+</Amr>

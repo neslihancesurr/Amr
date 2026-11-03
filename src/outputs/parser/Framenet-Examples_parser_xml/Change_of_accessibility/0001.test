@@ -1,0 +1,13 @@
+<Amr sentence="Eskiden bu bölgede eşkıyalar yol keserdi .">
+<Word name="5/yol 6/kes" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/yol 6/kes" to="o" with="ARG0"/>
+<Word name="1/eskiden" positionX="750" positionY="200"/>
+<Connection from="5/yol 6/kes" to="1/eskiden" with="manner"/>
+<Word name="3/bölge" positionX="850" positionY="200"/>
+<Connection from="5/yol 6/kes" to="3/bölge" with="location"/>
+<Word name="2/bu" positionX="750" positionY="300"/>
+<Connection from="3/bölge" to="2/bu" with="mod"/>
+<Word name="4/eşkıya" positionX="950" positionY="200"/>
+<Connection from="5/yol 6/kes" to="4/eşkıya"/>
+</Amr>

@@ -1,0 +1,7 @@
+<Amr sentence="Tekerlek takılarak dönüyor .">
+<Word name="3/dön" positionX="750" positionY="100"/>
+<Word name="1/tekerlek" positionX="650" positionY="200"/>
+<Connection from="3/dön" to="1/tekerlek" with="ARG0"/>
+<Word name="2/takıl" positionX="750" positionY="200"/>
+<Connection from="3/dön" to="2/takıl"/>
+</Amr>

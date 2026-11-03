@@ -1,0 +1,14 @@
+<Amr sentence="Partiye hiçbir kimse gelmedi .">
+<Word name="4/gel" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/gel" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="4/gel" to="o" with="ARG0"/>
+<Word name="1/parti" positionX="850" positionY="200"/>
+<Connection from="4/gel" to="1/parti" with="ARG1"/>
+<Word name="3/kimse" positionX="950" positionY="200"/>
+<Connection from="4/gel" to="3/kimse"/>
+<Connection from="3/kimse" to="o" with="poss"/>
+<Word name="2/hiçbir" positionX="950" positionY="300"/>
+<Connection from="3/kimse" to="2/hiçbir" with="mod"/>
+</Amr>

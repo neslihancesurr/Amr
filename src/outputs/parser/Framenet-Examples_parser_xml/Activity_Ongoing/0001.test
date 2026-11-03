@@ -1,0 +1,17 @@
+<Amr sentence="Eski çağlardan birçok anıt çağımıza kadar gelmiştir .">
+<Word name="7/gel" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/gel" to="o" with="ARG0"/>
+<Word name="4/anıt" positionX="750" positionY="200"/>
+<Connection from="7/gel" to="4/anıt" with="ARG1"/>
+<Word name="2/çağ" positionX="650" positionY="300"/>
+<Connection from="4/anıt" to="2/çağ" with="mod"/>
+<Word name="1/eski" positionX="550" positionY="400"/>
+<Connection from="2/çağ" to="1/eski" with="mod"/>
+<Word name="3/birçok" positionX="750" positionY="300"/>
+<Connection from="4/anıt" to="3/birçok" with="mod"/>
+<Word name="5/çağ" positionX="850" positionY="200"/>
+<Connection from="7/gel" to="5/çağ" with="mod"/>
+<Word name="6/kadar" positionX="750" positionY="300"/>
+<Connection from="5/çağ" to="6/kadar"/>
+</Amr>

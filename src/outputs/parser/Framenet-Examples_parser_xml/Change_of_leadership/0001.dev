@@ -1,0 +1,7 @@
+<Amr sentence="Müdür yardımcısını vekâleten atadılar .">
+<Word name="3/vekâleten 4/ata" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="3/vekâleten 4/ata" to="onlar" with="ARG0"/>
+<Word name="1/müdür 2/yardımcı" positionX="750" positionY="200"/>
+<Connection from="3/vekâleten 4/ata" to="1/müdür 2/yardımcı" with="ARG1"/>
+</Amr>

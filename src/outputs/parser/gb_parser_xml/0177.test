@@ -1,0 +1,20 @@
+<Amr sentence="Ayşe de Semra da">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="and" to="person" with="op1"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/semra" positionX="450" positionY="400"/>
+<Connection from="name" to="3/semra" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/da" positionX="750" positionY="300"/>
+<Connection from="person" to="4/da"/>
+<Connection from="and" to="person" with="op2"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ayşe" positionX="550" positionY="400"/>
+<Connection from="name" to="1/ayşe" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/de" positionX="850" positionY="300"/>
+<Connection from="person" to="2/de"/>
+</Amr>

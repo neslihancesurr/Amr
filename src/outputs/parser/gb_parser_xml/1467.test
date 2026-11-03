@@ -1,0 +1,18 @@
+<Amr sentence="Ahmet Zeki'yi görmeyeceğini iddia ediyordu .">
+<Word name="4/iddia 5/et" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="4/iddia 5/et" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ahmet" positionX="450" positionY="400"/>
+<Connection from="name" to="1/ahmet" with="op1"/>
+<Word name="2/zeki" positionX="550" positionY="400"/>
+<Connection from="name" to="2/zeki" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/gör" positionX="750" positionY="200"/>
+<Connection from="4/iddia 5/et" to="3/gör" with="ARG1"/>
+<Connection from="3/gör" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="3/gör" to="o" with="poss"/>
+</Amr>

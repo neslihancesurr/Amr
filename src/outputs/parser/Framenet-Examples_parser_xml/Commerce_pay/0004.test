@@ -1,0 +1,15 @@
+<Amr sentence="Restoranda arkadaşlarım beni satınca parayı söküldüm .">
+<Word name="6/sökül" positionX="750" positionY="100"/>
+<Word name="4/sat" positionX="650" positionY="200"/>
+<Connection from="6/sökül" to="4/sat"/>
+<Word name="1/restoran" positionX="550" positionY="300"/>
+<Connection from="4/sat" to="1/restoran" with="location"/>
+<Word name="2/arkadaş" positionX="650" positionY="300"/>
+<Connection from="4/sat" to="2/arkadaş"/>
+<Word name="ben" positionX="550" positionY="400"/>
+<Connection from="2/arkadaş" to="ben" with="poss"/>
+<Word name="3/ben" positionX="750" positionY="300"/>
+<Connection from="4/sat" to="3/ben"/>
+<Word name="5/para" positionX="750" positionY="200"/>
+<Connection from="6/sökül" to="5/para" with="ARG1"/>
+</Amr>

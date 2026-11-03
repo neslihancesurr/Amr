@@ -1,0 +1,13 @@
+<Amr sentence="Bu adi hareketiyle adeta canına kastetti .">
+<Word name="5/can 6/kastet" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/can 6/kastet" to="o" with="ARG0"/>
+<Word name="3/hareket" positionX="750" positionY="200"/>
+<Connection from="5/can 6/kastet" to="3/hareket" with="ARG1"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="3/hareket" to="1/bu" with="mod"/>
+<Word name="2/adi" positionX="750" positionY="300"/>
+<Connection from="3/hareket" to="2/adi" with="mod"/>
+<Word name="4/adeta" positionX="850" positionY="200"/>
+<Connection from="5/can 6/kastet" to="4/adeta" with="manner"/>
+</Amr>

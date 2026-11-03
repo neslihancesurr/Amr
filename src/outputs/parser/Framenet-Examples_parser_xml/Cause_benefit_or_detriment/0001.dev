@@ -1,0 +1,13 @@
+<Amr sentence="Okuduğu kitaplar onun için yararlı oldu .">
+<Word name="5/yararlı 6/ol" positionX="750" positionY="100"/>
+<Word name="2/kitap" positionX="650" positionY="200"/>
+<Connection from="5/yararlı 6/ol" to="2/kitap" with="ARG0"/>
+<Word name="1/oku" positionX="550" positionY="300"/>
+<Connection from="2/kitap" to="1/oku"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="1/oku" to="o" with="poss"/>
+<Word name="3/o" positionX="750" positionY="200"/>
+<Connection from="5/yararlı 6/ol" to="3/o" with="ARG1"/>
+<Word name="4/için" positionX="650" positionY="300"/>
+<Connection from="3/o" to="4/için"/>
+</Amr>

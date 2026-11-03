@@ -1,0 +1,19 @@
+<Amr sentence="Şunu fayrap et , yemek pişmiyor .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/fayrap 3/et" positionX="650" positionY="200"/>
+<Connection from="and" to="2/fayrap 3/et" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="2/fayrap 3/et" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="650" positionY="300"/>
+<Connection from="2/fayrap 3/et" to="imperative" with="mode"/>
+<Word name="1/şu" positionX="750" positionY="300"/>
+<Connection from="2/fayrap 3/et" to="1/şu"/>
+<Word name="6/piş" positionX="750" positionY="200"/>
+<Connection from="and" to="6/piş" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="6/piş" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="6/piş" to="o" with="ARG0"/>
+<Word name="5/yemek" positionX="850" positionY="300"/>
+<Connection from="6/piş" to="5/yemek" with="ARG1"/>
+</Amr>

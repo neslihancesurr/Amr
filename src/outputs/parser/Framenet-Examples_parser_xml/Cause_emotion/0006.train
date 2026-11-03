@@ -1,0 +1,11 @@
+<Amr sentence="Doğum günümde beni çok şenlendirdiler .">
+<Word name="5/şenlendir" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="5/şenlendir" to="onlar" with="ARG0"/>
+<Word name="1/doğum 2/günü" positionX="750" positionY="200"/>
+<Connection from="5/şenlendir" to="1/doğum 2/günü" with="location"/>
+<Word name="3/ben" positionX="850" positionY="200"/>
+<Connection from="5/şenlendir" to="3/ben" with="ARG1"/>
+<Word name="4/çok" positionX="950" positionY="200"/>
+<Connection from="5/şenlendir" to="4/çok" with="degree"/>
+</Amr>

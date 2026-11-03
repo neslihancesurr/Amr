@@ -1,0 +1,10 @@
+<Amr sentence="Derslerim başlamadan üyeliğimi donduracağım .">
+<Word name="3/üyelik 4/dondur" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/üyelik 4/dondur" to="ben" with="ARG0"/>
+<Word name="2/başla" positionX="750" positionY="200"/>
+<Connection from="3/üyelik 4/dondur" to="2/başla"/>
+<Word name="1/ders" positionX="650" positionY="300"/>
+<Connection from="2/başla" to="1/ders" with="ARG1"/>
+<Connection from="1/ders" to="ben" with="poss"/>
+</Amr>

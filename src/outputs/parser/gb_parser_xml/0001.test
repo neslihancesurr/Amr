@@ -1,0 +1,11 @@
+<Amr sentence="Dün çocuklar okula gitti mi ?">
+<Word name="4/git" positionX="750" positionY="100"/>
+<Word name="1/dün" positionX="650" positionY="200"/>
+<Connection from="4/git" to="1/dün"/>
+<Word name="2/çocuk" positionX="750" positionY="200"/>
+<Connection from="4/git" to="2/çocuk" with="ARG0"/>
+<Word name="3/okul" positionX="850" positionY="200"/>
+<Connection from="4/git" to="3/okul" with="ARG1"/>
+<Word name="5/mi" positionX="950" positionY="200"/>
+<Connection from="4/git" to="5/mi"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Biz herhangi bir teşebbüs ihtimalini ebediyen hudutlarımız dışında bırakacağız .">
+<Word name="8/dış 9/bırak" positionX="750" positionY="100"/>
+<Word name="1/biz" positionX="650" positionY="200"/>
+<Connection from="8/dış 9/bırak" to="1/biz" with="ARG0"/>
+<Word name="5/ihtimal" positionX="750" positionY="200"/>
+<Connection from="8/dış 9/bırak" to="5/ihtimal" with="ARG1"/>
+<Word name="2/herhangi 3/bir" positionX="650" positionY="300"/>
+<Connection from="5/ihtimal" to="2/herhangi 3/bir" with="mod"/>
+<Word name="4/teşebbüs" positionX="750" positionY="300"/>
+<Connection from="5/ihtimal" to="4/teşebbüs" with="mod"/>
+<Word name="6/ebediyen" positionX="850" positionY="200"/>
+<Connection from="8/dış 9/bırak" to="6/ebediyen" with="manner"/>
+</Amr>

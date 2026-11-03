@@ -1,0 +1,13 @@
+<Amr sentence="dokuz milyon altı yüz altmış bin">
+<Word name="6/bin" positionX="750" positionY="100"/>
+<Word name="1/dokuz" positionX="650" positionY="200"/>
+<Connection from="6/bin" to="1/dokuz"/>
+<Word name="2/milyon" positionX="750" positionY="200"/>
+<Connection from="6/bin" to="2/milyon"/>
+<Word name="3/altı" positionX="850" positionY="200"/>
+<Connection from="6/bin" to="3/altı"/>
+<Word name="4/yüz" positionX="950" positionY="200"/>
+<Connection from="6/bin" to="4/yüz"/>
+<Word name="5/altmış" positionX="1050" positionY="200"/>
+<Connection from="6/bin" to="5/altmış"/>
+</Amr>

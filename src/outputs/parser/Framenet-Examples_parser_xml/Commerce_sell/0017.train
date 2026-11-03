@@ -1,0 +1,30 @@
+<Amr sentence="Mütemadiyen veresiye veriyor ve müşteriler ay başında borç ödeyeceklerine Tevfik'e dert yanıyorlar .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="11/dert 12/yan" positionX="650" positionY="200"/>
+<Connection from="and" to="11/dert 12/yan" with="op1"/>
+<Word name="5/müşteri" positionX="550" positionY="300"/>
+<Connection from="11/dert 12/yan" to="5/müşteri" with="ARG0"/>
+<Word name="7/başında" positionX="650" positionY="300"/>
+<Connection from="11/dert 12/yan" to="7/başında" with="mod"/>
+<Word name="6/ay" positionX="550" positionY="400"/>
+<Connection from="7/başında" to="6/ay" with="mod"/>
+<Word name="9/öde" positionX="750" positionY="300"/>
+<Connection from="11/dert 12/yan" to="9/öde"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="9/öde" to="o" with="poss"/>
+<Word name="8/borç" positionX="750" positionY="400"/>
+<Connection from="9/öde" to="8/borç" with="ARG1"/>
+<Word name="person" positionX="850" positionY="300"/>
+<Connection from="11/dert 12/yan" to="person" with="ARG2"/>
+<Word name="name" positionX="750" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="10/tevfik" positionX="650" positionY="500"/>
+<Connection from="name" to="10/tevfik" with="op1"/>
+<Word name="-" positionX="850" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/veresiye 3/ver" positionX="750" positionY="200"/>
+<Connection from="and" to="2/veresiye 3/ver" with="op2"/>
+<Connection from="2/veresiye 3/ver" to="o" with="ARG0"/>
+<Word name="1/mütemadiyen" positionX="750" positionY="300"/>
+<Connection from="2/veresiye 3/ver" to="1/mütemadiyen" with="manner"/>
+</Amr>

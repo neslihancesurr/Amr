@@ -1,0 +1,15 @@
+<Amr sentence="Ondan pek hoşlanmadığı için sürekli nasırına basıyordu .">
+<Word name="6/nasır 7/bas" positionX="750" positionY="100"/>
+<Word name="3/hoşlan" positionX="650" positionY="200"/>
+<Connection from="6/nasır 7/bas" to="3/hoşlan" with="cause"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="3/hoşlan" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/hoşlan" to="o" with="poss"/>
+<Word name="1/o" positionX="750" positionY="300"/>
+<Connection from="3/hoşlan" to="1/o" with="ARG1"/>
+<Word name="2/pek" positionX="850" positionY="300"/>
+<Connection from="3/hoşlan" to="2/pek" with="manner"/>
+<Word name="5/sürekli" positionX="750" positionY="200"/>
+<Connection from="6/nasır 7/bas" to="5/sürekli" with="frequency"/>
+</Amr>

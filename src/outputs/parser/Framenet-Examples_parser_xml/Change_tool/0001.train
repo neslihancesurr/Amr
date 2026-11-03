@@ -1,0 +1,21 @@
+<Amr sentence="Diva sahnede kılıktan kılığa giriyor , muhteşem bir gösteri sergiliyordu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/kılık 4/kılık 5/gir" positionX="650" positionY="200"/>
+<Connection from="and" to="3/kılık 4/kılık 5/gir" with="op1"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="3/kılık 4/kılık 5/gir" to="person" with="ARG0"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/Diva" positionX="350" positionY="500"/>
+<Connection from="name" to="1/Diva" with="op1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/sahne" positionX="650" positionY="300"/>
+<Connection from="3/kılık 4/kılık 5/gir" to="2/sahne" with="location"/>
+<Word name="10/sergile" positionX="750" positionY="200"/>
+<Connection from="and" to="10/sergile" with="op2"/>
+<Word name="9/gösteri" positionX="650" positionY="300"/>
+<Connection from="10/sergile" to="9/gösteri" with="ARG1"/>
+<Word name="7/muhteşem" positionX="550" positionY="400"/>
+<Connection from="9/gösteri" to="7/muhteşem" with="mod"/>
+</Amr>

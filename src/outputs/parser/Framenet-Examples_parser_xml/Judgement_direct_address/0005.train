@@ -1,0 +1,12 @@
+<Amr sentence="Odasına çağırıp hepimize ağzını açtı .">
+<Word name="4/ağız 5/aç" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/ağız 5/aç" to="o" with="ARG0"/>
+<Word name="2/çağır" positionX="750" positionY="200"/>
+<Connection from="4/ağız 5/aç" to="2/çağır"/>
+<Word name="1/oda" positionX="650" positionY="300"/>
+<Connection from="2/çağır" to="1/oda"/>
+<Connection from="1/oda" to="o" with="poss"/>
+<Word name="3/hep" positionX="850" positionY="200"/>
+<Connection from="4/ağız 5/aç" to="3/hep" with="frequency"/>
+</Amr>

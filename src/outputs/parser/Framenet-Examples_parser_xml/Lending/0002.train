@@ -1,0 +1,11 @@
+<Amr sentence="Yetmezse borç harç ederim .">
+<Word name="2/borç 3/harç 4/et" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="2/borç 3/harç 4/et" to="ben" with="ARG0"/>
+<Word name="1/yet" positionX="750" positionY="200"/>
+<Connection from="2/borç 3/harç 4/et" to="1/yet" with="cond"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="1/yet" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="1/yet" to="o" with="ARG0"/>
+</Amr>

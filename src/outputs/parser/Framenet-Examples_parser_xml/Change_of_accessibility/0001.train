@@ -1,0 +1,17 @@
+<Amr sentence="Yaban domuzları girmesin diye bağın etrafını çitle çevirdiler .">
+<Word name="8/çevir" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="8/çevir" to="onlar" with="ARG0"/>
+<Word name="3/girme" positionX="750" positionY="200"/>
+<Connection from="8/çevir" to="3/girme"/>
+<Word name="1/yaban 2/domuz" positionX="650" positionY="300"/>
+<Connection from="3/girme" to="1/yaban 2/domuz" with="mod"/>
+<Word name="4/diye" positionX="750" positionY="300"/>
+<Connection from="3/girme" to="4/diye"/>
+<Word name="6/etraf" positionX="850" positionY="200"/>
+<Connection from="8/çevir" to="6/etraf" with="ARG1"/>
+<Word name="5/bağ" positionX="750" positionY="300"/>
+<Connection from="6/etraf" to="5/bağ" with="mod"/>
+<Word name="7/çit" positionX="950" positionY="200"/>
+<Connection from="8/çevir" to="7/çit" with="instrument"/>
+</Amr>

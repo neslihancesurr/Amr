@@ -1,0 +1,16 @@
+<Amr sentence="Borçlarını ödemek için tüm malını satıp savdı .">
+<Word name="6/sat 7/sav" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/sat 7/sav" to="o" with="ARG0"/>
+<Word name="2/öde" positionX="750" positionY="200"/>
+<Connection from="6/sat 7/sav" to="2/öde" with="cause"/>
+<Connection from="2/öde" to="o" with="ARG0"/>
+<Word name="1/borç" positionX="750" positionY="300"/>
+<Connection from="2/öde" to="1/borç" with="ARG1"/>
+<Connection from="1/borç" to="o" with="poss"/>
+<Word name="5/mal" positionX="850" positionY="200"/>
+<Connection from="6/sat 7/sav" to="5/mal"/>
+<Connection from="5/mal" to="o" with="poss"/>
+<Word name="4/tüm" positionX="850" positionY="300"/>
+<Connection from="5/mal" to="4/tüm" with="mod"/>
+</Amr>

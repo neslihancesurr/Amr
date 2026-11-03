@@ -1,0 +1,11 @@
+<Amr sentence="Koltuktan hızlı kalkınca başı döner .">
+<Word name="4/baş 5/dön" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/baş 5/dön" to="o" with="ARG0"/>
+<Word name="3/kalk" positionX="750" positionY="200"/>
+<Connection from="4/baş 5/dön" to="3/kalk"/>
+<Word name="1/koltuk" positionX="650" positionY="300"/>
+<Connection from="3/kalk" to="1/koltuk"/>
+<Word name="2/hızlı" positionX="750" positionY="300"/>
+<Connection from="3/kalk" to="2/hızlı" with="manner"/>
+</Amr>

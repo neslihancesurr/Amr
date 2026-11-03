@@ -1,0 +1,35 @@
+<Amr sentence="Derenin yaz kış kurumayan suları böğürtlen fidanlarını yükseltmiş , iki tarafa yemiş dolu bir koyu çit çekmiş .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="8/yükselt" positionX="650" positionY="200"/>
+<Connection from="and" to="8/yükselt" with="op1"/>
+<Word name="5/su" positionX="550" positionY="300"/>
+<Connection from="8/yükselt" to="5/su" with="ARG0"/>
+<Word name="1/dere" positionX="450" positionY="400"/>
+<Connection from="5/su" to="1/dere" with="mod"/>
+<Word name="4/kuru" positionX="550" positionY="400"/>
+<Connection from="5/su" to="4/kuru"/>
+<Word name="-" positionX="450" positionY="500"/>
+<Connection from="4/kuru" to="-" with="polarity"/>
+<Word name="2/yaz 3/kış" positionX="550" positionY="500"/>
+<Connection from="4/kuru" to="2/yaz 3/kış"/>
+<Word name="7/fidan" positionX="650" positionY="300"/>
+<Connection from="8/yükselt" to="7/fidan" with="ARG1"/>
+<Word name="6/böğürtlen" positionX="550" positionY="400"/>
+<Connection from="7/fidan" to="6/böğürtlen" with="mod"/>
+<Word name="17/çek" positionX="750" positionY="200"/>
+<Connection from="and" to="17/çek" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="17/çek" to="o" with="ARG0"/>
+<Word name="11/taraf" positionX="750" positionY="300"/>
+<Connection from="17/çek" to="11/taraf" with="ARG1"/>
+<Word name="10/iki" positionX="650" positionY="400"/>
+<Connection from="11/taraf" to="10/iki"/>
+<Word name="16/çit" positionX="850" positionY="300"/>
+<Connection from="17/çek" to="16/çit"/>
+<Word name="13/dolu" positionX="750" positionY="400"/>
+<Connection from="16/çit" to="13/dolu" with="mod"/>
+<Word name="12/yemiş" positionX="650" positionY="500"/>
+<Connection from="13/dolu" to="12/yemiş"/>
+<Word name="15/koyu" positionX="850" positionY="400"/>
+<Connection from="16/çit" to="15/koyu" with="mod"/>
+</Amr>

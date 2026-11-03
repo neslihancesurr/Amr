@@ -1,0 +1,16 @@
+<Amr sentence="Masadan kalktı , çünkü küçük oynamayacaktı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/küçük 6/oyna" positionX="650" positionY="200"/>
+<Connection from="and" to="5/küçük 6/oyna" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="5/küçük 6/oyna" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/küçük 6/oyna" to="o" with="ARG0"/>
+<Word name="4/çünkü" positionX="750" positionY="300"/>
+<Connection from="5/küçük 6/oyna" to="4/çünkü"/>
+<Word name="2/kalk" positionX="750" positionY="200"/>
+<Connection from="and" to="2/kalk" with="op2"/>
+<Connection from="2/kalk" to="o" with="ARG0"/>
+<Word name="1/masa" positionX="750" positionY="300"/>
+<Connection from="2/kalk" to="1/masa"/>
+</Amr>

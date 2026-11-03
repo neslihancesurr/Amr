@@ -1,0 +1,9 @@
+<Amr sentence="O artık kendi başına çarkı döndürüyor .">
+<Word name="5/çark 6/döndür" positionX="750" positionY="100"/>
+<Word name="1/o" positionX="650" positionY="200"/>
+<Connection from="5/çark 6/döndür" to="1/o" with="ARG0"/>
+<Word name="2/artık" positionX="750" positionY="200"/>
+<Connection from="5/çark 6/döndür" to="2/artık" with="manner"/>
+<Word name="3/kendi 4/baş" positionX="850" positionY="200"/>
+<Connection from="5/çark 6/döndür" to="3/kendi 4/baş" with="mod"/>
+</Amr>

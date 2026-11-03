@@ -1,0 +1,9 @@
+<Amr sentence="Adam elindeki kovayla çeliğe su verdi .">
+<Word name="4/çelik 5/su 6/ver" positionX="750" positionY="100"/>
+<Word name="1/adam" positionX="650" positionY="200"/>
+<Connection from="4/çelik 5/su 6/ver" to="1/adam" with="ARG0"/>
+<Word name="3/kova" positionX="750" positionY="200"/>
+<Connection from="4/çelik 5/su 6/ver" to="3/kova" with="ARG1"/>
+<Word name="2/el" positionX="650" positionY="300"/>
+<Connection from="3/kova" to="2/el" with="mod"/>
+</Amr>

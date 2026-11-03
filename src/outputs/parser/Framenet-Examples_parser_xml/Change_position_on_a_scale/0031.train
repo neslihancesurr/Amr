@@ -1,0 +1,20 @@
+<Amr sentence="Böylece bilinmeyenleri sıfırladık ve eşit duruma getirdik .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="7/getir" positionX="650" positionY="200"/>
+<Connection from="and" to="7/getir" with="op1"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="7/getir" to="biz" with="ARG0"/>
+<Word name="6/durum" positionX="650" positionY="300"/>
+<Connection from="7/getir" to="6/durum"/>
+<Word name="5/eşit" positionX="550" positionY="400"/>
+<Connection from="6/durum" to="5/eşit" with="mod"/>
+<Word name="3/sıfırla" positionX="750" positionY="200"/>
+<Connection from="and" to="3/sıfırla" with="op2"/>
+<Connection from="3/sıfırla" to="biz" with="ARG0"/>
+<Word name="1/böylece" positionX="750" positionY="300"/>
+<Connection from="3/sıfırla" to="1/böylece" with="manner"/>
+<Word name="2/bilinmeyen" positionX="850" positionY="300"/>
+<Connection from="3/sıfırla" to="2/bilinmeyen" with="ARG1"/>
+<Word name="o" positionX="750" positionY="400"/>
+<Connection from="2/bilinmeyen" to="o" with="poss"/>
+</Amr>

@@ -28,4 +28,10 @@ public class TestPenman {
         sentence = new AmrSentence("amrsentences", "0010.test");
         System.out.println(sentence);
     }
+
+    @Test
+    public void test2() {
+        AmrSentence sentence = new AmrSentence("src/gb_xml_parser_outputs", "0000.xml");
+        System.out.println(sentence);
+    }
 }

@@ -1,0 +1,13 @@
+<Amr sentence="Yolculardan hiçbirisi yerini vermek istemedi .">
+<Word name="5/iste" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/iste" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="5/iste" to="o" with="ARG0"/>
+<Word name="2/hiçbiri" positionX="850" positionY="200"/>
+<Connection from="5/iste" to="2/hiçbiri"/>
+<Word name="1/yolcu" positionX="750" positionY="300"/>
+<Connection from="2/hiçbiri" to="1/yolcu" with="mod"/>
+<Word name="3/yer 4/ver" positionX="950" positionY="200"/>
+<Connection from="5/iste" to="3/yer 4/ver" with="ARG1"/>
+</Amr>

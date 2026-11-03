@@ -1,0 +1,9 @@
+<Amr sentence="Burnu iyi koku alır .">
+<Word name="3/kok 4/al" positionX="750" positionY="100"/>
+<Word name="1/burun" positionX="650" positionY="200"/>
+<Connection from="3/kok 4/al" to="1/burun" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/burun" to="o" with="poss"/>
+<Word name="2/iyi" positionX="750" positionY="200"/>
+<Connection from="3/kok 4/al" to="2/iyi" with="manner"/>
+</Amr>

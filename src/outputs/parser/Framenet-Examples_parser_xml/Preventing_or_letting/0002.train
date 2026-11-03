@@ -1,0 +1,19 @@
+<Amr sentence="Bir işi başından kesmek en iyisi , öbür türlü önünü almak çok güç .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/iyi" positionX="650" positionY="200"/>
+<Connection from="and" to="6/iyi" with="op1"/>
+<Word name="5/en" positionX="550" positionY="300"/>
+<Connection from="6/iyi" to="5/en" with="manner"/>
+<Word name="13/güç" positionX="750" positionY="200"/>
+<Connection from="and" to="13/güç" with="op2"/>
+<Word name="9/türlü" positionX="650" positionY="300"/>
+<Connection from="13/güç" to="9/türlü"/>
+<Word name="8/öbür" positionX="550" positionY="400"/>
+<Connection from="9/türlü" to="8/öbür" with="mod"/>
+<Word name="10/ön 11/al" positionX="750" positionY="300"/>
+<Connection from="13/güç" to="10/ön 11/al"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="10/ön 11/al" to="o" with="ARG0"/>
+<Word name="12/çok" positionX="850" positionY="300"/>
+<Connection from="13/güç" to="12/çok" with="degree"/>
+</Amr>

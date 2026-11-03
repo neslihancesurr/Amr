@@ -1,0 +1,15 @@
+<Amr sentence="Osman çocukça davranıyor .">
+<Word name="3/davran" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/davran" to="o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="3/davran" to="person" with="ARG1"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/osman" positionX="550" positionY="400"/>
+<Connection from="name" to="1/osman" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/çocukça" positionX="850" positionY="200"/>
+<Connection from="3/davran" to="2/çocukça" with="ARG1"/>
+</Amr>

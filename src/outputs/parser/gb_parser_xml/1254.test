@@ -1,0 +1,15 @@
+<Amr sentence="Semra onun anahtarlarını kaybetmiş .">
+<Word name="4/kaybet" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="4/kaybet" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/semra" positionX="450" positionY="400"/>
+<Connection from="name" to="1/semra" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/anahtar" positionX="750" positionY="200"/>
+<Connection from="4/kaybet" to="3/anahtar" with="ARG1"/>
+<Word name="2/o" positionX="650" positionY="300"/>
+<Connection from="3/anahtar" to="2/o" with="mod"/>
+</Amr>

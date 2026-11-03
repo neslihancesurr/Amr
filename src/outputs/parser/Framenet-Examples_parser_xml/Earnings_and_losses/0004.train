@@ -1,0 +1,14 @@
+<Amr sentence="Büyük para kesiyor , yeni yeni bilezikler alıyor .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/para 3/kes" positionX="650" positionY="200"/>
+<Connection from="and" to="2/para 3/kes" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/para 3/kes" to="o" with="ARG0"/>
+<Word name="8/al" positionX="750" positionY="200"/>
+<Connection from="and" to="8/al" with="op2"/>
+<Connection from="8/al" to="o" with="ARG0"/>
+<Word name="7/bilezik" positionX="750" positionY="300"/>
+<Connection from="8/al" to="7/bilezik" with="ARG1"/>
+<Word name="5/yeni 6/yeni" positionX="650" positionY="400"/>
+<Connection from="7/bilezik" to="5/yeni 6/yeni"/>
+</Amr>

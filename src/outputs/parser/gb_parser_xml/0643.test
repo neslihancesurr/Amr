@@ -1,0 +1,9 @@
+<Amr sentence="hesabımdaki paranın büyük kısmı">
+<Word name="4/kısım" positionX="750" positionY="100"/>
+<Word name="2/para" positionX="650" positionY="200"/>
+<Connection from="4/kısım" to="2/para"/>
+<Word name="1/hesap" positionX="550" positionY="300"/>
+<Connection from="2/para" to="1/hesap" with="mod"/>
+<Word name="3/büyük" positionX="750" positionY="200"/>
+<Connection from="4/kısım" to="3/büyük" with="mod"/>
+</Amr>

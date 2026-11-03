@@ -1,0 +1,13 @@
+<Amr sentence="İtirazlar üzerine bakan utanarak konuşmaya ara verdi .">
+<Word name="6/ara 7/ver" positionX="750" positionY="100"/>
+<Word name="1/itiraz" positionX="650" positionY="200"/>
+<Connection from="6/ara 7/ver" to="1/itiraz" with="mod"/>
+<Word name="2/üzerine" positionX="550" positionY="300"/>
+<Connection from="1/itiraz" to="2/üzerine"/>
+<Word name="3/bakan" positionX="750" positionY="200"/>
+<Connection from="6/ara 7/ver" to="3/bakan" with="ARG0"/>
+<Word name="4/utan" positionX="850" positionY="200"/>
+<Connection from="6/ara 7/ver" to="4/utan"/>
+<Word name="5/konuşma" positionX="950" positionY="200"/>
+<Connection from="6/ara 7/ver" to="5/konuşma" with="ARG1"/>
+</Amr>

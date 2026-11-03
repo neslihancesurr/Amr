@@ -1,0 +1,13 @@
+<Amr sentence="Çıkan savaşta çok fazla kayıp verdiler .">
+<Word name="5/kayıp 6/ver" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="5/kayıp 6/ver" to="onlar" with="ARG0"/>
+<Word name="2/savaş" positionX="750" positionY="200"/>
+<Connection from="5/kayıp 6/ver" to="2/savaş" with="location"/>
+<Word name="1/çık" positionX="650" positionY="300"/>
+<Connection from="2/savaş" to="1/çık" with="mod"/>
+<Word name="4/fazla" positionX="850" positionY="200"/>
+<Connection from="5/kayıp 6/ver" to="4/fazla" with="degree"/>
+<Word name="3/çok" positionX="750" positionY="300"/>
+<Connection from="4/fazla" to="3/çok" with="degree"/>
+</Amr>

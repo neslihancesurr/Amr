@@ -1,0 +1,11 @@
+<Amr sentence="Akıllı insanlar borçlanmaktan kaçınır .">
+<Word name="4/kaçın" positionX="750" positionY="100"/>
+<Word name="2/insan" positionX="650" positionY="200"/>
+<Connection from="4/kaçın" to="2/insan" with="ARG0"/>
+<Word name="1/akıl" positionX="550" positionY="300"/>
+<Connection from="2/insan" to="1/akıl" with="mod"/>
+<Word name="3/borçlan" positionX="750" positionY="200"/>
+<Connection from="4/kaçın" to="3/borçlan" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/borçlan" to="o" with="ARG0"/>
+</Amr>

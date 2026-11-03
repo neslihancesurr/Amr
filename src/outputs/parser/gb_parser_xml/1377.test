@@ -1,0 +1,11 @@
+<Amr sentence="Bu kutunun içinde neler var ?">
+<Word name="5/var" positionX="750" positionY="100"/>
+<Word name="3/iç" positionX="650" positionY="200"/>
+<Connection from="5/var" to="3/iç" with="location"/>
+<Word name="2/kutu" positionX="550" positionY="300"/>
+<Connection from="3/iç" to="2/kutu" with="mod"/>
+<Word name="1/bu" positionX="450" positionY="400"/>
+<Connection from="2/kutu" to="1/bu" with="mod"/>
+<Word name="4/ne" positionX="750" positionY="200"/>
+<Connection from="5/var" to="4/ne"/>
+</Amr>

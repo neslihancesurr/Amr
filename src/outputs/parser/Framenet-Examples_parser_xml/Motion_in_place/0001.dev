@@ -1,0 +1,16 @@
+<Amr sentence="Krupiye kâğıt açtı , oynamaya başladık .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/kâğıt 3/aç" positionX="650" positionY="200"/>
+<Connection from="and" to="2/kâğıt 3/aç" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/kâğıt 3/aç" to="o" with="ARG0"/>
+<Word name="1/krupiye" positionX="650" positionY="300"/>
+<Connection from="2/kâğıt 3/aç" to="1/krupiye"/>
+<Word name="6/başla" positionX="750" positionY="200"/>
+<Connection from="and" to="6/başla" with="op2"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="6/başla" to="biz" with="ARG0"/>
+<Word name="5/oyna" positionX="750" positionY="300"/>
+<Connection from="6/başla" to="5/oyna"/>
+<Connection from="5/oyna" to="o" with="ARG0"/>
+</Amr>

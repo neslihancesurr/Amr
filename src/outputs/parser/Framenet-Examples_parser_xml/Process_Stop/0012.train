@@ -1,0 +1,7 @@
+<Amr sentence="Makine birden stop etti .">
+<Word name="3/stop 4/et" positionX="750" positionY="100"/>
+<Word name="1/makine" positionX="650" positionY="200"/>
+<Connection from="3/stop 4/et" to="1/makine" with="ARG0"/>
+<Word name="2/birden" positionX="750" positionY="200"/>
+<Connection from="3/stop 4/et" to="2/birden" with="manner"/>
+</Amr>

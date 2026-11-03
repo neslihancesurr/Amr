@@ -1,0 +1,11 @@
+<Amr sentence="Bileği incinen oğlan hakemlik yapacak .">
+<Word name="4/hakemlik 5/yap" positionX="750" positionY="100"/>
+<Word name="3/oğlan" positionX="650" positionY="200"/>
+<Connection from="4/hakemlik 5/yap" to="3/oğlan" with="ARG0"/>
+<Word name="2/incin" positionX="550" positionY="300"/>
+<Connection from="3/oğlan" to="2/incin"/>
+<Word name="1/bilek" positionX="450" positionY="400"/>
+<Connection from="2/incin" to="1/bilek" with="ARG0"/>
+<Word name="o" positionX="350" positionY="500"/>
+<Connection from="1/bilek" to="o" with="poss"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="İçeriden güzel yemek kokuları geliyordu .">
+<Word name="5/gel" positionX="750" positionY="100"/>
+<Word name="1/içeri" positionX="650" positionY="200"/>
+<Connection from="5/gel" to="1/içeri"/>
+<Word name="4/koku" positionX="750" positionY="200"/>
+<Connection from="5/gel" to="4/koku" with="ARG0"/>
+<Word name="2/güzel" positionX="650" positionY="300"/>
+<Connection from="4/koku" to="2/güzel" with="mod"/>
+<Word name="3/yemek" positionX="750" positionY="300"/>
+<Connection from="4/koku" to="3/yemek" with="mod"/>
+</Amr>

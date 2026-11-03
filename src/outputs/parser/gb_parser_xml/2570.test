@@ -1,0 +1,28 @@
+<Amr sentence="Evde de otursam sokağa da çıksam hep içimde o acı var .">
+<Word name="11/var" positionX="750" positionY="100"/>
+<Word name="and" positionX="650" positionY="200"/>
+<Connection from="11/var" to="and"/>
+<Word name="6/çık" positionX="550" positionY="300"/>
+<Connection from="and" to="6/çık" with="op1"/>
+<Word name="ben" positionX="450" positionY="400"/>
+<Connection from="6/çık" to="ben" with="ARG0"/>
+<Word name="4/sokak" positionX="550" positionY="400"/>
+<Connection from="6/çık" to="4/sokak"/>
+<Word name="5/da" positionX="450" positionY="500"/>
+<Connection from="4/sokak" to="5/da"/>
+<Word name="3/otur" positionX="650" positionY="300"/>
+<Connection from="and" to="3/otur" with="op2"/>
+<Connection from="3/otur" to="ben" with="ARG0"/>
+<Word name="1/ev" positionX="650" positionY="400"/>
+<Connection from="3/otur" to="1/ev" with="location"/>
+<Word name="2/de" positionX="550" positionY="500"/>
+<Connection from="1/ev" to="2/de"/>
+<Word name="7/hep" positionX="750" positionY="200"/>
+<Connection from="11/var" to="7/hep" with="frequency"/>
+<Word name="8/iç" positionX="850" positionY="200"/>
+<Connection from="11/var" to="8/iç" with="location"/>
+<Word name="10/acı" positionX="950" positionY="200"/>
+<Connection from="11/var" to="10/acı"/>
+<Word name="9/o" positionX="850" positionY="300"/>
+<Connection from="10/acı" to="9/o" with="mod"/>
+</Amr>

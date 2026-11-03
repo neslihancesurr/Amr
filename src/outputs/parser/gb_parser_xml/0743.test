@@ -1,0 +1,7 @@
+<Amr sentence="ödüle layık bir öğrenci">
+<Word name="4/öğrenci" positionX="750" positionY="100"/>
+<Word name="2/layık" positionX="650" positionY="200"/>
+<Connection from="4/öğrenci" to="2/layık" with="mod"/>
+<Word name="1/ödül" positionX="550" positionY="300"/>
+<Connection from="2/layık" to="1/ödül" with="mod"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Tören bir saat sürer diyelim .">
+<Word name="5/de" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/de" to="biz" with="ARG0"/>
+<Word name="4/sür" positionX="750" positionY="200"/>
+<Connection from="5/de" to="4/sür" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="4/sür" to="o" with="ARG0"/>
+<Word name="1/tören" positionX="750" positionY="300"/>
+<Connection from="4/sür" to="1/tören" with="ARG1"/>
+<Word name="3/saat" positionX="850" positionY="300"/>
+<Connection from="4/sür" to="3/saat"/>
+<Word name="2/bir" positionX="750" positionY="400"/>
+<Connection from="3/saat" to="2/bir"/>
+</Amr>

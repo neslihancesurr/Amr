@@ -1,0 +1,13 @@
+<Amr sentence="Yokuş çıkarken vites değiştir .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="3/vites 4/değiş" positionX="650" positionY="200"/>
+<Connection from="yap" to="3/vites 4/değiş"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="3/vites 4/değiş" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="650" positionY="300"/>
+<Connection from="3/vites 4/değiş" to="imperative" with="mode"/>
+<Word name="2/çık" positionX="750" positionY="300"/>
+<Connection from="3/vites 4/değiş" to="2/çık"/>
+<Word name="1/yokuş" positionX="650" positionY="400"/>
+<Connection from="2/çık" to="1/yokuş"/>
+</Amr>

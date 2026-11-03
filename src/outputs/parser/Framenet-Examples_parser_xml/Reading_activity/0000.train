@@ -1,0 +1,11 @@
+<Amr sentence="Çocuklara kitaptan masal okudu .">
+<Word name="4/oku" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/oku" to="o" with="ARG0"/>
+<Word name="1/çocuk" positionX="750" positionY="200"/>
+<Connection from="4/oku" to="1/çocuk"/>
+<Word name="2/kitap" positionX="850" positionY="200"/>
+<Connection from="4/oku" to="2/kitap"/>
+<Word name="3/masal" positionX="950" positionY="200"/>
+<Connection from="4/oku" to="3/masal" with="ARG1"/>
+</Amr>

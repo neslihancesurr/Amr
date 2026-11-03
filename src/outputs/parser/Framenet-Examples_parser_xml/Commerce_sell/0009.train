@@ -1,0 +1,17 @@
+<Amr sentence="Sonra paraları sayıyorum ki , tedavülden kalkmış kağıt yüzbinlikleri bize kakalamış .">
+<Word name="11/kakala" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="11/kakala" to="o" with="ARG0"/>
+<Word name="2/para 3/say" positionX="750" positionY="200"/>
+<Connection from="11/kakala" to="2/para 3/say"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="2/para 3/say" to="ben" with="ARG0"/>
+<Word name="9/yüzbin" positionX="850" positionY="200"/>
+<Connection from="11/kakala" to="9/yüzbin"/>
+<Word name="6/tedavül 7/kalk" positionX="750" positionY="300"/>
+<Connection from="9/yüzbin" to="6/tedavül 7/kalk"/>
+<Word name="8/kağıt" positionX="850" positionY="300"/>
+<Connection from="9/yüzbin" to="8/kağıt" with="mod"/>
+<Word name="10/biz" positionX="950" positionY="200"/>
+<Connection from="11/kakala" to="10/biz" with="ARG1"/>
+</Amr>

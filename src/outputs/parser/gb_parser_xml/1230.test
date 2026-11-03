@@ -1,0 +1,8 @@
+<Amr sentence="Anahtarlarımı kaybettim .">
+<Word name="2/kaybet" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="2/kaybet" to="ben" with="ARG0"/>
+<Word name="1/anahtar" positionX="750" positionY="200"/>
+<Connection from="2/kaybet" to="1/anahtar"/>
+<Connection from="1/anahtar" to="ben" with="poss"/>
+</Amr>

@@ -1,0 +1,12 @@
+<Amr sentence="Oğluma okulu için para çıkardım .">
+<Word name="4/para 5/çık" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/para 5/çık" to="ben" with="ARG0"/>
+<Word name="1/oğul" positionX="750" positionY="200"/>
+<Connection from="4/para 5/çık" to="1/oğul" with="ARG1"/>
+<Connection from="1/oğul" to="ben" with="poss"/>
+<Word name="2/okul" positionX="850" positionY="200"/>
+<Connection from="4/para 5/çık" to="2/okul" with="cause"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="2/okul" to="o" with="poss"/>
+</Amr>

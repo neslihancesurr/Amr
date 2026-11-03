@@ -1,0 +1,11 @@
+<Amr sentence="Köy yollarını günlerce teptim .">
+<Word name="4/tep" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/tep" to="ben" with="ARG0"/>
+<Word name="2/yol" positionX="750" positionY="200"/>
+<Connection from="4/tep" to="2/yol" with="ARG1"/>
+<Word name="1/köy" positionX="650" positionY="300"/>
+<Connection from="2/yol" to="1/köy" with="mod"/>
+<Word name="3/günlerce" positionX="850" positionY="200"/>
+<Connection from="4/tep" to="3/günlerce" with="manner"/>
+</Amr>

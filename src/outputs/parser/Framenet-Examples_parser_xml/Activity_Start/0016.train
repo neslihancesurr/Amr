@@ -1,0 +1,12 @@
+<Amr sentence="Çocuk , oyuncaklarını dizmeye koyuldu .">
+<Word name="5/koy" positionX="750" positionY="100"/>
+<Word name="1/çocuk" positionX="650" positionY="200"/>
+<Connection from="5/koy" to="1/çocuk" with="ARG0"/>
+<Word name="4/diz" positionX="750" positionY="200"/>
+<Connection from="5/koy" to="4/diz" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="4/diz" to="o" with="ARG0"/>
+<Word name="3/oyuncak" positionX="750" positionY="300"/>
+<Connection from="4/diz" to="3/oyuncak"/>
+<Connection from="3/oyuncak" to="o" with="poss"/>
+</Amr>

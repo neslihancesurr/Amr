@@ -1,0 +1,13 @@
+<Amr sentence="en yüksek tirajlı beş Türk gazetesi">
+<Word name="6/gazete" positionX="750" positionY="100"/>
+<Word name="3/tiraj" positionX="650" positionY="200"/>
+<Connection from="6/gazete" to="3/tiraj" with="mod"/>
+<Word name="2/yüksek" positionX="550" positionY="300"/>
+<Connection from="3/tiraj" to="2/yüksek" with="mod"/>
+<Word name="1/en" positionX="450" positionY="400"/>
+<Connection from="2/yüksek" to="1/en" with="manner"/>
+<Word name="4/beş" positionX="750" positionY="200"/>
+<Connection from="6/gazete" to="4/beş"/>
+<Word name="5/türk" positionX="850" positionY="200"/>
+<Connection from="6/gazete" to="5/türk" with="mod"/>
+</Amr>

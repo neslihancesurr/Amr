@@ -1,0 +1,16 @@
+<Amr sentence="İçine kattığı biraz limonla şekeri kestirdi .">
+<Word name="5/şeker 6/kestir" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/şeker 6/kestir" to="o" with="ARG0"/>
+<Word name="4/limon" positionX="750" positionY="200"/>
+<Connection from="5/şeker 6/kestir" to="4/limon" with="ARG1"/>
+<Word name="2/kat" positionX="650" positionY="300"/>
+<Connection from="4/limon" to="2/kat"/>
+<Connection from="2/kat" to="o" with="ARG0"/>
+<Connection from="2/kat" to="o" with="poss"/>
+<Word name="1/iç" positionX="750" positionY="400"/>
+<Connection from="2/kat" to="1/iç"/>
+<Connection from="1/iç" to="o" with="poss"/>
+<Word name="3/biraz" positionX="750" positionY="300"/>
+<Connection from="4/limon" to="3/biraz" with="mod"/>
+</Amr>

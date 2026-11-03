@@ -1,0 +1,11 @@
+<Amr sentence="Hep kendi isteklerine ket vurdu .">
+<Word name="4/ket 5/vur" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/ket 5/vur" to="o" with="ARG0"/>
+<Word name="1/hep" positionX="750" positionY="200"/>
+<Connection from="4/ket 5/vur" to="1/hep" with="frequency"/>
+<Word name="3/istek" positionX="850" positionY="200"/>
+<Connection from="4/ket 5/vur" to="3/istek" with="ARG1"/>
+<Word name="2/kendi" positionX="750" positionY="300"/>
+<Connection from="3/istek" to="2/kendi" with="mod"/>
+</Amr>

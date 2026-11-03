@@ -1,0 +1,15 @@
+<Amr sentence="Ay , bu kadın İngilizceden de çakıyor mu ?">
+<Word name="7/çak" positionX="750" positionY="100"/>
+<Word name="1/ay" positionX="650" positionY="200"/>
+<Connection from="7/çak" to="1/ay"/>
+<Word name="4/kadın" positionX="750" positionY="200"/>
+<Connection from="7/çak" to="4/kadın" with="ARG0"/>
+<Word name="3/bu" positionX="650" positionY="300"/>
+<Connection from="4/kadın" to="3/bu" with="mod"/>
+<Word name="5/ingilizce" positionX="850" positionY="200"/>
+<Connection from="7/çak" to="5/ingilizce" with="ARG1"/>
+<Word name="6/de" positionX="750" positionY="300"/>
+<Connection from="5/ingilizce" to="6/de" with="manner"/>
+<Word name="8/mi" positionX="950" positionY="200"/>
+<Connection from="7/çak" to="8/mi"/>
+</Amr>

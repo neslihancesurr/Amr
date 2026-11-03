@@ -1,0 +1,11 @@
+<Amr sentence="Kütüphanedeki kitapların mevcudu aşağı düşmüş .">
+<Word name="4/aşağı 5/düş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/aşağı 5/düş" to="o" with="ARG0"/>
+<Word name="3/mevcut" positionX="750" positionY="200"/>
+<Connection from="4/aşağı 5/düş" to="3/mevcut" with="ARG1"/>
+<Word name="2/kitap" positionX="650" positionY="300"/>
+<Connection from="3/mevcut" to="2/kitap" with="mod"/>
+<Word name="1/kütüphane" positionX="550" positionY="400"/>
+<Connection from="2/kitap" to="1/kütüphane" with="mod"/>
+</Amr>

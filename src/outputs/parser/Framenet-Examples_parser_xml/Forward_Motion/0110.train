@@ -1,0 +1,13 @@
+<Amr sentence="İçeriye bir adım atmaya cesaret edememiş , koşarak ters yüzü geri dönmüştüm .">
+<Word name="9/ters 10/yüz 11/geri 12/dön" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="9/ters 10/yüz 11/geri 12/dön" to="ben" with="ARG0"/>
+<Word name="5/cesaret 6/et" positionX="750" positionY="200"/>
+<Connection from="9/ters 10/yüz 11/geri 12/dön" to="5/cesaret 6/et"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="5/cesaret 6/et" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="5/cesaret 6/et" to="o" with="ARG0"/>
+<Word name="8/koş" positionX="850" positionY="200"/>
+<Connection from="9/ters 10/yüz 11/geri 12/dön" to="8/koş"/>
+</Amr>

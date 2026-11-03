@@ -1,0 +1,14 @@
+<Amr sentence="Saatimi kış saatine göre ileri aldım .">
+<Word name="5/ileri 6/al" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/ileri 6/al" to="ben" with="ARG0"/>
+<Word name="1/saat" positionX="750" positionY="200"/>
+<Connection from="5/ileri 6/al" to="1/saat" with="ARG1"/>
+<Connection from="1/saat" to="ben" with="poss"/>
+<Word name="3/saat" positionX="850" positionY="200"/>
+<Connection from="5/ileri 6/al" to="3/saat"/>
+<Word name="2/kış" positionX="750" positionY="300"/>
+<Connection from="3/saat" to="2/kış" with="mod"/>
+<Word name="4/göre" positionX="850" positionY="300"/>
+<Connection from="3/saat" to="4/göre"/>
+</Amr>

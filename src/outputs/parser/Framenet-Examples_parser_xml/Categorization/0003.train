@@ -1,0 +1,13 @@
+<Amr sentence="Aslına bakılırsa aktör olmayı rüyasında görse hayra yormazdı .">
+<Word name="7/hayra 8/yor" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="7/hayra 8/yor" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="7/hayra 8/yor" to="o" with="ARG0"/>
+<Word name="1/asıl 2/bak" positionX="850" positionY="200"/>
+<Connection from="7/hayra 8/yor" to="1/asıl 2/bak"/>
+<Connection from="1/asıl 2/bak" to="o" with="ARG0"/>
+<Word name="5/rüya 6/gör" positionX="950" positionY="200"/>
+<Connection from="7/hayra 8/yor" to="5/rüya 6/gör"/>
+<Connection from="5/rüya 6/gör" to="o" with="ARG0"/>
+</Amr>

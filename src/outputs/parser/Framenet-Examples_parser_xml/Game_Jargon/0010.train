@@ -1,0 +1,19 @@
+<Amr sentence="Çok çekişmeli bir turnuva oldu ama bizim takım puan hesabıyla yendi .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="9/puan 10/hesap 11/yen" positionX="650" positionY="200"/>
+<Connection from="and" to="9/puan 10/hesap 11/yen" with="op1"/>
+<Word name="8/takım" positionX="550" positionY="300"/>
+<Connection from="9/puan 10/hesap 11/yen" to="8/takım" with="ARG0"/>
+<Word name="7/biz" positionX="450" positionY="400"/>
+<Connection from="8/takım" to="7/biz" with="mod"/>
+<Word name="5/ol" positionX="750" positionY="200"/>
+<Connection from="and" to="5/ol" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/ol" to="o" with="ARG0"/>
+<Word name="4/turnuva" positionX="750" positionY="300"/>
+<Connection from="5/ol" to="4/turnuva"/>
+<Word name="2/çekiş" positionX="650" positionY="400"/>
+<Connection from="4/turnuva" to="2/çekiş" with="mod"/>
+<Word name="1/çok" positionX="550" positionY="500"/>
+<Connection from="2/çekiş" to="1/çok" with="degree"/>
+</Amr>

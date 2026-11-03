@@ -1,0 +1,26 @@
+<Amr sentence="Birbirlerine çok düşkün Ayşe'yle Semra .">
+<Word name="3/düşkün" positionX="750" positionY="100"/>
+<Word name="1/birbirleri" positionX="650" positionY="200"/>
+<Connection from="3/düşkün" to="1/birbirleri"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/birbirleri" to="o" with="poss"/>
+<Word name="2/çok" positionX="750" positionY="200"/>
+<Connection from="3/düşkün" to="2/çok" with="degree"/>
+<Word name="and" positionX="850" positionY="200"/>
+<Connection from="3/düşkün" to="and"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="and" to="person" with="op1"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="5/semra" positionX="550" positionY="500"/>
+<Connection from="name" to="5/semra" with="op1"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="and" to="person" with="instrument"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="4/ayşe" positionX="650" positionY="500"/>
+<Connection from="name" to="4/ayşe" with="op1"/>
+<Connection from="name" to="5/semra" with="op2"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="person" to="and"/>
+</Amr>

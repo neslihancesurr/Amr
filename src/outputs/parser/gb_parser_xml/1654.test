@@ -1,0 +1,11 @@
+<Amr sentence="Antropoloji , insan topluluklarını inceleyen bir bilim .">
+<Word name="7/bilim" positionX="750" positionY="100"/>
+<Word name="1/antropoloji" positionX="650" positionY="200"/>
+<Connection from="7/bilim" to="1/antropoloji"/>
+<Word name="5/incele" positionX="750" positionY="200"/>
+<Connection from="7/bilim" to="5/incele"/>
+<Word name="4/topluluk" positionX="650" positionY="300"/>
+<Connection from="5/incele" to="4/topluluk" with="ARG1"/>
+<Word name="3/insan" positionX="550" positionY="400"/>
+<Connection from="4/topluluk" to="3/insan" with="mod"/>
+</Amr>

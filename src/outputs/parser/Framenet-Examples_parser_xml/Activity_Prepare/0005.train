@@ -1,0 +1,13 @@
+<Amr sentence="Aklında alışılmadık bir plan kurmuş , meğer ona zemin hazırlıyormuş .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/plan 5/kur" positionX="650" positionY="200"/>
+<Connection from="and" to="4/plan 5/kur" with="op1"/>
+<Word name="1/akıl" positionX="550" positionY="300"/>
+<Connection from="4/plan 5/kur" to="1/akıl" with="location"/>
+<Word name="9/zemin 10/hazırla" positionX="750" positionY="200"/>
+<Connection from="and" to="9/zemin 10/hazırla" with="op2"/>
+<Word name="7/meğer" positionX="650" positionY="300"/>
+<Connection from="9/zemin 10/hazırla" to="7/meğer"/>
+<Word name="8/o" positionX="750" positionY="300"/>
+<Connection from="9/zemin 10/hazırla" to="8/o" with="ARG1"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Kimse politikacılara güvenmez .">
+<Word name="3/güven" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/güven" to="-" with="polarity"/>
+<Word name="1/kimse" positionX="750" positionY="200"/>
+<Connection from="3/güven" to="1/kimse" with="ARG0"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="1/kimse" to="o" with="poss"/>
+<Word name="2/politikacı" positionX="850" positionY="200"/>
+<Connection from="3/güven" to="2/politikacı" with="ARG1"/>
+</Amr>

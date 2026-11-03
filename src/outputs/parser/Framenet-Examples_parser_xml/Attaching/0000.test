@@ -1,0 +1,18 @@
+<Amr sentence="Şişelerden yağ akmasın diye iyice sıktı .">
+<Word name="6/sık" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/sık" to="o" with="ARG0"/>
+<Word name="3/ak" positionX="750" positionY="200"/>
+<Connection from="6/sık" to="3/ak"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="3/ak" to="sen" with="ARG0"/>
+<Connection from="3/ak" to="o" with="ARG0"/>
+<Word name="1/şişe" positionX="850" positionY="300"/>
+<Connection from="3/ak" to="1/şişe" with="ARG1"/>
+<Word name="2/yağ" positionX="950" positionY="300"/>
+<Connection from="3/ak" to="2/yağ"/>
+<Word name="4/diye" positionX="1050" positionY="300"/>
+<Connection from="3/ak" to="4/diye"/>
+<Word name="5/iyice" positionX="850" positionY="200"/>
+<Connection from="6/sık" to="5/iyice" with="manner"/>
+</Amr>

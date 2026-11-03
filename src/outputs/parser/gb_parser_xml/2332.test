@@ -1,0 +1,27 @@
+<Amr sentence="Komşumuz , ki oldukça tanınmış bir piyanistmiş , evinde sık sık oda müziği konserleri düzenliyor .">
+<Word name="15/düzenle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="15/düzenle" to="o" with="ARG0"/>
+<Word name="1/komşu" positionX="750" positionY="200"/>
+<Connection from="15/düzenle" to="1/komşu"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="1/komşu" to="biz" with="poss"/>
+<Word name="7/piyanist" positionX="750" positionY="300"/>
+<Connection from="1/komşu" to="7/piyanist"/>
+<Word name="3/ki" positionX="650" positionY="400"/>
+<Connection from="7/piyanist" to="3/ki"/>
+<Word name="5/tanın" positionX="750" positionY="400"/>
+<Connection from="7/piyanist" to="5/tanın"/>
+<Word name="4/oldukça" positionX="650" positionY="500"/>
+<Connection from="5/tanın" to="4/oldukça" with="manner"/>
+<Word name="9/ev" positionX="850" positionY="200"/>
+<Connection from="15/düzenle" to="9/ev" with="location"/>
+<Word name="11/sık" positionX="950" positionY="200"/>
+<Connection from="15/düzenle" to="11/sık" with="manner"/>
+<Word name="10/sık" positionX="850" positionY="300"/>
+<Connection from="11/sık" to="10/sık"/>
+<Word name="14/konser" positionX="1050" positionY="200"/>
+<Connection from="15/düzenle" to="14/konser"/>
+<Word name="12/oda 13/müzik" positionX="950" positionY="300"/>
+<Connection from="14/konser" to="12/oda 13/müzik" with="mod"/>
+</Amr>

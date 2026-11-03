@@ -1,0 +1,7 @@
+<Amr sentence="Hava çok soğuk .">
+<Word name="3/soğuk" positionX="750" positionY="100"/>
+<Word name="1/hava" positionX="650" positionY="200"/>
+<Connection from="3/soğuk" to="1/hava"/>
+<Word name="2/çok" positionX="750" positionY="200"/>
+<Connection from="3/soğuk" to="2/çok" with="degree"/>
+</Amr>

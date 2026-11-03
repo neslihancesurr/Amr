@@ -1,0 +1,24 @@
+<Amr sentence="Çok üşüdüm , üzerime ne giysem de ısınamadım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/üşü" positionX="650" positionY="200"/>
+<Connection from="and" to="2/üşü" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="2/üşü" to="ben" with="ARG0"/>
+<Word name="1/çok" positionX="650" positionY="300"/>
+<Connection from="2/üşü" to="1/çok" with="degree"/>
+<Word name="8/ısın" positionX="750" positionY="200"/>
+<Connection from="and" to="8/ısın" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="8/ısın" to="-" with="polarity"/>
+<Connection from="8/ısın" to="ben" with="ARG0"/>
+<Word name="6/giy" positionX="850" positionY="300"/>
+<Connection from="8/ısın" to="6/giy"/>
+<Connection from="6/giy" to="ben" with="ARG0"/>
+<Word name="4/üzeri" positionX="850" positionY="400"/>
+<Connection from="6/giy" to="4/üzeri"/>
+<Connection from="4/üzeri" to="ben" with="poss"/>
+<Word name="5/ne" positionX="950" positionY="400"/>
+<Connection from="6/giy" to="5/ne" with="ARG1"/>
+<Word name="7/de" positionX="1050" positionY="400"/>
+<Connection from="6/giy" to="7/de" with="manner"/>
+</Amr>

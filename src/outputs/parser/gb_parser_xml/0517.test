@@ -1,0 +1,11 @@
+<Amr sentence="Erzurum taraflarında">
+<Word name="2/taraf:location" positionX="750" positionY="100"/>
+<Word name="city" positionX="650" positionY="200"/>
+<Connection from="2/taraf:location" to="city"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="1/erzurum" positionX="450" positionY="400"/>
+<Connection from="name" to="1/erzurum" with="op1"/>
+<Word name="erzurum" positionX="650" positionY="300"/>
+<Connection from="city" to="erzurum" with="wiki"/>
+</Amr>

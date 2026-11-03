@@ -1,0 +1,26 @@
+<Amr sentence="Bu yıl 7 - 8 bin tona yakın sebzemizi bu halde pazarladık .">
+<Word name="12/pazarla" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="12/pazarla" to="biz" with="ARG0"/>
+<Word name="2/yıl" positionX="750" positionY="200"/>
+<Connection from="12/pazarla" to="2/yıl" with="mod"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/yıl" to="1/bu" with="mod"/>
+<Word name="9/sebze" positionX="850" positionY="200"/>
+<Connection from="12/pazarla" to="9/sebze" with="ARG1"/>
+<Connection from="9/sebze" to="biz" with="poss"/>
+<Word name="8/yakın" positionX="850" positionY="300"/>
+<Connection from="9/sebze" to="8/yakın" with="mod"/>
+<Word name="7/ton" positionX="750" positionY="400"/>
+<Connection from="8/yakın" to="7/ton"/>
+<Word name="6/bin" positionX="650" positionY="500"/>
+<Connection from="7/ton" to="6/bin"/>
+<Word name="5/8" positionX="550" positionY="600"/>
+<Connection from="6/bin" to="5/8"/>
+<Word name="3/7" positionX="450" positionY="700"/>
+<Connection from="5/8" to="3/7"/>
+<Word name="11/hal" positionX="950" positionY="200"/>
+<Connection from="12/pazarla" to="11/hal" with="location"/>
+<Word name="10/bu" positionX="850" positionY="300"/>
+<Connection from="11/hal" to="10/bu" with="mod"/>
+</Amr>

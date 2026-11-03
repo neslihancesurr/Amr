@@ -1,0 +1,21 @@
+<Amr sentence="Biz bu araştırmayı yaparken Dante'nin kitabından yola çıktık .">
+<Word name="7/yol 8/çık" positionX="750" positionY="100"/>
+<Word name="4/yap" positionX="650" positionY="200"/>
+<Connection from="7/yol 8/çık" to="4/yap"/>
+<Word name="1/biz" positionX="550" positionY="300"/>
+<Connection from="4/yap" to="1/biz" with="ARG0"/>
+<Word name="3/araştırma" positionX="650" positionY="300"/>
+<Connection from="4/yap" to="3/araştırma" with="ARG1"/>
+<Word name="2/bu" positionX="550" positionY="400"/>
+<Connection from="3/araştırma" to="2/bu" with="mod"/>
+<Word name="6/kitap" positionX="750" positionY="200"/>
+<Connection from="7/yol 8/çık" to="6/kitap" with="ARG1"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="6/kitap" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="5/dante" positionX="450" positionY="500"/>
+<Connection from="name" to="5/dante" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

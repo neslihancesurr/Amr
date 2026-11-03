@@ -1,0 +1,14 @@
+<Amr sentence="Bu maçı da kazanırsak tur atlayacağız .">
+<Word name="5/tur 6/atla" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/tur 6/atla" to="biz" with="ARG0"/>
+<Word name="4/kazan" positionX="750" positionY="200"/>
+<Connection from="5/tur 6/atla" to="4/kazan" with="cond"/>
+<Connection from="4/kazan" to="biz" with="ARG0"/>
+<Word name="2/maç" positionX="750" positionY="300"/>
+<Connection from="4/kazan" to="2/maç" with="ARG1"/>
+<Word name="1/bu" positionX="650" positionY="400"/>
+<Connection from="2/maç" to="1/bu" with="mod"/>
+<Word name="3/da" positionX="750" positionY="400"/>
+<Connection from="2/maç" to="3/da"/>
+</Amr>

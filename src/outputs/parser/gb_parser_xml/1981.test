@@ -1,0 +1,11 @@
+<Amr sentence="Ama ben bütün mektupları dün yırttım .">
+<Word name="6/yırt" positionX="750" positionY="100"/>
+<Word name="2/ben" positionX="650" positionY="200"/>
+<Connection from="6/yırt" to="2/ben" with="ARG0"/>
+<Word name="4/mektup" positionX="750" positionY="200"/>
+<Connection from="6/yırt" to="4/mektup" with="ARG1"/>
+<Word name="3/bütün" positionX="650" positionY="300"/>
+<Connection from="4/mektup" to="3/bütün"/>
+<Word name="5/dün" positionX="850" positionY="200"/>
+<Connection from="6/yırt" to="5/dün"/>
+</Amr>

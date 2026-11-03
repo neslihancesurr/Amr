@@ -1,0 +1,16 @@
+<Amr sentence="Annem bana akşama gelip gelmeyeceğimi sordu .">
+<Word name="6/sor" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/sor" to="o" with="ARG0"/>
+<Word name="1/anne" positionX="750" positionY="200"/>
+<Connection from="6/sor" to="1/anne"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="1/anne" to="ben" with="poss"/>
+<Word name="2/ben" positionX="850" positionY="200"/>
+<Connection from="6/sor" to="2/ben"/>
+<Word name="4/gel 5/gel" positionX="950" positionY="200"/>
+<Connection from="6/sor" to="4/gel 5/gel"/>
+<Word name="-" positionX="850" positionY="300"/>
+<Connection from="4/gel 5/gel" to="-" with="polarity"/>
+<Connection from="4/gel 5/gel" to="ben" with="ARG0"/>
+</Amr>

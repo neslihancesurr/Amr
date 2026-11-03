@@ -1,0 +1,11 @@
+<Amr sentence="Ameliyat ne kadar sürecek ?">
+<Word name="4/sür" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/sür" to="o" with="ARG0"/>
+<Word name="1/ameliyat" positionX="750" positionY="200"/>
+<Connection from="4/sür" to="1/ameliyat"/>
+<Word name="2/ne" positionX="850" positionY="200"/>
+<Connection from="4/sür" to="2/ne" with="ARG1"/>
+<Word name="3/kadar" positionX="750" positionY="300"/>
+<Connection from="2/ne" to="3/kadar"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr sentence="Necla bir hafta içinde projeyi bitirecek .">
+<Word name="6/bitir" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="6/bitir" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/necla" positionX="450" positionY="400"/>
+<Connection from="name" to="1/necla" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/içinde" positionX="750" positionY="200"/>
+<Connection from="6/bitir" to="4/içinde"/>
+<Word name="3/hafta" positionX="650" positionY="300"/>
+<Connection from="4/içinde" to="3/hafta" with="mod"/>
+<Word name="5/proje" positionX="850" positionY="200"/>
+<Connection from="6/bitir" to="5/proje" with="ARG1"/>
+</Amr>

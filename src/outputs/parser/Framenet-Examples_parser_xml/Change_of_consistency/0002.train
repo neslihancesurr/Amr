@@ -1,0 +1,7 @@
+<Amr sentence="Mercimek biraz helmelenmiş .">
+<Word name="3/helmelen" positionX="750" positionY="100"/>
+<Word name="1/mercimek" positionX="650" positionY="200"/>
+<Connection from="3/helmelen" to="1/mercimek" with="ARG0"/>
+<Word name="2/biraz" positionX="750" positionY="200"/>
+<Connection from="3/helmelen" to="2/biraz" with="manner"/>
+</Amr>

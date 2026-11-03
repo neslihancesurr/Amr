@@ -1,0 +1,13 @@
+<Amr sentence="Senin okulun için o kadar masraf ettik .">
+<Word name="6/masraf 7/et" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="6/masraf 7/et" to="biz" with="ARG0"/>
+<Word name="2/okul" positionX="750" positionY="200"/>
+<Connection from="6/masraf 7/et" to="2/okul" with="ARG2"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="2/okul" to="sen" with="poss"/>
+<Word name="1/sen" positionX="750" positionY="300"/>
+<Connection from="2/okul" to="1/sen" with="mod"/>
+<Word name="3/için" positionX="850" positionY="300"/>
+<Connection from="2/okul" to="3/için"/>
+</Amr>

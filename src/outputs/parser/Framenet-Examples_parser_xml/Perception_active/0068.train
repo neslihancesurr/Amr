@@ -1,0 +1,17 @@
+<Amr sentence="Doktor , küçük çocuğu öksürtüp sırtını dinliyordu .">
+<Word name="7/dinle" positionX="750" positionY="100"/>
+<Word name="1/doktor" positionX="650" positionY="200"/>
+<Connection from="7/dinle" to="1/doktor" with="ARG0"/>
+<Word name="yap" positionX="750" positionY="200"/>
+<Connection from="7/dinle" to="yap"/>
+<Word name="5/öksür" positionX="650" positionY="300"/>
+<Connection from="yap" to="5/öksür"/>
+<Word name="4/çocuk" positionX="550" positionY="400"/>
+<Connection from="5/öksür" to="4/çocuk"/>
+<Word name="3/küçük" positionX="450" positionY="500"/>
+<Connection from="4/çocuk" to="3/küçük" with="mod"/>
+<Word name="6/sırt" positionX="850" positionY="200"/>
+<Connection from="7/dinle" to="6/sırt" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="6/sırt" to="o" with="poss"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Araştırmacılar yeni bir bakteri türünü gözlem altına aldı .">
+<Word name="6/gözlem 7/alt 8/al" positionX="750" positionY="100"/>
+<Word name="1/araştırmacı" positionX="650" positionY="200"/>
+<Connection from="6/gözlem 7/alt 8/al" to="1/araştırmacı" with="ARG0"/>
+<Word name="5/tür" positionX="750" positionY="200"/>
+<Connection from="6/gözlem 7/alt 8/al" to="5/tür" with="ARG1"/>
+<Word name="4/bakteri" positionX="650" positionY="300"/>
+<Connection from="5/tür" to="4/bakteri" with="mod"/>
+<Word name="2/yeni" positionX="550" positionY="400"/>
+<Connection from="4/bakteri" to="2/yeni" with="mod"/>
+</Amr>

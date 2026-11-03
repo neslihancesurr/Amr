@@ -1,0 +1,13 @@
+<Amr sentence="Birbirlerini iki yıldır görmüyorlar .">
+<Word name="4/gör" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/gör" to="-" with="polarity"/>
+<Word name="1/birbirleri" positionX="750" positionY="200"/>
+<Connection from="4/gör" to="1/birbirleri" with="ARG0"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="1/birbirleri" to="o" with="poss"/>
+<Word name="3/yıl" positionX="850" positionY="200"/>
+<Connection from="4/gör" to="3/yıl"/>
+<Word name="2/iki" positionX="750" positionY="300"/>
+<Connection from="3/yıl" to="2/iki"/>
+</Amr>

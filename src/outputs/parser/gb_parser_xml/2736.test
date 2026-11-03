@@ -1,0 +1,19 @@
+<Amr sentence="Daha doğrusu annesinin yaptığı pilavı çok sever .">
+<Word name="7/sev" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/sev" to="o" with="ARG0"/>
+<Word name="2/doğrusu" positionX="750" positionY="200"/>
+<Connection from="7/sev" to="2/doğrusu" with="manner"/>
+<Word name="1/daha" positionX="650" positionY="300"/>
+<Connection from="2/doğrusu" to="1/daha" with="degree"/>
+<Word name="5/pilav" positionX="850" positionY="200"/>
+<Connection from="7/sev" to="5/pilav" with="ARG1"/>
+<Word name="4/yap" positionX="750" positionY="300"/>
+<Connection from="5/pilav" to="4/yap"/>
+<Connection from="4/yap" to="o" with="poss"/>
+<Word name="3/anne" positionX="750" positionY="400"/>
+<Connection from="4/yap" to="3/anne" with="ARG0"/>
+<Connection from="3/anne" to="o" with="poss"/>
+<Word name="6/çok" positionX="950" positionY="200"/>
+<Connection from="7/sev" to="6/çok" with="degree"/>
+</Amr>

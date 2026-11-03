@@ -1,0 +1,28 @@
+<Amr sentence="Tosca'yı Verdi mi yazmıştı yoksa Puccini mi ?">
+<Word name="4/yaz" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="4/yaz" to="person" with="ARG1"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/tosca" positionX="450" positionY="400"/>
+<Connection from="name" to="1/tosca" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="and" positionX="750" positionY="200"/>
+<Connection from="4/yaz" to="and"/>
+<Connection from="and" to="person" with="ARG0"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="6/Puccini" positionX="450" positionY="500"/>
+<Connection from="name" to="6/Puccini" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/yoksa" positionX="750" positionY="400"/>
+<Connection from="person" to="5/yoksa"/>
+<Word name="7/mi" positionX="850" positionY="400"/>
+<Connection from="person" to="7/mi"/>
+<Word name="2/ver" positionX="750" positionY="300"/>
+<Connection from="and" to="2/ver" with="ARG0"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="2/ver" to="o" with="ARG0"/>
+<Word name="3/mi" positionX="750" positionY="400"/>
+<Connection from="2/ver" to="3/mi"/>
+</Amr>

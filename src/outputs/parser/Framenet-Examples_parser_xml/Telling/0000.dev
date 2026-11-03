@@ -1,0 +1,17 @@
+<Amr sentence="Uzmanlar Salı günü için yoğun kar yağışı bildirdi .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="8/bil" positionX="650" positionY="200"/>
+<Connection from="yap" to="8/bil"/>
+<Word name="1/uzman" positionX="550" positionY="300"/>
+<Connection from="8/bil" to="1/uzman" with="ARG0"/>
+<Word name="3/gün" positionX="650" positionY="300"/>
+<Connection from="8/bil" to="3/gün" with="cause"/>
+<Word name="date-entity" positionX="550" positionY="400"/>
+<Connection from="3/gün" to="date-entity" with="date"/>
+<Word name="2/salı" positionX="450" positionY="500"/>
+<Connection from="date-entity" to="2/salı" with="weekday"/>
+<Word name="6/kar 7/yağ" positionX="750" positionY="300"/>
+<Connection from="8/bil" to="6/kar 7/yağ" with="ARG1"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="6/kar 7/yağ" to="o" with="ARG0"/>
+</Amr>

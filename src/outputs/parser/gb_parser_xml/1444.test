@@ -1,0 +1,11 @@
+<Amr sentence="Kim kime neyi verdi ?">
+<Word name="4/ver" positionX="750" positionY="100"/>
+<Word name="1/kim" positionX="650" positionY="200"/>
+<Connection from="4/ver" to="1/kim" with="ARG0"/>
+<Word name="2/kim" positionX="750" positionY="200"/>
+<Connection from="4/ver" to="2/kim" with="ARG0"/>
+<Word name="3/ne" positionX="850" positionY="200"/>
+<Connection from="4/ver" to="3/ne" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="3/ne" to="o" with="poss"/>
+</Amr>

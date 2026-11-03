@@ -1,0 +1,15 @@
+<Amr sentence="Beni Paris'e gönderdiler .">
+<Word name="3/gönder" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="3/gönder" to="onlar" with="ARG0"/>
+<Word name="1/ben" positionX="750" positionY="200"/>
+<Connection from="3/gönder" to="1/ben" with="ARG1"/>
+<Word name="city" positionX="850" positionY="200"/>
+<Connection from="3/gönder" to="city"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="2/paris" positionX="650" positionY="400"/>
+<Connection from="name" to="2/paris" with="op1"/>
+<Word name="paris" positionX="850" positionY="300"/>
+<Connection from="city" to="paris" with="wiki"/>
+</Amr>

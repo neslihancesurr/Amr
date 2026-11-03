@@ -1,0 +1,9 @@
+<Amr sentence="Sultan , cariyelerden birini ağılayacaktı .">
+<Word name="5/ağıla" positionX="750" positionY="100"/>
+<Word name="1/sultan" positionX="650" positionY="200"/>
+<Connection from="5/ağıla" to="1/sultan" with="ARG0"/>
+<Word name="4/biri" positionX="750" positionY="200"/>
+<Connection from="5/ağıla" to="4/biri" with="ARG1"/>
+<Word name="3/cariye" positionX="650" positionY="300"/>
+<Connection from="4/biri" to="3/cariye" with="mod"/>
+</Amr>

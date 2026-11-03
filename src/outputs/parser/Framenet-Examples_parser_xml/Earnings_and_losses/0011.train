@@ -1,0 +1,13 @@
+<Amr sentence="Bu ticaret ailemize epey kâr getirdi .">
+<Word name="5/kâr 6/getir" positionX="750" positionY="100"/>
+<Word name="2/ticaret" positionX="650" positionY="200"/>
+<Connection from="5/kâr 6/getir" to="2/ticaret" with="ARG0"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/ticaret" to="1/bu" with="mod"/>
+<Word name="3/aile" positionX="750" positionY="200"/>
+<Connection from="5/kâr 6/getir" to="3/aile" with="ARG2"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="3/aile" to="biz" with="poss"/>
+<Word name="4/epey" positionX="850" positionY="200"/>
+<Connection from="5/kâr 6/getir" to="4/epey" with="manner"/>
+</Amr>

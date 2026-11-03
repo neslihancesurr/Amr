@@ -1,0 +1,19 @@
+<Amr sentence="Burasını çok sevdim ; burada kalalım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/sev" positionX="650" positionY="200"/>
+<Connection from="and" to="3/sev" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="3/sev" to="ben" with="ARG0"/>
+<Word name="1/bura" positionX="650" positionY="300"/>
+<Connection from="3/sev" to="1/bura" with="ARG1"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="1/bura" to="o" with="poss"/>
+<Word name="2/çok" positionX="750" positionY="300"/>
+<Connection from="3/sev" to="2/çok" with="degree"/>
+<Word name="6/kal" positionX="750" positionY="200"/>
+<Connection from="and" to="6/kal" with="op2"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="6/kal" to="biz" with="ARG0"/>
+<Word name="5/burada" positionX="750" positionY="300"/>
+<Connection from="6/kal" to="5/burada" with="ARG1"/>
+</Amr>

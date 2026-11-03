@@ -1,0 +1,17 @@
+<Amr sentence="Saat ikiden sonra beni telefonla ara .">
+<Word name="6/ara" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="6/ara" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="6/ara" to="imperative" with="mode"/>
+<Word name="2/iki" positionX="850" positionY="200"/>
+<Connection from="6/ara" to="2/iki"/>
+<Word name="1/saat" positionX="750" positionY="300"/>
+<Connection from="2/iki" to="1/saat" with="mod"/>
+<Word name="3/sonra" positionX="850" positionY="300"/>
+<Connection from="2/iki" to="3/sonra"/>
+<Word name="4/ben" positionX="950" positionY="200"/>
+<Connection from="6/ara" to="4/ben" with="ARG1"/>
+<Word name="5/telefon" positionX="1050" positionY="200"/>
+<Connection from="6/ara" to="5/telefon" with="instrument"/>
+</Amr>

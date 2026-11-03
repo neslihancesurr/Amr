@@ -1,0 +1,11 @@
+<Amr sentence="Gözümüzde çok yıprandı .">
+<Word name="3/yıpran" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/yıpran" to="o" with="ARG0"/>
+<Word name="1/göz" positionX="750" positionY="200"/>
+<Connection from="3/yıpran" to="1/göz" with="ARG1"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="1/göz" to="biz" with="poss"/>
+<Word name="2/çok" positionX="850" positionY="200"/>
+<Connection from="3/yıpran" to="2/çok" with="degree"/>
+</Amr>

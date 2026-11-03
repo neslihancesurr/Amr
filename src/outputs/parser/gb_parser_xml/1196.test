@@ -1,0 +1,11 @@
+<Amr sentence="Sayın Cumhurbaşkanı bugün yurda dönüyorlar .">
+<Word name="5/dön" positionX="750" positionY="100"/>
+<Word name="2/cumhurbaşkan" positionX="650" positionY="200"/>
+<Connection from="5/dön" to="2/cumhurbaşkan" with="ARG0"/>
+<Word name="1/sayın" positionX="550" positionY="300"/>
+<Connection from="2/cumhurbaşkan" to="1/sayın" with="mod"/>
+<Word name="3/bugün" positionX="750" positionY="200"/>
+<Connection from="5/dön" to="3/bugün"/>
+<Word name="4/yurt" positionX="850" positionY="200"/>
+<Connection from="5/dön" to="4/yurt"/>
+</Amr>

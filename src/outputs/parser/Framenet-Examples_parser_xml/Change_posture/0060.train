@@ -1,0 +1,10 @@
+<Amr sentence="Bacak bacak üstüne atarak rahatını sağladı .">
+<Word name="6/sağla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/sağla" to="o" with="ARG0"/>
+<Word name="1/bacak 2/bacak 3/üst 4/at" positionX="750" positionY="200"/>
+<Connection from="6/sağla" to="1/bacak 2/bacak 3/üst 4/at"/>
+<Word name="5/rahat" positionX="850" positionY="200"/>
+<Connection from="6/sağla" to="5/rahat" with="ARG1"/>
+<Connection from="5/rahat" to="o" with="poss"/>
+</Amr>

@@ -1,0 +1,7 @@
+<Amr sentence="Yemek sulanmış .">
+<Word name="2/sulan" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="2/sulan" to="o" with="ARG0"/>
+<Word name="1/yemek" positionX="750" positionY="200"/>
+<Connection from="2/sulan" to="1/yemek" with="ARG1"/>
+</Amr>

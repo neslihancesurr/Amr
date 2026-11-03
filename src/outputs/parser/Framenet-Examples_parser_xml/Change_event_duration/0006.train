@@ -1,0 +1,14 @@
+<Amr sentence="Başım ağrıdığı için konuşmayı kısa kestim .">
+<Word name="5/kısa 6/kes" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/kısa 6/kes" to="ben" with="ARG0"/>
+<Word name="2/ağrı" positionX="750" positionY="200"/>
+<Connection from="5/kısa 6/kes" to="2/ağrı" with="cause"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/ağrı" to="o" with="poss"/>
+<Word name="1/baş" positionX="750" positionY="300"/>
+<Connection from="2/ağrı" to="1/baş" with="ARG1"/>
+<Connection from="1/baş" to="ben" with="poss"/>
+<Word name="4/konuşma" positionX="850" positionY="200"/>
+<Connection from="5/kısa 6/kes" to="4/konuşma" with="ARG1"/>
+</Amr>

@@ -1,0 +1,16 @@
+<Amr sentence="Nihal'in duyduklarına aklı kesmedi .">
+<Word name="3/akıl 4/kes" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/akıl 4/kes" to="-" with="polarity"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="3/akıl 4/kes" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/Nihal'in" positionX="550" positionY="400"/>
+<Connection from="name" to="1/Nihal'in" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/duy" positionX="850" positionY="200"/>
+<Connection from="3/akıl 4/kes" to="2/duy" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="2/duy" to="o" with="poss"/>
+</Amr>

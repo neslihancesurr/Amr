@@ -1,0 +1,26 @@
+<Amr sentence="Osman , Ali'ye yardım etmesi gerektiği halde hiçbir şey yapmadı .">
+<Word name="10/yap" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="10/yap" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="10/yap" to="o" with="ARG0"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="10/yap" to="person"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/osman" positionX="650" positionY="400"/>
+<Connection from="name" to="1/osman" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="6/gerek" positionX="950" positionY="200"/>
+<Connection from="10/yap" to="6/gerek"/>
+<Word name="4/yardım 5/et" positionX="850" positionY="300"/>
+<Connection from="6/gerek" to="4/yardım 5/et"/>
+<Connection from="4/yardım 5/et" to="o" with="ARG0"/>
+<Connection from="4/yardım 5/et" to="o" with="poss"/>
+<Word name="7/hal" positionX="950" positionY="300"/>
+<Connection from="6/gerek" to="7/hal" with="mod"/>
+<Word name="9/şey" positionX="1050" positionY="200"/>
+<Connection from="10/yap" to="9/şey"/>
+<Word name="8/hiçbir" positionX="950" positionY="300"/>
+<Connection from="9/şey" to="8/hiçbir" with="mod"/>
+</Amr>

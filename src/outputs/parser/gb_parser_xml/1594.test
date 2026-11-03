@@ -1,0 +1,7 @@
+<Amr sentence="Saat ikide ofisteydim .">
+<Word name="3/ofis:location" positionX="750" positionY="100"/>
+<Word name="2/iki" positionX="650" positionY="200"/>
+<Connection from="3/ofis:location" to="2/iki"/>
+<Word name="1/saat" positionX="550" positionY="300"/>
+<Connection from="2/iki" to="1/saat" with="mod"/>
+</Amr>

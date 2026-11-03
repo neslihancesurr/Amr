@@ -1,0 +1,14 @@
+<Amr sentence="Biraz abartmışlar sanki , kuzu çevirmişler .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/abart" positionX="650" positionY="200"/>
+<Connection from="and" to="2/abart" with="op1"/>
+<Word name="onlar" positionX="550" positionY="300"/>
+<Connection from="2/abart" to="onlar" with="ARG0"/>
+<Word name="1/biraz" positionX="650" positionY="300"/>
+<Connection from="2/abart" to="1/biraz" with="manner"/>
+<Word name="3/sanki" positionX="750" positionY="300"/>
+<Connection from="2/abart" to="3/sanki"/>
+<Word name="5/kuzu 6/çevir" positionX="750" positionY="200"/>
+<Connection from="and" to="5/kuzu 6/çevir" with="op2"/>
+<Connection from="5/kuzu 6/çevir" to="onlar" with="ARG0"/>
+</Amr>

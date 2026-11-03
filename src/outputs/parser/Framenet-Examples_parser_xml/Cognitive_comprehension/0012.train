@@ -1,0 +1,18 @@
+<Amr sentence="Beşir'in söylediklerini takip edemedim .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="3/takip 4/et" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="3/takip 4/et"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="3/takip 4/et" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="3/takip 4/et" to="ben" with="ARG0"/>
+<Word name="2/söyle" positionX="750" positionY="300"/>
+<Connection from="3/takip 4/et" to="2/söyle" with="ARG1"/>
+<Word name="person" positionX="650" positionY="400"/>
+<Connection from="2/söyle" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/beşir" positionX="450" positionY="600"/>
+<Connection from="name" to="1/beşir" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

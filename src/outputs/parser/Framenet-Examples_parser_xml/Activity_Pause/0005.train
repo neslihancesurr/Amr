@@ -1,0 +1,19 @@
+<Amr sentence="Sadece 15 dakika çalıştıktan sonra fasıla verdi , yorulmuş !">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/fasıla 7/ver" positionX="650" positionY="200"/>
+<Connection from="and" to="6/fasıla 7/ver" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="6/fasıla 7/ver" to="o" with="ARG0"/>
+<Word name="4/çalış" positionX="650" positionY="300"/>
+<Connection from="6/fasıla 7/ver" to="4/çalış"/>
+<Connection from="4/çalış" to="o" with="ARG0"/>
+<Word name="2/15" positionX="650" positionY="400"/>
+<Connection from="4/çalış" to="2/15"/>
+<Word name="1/sadece" positionX="550" positionY="500"/>
+<Connection from="2/15" to="1/sadece" with="manner"/>
+<Word name="5/sonra" positionX="750" positionY="400"/>
+<Connection from="4/çalış" to="5/sonra"/>
+<Word name="9/yorul" positionX="750" positionY="200"/>
+<Connection from="and" to="9/yorul" with="op2"/>
+<Connection from="9/yorul" to="o" with="ARG0"/>
+</Amr>

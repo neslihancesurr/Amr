@@ -1,0 +1,11 @@
+<Amr sentence="Geniş arazisini parselleyip sattı .">
+<Word name="4/sat" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/sat" to="o" with="ARG0"/>
+<Word name="2/arazi" positionX="750" positionY="200"/>
+<Connection from="4/sat" to="2/arazi" with="ARG1"/>
+<Word name="1/geniş" positionX="650" positionY="300"/>
+<Connection from="2/arazi" to="1/geniş" with="mod"/>
+<Word name="3/parselle" positionX="850" positionY="200"/>
+<Connection from="4/sat" to="3/parselle"/>
+</Amr>

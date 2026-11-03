@@ -1,0 +1,13 @@
+<Amr sentence="Dünden beri karnımın sağ tarafı sancıyor .">
+<Word name="6/sancı" positionX="750" positionY="100"/>
+<Word name="1/dünden" positionX="650" positionY="200"/>
+<Connection from="6/sancı" to="1/dünden" with="mod"/>
+<Word name="2/beri" positionX="550" positionY="300"/>
+<Connection from="1/dünden" to="2/beri"/>
+<Word name="5/taraf" positionX="750" positionY="200"/>
+<Connection from="6/sancı" to="5/taraf" with="ARG0"/>
+<Word name="3/karın" positionX="650" positionY="300"/>
+<Connection from="5/taraf" to="3/karın" with="mod"/>
+<Word name="4/sağ" positionX="750" positionY="300"/>
+<Connection from="5/taraf" to="4/sağ" with="mod"/>
+</Amr>

@@ -1,0 +1,7 @@
+<Amr sentence="Dışarıda bir köpek var .">
+<Word name="4/var" positionX="750" positionY="100"/>
+<Word name="1/dışarı" positionX="650" positionY="200"/>
+<Connection from="4/var" to="1/dışarı" with="mod"/>
+<Word name="3/köpek" positionX="750" positionY="200"/>
+<Connection from="4/var" to="3/köpek"/>
+</Amr>

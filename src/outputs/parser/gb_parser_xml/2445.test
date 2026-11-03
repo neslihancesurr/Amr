@@ -1,0 +1,15 @@
+<Amr sentence="Yağmur yağmaya başlayınca içeri girdik .">
+<Word name="5/gir" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/gir" to="biz" with="ARG0"/>
+<Word name="3/başla" positionX="750" positionY="200"/>
+<Connection from="5/gir" to="3/başla"/>
+<Word name="2/yağ" positionX="650" positionY="300"/>
+<Connection from="3/başla" to="2/yağ"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="2/yağ" to="o" with="ARG0"/>
+<Word name="1/yağmur" positionX="650" positionY="400"/>
+<Connection from="2/yağ" to="1/yağmur"/>
+<Word name="4/içeri" positionX="850" positionY="200"/>
+<Connection from="5/gir" to="4/içeri"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Onlar her şeyi ailece yaparlar .">
+<Word name="5/yap" positionX="750" positionY="100"/>
+<Word name="1/o" positionX="650" positionY="200"/>
+<Connection from="5/yap" to="1/o" with="ARG0"/>
+<Word name="3/şey" positionX="750" positionY="200"/>
+<Connection from="5/yap" to="3/şey"/>
+<Word name="2/her" positionX="650" positionY="300"/>
+<Connection from="3/şey" to="2/her"/>
+<Word name="4/ailece" positionX="850" positionY="200"/>
+<Connection from="5/yap" to="4/ailece" with="manner"/>
+</Amr>

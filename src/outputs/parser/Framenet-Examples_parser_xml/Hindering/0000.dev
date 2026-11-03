@@ -1,0 +1,14 @@
+<Amr sentence="Geçmişi her başladığı işe set çekiyordu .">
+<Word name="5/set 6/çek" positionX="750" positionY="100"/>
+<Word name="1/geçmiş" positionX="650" positionY="200"/>
+<Connection from="5/set 6/çek" to="1/geçmiş" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/geçmiş" to="o" with="poss"/>
+<Word name="4/iş" positionX="750" positionY="200"/>
+<Connection from="5/set 6/çek" to="4/iş" with="ARG1"/>
+<Word name="3/başla" positionX="650" positionY="300"/>
+<Connection from="4/iş" to="3/başla"/>
+<Connection from="3/başla" to="o" with="poss"/>
+<Word name="2/her" positionX="650" positionY="400"/>
+<Connection from="3/başla" to="2/her" with="mod"/>
+</Amr>

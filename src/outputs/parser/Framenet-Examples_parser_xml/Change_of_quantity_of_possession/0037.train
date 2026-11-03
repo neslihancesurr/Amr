@@ -1,0 +1,19 @@
+<Amr sentence="Yine ayın o hiç istemediğim günü , dem dökme vakti gelmişti .">
+<Word name="10/vakit 11/gel" positionX="750" positionY="100"/>
+<Word name="1/yine" positionX="650" positionY="200"/>
+<Connection from="10/vakit 11/gel" to="1/yine" with="manner"/>
+<Word name="6/gün" positionX="750" positionY="200"/>
+<Connection from="10/vakit 11/gel" to="6/gün"/>
+<Word name="2/ay" positionX="650" positionY="300"/>
+<Connection from="6/gün" to="2/ay" with="mod"/>
+<Word name="3/o" positionX="750" positionY="300"/>
+<Connection from="6/gün" to="3/o" with="mod"/>
+<Word name="5/iste" positionX="850" positionY="300"/>
+<Connection from="6/gün" to="5/iste"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="5/iste" to="-" with="polarity"/>
+<Word name="ben" positionX="850" positionY="400"/>
+<Connection from="5/iste" to="ben" with="poss"/>
+<Word name="4/hiç" positionX="950" positionY="400"/>
+<Connection from="5/iste" to="4/hiç" with="degree"/>
+</Amr>

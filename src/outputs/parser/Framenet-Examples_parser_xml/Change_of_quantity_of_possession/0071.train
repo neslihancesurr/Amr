@@ -1,0 +1,8 @@
+<Amr sentence="Stajında deneyim kazandı .">
+<Word name="2/deneyim 3/kazan" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="2/deneyim 3/kazan" to="o" with="ARG0"/>
+<Word name="1/staj" positionX="750" positionY="200"/>
+<Connection from="2/deneyim 3/kazan" to="1/staj" with="ARG1"/>
+<Connection from="1/staj" to="o" with="poss"/>
+</Amr>

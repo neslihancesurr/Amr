@@ -1,0 +1,12 @@
+<Amr sentence="Annesi sürekli çocuğunu akladı .">
+<Word name="4/akla" positionX="750" positionY="100"/>
+<Word name="1/anne" positionX="650" positionY="200"/>
+<Connection from="4/akla" to="1/anne" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/anne" to="o" with="poss"/>
+<Word name="2/sürekli" positionX="750" positionY="200"/>
+<Connection from="4/akla" to="2/sürekli" with="frequency"/>
+<Word name="3/çocuk" positionX="850" positionY="200"/>
+<Connection from="4/akla" to="3/çocuk" with="ARG1"/>
+<Connection from="3/çocuk" to="o" with="poss"/>
+</Amr>

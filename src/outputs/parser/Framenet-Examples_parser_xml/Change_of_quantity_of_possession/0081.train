@@ -1,0 +1,13 @@
+<Amr sentence="Öğretmenimin gözüne girdim , her şey yolundaydı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/göz 3/gir" positionX="650" positionY="200"/>
+<Connection from="and" to="2/göz 3/gir" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="2/göz 3/gir" to="ben" with="ARG0"/>
+<Word name="7/yol" positionX="750" positionY="200"/>
+<Connection from="and" to="7/yol" with="location"/>
+<Word name="6/şey" positionX="650" positionY="300"/>
+<Connection from="7/yol" to="6/şey"/>
+<Word name="5/her" positionX="550" positionY="400"/>
+<Connection from="6/şey" to="5/her" with="mod"/>
+</Amr>

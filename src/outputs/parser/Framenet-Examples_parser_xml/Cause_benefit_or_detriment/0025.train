@@ -1,0 +1,13 @@
+<Amr sentence="Çocukları adamın tüm varlığını sömürdü .">
+<Word name="5/sömür" positionX="750" positionY="100"/>
+<Word name="1/çocuk" positionX="650" positionY="200"/>
+<Connection from="5/sömür" to="1/çocuk" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/çocuk" to="o" with="poss"/>
+<Word name="4/varlık" positionX="750" positionY="200"/>
+<Connection from="5/sömür" to="4/varlık" with="ARG1"/>
+<Word name="2/adam" positionX="650" positionY="300"/>
+<Connection from="4/varlık" to="2/adam" with="mod"/>
+<Word name="3/tüm" positionX="750" positionY="300"/>
+<Connection from="4/varlık" to="3/tüm" with="mod"/>
+</Amr>

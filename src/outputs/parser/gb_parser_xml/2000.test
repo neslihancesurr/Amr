@@ -1,0 +1,9 @@
+<Amr sentence="Onları uyardım ben de .">
+<Word name="2/uyar" positionX="750" positionY="100"/>
+<Word name="1/o" positionX="650" positionY="200"/>
+<Connection from="2/uyar" to="1/o" with="ARG1"/>
+<Word name="3/ben" positionX="750" positionY="200"/>
+<Connection from="2/uyar" to="3/ben" with="ARG0"/>
+<Word name="4/de" positionX="650" positionY="300"/>
+<Connection from="3/ben" to="4/de"/>
+</Amr>

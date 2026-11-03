@@ -1,0 +1,21 @@
+<Amr sentence="Yine başını belaya sokmasın diye kapıdan dışarı adımını attırmadı ailesi .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="8/adım 9/at" positionX="650" positionY="200"/>
+<Connection from="yap" to="8/adım 9/at"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="8/adım 9/at" to="-" with="polarity"/>
+<Word name="2/baş 3/bela 4/sok" positionX="650" positionY="300"/>
+<Connection from="8/adım 9/at" to="2/baş 3/bela 4/sok"/>
+<Connection from="2/baş 3/bela 4/sok" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="2/baş 3/bela 4/sok" to="o" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="400"/>
+<Connection from="2/baş 3/bela 4/sok" to="imperative" with="mode"/>
+<Word name="6/kapı" positionX="750" positionY="300"/>
+<Connection from="8/adım 9/at" to="6/kapı" with="ARG2"/>
+<Word name="7/dışarı" positionX="650" positionY="400"/>
+<Connection from="6/kapı" to="7/dışarı"/>
+<Word name="10/aile" positionX="850" positionY="300"/>
+<Connection from="8/adım 9/at" to="10/aile" with="ARG0"/>
+<Connection from="10/aile" to="o" with="poss"/>
+</Amr>

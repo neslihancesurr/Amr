@@ -1,0 +1,17 @@
+<Amr sentence="Oturdu , saatlerce bant doldurdu , sesi kısılmış .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/otur" positionX="650" positionY="200"/>
+<Connection from="and" to="1/otur" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/otur" to="o" with="ARG0"/>
+<Word name="4/bant 5/doldur" positionX="750" positionY="200"/>
+<Connection from="and" to="4/bant 5/doldur" with="op2"/>
+<Connection from="4/bant 5/doldur" to="o" with="ARG0"/>
+<Word name="3/saatlerce" positionX="750" positionY="300"/>
+<Connection from="4/bant 5/doldur" to="3/saatlerce" with="manner"/>
+<Word name="8/kıs" positionX="850" positionY="200"/>
+<Connection from="and" to="8/kıs" with="op3"/>
+<Word name="7/ses" positionX="750" positionY="300"/>
+<Connection from="8/kıs" to="7/ses" with="ARG1"/>
+<Connection from="7/ses" to="o" with="poss"/>
+</Amr>

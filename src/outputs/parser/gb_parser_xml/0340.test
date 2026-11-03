@@ -1,0 +1,23 @@
+<Amr sentence="Bayram'ın ailesinin diğer köylülerden daha çok toprağı var .">
+<Word name="8/var" positionX="750" positionY="100"/>
+<Word name="7/toprak" positionX="650" positionY="200"/>
+<Connection from="8/var" to="7/toprak"/>
+<Word name="2/aile" positionX="550" positionY="300"/>
+<Connection from="7/toprak" to="2/aile"/>
+<Word name="person" positionX="450" positionY="400"/>
+<Connection from="2/aile" to="person"/>
+<Word name="name" positionX="350" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/bayram" positionX="250" positionY="600"/>
+<Connection from="name" to="1/bayram" with="op1"/>
+<Word name="-" positionX="450" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="6/çok" positionX="650" positionY="300"/>
+<Connection from="7/toprak" to="6/çok" with="degree"/>
+<Word name="4/köylü" positionX="550" positionY="400"/>
+<Connection from="6/çok" to="4/köylü"/>
+<Word name="3/diğer" positionX="450" positionY="500"/>
+<Connection from="4/köylü" to="3/diğer" with="mod"/>
+<Word name="5/daha" positionX="650" positionY="400"/>
+<Connection from="6/çok" to="5/daha" with="degree"/>
+</Amr>

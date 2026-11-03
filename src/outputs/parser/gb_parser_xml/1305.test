@@ -1,0 +1,9 @@
+<Amr sentence="Bu sabahkinde okudum .">
+<Word name="3/oku" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/oku" to="ben" with="ARG0"/>
+<Word name="2/sabahki" positionX="750" positionY="200"/>
+<Connection from="3/oku" to="2/sabahki" with="location"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/sabahki" to="1/bu" with="mod"/>
+</Amr>

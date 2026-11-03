@@ -1,0 +1,20 @@
+<Amr sentence="Prenses koluma girdi , sürükledi ve büfeye götürdü .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/sürükle" positionX="650" positionY="200"/>
+<Connection from="and" to="5/sürükle" with="op1"/>
+<Word name="8/götür" positionX="550" positionY="300"/>
+<Connection from="5/sürükle" to="8/götür"/>
+<Word name="7/büfe" positionX="450" positionY="400"/>
+<Connection from="8/götür" to="7/büfe"/>
+<Word name="3/gir" positionX="750" positionY="200"/>
+<Connection from="and" to="3/gir" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/gir" to="o" with="ARG0"/>
+<Word name="1/prenses" positionX="750" positionY="300"/>
+<Connection from="3/gir" to="1/prenses"/>
+<Word name="2/kol" positionX="850" positionY="300"/>
+<Connection from="3/gir" to="2/kol"/>
+<Word name="ben" positionX="750" positionY="400"/>
+<Connection from="2/kol" to="ben" with="poss"/>
+<Connection from="3/gir" to="and"/>
+</Amr>

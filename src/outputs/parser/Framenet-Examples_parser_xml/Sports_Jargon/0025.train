@@ -1,0 +1,23 @@
+<Amr sentence="Çetin seri bir şekilde karşı takımın sahasına doğru top sürüyor .">
+<Word name="9/top 10/sür" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="9/top 10/sür" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/çetin" positionX="450" positionY="400"/>
+<Connection from="name" to="1/çetin" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/şekil" positionX="750" positionY="200"/>
+<Connection from="9/top 10/sür" to="4/şekil" with="location"/>
+<Word name="2/seri" positionX="650" positionY="300"/>
+<Connection from="4/şekil" to="2/seri" with="mod"/>
+<Word name="7/saha" positionX="850" positionY="200"/>
+<Connection from="9/top 10/sür" to="7/saha"/>
+<Word name="6/takım" positionX="750" positionY="300"/>
+<Connection from="7/saha" to="6/takım" with="mod"/>
+<Word name="5/karşı" positionX="650" positionY="400"/>
+<Connection from="6/takım" to="5/karşı" with="mod"/>
+<Word name="8/doğru" positionX="850" positionY="300"/>
+<Connection from="7/saha" to="8/doğru"/>
+</Amr>

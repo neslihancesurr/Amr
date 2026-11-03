@@ -1,0 +1,23 @@
+<Amr sentence="- Konuşmasına konuşacağım da , bakalım o dinleyecek mi ?">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="8/dinle" positionX="650" positionY="200"/>
+<Connection from="and" to="8/dinle" with="op1"/>
+<Word name="4/da" positionX="550" positionY="300"/>
+<Connection from="8/dinle" to="4/da"/>
+<Word name="6/bak" positionX="650" positionY="300"/>
+<Connection from="8/dinle" to="6/bak"/>
+<Word name="biz" positionX="550" positionY="400"/>
+<Connection from="6/bak" to="biz" with="ARG0"/>
+<Word name="7/o" positionX="750" positionY="300"/>
+<Connection from="8/dinle" to="7/o"/>
+<Word name="9/mi" positionX="850" positionY="300"/>
+<Connection from="8/dinle" to="9/mi"/>
+<Word name="3/konuş" positionX="750" positionY="200"/>
+<Connection from="and" to="3/konuş" with="op2"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="3/konuş" to="ben" with="ARG0"/>
+<Word name="2/konuş" positionX="750" positionY="300"/>
+<Connection from="3/konuş" to="2/konuş"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="2/konuş" to="o" with="poss"/>
+</Amr>

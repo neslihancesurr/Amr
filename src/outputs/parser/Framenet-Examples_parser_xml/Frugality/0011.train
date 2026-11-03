@@ -1,0 +1,15 @@
+<Amr sentence="Dedesinin elinde avucunda ne varsa yedi .">
+<Word name="6/ye" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/ye" to="o" with="ARG0"/>
+<Word name="5/var" positionX="750" positionY="200"/>
+<Connection from="6/ye" to="5/var" with="ARG1"/>
+<Word name="3/avuç" positionX="650" positionY="300"/>
+<Connection from="5/var" to="3/avuç" with="location"/>
+<Word name="1/dede" positionX="550" positionY="400"/>
+<Connection from="3/avuç" to="1/dede" with="mod"/>
+<Word name="2/el" positionX="650" positionY="400"/>
+<Connection from="3/avuç" to="2/el" with="location"/>
+<Word name="4/ne" positionX="750" positionY="300"/>
+<Connection from="5/var" to="4/ne"/>
+</Amr>

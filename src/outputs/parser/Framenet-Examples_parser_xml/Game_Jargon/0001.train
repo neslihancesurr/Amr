@@ -1,0 +1,12 @@
+<Amr sentence="Zar çok iyi geldi , kapı alacak .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/iyi 4/gel" positionX="650" positionY="200"/>
+<Connection from="and" to="3/iyi 4/gel" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/iyi 4/gel" to="o" with="ARG0"/>
+<Word name="1/zar" positionX="650" positionY="300"/>
+<Connection from="3/iyi 4/gel" to="1/zar" with="ARG1"/>
+<Word name="6/kapı 7/al" positionX="750" positionY="200"/>
+<Connection from="and" to="6/kapı 7/al" with="op2"/>
+<Connection from="6/kapı 7/al" to="o" with="ARG0"/>
+</Amr>

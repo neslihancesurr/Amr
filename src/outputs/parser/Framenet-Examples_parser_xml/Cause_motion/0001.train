@@ -1,0 +1,13 @@
+<Amr sentence="Kaldırımın sonundaki asfaltı yola aktardılar .">
+<Word name="5/aktar" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="5/aktar" to="onlar" with="ARG0"/>
+<Word name="3/asfalt" positionX="750" positionY="200"/>
+<Connection from="5/aktar" to="3/asfalt" with="ARG1"/>
+<Word name="2/son" positionX="650" positionY="300"/>
+<Connection from="3/asfalt" to="2/son" with="mod"/>
+<Word name="1/kaldırım" positionX="550" positionY="400"/>
+<Connection from="2/son" to="1/kaldırım" with="mod"/>
+<Word name="4/yol" positionX="850" positionY="200"/>
+<Connection from="5/aktar" to="4/yol"/>
+</Amr>

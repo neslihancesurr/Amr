@@ -1,0 +1,15 @@
+<Amr sentence="Yabancı aileler Noel için alışveriş yaptı .">
+<Word name="5/alışveriş 6/yap" positionX="750" positionY="100"/>
+<Word name="2/aile" positionX="650" positionY="200"/>
+<Connection from="5/alışveriş 6/yap" to="2/aile" with="ARG0"/>
+<Word name="1/yabancı" positionX="550" positionY="300"/>
+<Connection from="2/aile" to="1/yabancı" with="mod"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="5/alışveriş 6/yap" to="person" with="cause"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/noel" positionX="550" positionY="400"/>
+<Connection from="name" to="3/noel" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

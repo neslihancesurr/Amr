@@ -1,0 +1,9 @@
+<Amr sentence="Müdür yardımcısı , yeni çalışana yetki verdi .">
+<Word name="6/yetki 7/ver" positionX="750" positionY="100"/>
+<Word name="1/müdür 2/yardımcı" positionX="650" positionY="200"/>
+<Connection from="6/yetki 7/ver" to="1/müdür 2/yardımcı" with="ARG0"/>
+<Word name="5/çalışan" positionX="750" positionY="200"/>
+<Connection from="6/yetki 7/ver" to="5/çalışan" with="ARG2"/>
+<Word name="4/yeni" positionX="650" positionY="300"/>
+<Connection from="5/çalışan" to="4/yeni" with="mod"/>
+</Amr>

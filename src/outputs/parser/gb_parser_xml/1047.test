@@ -1,0 +1,9 @@
+<Amr sentence="Üç günden beri hastayım .">
+<Word name="4/hasta" positionX="750" positionY="100"/>
+<Word name="2/gün" positionX="650" positionY="200"/>
+<Connection from="4/hasta" to="2/gün"/>
+<Word name="1/üç" positionX="550" positionY="300"/>
+<Connection from="2/gün" to="1/üç"/>
+<Word name="3/beri" positionX="650" positionY="300"/>
+<Connection from="2/gün" to="3/beri"/>
+</Amr>

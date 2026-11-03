@@ -1,0 +1,17 @@
+<Amr sentence="Bu parçayı ancak çok iyi bir piyanist çalabilir .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="8/çal" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="8/çal"/>
+<Word name="2/parça" positionX="550" positionY="300"/>
+<Connection from="8/çal" to="2/parça"/>
+<Word name="1/bu" positionX="450" positionY="400"/>
+<Connection from="2/parça" to="1/bu" with="mod"/>
+<Word name="3/ancak" positionX="650" positionY="300"/>
+<Connection from="8/çal" to="3/ancak" with="manner"/>
+<Word name="7/piyanist" positionX="750" positionY="300"/>
+<Connection from="8/çal" to="7/piyanist" with="ARG0"/>
+<Word name="5/iyi" positionX="650" positionY="400"/>
+<Connection from="7/piyanist" to="5/iyi" with="mod"/>
+<Word name="4/çok" positionX="550" positionY="500"/>
+<Connection from="5/iyi" to="4/çok" with="degree"/>
+</Amr>

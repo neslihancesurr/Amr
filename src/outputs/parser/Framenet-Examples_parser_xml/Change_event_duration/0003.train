@@ -1,0 +1,12 @@
+<Amr sentence="Adamı oyalamak için konuyu şişirdi .">
+<Word name="5/şişir" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/şişir" to="o" with="ARG0"/>
+<Word name="2/oyala" positionX="750" positionY="200"/>
+<Connection from="5/şişir" to="2/oyala" with="cause"/>
+<Connection from="2/oyala" to="o" with="ARG0"/>
+<Word name="1/adam" positionX="750" positionY="300"/>
+<Connection from="2/oyala" to="1/adam" with="ARG1"/>
+<Word name="4/konu" positionX="850" positionY="200"/>
+<Connection from="5/şişir" to="4/konu" with="ARG1"/>
+</Amr>

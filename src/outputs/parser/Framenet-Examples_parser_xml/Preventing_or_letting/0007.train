@@ -1,0 +1,11 @@
+<Amr sentence="Her işine takoz koydular .">
+<Word name="3/takoz 4/koy" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="3/takoz 4/koy" to="onlar" with="ARG0"/>
+<Word name="2/iş" positionX="750" positionY="200"/>
+<Connection from="3/takoz 4/koy" to="2/iş" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/iş" to="o" with="poss"/>
+<Word name="1/her" positionX="750" positionY="300"/>
+<Connection from="2/iş" to="1/her" with="mod"/>
+</Amr>

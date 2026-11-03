@@ -1,0 +1,9 @@
+<Amr sentence="Okul içerisinde şerefyap oldum .">
+<Word name="3/şerefyap 4/ol" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/şerefyap 4/ol" to="ben" with="ARG0"/>
+<Word name="2/içeri" positionX="750" positionY="200"/>
+<Connection from="3/şerefyap 4/ol" to="2/içeri" with="location"/>
+<Word name="1/okul" positionX="650" positionY="300"/>
+<Connection from="2/içeri" to="1/okul" with="mod"/>
+</Amr>

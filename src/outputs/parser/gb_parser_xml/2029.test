@@ -1,0 +1,13 @@
+<Amr sentence="Birer birer girelim isteniyormuş .">
+<Word name="4/iste" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/iste" to="o" with="ARG0"/>
+<Word name="3/gir" positionX="750" positionY="200"/>
+<Connection from="4/iste" to="3/gir"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="3/gir" to="biz" with="ARG0"/>
+<Word name="2/bir" positionX="750" positionY="300"/>
+<Connection from="3/gir" to="2/bir"/>
+<Word name="1/bir" positionX="650" positionY="400"/>
+<Connection from="2/bir" to="1/bir"/>
+</Amr>

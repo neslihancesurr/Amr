@@ -1,0 +1,7 @@
+<Amr sentence="Tatilde birçok dost edindi .">
+<Word name="3/dost 4/edin" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/dost 4/edin" to="o" with="ARG0"/>
+<Word name="1/tatil" positionX="750" positionY="200"/>
+<Connection from="3/dost 4/edin" to="1/tatil" with="location"/>
+</Amr>

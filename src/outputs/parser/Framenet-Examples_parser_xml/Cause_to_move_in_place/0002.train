@@ -1,0 +1,9 @@
+<Amr sentence="Kediyi odaya aldı .">
+<Word name="3/al" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/al" to="o" with="ARG0"/>
+<Word name="1/kedi" positionX="750" positionY="200"/>
+<Connection from="3/al" to="1/kedi" with="ARG1"/>
+<Word name="2/oda" positionX="850" positionY="200"/>
+<Connection from="3/al" to="2/oda" with="ARG2"/>
+</Amr>

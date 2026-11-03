@@ -1,0 +1,11 @@
+<Amr sentence="Döndüğümde herkes yatmıştı .">
+<Word name="3/yat" positionX="750" positionY="100"/>
+<Word name="2/herkes" positionX="650" positionY="200"/>
+<Connection from="3/yat" to="2/herkes" with="ARG0"/>
+<Word name="onlar" positionX="550" positionY="300"/>
+<Connection from="2/herkes" to="onlar" with="poss"/>
+<Word name="1/dön" positionX="650" positionY="300"/>
+<Connection from="2/herkes" to="1/dön"/>
+<Word name="ben" positionX="550" positionY="400"/>
+<Connection from="1/dön" to="ben" with="ARG0"/>
+</Amr>

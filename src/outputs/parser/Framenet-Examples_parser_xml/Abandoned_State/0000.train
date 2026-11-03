@@ -1,0 +1,28 @@
+<Amr sentence="Bu yazarın bir de Fransızca kitabını almıştım ama sıkılmış bırakıvermiştim .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="10/bırak" positionX="650" positionY="200"/>
+<Connection from="and" to="10/bırak" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="10/bırak" to="ben" with="ARG0"/>
+<Word name="9/sıkıl" positionX="650" positionY="300"/>
+<Connection from="10/bırak" to="9/sıkıl"/>
+<Word name="7/al" positionX="750" positionY="200"/>
+<Connection from="and" to="7/al" with="op2"/>
+<Connection from="7/al" to="ben" with="ARG0"/>
+<Word name="6/kitap" positionX="750" positionY="300"/>
+<Connection from="7/al" to="6/kitap" with="ARG1"/>
+<Word name="2/yazar" positionX="650" positionY="400"/>
+<Connection from="6/kitap" to="2/yazar" with="mod"/>
+<Word name="1/bu" positionX="550" positionY="500"/>
+<Connection from="2/yazar" to="1/bu" with="mod"/>
+<Word name="3/bir 4/de" positionX="750" positionY="400"/>
+<Connection from="6/kitap" to="3/bir 4/de"/>
+<Word name="person" positionX="850" positionY="400"/>
+<Connection from="6/kitap" to="person"/>
+<Word name="name" positionX="750" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="5/fransızca" positionX="650" positionY="600"/>
+<Connection from="name" to="5/fransızca" with="op1"/>
+<Word name="-" positionX="850" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

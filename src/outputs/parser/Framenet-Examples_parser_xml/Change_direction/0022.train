@@ -1,0 +1,12 @@
+<Amr sentence="Fakat görücüleri de kapıdan çevirdi .">
+<Word name="4/kapı 5/çevir" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/kapı 5/çevir" to="o" with="ARG0"/>
+<Word name="1/fakat" positionX="750" positionY="200"/>
+<Connection from="4/kapı 5/çevir" to="1/fakat"/>
+<Word name="2/görücü" positionX="850" positionY="200"/>
+<Connection from="4/kapı 5/çevir" to="2/görücü" with="ARG1"/>
+<Connection from="2/görücü" to="o" with="poss"/>
+<Word name="3/de" positionX="850" positionY="300"/>
+<Connection from="2/görücü" to="3/de"/>
+</Amr>

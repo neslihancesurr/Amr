@@ -1,0 +1,11 @@
+<Amr sentence="Kireç ile zeminler stabilize edildi .">
+<Word name="4/stabilize 5/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/stabilize 5/et" to="o" with="ARG0"/>
+<Word name="1/kireç" positionX="750" positionY="200"/>
+<Connection from="4/stabilize 5/et" to="1/kireç"/>
+<Word name="2/ile" positionX="650" positionY="300"/>
+<Connection from="1/kireç" to="2/ile"/>
+<Word name="3/zemin" positionX="850" positionY="200"/>
+<Connection from="4/stabilize 5/et" to="3/zemin" with="ARG1"/>
+</Amr>

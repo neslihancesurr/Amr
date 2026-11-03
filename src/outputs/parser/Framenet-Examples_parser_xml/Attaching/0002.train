@@ -1,0 +1,9 @@
+<Amr sentence="Duyuruları panoya raptiyeledik .">
+<Word name="3/raptiyele" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="3/raptiyele" to="biz" with="ARG0"/>
+<Word name="1/duyuru" positionX="750" positionY="200"/>
+<Connection from="3/raptiyele" to="1/duyuru" with="ARG1"/>
+<Word name="2/pano" positionX="850" positionY="200"/>
+<Connection from="3/raptiyele" to="2/pano"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Her yaz köye gelip hacıağalık ediyorlar .">
+<Word name="5/hacıağalık 6/et" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="5/hacıağalık 6/et" to="onlar" with="ARG0"/>
+<Word name="2/yaz" positionX="750" positionY="200"/>
+<Connection from="5/hacıağalık 6/et" to="2/yaz" with="mod"/>
+<Word name="1/her" positionX="650" positionY="300"/>
+<Connection from="2/yaz" to="1/her" with="mod"/>
+<Word name="4/gel" positionX="850" positionY="200"/>
+<Connection from="5/hacıağalık 6/et" to="4/gel"/>
+<Word name="3/köy" positionX="750" positionY="300"/>
+<Connection from="4/gel" to="3/köy" with="ARG1"/>
+</Amr>

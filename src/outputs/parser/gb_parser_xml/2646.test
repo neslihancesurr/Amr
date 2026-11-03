@@ -1,0 +1,9 @@
+<Amr sentence="Hem birşeyler de yeriz .">
+<Word name="4/ye" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="4/ye" to="biz" with="ARG0"/>
+<Word name="2/birşey" positionX="750" positionY="200"/>
+<Connection from="4/ye" to="2/birşey" with="ARG1"/>
+<Word name="3/de" positionX="650" positionY="300"/>
+<Connection from="2/birşey" to="3/de"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Bu bölge de büyük ölçüde kuşaklandı .">
+<Word name="6/kuşakla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/kuşakla" to="o" with="ARG0"/>
+<Word name="2/bölge" positionX="750" positionY="200"/>
+<Connection from="6/kuşakla" to="2/bölge" with="ARG1"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/bölge" to="1/bu" with="mod"/>
+<Word name="3/de" positionX="750" positionY="300"/>
+<Connection from="2/bölge" to="3/de"/>
+<Word name="5/ölçü" positionX="850" positionY="200"/>
+<Connection from="6/kuşakla" to="5/ölçü" with="location"/>
+<Word name="4/büyük" positionX="750" positionY="300"/>
+<Connection from="5/ölçü" to="4/büyük" with="mod"/>
+</Amr>

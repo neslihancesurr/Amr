@@ -1,0 +1,9 @@
+<Amr sentence="Araba yokuşta istop etti .">
+<Word name="3/istop 4/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/istop 4/et" to="o" with="ARG0"/>
+<Word name="1/araba" positionX="750" positionY="200"/>
+<Connection from="3/istop 4/et" to="1/araba" with="ARG1"/>
+<Word name="2/yokuş" positionX="850" positionY="200"/>
+<Connection from="3/istop 4/et" to="2/yokuş" with="location"/>
+</Amr>

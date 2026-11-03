@@ -1,0 +1,32 @@
+<Amr sentence="Ömer o zamana kadar üniversiteyi bitirmiş de olsa Ankara'da bir eve ihtiyacı olabilir .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="12/ihtiyaç 13/ol" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="12/ihtiyaç 13/ol"/>
+<Word name="8/ol" positionX="550" positionY="300"/>
+<Connection from="12/ihtiyaç 13/ol" to="8/ol"/>
+<Word name="6/bitir" positionX="450" positionY="400"/>
+<Connection from="8/ol" to="6/bitir"/>
+<Word name="person" positionX="350" positionY="500"/>
+<Connection from="6/bitir" to="person"/>
+<Word name="name" positionX="250" positionY="600"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ömer" positionX="150" positionY="700"/>
+<Connection from="name" to="1/ömer" with="op1"/>
+<Word name="-" positionX="350" positionY="600"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/zaman" positionX="450" positionY="500"/>
+<Connection from="6/bitir" to="3/zaman" with="extent"/>
+<Word name="2/o" positionX="350" positionY="600"/>
+<Connection from="3/zaman" to="2/o" with="mod"/>
+<Word name="5/üniversite" positionX="550" positionY="500"/>
+<Connection from="6/bitir" to="5/üniversite"/>
+<Word name="7/de" positionX="650" positionY="500"/>
+<Connection from="6/bitir" to="7/de"/>
+<Connection from="12/ihtiyaç 13/ol" to="person" with="location"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="9/ankara" positionX="450" positionY="500"/>
+<Connection from="name" to="9/ankara" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="11/ev" positionX="750" positionY="300"/>
+<Connection from="12/ihtiyaç 13/ol" to="11/ev"/>
+</Amr>

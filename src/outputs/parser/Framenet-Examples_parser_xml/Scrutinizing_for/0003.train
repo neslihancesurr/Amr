@@ -1,0 +1,5 @@
+<Amr sentence="Ona şantaj yapabilmek için dibini kurcaladı .">
+<Word name="5/dip 6/kurcala" positionX="750" positionY="100"/>
+<Word name="2/şantaj 3/yap" positionX="650" positionY="200"/>
+<Connection from="5/dip 6/kurcala" to="2/şantaj 3/yap"/>
+</Amr>

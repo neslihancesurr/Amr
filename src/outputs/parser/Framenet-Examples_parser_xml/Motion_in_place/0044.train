@@ -1,0 +1,13 @@
+<Amr sentence="Kahvelerde zar çalkalayan avuçlar görüyorum .">
+<Word name="5/gör" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/gör" to="ben" with="ARG0"/>
+<Word name="4/avuç" positionX="750" positionY="200"/>
+<Connection from="5/gör" to="4/avuç" with="ARG1"/>
+<Word name="3/çalkala" positionX="650" positionY="300"/>
+<Connection from="4/avuç" to="3/çalkala"/>
+<Word name="1/kahve" positionX="550" positionY="400"/>
+<Connection from="3/çalkala" to="1/kahve" with="location"/>
+<Word name="2/zar" positionX="650" positionY="400"/>
+<Connection from="3/çalkala" to="2/zar" with="ARG1"/>
+</Amr>

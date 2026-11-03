@@ -1,0 +1,11 @@
+<Amr sentence="Binayı yıkıp yeniden yapacaklarmış .">
+<Word name="4/yap" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/yap" to="onlar" with="ARG0"/>
+<Word name="1/bina" positionX="750" positionY="200"/>
+<Connection from="4/yap" to="1/bina" with="ARG1"/>
+<Word name="2/yık" positionX="850" positionY="200"/>
+<Connection from="4/yap" to="2/yık"/>
+<Word name="3/yeniden" positionX="950" positionY="200"/>
+<Connection from="4/yap" to="3/yeniden" with="manner"/>
+</Amr>

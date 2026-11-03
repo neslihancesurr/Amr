@@ -1,0 +1,5 @@
+<Amr sentence="Onlar doktorlarmış .">
+<Word name="2/doktor" positionX="750" positionY="100"/>
+<Word name="1/o" positionX="650" positionY="200"/>
+<Connection from="2/doktor" to="1/o"/>
+</Amr>

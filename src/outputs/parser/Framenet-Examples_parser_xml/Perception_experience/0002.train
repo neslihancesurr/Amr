@@ -1,0 +1,36 @@
+<Amr sentence="Ateşoğlu , bir yandan da hızla deniz yüzüne gelen ve yüzde suyu fokurdatan hava habbelerinden gözünü ayırmıyordu .">
+<Word name="16/göz 17/ayır" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="16/göz 17/ayır" to="-" with="polarity"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="16/göz 17/ayır" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/Ateşoğlu" positionX="550" positionY="400"/>
+<Connection from="name" to="1/Ateşoğlu" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="15/habbe" positionX="850" positionY="200"/>
+<Connection from="16/göz 17/ayır" to="15/habbe" with="ARG1"/>
+<Word name="sen" positionX="750" positionY="300"/>
+<Connection from="15/habbe" to="sen" with="poss"/>
+<Word name="and" positionX="850" positionY="300"/>
+<Connection from="15/habbe" to="and"/>
+<Word name="13/fokurda" positionX="750" positionY="400"/>
+<Connection from="and" to="13/fokurda" with="op1"/>
+<Word name="11/yüz" positionX="650" positionY="500"/>
+<Connection from="13/fokurda" to="11/yüz" with="location"/>
+<Word name="12/su" positionX="750" positionY="500"/>
+<Connection from="13/fokurda" to="12/su" with="ARG1"/>
+<Word name="9/gel" positionX="850" positionY="400"/>
+<Connection from="and" to="9/gel" with="op2"/>
+<Word name="6/hız" positionX="750" positionY="500"/>
+<Connection from="9/gel" to="6/hız" with="mod"/>
+<Word name="8/yüz" positionX="850" positionY="500"/>
+<Connection from="9/gel" to="8/yüz"/>
+<Word name="7/deniz" positionX="750" positionY="600"/>
+<Connection from="8/yüz" to="7/deniz" with="mod"/>
+<Word name="yap" positionX="950" positionY="500"/>
+<Connection from="9/gel" to="yap"/>
+<Word name="14/hava" positionX="950" positionY="300"/>
+<Connection from="15/habbe" to="14/hava" with="mod"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Bu çocuğun annesi nerede ?">
+<Word name="4/nere:location" positionX="750" positionY="100"/>
+<Word name="3/anne" positionX="650" positionY="200"/>
+<Connection from="4/nere:location" to="3/anne"/>
+<Word name="2/çocuk" positionX="550" positionY="300"/>
+<Connection from="3/anne" to="2/çocuk" with="mod"/>
+<Word name="1/bu" positionX="450" positionY="400"/>
+<Connection from="2/çocuk" to="1/bu" with="mod"/>
+</Amr>

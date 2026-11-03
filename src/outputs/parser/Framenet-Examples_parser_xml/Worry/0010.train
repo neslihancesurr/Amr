@@ -1,0 +1,7 @@
+<Amr sentence="Duydukları yüzünden kaygılı ailenin içini kurt kemiriyordu .">
+<Word name="5/iç 6/kurt 7/kemir" positionX="750" positionY="100"/>
+<Word name="2/yüzünden" positionX="650" positionY="200"/>
+<Connection from="5/iç 6/kurt 7/kemir" to="2/yüzünden"/>
+<Word name="1/duy" positionX="550" positionY="300"/>
+<Connection from="2/yüzünden" to="1/duy" with="mod"/>
+</Amr>

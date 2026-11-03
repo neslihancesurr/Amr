@@ -1,0 +1,15 @@
+<Amr sentence="Onu bir daha katiyen görmeyecek misin ?">
+<Word name="5/gör" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/gör" to="-" with="polarity"/>
+<Word name="1/o" positionX="750" positionY="200"/>
+<Connection from="5/gör" to="1/o" with="ARG1"/>
+<Word name="2/bir" positionX="850" positionY="200"/>
+<Connection from="5/gör" to="2/bir" with="manner"/>
+<Word name="3/daha" positionX="750" positionY="300"/>
+<Connection from="2/bir" to="3/daha" with="degree"/>
+<Word name="4/katiyen" positionX="950" positionY="200"/>
+<Connection from="5/gör" to="4/katiyen" with="manner"/>
+<Word name="6/mi" positionX="1050" positionY="200"/>
+<Connection from="5/gör" to="6/mi"/>
+</Amr>

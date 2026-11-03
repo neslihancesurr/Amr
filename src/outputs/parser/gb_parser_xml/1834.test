@@ -1,0 +1,16 @@
+<Amr sentence="Dün sokakta çok eski bir arkadaşımla karşılaştım .">
+<Word name="7/karşılaş" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="7/karşılaş" to="ben" with="ARG0"/>
+<Word name="1/dün" positionX="750" positionY="200"/>
+<Connection from="7/karşılaş" to="1/dün"/>
+<Word name="2/sokak" positionX="850" positionY="200"/>
+<Connection from="7/karşılaş" to="2/sokak" with="location"/>
+<Word name="6/arkadaş" positionX="950" positionY="200"/>
+<Connection from="7/karşılaş" to="6/arkadaş" with="ARG1"/>
+<Connection from="6/arkadaş" to="ben" with="poss"/>
+<Word name="4/eski" positionX="950" positionY="300"/>
+<Connection from="6/arkadaş" to="4/eski" with="mod"/>
+<Word name="3/çok" positionX="850" positionY="400"/>
+<Connection from="4/eski" to="3/çok" with="degree"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr sentence="Müzenin küratörü , küçücük bir odanın içinde zamanı dondurmuştu .">
+<Word name="9/dondur" positionX="750" positionY="100"/>
+<Word name="2/küratör" positionX="650" positionY="200"/>
+<Connection from="9/dondur" to="2/küratör" with="ARG0"/>
+<Word name="1/müze" positionX="550" positionY="300"/>
+<Connection from="2/küratör" to="1/müze" with="mod"/>
+<Word name="7/içinde" positionX="750" positionY="200"/>
+<Connection from="9/dondur" to="7/içinde"/>
+<Word name="6/oda" positionX="650" positionY="300"/>
+<Connection from="7/içinde" to="6/oda" with="mod"/>
+<Word name="4/küçücük" positionX="550" positionY="400"/>
+<Connection from="6/oda" to="4/küçücük" with="mod"/>
+<Word name="8/zaman" positionX="850" positionY="200"/>
+<Connection from="9/dondur" to="8/zaman" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="8/zaman" to="o" with="poss"/>
+</Amr>

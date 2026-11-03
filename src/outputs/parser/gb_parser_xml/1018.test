@@ -1,0 +1,13 @@
+<Amr sentence="Bunun gibileri bence daha güzel .">
+<Word name="5/güzel" positionX="750" positionY="100"/>
+<Word name="1/bu" positionX="650" positionY="200"/>
+<Connection from="5/güzel" to="1/bu"/>
+<Word name="2/gibiler" positionX="550" positionY="300"/>
+<Connection from="1/bu" to="2/gibiler"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="2/gibiler" to="o" with="poss"/>
+<Word name="3/ben" positionX="750" positionY="200"/>
+<Connection from="5/güzel" to="3/ben"/>
+<Word name="4/daha" positionX="850" positionY="200"/>
+<Connection from="5/güzel" to="4/daha" with="degree"/>
+</Amr>

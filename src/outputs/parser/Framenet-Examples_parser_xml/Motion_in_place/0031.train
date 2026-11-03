@@ -1,0 +1,11 @@
+<Amr sentence="Meşe yaprağı gibi yelpirdedim .">
+<Word name="4/yelpirde" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/yelpirde" to="ben" with="ARG0"/>
+<Word name="2/yaprak" positionX="750" positionY="200"/>
+<Connection from="4/yelpirde" to="2/yaprak" with="mod"/>
+<Word name="1/meşe" positionX="650" positionY="300"/>
+<Connection from="2/yaprak" to="1/meşe" with="mod"/>
+<Word name="3/gibi" positionX="750" positionY="300"/>
+<Connection from="2/yaprak" to="3/gibi"/>
+</Amr>

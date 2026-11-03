@@ -1,0 +1,9 @@
+<Amr sentence="otuz metre derinliğinde bir kuyu">
+<Word name="5/kuyu" positionX="750" positionY="100"/>
+<Word name="3/derinlik" positionX="650" positionY="200"/>
+<Connection from="5/kuyu" to="3/derinlik" with="mod"/>
+<Word name="2/metre" positionX="550" positionY="300"/>
+<Connection from="3/derinlik" to="2/metre" with="mod"/>
+<Word name="1/otuz" positionX="450" positionY="400"/>
+<Connection from="2/metre" to="1/otuz"/>
+</Amr>

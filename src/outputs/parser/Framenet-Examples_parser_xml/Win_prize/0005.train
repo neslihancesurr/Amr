@@ -1,0 +1,16 @@
+<Amr sentence="Partiyi vurduk , artık yaşamımız daha rahat .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/parti 2/vur" positionX="650" positionY="200"/>
+<Connection from="and" to="1/parti 2/vur" with="op1"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="1/parti 2/vur" to="biz" with="ARG0"/>
+<Word name="7/rahat" positionX="750" positionY="200"/>
+<Connection from="and" to="7/rahat" with="op2"/>
+<Word name="4/artık" positionX="650" positionY="300"/>
+<Connection from="7/rahat" to="4/artık" with="manner"/>
+<Word name="5/yaşam" positionX="750" positionY="300"/>
+<Connection from="7/rahat" to="5/yaşam"/>
+<Connection from="5/yaşam" to="biz" with="poss"/>
+<Word name="6/daha" positionX="850" positionY="300"/>
+<Connection from="7/rahat" to="6/daha" with="degree"/>
+</Amr>

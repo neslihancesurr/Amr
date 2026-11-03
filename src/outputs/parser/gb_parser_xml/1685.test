@@ -1,0 +1,20 @@
+<Amr sentence="Yeni evimizden işime bisikletle gidemeyeceğim .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="5/git" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="5/git"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="5/git" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="5/git" to="ben" with="ARG0"/>
+<Word name="2/ev" positionX="750" positionY="300"/>
+<Connection from="5/git" to="2/ev"/>
+<Word name="biz" positionX="650" positionY="400"/>
+<Connection from="2/ev" to="biz" with="poss"/>
+<Word name="1/yeni" positionX="750" positionY="400"/>
+<Connection from="2/ev" to="1/yeni" with="mod"/>
+<Word name="3/iş" positionX="850" positionY="300"/>
+<Connection from="5/git" to="3/iş" with="ARG1"/>
+<Connection from="3/iş" to="ben" with="poss"/>
+<Word name="4/bisiklet" positionX="950" positionY="300"/>
+<Connection from="5/git" to="4/bisiklet" with="instrument"/>
+</Amr>

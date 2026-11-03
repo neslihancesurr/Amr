@@ -1,0 +1,5 @@
+<Amr sentence="Bisikletçi , rekor üstüne rekor kırdı .">
+<Word name="5/rekor 6/kır" positionX="750" positionY="100"/>
+<Word name="1/bisikletçi" positionX="650" positionY="200"/>
+<Connection from="5/rekor 6/kır" to="1/bisikletçi" with="ARG0"/>
+</Amr>

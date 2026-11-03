@@ -1,0 +1,13 @@
+<Amr sentence="Kâğıt parasını oyuna başlamadan peşinen cepten vereceğiz .">
+<Word name="6/cep 7/ver" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="6/cep 7/ver" to="biz" with="ARG0"/>
+<Word name="1/kâğıt 2/para" positionX="750" positionY="200"/>
+<Connection from="6/cep 7/ver" to="1/kâğıt 2/para" with="ARG1"/>
+<Word name="4/başlama" positionX="850" positionY="200"/>
+<Connection from="6/cep 7/ver" to="4/başlama"/>
+<Word name="3/oyun" positionX="750" positionY="300"/>
+<Connection from="4/başlama" to="3/oyun"/>
+<Word name="5/peşinen" positionX="950" positionY="200"/>
+<Connection from="6/cep 7/ver" to="5/peşinen" with="manner"/>
+</Amr>

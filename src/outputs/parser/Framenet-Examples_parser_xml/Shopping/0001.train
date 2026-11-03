@@ -1,0 +1,9 @@
+<Amr sentence="Teyzeler her hafta alışverişe çıkar .">
+<Word name="4/alışveriş 5/çık" positionX="750" positionY="100"/>
+<Word name="1/teyze" positionX="650" positionY="200"/>
+<Connection from="4/alışveriş 5/çık" to="1/teyze" with="ARG0"/>
+<Word name="3/hafta" positionX="750" positionY="200"/>
+<Connection from="4/alışveriş 5/çık" to="3/hafta"/>
+<Word name="2/her" positionX="650" positionY="300"/>
+<Connection from="3/hafta" to="2/her" with="mod"/>
+</Amr>

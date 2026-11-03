@@ -1,0 +1,20 @@
+<Amr sentence="Her ne olursa olsun çocukların bursları kesintiye uğramayacak .">
+<Word name="7/kesinti 8/uğra" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="7/kesinti 8/uğra" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="7/kesinti 8/uğra" to="o" with="ARG0"/>
+<Word name="3/ol 4/ol" positionX="850" positionY="200"/>
+<Connection from="7/kesinti 8/uğra" to="3/ol 4/ol" with="cond"/>
+<Connection from="3/ol 4/ol" to="o" with="ARG0"/>
+<Word name="imperative" positionX="850" positionY="300"/>
+<Connection from="3/ol 4/ol" to="imperative" with="mode"/>
+<Word name="2/ne" positionX="950" positionY="300"/>
+<Connection from="3/ol 4/ol" to="2/ne"/>
+<Word name="1/her" positionX="850" positionY="400"/>
+<Connection from="2/ne" to="1/her" with="mod"/>
+<Word name="6/burs" positionX="950" positionY="200"/>
+<Connection from="7/kesinti 8/uğra" to="6/burs" with="ARG1"/>
+<Word name="5/çocuk" positionX="850" positionY="300"/>
+<Connection from="6/burs" to="5/çocuk" with="mod"/>
+</Amr>

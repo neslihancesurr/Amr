@@ -1,0 +1,13 @@
+<Amr sentence="Daha büyük bir arabamız olsa .">
+<Word name="5/ol" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/ol" to="o" with="ARG0"/>
+<Word name="4/araba" positionX="750" positionY="200"/>
+<Connection from="5/ol" to="4/araba" with="ARG1"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="4/araba" to="biz" with="poss"/>
+<Word name="2/büyük" positionX="750" positionY="300"/>
+<Connection from="4/araba" to="2/büyük" with="mod"/>
+<Word name="1/daha" positionX="650" positionY="400"/>
+<Connection from="2/büyük" to="1/daha" with="degree"/>
+</Amr>

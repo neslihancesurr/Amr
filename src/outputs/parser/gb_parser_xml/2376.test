@@ -1,0 +1,31 @@
+<Amr sentence="Zehra torununu görmek istediği için Bursa'ya uğradık .">
+<Word name="7/uğra" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="7/uğra" to="biz" with="ARG0"/>
+<Word name="4/iste" positionX="750" positionY="200"/>
+<Connection from="7/uğra" to="4/iste" with="cause"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="4/iste" to="o" with="ARG0"/>
+<Connection from="4/iste" to="o" with="poss"/>
+<Word name="person" positionX="850" positionY="300"/>
+<Connection from="4/iste" to="person"/>
+<Word name="name" positionX="750" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/zehra" positionX="650" positionY="500"/>
+<Connection from="name" to="1/zehra" with="op1"/>
+<Word name="-" positionX="850" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/gör" positionX="950" positionY="300"/>
+<Connection from="4/iste" to="3/gör"/>
+<Connection from="3/gör" to="o" with="ARG0"/>
+<Word name="2/torun" positionX="950" positionY="400"/>
+<Connection from="3/gör" to="2/torun"/>
+<Connection from="2/torun" to="o" with="poss"/>
+<Word name="city" positionX="850" positionY="200"/>
+<Connection from="7/uğra" to="city"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="6/bursa" positionX="650" positionY="400"/>
+<Connection from="name" to="6/bursa" with="op1"/>
+<Word name="bursa" positionX="850" positionY="300"/>
+<Connection from="city" to="bursa" with="wiki"/>
+</Amr>

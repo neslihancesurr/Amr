@@ -1,0 +1,9 @@
+<Amr sentence="Artık eve gidiyorum .">
+<Word name="3/git" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/git" to="ben" with="ARG0"/>
+<Word name="1/artık" positionX="750" positionY="200"/>
+<Connection from="3/git" to="1/artık" with="manner"/>
+<Word name="2/ev" positionX="850" positionY="200"/>
+<Connection from="3/git" to="2/ev" with="ARG1"/>
+</Amr>

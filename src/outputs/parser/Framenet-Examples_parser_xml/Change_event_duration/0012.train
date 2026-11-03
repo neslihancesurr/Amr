@@ -1,0 +1,9 @@
+<Amr sentence="Yeni personel sürekli işi savsaklıyor .">
+<Word name="4/iş 5/savsakla" positionX="750" positionY="100"/>
+<Word name="2/personel" positionX="650" positionY="200"/>
+<Connection from="4/iş 5/savsakla" to="2/personel" with="ARG0"/>
+<Word name="1/yeni" positionX="550" positionY="300"/>
+<Connection from="2/personel" to="1/yeni" with="mod"/>
+<Word name="3/sürekli" positionX="750" positionY="200"/>
+<Connection from="4/iş 5/savsakla" to="3/sürekli" with="frequency"/>
+</Amr>

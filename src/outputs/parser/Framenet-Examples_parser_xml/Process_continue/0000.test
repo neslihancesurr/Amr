@@ -1,0 +1,18 @@
+<Amr sentence="Çok sürmez , her şey düzelir .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/sür" positionX="650" positionY="200"/>
+<Connection from="and" to="2/sür" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="2/sür" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/sür" to="o" with="ARG0"/>
+<Word name="1/çok" positionX="750" positionY="300"/>
+<Connection from="2/sür" to="1/çok" with="degree"/>
+<Word name="6/düzel" positionX="750" positionY="200"/>
+<Connection from="and" to="6/düzel" with="op2"/>
+<Connection from="6/düzel" to="o" with="ARG0"/>
+<Word name="5/şey" positionX="750" positionY="300"/>
+<Connection from="6/düzel" to="5/şey" with="ARG1"/>
+<Word name="4/her" positionX="650" positionY="400"/>
+<Connection from="5/şey" to="4/her" with="mod"/>
+</Amr>

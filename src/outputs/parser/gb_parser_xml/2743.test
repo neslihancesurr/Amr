@@ -1,0 +1,11 @@
+<Amr sentence="Dolayısıyla araba kullanamaz .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="2/araba 3/kullan" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="2/araba 3/kullan"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="2/araba 3/kullan" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/araba 3/kullan" to="o" with="ARG0"/>
+<Word name="1/dolayısıyla" positionX="750" positionY="300"/>
+<Connection from="2/araba 3/kullan" to="1/dolayısıyla" with="manner"/>
+</Amr>

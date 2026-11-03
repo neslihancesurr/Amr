@@ -1,0 +1,23 @@
+<Amr sentence="İçimde Ahmet'i görebilsem özlemi depreşti .">
+<Word name="5/depreş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/depreş" to="o" with="ARG0"/>
+<Word name="1/iç" positionX="750" positionY="200"/>
+<Connection from="5/depreş" to="1/iç" with="location"/>
+<Word name="4/özlem" positionX="850" positionY="200"/>
+<Connection from="5/depreş" to="4/özlem"/>
+<Word name="mümkün" positionX="750" positionY="300"/>
+<Connection from="4/özlem" to="mümkün"/>
+<Word name="3/gör" positionX="650" positionY="400"/>
+<Connection from="mümkün" to="3/gör"/>
+<Word name="ben" positionX="550" positionY="500"/>
+<Connection from="3/gör" to="ben" with="ARG0"/>
+<Word name="person" positionX="650" positionY="500"/>
+<Connection from="3/gör" to="person"/>
+<Word name="name" positionX="550" positionY="600"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/ahmet" positionX="450" positionY="700"/>
+<Connection from="name" to="2/ahmet" with="op1"/>
+<Word name="-" positionX="650" positionY="600"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

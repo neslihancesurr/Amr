@@ -1,0 +1,7 @@
+<Amr sentence="sevdiğim ağaçlar">
+<Word name="2/ağaç" positionX="750" positionY="100"/>
+<Word name="1/sev" positionX="650" positionY="200"/>
+<Connection from="2/ağaç" to="1/sev"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="1/sev" to="ben" with="poss"/>
+</Amr>

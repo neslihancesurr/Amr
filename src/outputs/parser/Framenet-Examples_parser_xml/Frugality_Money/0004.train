@@ -1,0 +1,21 @@
+<Amr sentence="Size karşı da çok mahcup oldum , benim için ne kadar masrafa girmişsiniz !">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/mahcup 6/ol" positionX="650" positionY="200"/>
+<Connection from="and" to="5/mahcup 6/ol" with="op1"/>
+<Word name="1/siz" positionX="550" positionY="300"/>
+<Connection from="5/mahcup 6/ol" to="1/siz"/>
+<Word name="2/karşı" positionX="450" positionY="400"/>
+<Connection from="1/siz" to="2/karşı"/>
+<Word name="3/da" positionX="550" positionY="400"/>
+<Connection from="1/siz" to="3/da" with="manner"/>
+<Word name="4/çok" positionX="650" positionY="300"/>
+<Connection from="5/mahcup 6/ol" to="4/çok" with="degree"/>
+<Word name="12/masraf 13/gir" positionX="750" positionY="200"/>
+<Connection from="and" to="12/masraf 13/gir" with="op2"/>
+<Word name="8/ben" positionX="650" positionY="300"/>
+<Connection from="12/masraf 13/gir" to="8/ben" with="ARG1"/>
+<Word name="9/için" positionX="550" positionY="400"/>
+<Connection from="8/ben" to="9/için"/>
+<Word name="10/ne 11/kadar" positionX="750" positionY="300"/>
+<Connection from="12/masraf 13/gir" to="10/ne 11/kadar" with="manner"/>
+</Amr>

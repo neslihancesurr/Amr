@@ -1,0 +1,13 @@
+<Amr sentence="Başına dikilip onu rahatsız etmiş , mızmızlanıp durmuş .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/rahat 5/et" positionX="650" positionY="200"/>
+<Connection from="and" to="4/rahat 5/et" with="op1"/>
+<Word name="1/baş 2/dikil" positionX="550" positionY="300"/>
+<Connection from="4/rahat 5/et" to="1/baş 2/dikil"/>
+<Word name="3/o" positionX="650" positionY="300"/>
+<Connection from="4/rahat 5/et" to="3/o"/>
+<Word name="8/dur" positionX="750" positionY="200"/>
+<Connection from="and" to="8/dur" with="op2"/>
+<Word name="7/mızmızlan" positionX="650" positionY="300"/>
+<Connection from="8/dur" to="7/mızmızlan"/>
+</Amr>

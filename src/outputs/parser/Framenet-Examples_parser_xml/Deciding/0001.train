@@ -1,0 +1,21 @@
+<Amr sentence="Onları dinledikten sonra karşı tarafı da dinleyip öylelikle kavlükarar edecekler .">
+<Word name="9/kavlükarar 10/et" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="9/kavlükarar 10/et" to="onlar" with="ARG0"/>
+<Word name="2/dinle" positionX="750" positionY="200"/>
+<Connection from="9/kavlükarar 10/et" to="2/dinle"/>
+<Word name="1/o" positionX="650" positionY="300"/>
+<Connection from="2/dinle" to="1/o" with="ARG1"/>
+<Word name="3/sonra" positionX="750" positionY="300"/>
+<Connection from="2/dinle" to="3/sonra"/>
+<Word name="7/dinle" positionX="850" positionY="200"/>
+<Connection from="9/kavlükarar 10/et" to="7/dinle"/>
+<Word name="5/taraf" positionX="750" positionY="300"/>
+<Connection from="7/dinle" to="5/taraf" with="ARG1"/>
+<Word name="4/karşı" positionX="650" positionY="400"/>
+<Connection from="5/taraf" to="4/karşı" with="mod"/>
+<Word name="6/da" positionX="750" positionY="400"/>
+<Connection from="5/taraf" to="6/da" with="manner"/>
+<Word name="8/öylelikle" positionX="950" positionY="200"/>
+<Connection from="9/kavlükarar 10/et" to="8/öylelikle" with="manner"/>
+</Amr>

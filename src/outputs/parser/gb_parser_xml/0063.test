@@ -1,0 +1,16 @@
+<Amr sentence="Soner'i moneri görmedim .">
+<Word name="3/gör" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/gör" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="3/gör" to="ben" with="ARG0"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="3/gör" to="person" with="ARG1"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/soner" positionX="650" positionY="400"/>
+<Connection from="name" to="1/soner" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/moner" positionX="950" positionY="300"/>
+<Connection from="person" to="2/moner"/>
+</Amr>

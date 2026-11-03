@@ -1,0 +1,14 @@
+<Amr sentence="Düğün hazırlıkları yaparken birikmiş parasını harcadı .">
+<Word name="6/harca" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/harca" to="o" with="ARG0"/>
+<Word name="2/hazırlık 3/yap" positionX="750" positionY="200"/>
+<Connection from="6/harca" to="2/hazırlık 3/yap"/>
+<Word name="1/düğün" positionX="650" positionY="300"/>
+<Connection from="2/hazırlık 3/yap" to="1/düğün" with="mod"/>
+<Word name="5/para" positionX="850" positionY="200"/>
+<Connection from="6/harca" to="5/para" with="ARG1"/>
+<Connection from="5/para" to="o" with="poss"/>
+<Word name="4/birik" positionX="850" positionY="300"/>
+<Connection from="5/para" to="4/birik"/>
+</Amr>

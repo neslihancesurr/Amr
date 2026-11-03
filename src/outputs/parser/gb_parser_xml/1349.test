@@ -1,0 +1,17 @@
+<Amr sentence="Murat'ın mı evi satılmış ?">
+<Word name="4/sat" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/sat" to="o" with="ARG0"/>
+<Word name="3/ev" positionX="750" positionY="200"/>
+<Connection from="4/sat" to="3/ev" with="ARG1"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="3/ev" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/murat" positionX="450" positionY="500"/>
+<Connection from="name" to="1/murat" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/mi" positionX="750" positionY="400"/>
+<Connection from="person" to="2/mi"/>
+</Amr>

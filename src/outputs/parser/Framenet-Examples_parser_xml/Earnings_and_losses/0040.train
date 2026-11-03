@@ -1,0 +1,18 @@
+<Amr sentence="Bu teklifi kabul et , cebi para görsün .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/kabul 4/et" positionX="650" positionY="200"/>
+<Connection from="and" to="3/kabul 4/et" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="3/kabul 4/et" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="650" positionY="300"/>
+<Connection from="3/kabul 4/et" to="imperative" with="mode"/>
+<Word name="2/teklif" positionX="750" positionY="300"/>
+<Connection from="3/kabul 4/et" to="2/teklif" with="ARG1"/>
+<Word name="1/bu" positionX="650" positionY="400"/>
+<Connection from="2/teklif" to="1/bu" with="mod"/>
+<Word name="6/cep 7/para 8/gör" positionX="750" positionY="200"/>
+<Connection from="and" to="6/cep 7/para 8/gör" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="6/cep 7/para 8/gör" to="o" with="ARG0"/>
+<Connection from="6/cep 7/para 8/gör" to="imperative" with="mode"/>
+</Amr>

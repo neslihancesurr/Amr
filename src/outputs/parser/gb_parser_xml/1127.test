@@ -1,0 +1,9 @@
+<Amr sentence="bahçenin yağmurdan önceki hali">
+<Word name="4/hal" positionX="750" positionY="100"/>
+<Word name="1/bahçe" positionX="650" positionY="200"/>
+<Connection from="4/hal" to="1/bahçe" with="mod"/>
+<Word name="3/önceki" positionX="750" positionY="200"/>
+<Connection from="4/hal" to="3/önceki" with="mod"/>
+<Word name="2/yağmur" positionX="650" positionY="300"/>
+<Connection from="3/önceki" to="2/yağmur" with="mod"/>
+</Amr>

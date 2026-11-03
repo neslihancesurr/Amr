@@ -1,0 +1,21 @@
+<Amr sentence="Ben onu görmemişçesine , gözlerimi ileriye dikerek yan yola kıvrıldım .">
+<Word name="10/kıvrıl" positionX="750" positionY="100"/>
+<Word name="3/gör" positionX="650" positionY="200"/>
+<Connection from="10/kıvrıl" to="3/gör"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="3/gör" to="-" with="polarity"/>
+<Word name="1/ben" positionX="650" positionY="300"/>
+<Connection from="3/gör" to="1/ben"/>
+<Word name="2/o" positionX="750" positionY="300"/>
+<Connection from="3/gör" to="2/o"/>
+<Word name="7/dik" positionX="750" positionY="200"/>
+<Connection from="10/kıvrıl" to="7/dik"/>
+<Word name="5/göz" positionX="650" positionY="300"/>
+<Connection from="7/dik" to="5/göz"/>
+<Word name="ben" positionX="550" positionY="400"/>
+<Connection from="5/göz" to="ben" with="poss"/>
+<Word name="6/ileri" positionX="750" positionY="300"/>
+<Connection from="7/dik" to="6/ileri"/>
+<Word name="8/yan 9/yol" positionX="850" positionY="200"/>
+<Connection from="10/kıvrıl" to="8/yan 9/yol" with="mod"/>
+</Amr>

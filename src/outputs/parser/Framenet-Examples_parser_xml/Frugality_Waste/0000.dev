@@ -1,0 +1,21 @@
+<Amr sentence="Bütün bu projeler süresince israfa kaçma lütfen mümkünse .">
+<Word name="5/israf 6/kaç" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/israf 6/kaç" to="-" with="polarity"/>
+<Word name="sen" positionX="750" positionY="200"/>
+<Connection from="5/israf 6/kaç" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="850" positionY="200"/>
+<Connection from="5/israf 6/kaç" to="imperative" with="mode"/>
+<Word name="4/süresince" positionX="950" positionY="200"/>
+<Connection from="5/israf 6/kaç" to="4/süresince"/>
+<Word name="3/proje" positionX="850" positionY="300"/>
+<Connection from="4/süresince" to="3/proje" with="mod"/>
+<Word name="1/bütün" positionX="750" positionY="400"/>
+<Connection from="3/proje" to="1/bütün" with="mod"/>
+<Word name="2/bu" positionX="850" positionY="400"/>
+<Connection from="3/proje" to="2/bu" with="mod"/>
+<Word name="7/lütfen" positionX="1050" positionY="200"/>
+<Connection from="5/israf 6/kaç" to="7/lütfen"/>
+<Word name="8/mümkün" positionX="1150" positionY="200"/>
+<Connection from="5/israf 6/kaç" to="8/mümkün" with="cond"/>
+</Amr>

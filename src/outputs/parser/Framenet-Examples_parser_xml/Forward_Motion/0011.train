@@ -1,0 +1,13 @@
+<Amr sentence="Bu işin arkasından çok koşuldu .">
+<Word name="5/koş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/koş" to="o" with="ARG0"/>
+<Word name="3/arka" positionX="750" positionY="200"/>
+<Connection from="5/koş" to="3/arka"/>
+<Word name="2/iş" positionX="650" positionY="300"/>
+<Connection from="3/arka" to="2/iş" with="mod"/>
+<Word name="1/bu" positionX="550" positionY="400"/>
+<Connection from="2/iş" to="1/bu" with="mod"/>
+<Word name="4/çok" positionX="850" positionY="200"/>
+<Connection from="5/koş" to="4/çok" with="degree"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Firdevs Hanım işi anladı .">
+<Word name="3/iş 4/anla" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="3/iş 4/anla" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/firdevs" positionX="450" positionY="400"/>
+<Connection from="name" to="1/firdevs" with="op1"/>
+<Word name="2/hanım" positionX="550" positionY="400"/>
+<Connection from="name" to="2/hanım" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

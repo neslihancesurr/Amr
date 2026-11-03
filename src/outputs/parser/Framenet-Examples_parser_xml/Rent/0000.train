@@ -1,0 +1,29 @@
+<Amr sentence="Öğrencilerin bir bölümü , ilk yılı yurtta geçirse bile ikinci yıldan başlayarak eve çıkmayı yeğler .">
+<Word name="15/yeğle" positionX="750" positionY="100"/>
+<Word name="3/bölüm" positionX="650" positionY="200"/>
+<Connection from="15/yeğle" to="3/bölüm" with="ARG0"/>
+<Word name="1/öğrenci" positionX="550" positionY="300"/>
+<Connection from="3/bölüm" to="1/öğrenci" with="mod"/>
+<Word name="8/geçir" positionX="750" positionY="200"/>
+<Connection from="15/yeğle" to="8/geçir"/>
+<Word name="6/yıl" positionX="650" positionY="300"/>
+<Connection from="8/geçir" to="6/yıl" with="ARG1"/>
+<Word name="5/ilk" positionX="550" positionY="400"/>
+<Connection from="6/yıl" to="5/ilk" with="mod"/>
+<Word name="7/yurt" positionX="750" positionY="300"/>
+<Connection from="8/geçir" to="7/yurt" with="location"/>
+<Word name="9/bile" positionX="850" positionY="300"/>
+<Connection from="8/geçir" to="9/bile" with="manner"/>
+<Word name="12/başla" positionX="850" positionY="200"/>
+<Connection from="15/yeğle" to="12/başla"/>
+<Word name="11/yıl" positionX="750" positionY="300"/>
+<Connection from="12/başla" to="11/yıl"/>
+<Word name="ordinal-entity" positionX="650" positionY="400"/>
+<Connection from="11/yıl" to="ordinal-entity" with="ord"/>
+<Word name="2" positionX="550" positionY="500"/>
+<Connection from="ordinal-entity" to="2" with="value"/>
+<Word name="13/ev 14/çık" positionX="950" positionY="200"/>
+<Connection from="15/yeğle" to="13/ev 14/çık" with="ARG1"/>
+<Word name="o" positionX="850" positionY="300"/>
+<Connection from="13/ev 14/çık" to="o" with="ARG0"/>
+</Amr>

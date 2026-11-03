@@ -1,0 +1,20 @@
+<Amr sentence="Kalabalık fazlalaşmış , oraya gitmesek daha iyi olur .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/fazlalaş" positionX="650" positionY="200"/>
+<Connection from="and" to="2/fazlalaş" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/fazlalaş" to="o" with="ARG0"/>
+<Word name="1/kalabalık" positionX="650" positionY="300"/>
+<Connection from="2/fazlalaş" to="1/kalabalık" with="ARG1"/>
+<Word name="7/iyi 8/ol" positionX="750" positionY="200"/>
+<Connection from="and" to="7/iyi 8/ol" with="op2"/>
+<Connection from="7/iyi 8/ol" to="o" with="ARG0"/>
+<Word name="5/git" positionX="750" positionY="300"/>
+<Connection from="7/iyi 8/ol" to="5/git"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="5/git" to="-" with="polarity"/>
+<Word name="biz" positionX="750" positionY="400"/>
+<Connection from="5/git" to="biz" with="ARG0"/>
+<Word name="4/oraya" positionX="850" positionY="400"/>
+<Connection from="5/git" to="4/oraya" with="ARG1"/>
+</Amr>

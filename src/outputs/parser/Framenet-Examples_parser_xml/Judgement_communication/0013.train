@@ -1,0 +1,15 @@
+<Amr sentence="Sözlerinden dolayı ailesi onu çok eleştirdi .">
+<Word name="6/eleştir" positionX="750" positionY="100"/>
+<Word name="1/sözle" positionX="650" positionY="200"/>
+<Connection from="6/eleştir" to="1/sözle" with="mod"/>
+<Word name="2/dolayı" positionX="550" positionY="300"/>
+<Connection from="1/sözle" to="2/dolayı"/>
+<Word name="3/aile" positionX="750" positionY="200"/>
+<Connection from="6/eleştir" to="3/aile" with="ARG0"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/aile" to="o" with="poss"/>
+<Word name="4/o" positionX="850" positionY="200"/>
+<Connection from="6/eleştir" to="4/o" with="ARG1"/>
+<Word name="5/çok" positionX="950" positionY="200"/>
+<Connection from="6/eleştir" to="5/çok" with="degree"/>
+</Amr>

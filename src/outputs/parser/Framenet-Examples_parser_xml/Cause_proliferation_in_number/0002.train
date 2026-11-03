@@ -1,0 +1,19 @@
+<Amr sentence="Konser alanı resmen taşıyordu , herkes dip dibeydi .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/taş" positionX="650" positionY="200"/>
+<Connection from="and" to="4/taş" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/taş" to="o" with="ARG0"/>
+<Word name="2/alan" positionX="650" positionY="300"/>
+<Connection from="4/taş" to="2/alan" with="ARG1"/>
+<Word name="1/konser" positionX="550" positionY="400"/>
+<Connection from="2/alan" to="1/konser" with="mod"/>
+<Word name="3/resmen" positionX="750" positionY="300"/>
+<Connection from="4/taş" to="3/resmen" with="manner"/>
+<Word name="7/dip 8/dip" positionX="750" positionY="200"/>
+<Connection from="and" to="7/dip 8/dip" with="op2"/>
+<Word name="6/herkes" positionX="650" positionY="300"/>
+<Connection from="7/dip 8/dip" to="6/herkes"/>
+<Word name="onlar" positionX="550" positionY="400"/>
+<Connection from="6/herkes" to="onlar" with="poss"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Sen bir yere gitmeyi düşünüyor muydun ?">
+<Word name="5/düşün" positionX="750" positionY="100"/>
+<Word name="1/sen" positionX="650" positionY="200"/>
+<Connection from="5/düşün" to="1/sen" with="ARG0"/>
+<Word name="4/gitme" positionX="750" positionY="200"/>
+<Connection from="5/düşün" to="4/gitme" with="ARG1"/>
+<Word name="3/yer" positionX="650" positionY="300"/>
+<Connection from="4/gitme" to="3/yer"/>
+<Word name="6/mi" positionX="850" positionY="200"/>
+<Connection from="5/düşün" to="6/mi"/>
+</Amr>

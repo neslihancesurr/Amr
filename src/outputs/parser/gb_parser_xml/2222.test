@@ -1,0 +1,11 @@
+<Amr sentence="içki içilebilecek olan lokantalar">
+<Word name="4/lokanta" positionX="750" positionY="100"/>
+<Word name="3/ol" positionX="650" positionY="200"/>
+<Connection from="4/lokanta" to="3/ol"/>
+<Word name="mümkün" positionX="550" positionY="300"/>
+<Connection from="3/ol" to="mümkün"/>
+<Word name="2/iç" positionX="450" positionY="400"/>
+<Connection from="mümkün" to="2/iç"/>
+<Word name="1/içki" positionX="350" positionY="500"/>
+<Connection from="2/iç" to="1/içki"/>
+</Amr>

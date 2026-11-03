@@ -1,0 +1,9 @@
+<Amr sentence="Sorun yaratacağı belli .">
+<Word name="3/belli" positionX="750" positionY="100"/>
+<Word name="2/yarat" positionX="650" positionY="200"/>
+<Connection from="3/belli" to="2/yarat"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/yarat" to="o" with="poss"/>
+<Word name="1/sorun" positionX="650" positionY="300"/>
+<Connection from="2/yarat" to="1/sorun" with="ARG1"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Pazartesi hepimiz işbaşı yapıyoruz .">
+<Word name="3/işbaş 4/yap" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="3/işbaş 4/yap" to="biz" with="ARG0"/>
+<Word name="date-entity" positionX="750" positionY="200"/>
+<Connection from="3/işbaş 4/yap" to="date-entity" with="date"/>
+<Word name="1/pazartesi" positionX="650" positionY="300"/>
+<Connection from="date-entity" to="1/pazartesi" with="weekday"/>
+<Word name="2/hep" positionX="850" positionY="200"/>
+<Connection from="3/işbaş 4/yap" to="2/hep" with="frequency"/>
+</Amr>

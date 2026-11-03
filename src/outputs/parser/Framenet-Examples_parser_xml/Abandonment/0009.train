@@ -1,0 +1,18 @@
+<Amr sentence="Toprağı dinlendirmek için tarlayı biraz nadasa bırakın .">
+<Word name="6/nadas 7/bırak" positionX="750" positionY="100"/>
+<Word name="siz" positionX="650" positionY="200"/>
+<Connection from="6/nadas 7/bırak" to="siz" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="6/nadas 7/bırak" to="imperative" with="mode"/>
+<Word name="2/dinlendir" positionX="850" positionY="200"/>
+<Connection from="6/nadas 7/bırak" to="2/dinlendir" with="cause"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="2/dinlendir" to="o" with="ARG0"/>
+<Word name="1/toprak" positionX="850" positionY="300"/>
+<Connection from="2/dinlendir" to="1/toprak" with="ARG1"/>
+<Connection from="1/toprak" to="o" with="poss"/>
+<Word name="4/tarla" positionX="950" positionY="200"/>
+<Connection from="6/nadas 7/bırak" to="4/tarla" with="ARG1"/>
+<Word name="5/biraz" positionX="1050" positionY="200"/>
+<Connection from="6/nadas 7/bırak" to="5/biraz" with="manner"/>
+</Amr>

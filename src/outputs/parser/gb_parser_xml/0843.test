@@ -1,0 +1,17 @@
+<Amr sentence="Yavaşça Jale'nin koluna dokundu .">
+<Word name="4/dokun" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/dokun" to="o" with="ARG0"/>
+<Word name="1/yavaşça" positionX="750" positionY="200"/>
+<Connection from="4/dokun" to="1/yavaşça" with="manner"/>
+<Word name="3/kol" positionX="850" positionY="200"/>
+<Connection from="4/dokun" to="3/kol"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="3/kol" to="person"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/jale" positionX="550" positionY="500"/>
+<Connection from="name" to="2/jale" with="op1"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

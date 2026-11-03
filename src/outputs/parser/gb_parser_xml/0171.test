@@ -1,0 +1,7 @@
+<Amr sentence="Yaparım da .">
+<Word name="1/yap" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="1/yap" to="ben" with="ARG0"/>
+<Word name="2/da" positionX="750" positionY="200"/>
+<Connection from="1/yap" to="2/da"/>
+</Amr>

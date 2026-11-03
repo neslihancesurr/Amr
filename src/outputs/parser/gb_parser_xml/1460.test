@@ -1,0 +1,15 @@
+<Amr sentence="Yoksa çocuklara daha yemek vermedin mi ?">
+<Word name="4/yemek 5/ver" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/yemek 5/ver" to="-" with="polarity"/>
+<Word name="sen" positionX="750" positionY="200"/>
+<Connection from="4/yemek 5/ver" to="sen" with="ARG0"/>
+<Word name="1/yoksa" positionX="850" positionY="200"/>
+<Connection from="4/yemek 5/ver" to="1/yoksa" with="manner"/>
+<Word name="2/çocuk" positionX="950" positionY="200"/>
+<Connection from="4/yemek 5/ver" to="2/çocuk" with="ARG1"/>
+<Word name="3/daha" positionX="1050" positionY="200"/>
+<Connection from="4/yemek 5/ver" to="3/daha" with="degree"/>
+<Word name="6/mi" positionX="1150" positionY="200"/>
+<Connection from="4/yemek 5/ver" to="6/mi"/>
+</Amr>

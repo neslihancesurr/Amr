@@ -1,0 +1,16 @@
+<Amr sentence="Kafa sallıyordu ama her söyleneni yarım kulakla dinliyordu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/yarım 7/kulak 8/dinle" positionX="650" positionY="200"/>
+<Connection from="and" to="6/yarım 7/kulak 8/dinle" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="6/yarım 7/kulak 8/dinle" to="o" with="ARG0"/>
+<Word name="5/söylen" positionX="650" positionY="300"/>
+<Connection from="6/yarım 7/kulak 8/dinle" to="5/söylen" with="ARG1"/>
+<Connection from="5/söylen" to="o" with="ARG0"/>
+<Connection from="5/söylen" to="o" with="poss"/>
+<Word name="4/her" positionX="750" positionY="400"/>
+<Connection from="5/söylen" to="4/her" with="mod"/>
+<Word name="1/kafa 2/salla" positionX="750" positionY="200"/>
+<Connection from="and" to="1/kafa 2/salla" with="op2"/>
+<Connection from="1/kafa 2/salla" to="o" with="ARG0"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="İki köpek , parkta koklaşıyordu .">
+<Word name="5/koklaş" positionX="750" positionY="100"/>
+<Word name="2/köpek" positionX="650" positionY="200"/>
+<Connection from="5/koklaş" to="2/köpek" with="ARG0"/>
+<Word name="1/iki" positionX="550" positionY="300"/>
+<Connection from="2/köpek" to="1/iki"/>
+<Word name="4/park" positionX="750" positionY="200"/>
+<Connection from="5/koklaş" to="4/park" with="location"/>
+</Amr>

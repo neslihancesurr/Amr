@@ -1,0 +1,17 @@
+<Amr sentence="Çetin koşmuyor diyorsunuz ama o kafası ile oynuyor .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/kafa 7/ile 8/oyna" positionX="650" positionY="200"/>
+<Connection from="and" to="6/kafa 7/ile 8/oyna" with="op1"/>
+<Word name="5/o" positionX="550" positionY="300"/>
+<Connection from="6/kafa 7/ile 8/oyna" to="5/o" with="ARG0"/>
+<Word name="3/de" positionX="750" positionY="200"/>
+<Connection from="and" to="3/de" with="op2"/>
+<Word name="siz" positionX="650" positionY="300"/>
+<Connection from="3/de" to="siz" with="ARG0"/>
+<Word name="2/koş" positionX="750" positionY="300"/>
+<Connection from="3/de" to="2/koş" with="ARG1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="2/koş" to="-" with="polarity"/>
+<Word name="1/çetin" positionX="750" positionY="400"/>
+<Connection from="2/koş" to="1/çetin" with="manner"/>
+</Amr>

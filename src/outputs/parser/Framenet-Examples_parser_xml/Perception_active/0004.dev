@@ -1,0 +1,11 @@
+<Amr sentence="Tuzundan emin olmak için tatlı kaşığıyla çorbanın çeşnisine baktım .">
+<Word name="8/çeşni 9/bak" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="8/çeşni 9/bak" to="ben" with="ARG0"/>
+<Word name="2/emin 3/ol" positionX="750" positionY="200"/>
+<Connection from="8/çeşni 9/bak" to="2/emin 3/ol"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/emin 3/ol" to="o" with="ARG0"/>
+<Word name="5/tatlı 6/kaşık" positionX="850" positionY="200"/>
+<Connection from="8/çeşni 9/bak" to="5/tatlı 6/kaşık" with="mod"/>
+</Amr>

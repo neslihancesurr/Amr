@@ -1,0 +1,17 @@
+<Amr sentence="Bundan başka evlenme hayatı da oldukça başarılı başladı .">
+<Word name="8/başla" positionX="750" positionY="100"/>
+<Word name="1/bu" positionX="650" positionY="200"/>
+<Connection from="8/başla" to="1/bu"/>
+<Word name="2/başka" positionX="550" positionY="300"/>
+<Connection from="1/bu" to="2/başka"/>
+<Word name="4/hayat" positionX="750" positionY="200"/>
+<Connection from="8/başla" to="4/hayat" with="ARG0"/>
+<Word name="3/evlen" positionX="650" positionY="300"/>
+<Connection from="4/hayat" to="3/evlen" with="mod"/>
+<Word name="5/da" positionX="750" positionY="300"/>
+<Connection from="4/hayat" to="5/da" with="manner"/>
+<Word name="7/başarılı" positionX="850" positionY="200"/>
+<Connection from="8/başla" to="7/başarılı" with="manner"/>
+<Word name="6/oldukça" positionX="750" positionY="300"/>
+<Connection from="7/başarılı" to="6/oldukça" with="manner"/>
+</Amr>

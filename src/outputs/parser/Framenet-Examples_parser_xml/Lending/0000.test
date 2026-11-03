@@ -1,0 +1,9 @@
+<Amr sentence="Ali güvenilirdir , borcunu bilir .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/güvenilir" positionX="650" positionY="200"/>
+<Connection from="and" to="2/güvenilir" with="op1"/>
+<Word name="1/ali" positionX="550" positionY="300"/>
+<Connection from="2/güvenilir" to="1/ali"/>
+<Word name="4/borç 5/bil" positionX="750" positionY="200"/>
+<Connection from="and" to="4/borç 5/bil" with="op2"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr sentence="Bahçedeki bazı ağaçlar yapraklarını dökmeye başladı .">
+<Word name="6/başla" positionX="750" positionY="100"/>
+<Word name="3/ağaç" positionX="650" positionY="200"/>
+<Connection from="6/başla" to="3/ağaç" with="ARG0"/>
+<Word name="1/bahçe" positionX="550" positionY="300"/>
+<Connection from="3/ağaç" to="1/bahçe" with="mod"/>
+<Word name="2/bazı" positionX="650" positionY="300"/>
+<Connection from="3/ağaç" to="2/bazı" with="mod"/>
+<Word name="5/dök" positionX="750" positionY="200"/>
+<Connection from="6/başla" to="5/dök" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/dök" to="o" with="ARG0"/>
+<Word name="4/yaprak" positionX="750" positionY="300"/>
+<Connection from="5/dök" to="4/yaprak"/>
+<Word name="onlar" positionX="650" positionY="400"/>
+<Connection from="4/yaprak" to="onlar" with="poss"/>
+</Amr>

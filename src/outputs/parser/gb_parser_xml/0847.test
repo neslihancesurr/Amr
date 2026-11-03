@@ -1,0 +1,19 @@
+<Amr sentence="Yunus Emre Türk halkınca sevilen bir şairdir .">
+<Word name="7/şair" positionX="750" positionY="100"/>
+<Word name="1/yunus" positionX="650" positionY="200"/>
+<Connection from="7/şair" to="1/yunus"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="1/yunus" to="person"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/emre" positionX="350" positionY="500"/>
+<Connection from="name" to="2/emre" with="op1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/sev" positionX="750" positionY="200"/>
+<Connection from="7/şair" to="5/sev"/>
+<Word name="4/halk" positionX="650" positionY="300"/>
+<Connection from="5/sev" to="4/halk"/>
+<Word name="3/türk" positionX="550" positionY="400"/>
+<Connection from="4/halk" to="3/türk" with="mod"/>
+</Amr>

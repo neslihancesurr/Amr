@@ -1,0 +1,18 @@
+<Amr sentence="Yediğiniz şeylerin parasını onun sırtından çıkarmayın .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="5/sırt 6/çık" positionX="650" positionY="200"/>
+<Connection from="yap" to="5/sırt 6/çık"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="5/sırt 6/çık" to="-" with="polarity"/>
+<Word name="siz" positionX="650" positionY="300"/>
+<Connection from="5/sırt 6/çık" to="siz" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="300"/>
+<Connection from="5/sırt 6/çık" to="imperative" with="mode"/>
+<Word name="3/para" positionX="850" positionY="300"/>
+<Connection from="5/sırt 6/çık" to="3/para" with="ARG1"/>
+<Word name="2/şey" positionX="750" positionY="400"/>
+<Connection from="3/para" to="2/şey" with="mod"/>
+<Word name="1/ye" positionX="650" positionY="500"/>
+<Connection from="2/şey" to="1/ye"/>
+<Connection from="1/ye" to="siz" with="poss"/>
+</Amr>

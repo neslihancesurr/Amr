@@ -1,0 +1,17 @@
+<Amr sentence="Parası varsa da harcamak istemiyor .">
+<Word name="5/iste" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/iste" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="5/iste" to="o" with="ARG0"/>
+<Word name="2/var" positionX="850" positionY="200"/>
+<Connection from="5/iste" to="2/var" with="cond"/>
+<Word name="1/para" positionX="750" positionY="300"/>
+<Connection from="2/var" to="1/para"/>
+<Connection from="1/para" to="o" with="poss"/>
+<Word name="3/da" positionX="850" positionY="300"/>
+<Connection from="2/var" to="3/da"/>
+<Word name="4/harca" positionX="950" positionY="200"/>
+<Connection from="5/iste" to="4/harca" with="ARG1"/>
+<Connection from="4/harca" to="o" with="ARG0"/>
+</Amr>

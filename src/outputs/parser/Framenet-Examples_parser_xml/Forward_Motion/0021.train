@@ -1,0 +1,13 @@
+<Amr sentence="Sabah erkenden işe doğru yollandı .">
+<Word name="5/yollan" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/yollan" to="o" with="ARG0"/>
+<Word name="1/sabah" positionX="750" positionY="200"/>
+<Connection from="5/yollan" to="1/sabah" with="mod"/>
+<Word name="2/erkenden" positionX="850" positionY="200"/>
+<Connection from="5/yollan" to="2/erkenden" with="manner"/>
+<Word name="3/iş" positionX="950" positionY="200"/>
+<Connection from="5/yollan" to="3/iş" with="ARG1"/>
+<Word name="4/doğru" positionX="850" positionY="300"/>
+<Connection from="3/iş" to="4/doğru"/>
+</Amr>

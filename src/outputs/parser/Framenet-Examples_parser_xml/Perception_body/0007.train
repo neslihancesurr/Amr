@@ -1,0 +1,17 @@
+<Amr sentence="Yaz günü saatlerce yürüyünce susuzluktan bağrı yandı .">
+<Word name="7/yan" positionX="750" positionY="100"/>
+<Word name="4/yürü" positionX="650" positionY="200"/>
+<Connection from="7/yan" to="4/yürü"/>
+<Word name="2/gün" positionX="550" positionY="300"/>
+<Connection from="4/yürü" to="2/gün" with="mod"/>
+<Word name="1/yaz" positionX="450" positionY="400"/>
+<Connection from="2/gün" to="1/yaz" with="mod"/>
+<Word name="3/saatlerce" positionX="650" positionY="300"/>
+<Connection from="4/yürü" to="3/saatlerce" with="manner"/>
+<Word name="5/susuzluk" positionX="750" positionY="200"/>
+<Connection from="7/yan" to="5/susuzluk"/>
+<Word name="6/bağır" positionX="850" positionY="200"/>
+<Connection from="7/yan" to="6/bağır" with="ARG0"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="6/bağır" to="o" with="poss"/>
+</Amr>

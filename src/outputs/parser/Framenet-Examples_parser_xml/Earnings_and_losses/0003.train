@@ -1,0 +1,11 @@
+<Amr sentence="Bu dükkan yaz mevsiminde para basıyor .">
+<Word name="5/para 6/bas" positionX="750" positionY="100"/>
+<Word name="2/dükkan" positionX="650" positionY="200"/>
+<Connection from="5/para 6/bas" to="2/dükkan" with="ARG0"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/dükkan" to="1/bu" with="mod"/>
+<Word name="4/mevsim" positionX="750" positionY="200"/>
+<Connection from="5/para 6/bas" to="4/mevsim" with="location"/>
+<Word name="3/yaz" positionX="650" positionY="300"/>
+<Connection from="4/mevsim" to="3/yaz" with="mod"/>
+</Amr>

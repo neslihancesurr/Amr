@@ -1,0 +1,13 @@
+<Amr sentence="Hamdi'nin lotodan eli genişledi">
+<Word name="3/el 4/genişle" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="3/el 4/genişle" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/hamdi" positionX="450" positionY="400"/>
+<Connection from="name" to="1/hamdi" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/loto" positionX="750" positionY="200"/>
+<Connection from="3/el 4/genişle" to="2/loto"/>
+</Amr>

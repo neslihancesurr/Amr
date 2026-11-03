@@ -1,0 +1,12 @@
+<Amr sentence="Çuvalla para kazanıyorsun , araba alabilirsin .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/çuval 2/para 3/kazan" positionX="650" positionY="200"/>
+<Connection from="and" to="1/çuval 2/para 3/kazan" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="1/çuval 2/para 3/kazan" to="sen" with="ARG0"/>
+<Word name="6/al" positionX="750" positionY="200"/>
+<Connection from="and" to="6/al" with="op2"/>
+<Connection from="6/al" to="sen" with="ARG0"/>
+<Word name="5/araba" positionX="750" positionY="300"/>
+<Connection from="6/al" to="5/araba" with="ARG1"/>
+</Amr>

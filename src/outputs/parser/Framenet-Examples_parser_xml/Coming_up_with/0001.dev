@@ -1,0 +1,23 @@
+<Amr sentence="Kendime geldiğimde kaçış planımı en ince ayrıntısına kadar zihninde tasarladı .">
+<Word name="9/zihin 10/tasarla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="9/zihin 10/tasarla" to="o" with="ARG0"/>
+<Word name="2/gel" positionX="750" positionY="200"/>
+<Connection from="9/zihin 10/tasarla" to="2/gel"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="2/gel" to="ben" with="ARG0"/>
+<Word name="1/kendi" positionX="750" positionY="300"/>
+<Connection from="2/gel" to="1/kendi"/>
+<Connection from="1/kendi" to="ben" with="poss"/>
+<Word name="4/plan" positionX="850" positionY="200"/>
+<Connection from="9/zihin 10/tasarla" to="4/plan" with="ARG1"/>
+<Connection from="4/plan" to="ben" with="poss"/>
+<Word name="3/kaç" positionX="850" positionY="300"/>
+<Connection from="4/plan" to="3/kaç" with="mod"/>
+<Word name="7/ayrıntı" positionX="950" positionY="200"/>
+<Connection from="9/zihin 10/tasarla" to="7/ayrıntı" with="extent"/>
+<Word name="6/ince" positionX="850" positionY="300"/>
+<Connection from="7/ayrıntı" to="6/ince" with="mod"/>
+<Word name="5/en" positionX="750" positionY="400"/>
+<Connection from="6/ince" to="5/en" with="manner"/>
+</Amr>

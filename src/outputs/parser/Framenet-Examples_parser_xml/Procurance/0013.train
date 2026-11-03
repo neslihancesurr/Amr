@@ -1,0 +1,15 @@
+<Amr sentence="Beleşe konmak onun en iyi bildiği işti .">
+<Word name="7/iş" positionX="750" positionY="100"/>
+<Word name="1/beleş 2/kon" positionX="650" positionY="200"/>
+<Connection from="7/iş" to="1/beleş 2/kon"/>
+<Word name="6/bil" positionX="750" positionY="200"/>
+<Connection from="7/iş" to="6/bil"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="6/bil" to="o" with="poss"/>
+<Word name="3/o" positionX="750" positionY="300"/>
+<Connection from="6/bil" to="3/o" with="ARG0"/>
+<Word name="5/iyi" positionX="850" positionY="300"/>
+<Connection from="6/bil" to="5/iyi" with="manner"/>
+<Word name="4/en" positionX="750" positionY="400"/>
+<Connection from="5/iyi" to="4/en" with="manner"/>
+</Amr>

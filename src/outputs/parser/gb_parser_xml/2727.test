@@ -1,0 +1,20 @@
+<Amr sentence="Babıali , başka bir deyişle Osmanlı hükümeti …">
+<Word name="person" positionX="750" positionY="100"/>
+<Word name="name" positionX="650" positionY="200"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/babıali" positionX="550" positionY="300"/>
+<Connection from="name" to="1/babıali" with="op1"/>
+<Word name="-" positionX="750" positionY="200"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="7/hükümet" positionX="850" positionY="200"/>
+<Connection from="person" to="7/hükümet"/>
+<Word name="5/deyiş" positionX="750" positionY="300"/>
+<Connection from="7/hükümet" to="5/deyiş" with="mod"/>
+<Word name="3/başka" positionX="650" positionY="400"/>
+<Connection from="5/deyiş" to="3/başka" with="mod"/>
+<Connection from="7/hükümet" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="6/osmanlı" positionX="650" positionY="500"/>
+<Connection from="name" to="6/osmanlı" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

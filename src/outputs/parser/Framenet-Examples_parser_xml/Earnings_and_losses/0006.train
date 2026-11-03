@@ -1,0 +1,31 @@
+<Amr sentence="Açıkhava'da , Maksim'de verdiği temsillerle kısa zamanda ün ve para yaptı .">
+<Word name="10/para 11/yap" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="10/para 11/yap" to="o" with="ARG0"/>
+<Word name="5/temsil" positionX="750" positionY="200"/>
+<Connection from="10/para 11/yap" to="5/temsil" with="instrument"/>
+<Word name="4/ver" positionX="650" positionY="300"/>
+<Connection from="5/temsil" to="4/ver"/>
+<Connection from="4/ver" to="o" with="poss"/>
+<Word name="person" positionX="650" positionY="400"/>
+<Connection from="4/ver" to="person" with="location"/>
+<Word name="name" positionX="550" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/açıkhava" positionX="450" positionY="600"/>
+<Connection from="name" to="1/açıkhava" with="op1"/>
+<Word name="-" positionX="650" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="4/ver" to="person" with="location"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/maksim" positionX="550" positionY="600"/>
+<Connection from="name" to="3/maksim" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="7/zaman" positionX="850" positionY="200"/>
+<Connection from="10/para 11/yap" to="7/zaman" with="mod"/>
+<Word name="6/kısa" positionX="750" positionY="300"/>
+<Connection from="7/zaman" to="6/kısa" with="mod"/>
+<Word name="and" positionX="950" positionY="200"/>
+<Connection from="10/para 11/yap" to="and"/>
+<Word name="8/ün" positionX="850" positionY="300"/>
+<Connection from="and" to="8/ün" with="op2"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Adam çok bonkör , her yemekte masrafı çekiyor .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/bonkör" positionX="650" positionY="200"/>
+<Connection from="and" to="3/bonkör" with="op1"/>
+<Word name="1/adam" positionX="550" positionY="300"/>
+<Connection from="3/bonkör" to="1/adam"/>
+<Word name="2/çok" positionX="650" positionY="300"/>
+<Connection from="3/bonkör" to="2/çok" with="degree"/>
+<Word name="7/masraf 8/çek" positionX="750" positionY="200"/>
+<Connection from="and" to="7/masraf 8/çek" with="op2"/>
+<Word name="6/yemek" positionX="650" positionY="300"/>
+<Connection from="7/masraf 8/çek" to="6/yemek" with="ARG1"/>
+<Word name="5/her" positionX="550" positionY="400"/>
+<Connection from="6/yemek" to="5/her" with="mod"/>
+</Amr>

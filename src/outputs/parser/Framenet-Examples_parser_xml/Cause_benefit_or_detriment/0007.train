@@ -1,0 +1,9 @@
+<Amr sentence="Kralım beni affeyledi .">
+<Word name="3/affeyle" positionX="750" positionY="100"/>
+<Word name="1/kral" positionX="650" positionY="200"/>
+<Connection from="3/affeyle" to="1/kral" with="ARG0"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="1/kral" to="ben" with="poss"/>
+<Word name="2/ben" positionX="750" positionY="200"/>
+<Connection from="3/affeyle" to="2/ben" with="ARG1"/>
+</Amr>

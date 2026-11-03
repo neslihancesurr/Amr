@@ -1,0 +1,23 @@
+<Amr sentence="Zeki'yi Fransızca konuşuyor addetmiyorlar .">
+<Word name="4/addet" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/addet" to="-" with="polarity"/>
+<Word name="onlar" positionX="750" positionY="200"/>
+<Connection from="4/addet" to="onlar" with="ARG0"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="4/addet" to="person" with="ARG1"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/zeki" positionX="650" positionY="400"/>
+<Connection from="name" to="1/zeki" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/konuş" positionX="950" positionY="200"/>
+<Connection from="4/addet" to="3/konuş" with="ARG1"/>
+<Word name="o" positionX="850" positionY="300"/>
+<Connection from="3/konuş" to="o" with="ARG0"/>
+<Connection from="3/konuş" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/fransızca" positionX="750" positionY="500"/>
+<Connection from="name" to="2/fransızca" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

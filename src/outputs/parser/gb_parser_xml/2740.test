@@ -1,0 +1,17 @@
+<Amr sentence="Antalya'ya gidemedim .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="2/git" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="2/git"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="2/git" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="2/git" to="ben" with="ARG0"/>
+<Word name="city" positionX="750" positionY="300"/>
+<Connection from="2/git" to="city" with="ARG1"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="1/antalya" positionX="550" positionY="500"/>
+<Connection from="name" to="1/antalya" with="op1"/>
+<Word name="antalya" positionX="750" positionY="400"/>
+<Connection from="city" to="antalya" with="wiki"/>
+</Amr>

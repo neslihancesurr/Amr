@@ -1,0 +1,15 @@
+<Amr sentence="Sırtüstü yatmak omurga sağlığı açısından oldukça önemlidir .">
+<Word name="7/önemli" positionX="750" positionY="100"/>
+<Word name="1/sırtüstü 2/yat" positionX="650" positionY="200"/>
+<Connection from="7/önemli" to="1/sırtüstü 2/yat"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/sırtüstü 2/yat" to="o" with="ARG0"/>
+<Word name="5/açı" positionX="750" positionY="200"/>
+<Connection from="7/önemli" to="5/açı"/>
+<Word name="4/sağlık" positionX="650" positionY="300"/>
+<Connection from="5/açı" to="4/sağlık" with="mod"/>
+<Word name="3/omurga" positionX="550" positionY="400"/>
+<Connection from="4/sağlık" to="3/omurga" with="mod"/>
+<Word name="6/oldukça" positionX="850" positionY="200"/>
+<Connection from="7/önemli" to="6/oldukça" with="manner"/>
+</Amr>

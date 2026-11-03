@@ -1,0 +1,9 @@
+<Amr sentence="bizimle babası arasında">
+<Word name="3/ara:location" positionX="750" positionY="100"/>
+<Word name="and" positionX="650" positionY="200"/>
+<Connection from="3/ara:location" to="and"/>
+<Word name="2/baba" positionX="550" positionY="300"/>
+<Connection from="and" to="2/baba" with="mod"/>
+<Word name="1/biz" positionX="650" positionY="300"/>
+<Connection from="and" to="1/biz" with="mod"/>
+</Amr>

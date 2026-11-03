@@ -1,0 +1,15 @@
+<Amr sentence="Pandemi yüzünden işinden olmuştu .">
+<Word name="3/iş 4/ol" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/iş 4/ol" to="o" with="ARG0"/>
+<Word name="2/yüzünden" positionX="750" positionY="200"/>
+<Connection from="3/iş 4/ol" to="2/yüzünden" with="manner"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="2/yüzünden" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/Pandemi" positionX="450" positionY="500"/>
+<Connection from="name" to="1/Pandemi" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

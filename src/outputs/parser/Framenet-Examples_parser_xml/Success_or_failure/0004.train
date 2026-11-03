@@ -1,0 +1,16 @@
+<Amr sentence="Bugün şansım yerinde değil , çok oyun verdim .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/yer" positionX="650" positionY="200"/>
+<Connection from="and" to="3/yer" with="location"/>
+<Word name="1/bugün" positionX="550" positionY="300"/>
+<Connection from="3/yer" to="1/bugün" with="manner"/>
+<Word name="2/şans" positionX="650" positionY="300"/>
+<Connection from="3/yer" to="2/şans"/>
+<Word name="ben" positionX="550" positionY="400"/>
+<Connection from="2/şans" to="ben" with="poss"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="3/yer" to="-" with="polarity"/>
+<Word name="7/oyun 8/ver" positionX="750" positionY="200"/>
+<Connection from="and" to="7/oyun 8/ver" with="op2"/>
+<Connection from="7/oyun 8/ver" to="ben" with="ARG0"/>
+</Amr>

@@ -1,0 +1,7 @@
+<Amr sentence="Bir şeyin yapılması lazım .">
+<Word name="4/lazım" positionX="750" positionY="100"/>
+<Word name="3/yapılma" positionX="650" positionY="200"/>
+<Connection from="4/lazım" to="3/yapılma"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/yapılma" to="o" with="poss"/>
+</Amr>

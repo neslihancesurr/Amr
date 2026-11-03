@@ -1,0 +1,15 @@
+<Amr sentence="Otobüs bayağı ağırlaştı , geç kalacağız .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/ağırlaş" positionX="650" positionY="200"/>
+<Connection from="and" to="3/ağırlaş" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/ağırlaş" to="o" with="ARG0"/>
+<Word name="1/otobüs" positionX="650" positionY="300"/>
+<Connection from="3/ağırlaş" to="1/otobüs" with="ARG1"/>
+<Word name="2/bayağı" positionX="750" positionY="300"/>
+<Connection from="3/ağırlaş" to="2/bayağı" with="degree"/>
+<Word name="5/geç 6/kal" positionX="750" positionY="200"/>
+<Connection from="and" to="5/geç 6/kal" with="op2"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="5/geç 6/kal" to="biz" with="ARG0"/>
+</Amr>

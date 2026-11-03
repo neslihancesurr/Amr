@@ -1,0 +1,12 @@
+<Amr sentence="Doktora hastaya bakmasını söyledi .">
+<Word name="4/söyle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/söyle" to="o" with="ARG0"/>
+<Word name="1/doktor" positionX="750" positionY="200"/>
+<Connection from="4/söyle" to="1/doktor"/>
+<Word name="3/bak" positionX="850" positionY="200"/>
+<Connection from="4/söyle" to="3/bak" with="ARG1"/>
+<Connection from="3/bak" to="o" with="poss"/>
+<Word name="2/hasta" positionX="850" positionY="300"/>
+<Connection from="3/bak" to="2/hasta" with="ARG1"/>
+</Amr>

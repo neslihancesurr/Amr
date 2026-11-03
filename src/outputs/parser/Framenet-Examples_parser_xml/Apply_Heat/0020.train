@@ -1,0 +1,20 @@
+<Amr sentence="İskenderin üzerine dökmek için tavada yağ yaktı .">
+<Word name="6/yağ 7/yak" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/yağ 7/yak" to="o" with="ARG0"/>
+<Word name="3/dök" positionX="750" positionY="200"/>
+<Connection from="6/yağ 7/yak" to="3/dök" with="cause"/>
+<Connection from="3/dök" to="o" with="ARG0"/>
+<Word name="2/üzerine" positionX="750" positionY="300"/>
+<Connection from="3/dök" to="2/üzerine"/>
+<Word name="person" positionX="650" positionY="400"/>
+<Connection from="2/üzerine" to="person"/>
+<Word name="name" positionX="550" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/İskenderin" positionX="450" positionY="600"/>
+<Connection from="name" to="1/İskenderin" with="op1"/>
+<Word name="-" positionX="650" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/tava" positionX="850" positionY="200"/>
+<Connection from="6/yağ 7/yak" to="5/tava" with="ARG2"/>
+</Amr>

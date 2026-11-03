@@ -1,0 +1,15 @@
+<Amr sentence="Kilosunu on milyon liradan satacaklar .">
+<Word name="5/sat" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="5/sat" to="onlar" with="ARG0"/>
+<Word name="1/kilo" positionX="750" positionY="200"/>
+<Connection from="5/sat" to="1/kilo"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="1/kilo" to="o" with="poss"/>
+<Word name="4/lira" positionX="850" positionY="200"/>
+<Connection from="5/sat" to="4/lira"/>
+<Word name="3/milyon" positionX="750" positionY="300"/>
+<Connection from="4/lira" to="3/milyon"/>
+<Word name="2/on" positionX="650" positionY="400"/>
+<Connection from="3/milyon" to="2/on"/>
+</Amr>

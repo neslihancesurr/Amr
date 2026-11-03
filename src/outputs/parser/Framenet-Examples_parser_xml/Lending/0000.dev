@@ -1,0 +1,8 @@
+<Amr sentence="Dizüstü bilgisayarımı ödünç verdim .">
+<Word name="3/ödünç 4/ver" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/ödünç 4/ver" to="ben" with="ARG0"/>
+<Word name="1/dizüstü 2/bilgisayar" positionX="750" positionY="200"/>
+<Connection from="3/ödünç 4/ver" to="1/dizüstü 2/bilgisayar" with="ARG1"/>
+<Connection from="1/dizüstü 2/bilgisayar" to="ben" with="poss"/>
+</Amr>

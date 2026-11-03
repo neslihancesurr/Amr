@@ -1,0 +1,11 @@
+<Amr sentence="Oradan iki saatte gelirsiniz .">
+<Word name="4/gel" positionX="750" positionY="100"/>
+<Word name="siz" positionX="650" positionY="200"/>
+<Connection from="4/gel" to="siz" with="ARG0"/>
+<Word name="1/ora" positionX="750" positionY="200"/>
+<Connection from="4/gel" to="1/ora"/>
+<Word name="3/saat" positionX="850" positionY="200"/>
+<Connection from="4/gel" to="3/saat" with="location"/>
+<Word name="2/iki" positionX="750" positionY="300"/>
+<Connection from="3/saat" to="2/iki"/>
+</Amr>

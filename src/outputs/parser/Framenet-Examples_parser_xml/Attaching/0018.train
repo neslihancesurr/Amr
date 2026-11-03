@@ -1,0 +1,9 @@
+<Amr sentence="Belediye tarafından pankartlar çivilendi .">
+<Word name="4/çivile" positionX="750" positionY="100"/>
+<Word name="2/tarafından" positionX="650" positionY="200"/>
+<Connection from="4/çivile" to="2/tarafından" with="ARG0"/>
+<Word name="1/belediye" positionX="550" positionY="300"/>
+<Connection from="2/tarafından" to="1/belediye" with="mod"/>
+<Word name="3/pankart" positionX="750" positionY="200"/>
+<Connection from="4/çivile" to="3/pankart" with="ARG1"/>
+</Amr>

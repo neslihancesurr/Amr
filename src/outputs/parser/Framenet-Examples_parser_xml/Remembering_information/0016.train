@@ -1,0 +1,11 @@
+<Amr sentence="Onun varlığı ayrılık acısını külledi .">
+<Word name="5/külle" positionX="750" positionY="100"/>
+<Word name="2/varlık" positionX="650" positionY="200"/>
+<Connection from="5/külle" to="2/varlık" with="ARG0"/>
+<Word name="1/o" positionX="550" positionY="300"/>
+<Connection from="2/varlık" to="1/o" with="mod"/>
+<Word name="4/acı" positionX="750" positionY="200"/>
+<Connection from="5/külle" to="4/acı" with="ARG1"/>
+<Word name="3/ayrılık" positionX="650" positionY="300"/>
+<Connection from="4/acı" to="3/ayrılık" with="mod"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr sentence="Bakalım doktorlardan hangisi o hastayı ameliyat edecek .">
+<Word name="6/ameliyat 7/et" positionX="750" positionY="100"/>
+<Word name="1/bak" positionX="650" positionY="200"/>
+<Connection from="6/ameliyat 7/et" to="1/bak"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="1/bak" to="biz" with="ARG0"/>
+<Word name="3/hangi" positionX="750" positionY="200"/>
+<Connection from="6/ameliyat 7/et" to="3/hangi"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/hangi" to="o" with="poss"/>
+<Word name="2/doktor" positionX="750" positionY="300"/>
+<Connection from="3/hangi" to="2/doktor"/>
+<Word name="5/hasta" positionX="850" positionY="200"/>
+<Connection from="6/ameliyat 7/et" to="5/hasta" with="ARG1"/>
+<Word name="4/o" positionX="750" positionY="300"/>
+<Connection from="5/hasta" to="4/o" with="mod"/>
+</Amr>

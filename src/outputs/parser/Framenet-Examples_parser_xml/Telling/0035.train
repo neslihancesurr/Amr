@@ -1,0 +1,16 @@
+<Amr sentence="Yıllar boyu biriktirdiklerini öyküledi .">
+<Word name="4/öyküle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/öyküle" to="o" with="ARG0"/>
+<Word name="yap" positionX="750" positionY="200"/>
+<Connection from="4/öyküle" to="yap"/>
+<Word name="3/birik" positionX="650" positionY="300"/>
+<Connection from="yap" to="3/birik" with="ARG1"/>
+<Word name="onlar" positionX="550" positionY="400"/>
+<Connection from="3/birik" to="onlar" with="ARG0"/>
+<Connection from="3/birik" to="o" with="poss"/>
+<Word name="2/boy" positionX="750" positionY="400"/>
+<Connection from="3/birik" to="2/boy"/>
+<Word name="1/yıl" positionX="650" positionY="500"/>
+<Connection from="2/boy" to="1/yıl" with="mod"/>
+</Amr>

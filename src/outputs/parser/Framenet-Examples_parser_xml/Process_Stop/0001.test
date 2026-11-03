@@ -1,0 +1,11 @@
+<Amr sentence="Kargaşa büyük ölçüde yatıştı .">
+<Word name="4/yatış" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/yatış" to="o" with="ARG0"/>
+<Word name="1/kargaşa" positionX="750" positionY="200"/>
+<Connection from="4/yatış" to="1/kargaşa" with="ARG1"/>
+<Word name="3/ölçü" positionX="850" positionY="200"/>
+<Connection from="4/yatış" to="3/ölçü" with="mod"/>
+<Word name="2/büyük" positionX="750" positionY="300"/>
+<Connection from="3/ölçü" to="2/büyük" with="mod"/>
+</Amr>

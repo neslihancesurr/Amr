@@ -1,0 +1,15 @@
+<Amr sentence="Telefonu evde unutunca mecbur eve döndüm .">
+<Word name="6/dön" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="6/dön" to="ben" with="ARG0"/>
+<Word name="3/unut" positionX="750" positionY="200"/>
+<Connection from="6/dön" to="3/unut"/>
+<Word name="1/telefon" positionX="650" positionY="300"/>
+<Connection from="3/unut" to="1/telefon"/>
+<Word name="2/ev" positionX="750" positionY="300"/>
+<Connection from="3/unut" to="2/ev" with="location"/>
+<Word name="4/mecbur" positionX="850" positionY="200"/>
+<Connection from="6/dön" to="4/mecbur" with="manner"/>
+<Word name="5/ev" positionX="950" positionY="200"/>
+<Connection from="6/dön" to="5/ev"/>
+</Amr>

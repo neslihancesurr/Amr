@@ -1,0 +1,25 @@
+<Amr sentence="İyi kazanmıyordu fakat ne kazanıyorsa hepsini bankaya yatırıyordu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="7/banka 8/yatır" positionX="650" positionY="200"/>
+<Connection from="and" to="7/banka 8/yatır" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="7/banka 8/yatır" to="o" with="ARG0"/>
+<Word name="3/fakat" positionX="650" positionY="300"/>
+<Connection from="7/banka 8/yatır" to="3/fakat"/>
+<Word name="5/kazan" positionX="750" positionY="300"/>
+<Connection from="7/banka 8/yatır" to="5/kazan" with="ARG1"/>
+<Connection from="5/kazan" to="o" with="ARG0"/>
+<Word name="4/ne" positionX="750" positionY="400"/>
+<Connection from="5/kazan" to="4/ne"/>
+<Word name="6/hepsi" positionX="850" positionY="300"/>
+<Connection from="7/banka 8/yatır" to="6/hepsi" with="ARG1"/>
+<Word name="onlar" positionX="750" positionY="400"/>
+<Connection from="6/hepsi" to="onlar" with="poss"/>
+<Word name="2/kazan" positionX="750" positionY="200"/>
+<Connection from="and" to="2/kazan" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="2/kazan" to="-" with="polarity"/>
+<Connection from="2/kazan" to="o" with="ARG0"/>
+<Word name="1/iyi" positionX="850" positionY="300"/>
+<Connection from="2/kazan" to="1/iyi" with="manner"/>
+</Amr>

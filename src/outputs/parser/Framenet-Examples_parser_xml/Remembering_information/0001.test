@@ -1,0 +1,11 @@
+<Amr sentence="Şoför adamı görür görmez teşhis etti .">
+<Word name="5/teşhis 6/et" positionX="750" positionY="100"/>
+<Word name="1/şoför" positionX="650" positionY="200"/>
+<Connection from="5/teşhis 6/et" to="1/şoför" with="ARG0"/>
+<Word name="2/adam" positionX="750" positionY="200"/>
+<Connection from="5/teşhis 6/et" to="2/adam" with="ARG1"/>
+<Word name="3/gör 4/gör" positionX="850" positionY="200"/>
+<Connection from="5/teşhis 6/et" to="3/gör 4/gör"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="3/gör 4/gör" to="-" with="polarity"/>
+</Amr>

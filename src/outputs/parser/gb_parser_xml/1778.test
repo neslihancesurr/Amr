@@ -1,0 +1,9 @@
+<Amr sentence="Çay içer misiniz ?">
+<Word name="2/iç" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="2/iç" to="o" with="ARG0"/>
+<Word name="1/çay" positionX="750" positionY="200"/>
+<Connection from="2/iç" to="1/çay" with="ARG1"/>
+<Word name="3/mi" positionX="850" positionY="200"/>
+<Connection from="2/iç" to="3/mi"/>
+</Amr>

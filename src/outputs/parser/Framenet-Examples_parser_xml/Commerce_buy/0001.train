@@ -1,0 +1,24 @@
+<Amr sentence="Bu klasik arabayı o kadar beğendi ki , satıcının verdiği fiyatı artırdı .">
+<Word name="12/artır" positionX="750" positionY="100"/>
+<Word name="6/beğen" positionX="650" positionY="200"/>
+<Connection from="12/artır" to="6/beğen" with="extent"/>
+<Word name="3/araba" positionX="550" positionY="300"/>
+<Connection from="6/beğen" to="3/araba" with="ARG1"/>
+<Word name="1/bu" positionX="450" positionY="400"/>
+<Connection from="3/araba" to="1/bu" with="mod"/>
+<Word name="2/klasik" positionX="550" positionY="400"/>
+<Connection from="3/araba" to="2/klasik" with="mod"/>
+<Word name="4/o 5/kadar" positionX="650" positionY="300"/>
+<Connection from="6/beğen" to="4/o 5/kadar"/>
+<Word name="7/ki" positionX="750" positionY="300"/>
+<Connection from="6/beğen" to="7/ki"/>
+<Word name="11/fiyat" positionX="750" positionY="200"/>
+<Connection from="12/artır" to="11/fiyat" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="11/fiyat" to="o" with="poss"/>
+<Word name="10/ver" positionX="750" positionY="300"/>
+<Connection from="11/fiyat" to="10/ver"/>
+<Connection from="10/ver" to="o" with="poss"/>
+<Word name="9/satıcı" positionX="750" positionY="400"/>
+<Connection from="10/ver" to="9/satıcı"/>
+</Amr>

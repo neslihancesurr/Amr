@@ -1,0 +1,24 @@
+<Amr sentence="Arsen Hanım çiftlik evinin inşaatı konusunda ince eleyip sık dokuyor .">
+<Word name="7/ince 8/ele 9/sık 10/doku" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="7/ince 8/ele 9/sık 10/doku" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/hanım" positionX="450" positionY="400"/>
+<Connection from="name" to="2/hanım" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="person" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/Arsen" positionX="550" positionY="500"/>
+<Connection from="name" to="1/Arsen" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="6/konu" positionX="750" positionY="200"/>
+<Connection from="7/ince 8/ele 9/sık 10/doku" to="6/konu" with="ARG1"/>
+<Word name="5/inşaat" positionX="650" positionY="300"/>
+<Connection from="6/konu" to="5/inşaat" with="mod"/>
+<Word name="3/çiftlik 4/ev" positionX="550" positionY="400"/>
+<Connection from="5/inşaat" to="3/çiftlik 4/ev"/>
+<Word name="o" positionX="450" positionY="500"/>
+<Connection from="3/çiftlik 4/ev" to="o" with="poss"/>
+</Amr>

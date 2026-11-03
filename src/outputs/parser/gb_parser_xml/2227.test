@@ -1,0 +1,9 @@
+<Amr sentence="bildiğim bir turizm şirketi">
+<Word name="4/şirket" positionX="750" positionY="100"/>
+<Word name="1/bil" positionX="650" positionY="200"/>
+<Connection from="4/şirket" to="1/bil"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="1/bil" to="ben" with="poss"/>
+<Word name="3/turizm" positionX="750" positionY="200"/>
+<Connection from="4/şirket" to="3/turizm" with="mod"/>
+</Amr>

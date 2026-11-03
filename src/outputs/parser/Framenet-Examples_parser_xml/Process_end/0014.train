@@ -1,0 +1,7 @@
+<Amr sentence="Dertler nihayetini buldu .">
+<Word name="2/nihayet 3/bul" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="2/nihayet 3/bul" to="o" with="ARG0"/>
+<Word name="1/dert" positionX="750" positionY="200"/>
+<Connection from="2/nihayet 3/bul" to="1/dert" with="ARG1"/>
+</Amr>

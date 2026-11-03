@@ -1,0 +1,9 @@
+<Amr sentence="Düşmandan yer kazanmak .">
+<Word name="3/kazan" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/kazan" to="o" with="ARG0"/>
+<Word name="1/düşman" positionX="750" positionY="200"/>
+<Connection from="3/kazan" to="1/düşman"/>
+<Word name="2/yer" positionX="850" positionY="200"/>
+<Connection from="3/kazan" to="2/yer" with="ARG1"/>
+</Amr>

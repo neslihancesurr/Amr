@@ -1,0 +1,11 @@
+<Amr sentence="Bahçeye ağaç dikecekler mi ?">
+<Word name="3/dik" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="3/dik" to="onlar" with="ARG0"/>
+<Word name="1/bahçe" positionX="750" positionY="200"/>
+<Connection from="3/dik" to="1/bahçe" with="ARG2"/>
+<Word name="2/ağaç" positionX="850" positionY="200"/>
+<Connection from="3/dik" to="2/ağaç" with="ARG1"/>
+<Word name="4/mi" positionX="950" positionY="200"/>
+<Connection from="3/dik" to="4/mi"/>
+</Amr>

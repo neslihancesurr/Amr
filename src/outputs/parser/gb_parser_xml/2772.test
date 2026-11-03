@@ -1,0 +1,39 @@
+<Amr sentence="Karısı yemeklerini yapıyor , çamaşırını yıkayıp ütülüyor , telefonlarına bakıyor , kısacası hayatını kolaylaştırmak için her şeyi yapıyor .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/yap" positionX="650" positionY="200"/>
+<Connection from="and" to="3/yap" with="op1"/>
+<Word name="1/karı" positionX="550" positionY="300"/>
+<Connection from="3/yap" to="1/karı" with="ARG0"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="1/karı" to="o" with="poss"/>
+<Word name="2/yemek" positionX="650" positionY="300"/>
+<Connection from="3/yap" to="2/yemek" with="ARG1"/>
+<Connection from="2/yemek" to="o" with="poss"/>
+<Word name="7/ütüle" positionX="750" positionY="300"/>
+<Connection from="3/yap" to="7/ütüle"/>
+<Word name="5/çamaşır" positionX="650" positionY="400"/>
+<Connection from="7/ütüle" to="5/çamaşır" with="ARG1"/>
+<Connection from="5/çamaşır" to="o" with="poss"/>
+<Word name="6/yıka" positionX="750" positionY="400"/>
+<Connection from="7/ütüle" to="6/yıka"/>
+<Word name="10/bak" positionX="850" positionY="300"/>
+<Connection from="3/yap" to="10/bak"/>
+<Word name="9/telefon" positionX="750" positionY="400"/>
+<Connection from="10/bak" to="9/telefon" with="ARG1"/>
+<Connection from="9/telefon" to="o" with="poss"/>
+<Word name="18/yap" positionX="750" positionY="200"/>
+<Connection from="and" to="18/yap" with="op2"/>
+<Connection from="18/yap" to="and"/>
+<Word name="12/kısacası" positionX="750" positionY="300"/>
+<Connection from="18/yap" to="12/kısacası" with="manner"/>
+<Word name="14/kolaylaştır" positionX="850" positionY="300"/>
+<Connection from="18/yap" to="14/kolaylaştır" with="cause"/>
+<Connection from="14/kolaylaştır" to="o" with="ARG0"/>
+<Word name="13/hayat" positionX="850" positionY="400"/>
+<Connection from="14/kolaylaştır" to="13/hayat"/>
+<Connection from="13/hayat" to="o" with="poss"/>
+<Word name="17/şey" positionX="950" positionY="300"/>
+<Connection from="18/yap" to="17/şey"/>
+<Word name="16/her" positionX="850" positionY="400"/>
+<Connection from="17/şey" to="16/her" with="mod"/>
+</Amr>

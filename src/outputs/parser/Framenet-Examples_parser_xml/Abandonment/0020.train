@@ -1,0 +1,12 @@
+<Amr sentence="Yıllardır ısrarla devam ettiği alışkanlıklarını bile terk etti .">
+<Word name="7/terk 8/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/terk 8/et" to="o" with="ARG0"/>
+<Word name="5/alışkanlık" positionX="750" positionY="200"/>
+<Connection from="7/terk 8/et" to="5/alışkanlık" with="ARG1"/>
+<Connection from="5/alışkanlık" to="o" with="poss"/>
+<Word name="3/devam 4/et" positionX="750" positionY="300"/>
+<Connection from="5/alışkanlık" to="3/devam 4/et"/>
+<Word name="6/bile" positionX="850" positionY="300"/>
+<Connection from="5/alışkanlık" to="6/bile" with="manner"/>
+</Amr>

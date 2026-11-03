@@ -1,0 +1,9 @@
+<Amr sentence="o sırada seyrettiğim videolar">
+<Word name="4/video" positionX="750" positionY="100"/>
+<Word name="3/seyret" positionX="650" positionY="200"/>
+<Connection from="4/video" to="3/seyret"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="3/seyret" to="ben" with="ARG0"/>
+<Word name="1/o 2/sıra" positionX="650" positionY="300"/>
+<Connection from="3/seyret" to="1/o 2/sıra" with="mod"/>
+</Amr>

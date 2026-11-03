@@ -1,0 +1,11 @@
+<Amr sentence="Üniversiteye gideyim istiyor .">
+<Word name="3/iste" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/iste" to="o" with="ARG0"/>
+<Word name="2/git" positionX="750" positionY="200"/>
+<Connection from="3/iste" to="2/git"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="2/git" to="ben" with="ARG0"/>
+<Word name="1/üniversite" positionX="750" positionY="300"/>
+<Connection from="2/git" to="1/üniversite" with="ARG1"/>
+</Amr>

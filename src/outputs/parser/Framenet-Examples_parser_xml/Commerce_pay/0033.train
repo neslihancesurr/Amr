@@ -1,0 +1,15 @@
+<Amr sentence="Oğlunun tedavisi için varını yoğunu sarf etti .">
+<Word name="6/sarf 7/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/sarf 7/et" to="o" with="ARG0"/>
+<Word name="2/tedavi" positionX="750" positionY="200"/>
+<Connection from="6/sarf 7/et" to="2/tedavi" with="cause"/>
+<Word name="1/oğul" positionX="650" positionY="300"/>
+<Connection from="2/tedavi" to="1/oğul" with="mod"/>
+<Word name="5/yoğ" positionX="850" positionY="200"/>
+<Connection from="6/sarf 7/et" to="5/yoğ" with="ARG1"/>
+<Connection from="5/yoğ" to="o" with="poss"/>
+<Word name="4/var" positionX="850" positionY="300"/>
+<Connection from="5/yoğ" to="4/var"/>
+<Connection from="4/var" to="o" with="poss"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Kaptan kontağı çevirip bismillah dedi .">
+<Word name="4/bismillah 5/de" positionX="750" positionY="100"/>
+<Word name="1/kaptan" positionX="650" positionY="200"/>
+<Connection from="4/bismillah 5/de" to="1/kaptan" with="ARG0"/>
+<Word name="3/çevir" positionX="750" positionY="200"/>
+<Connection from="4/bismillah 5/de" to="3/çevir"/>
+<Word name="2/kontak" positionX="650" positionY="300"/>
+<Connection from="3/çevir" to="2/kontak" with="ARG1"/>
+</Amr>

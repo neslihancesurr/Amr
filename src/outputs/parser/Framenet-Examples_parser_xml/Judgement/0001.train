@@ -1,0 +1,20 @@
+<Amr sentence="Ne yapsak adam beğendiremezdik .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="yap" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="yap"/>
+<Word name="4/beğen" positionX="550" positionY="300"/>
+<Connection from="yap" to="4/beğen"/>
+<Word name="-" positionX="450" positionY="400"/>
+<Connection from="4/beğen" to="-" with="polarity"/>
+<Word name="biz" positionX="550" positionY="400"/>
+<Connection from="4/beğen" to="biz" with="ARG0"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="4/beğen" to="o" with="ARG0"/>
+<Word name="2/yap" positionX="750" positionY="400"/>
+<Connection from="4/beğen" to="2/yap"/>
+<Connection from="2/yap" to="biz" with="ARG0"/>
+<Word name="1/ne" positionX="750" positionY="500"/>
+<Connection from="2/yap" to="1/ne" with="ARG1"/>
+<Word name="3/adam" positionX="850" positionY="400"/>
+<Connection from="4/beğen" to="3/adam" with="ARG1"/>
+</Amr>

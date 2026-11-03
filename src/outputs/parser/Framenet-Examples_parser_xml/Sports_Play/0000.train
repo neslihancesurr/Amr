@@ -1,0 +1,9 @@
+<Amr sentence="Takım bütün hafta antrenman yapacak .">
+<Word name="4/antrenman 5/yap" positionX="750" positionY="100"/>
+<Word name="1/takım" positionX="650" positionY="200"/>
+<Connection from="4/antrenman 5/yap" to="1/takım" with="ARG0"/>
+<Word name="3/hafta" positionX="750" positionY="200"/>
+<Connection from="4/antrenman 5/yap" to="3/hafta"/>
+<Word name="2/bütün" positionX="650" positionY="300"/>
+<Connection from="3/hafta" to="2/bütün" with="mod"/>
+</Amr>

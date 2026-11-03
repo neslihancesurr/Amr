@@ -1,0 +1,9 @@
+<Amr sentence="Anahtar paltomun cebindeymiş meğerse .">
+<Word name="3/cep:location" positionX="750" positionY="100"/>
+<Word name="1/anahtar" positionX="650" positionY="200"/>
+<Connection from="3/cep:location" to="1/anahtar"/>
+<Word name="2/palto" positionX="750" positionY="200"/>
+<Connection from="3/cep:location" to="2/palto" with="mod"/>
+<Word name="4/meğerse" positionX="850" positionY="200"/>
+<Connection from="3/cep:location" to="4/meğerse"/>
+</Amr>

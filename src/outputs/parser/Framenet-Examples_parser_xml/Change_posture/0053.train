@@ -1,0 +1,10 @@
+<Amr sentence="Annesine doğru aborda etti .">
+<Word name="3/aborda 4/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/aborda 4/et" to="o" with="ARG0"/>
+<Word name="1/anne" positionX="750" positionY="200"/>
+<Connection from="3/aborda 4/et" to="1/anne" with="ARG1"/>
+<Connection from="1/anne" to="o" with="poss"/>
+<Word name="2/doğru" positionX="750" positionY="300"/>
+<Connection from="1/anne" to="2/doğru"/>
+</Amr>

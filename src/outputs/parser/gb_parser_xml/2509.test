@@ -1,0 +1,14 @@
+<Amr sentence="Yorgun olursam yemek yapmıyorum .">
+<Word name="4/yap" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/yap" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="4/yap" to="ben" with="ARG0"/>
+<Word name="2/ol" positionX="850" positionY="200"/>
+<Connection from="4/yap" to="2/ol" with="cond"/>
+<Connection from="2/ol" to="ben" with="ARG0"/>
+<Word name="1/yorgun" positionX="850" positionY="300"/>
+<Connection from="2/ol" to="1/yorgun" with="manner"/>
+<Word name="3/yemek" positionX="950" positionY="200"/>
+<Connection from="4/yap" to="3/yemek"/>
+</Amr>

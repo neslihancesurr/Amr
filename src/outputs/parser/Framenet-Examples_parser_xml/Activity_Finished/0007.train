@@ -1,0 +1,20 @@
+<Amr sentence="En son bu yöntemi denedik ve sonuç aldık .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="7/sonuç 8/al" positionX="650" positionY="200"/>
+<Connection from="and" to="7/sonuç 8/al" with="op1"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="7/sonuç 8/al" to="biz" with="ARG0"/>
+<Word name="5/dene" positionX="750" positionY="200"/>
+<Connection from="and" to="5/dene" with="op2"/>
+<Connection from="5/dene" to="biz" with="ARG0"/>
+<Word name="2/son" positionX="750" positionY="300"/>
+<Connection from="5/dene" to="2/son" with="manner"/>
+<Word name="1/en" positionX="650" positionY="400"/>
+<Connection from="2/son" to="1/en" with="manner"/>
+<Word name="4/yöntem" positionX="850" positionY="300"/>
+<Connection from="5/dene" to="4/yöntem" with="ARG1"/>
+<Word name="o" positionX="750" positionY="400"/>
+<Connection from="4/yöntem" to="o" with="poss"/>
+<Word name="3/bu" positionX="850" positionY="400"/>
+<Connection from="4/yöntem" to="3/bu" with="mod"/>
+</Amr>

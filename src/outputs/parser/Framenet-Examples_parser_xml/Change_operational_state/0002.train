@@ -1,0 +1,19 @@
+<Amr sentence="Televizyonu ayarladın mı , filmi başlatalım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/ayarla" positionX="650" positionY="200"/>
+<Connection from="and" to="2/ayarla" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="2/ayarla" to="sen" with="ARG0"/>
+<Word name="1/televizyon" positionX="650" positionY="300"/>
+<Connection from="2/ayarla" to="1/televizyon" with="ARG1"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="1/televizyon" to="o" with="poss"/>
+<Word name="3/mi" positionX="750" positionY="300"/>
+<Connection from="2/ayarla" to="3/mi"/>
+<Word name="6/başla" positionX="750" positionY="200"/>
+<Connection from="and" to="6/başla" with="op2"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="6/başla" to="biz" with="ARG0"/>
+<Word name="5/film" positionX="750" positionY="300"/>
+<Connection from="6/başla" to="5/film"/>
+</Amr>

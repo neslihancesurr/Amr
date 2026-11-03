@@ -1,0 +1,12 @@
+<Amr sentence="Hani kim görmüş çocukların camlara taş attığını ?">
+<Word name="3/gör" positionX="750" positionY="100"/>
+<Word name="1/hani" positionX="650" positionY="200"/>
+<Connection from="3/gör" to="1/hani" with="manner"/>
+<Word name="2/kim" positionX="750" positionY="200"/>
+<Connection from="3/gör" to="2/kim" with="ARG0"/>
+<Word name="6/taş 7/at" positionX="850" positionY="200"/>
+<Connection from="3/gör" to="6/taş 7/at" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="6/taş 7/at" to="o" with="ARG0"/>
+<Connection from="6/taş 7/at" to="o" with="poss"/>
+</Amr>

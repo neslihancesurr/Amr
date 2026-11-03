@@ -1,0 +1,13 @@
+<Amr sentence="Bileğini burkmuştu , sekiyordu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/burk" positionX="650" positionY="200"/>
+<Connection from="and" to="2/burk" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/burk" to="o" with="ARG0"/>
+<Word name="1/bilek" positionX="650" positionY="300"/>
+<Connection from="2/burk" to="1/bilek" with="ARG1"/>
+<Connection from="1/bilek" to="o" with="poss"/>
+<Word name="4/sek" positionX="750" positionY="200"/>
+<Connection from="and" to="4/sek" with="op2"/>
+<Connection from="4/sek" to="o" with="ARG0"/>
+</Amr>

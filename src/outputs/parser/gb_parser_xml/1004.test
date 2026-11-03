@@ -1,0 +1,15 @@
+<Amr sentence="Nazlı şaşılacak kadar hızlı yürür .">
+<Word name="5/yürü" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="5/yürü" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/nazlı" positionX="450" positionY="400"/>
+<Connection from="name" to="1/nazlı" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/hızlı" positionX="750" positionY="200"/>
+<Connection from="5/yürü" to="4/hızlı" with="manner"/>
+<Word name="2/şaş" positionX="650" positionY="300"/>
+<Connection from="4/hızlı" to="2/şaş" with="extent"/>
+</Amr>

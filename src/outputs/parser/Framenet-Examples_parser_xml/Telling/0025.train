@@ -1,0 +1,13 @@
+<Amr sentence="Ona onu artık sevmediğini söyledi .">
+<Word name="5/söyle" positionX="750" positionY="100"/>
+<Word name="4/sev" positionX="650" positionY="200"/>
+<Connection from="5/söyle" to="4/sev" with="ARG1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="4/sev" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="4/sev" to="o" with="poss"/>
+<Word name="1/o 2/o" positionX="750" positionY="300"/>
+<Connection from="4/sev" to="1/o 2/o" with="ARG1"/>
+<Word name="3/artık" positionX="850" positionY="300"/>
+<Connection from="4/sev" to="3/artık" with="manner"/>
+</Amr>

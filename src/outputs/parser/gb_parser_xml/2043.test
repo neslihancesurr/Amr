@@ -1,0 +1,25 @@
+<Amr sentence="Sanıyorum ki arkadaşlarımızın çoğu ağustosta gelemeyecekler .">
+<Word name="1/san" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="1/san" to="ben" with="ARG0"/>
+<Word name="mümkün" positionX="750" positionY="200"/>
+<Connection from="1/san" to="mümkün"/>
+<Word name="6/gel" positionX="650" positionY="300"/>
+<Connection from="mümkün" to="6/gel"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="6/gel" to="-" with="polarity"/>
+<Word name="onlar" positionX="650" positionY="400"/>
+<Connection from="6/gel" to="onlar" with="ARG0"/>
+<Word name="2/ki" positionX="750" positionY="400"/>
+<Connection from="6/gel" to="2/ki"/>
+<Word name="4/çoğu" positionX="850" positionY="400"/>
+<Connection from="6/gel" to="4/çoğu"/>
+<Word name="3/arkadaş" positionX="750" positionY="500"/>
+<Connection from="4/çoğu" to="3/arkadaş"/>
+<Word name="biz" positionX="650" positionY="600"/>
+<Connection from="3/arkadaş" to="biz" with="poss"/>
+<Word name="date-entity" positionX="950" positionY="400"/>
+<Connection from="6/gel" to="date-entity" with="date"/>
+<Word name="5/ağustos" positionX="850" positionY="500"/>
+<Connection from="date-entity" to="5/ağustos" with="month"/>
+</Amr>

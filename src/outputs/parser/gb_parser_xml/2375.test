@@ -1,0 +1,9 @@
+<Amr sentence="otelden ayrılacağınız zaman">
+<Word name="3/zaman" positionX="750" positionY="100"/>
+<Word name="2/ayrıl" positionX="650" positionY="200"/>
+<Connection from="3/zaman" to="2/ayrıl"/>
+<Word name="siz" positionX="550" positionY="300"/>
+<Connection from="2/ayrıl" to="siz" with="poss"/>
+<Word name="1/otel" positionX="650" positionY="300"/>
+<Connection from="2/ayrıl" to="1/otel"/>
+</Amr>

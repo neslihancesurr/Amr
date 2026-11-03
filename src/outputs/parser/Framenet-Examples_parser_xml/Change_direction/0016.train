@@ -1,0 +1,5 @@
+<Amr sentence="Mermi sekti .">
+<Word name="2/sek" positionX="750" positionY="100"/>
+<Word name="1/mermi" positionX="650" positionY="200"/>
+<Connection from="2/sek" to="1/mermi" with="ARG0"/>
+</Amr>

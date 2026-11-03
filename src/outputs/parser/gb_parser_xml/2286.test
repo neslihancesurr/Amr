@@ -1,0 +1,9 @@
+<Amr sentence="şu anda çalan parça">
+<Word name="4/parça" positionX="750" positionY="100"/>
+<Word name="3/çal" positionX="650" positionY="200"/>
+<Connection from="4/parça" to="3/çal"/>
+<Word name="2/an" positionX="550" positionY="300"/>
+<Connection from="3/çal" to="2/an" with="location"/>
+<Word name="1/şu" positionX="450" positionY="400"/>
+<Connection from="2/an" to="1/şu" with="mod"/>
+</Amr>

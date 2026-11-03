@@ -1,0 +1,19 @@
+<Amr sentence="Vaktimiz dar olduğu için çalışmalara hemen start verdik .">
+<Word name="7/start 8/ver" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="7/start 8/ver" to="biz" with="ARG0"/>
+<Word name="3/ol" positionX="750" positionY="200"/>
+<Connection from="7/start 8/ver" to="3/ol" with="cause"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/ol" to="o" with="ARG0"/>
+<Connection from="3/ol" to="o" with="poss"/>
+<Word name="1/vakit" positionX="850" positionY="300"/>
+<Connection from="3/ol" to="1/vakit"/>
+<Connection from="1/vakit" to="biz" with="poss"/>
+<Word name="2/dar" positionX="950" positionY="300"/>
+<Connection from="3/ol" to="2/dar" with="manner"/>
+<Word name="5/çalışamalara" positionX="850" positionY="200"/>
+<Connection from="7/start 8/ver" to="5/çalışamalara" with="ARG1"/>
+<Word name="6/hemen" positionX="950" positionY="200"/>
+<Connection from="7/start 8/ver" to="6/hemen" with="manner"/>
+</Amr>

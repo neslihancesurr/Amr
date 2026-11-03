@@ -1,0 +1,19 @@
+<Amr sentence="Toprak kaymasın diye inşaatın etrafına set çekildi .">
+<Word name="6/set 7/çek" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/set 7/çek" to="o" with="ARG0"/>
+<Word name="2/kay" positionX="750" positionY="200"/>
+<Connection from="6/set 7/çek" to="2/kay"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="2/kay" to="-" with="polarity"/>
+<Word name="imperative" positionX="750" positionY="300"/>
+<Connection from="2/kay" to="imperative" with="mode"/>
+<Word name="1/toprak" positionX="850" positionY="300"/>
+<Connection from="2/kay" to="1/toprak" with="ARG0"/>
+<Word name="3/diye" positionX="950" positionY="300"/>
+<Connection from="2/kay" to="3/diye"/>
+<Word name="5/etraf" positionX="850" positionY="200"/>
+<Connection from="6/set 7/çek" to="5/etraf" with="ARG1"/>
+<Word name="4/inşaat" positionX="750" positionY="300"/>
+<Connection from="5/etraf" to="4/inşaat" with="mod"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Kovulan adam öfkesini çıkarmak için bütün fabrikayı ateşe verdi .">
+<Word name="8/ateş 9/ver" positionX="750" positionY="100"/>
+<Word name="2/adam" positionX="650" positionY="200"/>
+<Connection from="8/ateş 9/ver" to="2/adam" with="ARG0"/>
+<Word name="1/kov" positionX="550" positionY="300"/>
+<Connection from="2/adam" to="1/kov"/>
+<Word name="3/öfke 4/çık" positionX="750" positionY="200"/>
+<Connection from="8/ateş 9/ver" to="3/öfke 4/çık"/>
+<Word name="7/fabrika" positionX="850" positionY="200"/>
+<Connection from="8/ateş 9/ver" to="7/fabrika" with="ARG1"/>
+<Word name="6/bütün" positionX="750" positionY="300"/>
+<Connection from="7/fabrika" to="6/bütün" with="mod"/>
+</Amr>

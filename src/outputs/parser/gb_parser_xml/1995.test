@@ -1,0 +1,13 @@
+<Amr sentence="Birkaç çocuk orada babamla konuşuyordu .">
+<Word name="5/konuş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/konuş" to="o" with="ARG0"/>
+<Word name="2/çocuk" positionX="750" positionY="200"/>
+<Connection from="5/konuş" to="2/çocuk"/>
+<Word name="1/birkaç" positionX="650" positionY="300"/>
+<Connection from="2/çocuk" to="1/birkaç" with="mod"/>
+<Word name="3/ora" positionX="850" positionY="200"/>
+<Connection from="5/konuş" to="3/ora" with="location"/>
+<Word name="4/baba" positionX="950" positionY="200"/>
+<Connection from="5/konuş" to="4/baba" with="instrument"/>
+</Amr>

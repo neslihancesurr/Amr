@@ -1,0 +1,52 @@
+<Amr sentence="Bugün hava çok sıcak , başka bir zamana bıraksak olmaz mı ? olur ya , neden olmasın deyip köyün arka tarafından ters yüz geri döndük .">
+<Word name="22/ters 23/yüz 24/geri 25/dön" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="22/ters 23/yüz 24/geri 25/dön" to="biz" with="ARG0"/>
+<Word name="18/de" positionX="750" positionY="200"/>
+<Connection from="22/ters 23/yüz 24/geri 25/dön" to="18/de"/>
+<Word name="and" positionX="650" positionY="300"/>
+<Connection from="18/de" to="and"/>
+<Word name="13/olur" positionX="550" positionY="400"/>
+<Connection from="and" to="13/olur" with="ARG1"/>
+<Connection from="13/olur" to="and"/>
+<Word name="4/sıcak" positionX="350" positionY="600"/>
+<Connection from="and" to="4/sıcak" with="op1"/>
+<Word name="1/bugün" positionX="250" positionY="700"/>
+<Connection from="4/sıcak" to="1/bugün" with="manner"/>
+<Word name="2/hava" positionX="350" positionY="700"/>
+<Connection from="4/sıcak" to="2/hava"/>
+<Word name="3/çok" positionX="450" positionY="700"/>
+<Connection from="4/sıcak" to="3/çok" with="degree"/>
+<Word name="10/ol" positionX="450" positionY="600"/>
+<Connection from="and" to="10/ol" with="op2"/>
+<Word name="-" positionX="350" positionY="700"/>
+<Connection from="10/ol" to="-" with="polarity"/>
+<Word name="o" positionX="450" positionY="700"/>
+<Connection from="10/ol" to="o" with="ARG0"/>
+<Word name="9/bırak" positionX="550" positionY="700"/>
+<Connection from="10/ol" to="9/bırak"/>
+<Connection from="9/bırak" to="biz" with="ARG0"/>
+<Word name="8/zaman" positionX="550" positionY="800"/>
+<Connection from="9/bırak" to="8/zaman"/>
+<Word name="6/başka" positionX="450" positionY="900"/>
+<Connection from="8/zaman" to="6/başka" with="mod"/>
+<Word name="11/mi" positionX="650" positionY="700"/>
+<Connection from="10/ol" to="11/mi"/>
+<Word name="14/ya" positionX="550" positionY="500"/>
+<Connection from="13/olur" to="14/ya"/>
+<Word name="17/ol" positionX="650" positionY="400"/>
+<Connection from="and" to="17/ol" with="ARG1"/>
+<Connection from="17/ol" to="-" with="polarity"/>
+<Connection from="17/ol" to="o" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="500"/>
+<Connection from="17/ol" to="imperative" with="mode"/>
+<Connection from="17/ol" to="and"/>
+<Word name="16/neden" positionX="950" positionY="500"/>
+<Connection from="17/ol" to="16/neden" with="manner"/>
+<Word name="21/taraf" positionX="850" positionY="200"/>
+<Connection from="22/ters 23/yüz 24/geri 25/dön" to="21/taraf"/>
+<Word name="19/köy" positionX="750" positionY="300"/>
+<Connection from="21/taraf" to="19/köy" with="mod"/>
+<Word name="20/arka" positionX="850" positionY="300"/>
+<Connection from="21/taraf" to="20/arka" with="mod"/>
+</Amr>

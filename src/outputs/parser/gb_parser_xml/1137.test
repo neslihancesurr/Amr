@@ -1,0 +1,13 @@
+<Amr sentence="Siz şu sıralarda sinemaya gittiniz mi ?">
+<Word name="5/git" positionX="750" positionY="100"/>
+<Word name="1/siz" positionX="650" positionY="200"/>
+<Connection from="5/git" to="1/siz" with="ARG0"/>
+<Word name="3/sıra" positionX="750" positionY="200"/>
+<Connection from="5/git" to="3/sıra" with="location"/>
+<Word name="2/şu" positionX="650" positionY="300"/>
+<Connection from="3/sıra" to="2/şu" with="mod"/>
+<Word name="4/sinema" positionX="850" positionY="200"/>
+<Connection from="5/git" to="4/sinema" with="ARG1"/>
+<Word name="6/mi" positionX="950" positionY="200"/>
+<Connection from="5/git" to="6/mi"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Genellikle iki saat çalışırdım .">
+<Word name="4/çalış" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/çalış" to="ben" with="ARG0"/>
+<Word name="1/genellikle" positionX="750" positionY="200"/>
+<Connection from="4/çalış" to="1/genellikle" with="manner"/>
+<Word name="3/saat" positionX="850" positionY="200"/>
+<Connection from="4/çalış" to="3/saat"/>
+<Word name="2/iki" positionX="750" positionY="300"/>
+<Connection from="3/saat" to="2/iki"/>
+</Amr>

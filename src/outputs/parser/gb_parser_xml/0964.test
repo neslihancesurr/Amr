@@ -1,0 +1,12 @@
+<Amr sentence="Arkadaşımı havaalanından alacağım .">
+<Word name="3/al" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/al" to="ben" with="ARG0"/>
+<Word name="1/arkadaş" positionX="750" positionY="200"/>
+<Connection from="3/al" to="1/arkadaş" with="ARG1"/>
+<Connection from="1/arkadaş" to="ben" with="poss"/>
+<Word name="2/havaalan" positionX="850" positionY="200"/>
+<Connection from="3/al" to="2/havaalan" with="ARG2"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="2/havaalan" to="o" with="poss"/>
+</Amr>

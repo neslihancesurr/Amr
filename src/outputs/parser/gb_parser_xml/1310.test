@@ -1,0 +1,30 @@
+<Amr sentence="Artık otobüslerde herkesten para alıyorlar , genç olsun , yaşlı olsun .">
+<Word name="5/al" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="5/al" to="onlar" with="ARG0"/>
+<Word name="1/artık" positionX="750" positionY="200"/>
+<Connection from="5/al" to="1/artık" with="manner"/>
+<Word name="2/otobüs" positionX="850" positionY="200"/>
+<Connection from="5/al" to="2/otobüs" with="location"/>
+<Word name="3/herkes" positionX="950" positionY="200"/>
+<Connection from="5/al" to="3/herkes"/>
+<Connection from="3/herkes" to="onlar" with="poss"/>
+<Word name="4/para" positionX="1050" positionY="200"/>
+<Connection from="5/al" to="4/para" with="ARG1"/>
+<Word name="and" positionX="1150" positionY="200"/>
+<Connection from="5/al" to="and"/>
+<Word name="11/ol" positionX="1050" positionY="300"/>
+<Connection from="and" to="11/ol" with="op1"/>
+<Word name="o" positionX="950" positionY="400"/>
+<Connection from="11/ol" to="o" with="ARG0"/>
+<Word name="imperative" positionX="1050" positionY="400"/>
+<Connection from="11/ol" to="imperative" with="mode"/>
+<Word name="10/yaşlı" positionX="1150" positionY="400"/>
+<Connection from="11/ol" to="10/yaşlı"/>
+<Word name="8/ol" positionX="1150" positionY="300"/>
+<Connection from="and" to="8/ol" with="op2"/>
+<Connection from="8/ol" to="o" with="ARG0"/>
+<Connection from="8/ol" to="imperative" with="mode"/>
+<Word name="7/genç" positionX="1250" positionY="400"/>
+<Connection from="8/ol" to="7/genç" with="manner"/>
+</Amr>

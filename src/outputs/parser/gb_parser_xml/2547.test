@@ -1,0 +1,14 @@
+<Amr sentence="Fasulye yarım saat piştiyse olmuştur artık .">
+<Word name="5/ol" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/ol" to="o" with="ARG0"/>
+<Word name="4/piş" positionX="750" positionY="200"/>
+<Connection from="5/ol" to="4/piş" with="cond"/>
+<Connection from="4/piş" to="o" with="ARG0"/>
+<Word name="1/fasulye" positionX="750" positionY="300"/>
+<Connection from="4/piş" to="1/fasulye"/>
+<Word name="2/yarım 3/saat" positionX="850" positionY="300"/>
+<Connection from="4/piş" to="2/yarım 3/saat" with="mod"/>
+<Word name="6/artık" positionX="850" positionY="200"/>
+<Connection from="5/ol" to="6/artık" with="manner"/>
+</Amr>

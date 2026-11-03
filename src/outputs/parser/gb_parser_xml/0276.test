@@ -1,0 +1,25 @@
+<Amr sentence="Her yıl bu kentte iki bin beş yüz yeni bina yapılıyor .">
+<Word name="11/yap" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="11/yap" to="o" with="ARG0"/>
+<Word name="2/yıl" positionX="750" positionY="200"/>
+<Connection from="11/yap" to="2/yıl"/>
+<Word name="1/her" positionX="650" positionY="300"/>
+<Connection from="2/yıl" to="1/her" with="mod"/>
+<Word name="4/kent" positionX="850" positionY="200"/>
+<Connection from="11/yap" to="4/kent" with="location"/>
+<Word name="3/bu" positionX="750" positionY="300"/>
+<Connection from="4/kent" to="3/bu" with="mod"/>
+<Word name="10/bina" positionX="950" positionY="200"/>
+<Connection from="11/yap" to="10/bina" with="ARG1"/>
+<Word name="8/yüz" positionX="850" positionY="300"/>
+<Connection from="10/bina" to="8/yüz"/>
+<Word name="5/iki" positionX="750" positionY="400"/>
+<Connection from="8/yüz" to="5/iki"/>
+<Word name="6/bin" positionX="850" positionY="400"/>
+<Connection from="8/yüz" to="6/bin"/>
+<Word name="7/beş" positionX="950" positionY="400"/>
+<Connection from="8/yüz" to="7/beş"/>
+<Word name="9/yeni" positionX="950" positionY="300"/>
+<Connection from="10/bina" to="9/yeni" with="mod"/>
+</Amr>

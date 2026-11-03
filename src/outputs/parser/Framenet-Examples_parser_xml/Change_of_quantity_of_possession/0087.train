@@ -1,0 +1,19 @@
+<Amr sentence="Duydun mu , iştekilerin gözünde resmen kaldırıma düşmüş .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/duy" positionX="650" positionY="200"/>
+<Connection from="and" to="1/duy" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="1/duy" to="sen" with="ARG0"/>
+<Word name="2/mi" positionX="650" positionY="300"/>
+<Connection from="1/duy" to="2/mi"/>
+<Word name="7/kaldırım 8/düş" positionX="750" positionY="200"/>
+<Connection from="and" to="7/kaldırım 8/düş" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="7/kaldırım 8/düş" to="o" with="ARG0"/>
+<Word name="5/gözünde" positionX="750" positionY="300"/>
+<Connection from="7/kaldırım 8/düş" to="5/gözünde"/>
+<Word name="4/iş" positionX="650" positionY="400"/>
+<Connection from="5/gözünde" to="4/iş" with="mod"/>
+<Word name="6/resmen" positionX="850" positionY="300"/>
+<Connection from="7/kaldırım 8/düş" to="6/resmen" with="manner"/>
+</Amr>

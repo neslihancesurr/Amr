@@ -1,0 +1,9 @@
+<Amr sentence="Neden ikide bir tekere çomak sokarlar ?">
+<Word name="4/teker 5/çomak 6/sok" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/teker 5/çomak 6/sok" to="onlar" with="ARG0"/>
+<Word name="1/neden" positionX="750" positionY="200"/>
+<Connection from="4/teker 5/çomak 6/sok" to="1/neden" with="manner"/>
+<Word name="2/iki" positionX="850" positionY="200"/>
+<Connection from="4/teker 5/çomak 6/sok" to="2/iki"/>
+</Amr>

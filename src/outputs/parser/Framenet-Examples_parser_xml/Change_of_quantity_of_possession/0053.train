@@ -1,0 +1,13 @@
+<Amr sentence="Kısmeti açılmış , kazancı oldukça güzel .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/kısmet 2/aç" positionX="650" positionY="200"/>
+<Connection from="and" to="1/kısmet 2/aç" with="op1"/>
+<Word name="6/güzel" positionX="750" positionY="200"/>
+<Connection from="and" to="6/güzel" with="op2"/>
+<Word name="4/kazanç" positionX="650" positionY="300"/>
+<Connection from="6/güzel" to="4/kazanç"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="4/kazanç" to="o" with="poss"/>
+<Word name="5/oldukça" positionX="750" positionY="300"/>
+<Connection from="6/güzel" to="5/oldukça" with="manner"/>
+</Amr>

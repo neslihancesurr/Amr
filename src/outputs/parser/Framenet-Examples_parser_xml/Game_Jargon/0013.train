@@ -1,0 +1,13 @@
+<Amr sentence="Yine mi pulumu kıracaksın ?">
+<Word name="4/kır" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="4/kır" to="sen" with="ARG0"/>
+<Word name="1/yine" positionX="750" positionY="200"/>
+<Connection from="4/kır" to="1/yine" with="manner"/>
+<Word name="2/mi" positionX="650" positionY="300"/>
+<Connection from="1/yine" to="2/mi"/>
+<Word name="3/pul" positionX="850" positionY="200"/>
+<Connection from="4/kır" to="3/pul" with="ARG1"/>
+<Word name="ben" positionX="750" positionY="300"/>
+<Connection from="3/pul" to="ben" with="poss"/>
+</Amr>

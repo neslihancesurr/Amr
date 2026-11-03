@@ -1,0 +1,23 @@
+<Amr sentence="Su herkesin güvenle kullanabileceği kadar temiz olmalı .">
+<Word name="6/temiz" positionX="750" positionY="100"/>
+<Word name="1/su" positionX="650" positionY="200"/>
+<Connection from="6/temiz" to="1/su"/>
+<Word name="mümkün" positionX="750" positionY="200"/>
+<Connection from="6/temiz" to="mümkün"/>
+<Word name="4/kullan" positionX="650" positionY="300"/>
+<Connection from="mümkün" to="4/kullan" with="extent"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="4/kullan" to="o" with="ARG0"/>
+<Connection from="4/kullan" to="o" with="poss"/>
+<Word name="2/herkes" positionX="750" positionY="400"/>
+<Connection from="4/kullan" to="2/herkes"/>
+<Word name="onlar" positionX="650" positionY="500"/>
+<Connection from="2/herkes" to="onlar" with="poss"/>
+<Word name="3/güven" positionX="850" positionY="400"/>
+<Connection from="4/kullan" to="3/güven" with="instrument"/>
+<Word name="gerek" positionX="850" positionY="200"/>
+<Connection from="6/temiz" to="gerek"/>
+<Word name="7/ol" positionX="750" positionY="300"/>
+<Connection from="gerek" to="7/ol"/>
+<Connection from="7/ol" to="o" with="ARG0"/>
+</Amr>

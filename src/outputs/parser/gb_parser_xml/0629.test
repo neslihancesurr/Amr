@@ -1,0 +1,13 @@
+<Amr sentence="Çocukların öğretmenleri İngiliz .">
+<Word name="person" positionX="750" positionY="100"/>
+<Word name="name" positionX="650" positionY="200"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/ingiliz" positionX="550" positionY="300"/>
+<Connection from="name" to="3/ingiliz" with="op1"/>
+<Word name="-" positionX="750" positionY="200"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/öğretmen" positionX="850" positionY="200"/>
+<Connection from="person" to="2/öğretmen"/>
+<Word name="1/çocuk" positionX="750" positionY="300"/>
+<Connection from="2/öğretmen" to="1/çocuk" with="mod"/>
+</Amr>

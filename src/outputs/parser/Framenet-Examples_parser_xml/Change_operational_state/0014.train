@@ -1,0 +1,21 @@
+<Amr sentence="İlk defa gördüğü yerler çok hoşuna gitmişti , sürekli video çekiyordu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/hoş 7/git" positionX="650" positionY="200"/>
+<Connection from="and" to="6/hoş 7/git" with="op1"/>
+<Word name="4/yer" positionX="550" positionY="300"/>
+<Connection from="6/hoş 7/git" to="4/yer" with="ARG1"/>
+<Word name="3/gör" positionX="450" positionY="400"/>
+<Connection from="4/yer" to="3/gör"/>
+<Word name="2/defa" positionX="350" positionY="500"/>
+<Connection from="3/gör" to="2/defa" with="mod"/>
+<Word name="1/ilk" positionX="250" positionY="600"/>
+<Connection from="2/defa" to="1/ilk" with="mod"/>
+<Word name="5/çok" positionX="650" positionY="300"/>
+<Connection from="6/hoş 7/git" to="5/çok" with="degree"/>
+<Word name="11/çek" positionX="750" positionY="200"/>
+<Connection from="and" to="11/çek" with="op2"/>
+<Word name="9/sürekli" positionX="650" positionY="300"/>
+<Connection from="11/çek" to="9/sürekli" with="frequency"/>
+<Word name="10/video" positionX="750" positionY="300"/>
+<Connection from="11/çek" to="10/video"/>
+</Amr>

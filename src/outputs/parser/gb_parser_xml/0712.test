@@ -1,0 +1,5 @@
+<Amr sentence="biraz aptal">
+<Word name="2/aptal" positionX="750" positionY="100"/>
+<Word name="1/biraz" positionX="650" positionY="200"/>
+<Connection from="2/aptal" to="1/biraz" with="manner"/>
+</Amr>

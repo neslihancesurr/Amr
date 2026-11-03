@@ -1,0 +1,32 @@
+<Amr sentence="Doğrusunu isterseniz ben hiçbir zaman Osman'ı o mevkiye layık görmemiştim .">
+<Word name="10/gör" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="10/gör" to="-" with="polarity"/>
+<Word name="2/iste" positionX="750" positionY="200"/>
+<Connection from="10/gör" to="2/iste" with="cond"/>
+<Word name="siz" positionX="650" positionY="300"/>
+<Connection from="2/iste" to="siz" with="ARG0"/>
+<Word name="1/doğru" positionX="750" positionY="300"/>
+<Connection from="2/iste" to="1/doğru"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="1/doğru" to="o" with="poss"/>
+<Word name="3/ben" positionX="850" positionY="200"/>
+<Connection from="10/gör" to="3/ben"/>
+<Word name="5/zaman" positionX="950" positionY="200"/>
+<Connection from="10/gör" to="5/zaman"/>
+<Word name="4/hiçbir" positionX="850" positionY="300"/>
+<Connection from="5/zaman" to="4/hiçbir" with="mod"/>
+<Word name="person" positionX="1050" positionY="200"/>
+<Connection from="10/gör" to="person"/>
+<Word name="name" positionX="950" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="6/osman" positionX="850" positionY="400"/>
+<Connection from="name" to="6/osman" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="8/mevki" positionX="1150" positionY="200"/>
+<Connection from="10/gör" to="8/mevki" with="mod"/>
+<Word name="7/o" positionX="1050" positionY="300"/>
+<Connection from="8/mevki" to="7/o" with="mod"/>
+<Word name="9/layık" positionX="1250" positionY="200"/>
+<Connection from="10/gör" to="9/layık"/>
+</Amr>

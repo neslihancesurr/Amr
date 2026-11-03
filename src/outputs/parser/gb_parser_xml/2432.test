@@ -1,0 +1,9 @@
+<Amr sentence="Çikolata yedikçe kilo alırsın .">
+<Word name="3/kilo 4/al" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="3/kilo 4/al" to="sen" with="ARG0"/>
+<Word name="2/ye" positionX="750" positionY="200"/>
+<Connection from="3/kilo 4/al" to="2/ye"/>
+<Word name="1/çikolata" positionX="650" positionY="300"/>
+<Connection from="2/ye" to="1/çikolata"/>
+</Amr>

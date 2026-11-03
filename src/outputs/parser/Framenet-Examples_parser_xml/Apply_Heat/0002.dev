@@ -1,0 +1,14 @@
+<Amr sentence="Bebeğe mamasını verirken önce püflüyordu .">
+<Word name="5/püfle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/püfle" to="o" with="ARG0"/>
+<Word name="3/ver" positionX="750" positionY="200"/>
+<Connection from="5/püfle" to="3/ver"/>
+<Word name="1/bebek" positionX="650" positionY="300"/>
+<Connection from="3/ver" to="1/bebek" with="ARG2"/>
+<Word name="2/mama" positionX="750" positionY="300"/>
+<Connection from="3/ver" to="2/mama" with="ARG1"/>
+<Connection from="2/mama" to="o" with="poss"/>
+<Word name="4/önce" positionX="850" positionY="200"/>
+<Connection from="5/püfle" to="4/önce" with="manner"/>
+</Amr>

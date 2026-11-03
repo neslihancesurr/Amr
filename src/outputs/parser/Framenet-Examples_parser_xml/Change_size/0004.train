@@ -1,0 +1,14 @@
+<Amr sentence="İtibar kaybetmeyim diye yaşını küçültüyor .">
+<Word name="5/küçült" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/küçült" to="o" with="ARG0"/>
+<Word name="2/kaybetme" positionX="750" positionY="200"/>
+<Connection from="5/küçült" to="2/kaybetme"/>
+<Word name="1/itibar" positionX="650" positionY="300"/>
+<Connection from="2/kaybetme" to="1/itibar"/>
+<Word name="3/diye" positionX="750" positionY="300"/>
+<Connection from="2/kaybetme" to="3/diye"/>
+<Word name="4/yaş" positionX="850" positionY="200"/>
+<Connection from="5/küçült" to="4/yaş" with="ARG1"/>
+<Connection from="4/yaş" to="o" with="poss"/>
+</Amr>

@@ -1,0 +1,5 @@
+<Amr sentence="yirmi otuzda">
+<Word name="2/otuz:location" positionX="750" positionY="100"/>
+<Word name="1/yirmi" positionX="650" positionY="200"/>
+<Connection from="2/otuz:location" to="1/yirmi"/>
+</Amr>

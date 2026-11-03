@@ -1,0 +1,14 @@
+<Amr sentence="Kocası yirmi yıl önce ölmüştü .">
+<Word name="5/öl" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/öl" to="o" with="ARG0"/>
+<Word name="1/koca" positionX="750" positionY="200"/>
+<Connection from="5/öl" to="1/koca"/>
+<Connection from="1/koca" to="o" with="poss"/>
+<Word name="3/yıl" positionX="850" positionY="200"/>
+<Connection from="5/öl" to="3/yıl"/>
+<Word name="2/yirmi" positionX="750" positionY="300"/>
+<Connection from="3/yıl" to="2/yirmi"/>
+<Word name="4/önce" positionX="850" positionY="300"/>
+<Connection from="3/yıl" to="4/önce"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Bunu belki siz bilebilirsiniz .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="4/bil" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="4/bil"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="4/bil" to="1/bu" with="ARG0"/>
+<Word name="2/belki" positionX="650" positionY="300"/>
+<Connection from="4/bil" to="2/belki" with="manner"/>
+<Word name="3/siz" positionX="750" positionY="300"/>
+<Connection from="4/bil" to="3/siz" with="ARG0"/>
+</Amr>

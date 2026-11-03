@@ -1,0 +1,11 @@
+<Amr sentence="Kötü adam ziftlenmeye doyamıyordu .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="4/doy" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="4/doy"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="4/doy" to="-" with="polarity"/>
+<Word name="1/kötü 2/adam" positionX="650" positionY="300"/>
+<Connection from="4/doy" to="1/kötü 2/adam" with="ARG0"/>
+<Word name="3/ziftlen" positionX="750" positionY="300"/>
+<Connection from="4/doy" to="3/ziftlen" with="ARG1"/>
+</Amr>

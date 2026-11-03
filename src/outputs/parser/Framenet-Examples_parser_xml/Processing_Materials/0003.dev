@@ -1,0 +1,11 @@
+<Amr sentence="Ahşap döşemelerimiz kirişlendi .">
+<Word name="3/kirişle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/kirişle" to="o" with="ARG0"/>
+<Word name="2/döşeme" positionX="750" positionY="200"/>
+<Connection from="3/kirişle" to="2/döşeme" with="ARG1"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="2/döşeme" to="biz" with="poss"/>
+<Word name="1/ahşap" positionX="750" positionY="300"/>
+<Connection from="2/döşeme" to="1/ahşap" with="mod"/>
+</Amr>

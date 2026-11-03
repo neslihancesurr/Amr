@@ -1,0 +1,10 @@
+<Amr sentence="Çok güzel bir atak yaptılar ama ofsayta düştüler .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="7/ofsayta 8/düş" positionX="650" positionY="200"/>
+<Connection from="and" to="7/ofsayta 8/düş" with="op1"/>
+<Word name="onlar" positionX="550" positionY="300"/>
+<Connection from="7/ofsayta 8/düş" to="onlar" with="ARG0"/>
+<Word name="4/atak 5/yap" positionX="750" positionY="200"/>
+<Connection from="and" to="4/atak 5/yap" with="op2"/>
+<Connection from="4/atak 5/yap" to="onlar" with="ARG0"/>
+</Amr>

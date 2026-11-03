@@ -1,0 +1,13 @@
+<Amr sentence="Bu dersi biraz zor yaptım .">
+<Word name="5/yap" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/yap" to="ben" with="ARG0"/>
+<Word name="2/ders" positionX="750" positionY="200"/>
+<Connection from="5/yap" to="2/ders" with="ARG1"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/ders" to="1/bu" with="mod"/>
+<Word name="4/zor" positionX="850" positionY="200"/>
+<Connection from="5/yap" to="4/zor"/>
+<Word name="3/biraz" positionX="750" positionY="300"/>
+<Connection from="4/zor" to="3/biraz" with="manner"/>
+</Amr>

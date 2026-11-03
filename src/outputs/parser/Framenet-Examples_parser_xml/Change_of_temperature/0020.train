@@ -1,0 +1,19 @@
+<Amr sentence="Hava durumu haberlerini izledim , bugün hava lodosa dönecekmiş .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/izle" positionX="650" positionY="200"/>
+<Connection from="and" to="4/izle" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="4/izle" to="ben" with="ARG0"/>
+<Word name="3/haber" positionX="650" positionY="300"/>
+<Connection from="4/izle" to="3/haber" with="ARG1"/>
+<Word name="1/hava 2/durum" positionX="550" positionY="400"/>
+<Connection from="3/haber" to="1/hava 2/durum" with="mod"/>
+<Word name="8/lodos 9/dön" positionX="750" positionY="200"/>
+<Connection from="and" to="8/lodos 9/dön" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="8/lodos 9/dön" to="o" with="ARG0"/>
+<Word name="6/bugün" positionX="750" positionY="300"/>
+<Connection from="8/lodos 9/dön" to="6/bugün"/>
+<Word name="7/hava" positionX="850" positionY="300"/>
+<Connection from="8/lodos 9/dön" to="7/hava" with="ARG1"/>
+</Amr>

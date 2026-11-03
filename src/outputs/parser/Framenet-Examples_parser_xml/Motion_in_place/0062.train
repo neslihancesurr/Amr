@@ -1,0 +1,17 @@
+<Amr sentence="Yatağında sabaha kadar döndü , uyuyamadı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/dön" positionX="650" positionY="200"/>
+<Connection from="and" to="4/dön" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/dön" to="o" with="ARG0"/>
+<Word name="1/yatak" positionX="650" positionY="300"/>
+<Connection from="4/dön" to="1/yatak" with="ARG1"/>
+<Connection from="1/yatak" to="o" with="poss"/>
+<Word name="2/sabaha 3/kadar" positionX="750" positionY="300"/>
+<Connection from="4/dön" to="2/sabaha 3/kadar" with="mod"/>
+<Word name="6/uyu" positionX="750" positionY="200"/>
+<Connection from="and" to="6/uyu" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="6/uyu" to="-" with="polarity"/>
+<Connection from="6/uyu" to="o" with="ARG0"/>
+</Amr>

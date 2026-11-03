@@ -1,0 +1,24 @@
+<Amr sentence="Kuzum bana kim gelip gidiyor , hep böyle gözlüyor musun ?">
+<Word name="9/gözle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="9/gözle" to="o" with="ARG0"/>
+<Word name="1/kuzu" positionX="750" positionY="200"/>
+<Connection from="9/gözle" to="1/kuzu"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="1/kuzu" to="ben" with="poss"/>
+<Word name="5/git" positionX="850" positionY="200"/>
+<Connection from="9/gözle" to="5/git"/>
+<Connection from="5/git" to="o" with="ARG0"/>
+<Word name="2/ben" positionX="850" positionY="300"/>
+<Connection from="5/git" to="2/ben" with="ARG1"/>
+<Word name="3/kim" positionX="950" positionY="300"/>
+<Connection from="5/git" to="3/kim"/>
+<Word name="4/gel" positionX="1050" positionY="300"/>
+<Connection from="5/git" to="4/gel"/>
+<Word name="7/hep" positionX="950" positionY="200"/>
+<Connection from="9/gözle" to="7/hep" with="frequency"/>
+<Word name="8/böyle" positionX="1050" positionY="200"/>
+<Connection from="9/gözle" to="8/böyle" with="manner"/>
+<Word name="10/mi" positionX="1150" positionY="200"/>
+<Connection from="9/gözle" to="10/mi"/>
+</Amr>

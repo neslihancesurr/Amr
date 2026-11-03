@@ -1,0 +1,13 @@
+<Amr sentence="Secdeye kapandı , namazına devam etti .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/secde 2/kapan" positionX="650" positionY="200"/>
+<Connection from="and" to="1/secde 2/kapan" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/secde 2/kapan" to="o" with="ARG0"/>
+<Word name="5/devam 6/et" positionX="750" positionY="200"/>
+<Connection from="and" to="5/devam 6/et" with="op2"/>
+<Connection from="5/devam 6/et" to="o" with="ARG0"/>
+<Word name="4/namaz" positionX="750" positionY="300"/>
+<Connection from="5/devam 6/et" to="4/namaz"/>
+<Connection from="4/namaz" to="o" with="poss"/>
+</Amr>

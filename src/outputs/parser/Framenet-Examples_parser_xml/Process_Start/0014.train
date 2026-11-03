@@ -1,0 +1,15 @@
+<Amr sentence="Bayram töreni için bütün sınıf harekete geçtik .">
+<Word name="6/hareket 7/geç" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="6/hareket 7/geç" to="biz" with="ARG0"/>
+<Word name="2/tören" positionX="750" positionY="200"/>
+<Connection from="6/hareket 7/geç" to="2/tören" with="mod"/>
+<Word name="1/bayram" positionX="650" positionY="300"/>
+<Connection from="2/tören" to="1/bayram" with="mod"/>
+<Word name="3/için" positionX="750" positionY="300"/>
+<Connection from="2/tören" to="3/için"/>
+<Word name="5/sınıf" positionX="850" positionY="200"/>
+<Connection from="6/hareket 7/geç" to="5/sınıf" with="ARG0"/>
+<Word name="4/bütün" positionX="750" positionY="300"/>
+<Connection from="5/sınıf" to="4/bütün" with="mod"/>
+</Amr>

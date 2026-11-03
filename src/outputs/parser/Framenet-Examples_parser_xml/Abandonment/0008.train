@@ -1,0 +1,19 @@
+<Amr sentence="Kahverengi ceketli kadın geçtiğimiz gün kocasını boşadı .">
+<Word name="7/boşa" positionX="750" positionY="100"/>
+<Word name="3/kadın" positionX="650" positionY="200"/>
+<Connection from="7/boşa" to="3/kadın" with="ARG0"/>
+<Word name="2/ceketli" positionX="550" positionY="300"/>
+<Connection from="3/kadın" to="2/ceketli" with="mod"/>
+<Word name="1/kahverengi" positionX="450" positionY="400"/>
+<Connection from="2/ceketli" to="1/kahverengi" with="mod"/>
+<Word name="5/gün" positionX="750" positionY="200"/>
+<Connection from="7/boşa" to="5/gün" with="mod"/>
+<Word name="4/geç" positionX="650" positionY="300"/>
+<Connection from="5/gün" to="4/geç"/>
+<Word name="biz" positionX="550" positionY="400"/>
+<Connection from="4/geç" to="biz" with="poss"/>
+<Word name="6/koca" positionX="850" positionY="200"/>
+<Connection from="7/boşa" to="6/koca" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="6/koca" to="o" with="poss"/>
+</Amr>

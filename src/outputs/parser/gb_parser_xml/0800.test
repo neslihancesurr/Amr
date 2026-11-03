@@ -1,0 +1,15 @@
+<Amr sentence="on tane üçer dörder metrelik heykel">
+<Word name="6/heykel" positionX="750" positionY="100"/>
+<Word name="2/tane" positionX="650" positionY="200"/>
+<Connection from="6/heykel" to="2/tane" with="mod"/>
+<Word name="1/on" positionX="550" positionY="300"/>
+<Connection from="2/tane" to="1/on"/>
+<Word name="5/metrelik" positionX="750" positionY="200"/>
+<Connection from="6/heykel" to="5/metrelik" with="mod"/>
+<Word name="and" positionX="650" positionY="300"/>
+<Connection from="5/metrelik" to="and"/>
+<Word name="4/dört" positionX="550" positionY="400"/>
+<Connection from="and" to="4/dört" with="op1"/>
+<Word name="3/üç" positionX="650" positionY="400"/>
+<Connection from="and" to="3/üç" with="op2"/>
+</Amr>

@@ -1,0 +1,7 @@
+<Amr sentence="Farkında olmadan bu iki aile arasındaki büyük dostluğun temelini attılar .">
+<Word name="9/temel 10/at" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="9/temel 10/at" to="onlar" with="ARG0"/>
+<Word name="1/fark 2/ol" positionX="750" positionY="200"/>
+<Connection from="9/temel 10/at" to="1/fark 2/ol"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Makinalar çalışırken ötede durmak lazım .">
+<Word name="5/lazım" positionX="750" positionY="100"/>
+<Word name="2/çalış" positionX="650" positionY="200"/>
+<Connection from="5/lazım" to="2/çalış"/>
+<Word name="1/makina" positionX="550" positionY="300"/>
+<Connection from="2/çalış" to="1/makina" with="ARG0"/>
+<Word name="4/dur" positionX="750" positionY="200"/>
+<Connection from="5/lazım" to="4/dur"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="4/dur" to="o" with="ARG0"/>
+<Word name="3/öte" positionX="750" positionY="300"/>
+<Connection from="4/dur" to="3/öte" with="location"/>
+</Amr>

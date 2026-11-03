@@ -1,0 +1,14 @@
+<Amr sentence="Bu işin arkasını bırak yoksa pişman olursun .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/arka 4/bırak" positionX="650" positionY="200"/>
+<Connection from="and" to="3/arka 4/bırak" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="3/arka 4/bırak" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="650" positionY="300"/>
+<Connection from="3/arka 4/bırak" to="imperative" with="mode"/>
+<Word name="6/pişman 7/ol" positionX="750" positionY="200"/>
+<Connection from="and" to="6/pişman 7/ol" with="op2"/>
+<Connection from="6/pişman 7/ol" to="sen" with="ARG0"/>
+<Word name="5/yoksa" positionX="750" positionY="300"/>
+<Connection from="6/pişman 7/ol" to="5/yoksa"/>
+</Amr>

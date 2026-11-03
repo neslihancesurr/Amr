@@ -1,0 +1,11 @@
+<Amr sentence="koyunlarını kurt kapan köylüler">
+<Word name="4/köylü" positionX="750" positionY="100"/>
+<Word name="3/kap" positionX="650" positionY="200"/>
+<Connection from="4/köylü" to="3/kap"/>
+<Word name="1/koyun" positionX="550" positionY="300"/>
+<Connection from="3/kap" to="1/koyun"/>
+<Word name="onlar" positionX="450" positionY="400"/>
+<Connection from="1/koyun" to="onlar" with="poss"/>
+<Word name="2/kurt" positionX="650" positionY="300"/>
+<Connection from="3/kap" to="2/kurt"/>
+</Amr>

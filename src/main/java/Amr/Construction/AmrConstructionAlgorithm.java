@@ -11,13 +11,13 @@ import java.util.Scanner;
 
 public abstract class AmrConstructionAlgorithm {
 
-    abstract ArrayList<String> constructExcelAmr(AnnotatedSentence sentence);
+    protected abstract ArrayList<String> constructExcelAmr(AnnotatedSentence sentence);
 
     public void saveAmr(AnnotatedSentence sentence, String fileName){
         ArrayList<String> items = constructExcelAmr(sentence);
         items.remove(0);
         if (items.size() > 0){
-            saveAmr(items, fileName);
+            saveAmr(items, fileName, sentence.toWords());
         }
     }
 
@@ -29,56 +29,81 @@ public abstract class AmrConstructionAlgorithm {
         return result.toString();
     }
 
+    private String escapeXml(String s){
+        return s.replace("&", "&amp;")
+                .replace("<", "&lt;")
+                .replace(">", "&gt;")
+                .replace("\"", "&quot;");
+    }
+
     public void saveAmr(ArrayList<String> items, String fileName){
+        saveAmr(items, fileName, "");
+    }
+
+    public void saveAmr(ArrayList<String> items, String fileName, String sentenceText){
+        String xml = buildAmrXml(items, sentenceText);
+        try {
+            PrintWriter output = new PrintWriter(fileName);
+            output.print(xml);
+            output.close();
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    /**
+     * Builds the full <Amr>...</Amr> XML representation of `items` as a String,
+     * without writing it anywhere. This is the same logic previously inlined
+     * directly into saveAmr(), extracted so callers (like a batch generator)
+     * can collect XML for many sentences and write them out together.
+     */
+    public String buildAmrXml(ArrayList<String> items, String sentenceText){
+        StringBuilder output = new StringBuilder();
         int startX = 750, startY = 100;
         String[] lastParent = new String[50];
         int[] lastX = new int[50];
         int[] childCount = new int[50];
         HashSet<String> words = new HashSet<>();
-        try {
-            PrintWriter output = new PrintWriter(fileName);
-            output.println("<Amr>");
-            String line = items.get(0);
-            output.println("<Word name=\"" + line + "\" positionX=\"" + startX + "\" positionY=\"" + startY + "\"/>");
-            words.add(line);
-            lastParent[0] = line;
-            childCount[0] = 0;
-            lastX[0] = startX;
-            for (int j = 1; j < items.size(); j++){
-                line = items.get(j);
-                int tabCount = 0, i = 0;
-                while (line.charAt(i) == '\t'){
-                    tabCount++;
-                    i++;
-                }
-                line = line.substring(tabCount);
-                if (line.contains(":")){
-                    lastParent[tabCount] = line.substring(0, line.lastIndexOf(":"));
-                } else {
-                    lastParent[tabCount] = line;
-                }
-                childCount[tabCount] = 0;
-                lastX[tabCount] = lastX[tabCount - 1] + (childCount[tabCount - 1] - 1) * 100;
-                if (line.contains(":")){
-                    if (!words.contains(line.substring(0, line.lastIndexOf(":")))){
-                        output.println("<Word name=\"" + line.substring(0, line.lastIndexOf(":")) + "\" positionX=\"" + lastX[tabCount] + "\" positionY=\"" + (startY + 100 * tabCount) + "\"/>");
-                        words.add(line.substring(0, line.lastIndexOf(":")));
-                    }
-                    output.println("<Connection from=\"" + lastParent[tabCount - 1] + "\" to=\"" + line.substring(0, line.lastIndexOf(":")) + "\" with=\"" + line.substring(line.lastIndexOf(":") + 1) + "\"/>");
-                } else {
-                    if (!words.contains(line)){
-                        output.println("<Word name=\"" + line + "\" positionX=\"" + lastX[tabCount] + "\" positionY=\"" + (startY + 100 * tabCount) + "\"/>");
-                        words.add(line);
-                    }
-                    output.println("<Connection from=\"" + lastParent[tabCount - 1] + "\" to=\"" + line + "\"/>");
-                }
-                childCount[tabCount - 1]++;
+
+        output.append("<Amr sentence=\"").append(escapeXml(sentenceText)).append("\">\n");
+        String line = items.get(0);
+        output.append("<Word name=\"").append(line).append("\" positionX=\"").append(startX).append("\" positionY=\"").append(startY).append("\"/>\n");
+        words.add(line);
+        lastParent[0] = line;
+        childCount[0] = 0;
+        lastX[0] = startX;
+        for (int j = 1; j < items.size(); j++){
+            line = items.get(j);
+            int tabCount = 0, i = 0;
+            while (line.charAt(i) == '\t'){
+                tabCount++;
+                i++;
             }
-            output.println("</Amr>");
-            output.close();
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
+            line = line.substring(tabCount);
+            if (line.contains(":")){
+                lastParent[tabCount] = line.substring(0, line.lastIndexOf(":"));
+            } else {
+                lastParent[tabCount] = line;
+            }
+            childCount[tabCount] = 0;
+            lastX[tabCount] = lastX[tabCount - 1] + (childCount[tabCount - 1] - 1) * 100;
+            if (line.contains(":")){
+                if (!words.contains(line.substring(0, line.lastIndexOf(":")))){
+                    output.append("<Word name=\"").append(line.substring(0, line.lastIndexOf(":"))).append("\" positionX=\"").append(lastX[tabCount]).append("\" positionY=\"").append(startY + 100 * tabCount).append("\"/>\n");
+                    words.add(line.substring(0, line.lastIndexOf(":")));
+                }
+                output.append("<Connection from=\"").append(lastParent[tabCount - 1]).append("\" to=\"").append(line.substring(0, line.lastIndexOf(":"))).append("\" with=\"").append(line.substring(line.lastIndexOf(":") + 1)).append("\"/>\n");
+            } else {
+                if (!words.contains(line)){
+                    output.append("<Word name=\"").append(line).append("\" positionX=\"").append(lastX[tabCount]).append("\" positionY=\"").append(startY + 100 * tabCount).append("\"/>\n");
+                    words.add(line);
+                }
+                output.append("<Connection from=\"").append(lastParent[tabCount - 1]).append("\" to=\"").append(line).append("\"/>\n");
+            }
+            childCount[tabCount - 1]++;
         }
+        output.append("</Amr>\n");
+        return output.toString();
     }
 
     private String getAmrOutputFileName(String line){

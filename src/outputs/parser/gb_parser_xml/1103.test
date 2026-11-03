@@ -1,0 +1,17 @@
+<Amr sentence="Babası , amcası ve bizim aramızda eski bir dostluk vardı .">
+<Word name="10/var" positionX="750" positionY="100"/>
+<Word name="6/ara" positionX="650" positionY="200"/>
+<Connection from="10/var" to="6/ara" with="location"/>
+<Word name="and" positionX="550" positionY="300"/>
+<Connection from="6/ara" to="and"/>
+<Word name="3/amca" positionX="450" positionY="400"/>
+<Connection from="and" to="3/amca" with="mod"/>
+<Word name="5/biz" positionX="550" positionY="400"/>
+<Connection from="and" to="5/biz" with="mod"/>
+<Word name="1/baba" positionX="650" positionY="400"/>
+<Connection from="and" to="1/baba" with="mod"/>
+<Word name="9/dostluk" positionX="750" positionY="200"/>
+<Connection from="10/var" to="9/dostluk"/>
+<Word name="7/eski" positionX="650" positionY="300"/>
+<Connection from="9/dostluk" to="7/eski" with="mod"/>
+</Amr>

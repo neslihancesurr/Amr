@@ -1,0 +1,22 @@
+<Amr sentence="Erol'a sonunda Spor Birliği bir madalya verdi .">
+<Word name="7/ver" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="7/ver" to="person" with="ARG2"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/erol" positionX="450" positionY="400"/>
+<Connection from="name" to="1/erol" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/sonunda" positionX="750" positionY="200"/>
+<Connection from="7/ver" to="2/sonunda" with="manner"/>
+<Connection from="7/ver" to="person" with="ARG0"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="4/birliği" positionX="650" positionY="400"/>
+<Connection from="name" to="4/birliği" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/spor" positionX="950" positionY="300"/>
+<Connection from="person" to="3/spor" with="mod"/>
+<Word name="6/madalya" positionX="950" positionY="200"/>
+<Connection from="7/ver" to="6/madalya" with="ARG1"/>
+</Amr>

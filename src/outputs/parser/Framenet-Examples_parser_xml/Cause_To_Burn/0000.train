@@ -1,0 +1,9 @@
+<Amr sentence="Yangın bütün mahalleyi kül etti .">
+<Word name="4/kül 5/et" positionX="750" positionY="100"/>
+<Word name="1/yangın" positionX="650" positionY="200"/>
+<Connection from="4/kül 5/et" to="1/yangın" with="ARG0"/>
+<Word name="3/mahalle" positionX="750" positionY="200"/>
+<Connection from="4/kül 5/et" to="3/mahalle" with="ARG1"/>
+<Word name="2/bütün" positionX="650" positionY="300"/>
+<Connection from="3/mahalle" to="2/bütün" with="mod"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Bol keseden ahkâm keser .">
+<Word name="4/kes" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/kes" to="o" with="ARG0"/>
+<Word name="1/bol 2/kese" positionX="750" positionY="200"/>
+<Connection from="4/kes" to="1/bol 2/kese" with="mod"/>
+<Word name="3/ahkam" positionX="850" positionY="200"/>
+<Connection from="4/kes" to="3/ahkam"/>
+</Amr>

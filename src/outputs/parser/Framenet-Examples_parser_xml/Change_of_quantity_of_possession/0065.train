@@ -1,0 +1,9 @@
+<Amr sentence="Virüse karşı bağışıklık kazanmıştı .">
+<Word name="3/bağışıklık 4/kazan" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/bağışıklık 4/kazan" to="o" with="ARG0"/>
+<Word name="1/virüs" positionX="750" positionY="200"/>
+<Connection from="3/bağışıklık 4/kazan" to="1/virüs" with="ARG1"/>
+<Word name="2/karşı" positionX="650" positionY="300"/>
+<Connection from="1/virüs" to="2/karşı"/>
+</Amr>

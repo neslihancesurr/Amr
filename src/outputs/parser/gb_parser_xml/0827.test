@@ -1,0 +1,7 @@
+<Amr sentence="ün yapan kimi oyuncular">
+<Word name="4/oyuncu" positionX="750" positionY="100"/>
+<Word name="1/ün 2/yap" positionX="650" positionY="200"/>
+<Connection from="4/oyuncu" to="1/ün 2/yap"/>
+<Word name="3/kimi" positionX="750" positionY="200"/>
+<Connection from="4/oyuncu" to="3/kimi" with="mod"/>
+</Amr>

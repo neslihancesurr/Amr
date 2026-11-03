@@ -1,0 +1,15 @@
+<Amr sentence="Adaptörleri vidaladık , bu sayede çalıştı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/vidala" positionX="650" positionY="200"/>
+<Connection from="and" to="2/vidala" with="op1"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="2/vidala" to="biz" with="ARG0"/>
+<Word name="1/adaptör" positionX="650" positionY="300"/>
+<Connection from="2/vidala" to="1/adaptör" with="ARG1"/>
+<Word name="6/çalış" positionX="750" positionY="200"/>
+<Connection from="and" to="6/çalış" with="op2"/>
+<Word name="5/saye" positionX="650" positionY="300"/>
+<Connection from="6/çalış" to="5/saye" with="location"/>
+<Word name="4/bu" positionX="550" positionY="400"/>
+<Connection from="5/saye" to="4/bu" with="mod"/>
+</Amr>

@@ -1,0 +1,16 @@
+<Amr sentence="Necla'ya güvenemem .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="2/güven" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="2/güven"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="2/güven" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="2/güven" to="ben" with="ARG0"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="2/güven" to="person" with="ARG1"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/necla" positionX="550" positionY="500"/>
+<Connection from="name" to="1/necla" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

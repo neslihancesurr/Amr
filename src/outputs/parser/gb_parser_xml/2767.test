@@ -1,0 +1,9 @@
+<Amr sentence="Bir gün önce de evde kızkardeşimin doğum gününü kutlamıştık .">
+<Word name="9/kutla" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="9/kutla" to="biz" with="ARG0"/>
+<Word name="5/ev" positionX="750" positionY="200"/>
+<Connection from="9/kutla" to="5/ev" with="location"/>
+<Word name="7/doğum 8/gün" positionX="850" positionY="200"/>
+<Connection from="9/kutla" to="7/doğum 8/gün" with="ARG1"/>
+</Amr>

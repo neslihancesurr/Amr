@@ -1,0 +1,11 @@
+<Amr sentence="Bugün okulu erken paydos etmişler .">
+<Word name="4/paydos 5/et" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/paydos 5/et" to="onlar" with="ARG0"/>
+<Word name="1/bugün" positionX="750" positionY="200"/>
+<Connection from="4/paydos 5/et" to="1/bugün" with="mod"/>
+<Word name="2/okul" positionX="850" positionY="200"/>
+<Connection from="4/paydos 5/et" to="2/okul"/>
+<Word name="3/erken" positionX="950" positionY="200"/>
+<Connection from="4/paydos 5/et" to="3/erken" with="manner"/>
+</Amr>

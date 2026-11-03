@@ -1,0 +1,13 @@
+<Amr sentence="Babaları , her hareketlerinde çocuklara dik dik bakıyordu .">
+<Word name="6/dik 7/dik 8/bak" positionX="750" positionY="100"/>
+<Word name="1/baba" positionX="650" positionY="200"/>
+<Connection from="6/dik 7/dik 8/bak" to="1/baba" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/baba" to="o" with="poss"/>
+<Word name="4/hareket" positionX="750" positionY="200"/>
+<Connection from="6/dik 7/dik 8/bak" to="4/hareket" with="mod"/>
+<Word name="3/her" positionX="650" positionY="300"/>
+<Connection from="4/hareket" to="3/her" with="mod"/>
+<Word name="5/çocuk" positionX="850" positionY="200"/>
+<Connection from="6/dik 7/dik 8/bak" to="5/çocuk" with="ARG1"/>
+</Amr>

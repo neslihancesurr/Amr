@@ -1,0 +1,19 @@
+<Amr sentence="Kimsenin bu kitabı okuduğunu sanmıyorum .">
+<Word name="5/san" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/san" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="5/san" to="ben" with="ARG0"/>
+<Word name="4/oku" positionX="850" positionY="200"/>
+<Connection from="5/san" to="4/oku" with="ARG2"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="4/oku" to="o" with="ARG0"/>
+<Connection from="4/oku" to="o" with="poss"/>
+<Word name="1/kimse" positionX="950" positionY="300"/>
+<Connection from="4/oku" to="1/kimse"/>
+<Connection from="1/kimse" to="o" with="poss"/>
+<Word name="3/kitap" positionX="1050" positionY="300"/>
+<Connection from="4/oku" to="3/kitap" with="ARG1"/>
+<Word name="2/bu" positionX="950" positionY="400"/>
+<Connection from="3/kitap" to="2/bu" with="mod"/>
+</Amr>

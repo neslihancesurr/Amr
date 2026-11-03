@@ -1,0 +1,16 @@
+<Amr sentence="Bu ay çok kazandım , para kestim .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/kazan" positionX="650" positionY="200"/>
+<Connection from="and" to="4/kazan" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="4/kazan" to="ben" with="ARG0"/>
+<Word name="2/ay" positionX="650" positionY="300"/>
+<Connection from="4/kazan" to="2/ay"/>
+<Word name="1/bu" positionX="550" positionY="400"/>
+<Connection from="2/ay" to="1/bu" with="mod"/>
+<Word name="3/çok" positionX="750" positionY="300"/>
+<Connection from="4/kazan" to="3/çok" with="degree"/>
+<Word name="6/para 7/kes" positionX="750" positionY="200"/>
+<Connection from="and" to="6/para 7/kes" with="op2"/>
+<Connection from="6/para 7/kes" to="ben" with="ARG0"/>
+</Amr>

@@ -1,0 +1,5 @@
+<Amr sentence="Meğer postacıymış .">
+<Word name="2/postacı" positionX="750" positionY="100"/>
+<Word name="1/meğer" positionX="650" positionY="200"/>
+<Connection from="2/postacı" to="1/meğer" with="manner"/>
+</Amr>

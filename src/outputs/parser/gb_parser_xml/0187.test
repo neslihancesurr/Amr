@@ -1,0 +1,13 @@
+<Amr sentence="Bugün hava açarsa , ki açacağını pek sanmıyorum , bahçede mangal yakacaklarmış .">
+<Word name="12/yak" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="12/yak" to="onlar" with="ARG0"/>
+<Word name="2/hava 3/aç" positionX="750" positionY="200"/>
+<Connection from="12/yak" to="2/hava 3/aç"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/hava 3/aç" to="o" with="ARG0"/>
+<Word name="10/bahçe" positionX="850" positionY="200"/>
+<Connection from="12/yak" to="10/bahçe" with="location"/>
+<Word name="11/mangal" positionX="950" positionY="200"/>
+<Connection from="12/yak" to="11/mangal" with="ARG1"/>
+</Amr>

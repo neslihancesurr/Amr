@@ -1,0 +1,17 @@
+<Amr sentence="Ben arkadaşını bilmem , seni bilirim .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/bil" positionX="650" positionY="200"/>
+<Connection from="and" to="3/bil" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="3/bil" to="-" with="polarity"/>
+<Word name="1/ben" positionX="650" positionY="300"/>
+<Connection from="3/bil" to="1/ben"/>
+<Word name="2/arkadaş" positionX="750" positionY="300"/>
+<Connection from="3/bil" to="2/arkadaş"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="2/arkadaş" to="o" with="poss"/>
+<Word name="6/bil" positionX="750" positionY="200"/>
+<Connection from="and" to="6/bil" with="op2"/>
+<Word name="5/sen" positionX="650" positionY="300"/>
+<Connection from="6/bil" to="5/sen" with="ARG1"/>
+</Amr>

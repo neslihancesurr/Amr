@@ -1,0 +1,11 @@
+<Amr sentence="Düğünden kalan takıları paraya çevireceğim .">
+<Word name="4/para 5/çevir" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/para 5/çevir" to="ben" with="ARG0"/>
+<Word name="3/takı" positionX="750" positionY="200"/>
+<Connection from="4/para 5/çevir" to="3/takı" with="ARG1"/>
+<Word name="2/kal" positionX="650" positionY="300"/>
+<Connection from="3/takı" to="2/kal"/>
+<Word name="1/düğün" positionX="550" positionY="400"/>
+<Connection from="2/kal" to="1/düğün"/>
+</Amr>

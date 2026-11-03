@@ -1,0 +1,7 @@
+<Amr sentence="Banka bana bir kredi açtı .">
+<Word name="4/kredi 5/aç" positionX="750" positionY="100"/>
+<Word name="1/banka" positionX="650" positionY="200"/>
+<Connection from="4/kredi 5/aç" to="1/banka" with="ARG0"/>
+<Word name="2/ben" positionX="750" positionY="200"/>
+<Connection from="4/kredi 5/aç" to="2/ben" with="ARG1"/>
+</Amr>

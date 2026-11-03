@@ -1,0 +1,9 @@
+<Amr sentence="önü bahçeli olan ev">
+<Word name="4/ev" positionX="750" positionY="100"/>
+<Word name="3/ol" positionX="650" positionY="200"/>
+<Connection from="4/ev" to="3/ol"/>
+<Word name="2/bahçe" positionX="550" positionY="300"/>
+<Connection from="3/ol" to="2/bahçe" with="mod"/>
+<Word name="1/ön" positionX="450" positionY="400"/>
+<Connection from="2/bahçe" to="1/ön" with="mod"/>
+</Amr>

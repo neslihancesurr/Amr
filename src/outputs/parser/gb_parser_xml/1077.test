@@ -1,0 +1,19 @@
+<Amr sentence="Bu hesapları bir kağıt üstünde yapmak daha kolay olacak .">
+<Word name="8/kolay" positionX="750" positionY="100"/>
+<Word name="6/yap" positionX="650" positionY="200"/>
+<Connection from="8/kolay" to="6/yap"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="6/yap" to="o" with="ARG0"/>
+<Word name="2/hesap" positionX="650" positionY="300"/>
+<Connection from="6/yap" to="2/hesap"/>
+<Word name="1/bu" positionX="550" positionY="400"/>
+<Connection from="2/hesap" to="1/bu" with="mod"/>
+<Word name="5/üst" positionX="750" positionY="300"/>
+<Connection from="6/yap" to="5/üst" with="location"/>
+<Word name="4/kağıt" positionX="650" positionY="400"/>
+<Connection from="5/üst" to="4/kağıt" with="mod"/>
+<Word name="7/daha" positionX="750" positionY="200"/>
+<Connection from="8/kolay" to="7/daha" with="degree"/>
+<Word name="9/ol" positionX="850" positionY="200"/>
+<Connection from="8/kolay" to="9/ol"/>
+</Amr>

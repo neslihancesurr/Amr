@@ -1,0 +1,24 @@
+<Amr sentence="Saat çok geç oldu , yatman gerek artık .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/ol" positionX="650" positionY="200"/>
+<Connection from="and" to="4/ol" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/ol" to="o" with="ARG0"/>
+<Word name="1/saat" positionX="650" positionY="300"/>
+<Connection from="4/ol" to="1/saat"/>
+<Word name="3/geç" positionX="750" positionY="300"/>
+<Connection from="4/ol" to="3/geç" with="manner"/>
+<Word name="2/çok" positionX="650" positionY="400"/>
+<Connection from="3/geç" to="2/çok" with="degree"/>
+<Word name="7/gerek" positionX="750" positionY="200"/>
+<Connection from="and" to="7/gerek" with="op2"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="7/gerek" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="300"/>
+<Connection from="7/gerek" to="imperative" with="mode"/>
+<Word name="6/yat" positionX="850" positionY="300"/>
+<Connection from="7/gerek" to="6/yat" with="ARG0"/>
+<Connection from="6/yat" to="sen" with="ARG0"/>
+<Word name="8/artık" positionX="950" positionY="300"/>
+<Connection from="7/gerek" to="8/artık" with="manner"/>
+</Amr>

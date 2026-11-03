@@ -1,0 +1,9 @@
+<Amr sentence="Onlar burada dövüştürüldü .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="3/dövüş" positionX="650" positionY="200"/>
+<Connection from="yap" to="3/dövüş"/>
+<Word name="1/o" positionX="550" positionY="300"/>
+<Connection from="3/dövüş" to="1/o" with="ARG0"/>
+<Word name="2/bura" positionX="650" positionY="300"/>
+<Connection from="3/dövüş" to="2/bura" with="location"/>
+</Amr>

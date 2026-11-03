@@ -1,0 +1,11 @@
+<Amr sentence="Dayım bize hediyeler getirmişti .">
+<Word name="4/getir" positionX="750" positionY="100"/>
+<Word name="1/dayı" positionX="650" positionY="200"/>
+<Connection from="4/getir" to="1/dayı" with="ARG0"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="1/dayı" to="ben" with="poss"/>
+<Word name="2/biz" positionX="750" positionY="200"/>
+<Connection from="4/getir" to="2/biz"/>
+<Word name="3/hediye" positionX="850" positionY="200"/>
+<Connection from="4/getir" to="3/hediye" with="ARG1"/>
+</Amr>

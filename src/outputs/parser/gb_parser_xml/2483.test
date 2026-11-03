@@ -1,0 +1,33 @@
+<Amr sentence="Şayet karşı tarafı düşünebiliyorsanız , Bostancı'da güzel bir ev gördüm geçen gün .">
+<Word name="10/gör" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="10/gör" to="ben" with="ARG0"/>
+<Word name="mümkün" positionX="750" positionY="200"/>
+<Connection from="10/gör" to="mümkün"/>
+<Word name="4/düşün" positionX="650" positionY="300"/>
+<Connection from="mümkün" to="4/düşün" with="cond"/>
+<Word name="siz" positionX="550" positionY="400"/>
+<Connection from="4/düşün" to="siz" with="ARG0"/>
+<Word name="1/şayet" positionX="650" positionY="400"/>
+<Connection from="4/düşün" to="1/şayet"/>
+<Word name="3/taraf" positionX="750" positionY="400"/>
+<Connection from="4/düşün" to="3/taraf" with="ARG1"/>
+<Word name="2/karşı" positionX="650" positionY="500"/>
+<Connection from="3/taraf" to="2/karşı" with="mod"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="10/gör" to="person" with="ARG1"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="6/bostancı" positionX="650" positionY="400"/>
+<Connection from="name" to="6/bostancı" with="op1"/>
+<Word name="-" positionX="850" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="9/ev" positionX="950" positionY="200"/>
+<Connection from="10/gör" to="9/ev" with="ARG1"/>
+<Word name="7/güzel" positionX="850" positionY="300"/>
+<Connection from="9/ev" to="7/güzel" with="mod"/>
+<Word name="12/gün" positionX="1050" positionY="200"/>
+<Connection from="10/gör" to="12/gün"/>
+<Word name="11/geçen" positionX="950" positionY="300"/>
+<Connection from="12/gün" to="11/geçen"/>
+</Amr>

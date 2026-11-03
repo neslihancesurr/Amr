@@ -1,0 +1,15 @@
+<Amr sentence="Tam o sırada dekanla görüşüyor olacağımızı tahmin ediyordum .">
+<Word name="7/tahmin 8/et" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="7/tahmin 8/et" to="ben" with="ARG0"/>
+<Word name="6/ol" positionX="750" positionY="200"/>
+<Connection from="7/tahmin 8/et" to="6/ol"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="6/ol" to="biz" with="ARG0"/>
+<Word name="5/görüş" positionX="750" positionY="300"/>
+<Connection from="6/ol" to="5/görüş"/>
+<Word name="2/o 3/sıra" positionX="650" positionY="400"/>
+<Connection from="5/görüş" to="2/o 3/sıra" with="mod"/>
+<Word name="4/dekan" positionX="750" positionY="400"/>
+<Connection from="5/görüş" to="4/dekan" with="instrument"/>
+</Amr>

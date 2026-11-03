@@ -1,0 +1,9 @@
+<Amr sentence="Elindeki aletle duvarı çökertti .">
+<Word name="4/çökert" positionX="750" positionY="100"/>
+<Word name="2/alet" positionX="650" positionY="200"/>
+<Connection from="4/çökert" to="2/alet" with="ARG0"/>
+<Word name="1/el" positionX="550" positionY="300"/>
+<Connection from="2/alet" to="1/el" with="mod"/>
+<Word name="3/duvar" positionX="750" positionY="200"/>
+<Connection from="4/çökert" to="3/duvar" with="ARG1"/>
+</Amr>

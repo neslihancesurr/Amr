@@ -1,0 +1,7 @@
+<Amr sentence="bütün çekmecedeki para">
+<Word name="3/para" positionX="750" positionY="100"/>
+<Word name="1/bütün" positionX="650" positionY="200"/>
+<Connection from="3/para" to="1/bütün" with="mod"/>
+<Word name="2/çekmece" positionX="750" positionY="200"/>
+<Connection from="3/para" to="2/çekmece" with="mod"/>
+</Amr>

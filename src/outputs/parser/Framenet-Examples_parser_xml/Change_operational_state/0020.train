@@ -1,0 +1,14 @@
+<Amr sentence="Sonunda kontak kapattım , saatlerdir araba kullanıyorum .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/kontak 3/kapat" positionX="650" positionY="200"/>
+<Connection from="and" to="2/kontak 3/kapat" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="2/kontak 3/kapat" to="ben" with="ARG0"/>
+<Word name="1/sonunda" positionX="650" positionY="300"/>
+<Connection from="2/kontak 3/kapat" to="1/sonunda" with="manner"/>
+<Word name="6/araba 7/kullan" positionX="750" positionY="200"/>
+<Connection from="and" to="6/araba 7/kullan" with="op2"/>
+<Connection from="6/araba 7/kullan" to="ben" with="ARG0"/>
+<Word name="5/saat" positionX="750" positionY="300"/>
+<Connection from="6/araba 7/kullan" to="5/saat" with="mod"/>
+</Amr>

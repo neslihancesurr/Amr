@@ -1,0 +1,28 @@
+<Amr sentence="Meclis'e belli bir saatte gidersen başbakanın kendisini bile görebilirsin .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="9/gör" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="9/gör"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="9/gör" to="sen" with="ARG0"/>
+<Word name="5/git" positionX="650" positionY="300"/>
+<Connection from="9/gör" to="5/git" with="cond"/>
+<Connection from="5/git" to="sen" with="ARG0"/>
+<Word name="person" positionX="650" positionY="400"/>
+<Connection from="5/git" to="person"/>
+<Word name="name" positionX="550" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/meclis" positionX="450" positionY="600"/>
+<Connection from="name" to="1/meclis" with="op1"/>
+<Word name="-" positionX="650" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/saat" positionX="750" positionY="400"/>
+<Connection from="5/git" to="4/saat" with="location"/>
+<Word name="2/belli" positionX="650" positionY="500"/>
+<Connection from="4/saat" to="2/belli" with="mod"/>
+<Word name="7/kendi" positionX="750" positionY="300"/>
+<Connection from="9/gör" to="7/kendi" with="ARG1"/>
+<Word name="6/başbakan" positionX="650" positionY="400"/>
+<Connection from="7/kendi" to="6/başbakan" with="mod"/>
+<Word name="8/bile" positionX="750" positionY="400"/>
+<Connection from="7/kendi" to="8/bile"/>
+</Amr>

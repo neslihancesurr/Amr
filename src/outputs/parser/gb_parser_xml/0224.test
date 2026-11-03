@@ -1,0 +1,16 @@
+<Amr sentence="Yeni öğrencilerini daha görmedin mi ?">
+<Word name="4/gör" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/gör" to="-" with="polarity"/>
+<Word name="sen" positionX="750" positionY="200"/>
+<Connection from="4/gör" to="sen" with="ARG0"/>
+<Word name="2/öğrenci" positionX="850" positionY="200"/>
+<Connection from="4/gör" to="2/öğrenci" with="ARG1"/>
+<Connection from="2/öğrenci" to="sen" with="poss"/>
+<Word name="1/yeni" positionX="850" positionY="300"/>
+<Connection from="2/öğrenci" to="1/yeni" with="mod"/>
+<Word name="3/daha" positionX="950" positionY="200"/>
+<Connection from="4/gör" to="3/daha" with="degree"/>
+<Word name="5/mi" positionX="1050" positionY="200"/>
+<Connection from="4/gör" to="5/mi"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Televizyon şu anda tamir ediliyor .">
+<Word name="4/tamir 5/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/tamir 5/et" to="o" with="ARG0"/>
+<Word name="1/televizyon" positionX="750" positionY="200"/>
+<Connection from="4/tamir 5/et" to="1/televizyon" with="ARG1"/>
+<Word name="3/an" positionX="850" positionY="200"/>
+<Connection from="4/tamir 5/et" to="3/an" with="location"/>
+<Word name="2/şu" positionX="750" positionY="300"/>
+<Connection from="3/an" to="2/şu" with="mod"/>
+</Amr>

@@ -1,0 +1,19 @@
+<Amr sentence="Yıllarca içine girdiği depresif ruh halini korudu .">
+<Word name="7/koru" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/koru" to="o" with="ARG0"/>
+<Word name="1/yıllarca" positionX="750" positionY="200"/>
+<Connection from="7/koru" to="1/yıllarca" with="manner"/>
+<Word name="6/hal" positionX="850" positionY="200"/>
+<Connection from="7/koru" to="6/hal" with="ARG1"/>
+<Word name="3/gir" positionX="750" positionY="300"/>
+<Connection from="6/hal" to="3/gir"/>
+<Connection from="3/gir" to="o" with="poss"/>
+<Word name="2/iç" positionX="750" positionY="400"/>
+<Connection from="3/gir" to="2/iç"/>
+<Connection from="2/iç" to="o" with="poss"/>
+<Word name="4/depresif" positionX="850" positionY="300"/>
+<Connection from="6/hal" to="4/depresif" with="mod"/>
+<Word name="5/ruh" positionX="950" positionY="300"/>
+<Connection from="6/hal" to="5/ruh"/>
+</Amr>

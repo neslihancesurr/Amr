@@ -1,0 +1,27 @@
+<Amr sentence="İdris iskele başında salep güğümünün altındaki eleme kömürlerin küllerini üflüyor .">
+<Word name="10/üfle" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="10/üfle" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/idris" positionX="450" positionY="400"/>
+<Connection from="name" to="1/idris" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/baş" positionX="750" positionY="200"/>
+<Connection from="10/üfle" to="3/baş" with="location"/>
+<Word name="2/iskele" positionX="650" positionY="300"/>
+<Connection from="3/baş" to="2/iskele" with="mod"/>
+<Word name="9/kül" positionX="850" positionY="200"/>
+<Connection from="10/üfle" to="9/kül" with="ARG1"/>
+<Word name="8/kömür" positionX="750" positionY="300"/>
+<Connection from="9/kül" to="8/kömür" with="mod"/>
+<Word name="6/alt" positionX="650" positionY="400"/>
+<Connection from="8/kömür" to="6/alt" with="mod"/>
+<Word name="5/güğüm" positionX="550" positionY="500"/>
+<Connection from="6/alt" to="5/güğüm" with="mod"/>
+<Word name="4/salep" positionX="450" positionY="600"/>
+<Connection from="5/güğüm" to="4/salep" with="mod"/>
+<Word name="7/eleme" positionX="750" positionY="400"/>
+<Connection from="8/kömür" to="7/eleme" with="mod"/>
+</Amr>

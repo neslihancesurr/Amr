@@ -1,0 +1,11 @@
+<Amr sentence="Diz üstü çökerek yerdeki meyveleri topladı .">
+<Word name="6/topla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/topla" to="o" with="ARG0"/>
+<Word name="1/diz 2/üst 3/çök" positionX="750" positionY="200"/>
+<Connection from="6/topla" to="1/diz 2/üst 3/çök"/>
+<Word name="5/meyve" positionX="850" positionY="200"/>
+<Connection from="6/topla" to="5/meyve" with="ARG1"/>
+<Word name="4/yer" positionX="750" positionY="300"/>
+<Connection from="5/meyve" to="4/yer" with="mod"/>
+</Amr>

@@ -1,0 +1,21 @@
+<Amr sentence="Normal bir koşucu 100 metrelik bir mesafeyi 20 saniyenin altında koşabilir .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="11/koş" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="11/koş"/>
+<Word name="3/koşucu" positionX="550" positionY="300"/>
+<Connection from="11/koş" to="3/koşucu" with="ARG0"/>
+<Word name="1/normal" positionX="450" positionY="400"/>
+<Connection from="3/koşucu" to="1/normal" with="mod"/>
+<Word name="7/mesafe" positionX="650" positionY="300"/>
+<Connection from="11/koş" to="7/mesafe"/>
+<Word name="5/metrelik" positionX="550" positionY="400"/>
+<Connection from="7/mesafe" to="5/metrelik" with="mod"/>
+<Word name="4/100" positionX="450" positionY="500"/>
+<Connection from="5/metrelik" to="4/100"/>
+<Word name="9/saniye" positionX="750" positionY="300"/>
+<Connection from="11/koş" to="9/saniye"/>
+<Word name="8/20" positionX="650" positionY="400"/>
+<Connection from="9/saniye" to="8/20"/>
+<Word name="10/alt" positionX="750" positionY="400"/>
+<Connection from="9/saniye" to="10/alt" with="location"/>
+</Amr>

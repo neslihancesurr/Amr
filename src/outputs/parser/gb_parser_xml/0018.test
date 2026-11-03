@@ -1,0 +1,11 @@
+<Amr sentence="Kitapları hep yerde bırakıyorsun .">
+<Word name="4/bırak" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="4/bırak" to="sen" with="ARG0"/>
+<Word name="1/kitap" positionX="750" positionY="200"/>
+<Connection from="4/bırak" to="1/kitap" with="ARG1"/>
+<Word name="2/hep" positionX="850" positionY="200"/>
+<Connection from="4/bırak" to="2/hep" with="frequency"/>
+<Word name="3/yer" positionX="950" positionY="200"/>
+<Connection from="4/bırak" to="3/yer" with="ARG2"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr sentence="Helin uzun yıllar sosyal bilimler alanında tahsil gördü .">
+<Word name="7/tahsil 8/gör" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/tahsil 8/gör" to="o" with="ARG0"/>
+<Word name="1/he" positionX="750" positionY="200"/>
+<Connection from="7/tahsil 8/gör" to="1/he" with="ARG1"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="1/he" to="sen" with="poss"/>
+<Word name="3/yıl" positionX="850" positionY="200"/>
+<Connection from="7/tahsil 8/gör" to="3/yıl" with="mod"/>
+<Word name="2/uzun" positionX="750" positionY="300"/>
+<Connection from="3/yıl" to="2/uzun" with="mod"/>
+<Word name="6/alan" positionX="950" positionY="200"/>
+<Connection from="7/tahsil 8/gör" to="6/alan" with="location"/>
+<Word name="4/sosyal 5/bilim" positionX="850" positionY="300"/>
+<Connection from="6/alan" to="4/sosyal 5/bilim" with="mod"/>
+</Amr>

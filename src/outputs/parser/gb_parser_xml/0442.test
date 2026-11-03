@@ -1,0 +1,17 @@
+<Amr sentence="Keşke şu fasulyeler doğru dürüst bir aşçı tarafından pişirilseydi !">
+<Word name="9/pişir" positionX="750" positionY="100"/>
+<Word name="1/keşke" positionX="650" positionY="200"/>
+<Connection from="9/pişir" to="1/keşke" with="manner"/>
+<Word name="3/fasulye" positionX="750" positionY="200"/>
+<Connection from="9/pişir" to="3/fasulye" with="ARG1"/>
+<Word name="2/şu" positionX="650" positionY="300"/>
+<Connection from="3/fasulye" to="2/şu" with="mod"/>
+<Word name="8/tarafından" positionX="850" positionY="200"/>
+<Connection from="9/pişir" to="8/tarafından"/>
+<Word name="7/aşçı" positionX="750" positionY="300"/>
+<Connection from="8/tarafından" to="7/aşçı" with="mod"/>
+<Word name="4/doğru" positionX="650" positionY="400"/>
+<Connection from="7/aşçı" to="4/doğru" with="mod"/>
+<Word name="5/dürüst" positionX="550" positionY="500"/>
+<Connection from="4/doğru" to="5/dürüst"/>
+</Amr>

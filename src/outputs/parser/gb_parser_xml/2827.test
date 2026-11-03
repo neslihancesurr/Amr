@@ -1,0 +1,15 @@
+<Amr sentence="Bugün Ayşe'yi gördüm .">
+<Word name="3/gör" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/gör" to="ben" with="ARG0"/>
+<Word name="1/bugün" positionX="750" positionY="200"/>
+<Connection from="3/gör" to="1/bugün"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="3/gör" to="person" with="ARG1"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/ayşe" positionX="650" positionY="400"/>
+<Connection from="name" to="2/ayşe" with="op1"/>
+<Word name="-" positionX="850" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

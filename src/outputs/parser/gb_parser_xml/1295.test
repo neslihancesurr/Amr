@@ -1,0 +1,12 @@
+<Amr sentence="Boyanmışlarında hatalar gözükmüyor .">
+<Word name="3/gözük" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/gözük" to="-" with="polarity"/>
+<Word name="1/boyan" positionX="750" positionY="200"/>
+<Connection from="3/gözük" to="1/boyan"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="1/boyan" to="onlar" with="ARG0"/>
+<Connection from="1/boyan" to="onlar" with="poss"/>
+<Word name="2/hata" positionX="850" positionY="200"/>
+<Connection from="3/gözük" to="2/hata" with="ARG0"/>
+</Amr>

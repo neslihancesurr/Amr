@@ -1,0 +1,15 @@
+<Amr sentence="Dedesinin açtığı yorgan dükkanını işletecekti .">
+<Word name="5/işlet" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/işlet" to="o" with="ARG0"/>
+<Word name="4/dükkan" positionX="750" positionY="200"/>
+<Connection from="5/işlet" to="4/dükkan" with="ARG1"/>
+<Word name="2/aç" positionX="650" positionY="300"/>
+<Connection from="4/dükkan" to="2/aç"/>
+<Connection from="2/aç" to="o" with="poss"/>
+<Word name="1/dede" positionX="650" positionY="400"/>
+<Connection from="2/aç" to="1/dede" with="ARG0"/>
+<Connection from="1/dede" to="o" with="poss"/>
+<Word name="3/yorgan" positionX="750" positionY="300"/>
+<Connection from="4/dükkan" to="3/yorgan" with="mod"/>
+</Amr>

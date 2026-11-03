@@ -1,0 +1,13 @@
+<Amr sentence="Bu lafı yayınlanırsa kesin topa tutarlar .">
+<Word name="5/top 6/tut" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="5/top 6/tut" to="onlar" with="ARG0"/>
+<Word name="3/yayınlan" positionX="750" positionY="200"/>
+<Connection from="5/top 6/tut" to="3/yayınlan" with="cond"/>
+<Word name="2/laf" positionX="650" positionY="300"/>
+<Connection from="3/yayınlan" to="2/laf" with="ARG0"/>
+<Word name="1/bu" positionX="550" positionY="400"/>
+<Connection from="2/laf" to="1/bu" with="mod"/>
+<Word name="4/kesin" positionX="850" positionY="200"/>
+<Connection from="5/top 6/tut" to="4/kesin" with="manner"/>
+</Amr>

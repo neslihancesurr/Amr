@@ -1,0 +1,33 @@
+<Amr sentence="Musa dün bütün gün çalışıyor olduğu için bizimle plaja gelemedi .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="10/gel" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="10/gel"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="10/gel" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="10/gel" to="o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="10/gel" to="person"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/musa" positionX="550" positionY="500"/>
+<Connection from="name" to="1/musa" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/çalış" positionX="850" positionY="300"/>
+<Connection from="10/gel" to="5/çalış" with="cause"/>
+<Connection from="5/çalış" to="o" with="ARG0"/>
+<Word name="4/gün" positionX="850" positionY="400"/>
+<Connection from="5/çalış" to="4/gün"/>
+<Word name="2/dün" positionX="750" positionY="500"/>
+<Connection from="4/gün" to="2/dün" with="mod"/>
+<Word name="3/bütün" positionX="850" positionY="500"/>
+<Connection from="4/gün" to="3/bütün" with="mod"/>
+<Word name="6/ol" positionX="950" positionY="400"/>
+<Connection from="5/çalış" to="6/ol"/>
+<Connection from="6/ol" to="o" with="ARG0"/>
+<Connection from="6/ol" to="o" with="poss"/>
+<Word name="8/biz" positionX="950" positionY="300"/>
+<Connection from="10/gel" to="8/biz" with="instrument"/>
+<Word name="9/plaj" positionX="1050" positionY="300"/>
+<Connection from="10/gel" to="9/plaj"/>
+</Amr>

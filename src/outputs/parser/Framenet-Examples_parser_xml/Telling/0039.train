@@ -1,0 +1,16 @@
+<Amr sentence="Dün kitapta okuduğu türden çiçekleri betimledi .">
+<Word name="6/betimle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/betimle" to="o" with="ARG0"/>
+<Word name="1/dün" positionX="750" positionY="200"/>
+<Connection from="6/betimle" to="1/dün"/>
+<Word name="5/çiçek" positionX="850" positionY="200"/>
+<Connection from="6/betimle" to="5/çiçek" with="ARG1"/>
+<Word name="4/tür" positionX="750" positionY="300"/>
+<Connection from="5/çiçek" to="4/tür" with="mod"/>
+<Word name="3/oku" positionX="650" positionY="400"/>
+<Connection from="4/tür" to="3/oku"/>
+<Connection from="3/oku" to="o" with="poss"/>
+<Word name="2/kitap" positionX="650" positionY="500"/>
+<Connection from="3/oku" to="2/kitap" with="location"/>
+</Amr>

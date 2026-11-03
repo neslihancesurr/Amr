@@ -1,0 +1,30 @@
+<Amr sentence="Ankara'ya mı İstanbul'a mı gitmek istiyorsun ?">
+<Word name="6/iste" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="6/iste" to="sen" with="ARG0"/>
+<Word name="5/git" positionX="750" positionY="200"/>
+<Connection from="6/iste" to="5/git" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/git" to="o" with="ARG0"/>
+<Word name="and" positionX="750" positionY="300"/>
+<Connection from="5/git" to="and"/>
+<Word name="city" positionX="650" positionY="400"/>
+<Connection from="and" to="city" with="ARG1"/>
+<Word name="name" positionX="550" positionY="500"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="3/istanbul" positionX="450" positionY="600"/>
+<Connection from="name" to="3/istanbul" with="op1"/>
+<Word name="istanbul" positionX="650" positionY="500"/>
+<Connection from="city" to="istanbul" with="wiki"/>
+<Word name="4/mi" positionX="750" positionY="500"/>
+<Connection from="city" to="4/mi"/>
+<Word name="person" positionX="750" positionY="400"/>
+<Connection from="and" to="person" with="ARG1"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ankara" positionX="550" positionY="600"/>
+<Connection from="name" to="1/ankara" with="op1"/>
+<Word name="-" positionX="750" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/mi" positionX="850" positionY="500"/>
+<Connection from="person" to="2/mi"/>
+</Amr>

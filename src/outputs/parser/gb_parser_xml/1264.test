@@ -1,0 +1,13 @@
+<Amr sentence="Bizim başka bir haberimiz daha var .">
+<Word name="6/var" positionX="750" positionY="100"/>
+<Word name="4/haber" positionX="650" positionY="200"/>
+<Connection from="6/var" to="4/haber"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="4/haber" to="biz" with="poss"/>
+<Word name="1/biz" positionX="650" positionY="300"/>
+<Connection from="4/haber" to="1/biz" with="mod"/>
+<Word name="2/başka" positionX="750" positionY="300"/>
+<Connection from="4/haber" to="2/başka" with="mod"/>
+<Word name="5/daha" positionX="850" positionY="300"/>
+<Connection from="4/haber" to="5/daha" with="degree"/>
+</Amr>

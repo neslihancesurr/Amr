@@ -1,0 +1,16 @@
+<Amr sentence="Ona ulaşamıyorum , izini kaybettim .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/ulaş" positionX="650" positionY="200"/>
+<Connection from="and" to="2/ulaş" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="2/ulaş" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="2/ulaş" to="ben" with="ARG0"/>
+<Word name="1/o" positionX="750" positionY="300"/>
+<Connection from="2/ulaş" to="1/o"/>
+<Word name="4/iz 5/kaybet" positionX="750" positionY="200"/>
+<Connection from="and" to="4/iz 5/kaybet" with="op2"/>
+<Connection from="4/iz 5/kaybet" to="ben" with="ARG0"/>
+<Word name="mümkün" positionX="750" positionY="300"/>
+<Connection from="4/iz 5/kaybet" to="mümkün"/>
+</Amr>

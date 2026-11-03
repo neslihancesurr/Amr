@@ -1,0 +1,17 @@
+<Amr sentence="Hande bütün zorlukların üstesinden gelerek dört yılın sonunda öğretmen çıktı .">
+<Word name="10/çık" positionX="750" positionY="100"/>
+<Word name="4/üste 5/gel" positionX="650" positionY="200"/>
+<Connection from="10/çık" to="4/üste 5/gel"/>
+<Word name="3/zorluk" positionX="550" positionY="300"/>
+<Connection from="4/üste 5/gel" to="3/zorluk" with="ARG1"/>
+<Word name="2/bütün" positionX="450" positionY="400"/>
+<Connection from="3/zorluk" to="2/bütün" with="mod"/>
+<Word name="8/sonunda" positionX="750" positionY="200"/>
+<Connection from="10/çık" to="8/sonunda" with="manner"/>
+<Word name="7/yıl" positionX="650" positionY="300"/>
+<Connection from="8/sonunda" to="7/yıl" with="mod"/>
+<Word name="6/dört" positionX="550" positionY="400"/>
+<Connection from="7/yıl" to="6/dört"/>
+<Word name="9/öğretmen" positionX="850" positionY="200"/>
+<Connection from="10/çık" to="9/öğretmen"/>
+</Amr>

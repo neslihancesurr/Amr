@@ -1,0 +1,14 @@
+<Amr sentence="Nefesimi üfürdüm , tozlar uçuştu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/üfür" positionX="650" positionY="200"/>
+<Connection from="and" to="2/üfür" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="2/üfür" to="ben" with="ARG0"/>
+<Word name="1/nefes" positionX="650" positionY="300"/>
+<Connection from="2/üfür" to="1/nefes" with="ARG1"/>
+<Connection from="1/nefes" to="ben" with="poss"/>
+<Word name="5/uçuş" positionX="750" positionY="200"/>
+<Connection from="and" to="5/uçuş" with="op2"/>
+<Word name="4/toz" positionX="650" positionY="300"/>
+<Connection from="5/uçuş" to="4/toz" with="ARG0"/>
+</Amr>

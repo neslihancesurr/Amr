@@ -1,0 +1,18 @@
+<Amr sentence="Evini sattın mı , gerisi önemli değil .">
+<Word name="6/önemli" positionX="750" positionY="100"/>
+<Word name="2/sat" positionX="650" positionY="200"/>
+<Connection from="6/önemli" to="2/sat"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="2/sat" to="sen" with="ARG0"/>
+<Word name="1/ev" positionX="650" positionY="300"/>
+<Connection from="2/sat" to="1/ev" with="ARG1"/>
+<Connection from="1/ev" to="sen" with="poss"/>
+<Word name="3/mi" positionX="750" positionY="300"/>
+<Connection from="2/sat" to="3/mi"/>
+<Word name="5/geri" positionX="750" positionY="200"/>
+<Connection from="6/önemli" to="5/geri"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/geri" to="o" with="poss"/>
+<Word name="-" positionX="850" positionY="200"/>
+<Connection from="6/önemli" to="-" with="polarity"/>
+</Amr>

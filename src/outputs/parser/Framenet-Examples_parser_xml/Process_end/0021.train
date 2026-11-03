@@ -1,0 +1,9 @@
+<Amr sentence="Tüm evrakları sonuçladılar .">
+<Word name="3/sonuçla" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="3/sonuçla" to="onlar" with="ARG0"/>
+<Word name="2/evrak" positionX="750" positionY="200"/>
+<Connection from="3/sonuçla" to="2/evrak" with="ARG1"/>
+<Word name="1/tüm" positionX="650" positionY="300"/>
+<Connection from="2/evrak" to="1/tüm" with="mod"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Boyanın rengini bozdu .">
+<Word name="3/boz" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/boz" to="o" with="ARG0"/>
+<Word name="2/renk" positionX="750" positionY="200"/>
+<Connection from="3/boz" to="2/renk" with="ARG1"/>
+<Word name="1/boya" positionX="650" positionY="300"/>
+<Connection from="2/renk" to="1/boya" with="mod"/>
+</Amr>

@@ -1,0 +1,19 @@
+<Amr sentence="Ateşe çok yakın oturmuşsun , alevler kazağını göymüş .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/oturmuş" positionX="650" positionY="200"/>
+<Connection from="and" to="4/oturmuş" with="op1"/>
+<Word name="3/yakın" positionX="550" positionY="300"/>
+<Connection from="4/oturmuş" to="3/yakın" with="mod"/>
+<Word name="1/ateş" positionX="450" positionY="400"/>
+<Connection from="3/yakın" to="1/ateş"/>
+<Word name="2/çok" positionX="550" positionY="400"/>
+<Connection from="3/yakın" to="2/çok" with="degree"/>
+<Word name="8/göy" positionX="750" positionY="200"/>
+<Connection from="and" to="8/göy" with="op2"/>
+<Word name="6/alev" positionX="650" positionY="300"/>
+<Connection from="8/göy" to="6/alev" with="ARG0"/>
+<Word name="7/kazağı" positionX="750" positionY="300"/>
+<Connection from="8/göy" to="7/kazağı" with="ARG1"/>
+<Word name="sen" positionX="650" positionY="400"/>
+<Connection from="7/kazağı" to="sen" with="poss"/>
+</Amr>

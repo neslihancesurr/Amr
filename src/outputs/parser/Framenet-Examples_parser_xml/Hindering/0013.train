@@ -1,0 +1,11 @@
+<Amr sentence="Bu çekingenliği her işte ayağına bağ vurdu .">
+<Word name="5/ayak 6/bağ 7/vur" positionX="750" positionY="100"/>
+<Word name="2/çekingenlik" positionX="650" positionY="200"/>
+<Connection from="5/ayak 6/bağ 7/vur" to="2/çekingenlik" with="ARG0"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/çekingenlik" to="1/bu" with="mod"/>
+<Word name="4/iş" positionX="750" positionY="200"/>
+<Connection from="5/ayak 6/bağ 7/vur" to="4/iş" with="location"/>
+<Word name="3/her" positionX="650" positionY="300"/>
+<Connection from="4/iş" to="3/her" with="mod"/>
+</Amr>

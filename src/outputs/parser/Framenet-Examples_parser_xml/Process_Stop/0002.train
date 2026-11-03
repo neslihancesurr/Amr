@@ -1,0 +1,16 @@
+<Amr sentence="Hiç vaktim kalmadığı için buradaki üyeliği dondurdum .">
+<Word name="6/üyelik 7/dondur" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="6/üyelik 7/dondur" to="ben" with="ARG0"/>
+<Word name="3/kal" positionX="750" positionY="200"/>
+<Connection from="6/üyelik 7/dondur" to="3/kal" with="cause"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="3/kal" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="3/kal" to="o" with="poss"/>
+<Word name="1/hiç" positionX="850" positionY="300"/>
+<Connection from="3/kal" to="1/hiç" with="degree"/>
+<Word name="2/vakit" positionX="950" positionY="300"/>
+<Connection from="3/kal" to="2/vakit" with="ARG0"/>
+<Connection from="2/vakit" to="ben" with="poss"/>
+</Amr>

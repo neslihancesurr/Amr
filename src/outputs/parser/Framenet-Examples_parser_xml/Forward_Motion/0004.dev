@@ -1,0 +1,23 @@
+<Amr sentence="Böyle uzaklaştı ağır ağır o bizden / Biz ayrı düşmedik , ant içmiştik denizden .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/uzaklaş" positionX="650" positionY="200"/>
+<Connection from="and" to="2/uzaklaş" with="op1"/>
+<Word name="1/böyle" positionX="550" positionY="300"/>
+<Connection from="2/uzaklaş" to="1/böyle" with="manner"/>
+<Word name="3/ağır 4/ağır" positionX="650" positionY="300"/>
+<Connection from="2/uzaklaş" to="3/ağır 4/ağır"/>
+<Word name="5/o" positionX="750" positionY="300"/>
+<Connection from="2/uzaklaş" to="5/o" with="ARG0"/>
+<Word name="6/biz" positionX="850" positionY="300"/>
+<Connection from="2/uzaklaş" to="6/biz"/>
+<Word name="9/ayrı 10/düş" positionX="750" positionY="200"/>
+<Connection from="and" to="9/ayrı 10/düş" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="9/ayrı 10/düş" to="-" with="polarity"/>
+<Word name="8/biz" positionX="750" positionY="300"/>
+<Connection from="9/ayrı 10/düş" to="8/biz" with="ARG2"/>
+<Word name="12/ant 13/iç" positionX="850" positionY="200"/>
+<Connection from="and" to="12/ant 13/iç" with="op3"/>
+<Word name="14/deniz" positionX="750" positionY="300"/>
+<Connection from="12/ant 13/iç" to="14/deniz"/>
+</Amr>

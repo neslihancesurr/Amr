@@ -1,0 +1,13 @@
+<Amr sentence="Beni konuşmaya zorlama !">
+<Word name="3/zorla" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/zorla" to="-" with="polarity"/>
+<Word name="sen" positionX="750" positionY="200"/>
+<Connection from="3/zorla" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="850" positionY="200"/>
+<Connection from="3/zorla" to="imperative" with="mode"/>
+<Word name="1/ben" positionX="950" positionY="200"/>
+<Connection from="3/zorla" to="1/ben"/>
+<Word name="2/konuşma" positionX="1050" positionY="200"/>
+<Connection from="3/zorla" to="2/konuşma"/>
+</Amr>

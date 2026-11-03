@@ -1,0 +1,15 @@
+<Amr sentence="Büyük değil , küçük bir elma istemiştim .">
+<Word name="7/iste" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="7/iste" to="ben" with="ARG0"/>
+<Word name="6/elma" positionX="750" positionY="200"/>
+<Connection from="7/iste" to="6/elma" with="ARG1"/>
+<Word name="and" positionX="650" positionY="300"/>
+<Connection from="6/elma" to="and"/>
+<Word name="4/küçük" positionX="550" positionY="400"/>
+<Connection from="and" to="4/küçük" with="mod"/>
+<Word name="1/büyük" positionX="650" positionY="400"/>
+<Connection from="and" to="1/büyük" with="mod"/>
+<Word name="-" positionX="550" positionY="500"/>
+<Connection from="1/büyük" to="-" with="polarity"/>
+</Amr>

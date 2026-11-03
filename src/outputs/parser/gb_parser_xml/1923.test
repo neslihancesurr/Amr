@@ -1,0 +1,22 @@
+<Amr sentence="Erol bu sabah otobüste Sema'ya rastladı .">
+<Word name="6/rastla" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="6/rastla" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/erol" positionX="450" positionY="400"/>
+<Connection from="name" to="1/erol" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/sabah" positionX="750" positionY="200"/>
+<Connection from="6/rastla" to="3/sabah"/>
+<Word name="2/bu" positionX="650" positionY="300"/>
+<Connection from="3/sabah" to="2/bu" with="mod"/>
+<Word name="4/otobüs" positionX="850" positionY="200"/>
+<Connection from="6/rastla" to="4/otobüs" with="location"/>
+<Connection from="6/rastla" to="person" with="ARG1"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="5/sema" positionX="750" positionY="400"/>
+<Connection from="name" to="5/sema" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

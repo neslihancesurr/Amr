@@ -1,0 +1,17 @@
+<Amr sentence="O küpenin kaybolmuş olması türlü türlü olumsuzluğa delalet ediyordu .">
+<Word name="8/delalet 9/et" positionX="750" positionY="100"/>
+<Word name="4/ol" positionX="650" positionY="200"/>
+<Connection from="8/delalet 9/et" to="4/ol" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/ol" to="o" with="poss"/>
+<Word name="2/küpe" positionX="650" positionY="300"/>
+<Connection from="4/ol" to="2/küpe"/>
+<Word name="1/o" positionX="550" positionY="400"/>
+<Connection from="2/küpe" to="1/o" with="mod"/>
+<Word name="3/kaybol" positionX="750" positionY="300"/>
+<Connection from="4/ol" to="3/kaybol"/>
+<Word name="7/olumsuzluk" positionX="750" positionY="200"/>
+<Connection from="8/delalet 9/et" to="7/olumsuzluk" with="ARG1"/>
+<Word name="5/türlü 6/türlü" positionX="650" positionY="300"/>
+<Connection from="7/olumsuzluk" to="5/türlü 6/türlü"/>
+</Amr>

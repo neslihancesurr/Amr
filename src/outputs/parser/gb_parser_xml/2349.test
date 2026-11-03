@@ -1,0 +1,17 @@
+<Amr sentence="Çocukları getirirler diye porselen eşyayı ortadan kaldırmıştı .">
+<Word name="6/orta 7/kaldır" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/orta 7/kaldır" to="o" with="ARG0"/>
+<Word name="2/getir" positionX="750" positionY="200"/>
+<Connection from="6/orta 7/kaldır" to="2/getir"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="2/getir" to="onlar" with="ARG0"/>
+<Word name="1/çocuk" positionX="750" positionY="300"/>
+<Connection from="2/getir" to="1/çocuk"/>
+<Word name="3/diye" positionX="850" positionY="300"/>
+<Connection from="2/getir" to="3/diye"/>
+<Word name="5/eşya" positionX="850" positionY="200"/>
+<Connection from="6/orta 7/kaldır" to="5/eşya"/>
+<Word name="4/porselen" positionX="750" positionY="300"/>
+<Connection from="5/eşya" to="4/porselen" with="mod"/>
+</Amr>

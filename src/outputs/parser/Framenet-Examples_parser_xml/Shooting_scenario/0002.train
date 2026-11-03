@@ -1,0 +1,20 @@
+<Amr sentence="Düşmanı taradılar , geriye hiç kimse kalmadı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/tara" positionX="650" positionY="200"/>
+<Connection from="and" to="2/tara" with="op1"/>
+<Word name="onlar" positionX="550" positionY="300"/>
+<Connection from="2/tara" to="onlar" with="ARG0"/>
+<Word name="1/düşman" positionX="650" positionY="300"/>
+<Connection from="2/tara" to="1/düşman" with="ARG1"/>
+<Word name="7/kal" positionX="750" positionY="200"/>
+<Connection from="and" to="7/kal" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="7/kal" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="7/kal" to="o" with="ARG0"/>
+<Word name="4/geri" positionX="850" positionY="300"/>
+<Connection from="7/kal" to="4/geri"/>
+<Word name="5/hiç 6/kimse" positionX="950" positionY="300"/>
+<Connection from="7/kal" to="5/hiç 6/kimse" with="ARG1"/>
+<Connection from="5/hiç 6/kimse" to="o" with="poss"/>
+</Amr>

@@ -278,7 +278,7 @@ public class RuleBasedConstructionAlgorithm extends AmrConstructionAlgorithm {
                         if (!current.getParse().getRootPos().equals("VERB") && current.getParse().containsTag(MorphologicalTag.LOCATIVE)) {
                             output.add(withTabs(tabCount, wikiType) + ":location");
                         } else {
-                            addDefaultCase(done, tabCount, output, withTabs(tabCount, wikiType), extraAdded, added[0], addedIndex);
+                            addDefaultCase(done, tabCount, output, wikiType, extraAdded, added[0], addedIndex);
                         }
                     }
                 }
@@ -325,7 +325,7 @@ public class RuleBasedConstructionAlgorithm extends AmrConstructionAlgorithm {
                                 break;
                             }
                         }
-                        if (new ArrayList<>(Arrays.asList("çok", "gayet", "tam", "bayağı", "fazla", "hiç")).contains(current.getParse().getWord().getName())) {
+                        if (new ArrayList<>(Arrays.asList("çok", "gayet", "tam", "bayağı", "fazla", "hiç", "daha")).contains(current.getParse().getWord().getName())) {
                             output.add(withTabs(tabCount, currentWord) + ":degree");
                         } else {
                             if (current.getParse().getWord().getName().equals("hep") || current.getParse().getWord().getName().equals("sürekli")) {
@@ -345,6 +345,7 @@ public class RuleBasedConstructionAlgorithm extends AmrConstructionAlgorithm {
                                         }
                                     } else {
                                         switch (relation){
+                                            case "DET":
                                             case "AMOD":
                                             case "NMOD":
                                                 output.add(withTabs(tabCount, currentWord) + ":mod");
@@ -362,7 +363,7 @@ public class RuleBasedConstructionAlgorithm extends AmrConstructionAlgorithm {
                                                     if (!current.getParse().getRootPos().equals("VERB") && current.getParse().containsTag(MorphologicalTag.LOCATIVE)) {
                                                         output.add(withTabs(tabCount, currentWord) + ":location");
                                                     } else {
-                                                        addDefaultCase(done, tabCount, output, withTabs(tabCount, currentWord), extraAdded, added[0], addedIndex);
+                                                        addDefaultCase(done, tabCount, output, currentWord, extraAdded, added[0], addedIndex);
                                                         addDetails(tabCount, output, current, currentWordIndex);
                                                     }
                                                 }
@@ -423,7 +424,7 @@ public class RuleBasedConstructionAlgorithm extends AmrConstructionAlgorithm {
             printAmrRecursively(done, index, tabCount + 1, output, relation, semantic, wordNet, ":op" + count);
         } else {
             if (word.getParse().containsTag(MorphologicalTag.NECESSITY)) {
-                output.add(withTabs(tabCount, "öner"));
+                output.add(withTabs(tabCount, "gerek"));
                 tabCount++;
             }
             if (word.getParse().containsTag(MorphologicalTag.ABLE)) {

@@ -1,0 +1,16 @@
+<Amr sentence="Çok hızlı gidiyorsun , vitesi küçült .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/git" positionX="650" positionY="200"/>
+<Connection from="and" to="3/git" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="3/git" to="sen" with="ARG0"/>
+<Word name="2/hızlı" positionX="650" positionY="300"/>
+<Connection from="3/git" to="2/hızlı" with="manner"/>
+<Word name="1/çok" positionX="550" positionY="400"/>
+<Connection from="2/hızlı" to="1/çok" with="degree"/>
+<Word name="5/vites 6/küçült" positionX="750" positionY="200"/>
+<Connection from="and" to="5/vites 6/küçült" with="op2"/>
+<Connection from="5/vites 6/küçült" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="300"/>
+<Connection from="5/vites 6/küçült" to="imperative" with="mode"/>
+</Amr>

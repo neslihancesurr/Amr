@@ -1,0 +1,11 @@
+<Amr sentence="Adam onca yol tepmiş , buralara gelmiş .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/yol 4/tep" positionX="650" positionY="200"/>
+<Connection from="and" to="3/yol 4/tep" with="op1"/>
+<Word name="1/adam" positionX="550" positionY="300"/>
+<Connection from="3/yol 4/tep" to="1/adam" with="ARG0"/>
+<Word name="7/gel" positionX="750" positionY="200"/>
+<Connection from="and" to="7/gel" with="op2"/>
+<Word name="6/bura" positionX="650" positionY="300"/>
+<Connection from="7/gel" to="6/bura" with="ARG1"/>
+</Amr>

@@ -1,0 +1,12 @@
+<Amr sentence="Sokak sokak ev aramaktan tabanları patlamıştı .">
+<Word name="5/taban 6/patla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/taban 6/patla" to="o" with="ARG0"/>
+<Word name="4/ara" positionX="750" positionY="200"/>
+<Connection from="5/taban 6/patla" to="4/ara"/>
+<Connection from="4/ara" to="o" with="ARG0"/>
+<Word name="1/sokak 2/sokak" positionX="750" positionY="300"/>
+<Connection from="4/ara" to="1/sokak 2/sokak"/>
+<Word name="3/ev" positionX="850" positionY="300"/>
+<Connection from="4/ara" to="3/ev" with="ARG1"/>
+</Amr>

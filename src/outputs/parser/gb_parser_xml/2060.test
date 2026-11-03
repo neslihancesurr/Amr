@@ -1,0 +1,18 @@
+<Amr sentence="Bütün gün müze gezmek bizi çok yormuştu .">
+<Word name="7/yor" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/yor" to="o" with="ARG0"/>
+<Word name="4/gez" positionX="750" positionY="200"/>
+<Connection from="7/yor" to="4/gez"/>
+<Connection from="4/gez" to="o" with="ARG0"/>
+<Word name="2/gün" positionX="750" positionY="300"/>
+<Connection from="4/gez" to="2/gün"/>
+<Word name="1/bütün" positionX="650" positionY="400"/>
+<Connection from="2/gün" to="1/bütün" with="mod"/>
+<Word name="3/müze" positionX="850" positionY="300"/>
+<Connection from="4/gez" to="3/müze"/>
+<Word name="5/biz" positionX="850" positionY="200"/>
+<Connection from="7/yor" to="5/biz"/>
+<Word name="6/çok" positionX="950" positionY="200"/>
+<Connection from="7/yor" to="6/çok" with="degree"/>
+</Amr>

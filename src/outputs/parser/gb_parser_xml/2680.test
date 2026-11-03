@@ -1,0 +1,18 @@
+<Amr sentence="Kitabı hevesle satın aldım . Okuyamadım ama .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/oku" positionX="650" positionY="200"/>
+<Connection from="and" to="6/oku" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="6/oku" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="6/oku" to="ben" with="ARG0"/>
+<Word name="3/satın 4/al" positionX="750" positionY="200"/>
+<Connection from="and" to="3/satın 4/al" with="op2"/>
+<Connection from="3/satın 4/al" to="ben" with="ARG0"/>
+<Word name="1/kitap" positionX="750" positionY="300"/>
+<Connection from="3/satın 4/al" to="1/kitap" with="ARG1"/>
+<Word name="2/heves" positionX="850" positionY="300"/>
+<Connection from="3/satın 4/al" to="2/heves" with="mod"/>
+<Word name="mümkün" positionX="950" positionY="300"/>
+<Connection from="3/satın 4/al" to="mümkün"/>
+</Amr>

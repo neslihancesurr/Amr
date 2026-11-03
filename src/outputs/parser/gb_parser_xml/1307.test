@@ -1,0 +1,11 @@
+<Amr sentence="Yeni bir bilgisayar almam gerek .">
+<Word name="5/gerek" positionX="750" positionY="100"/>
+<Word name="4/al" positionX="650" positionY="200"/>
+<Connection from="5/gerek" to="4/al"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="4/al" to="ben" with="ARG0"/>
+<Word name="3/bilgisayar" positionX="650" positionY="300"/>
+<Connection from="4/al" to="3/bilgisayar" with="ARG1"/>
+<Word name="1/yeni" positionX="550" positionY="400"/>
+<Connection from="3/bilgisayar" to="1/yeni" with="mod"/>
+</Amr>

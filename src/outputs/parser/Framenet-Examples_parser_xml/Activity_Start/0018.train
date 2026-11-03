@@ -1,0 +1,21 @@
+<Amr sentence="Sude farkında olmadan büyük bir işin başlamasına önayak oldu .">
+<Word name="8/önayak 9/ol" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="8/önayak 9/ol" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/sude" positionX="450" positionY="400"/>
+<Connection from="name" to="1/sude" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/fark 3/ol" positionX="750" positionY="200"/>
+<Connection from="8/önayak 9/ol" to="2/fark 3/ol"/>
+<Word name="7/başlama" positionX="850" positionY="200"/>
+<Connection from="8/önayak 9/ol" to="7/başlama" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="7/başlama" to="o" with="poss"/>
+<Word name="6/iş" positionX="850" positionY="300"/>
+<Connection from="7/başlama" to="6/iş"/>
+<Word name="4/büyük" positionX="750" positionY="400"/>
+<Connection from="6/iş" to="4/büyük" with="mod"/>
+</Amr>

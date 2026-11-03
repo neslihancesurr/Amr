@@ -1,0 +1,11 @@
+<Amr sentence="İlk buluşmamızda telaştan ayakları dolaşıyordu .">
+<Word name="4/ayak 5/dolaş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/ayak 5/dolaş" to="o" with="ARG0"/>
+<Word name="2/buluşma" positionX="750" positionY="200"/>
+<Connection from="4/ayak 5/dolaş" to="2/buluşma" with="mod"/>
+<Word name="1/ilk" positionX="650" positionY="300"/>
+<Connection from="2/buluşma" to="1/ilk" with="mod"/>
+<Word name="3/telaş" positionX="850" positionY="200"/>
+<Connection from="4/ayak 5/dolaş" to="3/telaş"/>
+</Amr>

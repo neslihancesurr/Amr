@@ -1,0 +1,17 @@
+<Amr sentence="Şairliğe on sekiz yaşında gazel ve rubailerle başlamıştı .">
+<Word name="8/başla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="8/başla" to="o" with="ARG0"/>
+<Word name="1/şairlik" positionX="750" positionY="200"/>
+<Connection from="8/başla" to="1/şairlik" with="ARG1"/>
+<Word name="4/yaş" positionX="850" positionY="200"/>
+<Connection from="8/başla" to="4/yaş" with="mod"/>
+<Word name="2/on" positionX="750" positionY="300"/>
+<Connection from="4/yaş" to="2/on"/>
+<Word name="and" positionX="950" positionY="200"/>
+<Connection from="8/başla" to="and"/>
+<Word name="7/rubai" positionX="850" positionY="300"/>
+<Connection from="and" to="7/rubai" with="instrument"/>
+<Word name="5/gazel" positionX="950" positionY="300"/>
+<Connection from="and" to="5/gazel" with="op2"/>
+</Amr>

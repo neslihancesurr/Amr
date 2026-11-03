@@ -1,0 +1,21 @@
+<Amr sentence="Tüm gün bahçede oynadıktan sonra çocukların karnı zil çalıyordu .">
+<Word name="9/çal" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="9/çal" to="o" with="ARG0"/>
+<Word name="4/oyna" positionX="750" positionY="200"/>
+<Connection from="9/çal" to="4/oyna"/>
+<Word name="2/gün" positionX="650" positionY="300"/>
+<Connection from="4/oyna" to="2/gün" with="mod"/>
+<Word name="1/tüm" positionX="550" positionY="400"/>
+<Connection from="2/gün" to="1/tüm" with="mod"/>
+<Word name="3/bahçe" positionX="750" positionY="300"/>
+<Connection from="4/oyna" to="3/bahçe" with="ARG2"/>
+<Word name="5/sonra" positionX="850" positionY="300"/>
+<Connection from="4/oyna" to="5/sonra"/>
+<Word name="8/zil" positionX="850" positionY="200"/>
+<Connection from="9/çal" to="8/zil"/>
+<Word name="7/karın" positionX="750" positionY="300"/>
+<Connection from="8/zil" to="7/karın"/>
+<Word name="6/çocuk" positionX="650" positionY="400"/>
+<Connection from="7/karın" to="6/çocuk" with="mod"/>
+</Amr>

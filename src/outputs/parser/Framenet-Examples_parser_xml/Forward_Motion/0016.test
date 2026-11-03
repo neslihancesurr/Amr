@@ -1,0 +1,17 @@
+<Amr sentence="Araba , duramayınca diğer arabaya bindirmişti .">
+<Word name="6/bindir" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/bindir" to="o" with="ARG0"/>
+<Word name="1/araba" positionX="750" positionY="200"/>
+<Connection from="6/bindir" to="1/araba" with="ARG1"/>
+<Word name="mümkün" positionX="850" positionY="200"/>
+<Connection from="6/bindir" to="mümkün"/>
+<Word name="3/dur" positionX="750" positionY="300"/>
+<Connection from="mümkün" to="3/dur"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="3/dur" to="-" with="polarity"/>
+<Word name="5/araba" positionX="950" positionY="200"/>
+<Connection from="6/bindir" to="5/araba"/>
+<Word name="4/diğer" positionX="850" positionY="300"/>
+<Connection from="5/araba" to="4/diğer" with="mod"/>
+</Amr>

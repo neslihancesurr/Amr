@@ -1,0 +1,20 @@
+<Amr sentence="Adam ite kaka öne geçmeye çalışıyordu .">
+<Word name="6/çalış" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/çalış" to="o" with="ARG0"/>
+<Word name="1/adam" positionX="750" positionY="200"/>
+<Connection from="6/çalış" to="1/adam"/>
+<Word name="and" positionX="850" positionY="200"/>
+<Connection from="6/çalış" to="and"/>
+<Word name="3/kak" positionX="750" positionY="300"/>
+<Connection from="and" to="3/kak" with="op1"/>
+<Connection from="3/kak" to="o" with="ARG0"/>
+<Word name="2/it" positionX="850" positionY="300"/>
+<Connection from="and" to="2/it" with="op2"/>
+<Connection from="2/it" to="o" with="ARG0"/>
+<Word name="5/geç" positionX="950" positionY="200"/>
+<Connection from="6/çalış" to="5/geç"/>
+<Connection from="5/geç" to="o" with="ARG0"/>
+<Word name="4/ön" positionX="950" positionY="300"/>
+<Connection from="5/geç" to="4/ön"/>
+</Amr>

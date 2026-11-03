@@ -1,0 +1,18 @@
+<Amr sentence="Gözlerindeki yaşı sildi , ömrü boyunca mutluluk yüzü görmemişti .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/sil" positionX="650" positionY="200"/>
+<Connection from="and" to="3/sil" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/sil" to="o" with="ARG0"/>
+<Word name="2/yaş" positionX="650" positionY="300"/>
+<Connection from="3/sil" to="2/yaş"/>
+<Word name="1/göz" positionX="550" positionY="400"/>
+<Connection from="2/yaş" to="1/göz" with="mod"/>
+<Word name="8/yüz 9/gör" positionX="750" positionY="200"/>
+<Connection from="and" to="8/yüz 9/gör" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="8/yüz 9/gör" to="-" with="polarity"/>
+<Connection from="8/yüz 9/gör" to="o" with="ARG0"/>
+<Word name="5/ömür 6/boyunca" positionX="850" positionY="300"/>
+<Connection from="8/yüz 9/gör" to="5/ömür 6/boyunca" with="mod"/>
+</Amr>

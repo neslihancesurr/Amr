@@ -1,0 +1,23 @@
+<Amr sentence="Beni bu yükten kurtarmakla bana büyük bir iyilik yapmış olacaksınız .">
+<Word name="9/yap" positionX="750" positionY="100"/>
+<Word name="4/kurtar" positionX="650" positionY="200"/>
+<Connection from="9/yap" to="4/kurtar"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/kurtar" to="o" with="ARG0"/>
+<Word name="1/ben" positionX="650" positionY="300"/>
+<Connection from="4/kurtar" to="1/ben" with="ARG1"/>
+<Word name="3/yük" positionX="750" positionY="300"/>
+<Connection from="4/kurtar" to="3/yük" with="ARG2"/>
+<Word name="2/bu" positionX="650" positionY="400"/>
+<Connection from="3/yük" to="2/bu" with="mod"/>
+<Word name="5/ben" positionX="750" positionY="200"/>
+<Connection from="9/yap" to="5/ben"/>
+<Word name="8/iyilik" positionX="850" positionY="200"/>
+<Connection from="9/yap" to="8/iyilik"/>
+<Word name="6/büyük" positionX="750" positionY="300"/>
+<Connection from="8/iyilik" to="6/büyük" with="mod"/>
+<Word name="10/ol" positionX="950" positionY="200"/>
+<Connection from="9/yap" to="10/ol"/>
+<Word name="siz" positionX="850" positionY="300"/>
+<Connection from="10/ol" to="siz" with="ARG0"/>
+</Amr>

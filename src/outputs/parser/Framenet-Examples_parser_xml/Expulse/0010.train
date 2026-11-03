@@ -1,0 +1,9 @@
+<Amr sentence="Fareyi evden kovdu .">
+<Word name="3/kov" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/kov" to="o" with="ARG0"/>
+<Word name="1/fare" positionX="750" positionY="200"/>
+<Connection from="3/kov" to="1/fare" with="ARG1"/>
+<Word name="2/ev" positionX="850" positionY="200"/>
+<Connection from="3/kov" to="2/ev" with="ARG2"/>
+</Amr>

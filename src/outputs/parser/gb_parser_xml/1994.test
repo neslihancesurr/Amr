@@ -1,0 +1,9 @@
+<Amr sentence="Misafirlerin çoğu bahçeye çıkmıştı .">
+<Word name="4/çık" positionX="750" positionY="100"/>
+<Word name="2/çoğu" positionX="650" positionY="200"/>
+<Connection from="4/çık" to="2/çoğu" with="ARG0"/>
+<Word name="1/misafir" positionX="550" positionY="300"/>
+<Connection from="2/çoğu" to="1/misafir"/>
+<Word name="3/bahçe" positionX="750" positionY="200"/>
+<Connection from="4/çık" to="3/bahçe" with="ARG2"/>
+</Amr>

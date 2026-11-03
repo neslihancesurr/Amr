@@ -1,0 +1,7 @@
+<Amr sentence="Balo ve kokteyl partisine bir davetiye alabilmek için kesenin ağzını açmak istediler .">
+<Word name="12/iste" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="12/iste" to="onlar" with="ARG0"/>
+<Word name="9/kese 10/ağız 11/aç" positionX="750" positionY="200"/>
+<Connection from="12/iste" to="9/kese 10/ağız 11/aç"/>
+</Amr>

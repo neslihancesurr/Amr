@@ -1,0 +1,21 @@
+<Amr sentence="Miras kalan parayı har vurup harman savurdu , şimdi yine perişan halde .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/har 5/vur 6/harman 7/savur" positionX="650" positionY="200"/>
+<Connection from="and" to="4/har 5/vur 6/harman 7/savur" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/har 5/vur 6/harman 7/savur" to="o" with="ARG0"/>
+<Word name="3/para" positionX="650" positionY="300"/>
+<Connection from="4/har 5/vur 6/harman 7/savur" to="3/para" with="ARG1"/>
+<Word name="2/kal" positionX="550" positionY="400"/>
+<Connection from="3/para" to="2/kal"/>
+<Word name="1/miras" positionX="450" positionY="500"/>
+<Connection from="2/kal" to="1/miras"/>
+<Word name="12/hal" positionX="750" positionY="200"/>
+<Connection from="and" to="12/hal" with="location"/>
+<Word name="9/şimdi" positionX="650" positionY="300"/>
+<Connection from="12/hal" to="9/şimdi" with="manner"/>
+<Word name="10/yine" positionX="750" positionY="300"/>
+<Connection from="12/hal" to="10/yine" with="manner"/>
+<Word name="11/perişan" positionX="850" positionY="300"/>
+<Connection from="12/hal" to="11/perişan" with="mod"/>
+</Amr>

@@ -1,0 +1,7 @@
+<Amr sentence="Sevgilimle mehtaba çıktık .">
+<Word name="2/mehtap 3/çık" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="2/mehtap 3/çık" to="biz" with="ARG0"/>
+<Word name="1/sevgili" positionX="750" positionY="200"/>
+<Connection from="2/mehtap 3/çık" to="1/sevgili" with="instrument"/>
+</Amr>

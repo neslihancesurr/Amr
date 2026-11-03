@@ -1,0 +1,9 @@
+<Amr sentence="Tiyatro müziklerini operaya aktardı .">
+<Word name="4/aktar" positionX="750" positionY="100"/>
+<Word name="2/müzik" positionX="650" positionY="200"/>
+<Connection from="4/aktar" to="2/müzik" with="ARG1"/>
+<Word name="1/tiyatro" positionX="550" positionY="300"/>
+<Connection from="2/müzik" to="1/tiyatro" with="mod"/>
+<Word name="3/opera" positionX="750" positionY="200"/>
+<Connection from="4/aktar" to="3/opera"/>
+</Amr>

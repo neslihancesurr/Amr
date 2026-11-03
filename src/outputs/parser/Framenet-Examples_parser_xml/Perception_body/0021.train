@@ -1,0 +1,19 @@
+<Amr sentence="Ağzıma biraz ekmek atayım , içim buruldu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/at" positionX="650" positionY="200"/>
+<Connection from="and" to="4/at" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="4/at" to="ben" with="ARG0"/>
+<Word name="1/ağız" positionX="650" positionY="300"/>
+<Connection from="4/at" to="1/ağız"/>
+<Connection from="1/ağız" to="ben" with="poss"/>
+<Word name="3/ekmek" positionX="750" positionY="300"/>
+<Connection from="4/at" to="3/ekmek" with="ARG1"/>
+<Word name="2/biraz" positionX="650" positionY="400"/>
+<Connection from="3/ekmek" to="2/biraz" with="mod"/>
+<Word name="7/bur" positionX="750" positionY="200"/>
+<Connection from="and" to="7/bur" with="op2"/>
+<Word name="6/iç" positionX="650" positionY="300"/>
+<Connection from="7/bur" to="6/iç" with="ARG0"/>
+<Connection from="6/iç" to="ben" with="poss"/>
+</Amr>

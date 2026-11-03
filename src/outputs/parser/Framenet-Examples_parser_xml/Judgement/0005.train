@@ -1,0 +1,9 @@
+<Amr sentence="Planıma aklı yattı .">
+<Word name="2/akıl 3/yat" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="2/akıl 3/yat" to="o" with="ARG0"/>
+<Word name="1/plan" positionX="750" positionY="200"/>
+<Connection from="2/akıl 3/yat" to="1/plan" with="ARG1"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="1/plan" to="ben" with="poss"/>
+</Amr>

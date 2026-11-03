@@ -1,0 +1,11 @@
+<Amr sentence="rolü büyük olmayan oyuncu">
+<Word name="4/oyuncu" positionX="750" positionY="100"/>
+<Word name="3/ol" positionX="650" positionY="200"/>
+<Connection from="4/oyuncu" to="3/ol"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="3/ol" to="-" with="polarity"/>
+<Word name="2/büyük" positionX="650" positionY="300"/>
+<Connection from="3/ol" to="2/büyük" with="manner"/>
+<Word name="1/rol" positionX="550" positionY="400"/>
+<Connection from="2/büyük" to="1/rol"/>
+</Amr>

@@ -1,0 +1,7 @@
+<Amr sentence="Bugün dolar ne kadarmış ?">
+<Word name="3/ne:extent" positionX="750" positionY="100"/>
+<Word name="1/bugün" positionX="650" positionY="200"/>
+<Connection from="3/ne:extent" to="1/bugün"/>
+<Word name="2/dolar" positionX="750" positionY="200"/>
+<Connection from="3/ne:extent" to="2/dolar"/>
+</Amr>

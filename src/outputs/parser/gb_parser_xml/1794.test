@@ -1,0 +1,11 @@
+<Amr sentence="6.30'a kadar yola çıkmış olmalıyız .">
+<Word name="3/yol 4/çık" positionX="750" positionY="100"/>
+<Word name="1/6.30" positionX="650" positionY="200"/>
+<Connection from="3/yol 4/çık" to="1/6.30" with="extent"/>
+<Word name="gerek" positionX="750" positionY="200"/>
+<Connection from="3/yol 4/çık" to="gerek"/>
+<Word name="5/ol" positionX="650" positionY="300"/>
+<Connection from="gerek" to="5/ol"/>
+<Word name="biz" positionX="550" positionY="400"/>
+<Connection from="5/ol" to="biz" with="ARG0"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Onun güzel gözleri için bir şeyler yapmayı içinden geçirdi .">
+<Word name="8/iç 9/geçir" positionX="750" positionY="100"/>
+<Word name="3/göz" positionX="650" positionY="200"/>
+<Connection from="8/iç 9/geçir" to="3/göz" with="ARG1"/>
+<Word name="1/o" positionX="550" positionY="300"/>
+<Connection from="3/göz" to="1/o" with="mod"/>
+<Word name="2/güzel" positionX="650" positionY="300"/>
+<Connection from="3/göz" to="2/güzel" with="mod"/>
+<Word name="4/için" positionX="750" positionY="300"/>
+<Connection from="3/göz" to="4/için"/>
+</Amr>

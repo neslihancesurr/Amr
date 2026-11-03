@@ -1,0 +1,7 @@
+<Amr sentence="Kazanan hangisiydi ?">
+<Word name="2/hangi" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="2/hangi" to="o" with="poss"/>
+<Word name="1/kazan" positionX="750" positionY="200"/>
+<Connection from="2/hangi" to="1/kazan"/>
+</Amr>

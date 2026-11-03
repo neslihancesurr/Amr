@@ -1,0 +1,13 @@
+<Amr sentence="Bu yaşam tarzından hep hoşlanmışımdır .">
+<Word name="5/hoşlan" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/hoşlan" to="ben" with="ARG0"/>
+<Word name="3/tarz" positionX="750" positionY="200"/>
+<Connection from="5/hoşlan" to="3/tarz" with="ARG1"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="3/tarz" to="1/bu" with="mod"/>
+<Word name="2/yaşam" positionX="750" positionY="300"/>
+<Connection from="3/tarz" to="2/yaşam" with="mod"/>
+<Word name="4/hep" positionX="850" positionY="200"/>
+<Connection from="5/hoşlan" to="4/hep" with="frequency"/>
+</Amr>

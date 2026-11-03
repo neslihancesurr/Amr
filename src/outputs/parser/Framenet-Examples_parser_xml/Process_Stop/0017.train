@@ -1,0 +1,13 @@
+<Amr sentence="Bu tesis hijyen yüzünden mühürlendi .">
+<Word name="5/mühürle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/mühürle" to="o" with="ARG0"/>
+<Word name="2/tesis" positionX="750" positionY="200"/>
+<Connection from="5/mühürle" to="2/tesis" with="ARG1"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/tesis" to="1/bu" with="mod"/>
+<Word name="4/yüzünden" positionX="850" positionY="200"/>
+<Connection from="5/mühürle" to="4/yüzünden" with="manner"/>
+<Word name="3/hijyen" positionX="750" positionY="300"/>
+<Connection from="4/yüzünden" to="3/hijyen" with="mod"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Madenden bir kap içine bunları koyup kavuracağız .">
+<Word name="7/kavur" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="7/kavur" to="biz" with="ARG0"/>
+<Word name="4/iç" positionX="750" positionY="200"/>
+<Connection from="7/kavur" to="4/iç"/>
+<Word name="3/kap" positionX="650" positionY="300"/>
+<Connection from="4/iç" to="3/kap" with="mod"/>
+<Word name="1/maden" positionX="550" positionY="400"/>
+<Connection from="3/kap" to="1/maden" with="mod"/>
+<Word name="5/bu" positionX="850" positionY="200"/>
+<Connection from="7/kavur" to="5/bu" with="ARG1"/>
+<Word name="6/koy" positionX="950" positionY="200"/>
+<Connection from="7/kavur" to="6/koy"/>
+</Amr>

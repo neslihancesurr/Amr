@@ -1,0 +1,11 @@
+<Amr sentence="Adam bir aylığına görevden uzaklaştırıldı .">
+<Word name="5/uzaklaştırıl" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/uzaklaştırıl" to="o" with="ARG0"/>
+<Word name="1/adam" positionX="750" positionY="200"/>
+<Connection from="5/uzaklaştırıl" to="1/adam" with="ARG1"/>
+<Word name="3/aylığına" positionX="850" positionY="200"/>
+<Connection from="5/uzaklaştırıl" to="3/aylığına" with="manner"/>
+<Word name="4/görev" positionX="950" positionY="200"/>
+<Connection from="5/uzaklaştırıl" to="4/görev"/>
+</Amr>

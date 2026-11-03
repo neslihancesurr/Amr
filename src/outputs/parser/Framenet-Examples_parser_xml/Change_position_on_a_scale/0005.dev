@@ -1,0 +1,12 @@
+<Amr sentence="Vites büyütmezsek işler yetişmeyecek .">
+<Word name="4/yetiş" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/yetiş" to="-" with="polarity"/>
+<Word name="1/vites 2/büyüt" positionX="750" positionY="200"/>
+<Connection from="4/yetiş" to="1/vites 2/büyüt"/>
+<Connection from="1/vites 2/büyüt" to="-" with="polarity"/>
+<Word name="biz" positionX="750" positionY="300"/>
+<Connection from="1/vites 2/büyüt" to="biz" with="ARG0"/>
+<Word name="3/iş" positionX="850" positionY="200"/>
+<Connection from="4/yetiş" to="3/iş" with="ARG0"/>
+</Amr>

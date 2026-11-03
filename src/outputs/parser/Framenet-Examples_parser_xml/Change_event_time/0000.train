@@ -1,0 +1,11 @@
+<Amr sentence="Bu mevzuyu şimdilik bırakalım .">
+<Word name="4/bırak" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="4/bırak" to="biz" with="ARG0"/>
+<Word name="2/mevzu" positionX="750" positionY="200"/>
+<Connection from="4/bırak" to="2/mevzu" with="ARG1"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/mevzu" to="1/bu" with="mod"/>
+<Word name="3/şimdilik" positionX="850" positionY="200"/>
+<Connection from="4/bırak" to="3/şimdilik" with="manner"/>
+</Amr>

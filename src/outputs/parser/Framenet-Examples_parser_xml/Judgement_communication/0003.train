@@ -1,0 +1,13 @@
+<Amr sentence="Tüm halk son olayda valiyi kınadı .">
+<Word name="6/kına" positionX="750" positionY="100"/>
+<Word name="2/halk" positionX="650" positionY="200"/>
+<Connection from="6/kına" to="2/halk" with="ARG0"/>
+<Word name="1/tüm" positionX="550" positionY="300"/>
+<Connection from="2/halk" to="1/tüm" with="mod"/>
+<Word name="4/olay" positionX="750" positionY="200"/>
+<Connection from="6/kına" to="4/olay" with="mod"/>
+<Word name="3/son" positionX="650" positionY="300"/>
+<Connection from="4/olay" to="3/son" with="mod"/>
+<Word name="5/vali" positionX="850" positionY="200"/>
+<Connection from="6/kına" to="5/vali" with="ARG1"/>
+</Amr>

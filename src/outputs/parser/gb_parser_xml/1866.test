@@ -1,0 +1,11 @@
+<Amr sentence="Bizim apartmanımızda hiç çocuk yok .">
+<Word name="5/yok" positionX="750" positionY="100"/>
+<Word name="2/apartman" positionX="650" positionY="200"/>
+<Connection from="5/yok" to="2/apartman" with="location"/>
+<Word name="1/biz" positionX="550" positionY="300"/>
+<Connection from="2/apartman" to="1/biz" with="mod"/>
+<Word name="3/hiç" positionX="750" positionY="200"/>
+<Connection from="5/yok" to="3/hiç" with="degree"/>
+<Word name="4/çocuk" positionX="850" positionY="200"/>
+<Connection from="5/yok" to="4/çocuk"/>
+</Amr>

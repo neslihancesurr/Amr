@@ -1,0 +1,21 @@
+<Amr sentence="Bundan sonradır ki nazil olan bir ilahi emirle bu iş kökünden engellendi .">
+<Word name="12/engel" positionX="750" positionY="100"/>
+<Word name="2/sonra" positionX="650" positionY="200"/>
+<Connection from="12/engel" to="2/sonra"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/sonra" to="1/bu" with="mod"/>
+<Word name="3/ki" positionX="650" positionY="300"/>
+<Connection from="2/sonra" to="3/ki"/>
+<Word name="8/emir" positionX="750" positionY="200"/>
+<Connection from="12/engel" to="8/emir" with="instrument"/>
+<Word name="4/nazil 5/ol" positionX="650" positionY="300"/>
+<Connection from="8/emir" to="4/nazil 5/ol"/>
+<Word name="7/ilahi" positionX="750" positionY="300"/>
+<Connection from="8/emir" to="7/ilahi" with="mod"/>
+<Word name="10/iş" positionX="850" positionY="200"/>
+<Connection from="12/engel" to="10/iş" with="ARG1"/>
+<Word name="9/bu" positionX="750" positionY="300"/>
+<Connection from="10/iş" to="9/bu" with="mod"/>
+<Word name="11/kök" positionX="950" positionY="200"/>
+<Connection from="12/engel" to="11/kök" with="mod"/>
+</Amr>

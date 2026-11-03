@@ -1,0 +1,15 @@
+<Amr sentence="Salına salına yürüyerek etrafının dikkatini çekmeye çalışıyordu .">
+<Word name="7/çalış" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/çalış" to="o" with="ARG0"/>
+<Word name="3/yürü" positionX="750" positionY="200"/>
+<Connection from="7/çalış" to="3/yürü"/>
+<Word name="1/salın 2/salın" positionX="650" positionY="300"/>
+<Connection from="3/yürü" to="1/salın 2/salın"/>
+<Connection from="1/salın 2/salın" to="o" with="ARG0"/>
+<Word name="5/dikkat 6/çek" positionX="850" positionY="200"/>
+<Connection from="7/çalış" to="5/dikkat 6/çek" with="ARG1"/>
+<Connection from="5/dikkat 6/çek" to="o" with="ARG0"/>
+<Word name="4/etraf" positionX="850" positionY="300"/>
+<Connection from="5/dikkat 6/çek" to="4/etraf" with="mod"/>
+</Amr>

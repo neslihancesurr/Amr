@@ -1,0 +1,10 @@
+<Amr sentence="Borcunu yıllarca sönümledi .">
+<Word name="3/sönümle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/sönümle" to="o" with="ARG0"/>
+<Word name="1/borç" positionX="750" positionY="200"/>
+<Connection from="3/sönümle" to="1/borç" with="ARG1"/>
+<Connection from="1/borç" to="o" with="poss"/>
+<Word name="2/yıllarca" positionX="850" positionY="200"/>
+<Connection from="3/sönümle" to="2/yıllarca" with="manner"/>
+</Amr>

@@ -1,0 +1,19 @@
+<Amr sentence="Kayıtlar on beşi bulmazsa ders açılmayacak .">
+<Word name="6/aç" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="6/aç" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="6/aç" to="o" with="ARG0"/>
+<Word name="4/bul" positionX="850" positionY="200"/>
+<Connection from="6/aç" to="4/bul" with="cond"/>
+<Connection from="4/bul" to="-" with="polarity"/>
+<Connection from="4/bul" to="o" with="ARG0"/>
+<Word name="1/kayıt" positionX="950" positionY="300"/>
+<Connection from="4/bul" to="1/kayıt"/>
+<Word name="3/beş" positionX="1050" positionY="300"/>
+<Connection from="4/bul" to="3/beş"/>
+<Word name="2/on" positionX="950" positionY="400"/>
+<Connection from="3/beş" to="2/on"/>
+<Word name="5/ders" positionX="950" positionY="200"/>
+<Connection from="6/aç" to="5/ders"/>
+</Amr>

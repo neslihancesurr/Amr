@@ -1,0 +1,7 @@
+<Amr sentence="Söylediklerimin tamamına aklı yattı .">
+<Word name="3/akıl 4/yat" positionX="750" positionY="100"/>
+<Word name="2/tamam" positionX="650" positionY="200"/>
+<Connection from="3/akıl 4/yat" to="2/tamam" with="ARG0"/>
+<Word name="1/söyle" positionX="550" positionY="300"/>
+<Connection from="2/tamam" to="1/söyle" with="mod"/>
+</Amr>

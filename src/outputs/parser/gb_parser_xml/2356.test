@@ -1,0 +1,19 @@
+<Amr sentence="Tam yemeğe oturuyorduk ki bangır bangır kapı vuruldu .">
+<Word name="3/otur" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="3/otur" to="biz" with="ARG0"/>
+<Word name="1/tam" positionX="750" positionY="200"/>
+<Connection from="3/otur" to="1/tam" with="degree"/>
+<Word name="2/yemek" positionX="850" positionY="200"/>
+<Connection from="3/otur" to="2/yemek"/>
+<Word name="8/vur" positionX="950" positionY="200"/>
+<Connection from="3/otur" to="8/vur"/>
+<Word name="o" positionX="850" positionY="300"/>
+<Connection from="8/vur" to="o" with="ARG0"/>
+<Word name="4/ki" positionX="950" positionY="300"/>
+<Connection from="8/vur" to="4/ki"/>
+<Word name="5/bangır 6/bangır" positionX="1050" positionY="300"/>
+<Connection from="8/vur" to="5/bangır 6/bangır"/>
+<Word name="7/kapı" positionX="1150" positionY="300"/>
+<Connection from="8/vur" to="7/kapı"/>
+</Amr>

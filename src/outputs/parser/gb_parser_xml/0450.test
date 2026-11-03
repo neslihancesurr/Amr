@@ -1,0 +1,22 @@
+<Amr sentence="Onlar Hristiyan olmamalarına rağmen yıllardır Noel'i kutlayagelmişlerdir .">
+<Word name="7/kutla" positionX="750" positionY="100"/>
+<Word name="3/ol" positionX="650" positionY="200"/>
+<Connection from="7/kutla" to="3/ol" with="concession"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="3/ol" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/ol" to="o" with="poss"/>
+<Word name="1/o" positionX="750" positionY="300"/>
+<Connection from="3/ol" to="1/o" with="ARG0"/>
+<Word name="2/hristiyan" positionX="850" positionY="300"/>
+<Connection from="3/ol" to="2/hristiyan" with="ARG1"/>
+<Word name="5/yıl" positionX="750" positionY="200"/>
+<Connection from="7/kutla" to="5/yıl"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="7/kutla" to="person" with="ARG1"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="6/noel" positionX="650" positionY="400"/>
+<Connection from="name" to="6/noel" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

@@ -1,0 +1,10 @@
+<Amr sentence="Şurada otursanız daha rahat edersiniz .">
+<Word name="4/rahat 5/et" positionX="750" positionY="100"/>
+<Word name="siz" positionX="650" positionY="200"/>
+<Connection from="4/rahat 5/et" to="siz" with="ARG0"/>
+<Word name="2/otur" positionX="750" positionY="200"/>
+<Connection from="4/rahat 5/et" to="2/otur"/>
+<Connection from="2/otur" to="siz" with="ARG0"/>
+<Word name="1/şurada" positionX="750" positionY="300"/>
+<Connection from="2/otur" to="1/şurada" with="ARG1"/>
+</Amr>

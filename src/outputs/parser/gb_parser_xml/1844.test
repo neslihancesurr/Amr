@@ -1,0 +1,19 @@
+<Amr sentence="Gürcistan folkloruyla ilgili bir kitap arıyorum .">
+<Word name="6/ara" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="6/ara" to="ben" with="ARG0"/>
+<Word name="5/kitap" positionX="750" positionY="200"/>
+<Connection from="6/ara" to="5/kitap" with="ARG1"/>
+<Word name="3/ilgili" positionX="650" positionY="300"/>
+<Connection from="5/kitap" to="3/ilgili" with="mod"/>
+<Word name="2/folklor" positionX="550" positionY="400"/>
+<Connection from="3/ilgili" to="2/folklor" with="mod"/>
+<Word name="person" positionX="450" positionY="500"/>
+<Connection from="2/folklor" to="person"/>
+<Word name="name" positionX="350" positionY="600"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/gürcistan" positionX="250" positionY="700"/>
+<Connection from="name" to="1/gürcistan" with="op1"/>
+<Word name="-" positionX="450" positionY="600"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

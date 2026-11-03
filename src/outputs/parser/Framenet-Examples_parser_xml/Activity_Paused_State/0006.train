@@ -1,0 +1,18 @@
+<Amr sentence="O kadar korkmuştum ki koltukta öylece hareketsiz durdum saatlerce .">
+<Word name="7/hareketsiz 8/dur" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="7/hareketsiz 8/dur" to="ben" with="ARG0"/>
+<Word name="3/kork" positionX="750" positionY="200"/>
+<Connection from="7/hareketsiz 8/dur" to="3/kork" with="extent"/>
+<Connection from="3/kork" to="ben" with="ARG0"/>
+<Word name="1/o 2/kadar" positionX="750" positionY="300"/>
+<Connection from="3/kork" to="1/o 2/kadar" with="mod"/>
+<Word name="4/ki" positionX="850" positionY="300"/>
+<Connection from="3/kork" to="4/ki"/>
+<Word name="5/koltuk" positionX="850" positionY="200"/>
+<Connection from="7/hareketsiz 8/dur" to="5/koltuk" with="location"/>
+<Word name="6/öylece" positionX="950" positionY="200"/>
+<Connection from="7/hareketsiz 8/dur" to="6/öylece" with="manner"/>
+<Word name="9/saatlerce" positionX="1050" positionY="200"/>
+<Connection from="7/hareketsiz 8/dur" to="9/saatlerce" with="mod"/>
+</Amr>

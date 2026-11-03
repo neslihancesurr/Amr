@@ -1,0 +1,19 @@
+<Amr sentence="Mehmet ekim başından beri yurtdışındaydı .">
+<Word name="5/yurtdış:location" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="5/yurtdış:location" to="person"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/mehmet" positionX="450" positionY="400"/>
+<Connection from="name" to="1/mehmet" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/baş" positionX="750" positionY="200"/>
+<Connection from="5/yurtdış:location" to="3/baş"/>
+<Word name="date-entity" positionX="650" positionY="300"/>
+<Connection from="3/baş" to="date-entity" with="date"/>
+<Word name="2/ekim" positionX="550" positionY="400"/>
+<Connection from="date-entity" to="2/ekim" with="month"/>
+<Word name="4/beri" positionX="750" positionY="300"/>
+<Connection from="3/baş" to="4/beri"/>
+</Amr>

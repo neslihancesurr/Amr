@@ -1,0 +1,15 @@
+<Amr sentence="Jeneratörün sağır eden sesi de artık kesildi .">
+<Word name="7/kes" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/kes" to="o" with="ARG0"/>
+<Word name="4/ses" positionX="750" positionY="200"/>
+<Connection from="7/kes" to="4/ses" with="ARG1"/>
+<Word name="1/jeneratör" positionX="650" positionY="300"/>
+<Connection from="4/ses" to="1/jeneratör" with="mod"/>
+<Word name="2/sağır 3/et" positionX="750" positionY="300"/>
+<Connection from="4/ses" to="2/sağır 3/et"/>
+<Word name="5/de" positionX="850" positionY="300"/>
+<Connection from="4/ses" to="5/de" with="manner"/>
+<Word name="6/artık" positionX="850" positionY="200"/>
+<Connection from="7/kes" to="6/artık" with="manner"/>
+</Amr>

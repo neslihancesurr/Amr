@@ -1,0 +1,9 @@
+<Amr sentence="Kimleri görüyorsunuz ?">
+<Word name="2/gör" positionX="750" positionY="100"/>
+<Word name="siz" positionX="650" positionY="200"/>
+<Connection from="2/gör" to="siz" with="ARG0"/>
+<Word name="1/kim" positionX="750" positionY="200"/>
+<Connection from="2/gör" to="1/kim" with="ARG1"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="1/kim" to="onlar" with="poss"/>
+</Amr>

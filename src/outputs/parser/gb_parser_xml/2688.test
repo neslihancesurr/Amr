@@ -1,0 +1,10 @@
+<Amr sentence="Buna rağmen yüzmek istiyor .">
+<Word name="4/iste" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/iste" to="o" with="ARG0"/>
+<Word name="1/bu" positionX="750" positionY="200"/>
+<Connection from="4/iste" to="1/bu" with="concession"/>
+<Word name="3/yüz" positionX="850" positionY="200"/>
+<Connection from="4/iste" to="3/yüz" with="ARG1"/>
+<Connection from="3/yüz" to="o" with="ARG0"/>
+</Amr>

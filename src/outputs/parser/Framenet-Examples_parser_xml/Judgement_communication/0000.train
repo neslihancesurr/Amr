@@ -1,0 +1,9 @@
+<Amr sentence="Biz de seni adam yerine koymuştuk .">
+<Word name="4/adam 5/yer 6/koy" positionX="750" positionY="100"/>
+<Word name="1/biz" positionX="650" positionY="200"/>
+<Connection from="4/adam 5/yer 6/koy" to="1/biz" with="ARG0"/>
+<Word name="2/de" positionX="550" positionY="300"/>
+<Connection from="1/biz" to="2/de" with="manner"/>
+<Word name="3/sen" positionX="750" positionY="200"/>
+<Connection from="4/adam 5/yer 6/koy" to="3/sen" with="ARG1"/>
+</Amr>

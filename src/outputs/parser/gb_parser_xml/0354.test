@@ -1,0 +1,13 @@
+<Amr sentence="Londra'ya gidelim .">
+<Word name="2/git" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="2/git" to="biz" with="ARG0"/>
+<Word name="city" positionX="750" positionY="200"/>
+<Connection from="2/git" to="city" with="ARG1"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="1/londra" positionX="550" positionY="400"/>
+<Connection from="name" to="1/londra" with="op1"/>
+<Word name="londra" positionX="750" positionY="300"/>
+<Connection from="city" to="londra" with="wiki"/>
+</Amr>

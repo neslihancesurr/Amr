@@ -1,0 +1,7 @@
+<Amr sentence="Bu firma kumaş ticareti yapıyor .">
+<Word name="4/ticaret 5/yap" positionX="750" positionY="100"/>
+<Word name="2/firma" positionX="650" positionY="200"/>
+<Connection from="4/ticaret 5/yap" to="2/firma" with="ARG0"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/firma" to="1/bu" with="mod"/>
+</Amr>

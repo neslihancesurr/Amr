@@ -1,0 +1,7 @@
+<Amr sentence="Köy meydanında gençler aşık atıyordu .">
+<Word name="4/aşık 5/at" positionX="750" positionY="100"/>
+<Word name="1/köy 2/meydan" positionX="650" positionY="200"/>
+<Connection from="4/aşık 5/at" to="1/köy 2/meydan" with="mod"/>
+<Word name="3/genç" positionX="750" positionY="200"/>
+<Connection from="4/aşık 5/at" to="3/genç" with="ARG0"/>
+</Amr>

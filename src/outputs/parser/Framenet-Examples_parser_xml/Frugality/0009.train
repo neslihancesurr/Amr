@@ -1,0 +1,14 @@
+<Amr sentence="Düşüncesizce harcadı , bütün malını mülkünü sokağa attı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/harca" positionX="650" positionY="200"/>
+<Connection from="and" to="2/harca" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/harca" to="o" with="ARG0"/>
+<Word name="1/düşüncesizce" positionX="650" positionY="300"/>
+<Connection from="2/harca" to="1/düşüncesizce" with="manner"/>
+<Word name="7/sokak 8/at" positionX="750" positionY="200"/>
+<Connection from="and" to="7/sokak 8/at" with="op2"/>
+<Connection from="7/sokak 8/at" to="o" with="ARG0"/>
+<Word name="5/mal 6/mülk" positionX="750" positionY="300"/>
+<Connection from="7/sokak 8/at" to="5/mal 6/mülk" with="ARG1"/>
+</Amr>

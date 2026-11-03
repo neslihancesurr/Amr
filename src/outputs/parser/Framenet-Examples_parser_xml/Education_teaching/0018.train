@@ -1,0 +1,17 @@
+<Amr sentence="O Amerika'da dilbilim üzerine doktora yapıyor">
+<Word name="5/doktora 6/yap" positionX="750" positionY="100"/>
+<Word name="1/o" positionX="650" positionY="200"/>
+<Connection from="5/doktora 6/yap" to="1/o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="5/doktora 6/yap" to="person" with="location"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/amerika" positionX="550" positionY="400"/>
+<Connection from="name" to="2/amerika" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/üzerine" positionX="850" positionY="200"/>
+<Connection from="5/doktora 6/yap" to="4/üzerine" with="manner"/>
+<Word name="3/dilbilim" positionX="750" positionY="300"/>
+<Connection from="4/üzerine" to="3/dilbilim" with="mod"/>
+</Amr>

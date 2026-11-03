@@ -1,0 +1,13 @@
+<Amr sentence="Amansız bir savunma hattını geçerek basket yaptı .">
+<Word name="6/basket 7/yap" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/basket 7/yap" to="o" with="ARG0"/>
+<Word name="5/geç" positionX="750" positionY="200"/>
+<Connection from="6/basket 7/yap" to="5/geç"/>
+<Word name="4/hat" positionX="650" positionY="300"/>
+<Connection from="5/geç" to="4/hat"/>
+<Word name="3/savun" positionX="550" positionY="400"/>
+<Connection from="4/hat" to="3/savun" with="mod"/>
+<Word name="1/amansız" positionX="450" positionY="500"/>
+<Connection from="3/savun" to="1/amansız" with="mod"/>
+</Amr>

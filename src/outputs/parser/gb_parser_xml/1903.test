@@ -1,0 +1,21 @@
+<Amr sentence="Ahmet o anda koşuya hazırlanan bir atleti andırıyordu .">
+<Word name="8/andır" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="8/andır" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ahmet" positionX="450" positionY="400"/>
+<Connection from="name" to="1/ahmet" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/an" positionX="750" positionY="200"/>
+<Connection from="8/andır" to="3/an" with="location"/>
+<Word name="2/o" positionX="650" positionY="300"/>
+<Connection from="3/an" to="2/o" with="mod"/>
+<Word name="7/atlet" positionX="850" positionY="200"/>
+<Connection from="8/andır" to="7/atlet" with="ARG1"/>
+<Word name="5/hazırlan" positionX="750" positionY="300"/>
+<Connection from="7/atlet" to="5/hazırlan"/>
+<Word name="4/koşu" positionX="650" positionY="400"/>
+<Connection from="5/hazırlan" to="4/koşu" with="ARG1"/>
+</Amr>

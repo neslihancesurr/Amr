@@ -1,0 +1,11 @@
+<Amr sentence="Bizim gerçekten videomuz yok .">
+<Word name="4/yok" positionX="750" positionY="100"/>
+<Word name="1/biz" positionX="650" positionY="200"/>
+<Connection from="4/yok" to="1/biz" with="mod"/>
+<Word name="2/gerçekten" positionX="750" positionY="200"/>
+<Connection from="4/yok" to="2/gerçekten" with="manner"/>
+<Word name="3/video" positionX="850" positionY="200"/>
+<Connection from="4/yok" to="3/video"/>
+<Word name="biz" positionX="750" positionY="300"/>
+<Connection from="3/video" to="biz" with="poss"/>
+</Amr>

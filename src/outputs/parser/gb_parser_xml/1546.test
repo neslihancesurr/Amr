@@ -1,0 +1,13 @@
+<Amr sentence="Bu günlerde kimseyi görmüyorum .">
+<Word name="4/gör" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/gör" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="4/gör" to="ben" with="ARG0"/>
+<Word name="2/gün" positionX="850" positionY="200"/>
+<Connection from="4/gör" to="2/gün" with="location"/>
+<Word name="1/bu" positionX="750" positionY="300"/>
+<Connection from="2/gün" to="1/bu" with="mod"/>
+<Word name="3/kimse" positionX="950" positionY="200"/>
+<Connection from="4/gör" to="3/kimse"/>
+</Amr>

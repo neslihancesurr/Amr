@@ -1,0 +1,13 @@
+<Amr sentence="Hepsini katılımcılara mı vereceksiniz ?">
+<Word name="4/ver" positionX="750" positionY="100"/>
+<Word name="siz" positionX="650" positionY="200"/>
+<Connection from="4/ver" to="siz" with="ARG0"/>
+<Word name="1/hepsi" positionX="750" positionY="200"/>
+<Connection from="4/ver" to="1/hepsi"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="1/hepsi" to="onlar" with="poss"/>
+<Word name="2/katılımcı" positionX="850" positionY="200"/>
+<Connection from="4/ver" to="2/katılımcı"/>
+<Word name="3/mi" positionX="750" positionY="300"/>
+<Connection from="2/katılımcı" to="3/mi"/>
+</Amr>

@@ -1,0 +1,7 @@
+<Amr sentence="Bugün yalnız iki sigara içtim .">
+<Word name="4/sigara 5/iç" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/sigara 5/iç" to="ben" with="ARG0"/>
+<Word name="1/bugün" positionX="750" positionY="200"/>
+<Connection from="4/sigara 5/iç" to="1/bugün"/>
+</Amr>

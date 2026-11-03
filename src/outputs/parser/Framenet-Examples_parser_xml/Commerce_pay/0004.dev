@@ -1,0 +1,15 @@
+<Amr sentence="Babama yük oluyorum ve bundan utanıyorum .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/utan" positionX="650" positionY="200"/>
+<Connection from="and" to="6/utan" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="6/utan" to="ben" with="ARG0"/>
+<Word name="5/bundan" positionX="650" positionY="300"/>
+<Connection from="6/utan" to="5/bundan" with="ARG1"/>
+<Word name="2/yük 3/ol" positionX="750" positionY="200"/>
+<Connection from="and" to="2/yük 3/ol" with="op2"/>
+<Connection from="2/yük 3/ol" to="ben" with="ARG0"/>
+<Word name="1/baba" positionX="750" positionY="300"/>
+<Connection from="2/yük 3/ol" to="1/baba" with="ARG1"/>
+<Connection from="1/baba" to="ben" with="poss"/>
+</Amr>

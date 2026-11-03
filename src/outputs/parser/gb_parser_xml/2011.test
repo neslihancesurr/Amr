@@ -1,0 +1,20 @@
+<Amr sentence="Piyano çaldığını bilmiyordum Ayşe'nin .">
+<Word name="3/bil" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/bil" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="3/bil" to="ben" with="ARG0"/>
+<Word name="2/çal" positionX="850" positionY="200"/>
+<Connection from="3/bil" to="2/çal" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="2/çal" to="o" with="poss"/>
+<Word name="1/piyano" positionX="850" positionY="300"/>
+<Connection from="2/çal" to="1/piyano" with="ARG1"/>
+<Word name="person" positionX="950" positionY="300"/>
+<Connection from="2/çal" to="person" with="ARG0"/>
+<Word name="name" positionX="850" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="4/ayşe" positionX="750" positionY="500"/>
+<Connection from="name" to="4/ayşe" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

@@ -1,0 +1,20 @@
+<Amr sentence="Her işte olduğu gibi kredi işini de sümen altı etti .">
+<Word name="8/sümen 9/alt 10/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="8/sümen 9/alt 10/et" to="o" with="ARG0"/>
+<Word name="3/ol" positionX="750" positionY="200"/>
+<Connection from="8/sümen 9/alt 10/et" to="3/ol"/>
+<Connection from="3/ol" to="o" with="poss"/>
+<Word name="2/iş" positionX="750" positionY="300"/>
+<Connection from="3/ol" to="2/iş" with="ARG0"/>
+<Word name="1/her" positionX="650" positionY="400"/>
+<Connection from="2/iş" to="1/her" with="mod"/>
+<Word name="4/gibi" positionX="850" positionY="300"/>
+<Connection from="3/ol" to="4/gibi"/>
+<Word name="6/iş" positionX="850" positionY="200"/>
+<Connection from="8/sümen 9/alt 10/et" to="6/iş" with="ARG1"/>
+<Word name="5/kredi" positionX="750" positionY="300"/>
+<Connection from="6/iş" to="5/kredi" with="mod"/>
+<Word name="7/de" positionX="850" positionY="300"/>
+<Connection from="6/iş" to="7/de"/>
+</Amr>

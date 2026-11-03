@@ -1,0 +1,7 @@
+<Amr sentence="dışişleri eski bakanı">
+<Word name="3/bakan" positionX="750" positionY="100"/>
+<Word name="1/dışişleri" positionX="650" positionY="200"/>
+<Connection from="3/bakan" to="1/dışişleri" with="mod"/>
+<Word name="2/eski" positionX="750" positionY="200"/>
+<Connection from="3/bakan" to="2/eski" with="mod"/>
+</Amr>

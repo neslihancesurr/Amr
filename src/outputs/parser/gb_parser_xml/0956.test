@@ -1,0 +1,7 @@
+<Amr sentence="Henüz hazır değilim .">
+<Word name="2/hazır" positionX="750" positionY="100"/>
+<Word name="1/henüz" positionX="650" positionY="200"/>
+<Connection from="2/hazır" to="1/henüz" with="manner"/>
+<Word name="-" positionX="750" positionY="200"/>
+<Connection from="2/hazır" to="-" with="polarity"/>
+</Amr>

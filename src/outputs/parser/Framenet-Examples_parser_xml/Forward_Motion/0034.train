@@ -1,0 +1,7 @@
+<Amr sentence="Onunki tam bir sürümekti .">
+<Word name="4/sürü" positionX="750" positionY="100"/>
+<Word name="1/o" positionX="650" positionY="200"/>
+<Connection from="4/sürü" to="1/o" with="ARG0"/>
+<Word name="2/tam" positionX="750" positionY="200"/>
+<Connection from="4/sürü" to="2/tam" with="degree"/>
+</Amr>

@@ -1,0 +1,39 @@
+<Amr sentence="Kafa göz yara yara Hüsn ü Aşk'ı okuyor , hayranları da koyun kaval dinler gibi dinliyorlardı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="8/oku" positionX="650" positionY="200"/>
+<Connection from="and" to="8/oku" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="8/oku" to="o" with="ARG0"/>
+<Word name="4/yar" positionX="650" positionY="300"/>
+<Connection from="8/oku" to="4/yar"/>
+<Connection from="4/yar" to="o" with="ARG0"/>
+<Word name="3/yar" positionX="650" positionY="400"/>
+<Connection from="4/yar" to="3/yar"/>
+<Connection from="3/yar" to="o" with="ARG0"/>
+<Word name="2/göz" positionX="650" positionY="500"/>
+<Connection from="3/yar" to="2/göz"/>
+<Word name="1/kafa" positionX="550" positionY="600"/>
+<Connection from="2/göz" to="1/kafa"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="8/oku" to="person" with="ARG1"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="5/Hüsn" positionX="550" positionY="500"/>
+<Connection from="name" to="5/Hüsn" with="op1"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="6/ü" positionX="850" positionY="400"/>
+<Connection from="person" to="6/ü"/>
+<Connection from="person" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="7/aşk" positionX="750" positionY="600"/>
+<Connection from="name" to="7/aşk" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="13/kaval 14/dinle 15/gibi 16/dinle" positionX="750" positionY="200"/>
+<Connection from="and" to="13/kaval 14/dinle 15/gibi 16/dinle" with="op2"/>
+<Word name="10/hayran" positionX="650" positionY="300"/>
+<Connection from="13/kaval 14/dinle 15/gibi 16/dinle" to="10/hayran" with="ARG0"/>
+<Connection from="10/hayran" to="o" with="poss"/>
+<Word name="11/da" positionX="650" positionY="400"/>
+<Connection from="10/hayran" to="11/da" with="manner"/>
+</Amr>

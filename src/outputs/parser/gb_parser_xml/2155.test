@@ -1,0 +1,21 @@
+<Amr sentence="Bazı denetim işlerinin düzenli yapılmamakta olduğu belliydi .">
+<Word name="7/belli" positionX="750" positionY="100"/>
+<Word name="6/ol" positionX="650" positionY="200"/>
+<Connection from="7/belli" to="6/ol"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="6/ol" to="o" with="ARG0"/>
+<Connection from="6/ol" to="o" with="poss"/>
+<Word name="5/yap" positionX="750" positionY="300"/>
+<Connection from="6/ol" to="5/yap"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="5/yap" to="-" with="polarity"/>
+<Connection from="5/yap" to="o" with="ARG0"/>
+<Word name="3/iş" positionX="850" positionY="400"/>
+<Connection from="5/yap" to="3/iş"/>
+<Word name="2/denetim" positionX="750" positionY="500"/>
+<Connection from="3/iş" to="2/denetim" with="mod"/>
+<Word name="1/bazı" positionX="650" positionY="600"/>
+<Connection from="2/denetim" to="1/bazı" with="mod"/>
+<Word name="4/düzenli" positionX="950" positionY="400"/>
+<Connection from="5/yap" to="4/düzenli" with="manner"/>
+</Amr>

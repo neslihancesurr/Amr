@@ -1,0 +1,9 @@
+<Amr sentence="Şakaklarım zonkluyor .">
+<Word name="2/zonkla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="2/zonkla" to="o" with="ARG0"/>
+<Word name="1/şakak" positionX="750" positionY="200"/>
+<Connection from="2/zonkla" to="1/şakak" with="ARG1"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="1/şakak" to="ben" with="poss"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Kaykay iyice hızlandı , durduramıyorum .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/hız" positionX="650" positionY="200"/>
+<Connection from="and" to="3/hız" with="op1"/>
+<Word name="1/kaykay" positionX="550" positionY="300"/>
+<Connection from="3/hız" to="1/kaykay" with="ARG0"/>
+<Word name="2/iyice" positionX="650" positionY="300"/>
+<Connection from="3/hız" to="2/iyice" with="manner"/>
+<Word name="5/durdur" positionX="750" positionY="200"/>
+<Connection from="and" to="5/durdur" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="5/durdur" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="300"/>
+<Connection from="5/durdur" to="ben" with="ARG0"/>
+</Amr>

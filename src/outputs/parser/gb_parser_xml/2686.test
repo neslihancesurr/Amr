@@ -1,0 +1,25 @@
+<Amr sentence="Rusça çok zor bir dilmiş , gene de onu öğrenmeye kararlıyım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/dil" positionX="650" positionY="200"/>
+<Connection from="and" to="5/dil" with="op1"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="5/dil" to="person"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/rusça" positionX="350" positionY="500"/>
+<Connection from="name" to="1/rusça" with="op1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/zor" positionX="650" positionY="300"/>
+<Connection from="5/dil" to="3/zor" with="mod"/>
+<Word name="2/çok" positionX="550" positionY="400"/>
+<Connection from="3/zor" to="2/çok" with="degree"/>
+<Word name="11/kararlı" positionX="750" positionY="200"/>
+<Connection from="and" to="11/kararlı" with="op2"/>
+<Word name="7/gene 8/de" positionX="650" positionY="300"/>
+<Connection from="11/kararlı" to="7/gene 8/de" with="manner"/>
+<Word name="10/öğren" positionX="750" positionY="300"/>
+<Connection from="11/kararlı" to="10/öğren"/>
+<Word name="9/o" positionX="650" positionY="400"/>
+<Connection from="10/öğren" to="9/o" with="ARG1"/>
+</Amr>

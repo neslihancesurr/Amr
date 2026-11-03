@@ -1,0 +1,14 @@
+<Amr sentence="Ne zaman bir işe kalkışsa tökezledi .">
+<Word name="6/tökezle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/tökezle" to="o" with="ARG0"/>
+<Word name="5/kalkış" positionX="750" positionY="200"/>
+<Connection from="6/tökezle" to="5/kalkış" with="ARG1"/>
+<Connection from="5/kalkış" to="o" with="ARG0"/>
+<Word name="2/zaman" positionX="750" positionY="300"/>
+<Connection from="5/kalkış" to="2/zaman" with="mod"/>
+<Word name="1/ne" positionX="650" positionY="400"/>
+<Connection from="2/zaman" to="1/ne"/>
+<Word name="4/iş" positionX="850" positionY="300"/>
+<Connection from="5/kalkış" to="4/iş" with="ARG1"/>
+</Amr>

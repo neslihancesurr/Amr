@@ -1,0 +1,7 @@
+<Amr sentence="masadaki bu kitaplar">
+<Word name="3/kitap" positionX="750" positionY="100"/>
+<Word name="1/masa" positionX="650" positionY="200"/>
+<Connection from="3/kitap" to="1/masa" with="mod"/>
+<Word name="2/bu" positionX="750" positionY="200"/>
+<Connection from="3/kitap" to="2/bu" with="mod"/>
+</Amr>

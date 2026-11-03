@@ -1,0 +1,10 @@
+<Amr sentence="Tereyağı , suda halloldu .">
+<Word name="4/hallol" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/hallol" to="o" with="ARG0"/>
+<Word name="1/tereyağ" positionX="750" positionY="200"/>
+<Connection from="4/hallol" to="1/tereyağ" with="ARG1"/>
+<Connection from="1/tereyağ" to="o" with="poss"/>
+<Word name="3/su" positionX="850" positionY="200"/>
+<Connection from="4/hallol" to="3/su" with="ARG2"/>
+</Amr>

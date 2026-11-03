@@ -1,0 +1,17 @@
+<Amr sentence="Tavuğu ütüledim , şimdi kızartabiliriz .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/ütüle" positionX="650" positionY="200"/>
+<Connection from="and" to="2/ütüle" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="2/ütüle" to="ben" with="ARG0"/>
+<Word name="1/tavuk" positionX="650" positionY="300"/>
+<Connection from="2/ütüle" to="1/tavuk" with="ARG1"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="1/tavuk" to="o" with="poss"/>
+<Word name="5/kızart" positionX="750" positionY="200"/>
+<Connection from="and" to="5/kızart" with="op2"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="5/kızart" to="biz" with="ARG0"/>
+<Word name="4/şimdi" positionX="750" positionY="300"/>
+<Connection from="5/kızart" to="4/şimdi" with="manner"/>
+</Amr>

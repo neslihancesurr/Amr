@@ -1,0 +1,20 @@
+<Amr sentence="Sen pazartesi günü gel , burada işbaşı yap .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/gel" positionX="650" positionY="200"/>
+<Connection from="and" to="4/gel" with="op1"/>
+<Word name="imperative" positionX="550" positionY="300"/>
+<Connection from="4/gel" to="imperative" with="mode"/>
+<Word name="1/sen" positionX="650" positionY="300"/>
+<Connection from="4/gel" to="1/sen" with="ARG0"/>
+<Word name="3/gün" positionX="750" positionY="300"/>
+<Connection from="4/gel" to="3/gün" with="mod"/>
+<Word name="date-entity" positionX="650" positionY="400"/>
+<Connection from="3/gün" to="date-entity" with="date"/>
+<Word name="2/pazartesi" positionX="550" positionY="500"/>
+<Connection from="date-entity" to="2/pazartesi" with="weekday"/>
+<Word name="7/işbaş 8/yap" positionX="750" positionY="200"/>
+<Connection from="and" to="7/işbaş 8/yap" with="op2"/>
+<Connection from="7/işbaş 8/yap" to="imperative" with="mode"/>
+<Word name="6/burada" positionX="750" positionY="300"/>
+<Connection from="7/işbaş 8/yap" to="6/burada" with="manner"/>
+</Amr>

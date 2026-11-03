@@ -1,0 +1,20 @@
+<Amr sentence="Ahmet'in evlendiğinden haberim yoktu .">
+<Word name="4/yok" positionX="750" positionY="100"/>
+<Word name="3/haber" positionX="650" positionY="200"/>
+<Connection from="4/yok" to="3/haber"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="3/haber" to="ben" with="poss"/>
+<Word name="2/evlen" positionX="650" positionY="300"/>
+<Connection from="3/haber" to="2/evlen"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="2/evlen" to="o" with="ARG0"/>
+<Connection from="2/evlen" to="o" with="poss"/>
+<Word name="person" positionX="750" positionY="400"/>
+<Connection from="2/evlen" to="person"/>
+<Word name="name" positionX="650" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ahmet" positionX="550" positionY="600"/>
+<Connection from="name" to="1/ahmet" with="op1"/>
+<Word name="-" positionX="750" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

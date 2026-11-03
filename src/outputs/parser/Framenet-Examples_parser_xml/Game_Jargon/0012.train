@@ -1,0 +1,13 @@
+<Amr sentence="Gevrek gevrek gülerek vezirimi yuttu .">
+<Word name="5/yut" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/yut" to="o" with="ARG0"/>
+<Word name="3/gül" positionX="750" positionY="200"/>
+<Connection from="5/yut" to="3/gül"/>
+<Word name="1/gevrek 2/gevrek" positionX="650" positionY="300"/>
+<Connection from="3/gül" to="1/gevrek 2/gevrek"/>
+<Word name="4/vezir" positionX="850" positionY="200"/>
+<Connection from="5/yut" to="4/vezir" with="ARG1"/>
+<Word name="ben" positionX="750" positionY="300"/>
+<Connection from="4/vezir" to="ben" with="poss"/>
+</Amr>

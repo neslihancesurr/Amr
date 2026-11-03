@@ -1,0 +1,13 @@
+<Amr sentence="Seçime bir ay kala belediye icraata geçer .">
+<Word name="6/icraat 7/geç" positionX="750" positionY="100"/>
+<Word name="4/kala" positionX="650" positionY="200"/>
+<Connection from="6/icraat 7/geç" to="4/kala"/>
+<Word name="1/seçim" positionX="550" positionY="300"/>
+<Connection from="4/kala" to="1/seçim"/>
+<Word name="3/ay" positionX="650" positionY="300"/>
+<Connection from="4/kala" to="3/ay" with="mod"/>
+<Word name="2/bir" positionX="550" positionY="400"/>
+<Connection from="3/ay" to="2/bir"/>
+<Word name="5/belediye" positionX="750" positionY="200"/>
+<Connection from="6/icraat 7/geç" to="5/belediye" with="ARG0"/>
+</Amr>

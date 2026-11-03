@@ -1,0 +1,13 @@
+<Amr sentence="Biz evi bu yıl artık satacağız .">
+<Word name="6/sat" positionX="750" positionY="100"/>
+<Word name="1/biz" positionX="650" positionY="200"/>
+<Connection from="6/sat" to="1/biz" with="ARG0"/>
+<Word name="2/ev" positionX="750" positionY="200"/>
+<Connection from="6/sat" to="2/ev" with="ARG1"/>
+<Word name="4/yıl" positionX="850" positionY="200"/>
+<Connection from="6/sat" to="4/yıl"/>
+<Word name="3/bu" positionX="750" positionY="300"/>
+<Connection from="4/yıl" to="3/bu" with="mod"/>
+<Word name="5/artık" positionX="950" positionY="200"/>
+<Connection from="6/sat" to="5/artık" with="manner"/>
+</Amr>

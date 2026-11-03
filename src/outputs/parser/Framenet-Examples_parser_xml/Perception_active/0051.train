@@ -1,0 +1,21 @@
+<Amr sentence="Deniz kenarını iskandil etti ve sahil boyunca hızlı hızlı ilerledi .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="10/ilerle" positionX="650" positionY="200"/>
+<Connection from="and" to="10/ilerle" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="10/ilerle" to="o" with="ARG0"/>
+<Word name="6/sahil" positionX="650" positionY="300"/>
+<Connection from="10/ilerle" to="6/sahil" with="mod"/>
+<Word name="7/boyunca" positionX="550" positionY="400"/>
+<Connection from="6/sahil" to="7/boyunca"/>
+<Word name="8/hızlı 9/hızlı" positionX="750" positionY="300"/>
+<Connection from="10/ilerle" to="8/hızlı 9/hızlı"/>
+<Word name="3/iskandil 4/et" positionX="750" positionY="200"/>
+<Connection from="and" to="3/iskandil 4/et" with="op2"/>
+<Connection from="3/iskandil 4/et" to="o" with="ARG0"/>
+<Word name="2/kenar" positionX="750" positionY="300"/>
+<Connection from="3/iskandil 4/et" to="2/kenar" with="ARG1"/>
+<Connection from="2/kenar" to="o" with="poss"/>
+<Word name="1/deniz" positionX="750" positionY="400"/>
+<Connection from="2/kenar" to="1/deniz"/>
+</Amr>

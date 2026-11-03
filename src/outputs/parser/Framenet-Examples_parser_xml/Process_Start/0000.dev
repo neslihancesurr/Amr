@@ -1,0 +1,15 @@
+<Amr sentence="Bu alandaki çalışmaları ile yeni bir çığır açtı .">
+<Word name="7/çığır 8/aç" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/çığır 8/aç" to="o" with="ARG0"/>
+<Word name="3/çalış" positionX="750" positionY="200"/>
+<Connection from="7/çığır 8/aç" to="3/çalış"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="3/çalış" to="onlar" with="ARG0"/>
+<Word name="2/alan" positionX="750" positionY="300"/>
+<Connection from="3/çalış" to="2/alan" with="mod"/>
+<Word name="1/bu" positionX="650" positionY="400"/>
+<Connection from="2/alan" to="1/bu" with="mod"/>
+<Word name="4/ile" positionX="850" positionY="300"/>
+<Connection from="3/çalış" to="4/ile"/>
+</Amr>

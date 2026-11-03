@@ -1,0 +1,29 @@
+<Amr sentence="Masaya bırakılmış olan bir notta kaloriferler , çöplerin toplanması , pencerelerin kilitlenmesi gibi konularda bilgiler vardı .">
+<Word name="16/var" positionX="750" positionY="100"/>
+<Word name="5/not" positionX="650" positionY="200"/>
+<Connection from="16/var" to="5/not" with="location"/>
+<Word name="3/ol" positionX="550" positionY="300"/>
+<Connection from="5/not" to="3/ol"/>
+<Word name="2/bırak" positionX="450" positionY="400"/>
+<Connection from="3/ol" to="2/bırak"/>
+<Word name="1/masa" positionX="350" positionY="500"/>
+<Connection from="2/bırak" to="1/masa" with="ARG2"/>
+<Word name="14/konu" positionX="750" positionY="200"/>
+<Connection from="16/var" to="14/konu" with="ARG1"/>
+<Word name="and" positionX="650" positionY="300"/>
+<Connection from="14/konu" to="and"/>
+<Word name="9/toplanma" positionX="550" positionY="400"/>
+<Connection from="and" to="9/toplanma" with="mod"/>
+<Word name="8/çöp" positionX="450" positionY="500"/>
+<Connection from="9/toplanma" to="8/çöp"/>
+<Word name="12/kilitle" positionX="650" positionY="400"/>
+<Connection from="and" to="12/kilitle" with="mod"/>
+<Word name="11/pencere" positionX="550" positionY="500"/>
+<Connection from="12/kilitle" to="11/pencere" with="ARG1"/>
+<Word name="6/kalorifer" positionX="750" positionY="400"/>
+<Connection from="and" to="6/kalorifer" with="mod"/>
+<Word name="13/gibi" positionX="650" positionY="500"/>
+<Connection from="6/kalorifer" to="13/gibi"/>
+<Word name="15/bilgi" positionX="850" positionY="200"/>
+<Connection from="16/var" to="15/bilgi" with="ARG1"/>
+</Amr>

@@ -1,0 +1,5 @@
+<Amr sentence="büyük bir oda">
+<Word name="3/oda" positionX="750" positionY="100"/>
+<Word name="1/büyük" positionX="650" positionY="200"/>
+<Connection from="3/oda" to="1/büyük" with="mod"/>
+</Amr>

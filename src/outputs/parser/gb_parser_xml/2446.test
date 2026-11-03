@@ -1,0 +1,13 @@
+<Amr sentence="Meclisin tatile girmesi üzerine başkentteki faaliyet azaldı .">
+<Word name="7/azal" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/azal" to="o" with="ARG0"/>
+<Word name="2/tatil 3/gir" positionX="750" positionY="200"/>
+<Connection from="7/azal" to="2/tatil 3/gir"/>
+<Connection from="2/tatil 3/gir" to="o" with="ARG0"/>
+<Connection from="2/tatil 3/gir" to="o" with="poss"/>
+<Word name="6/faaliyet" positionX="850" positionY="200"/>
+<Connection from="7/azal" to="6/faaliyet"/>
+<Word name="5/başkent" positionX="750" positionY="300"/>
+<Connection from="6/faaliyet" to="5/başkent" with="mod"/>
+</Amr>

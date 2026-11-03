@@ -1,0 +1,13 @@
+<Amr sentence="Çocuk bardaktaki suyun hepsini halıya döktü .">
+<Word name="6/dök" positionX="750" positionY="100"/>
+<Word name="1/çocuk" positionX="650" positionY="200"/>
+<Connection from="6/dök" to="1/çocuk" with="ARG0"/>
+<Word name="4/hepsi" positionX="750" positionY="200"/>
+<Connection from="6/dök" to="4/hepsi" with="ARG1"/>
+<Word name="3/su" positionX="650" positionY="300"/>
+<Connection from="4/hepsi" to="3/su" with="mod"/>
+<Word name="2/bardak" positionX="550" positionY="400"/>
+<Connection from="3/su" to="2/bardak" with="mod"/>
+<Word name="5/halı" positionX="850" positionY="200"/>
+<Connection from="6/dök" to="5/halı"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Hava raporuna göre öğleden sonra yağmur yağacakmış .">
+<Word name="6/yağmur 7/yağ" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/yağmur 7/yağ" to="o" with="ARG0"/>
+<Word name="1/hava 2/rapor" positionX="750" positionY="200"/>
+<Connection from="6/yağmur 7/yağ" to="1/hava 2/rapor" with="mod"/>
+<Word name="4/öğle 5/sonra" positionX="850" positionY="200"/>
+<Connection from="6/yağmur 7/yağ" to="4/öğle 5/sonra"/>
+</Amr>

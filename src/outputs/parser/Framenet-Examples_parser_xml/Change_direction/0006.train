@@ -1,0 +1,32 @@
+<Amr sentence="Kurşun da taşa değmiş sonra taştan çıvmış , Dursun Hacı'ya değmiş .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="7/çıv" positionX="650" positionY="200"/>
+<Connection from="and" to="7/çıv" with="op1"/>
+<Word name="4/değ" positionX="550" positionY="300"/>
+<Connection from="7/çıv" to="4/değ"/>
+<Word name="1/kurşun" positionX="450" positionY="400"/>
+<Connection from="4/değ" to="1/kurşun"/>
+<Word name="2/da" positionX="350" positionY="500"/>
+<Connection from="1/kurşun" to="2/da" with="manner"/>
+<Word name="3/taş" positionX="550" positionY="400"/>
+<Connection from="4/değ" to="3/taş"/>
+<Word name="5/sonra" positionX="650" positionY="300"/>
+<Connection from="7/çıv" to="5/sonra" with="manner"/>
+<Word name="6/taş" positionX="750" positionY="300"/>
+<Connection from="7/çıv" to="6/taş"/>
+<Word name="11/değ" positionX="750" positionY="200"/>
+<Connection from="and" to="11/değ" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="11/değ" to="o" with="ARG0"/>
+<Connection from="11/değ" to="and"/>
+<Word name="person" positionX="850" positionY="300"/>
+<Connection from="11/değ" to="person"/>
+<Word name="name" positionX="750" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="9/dursun" positionX="650" positionY="500"/>
+<Connection from="name" to="9/dursun" with="op1"/>
+<Word name="10/hacı" positionX="750" positionY="500"/>
+<Connection from="name" to="10/hacı" with="op2"/>
+<Word name="-" positionX="850" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

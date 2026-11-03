@@ -1,0 +1,17 @@
+<Amr sentence="Benimki paso , dedi , hanımefendiye bir bilet kes .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/de" positionX="650" positionY="200"/>
+<Connection from="and" to="4/de" with="op1"/>
+<Word name="2/paso" positionX="550" positionY="300"/>
+<Connection from="4/de" to="2/paso" with="ARG1"/>
+<Word name="1/benimki" positionX="450" positionY="400"/>
+<Connection from="2/paso" to="1/benimki"/>
+<Word name="8/bilet 9/kes" positionX="750" positionY="200"/>
+<Connection from="and" to="8/bilet 9/kes" with="op2"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="8/bilet 9/kes" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="300"/>
+<Connection from="8/bilet 9/kes" to="imperative" with="mode"/>
+<Word name="6/hanımefendi" positionX="850" positionY="300"/>
+<Connection from="8/bilet 9/kes" to="6/hanımefendi" with="ARG2"/>
+</Amr>

@@ -1,0 +1,19 @@
+<Amr sentence="Kendi fikriydi Ahmet'in mobilyaları değiştirmek .">
+<Word name="2/fikir" positionX="750" positionY="100"/>
+<Word name="1/kendi" positionX="650" positionY="200"/>
+<Connection from="2/fikir" to="1/kendi" with="mod"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="2/fikir" to="person"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/ahmet" positionX="550" positionY="400"/>
+<Connection from="name" to="3/ahmet" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/değiştir" positionX="850" positionY="200"/>
+<Connection from="2/fikir" to="5/değiştir"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="5/değiştir" to="o" with="ARG0"/>
+<Word name="4/mobilya" positionX="850" positionY="300"/>
+<Connection from="5/değiştir" to="4/mobilya" with="ARG1"/>
+</Amr>

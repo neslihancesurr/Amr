@@ -1,0 +1,15 @@
+<Amr sentence="Patronum çok kızmıştı , beni alaşağı etti .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/kız" positionX="650" positionY="200"/>
+<Connection from="and" to="3/kız" with="op1"/>
+<Word name="1/patron" positionX="550" positionY="300"/>
+<Connection from="3/kız" to="1/patron" with="ARG0"/>
+<Word name="ben" positionX="450" positionY="400"/>
+<Connection from="1/patron" to="ben" with="poss"/>
+<Word name="2/çok" positionX="650" positionY="300"/>
+<Connection from="3/kız" to="2/çok" with="degree"/>
+<Word name="6/alaşağı 7/et" positionX="750" positionY="200"/>
+<Connection from="and" to="6/alaşağı 7/et" with="op2"/>
+<Word name="5/ben" positionX="650" positionY="300"/>
+<Connection from="6/alaşağı 7/et" to="5/ben" with="ARG1"/>
+</Amr>

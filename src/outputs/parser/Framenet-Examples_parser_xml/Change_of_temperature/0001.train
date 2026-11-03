@@ -1,0 +1,14 @@
+<Amr sentence="Alev alev yanıyor çocuk , hararetlenmiş .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/yan" positionX="650" positionY="200"/>
+<Connection from="and" to="3/yan" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/yan" to="o" with="ARG0"/>
+<Word name="1/alev 2/alev" positionX="650" positionY="300"/>
+<Connection from="3/yan" to="1/alev 2/alev"/>
+<Word name="4/çocuk" positionX="750" positionY="300"/>
+<Connection from="3/yan" to="4/çocuk" with="ARG1"/>
+<Word name="6/hararetlen" positionX="750" positionY="200"/>
+<Connection from="and" to="6/hararetlen" with="op2"/>
+<Connection from="6/hararetlen" to="o" with="ARG0"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr sentence="İstediğini alamayınca hemen ters yüz döndü">
+<Word name="4/ters 5/yüz 6/dön" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/ters 5/yüz 6/dön" to="o" with="ARG0"/>
+<Word name="mümkün" positionX="750" positionY="200"/>
+<Connection from="4/ters 5/yüz 6/dön" to="mümkün"/>
+<Word name="2/al" positionX="650" positionY="300"/>
+<Connection from="mümkün" to="2/al"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="2/al" to="-" with="polarity"/>
+<Word name="1/iste" positionX="650" positionY="400"/>
+<Connection from="2/al" to="1/iste" with="ARG1"/>
+<Connection from="1/iste" to="o" with="ARG0"/>
+<Connection from="1/iste" to="o" with="poss"/>
+<Word name="3/hemen" positionX="850" positionY="200"/>
+<Connection from="4/ters 5/yüz 6/dön" to="3/hemen" with="manner"/>
+</Amr>

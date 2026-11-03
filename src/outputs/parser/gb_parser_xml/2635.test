@@ -1,0 +1,20 @@
+<Amr sentence="Nuri , sokağa bile çıkmak istemiyor .">
+<Word name="6/iste" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="6/iste" to="-" with="polarity"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="6/iste" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/nuri" positionX="550" positionY="400"/>
+<Connection from="name" to="1/nuri" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/çık" positionX="850" positionY="200"/>
+<Connection from="6/iste" to="5/çık" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="5/çık" to="o" with="ARG0"/>
+<Word name="3/sokak" positionX="850" positionY="300"/>
+<Connection from="5/çık" to="3/sokak" with="ARG2"/>
+<Word name="4/bile" positionX="750" positionY="400"/>
+<Connection from="3/sokak" to="4/bile"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Bir sıkıntın var mı ?">
+<Word name="3/var" positionX="750" positionY="100"/>
+<Word name="2/sıkıntı" positionX="650" positionY="200"/>
+<Connection from="3/var" to="2/sıkıntı"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="2/sıkıntı" to="sen" with="poss"/>
+<Word name="4/mi" positionX="750" positionY="200"/>
+<Connection from="3/var" to="4/mi"/>
+</Amr>

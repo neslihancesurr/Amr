@@ -1,0 +1,17 @@
+<Amr sentence="İlköğretimi tamamlayanların sayısında önemli bir artış olmuş .">
+<Word name="7/ol" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/ol" to="o" with="ARG0"/>
+<Word name="6/artış" positionX="750" positionY="200"/>
+<Connection from="7/ol" to="6/artış"/>
+<Word name="3/sayı" positionX="650" positionY="300"/>
+<Connection from="6/artış" to="3/sayı" with="location"/>
+<Word name="2/tamamla" positionX="550" positionY="400"/>
+<Connection from="3/sayı" to="2/tamamla"/>
+<Word name="onlar" positionX="450" positionY="500"/>
+<Connection from="2/tamamla" to="onlar" with="ARG0"/>
+<Word name="1/ilköğretim" positionX="550" positionY="500"/>
+<Connection from="2/tamamla" to="1/ilköğretim"/>
+<Word name="4/önemli" positionX="750" positionY="300"/>
+<Connection from="6/artış" to="4/önemli" with="mod"/>
+</Amr>

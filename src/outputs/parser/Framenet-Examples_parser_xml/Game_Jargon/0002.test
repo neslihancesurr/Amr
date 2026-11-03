@@ -1,0 +1,9 @@
+<Amr sentence="Tüm paraları ben yuttum .">
+<Word name="4/yut" positionX="750" positionY="100"/>
+<Word name="2/para" positionX="650" positionY="200"/>
+<Connection from="4/yut" to="2/para" with="ARG1"/>
+<Word name="1/tüm" positionX="550" positionY="300"/>
+<Connection from="2/para" to="1/tüm" with="mod"/>
+<Word name="3/ben" positionX="750" positionY="200"/>
+<Connection from="4/yut" to="3/ben" with="ARG0"/>
+</Amr>

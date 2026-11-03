@@ -1,0 +1,11 @@
+<Amr sentence="Sonunda istediğim pozisyonu bulmuştum .">
+<Word name="4/bul" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/bul" to="ben" with="ARG0"/>
+<Word name="1/sonunda" positionX="750" positionY="200"/>
+<Connection from="4/bul" to="1/sonunda" with="manner"/>
+<Word name="3/pozisyon" positionX="850" positionY="200"/>
+<Connection from="4/bul" to="3/pozisyon" with="ARG1"/>
+<Word name="2/iste" positionX="750" positionY="300"/>
+<Connection from="3/pozisyon" to="2/iste" with="mod"/>
+</Amr>

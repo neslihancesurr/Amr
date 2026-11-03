@@ -1,0 +1,9 @@
+<Amr sentence="Çocuğumun başarılarına mazhar oldum .">
+<Word name="3/mazhar 4/ol" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/mazhar 4/ol" to="ben" with="ARG0"/>
+<Word name="2/başarı" positionX="750" positionY="200"/>
+<Connection from="3/mazhar 4/ol" to="2/başarı" with="ARG1"/>
+<Word name="1/çocuk" positionX="650" positionY="300"/>
+<Connection from="2/başarı" to="1/çocuk" with="mod"/>
+</Amr>

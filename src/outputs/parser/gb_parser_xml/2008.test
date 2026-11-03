@@ -1,0 +1,7 @@
+<Amr sentence="Almıştır bile .">
+<Word name="1/al" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="1/al" to="o" with="ARG0"/>
+<Word name="2/bile" positionX="750" positionY="200"/>
+<Connection from="1/al" to="2/bile" with="manner"/>
+</Amr>

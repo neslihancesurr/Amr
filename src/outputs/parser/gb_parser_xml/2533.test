@@ -1,0 +1,28 @@
+<Amr sentence="Kongre öğle zamanı bitmiş olsaydı katılanların çoğu aynı gün eve dönebilirdi .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="11/dön" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="11/dön"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="11/dön" to="o" with="ARG0"/>
+<Word name="5/ol" positionX="650" positionY="300"/>
+<Connection from="11/dön" to="5/ol"/>
+<Connection from="5/ol" to="o" with="ARG0"/>
+<Word name="4/bit" positionX="650" positionY="400"/>
+<Connection from="5/ol" to="4/bit"/>
+<Word name="1/kongre" positionX="550" positionY="500"/>
+<Connection from="4/bit" to="1/kongre"/>
+<Word name="3/zaman" positionX="650" positionY="500"/>
+<Connection from="4/bit" to="3/zaman"/>
+<Word name="2/öğle" positionX="550" positionY="600"/>
+<Connection from="3/zaman" to="2/öğle" with="mod"/>
+<Word name="7/çoğu" positionX="750" positionY="300"/>
+<Connection from="11/dön" to="7/çoğu"/>
+<Word name="6/katılan" positionX="650" positionY="400"/>
+<Connection from="7/çoğu" to="6/katılan"/>
+<Word name="9/gün" positionX="850" positionY="300"/>
+<Connection from="11/dön" to="9/gün"/>
+<Word name="8/aynı" positionX="750" positionY="400"/>
+<Connection from="9/gün" to="8/aynı" with="mod"/>
+<Word name="10/ev" positionX="950" positionY="300"/>
+<Connection from="11/dön" to="10/ev"/>
+</Amr>

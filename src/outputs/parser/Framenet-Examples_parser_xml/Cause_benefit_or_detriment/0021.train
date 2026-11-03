@@ -1,0 +1,9 @@
+<Amr sentence="Amcasının oğlunu da idareye koydu .">
+<Word name="5/koy" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/koy" to="o" with="ARG0"/>
+<Word name="1/amca 2/oğul" positionX="750" positionY="200"/>
+<Connection from="5/koy" to="1/amca 2/oğul" with="ARG1"/>
+<Word name="4/idare" positionX="850" positionY="200"/>
+<Connection from="5/koy" to="4/idare" with="ARG2"/>
+</Amr>

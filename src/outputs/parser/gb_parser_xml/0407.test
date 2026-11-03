@@ -1,0 +1,7 @@
+<Amr sentence="Hayvanlar güneş tutulmasından ürküyor .">
+<Word name="4/ürk" positionX="750" positionY="100"/>
+<Word name="1/hayvan" positionX="650" positionY="200"/>
+<Connection from="4/ürk" to="1/hayvan" with="ARG0"/>
+<Word name="2/güneş 3/tutulma" positionX="750" positionY="200"/>
+<Connection from="4/ürk" to="2/güneş 3/tutulma" with="ARG1"/>
+</Amr>

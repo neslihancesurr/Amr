@@ -1,0 +1,22 @@
+<Amr sentence="Bu konuda bir iki sayfa yazılması isteniyormuş .">
+<Word name="7/iste" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/iste" to="o" with="ARG0"/>
+<Word name="6/yaz" positionX="750" positionY="200"/>
+<Connection from="7/iste" to="6/yaz"/>
+<Connection from="6/yaz" to="o" with="ARG0"/>
+<Connection from="6/yaz" to="o" with="poss"/>
+<Word name="2/konu" positionX="850" positionY="300"/>
+<Connection from="6/yaz" to="2/konu" with="location"/>
+<Word name="1/bu" positionX="750" positionY="400"/>
+<Connection from="2/konu" to="1/bu" with="mod"/>
+<Word name="5/sayfa" positionX="950" positionY="300"/>
+<Connection from="6/yaz" to="5/sayfa"/>
+<Word name="and" positionX="850" positionY="400"/>
+<Connection from="5/sayfa" to="and"/>
+<Word name="4/iki" positionX="750" positionY="500"/>
+<Connection from="and" to="4/iki" with="op1"/>
+<Word name="3/bir" positionX="850" positionY="500"/>
+<Connection from="and" to="3/bir" with="op2"/>
+<Connection from="3/bir" to="and"/>
+</Amr>

@@ -1,0 +1,25 @@
+<Amr sentence="Sınıflarında Gülten diye çok şımarık bir kız vardı , ki Hülya kendisinden nefret ederdi .">
+<Word name="8/var" positionX="750" positionY="100"/>
+<Word name="1/sınıf" positionX="650" positionY="200"/>
+<Connection from="8/var" to="1/sınıf" with="mod"/>
+<Word name="7/kız" positionX="750" positionY="200"/>
+<Connection from="8/var" to="7/kız"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="7/kız" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/gülten" positionX="450" positionY="500"/>
+<Connection from="name" to="2/gülten" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/diye" positionX="750" positionY="400"/>
+<Connection from="person" to="3/diye"/>
+<Word name="5/şımarık" positionX="750" positionY="300"/>
+<Connection from="7/kız" to="5/şımarık" with="mod"/>
+<Word name="4/çok" positionX="650" positionY="400"/>
+<Connection from="5/şımarık" to="4/çok" with="degree"/>
+<Word name="13/nefret 14/et" positionX="850" positionY="300"/>
+<Connection from="7/kız" to="13/nefret 14/et"/>
+<Word name="o" positionX="750" positionY="400"/>
+<Connection from="13/nefret 14/et" to="o" with="ARG0"/>
+</Amr>

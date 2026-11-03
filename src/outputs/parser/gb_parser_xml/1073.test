@@ -1,0 +1,9 @@
+<Amr sentence="Ter içinde kalmıştım .">
+<Word name="3/kal" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/kal" to="ben" with="ARG0"/>
+<Word name="2/iç" positionX="750" positionY="200"/>
+<Connection from="3/kal" to="2/iç" with="location"/>
+<Word name="1/ter" positionX="650" positionY="300"/>
+<Connection from="2/iç" to="1/ter" with="mod"/>
+</Amr>

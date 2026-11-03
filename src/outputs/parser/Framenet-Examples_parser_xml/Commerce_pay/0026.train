@@ -1,0 +1,11 @@
+<Amr sentence="Tekele girince paraya para demiyor .">
+<Word name="3/para 4/para 5/de" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/para 4/para 5/de" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="3/para 4/para 5/de" to="o" with="ARG0"/>
+<Word name="2/gir" positionX="850" positionY="200"/>
+<Connection from="3/para 4/para 5/de" to="2/gir"/>
+<Word name="1/tekel" positionX="750" positionY="300"/>
+<Connection from="2/gir" to="1/tekel" with="ARG1"/>
+</Amr>

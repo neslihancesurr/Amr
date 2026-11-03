@@ -1,0 +1,9 @@
+<Amr sentence="Koltuğun kenarı kerpiçleşti .">
+<Word name="3/kerpiçleş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/kerpiçleş" to="o" with="ARG0"/>
+<Word name="2/kenar" positionX="750" positionY="200"/>
+<Connection from="3/kerpiçleş" to="2/kenar" with="ARG1"/>
+<Word name="1/koltuk" positionX="650" positionY="300"/>
+<Connection from="2/kenar" to="1/koltuk" with="mod"/>
+</Amr>

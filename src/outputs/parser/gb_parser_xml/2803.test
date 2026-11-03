@@ -1,0 +1,11 @@
+<Amr sentence="bütün kitap ve defterlerimiz">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/defter" positionX="650" positionY="200"/>
+<Connection from="and" to="4/defter" with="op1"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="4/defter" to="biz" with="poss"/>
+<Word name="2/kitap" positionX="750" positionY="200"/>
+<Connection from="and" to="2/kitap" with="op2"/>
+<Word name="1/bütün" positionX="650" positionY="300"/>
+<Connection from="2/kitap" to="1/bütün" with="mod"/>
+</Amr>

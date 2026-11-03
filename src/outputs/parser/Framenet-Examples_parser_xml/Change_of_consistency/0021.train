@@ -1,0 +1,13 @@
+<Amr sentence="Ayrana biraz daha yoğurt katınca kıvamlandı .">
+<Word name="6/kıvam" positionX="750" positionY="100"/>
+<Word name="5/kat" positionX="650" positionY="200"/>
+<Connection from="6/kıvam" to="5/kat"/>
+<Word name="1/ayran" positionX="550" positionY="300"/>
+<Connection from="5/kat" to="1/ayran"/>
+<Word name="3/daha" positionX="650" positionY="300"/>
+<Connection from="5/kat" to="3/daha" with="degree"/>
+<Word name="2/biraz" positionX="550" positionY="400"/>
+<Connection from="3/daha" to="2/biraz" with="manner"/>
+<Word name="4/yoğurt" positionX="750" positionY="300"/>
+<Connection from="5/kat" to="4/yoğurt"/>
+</Amr>

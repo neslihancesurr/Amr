@@ -1,0 +1,14 @@
+<Amr sentence="Vaktim olursa okula kadar yürüyorum .">
+<Word name="5/yürü" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/yürü" to="ben" with="ARG0"/>
+<Word name="2/ol" positionX="750" positionY="200"/>
+<Connection from="5/yürü" to="2/ol" with="cond"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/ol" to="o" with="ARG0"/>
+<Word name="1/vakit" positionX="750" positionY="300"/>
+<Connection from="2/ol" to="1/vakit"/>
+<Connection from="1/vakit" to="ben" with="poss"/>
+<Word name="3/okul" positionX="850" positionY="200"/>
+<Connection from="5/yürü" to="3/okul" with="extent"/>
+</Amr>

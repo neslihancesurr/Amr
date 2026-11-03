@@ -1,0 +1,18 @@
+<Amr sentence="Her gün yortuyorum artık ayaklarım ağrıyor .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/yort" positionX="650" positionY="200"/>
+<Connection from="and" to="3/yort" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="3/yort" to="ben" with="ARG0"/>
+<Word name="1/her 2/gün" positionX="650" positionY="300"/>
+<Connection from="3/yort" to="1/her 2/gün" with="mod"/>
+<Word name="6/ağrı" positionX="750" positionY="200"/>
+<Connection from="and" to="6/ağrı" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="6/ağrı" to="o" with="ARG0"/>
+<Word name="4/artık" positionX="750" positionY="300"/>
+<Connection from="6/ağrı" to="4/artık" with="manner"/>
+<Word name="5/ayak" positionX="850" positionY="300"/>
+<Connection from="6/ağrı" to="5/ayak" with="ARG1"/>
+<Connection from="5/ayak" to="ben" with="poss"/>
+</Amr>

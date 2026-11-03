@@ -1,0 +1,13 @@
+<Amr sentence="paramızın yüzde doksan beşi">
+<Word name="4/beş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/beş" to="o" with="poss"/>
+<Word name="1/para" positionX="750" positionY="200"/>
+<Connection from="4/beş" to="1/para"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="1/para" to="biz" with="poss"/>
+<Word name="2/yüz" positionX="850" positionY="200"/>
+<Connection from="4/beş" to="2/yüz"/>
+<Word name="3/doksan" positionX="950" positionY="200"/>
+<Connection from="4/beş" to="3/doksan"/>
+</Amr>

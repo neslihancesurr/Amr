@@ -1,0 +1,17 @@
+<Amr sentence="Çorbayı resmen yakmışsın , içilmiyor .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/yak" positionX="650" positionY="200"/>
+<Connection from="and" to="3/yak" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="3/yak" to="sen" with="ARG0"/>
+<Word name="1/çorba" positionX="650" positionY="300"/>
+<Connection from="3/yak" to="1/çorba" with="ARG1"/>
+<Word name="2/resmen" positionX="750" positionY="300"/>
+<Connection from="3/yak" to="2/resmen" with="manner"/>
+<Word name="5/iç" positionX="750" positionY="200"/>
+<Connection from="and" to="5/iç" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="5/iç" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="5/iç" to="o" with="ARG0"/>
+</Amr>

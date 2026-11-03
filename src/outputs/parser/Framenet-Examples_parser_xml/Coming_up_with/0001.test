@@ -1,0 +1,9 @@
+<Amr sentence="Birilerini rahatsız etmiş ki çok geçmeden onun da çukurunu kazdılar .">
+<Word name="9/çukur 10/kaz" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="9/çukur 10/kaz" to="onlar" with="ARG0"/>
+<Word name="2/rahatsız 3/et" positionX="750" positionY="200"/>
+<Connection from="9/çukur 10/kaz" to="2/rahatsız 3/et"/>
+<Word name="5/çok 6/geç" positionX="850" positionY="200"/>
+<Connection from="9/çukur 10/kaz" to="5/çok 6/geç" with="manner"/>
+</Amr>

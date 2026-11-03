@@ -1,0 +1,15 @@
+<Amr sentence="Spiker olay yerinden son gelişmeleri nakletti .">
+<Word name="6/naklet" positionX="750" positionY="100"/>
+<Word name="1/spiker" positionX="650" positionY="200"/>
+<Connection from="6/naklet" to="1/spiker" with="ARG0"/>
+<Word name="2/olay 3/yer" positionX="750" positionY="200"/>
+<Connection from="6/naklet" to="2/olay 3/yer"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/olay 3/yer" to="o" with="poss"/>
+<Word name="5/geliş" positionX="850" positionY="200"/>
+<Connection from="6/naklet" to="5/geliş" with="ARG1"/>
+<Word name="onlar" positionX="750" positionY="300"/>
+<Connection from="5/geliş" to="onlar" with="ARG0"/>
+<Word name="4/son" positionX="850" positionY="300"/>
+<Connection from="5/geliş" to="4/son" with="mod"/>
+</Amr>

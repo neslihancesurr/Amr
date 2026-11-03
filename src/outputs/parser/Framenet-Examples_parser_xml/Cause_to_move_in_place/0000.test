@@ -1,0 +1,15 @@
+<Amr sentence="Annesinden aldığı şekeri komşuya iletti .">
+<Word name="5/ilet" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/ilet" to="o" with="ARG0"/>
+<Word name="3/şeker" positionX="750" positionY="200"/>
+<Connection from="5/ilet" to="3/şeker" with="ARG1"/>
+<Word name="2/al" positionX="650" positionY="300"/>
+<Connection from="3/şeker" to="2/al"/>
+<Connection from="2/al" to="o" with="poss"/>
+<Word name="1/anne" positionX="650" positionY="400"/>
+<Connection from="2/al" to="1/anne"/>
+<Connection from="1/anne" to="o" with="poss"/>
+<Word name="4/komşu" positionX="850" positionY="200"/>
+<Connection from="5/ilet" to="4/komşu"/>
+</Amr>

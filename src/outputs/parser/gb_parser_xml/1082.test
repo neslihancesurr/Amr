@@ -1,0 +1,7 @@
+<Amr sentence="Masanın üzerinde bir şey yok .">
+<Word name="5/yok" positionX="750" positionY="100"/>
+<Word name="2/üzerinde" positionX="650" positionY="200"/>
+<Connection from="5/yok" to="2/üzerinde"/>
+<Word name="1/masa" positionX="550" positionY="300"/>
+<Connection from="2/üzerinde" to="1/masa" with="mod"/>
+</Amr>

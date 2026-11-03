@@ -1,0 +1,13 @@
+<Amr sentence="Bir çay da bana ver .">
+<Word name="5/ver" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="5/ver" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="5/ver" to="imperative" with="mode"/>
+<Word name="2/çay" positionX="850" positionY="200"/>
+<Connection from="5/ver" to="2/çay" with="ARG1"/>
+<Word name="3/da" positionX="750" positionY="300"/>
+<Connection from="2/çay" to="3/da"/>
+<Word name="4/ben" positionX="950" positionY="200"/>
+<Connection from="5/ver" to="4/ben" with="ARG2"/>
+</Amr>

@@ -1,0 +1,16 @@
+<Amr sentence="Elindekini avucundakini havaya savurma bari .">
+<Word name="3/hava 4/savur" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/hava 4/savur" to="-" with="polarity"/>
+<Word name="sen" positionX="750" positionY="200"/>
+<Connection from="3/hava 4/savur" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="850" positionY="200"/>
+<Connection from="3/hava 4/savur" to="imperative" with="mode"/>
+<Word name="2/avuç" positionX="950" positionY="200"/>
+<Connection from="3/hava 4/savur" to="2/avuç" with="ARG1"/>
+<Connection from="2/avuç" to="sen" with="poss"/>
+<Word name="1/el" positionX="950" positionY="300"/>
+<Connection from="2/avuç" to="1/el" with="location"/>
+<Word name="5/bari" positionX="1050" positionY="200"/>
+<Connection from="3/hava 4/savur" to="5/bari" with="manner"/>
+</Amr>

@@ -1,0 +1,20 @@
+<Amr sentence="Kendisine sunulan teklifleri zamanı yok diye reddetti .">
+<Word name="7/reddet" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/reddet" to="o" with="ARG0"/>
+<Word name="3/teklif" positionX="750" positionY="200"/>
+<Connection from="7/reddet" to="3/teklif" with="ARG1"/>
+<Connection from="3/teklif" to="o" with="poss"/>
+<Word name="2/sun" positionX="750" positionY="300"/>
+<Connection from="3/teklif" to="2/sun"/>
+<Word name="1/kendi" positionX="650" positionY="400"/>
+<Connection from="2/sun" to="1/kendi"/>
+<Connection from="1/kendi" to="o" with="poss"/>
+<Word name="5/yok" positionX="850" positionY="200"/>
+<Connection from="7/reddet" to="5/yok"/>
+<Word name="4/zaman" positionX="750" positionY="300"/>
+<Connection from="5/yok" to="4/zaman"/>
+<Connection from="4/zaman" to="o" with="poss"/>
+<Word name="6/diye" positionX="850" positionY="300"/>
+<Connection from="5/yok" to="6/diye"/>
+</Amr>

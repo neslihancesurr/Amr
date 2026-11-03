@@ -1,0 +1,9 @@
+<Amr sentence="Ben o çocuğa gününü gösteririm .">
+<Word name="4/gün 5/göster" positionX="750" positionY="100"/>
+<Word name="1/ben" positionX="650" positionY="200"/>
+<Connection from="4/gün 5/göster" to="1/ben" with="ARG0"/>
+<Word name="3/çocuk" positionX="750" positionY="200"/>
+<Connection from="4/gün 5/göster" to="3/çocuk" with="ARG1"/>
+<Word name="2/o" positionX="650" positionY="300"/>
+<Connection from="3/çocuk" to="2/o" with="mod"/>
+</Amr>

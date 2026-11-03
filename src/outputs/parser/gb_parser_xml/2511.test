@@ -1,0 +1,15 @@
+<Amr sentence="Kırmızı satılmış olursa maviyi alırım .">
+<Word name="5/al" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/al" to="ben" with="ARG0"/>
+<Word name="3/ol" positionX="750" positionY="200"/>
+<Connection from="5/al" to="3/ol" with="cond"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/ol" to="o" with="ARG0"/>
+<Word name="2/sat" positionX="750" positionY="300"/>
+<Connection from="3/ol" to="2/sat"/>
+<Word name="1/kırmızı" positionX="650" positionY="400"/>
+<Connection from="2/sat" to="1/kırmızı"/>
+<Word name="4/mavi" positionX="850" positionY="200"/>
+<Connection from="5/al" to="4/mavi"/>
+</Amr>

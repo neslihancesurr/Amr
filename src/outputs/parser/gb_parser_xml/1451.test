@@ -1,0 +1,11 @@
+<Amr sentence="Hani çocukların kırdıkları vazo ?">
+<Word name="1/hani" positionX="750" positionY="100"/>
+<Word name="4/vazo" positionX="650" positionY="200"/>
+<Connection from="1/hani" to="4/vazo"/>
+<Word name="3/kır" positionX="550" positionY="300"/>
+<Connection from="4/vazo" to="3/kır"/>
+<Word name="onlar" positionX="450" positionY="400"/>
+<Connection from="3/kır" to="onlar" with="poss"/>
+<Word name="2/çocuk" positionX="550" positionY="400"/>
+<Connection from="3/kır" to="2/çocuk" with="ARG0"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Bu evi ciddi bir şekilde tadil etmeliyiz .">
+<Word name="gerek" positionX="750" positionY="100"/>
+<Word name="6/tadil 7/et" positionX="650" positionY="200"/>
+<Connection from="gerek" to="6/tadil 7/et"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="6/tadil 7/et" to="biz" with="ARG0"/>
+<Word name="2/ev" positionX="650" positionY="300"/>
+<Connection from="6/tadil 7/et" to="2/ev" with="ARG1"/>
+<Word name="1/bu" positionX="550" positionY="400"/>
+<Connection from="2/ev" to="1/bu" with="mod"/>
+<Word name="5/şekil" positionX="750" positionY="300"/>
+<Connection from="6/tadil 7/et" to="5/şekil" with="location"/>
+<Word name="3/ciddi" positionX="650" positionY="400"/>
+<Connection from="5/şekil" to="3/ciddi" with="mod"/>
+</Amr>

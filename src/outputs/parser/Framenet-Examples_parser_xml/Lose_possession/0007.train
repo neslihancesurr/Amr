@@ -1,0 +1,21 @@
+<Amr sentence="İflas bayrağını çektim , artık elimden hiçbir şey gelmez .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/iflas 2/bayrak 3/çek" positionX="650" positionY="200"/>
+<Connection from="and" to="1/iflas 2/bayrak 3/çek" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="1/iflas 2/bayrak 3/çek" to="ben" with="ARG0"/>
+<Word name="9/gel" positionX="750" positionY="200"/>
+<Connection from="and" to="9/gel" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="9/gel" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="9/gel" to="o" with="ARG0"/>
+<Word name="5/artık" positionX="850" positionY="300"/>
+<Connection from="9/gel" to="5/artık" with="manner"/>
+<Word name="6/elim" positionX="950" positionY="300"/>
+<Connection from="9/gel" to="6/elim"/>
+<Word name="8/şey" positionX="1050" positionY="300"/>
+<Connection from="9/gel" to="8/şey" with="ARG1"/>
+<Word name="7/hiçbir" positionX="950" positionY="400"/>
+<Connection from="8/şey" to="7/hiçbir" with="mod"/>
+</Amr>

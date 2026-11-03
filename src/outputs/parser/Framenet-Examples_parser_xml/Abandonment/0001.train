@@ -1,0 +1,17 @@
+<Amr sentence="Yeni bir hayata başlamak için her şeyi arkada bıraktı .">
+<Word name="8/arka 9/bırak" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="8/arka 9/bırak" to="o" with="ARG0"/>
+<Word name="4/başla" positionX="750" positionY="200"/>
+<Connection from="8/arka 9/bırak" to="4/başla" with="cause"/>
+<Connection from="4/başla" to="o" with="ARG0"/>
+<Word name="3/hayat" positionX="750" positionY="300"/>
+<Connection from="4/başla" to="3/hayat" with="ARG1"/>
+<Word name="1/yeni" positionX="650" positionY="400"/>
+<Connection from="3/hayat" to="1/yeni" with="mod"/>
+<Word name="7/şey" positionX="850" positionY="200"/>
+<Connection from="8/arka 9/bırak" to="7/şey" with="ARG1"/>
+<Connection from="7/şey" to="o" with="poss"/>
+<Word name="6/her" positionX="850" positionY="300"/>
+<Connection from="7/şey" to="6/her" with="mod"/>
+</Amr>

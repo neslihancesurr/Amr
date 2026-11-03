@@ -1,0 +1,23 @@
+<Amr sentence="Güveniniz için teşekkür ederim ama ben bu projeyi kotaramam .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="9/kotar" positionX="650" positionY="200"/>
+<Connection from="and" to="9/kotar" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="9/kotar" to="-" with="polarity"/>
+<Word name="6/ben" positionX="650" positionY="300"/>
+<Connection from="9/kotar" to="6/ben" with="ARG0"/>
+<Word name="8/proje" positionX="750" positionY="300"/>
+<Connection from="9/kotar" to="8/proje" with="ARG1"/>
+<Word name="7/bu" positionX="650" positionY="400"/>
+<Connection from="8/proje" to="7/bu" with="mod"/>
+<Word name="3/teşekkür 4/et" positionX="750" positionY="200"/>
+<Connection from="and" to="3/teşekkür 4/et" with="op2"/>
+<Word name="1/güven" positionX="650" positionY="300"/>
+<Connection from="3/teşekkür 4/et" to="1/güven" with="ARG1"/>
+<Word name="siz" positionX="550" positionY="400"/>
+<Connection from="1/güven" to="siz" with="poss"/>
+<Word name="2/için" positionX="650" positionY="400"/>
+<Connection from="1/güven" to="2/için"/>
+<Word name="mümkün" positionX="750" positionY="300"/>
+<Connection from="3/teşekkür 4/et" to="mümkün"/>
+</Amr>

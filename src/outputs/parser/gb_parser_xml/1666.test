@@ -1,0 +1,20 @@
+<Amr sentence="Umarım Semra vazonun yokluğunu farketmez .">
+<Word name="5/farket" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/farket" to="-" with="polarity"/>
+<Word name="1/um" positionX="750" positionY="200"/>
+<Connection from="5/farket" to="1/um"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="1/um" to="ben" with="ARG0"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="5/farket" to="person" with="ARG0"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/semra" positionX="650" positionY="400"/>
+<Connection from="name" to="2/semra" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/yokluk" positionX="950" positionY="200"/>
+<Connection from="5/farket" to="4/yokluk" with="ARG1"/>
+<Word name="3/vazo" positionX="850" positionY="300"/>
+<Connection from="4/yokluk" to="3/vazo" with="mod"/>
+</Amr>

@@ -1,0 +1,19 @@
+<Amr sentence="Olayların ardı arası kesilmez , hepsi birbirini kovalar .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/art 3/ara 4/kesil" positionX="650" positionY="200"/>
+<Connection from="and" to="2/art 3/ara 4/kesil" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="2/art 3/ara 4/kesil" to="-" with="polarity"/>
+<Word name="1/olay" positionX="650" positionY="300"/>
+<Connection from="2/art 3/ara 4/kesil" to="1/olay" with="ARG0"/>
+<Word name="8/kovala" positionX="750" positionY="200"/>
+<Connection from="and" to="8/kovala" with="op2"/>
+<Word name="6/hepsi" positionX="650" positionY="300"/>
+<Connection from="8/kovala" to="6/hepsi" with="ARG0"/>
+<Word name="onlar" positionX="550" positionY="400"/>
+<Connection from="6/hepsi" to="onlar" with="poss"/>
+<Word name="7/birbiri" positionX="750" positionY="300"/>
+<Connection from="8/kovala" to="7/birbiri" with="ARG1"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="7/birbiri" to="o" with="poss"/>
+</Amr>

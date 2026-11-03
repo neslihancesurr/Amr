@@ -1,0 +1,17 @@
+<Amr sentence="Robotu monte ettik mi geriye başka iş kalmıyor .">
+<Word name="8/kal" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="8/kal" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="8/kal" to="o" with="ARG0"/>
+<Word name="2/monte 3/et" positionX="850" positionY="200"/>
+<Connection from="8/kal" to="2/monte 3/et"/>
+<Word name="biz" positionX="750" positionY="300"/>
+<Connection from="2/monte 3/et" to="biz" with="ARG0"/>
+<Word name="5/geri" positionX="950" positionY="200"/>
+<Connection from="8/kal" to="5/geri" with="mod"/>
+<Word name="7/iş" positionX="1050" positionY="200"/>
+<Connection from="8/kal" to="7/iş" with="ARG1"/>
+<Word name="6/başka" positionX="950" positionY="300"/>
+<Connection from="7/iş" to="6/başka" with="mod"/>
+</Amr>

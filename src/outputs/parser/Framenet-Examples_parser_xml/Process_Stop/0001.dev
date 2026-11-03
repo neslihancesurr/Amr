@@ -1,0 +1,17 @@
+<Amr sentence="Bugünlük paydos diyoruz , yarın görüşmek üzere .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/paydos 3/de" positionX="650" positionY="200"/>
+<Connection from="and" to="2/paydos 3/de" with="op1"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="2/paydos 3/de" to="biz" with="ARG0"/>
+<Word name="1/bugünlük" positionX="650" positionY="300"/>
+<Connection from="2/paydos 3/de" to="1/bugünlük" with="manner"/>
+<Word name="6/görüş" positionX="750" positionY="200"/>
+<Connection from="and" to="6/görüş" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="6/görüş" to="o" with="ARG0"/>
+<Word name="5/yarın" positionX="750" positionY="300"/>
+<Connection from="6/görüş" to="5/yarın" with="mod"/>
+<Word name="7/üzere" positionX="850" positionY="300"/>
+<Connection from="6/görüş" to="7/üzere"/>
+</Amr>

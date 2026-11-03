@@ -1,0 +1,7 @@
+<Amr sentence="Gördün mü ?">
+<Word name="1/gör" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="1/gör" to="sen" with="ARG0"/>
+<Word name="2/mi" positionX="750" positionY="200"/>
+<Connection from="1/gör" to="2/mi"/>
+</Amr>

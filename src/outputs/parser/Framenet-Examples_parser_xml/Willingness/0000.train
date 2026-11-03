@@ -1,0 +1,19 @@
+<Amr sentence="Yüzüne bakmak istemiyordu , içinden gelmiyordu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/iste" positionX="650" positionY="200"/>
+<Connection from="and" to="3/iste" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="3/iste" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/iste" to="o" with="ARG0"/>
+<Word name="2/bak" positionX="750" positionY="300"/>
+<Connection from="3/iste" to="2/bak"/>
+<Connection from="2/bak" to="o" with="ARG0"/>
+<Word name="1/yüz" positionX="750" positionY="400"/>
+<Connection from="2/bak" to="1/yüz" with="ARG1"/>
+<Connection from="1/yüz" to="o" with="poss"/>
+<Word name="5/iç 6/gel" positionX="750" positionY="200"/>
+<Connection from="and" to="5/iç 6/gel" with="op2"/>
+<Connection from="5/iç 6/gel" to="-" with="polarity"/>
+<Connection from="5/iç 6/gel" to="o" with="ARG0"/>
+</Amr>

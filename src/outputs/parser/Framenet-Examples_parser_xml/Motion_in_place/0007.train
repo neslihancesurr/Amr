@@ -1,0 +1,8 @@
+<Amr sentence="Kardeşini çeldi .">
+<Word name="2/çel" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="2/çel" to="o" with="ARG0"/>
+<Word name="1/kardeş" positionX="750" positionY="200"/>
+<Connection from="2/çel" to="1/kardeş" with="ARG1"/>
+<Connection from="1/kardeş" to="o" with="poss"/>
+</Amr>

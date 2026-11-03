@@ -1,0 +1,11 @@
+<Amr sentence="- Ben o kadar aç değilim .">
+<Word name="5/aç" positionX="750" positionY="100"/>
+<Word name="2/ben" positionX="650" positionY="200"/>
+<Connection from="5/aç" to="2/ben"/>
+<Word name="3/o" positionX="750" positionY="200"/>
+<Connection from="5/aç" to="3/o" with="mod"/>
+<Word name="4/kadar" positionX="650" positionY="300"/>
+<Connection from="3/o" to="4/kadar"/>
+<Word name="-" positionX="850" positionY="200"/>
+<Connection from="5/aç" to="-" with="polarity"/>
+</Amr>

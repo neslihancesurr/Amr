@@ -1,0 +1,16 @@
+<Amr sentence="Hediyeleri Mehmet'e göstermeyelim .">
+<Word name="3/göster" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/göster" to="-" with="polarity"/>
+<Word name="biz" positionX="750" positionY="200"/>
+<Connection from="3/göster" to="biz" with="ARG0"/>
+<Word name="1/hediye" positionX="850" positionY="200"/>
+<Connection from="3/göster" to="1/hediye" with="ARG1"/>
+<Word name="person" positionX="950" positionY="200"/>
+<Connection from="3/göster" to="person" with="ARG2"/>
+<Word name="name" positionX="850" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/mehmet" positionX="750" positionY="400"/>
+<Connection from="name" to="2/mehmet" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

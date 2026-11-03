@@ -1,0 +1,22 @@
+<Amr sentence="Mirası sen yedin , zahmeti ben çekiyorum diye latife ediyordu .">
+<Word name="9/latife 10/et" positionX="750" positionY="100"/>
+<Word name="and" positionX="650" positionY="200"/>
+<Connection from="9/latife 10/et" to="and"/>
+<Word name="3/ye" positionX="550" positionY="300"/>
+<Connection from="and" to="3/ye" with="op1"/>
+<Word name="1/miras" positionX="450" positionY="400"/>
+<Connection from="3/ye" to="1/miras" with="ARG1"/>
+<Word name="o" positionX="350" positionY="500"/>
+<Connection from="1/miras" to="o" with="poss"/>
+<Word name="2/sen" positionX="550" positionY="400"/>
+<Connection from="3/ye" to="2/sen" with="ARG0"/>
+<Word name="7/çek" positionX="650" positionY="300"/>
+<Connection from="and" to="7/çek" with="op2"/>
+<Word name="5/zahmet" positionX="550" positionY="400"/>
+<Connection from="7/çek" to="5/zahmet"/>
+<Connection from="5/zahmet" to="o" with="poss"/>
+<Word name="6/ben" positionX="650" positionY="400"/>
+<Connection from="7/çek" to="6/ben" with="ARG0"/>
+<Word name="8/diye" positionX="750" positionY="400"/>
+<Connection from="7/çek" to="8/diye"/>
+</Amr>

@@ -1,0 +1,20 @@
+<Amr sentence="Ne çalışıyor ne okuyor , sadece para yiyor .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/çalış" positionX="650" positionY="200"/>
+<Connection from="and" to="2/çalış" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/çalış" to="o" with="ARG0"/>
+<Word name="1/ne" positionX="650" positionY="300"/>
+<Connection from="2/çalış" to="1/ne"/>
+<Word name="4/oku" positionX="750" positionY="300"/>
+<Connection from="2/çalış" to="4/oku"/>
+<Connection from="4/oku" to="o" with="ARG0"/>
+<Word name="3/ne" positionX="750" positionY="400"/>
+<Connection from="4/oku" to="3/ne"/>
+<Word name="7/para 8/ye" positionX="750" positionY="200"/>
+<Connection from="and" to="7/para 8/ye" with="op2"/>
+<Connection from="7/para 8/ye" to="o" with="ARG0"/>
+<Connection from="7/para 8/ye" to="and"/>
+<Word name="6/sadece" positionX="850" positionY="300"/>
+<Connection from="7/para 8/ye" to="6/sadece" with="manner"/>
+</Amr>

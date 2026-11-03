@@ -1,0 +1,18 @@
+<Amr sentence="Allah'tan kimseyi ölüme mahkum etmediler .">
+<Word name="4/mahkum 5/et" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/mahkum 5/et" to="-" with="polarity"/>
+<Word name="onlar" positionX="750" positionY="200"/>
+<Connection from="4/mahkum 5/et" to="onlar" with="ARG0"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="4/mahkum 5/et" to="person"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/allah" positionX="650" positionY="400"/>
+<Connection from="name" to="1/allah" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/kimse" positionX="950" positionY="200"/>
+<Connection from="4/mahkum 5/et" to="2/kimse" with="ARG1"/>
+<Word name="3/ölüm" positionX="1050" positionY="200"/>
+<Connection from="4/mahkum 5/et" to="3/ölüm"/>
+</Amr>

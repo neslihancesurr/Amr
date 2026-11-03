@@ -1,0 +1,19 @@
+<Amr sentence="Her şeyi o kadar olgunlukla karşıladı ki hayran kaldık .">
+<Word name="8/hayran 9/kal" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="8/hayran 9/kal" to="biz" with="ARG0"/>
+<Word name="6/karşıla" positionX="750" positionY="200"/>
+<Connection from="8/hayran 9/kal" to="6/karşıla" with="ARG2"/>
+<Word name="2/şey" positionX="650" positionY="300"/>
+<Connection from="6/karşıla" to="2/şey" with="ARG1"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="2/şey" to="o" with="poss"/>
+<Word name="1/her" positionX="650" positionY="400"/>
+<Connection from="2/şey" to="1/her" with="mod"/>
+<Word name="5/olgunluk" positionX="750" positionY="300"/>
+<Connection from="6/karşıla" to="5/olgunluk" with="instrument"/>
+<Word name="3/o 4/kadar" positionX="650" positionY="400"/>
+<Connection from="5/olgunluk" to="3/o 4/kadar" with="mod"/>
+<Word name="7/ki" positionX="850" positionY="300"/>
+<Connection from="6/karşıla" to="7/ki"/>
+</Amr>

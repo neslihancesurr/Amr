@@ -1,0 +1,11 @@
+<Amr sentence="Kapı açık , evde olmalılar .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/açık" positionX="650" positionY="200"/>
+<Connection from="and" to="2/açık" with="op1"/>
+<Word name="1/kapı" positionX="550" positionY="300"/>
+<Connection from="2/açık" to="1/kapı"/>
+<Word name="4/ev" positionX="750" positionY="200"/>
+<Connection from="and" to="4/ev" with="location"/>
+<Word name="5/olma" positionX="650" positionY="300"/>
+<Connection from="4/ev" to="5/olma"/>
+</Amr>

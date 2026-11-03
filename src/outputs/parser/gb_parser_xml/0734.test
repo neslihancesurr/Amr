@@ -1,0 +1,7 @@
+<Amr sentence="en küçük bardaklar">
+<Word name="3/bardak" positionX="750" positionY="100"/>
+<Word name="2/küçük" positionX="650" positionY="200"/>
+<Connection from="3/bardak" to="2/küçük" with="mod"/>
+<Word name="1/en" positionX="550" positionY="300"/>
+<Connection from="2/küçük" to="1/en" with="manner"/>
+</Amr>

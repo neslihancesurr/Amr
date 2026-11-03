@@ -1,0 +1,14 @@
+<Amr sentence="Aniden kalkınca sendeledi , başı dönmüştü .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/sendele" positionX="650" positionY="200"/>
+<Connection from="and" to="3/sendele" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/sendele" to="o" with="ARG0"/>
+<Word name="2/kalk" positionX="650" positionY="300"/>
+<Connection from="3/sendele" to="2/kalk"/>
+<Word name="1/aniden" positionX="550" positionY="400"/>
+<Connection from="2/kalk" to="1/aniden" with="manner"/>
+<Word name="5/baş 6/dön" positionX="750" positionY="200"/>
+<Connection from="and" to="5/baş 6/dön" with="op2"/>
+<Connection from="5/baş 6/dön" to="o" with="ARG0"/>
+</Amr>

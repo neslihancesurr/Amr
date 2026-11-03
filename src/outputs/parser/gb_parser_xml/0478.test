@@ -1,0 +1,13 @@
+<Amr sentence="Denizin sevdiği bazı Türk yemekleri">
+<Word name="5/yemek" positionX="750" positionY="100"/>
+<Word name="2/sev" positionX="650" positionY="200"/>
+<Connection from="5/yemek" to="2/sev"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/sev" to="o" with="poss"/>
+<Word name="1/deniz" positionX="650" positionY="300"/>
+<Connection from="2/sev" to="1/deniz"/>
+<Word name="3/bazı" positionX="750" positionY="200"/>
+<Connection from="5/yemek" to="3/bazı" with="mod"/>
+<Word name="4/türk" positionX="850" positionY="200"/>
+<Connection from="5/yemek" to="4/türk" with="mod"/>
+</Amr>

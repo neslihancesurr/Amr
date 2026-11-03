@@ -1,0 +1,10 @@
+<Amr sentence="Sebzeleri elden almak en sağlıklısı .">
+<Word name="5/sağlıklı" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/sağlıklı" to="o" with="poss"/>
+<Word name="2/el 3/al" positionX="750" positionY="200"/>
+<Connection from="5/sağlıklı" to="2/el 3/al"/>
+<Connection from="2/el 3/al" to="o" with="ARG0"/>
+<Word name="4/en" positionX="850" positionY="200"/>
+<Connection from="5/sağlıklı" to="4/en" with="manner"/>
+</Amr>

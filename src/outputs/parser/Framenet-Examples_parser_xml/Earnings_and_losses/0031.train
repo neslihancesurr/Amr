@@ -1,0 +1,31 @@
+<Amr sentence="Yıllardan beri dişinden tırnağından artırdığı , çoluk çocuğunun nafakasından kestiği parayı ben de bu zilletten kurtulurum umuduyla bir köşeye koymuştu .">
+<Word name="18/bir 19/köşe 20/koy" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="18/bir 19/köşe 20/koy" to="o" with="ARG0"/>
+<Word name="11/para" positionX="750" positionY="200"/>
+<Connection from="18/bir 19/köşe 20/koy" to="11/para" with="ARG1"/>
+<Word name="3/dişi 4/tırnak 5/art" positionX="650" positionY="300"/>
+<Connection from="11/para" to="3/dişi 4/tırnak 5/art"/>
+<Connection from="3/dişi 4/tırnak 5/art" to="o" with="poss"/>
+<Word name="10/kes" positionX="750" positionY="300"/>
+<Connection from="11/para" to="10/kes"/>
+<Connection from="10/kes" to="o" with="poss"/>
+<Word name="9/nafaka" positionX="750" positionY="400"/>
+<Connection from="10/kes" to="9/nafaka"/>
+<Word name="7/çocuk 8/çocuk" positionX="650" positionY="500"/>
+<Connection from="9/nafaka" to="7/çocuk 8/çocuk"/>
+<Word name="sen" positionX="550" positionY="600"/>
+<Connection from="7/çocuk 8/çocuk" to="sen" with="poss"/>
+<Word name="17/umut" positionX="850" positionY="200"/>
+<Connection from="18/bir 19/köşe 20/koy" to="17/umut" with="instrument"/>
+<Word name="16/kurtul" positionX="750" positionY="300"/>
+<Connection from="17/umut" to="16/kurtul"/>
+<Word name="12/ben" positionX="650" positionY="400"/>
+<Connection from="16/kurtul" to="12/ben" with="ARG0"/>
+<Word name="13/de" positionX="550" positionY="500"/>
+<Connection from="12/ben" to="13/de" with="manner"/>
+<Word name="15/zillet" positionX="750" positionY="400"/>
+<Connection from="16/kurtul" to="15/zillet" with="ARG1"/>
+<Word name="14/bu" positionX="650" positionY="500"/>
+<Connection from="15/zillet" to="14/bu" with="mod"/>
+</Amr>

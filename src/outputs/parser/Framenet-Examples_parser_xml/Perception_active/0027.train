@@ -1,0 +1,19 @@
+<Amr sentence="Gece 3'te uyandığımda , yatakta oturmuş , etrafa cin cin bakıyordu .">
+<Word name="9/cin 10/cin 11/bak" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="9/cin 10/cin 11/bak" to="o" with="ARG0"/>
+<Word name="3/uyan" positionX="750" positionY="200"/>
+<Connection from="9/cin 10/cin 11/bak" to="3/uyan"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="3/uyan" to="ben" with="ARG0"/>
+<Word name="2/3" positionX="750" positionY="300"/>
+<Connection from="3/uyan" to="2/3"/>
+<Word name="1/gece" positionX="650" positionY="400"/>
+<Connection from="2/3" to="1/gece" with="mod"/>
+<Word name="6/oturmuş" positionX="850" positionY="200"/>
+<Connection from="9/cin 10/cin 11/bak" to="6/oturmuş"/>
+<Word name="5/yatak" positionX="750" positionY="300"/>
+<Connection from="6/oturmuş" to="5/yatak" with="location"/>
+<Word name="8/etraf" positionX="950" positionY="200"/>
+<Connection from="9/cin 10/cin 11/bak" to="8/etraf" with="ARG1"/>
+</Amr>

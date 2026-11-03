@@ -1,0 +1,13 @@
+<Amr sentence="Ben şimdi buracıkta tarağımı düşürmüşüm .">
+<Word name="5/düşür" positionX="750" positionY="100"/>
+<Word name="1/ben" positionX="650" positionY="200"/>
+<Connection from="5/düşür" to="1/ben"/>
+<Word name="2/şimdi" positionX="750" positionY="200"/>
+<Connection from="5/düşür" to="2/şimdi" with="manner"/>
+<Word name="3/buracıkta" positionX="850" positionY="200"/>
+<Connection from="5/düşür" to="3/buracıkta"/>
+<Word name="4/tarak" positionX="950" positionY="200"/>
+<Connection from="5/düşür" to="4/tarak"/>
+<Word name="ben" positionX="850" positionY="300"/>
+<Connection from="4/tarak" to="ben" with="poss"/>
+</Amr>

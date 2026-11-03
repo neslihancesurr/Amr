@@ -1,0 +1,13 @@
+<Amr sentence="Yerliler derenin taşmasını uğursuzluk telakki ettiler .">
+<Word name="5/telakki 6/et" positionX="750" positionY="100"/>
+<Word name="1/yerli" positionX="650" positionY="200"/>
+<Connection from="5/telakki 6/et" to="1/yerli" with="ARG0"/>
+<Word name="3/taşma" positionX="750" positionY="200"/>
+<Connection from="5/telakki 6/et" to="3/taşma" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/taşma" to="o" with="poss"/>
+<Word name="2/dere" positionX="750" positionY="300"/>
+<Connection from="3/taşma" to="2/dere"/>
+<Word name="4/uğursuzluk" positionX="850" positionY="200"/>
+<Connection from="5/telakki 6/et" to="4/uğursuzluk" with="ARG2"/>
+</Amr>

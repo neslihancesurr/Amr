@@ -1,0 +1,5 @@
+<Amr sentence="Kuş kanatlandı .">
+<Word name="2/kanatlan" positionX="750" positionY="100"/>
+<Word name="1/kuş" positionX="650" positionY="200"/>
+<Connection from="2/kanatlan" to="1/kuş" with="ARG0"/>
+</Amr>

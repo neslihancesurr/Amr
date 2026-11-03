@@ -1,0 +1,12 @@
+<Amr sentence="Bunun bir roman olduğunu söylemişti .">
+<Word name="5/söyle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/söyle" to="o" with="ARG0"/>
+<Word name="4/ol" positionX="750" positionY="200"/>
+<Connection from="5/söyle" to="4/ol" with="ARG1"/>
+<Connection from="4/ol" to="o" with="poss"/>
+<Word name="3/roman" positionX="750" positionY="300"/>
+<Connection from="4/ol" to="3/roman" with="ARG0"/>
+<Word name="1/bu" positionX="650" positionY="400"/>
+<Connection from="3/roman" to="1/bu"/>
+</Amr>

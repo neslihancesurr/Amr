@@ -1,0 +1,19 @@
+<Amr sentence="Mitralyözler onu çapraza almış , kızıl iğneleriyle gövdesini delik deşik ediyorlardı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/çapraz 4/al" positionX="650" positionY="200"/>
+<Connection from="and" to="3/çapraz 4/al" with="op1"/>
+<Word name="1/mitralyöz" positionX="550" positionY="300"/>
+<Connection from="3/çapraz 4/al" to="1/mitralyöz" with="ARG0"/>
+<Word name="2/o" positionX="650" positionY="300"/>
+<Connection from="3/çapraz 4/al" to="2/o" with="ARG1"/>
+<Word name="9/delik 10/deşik 11/et" positionX="750" positionY="200"/>
+<Connection from="and" to="9/delik 10/deşik 11/et" with="op2"/>
+<Word name="7/iğne" positionX="650" positionY="300"/>
+<Connection from="9/delik 10/deşik 11/et" to="7/iğne" with="ARG2"/>
+<Word name="6/kızıl" positionX="550" positionY="400"/>
+<Connection from="7/iğne" to="6/kızıl" with="mod"/>
+<Word name="8/gövde" positionX="750" positionY="300"/>
+<Connection from="9/delik 10/deşik 11/et" to="8/gövde" with="ARG1"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="8/gövde" to="o" with="poss"/>
+</Amr>

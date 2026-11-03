@@ -1,0 +1,26 @@
+<Amr sentence="İki yanından bağrışanlara anlamadığı bir dilden konuşuyorlarmış gibi birer bakış attı .">
+<Word name="10/bak 11/at" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="10/bak 11/at" to="o" with="ARG0"/>
+<Word name="3/bağrış" positionX="750" positionY="200"/>
+<Connection from="10/bak 11/at" to="3/bağrış" with="ARG1"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="3/bağrış" to="onlar" with="ARG0"/>
+<Word name="2/yan" positionX="750" positionY="300"/>
+<Connection from="3/bağrış" to="2/yan"/>
+<Connection from="2/yan" to="o" with="poss"/>
+<Word name="1/iki" positionX="750" positionY="400"/>
+<Connection from="2/yan" to="1/iki"/>
+<Word name="7/konuş" positionX="850" positionY="200"/>
+<Connection from="10/bak 11/at" to="7/konuş"/>
+<Connection from="7/konuş" to="onlar" with="ARG0"/>
+<Word name="6/dil" positionX="850" positionY="300"/>
+<Connection from="7/konuş" to="6/dil"/>
+<Word name="4/anla" positionX="750" positionY="400"/>
+<Connection from="6/dil" to="4/anla"/>
+<Word name="-" positionX="650" positionY="500"/>
+<Connection from="4/anla" to="-" with="polarity"/>
+<Connection from="4/anla" to="o" with="poss"/>
+<Word name="8/gibi" positionX="950" positionY="300"/>
+<Connection from="7/konuş" to="8/gibi"/>
+</Amr>

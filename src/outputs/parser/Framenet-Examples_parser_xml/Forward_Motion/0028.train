@@ -1,0 +1,13 @@
+<Amr sentence="Küçük çocuk , üç saat boyunca dıbır dıbır yürümüştü .">
+<Word name="7/dıbır 8/dıbır 9/yürü" positionX="750" positionY="100"/>
+<Word name="2/çocuk" positionX="650" positionY="200"/>
+<Connection from="7/dıbır 8/dıbır 9/yürü" to="2/çocuk" with="ARG0"/>
+<Word name="1/küçük" positionX="550" positionY="300"/>
+<Connection from="2/çocuk" to="1/küçük" with="mod"/>
+<Word name="5/saat" positionX="750" positionY="200"/>
+<Connection from="7/dıbır 8/dıbır 9/yürü" to="5/saat"/>
+<Word name="4/üç" positionX="650" positionY="300"/>
+<Connection from="5/saat" to="4/üç"/>
+<Word name="6/boyunca" positionX="750" positionY="300"/>
+<Connection from="5/saat" to="6/boyunca"/>
+</Amr>

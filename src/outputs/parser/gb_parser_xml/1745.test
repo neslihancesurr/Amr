@@ -1,0 +1,13 @@
+<Amr sentence="Ressam iki figürün arasını boş bırakmış .">
+<Word name="5/boş 6/bırak" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/boş 6/bırak" to="o" with="ARG0"/>
+<Word name="1/ressam" positionX="750" positionY="200"/>
+<Connection from="5/boş 6/bırak" to="1/ressam"/>
+<Word name="4/ara" positionX="850" positionY="200"/>
+<Connection from="5/boş 6/bırak" to="4/ara" with="ARG1"/>
+<Word name="3/figür" positionX="750" positionY="300"/>
+<Connection from="4/ara" to="3/figür" with="mod"/>
+<Word name="2/iki" positionX="650" positionY="400"/>
+<Connection from="3/figür" to="2/iki"/>
+</Amr>

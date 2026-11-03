@@ -1,0 +1,7 @@
+<Amr sentence="Uzmanlar krizi yakınsıyorlar .">
+<Word name="3/yakınsa" positionX="750" positionY="100"/>
+<Word name="1/uzman" positionX="650" positionY="200"/>
+<Connection from="3/yakınsa" to="1/uzman" with="ARG0"/>
+<Word name="2/kriz" positionX="750" positionY="200"/>
+<Connection from="3/yakınsa" to="2/kriz" with="ARG1"/>
+</Amr>

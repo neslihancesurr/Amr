@@ -1,0 +1,14 @@
+<Amr sentence="Sapağı kaçırdığımız için sağdan geri döndük .">
+<Word name="5/geri 6/dön" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/geri 6/dön" to="biz" with="ARG0"/>
+<Word name="2/kaçır" positionX="750" positionY="200"/>
+<Connection from="5/geri 6/dön" to="2/kaçır" with="cause"/>
+<Connection from="2/kaçır" to="biz" with="poss"/>
+<Word name="1/sapak" positionX="750" positionY="300"/>
+<Connection from="2/kaçır" to="1/sapak" with="ARG1"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="1/sapak" to="o" with="poss"/>
+<Word name="4/sağ" positionX="850" positionY="200"/>
+<Connection from="5/geri 6/dön" to="4/sağ"/>
+</Amr>

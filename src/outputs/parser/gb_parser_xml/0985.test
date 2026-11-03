@@ -1,0 +1,20 @@
+<Amr sentence="Bir bakıma Ali'nin geç gelmesi iyi oldu .">
+<Word name="6/iyi" positionX="750" positionY="100"/>
+<Word name="5/gelme" positionX="650" positionY="200"/>
+<Connection from="6/iyi" to="5/gelme"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="5/gelme" to="o" with="poss"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="5/gelme" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/ali" positionX="450" positionY="500"/>
+<Connection from="name" to="3/ali" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/geç" positionX="750" positionY="300"/>
+<Connection from="5/gelme" to="4/geç" with="manner"/>
+<Word name="7/ol" positionX="750" positionY="200"/>
+<Connection from="6/iyi" to="7/ol"/>
+<Connection from="7/ol" to="o" with="ARG0"/>
+</Amr>

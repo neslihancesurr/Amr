@@ -1,0 +1,9 @@
+<Amr sentence="Hiç kimseyi içeri almıyorlarmış .">
+<Word name="3/içeri 4/al" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/içeri 4/al" to="-" with="polarity"/>
+<Word name="onlar" positionX="750" positionY="200"/>
+<Connection from="3/içeri 4/al" to="onlar" with="ARG0"/>
+<Word name="1/hiç 2/kimse" positionX="850" positionY="200"/>
+<Connection from="3/içeri 4/al" to="1/hiç 2/kimse" with="ARG1"/>
+</Amr>

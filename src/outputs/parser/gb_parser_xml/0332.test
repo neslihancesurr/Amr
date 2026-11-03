@@ -1,0 +1,13 @@
+<Amr sentence="Maçın birazdan başlayacağı söyleniyor .">
+<Word name="4/söyle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/söyle" to="o" with="ARG0"/>
+<Word name="3/başla" positionX="750" positionY="200"/>
+<Connection from="4/söyle" to="3/başla"/>
+<Connection from="3/başla" to="o" with="ARG0"/>
+<Connection from="3/başla" to="o" with="poss"/>
+<Word name="1/maç" positionX="850" positionY="300"/>
+<Connection from="3/başla" to="1/maç" with="ARG1"/>
+<Word name="2/birazdan" positionX="950" positionY="300"/>
+<Connection from="3/başla" to="2/birazdan" with="manner"/>
+</Amr>

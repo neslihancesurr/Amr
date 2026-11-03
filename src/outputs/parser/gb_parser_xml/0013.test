@@ -1,0 +1,17 @@
+<Amr sentence="Herkesin burada olduğunu bilmiyordum .">
+<Word name="4/bil" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/bil" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="4/bil" to="ben" with="ARG0"/>
+<Word name="3/ol" positionX="850" positionY="200"/>
+<Connection from="4/bil" to="3/ol"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="3/ol" to="o" with="poss"/>
+<Word name="1/herkes" positionX="850" positionY="300"/>
+<Connection from="3/ol" to="1/herkes" with="ARG0"/>
+<Word name="onlar" positionX="750" positionY="400"/>
+<Connection from="1/herkes" to="onlar" with="poss"/>
+<Word name="2/bura" positionX="950" positionY="300"/>
+<Connection from="3/ol" to="2/bura" with="ARG1"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Gözleri dolu dolu olan antrenör , havlu attı .">
+<Word name="7/havlu 8/at" positionX="750" positionY="100"/>
+<Word name="5/antrenör" positionX="650" positionY="200"/>
+<Connection from="7/havlu 8/at" to="5/antrenör" with="ARG0"/>
+<Word name="2/dolu 3/dolu" positionX="550" positionY="300"/>
+<Connection from="5/antrenör" to="2/dolu 3/dolu" with="mod"/>
+<Word name="1/göz" positionX="450" positionY="400"/>
+<Connection from="2/dolu 3/dolu" to="1/göz"/>
+<Word name="o" positionX="350" positionY="500"/>
+<Connection from="1/göz" to="o" with="poss"/>
+<Word name="4/ol" positionX="650" positionY="300"/>
+<Connection from="5/antrenör" to="4/ol" with="mod"/>
+</Amr>

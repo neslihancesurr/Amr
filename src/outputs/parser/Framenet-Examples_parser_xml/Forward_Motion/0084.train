@@ -1,0 +1,13 @@
+<Amr sentence="Kitabı bulmak için saatlerce dolaştım .">
+<Word name="5/dolaş" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/dolaş" to="ben" with="ARG0"/>
+<Word name="2/bul" positionX="750" positionY="200"/>
+<Connection from="5/dolaş" to="2/bul" with="cause"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/bul" to="o" with="ARG0"/>
+<Word name="1/kitap" positionX="750" positionY="300"/>
+<Connection from="2/bul" to="1/kitap" with="ARG1"/>
+<Word name="4/saatlerce" positionX="850" positionY="200"/>
+<Connection from="5/dolaş" to="4/saatlerce" with="manner"/>
+</Amr>

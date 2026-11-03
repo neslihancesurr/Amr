@@ -1,0 +1,13 @@
+<Amr sentence="Söylediklerini duyunca donakaldık .">
+<Word name="3/donakal" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="3/donakal" to="biz" with="ARG0"/>
+<Word name="2/duy" positionX="750" positionY="200"/>
+<Connection from="3/donakal" to="2/duy"/>
+<Word name="1/söyle" positionX="650" positionY="300"/>
+<Connection from="2/duy" to="1/söyle"/>
+<Word name="onlar" positionX="550" positionY="400"/>
+<Connection from="1/söyle" to="onlar" with="ARG0"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="1/söyle" to="o" with="poss"/>
+</Amr>

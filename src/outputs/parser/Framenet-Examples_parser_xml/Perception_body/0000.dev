@@ -1,0 +1,17 @@
+<Amr sentence="Soğuk hava öyle bir esti ki tüylerim diken diken oldu .">
+<Word name="8/diken 9/diken 10/ol" positionX="750" positionY="100"/>
+<Word name="5/es" positionX="650" positionY="200"/>
+<Connection from="8/diken 9/diken 10/ol" to="5/es"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="5/es" to="o" with="ARG0"/>
+<Word name="2/hava" positionX="650" positionY="300"/>
+<Connection from="5/es" to="2/hava" with="ARG1"/>
+<Word name="1/soğuk" positionX="550" positionY="400"/>
+<Connection from="2/hava" to="1/soğuk" with="mod"/>
+<Word name="3/öyle" positionX="750" positionY="300"/>
+<Connection from="5/es" to="3/öyle" with="manner"/>
+<Word name="4/bir" positionX="850" positionY="300"/>
+<Connection from="5/es" to="4/bir" with="manner"/>
+<Word name="6/ki" positionX="950" positionY="300"/>
+<Connection from="5/es" to="6/ki"/>
+</Amr>

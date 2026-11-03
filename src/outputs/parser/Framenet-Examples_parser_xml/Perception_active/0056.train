@@ -1,0 +1,16 @@
+<Amr sentence="Her akşam aynı saatte dürbününün başına geçer , karşı apartmanın penceresini röntgenlerdi .">
+<Word name="12/röntgenle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="12/röntgenle" to="o" with="ARG0"/>
+<Word name="6/baş 7/geç" positionX="750" positionY="200"/>
+<Connection from="12/röntgenle" to="6/baş 7/geç"/>
+<Connection from="6/baş 7/geç" to="o" with="ARG0"/>
+<Word name="5/dürbün" positionX="750" positionY="300"/>
+<Connection from="6/baş 7/geç" to="5/dürbün" with="mod"/>
+<Word name="11/pencere" positionX="850" positionY="200"/>
+<Connection from="12/röntgenle" to="11/pencere" with="ARG1"/>
+<Word name="10/apartman" positionX="750" positionY="300"/>
+<Connection from="11/pencere" to="10/apartman" with="mod"/>
+<Word name="9/karşı" positionX="650" positionY="400"/>
+<Connection from="10/apartman" to="9/karşı" with="mod"/>
+</Amr>

@@ -1,0 +1,22 @@
+<Amr sentence="Engin'i görürsen benden selam söyle .">
+<Word name="5/söyle" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="5/söyle" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="5/söyle" to="imperative" with="mode"/>
+<Word name="2/gör" positionX="850" positionY="200"/>
+<Connection from="5/söyle" to="2/gör" with="cond"/>
+<Connection from="2/gör" to="sen" with="ARG0"/>
+<Word name="person" positionX="850" positionY="300"/>
+<Connection from="2/gör" to="person"/>
+<Word name="name" positionX="750" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/engin" positionX="650" positionY="500"/>
+<Connection from="name" to="1/engin" with="op1"/>
+<Word name="-" positionX="850" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/ben" positionX="950" positionY="200"/>
+<Connection from="5/söyle" to="3/ben"/>
+<Word name="4/selam" positionX="1050" positionY="200"/>
+<Connection from="5/söyle" to="4/selam"/>
+</Amr>

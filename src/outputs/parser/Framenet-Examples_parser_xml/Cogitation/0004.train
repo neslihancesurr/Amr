@@ -1,0 +1,15 @@
+<Amr sentence="Burada yazan şey aklının köşesinden geçmemek deyimidir !">
+<Word name="7/deyim" positionX="750" positionY="100"/>
+<Word name="3/şey" positionX="650" positionY="200"/>
+<Connection from="7/deyim" to="3/şey"/>
+<Word name="2/yaz" positionX="550" positionY="300"/>
+<Connection from="3/şey" to="2/yaz"/>
+<Word name="1/burada" positionX="450" positionY="400"/>
+<Connection from="2/yaz" to="1/burada"/>
+<Word name="4/aklı 5/köşe 6/geç" positionX="750" positionY="200"/>
+<Connection from="7/deyim" to="4/aklı 5/köşe 6/geç"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="4/aklı 5/köşe 6/geç" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="4/aklı 5/köşe 6/geç" to="o" with="ARG0"/>
+</Amr>

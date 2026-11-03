@@ -1,0 +1,11 @@
+<Amr sentence="çok şeker ve cana yakın bir çocuk">
+<Word name="7/çocuk" positionX="750" positionY="100"/>
+<Word name="and" positionX="650" positionY="200"/>
+<Connection from="7/çocuk" to="and"/>
+<Word name="4/can 5/yakın" positionX="550" positionY="300"/>
+<Connection from="and" to="4/can 5/yakın" with="mod"/>
+<Word name="2/şeker" positionX="650" positionY="300"/>
+<Connection from="and" to="2/şeker" with="mod"/>
+<Word name="1/çok" positionX="550" positionY="400"/>
+<Connection from="2/şeker" to="1/çok" with="degree"/>
+</Amr>

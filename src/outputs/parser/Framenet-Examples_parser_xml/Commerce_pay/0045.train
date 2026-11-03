@@ -1,0 +1,21 @@
+<Amr sentence="Beyoğlu'na çıkmadan rejisör ona bir elli kâğıt tosladı .">
+<Word name="8/tosla" positionX="750" positionY="100"/>
+<Word name="2/çık" positionX="650" positionY="200"/>
+<Connection from="8/tosla" to="2/çık"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="2/çık" to="person"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/Beyoğlu'na" positionX="350" positionY="500"/>
+<Connection from="name" to="1/Beyoğlu'na" with="op1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/rejisör" positionX="750" positionY="200"/>
+<Connection from="8/tosla" to="3/rejisör" with="ARG0"/>
+<Word name="4/o" positionX="850" positionY="200"/>
+<Connection from="8/tosla" to="4/o"/>
+<Word name="7/kâğıt" positionX="950" positionY="200"/>
+<Connection from="8/tosla" to="7/kâğıt" with="ARG1"/>
+<Word name="6/elli" positionX="850" positionY="300"/>
+<Connection from="7/kâğıt" to="6/elli"/>
+</Amr>

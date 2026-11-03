@@ -1,0 +1,14 @@
+<Amr sentence="Çorba derişiyor , birazdan pişer .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/deriş" positionX="650" positionY="200"/>
+<Connection from="and" to="2/deriş" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/deriş" to="o" with="ARG0"/>
+<Word name="1/çorba" positionX="650" positionY="300"/>
+<Connection from="2/deriş" to="1/çorba" with="ARG1"/>
+<Word name="5/piş" positionX="750" positionY="200"/>
+<Connection from="and" to="5/piş" with="op2"/>
+<Connection from="5/piş" to="o" with="ARG0"/>
+<Word name="4/birazdan" positionX="750" positionY="300"/>
+<Connection from="5/piş" to="4/birazdan" with="manner"/>
+</Amr>

@@ -1,0 +1,7 @@
+<Amr sentence="Deterjan sabunlaşmış .">
+<Word name="2/sabunlaş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="2/sabunlaş" to="o" with="ARG0"/>
+<Word name="1/deterjan" positionX="750" positionY="200"/>
+<Connection from="2/sabunlaş" to="1/deterjan" with="ARG1"/>
+</Amr>

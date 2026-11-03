@@ -1,0 +1,21 @@
+<Amr sentence="Ahmet'i gördüğün var mı bu günlerde ?">
+<Word name="3/var" positionX="750" positionY="100"/>
+<Word name="2/gör" positionX="650" positionY="200"/>
+<Connection from="3/var" to="2/gör"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="2/gör" to="sen" with="poss"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="2/gör" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ahmet" positionX="450" positionY="500"/>
+<Connection from="name" to="1/ahmet" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="6/gün" positionX="750" positionY="300"/>
+<Connection from="2/gör" to="6/gün" with="location"/>
+<Word name="5/bu" positionX="650" positionY="400"/>
+<Connection from="6/gün" to="5/bu" with="mod"/>
+<Word name="4/mi" positionX="750" positionY="200"/>
+<Connection from="3/var" to="4/mi"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Nöbetçi , ustanın anasına ters ters baktı .">
+<Word name="5/ters 6/ters 7/bak" positionX="750" positionY="100"/>
+<Word name="1/nöbetçi" positionX="650" positionY="200"/>
+<Connection from="5/ters 6/ters 7/bak" to="1/nöbetçi" with="ARG0"/>
+<Word name="4/ana" positionX="750" positionY="200"/>
+<Connection from="5/ters 6/ters 7/bak" to="4/ana" with="ARG1"/>
+<Word name="3/usta" positionX="650" positionY="300"/>
+<Connection from="4/ana" to="3/usta" with="mod"/>
+</Amr>

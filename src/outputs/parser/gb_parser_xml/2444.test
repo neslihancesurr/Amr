@@ -1,0 +1,18 @@
+<Amr sentence="Düzenli yemek yerine durmadan atıştırmak hiç akıl işi değil .">
+<Word name="7/akıl 8/iş 9/değil" positionX="750" positionY="100"/>
+<Word name="2/ye" positionX="650" positionY="200"/>
+<Connection from="7/akıl 8/iş 9/değil" to="2/ye"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/ye" to="o" with="ARG0"/>
+<Word name="1/düzenli" positionX="650" positionY="300"/>
+<Connection from="2/ye" to="1/düzenli" with="manner"/>
+<Word name="3/yerine" positionX="750" positionY="300"/>
+<Connection from="2/ye" to="3/yerine"/>
+<Word name="5/atıştır" positionX="750" positionY="200"/>
+<Connection from="7/akıl 8/iş 9/değil" to="5/atıştır"/>
+<Connection from="5/atıştır" to="o" with="ARG0"/>
+<Word name="4/durmadan" positionX="750" positionY="300"/>
+<Connection from="5/atıştır" to="4/durmadan"/>
+<Word name="6/hiç" positionX="850" positionY="200"/>
+<Connection from="7/akıl 8/iş 9/değil" to="6/hiç" with="degree"/>
+</Amr>

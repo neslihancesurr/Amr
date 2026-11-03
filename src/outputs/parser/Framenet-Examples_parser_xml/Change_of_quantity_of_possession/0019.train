@@ -1,0 +1,17 @@
+<Amr sentence="Burada göl yok muydu ? Oldukça körelmiş .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/yok" positionX="650" positionY="200"/>
+<Connection from="and" to="3/yok" with="op1"/>
+<Word name="1/burada" positionX="550" positionY="300"/>
+<Connection from="3/yok" to="1/burada"/>
+<Word name="2/göl" positionX="650" positionY="300"/>
+<Connection from="3/yok" to="2/göl"/>
+<Word name="4/mi" positionX="750" positionY="300"/>
+<Connection from="3/yok" to="4/mi"/>
+<Word name="7/körel" positionX="750" positionY="200"/>
+<Connection from="and" to="7/körel" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="7/körel" to="o" with="ARG0"/>
+<Word name="6/oldukça" positionX="750" positionY="300"/>
+<Connection from="7/körel" to="6/oldukça" with="manner"/>
+</Amr>

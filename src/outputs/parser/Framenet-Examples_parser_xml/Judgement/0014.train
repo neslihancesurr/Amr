@@ -1,0 +1,17 @@
+<Amr sentence="Aynı hataları yine yaptığın için seni tenkit ettiler .">
+<Word name="7/tenkit 8/et" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="7/tenkit 8/et" to="onlar" with="ARG0"/>
+<Word name="4/yap" positionX="750" positionY="200"/>
+<Connection from="7/tenkit 8/et" to="4/yap" with="cause"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="4/yap" to="sen" with="poss"/>
+<Word name="2/hata" positionX="750" positionY="300"/>
+<Connection from="4/yap" to="2/hata" with="ARG1"/>
+<Word name="1/aynı" positionX="650" positionY="400"/>
+<Connection from="2/hata" to="1/aynı" with="mod"/>
+<Word name="3/yine" positionX="850" positionY="300"/>
+<Connection from="4/yap" to="3/yine" with="manner"/>
+<Word name="6/sen" positionX="850" positionY="200"/>
+<Connection from="7/tenkit 8/et" to="6/sen" with="ARG1"/>
+</Amr>

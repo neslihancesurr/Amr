@@ -1,0 +1,13 @@
+<Amr sentence="Eski dostları bu zor günlerinde derdine derman oldular .">
+<Word name="6/dert 7/derman 8/ol" positionX="750" positionY="100"/>
+<Word name="2/dost" positionX="650" positionY="200"/>
+<Connection from="6/dert 7/derman 8/ol" to="2/dost" with="ARG0"/>
+<Word name="1/eski" positionX="550" positionY="300"/>
+<Connection from="2/dost" to="1/eski" with="mod"/>
+<Word name="5/gün" positionX="750" positionY="200"/>
+<Connection from="6/dert 7/derman 8/ol" to="5/gün" with="mod"/>
+<Word name="3/bu" positionX="650" positionY="300"/>
+<Connection from="5/gün" to="3/bu" with="mod"/>
+<Word name="4/zor" positionX="750" positionY="300"/>
+<Connection from="5/gün" to="4/zor" with="mod"/>
+</Amr>

@@ -1,0 +1,23 @@
+<Amr sentence="Çantamı dolaba koydum ki kimse almasın .">
+<Word name="3/koy" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/koy" to="ben" with="ARG0"/>
+<Word name="1/çanta" positionX="750" positionY="200"/>
+<Connection from="3/koy" to="1/çanta"/>
+<Connection from="1/çanta" to="ben" with="poss"/>
+<Word name="2/dolap" positionX="850" positionY="200"/>
+<Connection from="3/koy" to="2/dolap"/>
+<Word name="6/al" positionX="950" positionY="200"/>
+<Connection from="3/koy" to="6/al"/>
+<Word name="-" positionX="850" positionY="300"/>
+<Connection from="6/al" to="-" with="polarity"/>
+<Word name="o" positionX="950" positionY="300"/>
+<Connection from="6/al" to="o" with="ARG0"/>
+<Word name="imperative" positionX="1050" positionY="300"/>
+<Connection from="6/al" to="imperative" with="mode"/>
+<Word name="4/ki" positionX="1150" positionY="300"/>
+<Connection from="6/al" to="4/ki"/>
+<Word name="5/kimse" positionX="1250" positionY="300"/>
+<Connection from="6/al" to="5/kimse"/>
+<Connection from="5/kimse" to="o" with="poss"/>
+</Amr>

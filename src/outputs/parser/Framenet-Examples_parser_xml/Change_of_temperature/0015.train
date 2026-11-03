@@ -1,0 +1,16 @@
+<Amr sentence="Hava eksi derecelere düştü , dona çekiyor .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/düş" positionX="650" positionY="200"/>
+<Connection from="and" to="4/düş" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/düş" to="o" with="ARG0"/>
+<Word name="1/hava" positionX="650" positionY="300"/>
+<Connection from="4/düş" to="1/hava" with="ARG1"/>
+<Word name="3/derece" positionX="750" positionY="300"/>
+<Connection from="4/düş" to="3/derece"/>
+<Word name="2/eksi" positionX="650" positionY="400"/>
+<Connection from="3/derece" to="2/eksi" with="mod"/>
+<Word name="6/don 7/çek" positionX="750" positionY="200"/>
+<Connection from="and" to="6/don 7/çek" with="op2"/>
+<Connection from="6/don 7/çek" to="o" with="ARG0"/>
+</Amr>

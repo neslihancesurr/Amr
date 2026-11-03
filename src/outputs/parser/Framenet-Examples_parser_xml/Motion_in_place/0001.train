@@ -1,0 +1,13 @@
+<Amr sentence="Avcı , ipi silkeledi ve yavaş yavaş ilerledi .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="8/ilerle" positionX="650" positionY="200"/>
+<Connection from="and" to="8/ilerle" with="op1"/>
+<Word name="6/yavaş 7/yavaş" positionX="550" positionY="300"/>
+<Connection from="8/ilerle" to="6/yavaş 7/yavaş"/>
+<Word name="4/silkele" positionX="750" positionY="200"/>
+<Connection from="and" to="4/silkele" with="op2"/>
+<Word name="1/avcı" positionX="650" positionY="300"/>
+<Connection from="4/silkele" to="1/avcı" with="ARG0"/>
+<Word name="3/ip" positionX="750" positionY="300"/>
+<Connection from="4/silkele" to="3/ip" with="ARG1"/>
+</Amr>

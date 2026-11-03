@@ -1,0 +1,9 @@
+<Amr sentence="Bütün tahsilatı o götürmüştü .">
+<Word name="4/götür" positionX="750" positionY="100"/>
+<Word name="2/tahsilat" positionX="650" positionY="200"/>
+<Connection from="4/götür" to="2/tahsilat" with="ARG1"/>
+<Word name="1/bütün" positionX="550" positionY="300"/>
+<Connection from="2/tahsilat" to="1/bütün" with="mod"/>
+<Word name="3/o" positionX="750" positionY="200"/>
+<Connection from="4/götür" to="3/o" with="ARG0"/>
+</Amr>

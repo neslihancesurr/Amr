@@ -1,0 +1,31 @@
+<Amr sentence="Yıllar boyu yaşadığı acı dolu günlerden sonra çevresi tarafından zorla yatırıldığı psikiyatri kliniğinde gününü doldurdu .">
+<Word name="14/gün 15/doldur" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="14/gün 15/doldur" to="o" with="ARG0"/>
+<Word name="13/klinik" positionX="750" positionY="200"/>
+<Connection from="14/gün 15/doldur" to="13/klinik" with="location"/>
+<Word name="11/yatır" positionX="650" positionY="300"/>
+<Connection from="13/klinik" to="11/yatır"/>
+<Word name="6/gün" positionX="550" positionY="400"/>
+<Connection from="11/yatır" to="6/gün" with="mod"/>
+<Word name="3/yaşa" positionX="450" positionY="500"/>
+<Connection from="6/gün" to="3/yaşa"/>
+<Word name="2/boy" positionX="350" positionY="600"/>
+<Connection from="3/yaşa" to="2/boy" with="mod"/>
+<Word name="1/yıl" positionX="250" positionY="700"/>
+<Connection from="2/boy" to="1/yıl" with="mod"/>
+<Word name="5/dolu" positionX="550" positionY="500"/>
+<Connection from="6/gün" to="5/dolu" with="mod"/>
+<Word name="4/acı" positionX="450" positionY="600"/>
+<Connection from="5/dolu" to="4/acı"/>
+<Word name="7/sonra" positionX="650" positionY="500"/>
+<Connection from="6/gün" to="7/sonra"/>
+<Word name="9/tarafından" positionX="650" positionY="400"/>
+<Connection from="11/yatır" to="9/tarafından" with="manner"/>
+<Word name="8/çevre" positionX="550" positionY="500"/>
+<Connection from="9/tarafından" to="8/çevre" with="mod"/>
+<Word name="10/zor" positionX="750" positionY="400"/>
+<Connection from="11/yatır" to="10/zor" with="instrument"/>
+<Word name="12/psikiyatri" positionX="750" positionY="300"/>
+<Connection from="13/klinik" to="12/psikiyatri" with="mod"/>
+</Amr>

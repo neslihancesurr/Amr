@@ -1,0 +1,9 @@
+<Amr sentence="orta büyüklükte dört patates">
+<Word name="4/patates" positionX="750" positionY="100"/>
+<Word name="2/büyüklük" positionX="650" positionY="200"/>
+<Connection from="4/patates" to="2/büyüklük" with="mod"/>
+<Word name="1/orta" positionX="550" positionY="300"/>
+<Connection from="2/büyüklük" to="1/orta" with="mod"/>
+<Word name="3/dört" positionX="750" positionY="200"/>
+<Connection from="4/patates" to="3/dört"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Ali , ilk defa gördüğü guguklu saate dakikalarca baktı .">
+<Word name="9/bak" positionX="750" positionY="100"/>
+<Word name="1/ali" positionX="650" positionY="200"/>
+<Connection from="9/bak" to="1/ali" with="ARG0"/>
+<Word name="6/guguklu 7/saat" positionX="750" positionY="200"/>
+<Connection from="9/bak" to="6/guguklu 7/saat" with="ARG1"/>
+<Word name="8/dakikalalarca" positionX="850" positionY="200"/>
+<Connection from="9/bak" to="8/dakikalalarca" with="mod"/>
+</Amr>

@@ -1,0 +1,7 @@
+<Amr sentence="Bugün Başbakanlıkça vergiler konusunda önemli bir açıklama yapılacakmış .">
+<Word name="7/açıklama 8/yap" positionX="750" positionY="100"/>
+<Word name="1/bugün" positionX="650" positionY="200"/>
+<Connection from="7/açıklama 8/yap" to="1/bugün"/>
+<Word name="2/başbakanlık" positionX="750" positionY="200"/>
+<Connection from="7/açıklama 8/yap" to="2/başbakanlık" with="ARG0"/>
+</Amr>

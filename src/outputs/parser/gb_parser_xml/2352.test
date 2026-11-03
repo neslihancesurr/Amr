@@ -1,0 +1,27 @@
+<Amr sentence="Bir daha görüşemezsek diye anahtarları sana şimdiden veriyorum .">
+<Word name="8/ver" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="8/ver" to="ben" with="ARG0"/>
+<Word name="mümkün" positionX="750" positionY="200"/>
+<Connection from="8/ver" to="mümkün"/>
+<Word name="3/görüş" positionX="650" positionY="300"/>
+<Connection from="mümkün" to="3/görüş" with="cond"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="3/görüş" to="-" with="polarity"/>
+<Word name="biz" positionX="650" positionY="400"/>
+<Connection from="3/görüş" to="biz" with="ARG0"/>
+<Word name="o" positionX="750" positionY="400"/>
+<Connection from="3/görüş" to="o" with="ARG0"/>
+<Word name="1/bir" positionX="850" positionY="400"/>
+<Connection from="3/görüş" to="1/bir" with="manner"/>
+<Word name="2/daha" positionX="750" positionY="500"/>
+<Connection from="1/bir" to="2/daha" with="degree"/>
+<Word name="4/diye" positionX="950" positionY="400"/>
+<Connection from="3/görüş" to="4/diye"/>
+<Word name="5/anahtar" positionX="850" positionY="200"/>
+<Connection from="8/ver" to="5/anahtar"/>
+<Word name="6/sen" positionX="950" positionY="200"/>
+<Connection from="8/ver" to="6/sen"/>
+<Word name="7/şimdiden" positionX="1050" positionY="200"/>
+<Connection from="8/ver" to="7/şimdiden" with="manner"/>
+</Amr>

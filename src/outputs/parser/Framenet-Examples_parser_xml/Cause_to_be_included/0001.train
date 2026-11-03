@@ -1,0 +1,13 @@
+<Amr sentence="Adam ipin iki ucunu telle kavuşturdu .">
+<Word name="6/kavuştur" positionX="750" positionY="100"/>
+<Word name="1/adam" positionX="650" positionY="200"/>
+<Connection from="6/kavuştur" to="1/adam" with="ARG0"/>
+<Word name="4/uç" positionX="750" positionY="200"/>
+<Connection from="6/kavuştur" to="4/uç" with="ARG1"/>
+<Word name="2/ip" positionX="650" positionY="300"/>
+<Connection from="4/uç" to="2/ip" with="mod"/>
+<Word name="3/iki" positionX="750" positionY="300"/>
+<Connection from="4/uç" to="3/iki"/>
+<Word name="5/tel" positionX="850" positionY="200"/>
+<Connection from="6/kavuştur" to="5/tel" with="instrument"/>
+</Amr>

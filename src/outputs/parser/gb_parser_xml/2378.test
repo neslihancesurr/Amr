@@ -1,0 +1,10 @@
+<Amr sentence="Makine tamir edildikten sonra yeniden bozuldu .">
+<Word name="6/bozul" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/bozul" to="o" with="ARG0"/>
+<Word name="2/tamir 3/et" positionX="750" positionY="200"/>
+<Connection from="6/bozul" to="2/tamir 3/et"/>
+<Connection from="2/tamir 3/et" to="o" with="ARG0"/>
+<Word name="5/yeniden" positionX="850" positionY="200"/>
+<Connection from="6/bozul" to="5/yeniden" with="manner"/>
+</Amr>

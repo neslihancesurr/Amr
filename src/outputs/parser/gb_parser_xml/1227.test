@@ -1,0 +1,13 @@
+<Amr sentence="Eve dönmem zor olmadı .">
+<Word name="3/zor" positionX="750" positionY="100"/>
+<Word name="2/dön" positionX="650" positionY="200"/>
+<Connection from="3/zor" to="2/dön"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="2/dön" to="ben" with="ARG0"/>
+<Word name="1/ev" positionX="650" positionY="300"/>
+<Connection from="2/dön" to="1/ev"/>
+<Word name="4/ol" positionX="750" positionY="200"/>
+<Connection from="3/zor" to="4/ol"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="4/ol" to="-" with="polarity"/>
+</Amr>

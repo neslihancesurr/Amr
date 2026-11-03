@@ -1,0 +1,9 @@
+<Amr sentence="Babasının karşısında manda gibi yayılması rahatsızlık vericiydi .">
+<Word name="6/rahatsız 7/ver" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/rahatsız 7/ver" to="o" with="ARG0"/>
+<Word name="3/manda 4/gibi 5/yayıl" positionX="750" positionY="200"/>
+<Connection from="6/rahatsız 7/ver" to="3/manda 4/gibi 5/yayıl"/>
+<Connection from="3/manda 4/gibi 5/yayıl" to="o" with="ARG0"/>
+<Connection from="3/manda 4/gibi 5/yayıl" to="o" with="poss"/>
+</Amr>

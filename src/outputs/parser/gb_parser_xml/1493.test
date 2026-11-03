@@ -1,0 +1,22 @@
+<Amr sentence="Olanları görmedim değil , ama tam hatırlayamıyorum .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="7/hatırla" positionX="650" positionY="200"/>
+<Connection from="and" to="7/hatırla" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="7/hatırla" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="7/hatırla" to="ben" with="ARG0"/>
+<Word name="6/tam" positionX="750" positionY="300"/>
+<Connection from="7/hatırla" to="6/tam" with="degree"/>
+<Word name="2/gör" positionX="750" positionY="200"/>
+<Connection from="and" to="2/gör" with="op2"/>
+<Connection from="2/gör" to="-" with="polarity"/>
+<Connection from="2/gör" to="ben" with="ARG0"/>
+<Word name="1/ol" positionX="850" positionY="300"/>
+<Connection from="2/gör" to="1/ol" with="ARG1"/>
+<Word name="onlar" positionX="750" positionY="400"/>
+<Connection from="1/ol" to="onlar" with="ARG0"/>
+<Connection from="2/gör" to="-" with="polarity"/>
+<Word name="mümkün" positionX="1050" positionY="300"/>
+<Connection from="2/gör" to="mümkün"/>
+</Amr>

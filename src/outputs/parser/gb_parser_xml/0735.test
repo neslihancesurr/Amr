@@ -1,0 +1,9 @@
+<Amr sentence="listedeki en başarılı çocuk">
+<Word name="4/çocuk" positionX="750" positionY="100"/>
+<Word name="3/başarılı" positionX="650" positionY="200"/>
+<Connection from="4/çocuk" to="3/başarılı" with="mod"/>
+<Word name="1/liste" positionX="550" positionY="300"/>
+<Connection from="3/başarılı" to="1/liste" with="mod"/>
+<Word name="2/en" positionX="650" positionY="300"/>
+<Connection from="3/başarılı" to="2/en" with="manner"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Damadımın işine hep taş koydular .">
+<Word name="4/taş 5/koy" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/taş 5/koy" to="onlar" with="ARG0"/>
+<Word name="2/iş" positionX="750" positionY="200"/>
+<Connection from="4/taş 5/koy" to="2/iş" with="ARG1"/>
+<Word name="1/damat" positionX="650" positionY="300"/>
+<Connection from="2/iş" to="1/damat" with="mod"/>
+<Word name="3/hep" positionX="850" positionY="200"/>
+<Connection from="4/taş 5/koy" to="3/hep" with="frequency"/>
+</Amr>

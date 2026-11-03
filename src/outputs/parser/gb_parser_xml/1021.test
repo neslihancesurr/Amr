@@ -1,0 +1,18 @@
+<Amr sentence="Ferit iş için Arjantin'e gitmişti .">
+<Word name="5/git" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="5/git" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ferit" positionX="450" positionY="400"/>
+<Connection from="name" to="1/ferit" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/iş" positionX="750" positionY="200"/>
+<Connection from="5/git" to="2/iş" with="cause"/>
+<Connection from="5/git" to="person" with="ARG1"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="4/arjantin" positionX="650" positionY="400"/>
+<Connection from="name" to="4/arjantin" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

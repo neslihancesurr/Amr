@@ -1,0 +1,15 @@
+<Amr sentence="Tarlaya baksana , ekilenler hep kızışmış .">
+<Word name="6/kızış" positionX="750" positionY="100"/>
+<Word name="2/bak" positionX="650" positionY="200"/>
+<Connection from="6/kızış" to="2/bak"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="2/bak" to="sen" with="ARG0"/>
+<Word name="1/tarla" positionX="650" positionY="300"/>
+<Connection from="2/bak" to="1/tarla"/>
+<Word name="4/ek" positionX="750" positionY="200"/>
+<Connection from="6/kızış" to="4/ek" with="ARG0"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="4/ek" to="onlar" with="ARG0"/>
+<Word name="5/hep" positionX="850" positionY="200"/>
+<Connection from="6/kızış" to="5/hep" with="frequency"/>
+</Amr>

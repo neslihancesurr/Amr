@@ -1,0 +1,5 @@
+<Amr sentence="Adam , elini kolunu sallaya sallaya geziyor .">
+<Word name="4/kol 5/salla 6/salla 7/gez" positionX="750" positionY="100"/>
+<Word name="1/adam" positionX="650" positionY="200"/>
+<Connection from="4/kol 5/salla 6/salla 7/gez" to="1/adam" with="ARG0"/>
+</Amr>

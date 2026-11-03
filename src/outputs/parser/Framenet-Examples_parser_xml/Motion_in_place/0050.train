@@ -1,0 +1,7 @@
+<Amr sentence="Radyonun düğmesini çevirdi .">
+<Word name="3/çevir" positionX="750" positionY="100"/>
+<Word name="2/düğme" positionX="650" positionY="200"/>
+<Connection from="3/çevir" to="2/düğme" with="ARG1"/>
+<Word name="1/radyo" positionX="550" positionY="300"/>
+<Connection from="2/düğme" to="1/radyo" with="mod"/>
+</Amr>

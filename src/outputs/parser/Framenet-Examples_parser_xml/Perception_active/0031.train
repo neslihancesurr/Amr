@@ -1,0 +1,9 @@
+<Amr sentence="Bizi resmen gözle yiyordu .">
+<Word name="3/göz 4/ye" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/göz 4/ye" to="o" with="ARG0"/>
+<Word name="1/biz" positionX="750" positionY="200"/>
+<Connection from="3/göz 4/ye" to="1/biz" with="ARG1"/>
+<Word name="2/resmen" positionX="850" positionY="200"/>
+<Connection from="3/göz 4/ye" to="2/resmen" with="manner"/>
+</Amr>

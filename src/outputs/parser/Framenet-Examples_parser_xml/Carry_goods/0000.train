@@ -1,0 +1,12 @@
+<Amr sentence="Alıcılarımız için fazladan ürün bulundururuz .">
+<Word name="5/bulundur" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/bulundur" to="biz" with="ARG0"/>
+<Word name="1/alıcı" positionX="750" positionY="200"/>
+<Connection from="5/bulundur" to="1/alıcı" with="cause"/>
+<Connection from="1/alıcı" to="biz" with="poss"/>
+<Word name="4/ürün" positionX="850" positionY="200"/>
+<Connection from="5/bulundur" to="4/ürün" with="ARG1"/>
+<Word name="3/fazladan" positionX="750" positionY="300"/>
+<Connection from="4/ürün" to="3/fazladan" with="mod"/>
+</Amr>

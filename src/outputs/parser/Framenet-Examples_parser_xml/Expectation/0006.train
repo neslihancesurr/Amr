@@ -1,0 +1,9 @@
+<Amr sentence="Olacaklar senden önce o cennetlik kişinin içine doğmuştur .">
+<Word name="7/iç 8/doğ" positionX="750" positionY="100"/>
+<Word name="1/olacak" positionX="650" positionY="200"/>
+<Connection from="7/iç 8/doğ" to="1/olacak" with="ARG1"/>
+<Word name="3/önce" positionX="750" positionY="200"/>
+<Connection from="7/iç 8/doğ" to="3/önce" with="manner"/>
+<Word name="2/sen" positionX="650" positionY="300"/>
+<Connection from="3/önce" to="2/sen" with="mod"/>
+</Amr>

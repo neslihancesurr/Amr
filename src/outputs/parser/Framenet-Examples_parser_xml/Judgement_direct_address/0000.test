@@ -1,0 +1,17 @@
+<Amr sentence="Kardeşine ayıp ettin , sana teessüf ederim .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/et" positionX="650" positionY="200"/>
+<Connection from="and" to="3/et" with="op1"/>
+<Word name="1/kardeş" positionX="550" positionY="300"/>
+<Connection from="3/et" to="1/kardeş"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="1/kardeş" to="o" with="poss"/>
+<Word name="2/ayıp" positionX="650" positionY="300"/>
+<Connection from="3/et" to="2/ayıp"/>
+<Word name="6/teessüf 7/et" positionX="750" positionY="200"/>
+<Connection from="and" to="6/teessüf 7/et" with="op2"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="6/teessüf 7/et" to="ben" with="ARG0"/>
+<Word name="5/sen" positionX="750" positionY="300"/>
+<Connection from="6/teessüf 7/et" to="5/sen" with="ARG1"/>
+</Amr>

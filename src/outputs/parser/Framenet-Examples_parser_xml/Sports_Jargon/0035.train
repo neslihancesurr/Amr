@@ -1,0 +1,5 @@
+<Amr sentence="Millî takım güzel bir oyun çıkardı .">
+<Word name="5/oyun 6/çık" positionX="750" positionY="100"/>
+<Word name="1/millî 2/takım" positionX="650" positionY="200"/>
+<Connection from="5/oyun 6/çık" to="1/millî 2/takım" with="ARG0"/>
+</Amr>

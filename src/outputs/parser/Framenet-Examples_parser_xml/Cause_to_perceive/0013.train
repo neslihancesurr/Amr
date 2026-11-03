@@ -1,0 +1,11 @@
+<Amr sentence="Bana bunu akşam hatırlattı .">
+<Word name="4/hatırlat" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/hatırlat" to="o" with="ARG0"/>
+<Word name="1/ben" positionX="750" positionY="200"/>
+<Connection from="4/hatırlat" to="1/ben" with="ARG2"/>
+<Word name="2/bu" positionX="850" positionY="200"/>
+<Connection from="4/hatırlat" to="2/bu" with="ARG1"/>
+<Word name="3/akşam" positionX="950" positionY="200"/>
+<Connection from="4/hatırlat" to="3/akşam"/>
+</Amr>

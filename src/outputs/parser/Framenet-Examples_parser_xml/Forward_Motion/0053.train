@@ -1,0 +1,13 @@
+<Amr sentence="Biz yaklaşınca kaz daha fazla paytaklaştı .">
+<Word name="6/paytaklaş" positionX="750" positionY="100"/>
+<Word name="2/yaklaş" positionX="650" positionY="200"/>
+<Connection from="6/paytaklaş" to="2/yaklaş"/>
+<Word name="1/biz" positionX="550" positionY="300"/>
+<Connection from="2/yaklaş" to="1/biz" with="ARG0"/>
+<Word name="3/kaz" positionX="750" positionY="200"/>
+<Connection from="6/paytaklaş" to="3/kaz" with="ARG0"/>
+<Word name="5/fazla" positionX="850" positionY="200"/>
+<Connection from="6/paytaklaş" to="5/fazla" with="degree"/>
+<Word name="4/daha" positionX="750" positionY="300"/>
+<Connection from="5/fazla" to="4/daha" with="degree"/>
+</Amr>

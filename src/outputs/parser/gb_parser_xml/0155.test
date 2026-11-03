@@ -1,0 +1,7 @@
+<Amr sentence="İngiliz Edebiyatı Bölümü">
+<Word name="3/bölüm" positionX="750" positionY="100"/>
+<Word name="2/edebiyat" positionX="650" positionY="200"/>
+<Connection from="3/bölüm" to="2/edebiyat" with="mod"/>
+<Word name="1/ingiliz" positionX="550" positionY="300"/>
+<Connection from="2/edebiyat" to="1/ingiliz" with="mod"/>
+</Amr>

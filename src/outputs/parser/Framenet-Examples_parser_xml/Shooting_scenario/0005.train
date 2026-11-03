@@ -1,0 +1,16 @@
+<Amr sentence="Polis , katil zanlısının ateş etmesine kurşun atarak cevap verdi .">
+<Word name="9/cevap 10/ver" positionX="750" positionY="100"/>
+<Word name="7/kurşun 8/at" positionX="650" positionY="200"/>
+<Connection from="9/cevap 10/ver" to="7/kurşun 8/at"/>
+<Word name="1/polis" positionX="550" positionY="300"/>
+<Connection from="7/kurşun 8/at" to="1/polis"/>
+<Word name="5/ateş 6/et" positionX="650" positionY="300"/>
+<Connection from="7/kurşun 8/at" to="5/ateş 6/et"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="5/ateş 6/et" to="o" with="ARG0"/>
+<Connection from="5/ateş 6/et" to="o" with="poss"/>
+<Word name="4/zanlı" positionX="750" positionY="400"/>
+<Connection from="5/ateş 6/et" to="4/zanlı"/>
+<Word name="3/katil" positionX="650" positionY="500"/>
+<Connection from="4/zanlı" to="3/katil" with="mod"/>
+</Amr>

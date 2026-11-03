@@ -1,0 +1,19 @@
+<Amr sentence="Babana bir kere daha sormakta yarar var .">
+<Word name="7/var" positionX="750" positionY="100"/>
+<Word name="5/sor" positionX="650" positionY="200"/>
+<Connection from="7/var" to="5/sor"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="5/sor" to="o" with="ARG0"/>
+<Word name="1/baba" positionX="650" positionY="300"/>
+<Connection from="5/sor" to="1/baba"/>
+<Word name="sen" positionX="550" positionY="400"/>
+<Connection from="1/baba" to="sen" with="poss"/>
+<Word name="3/kere" positionX="750" positionY="300"/>
+<Connection from="5/sor" to="3/kere"/>
+<Word name="2/bir" positionX="650" positionY="400"/>
+<Connection from="3/kere" to="2/bir"/>
+<Word name="4/daha" positionX="750" positionY="400"/>
+<Connection from="3/kere" to="4/daha" with="degree"/>
+<Word name="6/yarar" positionX="750" positionY="200"/>
+<Connection from="7/var" to="6/yarar"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Söylediklerinizin birçoğunu zapt ettim .">
+<Word name="3/zapt 4/et" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/zapt 4/et" to="ben" with="ARG0"/>
+<Word name="2/birçoğu" positionX="750" positionY="200"/>
+<Connection from="3/zapt 4/et" to="2/birçoğu" with="ARG1"/>
+<Word name="1/söyle" positionX="650" positionY="300"/>
+<Connection from="2/birçoğu" to="1/söyle" with="mod"/>
+</Amr>

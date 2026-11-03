@@ -1,0 +1,13 @@
+<Amr sentence="Yavru köpek sevimli bakışlarıyla sahibinin kalbini eritti .">
+<Word name="6/kalp 7/erit" positionX="750" positionY="100"/>
+<Word name="2/köpek" positionX="650" positionY="200"/>
+<Connection from="6/kalp 7/erit" to="2/köpek" with="ARG0"/>
+<Word name="1/yavru" positionX="550" positionY="300"/>
+<Connection from="2/köpek" to="1/yavru" with="mod"/>
+<Word name="4/bak" positionX="750" positionY="200"/>
+<Connection from="6/kalp 7/erit" to="4/bak"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="4/bak" to="onlar" with="ARG0"/>
+<Word name="3/sevimli" positionX="750" positionY="300"/>
+<Connection from="4/bak" to="3/sevimli" with="mod"/>
+</Amr>

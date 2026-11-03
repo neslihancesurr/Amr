@@ -1,0 +1,11 @@
+<Amr sentence="Bu sorunu bir süre için beklemeye alalım .">
+<Word name="6/bekleme 7/al" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="6/bekleme 7/al" to="biz" with="ARG0"/>
+<Word name="2/sorun" positionX="750" positionY="200"/>
+<Connection from="6/bekleme 7/al" to="2/sorun" with="ARG1"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/sorun" to="1/bu" with="mod"/>
+<Word name="4/süre" positionX="850" positionY="200"/>
+<Connection from="6/bekleme 7/al" to="4/süre" with="cause"/>
+</Amr>

@@ -1,0 +1,27 @@
+<Amr sentence="Yemeği Turgut yapmış olursa bulaşığı Lale yıkıyordu .">
+<Word name="7/yıka" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/yıka" to="o" with="ARG0"/>
+<Word name="4/ol" positionX="750" positionY="200"/>
+<Connection from="7/yıka" to="4/ol" with="cond"/>
+<Connection from="4/ol" to="o" with="ARG0"/>
+<Word name="3/yap" positionX="750" positionY="300"/>
+<Connection from="4/ol" to="3/yap"/>
+<Word name="1/yemek" positionX="650" positionY="400"/>
+<Connection from="3/yap" to="1/yemek"/>
+<Word name="person" positionX="750" positionY="400"/>
+<Connection from="3/yap" to="person"/>
+<Word name="name" positionX="650" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/turgut" positionX="550" positionY="600"/>
+<Connection from="name" to="2/turgut" with="op1"/>
+<Word name="-" positionX="750" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/bulaşık" positionX="850" positionY="200"/>
+<Connection from="7/yıka" to="5/bulaşık"/>
+<Connection from="7/yıka" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="6/lale" positionX="750" positionY="400"/>
+<Connection from="name" to="6/lale" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

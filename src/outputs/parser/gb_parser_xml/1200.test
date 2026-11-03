@@ -1,0 +1,12 @@
+<Amr sentence="Kendi kendimden nefret ediyorum .">
+<Word name="3/nefret 4/et" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/nefret 4/et" to="ben" with="ARG0"/>
+<Word name="2/kendi" positionX="750" positionY="200"/>
+<Connection from="3/nefret 4/et" to="2/kendi" with="ARG1"/>
+<Connection from="2/kendi" to="ben" with="poss"/>
+<Word name="1/kendi" positionX="750" positionY="300"/>
+<Connection from="2/kendi" to="1/kendi"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="1/kendi" to="o" with="poss"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Dün sokakta bir hırsızı kovalamışlar .">
+<Word name="5/kovala" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="5/kovala" to="onlar" with="ARG0"/>
+<Word name="1/dün" positionX="750" positionY="200"/>
+<Connection from="5/kovala" to="1/dün"/>
+<Word name="2/sokak" positionX="850" positionY="200"/>
+<Connection from="5/kovala" to="2/sokak" with="location"/>
+<Word name="4/hırsız" positionX="950" positionY="200"/>
+<Connection from="5/kovala" to="4/hırsız" with="ARG1"/>
+</Amr>

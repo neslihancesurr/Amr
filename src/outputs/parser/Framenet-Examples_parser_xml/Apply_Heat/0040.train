@@ -1,0 +1,18 @@
+<Amr sentence="Mısırları bir güzel üttüm , afiyetle yedim .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/üt" positionX="650" positionY="200"/>
+<Connection from="and" to="4/üt" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="4/üt" to="ben" with="ARG0"/>
+<Word name="1/mısır" positionX="650" positionY="300"/>
+<Connection from="4/üt" to="1/mısır" with="ARG1"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="1/mısır" to="o" with="poss"/>
+<Word name="2/bir 3/güzel" positionX="750" positionY="300"/>
+<Connection from="4/üt" to="2/bir 3/güzel"/>
+<Word name="7/ye" positionX="750" positionY="200"/>
+<Connection from="and" to="7/ye" with="op2"/>
+<Connection from="7/ye" to="ben" with="ARG0"/>
+<Word name="6/afiyetle" positionX="750" positionY="300"/>
+<Connection from="7/ye" to="6/afiyetle" with="manner"/>
+</Amr>

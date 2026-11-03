@@ -1,0 +1,16 @@
+<Amr sentence="Kimsenin kapıyı çaldığını duydun mu ?">
+<Word name="4/duy" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="4/duy" to="sen" with="ARG0"/>
+<Word name="3/çal" positionX="750" positionY="200"/>
+<Connection from="4/duy" to="3/çal"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/çal" to="o" with="poss"/>
+<Word name="1/kimse" positionX="750" positionY="300"/>
+<Connection from="3/çal" to="1/kimse" with="ARG0"/>
+<Connection from="1/kimse" to="o" with="poss"/>
+<Word name="2/kapı" positionX="850" positionY="300"/>
+<Connection from="3/çal" to="2/kapı" with="ARG1"/>
+<Word name="5/mi" positionX="850" positionY="200"/>
+<Connection from="4/duy" to="5/mi"/>
+</Amr>

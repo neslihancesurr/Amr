@@ -1,0 +1,11 @@
+<Amr sentence="İçinizden kaçı araba kullanmayı biliyor ?">
+<Word name="5/bil" positionX="750" positionY="100"/>
+<Word name="2/kaçı" positionX="650" positionY="200"/>
+<Connection from="5/bil" to="2/kaçı" with="ARG0"/>
+<Word name="1/iç" positionX="550" positionY="300"/>
+<Connection from="2/kaçı" to="1/iç"/>
+<Word name="siz" positionX="450" positionY="400"/>
+<Connection from="1/iç" to="siz" with="poss"/>
+<Word name="3/araba 4/kullan" positionX="750" positionY="200"/>
+<Connection from="5/bil" to="3/araba 4/kullan" with="ARG1"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Programda bazı değişiklikler yapmamız gerekebilir .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="5/gerek" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="5/gerek"/>
+<Word name="3/değişiklik 4/yapma" positionX="550" positionY="300"/>
+<Connection from="5/gerek" to="3/değişiklik 4/yapma" with="ARG0"/>
+<Word name="biz" positionX="450" positionY="400"/>
+<Connection from="3/değişiklik 4/yapma" to="biz" with="poss"/>
+<Word name="2/bazı" positionX="550" positionY="400"/>
+<Connection from="3/değişiklik 4/yapma" to="2/bazı" with="mod"/>
+</Amr>

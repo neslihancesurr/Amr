@@ -1,0 +1,12 @@
+<Amr sentence="Kendin gelip görünce anlayacaksın .">
+<Word name="4/anla" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="4/anla" to="sen" with="ARG0"/>
+<Word name="3/gör" positionX="750" positionY="200"/>
+<Connection from="4/anla" to="3/gör"/>
+<Word name="1/kendi" positionX="650" positionY="300"/>
+<Connection from="3/gör" to="1/kendi"/>
+<Connection from="1/kendi" to="sen" with="poss"/>
+<Word name="2/gel" positionX="750" positionY="300"/>
+<Connection from="3/gör" to="2/gel"/>
+</Amr>

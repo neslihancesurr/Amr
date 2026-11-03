@@ -1,0 +1,15 @@
+<Amr sentence="Türkiye artık televizyon ihraç etmektedir .">
+<Word name="4/ihraç 5/et" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="4/ihraç 5/et" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/türkiye" positionX="450" positionY="400"/>
+<Connection from="name" to="1/türkiye" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/artık" positionX="750" positionY="200"/>
+<Connection from="4/ihraç 5/et" to="2/artık" with="manner"/>
+<Word name="3/televizyon" positionX="850" positionY="200"/>
+<Connection from="4/ihraç 5/et" to="3/televizyon" with="ARG1"/>
+</Amr>

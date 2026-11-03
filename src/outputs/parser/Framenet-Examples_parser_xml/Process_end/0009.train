@@ -1,0 +1,5 @@
+<Amr sentence="Geçmişte yaşayan birçok değişik canlının nesli tükenmiş .">
+<Word name="6/nesil 7/tüken" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/nesil 7/tüken" to="o" with="ARG0"/>
+</Amr>

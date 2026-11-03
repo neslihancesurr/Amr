@@ -1,0 +1,9 @@
+<Amr sentence="Bir sesler duydum galiba .">
+<Word name="3/duy" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/duy" to="ben" with="ARG0"/>
+<Word name="2/ses" positionX="750" positionY="200"/>
+<Connection from="3/duy" to="2/ses"/>
+<Word name="4/galiba" positionX="850" positionY="200"/>
+<Connection from="3/duy" to="4/galiba" with="manner"/>
+</Amr>

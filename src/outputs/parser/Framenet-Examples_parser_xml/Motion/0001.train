@@ -1,0 +1,5 @@
+<Amr sentence="Neyzen , ney üflüyordu .">
+<Word name="3/ney 4/üfle" positionX="750" positionY="100"/>
+<Word name="1/neyzen" positionX="650" positionY="200"/>
+<Connection from="3/ney 4/üfle" to="1/neyzen" with="ARG0"/>
+</Amr>

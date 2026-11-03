@@ -1,0 +1,11 @@
+<Amr sentence="Hafta sonları çocuklar burada olmuyor .">
+<Word name="5/ol" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/ol" to="-" with="polarity"/>
+<Word name="1/hafta 2/son" positionX="750" positionY="200"/>
+<Connection from="5/ol" to="1/hafta 2/son" with="mod"/>
+<Word name="3/çocuk" positionX="850" positionY="200"/>
+<Connection from="5/ol" to="3/çocuk" with="ARG0"/>
+<Word name="4/burada" positionX="950" positionY="200"/>
+<Connection from="5/ol" to="4/burada" with="ARG1"/>
+</Amr>

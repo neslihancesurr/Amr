@@ -1,0 +1,13 @@
+<Amr sentence="Uzun süredir kullanıldığı için lastikler kabaklaştı .">
+<Word name="6/kabaklaş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/kabaklaş" to="o" with="ARG0"/>
+<Word name="3/kullanıl" positionX="750" positionY="200"/>
+<Connection from="6/kabaklaş" to="3/kullanıl" with="cause"/>
+<Word name="2/süre" positionX="650" positionY="300"/>
+<Connection from="3/kullanıl" to="2/süre" with="mod"/>
+<Word name="1/uzun" positionX="550" positionY="400"/>
+<Connection from="2/süre" to="1/uzun" with="manner"/>
+<Word name="5/lastik" positionX="850" positionY="200"/>
+<Connection from="6/kabaklaş" to="5/lastik" with="ARG1"/>
+</Amr>

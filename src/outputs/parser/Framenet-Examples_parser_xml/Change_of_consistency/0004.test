@@ -1,0 +1,11 @@
+<Amr sentence="Bu sivilce sanki urlaşıyor .">
+<Word name="4/urlaş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/urlaş" to="o" with="ARG0"/>
+<Word name="2/sivilce" positionX="750" positionY="200"/>
+<Connection from="4/urlaş" to="2/sivilce" with="ARG1"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/sivilce" to="1/bu" with="mod"/>
+<Word name="3/sanki" positionX="850" positionY="200"/>
+<Connection from="4/urlaş" to="3/sanki" with="manner"/>
+</Amr>

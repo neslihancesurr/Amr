@@ -1,0 +1,11 @@
+<Amr sentence="Siz babamla tanışıyormuşsunuz galiba .">
+<Word name="3/tanış" positionX="750" positionY="100"/>
+<Word name="1/siz" positionX="650" positionY="200"/>
+<Connection from="3/tanış" to="1/siz" with="ARG0"/>
+<Word name="2/baba" positionX="750" positionY="200"/>
+<Connection from="3/tanış" to="2/baba" with="ARG1"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="2/baba" to="ben" with="poss"/>
+<Word name="4/galiba" positionX="850" positionY="200"/>
+<Connection from="3/tanış" to="4/galiba" with="manner"/>
+</Amr>

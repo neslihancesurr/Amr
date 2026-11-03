@@ -1,0 +1,13 @@
+<Amr sentence="8.30'da havalimanında olmamız gerekiyor .">
+<Word name="4/gerek" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/gerek" to="o" with="ARG0"/>
+<Word name="3/ol" positionX="750" positionY="200"/>
+<Connection from="4/gerek" to="3/ol"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="3/ol" to="biz" with="ARG0"/>
+<Word name="1/8.30" positionX="750" positionY="300"/>
+<Connection from="3/ol" to="1/8.30" with="quant"/>
+<Word name="2/havaliman" positionX="850" positionY="300"/>
+<Connection from="3/ol" to="2/havaliman" with="location"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Kavanozları dolabın en karanlık yerinde sakladık .">
+<Word name="6/sakla" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="6/sakla" to="biz" with="ARG0"/>
+<Word name="1/kavanoz" positionX="750" positionY="200"/>
+<Connection from="6/sakla" to="1/kavanoz" with="ARG1"/>
+<Word name="5/yer" positionX="850" positionY="200"/>
+<Connection from="6/sakla" to="5/yer" with="ARG2"/>
+<Word name="2/dolap" positionX="750" positionY="300"/>
+<Connection from="5/yer" to="2/dolap" with="mod"/>
+<Word name="4/karanlık" positionX="850" positionY="300"/>
+<Connection from="5/yer" to="4/karanlık" with="mod"/>
+<Word name="3/en" positionX="750" positionY="400"/>
+<Connection from="4/karanlık" to="3/en" with="manner"/>
+</Amr>

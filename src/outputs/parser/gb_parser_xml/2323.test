@@ -1,0 +1,9 @@
+<Amr sentence="kapağı boyalı olan bir kutu">
+<Word name="5/kutu" positionX="750" positionY="100"/>
+<Word name="3/ol" positionX="650" positionY="200"/>
+<Connection from="5/kutu" to="3/ol"/>
+<Word name="2/boyalı" positionX="550" positionY="300"/>
+<Connection from="3/ol" to="2/boyalı" with="manner"/>
+<Word name="1/kapak" positionX="450" positionY="400"/>
+<Connection from="2/boyalı" to="1/kapak" with="mod"/>
+</Amr>

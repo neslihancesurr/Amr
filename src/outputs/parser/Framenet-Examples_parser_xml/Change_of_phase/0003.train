@@ -1,0 +1,11 @@
+<Amr sentence="Nehrin üstü biraz buz tutmuş .">
+<Word name="4/buz 5/tut" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/buz 5/tut" to="o" with="ARG0"/>
+<Word name="2/üst" positionX="750" positionY="200"/>
+<Connection from="4/buz 5/tut" to="2/üst" with="ARG1"/>
+<Word name="1/nehir" positionX="650" positionY="300"/>
+<Connection from="2/üst" to="1/nehir" with="mod"/>
+<Word name="3/biraz" positionX="850" positionY="200"/>
+<Connection from="4/buz 5/tut" to="3/biraz" with="manner"/>
+</Amr>

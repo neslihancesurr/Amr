@@ -1,0 +1,11 @@
+<Amr sentence="Sürücü , beş bin kâğıdı cepledi .">
+<Word name="6/ceple" positionX="750" positionY="100"/>
+<Word name="1/sürücü" positionX="650" positionY="200"/>
+<Connection from="6/ceple" to="1/sürücü" with="ARG0"/>
+<Word name="5/kâğıt" positionX="750" positionY="200"/>
+<Connection from="6/ceple" to="5/kâğıt" with="ARG1"/>
+<Word name="4/bin" positionX="650" positionY="300"/>
+<Connection from="5/kâğıt" to="4/bin"/>
+<Word name="3/beş" positionX="550" positionY="400"/>
+<Connection from="4/bin" to="3/beş"/>
+</Amr>

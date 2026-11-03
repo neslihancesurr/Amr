@@ -1,0 +1,13 @@
+<Amr sentence="Başlıyorum , gemiyi yatırın .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/başla" positionX="650" positionY="200"/>
+<Connection from="and" to="1/başla" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="1/başla" to="ben" with="ARG0"/>
+<Word name="3/gemi 4/yatır" positionX="750" positionY="200"/>
+<Connection from="and" to="3/gemi 4/yatır" with="op2"/>
+<Word name="siz" positionX="650" positionY="300"/>
+<Connection from="3/gemi 4/yatır" to="siz" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="300"/>
+<Connection from="3/gemi 4/yatır" to="imperative" with="mode"/>
+</Amr>

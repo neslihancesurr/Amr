@@ -1,0 +1,11 @@
+<Amr sentence="Irgalama beni , yeter !">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/ırgala" positionX="650" positionY="200"/>
+<Connection from="and" to="1/ırgala" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/ırgala" to="o" with="ARG0"/>
+<Word name="2/ben" positionX="650" positionY="300"/>
+<Connection from="1/ırgala" to="2/ben" with="ARG1"/>
+<Word name="4/yeter" positionX="750" positionY="200"/>
+<Connection from="and" to="4/yeter" with="op2"/>
+</Amr>

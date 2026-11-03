@@ -1,0 +1,18 @@
+<Amr sentence="Ne zaman bir işe kalkışsa ailesi zorluk çıkarırdı .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="7/zorluk 8/çık" positionX="650" positionY="200"/>
+<Connection from="yap" to="7/zorluk 8/çık"/>
+<Word name="5/kalkış" positionX="550" positionY="300"/>
+<Connection from="7/zorluk 8/çık" to="5/kalkış"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="5/kalkış" to="o" with="ARG0"/>
+<Word name="2/zaman" positionX="550" positionY="400"/>
+<Connection from="5/kalkış" to="2/zaman" with="mod"/>
+<Word name="1/ne" positionX="450" positionY="500"/>
+<Connection from="2/zaman" to="1/ne"/>
+<Word name="4/iş" positionX="650" positionY="400"/>
+<Connection from="5/kalkış" to="4/iş" with="ARG1"/>
+<Word name="6/aile" positionX="650" positionY="300"/>
+<Connection from="7/zorluk 8/çık" to="6/aile" with="ARG0"/>
+<Connection from="6/aile" to="o" with="poss"/>
+</Amr>

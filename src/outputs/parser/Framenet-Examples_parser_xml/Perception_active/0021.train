@@ -1,0 +1,9 @@
+<Amr sentence="Bir şey isterken hep insanın gözlerine bakar .">
+<Word name="6/göz 7/bak" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/göz 7/bak" to="o" with="ARG0"/>
+<Word name="3/ister" positionX="750" positionY="200"/>
+<Connection from="6/göz 7/bak" to="3/ister"/>
+<Word name="4/hep" positionX="850" positionY="200"/>
+<Connection from="6/göz 7/bak" to="4/hep" with="frequency"/>
+</Amr>

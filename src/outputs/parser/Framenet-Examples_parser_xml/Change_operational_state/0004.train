@@ -1,0 +1,19 @@
+<Amr sentence="Bu verilerin hepsini depolayalım , ileride lazım olacak .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/depola" positionX="650" positionY="200"/>
+<Connection from="and" to="4/depola" with="op1"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="4/depola" to="biz" with="ARG0"/>
+<Word name="3/hepsi" positionX="650" positionY="300"/>
+<Connection from="4/depola" to="3/hepsi" with="ARG1"/>
+<Word name="2/veri" positionX="550" positionY="400"/>
+<Connection from="3/hepsi" to="2/veri" with="mod"/>
+<Word name="1/bu" positionX="450" positionY="500"/>
+<Connection from="2/veri" to="1/bu" with="mod"/>
+<Word name="7/lazım 8/ol" positionX="750" positionY="200"/>
+<Connection from="and" to="7/lazım 8/ol" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="7/lazım 8/ol" to="o" with="ARG0"/>
+<Word name="6/ileride" positionX="750" positionY="300"/>
+<Connection from="7/lazım 8/ol" to="6/ileride" with="manner"/>
+</Amr>

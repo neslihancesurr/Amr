@@ -1,0 +1,21 @@
+<Amr sentence="Sallanmaz o kalkışta ne mendil ne de bir kol .">
+<Word name="1/sallan" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="1/sallan" to="-" with="polarity"/>
+<Word name="3/kalk" positionX="750" positionY="200"/>
+<Connection from="1/sallan" to="3/kalk"/>
+<Word name="2/o" positionX="650" positionY="300"/>
+<Connection from="3/kalk" to="2/o" with="mod"/>
+<Word name="and" positionX="850" positionY="200"/>
+<Connection from="1/sallan" to="and"/>
+<Word name="9/kol" positionX="750" positionY="300"/>
+<Connection from="and" to="9/kol" with="ARG0"/>
+<Word name="6/ne" positionX="650" positionY="400"/>
+<Connection from="9/kol" to="6/ne"/>
+<Word name="7/de" positionX="750" positionY="400"/>
+<Connection from="9/kol" to="7/de"/>
+<Word name="5/mendil" positionX="850" positionY="300"/>
+<Connection from="and" to="5/mendil" with="ARG0"/>
+<Word name="4/ne" positionX="750" positionY="400"/>
+<Connection from="5/mendil" to="4/ne"/>
+</Amr>

@@ -1,0 +1,18 @@
+<Amr sentence="Sabahtan beri bir şeylerimi arıyorum ama bulamıyorum .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="7/bul" positionX="650" positionY="200"/>
+<Connection from="and" to="7/bul" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="7/bul" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="7/bul" to="ben" with="ARG0"/>
+<Word name="5/ara" positionX="750" positionY="200"/>
+<Connection from="and" to="5/ara" with="op2"/>
+<Connection from="5/ara" to="ben" with="ARG0"/>
+<Word name="1/sabahtan" positionX="750" positionY="300"/>
+<Connection from="5/ara" to="1/sabahtan"/>
+<Word name="2/beri" positionX="650" positionY="400"/>
+<Connection from="1/sabahtan" to="2/beri"/>
+<Word name="mümkün" positionX="850" positionY="300"/>
+<Connection from="5/ara" to="mümkün"/>
+</Amr>

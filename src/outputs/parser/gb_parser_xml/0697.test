@@ -1,0 +1,7 @@
+<Amr sentence="iki litrelik bir kova">
+<Word name="4/kova" positionX="750" positionY="100"/>
+<Word name="2/litrelik" positionX="650" positionY="200"/>
+<Connection from="4/kova" to="2/litrelik" with="mod"/>
+<Word name="1/iki" positionX="550" positionY="300"/>
+<Connection from="2/litrelik" to="1/iki"/>
+</Amr>

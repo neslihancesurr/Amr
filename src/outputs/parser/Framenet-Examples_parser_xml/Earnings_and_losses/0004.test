@@ -1,0 +1,17 @@
+<Amr sentence="Harçlığın çok herhalde , savurdun durdun .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/çok" positionX="650" positionY="200"/>
+<Connection from="and" to="2/çok" with="degree"/>
+<Word name="1/harçlık" positionX="550" positionY="300"/>
+<Connection from="2/çok" to="1/harçlık"/>
+<Word name="sen" positionX="450" positionY="400"/>
+<Connection from="1/harçlık" to="sen" with="poss"/>
+<Word name="3/herhalde" positionX="650" positionY="300"/>
+<Connection from="2/çok" to="3/herhalde" with="manner"/>
+<Word name="6/dur" positionX="750" positionY="200"/>
+<Connection from="and" to="6/dur" with="op2"/>
+<Connection from="6/dur" to="sen" with="ARG0"/>
+<Word name="5/savur" positionX="750" positionY="300"/>
+<Connection from="6/dur" to="5/savur"/>
+<Connection from="5/savur" to="sen" with="ARG0"/>
+</Amr>

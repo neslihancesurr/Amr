@@ -1,0 +1,28 @@
+<Amr sentence="Mehmet üniversiteyi kazanmış olsaydı babası ona Ankara'da ev tutacaktı .">
+<Word name="8/ev 9/tut" positionX="750" positionY="100"/>
+<Word name="4/ol" positionX="650" positionY="200"/>
+<Connection from="8/ev 9/tut" to="4/ol"/>
+<Word name="3/kazan" positionX="550" positionY="300"/>
+<Connection from="4/ol" to="3/kazan"/>
+<Word name="person" positionX="450" positionY="400"/>
+<Connection from="3/kazan" to="person"/>
+<Word name="name" positionX="350" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/mehmet" positionX="250" positionY="600"/>
+<Connection from="name" to="1/mehmet" with="op1"/>
+<Word name="-" positionX="450" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/üniversite" positionX="550" positionY="400"/>
+<Connection from="3/kazan" to="2/üniversite"/>
+<Word name="5/baba" positionX="750" positionY="200"/>
+<Connection from="8/ev 9/tut" to="5/baba"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/baba" to="o" with="poss"/>
+<Word name="6/o" positionX="850" positionY="200"/>
+<Connection from="8/ev 9/tut" to="6/o"/>
+<Connection from="8/ev 9/tut" to="person" with="location"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="7/ankara" positionX="750" positionY="400"/>
+<Connection from="name" to="7/ankara" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

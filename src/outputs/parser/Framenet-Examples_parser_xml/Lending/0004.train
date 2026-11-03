@@ -1,0 +1,9 @@
+<Amr sentence="Babasını borçlandırıyordu .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="2/borç" positionX="650" positionY="200"/>
+<Connection from="yap" to="2/borç"/>
+<Word name="1/baba" positionX="550" positionY="300"/>
+<Connection from="2/borç" to="1/baba" with="ARG1"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="1/baba" to="o" with="poss"/>
+</Amr>

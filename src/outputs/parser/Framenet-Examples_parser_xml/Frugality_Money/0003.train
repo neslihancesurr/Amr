@@ -1,0 +1,20 @@
+<Amr sentence="Ortaya çıkan iş iyi olsun istiyordu , bu sebeple de çok masraf ediyordu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/iste" positionX="650" positionY="200"/>
+<Connection from="and" to="6/iste" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="6/iste" to="o" with="ARG0"/>
+<Word name="4/iyi 5/ol" positionX="650" positionY="300"/>
+<Connection from="6/iste" to="4/iyi 5/ol" with="manner"/>
+<Word name="12/masraf 13/et" positionX="750" positionY="200"/>
+<Connection from="and" to="12/masraf 13/et" with="op2"/>
+<Connection from="12/masraf 13/et" to="o" with="ARG0"/>
+<Word name="9/sebep" positionX="750" positionY="300"/>
+<Connection from="12/masraf 13/et" to="9/sebep" with="instrument"/>
+<Word name="8/bu" positionX="650" positionY="400"/>
+<Connection from="9/sebep" to="8/bu" with="mod"/>
+<Word name="10/de" positionX="750" positionY="400"/>
+<Connection from="9/sebep" to="10/de" with="manner"/>
+<Word name="11/çok" positionX="850" positionY="300"/>
+<Connection from="12/masraf 13/et" to="11/çok" with="degree"/>
+</Amr>

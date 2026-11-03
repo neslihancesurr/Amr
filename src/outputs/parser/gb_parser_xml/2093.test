@@ -1,0 +1,19 @@
+<Amr sentence="Bizim ricamız toplantının haftaya ertelenmesi olacak .">
+<Word name="5/ertelen" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/ertelen" to="o" with="ARG0"/>
+<Connection from="5/ertelen" to="o" with="poss"/>
+<Word name="2/rica" positionX="850" positionY="200"/>
+<Connection from="5/ertelen" to="2/rica"/>
+<Word name="biz" positionX="750" positionY="300"/>
+<Connection from="2/rica" to="biz" with="poss"/>
+<Word name="1/biz" positionX="850" positionY="300"/>
+<Connection from="2/rica" to="1/biz" with="mod"/>
+<Word name="3/toplantı" positionX="950" positionY="200"/>
+<Connection from="5/ertelen" to="3/toplantı"/>
+<Word name="4/hafta" positionX="1050" positionY="200"/>
+<Connection from="5/ertelen" to="4/hafta"/>
+<Word name="6/ol" positionX="1150" positionY="200"/>
+<Connection from="5/ertelen" to="6/ol"/>
+<Connection from="6/ol" to="o" with="ARG0"/>
+</Amr>

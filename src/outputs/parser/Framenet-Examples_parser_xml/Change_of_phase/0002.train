@@ -1,0 +1,7 @@
+<Amr sentence="Tereyağı çözülmüş .">
+<Word name="2/çözül" positionX="750" positionY="100"/>
+<Word name="1/tereyağ" positionX="650" positionY="200"/>
+<Connection from="2/çözül" to="1/tereyağ" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/tereyağ" to="o" with="poss"/>
+</Amr>

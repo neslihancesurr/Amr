@@ -1,0 +1,13 @@
+<Amr sentence="Kısa bir yazı bile yazsa öpüp başına koyar .">
+<Word name="6/öp 7/baş 8/koy" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/öp 7/baş 8/koy" to="o" with="ARG0"/>
+<Word name="5/yaz" positionX="750" positionY="200"/>
+<Connection from="6/öp 7/baş 8/koy" to="5/yaz" with="ARG1"/>
+<Word name="3/yaz" positionX="650" positionY="300"/>
+<Connection from="5/yaz" to="3/yaz"/>
+<Word name="1/kısa" positionX="550" positionY="400"/>
+<Connection from="3/yaz" to="1/kısa" with="mod"/>
+<Word name="4/bile" positionX="650" positionY="400"/>
+<Connection from="3/yaz" to="4/bile" with="manner"/>
+</Amr>

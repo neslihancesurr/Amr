@@ -1,0 +1,14 @@
+<Amr sentence="Sigaralarının dumanlarını burnuma üflüyordu .">
+<Word name="4/üfle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/üfle" to="o" with="ARG0"/>
+<Word name="2/dumanla" positionX="750" positionY="200"/>
+<Connection from="4/üfle" to="2/dumanla" with="ARG1"/>
+<Connection from="2/dumanla" to="o" with="ARG0"/>
+<Word name="1/sigara" positionX="750" positionY="300"/>
+<Connection from="2/dumanla" to="1/sigara" with="mod"/>
+<Word name="3/burun" positionX="850" positionY="200"/>
+<Connection from="4/üfle" to="3/burun"/>
+<Word name="ben" positionX="750" positionY="300"/>
+<Connection from="3/burun" to="ben" with="poss"/>
+</Amr>

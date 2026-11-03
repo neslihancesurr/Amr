@@ -1,0 +1,9 @@
+<Amr sentence="Kötü anıları geride bırakacaksın .">
+<Word name="3/geri 4/bırak" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="3/geri 4/bırak" to="sen" with="ARG0"/>
+<Word name="2/anı" positionX="750" positionY="200"/>
+<Connection from="3/geri 4/bırak" to="2/anı" with="ARG1"/>
+<Word name="1/kötü" positionX="650" positionY="300"/>
+<Connection from="2/anı" to="1/kötü" with="mod"/>
+</Amr>

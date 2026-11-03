@@ -1,0 +1,17 @@
+<Amr sentence="Eğer herhangi bir şeyi yanlış yazmışsak o düzeltiyordu .">
+<Word name="8/düzelt" positionX="750" positionY="100"/>
+<Word name="6/yaz" positionX="650" positionY="200"/>
+<Connection from="8/düzelt" to="6/yaz" with="cond"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="6/yaz" to="biz" with="ARG0"/>
+<Word name="1/eğer" positionX="650" positionY="300"/>
+<Connection from="6/yaz" to="1/eğer"/>
+<Word name="4/şey" positionX="750" positionY="300"/>
+<Connection from="6/yaz" to="4/şey"/>
+<Word name="2/herhangi 3/bir" positionX="650" positionY="400"/>
+<Connection from="4/şey" to="2/herhangi 3/bir" with="mod"/>
+<Word name="5/yanlış" positionX="850" positionY="300"/>
+<Connection from="6/yaz" to="5/yanlış" with="mod"/>
+<Word name="7/o" positionX="750" positionY="200"/>
+<Connection from="8/düzelt" to="7/o"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Büyük fırsat öylece elden kaçmıştı .">
+<Word name="4/el 5/kaç" positionX="750" positionY="100"/>
+<Word name="2/fırsat" positionX="650" positionY="200"/>
+<Connection from="4/el 5/kaç" to="2/fırsat" with="ARG0"/>
+<Word name="1/büyük" positionX="550" positionY="300"/>
+<Connection from="2/fırsat" to="1/büyük" with="mod"/>
+<Word name="3/öylece" positionX="750" positionY="200"/>
+<Connection from="4/el 5/kaç" to="3/öylece" with="manner"/>
+</Amr>

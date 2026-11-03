@@ -1,0 +1,27 @@
+<Amr sentence="O sınav sonuçlarından beri üniversiteyi kazanamayacağım diye çocuğu bir düşüncedir aldı .">
+<Word name="9/bir 10/düşünce 11/al" positionX="750" positionY="100"/>
+<Word name="mümkün" positionX="650" positionY="200"/>
+<Connection from="9/bir 10/düşünce 11/al" to="mümkün"/>
+<Word name="6/kazan" positionX="550" positionY="300"/>
+<Connection from="mümkün" to="6/kazan"/>
+<Word name="-" positionX="450" positionY="400"/>
+<Connection from="6/kazan" to="-" with="polarity"/>
+<Word name="ben" positionX="550" positionY="400"/>
+<Connection from="6/kazan" to="ben" with="ARG0"/>
+<Word name="3/sonuç" positionX="650" positionY="400"/>
+<Connection from="6/kazan" to="3/sonuç"/>
+<Word name="2/sınav" positionX="550" positionY="500"/>
+<Connection from="3/sonuç" to="2/sınav" with="mod"/>
+<Word name="1/o" positionX="450" positionY="600"/>
+<Connection from="2/sınav" to="1/o" with="mod"/>
+<Word name="4/beri" positionX="650" positionY="500"/>
+<Connection from="3/sonuç" to="4/beri"/>
+<Word name="5/üniversite" positionX="750" positionY="400"/>
+<Connection from="6/kazan" to="5/üniversite"/>
+<Word name="7/diye" positionX="850" positionY="400"/>
+<Connection from="6/kazan" to="7/diye"/>
+<Word name="8/çocuk" positionX="750" positionY="200"/>
+<Connection from="9/bir 10/düşünce 11/al" to="8/çocuk" with="ARG0"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="8/çocuk" to="o" with="poss"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Fısıltılar duyarım , ürperirim .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/duyar" positionX="650" positionY="200"/>
+<Connection from="and" to="2/duyar" with="ARG1"/>
+<Word name="1/fısıltı" positionX="550" positionY="300"/>
+<Connection from="2/duyar" to="1/fısıltı"/>
+<Word name="4/ürper" positionX="750" positionY="200"/>
+<Connection from="and" to="4/ürper" with="op2"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="4/ürper" to="ben" with="ARG0"/>
+</Amr>

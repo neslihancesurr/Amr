@@ -1,0 +1,23 @@
+<Amr sentence="Herkes bir yemek yapıp getirsin diye konuşmuştuk .">
+<Word name="7/konuş" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="7/konuş" to="biz" with="ARG0"/>
+<Word name="and" positionX="750" positionY="200"/>
+<Connection from="7/konuş" to="and"/>
+<Word name="5/getir" positionX="650" positionY="300"/>
+<Connection from="and" to="5/getir" with="op1"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="5/getir" to="o" with="ARG0"/>
+<Word name="imperative" positionX="650" positionY="400"/>
+<Connection from="5/getir" to="imperative" with="mode"/>
+<Word name="6/diye" positionX="750" positionY="400"/>
+<Connection from="5/getir" to="6/diye"/>
+<Word name="4/yap" positionX="750" positionY="300"/>
+<Connection from="and" to="4/yap" with="op2"/>
+<Word name="1/herkes" positionX="650" positionY="400"/>
+<Connection from="4/yap" to="1/herkes"/>
+<Word name="onlar" positionX="550" positionY="500"/>
+<Connection from="1/herkes" to="onlar" with="poss"/>
+<Word name="3/yemek" positionX="750" positionY="400"/>
+<Connection from="4/yap" to="3/yemek"/>
+</Amr>

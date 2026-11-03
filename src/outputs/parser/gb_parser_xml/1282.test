@@ -1,0 +1,9 @@
+<Amr sentence="Köyün ötesinde bir dere var .">
+<Word name="5/var" positionX="750" positionY="100"/>
+<Word name="2/öte" positionX="650" positionY="200"/>
+<Connection from="5/var" to="2/öte" with="location"/>
+<Word name="1/köy" positionX="550" positionY="300"/>
+<Connection from="2/öte" to="1/köy" with="mod"/>
+<Word name="4/dere" positionX="750" positionY="200"/>
+<Connection from="5/var" to="4/dere"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Arkamızdaki araba bizi geçmek istiyor .">
+<Word name="5/iste" positionX="750" positionY="100"/>
+<Word name="2/araba" positionX="650" positionY="200"/>
+<Connection from="5/iste" to="2/araba" with="ARG0"/>
+<Word name="1/arka" positionX="550" positionY="300"/>
+<Connection from="2/araba" to="1/arka" with="mod"/>
+<Word name="4/geç" positionX="750" positionY="200"/>
+<Connection from="5/iste" to="4/geç" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="4/geç" to="o" with="ARG0"/>
+<Word name="3/biz" positionX="750" positionY="300"/>
+<Connection from="4/geç" to="3/biz"/>
+</Amr>

@@ -1,0 +1,14 @@
+<Amr sentence="Bu kadar saygısızlığı kimse tasvip etmez .">
+<Word name="5/tasvip 6/et" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/tasvip 6/et" to="-" with="polarity"/>
+<Word name="3/saygısız" positionX="750" positionY="200"/>
+<Connection from="5/tasvip 6/et" to="3/saygısız" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/saygısız" to="o" with="poss"/>
+<Word name="1/bu 2/kadar" positionX="750" positionY="300"/>
+<Connection from="3/saygısız" to="1/bu 2/kadar" with="mod"/>
+<Word name="4/kimse" positionX="850" positionY="200"/>
+<Connection from="5/tasvip 6/et" to="4/kimse" with="ARG0"/>
+<Connection from="4/kimse" to="o" with="poss"/>
+</Amr>

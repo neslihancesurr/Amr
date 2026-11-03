@@ -1,0 +1,23 @@
+<Amr sentence="Küçük hizmetçi masanın öbür ucundan yarım sağa çark etti , elektrik düğmesine doğru döndü .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="8/çark 9/et" positionX="650" positionY="200"/>
+<Connection from="and" to="8/çark 9/et" with="op1"/>
+<Word name="2/hizmetçi" positionX="550" positionY="300"/>
+<Connection from="8/çark 9/et" to="2/hizmetçi" with="ARG0"/>
+<Word name="1/küçük" positionX="450" positionY="400"/>
+<Connection from="2/hizmetçi" to="1/küçük" with="mod"/>
+<Word name="7/sağ" positionX="650" positionY="300"/>
+<Connection from="8/çark 9/et" to="7/sağ" with="ARG1"/>
+<Word name="5/uç" positionX="550" positionY="400"/>
+<Connection from="7/sağ" to="5/uç" with="mod"/>
+<Word name="3/masa" positionX="450" positionY="500"/>
+<Connection from="5/uç" to="3/masa" with="mod"/>
+<Word name="4/öbür" positionX="550" positionY="500"/>
+<Connection from="5/uç" to="4/öbür" with="mod"/>
+<Word name="6/yarım" positionX="650" positionY="400"/>
+<Connection from="7/sağ" to="6/yarım" with="mod"/>
+<Word name="14/dön" positionX="750" positionY="200"/>
+<Connection from="and" to="14/dön" with="op2"/>
+<Word name="11/elektrik 12/düğme" positionX="650" positionY="300"/>
+<Connection from="14/dön" to="11/elektrik 12/düğme" with="ARG1"/>
+</Amr>

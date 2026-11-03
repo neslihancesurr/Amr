@@ -1,0 +1,17 @@
+<Amr sentence="Ötekine göre bu otelin pek bir konforu yok .">
+<Word name="8/yok" positionX="750" positionY="100"/>
+<Word name="1/öteki" positionX="650" positionY="200"/>
+<Connection from="8/yok" to="1/öteki"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/öteki" to="o" with="poss"/>
+<Word name="2/göre" positionX="650" positionY="300"/>
+<Connection from="1/öteki" to="2/göre"/>
+<Word name="4/otel" positionX="750" positionY="200"/>
+<Connection from="8/yok" to="4/otel"/>
+<Word name="3/bu" positionX="650" positionY="300"/>
+<Connection from="4/otel" to="3/bu" with="mod"/>
+<Word name="5/pek" positionX="850" positionY="200"/>
+<Connection from="8/yok" to="5/pek" with="manner"/>
+<Word name="7/konfor" positionX="950" positionY="200"/>
+<Connection from="8/yok" to="7/konfor"/>
+</Amr>

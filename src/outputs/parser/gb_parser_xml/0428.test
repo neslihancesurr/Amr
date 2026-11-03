@@ -1,0 +1,11 @@
+<Amr sentence="Bu kız daha sabahleyin yıkanmıştı .">
+<Word name="5/yıkan" positionX="750" positionY="100"/>
+<Word name="2/kız" positionX="650" positionY="200"/>
+<Connection from="5/yıkan" to="2/kız" with="ARG0"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/kız" to="1/bu" with="mod"/>
+<Word name="4/sabahleyin" positionX="750" positionY="200"/>
+<Connection from="5/yıkan" to="4/sabahleyin" with="manner"/>
+<Word name="3/daha" positionX="650" positionY="300"/>
+<Connection from="4/sabahleyin" to="3/daha" with="degree"/>
+</Amr>

@@ -1,0 +1,18 @@
+<Amr sentence="Görüştürülemeye de biliyor muydunuz ?">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="yap" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="yap"/>
+<Word name="1/gör" positionX="550" positionY="300"/>
+<Connection from="yap" to="1/gör"/>
+<Word name="-" positionX="450" positionY="400"/>
+<Connection from="1/gör" to="-" with="polarity"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="1/gör" to="o" with="ARG0"/>
+<Word name="2/de" positionX="650" positionY="400"/>
+<Connection from="1/gör" to="2/de"/>
+<Word name="3/bil" positionX="750" positionY="400"/>
+<Connection from="1/gör" to="3/bil"/>
+<Connection from="3/bil" to="o" with="ARG0"/>
+<Word name="4/mi" positionX="850" positionY="400"/>
+<Connection from="1/gör" to="4/mi"/>
+</Amr>

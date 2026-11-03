@@ -1,0 +1,17 @@
+<Amr sentence="Üç haftada bu kavşakta iki defa kaza oldu .">
+<Word name="7/kaza" positionX="750" positionY="100"/>
+<Word name="2/hafta" positionX="650" positionY="200"/>
+<Connection from="7/kaza" to="2/hafta" with="location"/>
+<Word name="1/üç" positionX="550" positionY="300"/>
+<Connection from="2/hafta" to="1/üç"/>
+<Word name="4/kavşak" positionX="750" positionY="200"/>
+<Connection from="7/kaza" to="4/kavşak" with="location"/>
+<Word name="3/bu" positionX="650" positionY="300"/>
+<Connection from="4/kavşak" to="3/bu" with="mod"/>
+<Word name="6/defa" positionX="850" positionY="200"/>
+<Connection from="7/kaza" to="6/defa"/>
+<Word name="5/iki" positionX="750" positionY="300"/>
+<Connection from="6/defa" to="5/iki"/>
+<Word name="8/ol" positionX="950" positionY="200"/>
+<Connection from="7/kaza" to="8/ol"/>
+</Amr>

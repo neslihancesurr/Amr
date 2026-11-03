@@ -1,0 +1,9 @@
+<Amr sentence="Oğlumun bütün öğretmenleri kadın .">
+<Word name="4/kadın" positionX="750" positionY="100"/>
+<Word name="3/öğretmen" positionX="650" positionY="200"/>
+<Connection from="4/kadın" to="3/öğretmen"/>
+<Word name="1/oğul" positionX="550" positionY="300"/>
+<Connection from="3/öğretmen" to="1/oğul" with="mod"/>
+<Word name="2/bütün" positionX="650" positionY="300"/>
+<Connection from="3/öğretmen" to="2/bütün" with="mod"/>
+</Amr>

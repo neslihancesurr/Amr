@@ -1,0 +1,11 @@
+<Amr sentence="Hepimiz tatilde deniz kıyısına gidiyoruz .">
+<Word name="5/git" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/git" to="biz" with="ARG0"/>
+<Word name="1/hep" positionX="750" positionY="200"/>
+<Connection from="5/git" to="1/hep" with="frequency"/>
+<Word name="2/tatil" positionX="850" positionY="200"/>
+<Connection from="5/git" to="2/tatil" with="location"/>
+<Word name="3/deniz 4/kıyı" positionX="950" positionY="200"/>
+<Connection from="5/git" to="3/deniz 4/kıyı" with="ARG1"/>
+</Amr>

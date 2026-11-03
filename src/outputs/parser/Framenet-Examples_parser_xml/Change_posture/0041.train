@@ -1,0 +1,18 @@
+<Amr sentence="İçeri girdiğimde koltuğa yayılmış , televizyon izliyordu .">
+<Word name="7/izle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/izle" to="o" with="ARG0"/>
+<Word name="2/gir" positionX="750" positionY="200"/>
+<Connection from="7/izle" to="2/gir"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="2/gir" to="ben" with="ARG0"/>
+<Word name="1/içeri" positionX="750" positionY="300"/>
+<Connection from="2/gir" to="1/içeri" with="ARG1"/>
+<Word name="4/yayıl" positionX="850" positionY="200"/>
+<Connection from="7/izle" to="4/yayıl"/>
+<Connection from="4/yayıl" to="o" with="ARG0"/>
+<Word name="3/koltuk" positionX="850" positionY="300"/>
+<Connection from="4/yayıl" to="3/koltuk"/>
+<Word name="6/televizyon" positionX="950" positionY="200"/>
+<Connection from="7/izle" to="6/televizyon" with="ARG1"/>
+</Amr>

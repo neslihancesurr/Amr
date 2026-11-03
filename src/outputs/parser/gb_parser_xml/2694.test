@@ -1,0 +1,15 @@
+<Amr sentence="Oysa bu fikre çoktandır alıştı sanıyordum .">
+<Word name="6/san" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="6/san" to="ben" with="ARG0"/>
+<Word name="5/alış" positionX="750" positionY="200"/>
+<Connection from="6/san" to="5/alış" with="ARG2"/>
+<Word name="1/o" positionX="650" positionY="300"/>
+<Connection from="5/alış" to="1/o" with="cond"/>
+<Word name="3/fikir" positionX="750" positionY="300"/>
+<Connection from="5/alış" to="3/fikir" with="ARG1"/>
+<Word name="2/bu" positionX="650" positionY="400"/>
+<Connection from="3/fikir" to="2/bu" with="mod"/>
+<Word name="4/çoktandır" positionX="850" positionY="300"/>
+<Connection from="5/alış" to="4/çoktandır" with="manner"/>
+</Amr>

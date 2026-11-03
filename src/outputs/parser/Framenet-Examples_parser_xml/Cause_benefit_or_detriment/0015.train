@@ -1,0 +1,11 @@
+<Amr sentence="Teşhir ürünlerini müşteriye çaktı .">
+<Word name="4/çak" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/çak" to="o" with="ARG0"/>
+<Word name="2/ürün" positionX="750" positionY="200"/>
+<Connection from="4/çak" to="2/ürün" with="ARG1"/>
+<Word name="1/teşhir" positionX="650" positionY="300"/>
+<Connection from="2/ürün" to="1/teşhir" with="mod"/>
+<Word name="3/müşteri" positionX="850" positionY="200"/>
+<Connection from="4/çak" to="3/müşteri" with="ARG2"/>
+</Amr>

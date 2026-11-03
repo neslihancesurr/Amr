@@ -1,0 +1,11 @@
+<Amr sentence="Baka da bilirim .">
+<Word name="1/bak" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="1/bak" to="o" with="ARG0"/>
+<Word name="2/da" positionX="750" positionY="200"/>
+<Connection from="1/bak" to="2/da"/>
+<Word name="3/bil" positionX="850" positionY="200"/>
+<Connection from="1/bak" to="3/bil"/>
+<Word name="ben" positionX="750" positionY="300"/>
+<Connection from="3/bil" to="ben" with="ARG0"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Taş aldığımı görmüş gibi tabana kuvvet kaçıyor .">
+<Word name="5/taban 6/kuvvet 7/kaç" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/taban 6/kuvvet 7/kaç" to="o" with="ARG0"/>
+<Word name="3/gör" positionX="750" positionY="200"/>
+<Connection from="5/taban 6/kuvvet 7/kaç" to="3/gör"/>
+<Word name="2/al" positionX="650" positionY="300"/>
+<Connection from="3/gör" to="2/al" with="ARG1"/>
+<Word name="ben" positionX="550" positionY="400"/>
+<Connection from="2/al" to="ben" with="ARG0"/>
+<Word name="1/taş" positionX="650" positionY="400"/>
+<Connection from="2/al" to="1/taş" with="ARG1"/>
+<Word name="4/gibi" positionX="750" positionY="300"/>
+<Connection from="3/gör" to="4/gibi"/>
+</Amr>

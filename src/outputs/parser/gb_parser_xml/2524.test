@@ -1,0 +1,16 @@
+<Amr sentence="Buraya birkaç ağaç dikilse çok fark ederdi .">
+<Word name="6/fark 7/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/fark 7/et" to="o" with="ARG0"/>
+<Word name="4/dik" positionX="750" positionY="200"/>
+<Connection from="6/fark 7/et" to="4/dik"/>
+<Connection from="4/dik" to="o" with="ARG0"/>
+<Word name="1/bura" positionX="750" positionY="300"/>
+<Connection from="4/dik" to="1/bura"/>
+<Word name="3/ağaç" positionX="850" positionY="300"/>
+<Connection from="4/dik" to="3/ağaç"/>
+<Word name="2/birkaç" positionX="750" positionY="400"/>
+<Connection from="3/ağaç" to="2/birkaç" with="mod"/>
+<Word name="5/çok" positionX="850" positionY="200"/>
+<Connection from="6/fark 7/et" to="5/çok" with="degree"/>
+</Amr>

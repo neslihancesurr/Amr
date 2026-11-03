@@ -1,0 +1,32 @@
+<Amr sentence="Nuri Bey , emekli olduktan sonra artık hiç bir işe yaramadığı kaygısına kapıldı .">
+<Word name="13/kapıl" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="13/kapıl" to="o" with="ARG0"/>
+<Word name="2/bey" positionX="750" positionY="200"/>
+<Connection from="13/kapıl" to="2/bey"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="2/bey" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/nuri" positionX="450" positionY="500"/>
+<Connection from="name" to="1/nuri" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/emekli 5/ol" positionX="850" positionY="200"/>
+<Connection from="13/kapıl" to="4/emekli 5/ol" with="manner"/>
+<Word name="12/kaygı" positionX="950" positionY="200"/>
+<Connection from="13/kapıl" to="12/kaygı"/>
+<Connection from="12/kaygı" to="o" with="poss"/>
+<Word name="11/yara" positionX="950" positionY="300"/>
+<Connection from="12/kaygı" to="11/yara"/>
+<Connection from="11/yara" to="-" with="polarity"/>
+<Connection from="11/yara" to="o" with="poss"/>
+<Word name="7/artık" positionX="1050" positionY="400"/>
+<Connection from="11/yara" to="7/artık" with="manner"/>
+<Word name="10/iş" positionX="1150" positionY="400"/>
+<Connection from="11/yara" to="10/iş"/>
+<Word name="8/hiç" positionX="1050" positionY="500"/>
+<Connection from="10/iş" to="8/hiç" with="degree"/>
+<Word name="9/bir" positionX="950" positionY="600"/>
+<Connection from="8/hiç" to="9/bir"/>
+</Amr>

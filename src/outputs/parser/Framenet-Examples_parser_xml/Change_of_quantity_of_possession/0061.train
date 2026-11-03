@@ -1,0 +1,9 @@
+<Amr sentence="O kadar lüksten sonra âdembabaya dönmüş .">
+<Word name="5/âdembaba 6/dön" positionX="750" positionY="100"/>
+<Word name="3/lüks" positionX="650" positionY="200"/>
+<Connection from="5/âdembaba 6/dön" to="3/lüks"/>
+<Word name="1/o 2/kadar" positionX="550" positionY="300"/>
+<Connection from="3/lüks" to="1/o 2/kadar" with="mod"/>
+<Word name="4/sonra" positionX="650" positionY="300"/>
+<Connection from="3/lüks" to="4/sonra"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr sentence="Turgut nasıl bilsin ki ?">
+<Word name="3/bil" positionX="750" positionY="100"/>
+<Word name="imperative" positionX="650" positionY="200"/>
+<Connection from="3/bil" to="imperative" with="mode"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="3/bil" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/turgut" positionX="550" positionY="400"/>
+<Connection from="name" to="1/turgut" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/nasıl" positionX="850" positionY="200"/>
+<Connection from="3/bil" to="2/nasıl" with="manner"/>
+<Word name="4/ki" positionX="950" positionY="200"/>
+<Connection from="3/bil" to="4/ki"/>
+</Amr>

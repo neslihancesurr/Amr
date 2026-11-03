@@ -1,0 +1,7 @@
+<Amr sentence="Öğretmen ve bilim insanıymış .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/bilim 4/insan" positionX="650" positionY="200"/>
+<Connection from="and" to="3/bilim 4/insan" with="op1"/>
+<Word name="1/öğretmen" positionX="750" positionY="200"/>
+<Connection from="and" to="1/öğretmen" with="op2"/>
+</Amr>

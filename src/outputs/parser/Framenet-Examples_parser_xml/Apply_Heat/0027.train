@@ -1,0 +1,9 @@
+<Amr sentence="Patatesi ateşe vurdum .">
+<Word name="2/ateş 3/vur" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="2/ateş 3/vur" to="ben" with="ARG0"/>
+<Word name="1/patates" positionX="750" positionY="200"/>
+<Connection from="2/ateş 3/vur" to="1/patates" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="1/patates" to="o" with="poss"/>
+</Amr>

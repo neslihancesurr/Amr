@@ -1,0 +1,13 @@
+<Amr sentence="Maçı izleyen kişiler yağmurdan sırılsıklam olmuşlar .">
+<Word name="5/sırılsıklam 6/ol" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="5/sırılsıklam 6/ol" to="onlar" with="ARG0"/>
+<Word name="3/kişi" positionX="750" positionY="200"/>
+<Connection from="5/sırılsıklam 6/ol" to="3/kişi" with="ARG1"/>
+<Word name="2/izle" positionX="650" positionY="300"/>
+<Connection from="3/kişi" to="2/izle"/>
+<Word name="1/maç" positionX="550" positionY="400"/>
+<Connection from="2/izle" to="1/maç" with="ARG1"/>
+<Word name="4/yağmur" positionX="850" positionY="200"/>
+<Connection from="5/sırılsıklam 6/ol" to="4/yağmur"/>
+</Amr>

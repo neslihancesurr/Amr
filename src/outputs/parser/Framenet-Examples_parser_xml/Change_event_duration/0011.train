@@ -1,0 +1,15 @@
+<Amr sentence="Kamyon hızını alamadı ve bariyerlere çarptı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/çarp" positionX="650" positionY="200"/>
+<Connection from="and" to="6/çarp" with="op1"/>
+<Word name="5/bariyer" positionX="550" positionY="300"/>
+<Connection from="6/çarp" to="5/bariyer" with="ARG1"/>
+<Word name="2/hız 3/al" positionX="750" positionY="200"/>
+<Connection from="and" to="2/hız 3/al" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="2/hız 3/al" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="2/hız 3/al" to="o" with="ARG0"/>
+<Word name="1/kamyon" positionX="850" positionY="300"/>
+<Connection from="2/hız 3/al" to="1/kamyon" with="ARG1"/>
+</Amr>

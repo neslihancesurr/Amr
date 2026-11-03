@@ -1,0 +1,13 @@
+<Amr sentence="O parayı geri vermeliydin .">
+<Word name="gerek" positionX="750" positionY="100"/>
+<Word name="4/ver" positionX="650" positionY="200"/>
+<Connection from="gerek" to="4/ver"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="4/ver" to="sen" with="ARG0"/>
+<Word name="2/para" positionX="650" positionY="300"/>
+<Connection from="4/ver" to="2/para"/>
+<Word name="1/o" positionX="550" positionY="400"/>
+<Connection from="2/para" to="1/o" with="mod"/>
+<Word name="3/geri" positionX="750" positionY="300"/>
+<Connection from="4/ver" to="3/geri" with="manner"/>
+</Amr>

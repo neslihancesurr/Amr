@@ -1,0 +1,15 @@
+<Amr sentence="Senin kadar akıllı bir insan tanımıyorum .">
+<Word name="6/tanı" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="6/tanı" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="6/tanı" to="ben" with="ARG0"/>
+<Word name="5/insan" positionX="850" positionY="200"/>
+<Connection from="6/tanı" to="5/insan" with="ARG1"/>
+<Word name="3/akıl" positionX="750" positionY="300"/>
+<Connection from="5/insan" to="3/akıl" with="mod"/>
+<Word name="1/sen" positionX="650" positionY="400"/>
+<Connection from="3/akıl" to="1/sen" with="mod"/>
+<Word name="2/kadar" positionX="550" positionY="500"/>
+<Connection from="1/sen" to="2/kadar"/>
+</Amr>

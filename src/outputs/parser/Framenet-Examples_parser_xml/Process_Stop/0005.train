@@ -1,0 +1,13 @@
+<Amr sentence="Yağmur iki günün sonunda dindi .">
+<Word name="5/din" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/din" to="o" with="ARG0"/>
+<Word name="1/yağmur" positionX="750" positionY="200"/>
+<Connection from="5/din" to="1/yağmur" with="ARG1"/>
+<Word name="4/son" positionX="850" positionY="200"/>
+<Connection from="5/din" to="4/son" with="location"/>
+<Word name="3/gün" positionX="750" positionY="300"/>
+<Connection from="4/son" to="3/gün" with="mod"/>
+<Word name="2/iki" positionX="650" positionY="400"/>
+<Connection from="3/gün" to="2/iki"/>
+</Amr>

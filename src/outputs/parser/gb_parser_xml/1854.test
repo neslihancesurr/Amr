@@ -1,0 +1,17 @@
+<Amr sentence="Programda yetkililerin istediği bazı değişiklikleri yapmamız gerekebilir .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="7/gerek" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="7/gerek"/>
+<Word name="5/değişiklik 6/yapma" positionX="550" positionY="300"/>
+<Connection from="7/gerek" to="5/değişiklik 6/yapma"/>
+<Word name="biz" positionX="450" positionY="400"/>
+<Connection from="5/değişiklik 6/yapma" to="biz" with="poss"/>
+<Word name="3/iste" positionX="550" positionY="400"/>
+<Connection from="5/değişiklik 6/yapma" to="3/iste"/>
+<Word name="o" positionX="450" positionY="500"/>
+<Connection from="3/iste" to="o" with="poss"/>
+<Word name="2/yetkili" positionX="550" positionY="500"/>
+<Connection from="3/iste" to="2/yetkili"/>
+<Word name="4/bazı" positionX="650" positionY="400"/>
+<Connection from="5/değişiklik 6/yapma" to="4/bazı" with="mod"/>
+</Amr>

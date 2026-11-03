@@ -1,0 +1,13 @@
+<Amr sentence="Kilisedeki birbirinden güzel freskleri tahrif etmişler .">
+<Word name="5/tahrif 6/et" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="5/tahrif 6/et" to="onlar" with="ARG0"/>
+<Word name="4/fresk" positionX="750" positionY="200"/>
+<Connection from="5/tahrif 6/et" to="4/fresk" with="ARG1"/>
+<Word name="1/kilise" positionX="650" positionY="300"/>
+<Connection from="4/fresk" to="1/kilise" with="mod"/>
+<Word name="3/güzel" positionX="750" positionY="300"/>
+<Connection from="4/fresk" to="3/güzel" with="mod"/>
+<Word name="2/birbiri" positionX="650" positionY="400"/>
+<Connection from="3/güzel" to="2/birbiri" with="mod"/>
+</Amr>

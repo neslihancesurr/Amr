@@ -1,0 +1,9 @@
+<Amr sentence="bu yedi tane iskemle">
+<Word name="4/iskemle" positionX="750" positionY="100"/>
+<Word name="1/bu" positionX="650" positionY="200"/>
+<Connection from="4/iskemle" to="1/bu" with="mod"/>
+<Word name="3/tane" positionX="750" positionY="200"/>
+<Connection from="4/iskemle" to="3/tane" with="mod"/>
+<Word name="2/yedi" positionX="650" positionY="300"/>
+<Connection from="3/tane" to="2/yedi"/>
+</Amr>

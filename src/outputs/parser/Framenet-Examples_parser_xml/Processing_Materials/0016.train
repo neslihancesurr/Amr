@@ -1,0 +1,11 @@
+<Amr sentence="Çitleri de dün telledik .">
+<Word name="4/telle" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="4/telle" to="biz" with="ARG0"/>
+<Word name="1/çit" positionX="750" positionY="200"/>
+<Connection from="4/telle" to="1/çit" with="ARG1"/>
+<Word name="2/de" positionX="650" positionY="300"/>
+<Connection from="1/çit" to="2/de" with="manner"/>
+<Word name="3/dün" positionX="850" positionY="200"/>
+<Connection from="4/telle" to="3/dün" with="mod"/>
+</Amr>

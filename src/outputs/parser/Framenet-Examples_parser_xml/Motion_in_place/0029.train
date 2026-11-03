@@ -1,0 +1,10 @@
+<Amr sentence="İfildeyerek kendime geldim .">
+<Word name="3/gel" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/gel" to="ben" with="ARG0"/>
+<Word name="1/ifilde" positionX="750" positionY="200"/>
+<Connection from="3/gel" to="1/ifilde"/>
+<Word name="2/kendi" positionX="850" positionY="200"/>
+<Connection from="3/gel" to="2/kendi"/>
+<Connection from="2/kendi" to="ben" with="poss"/>
+</Amr>

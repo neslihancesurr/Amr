@@ -1,0 +1,7 @@
+<Amr sentence="İstasyona doludizgin gidiyordum .">
+<Word name="2/doludizgin 3/git" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="2/doludizgin 3/git" to="ben" with="ARG0"/>
+<Word name="1/istasyon" positionX="750" positionY="200"/>
+<Connection from="2/doludizgin 3/git" to="1/istasyon" with="ARG2"/>
+</Amr>

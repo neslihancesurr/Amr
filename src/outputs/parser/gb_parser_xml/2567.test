@@ -1,0 +1,13 @@
+<Amr sentence="Sen gelmesen de olur .">
+<Word name="4/ol" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/ol" to="o" with="ARG0"/>
+<Word name="2/gel" positionX="750" positionY="200"/>
+<Connection from="4/ol" to="2/gel"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="2/gel" to="-" with="polarity"/>
+<Word name="1/sen" positionX="750" positionY="300"/>
+<Connection from="2/gel" to="1/sen"/>
+<Word name="3/de" positionX="850" positionY="300"/>
+<Connection from="2/gel" to="3/de"/>
+</Amr>

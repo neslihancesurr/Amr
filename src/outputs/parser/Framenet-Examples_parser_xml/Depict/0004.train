@@ -1,0 +1,15 @@
+<Amr sentence="O konuyu daha iyi anlatabilmek için resimledi .">
+<Word name="7/resimle" positionX="750" positionY="100"/>
+<Word name="2/konu" positionX="650" positionY="200"/>
+<Connection from="7/resimle" to="2/konu" with="ARG1"/>
+<Word name="1/o" positionX="550" positionY="300"/>
+<Connection from="2/konu" to="1/o" with="mod"/>
+<Word name="mümkün" positionX="750" positionY="200"/>
+<Connection from="7/resimle" to="mümkün"/>
+<Word name="5/anlat" positionX="650" positionY="300"/>
+<Connection from="mümkün" to="5/anlat" with="cause"/>
+<Word name="4/iyi" positionX="550" positionY="400"/>
+<Connection from="5/anlat" to="4/iyi" with="manner"/>
+<Word name="3/daha" positionX="450" positionY="500"/>
+<Connection from="4/iyi" to="3/daha" with="degree"/>
+</Amr>

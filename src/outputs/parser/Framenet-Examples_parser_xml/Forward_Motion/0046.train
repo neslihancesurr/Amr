@@ -1,0 +1,9 @@
+<Amr sentence="Atlar , ahıra doğru tırıs gidiyordu .">
+<Word name="5/tırıs 6/git" positionX="750" positionY="100"/>
+<Word name="1/at" positionX="650" positionY="200"/>
+<Connection from="5/tırıs 6/git" to="1/at" with="ARG0"/>
+<Word name="3/ahır" positionX="750" positionY="200"/>
+<Connection from="5/tırıs 6/git" to="3/ahır"/>
+<Word name="4/doğru" positionX="650" positionY="300"/>
+<Connection from="3/ahır" to="4/doğru"/>
+</Amr>

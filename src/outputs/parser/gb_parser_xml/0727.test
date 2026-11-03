@@ -1,0 +1,13 @@
+<Amr sentence="Bu makine öbüründen de ucuz .">
+<Word name="5/ucuz" positionX="750" positionY="100"/>
+<Word name="2/makine" positionX="650" positionY="200"/>
+<Connection from="5/ucuz" to="2/makine"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/makine" to="1/bu" with="mod"/>
+<Word name="3/öbür" positionX="750" positionY="200"/>
+<Connection from="5/ucuz" to="3/öbür"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/öbür" to="o" with="poss"/>
+<Word name="4/de" positionX="750" positionY="300"/>
+<Connection from="3/öbür" to="4/de"/>
+</Amr>

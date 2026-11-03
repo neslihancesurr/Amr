@@ -1,0 +1,15 @@
+<Amr sentence="Yeni iş bulamayınca don gömlek kaldı .">
+<Word name="4/don 5/gömlek 6/kal" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/don 5/gömlek 6/kal" to="o" with="ARG0"/>
+<Word name="mümkün" positionX="750" positionY="200"/>
+<Connection from="4/don 5/gömlek 6/kal" to="mümkün"/>
+<Word name="3/bul" positionX="650" positionY="300"/>
+<Connection from="mümkün" to="3/bul"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="3/bul" to="-" with="polarity"/>
+<Word name="2/iş" positionX="650" positionY="400"/>
+<Connection from="3/bul" to="2/iş" with="ARG1"/>
+<Word name="1/yeni" positionX="550" positionY="500"/>
+<Connection from="2/iş" to="1/yeni" with="mod"/>
+</Amr>

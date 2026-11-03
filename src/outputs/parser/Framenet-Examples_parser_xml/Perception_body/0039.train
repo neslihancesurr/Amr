@@ -1,0 +1,13 @@
+<Amr sentence="Alnı , yanakları ateş gibi yanıyordu .">
+<Word name="4/ateş 5/gibi 6/yan" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/ateş 5/gibi 6/yan" to="o" with="ARG0"/>
+<Word name="and" positionX="750" positionY="200"/>
+<Connection from="4/ateş 5/gibi 6/yan" to="and"/>
+<Word name="3/yanak" positionX="650" positionY="300"/>
+<Connection from="and" to="3/yanak" with="ARG1"/>
+<Connection from="3/yanak" to="o" with="poss"/>
+<Word name="1/alın" positionX="750" positionY="300"/>
+<Connection from="and" to="1/alın" with="ARG1"/>
+<Connection from="1/alın" to="o" with="poss"/>
+</Amr>

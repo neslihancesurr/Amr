@@ -1,0 +1,18 @@
+<Amr sentence="Gittiği okulda çocukları siyasi konularda afyonluyorlardı .">
+<Word name="6/afyonla" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="6/afyonla" to="onlar" with="ARG0"/>
+<Word name="2/okul" positionX="750" positionY="200"/>
+<Connection from="6/afyonla" to="2/okul" with="location"/>
+<Word name="1/git" positionX="650" positionY="300"/>
+<Connection from="2/okul" to="1/git"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="1/git" to="o" with="poss"/>
+<Word name="3/çocuk" positionX="850" positionY="200"/>
+<Connection from="6/afyonla" to="3/çocuk" with="ARG1"/>
+<Connection from="3/çocuk" to="o" with="poss"/>
+<Word name="5/konu" positionX="950" positionY="200"/>
+<Connection from="6/afyonla" to="5/konu" with="ARG2"/>
+<Word name="4/siyasi" positionX="850" positionY="300"/>
+<Connection from="5/konu" to="4/siyasi" with="mod"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr sentence="Artık her yerde McDonalds var .">
+<Word name="5/var" positionX="750" positionY="100"/>
+<Word name="1/artık" positionX="650" positionY="200"/>
+<Connection from="5/var" to="1/artık" with="manner"/>
+<Word name="3/yer" positionX="750" positionY="200"/>
+<Connection from="5/var" to="3/yer" with="location"/>
+<Word name="2/her" positionX="650" positionY="300"/>
+<Connection from="3/yer" to="2/her" with="mod"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="5/var" to="person"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="4/McDonalds" positionX="650" positionY="400"/>
+<Connection from="name" to="4/McDonalds" with="op1"/>
+<Word name="-" positionX="850" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

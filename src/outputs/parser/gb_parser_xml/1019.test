@@ -1,0 +1,15 @@
+<Amr sentence="Selim benim için bir şey bıraktı mı ?">
+<Word name="6/bırak" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="6/bırak" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/selim" positionX="450" positionY="400"/>
+<Connection from="name" to="1/selim" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/ben" positionX="750" positionY="200"/>
+<Connection from="6/bırak" to="2/ben" with="cause"/>
+<Word name="7/mi" positionX="850" positionY="200"/>
+<Connection from="6/bırak" to="7/mi"/>
+</Amr>

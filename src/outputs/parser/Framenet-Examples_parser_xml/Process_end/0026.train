@@ -1,0 +1,11 @@
+<Amr sentence="Buradan ayrılmadan o işin sonunu al !">
+<Word name="5/son 6/al" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="5/son 6/al" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="5/son 6/al" to="imperative" with="mode"/>
+<Word name="2/ayrıl" positionX="850" positionY="200"/>
+<Connection from="5/son 6/al" to="2/ayrıl"/>
+<Word name="1/bura" positionX="750" positionY="300"/>
+<Connection from="2/ayrıl" to="1/bura" with="ARG1"/>
+</Amr>

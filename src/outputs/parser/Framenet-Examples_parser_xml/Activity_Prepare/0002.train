@@ -1,0 +1,5 @@
+<Amr sentence="Tavuk gurk oldu .">
+<Word name="2/gurk 3/ol" positionX="750" positionY="100"/>
+<Word name="1/tavuk" positionX="650" positionY="200"/>
+<Connection from="2/gurk 3/ol" to="1/tavuk" with="ARG0"/>
+</Amr>

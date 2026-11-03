@@ -1,0 +1,23 @@
+<Amr sentence="Ben senin yengenim , amcanın karısıyım , bunu asla aklından çıkarma !">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/yenge" positionX="650" positionY="200"/>
+<Connection from="and" to="3/yenge" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="3/yenge" to="sen" with="poss"/>
+<Word name="1/ben" positionX="650" positionY="300"/>
+<Connection from="3/yenge" to="1/ben"/>
+<Word name="2/sen" positionX="750" positionY="300"/>
+<Connection from="3/yenge" to="2/sen" with="mod"/>
+<Word name="6/karı" positionX="750" positionY="200"/>
+<Connection from="and" to="6/karı" with="op2"/>
+<Word name="5/amca" positionX="650" positionY="300"/>
+<Connection from="6/karı" to="5/amca" with="mod"/>
+<Word name="10/akıl 11/çık" positionX="850" positionY="200"/>
+<Connection from="and" to="10/akıl 11/çık" with="op3"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="10/akıl 11/çık" to="o" with="ARG0"/>
+<Word name="8/bu" positionX="850" positionY="300"/>
+<Connection from="10/akıl 11/çık" to="8/bu" with="ARG1"/>
+<Word name="9/asla" positionX="950" positionY="300"/>
+<Connection from="10/akıl 11/çık" to="9/asla" with="manner"/>
+</Amr>

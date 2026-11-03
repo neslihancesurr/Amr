@@ -1,0 +1,9 @@
+<Amr sentence="Onu izlemek için manzaraya arkasını verdi .">
+<Word name="5/arka 6/ver" positionX="750" positionY="100"/>
+<Word name="2/izle" positionX="650" positionY="200"/>
+<Connection from="5/arka 6/ver" to="2/izle" with="cause"/>
+<Word name="1/o" positionX="550" positionY="300"/>
+<Connection from="2/izle" to="1/o" with="ARG1"/>
+<Word name="4/manzara" positionX="750" positionY="200"/>
+<Connection from="5/arka 6/ver" to="4/manzara"/>
+</Amr>

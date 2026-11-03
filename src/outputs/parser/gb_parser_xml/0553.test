@@ -1,0 +1,7 @@
+<Amr sentence="Telefon numaralarını yazdım .">
+<Word name="3/yaz" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/yaz" to="ben" with="ARG0"/>
+<Word name="1/telefon 2/numara" positionX="750" positionY="200"/>
+<Connection from="3/yaz" to="1/telefon 2/numara" with="ARG1"/>
+</Amr>

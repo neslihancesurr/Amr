@@ -1,0 +1,17 @@
+<Amr sentence="Öylesine yorgundu ki , gelir gelmez külçe gibi oturdu .">
+<Word name="7/külçe 8/gibi 9/otur" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/külçe 8/gibi 9/otur" to="o" with="ARG0"/>
+<Word name="2/yorgun" positionX="750" positionY="200"/>
+<Connection from="7/külçe 8/gibi 9/otur" to="2/yorgun"/>
+<Word name="1/öylesine" positionX="650" positionY="300"/>
+<Connection from="2/yorgun" to="1/öylesine" with="manner"/>
+<Word name="3/ki" positionX="750" positionY="300"/>
+<Connection from="2/yorgun" to="3/ki"/>
+<Word name="6/gel" positionX="850" positionY="200"/>
+<Connection from="7/külçe 8/gibi 9/otur" to="6/gel"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="6/gel" to="-" with="polarity"/>
+<Word name="5/gelir" positionX="850" positionY="300"/>
+<Connection from="6/gel" to="5/gelir"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Öğrenciler çok kahve içer .">
+<Word name="4/iç" positionX="750" positionY="100"/>
+<Word name="1/öğrenci" positionX="650" positionY="200"/>
+<Connection from="4/iç" to="1/öğrenci" with="ARG0"/>
+<Word name="2/çok" positionX="750" positionY="200"/>
+<Connection from="4/iç" to="2/çok" with="degree"/>
+<Word name="3/kahve" positionX="850" positionY="200"/>
+<Connection from="4/iç" to="3/kahve" with="ARG1"/>
+</Amr>

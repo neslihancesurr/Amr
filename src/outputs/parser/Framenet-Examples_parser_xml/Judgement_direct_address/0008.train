@@ -1,0 +1,7 @@
+<Amr sentence="O heriften hesap soracaktır .">
+<Word name="3/hesap 4/sor" positionX="750" positionY="100"/>
+<Word name="2/herif" positionX="650" positionY="200"/>
+<Connection from="3/hesap 4/sor" to="2/herif" with="ARG1"/>
+<Word name="1/o" positionX="550" positionY="300"/>
+<Connection from="2/herif" to="1/o" with="mod"/>
+</Amr>

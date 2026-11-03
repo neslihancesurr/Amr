@@ -1,0 +1,9 @@
+<Amr sentence="Çocuklar bahçe duvarını alacaladılar .">
+<Word name="4/alacala" positionX="750" positionY="100"/>
+<Word name="1/çocuk" positionX="650" positionY="200"/>
+<Connection from="4/alacala" to="1/çocuk" with="ARG0"/>
+<Word name="3/duvar" positionX="750" positionY="200"/>
+<Connection from="4/alacala" to="3/duvar" with="ARG1"/>
+<Word name="2/bahçe" positionX="650" positionY="300"/>
+<Connection from="3/duvar" to="2/bahçe" with="mod"/>
+</Amr>

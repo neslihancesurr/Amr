@@ -1,0 +1,15 @@
+<Amr sentence="Zeytinyağı tüccarı böyle bir değişikliği kesinlikle tasvip etmezdi .">
+<Word name="7/tasvip 8/et" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="7/tasvip 8/et" to="-" with="polarity"/>
+<Word name="2/tüccar" positionX="750" positionY="200"/>
+<Connection from="7/tasvip 8/et" to="2/tüccar" with="ARG0"/>
+<Word name="1/zeytinyağ" positionX="650" positionY="300"/>
+<Connection from="2/tüccar" to="1/zeytinyağ" with="mod"/>
+<Word name="5/değişiklik" positionX="850" positionY="200"/>
+<Connection from="7/tasvip 8/et" to="5/değişiklik" with="ARG1"/>
+<Word name="3/böyle" positionX="750" positionY="300"/>
+<Connection from="5/değişiklik" to="3/böyle" with="mod"/>
+<Word name="6/kesinlikle" positionX="950" positionY="200"/>
+<Connection from="7/tasvip 8/et" to="6/kesinlikle" with="manner"/>
+</Amr>

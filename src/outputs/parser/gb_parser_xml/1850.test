@@ -1,0 +1,28 @@
+<Amr sentence="Bazen masaya Ayşe'nin bize Meksika'dan getirdiği bir örtüyü yayardık .">
+<Word name="9/yay" positionX="750" positionY="100"/>
+<Word name="1/bazen" positionX="650" positionY="200"/>
+<Connection from="9/yay" to="1/bazen" with="manner"/>
+<Word name="2/masa" positionX="750" positionY="200"/>
+<Connection from="9/yay" to="2/masa" with="ARG2"/>
+<Word name="8/örtü" positionX="850" positionY="200"/>
+<Connection from="9/yay" to="8/örtü" with="ARG1"/>
+<Word name="6/getir" positionX="750" positionY="300"/>
+<Connection from="8/örtü" to="6/getir"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="6/getir" to="o" with="poss"/>
+<Word name="person" positionX="750" positionY="400"/>
+<Connection from="6/getir" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/ayşe" positionX="550" positionY="600"/>
+<Connection from="name" to="3/ayşe" with="op1"/>
+<Word name="-" positionX="750" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/biz" positionX="850" positionY="400"/>
+<Connection from="6/getir" to="4/biz" with="ARG1"/>
+<Connection from="6/getir" to="person" with="ARG1"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="5/meksika" positionX="750" positionY="600"/>
+<Connection from="name" to="5/meksika" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

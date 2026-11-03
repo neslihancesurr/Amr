@@ -1,0 +1,15 @@
+<Amr sentence="Bu sorun daha iki yıl önce vardı .">
+<Word name="7/var" positionX="750" positionY="100"/>
+<Word name="2/sorun" positionX="650" positionY="200"/>
+<Connection from="7/var" to="2/sorun"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/sorun" to="1/bu" with="mod"/>
+<Word name="5/yıl" positionX="750" positionY="200"/>
+<Connection from="7/var" to="5/yıl"/>
+<Word name="3/daha" positionX="650" positionY="300"/>
+<Connection from="5/yıl" to="3/daha" with="degree"/>
+<Word name="4/iki" positionX="750" positionY="300"/>
+<Connection from="5/yıl" to="4/iki"/>
+<Word name="6/önce" positionX="850" positionY="300"/>
+<Connection from="5/yıl" to="6/önce"/>
+</Amr>

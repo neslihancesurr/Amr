@@ -1,0 +1,7 @@
+<Amr sentence="en ilginç düşünce">
+<Word name="3/düşünce" positionX="750" positionY="100"/>
+<Word name="2/ilginç" positionX="650" positionY="200"/>
+<Connection from="3/düşünce" to="2/ilginç" with="mod"/>
+<Word name="1/en" positionX="550" positionY="300"/>
+<Connection from="2/ilginç" to="1/en" with="manner"/>
+</Amr>

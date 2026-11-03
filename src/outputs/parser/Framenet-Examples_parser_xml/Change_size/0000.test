@@ -1,0 +1,17 @@
+<Amr sentence="Bunlar da artık kasıyor , değiştirebiliriz .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/kas" positionX="650" positionY="200"/>
+<Connection from="and" to="4/kas" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/kas" to="o" with="ARG0"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="4/kas" to="1/bu" with="ARG1"/>
+<Word name="2/da" positionX="550" positionY="400"/>
+<Connection from="1/bu" to="2/da"/>
+<Word name="3/artık" positionX="750" positionY="300"/>
+<Connection from="4/kas" to="3/artık" with="manner"/>
+<Word name="6/değiştir" positionX="750" positionY="200"/>
+<Connection from="and" to="6/değiştir" with="op2"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="6/değiştir" to="biz" with="ARG0"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Mustafa'ya yardım etmeliyiz .">
+<Word name="gerek" positionX="750" positionY="100"/>
+<Word name="2/yardım 3/et" positionX="650" positionY="200"/>
+<Connection from="gerek" to="2/yardım 3/et"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="2/yardım 3/et" to="biz" with="ARG0"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="2/yardım 3/et" to="person" with="ARG1"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/mustafa" positionX="450" positionY="500"/>
+<Connection from="name" to="1/mustafa" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

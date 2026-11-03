@@ -1,0 +1,13 @@
+<Amr sentence="Elma değil , armut yiyorum .">
+<Word name="5/ye" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/ye" to="ben" with="ARG0"/>
+<Word name="and" positionX="750" positionY="200"/>
+<Connection from="5/ye" to="and"/>
+<Word name="4/armut" positionX="650" positionY="300"/>
+<Connection from="and" to="4/armut" with="ARG1"/>
+<Word name="1/elma" positionX="750" positionY="300"/>
+<Connection from="and" to="1/elma" with="op2"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="1/elma" to="-" with="polarity"/>
+</Amr>

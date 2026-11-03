@@ -1,0 +1,16 @@
+<Amr sentence="Öğleden sonra kardeşimin gelmek ihtimali var .">
+<Word name="6/var" positionX="750" positionY="100"/>
+<Word name="1/öğle 2/sonra" positionX="650" positionY="200"/>
+<Connection from="6/var" to="1/öğle 2/sonra"/>
+<Word name="5/ihtimal" positionX="750" positionY="200"/>
+<Connection from="6/var" to="5/ihtimal"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/ihtimal" to="o" with="poss"/>
+<Word name="4/gel" positionX="750" positionY="300"/>
+<Connection from="5/ihtimal" to="4/gel"/>
+<Connection from="4/gel" to="o" with="ARG0"/>
+<Word name="3/kardeş" positionX="750" positionY="400"/>
+<Connection from="4/gel" to="3/kardeş"/>
+<Word name="ben" positionX="650" positionY="500"/>
+<Connection from="3/kardeş" to="ben" with="poss"/>
+</Amr>

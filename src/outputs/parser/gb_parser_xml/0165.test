@@ -1,0 +1,9 @@
+<Amr sentence="birtakım ilginç çocuk kitapları">
+<Word name="4/kitap" positionX="750" positionY="100"/>
+<Word name="2/ilginç" positionX="650" positionY="200"/>
+<Connection from="4/kitap" to="2/ilginç" with="mod"/>
+<Word name="1/birtakım" positionX="550" positionY="300"/>
+<Connection from="2/ilginç" to="1/birtakım" with="mod"/>
+<Word name="3/çocuk" positionX="750" positionY="200"/>
+<Connection from="4/kitap" to="3/çocuk" with="mod"/>
+</Amr>

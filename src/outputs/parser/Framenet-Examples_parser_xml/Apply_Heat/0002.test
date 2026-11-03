@@ -1,0 +1,15 @@
+<Amr sentence="Çayın suyu kaynamış , demlesene .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/kayna" positionX="650" positionY="200"/>
+<Connection from="and" to="3/kayna" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/kayna" to="o" with="ARG0"/>
+<Word name="2/su" positionX="650" positionY="300"/>
+<Connection from="3/kayna" to="2/su" with="ARG1"/>
+<Word name="1/çay" positionX="550" positionY="400"/>
+<Connection from="2/su" to="1/çay" with="mod"/>
+<Word name="5/demle" positionX="750" positionY="200"/>
+<Connection from="and" to="5/demle" with="op2"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="5/demle" to="sen" with="ARG0"/>
+</Amr>

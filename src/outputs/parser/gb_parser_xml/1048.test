@@ -1,0 +1,22 @@
+<Amr sentence="Koray birkaç yıldan beri Kanada'da yaşamaktaydı .">
+<Word name="6/yaşa" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="6/yaşa" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/koray" positionX="450" positionY="400"/>
+<Connection from="name" to="1/koray" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/yıl" positionX="750" positionY="200"/>
+<Connection from="6/yaşa" to="3/yıl"/>
+<Word name="2/birkaç" positionX="650" positionY="300"/>
+<Connection from="3/yıl" to="2/birkaç" with="mod"/>
+<Word name="4/beri" positionX="750" positionY="300"/>
+<Connection from="3/yıl" to="4/beri"/>
+<Connection from="6/yaşa" to="person" with="ARG1"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="5/kanada" positionX="650" positionY="400"/>
+<Connection from="name" to="5/kanada" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

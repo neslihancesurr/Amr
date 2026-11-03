@@ -1,0 +1,13 @@
+<Amr sentence="Öyle adamlar insanı kolaylıkla aldatabiliyorlar .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="5/aldat" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="5/aldat"/>
+<Word name="2/adam" positionX="550" positionY="300"/>
+<Connection from="5/aldat" to="2/adam" with="ARG0"/>
+<Word name="1/öyle" positionX="450" positionY="400"/>
+<Connection from="2/adam" to="1/öyle" with="mod"/>
+<Word name="3/insan" positionX="650" positionY="300"/>
+<Connection from="5/aldat" to="3/insan" with="ARG1"/>
+<Word name="4/kolaylıkla" positionX="750" positionY="300"/>
+<Connection from="5/aldat" to="4/kolaylıkla"/>
+</Amr>

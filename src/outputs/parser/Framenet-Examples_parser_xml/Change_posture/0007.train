@@ -1,0 +1,11 @@
+<Amr sentence="Bana seslenen adama doğru yüz tuttum .">
+<Word name="5/yüz 6/tut" positionX="750" positionY="100"/>
+<Word name="4/doğru" positionX="650" positionY="200"/>
+<Connection from="5/yüz 6/tut" to="4/doğru" with="manner"/>
+<Word name="3/adama" positionX="550" positionY="300"/>
+<Connection from="4/doğru" to="3/adama"/>
+<Word name="2/seslen" positionX="450" positionY="400"/>
+<Connection from="3/adama" to="2/seslen"/>
+<Word name="1/ben" positionX="350" positionY="500"/>
+<Connection from="2/seslen" to="1/ben"/>
+</Amr>

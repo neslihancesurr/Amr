@@ -1,0 +1,14 @@
+<Amr sentence="En az yirmi şiiri ezberinde olur .">
+<Word name="5/ezber 6/ol" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/ezber 6/ol" to="o" with="ARG0"/>
+<Word name="4/şiir" positionX="750" positionY="200"/>
+<Connection from="5/ezber 6/ol" to="4/şiir" with="ARG1"/>
+<Connection from="4/şiir" to="o" with="poss"/>
+<Word name="3/yirmi" positionX="750" positionY="300"/>
+<Connection from="4/şiir" to="3/yirmi"/>
+<Word name="2/az" positionX="650" positionY="400"/>
+<Connection from="3/yirmi" to="2/az" with="manner"/>
+<Word name="1/en" positionX="550" positionY="500"/>
+<Connection from="2/az" to="1/en" with="manner"/>
+</Amr>

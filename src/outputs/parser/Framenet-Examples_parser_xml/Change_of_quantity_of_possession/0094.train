@@ -1,0 +1,17 @@
+<Amr sentence="Sen artık kül bağlamışsın , pek bir şey yapamazsın .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/kül 4/bağla" positionX="650" positionY="200"/>
+<Connection from="and" to="3/kül 4/bağla" with="op1"/>
+<Word name="1/sen" positionX="550" positionY="300"/>
+<Connection from="3/kül 4/bağla" to="1/sen" with="ARG0"/>
+<Word name="2/artık" positionX="650" positionY="300"/>
+<Connection from="3/kül 4/bağla" to="2/artık" with="manner"/>
+<Word name="9/yap" positionX="750" positionY="200"/>
+<Connection from="and" to="9/yap" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="9/yap" to="-" with="polarity"/>
+<Word name="6/pek" positionX="750" positionY="300"/>
+<Connection from="9/yap" to="6/pek" with="ARG1"/>
+<Word name="8/şey" positionX="850" positionY="300"/>
+<Connection from="9/yap" to="8/şey" with="ARG1"/>
+</Amr>

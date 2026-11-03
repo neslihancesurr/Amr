@@ -1,0 +1,9 @@
+<Amr sentence="İş türlü sebeplerle tavsadı .">
+<Word name="4/tavsa" positionX="750" positionY="100"/>
+<Word name="1/iş" positionX="650" positionY="200"/>
+<Connection from="4/tavsa" to="1/iş" with="ARG0"/>
+<Word name="3/sebep" positionX="750" positionY="200"/>
+<Connection from="4/tavsa" to="3/sebep" with="instrument"/>
+<Word name="2/türlü" positionX="650" positionY="300"/>
+<Connection from="3/sebep" to="2/türlü" with="mod"/>
+</Amr>

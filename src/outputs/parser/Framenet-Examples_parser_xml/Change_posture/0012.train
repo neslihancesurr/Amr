@@ -1,0 +1,11 @@
+<Amr sentence="Kolileri kaldırmak için eğildi .">
+<Word name="4/eğ" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/eğ" to="o" with="ARG0"/>
+<Word name="2/kaldır" positionX="750" positionY="200"/>
+<Connection from="4/eğ" to="2/kaldır" with="cause"/>
+<Connection from="2/kaldır" to="o" with="ARG0"/>
+<Word name="1/koli" positionX="750" positionY="300"/>
+<Connection from="2/kaldır" to="1/koli" with="ARG1"/>
+<Connection from="1/koli" to="o" with="poss"/>
+</Amr>

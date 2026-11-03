@@ -1,0 +1,9 @@
+<Amr sentence="nefret ettiğimiz kişiler">
+<Word name="3/kişi" positionX="750" positionY="100"/>
+<Word name="2/et" positionX="650" positionY="200"/>
+<Connection from="3/kişi" to="2/et"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="2/et" to="biz" with="poss"/>
+<Word name="1/nefret" positionX="650" positionY="300"/>
+<Connection from="2/et" to="1/nefret"/>
+</Amr>

@@ -1,0 +1,25 @@
+<Amr sentence="O da herkes gibi bir insan , nihayetinde bu gizemli davadan yoruldu ve arkasını bıraktı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/insan" positionX="650" positionY="200"/>
+<Connection from="and" to="6/insan" with="op1"/>
+<Word name="1/o" positionX="550" positionY="300"/>
+<Connection from="6/insan" to="1/o"/>
+<Word name="2/da" positionX="450" positionY="400"/>
+<Connection from="1/o" to="2/da"/>
+<Word name="3/herkes" positionX="650" positionY="300"/>
+<Connection from="6/insan" to="3/herkes" with="mod"/>
+<Word name="4/gibi" positionX="550" positionY="400"/>
+<Connection from="3/herkes" to="4/gibi"/>
+<Word name="14/arka 15/bırak" positionX="750" positionY="200"/>
+<Connection from="and" to="14/arka 15/bırak" with="op2"/>
+<Word name="12/yorul" positionX="850" positionY="200"/>
+<Connection from="and" to="12/yorul" with="op3"/>
+<Word name="8/nihayetinde" positionX="750" positionY="300"/>
+<Connection from="12/yorul" to="8/nihayetinde"/>
+<Word name="11/dava" positionX="850" positionY="300"/>
+<Connection from="12/yorul" to="11/dava"/>
+<Word name="9/bu" positionX="750" positionY="400"/>
+<Connection from="11/dava" to="9/bu" with="mod"/>
+<Word name="10/gizemli" positionX="850" positionY="400"/>
+<Connection from="11/dava" to="10/gizemli" with="mod"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Metali dondurdular .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="2/don" positionX="650" positionY="200"/>
+<Connection from="yap" to="2/don"/>
+<Word name="onlar" positionX="550" positionY="300"/>
+<Connection from="2/don" to="onlar" with="ARG0"/>
+<Word name="1/metal" positionX="650" positionY="300"/>
+<Connection from="2/don" to="1/metal" with="ARG1"/>
+</Amr>

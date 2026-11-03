@@ -1,0 +1,15 @@
+<Amr sentence="Genellikle saat yediye kadar dükkanı kapatmış oluyorduk .">
+<Word name="6/kapat" positionX="750" positionY="100"/>
+<Word name="1/genellikle" positionX="650" positionY="200"/>
+<Connection from="6/kapat" to="1/genellikle" with="manner"/>
+<Word name="3/yedi" positionX="750" positionY="200"/>
+<Connection from="6/kapat" to="3/yedi" with="extent"/>
+<Word name="2/saat" positionX="650" positionY="300"/>
+<Connection from="3/yedi" to="2/saat" with="mod"/>
+<Word name="5/dükkan" positionX="850" positionY="200"/>
+<Connection from="6/kapat" to="5/dükkan"/>
+<Word name="7/ol" positionX="950" positionY="200"/>
+<Connection from="6/kapat" to="7/ol"/>
+<Word name="biz" positionX="850" positionY="300"/>
+<Connection from="7/ol" to="biz" with="ARG0"/>
+</Amr>

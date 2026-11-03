@@ -1,0 +1,9 @@
+<Amr sentence="Usul usul yapmışlar .">
+<Word name="3/yap" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="3/yap" to="onlar" with="ARG0"/>
+<Word name="2/usul" positionX="750" positionY="200"/>
+<Connection from="3/yap" to="2/usul" with="mod"/>
+<Word name="1/usul" positionX="650" positionY="300"/>
+<Connection from="2/usul" to="1/usul"/>
+</Amr>

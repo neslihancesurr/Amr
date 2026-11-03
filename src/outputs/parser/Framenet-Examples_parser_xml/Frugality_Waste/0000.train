@@ -1,0 +1,20 @@
+<Amr sentence="Kimsenin geçmeyeceği bir köprü yaparak milyonları saçıp savurdular .">
+<Word name="7/saç 8/savur" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="7/saç 8/savur" to="onlar" with="ARG0"/>
+<Word name="5/yap" positionX="750" positionY="200"/>
+<Connection from="7/saç 8/savur" to="5/yap"/>
+<Word name="4/köprü" positionX="650" positionY="300"/>
+<Connection from="5/yap" to="4/köprü" with="ARG1"/>
+<Word name="2/geç" positionX="550" positionY="400"/>
+<Connection from="4/köprü" to="2/geç"/>
+<Word name="-" positionX="450" positionY="500"/>
+<Connection from="2/geç" to="-" with="polarity"/>
+<Word name="o" positionX="550" positionY="500"/>
+<Connection from="2/geç" to="o" with="poss"/>
+<Word name="1/kimse" positionX="650" positionY="500"/>
+<Connection from="2/geç" to="1/kimse" with="ARG0"/>
+<Connection from="1/kimse" to="o" with="poss"/>
+<Word name="6/milyon" positionX="850" positionY="200"/>
+<Connection from="7/saç 8/savur" to="6/milyon"/>
+</Amr>

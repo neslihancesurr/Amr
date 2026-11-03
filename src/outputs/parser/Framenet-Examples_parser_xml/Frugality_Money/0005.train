@@ -1,0 +1,28 @@
+<Amr sentence="Torpilsiz bir yere gelemeyeceğinin farkında , bu yüzden müdürlerine adeta para akıtıyor .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/fark" positionX="650" positionY="200"/>
+<Connection from="and" to="5/fark" with="location"/>
+<Word name="mümkün" positionX="550" positionY="300"/>
+<Connection from="5/fark" to="mümkün"/>
+<Word name="4/gel" positionX="450" positionY="400"/>
+<Connection from="mümkün" to="4/gel"/>
+<Word name="-" positionX="350" positionY="500"/>
+<Connection from="4/gel" to="-" with="polarity"/>
+<Word name="o" positionX="450" positionY="500"/>
+<Connection from="4/gel" to="o" with="ARG0"/>
+<Connection from="4/gel" to="o" with="poss"/>
+<Word name="1/torpilsiz" positionX="650" positionY="500"/>
+<Connection from="4/gel" to="1/torpilsiz" with="ARG1"/>
+<Word name="3/yer" positionX="750" positionY="500"/>
+<Connection from="4/gel" to="3/yer"/>
+<Word name="11/para 12/akıt" positionX="750" positionY="200"/>
+<Connection from="and" to="11/para 12/akıt" with="op2"/>
+<Connection from="11/para 12/akıt" to="o" with="ARG0"/>
+<Word name="7/bu 8/yüzden" positionX="750" positionY="300"/>
+<Connection from="11/para 12/akıt" to="7/bu 8/yüzden" with="mod"/>
+<Word name="9/müdür" positionX="850" positionY="300"/>
+<Connection from="11/para 12/akıt" to="9/müdür" with="ARG1"/>
+<Connection from="9/müdür" to="o" with="poss"/>
+<Word name="10/adeta" positionX="950" positionY="300"/>
+<Connection from="11/para 12/akıt" to="10/adeta" with="manner"/>
+</Amr>

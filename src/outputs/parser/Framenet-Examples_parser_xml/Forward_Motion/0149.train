@@ -1,0 +1,9 @@
+<Amr sentence="Takım kalenin önünde baraj kurdu .">
+<Word name="4/baraj 5/kur" positionX="750" positionY="100"/>
+<Word name="1/takım" positionX="650" positionY="200"/>
+<Connection from="4/baraj 5/kur" to="1/takım" with="ARG0"/>
+<Word name="3/ön" positionX="750" positionY="200"/>
+<Connection from="4/baraj 5/kur" to="3/ön" with="ARG2"/>
+<Word name="2/kale" positionX="650" positionY="300"/>
+<Connection from="3/ön" to="2/kale" with="mod"/>
+</Amr>

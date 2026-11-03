@@ -1,0 +1,15 @@
+<Amr sentence="Ben şimdi derslerimi aşağıda bilgisayarla veriyorum .">
+<Word name="6/ver" positionX="750" positionY="100"/>
+<Word name="1/ben" positionX="650" positionY="200"/>
+<Connection from="6/ver" to="1/ben" with="ARG0"/>
+<Word name="2/şimdi" positionX="750" positionY="200"/>
+<Connection from="6/ver" to="2/şimdi" with="manner"/>
+<Word name="3/ders" positionX="850" positionY="200"/>
+<Connection from="6/ver" to="3/ders" with="ARG1"/>
+<Word name="ben" positionX="750" positionY="300"/>
+<Connection from="3/ders" to="ben" with="poss"/>
+<Word name="4/aşağı" positionX="950" positionY="200"/>
+<Connection from="6/ver" to="4/aşağı" with="location"/>
+<Word name="5/bilgisayar" positionX="1050" positionY="200"/>
+<Connection from="6/ver" to="5/bilgisayar" with="instrument"/>
+</Amr>

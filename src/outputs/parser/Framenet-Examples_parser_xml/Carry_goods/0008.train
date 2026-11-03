@@ -1,0 +1,11 @@
+<Amr sentence="Yapım için gereken malzemeleri biz tedarik edeceğiz .">
+<Word name="6/tedarik 7/et" positionX="750" positionY="100"/>
+<Word name="4/malzeme" positionX="650" positionY="200"/>
+<Connection from="6/tedarik 7/et" to="4/malzeme" with="ARG1"/>
+<Word name="3/gerek" positionX="550" positionY="300"/>
+<Connection from="4/malzeme" to="3/gerek" with="mod"/>
+<Word name="1/yapım" positionX="450" positionY="400"/>
+<Connection from="3/gerek" to="1/yapım" with="cause"/>
+<Word name="5/biz" positionX="750" positionY="200"/>
+<Connection from="6/tedarik 7/et" to="5/biz" with="ARG0"/>
+</Amr>

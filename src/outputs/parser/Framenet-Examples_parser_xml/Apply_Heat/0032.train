@@ -1,0 +1,22 @@
+<Amr sentence="Patatesleri önce fırınladım sonra birkaç dakikalığına haşladım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/fırınla" positionX="650" positionY="200"/>
+<Connection from="and" to="3/fırınla" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="3/fırınla" to="ben" with="ARG0"/>
+<Word name="1/patates" positionX="650" positionY="300"/>
+<Connection from="3/fırınla" to="1/patates"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="1/patates" to="o" with="poss"/>
+<Word name="2/önce" positionX="750" positionY="300"/>
+<Connection from="3/fırınla" to="2/önce" with="manner"/>
+<Word name="7/haşla" positionX="750" positionY="200"/>
+<Connection from="and" to="7/haşla" with="op2"/>
+<Connection from="7/haşla" to="ben" with="ARG0"/>
+<Word name="4/sonra" positionX="750" positionY="300"/>
+<Connection from="7/haşla" to="4/sonra" with="manner"/>
+<Word name="6/dakikalığına" positionX="850" positionY="300"/>
+<Connection from="7/haşla" to="6/dakikalığına"/>
+<Word name="5/birkaç" positionX="750" positionY="400"/>
+<Connection from="6/dakikalığına" to="5/birkaç" with="mod"/>
+</Amr>

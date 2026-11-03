@@ -1,0 +1,11 @@
+<Amr sentence="Sol açık topu güzel ortaladı .">
+<Word name="5/ortala" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/ortala" to="o" with="ARG0"/>
+<Word name="3/top" positionX="750" positionY="200"/>
+<Connection from="5/ortala" to="3/top" with="ARG1"/>
+<Word name="1/sol 2/açık" positionX="650" positionY="300"/>
+<Connection from="3/top" to="1/sol 2/açık"/>
+<Word name="4/güzel" positionX="850" positionY="200"/>
+<Connection from="5/ortala" to="4/güzel" with="manner"/>
+</Amr>

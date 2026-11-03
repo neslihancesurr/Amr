@@ -1,0 +1,29 @@
+<Amr sentence="Leşlerini köpek leşi gibi İstanbul'un çamurlu kaldırımlarına sermek zamanı gelmişti .">
+<Word name="10/gel" positionX="750" positionY="100"/>
+<Word name="9/zaman" positionX="650" positionY="200"/>
+<Connection from="10/gel" to="9/zaman" with="ARG0"/>
+<Word name="8/ser" positionX="550" positionY="300"/>
+<Connection from="9/zaman" to="8/ser" with="mod"/>
+<Word name="1/leş" positionX="450" positionY="400"/>
+<Connection from="8/ser" to="1/leş" with="ARG1"/>
+<Word name="o" positionX="350" positionY="500"/>
+<Connection from="1/leş" to="o" with="poss"/>
+<Word name="3/leş" positionX="550" positionY="400"/>
+<Connection from="8/ser" to="3/leş" with="mod"/>
+<Word name="2/köpek" positionX="450" positionY="500"/>
+<Connection from="3/leş" to="2/köpek" with="mod"/>
+<Word name="4/gibi" positionX="550" positionY="500"/>
+<Connection from="3/leş" to="4/gibi"/>
+<Word name="7/kaldırım" positionX="650" positionY="400"/>
+<Connection from="8/ser" to="7/kaldırım"/>
+<Word name="city" positionX="550" positionY="500"/>
+<Connection from="7/kaldırım" to="city"/>
+<Word name="name" positionX="450" positionY="600"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="5/istanbul" positionX="350" positionY="700"/>
+<Connection from="name" to="5/istanbul" with="op1"/>
+<Word name="istanbul" positionX="550" positionY="600"/>
+<Connection from="city" to="istanbul" with="wiki"/>
+<Word name="6/çamurlu" positionX="650" positionY="500"/>
+<Connection from="7/kaldırım" to="6/çamurlu" with="mod"/>
+</Amr>

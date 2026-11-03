@@ -1,0 +1,11 @@
+<Amr sentence="Çocuklar burada mı kalsın ?">
+<Word name="4/kal" positionX="750" positionY="100"/>
+<Word name="imperative" positionX="650" positionY="200"/>
+<Connection from="4/kal" to="imperative" with="mode"/>
+<Word name="1/çocuk" positionX="750" positionY="200"/>
+<Connection from="4/kal" to="1/çocuk" with="ARG0"/>
+<Word name="2/burada" positionX="850" positionY="200"/>
+<Connection from="4/kal" to="2/burada"/>
+<Word name="3/mi" positionX="750" positionY="300"/>
+<Connection from="2/burada" to="3/mi"/>
+</Amr>

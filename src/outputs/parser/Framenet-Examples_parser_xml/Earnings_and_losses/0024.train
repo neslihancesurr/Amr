@@ -1,0 +1,9 @@
+<Amr sentence="Elde avuçta kalmadı beş kuruş .">
+<Word name="1/el 2/avuç 3/kal" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="1/el 2/avuç 3/kal" to="-" with="polarity"/>
+<Word name="5/kuruş" positionX="750" positionY="200"/>
+<Connection from="1/el 2/avuç 3/kal" to="5/kuruş" with="ARG0"/>
+<Word name="4/beş" positionX="650" positionY="300"/>
+<Connection from="5/kuruş" to="4/beş"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Jöle açıkta kaldığı için kemikleşti .">
+<Word name="5/kemikleş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/kemikleş" to="o" with="ARG0"/>
+<Word name="3/kal" positionX="750" positionY="200"/>
+<Connection from="5/kemikleş" to="3/kal" with="cause"/>
+<Connection from="3/kal" to="o" with="ARG0"/>
+<Connection from="3/kal" to="o" with="poss"/>
+<Word name="1/jöle" positionX="850" positionY="300"/>
+<Connection from="3/kal" to="1/jöle"/>
+<Word name="2/açık" positionX="950" positionY="300"/>
+<Connection from="3/kal" to="2/açık" with="location"/>
+</Amr>

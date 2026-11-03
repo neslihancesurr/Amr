@@ -1,0 +1,13 @@
+<Amr sentence="Öğrencisinin başarısını kendi başarısı addetti .">
+<Word name="5/addet" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/addet" to="o" with="ARG0"/>
+<Word name="2/başarı" positionX="750" positionY="200"/>
+<Connection from="5/addet" to="2/başarı" with="ARG1"/>
+<Word name="1/öğrenci" positionX="650" positionY="300"/>
+<Connection from="2/başarı" to="1/öğrenci" with="mod"/>
+<Word name="4/başarı" positionX="850" positionY="200"/>
+<Connection from="5/addet" to="4/başarı" with="mod"/>
+<Word name="3/kendi" positionX="750" positionY="300"/>
+<Connection from="4/başarı" to="3/kendi" with="mod"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Yanına her şeyini aldın mı ?">
+<Word name="4/al" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="4/al" to="sen" with="ARG0"/>
+<Word name="1/yan" positionX="750" positionY="200"/>
+<Connection from="4/al" to="1/yan"/>
+<Connection from="1/yan" to="sen" with="poss"/>
+<Word name="3/şey" positionX="850" positionY="200"/>
+<Connection from="4/al" to="3/şey" with="ARG1"/>
+<Connection from="3/şey" to="sen" with="poss"/>
+<Word name="2/her" positionX="850" positionY="300"/>
+<Connection from="3/şey" to="2/her" with="mod"/>
+<Word name="5/mi" positionX="950" positionY="200"/>
+<Connection from="4/al" to="5/mi"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Resmi üç ayrı boyayla renklendirdim .">
+<Word name="5/renklendir" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/renklendir" to="ben" with="ARG0"/>
+<Word name="1/resim" positionX="750" positionY="200"/>
+<Connection from="5/renklendir" to="1/resim" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="1/resim" to="o" with="poss"/>
+<Word name="4/boya" positionX="850" positionY="200"/>
+<Connection from="5/renklendir" to="4/boya" with="instrument"/>
+<Word name="2/üç" positionX="750" positionY="300"/>
+<Connection from="4/boya" to="2/üç"/>
+<Word name="3/ayrı" positionX="850" positionY="300"/>
+<Connection from="4/boya" to="3/ayrı" with="mod"/>
+</Amr>

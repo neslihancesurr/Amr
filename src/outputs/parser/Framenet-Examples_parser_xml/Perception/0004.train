@@ -1,0 +1,9 @@
+<Amr sentence="İçlerinde her şeye karşılık bir suçluluk duygusu taşırlar .">
+<Word name="8/taşı" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="8/taşı" to="onlar" with="ARG0"/>
+<Word name="1/iç" positionX="750" positionY="200"/>
+<Connection from="8/taşı" to="1/iç" with="location"/>
+<Word name="6/suç 7/duygu" positionX="850" positionY="200"/>
+<Connection from="8/taşı" to="6/suç 7/duygu" with="ARG1"/>
+</Amr>

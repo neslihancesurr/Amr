@@ -1,0 +1,17 @@
+<Amr sentence="Eğer çocuk yaşasaydı çok iyi bir mimar olacaktı .">
+<Word name="8/ol" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="8/ol" to="o" with="ARG0"/>
+<Word name="3/yaşa" positionX="750" positionY="200"/>
+<Connection from="8/ol" to="3/yaşa"/>
+<Word name="1/eğer" positionX="650" positionY="300"/>
+<Connection from="3/yaşa" to="1/eğer"/>
+<Word name="2/çocuk" positionX="750" positionY="300"/>
+<Connection from="3/yaşa" to="2/çocuk" with="ARG0"/>
+<Word name="7/mimar" positionX="850" positionY="200"/>
+<Connection from="8/ol" to="7/mimar" with="ARG1"/>
+<Word name="5/iyi" positionX="750" positionY="300"/>
+<Connection from="7/mimar" to="5/iyi" with="mod"/>
+<Word name="4/çok" positionX="650" positionY="400"/>
+<Connection from="5/iyi" to="4/çok" with="degree"/>
+</Amr>

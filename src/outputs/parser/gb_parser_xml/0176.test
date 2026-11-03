@@ -1,0 +1,15 @@
+<Amr sentence="Seyretmedim de anlattılar .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/seyret" positionX="650" positionY="200"/>
+<Connection from="and" to="1/seyret" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="1/seyret" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="1/seyret" to="ben" with="ARG0"/>
+<Word name="2/de" positionX="750" positionY="300"/>
+<Connection from="1/seyret" to="2/de"/>
+<Word name="3/anlat" positionX="750" positionY="200"/>
+<Connection from="and" to="3/anlat" with="op2"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="3/anlat" to="onlar" with="ARG0"/>
+</Amr>

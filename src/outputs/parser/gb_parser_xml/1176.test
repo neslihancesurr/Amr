@@ -1,0 +1,19 @@
+<Amr sentence="Semra aday olarak kendini öne sürecekmiş .">
+<Word name="6/sür" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="6/sür" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/semra" positionX="450" positionY="400"/>
+<Connection from="name" to="1/semra" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/aday 3/ol" positionX="750" positionY="200"/>
+<Connection from="6/sür" to="2/aday 3/ol" with="ARG1"/>
+<Word name="4/kendi" positionX="850" positionY="200"/>
+<Connection from="6/sür" to="4/kendi" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="4/kendi" to="o" with="poss"/>
+<Word name="5/ön" positionX="950" positionY="200"/>
+<Connection from="6/sür" to="5/ön"/>
+</Amr>

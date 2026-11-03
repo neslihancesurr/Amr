@@ -1,0 +1,7 @@
+<Amr sentence="Şirketi kazandılar .">
+<Word name="2/kazan" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="2/kazan" to="onlar" with="ARG0"/>
+<Word name="1/şirket" positionX="750" positionY="200"/>
+<Connection from="2/kazan" to="1/şirket" with="ARG1"/>
+</Amr>

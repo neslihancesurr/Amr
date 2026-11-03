@@ -1,0 +1,13 @@
+<Amr sentence="Sürdüğü tarçınla kaktüsleri kökleştirdi .">
+<Word name="4/kökleştir" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/kökleştir" to="o" with="ARG0"/>
+<Word name="2/tarçın" positionX="750" positionY="200"/>
+<Connection from="4/kökleştir" to="2/tarçın" with="instrument"/>
+<Word name="1/sür" positionX="650" positionY="300"/>
+<Connection from="2/tarçın" to="1/sür"/>
+<Connection from="1/sür" to="o" with="poss"/>
+<Word name="3/kaktüs" positionX="850" positionY="200"/>
+<Connection from="4/kökleştir" to="3/kaktüs" with="ARG1"/>
+<Connection from="3/kaktüs" to="o" with="poss"/>
+</Amr>

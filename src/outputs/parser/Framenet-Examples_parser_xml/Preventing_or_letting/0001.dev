@@ -1,0 +1,13 @@
+<Amr sentence="Neden hep kısmetine mani oluyorsunuz ?">
+<Word name="4/mani 5/ol" positionX="750" positionY="100"/>
+<Word name="siz" positionX="650" positionY="200"/>
+<Connection from="4/mani 5/ol" to="siz" with="ARG0"/>
+<Word name="1/neden" positionX="750" positionY="200"/>
+<Connection from="4/mani 5/ol" to="1/neden" with="manner"/>
+<Word name="2/hep" positionX="850" positionY="200"/>
+<Connection from="4/mani 5/ol" to="2/hep" with="frequency"/>
+<Word name="3/kısmet" positionX="950" positionY="200"/>
+<Connection from="4/mani 5/ol" to="3/kısmet" with="ARG1"/>
+<Word name="sen" positionX="850" positionY="300"/>
+<Connection from="3/kısmet" to="sen" with="poss"/>
+</Amr>

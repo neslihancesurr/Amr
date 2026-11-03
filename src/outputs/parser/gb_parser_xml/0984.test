@@ -1,0 +1,19 @@
+<Amr sentence="Kağan yaşça küçük ama vücutça büyüktü .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/büyük" positionX="650" positionY="200"/>
+<Connection from="and" to="6/büyük" with="op1"/>
+<Word name="5/vücutça" positionX="550" positionY="300"/>
+<Connection from="6/büyük" to="5/vücutça" with="mod"/>
+<Word name="3/küçük" positionX="750" positionY="200"/>
+<Connection from="and" to="3/küçük" with="op2"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="3/küçük" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/kağan" positionX="450" positionY="500"/>
+<Connection from="name" to="1/kağan" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/yaşça" positionX="750" positionY="300"/>
+<Connection from="3/küçük" to="2/yaşça" with="mod"/>
+</Amr>

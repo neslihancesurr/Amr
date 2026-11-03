@@ -1,0 +1,13 @@
+<Amr sentence="Bugün sınıfta çok önemli konular işledik .">
+<Word name="6/işle" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="6/işle" to="biz" with="ARG0"/>
+<Word name="1/bugün" positionX="750" positionY="200"/>
+<Connection from="6/işle" to="1/bugün"/>
+<Word name="2/sınıf" positionX="850" positionY="200"/>
+<Connection from="6/işle" to="2/sınıf" with="location"/>
+<Word name="5/konu" positionX="950" positionY="200"/>
+<Connection from="6/işle" to="5/konu" with="ARG1"/>
+<Word name="3/çok 4/önemli" positionX="850" positionY="300"/>
+<Connection from="5/konu" to="3/çok 4/önemli" with="manner"/>
+</Amr>

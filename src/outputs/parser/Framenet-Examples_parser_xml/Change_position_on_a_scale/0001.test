@@ -1,0 +1,7 @@
+<Amr sentence="Bütün ürünler zam gördü .">
+<Word name="3/zam 4/gör" positionX="750" positionY="100"/>
+<Word name="2/ürün" positionX="650" positionY="200"/>
+<Connection from="3/zam 4/gör" to="2/ürün" with="ARG0"/>
+<Word name="1/bütün" positionX="550" positionY="300"/>
+<Connection from="2/ürün" to="1/bütün" with="mod"/>
+</Amr>

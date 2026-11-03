@@ -1,0 +1,7 @@
+<Amr sentence="Babası neci ?">
+<Word name="2/neci" positionX="750" positionY="100"/>
+<Word name="1/baba" positionX="650" positionY="200"/>
+<Connection from="2/neci" to="1/baba"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/baba" to="o" with="poss"/>
+</Amr>

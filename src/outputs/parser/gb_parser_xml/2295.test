@@ -1,0 +1,10 @@
+<Amr sentence="Okumuş olduğu kitabı kaybetti .">
+<Word name="4/kaybet" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/kaybet" to="o" with="ARG0"/>
+<Word name="3/kitap" positionX="750" positionY="200"/>
+<Connection from="4/kaybet" to="3/kitap"/>
+<Word name="1/oku 2/ol" positionX="650" positionY="300"/>
+<Connection from="3/kitap" to="1/oku 2/ol"/>
+<Connection from="1/oku 2/ol" to="o" with="poss"/>
+</Amr>

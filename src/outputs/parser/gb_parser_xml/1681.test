@@ -1,0 +1,13 @@
+<Amr sentence="Daha uygun bir saat seçebilirdiniz .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="5/seç" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="5/seç"/>
+<Word name="siz" positionX="550" positionY="300"/>
+<Connection from="5/seç" to="siz" with="ARG0"/>
+<Word name="4/saat" positionX="650" positionY="300"/>
+<Connection from="5/seç" to="4/saat" with="ARG1"/>
+<Word name="2/uygun" positionX="550" positionY="400"/>
+<Connection from="4/saat" to="2/uygun" with="mod"/>
+<Word name="1/daha" positionX="450" positionY="500"/>
+<Connection from="2/uygun" to="1/daha" with="degree"/>
+</Amr>

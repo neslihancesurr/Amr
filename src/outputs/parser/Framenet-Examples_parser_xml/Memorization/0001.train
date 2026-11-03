@@ -1,0 +1,16 @@
+<Amr sentence="Ayça anneannesinin anlattıklarını iyice belledi .">
+<Word name="5/belle" positionX="750" positionY="100"/>
+<Word name="1/ayça" positionX="650" positionY="200"/>
+<Connection from="5/belle" to="1/ayça" with="ARG0"/>
+<Word name="3/anlat" positionX="750" positionY="200"/>
+<Connection from="5/belle" to="3/anlat" with="ARG1"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="3/anlat" to="onlar" with="ARG0"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="3/anlat" to="o" with="poss"/>
+<Word name="2/anneanne" positionX="850" positionY="300"/>
+<Connection from="3/anlat" to="2/anneanne"/>
+<Connection from="2/anneanne" to="o" with="poss"/>
+<Word name="4/iyi" positionX="850" positionY="200"/>
+<Connection from="5/belle" to="4/iyi" with="manner"/>
+</Amr>

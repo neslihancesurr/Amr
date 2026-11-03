@@ -1,0 +1,5 @@
+<Amr sentence="Kumaşlar pürçüklenmiş .">
+<Word name="2/pürçük" positionX="750" positionY="100"/>
+<Word name="1/kumaş" positionX="650" positionY="200"/>
+<Connection from="2/pürçük" to="1/kumaş"/>
+</Amr>

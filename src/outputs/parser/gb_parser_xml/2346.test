@@ -1,0 +1,31 @@
+<Amr sentence="Buraya taşındığımızda , ki ben o zaman sekiz yaşındaydım , etrafta başka hiç ev yoktu .">
+<Word name="15/yok" positionX="750" positionY="100"/>
+<Word name="and" positionX="650" positionY="200"/>
+<Connection from="15/yok" to="and"/>
+<Word name="9/yaş" positionX="550" positionY="300"/>
+<Connection from="and" to="9/yaş" with="location"/>
+<Word name="4/ki" positionX="450" positionY="400"/>
+<Connection from="9/yaş" to="4/ki"/>
+<Word name="5/ben" positionX="550" positionY="400"/>
+<Connection from="9/yaş" to="5/ben"/>
+<Word name="7/zaman" positionX="650" positionY="400"/>
+<Connection from="9/yaş" to="7/zaman"/>
+<Word name="6/o" positionX="550" positionY="500"/>
+<Connection from="7/zaman" to="6/o" with="mod"/>
+<Word name="8/sekiz" positionX="750" positionY="400"/>
+<Connection from="9/yaş" to="8/sekiz"/>
+<Word name="2/taşın" positionX="650" positionY="300"/>
+<Connection from="and" to="2/taşın" with="op2"/>
+<Word name="biz" positionX="550" positionY="400"/>
+<Connection from="2/taşın" to="biz" with="ARG0"/>
+<Word name="1/bura" positionX="650" positionY="400"/>
+<Connection from="2/taşın" to="1/bura"/>
+<Word name="11/etraf" positionX="750" positionY="200"/>
+<Connection from="15/yok" to="11/etraf" with="location"/>
+<Word name="14/ev" positionX="850" positionY="200"/>
+<Connection from="15/yok" to="14/ev"/>
+<Word name="13/hiç" positionX="750" positionY="300"/>
+<Connection from="14/ev" to="13/hiç" with="degree"/>
+<Word name="12/başka" positionX="650" positionY="400"/>
+<Connection from="13/hiç" to="12/başka" with="mod"/>
+</Amr>

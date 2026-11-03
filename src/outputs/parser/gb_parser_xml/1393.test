@@ -1,0 +1,11 @@
+<Amr sentence="Hangi kitabı satın alacaksın ?">
+<Word name="4/al" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="4/al" to="sen" with="ARG0"/>
+<Word name="2/kitap" positionX="750" positionY="200"/>
+<Connection from="4/al" to="2/kitap" with="ARG1"/>
+<Word name="1/hangi" positionX="650" positionY="300"/>
+<Connection from="2/kitap" to="1/hangi" with="mod"/>
+<Word name="3/satın" positionX="850" positionY="200"/>
+<Connection from="4/al" to="3/satın"/>
+</Amr>

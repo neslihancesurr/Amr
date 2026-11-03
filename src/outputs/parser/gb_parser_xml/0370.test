@@ -1,0 +1,11 @@
+<Amr sentence="Serap kızkardeşiyle hep dalga geçiyor .">
+<Word name="4/dalga 5/geç" positionX="750" positionY="100"/>
+<Word name="1/serap" positionX="650" positionY="200"/>
+<Connection from="4/dalga 5/geç" to="1/serap" with="ARG0"/>
+<Word name="2/kızkardeş" positionX="750" positionY="200"/>
+<Connection from="4/dalga 5/geç" to="2/kızkardeş" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/kızkardeş" to="o" with="poss"/>
+<Word name="3/hep" positionX="850" positionY="200"/>
+<Connection from="4/dalga 5/geç" to="3/hep" with="frequency"/>
+</Amr>

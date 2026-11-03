@@ -1,0 +1,11 @@
+<Amr sentence="Akşama doğru kar yağmaya başladı .">
+<Word name="5/başla" positionX="750" positionY="100"/>
+<Word name="1/akşam 2/doğru" positionX="650" positionY="200"/>
+<Connection from="5/başla" to="1/akşam 2/doğru"/>
+<Word name="4/yağ" positionX="750" positionY="200"/>
+<Connection from="5/başla" to="4/yağ" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="4/yağ" to="o" with="ARG0"/>
+<Word name="3/kar" positionX="750" positionY="300"/>
+<Connection from="4/yağ" to="3/kar"/>
+</Amr>

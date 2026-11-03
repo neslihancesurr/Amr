@@ -1,0 +1,9 @@
+<Amr sentence="Bu , evin kendi rengi .">
+<Word name="5/renk" positionX="750" positionY="100"/>
+<Word name="1/bu" positionX="650" positionY="200"/>
+<Connection from="5/renk" to="1/bu"/>
+<Word name="3/ev" positionX="750" positionY="200"/>
+<Connection from="5/renk" to="3/ev" with="mod"/>
+<Word name="4/kendi" positionX="850" positionY="200"/>
+<Connection from="5/renk" to="4/kendi" with="mod"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Ayağını altına alarak sedire oturdu .">
+<Word name="5/otur" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/otur" to="o" with="ARG0"/>
+<Word name="1/ayak 2/alt 3/al" positionX="750" positionY="200"/>
+<Connection from="5/otur" to="1/ayak 2/alt 3/al"/>
+<Word name="4/sedir" positionX="850" positionY="200"/>
+<Connection from="5/otur" to="4/sedir" with="ARG1"/>
+</Amr>

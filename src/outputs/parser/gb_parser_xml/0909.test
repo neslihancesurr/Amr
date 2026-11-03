@@ -1,0 +1,5 @@
+<Amr sentence="1830'lu yıllarda">
+<Word name="2/yıl:location" positionX="750" positionY="100"/>
+<Word name="1/1830'lu" positionX="650" positionY="200"/>
+<Connection from="2/yıl:location" to="1/1830'lu" with="quant"/>
+</Amr>

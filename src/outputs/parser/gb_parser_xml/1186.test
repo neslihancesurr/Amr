@@ -1,0 +1,21 @@
+<Amr sentence="Erol kendine bir araba aldığını sanıyor .">
+<Word name="6/san" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="6/san" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/erol" positionX="450" positionY="400"/>
+<Connection from="name" to="1/erol" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/al" positionX="750" positionY="200"/>
+<Connection from="6/san" to="5/al" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/al" to="o" with="ARG0"/>
+<Connection from="5/al" to="o" with="poss"/>
+<Word name="2/kendi" positionX="850" positionY="300"/>
+<Connection from="5/al" to="2/kendi"/>
+<Connection from="2/kendi" to="o" with="poss"/>
+<Word name="4/araba" positionX="950" positionY="300"/>
+<Connection from="5/al" to="4/araba" with="ARG1"/>
+</Amr>

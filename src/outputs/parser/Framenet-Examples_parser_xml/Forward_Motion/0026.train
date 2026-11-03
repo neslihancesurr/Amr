@@ -1,0 +1,11 @@
+<Amr sentence="Sahneye çıkarken yavaş yavaş süzülüyordu .">
+<Word name="5/süzül" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/süzül" to="o" with="ARG0"/>
+<Word name="1/sahne 2/çık" positionX="750" positionY="200"/>
+<Connection from="5/süzül" to="1/sahne 2/çık"/>
+<Word name="4/yavaş" positionX="850" positionY="200"/>
+<Connection from="5/süzül" to="4/yavaş" with="manner"/>
+<Word name="3/yavaş" positionX="750" positionY="300"/>
+<Connection from="4/yavaş" to="3/yavaş"/>
+</Amr>

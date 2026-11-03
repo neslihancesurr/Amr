@@ -1,0 +1,15 @@
+<Amr sentence="Paranın çocuğa verilmesi yanlış olur .">
+<Word name="5/ol" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/ol" to="o" with="ARG0"/>
+<Word name="3/ver" positionX="750" positionY="200"/>
+<Connection from="5/ol" to="3/ver"/>
+<Connection from="3/ver" to="o" with="ARG0"/>
+<Connection from="3/ver" to="o" with="poss"/>
+<Word name="1/para" positionX="850" positionY="300"/>
+<Connection from="3/ver" to="1/para"/>
+<Word name="2/çocuk" positionX="950" positionY="300"/>
+<Connection from="3/ver" to="2/çocuk"/>
+<Word name="4/yanlış" positionX="850" positionY="200"/>
+<Connection from="5/ol" to="4/yanlış" with="manner"/>
+</Amr>

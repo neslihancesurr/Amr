@@ -1,0 +1,11 @@
+<Amr sentence="Tüm önemli kağıtları kaptırdı .">
+<Word name="4/kaptır" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/kaptır" to="o" with="ARG0"/>
+<Word name="3/kağıt" positionX="750" positionY="200"/>
+<Connection from="4/kaptır" to="3/kağıt" with="ARG1"/>
+<Word name="1/tüm" positionX="650" positionY="300"/>
+<Connection from="3/kağıt" to="1/tüm" with="mod"/>
+<Word name="2/önemli" positionX="750" positionY="300"/>
+<Connection from="3/kağıt" to="2/önemli" with="mod"/>
+</Amr>

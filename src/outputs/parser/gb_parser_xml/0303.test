@@ -1,0 +1,7 @@
+<Amr sentence="Buradaki odalar banyoluymuş .">
+<Word name="3/banyolu" positionX="750" positionY="100"/>
+<Word name="2/oda" positionX="650" positionY="200"/>
+<Connection from="3/banyolu" to="2/oda"/>
+<Word name="1/bura" positionX="550" positionY="300"/>
+<Connection from="2/oda" to="1/bura" with="mod"/>
+</Amr>

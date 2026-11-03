@@ -1,0 +1,15 @@
+<Amr sentence="Yarınki toplantıya birkaç kişi gelemeyecekmiş .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="5/gel" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="5/gel"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="5/gel" to="-" with="polarity"/>
+<Word name="2/toplantı" positionX="650" positionY="300"/>
+<Connection from="5/gel" to="2/toplantı" with="ARG1"/>
+<Word name="1/yarınki" positionX="550" positionY="400"/>
+<Connection from="2/toplantı" to="1/yarınki" with="mod"/>
+<Word name="4/kişi" positionX="750" positionY="300"/>
+<Connection from="5/gel" to="4/kişi" with="ARG0"/>
+<Word name="3/birkaç" positionX="650" positionY="400"/>
+<Connection from="4/kişi" to="3/birkaç" with="mod"/>
+</Amr>

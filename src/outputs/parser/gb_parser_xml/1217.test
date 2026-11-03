@@ -1,0 +1,16 @@
+<Amr sentence="Birbirinizin yarışmayı kazanmasını mı istiyorsunuz ?">
+<Word name="5/iste" positionX="750" positionY="100"/>
+<Word name="siz" positionX="650" positionY="200"/>
+<Connection from="5/iste" to="siz" with="ARG0"/>
+<Word name="3/kazan" positionX="750" positionY="200"/>
+<Connection from="5/iste" to="3/kazan" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/kazan" to="o" with="poss"/>
+<Word name="1/birbiri" positionX="750" positionY="300"/>
+<Connection from="3/kazan" to="1/birbiri" with="ARG0"/>
+<Connection from="1/birbiri" to="siz" with="poss"/>
+<Word name="2/yarışma" positionX="850" positionY="300"/>
+<Connection from="3/kazan" to="2/yarışma"/>
+<Word name="4/mi" positionX="950" positionY="300"/>
+<Connection from="3/kazan" to="4/mi"/>
+</Amr>

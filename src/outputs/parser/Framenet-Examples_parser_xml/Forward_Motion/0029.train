@@ -1,0 +1,19 @@
+<Amr sentence="Kendisi siyah astragan kürkünün içinde sağa sola hafif bir yalpa vuruyordu .">
+<Word name="10/yalpa 11/vur" positionX="750" positionY="100"/>
+<Word name="1/kendi" positionX="650" positionY="200"/>
+<Connection from="10/yalpa 11/vur" to="1/kendi" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/kendi" to="o" with="poss"/>
+<Word name="5/iç" positionX="750" positionY="200"/>
+<Connection from="10/yalpa 11/vur" to="5/iç" with="mod"/>
+<Word name="4/kürk" positionX="650" positionY="300"/>
+<Connection from="5/iç" to="4/kürk" with="mod"/>
+<Word name="2/siyah" positionX="550" positionY="400"/>
+<Connection from="4/kürk" to="2/siyah" with="mod"/>
+<Word name="3/astragan" positionX="650" positionY="400"/>
+<Connection from="4/kürk" to="3/astragan" with="mod"/>
+<Word name="7/sol" positionX="850" positionY="200"/>
+<Connection from="10/yalpa 11/vur" to="7/sol" with="mod"/>
+<Word name="6/sağ" positionX="750" positionY="300"/>
+<Connection from="7/sol" to="6/sağ"/>
+</Amr>

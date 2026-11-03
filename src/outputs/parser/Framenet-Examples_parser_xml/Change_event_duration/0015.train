@@ -1,0 +1,10 @@
+<Amr sentence="Vaktini almamak için lafı kısa kesti .">
+<Word name="4/laf 5/kısa 6/kes" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/laf 5/kısa 6/kes" to="o" with="ARG0"/>
+<Word name="1/vakit 2/al" positionX="750" positionY="200"/>
+<Connection from="4/laf 5/kısa 6/kes" to="1/vakit 2/al"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="1/vakit 2/al" to="-" with="polarity"/>
+<Connection from="1/vakit 2/al" to="o" with="ARG0"/>
+</Amr>

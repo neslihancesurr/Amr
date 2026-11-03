@@ -1,0 +1,30 @@
+<Amr sentence="En önemli sorun şu : on dakika sonra dükkanlar kapanıyor ve evde kahve yok .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="10/kapan" positionX="650" positionY="200"/>
+<Connection from="and" to="10/kapan" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="10/kapan" to="o" with="ARG0"/>
+<Word name="7/dakika" positionX="650" positionY="300"/>
+<Connection from="10/kapan" to="7/dakika"/>
+<Word name="6/on" positionX="550" positionY="400"/>
+<Connection from="7/dakika" to="6/on"/>
+<Word name="8/sonra" positionX="650" positionY="400"/>
+<Connection from="7/dakika" to="8/sonra"/>
+<Word name="9/dükkan" positionX="750" positionY="300"/>
+<Connection from="10/kapan" to="9/dükkan" with="ARG1"/>
+<Word name="14/yok" positionX="850" positionY="300"/>
+<Connection from="10/kapan" to="14/yok"/>
+<Word name="12/ev" positionX="750" positionY="400"/>
+<Connection from="14/yok" to="12/ev" with="location"/>
+<Word name="13/kahve" positionX="850" positionY="400"/>
+<Connection from="14/yok" to="13/kahve"/>
+<Word name="4/şu" positionX="750" positionY="200"/>
+<Connection from="and" to="4/şu" with="op2"/>
+<Word name="3/sorun" positionX="650" positionY="300"/>
+<Connection from="4/şu" to="3/sorun"/>
+<Word name="2/önemli" positionX="550" positionY="400"/>
+<Connection from="3/sorun" to="2/önemli" with="mod"/>
+<Word name="1/en" positionX="450" positionY="500"/>
+<Connection from="2/önemli" to="1/en" with="manner"/>
+<Connection from="4/şu" to="and"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Maaş kesintisine bir tepki olarak bütün işçiler iş bıraktı .">
+<Word name="8/iş 9/bırak" positionX="750" positionY="100"/>
+<Word name="5/ol" positionX="650" positionY="200"/>
+<Connection from="8/iş 9/bırak" to="5/ol"/>
+<Word name="2/kesinti" positionX="550" positionY="300"/>
+<Connection from="5/ol" to="2/kesinti"/>
+<Word name="1/maaş" positionX="450" positionY="400"/>
+<Connection from="2/kesinti" to="1/maaş" with="mod"/>
+<Word name="4/tepki" positionX="650" positionY="300"/>
+<Connection from="5/ol" to="4/tepki"/>
+<Word name="7/işçi" positionX="750" positionY="200"/>
+<Connection from="8/iş 9/bırak" to="7/işçi" with="ARG0"/>
+<Word name="6/bütün" positionX="650" positionY="300"/>
+<Connection from="7/işçi" to="6/bütün" with="mod"/>
+</Amr>

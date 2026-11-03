@@ -1,0 +1,19 @@
+<Amr sentence="Kocasına düşkün olmalı ki masasında onun üç tane resmi var .">
+<Word name="2/düşkün 3/ol" positionX="750" positionY="100"/>
+<Word name="1/koca" positionX="650" positionY="200"/>
+<Connection from="2/düşkün 3/ol" to="1/koca" with="mod"/>
+<Word name="10/var" positionX="750" positionY="200"/>
+<Connection from="2/düşkün 3/ol" to="10/var"/>
+<Word name="4/ki" positionX="650" positionY="300"/>
+<Connection from="10/var" to="4/ki"/>
+<Word name="5/masa" positionX="750" positionY="300"/>
+<Connection from="10/var" to="5/masa" with="location"/>
+<Word name="9/resim" positionX="850" positionY="300"/>
+<Connection from="10/var" to="9/resim"/>
+<Word name="6/o" positionX="750" positionY="400"/>
+<Connection from="9/resim" to="6/o" with="mod"/>
+<Word name="8/tane" positionX="850" positionY="400"/>
+<Connection from="9/resim" to="8/tane" with="mod"/>
+<Word name="7/üç" positionX="750" positionY="500"/>
+<Connection from="8/tane" to="7/üç"/>
+</Amr>

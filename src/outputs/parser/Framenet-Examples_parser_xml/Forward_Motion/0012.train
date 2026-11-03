@@ -1,0 +1,9 @@
+<Amr sentence="Her biri bir tarafa koşuştular .">
+<Word name="5/koşuş" positionX="750" positionY="100"/>
+<Word name="1/her 2/biri" positionX="650" positionY="200"/>
+<Connection from="5/koşuş" to="1/her 2/biri" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/her 2/biri" to="o" with="poss"/>
+<Word name="4/taraf" positionX="750" positionY="200"/>
+<Connection from="5/koşuş" to="4/taraf"/>
+</Amr>

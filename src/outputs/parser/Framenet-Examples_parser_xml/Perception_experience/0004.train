@@ -1,0 +1,18 @@
+<Amr sentence="Sermet Bey , köşkten gözünü alamıyordu .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="5/göz 6/al" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="5/göz 6/al"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="5/göz 6/al" to="-" with="polarity"/>
+<Word name="2/bey" positionX="650" positionY="300"/>
+<Connection from="5/göz 6/al" to="2/bey" with="ARG0"/>
+<Word name="person" positionX="550" positionY="400"/>
+<Connection from="2/bey" to="person"/>
+<Word name="name" positionX="450" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/sermet" positionX="350" positionY="600"/>
+<Connection from="name" to="1/sermet" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/köşk" positionX="750" positionY="300"/>
+<Connection from="5/göz 6/al" to="4/köşk" with="ARG1"/>
+</Amr>

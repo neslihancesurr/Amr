@@ -1,0 +1,11 @@
+<Amr sentence="Gökhan'ın içkiyi fazla kaçırdığı hiç görülmemişti .">
+<Word name="6/gör" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="6/gör" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="6/gör" to="o" with="ARG0"/>
+<Word name="3/fazla 4/kaçır" positionX="850" positionY="200"/>
+<Connection from="6/gör" to="3/fazla 4/kaçır" with="manner"/>
+<Word name="5/hiç" positionX="950" positionY="200"/>
+<Connection from="6/gör" to="5/hiç" with="degree"/>
+</Amr>

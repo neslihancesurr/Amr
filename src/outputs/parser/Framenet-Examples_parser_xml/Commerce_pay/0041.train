@@ -1,0 +1,9 @@
+<Amr sentence="Kaybınızı ben tazmin edeceğim .">
+<Word name="3/tazmin 4/et" positionX="750" positionY="100"/>
+<Word name="1/kayıp" positionX="650" positionY="200"/>
+<Connection from="3/tazmin 4/et" to="1/kayıp" with="ARG1"/>
+<Word name="siz" positionX="550" positionY="300"/>
+<Connection from="1/kayıp" to="siz" with="poss"/>
+<Word name="2/ben" positionX="750" positionY="200"/>
+<Connection from="3/tazmin 4/et" to="2/ben" with="ARG0"/>
+</Amr>

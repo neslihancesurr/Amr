@@ -1,0 +1,16 @@
+<Amr sentence="Sattıkları küpenin parasını çok idareli kullanıyorlardı .">
+<Word name="6/kullan" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="6/kullan" to="onlar" with="ARG0"/>
+<Word name="3/para" positionX="750" positionY="200"/>
+<Connection from="6/kullan" to="3/para" with="ARG1"/>
+<Word name="2/küpe" positionX="650" positionY="300"/>
+<Connection from="3/para" to="2/küpe" with="mod"/>
+<Word name="1/sat" positionX="550" positionY="400"/>
+<Connection from="2/küpe" to="1/sat"/>
+<Connection from="1/sat" to="onlar" with="poss"/>
+<Word name="5/idareli" positionX="850" positionY="200"/>
+<Connection from="6/kullan" to="5/idareli" with="mod"/>
+<Word name="4/çok" positionX="750" positionY="300"/>
+<Connection from="5/idareli" to="4/çok" with="degree"/>
+</Amr>

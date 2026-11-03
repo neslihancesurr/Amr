@@ -1,0 +1,19 @@
+<Amr sentence="Çehresinde , hala bitmemiş aşkının derin matemini okudum .">
+<Word name="8/oku" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="8/oku" to="ben" with="ARG0"/>
+<Word name="1/çehre" positionX="750" positionY="200"/>
+<Connection from="8/oku" to="1/çehre" with="location"/>
+<Word name="7/matem" positionX="850" positionY="200"/>
+<Connection from="8/oku" to="7/matem" with="ARG1"/>
+<Word name="5/aşk" positionX="750" positionY="300"/>
+<Connection from="7/matem" to="5/aşk" with="mod"/>
+<Word name="4/bit" positionX="650" positionY="400"/>
+<Connection from="5/aşk" to="4/bit"/>
+<Word name="-" positionX="550" positionY="500"/>
+<Connection from="4/bit" to="-" with="polarity"/>
+<Word name="3/hala" positionX="650" positionY="500"/>
+<Connection from="4/bit" to="3/hala" with="manner"/>
+<Word name="6/derin" positionX="850" positionY="300"/>
+<Connection from="7/matem" to="6/derin" with="mod"/>
+</Amr>

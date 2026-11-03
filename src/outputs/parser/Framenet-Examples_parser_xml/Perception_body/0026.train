@@ -1,0 +1,9 @@
+<Amr sentence="Belim kopuyor .">
+<Word name="2/kop" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="2/kop" to="o" with="ARG0"/>
+<Word name="1/bel" positionX="750" positionY="200"/>
+<Connection from="2/kop" to="1/bel" with="ARG1"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="1/bel" to="ben" with="poss"/>
+</Amr>

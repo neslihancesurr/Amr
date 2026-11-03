@@ -1,0 +1,15 @@
+<Amr sentence="Önce bir anlayıp dinle olanları !">
+<Word name="3/anla 4/dinle" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="3/anla 4/dinle" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="3/anla 4/dinle" to="imperative" with="mode"/>
+<Word name="1/önce" positionX="850" positionY="200"/>
+<Connection from="3/anla 4/dinle" to="1/önce" with="manner"/>
+<Word name="2/bir" positionX="950" positionY="200"/>
+<Connection from="3/anla 4/dinle" to="2/bir" with="manner"/>
+<Word name="5/ol" positionX="1050" positionY="200"/>
+<Connection from="3/anla 4/dinle" to="5/ol" with="ARG1"/>
+<Word name="onlar" positionX="950" positionY="300"/>
+<Connection from="5/ol" to="onlar" with="ARG0"/>
+</Amr>

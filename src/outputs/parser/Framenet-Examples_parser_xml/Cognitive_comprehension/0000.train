@@ -1,0 +1,12 @@
+<Amr sentence="Bana baktığını sonradan göz ucuyla gördüm .">
+<Word name="4/göz 5/uç 6/gör" positionX="750" positionY="100"/>
+<Word name="2/bak" positionX="650" positionY="200"/>
+<Connection from="4/göz 5/uç 6/gör" to="2/bak" with="ARG1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/bak" to="o" with="ARG0"/>
+<Connection from="2/bak" to="o" with="poss"/>
+<Word name="1/ben" positionX="750" positionY="300"/>
+<Connection from="2/bak" to="1/ben" with="ARG1"/>
+<Word name="3/sonradan" positionX="750" positionY="200"/>
+<Connection from="4/göz 5/uç 6/gör" to="3/sonradan" with="manner"/>
+</Amr>

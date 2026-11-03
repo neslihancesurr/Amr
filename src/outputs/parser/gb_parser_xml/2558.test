@@ -1,0 +1,13 @@
+<Amr sentence="Beni çağırmasalardı da gidecektim .">
+<Word name="4/git" positionX="750" positionY="100"/>
+<Word name="2/çağır" positionX="650" positionY="200"/>
+<Connection from="4/git" to="2/çağır"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="2/çağır" to="-" with="polarity"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="2/çağır" to="onlar" with="ARG0"/>
+<Word name="1/ben" positionX="750" positionY="300"/>
+<Connection from="2/çağır" to="1/ben"/>
+<Word name="3/da" positionX="850" positionY="300"/>
+<Connection from="2/çağır" to="3/da"/>
+</Amr>

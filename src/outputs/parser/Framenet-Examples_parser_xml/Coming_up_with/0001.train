@@ -1,0 +1,40 @@
+<Amr sentence="Arsen Hanım Adnan Bey'e yardım edebilmek için balkonuna konuşlanıp yapılabilecek her şeyi iyice tarttı , düşündü .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="14/tart" positionX="650" positionY="200"/>
+<Connection from="and" to="14/tart" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="14/tart" to="o" with="ARG0"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="14/tart" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/hanım" positionX="450" positionY="500"/>
+<Connection from="name" to="2/hanım" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="person" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/Arsen" positionX="550" positionY="600"/>
+<Connection from="name" to="1/Arsen" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="12/şey" positionX="750" positionY="300"/>
+<Connection from="14/tart" to="12/şey"/>
+<Connection from="12/şey" to="o" with="poss"/>
+<Word name="mümkün" positionX="750" positionY="400"/>
+<Connection from="12/şey" to="mümkün"/>
+<Word name="10/yap" positionX="650" positionY="500"/>
+<Connection from="mümkün" to="10/yap"/>
+<Word name="9/konuşlan" positionX="550" positionY="600"/>
+<Connection from="10/yap" to="9/konuşlan"/>
+<Word name="5/yardım 6/et" positionX="450" positionY="700"/>
+<Connection from="9/konuşlan" to="5/yardım 6/et"/>
+<Word name="8/balkon" positionX="550" positionY="700"/>
+<Connection from="9/konuşlan" to="8/balkon"/>
+<Connection from="8/balkon" to="o" with="poss"/>
+<Word name="11/her" positionX="850" positionY="400"/>
+<Connection from="12/şey" to="11/her" with="mod"/>
+<Word name="13/iyice" positionX="850" positionY="300"/>
+<Connection from="14/tart" to="13/iyice" with="manner"/>
+<Word name="16/düşün" positionX="750" positionY="200"/>
+<Connection from="and" to="16/düşün" with="op2"/>
+</Amr>

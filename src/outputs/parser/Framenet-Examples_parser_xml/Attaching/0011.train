@@ -1,0 +1,14 @@
+<Amr sentence="Yakasına çok şık bir broş iğnelemiş .">
+<Word name="6/iğnele" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/iğnele" to="o" with="ARG0"/>
+<Word name="1/yaka" positionX="750" positionY="200"/>
+<Connection from="6/iğnele" to="1/yaka"/>
+<Connection from="1/yaka" to="o" with="poss"/>
+<Word name="5/broş" positionX="850" positionY="200"/>
+<Connection from="6/iğnele" to="5/broş" with="ARG1"/>
+<Word name="3/şık" positionX="750" positionY="300"/>
+<Connection from="5/broş" to="3/şık" with="mod"/>
+<Word name="2/çok" positionX="650" positionY="400"/>
+<Connection from="3/şık" to="2/çok" with="degree"/>
+</Amr>

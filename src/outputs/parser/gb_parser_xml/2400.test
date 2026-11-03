@@ -1,0 +1,28 @@
+<Amr sentence="Hakan beni sinirlendirmekten başka bir de çalışmamı engelliyordu .">
+<Word name="8/engelle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="8/engelle" to="o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="8/engelle" to="person"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/hakan" positionX="550" positionY="400"/>
+<Connection from="name" to="1/hakan" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/sinirlendir" positionX="850" positionY="200"/>
+<Connection from="8/engelle" to="3/sinirlendir"/>
+<Connection from="3/sinirlendir" to="o" with="ARG0"/>
+<Word name="2/ben" positionX="850" positionY="300"/>
+<Connection from="3/sinirlendir" to="2/ben"/>
+<Word name="4/başka" positionX="950" positionY="300"/>
+<Connection from="3/sinirlendir" to="4/başka"/>
+<Word name="5/bir" positionX="950" positionY="200"/>
+<Connection from="8/engelle" to="5/bir" with="manner"/>
+<Word name="6/de" positionX="850" positionY="300"/>
+<Connection from="5/bir" to="6/de"/>
+<Word name="7/çalış" positionX="1050" positionY="200"/>
+<Connection from="8/engelle" to="7/çalış"/>
+<Word name="ben" positionX="950" positionY="300"/>
+<Connection from="7/çalış" to="ben" with="ARG0"/>
+</Amr>

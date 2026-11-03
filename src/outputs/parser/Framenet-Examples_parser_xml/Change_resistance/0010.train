@@ -1,0 +1,9 @@
+<Amr sentence="Kış gelmeden tüm çatıları aktardı .">
+<Word name="4/çatı 5/aktar" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/çatı 5/aktar" to="o" with="ARG0"/>
+<Word name="2/gel" positionX="750" positionY="200"/>
+<Connection from="4/çatı 5/aktar" to="2/gel"/>
+<Word name="1/kış" positionX="650" positionY="300"/>
+<Connection from="2/gel" to="1/kış" with="ARG1"/>
+</Amr>

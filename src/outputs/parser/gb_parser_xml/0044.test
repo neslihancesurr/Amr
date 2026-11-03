@@ -1,0 +1,8 @@
+<Amr sentence="Sever idi .">
+<Word name="1/sev" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="1/sev" to="o" with="ARG0"/>
+<Word name="2/i" positionX="750" positionY="200"/>
+<Connection from="1/sev" to="2/i"/>
+<Connection from="2/i" to="o" with="ARG0"/>
+</Amr>

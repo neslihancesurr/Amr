@@ -1,0 +1,19 @@
+<Amr sentence="Sizi fena alıştırmışlar . Hemen keseye davranmayın .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/alış" positionX="650" positionY="200"/>
+<Connection from="and" to="3/alış" with="op1"/>
+<Word name="1/siz" positionX="550" positionY="300"/>
+<Connection from="3/alış" to="1/siz" with="ARG0"/>
+<Word name="2/fena" positionX="650" positionY="300"/>
+<Connection from="3/alış" to="2/fena" with="manner"/>
+<Word name="6/kese 7/davran" positionX="750" positionY="200"/>
+<Connection from="and" to="6/kese 7/davran" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="6/kese 7/davran" to="-" with="polarity"/>
+<Word name="imperative" positionX="750" positionY="300"/>
+<Connection from="6/kese 7/davran" to="imperative" with="mode"/>
+<Word name="yap" positionX="850" positionY="300"/>
+<Connection from="6/kese 7/davran" to="yap"/>
+<Word name="5/hemen" positionX="950" positionY="300"/>
+<Connection from="6/kese 7/davran" to="5/hemen" with="manner"/>
+</Amr>

@@ -1,0 +1,29 @@
+<Amr sentence="Güzelce serildi yatağına , gözlerini kapayarak uyumaya başladı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/seril" positionX="650" positionY="200"/>
+<Connection from="and" to="2/seril" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/seril" to="o" with="ARG0"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="2/seril" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/güzelce" positionX="450" positionY="500"/>
+<Connection from="name" to="1/güzelce" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/yatak" positionX="750" positionY="300"/>
+<Connection from="2/seril" to="3/yatak" with="ARG1"/>
+<Connection from="3/yatak" to="o" with="poss"/>
+<Word name="8/başla" positionX="750" positionY="200"/>
+<Connection from="and" to="8/başla" with="op2"/>
+<Connection from="8/başla" to="o" with="ARG0"/>
+<Word name="6/kapa" positionX="750" positionY="300"/>
+<Connection from="8/başla" to="6/kapa"/>
+<Word name="5/göz" positionX="650" positionY="400"/>
+<Connection from="6/kapa" to="5/göz" with="ARG1"/>
+<Connection from="5/göz" to="o" with="poss"/>
+<Word name="7/uyu" positionX="850" positionY="300"/>
+<Connection from="8/başla" to="7/uyu" with="ARG1"/>
+<Connection from="7/uyu" to="o" with="ARG0"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Tabii ki ben hiç öyle bir şey kastetmemiştim .">
+<Word name="8/kastet" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="8/kastet" to="-" with="polarity"/>
+<Word name="1/tabii" positionX="750" positionY="200"/>
+<Connection from="8/kastet" to="1/tabii" with="manner"/>
+<Word name="2/ki" positionX="650" positionY="300"/>
+<Connection from="1/tabii" to="2/ki"/>
+<Word name="3/ben" positionX="850" positionY="200"/>
+<Connection from="8/kastet" to="3/ben"/>
+<Word name="4/hiç" positionX="950" positionY="200"/>
+<Connection from="8/kastet" to="4/hiç" with="degree"/>
+</Amr>

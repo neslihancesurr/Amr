@@ -1,0 +1,21 @@
+<Amr sentence="Bu tip fırınlarda genellikle ızgara olmuyor , ama yerli ama yabancı .">
+<Word name="6/ol" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="6/ol" to="-" with="polarity"/>
+<Word name="3/fırın" positionX="750" positionY="200"/>
+<Connection from="6/ol" to="3/fırın" with="location"/>
+<Word name="2/tip" positionX="650" positionY="300"/>
+<Connection from="3/fırın" to="2/tip" with="mod"/>
+<Word name="1/bu" positionX="550" positionY="400"/>
+<Connection from="2/tip" to="1/bu" with="mod"/>
+<Word name="and" positionX="750" positionY="300"/>
+<Connection from="3/fırın" to="and"/>
+<Word name="11/yabancı" positionX="650" positionY="400"/>
+<Connection from="and" to="11/yabancı" with="mod"/>
+<Word name="9/yerli" positionX="750" positionY="400"/>
+<Connection from="and" to="9/yerli" with="mod"/>
+<Word name="4/genellikle" positionX="850" positionY="200"/>
+<Connection from="6/ol" to="4/genellikle" with="manner"/>
+<Word name="5/ızgara" positionX="950" positionY="200"/>
+<Connection from="6/ol" to="5/ızgara" with="ARG0"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr sentence="Dışarıdan soğuk hava gelmesin diye camlara macun çektik .">
+<Word name="7/macun 8/çek" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="7/macun 8/çek" to="biz" with="ARG0"/>
+<Word name="4/gelme" positionX="750" positionY="200"/>
+<Connection from="7/macun 8/çek" to="4/gelme"/>
+<Word name="1/dışarı" positionX="650" positionY="300"/>
+<Connection from="4/gelme" to="1/dışarı"/>
+<Word name="3/hava" positionX="750" positionY="300"/>
+<Connection from="4/gelme" to="3/hava"/>
+<Word name="2/soğuk" positionX="650" positionY="400"/>
+<Connection from="3/hava" to="2/soğuk" with="mod"/>
+<Word name="5/diye" positionX="850" positionY="300"/>
+<Connection from="4/gelme" to="5/diye"/>
+<Word name="6/cam" positionX="850" positionY="200"/>
+<Connection from="7/macun 8/çek" to="6/cam" with="ARG1"/>
+</Amr>

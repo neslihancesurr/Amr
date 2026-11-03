@@ -1,0 +1,11 @@
+<Amr sentence="Sıcak havalar sayesinde denize bol bol girebildik .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="7/gir" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="7/gir" with="cause"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="7/gir" to="biz" with="ARG0"/>
+<Word name="4/deniz" positionX="650" positionY="300"/>
+<Connection from="7/gir" to="4/deniz" with="ARG1"/>
+<Word name="5/bol 6/bol" positionX="750" positionY="300"/>
+<Connection from="7/gir" to="5/bol 6/bol"/>
+</Amr>

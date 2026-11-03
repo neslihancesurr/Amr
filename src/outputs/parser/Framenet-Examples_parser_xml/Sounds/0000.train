@@ -1,0 +1,17 @@
+<Amr sentence="Trafik oldukça tıkanmıştı , herkes klakson çalıyordu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/tıkan" positionX="650" positionY="200"/>
+<Connection from="and" to="3/tıkan" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/tıkan" to="o" with="ARG0"/>
+<Word name="1/trafik" positionX="650" positionY="300"/>
+<Connection from="3/tıkan" to="1/trafik" with="ARG1"/>
+<Word name="2/oldukça" positionX="750" positionY="300"/>
+<Connection from="3/tıkan" to="2/oldukça" with="manner"/>
+<Word name="6/klakson 7/çal" positionX="750" positionY="200"/>
+<Connection from="and" to="6/klakson 7/çal" with="op2"/>
+<Word name="5/herkes" positionX="650" positionY="300"/>
+<Connection from="6/klakson 7/çal" to="5/herkes" with="ARG0"/>
+<Word name="onlar" positionX="550" positionY="400"/>
+<Connection from="5/herkes" to="onlar" with="poss"/>
+</Amr>

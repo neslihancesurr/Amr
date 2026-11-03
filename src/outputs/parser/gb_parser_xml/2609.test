@@ -1,0 +1,21 @@
+<Amr sentence="Başbakan İzmir'e giderek bazı işadamlarıyla görüştü .">
+<Word name="6/görüş" positionX="750" positionY="100"/>
+<Word name="1/başbakan" positionX="650" positionY="200"/>
+<Connection from="6/görüş" to="1/başbakan" with="ARG0"/>
+<Word name="3/giderek" positionX="750" positionY="200"/>
+<Connection from="6/görüş" to="3/giderek"/>
+<Word name="city" positionX="650" positionY="300"/>
+<Connection from="3/giderek" to="city"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="2/izmir" positionX="450" positionY="500"/>
+<Connection from="name" to="2/izmir" with="op1"/>
+<Word name="izmir" positionX="650" positionY="400"/>
+<Connection from="city" to="izmir" with="wiki"/>
+<Word name="5/işadam" positionX="850" positionY="200"/>
+<Connection from="6/görüş" to="5/işadam" with="ARG1"/>
+<Word name="onlar" positionX="750" positionY="300"/>
+<Connection from="5/işadam" to="onlar" with="poss"/>
+<Word name="4/bazı" positionX="850" positionY="300"/>
+<Connection from="5/işadam" to="4/bazı" with="mod"/>
+</Amr>

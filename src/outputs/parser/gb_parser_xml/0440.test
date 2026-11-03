@@ -1,0 +1,9 @@
+<Amr sentence="Bütün öğrencilere resimler yaptırtıldı .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="3/resim 4/yap" positionX="650" positionY="200"/>
+<Connection from="yap" to="3/resim 4/yap"/>
+<Word name="2/öğrenci" positionX="550" positionY="300"/>
+<Connection from="3/resim 4/yap" to="2/öğrenci" with="ARG0"/>
+<Word name="1/bütün" positionX="450" positionY="400"/>
+<Connection from="2/öğrenci" to="1/bütün" with="mod"/>
+</Amr>

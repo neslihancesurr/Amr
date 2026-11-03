@@ -1,0 +1,11 @@
+<Amr sentence="Tam terhis olacakken tezkere bıraktı .">
+<Word name="4/tezkere 5/bırak" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/tezkere 5/bırak" to="o" with="ARG0"/>
+<Word name="3/ol" positionX="750" positionY="200"/>
+<Connection from="4/tezkere 5/bırak" to="3/ol"/>
+<Word name="1/tam" positionX="650" positionY="300"/>
+<Connection from="3/ol" to="1/tam" with="degree"/>
+<Word name="2/terhis" positionX="750" positionY="300"/>
+<Connection from="3/ol" to="2/terhis"/>
+</Amr>

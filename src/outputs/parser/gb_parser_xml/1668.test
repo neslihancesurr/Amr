@@ -1,0 +1,9 @@
+<Amr sentence="Herhalde bir yerlerde karşılaşmışızdır .">
+<Word name="4/karşılaş" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="4/karşılaş" to="biz" with="ARG0"/>
+<Word name="1/herhalde" positionX="750" positionY="200"/>
+<Connection from="4/karşılaş" to="1/herhalde" with="manner"/>
+<Word name="3/yer" positionX="850" positionY="200"/>
+<Connection from="4/karşılaş" to="3/yer" with="location"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Bu belirsizlik bitse artık diyorduk .">
+<Word name="5/de" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/de" to="biz" with="ARG0"/>
+<Word name="3/bit" positionX="750" positionY="200"/>
+<Connection from="5/de" to="3/bit" with="ARG1"/>
+<Word name="2/belirsizlik" positionX="650" positionY="300"/>
+<Connection from="3/bit" to="2/belirsizlik"/>
+<Word name="1/bu" positionX="550" positionY="400"/>
+<Connection from="2/belirsizlik" to="1/bu" with="mod"/>
+<Word name="4/artık" positionX="750" positionY="300"/>
+<Connection from="3/bit" to="4/artık" with="manner"/>
+</Amr>

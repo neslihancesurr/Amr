@@ -1,0 +1,25 @@
+<Amr sentence="Ödevini yapmak için odasına kapandı ama sadece bilgisayar başında pinekledi .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="10/pinekle" positionX="650" positionY="200"/>
+<Connection from="and" to="10/pinekle" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="10/pinekle" to="o" with="ARG0"/>
+<Word name="7/sadece" positionX="650" positionY="300"/>
+<Connection from="10/pinekle" to="7/sadece" with="manner"/>
+<Word name="9/baş" positionX="750" positionY="300"/>
+<Connection from="10/pinekle" to="9/baş" with="location"/>
+<Word name="8/bilgisayar" positionX="650" positionY="400"/>
+<Connection from="9/baş" to="8/bilgisayar" with="mod"/>
+<Word name="5/kapan" positionX="750" positionY="200"/>
+<Connection from="and" to="5/kapan" with="op2"/>
+<Connection from="5/kapan" to="o" with="ARG0"/>
+<Word name="2/yap" positionX="750" positionY="300"/>
+<Connection from="5/kapan" to="2/yap" with="cause"/>
+<Connection from="2/yap" to="o" with="ARG0"/>
+<Word name="1/ödev" positionX="750" positionY="400"/>
+<Connection from="2/yap" to="1/ödev" with="ARG1"/>
+<Connection from="1/ödev" to="o" with="poss"/>
+<Word name="4/oda" positionX="850" positionY="300"/>
+<Connection from="5/kapan" to="4/oda"/>
+<Connection from="4/oda" to="o" with="poss"/>
+</Amr>

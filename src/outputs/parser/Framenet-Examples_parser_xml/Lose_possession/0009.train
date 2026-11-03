@@ -1,0 +1,15 @@
+<Amr sentence="Sus , bir de dinden imandan olma .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/sus" positionX="650" positionY="200"/>
+<Connection from="and" to="1/sus" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="1/sus" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="650" positionY="300"/>
+<Connection from="1/sus" to="imperative" with="mode"/>
+<Word name="5/din 6/iman 7/ol" positionX="750" positionY="200"/>
+<Connection from="and" to="5/din 6/iman 7/ol" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/din 6/iman 7/ol" to="o" with="ARG0"/>
+<Word name="3/bir 4/de" positionX="750" positionY="300"/>
+<Connection from="5/din 6/iman 7/ol" to="3/bir 4/de" with="manner"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Karar vermek için yazı tura attılar .">
+<Word name="4/yaz 5/tura 6/at" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/yaz 5/tura 6/at" to="onlar" with="ARG0"/>
+<Word name="1/karar 2/ver" positionX="750" positionY="200"/>
+<Connection from="4/yaz 5/tura 6/at" to="1/karar 2/ver"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="1/karar 2/ver" to="o" with="ARG0"/>
+</Amr>

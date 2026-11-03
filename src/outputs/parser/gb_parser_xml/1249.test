@@ -1,0 +1,24 @@
+<Amr sentence="Yemeğin hazırlığına katılmış olmadığım için bulaşıkları benim yıkamam kararlaştırıldı .">
+<Word name="9/kararlaştır" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="9/kararlaştır" to="o" with="ARG0"/>
+<Word name="4/ol" positionX="750" positionY="200"/>
+<Connection from="9/kararlaştır" to="4/ol" with="cause"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="4/ol" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="300"/>
+<Connection from="4/ol" to="ben" with="ARG0"/>
+<Word name="3/katıl" positionX="850" positionY="300"/>
+<Connection from="4/ol" to="3/katıl" with="ARG0"/>
+<Word name="2/hazırlık" positionX="750" positionY="400"/>
+<Connection from="3/katıl" to="2/hazırlık" with="ARG1"/>
+<Word name="1/yemek" positionX="650" positionY="500"/>
+<Connection from="2/hazırlık" to="1/yemek" with="mod"/>
+<Word name="8/yıka" positionX="850" positionY="200"/>
+<Connection from="9/kararlaştır" to="8/yıka" with="ARG1"/>
+<Connection from="8/yıka" to="ben" with="ARG0"/>
+<Word name="6/bulaşık" positionX="850" positionY="300"/>
+<Connection from="8/yıka" to="6/bulaşık" with="ARG1"/>
+<Word name="7/ben" positionX="950" positionY="300"/>
+<Connection from="8/yıka" to="7/ben" with="ARG0"/>
+</Amr>

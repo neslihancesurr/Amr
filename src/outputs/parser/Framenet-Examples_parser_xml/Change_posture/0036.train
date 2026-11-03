@@ -1,0 +1,11 @@
+<Amr sentence="Araba yanlayarak yoluna devam etti .">
+<Word name="4/devam 5/et" positionX="750" positionY="100"/>
+<Word name="1/araba" positionX="650" positionY="200"/>
+<Connection from="4/devam 5/et" to="1/araba" with="ARG0"/>
+<Word name="2/yanla" positionX="750" positionY="200"/>
+<Connection from="4/devam 5/et" to="2/yanla"/>
+<Word name="3/yol" positionX="850" positionY="200"/>
+<Connection from="4/devam 5/et" to="3/yol"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="3/yol" to="o" with="poss"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Gergin santrafor oyuncusu , herkesi şaşırtarak topu şandelledi .">
+<Word name="8/şandelle" positionX="750" positionY="100"/>
+<Word name="3/oyuncu" positionX="650" positionY="200"/>
+<Connection from="8/şandelle" to="3/oyuncu" with="ARG0"/>
+<Word name="2/santrafor" positionX="550" positionY="300"/>
+<Connection from="3/oyuncu" to="2/santrafor" with="mod"/>
+<Word name="1/gergin" positionX="450" positionY="400"/>
+<Connection from="2/santrafor" to="1/gergin" with="mod"/>
+<Word name="6/şaşırt" positionX="750" positionY="200"/>
+<Connection from="8/şandelle" to="6/şaşırt"/>
+<Word name="5/herkes" positionX="650" positionY="300"/>
+<Connection from="6/şaşırt" to="5/herkes"/>
+<Word name="7/top" positionX="850" positionY="200"/>
+<Connection from="8/şandelle" to="7/top" with="ARG1"/>
+</Amr>

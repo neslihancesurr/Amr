@@ -1,0 +1,13 @@
+<Amr sentence="Bazı günler ön bahçede çocuklar oynuyor .">
+<Word name="6/oyna" positionX="750" positionY="100"/>
+<Word name="2/gün" positionX="650" positionY="200"/>
+<Connection from="6/oyna" to="2/gün"/>
+<Word name="1/bazı" positionX="550" positionY="300"/>
+<Connection from="2/gün" to="1/bazı" with="mod"/>
+<Word name="4/bahçe" positionX="750" positionY="200"/>
+<Connection from="6/oyna" to="4/bahçe" with="ARG2"/>
+<Word name="3/ön" positionX="650" positionY="300"/>
+<Connection from="4/bahçe" to="3/ön" with="mod"/>
+<Word name="5/çocuk" positionX="850" positionY="200"/>
+<Connection from="6/oyna" to="5/çocuk" with="ARG0"/>
+</Amr>

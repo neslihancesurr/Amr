@@ -1,0 +1,9 @@
+<Amr sentence="Kanepenin altından bir fare çıktı .">
+<Word name="5/çık" positionX="750" positionY="100"/>
+<Word name="2/alt" positionX="650" positionY="200"/>
+<Connection from="5/çık" to="2/alt"/>
+<Word name="1/kanepe" positionX="550" positionY="300"/>
+<Connection from="2/alt" to="1/kanepe" with="mod"/>
+<Word name="4/fare" positionX="750" positionY="200"/>
+<Connection from="5/çık" to="4/fare" with="ARG0"/>
+</Amr>

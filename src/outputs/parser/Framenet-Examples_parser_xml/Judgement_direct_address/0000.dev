@@ -1,0 +1,19 @@
+<Amr sentence="Her on yılda bir , geçmişten bu yana süregelen edebiyatı alaşağı ediyoruz .">
+<Word name="11/alaşağı 12/et" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="11/alaşağı 12/et" to="biz" with="ARG0"/>
+<Word name="4/bir" positionX="750" positionY="200"/>
+<Connection from="11/alaşağı 12/et" to="4/bir" with="mod"/>
+<Word name="3/yıl" positionX="650" positionY="300"/>
+<Connection from="4/bir" to="3/yıl" with="mod"/>
+<Word name="1/her" positionX="550" positionY="400"/>
+<Connection from="3/yıl" to="1/her" with="mod"/>
+<Word name="2/on" positionX="650" positionY="400"/>
+<Connection from="3/yıl" to="2/on"/>
+<Word name="10/edebiyat" positionX="850" positionY="200"/>
+<Connection from="11/alaşağı 12/et" to="10/edebiyat" with="ARG1"/>
+<Word name="9/süregel" positionX="750" positionY="300"/>
+<Connection from="10/edebiyat" to="9/süregel"/>
+<Word name="7/bu 8/yan" positionX="650" positionY="400"/>
+<Connection from="9/süregel" to="7/bu 8/yan" with="mod"/>
+</Amr>

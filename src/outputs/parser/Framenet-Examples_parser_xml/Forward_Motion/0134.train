@@ -1,0 +1,15 @@
+<Amr sentence="Herifin etrafına daha trenden inerken üşüştük .">
+<Word name="6/üşüş" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="6/üşüş" to="biz" with="ARG0"/>
+<Word name="2/etraf" positionX="750" positionY="200"/>
+<Connection from="6/üşüş" to="2/etraf" with="ARG1"/>
+<Word name="1/herif" positionX="650" positionY="300"/>
+<Connection from="2/etraf" to="1/herif" with="mod"/>
+<Word name="5/in" positionX="850" positionY="200"/>
+<Connection from="6/üşüş" to="5/in"/>
+<Word name="3/daha" positionX="750" positionY="300"/>
+<Connection from="5/in" to="3/daha" with="degree"/>
+<Word name="4/tren" positionX="850" positionY="300"/>
+<Connection from="5/in" to="4/tren"/>
+</Amr>

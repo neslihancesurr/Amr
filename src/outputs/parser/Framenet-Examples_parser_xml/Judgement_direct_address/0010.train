@@ -1,0 +1,11 @@
+<Amr sentence="Güvenlik görevlisini bir kez daha uyardı .">
+<Word name="6/uyar" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/uyar" to="o" with="ARG0"/>
+<Word name="1/güvenlik 2/görevli" positionX="750" positionY="200"/>
+<Connection from="6/uyar" to="1/güvenlik 2/görevli" with="ARG1"/>
+<Word name="5/daha" positionX="850" positionY="200"/>
+<Connection from="6/uyar" to="5/daha" with="degree"/>
+<Word name="4/kez" positionX="750" positionY="300"/>
+<Connection from="5/daha" to="4/kez" with="mod"/>
+</Amr>

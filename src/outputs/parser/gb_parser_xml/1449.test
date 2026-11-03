@@ -1,0 +1,20 @@
+<Amr sentence="Nereye giden göçmenler kolay kolay geri dönmüyorlar ?">
+<Word name="6/geri 7/dön" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="6/geri 7/dön" to="-" with="polarity"/>
+<Word name="onlar" positionX="750" positionY="200"/>
+<Connection from="6/geri 7/dön" to="onlar" with="ARG0"/>
+<Word name="3/göç" positionX="850" positionY="200"/>
+<Connection from="6/geri 7/dön" to="3/göç"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="3/göç" to="o" with="ARG0"/>
+<Connection from="3/göç" to="onlar" with="ARG0"/>
+<Word name="sen" positionX="950" positionY="300"/>
+<Connection from="3/göç" to="sen" with="poss"/>
+<Word name="2/giden" positionX="1050" positionY="300"/>
+<Connection from="3/göç" to="2/giden"/>
+<Word name="1/nere" positionX="950" positionY="400"/>
+<Connection from="2/giden" to="1/nere"/>
+<Word name="4/kolay 5/kolay" positionX="950" positionY="200"/>
+<Connection from="6/geri 7/dön" to="4/kolay 5/kolay"/>
+</Amr>

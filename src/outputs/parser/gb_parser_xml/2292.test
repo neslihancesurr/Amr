@@ -1,0 +1,18 @@
+<Amr sentence="Dün okuyacağım makaleyi ancak bugün okuyabildim .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="6/oku" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="6/oku"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="6/oku" to="ben" with="ARG0"/>
+<Word name="3/makale" positionX="650" positionY="300"/>
+<Connection from="6/oku" to="3/makale"/>
+<Word name="2/oku" positionX="550" positionY="400"/>
+<Connection from="3/makale" to="2/oku"/>
+<Connection from="2/oku" to="ben" with="poss"/>
+<Word name="1/dün" positionX="550" positionY="500"/>
+<Connection from="2/oku" to="1/dün"/>
+<Word name="4/ancak" positionX="750" positionY="300"/>
+<Connection from="6/oku" to="4/ancak" with="manner"/>
+<Word name="5/bugün" positionX="850" positionY="300"/>
+<Connection from="6/oku" to="5/bugün"/>
+</Amr>

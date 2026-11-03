@@ -1,0 +1,15 @@
+<Amr sentence="Burada bir elbisem vardı eteği sökük .">
+<Word name="4/var" positionX="750" positionY="100"/>
+<Word name="1/burada" positionX="650" positionY="200"/>
+<Connection from="4/var" to="1/burada" with="mod"/>
+<Word name="3/elbise" positionX="750" positionY="200"/>
+<Connection from="4/var" to="3/elbise"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="3/elbise" to="ben" with="poss"/>
+<Word name="6/sökük" positionX="750" positionY="300"/>
+<Connection from="3/elbise" to="6/sökük"/>
+<Word name="5/etek" positionX="650" positionY="400"/>
+<Connection from="6/sökük" to="5/etek"/>
+<Word name="o" positionX="550" positionY="500"/>
+<Connection from="5/etek" to="o" with="poss"/>
+</Amr>

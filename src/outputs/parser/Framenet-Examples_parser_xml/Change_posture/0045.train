@@ -1,0 +1,15 @@
+<Amr sentence="Öyle hastalanmış ki , gördüğümde iki büklüm olmuştu .">
+<Word name="6/iki 7/büklüm 8/ol" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/iki 7/büklüm 8/ol" to="o" with="ARG0"/>
+<Word name="2/hastalan" positionX="750" positionY="200"/>
+<Connection from="6/iki 7/büklüm 8/ol" to="2/hastalan"/>
+<Word name="1/öyle" positionX="650" positionY="300"/>
+<Connection from="2/hastalan" to="1/öyle" with="manner"/>
+<Word name="3/ki" positionX="750" positionY="300"/>
+<Connection from="2/hastalan" to="3/ki"/>
+<Word name="5/gör" positionX="850" positionY="200"/>
+<Connection from="6/iki 7/büklüm 8/ol" to="5/gör"/>
+<Word name="ben" positionX="750" positionY="300"/>
+<Connection from="5/gör" to="ben" with="ARG0"/>
+</Amr>

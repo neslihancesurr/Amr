@@ -1,0 +1,7 @@
+<Amr sentence="Karşı takımın kalecisine tekme atan savunma oyuncusu , kırmızı kart gördü .">
+<Word name="9/kırmızı 10/kart 11/gör" positionX="750" positionY="100"/>
+<Word name="6/savun 7/oyuncu" positionX="650" positionY="200"/>
+<Connection from="9/kırmızı 10/kart 11/gör" to="6/savun 7/oyuncu" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="6/savun 7/oyuncu" to="o" with="poss"/>
+</Amr>

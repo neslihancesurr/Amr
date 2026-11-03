@@ -1,0 +1,11 @@
+<Amr sentence="Diz çökerek çocuğunun boyuna yetişti .">
+<Word name="5/yetiş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/yetiş" to="o" with="ARG0"/>
+<Word name="1/diz 2/çök" positionX="750" positionY="200"/>
+<Connection from="5/yetiş" to="1/diz 2/çök"/>
+<Word name="4/boyuna" positionX="850" positionY="200"/>
+<Connection from="5/yetiş" to="4/boyuna" with="ARG1"/>
+<Word name="3/çocuk" positionX="750" positionY="300"/>
+<Connection from="4/boyuna" to="3/çocuk" with="mod"/>
+</Amr>

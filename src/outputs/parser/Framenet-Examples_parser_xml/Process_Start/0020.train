@@ -1,0 +1,21 @@
+<Amr sentence="İkimiz birden işin başına otururuz , iki günde biter .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/otur" positionX="650" positionY="200"/>
+<Connection from="and" to="5/otur" with="op1"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="5/otur" to="biz" with="ARG0"/>
+<Word name="1/iki" positionX="650" positionY="300"/>
+<Connection from="5/otur" to="1/iki"/>
+<Word name="2/birden" positionX="550" positionY="400"/>
+<Connection from="1/iki" to="2/birden" with="manner"/>
+<Word name="3/iş 4/baş" positionX="750" positionY="300"/>
+<Connection from="5/otur" to="3/iş 4/baş" with="ARG1"/>
+<Word name="9/bit" positionX="750" positionY="200"/>
+<Connection from="and" to="9/bit" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="9/bit" to="o" with="ARG0"/>
+<Word name="8/gün" positionX="750" positionY="300"/>
+<Connection from="9/bit" to="8/gün" with="mod"/>
+<Word name="7/iki" positionX="650" positionY="400"/>
+<Connection from="8/gün" to="7/iki"/>
+</Amr>

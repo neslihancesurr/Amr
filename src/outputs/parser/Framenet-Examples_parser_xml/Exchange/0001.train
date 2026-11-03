@@ -1,0 +1,9 @@
+<Amr sentence="Annesi , ağlayan bebeğin altını değiştirdi .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="5/alt 6/değiş" positionX="650" positionY="200"/>
+<Connection from="yap" to="5/alt 6/değiş"/>
+<Word name="1/anne" positionX="550" positionY="300"/>
+<Connection from="5/alt 6/değiş" to="1/anne" with="ARG0"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="1/anne" to="o" with="poss"/>
+</Amr>

@@ -1,0 +1,21 @@
+<Amr sentence="Sen bu ceketimi daha önce görmüş olamazsın .">
+<Word name="6/gör" positionX="750" positionY="100"/>
+<Word name="1/sen" positionX="650" positionY="200"/>
+<Connection from="6/gör" to="1/sen"/>
+<Word name="3/ceket" positionX="750" positionY="200"/>
+<Connection from="6/gör" to="3/ceket"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="3/ceket" to="ben" with="poss"/>
+<Word name="2/bu" positionX="750" positionY="300"/>
+<Connection from="3/ceket" to="2/bu" with="mod"/>
+<Word name="5/önce" positionX="850" positionY="200"/>
+<Connection from="6/gör" to="5/önce" with="manner"/>
+<Word name="4/daha" positionX="750" positionY="300"/>
+<Connection from="5/önce" to="4/daha" with="degree"/>
+<Word name="mümkün" positionX="950" positionY="200"/>
+<Connection from="6/gör" to="mümkün"/>
+<Word name="7/ol" positionX="850" positionY="300"/>
+<Connection from="mümkün" to="7/ol"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="7/ol" to="-" with="polarity"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Başkanları bu konuda beyanat verdi">
+<Word name="4/beyanat 5/ver" positionX="750" positionY="100"/>
+<Word name="1/başkan" positionX="650" positionY="200"/>
+<Connection from="4/beyanat 5/ver" to="1/başkan" with="ARG0"/>
+<Word name="onlar" positionX="550" positionY="300"/>
+<Connection from="1/başkan" to="onlar" with="poss"/>
+<Word name="3/konu" positionX="750" positionY="200"/>
+<Connection from="4/beyanat 5/ver" to="3/konu" with="ARG1"/>
+<Word name="2/bu" positionX="650" positionY="300"/>
+<Connection from="3/konu" to="2/bu" with="mod"/>
+</Amr>

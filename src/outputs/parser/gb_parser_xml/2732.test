@@ -1,0 +1,7 @@
+<Amr sentence="Bir kere doktor değil .">
+<Word name="3/doktor" positionX="750" positionY="100"/>
+<Word name="2/kere" positionX="650" positionY="200"/>
+<Connection from="3/doktor" to="2/kere" with="mod"/>
+<Word name="-" positionX="750" positionY="200"/>
+<Connection from="3/doktor" to="-" with="polarity"/>
+</Amr>

@@ -1,0 +1,25 @@
+<Amr sentence="Geçen gün okula gitmemiştim ya , meğer okul zaten tatilmiş .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/git" positionX="650" positionY="200"/>
+<Connection from="and" to="4/git" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="4/git" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="4/git" to="ben" with="ARG0"/>
+<Word name="2/gün" positionX="750" positionY="300"/>
+<Connection from="4/git" to="2/gün"/>
+<Word name="1/geç" positionX="650" positionY="400"/>
+<Connection from="2/gün" to="1/geç"/>
+<Word name="3/okul" positionX="850" positionY="300"/>
+<Connection from="4/git" to="3/okul" with="ARG1"/>
+<Word name="5/ya" positionX="950" positionY="300"/>
+<Connection from="4/git" to="5/ya"/>
+<Word name="10/tatil" positionX="750" positionY="200"/>
+<Connection from="and" to="10/tatil" with="op2"/>
+<Word name="7/meğer" positionX="650" positionY="300"/>
+<Connection from="10/tatil" to="7/meğer" with="manner"/>
+<Word name="8/okul" positionX="750" positionY="300"/>
+<Connection from="10/tatil" to="8/okul"/>
+<Word name="9/zaten" positionX="850" positionY="300"/>
+<Connection from="10/tatil" to="9/zaten" with="manner"/>
+</Amr>

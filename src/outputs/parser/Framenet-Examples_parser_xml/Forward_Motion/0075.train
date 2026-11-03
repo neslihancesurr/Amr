@@ -1,0 +1,11 @@
+<Amr sentence="Keyifsizdim , sahilde salma geziyordum .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/keyifsiz" positionX="650" positionY="200"/>
+<Connection from="and" to="1/keyifsiz" with="op1"/>
+<Word name="4/sal 5/gez" positionX="750" positionY="200"/>
+<Connection from="and" to="4/sal 5/gez" with="op2"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="4/sal 5/gez" to="ben" with="ARG0"/>
+<Word name="3/sahil" positionX="750" positionY="300"/>
+<Connection from="4/sal 5/gez" to="3/sahil" with="location"/>
+</Amr>

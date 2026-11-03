@@ -1,0 +1,15 @@
+<Amr sentence="Şu kâğıtları çoğaltabilirsek iyi olur .">
+<Word name="4/iyi 5/ol" positionX="750" positionY="100"/>
+<Word name="mümkün" positionX="650" positionY="200"/>
+<Connection from="4/iyi 5/ol" to="mümkün"/>
+<Word name="3/çoğalt" positionX="550" positionY="300"/>
+<Connection from="mümkün" to="3/çoğalt" with="cond"/>
+<Word name="biz" positionX="450" positionY="400"/>
+<Connection from="3/çoğalt" to="biz" with="ARG0"/>
+<Word name="2/kâğıt" positionX="550" positionY="400"/>
+<Connection from="3/çoğalt" to="2/kâğıt" with="ARG1"/>
+<Word name="o" positionX="450" positionY="500"/>
+<Connection from="2/kâğıt" to="o" with="poss"/>
+<Word name="1/şu" positionX="550" positionY="500"/>
+<Connection from="2/kâğıt" to="1/şu" with="mod"/>
+</Amr>

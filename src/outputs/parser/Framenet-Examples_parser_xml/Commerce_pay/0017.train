@@ -1,0 +1,13 @@
+<Amr sentence="Gemi kaptanı ile pilot ödeşti .">
+<Word name="5/ödeş" positionX="750" positionY="100"/>
+<Word name="and" positionX="650" positionY="200"/>
+<Connection from="5/ödeş" to="and"/>
+<Word name="4/pilot" positionX="550" positionY="300"/>
+<Connection from="and" to="4/pilot" with="ARG0"/>
+<Word name="3/ile" positionX="450" positionY="400"/>
+<Connection from="4/pilot" to="3/ile"/>
+<Word name="2/kaptan" positionX="650" positionY="300"/>
+<Connection from="and" to="2/kaptan" with="ARG0"/>
+<Word name="1/gemi" positionX="550" positionY="400"/>
+<Connection from="2/kaptan" to="1/gemi" with="mod"/>
+</Amr>

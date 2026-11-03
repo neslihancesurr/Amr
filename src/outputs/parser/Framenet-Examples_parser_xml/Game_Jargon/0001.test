@@ -1,0 +1,23 @@
+<Amr sentence="Tavlada öyle bir yendim ki , iki saat benimle konuşmadı .">
+<Word name="10/konuş" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="10/konuş" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="10/konuş" to="o" with="ARG0"/>
+<Word name="4/yen" positionX="850" positionY="200"/>
+<Connection from="10/konuş" to="4/yen"/>
+<Word name="1/tavla" positionX="750" positionY="300"/>
+<Connection from="4/yen" to="1/tavla" with="location"/>
+<Word name="2/öyle" positionX="850" positionY="300"/>
+<Connection from="4/yen" to="2/öyle" with="manner"/>
+<Word name="3/bir" positionX="950" positionY="300"/>
+<Connection from="4/yen" to="3/bir" with="manner"/>
+<Word name="5/ki" positionX="1050" positionY="300"/>
+<Connection from="4/yen" to="5/ki"/>
+<Word name="8/saat" positionX="950" positionY="200"/>
+<Connection from="10/konuş" to="8/saat" with="mod"/>
+<Word name="7/iki" positionX="850" positionY="300"/>
+<Connection from="8/saat" to="7/iki"/>
+<Word name="9/ben" positionX="1050" positionY="200"/>
+<Connection from="10/konuş" to="9/ben" with="ARG1"/>
+</Amr>

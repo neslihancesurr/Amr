@@ -1,0 +1,25 @@
+<Amr sentence="Demet dediklerimi duymamışçasına konuşup duruyordu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/dur" positionX="650" positionY="200"/>
+<Connection from="and" to="5/dur" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="5/dur" to="o" with="ARG0"/>
+<Word name="4/konuş" positionX="750" positionY="200"/>
+<Connection from="and" to="4/konuş" with="op2"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="4/konuş" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/demet" positionX="450" positionY="500"/>
+<Connection from="name" to="1/demet" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/duy" positionX="750" positionY="300"/>
+<Connection from="4/konuş" to="3/duy"/>
+<Connection from="3/duy" to="-" with="polarity"/>
+<Connection from="3/duy" to="o" with="ARG0"/>
+<Word name="2/de" positionX="850" positionY="400"/>
+<Connection from="3/duy" to="2/de"/>
+<Word name="ben" positionX="750" positionY="500"/>
+<Connection from="2/de" to="ben" with="ARG0"/>
+</Amr>

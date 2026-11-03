@@ -1,0 +1,9 @@
+<Amr sentence="Geri kalan parayı hesaptan düş artık .">
+<Word name="4/hesap 5/düş" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="4/hesap 5/düş" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="4/hesap 5/düş" to="imperative" with="mode"/>
+<Word name="6/artık" positionX="850" positionY="200"/>
+<Connection from="4/hesap 5/düş" to="6/artık" with="manner"/>
+</Amr>

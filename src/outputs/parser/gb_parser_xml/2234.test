@@ -1,0 +1,17 @@
+<Amr sentence="Turhan eti bıçakla kesecek .">
+<Word name="4/kes" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/kes" to="o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="4/kes" to="person"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/turhan" positionX="550" positionY="400"/>
+<Connection from="name" to="1/turhan" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/et" positionX="850" positionY="200"/>
+<Connection from="4/kes" to="2/et"/>
+<Word name="3/bıçak" positionX="950" positionY="200"/>
+<Connection from="4/kes" to="3/bıçak" with="instrument"/>
+</Amr>

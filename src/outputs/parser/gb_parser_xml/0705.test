@@ -1,0 +1,11 @@
+<Amr sentence="Bu sabahki gazetede okudum .">
+<Word name="4/oku" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/oku" to="ben" with="ARG0"/>
+<Word name="3/gazete" positionX="750" positionY="200"/>
+<Connection from="4/oku" to="3/gazete" with="ARG1"/>
+<Word name="2/sabahki" positionX="650" positionY="300"/>
+<Connection from="3/gazete" to="2/sabahki" with="mod"/>
+<Word name="1/bu" positionX="550" positionY="400"/>
+<Connection from="2/sabahki" to="1/bu" with="mod"/>
+</Amr>

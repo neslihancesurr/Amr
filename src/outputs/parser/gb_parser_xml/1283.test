@@ -1,0 +1,9 @@
+<Amr sentence="Çamaşır makinası bozulmuş .">
+<Word name="3/bozul" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/bozul" to="o" with="ARG0"/>
+<Word name="2/makina" positionX="750" positionY="200"/>
+<Connection from="3/bozul" to="2/makina" with="ARG1"/>
+<Word name="1/çamaşır" positionX="650" positionY="300"/>
+<Connection from="2/makina" to="1/çamaşır" with="mod"/>
+</Amr>

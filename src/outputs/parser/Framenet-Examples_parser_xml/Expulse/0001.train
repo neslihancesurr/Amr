@@ -1,0 +1,11 @@
+<Amr sentence="Sarhoş adamı handan attım .">
+<Word name="4/at" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/at" to="ben" with="ARG0"/>
+<Word name="2/adam" positionX="750" positionY="200"/>
+<Connection from="4/at" to="2/adam" with="ARG1"/>
+<Word name="1/sarhoş" positionX="650" positionY="300"/>
+<Connection from="2/adam" to="1/sarhoş" with="mod"/>
+<Word name="3/han" positionX="850" positionY="200"/>
+<Connection from="4/at" to="3/han"/>
+</Amr>

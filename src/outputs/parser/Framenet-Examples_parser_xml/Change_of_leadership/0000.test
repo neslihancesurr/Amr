@@ -1,0 +1,5 @@
+<Amr sentence="Eski müdürün postuna oturdu .">
+<Word name="3/post 4/otur" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/post 4/otur" to="o" with="ARG0"/>
+</Amr>

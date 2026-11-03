@@ -1,0 +1,17 @@
+<Amr sentence="Sana bu işi büyütüyorum gibi gelebilir .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="5/gibi 6/gel" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="5/gibi 6/gel"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="5/gibi 6/gel" to="o" with="ARG0"/>
+<Word name="1/sen" positionX="650" positionY="300"/>
+<Connection from="5/gibi 6/gel" to="1/sen"/>
+<Word name="4/büyüt" positionX="750" positionY="300"/>
+<Connection from="5/gibi 6/gel" to="4/büyüt"/>
+<Word name="ben" positionX="650" positionY="400"/>
+<Connection from="4/büyüt" to="ben" with="ARG0"/>
+<Word name="3/iş" positionX="750" positionY="400"/>
+<Connection from="4/büyüt" to="3/iş"/>
+<Word name="2/bu" positionX="650" positionY="500"/>
+<Connection from="3/iş" to="2/bu" with="mod"/>
+</Amr>

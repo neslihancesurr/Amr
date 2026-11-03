@@ -1,0 +1,17 @@
+<Amr sentence="Taraflar bir türlü anlaşamadığı için boşanma davası felce uğradı .">
+<Word name="8/felç 9/uğra" positionX="750" positionY="100"/>
+<Word name="mümkün" positionX="650" positionY="200"/>
+<Connection from="8/felç 9/uğra" to="mümkün"/>
+<Word name="4/anlaş" positionX="550" positionY="300"/>
+<Connection from="mümkün" to="4/anlaş" with="cause"/>
+<Word name="-" positionX="450" positionY="400"/>
+<Connection from="4/anlaş" to="-" with="polarity"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="4/anlaş" to="o" with="poss"/>
+<Word name="1/taraf" positionX="650" positionY="400"/>
+<Connection from="4/anlaş" to="1/taraf" with="ARG0"/>
+<Word name="3/türlü" positionX="750" positionY="400"/>
+<Connection from="4/anlaş" to="3/türlü" with="manner"/>
+<Word name="6/boşanma 7/dava" positionX="750" positionY="200"/>
+<Connection from="8/felç 9/uğra" to="6/boşanma 7/dava" with="ARG0"/>
+</Amr>

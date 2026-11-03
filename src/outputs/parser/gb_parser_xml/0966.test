@@ -1,0 +1,11 @@
+<Amr sentence="Oraya ne zaman gidiyorsunuz ?">
+<Word name="4/git" positionX="750" positionY="100"/>
+<Word name="siz" positionX="650" positionY="200"/>
+<Connection from="4/git" to="siz" with="ARG0"/>
+<Word name="1/ora" positionX="750" positionY="200"/>
+<Connection from="4/git" to="1/ora" with="ARG1"/>
+<Word name="2/ne" positionX="850" positionY="200"/>
+<Connection from="4/git" to="2/ne" with="mod"/>
+<Word name="3/zaman" positionX="750" positionY="300"/>
+<Connection from="2/ne" to="3/zaman"/>
+</Amr>

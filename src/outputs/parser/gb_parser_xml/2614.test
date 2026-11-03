@@ -1,0 +1,19 @@
+<Amr sentence="Bu havada herhalde evde oturup televizyon seyretmeyeceğiz !">
+<Word name="7/seyret" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="7/seyret" to="-" with="polarity"/>
+<Word name="biz" positionX="750" positionY="200"/>
+<Connection from="7/seyret" to="biz" with="ARG0"/>
+<Word name="2/hava" positionX="850" positionY="200"/>
+<Connection from="7/seyret" to="2/hava" with="location"/>
+<Word name="1/bu" positionX="750" positionY="300"/>
+<Connection from="2/hava" to="1/bu" with="mod"/>
+<Word name="3/herhalde" positionX="950" positionY="200"/>
+<Connection from="7/seyret" to="3/herhalde" with="manner"/>
+<Word name="5/otur" positionX="1050" positionY="200"/>
+<Connection from="7/seyret" to="5/otur"/>
+<Word name="4/ev" positionX="950" positionY="300"/>
+<Connection from="5/otur" to="4/ev" with="location"/>
+<Word name="6/televizyon" positionX="1150" positionY="200"/>
+<Connection from="7/seyret" to="6/televizyon" with="ARG1"/>
+</Amr>

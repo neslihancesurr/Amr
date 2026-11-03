@@ -1,0 +1,14 @@
+<Amr sentence="güzel , büyük , deniz manzaralı bir oda">
+<Word name="8/oda" positionX="750" positionY="100"/>
+<Word name="and" positionX="650" positionY="200"/>
+<Connection from="8/oda" to="and"/>
+<Word name="3/büyük" positionX="550" positionY="300"/>
+<Connection from="and" to="3/büyük" with="mod"/>
+<Word name="6/manzaralı" positionX="450" positionY="400"/>
+<Connection from="3/büyük" to="6/manzaralı"/>
+<Word name="5/deniz" positionX="350" positionY="500"/>
+<Connection from="6/manzaralı" to="5/deniz" with="mod"/>
+<Word name="1/güzel" positionX="650" positionY="300"/>
+<Connection from="and" to="1/güzel" with="mod"/>
+<Connection from="1/güzel" to="and"/>
+</Amr>

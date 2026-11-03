@@ -1,0 +1,13 @@
+<Amr sentence="Siz yeni komşularımızla tanıştınız mı ?">
+<Word name="4/tanış" positionX="750" positionY="100"/>
+<Word name="1/siz" positionX="650" positionY="200"/>
+<Connection from="4/tanış" to="1/siz" with="ARG0"/>
+<Word name="3/komşu" positionX="750" positionY="200"/>
+<Connection from="4/tanış" to="3/komşu" with="ARG1"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="3/komşu" to="biz" with="poss"/>
+<Word name="2/yeni" positionX="750" positionY="300"/>
+<Connection from="3/komşu" to="2/yeni" with="mod"/>
+<Word name="5/mi" positionX="850" positionY="200"/>
+<Connection from="4/tanış" to="5/mi"/>
+</Amr>

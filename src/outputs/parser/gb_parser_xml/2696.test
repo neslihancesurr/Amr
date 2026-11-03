@@ -1,0 +1,9 @@
+<Amr sentence="Oysa bir alıcı çıktığında bunalıma girdi .">
+<Word name="5/bunalım 6/gir" positionX="750" positionY="100"/>
+<Word name="1/o" positionX="650" positionY="200"/>
+<Connection from="5/bunalım 6/gir" to="1/o" with="cond"/>
+<Word name="3/alıcı 4/çık" positionX="750" positionY="200"/>
+<Connection from="5/bunalım 6/gir" to="3/alıcı 4/çık"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/alıcı 4/çık" to="o" with="poss"/>
+</Amr>

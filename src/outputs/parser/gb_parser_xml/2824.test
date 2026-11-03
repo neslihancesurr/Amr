@@ -1,0 +1,18 @@
+<Amr sentence="Semra'yı tanıdım ve hayran kaldım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/hayran 5/kal" positionX="650" positionY="200"/>
+<Connection from="and" to="4/hayran 5/kal" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="4/hayran 5/kal" to="ben" with="ARG0"/>
+<Word name="2/tanı" positionX="750" positionY="200"/>
+<Connection from="and" to="2/tanı" with="op2"/>
+<Connection from="2/tanı" to="ben" with="ARG0"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="2/tanı" to="person" with="ARG1"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/semra" positionX="550" positionY="500"/>
+<Connection from="name" to="1/semra" with="op1"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

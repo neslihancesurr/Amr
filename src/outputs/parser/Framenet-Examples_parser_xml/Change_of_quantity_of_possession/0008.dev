@@ -1,0 +1,9 @@
+<Amr sentence="Genç sporcu olimpiyatlarda güzel bir puan aldı .">
+<Word name="6/puan 7/al" positionX="750" positionY="100"/>
+<Word name="2/sporcu" positionX="650" positionY="200"/>
+<Connection from="6/puan 7/al" to="2/sporcu" with="ARG0"/>
+<Word name="1/genç" positionX="550" positionY="300"/>
+<Connection from="2/sporcu" to="1/genç" with="mod"/>
+<Word name="3/olimpiyat" positionX="750" positionY="200"/>
+<Connection from="6/puan 7/al" to="3/olimpiyat" with="location"/>
+</Amr>

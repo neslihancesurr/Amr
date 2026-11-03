@@ -1,0 +1,9 @@
+<Amr sentence="bu odaya uygun bir tablo">
+<Word name="5/tablo" positionX="750" positionY="100"/>
+<Word name="3/uygun" positionX="650" positionY="200"/>
+<Connection from="5/tablo" to="3/uygun" with="mod"/>
+<Word name="2/oda" positionX="550" positionY="300"/>
+<Connection from="3/uygun" to="2/oda" with="mod"/>
+<Word name="1/bu" positionX="450" positionY="400"/>
+<Connection from="2/oda" to="1/bu" with="mod"/>
+</Amr>

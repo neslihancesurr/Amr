@@ -1,0 +1,13 @@
+<Amr sentence="Annesi çocuğa sofra adabı öğretiyor .">
+<Word name="5/öğret" positionX="750" positionY="100"/>
+<Word name="1/anne" positionX="650" positionY="200"/>
+<Connection from="5/öğret" to="1/anne" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/anne" to="o" with="poss"/>
+<Word name="2/çocuk" positionX="750" positionY="200"/>
+<Connection from="5/öğret" to="2/çocuk" with="ARG2"/>
+<Word name="4/adap" positionX="850" positionY="200"/>
+<Connection from="5/öğret" to="4/adap" with="ARG1"/>
+<Word name="3/sofra" positionX="750" positionY="300"/>
+<Connection from="4/adap" to="3/sofra" with="mod"/>
+</Amr>

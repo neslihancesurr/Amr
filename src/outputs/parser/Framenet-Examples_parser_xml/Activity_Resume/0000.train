@@ -1,0 +1,9 @@
+<Amr sentence="Çocuk ödevi hala sürüyor .">
+<Word name="4/sürü" positionX="750" positionY="100"/>
+<Word name="1/çocuk" positionX="650" positionY="200"/>
+<Connection from="4/sürü" to="1/çocuk" with="ARG0"/>
+<Word name="2/ödev" positionX="750" positionY="200"/>
+<Connection from="4/sürü" to="2/ödev" with="ARG0"/>
+<Word name="3/hala" positionX="850" positionY="200"/>
+<Connection from="4/sürü" to="3/hala" with="manner"/>
+</Amr>

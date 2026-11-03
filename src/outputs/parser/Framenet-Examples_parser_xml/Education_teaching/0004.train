@@ -1,0 +1,9 @@
+<Amr sentence="Onlara deniz sporlarını talim ediyor .">
+<Word name="4/talim 5/et" positionX="750" positionY="100"/>
+<Word name="1/o" positionX="650" positionY="200"/>
+<Connection from="4/talim 5/et" to="1/o" with="ARG1"/>
+<Word name="3/spor" positionX="750" positionY="200"/>
+<Connection from="4/talim 5/et" to="3/spor" with="ARG2"/>
+<Word name="2/deniz" positionX="650" positionY="300"/>
+<Connection from="3/spor" to="2/deniz" with="mod"/>
+</Amr>

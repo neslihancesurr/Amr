@@ -1,0 +1,9 @@
+<Amr sentence="Bu ay kazançlı çıktım .">
+<Word name="3/kazançlı 4/çık" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/kazançlı 4/çık" to="ben" with="ARG0"/>
+<Word name="2/ay" positionX="750" positionY="200"/>
+<Connection from="3/kazançlı 4/çık" to="2/ay"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/ay" to="1/bu" with="mod"/>
+</Amr>

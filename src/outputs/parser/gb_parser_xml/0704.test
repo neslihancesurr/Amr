@@ -1,0 +1,11 @@
+<Amr sentence="Benim hakkımdaki fikriniz yanlış .">
+<Word name="4/yanlış" positionX="750" positionY="100"/>
+<Word name="3/fikir" positionX="650" positionY="200"/>
+<Connection from="4/yanlış" to="3/fikir"/>
+<Word name="siz" positionX="550" positionY="300"/>
+<Connection from="3/fikir" to="siz" with="poss"/>
+<Word name="2/hakkımdaki" positionX="650" positionY="300"/>
+<Connection from="3/fikir" to="2/hakkımdaki" with="mod"/>
+<Word name="1/ben" positionX="550" positionY="400"/>
+<Connection from="2/hakkımdaki" to="1/ben" with="mod"/>
+</Amr>

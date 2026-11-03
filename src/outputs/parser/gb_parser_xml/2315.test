@@ -1,0 +1,25 @@
+<Amr sentence="Artık sık sık görüşür olduğumuz komşularımızı başta hiç sevmemiştik .">
+<Word name="9/sev" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="9/sev" to="-" with="polarity"/>
+<Word name="biz" positionX="750" positionY="200"/>
+<Connection from="9/sev" to="biz" with="ARG0"/>
+<Word name="6/komşu" positionX="850" positionY="200"/>
+<Connection from="9/sev" to="6/komşu"/>
+<Connection from="6/komşu" to="biz" with="poss"/>
+<Word name="5/ol" positionX="850" positionY="300"/>
+<Connection from="6/komşu" to="5/ol"/>
+<Connection from="5/ol" to="biz" with="poss"/>
+<Word name="4/görüş" positionX="850" positionY="400"/>
+<Connection from="5/ol" to="4/görüş"/>
+<Word name="1/artık" positionX="750" positionY="500"/>
+<Connection from="4/görüş" to="1/artık" with="manner"/>
+<Word name="3/sık" positionX="850" positionY="500"/>
+<Connection from="4/görüş" to="3/sık" with="manner"/>
+<Word name="2/sık" positionX="750" positionY="600"/>
+<Connection from="3/sık" to="2/sık"/>
+<Word name="7/baş" positionX="950" positionY="200"/>
+<Connection from="9/sev" to="7/baş" with="location"/>
+<Word name="8/hiç" positionX="1050" positionY="200"/>
+<Connection from="9/sev" to="8/hiç" with="degree"/>
+</Amr>

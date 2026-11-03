@@ -1,0 +1,14 @@
+<Amr sentence="Zeytin bahçesi kurmak için para harcadı .">
+<Word name="6/harca" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/harca" to="o" with="ARG0"/>
+<Word name="3/kur" positionX="750" positionY="200"/>
+<Connection from="6/harca" to="3/kur" with="cause"/>
+<Connection from="3/kur" to="o" with="ARG0"/>
+<Word name="2/bahçe" positionX="750" positionY="300"/>
+<Connection from="3/kur" to="2/bahçe" with="ARG1"/>
+<Word name="1/zeytin" positionX="650" positionY="400"/>
+<Connection from="2/bahçe" to="1/zeytin" with="mod"/>
+<Word name="5/para" positionX="850" positionY="200"/>
+<Connection from="6/harca" to="5/para" with="ARG1"/>
+</Amr>

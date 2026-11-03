@@ -1,0 +1,14 @@
+<Amr sentence="Tam atlattı derken hastalığı ihtilat etti .">
+<Word name="5/ihtilat 6/et" positionX="750" positionY="100"/>
+<Word name="3/derken" positionX="650" positionY="200"/>
+<Connection from="5/ihtilat 6/et" to="3/derken"/>
+<Word name="1/tam" positionX="550" positionY="300"/>
+<Connection from="3/derken" to="1/tam" with="degree"/>
+<Word name="2/atlat" positionX="650" positionY="300"/>
+<Connection from="3/derken" to="2/atlat"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="2/atlat" to="o" with="ARG0"/>
+<Word name="4/hastalık" positionX="750" positionY="200"/>
+<Connection from="5/ihtilat 6/et" to="4/hastalık" with="ARG0"/>
+<Connection from="4/hastalık" to="o" with="poss"/>
+</Amr>

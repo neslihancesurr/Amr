@@ -1,0 +1,11 @@
+<Amr sentence="Abim bu fikri çok abes buldu .">
+<Word name="5/abes 6/bul" positionX="750" positionY="100"/>
+<Word name="1/abi" positionX="650" positionY="200"/>
+<Connection from="5/abes 6/bul" to="1/abi" with="ARG0"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="1/abi" to="ben" with="poss"/>
+<Word name="3/fikir" positionX="750" positionY="200"/>
+<Connection from="5/abes 6/bul" to="3/fikir" with="ARG1"/>
+<Word name="2/bu" positionX="650" positionY="300"/>
+<Connection from="3/fikir" to="2/bu" with="mod"/>
+</Amr>

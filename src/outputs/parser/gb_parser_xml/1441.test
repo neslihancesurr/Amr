@@ -1,0 +1,15 @@
+<Amr sentence="Nedir bana sormak istediğin soru ?">
+<Word name="1/ne" positionX="750" positionY="100"/>
+<Word name="5/soru" positionX="650" positionY="200"/>
+<Connection from="1/ne" to="5/soru"/>
+<Word name="4/iste" positionX="550" positionY="300"/>
+<Connection from="5/soru" to="4/iste"/>
+<Word name="sen" positionX="450" positionY="400"/>
+<Connection from="4/iste" to="sen" with="poss"/>
+<Word name="2/ben" positionX="550" positionY="400"/>
+<Connection from="4/iste" to="2/ben" with="ARG2"/>
+<Word name="3/sor" positionX="650" positionY="400"/>
+<Connection from="4/iste" to="3/sor" with="ARG1"/>
+<Word name="o" positionX="550" positionY="500"/>
+<Connection from="3/sor" to="o" with="ARG0"/>
+</Amr>

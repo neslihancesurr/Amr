@@ -1,0 +1,19 @@
+<Amr sentence="En iyi oyun birinci sınıf öğrencileri tarafından hazırlanmış .">
+<Word name="8/hazırlan" positionX="750" positionY="100"/>
+<Word name="3/oyun" positionX="650" positionY="200"/>
+<Connection from="8/hazırlan" to="3/oyun" with="ARG1"/>
+<Word name="2/iyi" positionX="550" positionY="300"/>
+<Connection from="3/oyun" to="2/iyi" with="mod"/>
+<Word name="1/en" positionX="450" positionY="400"/>
+<Connection from="2/iyi" to="1/en" with="manner"/>
+<Word name="7/tarafından" positionX="750" positionY="200"/>
+<Connection from="8/hazırlan" to="7/tarafından"/>
+<Word name="6/öğrenci" positionX="650" positionY="300"/>
+<Connection from="7/tarafından" to="6/öğrenci" with="mod"/>
+<Word name="5/sınıf" positionX="550" positionY="400"/>
+<Connection from="6/öğrenci" to="5/sınıf" with="mod"/>
+<Word name="ordinal-entity" positionX="450" positionY="500"/>
+<Connection from="5/sınıf" to="ordinal-entity" with="ord"/>
+<Word name="1" positionX="350" positionY="600"/>
+<Connection from="ordinal-entity" to="1" with="value"/>
+</Amr>

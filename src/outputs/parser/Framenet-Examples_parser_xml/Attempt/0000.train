@@ -1,0 +1,8 @@
+<Amr sentence="Gözü kapalıyken gol atmayı deneyecek .">
+<Word name="5/dene" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/dene" to="o" with="ARG0"/>
+<Word name="3/gol 4/at" positionX="750" positionY="200"/>
+<Connection from="5/dene" to="3/gol 4/at" with="ARG1"/>
+<Connection from="3/gol 4/at" to="o" with="ARG0"/>
+</Amr>

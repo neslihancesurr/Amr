@@ -1,0 +1,11 @@
+<Amr sentence="Masanın üç ayağı var .">
+<Word name="4/var" positionX="750" positionY="100"/>
+<Word name="1/masa" positionX="650" positionY="200"/>
+<Connection from="4/var" to="1/masa"/>
+<Word name="3/ayak" positionX="750" positionY="200"/>
+<Connection from="4/var" to="3/ayak"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/ayak" to="o" with="poss"/>
+<Word name="2/üç" positionX="750" positionY="300"/>
+<Connection from="3/ayak" to="2/üç"/>
+</Amr>

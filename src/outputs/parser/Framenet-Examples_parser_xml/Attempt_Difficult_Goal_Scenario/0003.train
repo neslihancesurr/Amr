@@ -1,0 +1,9 @@
+<Amr sentence="O kadar şuursuzdu ki , başından büyük işlere girişmişti .">
+<Word name="6/baş 7/büyük 8/iş 9/giriş" positionX="750" positionY="100"/>
+<Word name="3/şuursuz" positionX="650" positionY="200"/>
+<Connection from="6/baş 7/büyük 8/iş 9/giriş" to="3/şuursuz" with="extent"/>
+<Word name="1/o 2/kadar" positionX="550" positionY="300"/>
+<Connection from="3/şuursuz" to="1/o 2/kadar" with="mod"/>
+<Word name="4/ki" positionX="650" positionY="300"/>
+<Connection from="3/şuursuz" to="4/ki"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Sana yardım etti mi o adam ?">
+<Word name="2/yardım 3/et" positionX="750" positionY="100"/>
+<Word name="1/sen" positionX="650" positionY="200"/>
+<Connection from="2/yardım 3/et" to="1/sen" with="ARG1"/>
+<Word name="4/mi" positionX="750" positionY="200"/>
+<Connection from="2/yardım 3/et" to="4/mi"/>
+<Word name="6/adam" positionX="850" positionY="200"/>
+<Connection from="2/yardım 3/et" to="6/adam" with="ARG0"/>
+<Word name="5/o" positionX="750" positionY="300"/>
+<Connection from="6/adam" to="5/o" with="mod"/>
+</Amr>

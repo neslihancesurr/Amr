@@ -1,0 +1,21 @@
+<Amr sentence="Turhan'ın kızıp ofisi birbirine katması gibi Ahmet de düşünmeden istifa etti .">
+<Word name="10/istifa 11/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="10/istifa 11/et" to="o" with="ARG0"/>
+<Word name="4/birbiri 5/kat" positionX="750" positionY="200"/>
+<Connection from="10/istifa 11/et" to="4/birbiri 5/kat"/>
+<Connection from="4/birbiri 5/kat" to="o" with="ARG0"/>
+<Connection from="4/birbiri 5/kat" to="o" with="poss"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="10/istifa 11/et" to="person"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="7/ahmet" positionX="650" positionY="400"/>
+<Connection from="name" to="7/ahmet" with="op1"/>
+<Word name="-" positionX="850" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="8/de" positionX="950" positionY="300"/>
+<Connection from="person" to="8/de" with="manner"/>
+<Word name="9/düşün" positionX="950" positionY="200"/>
+<Connection from="10/istifa 11/et" to="9/düşün"/>
+</Amr>

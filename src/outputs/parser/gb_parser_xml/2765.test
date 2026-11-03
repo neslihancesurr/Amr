@@ -1,0 +1,5 @@
+<Amr sentence="Ortalık karmakarışıktı .">
+<Word name="2/karmakarışık" positionX="750" positionY="100"/>
+<Word name="1/ortalık" positionX="650" positionY="200"/>
+<Connection from="2/karmakarışık" to="1/ortalık"/>
+</Amr>

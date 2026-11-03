@@ -1,0 +1,12 @@
+<Amr sentence="Öğretmeninden bu kez aferin aldı .">
+<Word name="4/aferin 5/al" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/aferin 5/al" to="o" with="ARG0"/>
+<Word name="1/öğretmen" positionX="750" positionY="200"/>
+<Connection from="4/aferin 5/al" to="1/öğretmen"/>
+<Connection from="1/öğretmen" to="o" with="poss"/>
+<Word name="3/kez" positionX="850" positionY="200"/>
+<Connection from="4/aferin 5/al" to="3/kez" with="mod"/>
+<Word name="2/bu" positionX="750" positionY="300"/>
+<Connection from="3/kez" to="2/bu" with="mod"/>
+</Amr>

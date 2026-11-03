@@ -1,0 +1,9 @@
+<Amr sentence="Deri montum keçeleşmiş .">
+<Word name="3/keçe" positionX="750" positionY="100"/>
+<Word name="2/mont" positionX="650" positionY="200"/>
+<Connection from="3/keçe" to="2/mont"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="2/mont" to="ben" with="poss"/>
+<Word name="1/deri" positionX="650" positionY="300"/>
+<Connection from="2/mont" to="1/deri" with="mod"/>
+</Amr>

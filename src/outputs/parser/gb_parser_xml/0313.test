@@ -1,0 +1,9 @@
+<Amr sentence="Hiçbiri gelmeyecek .">
+<Word name="2/gel" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="2/gel" to="-" with="polarity"/>
+<Word name="1/hiçbiri" positionX="750" positionY="200"/>
+<Connection from="2/gel" to="1/hiçbiri" with="ARG0"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="1/hiçbiri" to="o" with="poss"/>
+</Amr>

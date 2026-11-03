@@ -1,0 +1,13 @@
+<Amr sentence="Uluslararası bir yazılım firmasına yerleşti o da .">
+<Word name="5/yerleş" positionX="750" positionY="100"/>
+<Word name="4/firma" positionX="650" positionY="200"/>
+<Connection from="5/yerleş" to="4/firma" with="ARG2"/>
+<Word name="1/uluslararası" positionX="550" positionY="300"/>
+<Connection from="4/firma" to="1/uluslararası" with="mod"/>
+<Word name="3/yazılım" positionX="650" positionY="300"/>
+<Connection from="4/firma" to="3/yazılım" with="mod"/>
+<Word name="6/o" positionX="750" positionY="200"/>
+<Connection from="5/yerleş" to="6/o" with="ARG0"/>
+<Word name="7/da" positionX="650" positionY="300"/>
+<Connection from="6/o" to="7/da" with="manner"/>
+</Amr>

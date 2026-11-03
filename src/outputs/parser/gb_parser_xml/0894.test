@@ -1,0 +1,5 @@
+<Amr sentence="1984 kasımında">
+<Word name="date-entity:date" positionX="750" positionY="100"/>
+<Word name="2/kasım" positionX="650" positionY="200"/>
+<Connection from="date-entity:date" to="2/kasım" with="month"/>
+</Amr>

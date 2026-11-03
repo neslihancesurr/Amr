@@ -1,0 +1,9 @@
+<Amr sentence="Bütün şansını elinden kaçırdı .">
+<Word name="3/el 4/kaçır" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/el 4/kaçır" to="o" with="ARG0"/>
+<Word name="2/şans" positionX="750" positionY="200"/>
+<Connection from="3/el 4/kaçır" to="2/şans" with="ARG1"/>
+<Word name="1/bütün" positionX="650" positionY="300"/>
+<Connection from="2/şans" to="1/bütün" with="mod"/>
+</Amr>

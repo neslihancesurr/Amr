@@ -1,0 +1,15 @@
+<Amr sentence="Ben de yarım kalan makaleyi bitirmek için harekete geçeceğim .">
+<Word name="8/hareket 9/geç" positionX="750" positionY="100"/>
+<Word name="1/ben" positionX="650" positionY="200"/>
+<Connection from="8/hareket 9/geç" to="1/ben" with="ARG0"/>
+<Word name="2/de" positionX="550" positionY="300"/>
+<Connection from="1/ben" to="2/de" with="manner"/>
+<Word name="6/bitir" positionX="750" positionY="200"/>
+<Connection from="8/hareket 9/geç" to="6/bitir" with="ARG1"/>
+<Word name="5/makale" positionX="650" positionY="300"/>
+<Connection from="6/bitir" to="5/makale" with="ARG1"/>
+<Word name="3/yarım 4/kal" positionX="550" positionY="400"/>
+<Connection from="5/makale" to="3/yarım 4/kal"/>
+<Word name="7/için" positionX="750" positionY="300"/>
+<Connection from="6/bitir" to="7/için"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="İki kilo versene .">
+<Word name="3/ver" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="3/ver" to="sen" with="ARG0"/>
+<Word name="2/kilo" positionX="750" positionY="200"/>
+<Connection from="3/ver" to="2/kilo"/>
+<Word name="1/iki" positionX="650" positionY="300"/>
+<Connection from="2/kilo" to="1/iki"/>
+</Amr>

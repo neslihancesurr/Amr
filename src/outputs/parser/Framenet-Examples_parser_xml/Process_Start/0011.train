@@ -1,0 +1,19 @@
+<Amr sentence="Batı tiyatrosu Türkiye için yepyeni bir şey olduğu için sıfırdan başladılar .">
+<Word name="10/sıfır 11/başla" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="10/sıfır 11/başla" to="onlar" with="ARG0"/>
+<Word name="8/ol" positionX="750" positionY="200"/>
+<Connection from="10/sıfır 11/başla" to="8/ol" with="cause"/>
+<Word name="2/tiyatro" positionX="650" positionY="300"/>
+<Connection from="8/ol" to="2/tiyatro"/>
+<Word name="1/batı" positionX="550" positionY="400"/>
+<Connection from="2/tiyatro" to="1/batı" with="mod"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="8/ol" to="person" with="cause"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/türkiye" positionX="550" positionY="500"/>
+<Connection from="name" to="3/türkiye" with="op1"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

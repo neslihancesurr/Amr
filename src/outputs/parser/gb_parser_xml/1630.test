@@ -1,0 +1,11 @@
+<Amr sentence="Bazı akşamlar film oluyor .">
+<Word name="4/ol" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/ol" to="o" with="ARG0"/>
+<Word name="2/akşam" positionX="750" positionY="200"/>
+<Connection from="4/ol" to="2/akşam"/>
+<Word name="1/bazı" positionX="650" positionY="300"/>
+<Connection from="2/akşam" to="1/bazı" with="mod"/>
+<Word name="3/film" positionX="850" positionY="200"/>
+<Connection from="4/ol" to="3/film"/>
+</Amr>

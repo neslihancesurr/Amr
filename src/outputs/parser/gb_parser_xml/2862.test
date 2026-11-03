@@ -1,0 +1,13 @@
+<Amr sentence="Bu akşam ne yapsak acaba ?">
+<Word name="4/yap" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="4/yap" to="biz" with="ARG0"/>
+<Word name="2/akşam" positionX="750" positionY="200"/>
+<Connection from="4/yap" to="2/akşam"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/akşam" to="1/bu" with="mod"/>
+<Word name="3/ne" positionX="850" positionY="200"/>
+<Connection from="4/yap" to="3/ne" with="ARG1"/>
+<Word name="5/acaba" positionX="950" positionY="200"/>
+<Connection from="4/yap" to="5/acaba" with="manner"/>
+</Amr>

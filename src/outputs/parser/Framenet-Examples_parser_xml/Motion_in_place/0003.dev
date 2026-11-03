@@ -1,0 +1,10 @@
+<Amr sentence="Saçları savrulurcasına uçuyor .">
+<Word name="3/uç" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/uç" to="o" with="ARG0"/>
+<Word name="1/saç" positionX="750" positionY="200"/>
+<Connection from="3/uç" to="1/saç"/>
+<Connection from="1/saç" to="o" with="poss"/>
+<Word name="2/savrul" positionX="850" positionY="200"/>
+<Connection from="3/uç" to="2/savrul"/>
+</Amr>

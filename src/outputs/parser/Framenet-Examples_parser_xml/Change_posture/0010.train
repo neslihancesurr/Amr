@@ -1,0 +1,19 @@
+<Amr sentence="Yamuk yumuk oturmaktan belim ağrımıştı , doğruldum .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/ağrı" positionX="650" positionY="200"/>
+<Connection from="and" to="5/ağrı" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="5/ağrı" to="o" with="ARG0"/>
+<Word name="3/otur" positionX="650" positionY="300"/>
+<Connection from="5/ağrı" to="3/otur"/>
+<Connection from="3/otur" to="o" with="ARG0"/>
+<Word name="1/yamuk 2/yumuk" positionX="650" positionY="400"/>
+<Connection from="3/otur" to="1/yamuk 2/yumuk"/>
+<Word name="4/bel" positionX="750" positionY="300"/>
+<Connection from="5/ağrı" to="4/bel" with="ARG1"/>
+<Word name="ben" positionX="650" positionY="400"/>
+<Connection from="4/bel" to="ben" with="poss"/>
+<Word name="7/doğrul" positionX="750" positionY="200"/>
+<Connection from="and" to="7/doğrul" with="op2"/>
+<Connection from="7/doğrul" to="ben" with="ARG0"/>
+</Amr>

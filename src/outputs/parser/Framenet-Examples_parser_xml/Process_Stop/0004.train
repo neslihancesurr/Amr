@@ -1,0 +1,21 @@
+<Amr sentence="Sabah araba istop etti ve bir daha çalıştıramadık .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="8/çalış" positionX="650" positionY="200"/>
+<Connection from="and" to="8/çalış" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="8/çalış" to="-" with="polarity"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="8/çalış" to="biz" with="ARG0"/>
+<Word name="3/istop 4/et" positionX="750" positionY="200"/>
+<Connection from="and" to="3/istop 4/et" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/istop 4/et" to="o" with="ARG0"/>
+<Word name="1/sabah" positionX="750" positionY="300"/>
+<Connection from="3/istop 4/et" to="1/sabah" with="mod"/>
+<Word name="2/araba" positionX="850" positionY="300"/>
+<Connection from="3/istop 4/et" to="2/araba" with="ARG1"/>
+<Word name="mümkün" positionX="950" positionY="300"/>
+<Connection from="3/istop 4/et" to="mümkün"/>
+<Word name="yap" positionX="850" positionY="400"/>
+<Connection from="mümkün" to="yap"/>
+</Amr>

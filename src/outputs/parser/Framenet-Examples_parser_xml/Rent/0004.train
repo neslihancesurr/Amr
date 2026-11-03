@@ -1,0 +1,7 @@
+<Amr sentence="Oturduğunuz evin alt katını bir terzi kiralamıştı .">
+<Word name="7/kirala" positionX="750" positionY="100"/>
+<Word name="3/alt 4/kat" positionX="650" positionY="200"/>
+<Connection from="7/kirala" to="3/alt 4/kat" with="ARG1"/>
+<Word name="6/terzi" positionX="750" positionY="200"/>
+<Connection from="7/kirala" to="6/terzi" with="ARG0"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Her şeyi eski haline geri getirdik .">
+<Word name="5/geri 6/getir" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/geri 6/getir" to="biz" with="ARG0"/>
+<Word name="2/şey" positionX="750" positionY="200"/>
+<Connection from="5/geri 6/getir" to="2/şey" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/şey" to="o" with="poss"/>
+<Word name="1/her" positionX="750" positionY="300"/>
+<Connection from="2/şey" to="1/her" with="mod"/>
+<Word name="4/hal" positionX="850" positionY="200"/>
+<Connection from="5/geri 6/getir" to="4/hal" with="ARG2"/>
+<Word name="3/eski" positionX="750" positionY="300"/>
+<Connection from="4/hal" to="3/eski" with="mod"/>
+</Amr>

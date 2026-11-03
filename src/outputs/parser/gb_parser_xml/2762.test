@@ -1,0 +1,17 @@
+<Amr sentence="- Yok canım , ben zaten yeni bir bavul alacaktım .">
+<Word name="10/al" positionX="750" positionY="100"/>
+<Word name="2/yok" positionX="650" positionY="200"/>
+<Connection from="10/al" to="2/yok"/>
+<Word name="3/can" positionX="550" positionY="300"/>
+<Connection from="2/yok" to="3/can"/>
+<Word name="ben" positionX="450" positionY="400"/>
+<Connection from="3/can" to="ben" with="poss"/>
+<Word name="5/ben" positionX="750" positionY="200"/>
+<Connection from="10/al" to="5/ben"/>
+<Word name="6/zaten" positionX="850" positionY="200"/>
+<Connection from="10/al" to="6/zaten" with="manner"/>
+<Word name="9/bavul" positionX="950" positionY="200"/>
+<Connection from="10/al" to="9/bavul"/>
+<Word name="7/yeni" positionX="850" positionY="300"/>
+<Connection from="9/bavul" to="7/yeni" with="mod"/>
+</Amr>

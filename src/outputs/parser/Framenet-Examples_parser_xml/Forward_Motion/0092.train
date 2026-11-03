@@ -1,0 +1,15 @@
+<Amr sentence="Çevremizi bir kolaçan edelim hele nerde olduğumuzu iyice anlayalım .">
+<Word name="9/anla" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="9/anla" to="biz" with="ARG0"/>
+<Word name="3/kolaçan 4/et" positionX="750" positionY="200"/>
+<Connection from="9/anla" to="3/kolaçan 4/et"/>
+<Connection from="3/kolaçan 4/et" to="biz" with="ARG0"/>
+<Word name="7/ol" positionX="850" positionY="200"/>
+<Connection from="9/anla" to="7/ol" with="ARG1"/>
+<Connection from="7/ol" to="biz" with="ARG0"/>
+<Word name="6/nerede" positionX="850" positionY="300"/>
+<Connection from="7/ol" to="6/nerede" with="mod"/>
+<Word name="8/iyice" positionX="950" positionY="200"/>
+<Connection from="9/anla" to="8/iyice" with="manner"/>
+</Amr>

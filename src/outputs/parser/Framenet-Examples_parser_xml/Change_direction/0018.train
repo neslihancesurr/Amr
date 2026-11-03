@@ -1,0 +1,17 @@
+<Amr sentence="Arada gelenlerin çoğu kapıdan bakıp oturmadan geri dönüyorlardı .">
+<Word name="7/geri 8/dön" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="7/geri 8/dön" to="onlar" with="ARG0"/>
+<Word name="3/çoğu" positionX="750" positionY="200"/>
+<Connection from="7/geri 8/dön" to="3/çoğu"/>
+<Word name="2/gelen" positionX="650" positionY="300"/>
+<Connection from="3/çoğu" to="2/gelen" with="mod"/>
+<Word name="1/ara" positionX="550" positionY="400"/>
+<Connection from="2/gelen" to="1/ara" with="location"/>
+<Word name="6/oturma" positionX="850" positionY="200"/>
+<Connection from="7/geri 8/dön" to="6/oturma"/>
+<Word name="5/bak" positionX="750" positionY="300"/>
+<Connection from="6/oturma" to="5/bak"/>
+<Word name="4/kapı" positionX="650" positionY="400"/>
+<Connection from="5/bak" to="4/kapı"/>
+</Amr>

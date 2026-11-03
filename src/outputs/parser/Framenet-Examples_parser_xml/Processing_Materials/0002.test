@@ -1,0 +1,11 @@
+<Amr sentence="Gümüş malzemeleri savatlatıyor .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="3/savatla" positionX="650" positionY="200"/>
+<Connection from="yap" to="3/savatla"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/savatla" to="o" with="ARG0"/>
+<Word name="2/malzeme" positionX="650" positionY="300"/>
+<Connection from="3/savatla" to="2/malzeme" with="ARG1"/>
+<Word name="1/gümüş" positionX="550" positionY="400"/>
+<Connection from="2/malzeme" to="1/gümüş" with="mod"/>
+</Amr>

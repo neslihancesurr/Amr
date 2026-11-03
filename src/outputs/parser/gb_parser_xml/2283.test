@@ -1,0 +1,7 @@
+<Amr sentence="Bu konuda bildiğim bir şey yok .">
+<Word name="6/yok" positionX="750" positionY="100"/>
+<Word name="2/konu" positionX="650" positionY="200"/>
+<Connection from="6/yok" to="2/konu" with="location"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/konu" to="1/bu" with="mod"/>
+</Amr>

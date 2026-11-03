@@ -1,0 +1,19 @@
+<Amr sentence="Bunu senin kafanda patlatırsam , dünya kaç bucak görürsün .">
+<Word name="9/gör" positionX="750" positionY="100"/>
+<Word name="4/patlat" positionX="650" positionY="200"/>
+<Connection from="9/gör" to="4/patlat" with="cond"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="4/patlat" to="ben" with="ARG0"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="4/patlat" to="1/bu" with="ARG1"/>
+<Word name="3/kafa" positionX="750" positionY="300"/>
+<Connection from="4/patlat" to="3/kafa" with="location"/>
+<Word name="2/sen" positionX="650" positionY="400"/>
+<Connection from="3/kafa" to="2/sen" with="mod"/>
+<Word name="8/bucak" positionX="750" positionY="200"/>
+<Connection from="9/gör" to="8/bucak" with="ARG1"/>
+<Word name="6/dünya" positionX="650" positionY="300"/>
+<Connection from="8/bucak" to="6/dünya"/>
+<Word name="7/kaç" positionX="750" positionY="300"/>
+<Connection from="8/bucak" to="7/kaç" with="mod"/>
+</Amr>

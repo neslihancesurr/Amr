@@ -1,0 +1,12 @@
+<Amr sentence="Olan biteni ince ince kritik ettik .">
+<Word name="5/kritik 6/et" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/kritik 6/et" to="biz" with="ARG0"/>
+<Word name="1/ol 2/bit" positionX="750" positionY="200"/>
+<Connection from="5/kritik 6/et" to="1/ol 2/bit" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="1/ol 2/bit" to="o" with="ARG0"/>
+<Connection from="1/ol 2/bit" to="o" with="poss"/>
+<Word name="3/ince 4/ince" positionX="850" positionY="200"/>
+<Connection from="5/kritik 6/et" to="3/ince 4/ince"/>
+</Amr>

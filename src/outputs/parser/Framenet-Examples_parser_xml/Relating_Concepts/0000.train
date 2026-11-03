@@ -1,0 +1,13 @@
+<Amr sentence="Kötü düşüncelerini çoğunlukla onların tuhaflığına vurdu .">
+<Word name="6/vur" positionX="750" positionY="100"/>
+<Word name="2/düşünce" positionX="650" positionY="200"/>
+<Connection from="6/vur" to="2/düşünce" with="ARG1"/>
+<Word name="1/kötü" positionX="550" positionY="300"/>
+<Connection from="2/düşünce" to="1/kötü" with="mod"/>
+<Word name="3/çoğunlukla" positionX="750" positionY="200"/>
+<Connection from="6/vur" to="3/çoğunlukla" with="manner"/>
+<Word name="5/tuhaflık" positionX="850" positionY="200"/>
+<Connection from="6/vur" to="5/tuhaflık"/>
+<Word name="4/o" positionX="750" positionY="300"/>
+<Connection from="5/tuhaflık" to="4/o" with="mod"/>
+</Amr>

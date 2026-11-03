@@ -1,0 +1,11 @@
+<Amr sentence="Kimyagerler bir miktar bulguyu daha mikroskop altına aldı .">
+<Word name="6/mikroskop 7/alt 8/al" positionX="750" positionY="100"/>
+<Word name="1/kimyager" positionX="650" positionY="200"/>
+<Connection from="6/mikroskop 7/alt 8/al" to="1/kimyager" with="ARG0"/>
+<Word name="4/bulgu" positionX="750" positionY="200"/>
+<Connection from="6/mikroskop 7/alt 8/al" to="4/bulgu" with="ARG1"/>
+<Word name="2/bir 3/miktar" positionX="650" positionY="300"/>
+<Connection from="4/bulgu" to="2/bir 3/miktar"/>
+<Word name="5/daha" positionX="750" positionY="300"/>
+<Connection from="4/bulgu" to="5/daha" with="degree"/>
+</Amr>

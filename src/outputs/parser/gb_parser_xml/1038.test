@@ -1,0 +1,19 @@
+<Amr sentence="Van'a kadar gidemedik .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="3/git" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="3/git"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="3/git" to="-" with="polarity"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="3/git" to="biz" with="ARG0"/>
+<Word name="city" positionX="750" positionY="300"/>
+<Connection from="3/git" to="city" with="ARG1"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="1/van" positionX="550" positionY="500"/>
+<Connection from="name" to="1/van" with="op1"/>
+<Word name="van" positionX="750" positionY="400"/>
+<Connection from="city" to="van" with="wiki"/>
+<Word name="2/kadar" positionX="850" positionY="400"/>
+<Connection from="city" to="2/kadar"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Saat ikiye kadar çalıştık .">
+<Word name="4/çalış" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="4/çalış" to="biz" with="ARG0"/>
+<Word name="2/iki" positionX="750" positionY="200"/>
+<Connection from="4/çalış" to="2/iki" with="extent"/>
+<Word name="1/saat" positionX="650" positionY="300"/>
+<Connection from="2/iki" to="1/saat" with="mod"/>
+</Amr>

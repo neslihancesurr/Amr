@@ -1,0 +1,27 @@
+<Amr sentence="Sen hep kolayına kaçıyorsun , bense her işi en iyi şekilde yapmaya çalışıyorum .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/kolay 4/kaç" positionX="650" positionY="200"/>
+<Connection from="and" to="3/kolay 4/kaç" with="op1"/>
+<Word name="1/sen" positionX="550" positionY="300"/>
+<Connection from="3/kolay 4/kaç" to="1/sen" with="ARG0"/>
+<Word name="2/hep" positionX="650" positionY="300"/>
+<Connection from="3/kolay 4/kaç" to="2/hep" with="frequency"/>
+<Word name="13/çalış" positionX="750" positionY="200"/>
+<Connection from="and" to="13/çalış" with="op2"/>
+<Word name="6/ben" positionX="650" positionY="300"/>
+<Connection from="13/çalış" to="6/ben" with="ARG0"/>
+<Word name="12/yap" positionX="750" positionY="300"/>
+<Connection from="13/çalış" to="12/yap"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="12/yap" to="o" with="ARG0"/>
+<Word name="8/iş" positionX="750" positionY="400"/>
+<Connection from="12/yap" to="8/iş" with="ARG1"/>
+<Word name="7/her" positionX="650" positionY="500"/>
+<Connection from="8/iş" to="7/her" with="mod"/>
+<Word name="11/şekil" positionX="850" positionY="400"/>
+<Connection from="12/yap" to="11/şekil" with="location"/>
+<Word name="10/iyi" positionX="750" positionY="500"/>
+<Connection from="11/şekil" to="10/iyi" with="mod"/>
+<Word name="9/en" positionX="650" positionY="600"/>
+<Connection from="10/iyi" to="9/en" with="manner"/>
+</Amr>

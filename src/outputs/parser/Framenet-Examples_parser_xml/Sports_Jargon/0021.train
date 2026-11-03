@@ -1,0 +1,21 @@
+<Amr sentence="Jordan hızlıca kaçıp pas istercesine ellerini açtı .">
+<Word name="6/el 7/aç" positionX="750" positionY="100"/>
+<Word name="3/kaç" positionX="650" positionY="200"/>
+<Connection from="6/el 7/aç" to="3/kaç"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="3/kaç" to="person"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/jordan" positionX="350" positionY="500"/>
+<Connection from="name" to="1/jordan" with="op1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/hızlıca" positionX="650" positionY="300"/>
+<Connection from="3/kaç" to="2/hızlıca" with="manner"/>
+<Word name="5/iste" positionX="750" positionY="200"/>
+<Connection from="6/el 7/aç" to="5/iste"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/iste" to="o" with="ARG0"/>
+<Word name="4/pas" positionX="750" positionY="300"/>
+<Connection from="5/iste" to="4/pas"/>
+</Amr>

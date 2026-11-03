@@ -1,0 +1,14 @@
+<Amr sentence="Öğleden sonra arayan birisi olmadı .">
+<Word name="5/ol" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/ol" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="5/ol" to="o" with="ARG0"/>
+<Word name="4/biri" positionX="850" positionY="200"/>
+<Connection from="5/ol" to="4/biri"/>
+<Connection from="4/biri" to="o" with="poss"/>
+<Word name="3/ara" positionX="850" positionY="300"/>
+<Connection from="4/biri" to="3/ara"/>
+<Word name="1/öğle 2/sonra" positionX="750" positionY="400"/>
+<Connection from="3/ara" to="1/öğle 2/sonra"/>
+</Amr>

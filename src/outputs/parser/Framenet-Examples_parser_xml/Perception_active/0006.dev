@@ -1,0 +1,27 @@
+<Amr sentence="İçeri girdiği gibi , etrafta toz bulayım diye tüm sehpaları parmakladı .">
+<Word name="11/parmakla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="11/parmakla" to="o" with="ARG0"/>
+<Word name="2/gir" positionX="750" positionY="200"/>
+<Connection from="11/parmakla" to="2/gir"/>
+<Connection from="2/gir" to="o" with="ARG0"/>
+<Word name="1/içeri" positionX="750" positionY="300"/>
+<Connection from="2/gir" to="1/içeri" with="ARG1"/>
+<Word name="3/gibi" positionX="850" positionY="300"/>
+<Connection from="2/gir" to="3/gibi"/>
+<Word name="7/bul" positionX="850" positionY="200"/>
+<Connection from="11/parmakla" to="7/bul"/>
+<Word name="ben" positionX="750" positionY="300"/>
+<Connection from="7/bul" to="ben" with="ARG0"/>
+<Word name="5/etraf" positionX="850" positionY="300"/>
+<Connection from="7/bul" to="5/etraf" with="location"/>
+<Word name="6/toz" positionX="950" positionY="300"/>
+<Connection from="7/bul" to="6/toz"/>
+<Word name="8/diye" positionX="1050" positionY="300"/>
+<Connection from="7/bul" to="8/diye"/>
+<Word name="10/sehpa" positionX="950" positionY="200"/>
+<Connection from="11/parmakla" to="10/sehpa" with="ARG1"/>
+<Connection from="10/sehpa" to="o" with="poss"/>
+<Word name="9/tüm" positionX="950" positionY="300"/>
+<Connection from="10/sehpa" to="9/tüm" with="mod"/>
+</Amr>

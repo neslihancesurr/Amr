@@ -1,0 +1,9 @@
+<Amr sentence="Varmış sizin bakkalda kopya kağıdı !">
+<Word name="1/var" positionX="750" positionY="100"/>
+<Word name="3/bakkal" positionX="650" positionY="200"/>
+<Connection from="1/var" to="3/bakkal" with="mod"/>
+<Word name="2/siz" positionX="550" positionY="300"/>
+<Connection from="3/bakkal" to="2/siz" with="mod"/>
+<Word name="4/kopya 5/kağıt" positionX="750" positionY="200"/>
+<Connection from="1/var" to="4/kopya 5/kağıt" with="mod"/>
+</Amr>

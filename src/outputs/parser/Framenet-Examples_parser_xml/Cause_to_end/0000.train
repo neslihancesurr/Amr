@@ -1,0 +1,9 @@
+<Amr sentence="Hapisten dün bıraktılar .">
+<Word name="3/bırak" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="3/bırak" to="onlar" with="ARG0"/>
+<Word name="1/hapis" positionX="750" positionY="200"/>
+<Connection from="3/bırak" to="1/hapis"/>
+<Word name="2/dün" positionX="850" positionY="200"/>
+<Connection from="3/bırak" to="2/dün"/>
+</Amr>

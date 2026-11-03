@@ -1,0 +1,15 @@
+<Amr sentence="Ona yaklaşınca kokusunu daha iyi algılıyordu .">
+<Word name="6/algıla" positionX="750" positionY="100"/>
+<Word name="2/yaklaş" positionX="650" positionY="200"/>
+<Connection from="6/algıla" to="2/yaklaş"/>
+<Word name="1/o" positionX="550" positionY="300"/>
+<Connection from="2/yaklaş" to="1/o" with="ARG1"/>
+<Word name="3/koku" positionX="750" positionY="200"/>
+<Connection from="6/algıla" to="3/koku" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/koku" to="o" with="poss"/>
+<Word name="5/iyi" positionX="850" positionY="200"/>
+<Connection from="6/algıla" to="5/iyi" with="manner"/>
+<Word name="4/daha" positionX="750" positionY="300"/>
+<Connection from="5/iyi" to="4/daha" with="degree"/>
+</Amr>

@@ -1,0 +1,12 @@
+<Amr sentence="Olta attım , elbet yakalayacaktım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/olta 2/at" positionX="650" positionY="200"/>
+<Connection from="and" to="1/olta 2/at" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="1/olta 2/at" to="ben" with="ARG0"/>
+<Word name="5/yakala" positionX="750" positionY="200"/>
+<Connection from="and" to="5/yakala" with="op2"/>
+<Connection from="5/yakala" to="ben" with="ARG0"/>
+<Word name="4/elbet" positionX="750" positionY="300"/>
+<Connection from="5/yakala" to="4/elbet" with="manner"/>
+</Amr>

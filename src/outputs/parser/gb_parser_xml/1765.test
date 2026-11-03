@@ -1,0 +1,12 @@
+<Amr sentence="Artık yatsanıza , uyukluyorsunuz .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/yat" positionX="650" positionY="200"/>
+<Connection from="and" to="2/yat" with="op1"/>
+<Word name="siz" positionX="550" positionY="300"/>
+<Connection from="2/yat" to="siz" with="ARG0"/>
+<Word name="1/artık" positionX="650" positionY="300"/>
+<Connection from="2/yat" to="1/artık" with="manner"/>
+<Word name="4/uyukla" positionX="750" positionY="200"/>
+<Connection from="and" to="4/uyukla" with="op2"/>
+<Connection from="4/uyukla" to="siz" with="ARG0"/>
+</Amr>

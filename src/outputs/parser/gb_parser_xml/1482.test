@@ -1,0 +1,21 @@
+<Amr sentence="Elif kalıp kalmayacağını söyledi mi ?">
+<Word name="4/söyle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/söyle" to="o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="4/söyle" to="person"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/elif" positionX="550" positionY="400"/>
+<Connection from="name" to="1/elif" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/kal" positionX="850" positionY="200"/>
+<Connection from="4/söyle" to="3/kal"/>
+<Connection from="3/kal" to="-" with="polarity"/>
+<Connection from="3/kal" to="o" with="poss"/>
+<Word name="2/kalıp" positionX="950" positionY="300"/>
+<Connection from="3/kal" to="2/kalıp"/>
+<Word name="5/mi" positionX="950" positionY="200"/>
+<Connection from="4/söyle" to="5/mi"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr sentence="Bahçemizi de alsalar biz buradan çıkmayacağız .">
+<Word name="6/çık" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="6/çık" to="-" with="polarity"/>
+<Word name="3/al" positionX="750" positionY="200"/>
+<Connection from="6/çık" to="3/al" with="cond"/>
+<Word name="1/bahçe" positionX="650" positionY="300"/>
+<Connection from="3/al" to="1/bahçe"/>
+<Word name="biz" positionX="550" positionY="400"/>
+<Connection from="1/bahçe" to="biz" with="poss"/>
+<Word name="2/de" positionX="650" positionY="400"/>
+<Connection from="1/bahçe" to="2/de"/>
+<Word name="4/biz" positionX="850" positionY="200"/>
+<Connection from="6/çık" to="4/biz"/>
+<Word name="5/buradan" positionX="950" positionY="200"/>
+<Connection from="6/çık" to="5/buradan"/>
+</Amr>

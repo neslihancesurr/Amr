@@ -1,0 +1,9 @@
+<Amr sentence="kırk beş yaşlarında bir adam">
+<Word name="5/adam" positionX="750" positionY="100"/>
+<Word name="3/yaş" positionX="650" positionY="200"/>
+<Connection from="5/adam" to="3/yaş" with="mod"/>
+<Word name="2/beş" positionX="550" positionY="300"/>
+<Connection from="3/yaş" to="2/beş"/>
+<Word name="1/kırk" positionX="450" positionY="400"/>
+<Connection from="2/beş" to="1/kırk"/>
+</Amr>

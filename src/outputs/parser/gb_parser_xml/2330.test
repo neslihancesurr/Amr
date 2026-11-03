@@ -1,0 +1,14 @@
+<Amr sentence="Yemeğini yemiş olan bebek hemen uykuya daldı .">
+<Word name="6/uyku 7/dal" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/uyku 7/dal" to="o" with="ARG0"/>
+<Word name="4/bebek" positionX="750" positionY="200"/>
+<Connection from="6/uyku 7/dal" to="4/bebek"/>
+<Word name="3/ol" positionX="650" positionY="300"/>
+<Connection from="4/bebek" to="3/ol"/>
+<Word name="1/yemek 2/ye" positionX="550" positionY="400"/>
+<Connection from="3/ol" to="1/yemek 2/ye"/>
+<Connection from="1/yemek 2/ye" to="o" with="ARG0"/>
+<Word name="5/hemen" positionX="850" positionY="200"/>
+<Connection from="6/uyku 7/dal" to="5/hemen" with="manner"/>
+</Amr>

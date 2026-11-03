@@ -1,0 +1,15 @@
+<Amr sentence="Otobüs , yol üzerinde bir kasabanın çarşısında yarım saat mola vermişti .">
+<Word name="10/mola 11/ver" positionX="750" positionY="100"/>
+<Word name="1/otobüs" positionX="650" positionY="200"/>
+<Connection from="10/mola 11/ver" to="1/otobüs" with="ARG0"/>
+<Word name="7/çarşı" positionX="750" positionY="200"/>
+<Connection from="10/mola 11/ver" to="7/çarşı" with="location"/>
+<Word name="6/kasaba" positionX="650" positionY="300"/>
+<Connection from="7/çarşı" to="6/kasaba" with="mod"/>
+<Word name="4/üzerinde" positionX="550" positionY="400"/>
+<Connection from="6/kasaba" to="4/üzerinde" with="mod"/>
+<Word name="3/yol" positionX="450" positionY="500"/>
+<Connection from="4/üzerinde" to="3/yol" with="mod"/>
+<Word name="8/yarım 9/saat" positionX="850" positionY="200"/>
+<Connection from="10/mola 11/ver" to="8/yarım 9/saat" with="mod"/>
+</Amr>

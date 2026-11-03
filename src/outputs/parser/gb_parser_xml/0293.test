@@ -1,0 +1,25 @@
+<Amr sentence="Yarışmacılar arasından iki üç kişi , jürinin ısrarına rağmen yaşlarını söylememiş .">
+<Word name="11/söyle" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="11/söyle" to="-" with="polarity"/>
+<Word name="5/kişi" positionX="750" positionY="200"/>
+<Connection from="11/söyle" to="5/kişi" with="ARG0"/>
+<Word name="2/ara" positionX="650" positionY="300"/>
+<Connection from="5/kişi" to="2/ara"/>
+<Word name="1/yarışmacı" positionX="550" positionY="400"/>
+<Connection from="2/ara" to="1/yarışmacı" with="mod"/>
+<Word name="and" positionX="750" positionY="300"/>
+<Connection from="5/kişi" to="and"/>
+<Word name="4/üç" positionX="650" positionY="400"/>
+<Connection from="and" to="4/üç" with="op1"/>
+<Word name="3/iki" positionX="750" positionY="400"/>
+<Connection from="and" to="3/iki" with="op2"/>
+<Word name="8/ısrar" positionX="850" positionY="200"/>
+<Connection from="11/söyle" to="8/ısrar" with="concession"/>
+<Word name="7/jüri" positionX="750" positionY="300"/>
+<Connection from="8/ısrar" to="7/jüri" with="mod"/>
+<Word name="10/yaş" positionX="950" positionY="200"/>
+<Connection from="11/söyle" to="10/yaş" with="ARG1"/>
+<Word name="onlar" positionX="850" positionY="300"/>
+<Connection from="10/yaş" to="onlar" with="poss"/>
+</Amr>

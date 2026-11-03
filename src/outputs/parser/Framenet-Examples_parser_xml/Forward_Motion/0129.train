@@ -1,0 +1,11 @@
+<Amr sentence="Rüzgar vardı , gemi bocalıyordu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/var" positionX="650" positionY="200"/>
+<Connection from="and" to="2/var" with="op1"/>
+<Word name="1/rüzgar" positionX="550" positionY="300"/>
+<Connection from="2/var" to="1/rüzgar"/>
+<Word name="5/bocala" positionX="750" positionY="200"/>
+<Connection from="and" to="5/bocala" with="op2"/>
+<Word name="4/gemi" positionX="650" positionY="300"/>
+<Connection from="5/bocala" to="4/gemi" with="ARG0"/>
+</Amr>

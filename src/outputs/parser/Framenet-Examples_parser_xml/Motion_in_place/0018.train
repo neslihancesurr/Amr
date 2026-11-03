@@ -1,0 +1,21 @@
+<Amr sentence="Yere çivilenmiş koca masayı sarsarken oda bir salıncak gibi sallanıyor .">
+<Word name="10/salla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="10/salla" to="o" with="ARG0"/>
+<Word name="5/sars" positionX="750" positionY="200"/>
+<Connection from="10/salla" to="5/sars"/>
+<Word name="4/masa" positionX="650" positionY="300"/>
+<Connection from="5/sars" to="4/masa"/>
+<Word name="2/çivile" positionX="550" positionY="400"/>
+<Connection from="4/masa" to="2/çivile"/>
+<Word name="1/yer" positionX="450" positionY="500"/>
+<Connection from="2/çivile" to="1/yer"/>
+<Word name="3/koca" positionX="650" positionY="400"/>
+<Connection from="4/masa" to="3/koca" with="mod"/>
+<Word name="6/oda" positionX="850" positionY="200"/>
+<Connection from="10/salla" to="6/oda" with="ARG1"/>
+<Word name="8/salıncak" positionX="950" positionY="200"/>
+<Connection from="10/salla" to="8/salıncak" with="mod"/>
+<Word name="9/gibi" positionX="850" positionY="300"/>
+<Connection from="8/salıncak" to="9/gibi"/>
+</Amr>

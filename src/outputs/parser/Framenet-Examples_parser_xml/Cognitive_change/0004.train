@@ -1,0 +1,32 @@
+<Amr sentence="Ayşe ne zaman konu Mustafa ile olan ilişkisine gelse lafı değiştiriyordu .">
+<Word name="10/laf 11/değiştir" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="10/laf 11/değiştir" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ayşe" positionX="450" positionY="400"/>
+<Connection from="name" to="1/ayşe" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="9/gel" positionX="750" positionY="200"/>
+<Connection from="10/laf 11/değiştir" to="9/gel"/>
+<Word name="3/zaman" positionX="650" positionY="300"/>
+<Connection from="9/gel" to="3/zaman" with="mod"/>
+<Word name="2/ne" positionX="550" positionY="400"/>
+<Connection from="3/zaman" to="2/ne"/>
+<Word name="4/konu" positionX="750" positionY="300"/>
+<Connection from="9/gel" to="4/konu" with="ARG0"/>
+<Word name="8/ilişki" positionX="850" positionY="300"/>
+<Connection from="9/gel" to="8/ilişki" with="ARG1"/>
+<Word name="o" positionX="750" positionY="400"/>
+<Connection from="8/ilişki" to="o" with="poss"/>
+<Word name="7/ol" positionX="850" positionY="400"/>
+<Connection from="8/ilişki" to="7/ol"/>
+<Connection from="7/ol" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="5/mustafa" positionX="550" positionY="700"/>
+<Connection from="name" to="5/mustafa" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="6/ile" positionX="850" positionY="600"/>
+<Connection from="person" to="6/ile"/>
+</Amr>

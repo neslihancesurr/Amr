@@ -1,0 +1,13 @@
+<Amr sentence="Gevezeliklerine tam zamanında son vermişler .">
+<Word name="4/son 5/ver" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/son 5/ver" to="onlar" with="ARG0"/>
+<Word name="1/gevezelik" positionX="750" positionY="200"/>
+<Connection from="4/son 5/ver" to="1/gevezelik" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="1/gevezelik" to="o" with="poss"/>
+<Word name="3/zamanında" positionX="850" positionY="200"/>
+<Connection from="4/son 5/ver" to="3/zamanında" with="manner"/>
+<Word name="2/tam" positionX="750" positionY="300"/>
+<Connection from="3/zamanında" to="2/tam" with="degree"/>
+</Amr>

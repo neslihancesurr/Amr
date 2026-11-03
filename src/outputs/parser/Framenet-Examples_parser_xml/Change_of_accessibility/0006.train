@@ -1,0 +1,17 @@
+<Amr sentence="Islak imza gelene kadar paranızı hesapta tutacağız .">
+<Word name="7/tut" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="7/tut" to="biz" with="ARG0"/>
+<Word name="3/gel" positionX="750" positionY="200"/>
+<Connection from="7/tut" to="3/gel" with="extent"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/gel" to="o" with="ARG0"/>
+<Word name="1/ıslak 2/imza" positionX="750" positionY="300"/>
+<Connection from="3/gel" to="1/ıslak 2/imza" with="mod"/>
+<Word name="5/para" positionX="850" positionY="200"/>
+<Connection from="7/tut" to="5/para" with="ARG1"/>
+<Word name="siz" positionX="750" positionY="300"/>
+<Connection from="5/para" to="siz" with="poss"/>
+<Word name="6/hesap" positionX="950" positionY="200"/>
+<Connection from="7/tut" to="6/hesap" with="location"/>
+</Amr>

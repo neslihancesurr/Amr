@@ -1,0 +1,28 @@
+<Amr sentence="Doktor önce hastanın gözüne mözüne baktı , sonra sorunu anlamadığını söyledi .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/bak" positionX="650" positionY="200"/>
+<Connection from="and" to="6/bak" with="op1"/>
+<Word name="1/doktor" positionX="550" positionY="300"/>
+<Connection from="6/bak" to="1/doktor" with="ARG0"/>
+<Word name="2/önce" positionX="650" positionY="300"/>
+<Connection from="6/bak" to="2/önce" with="manner"/>
+<Word name="4/göz" positionX="750" positionY="300"/>
+<Connection from="6/bak" to="4/göz"/>
+<Word name="3/hasta" positionX="650" positionY="400"/>
+<Connection from="4/göz" to="3/hasta" with="mod"/>
+<Word name="5/möz" positionX="750" positionY="400"/>
+<Connection from="4/göz" to="5/möz"/>
+<Word name="o" positionX="650" positionY="500"/>
+<Connection from="5/möz" to="o" with="poss"/>
+<Word name="11/söyle" positionX="750" positionY="200"/>
+<Connection from="and" to="11/söyle" with="op2"/>
+<Word name="8/sonra" positionX="650" positionY="300"/>
+<Connection from="11/söyle" to="8/sonra" with="manner"/>
+<Word name="10/anla" positionX="750" positionY="300"/>
+<Connection from="11/söyle" to="10/anla" with="ARG1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="10/anla" to="-" with="polarity"/>
+<Connection from="10/anla" to="o" with="poss"/>
+<Word name="9/sorun" positionX="850" positionY="400"/>
+<Connection from="10/anla" to="9/sorun" with="ARG1"/>
+</Amr>

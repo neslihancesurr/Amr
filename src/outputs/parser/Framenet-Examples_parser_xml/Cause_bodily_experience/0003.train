@@ -1,0 +1,11 @@
+<Amr sentence="Zorluklar onun hırslarını daha da kırbaçlıyordu .">
+<Word name="6/kırbaçla" positionX="750" positionY="100"/>
+<Word name="1/zorluk" positionX="650" positionY="200"/>
+<Connection from="6/kırbaçla" to="1/zorluk" with="ARG1"/>
+<Word name="3/hırs" positionX="750" positionY="200"/>
+<Connection from="6/kırbaçla" to="3/hırs" with="ARG1"/>
+<Word name="2/o" positionX="650" positionY="300"/>
+<Connection from="3/hırs" to="2/o" with="mod"/>
+<Word name="4/daha 5/da" positionX="850" positionY="200"/>
+<Connection from="6/kırbaçla" to="4/daha 5/da" with="manner"/>
+</Amr>

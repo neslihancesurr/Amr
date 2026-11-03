@@ -1,0 +1,17 @@
+<Amr sentence="Turnuva haftaya başlıyor , bugün ad çekmeye girecekler .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/başla" positionX="650" positionY="200"/>
+<Connection from="and" to="3/başla" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/başla" to="o" with="ARG0"/>
+<Word name="1/turnuva" positionX="650" positionY="300"/>
+<Connection from="3/başla" to="1/turnuva" with="ARG1"/>
+<Word name="2/hafta" positionX="750" positionY="300"/>
+<Connection from="3/başla" to="2/hafta"/>
+<Word name="6/ad 7/çek 8/gir" positionX="750" positionY="200"/>
+<Connection from="and" to="6/ad 7/çek 8/gir" with="op2"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="6/ad 7/çek 8/gir" to="onlar" with="ARG0"/>
+<Word name="5/bugün" positionX="750" positionY="300"/>
+<Connection from="6/ad 7/çek 8/gir" to="5/bugün" with="manner"/>
+</Amr>

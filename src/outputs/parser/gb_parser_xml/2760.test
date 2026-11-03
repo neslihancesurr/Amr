@@ -1,0 +1,19 @@
+<Amr sentence="- Benim yüzümden boş yere para harcadın diye üzülüyorum .">
+<Word name="9/üzül" positionX="750" positionY="100"/>
+<Word name="7/harca" positionX="650" positionY="200"/>
+<Connection from="9/üzül" to="7/harca"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="7/harca" to="sen" with="ARG0"/>
+<Word name="3/yüz" positionX="650" positionY="300"/>
+<Connection from="7/harca" to="3/yüz"/>
+<Word name="ben" positionX="550" positionY="400"/>
+<Connection from="3/yüz" to="ben" with="poss"/>
+<Word name="2/ben" positionX="650" positionY="400"/>
+<Connection from="3/yüz" to="2/ben" with="mod"/>
+<Word name="4/boş 5/yer" positionX="750" positionY="300"/>
+<Connection from="7/harca" to="4/boş 5/yer" with="mod"/>
+<Word name="6/para" positionX="850" positionY="300"/>
+<Connection from="7/harca" to="6/para" with="ARG1"/>
+<Word name="8/diye" positionX="950" positionY="300"/>
+<Connection from="7/harca" to="8/diye"/>
+</Amr>

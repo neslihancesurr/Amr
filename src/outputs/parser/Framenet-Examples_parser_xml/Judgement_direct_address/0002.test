@@ -1,0 +1,11 @@
+<Amr sentence="Kötü eleştirenlerin hepsine ağzının payını verdi .">
+<Word name="4/ağız 5/pay 6/ver" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/ağız 5/pay 6/ver" to="o" with="ARG0"/>
+<Word name="3/hepsi" positionX="750" positionY="200"/>
+<Connection from="4/ağız 5/pay 6/ver" to="3/hepsi" with="ARG1"/>
+<Word name="2/eleştir" positionX="650" positionY="300"/>
+<Connection from="3/hepsi" to="2/eleştir" with="mod"/>
+<Word name="1/kötü" positionX="550" positionY="400"/>
+<Connection from="2/eleştir" to="1/kötü" with="mod"/>
+</Amr>

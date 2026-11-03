@@ -1,0 +1,19 @@
+<Amr sentence="Gittin mi , hemen yerine yenisi gelir .">
+<Word name="7/gel" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/gel" to="o" with="ARG0"/>
+<Word name="1/git" positionX="750" positionY="200"/>
+<Connection from="7/gel" to="1/git"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="1/git" to="sen" with="ARG0"/>
+<Word name="2/mi" positionX="750" positionY="300"/>
+<Connection from="1/git" to="2/mi"/>
+<Word name="4/hemen" positionX="850" positionY="200"/>
+<Connection from="7/gel" to="4/hemen" with="manner"/>
+<Word name="5/yer" positionX="950" positionY="200"/>
+<Connection from="7/gel" to="5/yer"/>
+<Connection from="5/yer" to="sen" with="poss"/>
+<Word name="6/yeni" positionX="1050" positionY="200"/>
+<Connection from="7/gel" to="6/yeni"/>
+<Connection from="6/yeni" to="o" with="poss"/>
+</Amr>

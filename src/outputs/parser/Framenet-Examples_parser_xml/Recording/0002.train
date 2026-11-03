@@ -1,0 +1,17 @@
+<Amr sentence="Teybe aldıktan sonra ikinci aşamaya geç .">
+<Word name="6/geç" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="6/geç" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="6/geç" to="imperative" with="mode"/>
+<Word name="1/teyp 2/al" positionX="850" positionY="200"/>
+<Connection from="6/geç" to="1/teyp 2/al"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="1/teyp 2/al" to="o" with="ARG0"/>
+<Word name="5/aşama" positionX="950" positionY="200"/>
+<Connection from="6/geç" to="5/aşama" with="ARG1"/>
+<Word name="ordinal-entity" positionX="850" positionY="300"/>
+<Connection from="5/aşama" to="ordinal-entity" with="ord"/>
+<Word name="2" positionX="750" positionY="400"/>
+<Connection from="ordinal-entity" to="2" with="value"/>
+</Amr>

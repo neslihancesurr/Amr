@@ -1,0 +1,18 @@
+<Amr sentence="Adam , her gün bakkalın önüne çömer , gelene geçene fena gözlerle bakardı .">
+<Word name="11/fena 12/göz 13/bak" positionX="750" positionY="100"/>
+<Word name="1/adam" positionX="650" positionY="200"/>
+<Connection from="11/fena 12/göz 13/bak" to="1/adam" with="ARG0"/>
+<Word name="7/çöm" positionX="750" positionY="200"/>
+<Connection from="11/fena 12/göz 13/bak" to="7/çöm"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="7/çöm" to="o" with="ARG0"/>
+<Word name="3/her 4/gün" positionX="750" positionY="300"/>
+<Connection from="7/çöm" to="3/her 4/gün" with="mod"/>
+<Word name="6/ön" positionX="850" positionY="300"/>
+<Connection from="7/çöm" to="6/ön"/>
+<Word name="5/bakkal" positionX="750" positionY="400"/>
+<Connection from="6/ön" to="5/bakkal" with="mod"/>
+<Word name="9/gel 10/geç" positionX="850" positionY="200"/>
+<Connection from="11/fena 12/göz 13/bak" to="9/gel 10/geç" with="ARG1"/>
+<Connection from="9/gel 10/geç" to="o" with="ARG0"/>
+</Amr>

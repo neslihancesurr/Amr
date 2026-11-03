@@ -1,0 +1,13 @@
+<Amr sentence="O , bu nazik duruma karşı bir formül bulmuştu .">
+<Word name="8/formül 9/bul" positionX="750" positionY="100"/>
+<Word name="1/o" positionX="650" positionY="200"/>
+<Connection from="8/formül 9/bul" to="1/o" with="ARG0"/>
+<Word name="5/durum" positionX="750" positionY="200"/>
+<Connection from="8/formül 9/bul" to="5/durum" with="ARG1"/>
+<Word name="3/bu" positionX="650" positionY="300"/>
+<Connection from="5/durum" to="3/bu" with="mod"/>
+<Word name="4/nazik" positionX="750" positionY="300"/>
+<Connection from="5/durum" to="4/nazik" with="mod"/>
+<Word name="6/karşı" positionX="850" positionY="300"/>
+<Connection from="5/durum" to="6/karşı"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr sentence="İstanbul'da evimiz yok artık .">
+<Word name="3/yok" positionX="750" positionY="100"/>
+<Word name="city" positionX="650" positionY="200"/>
+<Connection from="3/yok" to="city" with="location"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="1/istanbul" positionX="450" positionY="400"/>
+<Connection from="name" to="1/istanbul" with="op1"/>
+<Word name="istanbul" positionX="650" positionY="300"/>
+<Connection from="city" to="istanbul" with="wiki"/>
+<Word name="2/ev" positionX="750" positionY="200"/>
+<Connection from="3/yok" to="2/ev"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="2/ev" to="biz" with="poss"/>
+<Word name="4/artık" positionX="850" positionY="200"/>
+<Connection from="3/yok" to="4/artık" with="manner"/>
+</Amr>

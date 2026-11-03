@@ -1,0 +1,20 @@
+<Amr sentence="Kapı çaldı , Hasan olacak .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/çal" positionX="650" positionY="200"/>
+<Connection from="and" to="2/çal" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/çal" to="o" with="ARG0"/>
+<Word name="1/kapı" positionX="650" positionY="300"/>
+<Connection from="2/çal" to="1/kapı" with="ARG1"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="and" to="person" with="op2"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="4/hasan" positionX="550" positionY="400"/>
+<Connection from="name" to="4/hasan" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/ol" positionX="850" positionY="300"/>
+<Connection from="person" to="5/ol"/>
+<Connection from="5/ol" to="o" with="ARG0"/>
+</Amr>

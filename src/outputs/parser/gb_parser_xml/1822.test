@@ -1,0 +1,11 @@
+<Amr sentence="Şunları da yıkamamız lâzım .">
+<Word name="4/lâzım" positionX="750" positionY="100"/>
+<Word name="3/yıka" positionX="650" positionY="200"/>
+<Connection from="4/lâzım" to="3/yıka"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="3/yıka" to="biz" with="ARG0"/>
+<Word name="1/şu" positionX="650" positionY="300"/>
+<Connection from="3/yıka" to="1/şu" with="ARG1"/>
+<Word name="2/da" positionX="550" positionY="400"/>
+<Connection from="1/şu" to="2/da"/>
+</Amr>

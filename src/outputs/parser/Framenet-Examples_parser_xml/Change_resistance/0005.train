@@ -1,0 +1,12 @@
+<Amr sentence="Duvarları sağlam bir şekilde hatılladı .">
+<Word name="5/hatılla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/hatılla" to="o" with="ARG0"/>
+<Word name="1/duvar" positionX="750" positionY="200"/>
+<Connection from="5/hatılla" to="1/duvar" with="ARG1"/>
+<Connection from="1/duvar" to="o" with="poss"/>
+<Word name="4/şekil" positionX="850" positionY="200"/>
+<Connection from="5/hatılla" to="4/şekil" with="location"/>
+<Word name="2/sağlam" positionX="750" positionY="300"/>
+<Connection from="4/şekil" to="2/sağlam" with="mod"/>
+</Amr>

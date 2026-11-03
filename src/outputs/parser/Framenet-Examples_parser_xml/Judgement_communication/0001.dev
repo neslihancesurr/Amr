@@ -1,0 +1,10 @@
+<Amr sentence="İnsanların arkasından konuşur ama yüzüne güler">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/yüz 6/gül" positionX="650" positionY="200"/>
+<Connection from="and" to="5/yüz 6/gül" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="5/yüz 6/gül" to="o" with="ARG0"/>
+<Word name="2/arka 3/konuş" positionX="750" positionY="200"/>
+<Connection from="and" to="2/arka 3/konuş" with="op2"/>
+<Connection from="2/arka 3/konuş" to="o" with="ARG0"/>
+</Amr>

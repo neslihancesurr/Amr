@@ -1,0 +1,39 @@
+<Amr sentence="Senin yoluna gençliğimi heder ettim ve sonra , gene orada , o düşmüş şehirde , senin hasretinle yanan ben değil miydim ?">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="19/ben" positionX="650" positionY="200"/>
+<Connection from="and" to="19/ben" with="ARG0"/>
+<Word name="18/yan" positionX="550" positionY="300"/>
+<Connection from="19/ben" to="18/yan"/>
+<Word name="7/sonra" positionX="450" positionY="400"/>
+<Connection from="18/yan" to="7/sonra" with="manner"/>
+<Word name="10/orada" positionX="550" positionY="400"/>
+<Connection from="18/yan" to="10/orada" with="manner"/>
+<Word name="9/gene" positionX="450" positionY="500"/>
+<Connection from="10/orada" to="9/gene" with="manner"/>
+<Word name="14/şehir" positionX="650" positionY="400"/>
+<Connection from="18/yan" to="14/şehir" with="location"/>
+<Word name="12/o" positionX="550" positionY="500"/>
+<Connection from="14/şehir" to="12/o" with="mod"/>
+<Word name="13/düş" positionX="650" positionY="500"/>
+<Connection from="14/şehir" to="13/düş"/>
+<Word name="17/hasretinle" positionX="750" positionY="400"/>
+<Connection from="18/yan" to="17/hasretinle"/>
+<Word name="16/sen" positionX="650" positionY="500"/>
+<Connection from="17/hasretinle" to="16/sen" with="mod"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="19/ben" to="-" with="polarity"/>
+<Word name="21/mi" positionX="750" positionY="300"/>
+<Connection from="19/ben" to="21/mi"/>
+<Word name="4/heder 5/et" positionX="750" positionY="200"/>
+<Connection from="and" to="4/heder 5/et" with="op2"/>
+<Word name="2/yol" positionX="650" positionY="300"/>
+<Connection from="4/heder 5/et" to="2/yol"/>
+<Word name="sen" positionX="550" positionY="400"/>
+<Connection from="2/yol" to="sen" with="poss"/>
+<Word name="1/sen" positionX="650" positionY="400"/>
+<Connection from="2/yol" to="1/sen" with="mod"/>
+<Word name="3/gençlik" positionX="750" positionY="300"/>
+<Connection from="4/heder 5/et" to="3/gençlik" with="ARG1"/>
+<Word name="ben" positionX="650" positionY="400"/>
+<Connection from="3/gençlik" to="ben" with="poss"/>
+</Amr>

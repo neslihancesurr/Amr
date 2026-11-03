@@ -1,0 +1,29 @@
+<Amr sentence="Bir yıl Çin'de kalmakla Çince öğrenmiş olmazsın .">
+<Word name="6/öğren" positionX="750" positionY="100"/>
+<Word name="4/kal" positionX="650" positionY="200"/>
+<Connection from="6/öğren" to="4/kal"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/kal" to="o" with="ARG0"/>
+<Word name="2/yıl" positionX="650" positionY="300"/>
+<Connection from="4/kal" to="2/yıl"/>
+<Word name="1/bir" positionX="550" positionY="400"/>
+<Connection from="2/yıl" to="1/bir"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="4/kal" to="person" with="ARG1"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/çin" positionX="550" positionY="500"/>
+<Connection from="name" to="3/çin" with="op1"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="6/öğren" to="person" with="ARG1"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="5/çince" positionX="550" positionY="400"/>
+<Connection from="name" to="5/çince" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="7/ol" positionX="850" positionY="200"/>
+<Connection from="6/öğren" to="7/ol"/>
+<Connection from="7/ol" to="-" with="polarity"/>
+<Word name="sen" positionX="850" positionY="300"/>
+<Connection from="7/ol" to="sen" with="ARG0"/>
+</Amr>

@@ -1,0 +1,24 @@
+<Amr sentence="Ali o işe geceleri çalışılmıyor diye girmişti .">
+<Word name="7/gir" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="7/gir" to="person"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ali" positionX="450" positionY="400"/>
+<Connection from="name" to="1/ali" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/iş" positionX="750" positionY="200"/>
+<Connection from="7/gir" to="3/iş"/>
+<Word name="2/o" positionX="650" positionY="300"/>
+<Connection from="3/iş" to="2/o" with="mod"/>
+<Word name="5/çalış" positionX="850" positionY="200"/>
+<Connection from="7/gir" to="5/çalış"/>
+<Connection from="5/çalış" to="-" with="polarity"/>
+<Word name="4/gece" positionX="850" positionY="300"/>
+<Connection from="5/çalış" to="4/gece"/>
+<Word name="o" positionX="750" positionY="400"/>
+<Connection from="4/gece" to="o" with="poss"/>
+<Word name="6/diye" positionX="950" positionY="300"/>
+<Connection from="5/çalış" to="6/diye"/>
+</Amr>

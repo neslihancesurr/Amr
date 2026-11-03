@@ -1,0 +1,19 @@
+<Amr sentence="Şükran'la ayda bir görüşmeye çalışıyoruz .">
+<Word name="5/çalış" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/çalış" to="biz" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="5/çalış" to="person" with="instrument"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/şükran" positionX="550" positionY="400"/>
+<Connection from="name" to="1/şükran" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/görüşme" positionX="850" positionY="200"/>
+<Connection from="5/çalış" to="4/görüşme"/>
+<Word name="3/bir" positionX="750" positionY="300"/>
+<Connection from="4/görüşme" to="3/bir"/>
+<Word name="2/ay" positionX="650" positionY="400"/>
+<Connection from="3/bir" to="2/ay" with="mod"/>
+</Amr>

@@ -1,0 +1,23 @@
+<Amr sentence="Kezban gelmezse onu bir daha çağırmayalım .">
+<Word name="6/çağır" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="6/çağır" to="-" with="polarity"/>
+<Word name="biz" positionX="750" positionY="200"/>
+<Connection from="6/çağır" to="biz" with="ARG0"/>
+<Word name="2/gel" positionX="850" positionY="200"/>
+<Connection from="6/çağır" to="2/gel" with="cond"/>
+<Connection from="2/gel" to="-" with="polarity"/>
+<Word name="person" positionX="850" positionY="300"/>
+<Connection from="2/gel" to="person"/>
+<Word name="name" positionX="750" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/kezban" positionX="650" positionY="500"/>
+<Connection from="name" to="1/kezban" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/o" positionX="950" positionY="200"/>
+<Connection from="6/çağır" to="3/o"/>
+<Word name="4/bir" positionX="1050" positionY="200"/>
+<Connection from="6/çağır" to="4/bir" with="manner"/>
+<Word name="5/daha" positionX="950" positionY="300"/>
+<Connection from="4/bir" to="5/daha" with="degree"/>
+</Amr>

@@ -1,0 +1,10 @@
+<Amr sentence="Kitabı yerden aldı .">
+<Word name="3/al" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/al" to="o" with="ARG0"/>
+<Word name="1/kitap" positionX="750" positionY="200"/>
+<Connection from="3/al" to="1/kitap" with="ARG1"/>
+<Connection from="1/kitap" to="o" with="poss"/>
+<Word name="2/yer" positionX="850" positionY="200"/>
+<Connection from="3/al" to="2/yer" with="ARG2"/>
+</Amr>

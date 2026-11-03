@@ -1,0 +1,29 @@
+<Amr sentence="Ayla'nın işten hep geç ve yorgun gelmesi evde gerginlik yaratıyordu .">
+<Word name="9/gerginlik 10/yarat" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="9/gerginlik 10/yarat" to="o" with="ARG0"/>
+<Word name="7/gel" positionX="750" positionY="200"/>
+<Connection from="9/gerginlik 10/yarat" to="7/gel"/>
+<Connection from="7/gel" to="o" with="ARG0"/>
+<Connection from="7/gel" to="o" with="poss"/>
+<Word name="person" positionX="850" positionY="300"/>
+<Connection from="7/gel" to="person"/>
+<Word name="name" positionX="750" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ayla" positionX="650" positionY="500"/>
+<Connection from="name" to="1/ayla" with="op1"/>
+<Word name="-" positionX="850" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/iş" positionX="950" positionY="300"/>
+<Connection from="7/gel" to="2/iş"/>
+<Word name="3/hep" positionX="1050" positionY="300"/>
+<Connection from="7/gel" to="3/hep" with="frequency"/>
+<Word name="and" positionX="1150" positionY="300"/>
+<Connection from="7/gel" to="and"/>
+<Word name="6/yorgun" positionX="1050" positionY="400"/>
+<Connection from="and" to="6/yorgun" with="manner"/>
+<Word name="4/geç" positionX="1150" positionY="400"/>
+<Connection from="and" to="4/geç" with="manner"/>
+<Word name="8/ev" positionX="850" positionY="200"/>
+<Connection from="9/gerginlik 10/yarat" to="8/ev" with="location"/>
+</Amr>

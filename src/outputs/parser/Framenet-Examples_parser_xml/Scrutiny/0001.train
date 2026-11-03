@@ -1,0 +1,19 @@
+<Amr sentence="Tarihçiler bu ateşli tartışmayı yarın gerçekleşecek forumda masaya yatıracaklar .">
+<Word name="8/masa 9/yatır" positionX="750" positionY="100"/>
+<Word name="1/tarihçi" positionX="650" positionY="200"/>
+<Connection from="8/masa 9/yatır" to="1/tarihçi" with="ARG0"/>
+<Word name="6/gerçekleş" positionX="750" positionY="200"/>
+<Connection from="8/masa 9/yatır" to="6/gerçekleş"/>
+<Word name="4/tartış" positionX="650" positionY="300"/>
+<Connection from="6/gerçekleş" to="4/tartış" with="ARG1"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="4/tartış" to="o" with="ARG0"/>
+<Word name="3/ateşli" positionX="650" positionY="400"/>
+<Connection from="4/tartış" to="3/ateşli" with="mod"/>
+<Word name="2/bu" positionX="550" positionY="500"/>
+<Connection from="3/ateşli" to="2/bu" with="mod"/>
+<Word name="5/yarın" positionX="750" positionY="300"/>
+<Connection from="6/gerçekleş" to="5/yarın"/>
+<Word name="7/forum" positionX="850" positionY="200"/>
+<Connection from="8/masa 9/yatır" to="7/forum" with="location"/>
+</Amr>

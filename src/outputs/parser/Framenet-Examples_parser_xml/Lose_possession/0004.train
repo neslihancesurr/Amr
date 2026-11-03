@@ -1,0 +1,11 @@
+<Amr sentence="Trafik kazasından sonra belleğini yitirmiş .">
+<Word name="4/bellek 5/yitir" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/bellek 5/yitir" to="o" with="ARG0"/>
+<Word name="2/kaza" positionX="750" positionY="200"/>
+<Connection from="4/bellek 5/yitir" to="2/kaza" with="mod"/>
+<Word name="1/trafik" positionX="650" positionY="300"/>
+<Connection from="2/kaza" to="1/trafik" with="mod"/>
+<Word name="3/sonra" positionX="750" positionY="300"/>
+<Connection from="2/kaza" to="3/sonra"/>
+</Amr>

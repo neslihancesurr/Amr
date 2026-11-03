@@ -1,0 +1,11 @@
+<Amr sentence="Gözlerimden yaşlar usulca süzüldü .">
+<Word name="4/süzül" positionX="750" positionY="100"/>
+<Word name="1/göz" positionX="650" positionY="200"/>
+<Connection from="4/süzül" to="1/göz" with="ARG1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="1/göz" to="ben" with="poss"/>
+<Word name="2/yaş" positionX="750" positionY="200"/>
+<Connection from="4/süzül" to="2/yaş" with="ARG0"/>
+<Word name="3/usulca" positionX="850" positionY="200"/>
+<Connection from="4/süzül" to="3/usulca" with="manner"/>
+</Amr>

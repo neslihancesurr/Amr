@@ -1,0 +1,18 @@
+<Amr sentence="Kan ter içinde kalmışsın , şurada biraz istirahat et .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/kal" positionX="650" positionY="200"/>
+<Connection from="and" to="4/kal" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="4/kal" to="sen" with="ARG0"/>
+<Word name="1/kan 2/ter 3/içinde" positionX="650" positionY="300"/>
+<Connection from="4/kal" to="1/kan 2/ter 3/içinde" with="ARG1"/>
+<Word name="8/istirahat 9/et" positionX="750" positionY="200"/>
+<Connection from="and" to="8/istirahat 9/et" with="op2"/>
+<Connection from="8/istirahat 9/et" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="300"/>
+<Connection from="8/istirahat 9/et" to="imperative" with="mode"/>
+<Word name="6/şurada" positionX="850" positionY="300"/>
+<Connection from="8/istirahat 9/et" to="6/şurada" with="manner"/>
+<Word name="7/biraz" positionX="950" positionY="300"/>
+<Connection from="8/istirahat 9/et" to="7/biraz" with="manner"/>
+</Amr>

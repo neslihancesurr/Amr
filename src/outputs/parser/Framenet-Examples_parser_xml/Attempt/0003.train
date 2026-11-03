@@ -1,0 +1,19 @@
+<Amr sentence="Sen masayı hazırlarken biz de yemekleri ısıtmaya koyulalım .">
+<Word name="8/koyul" positionX="750" positionY="100"/>
+<Word name="3/hazırla" positionX="650" positionY="200"/>
+<Connection from="8/koyul" to="3/hazırla"/>
+<Word name="1/sen" positionX="550" positionY="300"/>
+<Connection from="3/hazırla" to="1/sen" with="ARG0"/>
+<Word name="2/masa" positionX="650" positionY="300"/>
+<Connection from="3/hazırla" to="2/masa" with="ARG1"/>
+<Word name="4/biz" positionX="750" positionY="200"/>
+<Connection from="8/koyul" to="4/biz" with="ARG0"/>
+<Word name="5/de" positionX="650" positionY="300"/>
+<Connection from="4/biz" to="5/de" with="manner"/>
+<Word name="7/ısıtma" positionX="850" positionY="200"/>
+<Connection from="8/koyul" to="7/ısıtma" with="ARG1"/>
+<Word name="6/yemek" positionX="750" positionY="300"/>
+<Connection from="7/ısıtma" to="6/yemek"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="6/yemek" to="o" with="poss"/>
+</Amr>

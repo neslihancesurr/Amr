@@ -1,0 +1,17 @@
+<Amr sentence="Bebek ne tatlı . Çok da uslu maşallah .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="7/uslu" positionX="650" positionY="200"/>
+<Connection from="and" to="7/uslu" with="op1"/>
+<Word name="5/çok" positionX="550" positionY="300"/>
+<Connection from="7/uslu" to="5/çok" with="degree"/>
+<Word name="6/da" positionX="450" positionY="400"/>
+<Connection from="5/çok" to="6/da"/>
+<Word name="8/maşallah" positionX="650" positionY="300"/>
+<Connection from="7/uslu" to="8/maşallah"/>
+<Word name="3/tatlı" positionX="750" positionY="200"/>
+<Connection from="and" to="3/tatlı" with="op2"/>
+<Word name="1/bebek" positionX="650" positionY="300"/>
+<Connection from="3/tatlı" to="1/bebek"/>
+<Word name="2/ne" positionX="750" positionY="300"/>
+<Connection from="3/tatlı" to="2/ne" with="manner"/>
+</Amr>

@@ -1,0 +1,5 @@
+<Amr sentence="Ders kitapları güncelliğini yitirmişti .">
+<Word name="3/güncellik 4/yitir" positionX="750" positionY="100"/>
+<Word name="1/ders 2/kitap" positionX="650" positionY="200"/>
+<Connection from="3/güncellik 4/yitir" to="1/ders 2/kitap" with="ARG0"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Çok üşüdüm , soba bayağı sağırlaşmış .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/üşü" positionX="650" positionY="200"/>
+<Connection from="and" to="2/üşü" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="2/üşü" to="ben" with="ARG0"/>
+<Word name="1/çok" positionX="650" positionY="300"/>
+<Connection from="2/üşü" to="1/çok" with="degree"/>
+<Word name="6/sağırlaş" positionX="750" positionY="200"/>
+<Connection from="and" to="6/sağırlaş" with="op2"/>
+<Word name="4/soba" positionX="650" positionY="300"/>
+<Connection from="6/sağırlaş" to="4/soba" with="ARG0"/>
+<Word name="5/bayağı" positionX="750" positionY="300"/>
+<Connection from="6/sağırlaş" to="5/bayağı" with="degree"/>
+</Amr>

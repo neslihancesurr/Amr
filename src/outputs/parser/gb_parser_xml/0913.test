@@ -1,0 +1,21 @@
+<Amr sentence="Korkut bu günlerde tezini bitirmeye çalışıyor .">
+<Word name="6/çalış" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="6/çalış" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/korkut" positionX="450" positionY="400"/>
+<Connection from="name" to="1/korkut" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/gün" positionX="750" positionY="200"/>
+<Connection from="6/çalış" to="3/gün" with="location"/>
+<Word name="2/bu" positionX="650" positionY="300"/>
+<Connection from="3/gün" to="2/bu" with="mod"/>
+<Word name="5/bitirme" positionX="850" positionY="200"/>
+<Connection from="6/çalış" to="5/bitirme"/>
+<Word name="4/tez" positionX="750" positionY="300"/>
+<Connection from="5/bitirme" to="4/tez"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="4/tez" to="o" with="poss"/>
+</Amr>

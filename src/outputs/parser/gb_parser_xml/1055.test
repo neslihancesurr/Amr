@@ -1,0 +1,13 @@
+<Amr sentence="Bu tarife , 1.10.2003 tarihinden itibaren geçerlidir .">
+<Word name="7/geçerli" positionX="750" positionY="100"/>
+<Word name="2/tarife" positionX="650" positionY="200"/>
+<Connection from="7/geçerli" to="2/tarife"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/tarife" to="1/bu" with="mod"/>
+<Word name="5/tarih" positionX="750" positionY="200"/>
+<Connection from="7/geçerli" to="5/tarih"/>
+<Word name="4/1.10.2003" positionX="650" positionY="300"/>
+<Connection from="5/tarih" to="4/1.10.2003" with="mod"/>
+<Word name="6/itibaren" positionX="750" positionY="300"/>
+<Connection from="5/tarih" to="6/itibaren"/>
+</Amr>

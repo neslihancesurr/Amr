@@ -1,0 +1,17 @@
+<Amr sentence="Bir anahtar burada , öbürünü gördün mü ?">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/burada" positionX="650" positionY="200"/>
+<Connection from="and" to="3/burada" with="op1"/>
+<Word name="2/anahtar" positionX="550" positionY="300"/>
+<Connection from="3/burada" to="2/anahtar"/>
+<Word name="6/gör" positionX="750" positionY="200"/>
+<Connection from="and" to="6/gör" with="op2"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="6/gör" to="sen" with="ARG0"/>
+<Word name="5/öbür" positionX="750" positionY="300"/>
+<Connection from="6/gör" to="5/öbür" with="ARG1"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="5/öbür" to="o" with="poss"/>
+<Word name="7/mi" positionX="850" positionY="300"/>
+<Connection from="6/gör" to="7/mi"/>
+</Amr>

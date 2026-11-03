@@ -1,0 +1,13 @@
+<Amr sentence="Senin arabanı garaja soktum .">
+<Word name="4/sok" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/sok" to="ben" with="ARG0"/>
+<Word name="2/araba" positionX="750" positionY="200"/>
+<Connection from="4/sok" to="2/araba" with="ARG1"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="2/araba" to="sen" with="poss"/>
+<Word name="1/sen" positionX="750" positionY="300"/>
+<Connection from="2/araba" to="1/sen" with="mod"/>
+<Word name="3/garaj" positionX="850" positionY="200"/>
+<Connection from="4/sok" to="3/garaj"/>
+</Amr>

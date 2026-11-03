@@ -1,0 +1,30 @@
+<Amr sentence="Parası yoksa , ki öyle olduğunu tahmin ediyorum , şirketi kurtaramaz .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="11/kurtar" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="11/kurtar"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="11/kurtar" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="11/kurtar" to="o" with="ARG0"/>
+<Word name="and" positionX="750" positionY="300"/>
+<Connection from="11/kurtar" to="and"/>
+<Word name="7/tahmin 8/et" positionX="650" positionY="400"/>
+<Connection from="and" to="7/tahmin 8/et" with="op1"/>
+<Word name="ben" positionX="550" positionY="500"/>
+<Connection from="7/tahmin 8/et" to="ben" with="ARG0"/>
+<Word name="4/ki" positionX="650" positionY="500"/>
+<Connection from="7/tahmin 8/et" to="4/ki"/>
+<Word name="6/ol" positionX="750" positionY="500"/>
+<Connection from="7/tahmin 8/et" to="6/ol"/>
+<Connection from="6/ol" to="o" with="ARG0"/>
+<Connection from="6/ol" to="o" with="poss"/>
+<Word name="5/öyle" positionX="850" positionY="600"/>
+<Connection from="6/ol" to="5/öyle" with="manner"/>
+<Word name="2/yoksa" positionX="750" positionY="400"/>
+<Connection from="and" to="2/yoksa" with="op2"/>
+<Word name="1/para" positionX="650" positionY="500"/>
+<Connection from="2/yoksa" to="1/para"/>
+<Connection from="1/para" to="o" with="poss"/>
+<Word name="10/şirket" positionX="850" positionY="300"/>
+<Connection from="11/kurtar" to="10/şirket"/>
+</Amr>

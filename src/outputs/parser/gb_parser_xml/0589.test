@@ -1,0 +1,17 @@
+<Amr sentence="O günlerde Selim çok sigara içiyordu .">
+<Word name="5/sigara 6/iç" positionX="750" positionY="100"/>
+<Word name="2/gün" positionX="650" positionY="200"/>
+<Connection from="5/sigara 6/iç" to="2/gün" with="location"/>
+<Word name="1/o" positionX="550" positionY="300"/>
+<Connection from="2/gün" to="1/o" with="mod"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="5/sigara 6/iç" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/selim" positionX="550" positionY="400"/>
+<Connection from="name" to="3/selim" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/çok" positionX="850" positionY="200"/>
+<Connection from="5/sigara 6/iç" to="4/çok" with="degree"/>
+</Amr>

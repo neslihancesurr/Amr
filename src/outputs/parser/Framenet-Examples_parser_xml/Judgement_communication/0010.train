@@ -1,0 +1,15 @@
+<Amr sentence="Senin yaptığın her şeye saygı duyuyoruz .">
+<Word name="5/saygı 6/duy" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/saygı 6/duy" to="biz" with="ARG0"/>
+<Word name="4/şey" positionX="750" positionY="200"/>
+<Connection from="5/saygı 6/duy" to="4/şey" with="ARG1"/>
+<Word name="2/yap" positionX="650" positionY="300"/>
+<Connection from="4/şey" to="2/yap"/>
+<Word name="sen" positionX="550" positionY="400"/>
+<Connection from="2/yap" to="sen" with="poss"/>
+<Word name="1/sen" positionX="650" positionY="400"/>
+<Connection from="2/yap" to="1/sen" with="ARG1"/>
+<Word name="3/her" positionX="750" positionY="300"/>
+<Connection from="4/şey" to="3/her" with="mod"/>
+</Amr>

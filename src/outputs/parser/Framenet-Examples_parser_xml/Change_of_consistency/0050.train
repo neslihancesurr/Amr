@@ -1,0 +1,7 @@
+<Amr sentence="Tarhana topaklanmış .">
+<Word name="2/topaklan" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="2/topaklan" to="o" with="ARG0"/>
+<Word name="1/tarhana" positionX="750" positionY="200"/>
+<Connection from="2/topaklan" to="1/tarhana" with="ARG1"/>
+</Amr>

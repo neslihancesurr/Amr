@@ -1,0 +1,17 @@
+<Amr sentence="Bu genç , otuz yaşına gelmeden altmışını tamamlamıştı .">
+<Word name="8/tamamla" positionX="750" positionY="100"/>
+<Word name="2/genç" positionX="650" positionY="200"/>
+<Connection from="8/tamamla" to="2/genç"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/genç" to="1/bu" with="mod"/>
+<Word name="6/gel" positionX="750" positionY="200"/>
+<Connection from="8/tamamla" to="6/gel"/>
+<Word name="5/yaş" positionX="650" positionY="300"/>
+<Connection from="6/gel" to="5/yaş" with="ARG1"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="5/yaş" to="o" with="poss"/>
+<Word name="4/otuz" positionX="650" positionY="400"/>
+<Connection from="5/yaş" to="4/otuz"/>
+<Word name="7/altmış" positionX="850" positionY="200"/>
+<Connection from="8/tamamla" to="7/altmış"/>
+</Amr>

@@ -1,0 +1,16 @@
+<Amr sentence="- Gitmiş gitmesine , ama doktor gelmemiş .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="7/gel" positionX="650" positionY="200"/>
+<Connection from="and" to="7/gel" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="7/gel" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="7/gel" to="o" with="ARG0"/>
+<Word name="6/doktor" positionX="750" positionY="300"/>
+<Connection from="7/gel" to="6/doktor"/>
+<Word name="2/git 3/git" positionX="750" positionY="200"/>
+<Connection from="and" to="2/git 3/git" with="op2"/>
+<Connection from="2/git 3/git" to="o" with="ARG0"/>
+<Connection from="2/git 3/git" to="o" with="poss"/>
+<Connection from="2/git 3/git" to="and"/>
+</Amr>

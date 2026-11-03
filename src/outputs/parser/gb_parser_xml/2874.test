@@ -1,0 +1,17 @@
+<Amr sentence="Her yaz Amerika'ya gidiyorlarmış .">
+<Word name="4/git" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/git" to="onlar" with="ARG0"/>
+<Word name="2/yaz" positionX="750" positionY="200"/>
+<Connection from="4/git" to="2/yaz"/>
+<Word name="1/her" positionX="650" positionY="300"/>
+<Connection from="2/yaz" to="1/her" with="mod"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="4/git" to="person" with="ARG1"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/amerika" positionX="650" positionY="400"/>
+<Connection from="name" to="3/amerika" with="op1"/>
+<Word name="-" positionX="850" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

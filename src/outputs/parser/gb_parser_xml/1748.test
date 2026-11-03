@@ -1,0 +1,9 @@
+<Amr sentence="Kardeşin pek tatlıymış .">
+<Word name="3/tatlı" positionX="750" positionY="100"/>
+<Word name="1/kardeş" positionX="650" positionY="200"/>
+<Connection from="3/tatlı" to="1/kardeş"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="1/kardeş" to="sen" with="poss"/>
+<Word name="2/pek" positionX="750" positionY="200"/>
+<Connection from="3/tatlı" to="2/pek" with="manner"/>
+</Amr>

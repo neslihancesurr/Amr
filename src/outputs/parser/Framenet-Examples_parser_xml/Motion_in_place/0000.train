@@ -1,0 +1,7 @@
+<Amr sentence="Depremde yapı oynadı .">
+<Word name="3/oyna" positionX="750" positionY="100"/>
+<Word name="1/deprem" positionX="650" positionY="200"/>
+<Connection from="3/oyna" to="1/deprem" with="location"/>
+<Word name="2/yapı" positionX="750" positionY="200"/>
+<Connection from="3/oyna" to="2/yapı" with="ARG0"/>
+</Amr>

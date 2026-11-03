@@ -1,0 +1,17 @@
+<Amr sentence="Çatıya yeni kiremit almak için maaşını harcadı .">
+<Word name="7/harca" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/harca" to="o" with="ARG0"/>
+<Word name="4/al" positionX="750" positionY="200"/>
+<Connection from="7/harca" to="4/al" with="cause"/>
+<Connection from="4/al" to="o" with="ARG0"/>
+<Word name="1/çatı" positionX="750" positionY="300"/>
+<Connection from="4/al" to="1/çatı"/>
+<Word name="3/kiremit" positionX="850" positionY="300"/>
+<Connection from="4/al" to="3/kiremit" with="ARG1"/>
+<Word name="2/yeni" positionX="750" positionY="400"/>
+<Connection from="3/kiremit" to="2/yeni" with="mod"/>
+<Word name="6/maaş" positionX="850" positionY="200"/>
+<Connection from="7/harca" to="6/maaş" with="ARG1"/>
+<Connection from="6/maaş" to="o" with="poss"/>
+</Amr>

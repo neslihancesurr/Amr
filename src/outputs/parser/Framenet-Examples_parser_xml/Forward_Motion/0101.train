@@ -1,0 +1,15 @@
+<Amr sentence="Dişliler dönüyor hava kirliliğine katkıda bulunuyor .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/dön" positionX="650" positionY="200"/>
+<Connection from="and" to="2/dön" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/dön" to="o" with="ARG0"/>
+<Word name="1/dişli" positionX="650" positionY="300"/>
+<Connection from="2/dön" to="1/dişli" with="ARG1"/>
+<Word name="5/katkı 6/bulun" positionX="750" positionY="200"/>
+<Connection from="and" to="5/katkı 6/bulun" with="op2"/>
+<Word name="4/kirli" positionX="650" positionY="300"/>
+<Connection from="5/katkı 6/bulun" to="4/kirli" with="ARG1"/>
+<Word name="3/hava" positionX="550" positionY="400"/>
+<Connection from="4/kirli" to="3/hava" with="mod"/>
+</Amr>

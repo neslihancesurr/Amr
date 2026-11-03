@@ -1,0 +1,15 @@
+<Amr sentence="Abim böyle sakin ortamları çok sever .">
+<Word name="6/sev" positionX="750" positionY="100"/>
+<Word name="1/ab" positionX="650" positionY="200"/>
+<Connection from="6/sev" to="1/ab" with="ARG0"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="1/ab" to="ben" with="poss"/>
+<Word name="4/ortam" positionX="750" positionY="200"/>
+<Connection from="6/sev" to="4/ortam" with="ARG1"/>
+<Word name="2/böyle" positionX="650" positionY="300"/>
+<Connection from="4/ortam" to="2/böyle" with="mod"/>
+<Word name="3/sakin" positionX="750" positionY="300"/>
+<Connection from="4/ortam" to="3/sakin" with="mod"/>
+<Word name="5/çok" positionX="850" positionY="200"/>
+<Connection from="6/sev" to="5/çok" with="degree"/>
+</Amr>

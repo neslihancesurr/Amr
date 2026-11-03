@@ -1,0 +1,5 @@
+<Amr sentence="Saat kaç ?">
+<Word name="2/kaç" positionX="750" positionY="100"/>
+<Word name="1/saat" positionX="650" positionY="200"/>
+<Connection from="2/kaç" to="1/saat"/>
+</Amr>

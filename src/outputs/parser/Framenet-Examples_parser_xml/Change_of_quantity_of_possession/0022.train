@@ -1,0 +1,9 @@
+<Amr sentence="Bütün birikimi kül oldu .">
+<Word name="3/kül 4/ol" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/kül 4/ol" to="o" with="ARG0"/>
+<Word name="2/birikim" positionX="750" positionY="200"/>
+<Connection from="3/kül 4/ol" to="2/birikim"/>
+<Word name="1/bütün" positionX="650" positionY="300"/>
+<Connection from="2/birikim" to="1/bütün" with="mod"/>
+</Amr>

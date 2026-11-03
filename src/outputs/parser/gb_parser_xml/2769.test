@@ -1,0 +1,13 @@
+<Amr sentence="İşte karışıklık derken bundan söz ediyorum .">
+<Word name="5/söz 6/et" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/söz 6/et" to="ben" with="ARG0"/>
+<Word name="1/işte" positionX="750" positionY="200"/>
+<Connection from="5/söz 6/et" to="1/işte"/>
+<Word name="3/de" positionX="850" positionY="200"/>
+<Connection from="5/söz 6/et" to="3/de"/>
+<Word name="2/karışıklık" positionX="750" positionY="300"/>
+<Connection from="3/de" to="2/karışıklık"/>
+<Word name="4/bu" positionX="950" positionY="200"/>
+<Connection from="5/söz 6/et" to="4/bu" with="ARG1"/>
+</Amr>

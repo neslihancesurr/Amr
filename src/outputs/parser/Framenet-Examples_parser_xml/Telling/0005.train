@@ -1,0 +1,12 @@
+<Amr sentence="Komşusuna gidip saatlerce dertlerini anlattı .">
+<Word name="4/dert 5/anlat" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/dert 5/anlat" to="o" with="ARG0"/>
+<Word name="2/git" positionX="750" positionY="200"/>
+<Connection from="4/dert 5/anlat" to="2/git"/>
+<Word name="1/komşu" positionX="650" positionY="300"/>
+<Connection from="2/git" to="1/komşu" with="ARG1"/>
+<Connection from="1/komşu" to="o" with="poss"/>
+<Word name="3/saatlerce" positionX="850" positionY="200"/>
+<Connection from="4/dert 5/anlat" to="3/saatlerce" with="manner"/>
+</Amr>

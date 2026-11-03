@@ -1,0 +1,23 @@
+<Amr sentence="Bildiğim şu ki , herkesin tatile ihtiyacı var .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="8/var" positionX="650" positionY="200"/>
+<Connection from="and" to="8/var" with="op1"/>
+<Word name="3/ki" positionX="550" positionY="300"/>
+<Connection from="8/var" to="3/ki"/>
+<Word name="5/herkes" positionX="650" positionY="300"/>
+<Connection from="8/var" to="5/herkes"/>
+<Word name="onlar" positionX="550" positionY="400"/>
+<Connection from="5/herkes" to="onlar" with="poss"/>
+<Word name="6/tatil" positionX="750" positionY="300"/>
+<Connection from="8/var" to="6/tatil"/>
+<Word name="7/ihtiyaç" positionX="850" positionY="300"/>
+<Connection from="8/var" to="7/ihtiyaç"/>
+<Word name="o" positionX="750" positionY="400"/>
+<Connection from="7/ihtiyaç" to="o" with="poss"/>
+<Word name="2/şu" positionX="750" positionY="200"/>
+<Connection from="and" to="2/şu" with="op2"/>
+<Word name="1/bil" positionX="650" positionY="300"/>
+<Connection from="2/şu" to="1/bil"/>
+<Word name="ben" positionX="550" positionY="400"/>
+<Connection from="1/bil" to="ben" with="poss"/>
+</Amr>

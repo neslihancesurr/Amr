@@ -1,0 +1,9 @@
+<Amr sentence="Çocuklar kendileri yıkanabilirler .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="3/yıkan" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="3/yıkan"/>
+<Word name="1/çocuk" positionX="550" positionY="300"/>
+<Connection from="3/yıkan" to="1/çocuk" with="ARG0"/>
+<Word name="2/kendi" positionX="450" positionY="400"/>
+<Connection from="1/çocuk" to="2/kendi" with="mod"/>
+</Amr>

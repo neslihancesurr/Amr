@@ -1,0 +1,9 @@
+<Amr sentence="Kötü insanlar , herkese kem gözle bakarlar .">
+<Word name="5/kem 6/göz 7/bak" positionX="750" positionY="100"/>
+<Word name="1/kötü 2/insan" positionX="650" positionY="200"/>
+<Connection from="5/kem 6/göz 7/bak" to="1/kötü 2/insan" with="ARG0"/>
+<Word name="4/herkes" positionX="750" positionY="200"/>
+<Connection from="5/kem 6/göz 7/bak" to="4/herkes" with="ARG1"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="4/herkes" to="onlar" with="poss"/>
+</Amr>

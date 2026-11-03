@@ -1,0 +1,22 @@
+<Amr sentence="Bu hafta çok yoruldu , bacaklarını uzatmak istiyor artık .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/yorul" positionX="650" positionY="200"/>
+<Connection from="and" to="4/yorul" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/yorul" to="o" with="ARG0"/>
+<Word name="2/hafta" positionX="650" positionY="300"/>
+<Connection from="4/yorul" to="2/hafta" with="mod"/>
+<Word name="1/bu" positionX="550" positionY="400"/>
+<Connection from="2/hafta" to="1/bu" with="mod"/>
+<Word name="3/çok" positionX="750" positionY="300"/>
+<Connection from="4/yorul" to="3/çok" with="degree"/>
+<Word name="8/iste" positionX="750" positionY="200"/>
+<Connection from="and" to="8/iste" with="op2"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="8/iste" to="ben" with="ARG0"/>
+<Word name="6/bacak 7/uzat" positionX="750" positionY="300"/>
+<Connection from="8/iste" to="6/bacak 7/uzat" with="ARG1"/>
+<Connection from="6/bacak 7/uzat" to="o" with="ARG0"/>
+<Word name="9/artık" positionX="850" positionY="300"/>
+<Connection from="8/iste" to="9/artık" with="manner"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="- O halde bugün alışveriş yapamayacağız .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="5/alışveriş 6/yap" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="5/alışveriş 6/yap"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="5/alışveriş 6/yap" to="-" with="polarity"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="5/alışveriş 6/yap" to="biz" with="ARG0"/>
+<Word name="2/o 3/hal" positionX="750" positionY="300"/>
+<Connection from="5/alışveriş 6/yap" to="2/o 3/hal" with="mod"/>
+<Word name="4/bugün" positionX="850" positionY="300"/>
+<Connection from="5/alışveriş 6/yap" to="4/bugün" with="manner"/>
+</Amr>

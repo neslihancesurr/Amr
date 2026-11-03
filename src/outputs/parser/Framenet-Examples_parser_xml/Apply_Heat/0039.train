@@ -1,0 +1,15 @@
+<Amr sentence="Akşama dolaptaki çorba ve bezelyeyi pişiririm .">
+<Word name="6/pişir" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="6/pişir" to="ben" with="ARG0"/>
+<Word name="1/akşam" positionX="750" positionY="200"/>
+<Connection from="6/pişir" to="1/akşam" with="mod"/>
+<Word name="and" positionX="850" positionY="200"/>
+<Connection from="6/pişir" to="and"/>
+<Word name="5/bezelye" positionX="750" positionY="300"/>
+<Connection from="and" to="5/bezelye" with="ARG1"/>
+<Word name="3/çorba" positionX="850" positionY="300"/>
+<Connection from="and" to="3/çorba" with="ARG1"/>
+<Word name="2/dolap" positionX="750" positionY="400"/>
+<Connection from="3/çorba" to="2/dolap" with="mod"/>
+</Amr>

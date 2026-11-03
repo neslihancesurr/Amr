@@ -1,0 +1,11 @@
+<Amr sentence="Kan davalısı evlerini yangına verdi .">
+<Word name="4/yangın 5/ver" positionX="750" positionY="100"/>
+<Word name="2/davalı" positionX="650" positionY="200"/>
+<Connection from="4/yangın 5/ver" to="2/davalı" with="ARG0"/>
+<Word name="1/kan" positionX="550" positionY="300"/>
+<Connection from="2/davalı" to="1/kan" with="mod"/>
+<Word name="3/ev" positionX="750" positionY="200"/>
+<Connection from="4/yangın 5/ver" to="3/ev" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/ev" to="o" with="poss"/>
+</Amr>

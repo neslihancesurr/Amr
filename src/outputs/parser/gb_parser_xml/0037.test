@@ -1,0 +1,10 @@
+<Amr sentence="baktırmadığından">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="1/bak" positionX="650" positionY="200"/>
+<Connection from="yap" to="1/bak"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="1/bak" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="1/bak" to="o" with="ARG0"/>
+<Connection from="1/bak" to="o" with="poss"/>
+</Amr>

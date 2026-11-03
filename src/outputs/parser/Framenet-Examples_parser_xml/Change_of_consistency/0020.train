@@ -1,0 +1,7 @@
+<Amr sentence="Ateş korlaştı .">
+<Word name="2/korlaş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="2/korlaş" to="o" with="ARG0"/>
+<Word name="1/ateş" positionX="750" positionY="200"/>
+<Connection from="2/korlaş" to="1/ateş" with="ARG1"/>
+</Amr>

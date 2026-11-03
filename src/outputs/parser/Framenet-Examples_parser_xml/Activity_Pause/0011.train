@@ -1,0 +1,18 @@
+<Amr sentence="Taraflar birbirilerine sataşmaya başlayınca hakim mecburen celseyi tatil etti .">
+<Word name="7/celse 8/tatil 9/et" positionX="750" positionY="100"/>
+<Word name="4/başla" positionX="650" positionY="200"/>
+<Connection from="7/celse 8/tatil 9/et" to="4/başla"/>
+<Word name="1/taraf" positionX="550" positionY="300"/>
+<Connection from="4/başla" to="1/taraf" with="ARG0"/>
+<Word name="3/sataş" positionX="650" positionY="300"/>
+<Connection from="4/başla" to="3/sataş" with="ARG1"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="3/sataş" to="o" with="ARG0"/>
+<Word name="2/birbirleri" positionX="650" positionY="400"/>
+<Connection from="3/sataş" to="2/birbirleri"/>
+<Connection from="2/birbirleri" to="o" with="poss"/>
+<Word name="5/hakim" positionX="750" positionY="200"/>
+<Connection from="7/celse 8/tatil 9/et" to="5/hakim" with="ARG0"/>
+<Word name="6/mecburen" positionX="850" positionY="200"/>
+<Connection from="7/celse 8/tatil 9/et" to="6/mecburen" with="manner"/>
+</Amr>

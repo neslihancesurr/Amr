@@ -1,0 +1,7 @@
+<Amr sentence="Güvercin korkunca pırladı .">
+<Word name="3/pırla" positionX="750" positionY="100"/>
+<Word name="1/güvercin" positionX="650" positionY="200"/>
+<Connection from="3/pırla" to="1/güvercin" with="ARG0"/>
+<Word name="2/kork" positionX="750" positionY="200"/>
+<Connection from="3/pırla" to="2/kork"/>
+</Amr>

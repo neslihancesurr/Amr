@@ -1,0 +1,12 @@
+<Amr sentence="Kavgadan sonra sevgilisini yoldan çevirdi .">
+<Word name="4/yol 5/çevir" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/yol 5/çevir" to="o" with="ARG0"/>
+<Word name="1/kavga" positionX="750" positionY="200"/>
+<Connection from="4/yol 5/çevir" to="1/kavga"/>
+<Word name="2/sonra" positionX="650" positionY="300"/>
+<Connection from="1/kavga" to="2/sonra"/>
+<Word name="3/sevgili" positionX="850" positionY="200"/>
+<Connection from="4/yol 5/çevir" to="3/sevgili" with="ARG1"/>
+<Connection from="3/sevgili" to="o" with="poss"/>
+</Amr>

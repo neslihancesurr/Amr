@@ -1,0 +1,23 @@
+<Amr sentence="İki taraf da o kadar ustaydı ki , saatlerce süren oyun berabere bitti .">
+<Word name="12/beraber 13/bit" positionX="750" positionY="100"/>
+<Word name="6/usta" positionX="650" positionY="200"/>
+<Connection from="12/beraber 13/bit" to="6/usta"/>
+<Word name="2/taraf" positionX="550" positionY="300"/>
+<Connection from="6/usta" to="2/taraf"/>
+<Word name="1/iki" positionX="450" positionY="400"/>
+<Connection from="2/taraf" to="1/iki"/>
+<Word name="3/da" positionX="550" positionY="400"/>
+<Connection from="2/taraf" to="3/da" with="manner"/>
+<Word name="4/o" positionX="650" positionY="300"/>
+<Connection from="6/usta" to="4/o" with="mod"/>
+<Word name="5/kadar" positionX="550" positionY="400"/>
+<Connection from="4/o" to="5/kadar"/>
+<Word name="7/ki" positionX="750" positionY="300"/>
+<Connection from="6/usta" to="7/ki"/>
+<Word name="11/oyun" positionX="750" positionY="200"/>
+<Connection from="12/beraber 13/bit" to="11/oyun" with="ARG0"/>
+<Word name="10/sür" positionX="650" positionY="300"/>
+<Connection from="11/oyun" to="10/sür"/>
+<Word name="9/saatlerce" positionX="550" positionY="400"/>
+<Connection from="10/sür" to="9/saatlerce" with="manner"/>
+</Amr>

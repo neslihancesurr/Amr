@@ -1,0 +1,16 @@
+<Amr sentence="Herhalde böyle önemli bir konuda ona akıl danışmayacak değiliz .">
+<Word name="7/akıl 8/danış" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="7/akıl 8/danış" to="-" with="polarity"/>
+<Word name="1/herhalde" positionX="750" positionY="200"/>
+<Connection from="7/akıl 8/danış" to="1/herhalde" with="manner"/>
+<Word name="5/konu" positionX="850" positionY="200"/>
+<Connection from="7/akıl 8/danış" to="5/konu" with="location"/>
+<Word name="3/önemli" positionX="750" positionY="300"/>
+<Connection from="5/konu" to="3/önemli" with="mod"/>
+<Word name="2/böyle" positionX="650" positionY="400"/>
+<Connection from="3/önemli" to="2/böyle" with="manner"/>
+<Word name="6/o" positionX="950" positionY="200"/>
+<Connection from="7/akıl 8/danış" to="6/o" with="ARG1"/>
+<Connection from="7/akıl 8/danış" to="-" with="polarity"/>
+</Amr>

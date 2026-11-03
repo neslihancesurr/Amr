@@ -1,0 +1,7 @@
+<Amr sentence="oturabilmek">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="1/otur" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="1/otur"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/otur" to="o" with="ARG0"/>
+</Amr>

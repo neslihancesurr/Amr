@@ -1,0 +1,27 @@
+<Amr sentence="Yapılaşma denetim altına alınmaması durumunda sahil bölgeleri kısa zamanda bozulmaktadır .">
+<Word name="10/bozul" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="10/bozul" to="o" with="ARG0"/>
+<Word name="5/durum" positionX="750" positionY="200"/>
+<Connection from="10/bozul" to="5/durum" with="mod"/>
+<Word name="4/al" positionX="650" positionY="300"/>
+<Connection from="5/durum" to="4/al"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="4/al" to="-" with="polarity"/>
+<Connection from="4/al" to="o" with="ARG0"/>
+<Connection from="4/al" to="o" with="poss"/>
+<Word name="1/yapılaşma" positionX="850" positionY="400"/>
+<Connection from="4/al" to="1/yapılaşma"/>
+<Word name="3/alt" positionX="950" positionY="400"/>
+<Connection from="4/al" to="3/alt"/>
+<Word name="2/denetim" positionX="850" positionY="500"/>
+<Connection from="3/alt" to="2/denetim" with="mod"/>
+<Word name="7/bölge" positionX="850" positionY="200"/>
+<Connection from="10/bozul" to="7/bölge" with="ARG1"/>
+<Word name="6/sahil" positionX="750" positionY="300"/>
+<Connection from="7/bölge" to="6/sahil" with="mod"/>
+<Word name="9/zaman" positionX="950" positionY="200"/>
+<Connection from="10/bozul" to="9/zaman" with="location"/>
+<Word name="8/kısa" positionX="850" positionY="300"/>
+<Connection from="9/zaman" to="8/kısa" with="mod"/>
+</Amr>

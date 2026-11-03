@@ -1,0 +1,16 @@
+<Amr sentence="İstifa ettikten sonra silahını ve rozetini teslim etti .">
+<Word name="7/teslim 8/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/teslim 8/et" to="o" with="ARG0"/>
+<Word name="1/istifa 2/et" positionX="750" positionY="200"/>
+<Connection from="7/teslim 8/et" to="1/istifa 2/et"/>
+<Connection from="1/istifa 2/et" to="o" with="ARG0"/>
+<Word name="and" positionX="850" positionY="200"/>
+<Connection from="7/teslim 8/et" to="and"/>
+<Word name="6/rozet" positionX="750" positionY="300"/>
+<Connection from="and" to="6/rozet" with="ARG1"/>
+<Connection from="6/rozet" to="o" with="poss"/>
+<Word name="4/silah" positionX="850" positionY="300"/>
+<Connection from="and" to="4/silah" with="ARG1"/>
+<Connection from="4/silah" to="o" with="poss"/>
+</Amr>

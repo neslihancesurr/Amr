@@ -1,0 +1,23 @@
+<Amr sentence="Bahçeyi bu hale getirmek için aylarca uğraşmış olsan gerek .">
+<Word name="9/gerek" positionX="750" positionY="100"/>
+<Word name="8/ol" positionX="650" positionY="200"/>
+<Connection from="9/gerek" to="8/ol"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="8/ol" to="sen" with="ARG0"/>
+<Word name="7/uğraş" positionX="650" positionY="300"/>
+<Connection from="8/ol" to="7/uğraş"/>
+<Word name="4/getir" positionX="550" positionY="400"/>
+<Connection from="7/uğraş" to="4/getir" with="ARG1"/>
+<Word name="o" positionX="450" positionY="500"/>
+<Connection from="4/getir" to="o" with="ARG0"/>
+<Word name="1/bahçe" positionX="550" positionY="500"/>
+<Connection from="4/getir" to="1/bahçe" with="ARG1"/>
+<Word name="3/hal" positionX="650" positionY="500"/>
+<Connection from="4/getir" to="3/hal" with="ARG1"/>
+<Word name="2/bu" positionX="550" positionY="600"/>
+<Connection from="3/hal" to="2/bu" with="mod"/>
+<Word name="5/için" positionX="750" positionY="500"/>
+<Connection from="4/getir" to="5/için"/>
+<Word name="6/aylarca" positionX="650" positionY="400"/>
+<Connection from="7/uğraş" to="6/aylarca"/>
+</Amr>

@@ -1,0 +1,5 @@
+<Amr sentence="Oturup eski günleri yâd ettik">
+<Word name="4/yâd 5/et" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="4/yâd 5/et" to="biz" with="ARG0"/>
+</Amr>

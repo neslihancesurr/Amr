@@ -1,0 +1,7 @@
+<Amr sentence="Oturmaz mısınız ?">
+<Word name="1/otur" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="1/otur" to="-" with="polarity"/>
+<Word name="2/mi" positionX="750" positionY="200"/>
+<Connection from="1/otur" to="2/mi"/>
+</Amr>

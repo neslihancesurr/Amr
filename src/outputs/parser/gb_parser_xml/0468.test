@@ -1,0 +1,11 @@
+<Amr sentence="Yeni komşuları tanımıyordum .">
+<Word name="3/tanı" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/tanı" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="3/tanı" to="ben" with="ARG0"/>
+<Word name="2/komşu" positionX="850" positionY="200"/>
+<Connection from="3/tanı" to="2/komşu" with="ARG1"/>
+<Word name="1/yeni" positionX="750" positionY="300"/>
+<Connection from="2/komşu" to="1/yeni" with="mod"/>
+</Amr>

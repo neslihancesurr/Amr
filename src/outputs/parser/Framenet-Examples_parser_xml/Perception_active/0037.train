@@ -1,0 +1,16 @@
+<Amr sentence="Tiyatroda kimse kimseye kötü gözle bakamaz .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="4/kötü 5/göz 6/bak" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="4/kötü 5/göz 6/bak"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="4/kötü 5/göz 6/bak" to="-" with="polarity"/>
+<Word name="1/tiyatro" positionX="650" positionY="300"/>
+<Connection from="4/kötü 5/göz 6/bak" to="1/tiyatro" with="location"/>
+<Word name="2/kimse" positionX="750" positionY="300"/>
+<Connection from="4/kötü 5/göz 6/bak" to="2/kimse" with="ARG0"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="2/kimse" to="o" with="poss"/>
+<Word name="3/kimse" positionX="850" positionY="300"/>
+<Connection from="4/kötü 5/göz 6/bak" to="3/kimse" with="ARG1"/>
+<Connection from="3/kimse" to="o" with="poss"/>
+</Amr>

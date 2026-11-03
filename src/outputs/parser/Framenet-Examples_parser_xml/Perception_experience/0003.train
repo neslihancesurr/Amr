@@ -1,0 +1,13 @@
+<Amr sentence="Birden , kalabalığın içinde bir çocuğa gözleri takıldı .">
+<Word name="7/göz 8/takıl" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/göz 8/takıl" to="o" with="ARG0"/>
+<Word name="1/birden" positionX="750" positionY="200"/>
+<Connection from="7/göz 8/takıl" to="1/birden" with="manner"/>
+<Word name="4/iç" positionX="850" positionY="200"/>
+<Connection from="7/göz 8/takıl" to="4/iç" with="mod"/>
+<Word name="3/kalabalık" positionX="750" positionY="300"/>
+<Connection from="4/iç" to="3/kalabalık" with="mod"/>
+<Word name="6/çocuk" positionX="950" positionY="200"/>
+<Connection from="7/göz 8/takıl" to="6/çocuk" with="ARG1"/>
+</Amr>

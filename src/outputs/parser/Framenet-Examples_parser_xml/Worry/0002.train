@@ -1,0 +1,17 @@
+<Amr sentence="O günden beri durmadan başına gelebilecekleri kötü kötü düşünüyordu .">
+<Word name="7/kötü 8/kötü 9/düşün" positionX="750" positionY="100"/>
+<Word name="2/gün" positionX="650" positionY="200"/>
+<Connection from="7/kötü 8/kötü 9/düşün" to="2/gün"/>
+<Word name="1/o" positionX="550" positionY="300"/>
+<Connection from="2/gün" to="1/o" with="mod"/>
+<Word name="3/beri" positionX="650" positionY="300"/>
+<Connection from="2/gün" to="3/beri"/>
+<Word name="4/durmadan" positionX="750" positionY="200"/>
+<Connection from="7/kötü 8/kötü 9/düşün" to="4/durmadan"/>
+<Word name="5/baş 6/gel" positionX="850" positionY="200"/>
+<Connection from="7/kötü 8/kötü 9/düşün" to="5/baş 6/gel" with="ARG1"/>
+<Word name="onlar" positionX="750" positionY="300"/>
+<Connection from="5/baş 6/gel" to="onlar" with="ARG0"/>
+<Word name="o" positionX="850" positionY="300"/>
+<Connection from="5/baş 6/gel" to="o" with="poss"/>
+</Amr>

@@ -1,0 +1,22 @@
+<Amr sentence="Nuran'ı daha ehliyetini almadı biliyordum .">
+<Word name="5/bil" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/bil" to="ben" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="5/bil" to="person" with="ARG1"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/nuran" positionX="550" positionY="400"/>
+<Connection from="name" to="1/nuran" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/al" positionX="850" positionY="200"/>
+<Connection from="5/bil" to="4/al" with="ARG1"/>
+<Connection from="4/al" to="-" with="polarity"/>
+<Word name="2/daha" positionX="850" positionY="300"/>
+<Connection from="4/al" to="2/daha" with="degree"/>
+<Word name="3/ehliyet" positionX="950" positionY="300"/>
+<Connection from="4/al" to="3/ehliyet" with="ARG1"/>
+<Word name="o" positionX="850" positionY="400"/>
+<Connection from="3/ehliyet" to="o" with="poss"/>
+</Amr>

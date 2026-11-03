@@ -1,0 +1,25 @@
+<Amr sentence="Sen ve arkadaşların Almanya'ya hangi yıl gittiniz ?">
+<Word name="7/git" positionX="750" positionY="100"/>
+<Word name="siz" positionX="650" positionY="200"/>
+<Connection from="7/git" to="siz" with="ARG0"/>
+<Word name="and" positionX="750" positionY="200"/>
+<Connection from="7/git" to="and"/>
+<Word name="3/arkadaş" positionX="650" positionY="300"/>
+<Connection from="and" to="3/arkadaş" with="ARG0"/>
+<Word name="sen" positionX="550" positionY="400"/>
+<Connection from="3/arkadaş" to="sen" with="poss"/>
+<Word name="1/sen" positionX="750" positionY="300"/>
+<Connection from="and" to="1/sen" with="ARG0"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="7/git" to="person" with="ARG1"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="4/almanya" positionX="650" positionY="400"/>
+<Connection from="name" to="4/almanya" with="op1"/>
+<Word name="-" positionX="850" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="6/yıl" positionX="950" positionY="200"/>
+<Connection from="7/git" to="6/yıl"/>
+<Word name="5/hangi" positionX="850" positionY="300"/>
+<Connection from="6/yıl" to="5/hangi" with="mod"/>
+</Amr>

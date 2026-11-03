@@ -1,0 +1,12 @@
+<Amr sentence="Yıkılmaya yüz tutmuş tüm duvarları hatılladı .">
+<Word name="6/hatılla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/hatılla" to="o" with="ARG0"/>
+<Word name="5/duvar" positionX="750" positionY="200"/>
+<Connection from="6/hatılla" to="5/duvar" with="ARG1"/>
+<Connection from="5/duvar" to="o" with="poss"/>
+<Word name="2/yüz 3/tut" positionX="750" positionY="300"/>
+<Connection from="5/duvar" to="2/yüz 3/tut"/>
+<Word name="4/tüm" positionX="850" positionY="300"/>
+<Connection from="5/duvar" to="4/tüm" with="mod"/>
+</Amr>

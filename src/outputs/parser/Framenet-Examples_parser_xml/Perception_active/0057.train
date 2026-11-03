@@ -1,0 +1,11 @@
+<Amr sentence="Her yaptığını markaja almıştı .">
+<Word name="3/markaj 4/al" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/markaj 4/al" to="o" with="ARG0"/>
+<Word name="2/yap" positionX="750" positionY="200"/>
+<Connection from="3/markaj 4/al" to="2/yap" with="ARG1"/>
+<Connection from="2/yap" to="o" with="ARG0"/>
+<Connection from="2/yap" to="o" with="poss"/>
+<Word name="1/her" positionX="850" positionY="300"/>
+<Connection from="2/yap" to="1/her" with="ARG1"/>
+</Amr>

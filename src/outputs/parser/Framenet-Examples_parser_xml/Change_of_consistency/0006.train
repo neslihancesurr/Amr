@@ -1,0 +1,11 @@
+<Amr sentence="Bu dokular artık kaslaşmış .">
+<Word name="4/kaslaş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/kaslaş" to="o" with="ARG0"/>
+<Word name="2/doku" positionX="750" positionY="200"/>
+<Connection from="4/kaslaş" to="2/doku" with="ARG1"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/doku" to="1/bu" with="mod"/>
+<Word name="3/artık" positionX="850" positionY="200"/>
+<Connection from="4/kaslaş" to="3/artık" with="manner"/>
+</Amr>

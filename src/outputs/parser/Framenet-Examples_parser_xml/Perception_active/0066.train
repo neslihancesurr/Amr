@@ -1,0 +1,17 @@
+<Amr sentence="Kulağını aç ve beni iyi dinle !">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/dinle" positionX="650" positionY="200"/>
+<Connection from="and" to="6/dinle" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="6/dinle" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="650" positionY="300"/>
+<Connection from="6/dinle" to="imperative" with="mode"/>
+<Word name="4/ben" positionX="750" positionY="300"/>
+<Connection from="6/dinle" to="4/ben" with="ARG1"/>
+<Word name="5/iyi" positionX="850" positionY="300"/>
+<Connection from="6/dinle" to="5/iyi" with="manner"/>
+<Word name="1/kulak 2/aç" positionX="750" positionY="200"/>
+<Connection from="and" to="1/kulak 2/aç" with="op2"/>
+<Connection from="1/kulak 2/aç" to="sen" with="ARG0"/>
+<Connection from="1/kulak 2/aç" to="imperative" with="mode"/>
+</Amr>

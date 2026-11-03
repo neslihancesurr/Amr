@@ -1,0 +1,15 @@
+<Amr sentence="Kanunun ilgili maddesi gereğince bir sözleşme hazırlanır .">
+<Word name="7/hazırlan" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/hazırlan" to="o" with="ARG0"/>
+<Word name="3/madde" positionX="750" positionY="200"/>
+<Connection from="7/hazırlan" to="3/madde"/>
+<Word name="1/kanun" positionX="650" positionY="300"/>
+<Connection from="3/madde" to="1/kanun" with="mod"/>
+<Word name="2/ilgili" positionX="750" positionY="300"/>
+<Connection from="3/madde" to="2/ilgili" with="mod"/>
+<Word name="4/gereğince" positionX="850" positionY="300"/>
+<Connection from="3/madde" to="4/gereğince"/>
+<Word name="6/sözleşme" positionX="850" positionY="200"/>
+<Connection from="7/hazırlan" to="6/sözleşme" with="ARG1"/>
+</Amr>

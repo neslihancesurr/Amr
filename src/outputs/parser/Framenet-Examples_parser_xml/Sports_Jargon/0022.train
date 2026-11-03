@@ -1,0 +1,9 @@
+<Amr sentence="Soğuk soğuk terleyen antrenör , mola alacak .">
+<Word name="6/mola 7/al" positionX="750" positionY="100"/>
+<Word name="4/antrenör" positionX="650" positionY="200"/>
+<Connection from="6/mola 7/al" to="4/antrenör" with="ARG0"/>
+<Word name="1/soğuk 2/soğuk" positionX="550" positionY="300"/>
+<Connection from="4/antrenör" to="1/soğuk 2/soğuk" with="mod"/>
+<Word name="3/terle" positionX="650" positionY="300"/>
+<Connection from="4/antrenör" to="3/terle" with="mod"/>
+</Amr>

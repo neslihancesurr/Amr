@@ -1,0 +1,7 @@
+<Amr sentence="Çocuk yedi yaşında .">
+<Word name="3/yaş:location" positionX="750" positionY="100"/>
+<Word name="1/çocuk" positionX="650" positionY="200"/>
+<Connection from="3/yaş:location" to="1/çocuk"/>
+<Word name="2/yedi" positionX="750" positionY="200"/>
+<Connection from="3/yaş:location" to="2/yedi"/>
+</Amr>

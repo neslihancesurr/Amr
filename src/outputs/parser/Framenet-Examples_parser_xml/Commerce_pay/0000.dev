@@ -1,0 +1,22 @@
+<Amr sentence="İki maaşımı hastalığına harcadığım talebe , sonbaharla beraber ölmüştü .">
+<Word name="9/öl" positionX="750" positionY="100"/>
+<Word name="5/talebe" positionX="650" positionY="200"/>
+<Connection from="9/öl" to="5/talebe" with="ARG0"/>
+<Word name="4/harca" positionX="550" positionY="300"/>
+<Connection from="5/talebe" to="4/harca"/>
+<Word name="ben" positionX="450" positionY="400"/>
+<Connection from="4/harca" to="ben" with="poss"/>
+<Word name="2/maaş" positionX="550" positionY="400"/>
+<Connection from="4/harca" to="2/maaş" with="ARG1"/>
+<Connection from="2/maaş" to="ben" with="poss"/>
+<Word name="1/iki" positionX="550" positionY="500"/>
+<Connection from="2/maaş" to="1/iki"/>
+<Word name="3/hastalık" positionX="650" positionY="400"/>
+<Connection from="4/harca" to="3/hastalık"/>
+<Word name="o" positionX="550" positionY="500"/>
+<Connection from="3/hastalık" to="o" with="poss"/>
+<Word name="7/sonbahar" positionX="750" positionY="200"/>
+<Connection from="9/öl" to="7/sonbahar" with="instrument"/>
+<Word name="8/beraber" positionX="650" positionY="300"/>
+<Connection from="7/sonbahar" to="8/beraber"/>
+</Amr>

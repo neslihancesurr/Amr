@@ -1,0 +1,11 @@
+<Amr sentence="köy , kasaba ve kentlerimizden">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/kasaba" positionX="650" positionY="200"/>
+<Connection from="and" to="3/kasaba" with="op1"/>
+<Word name="5/kent" positionX="750" positionY="200"/>
+<Connection from="and" to="5/kent" with="op2"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="5/kent" to="biz" with="poss"/>
+<Word name="1/köy" positionX="850" positionY="200"/>
+<Connection from="and" to="1/köy" with="op3"/>
+</Amr>

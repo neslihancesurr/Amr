@@ -1,0 +1,19 @@
+<Amr sentence="Nerede buluşacağımızı sormamış olması maalesef o anlama geliyor .">
+<Word name="7/anlam 8/gel" positionX="750" positionY="100"/>
+<Word name="4/ol" positionX="650" positionY="200"/>
+<Connection from="7/anlam 8/gel" to="4/ol" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/ol" to="o" with="poss"/>
+<Word name="3/sor" positionX="650" positionY="300"/>
+<Connection from="4/ol" to="3/sor"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="3/sor" to="-" with="polarity"/>
+<Word name="2/buluş" positionX="650" positionY="400"/>
+<Connection from="3/sor" to="2/buluş"/>
+<Word name="biz" positionX="550" positionY="500"/>
+<Connection from="2/buluş" to="biz" with="ARG0"/>
+<Word name="1/nerede" positionX="650" positionY="500"/>
+<Connection from="2/buluş" to="1/nerede" with="manner"/>
+<Word name="5/malesef" positionX="750" positionY="200"/>
+<Connection from="7/anlam 8/gel" to="5/malesef"/>
+</Amr>

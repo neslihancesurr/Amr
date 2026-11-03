@@ -1,0 +1,30 @@
+<Amr sentence="Nerede güzel görsen ona çevrilme , bizim ilde cana kıyan beyler var">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/çevril" positionX="650" positionY="200"/>
+<Connection from="and" to="5/çevril" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="5/çevril" to="-" with="polarity"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="5/çevril" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="300"/>
+<Connection from="5/çevril" to="imperative" with="mode"/>
+<Word name="3/gör" positionX="850" positionY="300"/>
+<Connection from="5/çevril" to="3/gör"/>
+<Connection from="3/gör" to="sen" with="ARG0"/>
+<Word name="1/nerede" positionX="850" positionY="400"/>
+<Connection from="3/gör" to="1/nerede" with="manner"/>
+<Word name="2/güzel" positionX="950" positionY="400"/>
+<Connection from="3/gör" to="2/güzel" with="ARG2"/>
+<Word name="4/o" positionX="950" positionY="300"/>
+<Connection from="5/çevril" to="4/o" with="ARG1"/>
+<Word name="12/var" positionX="750" positionY="200"/>
+<Connection from="and" to="12/var" with="op2"/>
+<Word name="8/il" positionX="650" positionY="300"/>
+<Connection from="12/var" to="8/il" with="location"/>
+<Word name="7/biz" positionX="550" positionY="400"/>
+<Connection from="8/il" to="7/biz" with="mod"/>
+<Word name="11/bey" positionX="750" positionY="300"/>
+<Connection from="12/var" to="11/bey"/>
+<Word name="9/can 10/kıy" positionX="650" positionY="400"/>
+<Connection from="11/bey" to="9/can 10/kıy"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="hepimizden daha hevesli bir üye">
+<Word name="5/üye" positionX="750" positionY="100"/>
+<Word name="3/hevesli" positionX="650" positionY="200"/>
+<Connection from="5/üye" to="3/hevesli" with="mod"/>
+<Word name="1/hep" positionX="550" positionY="300"/>
+<Connection from="3/hevesli" to="1/hep" with="frequency"/>
+<Word name="2/daha" positionX="650" positionY="300"/>
+<Connection from="3/hevesli" to="2/daha" with="degree"/>
+</Amr>

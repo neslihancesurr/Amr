@@ -1,0 +1,13 @@
+<Amr sentence="Hem sinemaya gitmiş hem de biraz gezmiştim .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="7/gez" positionX="650" positionY="200"/>
+<Connection from="and" to="7/gez" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="7/gez" to="ben" with="ARG0"/>
+<Word name="6/biraz" positionX="650" positionY="300"/>
+<Connection from="7/gez" to="6/biraz" with="manner"/>
+<Word name="3/git" positionX="750" positionY="200"/>
+<Connection from="and" to="3/git" with="op2"/>
+<Word name="2/sinema" positionX="650" positionY="300"/>
+<Connection from="3/git" to="2/sinema" with="ARG1"/>
+</Amr>

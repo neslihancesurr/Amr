@@ -1,0 +1,25 @@
+<Amr sentence="Beyaz kıyafetli adam büyük bir ustalıkla lokmaları kızgın yağla dolu kazana döküyordu .">
+<Word name="12/dök" positionX="750" positionY="100"/>
+<Word name="3/adam" positionX="650" positionY="200"/>
+<Connection from="12/dök" to="3/adam" with="ARG0"/>
+<Word name="2/kıyafetli" positionX="550" positionY="300"/>
+<Connection from="3/adam" to="2/kıyafetli" with="mod"/>
+<Word name="1/beyaz" positionX="450" positionY="400"/>
+<Connection from="2/kıyafetli" to="1/beyaz" with="mod"/>
+<Word name="6/ustalıkla" positionX="750" positionY="200"/>
+<Connection from="12/dök" to="6/ustalıkla" with="manner"/>
+<Word name="4/büyük" positionX="650" positionY="300"/>
+<Connection from="6/ustalıkla" to="4/büyük" with="mod"/>
+<Word name="7/lokma" positionX="850" positionY="200"/>
+<Connection from="12/dök" to="7/lokma" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="7/lokma" to="o" with="poss"/>
+<Word name="11/kazan" positionX="950" positionY="200"/>
+<Connection from="12/dök" to="11/kazan"/>
+<Word name="10/dolu" positionX="850" positionY="300"/>
+<Connection from="11/kazan" to="10/dolu" with="mod"/>
+<Word name="9/yağ" positionX="750" positionY="400"/>
+<Connection from="10/dolu" to="9/yağ" with="instrument"/>
+<Word name="8/kızgın" positionX="650" positionY="500"/>
+<Connection from="9/yağ" to="8/kızgın" with="mod"/>
+</Amr>

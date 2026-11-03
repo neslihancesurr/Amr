@@ -1,0 +1,12 @@
+<Amr sentence="Hiçbirimiz bugün sokağa çıkmadık .">
+<Word name="3/sokak 4/çık" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/sokak 4/çık" to="-" with="polarity"/>
+<Word name="biz" positionX="750" positionY="200"/>
+<Connection from="3/sokak 4/çık" to="biz" with="ARG0"/>
+<Word name="1/hiçbiri" positionX="850" positionY="200"/>
+<Connection from="3/sokak 4/çık" to="1/hiçbiri" with="ARG0"/>
+<Connection from="1/hiçbiri" to="biz" with="poss"/>
+<Word name="2/bugün" positionX="950" positionY="200"/>
+<Connection from="3/sokak 4/çık" to="2/bugün"/>
+</Amr>

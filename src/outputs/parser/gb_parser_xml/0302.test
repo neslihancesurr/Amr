@@ -1,0 +1,9 @@
+<Amr sentence="Arabalar çok hızlı geçiyordu .">
+<Word name="4/geç" positionX="750" positionY="100"/>
+<Word name="1/araba" positionX="650" positionY="200"/>
+<Connection from="4/geç" to="1/araba" with="ARG0"/>
+<Word name="3/hızlı" positionX="750" positionY="200"/>
+<Connection from="4/geç" to="3/hızlı" with="manner"/>
+<Word name="2/çok" positionX="650" positionY="300"/>
+<Connection from="3/hızlı" to="2/çok" with="degree"/>
+</Amr>

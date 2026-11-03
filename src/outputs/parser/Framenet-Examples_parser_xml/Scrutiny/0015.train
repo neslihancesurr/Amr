@@ -1,0 +1,16 @@
+<Amr sentence="Yeni gelenin niyetini anlamak için ağzını kokladı .">
+<Word name="6/ağız 7/kokla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/ağız 7/kokla" to="o" with="ARG0"/>
+<Word name="4/anla" positionX="750" positionY="200"/>
+<Connection from="6/ağız 7/kokla" to="4/anla" with="cause"/>
+<Connection from="4/anla" to="o" with="ARG0"/>
+<Word name="3/niyet" positionX="750" positionY="300"/>
+<Connection from="4/anla" to="3/niyet" with="ARG1"/>
+<Word name="sen" positionX="650" positionY="400"/>
+<Connection from="3/niyet" to="sen" with="poss"/>
+<Word name="2/gel" positionX="750" positionY="400"/>
+<Connection from="3/niyet" to="2/gel" with="mod"/>
+<Word name="1/yeni" positionX="650" positionY="500"/>
+<Connection from="2/gel" to="1/yeni" with="manner"/>
+</Amr>

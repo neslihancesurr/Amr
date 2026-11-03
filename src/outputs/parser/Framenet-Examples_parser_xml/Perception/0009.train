@@ -1,0 +1,9 @@
+<Amr sentence="Bilim insanları , virüsü bir süreliğine gözlem altına aldı .">
+<Word name="7/gözlem 8/alt 9/al" positionX="750" positionY="100"/>
+<Word name="1/bilim 2/insan" positionX="650" positionY="200"/>
+<Connection from="7/gözlem 8/alt 9/al" to="1/bilim 2/insan" with="ARG0"/>
+<Word name="4/virüs" positionX="750" positionY="200"/>
+<Connection from="7/gözlem 8/alt 9/al" to="4/virüs" with="ARG1"/>
+<Word name="6/süreliğine" positionX="850" positionY="200"/>
+<Connection from="7/gözlem 8/alt 9/al" to="6/süreliğine" with="mod"/>
+</Amr>

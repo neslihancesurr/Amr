@@ -1,0 +1,13 @@
+<Amr sentence="Akan suları duvarlarla zor durdurdular .">
+<Word name="5/durdur" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="5/durdur" to="onlar" with="ARG0"/>
+<Word name="2/su" positionX="750" positionY="200"/>
+<Connection from="5/durdur" to="2/su" with="ARG1"/>
+<Word name="1/ak" positionX="650" positionY="300"/>
+<Connection from="2/su" to="1/ak"/>
+<Word name="3/duvar" positionX="850" positionY="200"/>
+<Connection from="5/durdur" to="3/duvar" with="instrument"/>
+<Word name="4/zor" positionX="950" positionY="200"/>
+<Connection from="5/durdur" to="4/zor" with="manner"/>
+</Amr>

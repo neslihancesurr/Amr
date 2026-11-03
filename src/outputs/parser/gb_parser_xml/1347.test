@@ -1,0 +1,13 @@
+<Amr sentence="İki orta yaşlı adam mı çalmış arabayı ?">
+<Word name="6/çal" positionX="750" positionY="100"/>
+<Word name="4/adam" positionX="650" positionY="200"/>
+<Connection from="6/çal" to="4/adam" with="ARG0"/>
+<Word name="1/iki" positionX="550" positionY="300"/>
+<Connection from="4/adam" to="1/iki"/>
+<Word name="2/orta 3/yaşlı" positionX="650" positionY="300"/>
+<Connection from="4/adam" to="2/orta 3/yaşlı" with="mod"/>
+<Word name="5/mi" positionX="750" positionY="300"/>
+<Connection from="4/adam" to="5/mi"/>
+<Word name="7/araba" positionX="750" positionY="200"/>
+<Connection from="6/çal" to="7/araba" with="ARG1"/>
+</Amr>

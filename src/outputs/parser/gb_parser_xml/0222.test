@@ -1,0 +1,11 @@
+<Amr sentence="Çerçeveleri bile temizlemişsin ya !">
+<Word name="3/temizle" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="3/temizle" to="sen" with="ARG0"/>
+<Word name="1/çerçeve" positionX="750" positionY="200"/>
+<Connection from="3/temizle" to="1/çerçeve" with="ARG1"/>
+<Word name="2/bile" positionX="650" positionY="300"/>
+<Connection from="1/çerçeve" to="2/bile"/>
+<Word name="4/ya" positionX="850" positionY="200"/>
+<Connection from="3/temizle" to="4/ya"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr sentence="Şu anda Ahmet futbol oynuyor .">
+<Word name="5/oyna" positionX="750" positionY="100"/>
+<Word name="2/an" positionX="650" positionY="200"/>
+<Connection from="5/oyna" to="2/an" with="location"/>
+<Word name="1/şu" positionX="550" positionY="300"/>
+<Connection from="2/an" to="1/şu" with="mod"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="5/oyna" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/ahmet" positionX="550" positionY="400"/>
+<Connection from="name" to="3/ahmet" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/futbol" positionX="850" positionY="200"/>
+<Connection from="5/oyna" to="4/futbol" with="ARG1"/>
+</Amr>

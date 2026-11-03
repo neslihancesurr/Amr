@@ -1,0 +1,15 @@
+<Amr sentence="Çocuklar burayı toplamanıza yardım etsinler .">
+<Word name="4/yardım 5/et" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/yardım 5/et" to="onlar" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="4/yardım 5/et" to="imperative" with="mode"/>
+<Word name="1/çocuk" positionX="850" positionY="200"/>
+<Connection from="4/yardım 5/et" to="1/çocuk"/>
+<Word name="3/topla" positionX="950" positionY="200"/>
+<Connection from="4/yardım 5/et" to="3/topla"/>
+<Word name="siz" positionX="850" positionY="300"/>
+<Connection from="3/topla" to="siz" with="ARG0"/>
+<Word name="2/bura" positionX="950" positionY="300"/>
+<Connection from="3/topla" to="2/bura"/>
+</Amr>

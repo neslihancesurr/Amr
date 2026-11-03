@@ -1,0 +1,25 @@
+<Amr sentence="Köyde radyo yoktu , muhtar kapıyı açtı , şimdi çoğunun radyosu var .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/yok" positionX="650" positionY="200"/>
+<Connection from="and" to="3/yok" with="op1"/>
+<Word name="1/köy" positionX="550" positionY="300"/>
+<Connection from="3/yok" to="1/köy" with="location"/>
+<Word name="2/radyo" positionX="650" positionY="300"/>
+<Connection from="3/yok" to="2/radyo"/>
+<Word name="6/kapı 7/aç" positionX="750" positionY="200"/>
+<Connection from="and" to="6/kapı 7/aç" with="op2"/>
+<Word name="5/muhtar" positionX="650" positionY="300"/>
+<Connection from="6/kapı 7/aç" to="5/muhtar" with="ARG0"/>
+<Word name="12/var" positionX="850" positionY="200"/>
+<Connection from="and" to="12/var" with="op3"/>
+<Word name="9/şimdi" positionX="750" positionY="300"/>
+<Connection from="12/var" to="9/şimdi" with="manner"/>
+<Word name="10/çoğu" positionX="850" positionY="300"/>
+<Connection from="12/var" to="10/çoğu"/>
+<Word name="onlar" positionX="750" positionY="400"/>
+<Connection from="10/çoğu" to="onlar" with="poss"/>
+<Word name="11/radyo" positionX="950" positionY="300"/>
+<Connection from="12/var" to="11/radyo"/>
+<Word name="o" positionX="850" positionY="400"/>
+<Connection from="11/radyo" to="o" with="poss"/>
+</Amr>

@@ -1,0 +1,21 @@
+<Amr sentence="Birkaç soba etrafında çay içiyorlar , tavla ve kâğıt oynuyorlar .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/iç" positionX="650" positionY="200"/>
+<Connection from="and" to="5/iç" with="op1"/>
+<Word name="onlar" positionX="550" positionY="300"/>
+<Connection from="5/iç" to="onlar" with="ARG0"/>
+<Word name="3/etraf" positionX="650" positionY="300"/>
+<Connection from="5/iç" to="3/etraf" with="location"/>
+<Word name="2/soba" positionX="550" positionY="400"/>
+<Connection from="3/etraf" to="2/soba" with="mod"/>
+<Word name="1/birkaç" positionX="450" positionY="500"/>
+<Connection from="2/soba" to="1/birkaç" with="mod"/>
+<Word name="4/çay" positionX="750" positionY="300"/>
+<Connection from="5/iç" to="4/çay" with="ARG1"/>
+<Word name="9/kâğıt 10/oyna" positionX="750" positionY="200"/>
+<Connection from="and" to="9/kâğıt 10/oyna" with="op2"/>
+<Connection from="9/kâğıt 10/oyna" to="onlar" with="ARG0"/>
+<Connection from="9/kâğıt 10/oyna" to="and"/>
+<Word name="7/tavla" positionX="650" positionY="400"/>
+<Connection from="and" to="7/tavla" with="ARG1"/>
+</Amr>

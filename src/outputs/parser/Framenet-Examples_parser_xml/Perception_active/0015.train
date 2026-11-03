@@ -1,0 +1,11 @@
+<Amr sentence="Sokaktaki satıcıları göz ucuyla süzüyordum .">
+<Word name="3/göz 4/uç 5/süz" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/göz 4/uç 5/süz" to="ben" with="ARG0"/>
+<Word name="2/satıcı" positionX="750" positionY="200"/>
+<Connection from="3/göz 4/uç 5/süz" to="2/satıcı" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/satıcı" to="o" with="poss"/>
+<Word name="1/sokak" positionX="750" positionY="300"/>
+<Connection from="2/satıcı" to="1/sokak" with="location"/>
+</Amr>

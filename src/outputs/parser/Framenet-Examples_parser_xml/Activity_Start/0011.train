@@ -1,0 +1,19 @@
+<Amr sentence="Mustafa , kardeşinin de yardımıyla belediyede işe girdi .">
+<Word name="7/iş 8/gir" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="7/iş 8/gir" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/mustafa" positionX="450" positionY="400"/>
+<Connection from="name" to="1/mustafa" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/yardım" positionX="750" positionY="200"/>
+<Connection from="7/iş 8/gir" to="5/yardım" with="instrument"/>
+<Word name="3/kardeş" positionX="650" positionY="300"/>
+<Connection from="5/yardım" to="3/kardeş" with="mod"/>
+<Word name="4/de" positionX="550" positionY="400"/>
+<Connection from="3/kardeş" to="4/de" with="manner"/>
+<Word name="6/belediye" positionX="850" positionY="200"/>
+<Connection from="7/iş 8/gir" to="6/belediye" with="location"/>
+</Amr>

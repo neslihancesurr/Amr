@@ -1,0 +1,8 @@
+<Amr sentence="Beni rahatsız etmek için gözünü gözüne dikmişti .">
+<Word name="5/göz 6/göz 7/dik" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/göz 6/göz 7/dik" to="o" with="ARG0"/>
+<Word name="2/rahat 3/et" positionX="750" positionY="200"/>
+<Connection from="5/göz 6/göz 7/dik" to="2/rahat 3/et"/>
+<Connection from="2/rahat 3/et" to="o" with="ARG0"/>
+</Amr>

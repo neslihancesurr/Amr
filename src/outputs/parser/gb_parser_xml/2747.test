@@ -1,0 +1,11 @@
+<Amr sentence="Ücretlerinde bir artış olmadı .">
+<Word name="4/ol" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/ol" to="-" with="polarity"/>
+<Word name="1/ücret" positionX="750" positionY="200"/>
+<Connection from="4/ol" to="1/ücret" with="ARG0"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="1/ücret" to="o" with="poss"/>
+<Word name="3/artış" positionX="850" positionY="200"/>
+<Connection from="4/ol" to="3/artış" with="ARG0"/>
+</Amr>

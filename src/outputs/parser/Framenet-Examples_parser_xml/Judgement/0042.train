@@ -1,0 +1,26 @@
+<Amr sentence="Bu yeni kişilik artık Beşiktaş tribününden hakeme yuh çekemez .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="8/yuh 9/çek" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="8/yuh 9/çek"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="8/yuh 9/çek" to="-" with="polarity"/>
+<Word name="3/kişilik" positionX="650" positionY="300"/>
+<Connection from="8/yuh 9/çek" to="3/kişilik" with="ARG0"/>
+<Word name="1/bu" positionX="550" positionY="400"/>
+<Connection from="3/kişilik" to="1/bu" with="mod"/>
+<Word name="2/yeni" positionX="650" positionY="400"/>
+<Connection from="3/kişilik" to="2/yeni" with="mod"/>
+<Word name="4/artık" positionX="750" positionY="300"/>
+<Connection from="8/yuh 9/çek" to="4/artık" with="manner"/>
+<Word name="6/tribün" positionX="850" positionY="300"/>
+<Connection from="8/yuh 9/çek" to="6/tribün"/>
+<Word name="person" positionX="750" positionY="400"/>
+<Connection from="6/tribün" to="person"/>
+<Word name="name" positionX="650" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="5/beşiktaş" positionX="550" positionY="600"/>
+<Connection from="name" to="5/beşiktaş" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="7/hakem" positionX="950" positionY="300"/>
+<Connection from="8/yuh 9/çek" to="7/hakem" with="ARG1"/>
+</Amr>

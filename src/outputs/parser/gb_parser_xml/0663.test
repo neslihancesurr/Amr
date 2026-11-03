@@ -1,0 +1,19 @@
+<Amr sentence="Dergilerin hepsini Aysel'e geri verdim .">
+<Word name="4/geri 5/ver" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/geri 5/ver" to="ben" with="ARG0"/>
+<Word name="2/hepsi" positionX="750" positionY="200"/>
+<Connection from="4/geri 5/ver" to="2/hepsi" with="ARG1"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="2/hepsi" to="onlar" with="poss"/>
+<Word name="1/dergi" positionX="750" positionY="300"/>
+<Connection from="2/hepsi" to="1/dergi"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="4/geri 5/ver" to="person" with="ARG2"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/aysel" positionX="650" positionY="400"/>
+<Connection from="name" to="3/aysel" with="op1"/>
+<Word name="-" positionX="850" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

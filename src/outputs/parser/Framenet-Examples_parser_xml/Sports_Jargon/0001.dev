@@ -1,0 +1,11 @@
+<Amr sentence="Rakibinin sol kroşesini karşıladı .">
+<Word name="4/karşıla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/karşıla" to="o" with="ARG0"/>
+<Word name="3/kroşe" positionX="750" positionY="200"/>
+<Connection from="4/karşıla" to="3/kroşe" with="ARG1"/>
+<Word name="1/rakip" positionX="650" positionY="300"/>
+<Connection from="3/kroşe" to="1/rakip" with="mod"/>
+<Word name="2/sol" positionX="750" positionY="300"/>
+<Connection from="3/kroşe" to="2/sol" with="mod"/>
+</Amr>

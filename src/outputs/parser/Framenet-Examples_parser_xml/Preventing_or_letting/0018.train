@@ -1,0 +1,13 @@
+<Amr sentence="Ortamdaki kaos onun söylediklerini güme götürdü .">
+<Word name="5/güme 6/götür" positionX="750" positionY="100"/>
+<Word name="2/kaos" positionX="650" positionY="200"/>
+<Connection from="5/güme 6/götür" to="2/kaos" with="ARG0"/>
+<Word name="1/ortam" positionX="550" positionY="300"/>
+<Connection from="2/kaos" to="1/ortam" with="mod"/>
+<Word name="4/söyle" positionX="750" positionY="200"/>
+<Connection from="5/güme 6/götür" to="4/söyle" with="ARG1"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="4/söyle" to="onlar" with="ARG0"/>
+<Word name="3/o" positionX="750" positionY="300"/>
+<Connection from="4/söyle" to="3/o" with="mod"/>
+</Amr>

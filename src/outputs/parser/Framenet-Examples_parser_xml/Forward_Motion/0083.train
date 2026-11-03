@@ -1,0 +1,12 @@
+<Amr sentence="Sahile indim , sürtüp durdum .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/in" positionX="650" positionY="200"/>
+<Connection from="and" to="2/in" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="2/in" to="ben" with="ARG0"/>
+<Word name="1/sahil" positionX="650" positionY="300"/>
+<Connection from="2/in" to="1/sahil" with="ARG1"/>
+<Word name="4/sürt 5/dur" positionX="750" positionY="200"/>
+<Connection from="and" to="4/sürt 5/dur" with="op2"/>
+<Connection from="4/sürt 5/dur" to="ben" with="ARG0"/>
+</Amr>

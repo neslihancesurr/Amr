@@ -1,0 +1,17 @@
+<Amr sentence="İçeriye tanımadığı birisi girince doğruldu .">
+<Word name="5/doğrul" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/doğrul" to="o" with="ARG0"/>
+<Word name="4/gir" positionX="750" positionY="200"/>
+<Connection from="5/doğrul" to="4/gir"/>
+<Word name="1/içeri" positionX="650" positionY="300"/>
+<Connection from="4/gir" to="1/içeri" with="ARG1"/>
+<Word name="3/biri" positionX="750" positionY="300"/>
+<Connection from="4/gir" to="3/biri" with="ARG0"/>
+<Connection from="3/biri" to="o" with="poss"/>
+<Word name="2/tanı" positionX="750" positionY="400"/>
+<Connection from="3/biri" to="2/tanı"/>
+<Word name="-" positionX="650" positionY="500"/>
+<Connection from="2/tanı" to="-" with="polarity"/>
+<Connection from="2/tanı" to="o" with="poss"/>
+</Amr>

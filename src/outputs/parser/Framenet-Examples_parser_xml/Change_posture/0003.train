@@ -1,0 +1,18 @@
+<Amr sentence="Karşısına geçip bağdaştı , artık dinlemeye hazırdı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/bağdaş" positionX="650" positionY="200"/>
+<Connection from="and" to="3/bağdaş" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/bağdaş" to="o" with="ARG0"/>
+<Word name="2/geç" positionX="650" positionY="300"/>
+<Connection from="3/bağdaş" to="2/geç"/>
+<Word name="1/karşı" positionX="550" positionY="400"/>
+<Connection from="2/geç" to="1/karşı" with="ARG1"/>
+<Connection from="1/karşı" to="o" with="poss"/>
+<Word name="7/hazır" positionX="750" positionY="200"/>
+<Connection from="and" to="7/hazır" with="op2"/>
+<Word name="5/artık" positionX="650" positionY="300"/>
+<Connection from="7/hazır" to="5/artık" with="manner"/>
+<Word name="6/dinleme" positionX="750" positionY="300"/>
+<Connection from="7/hazır" to="6/dinleme"/>
+</Amr>

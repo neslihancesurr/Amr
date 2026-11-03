@@ -1,0 +1,9 @@
+<Amr sentence="Neli dondurma seversin ?">
+<Word name="3/sev" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="3/sev" to="sen" with="ARG0"/>
+<Word name="2/dondurma" positionX="750" positionY="200"/>
+<Connection from="3/sev" to="2/dondurma" with="ARG1"/>
+<Word name="1/Neli" positionX="650" positionY="300"/>
+<Connection from="2/dondurma" to="1/Neli" with="mod"/>
+</Amr>

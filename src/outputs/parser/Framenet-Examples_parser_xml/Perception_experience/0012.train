@@ -1,0 +1,15 @@
+<Amr sentence="Dosyaları ararken masanın üstündeki çerçevelere gözü ilişti .">
+<Word name="6/göz 7/iliş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/göz 7/iliş" to="o" with="ARG0"/>
+<Word name="2/ara" positionX="750" positionY="200"/>
+<Connection from="6/göz 7/iliş" to="2/ara"/>
+<Word name="1/dosya" positionX="650" positionY="300"/>
+<Connection from="2/ara" to="1/dosya" with="ARG1"/>
+<Word name="5/çerçeve" positionX="850" positionY="200"/>
+<Connection from="6/göz 7/iliş" to="5/çerçeve" with="ARG1"/>
+<Word name="4/üst" positionX="750" positionY="300"/>
+<Connection from="5/çerçeve" to="4/üst" with="mod"/>
+<Word name="3/masa" positionX="650" positionY="400"/>
+<Connection from="4/üst" to="3/masa" with="mod"/>
+</Amr>

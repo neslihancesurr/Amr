@@ -1,0 +1,13 @@
+<Amr sentence="kızı dün gelmiş olan kadın">
+<Word name="5/kadın" positionX="750" positionY="100"/>
+<Word name="4/ol" positionX="650" positionY="200"/>
+<Connection from="5/kadın" to="4/ol"/>
+<Word name="3/gel" positionX="550" positionY="300"/>
+<Connection from="4/ol" to="3/gel"/>
+<Word name="1/kız" positionX="450" positionY="400"/>
+<Connection from="3/gel" to="1/kız"/>
+<Word name="o" positionX="350" positionY="500"/>
+<Connection from="1/kız" to="o" with="poss"/>
+<Word name="2/dün" positionX="550" positionY="400"/>
+<Connection from="3/gel" to="2/dün"/>
+</Amr>

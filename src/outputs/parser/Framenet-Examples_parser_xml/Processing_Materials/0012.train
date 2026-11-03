@@ -1,0 +1,20 @@
+<Amr sentence="Arkadaşına aldığı doğum günü hediyesinin paketini güzelce pulladı .">
+<Word name="8/pulla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="8/pulla" to="o" with="ARG0"/>
+<Word name="6/paket" positionX="750" positionY="200"/>
+<Connection from="8/pulla" to="6/paket" with="ARG1"/>
+<Word name="5/hediye" positionX="650" positionY="300"/>
+<Connection from="6/paket" to="5/hediye" with="mod"/>
+<Word name="2/al" positionX="550" positionY="400"/>
+<Connection from="5/hediye" to="2/al"/>
+<Connection from="2/al" to="o" with="poss"/>
+<Word name="1/arkadaş" positionX="550" positionY="500"/>
+<Connection from="2/al" to="1/arkadaş"/>
+<Connection from="1/arkadaş" to="o" with="poss"/>
+<Word name="3/doğum 4/gün" positionX="650" positionY="400"/>
+<Connection from="5/hediye" to="3/doğum 4/gün"/>
+<Connection from="3/doğum 4/gün" to="o" with="poss"/>
+<Word name="7/güzel" positionX="850" positionY="200"/>
+<Connection from="8/pulla" to="7/güzel" with="manner"/>
+</Amr>

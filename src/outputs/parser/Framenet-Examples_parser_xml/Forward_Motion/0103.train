@@ -1,0 +1,13 @@
+<Amr sentence="Koca taş yuvarlandı gitti .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/yuvarla" positionX="650" positionY="200"/>
+<Connection from="and" to="3/yuvarla" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/yuvarla" to="o" with="ARG0"/>
+<Word name="2/taş" positionX="650" positionY="300"/>
+<Connection from="3/yuvarla" to="2/taş" with="ARG1"/>
+<Word name="1/koca" positionX="550" positionY="400"/>
+<Connection from="2/taş" to="1/koca" with="mod"/>
+<Word name="4/git" positionX="750" positionY="200"/>
+<Connection from="and" to="4/git" with="op2"/>
+</Amr>

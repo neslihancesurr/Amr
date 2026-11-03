@@ -1,0 +1,11 @@
+<Amr sentence="Kedilere niçin doğru dürüst yemek vermiyorsun ?">
+<Word name="5/yemek 6/ver" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/yemek 6/ver" to="-" with="polarity"/>
+<Word name="sen" positionX="750" positionY="200"/>
+<Connection from="5/yemek 6/ver" to="sen" with="ARG0"/>
+<Word name="1/kedi" positionX="850" positionY="200"/>
+<Connection from="5/yemek 6/ver" to="1/kedi" with="ARG1"/>
+<Word name="2/niçin" positionX="950" positionY="200"/>
+<Connection from="5/yemek 6/ver" to="2/niçin" with="manner"/>
+</Amr>

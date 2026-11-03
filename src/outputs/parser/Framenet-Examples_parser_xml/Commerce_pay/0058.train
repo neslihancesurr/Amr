@@ -1,0 +1,11 @@
+<Amr sentence="Apartmanın gelirini amcam suya salıyor .">
+<Word name="4/su 5/sal" positionX="750" positionY="100"/>
+<Word name="2/gelir" positionX="650" positionY="200"/>
+<Connection from="4/su 5/sal" to="2/gelir" with="ARG1"/>
+<Word name="1/apartman" positionX="550" positionY="300"/>
+<Connection from="2/gelir" to="1/apartman" with="mod"/>
+<Word name="3/amca" positionX="750" positionY="200"/>
+<Connection from="4/su 5/sal" to="3/amca" with="ARG0"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="3/amca" to="ben" with="poss"/>
+</Amr>

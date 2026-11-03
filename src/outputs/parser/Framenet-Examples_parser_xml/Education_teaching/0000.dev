@@ -1,0 +1,13 @@
+<Amr sentence="Zeki olmasına rağmen okumuyor .">
+<Word name="4/oku" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/oku" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="4/oku" to="o" with="ARG0"/>
+<Word name="2/ol" positionX="850" positionY="200"/>
+<Connection from="4/oku" to="2/ol" with="concession"/>
+<Connection from="2/ol" to="o" with="ARG0"/>
+<Connection from="2/ol" to="o" with="poss"/>
+<Word name="1/zeki" positionX="950" positionY="300"/>
+<Connection from="2/ol" to="1/zeki" with="manner"/>
+</Amr>

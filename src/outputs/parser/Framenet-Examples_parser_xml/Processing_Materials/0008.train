@@ -1,0 +1,11 @@
+<Amr sentence="Renklendirmeden önce duvarlar taraklandı .">
+<Word name="4/tarakla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/tarakla" to="o" with="ARG0"/>
+<Word name="1/renklendirme" positionX="750" positionY="200"/>
+<Connection from="4/tarakla" to="1/renklendirme" with="mod"/>
+<Word name="2/önce" positionX="650" positionY="300"/>
+<Connection from="1/renklendirme" to="2/önce"/>
+<Word name="3/duvar" positionX="850" positionY="200"/>
+<Connection from="4/tarakla" to="3/duvar" with="ARG1"/>
+</Amr>

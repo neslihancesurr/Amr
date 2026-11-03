@@ -1,0 +1,13 @@
+<Amr sentence="Öğleyin ekmek peynir yedim .">
+<Word name="4/ye" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/ye" to="ben" with="ARG0"/>
+<Word name="1/öğleyin" positionX="750" positionY="200"/>
+<Connection from="4/ye" to="1/öğleyin" with="manner"/>
+<Word name="and" positionX="850" positionY="200"/>
+<Connection from="4/ye" to="and"/>
+<Word name="3/peynir" positionX="750" positionY="300"/>
+<Connection from="and" to="3/peynir" with="ARG1"/>
+<Word name="2/ekmek" positionX="850" positionY="300"/>
+<Connection from="and" to="2/ekmek" with="ARG1"/>
+</Amr>

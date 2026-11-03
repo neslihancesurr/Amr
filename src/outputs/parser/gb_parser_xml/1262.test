@@ -1,0 +1,11 @@
+<Amr sentence="Öğretmen en çok onun yazısını beğenmiş .">
+<Word name="6/beğen" positionX="750" positionY="100"/>
+<Word name="1/öğretmen" positionX="650" positionY="200"/>
+<Connection from="6/beğen" to="1/öğretmen" with="ARG0"/>
+<Word name="2/en 3/çok" positionX="750" positionY="200"/>
+<Connection from="6/beğen" to="2/en 3/çok" with="degree"/>
+<Word name="5/yazı" positionX="850" positionY="200"/>
+<Connection from="6/beğen" to="5/yazı" with="ARG1"/>
+<Word name="4/o" positionX="750" positionY="300"/>
+<Connection from="5/yazı" to="4/o" with="mod"/>
+</Amr>

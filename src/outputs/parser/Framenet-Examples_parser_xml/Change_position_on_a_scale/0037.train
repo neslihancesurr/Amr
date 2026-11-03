@@ -1,0 +1,19 @@
+<Amr sentence="Elmanın fiyatı geçen haftaya kıyasla çok yükselmiş .">
+<Word name="7/yüksel" positionX="750" positionY="100"/>
+<Word name="2/fiyat" positionX="650" positionY="200"/>
+<Connection from="7/yüksel" to="2/fiyat" with="ARG0"/>
+<Word name="1/elma" positionX="550" positionY="300"/>
+<Connection from="2/fiyat" to="1/elma" with="mod"/>
+<Word name="5/kıyasla" positionX="750" positionY="200"/>
+<Connection from="7/yüksel" to="5/kıyasla"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="5/kıyasla" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="300"/>
+<Connection from="5/kıyasla" to="imperative" with="mode"/>
+<Word name="4/haftaya" positionX="850" positionY="300"/>
+<Connection from="5/kıyasla" to="4/haftaya"/>
+<Word name="3/geçen" positionX="750" positionY="400"/>
+<Connection from="4/haftaya" to="3/geçen"/>
+<Word name="6/çok" positionX="850" positionY="200"/>
+<Connection from="7/yüksel" to="6/çok" with="degree"/>
+</Amr>

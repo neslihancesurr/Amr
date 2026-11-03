@@ -1,0 +1,13 @@
+<Amr sentence="Çizginin üst tarafında birkaç beyaz nokta görülmektedir .">
+<Word name="7/gör" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/gör" to="o" with="ARG0"/>
+<Word name="2/üst 3/taraf" positionX="750" positionY="200"/>
+<Connection from="7/gör" to="2/üst 3/taraf" with="ARG1"/>
+<Word name="6/nokta" positionX="850" positionY="200"/>
+<Connection from="7/gör" to="6/nokta" with="ARG1"/>
+<Word name="4/birkaç" positionX="750" positionY="300"/>
+<Connection from="6/nokta" to="4/birkaç" with="mod"/>
+<Word name="5/beyaz" positionX="850" positionY="300"/>
+<Connection from="6/nokta" to="5/beyaz" with="mod"/>
+</Amr>

@@ -1,0 +1,16 @@
+<Amr sentence="Sınıfımda popülarite kazandım , herkesle aram iyiydi .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/popülarite 3/kazan" positionX="650" positionY="200"/>
+<Connection from="and" to="2/popülarite 3/kazan" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="2/popülarite 3/kazan" to="ben" with="ARG0"/>
+<Word name="1/sınıf" positionX="650" positionY="300"/>
+<Connection from="2/popülarite 3/kazan" to="1/sınıf" with="location"/>
+<Word name="7/iyi" positionX="750" positionY="200"/>
+<Connection from="and" to="7/iyi" with="op2"/>
+<Word name="5/herkes" positionX="650" positionY="300"/>
+<Connection from="7/iyi" to="5/herkes" with="instrument"/>
+<Word name="6/ara" positionX="750" positionY="300"/>
+<Connection from="7/iyi" to="6/ara"/>
+<Connection from="6/ara" to="ben" with="poss"/>
+</Amr>

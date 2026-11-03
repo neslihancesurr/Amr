@@ -1,0 +1,19 @@
+<Amr sentence="Temmuzda gelebilselerdi biz onları bir hafta gezdirecektik .">
+<Word name="7/gezdir" positionX="750" positionY="100"/>
+<Word name="mümkün" positionX="650" positionY="200"/>
+<Connection from="7/gezdir" to="mümkün"/>
+<Word name="2/gel" positionX="550" positionY="300"/>
+<Connection from="mümkün" to="2/gel"/>
+<Word name="onlar" positionX="450" positionY="400"/>
+<Connection from="2/gel" to="onlar" with="ARG0"/>
+<Word name="date-entity" positionX="550" positionY="400"/>
+<Connection from="2/gel" to="date-entity" with="date"/>
+<Word name="1/temmuz" positionX="450" positionY="500"/>
+<Connection from="date-entity" to="1/temmuz" with="month"/>
+<Word name="3/biz" positionX="750" positionY="200"/>
+<Connection from="7/gezdir" to="3/biz"/>
+<Word name="4/o" positionX="850" positionY="200"/>
+<Connection from="7/gezdir" to="4/o"/>
+<Word name="6/hafta" positionX="950" positionY="200"/>
+<Connection from="7/gezdir" to="6/hafta"/>
+</Amr>

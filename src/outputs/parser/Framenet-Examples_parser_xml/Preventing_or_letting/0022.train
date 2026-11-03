@@ -1,0 +1,7 @@
+<Amr sentence="Ne yazık ki bunun gibi mahzurlar doğuracak .">
+<Word name="6/mahzur 7/doğur" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/mahzur 7/doğur" to="o" with="ARG0"/>
+<Word name="1/ne 2/yazık 3/ki" positionX="750" positionY="200"/>
+<Connection from="6/mahzur 7/doğur" to="1/ne 2/yazık 3/ki"/>
+</Amr>

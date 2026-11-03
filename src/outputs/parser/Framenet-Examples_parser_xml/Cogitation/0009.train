@@ -1,0 +1,13 @@
+<Amr sentence="O olaydan beri bu konu içini sardı .">
+<Word name="6/iç 7/sar" positionX="750" positionY="100"/>
+<Word name="2/olay" positionX="650" positionY="200"/>
+<Connection from="6/iç 7/sar" to="2/olay"/>
+<Word name="1/o" positionX="550" positionY="300"/>
+<Connection from="2/olay" to="1/o" with="mod"/>
+<Word name="3/beri" positionX="650" positionY="300"/>
+<Connection from="2/olay" to="3/beri"/>
+<Word name="5/konu" positionX="750" positionY="200"/>
+<Connection from="6/iç 7/sar" to="5/konu" with="ARG0"/>
+<Word name="4/bu" positionX="650" positionY="300"/>
+<Connection from="5/konu" to="4/bu" with="mod"/>
+</Amr>

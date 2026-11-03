@@ -1,0 +1,17 @@
+<Amr sentence="Bu kuşlar çok nadirdi , artık körelmiş de .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/nadir" positionX="650" positionY="200"/>
+<Connection from="and" to="4/nadir" with="op1"/>
+<Word name="2/kuş" positionX="550" positionY="300"/>
+<Connection from="4/nadir" to="2/kuş"/>
+<Word name="1/bu" positionX="450" positionY="400"/>
+<Connection from="2/kuş" to="1/bu" with="mod"/>
+<Word name="3/çok" positionX="650" positionY="300"/>
+<Connection from="4/nadir" to="3/çok" with="degree"/>
+<Word name="7/körel" positionX="750" positionY="200"/>
+<Connection from="and" to="7/körel" with="op2"/>
+<Word name="6/artık" positionX="650" positionY="300"/>
+<Connection from="7/körel" to="6/artık" with="manner"/>
+<Word name="8/de" positionX="750" positionY="300"/>
+<Connection from="7/körel" to="8/de"/>
+</Amr>

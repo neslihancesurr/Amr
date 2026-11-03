@@ -1,0 +1,10 @@
+<Amr sentence="Secde ederek dua etmeye başladı .">
+<Word name="5/başla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/başla" to="o" with="ARG0"/>
+<Word name="1/secde 2/et" positionX="750" positionY="200"/>
+<Connection from="5/başla" to="1/secde 2/et"/>
+<Word name="3/dua 4/et" positionX="850" positionY="200"/>
+<Connection from="5/başla" to="3/dua 4/et" with="ARG1"/>
+<Connection from="3/dua 4/et" to="o" with="ARG0"/>
+</Amr>

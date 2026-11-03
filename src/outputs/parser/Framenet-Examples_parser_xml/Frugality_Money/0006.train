@@ -1,0 +1,21 @@
+<Amr sentence="Senin mutluluğun için paraya kıydım , en güzellerini aldım !">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/para 5/kıy" positionX="650" positionY="200"/>
+<Connection from="and" to="4/para 5/kıy" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="4/para 5/kıy" to="ben" with="ARG0"/>
+<Word name="2/mutluluk" positionX="650" positionY="300"/>
+<Connection from="4/para 5/kıy" to="2/mutluluk" with="cause"/>
+<Word name="sen" positionX="550" positionY="400"/>
+<Connection from="2/mutluluk" to="sen" with="poss"/>
+<Word name="1/sen" positionX="650" positionY="400"/>
+<Connection from="2/mutluluk" to="1/sen" with="mod"/>
+<Word name="9/al" positionX="750" positionY="200"/>
+<Connection from="and" to="9/al" with="op2"/>
+<Connection from="9/al" to="ben" with="ARG0"/>
+<Word name="8/güzel" positionX="750" positionY="300"/>
+<Connection from="9/al" to="8/güzel" with="ARG1"/>
+<Connection from="8/güzel" to="sen" with="poss"/>
+<Word name="7/en" positionX="750" positionY="400"/>
+<Connection from="8/güzel" to="7/en" with="manner"/>
+</Amr>

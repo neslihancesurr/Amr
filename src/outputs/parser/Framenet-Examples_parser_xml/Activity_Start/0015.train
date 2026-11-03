@@ -1,0 +1,11 @@
+<Amr sentence="Sen gittikten sonra bir kıyamet koptu .">
+<Word name="6/kop" positionX="750" positionY="100"/>
+<Word name="2/git" positionX="650" positionY="200"/>
+<Connection from="6/kop" to="2/git"/>
+<Word name="1/sen" positionX="550" positionY="300"/>
+<Connection from="2/git" to="1/sen" with="ARG0"/>
+<Word name="3/sonra" positionX="650" positionY="300"/>
+<Connection from="2/git" to="3/sonra"/>
+<Word name="5/kıyamet" positionX="750" positionY="200"/>
+<Connection from="6/kop" to="5/kıyamet" with="ARG0"/>
+</Amr>

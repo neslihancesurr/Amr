@@ -1,0 +1,19 @@
+<Amr sentence="Kalabalık olacağız diye bir ekmek daha almıştım .">
+<Word name="7/al" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="7/al" to="ben" with="ARG0"/>
+<Word name="2/ol" positionX="750" positionY="200"/>
+<Connection from="7/al" to="2/ol"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="2/ol" to="biz" with="ARG0"/>
+<Word name="1/kalabalık" positionX="750" positionY="300"/>
+<Connection from="2/ol" to="1/kalabalık" with="mod"/>
+<Word name="3/diye" positionX="850" positionY="300"/>
+<Connection from="2/ol" to="3/diye"/>
+<Word name="5/ekmek" positionX="850" positionY="200"/>
+<Connection from="7/al" to="5/ekmek"/>
+<Word name="4/bir" positionX="750" positionY="300"/>
+<Connection from="5/ekmek" to="4/bir"/>
+<Word name="6/daha" positionX="850" positionY="300"/>
+<Connection from="5/ekmek" to="6/daha" with="degree"/>
+</Amr>

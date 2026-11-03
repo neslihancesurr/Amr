@@ -1,0 +1,15 @@
+<Amr sentence="Ahmet'in babası her gün hasta .">
+<Word name="5/hasta" positionX="750" positionY="100"/>
+<Word name="2/baba" positionX="650" positionY="200"/>
+<Connection from="5/hasta" to="2/baba"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="2/baba" to="person"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ahmet" positionX="350" positionY="500"/>
+<Connection from="name" to="1/ahmet" with="op1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/her 4/gün" positionX="750" positionY="200"/>
+<Connection from="5/hasta" to="3/her 4/gün" with="mod"/>
+</Amr>

@@ -1,0 +1,27 @@
+<Amr sentence="Kenan'ın evleneceği Ayşe , işte bu Ayşe .">
+<Word name="person" positionX="750" positionY="100"/>
+<Word name="name" positionX="650" positionY="200"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="7/ayşe" positionX="550" positionY="300"/>
+<Connection from="name" to="7/ayşe" with="op1"/>
+<Word name="-" positionX="750" positionY="200"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="person" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/ayşe" positionX="650" positionY="400"/>
+<Connection from="name" to="3/ayşe" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/evlen" positionX="950" positionY="300"/>
+<Connection from="person" to="2/evlen"/>
+<Word name="o" positionX="850" positionY="400"/>
+<Connection from="2/evlen" to="o" with="poss"/>
+<Connection from="2/evlen" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/kenan" positionX="750" positionY="600"/>
+<Connection from="name" to="1/kenan" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/işte" positionX="950" positionY="200"/>
+<Connection from="person" to="5/işte"/>
+<Word name="6/bu" positionX="1050" positionY="200"/>
+<Connection from="person" to="6/bu" with="mod"/>
+</Amr>

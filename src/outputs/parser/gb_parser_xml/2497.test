@@ -1,0 +1,23 @@
+<Amr sentence="O zamana kadar anneleri gelmemiş olursa siz çocuklarla kalabilir misiniz ?">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="8/çocuk 9/kal" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="8/çocuk 9/kal"/>
+<Word name="6/ol" positionX="550" positionY="300"/>
+<Connection from="8/çocuk 9/kal" to="6/ol" with="cond"/>
+<Word name="5/gel" positionX="450" positionY="400"/>
+<Connection from="6/ol" to="5/gel"/>
+<Word name="-" positionX="350" positionY="500"/>
+<Connection from="5/gel" to="-" with="polarity"/>
+<Word name="2/zaman" positionX="450" positionY="500"/>
+<Connection from="5/gel" to="2/zaman" with="extent"/>
+<Word name="1/o" positionX="350" positionY="600"/>
+<Connection from="2/zaman" to="1/o" with="mod"/>
+<Word name="4/anne" positionX="550" positionY="500"/>
+<Connection from="5/gel" to="4/anne"/>
+<Word name="onlar" positionX="450" positionY="600"/>
+<Connection from="4/anne" to="onlar" with="poss"/>
+<Word name="7/siz" positionX="650" positionY="300"/>
+<Connection from="8/çocuk 9/kal" to="7/siz"/>
+<Word name="10/mi" positionX="750" positionY="300"/>
+<Connection from="8/çocuk 9/kal" to="10/mi"/>
+</Amr>

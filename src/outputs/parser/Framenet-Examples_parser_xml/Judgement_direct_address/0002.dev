@@ -1,0 +1,13 @@
+<Amr sentence="Müsaade ederseniz size başka bir cihetten sitem edeceğim .">
+<Word name="7/sitem 8/et" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="7/sitem 8/et" to="ben" with="ARG0"/>
+<Word name="1/müsaade 2/et" positionX="750" positionY="200"/>
+<Connection from="7/sitem 8/et" to="1/müsaade 2/et"/>
+<Word name="3/siz" positionX="850" positionY="200"/>
+<Connection from="7/sitem 8/et" to="3/siz" with="ARG2"/>
+<Word name="6/cihet" positionX="950" positionY="200"/>
+<Connection from="7/sitem 8/et" to="6/cihet"/>
+<Word name="4/başka" positionX="850" positionY="300"/>
+<Connection from="6/cihet" to="4/başka" with="mod"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Dün söylediklerine zihni takıldı .">
+<Word name="3/zihin 4/takıl" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/zihin 4/takıl" to="o" with="ARG0"/>
+<Word name="2/söyle" positionX="750" positionY="200"/>
+<Connection from="3/zihin 4/takıl" to="2/söyle" with="ARG1"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="2/söyle" to="onlar" with="ARG0"/>
+<Word name="1/dün" positionX="750" positionY="300"/>
+<Connection from="2/söyle" to="1/dün" with="mod"/>
+</Amr>

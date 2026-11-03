@@ -1,0 +1,15 @@
+<Amr sentence="Minibüs kızak yapmıştı ama işe yaramamıştı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/yara" positionX="650" positionY="200"/>
+<Connection from="and" to="6/yara" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="6/yara" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="6/yara" to="o" with="ARG0"/>
+<Word name="5/iş" positionX="750" positionY="300"/>
+<Connection from="6/yara" to="5/iş" with="ARG1"/>
+<Word name="2/kızak 3/yap" positionX="750" positionY="200"/>
+<Connection from="and" to="2/kızak 3/yap" with="op2"/>
+<Word name="1/minibüs" positionX="650" positionY="300"/>
+<Connection from="2/kızak 3/yap" to="1/minibüs" with="ARG0"/>
+</Amr>

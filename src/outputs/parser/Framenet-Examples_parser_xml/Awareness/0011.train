@@ -1,0 +1,18 @@
+<Amr sentence="Bana böyle davranamayacağını göreceksin .">
+<Word name="4/gör" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="4/gör" to="sen" with="ARG0"/>
+<Word name="mümkün" positionX="750" positionY="200"/>
+<Connection from="4/gör" to="mümkün"/>
+<Word name="3/davran" positionX="650" positionY="300"/>
+<Connection from="mümkün" to="3/davran" with="ARG1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="3/davran" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="3/davran" to="o" with="ARG0"/>
+<Connection from="3/davran" to="o" with="poss"/>
+<Word name="1/ben" positionX="850" positionY="400"/>
+<Connection from="3/davran" to="1/ben" with="ARG2"/>
+<Word name="2/böyle" positionX="950" positionY="400"/>
+<Connection from="3/davran" to="2/böyle" with="ARG1"/>
+</Amr>

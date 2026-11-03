@@ -1,0 +1,7 @@
+<Amr sentence="Su dolu kovalar">
+<Word name="3/kova" positionX="750" positionY="100"/>
+<Word name="2/dolu" positionX="650" positionY="200"/>
+<Connection from="3/kova" to="2/dolu" with="mod"/>
+<Word name="1/su" positionX="550" positionY="300"/>
+<Connection from="2/dolu" to="1/su" with="mod"/>
+</Amr>

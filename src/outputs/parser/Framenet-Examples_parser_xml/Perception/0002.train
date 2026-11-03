@@ -1,0 +1,17 @@
+<Amr sentence="Koltukta oturanın o olduğunu zorlukla algıladım .">
+<Word name="6/algıla" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="6/algıla" to="ben" with="ARG0"/>
+<Word name="4/ol" positionX="750" positionY="200"/>
+<Connection from="6/algıla" to="4/ol" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="4/ol" to="o" with="poss"/>
+<Word name="2/otur" positionX="750" positionY="300"/>
+<Connection from="4/ol" to="2/otur"/>
+<Word name="1/koltuk" positionX="650" positionY="400"/>
+<Connection from="2/otur" to="1/koltuk" with="location"/>
+<Word name="3/o" positionX="850" positionY="300"/>
+<Connection from="4/ol" to="3/o" with="ARG0"/>
+<Word name="5/zorlukla" positionX="850" positionY="200"/>
+<Connection from="6/algıla" to="5/zorlukla" with="manner"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Adam akşamları hep dışarıda sürtüyor .">
+<Word name="5/sürt" positionX="750" positionY="100"/>
+<Word name="1/adam" positionX="650" positionY="200"/>
+<Connection from="5/sürt" to="1/adam" with="ARG0"/>
+<Word name="2/akşamları" positionX="750" positionY="200"/>
+<Connection from="5/sürt" to="2/akşamları" with="manner"/>
+<Word name="3/hep" positionX="850" positionY="200"/>
+<Connection from="5/sürt" to="3/hep" with="frequency"/>
+<Word name="4/dışarı" positionX="950" positionY="200"/>
+<Connection from="5/sürt" to="4/dışarı" with="ARG1"/>
+</Amr>

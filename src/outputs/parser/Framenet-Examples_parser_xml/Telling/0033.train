@@ -1,0 +1,15 @@
+<Amr sentence="Bütün arkadaşlar bir araya gelip yıllar boyu başlarına gelen talihsizlikleri anlatıp birbirlerine yandılar .">
+<Word name="13/yan" positionX="750" positionY="100"/>
+<Word name="3/bir 4/ara 5/gel" positionX="650" positionY="200"/>
+<Connection from="13/yan" to="3/bir 4/ara 5/gel"/>
+<Word name="11/anlat" positionX="750" positionY="200"/>
+<Connection from="13/yan" to="11/anlat"/>
+<Word name="10/talihsizlik" positionX="650" positionY="300"/>
+<Connection from="11/anlat" to="10/talihsizlik" with="ARG1"/>
+<Word name="8/baş 9/gel" positionX="550" positionY="400"/>
+<Connection from="10/talihsizlik" to="8/baş 9/gel"/>
+<Word name="12/birbirleri" positionX="850" positionY="200"/>
+<Connection from="13/yan" to="12/birbirleri" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="12/birbirleri" to="o" with="poss"/>
+</Amr>

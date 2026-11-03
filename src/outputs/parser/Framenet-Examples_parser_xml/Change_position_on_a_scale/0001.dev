@@ -1,0 +1,11 @@
+<Amr sentence="Biraz hız ver arabaya .">
+<Word name="2/hız 3/ver" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="2/hız 3/ver" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="2/hız 3/ver" to="imperative" with="mode"/>
+<Word name="1/biraz" positionX="850" positionY="200"/>
+<Connection from="2/hız 3/ver" to="1/biraz" with="manner"/>
+<Word name="4/araba" positionX="950" positionY="200"/>
+<Connection from="2/hız 3/ver" to="4/araba"/>
+</Amr>

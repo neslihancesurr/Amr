@@ -1,0 +1,14 @@
+<Amr sentence="Fabrika çalışanlarını sömürmekte üstüne yoktu .">
+<Word name="5/yok" positionX="750" positionY="100"/>
+<Word name="3/sömür" positionX="650" positionY="200"/>
+<Connection from="5/yok" to="3/sömür"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/sömür" to="o" with="ARG0"/>
+<Word name="2/çalışan" positionX="650" positionY="300"/>
+<Connection from="3/sömür" to="2/çalışan" with="ARG1"/>
+<Word name="1/fabrika" positionX="550" positionY="400"/>
+<Connection from="2/çalışan" to="1/fabrika" with="mod"/>
+<Word name="4/üst" positionX="750" positionY="200"/>
+<Connection from="5/yok" to="4/üst"/>
+<Connection from="4/üst" to="o" with="poss"/>
+</Amr>

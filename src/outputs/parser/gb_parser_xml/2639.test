@@ -1,0 +1,15 @@
+<Amr sentence="Evde tuz kalmamış , bir de süt .">
+<Word name="3/kal" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/kal" to="-" with="polarity"/>
+<Word name="1/ev" positionX="750" positionY="200"/>
+<Connection from="3/kal" to="1/ev" with="location"/>
+<Word name="and" positionX="850" positionY="200"/>
+<Connection from="3/kal" to="and"/>
+<Word name="7/süt" positionX="750" positionY="300"/>
+<Connection from="and" to="7/süt" with="ARG0"/>
+<Word name="6/de" positionX="650" positionY="400"/>
+<Connection from="7/süt" to="6/de"/>
+<Word name="2/tuz" positionX="850" positionY="300"/>
+<Connection from="and" to="2/tuz" with="ARG0"/>
+</Amr>

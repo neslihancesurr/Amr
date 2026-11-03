@@ -1,0 +1,9 @@
+<Amr sentence="Öğrenciler sürekli aralarında konuşuyorlardı .">
+<Word name="4/konuş" positionX="750" positionY="100"/>
+<Word name="1/öğrenci" positionX="650" positionY="200"/>
+<Connection from="4/konuş" to="1/öğrenci" with="ARG0"/>
+<Word name="2/sürekli" positionX="750" positionY="200"/>
+<Connection from="4/konuş" to="2/sürekli" with="frequency"/>
+<Word name="3/ara" positionX="850" positionY="200"/>
+<Connection from="4/konuş" to="3/ara" with="location"/>
+</Amr>

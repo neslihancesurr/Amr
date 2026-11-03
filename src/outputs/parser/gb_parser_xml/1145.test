@@ -1,0 +1,19 @@
+<Amr sentence="Hırsızlığı Erol'un kendi şirketinden biri yapmış .">
+<Word name="6/yap" positionX="750" positionY="100"/>
+<Word name="1/hırsızlık" positionX="650" positionY="200"/>
+<Connection from="6/yap" to="1/hırsızlık" with="ARG1"/>
+<Word name="5/biri" positionX="750" positionY="200"/>
+<Connection from="6/yap" to="5/biri" with="ARG0"/>
+<Word name="4/şirket" positionX="650" positionY="300"/>
+<Connection from="5/biri" to="4/şirket" with="mod"/>
+<Word name="person" positionX="550" positionY="400"/>
+<Connection from="4/şirket" to="person"/>
+<Word name="name" positionX="450" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/erol" positionX="350" positionY="600"/>
+<Connection from="name" to="2/erol" with="op1"/>
+<Word name="-" positionX="550" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/kendi" positionX="650" positionY="400"/>
+<Connection from="4/şirket" to="3/kendi" with="mod"/>
+</Amr>

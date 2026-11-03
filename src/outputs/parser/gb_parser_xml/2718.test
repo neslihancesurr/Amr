@@ -1,0 +1,20 @@
+<Amr sentence="Yanına kağıttı , kalemdi , sınav için ne gerekliyse al .">
+<Word name="10/al" positionX="750" positionY="100"/>
+<Word name="1/yan" positionX="650" positionY="200"/>
+<Connection from="10/al" to="1/yan" with="mod"/>
+<Word name="and" positionX="750" positionY="200"/>
+<Connection from="10/al" to="and"/>
+<Word name="2/kağıt" positionX="650" positionY="300"/>
+<Connection from="and" to="2/kağıt" with="op1"/>
+<Word name="4/kalem" positionX="550" positionY="400"/>
+<Connection from="2/kağıt" to="4/kalem"/>
+<Word name="9/gerekli" positionX="750" positionY="300"/>
+<Connection from="and" to="9/gerekli" with="op2"/>
+<Connection from="9/gerekli" to="and"/>
+<Word name="6/sınav" positionX="750" positionY="400"/>
+<Connection from="9/gerekli" to="6/sınav" with="mod"/>
+<Word name="7/için" positionX="650" positionY="500"/>
+<Connection from="6/sınav" to="7/için"/>
+<Word name="8/ne" positionX="850" positionY="400"/>
+<Connection from="9/gerekli" to="8/ne"/>
+</Amr>

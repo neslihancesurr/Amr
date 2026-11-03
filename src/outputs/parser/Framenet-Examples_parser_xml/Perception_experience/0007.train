@@ -1,0 +1,18 @@
+<Amr sentence="Önünden her geçtiğim insanın söylediklerine kulak misafiri oluyorum .">
+<Word name="6/kulak 7/misafir 8/ol" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="6/kulak 7/misafir 8/ol" to="ben" with="ARG0"/>
+<Word name="5/söyle" positionX="750" positionY="200"/>
+<Connection from="6/kulak 7/misafir 8/ol" to="5/söyle" with="ARG1"/>
+<Word name="4/insan" positionX="650" positionY="300"/>
+<Connection from="5/söyle" to="4/insan" with="ARG0"/>
+<Word name="2/her" positionX="550" positionY="400"/>
+<Connection from="4/insan" to="2/her" with="mod"/>
+<Word name="3/geç" positionX="650" positionY="400"/>
+<Connection from="4/insan" to="3/geç"/>
+<Connection from="3/geç" to="ben" with="poss"/>
+<Word name="1/ön" positionX="650" positionY="500"/>
+<Connection from="3/geç" to="1/ön"/>
+<Word name="o" positionX="550" positionY="600"/>
+<Connection from="1/ön" to="o" with="poss"/>
+</Amr>

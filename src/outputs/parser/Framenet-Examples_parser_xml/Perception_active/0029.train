@@ -1,0 +1,17 @@
+<Amr sentence="Bazen serserilik yapabilir ama kimseye kötü gözle bakmaz .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/kötü 7/göz 8/bak" positionX="650" positionY="200"/>
+<Connection from="and" to="6/kötü 7/göz 8/bak" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="6/kötü 7/göz 8/bak" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="6/kötü 7/göz 8/bak" to="o" with="ARG0"/>
+<Word name="5/kimse" positionX="750" positionY="300"/>
+<Connection from="6/kötü 7/göz 8/bak" to="5/kimse" with="ARG1"/>
+<Connection from="5/kimse" to="o" with="poss"/>
+<Word name="2/serserilik 3/yap" positionX="750" positionY="200"/>
+<Connection from="and" to="2/serserilik 3/yap" with="op2"/>
+<Connection from="2/serserilik 3/yap" to="o" with="ARG0"/>
+<Word name="1/bazen" positionX="750" positionY="300"/>
+<Connection from="2/serserilik 3/yap" to="1/bazen" with="manner"/>
+</Amr>

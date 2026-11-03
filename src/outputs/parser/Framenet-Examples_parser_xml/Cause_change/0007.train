@@ -1,0 +1,11 @@
+<Amr sentence="Elindeki fırsatları tembelliğiyle aldırdı .">
+<Word name="4/aldır" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/aldır" to="o" with="ARG0"/>
+<Word name="2/fırsat" positionX="750" positionY="200"/>
+<Connection from="4/aldır" to="2/fırsat" with="ARG1"/>
+<Word name="1/el" positionX="650" positionY="300"/>
+<Connection from="2/fırsat" to="1/el" with="mod"/>
+<Word name="3/tembellik" positionX="850" positionY="200"/>
+<Connection from="4/aldır" to="3/tembellik" with="instrument"/>
+</Amr>

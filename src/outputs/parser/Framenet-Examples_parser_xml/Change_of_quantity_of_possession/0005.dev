@@ -1,0 +1,13 @@
+<Amr sentence="Çok zengindi paraya para demiyordu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/zengin" positionX="650" positionY="200"/>
+<Connection from="and" to="2/zengin" with="op1"/>
+<Word name="1/çok" positionX="550" positionY="300"/>
+<Connection from="2/zengin" to="1/çok" with="degree"/>
+<Word name="3/para 4/para 5/de" positionX="750" positionY="200"/>
+<Connection from="and" to="3/para 4/para 5/de" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="3/para 4/para 5/de" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="3/para 4/para 5/de" to="o" with="ARG0"/>
+</Amr>

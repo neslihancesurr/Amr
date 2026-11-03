@@ -1,0 +1,30 @@
+<Amr sentence="Paralar suyunu çekti , fabrika da olduğu gibi Nihat'a geçti .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/su 3/çek" positionX="650" positionY="200"/>
+<Connection from="and" to="2/su 3/çek" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/su 3/çek" to="o" with="ARG0"/>
+<Word name="1/para" positionX="650" positionY="300"/>
+<Connection from="2/su 3/çek" to="1/para" with="ARG1"/>
+<Word name="10/geç" positionX="750" positionY="200"/>
+<Connection from="and" to="10/geç" with="op2"/>
+<Connection from="10/geç" to="o" with="ARG0"/>
+<Word name="5/fabrika" positionX="750" positionY="300"/>
+<Connection from="10/geç" to="5/fabrika" with="ARG1"/>
+<Word name="6/da" positionX="650" positionY="400"/>
+<Connection from="5/fabrika" to="6/da" with="manner"/>
+<Word name="7/ol" positionX="850" positionY="300"/>
+<Connection from="10/geç" to="7/ol"/>
+<Connection from="7/ol" to="o" with="ARG0"/>
+<Connection from="7/ol" to="o" with="poss"/>
+<Word name="8/gibi" positionX="950" positionY="400"/>
+<Connection from="7/ol" to="8/gibi"/>
+<Word name="person" positionX="950" positionY="300"/>
+<Connection from="10/geç" to="person"/>
+<Word name="name" positionX="850" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="9/nihat" positionX="750" positionY="500"/>
+<Connection from="name" to="9/nihat" with="op1"/>
+<Word name="-" positionX="950" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

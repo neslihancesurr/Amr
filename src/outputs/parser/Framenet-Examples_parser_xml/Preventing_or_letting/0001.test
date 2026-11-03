@@ -1,0 +1,21 @@
+<Amr sentence="Lütfen devam edin , sizi işinizden alıkoymayayım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/devam 3/et" positionX="650" positionY="200"/>
+<Connection from="and" to="2/devam 3/et" with="op1"/>
+<Word name="imperative" positionX="550" positionY="300"/>
+<Connection from="2/devam 3/et" to="imperative" with="mode"/>
+<Word name="1/lütfen" positionX="650" positionY="300"/>
+<Connection from="2/devam 3/et" to="1/lütfen" with="manner"/>
+<Word name="7/alıkoy" positionX="750" positionY="200"/>
+<Connection from="and" to="7/alıkoy" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="7/alıkoy" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="300"/>
+<Connection from="7/alıkoy" to="ben" with="ARG0"/>
+<Word name="5/siz" positionX="850" positionY="300"/>
+<Connection from="7/alıkoy" to="5/siz" with="ARG1"/>
+<Word name="6/iş" positionX="950" positionY="300"/>
+<Connection from="7/alıkoy" to="6/iş" with="ARG2"/>
+<Word name="siz" positionX="850" positionY="400"/>
+<Connection from="6/iş" to="siz" with="poss"/>
+</Amr>

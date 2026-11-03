@@ -1,0 +1,15 @@
+<Amr sentence="Öğretmen o gün iki saat coğrafya işledi .">
+<Word name="7/işle" positionX="750" positionY="100"/>
+<Word name="1/öğretmen" positionX="650" positionY="200"/>
+<Connection from="7/işle" to="1/öğretmen" with="ARG0"/>
+<Word name="3/gün" positionX="750" positionY="200"/>
+<Connection from="7/işle" to="3/gün" with="mod"/>
+<Word name="2/o" positionX="650" positionY="300"/>
+<Connection from="3/gün" to="2/o" with="mod"/>
+<Word name="5/saat" positionX="850" positionY="200"/>
+<Connection from="7/işle" to="5/saat" with="mod"/>
+<Word name="4/iki" positionX="750" positionY="300"/>
+<Connection from="5/saat" to="4/iki"/>
+<Word name="6/coğrafya" positionX="950" positionY="200"/>
+<Connection from="7/işle" to="6/coğrafya" with="ARG1"/>
+</Amr>

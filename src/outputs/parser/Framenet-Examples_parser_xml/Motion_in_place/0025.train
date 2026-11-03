@@ -1,0 +1,15 @@
+<Amr sentence="Hasta aksırır gibi bir ses çıkardı . Çenesi atıyordu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/ses 6/çık" positionX="650" positionY="200"/>
+<Connection from="and" to="5/ses 6/çık" with="op1"/>
+<Word name="1/hasta" positionX="550" positionY="300"/>
+<Connection from="5/ses 6/çık" to="1/hasta" with="ARG0"/>
+<Word name="2/aksır" positionX="650" positionY="300"/>
+<Connection from="5/ses 6/çık" to="2/aksır" with="ARG1"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="2/aksır" to="o" with="ARG0"/>
+<Word name="3/gibi" positionX="650" positionY="400"/>
+<Connection from="2/aksır" to="3/gibi"/>
+<Word name="8/çene 9/at" positionX="750" positionY="200"/>
+<Connection from="and" to="8/çene 9/at" with="op2"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Bizde sahiden video yok .">
+<Word name="4/yok" positionX="750" positionY="100"/>
+<Word name="1/biz" positionX="650" positionY="200"/>
+<Connection from="4/yok" to="1/biz" with="mod"/>
+<Word name="2/sahiden" positionX="750" positionY="200"/>
+<Connection from="4/yok" to="2/sahiden" with="manner"/>
+<Word name="3/video" positionX="850" positionY="200"/>
+<Connection from="4/yok" to="3/video"/>
+</Amr>

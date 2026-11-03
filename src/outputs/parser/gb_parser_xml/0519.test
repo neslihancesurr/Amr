@@ -1,0 +1,5 @@
+<Amr sentence="1995 ortalarında">
+<Word name="2/orta:location" positionX="750" positionY="100"/>
+<Word name="1/1995" positionX="650" positionY="200"/>
+<Connection from="2/orta:location" to="1/1995"/>
+</Amr>

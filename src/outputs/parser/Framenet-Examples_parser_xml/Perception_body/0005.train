@@ -1,0 +1,15 @@
+<Amr sentence="Sabahtan beri aç , hepten safrası kabardı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/aç" positionX="650" positionY="200"/>
+<Connection from="and" to="3/aç" with="op1"/>
+<Word name="1/sabahtan" positionX="550" positionY="300"/>
+<Connection from="3/aç" to="1/sabahtan" with="mod"/>
+<Word name="2/beri" positionX="450" positionY="400"/>
+<Connection from="1/sabahtan" to="2/beri"/>
+<Word name="6/safra 7/kabar" positionX="750" positionY="200"/>
+<Connection from="and" to="6/safra 7/kabar" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="6/safra 7/kabar" to="o" with="ARG0"/>
+<Word name="5/hepten" positionX="750" positionY="300"/>
+<Connection from="6/safra 7/kabar" to="5/hepten" with="manner"/>
+</Amr>

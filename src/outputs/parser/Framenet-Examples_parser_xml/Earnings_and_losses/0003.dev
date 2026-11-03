@@ -1,0 +1,9 @@
+<Amr sentence="Mağdur etmek için elinden geleni yapıyorlar .">
+<Word name="4/el 5/gelen 6/yap" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/el 5/gelen 6/yap" to="onlar" with="ARG0"/>
+<Word name="1/mağdur 2/et" positionX="750" positionY="200"/>
+<Connection from="4/el 5/gelen 6/yap" to="1/mağdur 2/et"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="1/mağdur 2/et" to="o" with="ARG0"/>
+</Amr>

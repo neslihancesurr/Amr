@@ -1,0 +1,5 @@
+<Amr sentence="öğrenci değillerdi .">
+<Word name="1/öğrenci" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="1/öğrenci" to="-" with="polarity"/>
+</Amr>

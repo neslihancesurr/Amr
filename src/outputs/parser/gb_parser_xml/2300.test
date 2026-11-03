@@ -1,0 +1,17 @@
+<Amr sentence="Sizin görmüş olduğunuz filmi ben yarın göreceğim .">
+<Word name="7/gör" positionX="750" positionY="100"/>
+<Word name="4/film" positionX="650" positionY="200"/>
+<Connection from="7/gör" to="4/film"/>
+<Word name="3/ol" positionX="550" positionY="300"/>
+<Connection from="4/film" to="3/ol"/>
+<Word name="siz" positionX="450" positionY="400"/>
+<Connection from="3/ol" to="siz" with="poss"/>
+<Word name="2/gör" positionX="550" positionY="400"/>
+<Connection from="3/ol" to="2/gör"/>
+<Word name="1/siz" positionX="450" positionY="500"/>
+<Connection from="2/gör" to="1/siz"/>
+<Word name="5/ben" positionX="750" positionY="200"/>
+<Connection from="7/gör" to="5/ben"/>
+<Word name="6/yarın" positionX="850" positionY="200"/>
+<Connection from="7/gör" to="6/yarın"/>
+</Amr>

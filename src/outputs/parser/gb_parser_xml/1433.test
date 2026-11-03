@@ -1,0 +1,7 @@
+<Amr sentence="Partide kimler vardı ?">
+<Word name="3/var" positionX="750" positionY="100"/>
+<Word name="1/parti" positionX="650" positionY="200"/>
+<Connection from="3/var" to="1/parti" with="mod"/>
+<Word name="2/kim" positionX="750" positionY="200"/>
+<Connection from="3/var" to="2/kim"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Hiçbir yere gitmeyin .">
+<Word name="3/git:ARG1" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/git:ARG1" to="-" with="polarity"/>
+<Word name="siz" positionX="750" positionY="200"/>
+<Connection from="3/git:ARG1" to="siz" with="ARG0"/>
+<Word name="imperative" positionX="850" positionY="200"/>
+<Connection from="3/git:ARG1" to="imperative" with="mode"/>
+<Word name="2/yer" positionX="950" positionY="200"/>
+<Connection from="3/git:ARG1" to="2/yer" with="ARG1"/>
+<Word name="1/hiçbir" positionX="850" positionY="300"/>
+<Connection from="2/yer" to="1/hiçbir" with="mod"/>
+</Amr>

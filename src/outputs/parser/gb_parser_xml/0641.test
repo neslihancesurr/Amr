@@ -1,0 +1,9 @@
+<Amr sentence="şu elmadan birkaç kilo">
+<Word name="4/kilo" positionX="750" positionY="100"/>
+<Word name="2/elma" positionX="650" positionY="200"/>
+<Connection from="4/kilo" to="2/elma"/>
+<Word name="1/şu" positionX="550" positionY="300"/>
+<Connection from="2/elma" to="1/şu" with="mod"/>
+<Word name="3/birkaç" positionX="750" positionY="200"/>
+<Connection from="4/kilo" to="3/birkaç" with="mod"/>
+</Amr>

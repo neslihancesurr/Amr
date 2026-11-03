@@ -1,0 +1,19 @@
+<Amr sentence="Son sürat giden araba , önüne geyik çıkınca bir anda çark etti .">
+<Word name="11/çark 12/et" positionX="750" positionY="100"/>
+<Word name="4/araba" positionX="650" positionY="200"/>
+<Connection from="11/çark 12/et" to="4/araba" with="ARG0"/>
+<Word name="3/git" positionX="550" positionY="300"/>
+<Connection from="4/araba" to="3/git"/>
+<Word name="2/sürat" positionX="450" positionY="400"/>
+<Connection from="3/git" to="2/sürat"/>
+<Word name="1/son" positionX="350" positionY="500"/>
+<Connection from="2/sürat" to="1/son" with="mod"/>
+<Word name="8/çık" positionX="750" positionY="200"/>
+<Connection from="11/çark 12/et" to="8/çık"/>
+<Word name="6/ön" positionX="650" positionY="300"/>
+<Connection from="8/çık" to="6/ön"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="6/ön" to="o" with="poss"/>
+<Word name="7/geyik" positionX="750" positionY="300"/>
+<Connection from="8/çık" to="7/geyik" with="ARG0"/>
+</Amr>

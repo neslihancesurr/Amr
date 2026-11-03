@@ -1,0 +1,11 @@
+<Amr sentence="O anda odaya bir adam giriverdi .">
+<Word name="6/gir" positionX="750" positionY="100"/>
+<Word name="2/an" positionX="650" positionY="200"/>
+<Connection from="6/gir" to="2/an" with="location"/>
+<Word name="1/o" positionX="550" positionY="300"/>
+<Connection from="2/an" to="1/o" with="mod"/>
+<Word name="3/oda" positionX="750" positionY="200"/>
+<Connection from="6/gir" to="3/oda" with="ARG1"/>
+<Word name="5/adam" positionX="850" positionY="200"/>
+<Connection from="6/gir" to="5/adam" with="ARG0"/>
+</Amr>

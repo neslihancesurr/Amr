@@ -1,0 +1,11 @@
+<Amr sentence="- İkinci çekmecede olacaklar .">
+<Word name="3/çekmece:location" positionX="750" positionY="100"/>
+<Word name="ordinal-entity" positionX="650" positionY="200"/>
+<Connection from="3/çekmece:location" to="ordinal-entity" with="ord"/>
+<Word name="2" positionX="550" positionY="300"/>
+<Connection from="ordinal-entity" to="2" with="value"/>
+<Word name="4/ol" positionX="750" positionY="200"/>
+<Connection from="3/çekmece:location" to="4/ol"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="4/ol" to="onlar" with="ARG0"/>
+</Amr>

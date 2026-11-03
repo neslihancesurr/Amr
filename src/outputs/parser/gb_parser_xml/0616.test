@@ -1,0 +1,13 @@
+<Amr sentence="Fotoğraf makinesi benim değil , babamın .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/baba" positionX="650" positionY="200"/>
+<Connection from="and" to="6/baba" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="6/baba" to="ben" with="poss"/>
+<Word name="3/ben" positionX="750" positionY="200"/>
+<Connection from="and" to="3/ben" with="op2"/>
+<Word name="1/fotoğraf 2/makine" positionX="650" positionY="300"/>
+<Connection from="3/ben" to="1/fotoğraf 2/makine" with="mod"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="3/ben" to="-" with="polarity"/>
+</Amr>

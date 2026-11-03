@@ -1,0 +1,16 @@
+<Amr sentence="Kartlarına şöyle bir bakıp bıyık altından güldü ve ortaya resmen para bastı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="11/para 12/bas" positionX="650" positionY="200"/>
+<Connection from="and" to="11/para 12/bas" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="11/para 12/bas" to="o" with="ARG0"/>
+<Word name="9/orta" positionX="650" positionY="300"/>
+<Connection from="11/para 12/bas" to="9/orta"/>
+<Word name="10/resmen" positionX="750" positionY="300"/>
+<Connection from="11/para 12/bas" to="10/resmen" with="manner"/>
+<Word name="5/bıyık 6/alt 7/gül" positionX="750" positionY="200"/>
+<Connection from="and" to="5/bıyık 6/alt 7/gül" with="op2"/>
+<Connection from="5/bıyık 6/alt 7/gül" to="o" with="ARG0"/>
+<Word name="2/şöyle 3/bir 4/bak" positionX="750" positionY="300"/>
+<Connection from="5/bıyık 6/alt 7/gül" to="2/şöyle 3/bir 4/bak" with="manner"/>
+</Amr>

@@ -1,0 +1,31 @@
+<Amr sentence="Hayatında bazı çok kötü şeyler yapmış olmasına rağmen Şule'yi severim .">
+<Word name="10/sev" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="10/sev" to="ben" with="ARG0"/>
+<Word name="7/ol" positionX="750" positionY="200"/>
+<Connection from="10/sev" to="7/ol" with="concession"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="7/ol" to="o" with="ARG0"/>
+<Connection from="7/ol" to="o" with="poss"/>
+<Word name="6/yap" positionX="850" positionY="300"/>
+<Connection from="7/ol" to="6/yap"/>
+<Connection from="6/yap" to="o" with="ARG0"/>
+<Word name="1/hayat" positionX="850" positionY="400"/>
+<Connection from="6/yap" to="1/hayat" with="location"/>
+<Word name="5/şey" positionX="950" positionY="400"/>
+<Connection from="6/yap" to="5/şey"/>
+<Word name="2/bazı" positionX="850" positionY="500"/>
+<Connection from="5/şey" to="2/bazı" with="mod"/>
+<Word name="4/kötü" positionX="950" positionY="500"/>
+<Connection from="5/şey" to="4/kötü" with="mod"/>
+<Word name="3/çok" positionX="850" positionY="600"/>
+<Connection from="4/kötü" to="3/çok" with="degree"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="10/sev" to="person"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="9/şule" positionX="650" positionY="400"/>
+<Connection from="name" to="9/şule" with="op1"/>
+<Word name="-" positionX="850" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Acemi asker ayak değiştirerek diğerlerine yetişmeye çalıştı .">
+<Word name="7/çalış" positionX="750" positionY="100"/>
+<Word name="2/asker" positionX="650" positionY="200"/>
+<Connection from="7/çalış" to="2/asker" with="ARG0"/>
+<Word name="1/acemi" positionX="550" positionY="300"/>
+<Connection from="2/asker" to="1/acemi" with="mod"/>
+<Word name="3/ayak 4/değiştir" positionX="750" positionY="200"/>
+<Connection from="7/çalış" to="3/ayak 4/değiştir"/>
+<Word name="6/yetiş" positionX="850" positionY="200"/>
+<Connection from="7/çalış" to="6/yetiş"/>
+<Word name="5/diğer" positionX="750" positionY="300"/>
+<Connection from="6/yetiş" to="5/diğer" with="ARG1"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="5/diğer" to="o" with="poss"/>
+</Amr>

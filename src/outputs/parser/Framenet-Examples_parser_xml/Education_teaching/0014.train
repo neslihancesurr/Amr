@@ -1,0 +1,18 @@
+<Amr sentence="Aylin ve Kerem kimya ile ilgili eğitim görüyor .">
+<Word name="7/eğitim 8/gör" positionX="750" positionY="100"/>
+<Word name="and" positionX="650" positionY="200"/>
+<Connection from="7/eğitim 8/gör" to="and"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="and" to="person" with="ARG0"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/kerem" positionX="350" positionY="500"/>
+<Connection from="name" to="3/kerem" with="op1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="and" to="person" with="ARG0"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/aylin" positionX="450" positionY="500"/>
+<Connection from="name" to="1/aylin" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

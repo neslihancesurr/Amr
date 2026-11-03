@@ -1,0 +1,13 @@
+<Amr sentence="O gün annem biraz rahatsızdı .">
+<Word name="5/rahatsız" positionX="750" positionY="100"/>
+<Word name="2/gün" positionX="650" positionY="200"/>
+<Connection from="5/rahatsız" to="2/gün"/>
+<Word name="1/o" positionX="550" positionY="300"/>
+<Connection from="2/gün" to="1/o" with="mod"/>
+<Word name="3/anne" positionX="750" positionY="200"/>
+<Connection from="5/rahatsız" to="3/anne"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="3/anne" to="ben" with="poss"/>
+<Word name="4/biraz" positionX="850" positionY="200"/>
+<Connection from="5/rahatsız" to="4/biraz" with="manner"/>
+</Amr>

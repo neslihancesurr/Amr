@@ -1,0 +1,17 @@
+<Amr sentence="Birbirimizin sevdiği renkleri sevmiyoruz .">
+<Word name="4/sev" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/sev" to="-" with="polarity"/>
+<Word name="biz" positionX="750" positionY="200"/>
+<Connection from="4/sev" to="biz" with="ARG0"/>
+<Word name="3/renk" positionX="850" positionY="200"/>
+<Connection from="4/sev" to="3/renk" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="3/renk" to="o" with="poss"/>
+<Word name="2/sev" positionX="850" positionY="300"/>
+<Connection from="3/renk" to="2/sev"/>
+<Connection from="2/sev" to="o" with="poss"/>
+<Word name="1/birbiri" positionX="850" positionY="400"/>
+<Connection from="2/sev" to="1/birbiri" with="ARG1"/>
+<Connection from="1/birbiri" to="biz" with="poss"/>
+</Amr>

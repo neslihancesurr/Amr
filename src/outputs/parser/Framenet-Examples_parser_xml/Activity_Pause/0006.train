@@ -1,0 +1,11 @@
+<Amr sentence="Kırmızı ışık yanınca araba zınk diye durdu .">
+<Word name="5/zınk 6/diye 7/dur" positionX="750" positionY="100"/>
+<Word name="3/yan" positionX="650" positionY="200"/>
+<Connection from="5/zınk 6/diye 7/dur" to="3/yan"/>
+<Word name="2/ışık" positionX="550" positionY="300"/>
+<Connection from="3/yan" to="2/ışık"/>
+<Word name="1/kırmızı" positionX="450" positionY="400"/>
+<Connection from="2/ışık" to="1/kırmızı" with="mod"/>
+<Word name="4/araba" positionX="750" positionY="200"/>
+<Connection from="5/zınk 6/diye 7/dur" to="4/araba" with="ARG0"/>
+</Amr>

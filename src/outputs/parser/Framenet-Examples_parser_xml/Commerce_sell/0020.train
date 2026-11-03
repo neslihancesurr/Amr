@@ -1,0 +1,7 @@
+<Amr sentence="Bu ürünleri % 20 kâr koyarak satacağız .">
+<Word name="7/sat" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="7/sat" to="biz" with="ARG0"/>
+<Word name="5/kâr 6/koy" positionX="750" positionY="200"/>
+<Connection from="7/sat" to="5/kâr 6/koy"/>
+</Amr>

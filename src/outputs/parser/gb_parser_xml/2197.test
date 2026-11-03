@@ -1,0 +1,11 @@
+<Amr sentence="oyuncaklarını kıran küçük kız">
+<Word name="4/kız" positionX="750" positionY="100"/>
+<Word name="2/kır" positionX="650" positionY="200"/>
+<Connection from="4/kız" to="2/kır"/>
+<Word name="1/oyuncak" positionX="550" positionY="300"/>
+<Connection from="2/kır" to="1/oyuncak"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="1/oyuncak" to="o" with="poss"/>
+<Word name="3/küçük" positionX="750" positionY="200"/>
+<Connection from="4/kız" to="3/küçük" with="mod"/>
+</Amr>

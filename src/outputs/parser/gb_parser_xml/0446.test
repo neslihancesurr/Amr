@@ -1,0 +1,11 @@
+<Amr sentence="Bu hamamda iyi yıkanılır .">
+<Word name="4/yıkan" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/yıkan" to="o" with="ARG0"/>
+<Word name="2/hamam" positionX="750" positionY="200"/>
+<Connection from="4/yıkan" to="2/hamam" with="location"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/hamam" to="1/bu" with="mod"/>
+<Word name="3/iyi" positionX="850" positionY="200"/>
+<Connection from="4/yıkan" to="3/iyi" with="manner"/>
+</Amr>

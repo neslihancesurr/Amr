@@ -1,0 +1,10 @@
+<Amr sentence="- Kitabını buldun mu ?">
+<Word name="3/bul" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="3/bul" to="sen" with="ARG0"/>
+<Word name="2/kitap" positionX="750" positionY="200"/>
+<Connection from="3/bul" to="2/kitap"/>
+<Connection from="2/kitap" to="sen" with="poss"/>
+<Word name="4/mi" positionX="850" positionY="200"/>
+<Connection from="3/bul" to="4/mi"/>
+</Amr>

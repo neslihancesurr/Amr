@@ -1,0 +1,19 @@
+<Amr sentence="Çalışanlar işi bıraktı , patron ne yapacağını bilemedi .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/iş 3/bırak" positionX="650" positionY="200"/>
+<Connection from="and" to="2/iş 3/bırak" with="op1"/>
+<Word name="1/çalışan" positionX="550" positionY="300"/>
+<Connection from="2/iş 3/bırak" to="1/çalışan" with="ARG0"/>
+<Word name="8/bil" positionX="750" positionY="200"/>
+<Connection from="and" to="8/bil" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="8/bil" to="-" with="polarity"/>
+<Word name="5/patron" positionX="750" positionY="300"/>
+<Connection from="8/bil" to="5/patron" with="ARG0"/>
+<Word name="7/yap" positionX="850" positionY="300"/>
+<Connection from="8/bil" to="7/yap" with="ARG1"/>
+<Word name="o" positionX="750" positionY="400"/>
+<Connection from="7/yap" to="o" with="poss"/>
+<Word name="6/ne" positionX="850" positionY="400"/>
+<Connection from="7/yap" to="6/ne"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Annesinin peşinden tıpış tıpış yürüdü .">
+<Word name="3/tıpış 4/tıpış 5/yürü" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/tıpış 4/tıpış 5/yürü" to="o" with="ARG0"/>
+<Word name="2/peş" positionX="750" positionY="200"/>
+<Connection from="3/tıpış 4/tıpış 5/yürü" to="2/peş"/>
+<Word name="1/anne" positionX="650" positionY="300"/>
+<Connection from="2/peş" to="1/anne" with="mod"/>
+</Amr>

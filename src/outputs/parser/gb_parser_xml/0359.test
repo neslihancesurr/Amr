@@ -1,0 +1,15 @@
+<Amr sentence="Bugün sınıfta önemli konular işlediniz mi ?">
+<Word name="5/işle" positionX="750" positionY="100"/>
+<Word name="siz" positionX="650" positionY="200"/>
+<Connection from="5/işle" to="siz" with="ARG0"/>
+<Word name="1/bugün" positionX="750" positionY="200"/>
+<Connection from="5/işle" to="1/bugün"/>
+<Word name="2/sınıf" positionX="850" positionY="200"/>
+<Connection from="5/işle" to="2/sınıf" with="location"/>
+<Word name="4/konu" positionX="950" positionY="200"/>
+<Connection from="5/işle" to="4/konu"/>
+<Word name="3/önemli" positionX="850" positionY="300"/>
+<Connection from="4/konu" to="3/önemli" with="mod"/>
+<Word name="6/mi" positionX="1050" positionY="200"/>
+<Connection from="5/işle" to="6/mi"/>
+</Amr>

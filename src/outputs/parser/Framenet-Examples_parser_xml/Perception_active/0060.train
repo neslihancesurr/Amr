@@ -1,0 +1,14 @@
+<Amr sentence="Evin önünde dikilmiş kızları kesiyor .">
+<Word name="5/kes" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/kes" to="o" with="ARG0"/>
+<Word name="3/dikil" positionX="750" positionY="200"/>
+<Connection from="5/kes" to="3/dikil"/>
+<Word name="2/ön" positionX="650" positionY="300"/>
+<Connection from="3/dikil" to="2/ön" with="location"/>
+<Word name="1/ev" positionX="550" positionY="400"/>
+<Connection from="2/ön" to="1/ev" with="mod"/>
+<Word name="4/kız" positionX="850" positionY="200"/>
+<Connection from="5/kes" to="4/kız" with="ARG1"/>
+<Connection from="4/kız" to="o" with="poss"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Uzun , dik merdivenli bir yokuşu çıktık .">
+<Word name="7/çık" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="7/çık" to="biz" with="ARG0"/>
+<Word name="6/yokuş" positionX="750" positionY="200"/>
+<Connection from="7/çık" to="6/yokuş" with="ARG1"/>
+<Word name="4/merdivenli" positionX="650" positionY="300"/>
+<Connection from="6/yokuş" to="4/merdivenli" with="mod"/>
+<Word name="1/uzun" positionX="550" positionY="400"/>
+<Connection from="4/merdivenli" to="1/uzun" with="mod"/>
+<Word name="3/dik" positionX="650" positionY="400"/>
+<Connection from="4/merdivenli" to="3/dik" with="mod"/>
+</Amr>

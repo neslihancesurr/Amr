@@ -1,0 +1,7 @@
+<Amr sentence="Kar sayesinde kızak yağ gibi kayıyordu .">
+<Word name="4/yağ 5/gibi 6/kay:cause" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/yağ 5/gibi 6/kay:cause" to="o" with="ARG0"/>
+<Word name="3/kızak" positionX="750" positionY="200"/>
+<Connection from="4/yağ 5/gibi 6/kay:cause" to="3/kızak" with="ARG1"/>
+</Amr>

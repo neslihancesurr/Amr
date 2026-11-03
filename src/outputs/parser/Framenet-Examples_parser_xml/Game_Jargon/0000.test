@@ -1,0 +1,17 @@
+<Amr sentence="Derin bir nefes alıp H7'ye taş sürdü .">
+<Word name="6/taş 7/sür" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/taş 7/sür" to="o" with="ARG0"/>
+<Word name="3/nefes 4/al" positionX="750" positionY="200"/>
+<Connection from="6/taş 7/sür" to="3/nefes 4/al"/>
+<Word name="1/derin" positionX="650" positionY="300"/>
+<Connection from="3/nefes 4/al" to="1/derin" with="mod"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="6/taş 7/sür" to="person" with="ARG1"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="5/h7" positionX="650" positionY="400"/>
+<Connection from="name" to="5/h7" with="op1"/>
+<Word name="-" positionX="850" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

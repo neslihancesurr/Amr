@@ -1,0 +1,10 @@
+<Amr sentence="Operanın seveni çok .">
+<Word name="3/çok:degree" positionX="750" positionY="100"/>
+<Word name="2/sev" positionX="650" positionY="200"/>
+<Connection from="3/çok:degree" to="2/sev"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/sev" to="o" with="ARG0"/>
+<Connection from="2/sev" to="o" with="poss"/>
+<Word name="1/opera" positionX="750" positionY="300"/>
+<Connection from="2/sev" to="1/opera" with="ARG1"/>
+</Amr>

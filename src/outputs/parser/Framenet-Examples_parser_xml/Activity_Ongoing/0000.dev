@@ -1,0 +1,15 @@
+<Amr sentence="Bir tek ailesinin oturduğu ev kalmıştı .">
+<Word name="6/kal" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/kal" to="o" with="ARG0"/>
+<Word name="5/ev" positionX="750" positionY="200"/>
+<Connection from="6/kal" to="5/ev" with="ARG1"/>
+<Word name="2/tek" positionX="650" positionY="300"/>
+<Connection from="5/ev" to="2/tek" with="mod"/>
+<Word name="4/otur" positionX="750" positionY="300"/>
+<Connection from="5/ev" to="4/otur"/>
+<Connection from="4/otur" to="o" with="poss"/>
+<Word name="3/aile" positionX="750" positionY="400"/>
+<Connection from="4/otur" to="3/aile"/>
+<Connection from="3/aile" to="o" with="poss"/>
+</Amr>

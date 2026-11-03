@@ -1,0 +1,17 @@
+<Amr sentence="Ailesi ona kızgın olduğu için harçlığını kesti .">
+<Word name="7/kes" positionX="750" positionY="100"/>
+<Word name="4/ol" positionX="650" positionY="200"/>
+<Connection from="7/kes" to="4/ol" with="cause"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/ol" to="o" with="poss"/>
+<Word name="1/aile" positionX="650" positionY="300"/>
+<Connection from="4/ol" to="1/aile"/>
+<Connection from="1/aile" to="o" with="poss"/>
+<Word name="2/o" positionX="750" positionY="300"/>
+<Connection from="4/ol" to="2/o"/>
+<Word name="3/kızgın" positionX="850" positionY="300"/>
+<Connection from="4/ol" to="3/kızgın" with="manner"/>
+<Word name="6/harçlık" positionX="750" positionY="200"/>
+<Connection from="7/kes" to="6/harçlık" with="ARG1"/>
+<Connection from="6/harçlık" to="o" with="poss"/>
+</Amr>

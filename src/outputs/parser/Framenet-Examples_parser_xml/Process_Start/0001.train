@@ -1,0 +1,15 @@
+<Amr sentence="Tomurcuklar patlamış , tabiat iyiden iyiye uyanmıştı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/patla" positionX="650" positionY="200"/>
+<Connection from="and" to="2/patla" with="op1"/>
+<Word name="1/tomurcuk" positionX="550" positionY="300"/>
+<Connection from="2/patla" to="1/tomurcuk" with="ARG0"/>
+<Word name="7/uyan" positionX="750" positionY="200"/>
+<Connection from="and" to="7/uyan" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="7/uyan" to="o" with="ARG0"/>
+<Word name="4/tabiat" positionX="750" positionY="300"/>
+<Connection from="7/uyan" to="4/tabiat" with="ARG1"/>
+<Word name="5/iyi 6/iyi" positionX="850" positionY="300"/>
+<Connection from="7/uyan" to="5/iyi 6/iyi"/>
+</Amr>

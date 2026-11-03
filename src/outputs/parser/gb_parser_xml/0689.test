@@ -1,0 +1,13 @@
+<Amr sentence="Opel marka bir araba">
+<Word name="4/araba" positionX="750" positionY="100"/>
+<Word name="2/marka" positionX="650" positionY="200"/>
+<Connection from="4/araba" to="2/marka" with="mod"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="2/marka" to="person"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/opel" positionX="350" positionY="500"/>
+<Connection from="name" to="1/opel" with="op1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

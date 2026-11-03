@@ -1,0 +1,15 @@
+<Amr sentence="Kriz yüzünden her şeyin fiyatı fırladı .">
+<Word name="6/fırla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/fırla" to="o" with="ARG0"/>
+<Word name="2/yüzünden" positionX="750" positionY="200"/>
+<Connection from="6/fırla" to="2/yüzünden" with="manner"/>
+<Word name="1/kriz" positionX="650" positionY="300"/>
+<Connection from="2/yüzünden" to="1/kriz" with="mod"/>
+<Word name="5/fiyat" positionX="850" positionY="200"/>
+<Connection from="6/fırla" to="5/fiyat" with="ARG1"/>
+<Word name="4/şey" positionX="750" positionY="300"/>
+<Connection from="5/fiyat" to="4/şey" with="mod"/>
+<Word name="3/her" positionX="650" positionY="400"/>
+<Connection from="4/şey" to="3/her" with="mod"/>
+</Amr>

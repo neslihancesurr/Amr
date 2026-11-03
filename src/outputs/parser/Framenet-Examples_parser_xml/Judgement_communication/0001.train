@@ -1,0 +1,11 @@
+<Amr sentence="Herkes bu olayda onun aleyhinde oldu .">
+<Word name="5/aleyh 6/ol" positionX="750" positionY="100"/>
+<Word name="1/herkes" positionX="650" positionY="200"/>
+<Connection from="5/aleyh 6/ol" to="1/herkes" with="ARG0"/>
+<Word name="onlar" positionX="550" positionY="300"/>
+<Connection from="1/herkes" to="onlar" with="poss"/>
+<Word name="3/olay" positionX="750" positionY="200"/>
+<Connection from="5/aleyh 6/ol" to="3/olay" with="mod"/>
+<Word name="2/bu" positionX="650" positionY="300"/>
+<Connection from="3/olay" to="2/bu" with="mod"/>
+</Amr>

@@ -1,0 +1,7 @@
+<Amr sentence="Bu işten zarar eden ben oldum .">
+<Word name="6/ol" positionX="750" positionY="100"/>
+<Word name="3/zarar 4/et" positionX="650" positionY="200"/>
+<Connection from="6/ol" to="3/zarar 4/et"/>
+<Word name="5/ben" positionX="750" positionY="200"/>
+<Connection from="6/ol" to="5/ben" with="ARG0"/>
+</Amr>

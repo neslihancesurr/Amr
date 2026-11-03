@@ -1,0 +1,14 @@
+<Amr sentence="Boğazı düğümlendi , konuşamadı bile .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/boğaz 2/düğümlen" positionX="650" positionY="200"/>
+<Connection from="and" to="1/boğaz 2/düğümlen" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/boğaz 2/düğümlen" to="o" with="ARG0"/>
+<Word name="4/konuş" positionX="750" positionY="200"/>
+<Connection from="and" to="4/konuş" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="4/konuş" to="-" with="polarity"/>
+<Connection from="4/konuş" to="o" with="ARG0"/>
+<Word name="5/bile" positionX="850" positionY="300"/>
+<Connection from="4/konuş" to="5/bile" with="manner"/>
+</Amr>

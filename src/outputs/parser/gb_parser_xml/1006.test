@@ -1,0 +1,5 @@
+<Amr sentence="çıkış kapısına doğru">
+<Word name="1/çıkış 2/kapı" positionX="750" positionY="100"/>
+<Word name="3/doğru" positionX="650" positionY="200"/>
+<Connection from="1/çıkış 2/kapı" to="3/doğru"/>
+</Amr>

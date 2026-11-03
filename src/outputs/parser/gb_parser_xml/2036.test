@@ -1,0 +1,14 @@
+<Amr sentence="Sanıyorum ki işini bırakmak istiyor .">
+<Word name="1/san" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="1/san" to="ben" with="ARG0"/>
+<Word name="5/iste" positionX="750" positionY="200"/>
+<Connection from="1/san" to="5/iste"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/iste" to="o" with="ARG0"/>
+<Word name="2/ki" positionX="750" positionY="300"/>
+<Connection from="5/iste" to="2/ki"/>
+<Word name="3/iş 4/bırak" positionX="850" positionY="300"/>
+<Connection from="5/iste" to="3/iş 4/bırak"/>
+<Connection from="3/iş 4/bırak" to="o" with="ARG0"/>
+</Amr>

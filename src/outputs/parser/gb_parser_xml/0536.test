@@ -1,0 +1,9 @@
+<Amr sentence="Arkadaşlarınız ne kadar kalacaklar ?">
+<Word name="4/kal" positionX="750" positionY="100"/>
+<Word name="1/arkadaş" positionX="650" positionY="200"/>
+<Connection from="4/kal" to="1/arkadaş" with="ARG0"/>
+<Word name="siz" positionX="550" positionY="300"/>
+<Connection from="1/arkadaş" to="siz" with="poss"/>
+<Word name="2/ne" positionX="750" positionY="200"/>
+<Connection from="4/kal" to="2/ne" with="extent"/>
+</Amr>

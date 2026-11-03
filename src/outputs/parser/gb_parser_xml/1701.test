@@ -1,0 +1,19 @@
+<Amr sentence="O çocuğun yapamayacağı hiçbir şey yok .">
+<Word name="6/yok" positionX="750" positionY="100"/>
+<Word name="5/şey" positionX="650" positionY="200"/>
+<Connection from="6/yok" to="5/şey"/>
+<Word name="mümkün" positionX="550" positionY="300"/>
+<Connection from="5/şey" to="mümkün"/>
+<Word name="3/yap" positionX="450" positionY="400"/>
+<Connection from="mümkün" to="3/yap"/>
+<Word name="-" positionX="350" positionY="500"/>
+<Connection from="3/yap" to="-" with="polarity"/>
+<Word name="o" positionX="450" positionY="500"/>
+<Connection from="3/yap" to="o" with="poss"/>
+<Word name="2/çocuk" positionX="550" positionY="500"/>
+<Connection from="3/yap" to="2/çocuk" with="ARG0"/>
+<Word name="1/o" positionX="450" positionY="600"/>
+<Connection from="2/çocuk" to="1/o" with="mod"/>
+<Word name="4/hiçbir" positionX="650" positionY="300"/>
+<Connection from="5/şey" to="4/hiçbir" with="mod"/>
+</Amr>

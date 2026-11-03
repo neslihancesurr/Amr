@@ -1,0 +1,17 @@
+<Amr sentence="Güzellik uğuruna bu kadar sıkıntıya katlanmaya değer mi ?">
+<Word name="7/değ" positionX="750" positionY="100"/>
+<Word name="2/uğur" positionX="650" positionY="200"/>
+<Connection from="7/değ" to="2/uğur" with="ARG0"/>
+<Word name="1/güzellik" positionX="550" positionY="300"/>
+<Connection from="2/uğur" to="1/güzellik" with="mod"/>
+<Word name="6/katlan" positionX="750" positionY="200"/>
+<Connection from="7/değ" to="6/katlan" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="6/katlan" to="o" with="ARG0"/>
+<Word name="5/sıkıntı" positionX="750" positionY="300"/>
+<Connection from="6/katlan" to="5/sıkıntı" with="ARG1"/>
+<Word name="3/bu 4/kadar" positionX="650" positionY="400"/>
+<Connection from="5/sıkıntı" to="3/bu 4/kadar" with="mod"/>
+<Word name="8/mi" positionX="850" positionY="200"/>
+<Connection from="7/değ" to="8/mi"/>
+</Amr>

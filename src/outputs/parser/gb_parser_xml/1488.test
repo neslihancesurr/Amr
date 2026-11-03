@@ -1,0 +1,20 @@
+<Amr sentence="Anneleri evde değilken çok daha derli toplu oluyorlar .">
+<Word name="6/derli" positionX="750" positionY="100"/>
+<Word name="2/ev" positionX="650" positionY="200"/>
+<Connection from="6/derli" to="2/ev" with="location"/>
+<Word name="1/anne" positionX="550" positionY="300"/>
+<Connection from="2/ev" to="1/anne"/>
+<Word name="onlar" positionX="450" positionY="400"/>
+<Connection from="1/anne" to="onlar" with="poss"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="2/ev" to="-" with="polarity"/>
+<Word name="5/daha" positionX="750" positionY="200"/>
+<Connection from="6/derli" to="5/daha" with="degree"/>
+<Word name="4/çok" positionX="650" positionY="300"/>
+<Connection from="5/daha" to="4/çok" with="degree"/>
+<Word name="7/toplu" positionX="850" positionY="200"/>
+<Connection from="6/derli" to="7/toplu"/>
+<Word name="8/ol" positionX="950" positionY="200"/>
+<Connection from="6/derli" to="8/ol"/>
+<Connection from="8/ol" to="onlar" with="ARG0"/>
+</Amr>

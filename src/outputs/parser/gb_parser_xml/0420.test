@@ -1,0 +1,11 @@
+<Amr sentence="Bu toplantı okulumuzca düzenlendi .">
+<Word name="4/düzenle" positionX="750" positionY="100"/>
+<Word name="2/toplantı" positionX="650" positionY="200"/>
+<Connection from="4/düzenle" to="2/toplantı" with="ARG1"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/toplantı" to="1/bu" with="mod"/>
+<Word name="3/okul" positionX="750" positionY="200"/>
+<Connection from="4/düzenle" to="3/okul" with="ARG0"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="3/okul" to="biz" with="poss"/>
+</Amr>

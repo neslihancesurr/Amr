@@ -1,0 +1,13 @@
+<Amr sentence="O kendi istemiş sınava girmeyi .">
+<Word name="3/iste" positionX="750" positionY="100"/>
+<Word name="1/o" positionX="650" positionY="200"/>
+<Connection from="3/iste" to="1/o" with="ARG0"/>
+<Word name="2/kendi" positionX="750" positionY="200"/>
+<Connection from="3/iste" to="2/kendi" with="ARG0"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/kendi" to="o" with="poss"/>
+<Word name="5/gir" positionX="850" positionY="200"/>
+<Connection from="3/iste" to="5/gir" with="ARG1"/>
+<Word name="4/sınav" positionX="750" positionY="300"/>
+<Connection from="5/gir" to="4/sınav"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Akdenizin neyi insanları çekiyor ?">
+<Word name="4/çek" positionX="750" positionY="100"/>
+<Word name="2/ne" positionX="650" positionY="200"/>
+<Connection from="4/çek" to="2/ne" with="ARG0"/>
+<Word name="1/Akdeniz" positionX="550" positionY="300"/>
+<Connection from="2/ne" to="1/Akdeniz" with="mod"/>
+<Word name="3/insan" positionX="750" positionY="200"/>
+<Connection from="4/çek" to="3/insan" with="ARG1"/>
+</Amr>

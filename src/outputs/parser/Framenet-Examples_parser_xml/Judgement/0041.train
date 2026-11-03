@@ -1,0 +1,15 @@
+<Amr sentence="Senin bu pozisyonda çalışmanı uygun gördüler .">
+<Word name="5/uygun 6/gör" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="5/uygun 6/gör" to="onlar" with="ARG0"/>
+<Word name="4/çalışma" positionX="750" positionY="200"/>
+<Connection from="5/uygun 6/gör" to="4/çalışma" with="ARG1"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="4/çalışma" to="sen" with="poss"/>
+<Word name="1/sen" positionX="750" positionY="300"/>
+<Connection from="4/çalışma" to="1/sen"/>
+<Word name="3/pozisyon" positionX="850" positionY="300"/>
+<Connection from="4/çalışma" to="3/pozisyon" with="location"/>
+<Word name="2/bu" positionX="750" positionY="400"/>
+<Connection from="3/pozisyon" to="2/bu" with="mod"/>
+</Amr>

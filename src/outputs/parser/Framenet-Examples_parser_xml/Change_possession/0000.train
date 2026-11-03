@@ -1,0 +1,9 @@
+<Amr sentence="Kitap , elden ele geçerek yıpranmıştı .">
+<Word name="6/yıpran" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/yıpran" to="o" with="ARG0"/>
+<Word name="1/kitap" positionX="750" positionY="200"/>
+<Connection from="6/yıpran" to="1/kitap" with="ARG1"/>
+<Word name="3/el 4/el 5/geç" positionX="850" positionY="200"/>
+<Connection from="6/yıpran" to="3/el 4/el 5/geç"/>
+</Amr>

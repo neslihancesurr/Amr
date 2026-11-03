@@ -1,0 +1,17 @@
+<Amr sentence="Ayakkabı kızın ayağını vurdu , yanında bant var mı?">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/ayak 4/vur" positionX="650" positionY="200"/>
+<Connection from="and" to="3/ayak 4/vur" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/ayak 4/vur" to="o" with="ARG0"/>
+<Word name="1/ayakkabı" positionX="650" positionY="300"/>
+<Connection from="3/ayak 4/vur" to="1/ayakkabı" with="ARG1"/>
+<Word name="8/var" positionX="750" positionY="200"/>
+<Connection from="and" to="8/var" with="op2"/>
+<Word name="6/yan" positionX="650" positionY="300"/>
+<Connection from="8/var" to="6/yan" with="location"/>
+<Word name="7/bant" positionX="750" positionY="300"/>
+<Connection from="8/var" to="7/bant"/>
+<Word name="9/mi" positionX="850" positionY="300"/>
+<Connection from="8/var" to="9/mi"/>
+</Amr>

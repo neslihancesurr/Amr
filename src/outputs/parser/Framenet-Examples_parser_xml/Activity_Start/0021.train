@@ -1,0 +1,34 @@
+<Amr sentence="Sanki küçük bir çocukmuş gibi annenin dizinin dibinde oturacağına git orada bir şeyler öğrenmek için start al .">
+<Word name="16/start 17/al" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="16/start 17/al" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="16/start 17/al" to="imperative" with="mode"/>
+<Word name="9/otur" positionX="850" positionY="200"/>
+<Connection from="16/start 17/al" to="9/otur"/>
+<Connection from="9/otur" to="sen" with="ARG0"/>
+<Word name="4/çocuk 5/gibi" positionX="850" positionY="300"/>
+<Connection from="9/otur" to="4/çocuk 5/gibi"/>
+<Word name="1/sanki" positionX="750" positionY="400"/>
+<Connection from="4/çocuk 5/gibi" to="1/sanki" with="manner"/>
+<Word name="2/küçük" positionX="850" positionY="400"/>
+<Connection from="4/çocuk 5/gibi" to="2/küçük" with="mod"/>
+<Word name="8/dip" positionX="950" positionY="300"/>
+<Connection from="9/otur" to="8/dip" with="ARG1"/>
+<Word name="7/diz" positionX="850" positionY="400"/>
+<Connection from="8/dip" to="7/diz" with="mod"/>
+<Word name="6/anne" positionX="750" positionY="500"/>
+<Connection from="7/diz" to="6/anne" with="mod"/>
+<Word name="10/git" positionX="950" positionY="200"/>
+<Connection from="16/start 17/al" to="10/git"/>
+<Connection from="10/git" to="sen" with="ARG0"/>
+<Connection from="10/git" to="imperative" with="mode"/>
+<Word name="14/öğren" positionX="1050" positionY="200"/>
+<Connection from="16/start 17/al" to="14/öğren" with="cause"/>
+<Word name="o" positionX="950" positionY="300"/>
+<Connection from="14/öğren" to="o" with="ARG0"/>
+<Word name="11/ora" positionX="1050" positionY="300"/>
+<Connection from="14/öğren" to="11/ora" with="location"/>
+<Word name="13/şey" positionX="1150" positionY="300"/>
+<Connection from="14/öğren" to="13/şey" with="ARG1"/>
+</Amr>

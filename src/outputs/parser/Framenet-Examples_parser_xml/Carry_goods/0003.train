@@ -1,0 +1,7 @@
+<Amr sentence="Bütün belgeleri hemen elinin altında olmalıydı .">
+<Word name="gerek" positionX="750" positionY="100"/>
+<Word name="4/el 5/alt 6/ol" positionX="650" positionY="200"/>
+<Connection from="gerek" to="4/el 5/alt 6/ol"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/el 5/alt 6/ol" to="o" with="ARG0"/>
+</Amr>

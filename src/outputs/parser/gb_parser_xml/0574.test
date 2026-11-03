@@ -1,0 +1,9 @@
+<Amr sentence="Paketin içindekiler eksik çıktı .">
+<Word name="3/eksik 4/çık" positionX="750" positionY="100"/>
+<Word name="2/iç" positionX="650" positionY="200"/>
+<Connection from="3/eksik 4/çık" to="2/iç" with="ARG0"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="2/iç" to="sen" with="poss"/>
+<Word name="1/paket" positionX="650" positionY="300"/>
+<Connection from="2/iç" to="1/paket" with="mod"/>
+</Amr>

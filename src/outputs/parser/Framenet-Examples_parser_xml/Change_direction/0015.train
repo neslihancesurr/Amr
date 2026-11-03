@@ -1,0 +1,15 @@
+<Amr sentence="Evvela kuşların bulunduğu tarafa saptım .">
+<Word name="5/sap" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/sap" to="ben" with="ARG0"/>
+<Word name="1/evvela" positionX="750" positionY="200"/>
+<Connection from="5/sap" to="1/evvela" with="manner"/>
+<Word name="4/taraf" positionX="850" positionY="200"/>
+<Connection from="5/sap" to="4/taraf"/>
+<Word name="3/bul" positionX="750" positionY="300"/>
+<Connection from="4/taraf" to="3/bul"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="3/bul" to="o" with="poss"/>
+<Word name="2/kuş" positionX="750" positionY="400"/>
+<Connection from="3/bul" to="2/kuş" with="ARG0"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Bakkala uğrayıp para bozdu .">
+<Word name="3/para 4/boz" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/para 4/boz" to="o" with="ARG0"/>
+<Word name="2/uğra" positionX="750" positionY="200"/>
+<Connection from="3/para 4/boz" to="2/uğra"/>
+<Word name="1/bakkal" positionX="650" positionY="300"/>
+<Connection from="2/uğra" to="1/bakkal" with="ARG1"/>
+</Amr>

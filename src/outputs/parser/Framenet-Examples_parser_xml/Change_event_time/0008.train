@@ -1,0 +1,15 @@
+<Amr sentence="Sorunları bu şekilde halı altına süpüremezsin .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="4/halı 5/alt 6/süpür" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="4/halı 5/alt 6/süpür"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="4/halı 5/alt 6/süpür" to="-" with="polarity"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="4/halı 5/alt 6/süpür" to="sen" with="ARG0"/>
+<Word name="1/sorun" positionX="750" positionY="300"/>
+<Connection from="4/halı 5/alt 6/süpür" to="1/sorun" with="ARG1"/>
+<Word name="3/şekil" positionX="850" positionY="300"/>
+<Connection from="4/halı 5/alt 6/süpür" to="3/şekil" with="location"/>
+<Word name="2/bu" positionX="750" positionY="400"/>
+<Connection from="3/şekil" to="2/bu" with="mod"/>
+</Amr>

@@ -1,0 +1,20 @@
+<Amr sentence="İsterse Ahmet bir arkadaşını getirebilir .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="5/getir" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="5/getir"/>
+<Word name="1/iste" positionX="550" positionY="300"/>
+<Connection from="5/getir" to="1/iste" with="cond"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="1/iste" to="o" with="ARG0"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="5/getir" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/ahmet" positionX="450" positionY="500"/>
+<Connection from="name" to="2/ahmet" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/arkadaş" positionX="750" positionY="300"/>
+<Connection from="5/getir" to="4/arkadaş" with="ARG1"/>
+<Connection from="4/arkadaş" to="o" with="poss"/>
+</Amr>

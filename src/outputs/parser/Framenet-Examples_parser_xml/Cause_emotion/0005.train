@@ -1,0 +1,10 @@
+<Amr sentence="Arkadaşlarını tek tek şad etti .">
+<Word name="4/şad 5/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/şad 5/et" to="o" with="ARG0"/>
+<Word name="1/arkadaş" positionX="750" positionY="200"/>
+<Connection from="4/şad 5/et" to="1/arkadaş" with="ARG1"/>
+<Connection from="1/arkadaş" to="o" with="poss"/>
+<Word name="2/tek 3/tek" positionX="850" positionY="200"/>
+<Connection from="4/şad 5/et" to="2/tek 3/tek"/>
+</Amr>

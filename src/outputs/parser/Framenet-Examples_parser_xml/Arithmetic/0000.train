@@ -1,0 +1,16 @@
+<Amr sentence="Gösterge bir anda sıfırladı , tüm kayıtlar silindi .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/sıfırla" positionX="650" positionY="200"/>
+<Connection from="and" to="4/sıfırla" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/sıfırla" to="o" with="ARG0"/>
+<Word name="1/gösterge" positionX="650" positionY="300"/>
+<Connection from="4/sıfırla" to="1/gösterge" with="ARG1"/>
+<Word name="8/silin" positionX="750" positionY="200"/>
+<Connection from="and" to="8/silin" with="op2"/>
+<Connection from="8/silin" to="o" with="ARG0"/>
+<Word name="7/kayıt" positionX="750" positionY="300"/>
+<Connection from="8/silin" to="7/kayıt" with="ARG1"/>
+<Word name="6/tüm" positionX="650" positionY="400"/>
+<Connection from="7/kayıt" to="6/tüm" with="mod"/>
+</Amr>

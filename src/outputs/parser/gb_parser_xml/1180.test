@@ -1,0 +1,9 @@
+<Amr sentence="Ninem çok yaşlı .">
+<Word name="3/yaşlı" positionX="750" positionY="100"/>
+<Word name="1/nine" positionX="650" positionY="200"/>
+<Connection from="3/yaşlı" to="1/nine"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="1/nine" to="ben" with="poss"/>
+<Word name="2/çok" positionX="750" positionY="200"/>
+<Connection from="3/yaşlı" to="2/çok" with="degree"/>
+</Amr>

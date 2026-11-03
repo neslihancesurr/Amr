@@ -1,0 +1,5 @@
+<Amr sentence="Murat banyodaydı .">
+<Word name="2/banyo:location" positionX="750" positionY="100"/>
+<Word name="1/murat" positionX="650" positionY="200"/>
+<Connection from="2/banyo:location" to="1/murat"/>
+</Amr>

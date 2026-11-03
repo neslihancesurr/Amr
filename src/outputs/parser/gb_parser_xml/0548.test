@@ -1,0 +1,9 @@
+<Amr sentence="Ders kitabını beğenmedim .">
+<Word name="3/beğen" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/beğen" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="3/beğen" to="ben" with="ARG0"/>
+<Word name="1/ders 2/kitap" positionX="850" positionY="200"/>
+<Connection from="3/beğen" to="1/ders 2/kitap" with="ARG1"/>
+</Amr>

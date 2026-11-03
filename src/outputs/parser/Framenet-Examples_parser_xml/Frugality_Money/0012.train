@@ -1,0 +1,15 @@
+<Amr sentence="Ne yapsın , dalkavuklarını suluyor !">
+<Word name="5/sula" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/sula" to="o" with="ARG0"/>
+<Word name="2/yap" positionX="750" positionY="200"/>
+<Connection from="5/sula" to="2/yap"/>
+<Connection from="2/yap" to="o" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="300"/>
+<Connection from="2/yap" to="imperative" with="mode"/>
+<Word name="1/ne" positionX="850" positionY="300"/>
+<Connection from="2/yap" to="1/ne" with="ARG1"/>
+<Word name="4/dalkavuk" positionX="850" positionY="200"/>
+<Connection from="5/sula" to="4/dalkavuk" with="ARG1"/>
+<Connection from="4/dalkavuk" to="o" with="poss"/>
+</Amr>

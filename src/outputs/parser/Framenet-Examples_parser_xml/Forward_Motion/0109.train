@@ -1,0 +1,23 @@
+<Amr sentence="Birden geriye döndü ve dönemeci geçer geçmez Hasan'la yüz yüze geldi .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="9/yüz 10/yüz 11/gel" positionX="650" positionY="200"/>
+<Connection from="and" to="9/yüz 10/yüz 11/gel" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="9/yüz 10/yüz 11/gel" to="o" with="ARG0"/>
+<Word name="6/geç 7/geç" positionX="650" positionY="300"/>
+<Connection from="9/yüz 10/yüz 11/gel" to="6/geç 7/geç"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="6/geç 7/geç" to="-" with="polarity"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="9/yüz 10/yüz 11/gel" to="person" with="instrument"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="8/hasan" positionX="550" positionY="500"/>
+<Connection from="name" to="8/hasan" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/geri 3/dön" positionX="750" positionY="200"/>
+<Connection from="and" to="2/geri 3/dön" with="op2"/>
+<Connection from="2/geri 3/dön" to="o" with="ARG0"/>
+<Word name="1/birden" positionX="750" positionY="300"/>
+<Connection from="2/geri 3/dön" to="1/birden" with="manner"/>
+</Amr>

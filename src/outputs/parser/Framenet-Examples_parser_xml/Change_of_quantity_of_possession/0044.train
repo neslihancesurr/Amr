@@ -1,0 +1,12 @@
+<Amr sentence="Sonunda aileme layık olabildim .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="3/layık 4/ol" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="3/layık 4/ol"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="3/layık 4/ol" to="ben" with="ARG0"/>
+<Word name="1/sonunda" positionX="650" positionY="300"/>
+<Connection from="3/layık 4/ol" to="1/sonunda" with="manner"/>
+<Word name="2/aile" positionX="750" positionY="300"/>
+<Connection from="3/layık 4/ol" to="2/aile" with="ARG0"/>
+<Connection from="2/aile" to="ben" with="poss"/>
+</Amr>

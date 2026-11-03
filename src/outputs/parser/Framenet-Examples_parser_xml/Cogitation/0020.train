@@ -1,0 +1,11 @@
+<Amr sentence="Kızı öpmek akıldan geçiyordu .">
+<Word name="3/akıl 4/geç" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/akıl 4/geç" to="o" with="ARG0"/>
+<Word name="2/öp" positionX="750" positionY="200"/>
+<Connection from="3/akıl 4/geç" to="2/öp" with="ARG1"/>
+<Connection from="2/öp" to="o" with="ARG0"/>
+<Word name="1/kız" positionX="750" positionY="300"/>
+<Connection from="2/öp" to="1/kız" with="ARG1"/>
+<Connection from="1/kız" to="o" with="poss"/>
+</Amr>

@@ -1,0 +1,20 @@
+<Amr sentence="İşte çok koşuşturuyorum diye erken uyumak istiyordum .">
+<Word name="7/iste" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="7/iste" to="ben" with="ARG0"/>
+<Word name="3/koşuştur" positionX="750" positionY="200"/>
+<Connection from="7/iste" to="3/koşuştur"/>
+<Connection from="3/koşuştur" to="ben" with="ARG0"/>
+<Word name="1/iş" positionX="750" positionY="300"/>
+<Connection from="3/koşuştur" to="1/iş" with="location"/>
+<Word name="2/çok" positionX="850" positionY="300"/>
+<Connection from="3/koşuştur" to="2/çok" with="degree"/>
+<Word name="4/diye" positionX="950" positionY="300"/>
+<Connection from="3/koşuştur" to="4/diye"/>
+<Word name="6/uyu" positionX="850" positionY="200"/>
+<Connection from="7/iste" to="6/uyu" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="6/uyu" to="o" with="ARG0"/>
+<Word name="5/erken" positionX="850" positionY="300"/>
+<Connection from="6/uyu" to="5/erken" with="mod"/>
+</Amr>

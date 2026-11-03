@@ -1,0 +1,13 @@
+<Amr sentence="Meyve sebzeyi ezbere aldığı için hep çürük çıkıyor .">
+<Word name="8/çık" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="8/çık" to="o" with="ARG0"/>
+<Word name="3/ezbere 4/al" positionX="750" positionY="200"/>
+<Connection from="8/çık" to="3/ezbere 4/al"/>
+<Connection from="3/ezbere 4/al" to="o" with="ARG0"/>
+<Connection from="3/ezbere 4/al" to="o" with="poss"/>
+<Word name="6/hep" positionX="850" positionY="200"/>
+<Connection from="8/çık" to="6/hep" with="frequency"/>
+<Word name="7/çürük" positionX="950" positionY="200"/>
+<Connection from="8/çık" to="7/çürük"/>
+</Amr>

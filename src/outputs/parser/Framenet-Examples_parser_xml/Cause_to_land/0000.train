@@ -1,0 +1,13 @@
+<Amr sentence="Askerleri üç ay boyunca alıkoydular .">
+<Word name="5/alıkoy" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="5/alıkoy" to="onlar" with="ARG0"/>
+<Word name="1/asker" positionX="750" positionY="200"/>
+<Connection from="5/alıkoy" to="1/asker" with="ARG1"/>
+<Word name="4/boyunca" positionX="850" positionY="200"/>
+<Connection from="5/alıkoy" to="4/boyunca"/>
+<Word name="3/ay" positionX="750" positionY="300"/>
+<Connection from="4/boyunca" to="3/ay" with="mod"/>
+<Word name="2/üç" positionX="650" positionY="400"/>
+<Connection from="3/ay" to="2/üç"/>
+</Amr>

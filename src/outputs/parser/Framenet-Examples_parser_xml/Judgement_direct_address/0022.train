@@ -1,0 +1,11 @@
+<Amr sentence="Bugün her şeyi takaza etti .">
+<Word name="4/takaza 5/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/takaza 5/et" to="o" with="ARG0"/>
+<Word name="1/bugün" positionX="750" positionY="200"/>
+<Connection from="4/takaza 5/et" to="1/bugün" with="manner"/>
+<Word name="3/şey" positionX="850" positionY="200"/>
+<Connection from="4/takaza 5/et" to="3/şey" with="ARG1"/>
+<Word name="2/her" positionX="750" positionY="300"/>
+<Connection from="3/şey" to="2/her" with="mod"/>
+</Amr>

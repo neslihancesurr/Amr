@@ -1,0 +1,9 @@
+<Amr sentence="Bugünün tanınmış isimleri onun rahleitedrisinden geçmiştir .">
+<Word name="5/rahleitedris 6/geç" positionX="750" positionY="100"/>
+<Word name="3/isim" positionX="650" positionY="200"/>
+<Connection from="5/rahleitedris 6/geç" to="3/isim" with="ARG0"/>
+<Word name="1/bugün" positionX="550" positionY="300"/>
+<Connection from="3/isim" to="1/bugün" with="mod"/>
+<Word name="2/tanınmış" positionX="650" positionY="300"/>
+<Connection from="3/isim" to="2/tanınmış"/>
+</Amr>

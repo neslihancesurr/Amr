@@ -1,0 +1,19 @@
+<Amr sentence="Vaktim olsa ben de yarın sizlere katılırdım .">
+<Word name="7/katıl" positionX="750" positionY="100"/>
+<Word name="2/ol" positionX="650" positionY="200"/>
+<Connection from="7/katıl" to="2/ol"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/ol" to="o" with="ARG0"/>
+<Word name="1/vakit" positionX="650" positionY="300"/>
+<Connection from="2/ol" to="1/vakit"/>
+<Word name="ben" positionX="550" positionY="400"/>
+<Connection from="1/vakit" to="ben" with="poss"/>
+<Word name="3/ben" positionX="750" positionY="200"/>
+<Connection from="7/katıl" to="3/ben"/>
+<Word name="4/de" positionX="650" positionY="300"/>
+<Connection from="3/ben" to="4/de"/>
+<Word name="5/yarın" positionX="850" positionY="200"/>
+<Connection from="7/katıl" to="5/yarın"/>
+<Word name="6/siz" positionX="950" positionY="200"/>
+<Connection from="7/katıl" to="6/siz"/>
+</Amr>

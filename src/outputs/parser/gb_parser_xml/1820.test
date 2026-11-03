@@ -1,0 +1,13 @@
+<Amr sentence="Anıtlar Yüksek Kurulu'nu bundan sorumlu tutuyorum .">
+<Word name="5/sorumlu 6/tut" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/sorumlu 6/tut" to="ben" with="ARG0"/>
+<Word name="3/kurul" positionX="750" positionY="200"/>
+<Connection from="5/sorumlu 6/tut" to="3/kurul" with="ARG1"/>
+<Word name="1/anıt" positionX="650" positionY="300"/>
+<Connection from="3/kurul" to="1/anıt" with="mod"/>
+<Word name="2/yüksek" positionX="750" positionY="300"/>
+<Connection from="3/kurul" to="2/yüksek" with="mod"/>
+<Word name="4/bu" positionX="850" positionY="200"/>
+<Connection from="5/sorumlu 6/tut" to="4/bu" with="ARG2"/>
+</Amr>

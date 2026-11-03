@@ -1,0 +1,22 @@
+<Amr sentence="Hiçbir şeyden yoksun kalmadın , şikayet etmeyi bırak .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/yoksun 4/kal" positionX="650" positionY="200"/>
+<Connection from="and" to="3/yoksun 4/kal" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="3/yoksun 4/kal" to="-" with="polarity"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="3/yoksun 4/kal" to="sen" with="ARG0"/>
+<Word name="2/şey" positionX="750" positionY="300"/>
+<Connection from="3/yoksun 4/kal" to="2/şey" with="ARG1"/>
+<Word name="1/hiçbir" positionX="650" positionY="400"/>
+<Connection from="2/şey" to="1/hiçbir" with="mod"/>
+<Word name="8/bırak" positionX="750" positionY="200"/>
+<Connection from="and" to="8/bırak" with="op2"/>
+<Connection from="8/bırak" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="300"/>
+<Connection from="8/bırak" to="imperative" with="mode"/>
+<Word name="6/şikayet 7/et" positionX="850" positionY="300"/>
+<Connection from="8/bırak" to="6/şikayet 7/et"/>
+<Word name="o" positionX="750" positionY="400"/>
+<Connection from="6/şikayet 7/et" to="o" with="ARG0"/>
+</Amr>

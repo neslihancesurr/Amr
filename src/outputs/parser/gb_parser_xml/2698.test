@@ -1,0 +1,24 @@
+<Amr sentence="Öğrencilerin hepsinin adlarını bilmiyorum da yüzlerini tanıyorum .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="7/tanı" positionX="650" positionY="200"/>
+<Connection from="and" to="7/tanı" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="7/tanı" to="ben" with="ARG0"/>
+<Word name="5/da" positionX="650" positionY="300"/>
+<Connection from="7/tanı" to="5/da"/>
+<Word name="6/yüz" positionX="750" positionY="300"/>
+<Connection from="7/tanı" to="6/yüz" with="ARG1"/>
+<Word name="onlar" positionX="650" positionY="400"/>
+<Connection from="6/yüz" to="onlar" with="poss"/>
+<Word name="4/bil" positionX="750" positionY="200"/>
+<Connection from="and" to="4/bil" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="4/bil" to="-" with="polarity"/>
+<Connection from="4/bil" to="ben" with="ARG0"/>
+<Word name="3/ad" positionX="850" positionY="300"/>
+<Connection from="4/bil" to="3/ad" with="ARG1"/>
+<Word name="1/öğrenci" positionX="750" positionY="400"/>
+<Connection from="3/ad" to="1/öğrenci" with="mod"/>
+<Word name="2/hepsi" positionX="850" positionY="400"/>
+<Connection from="3/ad" to="2/hepsi" with="mod"/>
+</Amr>

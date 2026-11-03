@@ -1,0 +1,15 @@
+<Amr sentence="Benim zeytinlerle senin peynirleri takas edelim mi?">
+<Word name="5/takas 6/et" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/takas 6/et" to="biz" with="ARG0"/>
+<Word name="2/zeytin" positionX="750" positionY="200"/>
+<Connection from="5/takas 6/et" to="2/zeytin" with="ARG2"/>
+<Word name="1/ben" positionX="650" positionY="300"/>
+<Connection from="2/zeytin" to="1/ben" with="mod"/>
+<Word name="4/peynir" positionX="850" positionY="200"/>
+<Connection from="5/takas 6/et" to="4/peynir" with="ARG1"/>
+<Word name="3/sen" positionX="750" positionY="300"/>
+<Connection from="4/peynir" to="3/sen" with="mod"/>
+<Word name="7/mi" positionX="950" positionY="200"/>
+<Connection from="5/takas 6/et" to="7/mi"/>
+</Amr>

@@ -1,0 +1,20 @@
+<Amr sentence="Çok büyük heyecanla başladığı bu projeyi de askıda bıraktı .">
+<Word name="8/askı 9/bırak" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="8/askı 9/bırak" to="o" with="ARG0"/>
+<Word name="6/proje" positionX="750" positionY="200"/>
+<Connection from="8/askı 9/bırak" to="6/proje" with="ARG1"/>
+<Word name="4/başla" positionX="650" positionY="300"/>
+<Connection from="6/proje" to="4/başla"/>
+<Connection from="4/başla" to="o" with="poss"/>
+<Word name="3/heyecanla" positionX="650" positionY="400"/>
+<Connection from="4/başla" to="3/heyecanla"/>
+<Word name="2/büyük" positionX="550" positionY="500"/>
+<Connection from="3/heyecanla" to="2/büyük" with="mod"/>
+<Word name="1/çok" positionX="450" positionY="600"/>
+<Connection from="2/büyük" to="1/çok" with="degree"/>
+<Word name="5/bu" positionX="750" positionY="300"/>
+<Connection from="6/proje" to="5/bu" with="mod"/>
+<Word name="7/de" positionX="850" positionY="300"/>
+<Connection from="6/proje" to="7/de" with="manner"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Siz hayatınızdan memnunsunuz gibi duruyor .">
+<Word name="5/dur" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/dur" to="o" with="ARG0"/>
+<Word name="1/siz" positionX="750" positionY="200"/>
+<Connection from="5/dur" to="1/siz"/>
+<Word name="3/memnun" positionX="850" positionY="200"/>
+<Connection from="5/dur" to="3/memnun"/>
+<Word name="2/hayat" positionX="750" positionY="300"/>
+<Connection from="3/memnun" to="2/hayat"/>
+<Word name="siz" positionX="650" positionY="400"/>
+<Connection from="2/hayat" to="siz" with="poss"/>
+<Word name="4/gibi" positionX="850" positionY="300"/>
+<Connection from="3/memnun" to="4/gibi"/>
+</Amr>

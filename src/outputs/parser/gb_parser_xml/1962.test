@@ -1,0 +1,34 @@
+<Amr sentence="Mehmet borcunu ödemediği için Ali bu yıl kendi borçlarını zor ödeyecek .">
+<Word name="11/öde" positionX="750" positionY="100"/>
+<Word name="3/öde" positionX="650" positionY="200"/>
+<Connection from="11/öde" to="3/öde" with="cause"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="3/öde" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/öde" to="o" with="poss"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="3/öde" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/mehmet" positionX="550" positionY="500"/>
+<Connection from="name" to="1/mehmet" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/borç" positionX="850" positionY="300"/>
+<Connection from="3/öde" to="2/borç" with="ARG1"/>
+<Connection from="2/borç" to="o" with="poss"/>
+<Connection from="11/öde" to="person" with="ARG0"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="5/ali" positionX="550" positionY="400"/>
+<Connection from="name" to="5/ali" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="7/yıl" positionX="850" positionY="200"/>
+<Connection from="11/öde" to="7/yıl"/>
+<Word name="6/bu" positionX="750" positionY="300"/>
+<Connection from="7/yıl" to="6/bu" with="mod"/>
+<Word name="9/borç" positionX="950" positionY="200"/>
+<Connection from="11/öde" to="9/borç" with="ARG1"/>
+<Word name="8/kendi" positionX="850" positionY="300"/>
+<Connection from="9/borç" to="8/kendi" with="mod"/>
+<Word name="10/zor" positionX="1050" positionY="200"/>
+<Connection from="11/öde" to="10/zor" with="manner"/>
+</Amr>

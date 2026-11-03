@@ -1,0 +1,15 @@
+<Amr sentence="Kadın , tavuğu terbiyeledikten sonra 2 saat fırınladı .">
+<Word name="8/fırınla" positionX="750" positionY="100"/>
+<Word name="1/kadın" positionX="650" positionY="200"/>
+<Connection from="8/fırınla" to="1/kadın" with="ARG0"/>
+<Word name="4/terbiyele" positionX="750" positionY="200"/>
+<Connection from="8/fırınla" to="4/terbiyele"/>
+<Word name="3/tavuk" positionX="650" positionY="300"/>
+<Connection from="4/terbiyele" to="3/tavuk" with="ARG1"/>
+<Word name="5/sonra" positionX="750" positionY="300"/>
+<Connection from="4/terbiyele" to="5/sonra"/>
+<Word name="7/saat" positionX="850" positionY="200"/>
+<Connection from="8/fırınla" to="7/saat" with="mod"/>
+<Word name="6/2" positionX="750" positionY="300"/>
+<Connection from="7/saat" to="6/2"/>
+</Amr>

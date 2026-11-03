@@ -1,0 +1,13 @@
+<Amr sentence="Artık kendine bakamıyor .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="3/bak" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="3/bak"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="3/bak" to="-" with="polarity"/>
+<Word name="1/artık" positionX="650" positionY="300"/>
+<Connection from="3/bak" to="1/artık" with="manner"/>
+<Word name="2/kendi" positionX="750" positionY="300"/>
+<Connection from="3/bak" to="2/kendi" with="ARG0"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="2/kendi" to="o" with="poss"/>
+</Amr>

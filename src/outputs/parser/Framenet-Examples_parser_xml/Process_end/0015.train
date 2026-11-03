@@ -1,0 +1,5 @@
+<Amr sentence="Halifelik kalktı .">
+<Word name="2/kalk" positionX="750" positionY="100"/>
+<Word name="1/halifelik" positionX="650" positionY="200"/>
+<Connection from="2/kalk" to="1/halifelik" with="ARG0"/>
+</Amr>

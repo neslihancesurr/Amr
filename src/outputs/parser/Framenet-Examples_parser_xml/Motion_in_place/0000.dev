@@ -1,0 +1,9 @@
+<Amr sentence="Adam , diğer dövüşçüyü kafakola alıyordu .">
+<Word name="5/kafakol 6/al" positionX="750" positionY="100"/>
+<Word name="1/adam" positionX="650" positionY="200"/>
+<Connection from="5/kafakol 6/al" to="1/adam" with="ARG0"/>
+<Word name="4/dövüşçü" positionX="750" positionY="200"/>
+<Connection from="5/kafakol 6/al" to="4/dövüşçü" with="ARG1"/>
+<Word name="3/diğer" positionX="650" positionY="300"/>
+<Connection from="4/dövüşçü" to="3/diğer" with="mod"/>
+</Amr>

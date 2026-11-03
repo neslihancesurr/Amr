@@ -1,0 +1,11 @@
+<Amr sentence="Bu hisseler piyasada çok değerlendi .">
+<Word name="5/değerlen" positionX="750" positionY="100"/>
+<Word name="2/hisse" positionX="650" positionY="200"/>
+<Connection from="5/değerlen" to="2/hisse" with="ARG0"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/hisse" to="1/bu" with="mod"/>
+<Word name="3/piyasa" positionX="750" positionY="200"/>
+<Connection from="5/değerlen" to="3/piyasa" with="location"/>
+<Word name="4/çok" positionX="850" positionY="200"/>
+<Connection from="5/değerlen" to="4/çok" with="degree"/>
+</Amr>

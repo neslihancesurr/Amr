@@ -1,0 +1,8 @@
+<Amr sentence="Tokat yedikten sonra iki seksen uzandı .">
+<Word name="4/iki 5/seksen 6/uzan" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/iki 5/seksen 6/uzan" to="o" with="ARG0"/>
+<Word name="1/tokat 2/ye" positionX="750" positionY="200"/>
+<Connection from="4/iki 5/seksen 6/uzan" to="1/tokat 2/ye"/>
+<Connection from="1/tokat 2/ye" to="o" with="ARG0"/>
+</Amr>

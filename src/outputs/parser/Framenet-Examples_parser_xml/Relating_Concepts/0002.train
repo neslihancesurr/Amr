@@ -1,0 +1,13 @@
+<Amr sentence="Bu konuyu buraya nasıl bağladın ?">
+<Word name="5/bağla" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="5/bağla" to="sen" with="ARG0"/>
+<Word name="2/konu" positionX="750" positionY="200"/>
+<Connection from="5/bağla" to="2/konu" with="ARG1"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/konu" to="1/bu" with="mod"/>
+<Word name="3/bura" positionX="850" positionY="200"/>
+<Connection from="5/bağla" to="3/bura"/>
+<Word name="4/nasıl" positionX="950" positionY="200"/>
+<Connection from="5/bağla" to="4/nasıl" with="manner"/>
+</Amr>

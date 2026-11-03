@@ -1,0 +1,17 @@
+<Amr sentence="- Bilmem , onları çoktandır görmedim .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/bil" positionX="650" positionY="200"/>
+<Connection from="and" to="2/bil" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="2/bil" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="2/bil" to="ben" with="ARG0"/>
+<Word name="6/gör" positionX="750" positionY="200"/>
+<Connection from="and" to="6/gör" with="op2"/>
+<Connection from="6/gör" to="-" with="polarity"/>
+<Connection from="6/gör" to="ben" with="ARG0"/>
+<Word name="4/o" positionX="850" positionY="300"/>
+<Connection from="6/gör" to="4/o" with="ARG1"/>
+<Word name="5/çoktandır" positionX="950" positionY="300"/>
+<Connection from="6/gör" to="5/çoktandır" with="manner"/>
+</Amr>

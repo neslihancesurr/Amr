@@ -1,0 +1,19 @@
+<Amr sentence="O günlerde akşamları birlikte çay içtiğimiz çok olurdu .">
+<Word name="7/çok 8/ol" positionX="750" positionY="100"/>
+<Word name="2/gün" positionX="650" positionY="200"/>
+<Connection from="7/çok 8/ol" to="2/gün" with="location"/>
+<Word name="1/o" positionX="550" positionY="300"/>
+<Connection from="2/gün" to="1/o" with="mod"/>
+<Word name="3/akşam" positionX="750" positionY="200"/>
+<Connection from="7/çok 8/ol" to="3/akşam"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/akşam" to="o" with="poss"/>
+<Word name="6/iç" positionX="850" positionY="200"/>
+<Connection from="7/çok 8/ol" to="6/iç"/>
+<Word name="biz" positionX="750" positionY="300"/>
+<Connection from="6/iç" to="biz" with="poss"/>
+<Word name="4/birlikte" positionX="850" positionY="300"/>
+<Connection from="6/iç" to="4/birlikte" with="manner"/>
+<Word name="5/çay" positionX="950" positionY="300"/>
+<Connection from="6/iç" to="5/çay"/>
+</Amr>

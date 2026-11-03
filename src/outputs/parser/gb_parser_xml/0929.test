@@ -1,0 +1,13 @@
+<Amr sentence="O akşam misafirlerimiz olacağı için yemek yapmakla meşguldük .">
+<Word name="8/meşgul" positionX="750" positionY="100"/>
+<Word name="2/akşam" positionX="650" positionY="200"/>
+<Connection from="8/meşgul" to="2/akşam"/>
+<Word name="1/o" positionX="550" positionY="300"/>
+<Connection from="2/akşam" to="1/o" with="mod"/>
+<Word name="3/misafir 4/ol" positionX="750" positionY="200"/>
+<Connection from="8/meşgul" to="3/misafir 4/ol" with="mod"/>
+<Word name="7/yap" positionX="850" positionY="200"/>
+<Connection from="8/meşgul" to="7/yap"/>
+<Word name="6/yemek" positionX="750" positionY="300"/>
+<Connection from="7/yap" to="6/yemek" with="ARG1"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Bu gün evde kalamam .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="3/ev 4/kal" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="3/ev 4/kal"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="3/ev 4/kal" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="3/ev 4/kal" to="ben" with="ARG0"/>
+<Word name="2/gün" positionX="750" positionY="300"/>
+<Connection from="3/ev 4/kal" to="2/gün"/>
+<Word name="1/bu" positionX="650" positionY="400"/>
+<Connection from="2/gün" to="1/bu" with="mod"/>
+</Amr>

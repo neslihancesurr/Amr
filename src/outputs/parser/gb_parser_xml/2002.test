@@ -1,0 +1,11 @@
+<Amr sentence="Kağıtları ancak toparlayabildim .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="3/toparla" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="3/toparla"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="3/toparla" to="ben" with="ARG0"/>
+<Word name="1/kağıt" positionX="650" positionY="300"/>
+<Connection from="3/toparla" to="1/kağıt" with="ARG1"/>
+<Word name="2/ancak" positionX="750" positionY="300"/>
+<Connection from="3/toparla" to="2/ancak" with="manner"/>
+</Amr>

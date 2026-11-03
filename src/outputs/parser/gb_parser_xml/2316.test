@@ -1,0 +1,35 @@
+<Amr sentence="Semra yakında giyemez olacağı giysilerini bu günlerde özellikle giymek istiyor .">
+<Word name="10/iste" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="10/iste" to="o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="10/iste" to="person"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/semra" positionX="550" positionY="400"/>
+<Connection from="name" to="1/semra" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="8/özellikle" positionX="850" positionY="200"/>
+<Connection from="10/iste" to="8/özellikle" with="manner"/>
+<Word name="9/giy" positionX="950" positionY="200"/>
+<Connection from="10/iste" to="9/giy"/>
+<Connection from="9/giy" to="o" with="ARG0"/>
+<Word name="5/giysi" positionX="950" positionY="300"/>
+<Connection from="9/giy" to="5/giysi"/>
+<Connection from="5/giysi" to="o" with="poss"/>
+<Word name="4/ol" positionX="950" positionY="400"/>
+<Connection from="5/giysi" to="4/ol"/>
+<Connection from="4/ol" to="o" with="poss"/>
+<Word name="mümkün" positionX="950" positionY="500"/>
+<Connection from="4/ol" to="mümkün"/>
+<Word name="3/giy" positionX="850" positionY="600"/>
+<Connection from="mümkün" to="3/giy"/>
+<Connection from="3/giy" to="-" with="polarity"/>
+<Word name="2/yakında" positionX="850" positionY="700"/>
+<Connection from="3/giy" to="2/yakında" with="manner"/>
+<Word name="7/gün" positionX="1050" positionY="300"/>
+<Connection from="9/giy" to="7/gün" with="location"/>
+<Word name="6/bu" positionX="950" positionY="400"/>
+<Connection from="7/gün" to="6/bu" with="mod"/>
+</Amr>

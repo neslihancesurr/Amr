@@ -1,0 +1,13 @@
+<Amr sentence="Bankalarda bu ay çok para kazanıldı .">
+<Word name="6/kazanıl" positionX="750" positionY="100"/>
+<Word name="1/banka" positionX="650" positionY="200"/>
+<Connection from="6/kazanıl" to="1/banka" with="location"/>
+<Word name="3/ay" positionX="750" positionY="200"/>
+<Connection from="6/kazanıl" to="3/ay"/>
+<Word name="2/bu" positionX="650" positionY="300"/>
+<Connection from="3/ay" to="2/bu" with="mod"/>
+<Word name="4/çok" positionX="850" positionY="200"/>
+<Connection from="6/kazanıl" to="4/çok" with="degree"/>
+<Word name="5/para" positionX="950" positionY="200"/>
+<Connection from="6/kazanıl" to="5/para" with="ARG0"/>
+</Amr>

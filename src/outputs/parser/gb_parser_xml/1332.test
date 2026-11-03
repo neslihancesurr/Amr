@@ -1,0 +1,17 @@
+<Amr sentence="Cemal bugün okula gitmedi , öyle mi ?">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/öyle" positionX="650" positionY="200"/>
+<Connection from="and" to="6/öyle" with="op1"/>
+<Word name="7/mi" positionX="550" positionY="300"/>
+<Connection from="6/öyle" to="7/mi"/>
+<Word name="4/git" positionX="750" positionY="200"/>
+<Connection from="and" to="4/git" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="4/git" to="-" with="polarity"/>
+<Word name="1/cemal" positionX="750" positionY="300"/>
+<Connection from="4/git" to="1/cemal" with="ARG0"/>
+<Word name="2/bugün" positionX="850" positionY="300"/>
+<Connection from="4/git" to="2/bugün"/>
+<Word name="3/okul" positionX="950" positionY="300"/>
+<Connection from="4/git" to="3/okul" with="ARG1"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Sonunda senden kurtuldum .">
+<Word name="3/kurtul" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/kurtul" to="ben" with="ARG0"/>
+<Word name="1/sonunda" positionX="750" positionY="200"/>
+<Connection from="3/kurtul" to="1/sonunda" with="manner"/>
+<Word name="2/sen" positionX="850" positionY="200"/>
+<Connection from="3/kurtul" to="2/sen" with="ARG1"/>
+</Amr>

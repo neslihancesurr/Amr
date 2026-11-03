@@ -1,0 +1,9 @@
+<Amr sentence="Adam kurnaz mı kurnaz .">
+<Word name="4/kurnaz" positionX="750" positionY="100"/>
+<Word name="1/adam" positionX="650" positionY="200"/>
+<Connection from="4/kurnaz" to="1/adam"/>
+<Word name="2/kurnaz" positionX="750" positionY="200"/>
+<Connection from="4/kurnaz" to="2/kurnaz"/>
+<Word name="3/mi" positionX="650" positionY="300"/>
+<Connection from="2/kurnaz" to="3/mi"/>
+</Amr>

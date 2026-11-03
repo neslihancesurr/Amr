@@ -1,0 +1,24 @@
+<Amr sentence="Ne Ayşe ne ben yalandan hoşlanmıyoruz .">
+<Word name="6/hoşlan" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="6/hoşlan" to="-" with="polarity"/>
+<Word name="biz" positionX="750" positionY="200"/>
+<Connection from="6/hoşlan" to="biz" with="ARG0"/>
+<Word name="and" positionX="850" positionY="200"/>
+<Connection from="6/hoşlan" to="and"/>
+<Word name="4/ben" positionX="750" positionY="300"/>
+<Connection from="and" to="4/ben" with="ARG0"/>
+<Word name="3/ne" positionX="650" positionY="400"/>
+<Connection from="4/ben" to="3/ne"/>
+<Word name="person" positionX="850" positionY="300"/>
+<Connection from="and" to="person" with="ARG0"/>
+<Word name="name" positionX="750" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/ayşe" positionX="650" positionY="500"/>
+<Connection from="name" to="2/ayşe" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="1/ne" positionX="950" positionY="400"/>
+<Connection from="person" to="1/ne"/>
+<Word name="5/yalan" positionX="950" positionY="200"/>
+<Connection from="6/hoşlan" to="5/yalan" with="ARG1"/>
+</Amr>

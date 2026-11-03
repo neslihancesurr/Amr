@@ -1,0 +1,7 @@
+<Amr sentence="Öğrenciler yarın ders başı yapacaklar .">
+<Word name="3/ders 4/baş 5/yap" positionX="750" positionY="100"/>
+<Word name="1/öğrenci" positionX="650" positionY="200"/>
+<Connection from="3/ders 4/baş 5/yap" to="1/öğrenci" with="ARG0"/>
+<Word name="2/yarın" positionX="750" positionY="200"/>
+<Connection from="3/ders 4/baş 5/yap" to="2/yarın" with="mod"/>
+</Amr>

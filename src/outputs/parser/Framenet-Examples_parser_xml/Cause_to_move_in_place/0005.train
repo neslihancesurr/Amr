@@ -1,0 +1,14 @@
+<Amr sentence="Çatı üstüne binen karlarla çökerdi .">
+<Word name="5/çöker" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/çöker" to="o" with="ARG0"/>
+<Word name="1/çatı" positionX="750" positionY="200"/>
+<Connection from="5/çöker" to="1/çatı" with="ARG1"/>
+<Word name="4/kar" positionX="850" positionY="200"/>
+<Connection from="5/çöker" to="4/kar" with="instrument"/>
+<Word name="3/bin" positionX="750" positionY="300"/>
+<Connection from="4/kar" to="3/bin"/>
+<Word name="2/üst" positionX="650" positionY="400"/>
+<Connection from="3/bin" to="2/üst"/>
+<Connection from="2/üst" to="o" with="poss"/>
+</Amr>

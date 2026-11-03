@@ -1,0 +1,12 @@
+<Amr sentence="Herkesi bu kadar oyalaması ayıptı .">
+<Word name="5/ayıp" positionX="750" positionY="100"/>
+<Word name="4/oyalama" positionX="650" positionY="200"/>
+<Connection from="5/ayıp" to="4/oyalama"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/oyalama" to="o" with="poss"/>
+<Word name="1/herkes" positionX="650" positionY="300"/>
+<Connection from="4/oyalama" to="1/herkes"/>
+<Connection from="1/herkes" to="o" with="poss"/>
+<Word name="2/bu 3/kadar" positionX="750" positionY="300"/>
+<Connection from="4/oyalama" to="2/bu 3/kadar" with="extent"/>
+</Amr>

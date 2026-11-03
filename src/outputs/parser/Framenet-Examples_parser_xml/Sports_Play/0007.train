@@ -1,0 +1,25 @@
+<Amr sentence="Her yaz birkaç hafta güney sahillerinde konaklar ve bol bol yüzerim .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="11/yüz" positionX="650" positionY="200"/>
+<Connection from="and" to="11/yüz" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="11/yüz" to="ben" with="ARG0"/>
+<Word name="9/bol 10/bol" positionX="650" positionY="300"/>
+<Connection from="11/yüz" to="9/bol 10/bol"/>
+<Word name="7/konakla" positionX="750" positionY="200"/>
+<Connection from="and" to="7/konakla" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="7/konakla" to="o" with="ARG0"/>
+<Word name="2/yaz" positionX="750" positionY="300"/>
+<Connection from="7/konakla" to="2/yaz"/>
+<Word name="1/her" positionX="650" positionY="400"/>
+<Connection from="2/yaz" to="1/her" with="mod"/>
+<Word name="4/hafta" positionX="850" positionY="300"/>
+<Connection from="7/konakla" to="4/hafta"/>
+<Word name="3/birkaç" positionX="750" positionY="400"/>
+<Connection from="4/hafta" to="3/birkaç" with="mod"/>
+<Word name="6/sahil" positionX="950" positionY="300"/>
+<Connection from="7/konakla" to="6/sahil" with="location"/>
+<Word name="5/güney" positionX="850" positionY="400"/>
+<Connection from="6/sahil" to="5/güney" with="mod"/>
+</Amr>

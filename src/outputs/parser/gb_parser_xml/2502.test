@@ -1,0 +1,24 @@
+<Amr sentence="Geç vakit çalışıyor olursak bir yerlerden sıcak yemek getirtiyoruz .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="9/getir" positionX="650" positionY="200"/>
+<Connection from="yap" to="9/getir"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="9/getir" to="biz" with="ARG0"/>
+<Word name="4/ol" positionX="650" positionY="300"/>
+<Connection from="9/getir" to="4/ol" with="cond"/>
+<Connection from="4/ol" to="biz" with="ARG0"/>
+<Word name="3/çalış" positionX="650" positionY="400"/>
+<Connection from="4/ol" to="3/çalış"/>
+<Word name="o" positionX="550" positionY="500"/>
+<Connection from="3/çalış" to="o" with="ARG0"/>
+<Word name="2/vakit" positionX="650" positionY="500"/>
+<Connection from="3/çalış" to="2/vakit"/>
+<Word name="1/geç" positionX="550" positionY="600"/>
+<Connection from="2/vakit" to="1/geç" with="mod"/>
+<Word name="6/yer" positionX="750" positionY="300"/>
+<Connection from="9/getir" to="6/yer"/>
+<Word name="8/yemek" positionX="850" positionY="300"/>
+<Connection from="9/getir" to="8/yemek"/>
+<Word name="7/sıcak" positionX="750" positionY="400"/>
+<Connection from="8/yemek" to="7/sıcak" with="mod"/>
+</Amr>

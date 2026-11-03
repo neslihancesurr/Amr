@@ -1,0 +1,33 @@
+<Amr sentence="Ahmet artık çalışsa da çalışmasa da sınavı geçemez .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="8/geç" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="8/geç"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="8/geç" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="8/geç" to="o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="8/geç" to="person"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ahmet" positionX="550" positionY="500"/>
+<Connection from="name" to="1/ahmet" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/artık" positionX="850" positionY="300"/>
+<Connection from="8/geç" to="2/artık" with="manner"/>
+<Word name="and" positionX="950" positionY="300"/>
+<Connection from="8/geç" to="and"/>
+<Word name="5/çalış" positionX="850" positionY="400"/>
+<Connection from="and" to="5/çalış" with="op1"/>
+<Connection from="5/çalış" to="-" with="polarity"/>
+<Connection from="5/çalış" to="o" with="ARG0"/>
+<Word name="6/da" positionX="950" positionY="500"/>
+<Connection from="5/çalış" to="6/da"/>
+<Word name="3/çalış" positionX="950" positionY="400"/>
+<Connection from="and" to="3/çalış" with="op2"/>
+<Connection from="3/çalış" to="o" with="ARG0"/>
+<Word name="4/da" positionX="950" positionY="500"/>
+<Connection from="3/çalış" to="4/da"/>
+<Word name="7/sınav" positionX="1050" positionY="300"/>
+<Connection from="8/geç" to="7/sınav"/>
+</Amr>

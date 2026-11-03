@@ -1,0 +1,34 @@
+<Amr sentence="Sizler , Ankara'lı ve İstanbul'lular , Türkiye'nin geri kalanını tanımıyorsunuz .">
+<Word name="10/tanı" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="10/tanı" to="-" with="polarity"/>
+<Word name="1/siz" positionX="750" positionY="200"/>
+<Connection from="10/tanı" to="1/siz" with="ARG0"/>
+<Word name="and" positionX="650" positionY="300"/>
+<Connection from="1/siz" to="and"/>
+<Word name="city" positionX="550" positionY="400"/>
+<Connection from="and" to="city" with="op1"/>
+<Word name="name" positionX="450" positionY="500"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="5/istanbul" positionX="350" positionY="600"/>
+<Connection from="name" to="5/istanbul" with="op1"/>
+<Word name="istanbul" positionX="550" positionY="500"/>
+<Connection from="city" to="istanbul" with="wiki"/>
+<Word name="person" positionX="650" positionY="400"/>
+<Connection from="and" to="person" with="op2"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/ankara" positionX="450" positionY="600"/>
+<Connection from="name" to="3/ankara" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="9/kal" positionX="850" positionY="200"/>
+<Connection from="10/tanı" to="9/kal" with="ARG1"/>
+<Word name="sen" positionX="750" positionY="300"/>
+<Connection from="9/kal" to="sen" with="ARG0"/>
+<Connection from="9/kal" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="7/türkiye" positionX="650" positionY="500"/>
+<Connection from="name" to="7/türkiye" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="8/geri" positionX="950" positionY="300"/>
+<Connection from="9/kal" to="8/geri" with="manner"/>
+</Amr>

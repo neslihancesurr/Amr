@@ -1,0 +1,7 @@
+<Amr sentence="Onlardan bu teknolojinin ilmini aldık .">
+<Word name="4/ilim 5/al" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="4/ilim 5/al" to="biz" with="ARG0"/>
+<Word name="1/o" positionX="750" positionY="200"/>
+<Connection from="4/ilim 5/al" to="1/o"/>
+</Amr>

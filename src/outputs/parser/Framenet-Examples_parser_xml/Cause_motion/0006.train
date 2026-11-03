@@ -1,0 +1,10 @@
+<Amr sentence="Kızını yurtdışına gönderdi .">
+<Word name="3/gönder" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/gönder" to="o" with="ARG0"/>
+<Word name="1/kız" positionX="750" positionY="200"/>
+<Connection from="3/gönder" to="1/kız" with="ARG1"/>
+<Connection from="1/kız" to="o" with="poss"/>
+<Word name="2/yurtdışına" positionX="850" positionY="200"/>
+<Connection from="3/gönder" to="2/yurtdışına"/>
+</Amr>

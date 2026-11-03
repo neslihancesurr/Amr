@@ -1,0 +1,11 @@
+<Amr sentence="Evde kimse yok mu ?">
+<Word name="3/yok" positionX="750" positionY="100"/>
+<Word name="1/ev" positionX="650" positionY="200"/>
+<Connection from="3/yok" to="1/ev" with="location"/>
+<Word name="2/kimse" positionX="750" positionY="200"/>
+<Connection from="3/yok" to="2/kimse"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/kimse" to="o" with="poss"/>
+<Word name="4/mi" positionX="850" positionY="200"/>
+<Connection from="3/yok" to="4/mi"/>
+</Amr>

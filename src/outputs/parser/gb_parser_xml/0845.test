@@ -1,0 +1,15 @@
+<Amr sentence="Şarkıyı Fransızca söyledi .">
+<Word name="3/söyle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/söyle" to="o" with="ARG0"/>
+<Word name="1/şarkı" positionX="750" positionY="200"/>
+<Connection from="3/söyle" to="1/şarkı" with="ARG1"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="3/söyle" to="person"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/fransızca" positionX="650" positionY="400"/>
+<Connection from="name" to="2/fransızca" with="op1"/>
+<Word name="-" positionX="850" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Çok şükür şu inşaatın da arkasını aldık .">
+<Word name="6/arka 7/al" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="6/arka 7/al" to="biz" with="ARG0"/>
+<Word name="1/çok 2/şükür" positionX="750" positionY="200"/>
+<Connection from="6/arka 7/al" to="1/çok 2/şükür" with="mod"/>
+<Word name="4/inşaat" positionX="850" positionY="200"/>
+<Connection from="6/arka 7/al" to="4/inşaat" with="ARG1"/>
+<Word name="3/şu" positionX="750" positionY="300"/>
+<Connection from="4/inşaat" to="3/şu" with="mod"/>
+<Word name="5/da" positionX="850" positionY="300"/>
+<Connection from="4/inşaat" to="5/da" with="manner"/>
+</Amr>

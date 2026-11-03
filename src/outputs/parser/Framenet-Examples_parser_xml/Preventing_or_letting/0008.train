@@ -1,0 +1,20 @@
+<Amr sentence="Bu inşaatı bitirmemize kimse mani olamayacak .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="5/mani 6/ol" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="5/mani 6/ol"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="5/mani 6/ol" to="-" with="polarity"/>
+<Word name="3/bitir" positionX="650" positionY="300"/>
+<Connection from="5/mani 6/ol" to="3/bitir" with="ARG1"/>
+<Word name="biz" positionX="550" positionY="400"/>
+<Connection from="3/bitir" to="biz" with="ARG0"/>
+<Word name="2/inşaat" positionX="650" positionY="400"/>
+<Connection from="3/bitir" to="2/inşaat"/>
+<Word name="o" positionX="550" positionY="500"/>
+<Connection from="2/inşaat" to="o" with="poss"/>
+<Word name="1/bu" positionX="650" positionY="500"/>
+<Connection from="2/inşaat" to="1/bu" with="mod"/>
+<Word name="4/kimse" positionX="750" positionY="300"/>
+<Connection from="5/mani 6/ol" to="4/kimse" with="ARG0"/>
+<Connection from="4/kimse" to="o" with="poss"/>
+</Amr>

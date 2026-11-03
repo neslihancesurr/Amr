@@ -1,0 +1,12 @@
+<Amr sentence="karısı ve kendisi için">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/kendi" positionX="650" positionY="200"/>
+<Connection from="and" to="3/kendi" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/kendi" to="o" with="poss"/>
+<Word name="1/karı" positionX="750" positionY="200"/>
+<Connection from="and" to="1/karı" with="op2"/>
+<Connection from="1/karı" to="o" with="poss"/>
+<Word name="4/için" positionX="750" positionY="300"/>
+<Connection from="1/karı" to="4/için"/>
+</Amr>

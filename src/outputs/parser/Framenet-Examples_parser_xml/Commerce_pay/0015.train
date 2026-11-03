@@ -1,0 +1,17 @@
+<Amr sentence="Palas pandıras evden fırlayıp bir de üstüne o kadar taksi parası bayıldı .">
+<Word name="12/bayıl" positionX="750" positionY="100"/>
+<Word name="4/fırla" positionX="650" positionY="200"/>
+<Connection from="12/bayıl" to="4/fırla"/>
+<Word name="1/palas 2/pandıras" positionX="550" positionY="300"/>
+<Connection from="4/fırla" to="1/palas 2/pandıras"/>
+<Word name="3/ev" positionX="650" positionY="300"/>
+<Connection from="4/fırla" to="3/ev"/>
+<Word name="7/üst" positionX="750" positionY="200"/>
+<Connection from="12/bayıl" to="7/üst" with="mod"/>
+<Word name="11/para" positionX="850" positionY="200"/>
+<Connection from="12/bayıl" to="11/para" with="ARG1"/>
+<Word name="8/o 9/kadar" positionX="750" positionY="300"/>
+<Connection from="11/para" to="8/o 9/kadar" with="mod"/>
+<Word name="10/taksi" positionX="850" positionY="300"/>
+<Connection from="11/para" to="10/taksi" with="mod"/>
+</Amr>

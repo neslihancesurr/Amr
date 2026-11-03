@@ -1,0 +1,15 @@
+<Amr sentence="Öyle söylemekle bana hakaret etmiş oluyorsun .">
+<Word name="4/hakaret 5/et" positionX="750" positionY="100"/>
+<Word name="2/söyle" positionX="650" positionY="200"/>
+<Connection from="4/hakaret 5/et" to="2/söyle"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/söyle" to="o" with="ARG0"/>
+<Word name="1/öyle" positionX="650" positionY="300"/>
+<Connection from="2/söyle" to="1/öyle" with="manner"/>
+<Word name="3/ben" positionX="750" positionY="200"/>
+<Connection from="4/hakaret 5/et" to="3/ben"/>
+<Word name="6/ol" positionX="850" positionY="200"/>
+<Connection from="4/hakaret 5/et" to="6/ol"/>
+<Word name="sen" positionX="750" positionY="300"/>
+<Connection from="6/ol" to="sen" with="ARG0"/>
+</Amr>

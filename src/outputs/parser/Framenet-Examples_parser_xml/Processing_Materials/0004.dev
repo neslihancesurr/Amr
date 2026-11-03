@@ -1,0 +1,7 @@
+<Amr sentence="Malzemeler tornalandı .">
+<Word name="2/tornala" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="2/tornala" to="o" with="ARG0"/>
+<Word name="1/malzeme" positionX="750" positionY="200"/>
+<Connection from="2/tornala" to="1/malzeme" with="ARG1"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Alakasız sorular sorarak vakit kazanıyordum .">
+<Word name="4/vakit 5/kazan" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/vakit 5/kazan" to="ben" with="ARG0"/>
+<Word name="2/soru 3/sor" positionX="750" positionY="200"/>
+<Connection from="4/vakit 5/kazan" to="2/soru 3/sor"/>
+<Word name="1/alaka" positionX="650" positionY="300"/>
+<Connection from="2/soru 3/sor" to="1/alaka" with="ARG1"/>
+</Amr>

@@ -1,0 +1,26 @@
+<Amr sentence="Evlerin bir tarafını yol , üç tarafını da yine çam ormanları kaplar .">
+<Word name="12/kapla" positionX="750" positionY="100"/>
+<Word name="and" positionX="650" positionY="200"/>
+<Connection from="12/kapla" to="and"/>
+<Word name="7/taraf" positionX="550" positionY="300"/>
+<Connection from="and" to="7/taraf" with="op1"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="7/taraf" to="o" with="poss"/>
+<Word name="6/üç" positionX="550" positionY="400"/>
+<Connection from="7/taraf" to="6/üç"/>
+<Word name="8/da" positionX="650" positionY="400"/>
+<Connection from="7/taraf" to="8/da"/>
+<Word name="3/taraf" positionX="650" positionY="300"/>
+<Connection from="and" to="3/taraf" with="ARG1"/>
+<Word name="1/ev" positionX="550" positionY="400"/>
+<Connection from="3/taraf" to="1/ev" with="mod"/>
+<Connection from="12/kapla" to="and"/>
+<Word name="11/orman" positionX="650" positionY="300"/>
+<Connection from="and" to="11/orman" with="ARG0"/>
+<Word name="10/çam" positionX="550" positionY="400"/>
+<Connection from="11/orman" to="10/çam" with="mod"/>
+<Word name="4/yol" positionX="750" positionY="300"/>
+<Connection from="and" to="4/yol" with="op2"/>
+<Word name="9/yine" positionX="850" positionY="200"/>
+<Connection from="12/kapla" to="9/yine" with="manner"/>
+</Amr>

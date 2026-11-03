@@ -1,0 +1,11 @@
+<Amr sentence="Erken emeklilik , kendi isteğimdi .">
+<Word name="5/istek" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/istek" to="ben" with="poss"/>
+<Word name="2/emeklilik" positionX="750" positionY="200"/>
+<Connection from="5/istek" to="2/emeklilik"/>
+<Word name="1/erken" positionX="650" positionY="300"/>
+<Connection from="2/emeklilik" to="1/erken" with="mod"/>
+<Word name="4/kendi" positionX="850" positionY="200"/>
+<Connection from="5/istek" to="4/kendi" with="mod"/>
+</Amr>

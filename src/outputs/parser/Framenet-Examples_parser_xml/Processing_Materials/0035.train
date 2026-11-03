@@ -1,0 +1,7 @@
+<Amr sentence="Yollar yarın ziftlenecek .">
+<Word name="3/ziftle" positionX="750" positionY="100"/>
+<Word name="1/yol" positionX="650" positionY="200"/>
+<Connection from="3/ziftle" to="1/yol" with="ARG1"/>
+<Word name="2/yarın" positionX="750" positionY="200"/>
+<Connection from="3/ziftle" to="2/yarın" with="mod"/>
+</Amr>

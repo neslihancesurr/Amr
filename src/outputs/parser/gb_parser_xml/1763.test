@@ -1,0 +1,15 @@
+<Amr sentence="Artık buraya afiş asılmasın .">
+<Word name="4/as" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/as" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="4/as" to="o" with="ARG0"/>
+<Word name="imperative" positionX="850" positionY="200"/>
+<Connection from="4/as" to="imperative" with="mode"/>
+<Word name="1/artık" positionX="950" positionY="200"/>
+<Connection from="4/as" to="1/artık" with="manner"/>
+<Word name="2/bura" positionX="1050" positionY="200"/>
+<Connection from="4/as" to="2/bura"/>
+<Word name="3/afiş" positionX="1150" positionY="200"/>
+<Connection from="4/as" to="3/afiş"/>
+</Amr>

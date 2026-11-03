@@ -1,0 +1,26 @@
+<Amr sentence="Mustafa fikrini sonra değiştirecek olursa hoş karşılamalıyız .">
+<Word name="gerek" positionX="750" positionY="100"/>
+<Word name="6/hoş 7/karşıla" positionX="650" positionY="200"/>
+<Connection from="gerek" to="6/hoş 7/karşıla"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="6/hoş 7/karşıla" to="biz" with="ARG0"/>
+<Word name="5/ol" positionX="650" positionY="300"/>
+<Connection from="6/hoş 7/karşıla" to="5/ol" with="cond"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="5/ol" to="o" with="ARG0"/>
+<Word name="4/değiştir" positionX="650" positionY="400"/>
+<Connection from="5/ol" to="4/değiştir"/>
+<Word name="person" positionX="550" positionY="500"/>
+<Connection from="4/değiştir" to="person"/>
+<Word name="name" positionX="450" positionY="600"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/mustafa" positionX="350" positionY="700"/>
+<Connection from="name" to="1/mustafa" with="op1"/>
+<Word name="-" positionX="550" positionY="600"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/fikir" positionX="650" positionY="500"/>
+<Connection from="4/değiştir" to="2/fikir"/>
+<Connection from="2/fikir" to="o" with="poss"/>
+<Word name="3/sonra" positionX="750" positionY="500"/>
+<Connection from="4/değiştir" to="3/sonra" with="manner"/>
+</Amr>

@@ -1,0 +1,19 @@
+<Amr sentence="Elini kaldırdı , alnından terler akıyordu , yutkunarak kurşun sıktı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/el 2/kaldır" positionX="650" positionY="200"/>
+<Connection from="and" to="1/el 2/kaldır" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/el 2/kaldır" to="o" with="ARG0"/>
+<Word name="6/ak" positionX="750" positionY="200"/>
+<Connection from="and" to="6/ak" with="op2"/>
+<Word name="4/alın" positionX="650" positionY="300"/>
+<Connection from="6/ak" to="4/alın" with="ARG1"/>
+<Connection from="4/alın" to="o" with="poss"/>
+<Word name="5/ter" positionX="750" positionY="300"/>
+<Connection from="6/ak" to="5/ter" with="ARG0"/>
+<Word name="9/kurşun 10/sık" positionX="850" positionY="200"/>
+<Connection from="and" to="9/kurşun 10/sık" with="op3"/>
+<Connection from="9/kurşun 10/sık" to="o" with="ARG0"/>
+<Word name="8/yutkun" positionX="850" positionY="300"/>
+<Connection from="9/kurşun 10/sık" to="8/yutkun"/>
+</Amr>

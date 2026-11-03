@@ -1,0 +1,21 @@
+<Amr sentence="Yıllardır esir olduğu kaleden onu Mario kurtardı .">
+<Word name="7/kurtar" positionX="750" positionY="100"/>
+<Word name="4/kale" positionX="650" positionY="200"/>
+<Connection from="7/kurtar" to="4/kale" with="ARG2"/>
+<Word name="3/ol" positionX="550" positionY="300"/>
+<Connection from="4/kale" to="3/ol"/>
+<Word name="1/yıllar" positionX="450" positionY="400"/>
+<Connection from="3/ol" to="1/yıllar" with="mod"/>
+<Word name="2/esir" positionX="550" positionY="400"/>
+<Connection from="3/ol" to="2/esir"/>
+<Word name="5/o" positionX="750" positionY="200"/>
+<Connection from="7/kurtar" to="5/o" with="ARG1"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="7/kurtar" to="person" with="ARG0"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="6/mario" positionX="650" positionY="400"/>
+<Connection from="name" to="6/mario" with="op1"/>
+<Word name="-" positionX="850" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

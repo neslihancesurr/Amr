@@ -1,0 +1,11 @@
+<Amr sentence="Baban bana fena giydirdi .">
+<Word name="4/giydir" positionX="750" positionY="100"/>
+<Word name="1/baba" positionX="650" positionY="200"/>
+<Connection from="4/giydir" to="1/baba" with="ARG0"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="1/baba" to="sen" with="poss"/>
+<Word name="2/ben" positionX="750" positionY="200"/>
+<Connection from="4/giydir" to="2/ben" with="ARG1"/>
+<Word name="3/fena" positionX="850" positionY="200"/>
+<Connection from="4/giydir" to="3/fena" with="manner"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Çocukluğumdan beri sık sık boğaz olurdum .">
+<Word name="5/boğaz 6/ol" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/boğaz 6/ol" to="ben" with="ARG0"/>
+<Word name="1/çocukluk" positionX="750" positionY="200"/>
+<Connection from="5/boğaz 6/ol" to="1/çocukluk" with="mod"/>
+<Word name="2/beri" positionX="650" positionY="300"/>
+<Connection from="1/çocukluk" to="2/beri"/>
+<Word name="3/sık 4/sık" positionX="850" positionY="200"/>
+<Connection from="5/boğaz 6/ol" to="3/sık 4/sık"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="İneğin sütü peynirleşiyor .">
+<Word name="3/peynirleş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/peynirleş" to="o" with="ARG0"/>
+<Word name="2/süt" positionX="750" positionY="200"/>
+<Connection from="3/peynirleş" to="2/süt" with="ARG1"/>
+<Word name="1/inek" positionX="650" positionY="300"/>
+<Connection from="2/süt" to="1/inek" with="mod"/>
+</Amr>

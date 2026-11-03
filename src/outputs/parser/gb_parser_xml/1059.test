@@ -1,0 +1,17 @@
+<Amr sentence="Yemekten biraz sonra Ahmet işine döndü .">
+<Word name="5/iş 6/dön" positionX="750" positionY="100"/>
+<Word name="1/yemek" positionX="650" positionY="200"/>
+<Connection from="5/iş 6/dön" to="1/yemek"/>
+<Word name="3/sonra" positionX="550" positionY="300"/>
+<Connection from="1/yemek" to="3/sonra"/>
+<Word name="2/biraz" positionX="450" positionY="400"/>
+<Connection from="3/sonra" to="2/biraz" with="manner"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="5/iş 6/dön" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="4/ahmet" positionX="550" positionY="400"/>
+<Connection from="name" to="4/ahmet" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

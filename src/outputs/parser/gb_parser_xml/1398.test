@@ -1,0 +1,20 @@
+<Amr sentence="Aranızdan hangisi bu işte gönüllü olarak çalışmak istiyor ?">
+<Word name="8/iste" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="8/iste" to="o" with="ARG0"/>
+<Word name="2/hangi" positionX="750" positionY="200"/>
+<Connection from="8/iste" to="2/hangi"/>
+<Connection from="2/hangi" to="o" with="poss"/>
+<Word name="1/ara" positionX="750" positionY="300"/>
+<Connection from="2/hangi" to="1/ara"/>
+<Word name="siz" positionX="650" positionY="400"/>
+<Connection from="1/ara" to="siz" with="poss"/>
+<Word name="7/çalış" positionX="850" positionY="200"/>
+<Connection from="8/iste" to="7/çalış" with="ARG1"/>
+<Word name="4/iş" positionX="750" positionY="300"/>
+<Connection from="7/çalış" to="4/iş" with="location"/>
+<Word name="3/bu" positionX="650" positionY="400"/>
+<Connection from="4/iş" to="3/bu" with="mod"/>
+<Word name="5/gönüllü 6/ol" positionX="850" positionY="300"/>
+<Connection from="7/çalış" to="5/gönüllü 6/ol" with="manner"/>
+</Amr>

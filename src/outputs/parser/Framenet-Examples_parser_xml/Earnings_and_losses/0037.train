@@ -1,0 +1,19 @@
+<Amr sentence="Ayna ithal edermiş , sonra iflas etmiş , az buçuk oynatmış .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/ithal 3/et" positionX="650" positionY="200"/>
+<Connection from="and" to="2/ithal 3/et" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/ithal 3/et" to="o" with="ARG0"/>
+<Word name="1/ayna" positionX="650" positionY="300"/>
+<Connection from="2/ithal 3/et" to="1/ayna" with="ARG1"/>
+<Word name="6/iflas 7/et" positionX="750" positionY="200"/>
+<Connection from="and" to="6/iflas 7/et" with="op2"/>
+<Connection from="6/iflas 7/et" to="o" with="ARG0"/>
+<Word name="5/sonra" positionX="750" positionY="300"/>
+<Connection from="6/iflas 7/et" to="5/sonra" with="manner"/>
+<Word name="11/oynat" positionX="850" positionY="200"/>
+<Connection from="and" to="11/oynat" with="op3"/>
+<Connection from="11/oynat" to="o" with="ARG0"/>
+<Word name="9/az 10/buçuk" positionX="850" positionY="300"/>
+<Connection from="11/oynat" to="9/az 10/buçuk"/>
+</Amr>

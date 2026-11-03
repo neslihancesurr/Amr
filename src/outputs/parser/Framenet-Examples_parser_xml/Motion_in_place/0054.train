@@ -1,0 +1,7 @@
+<Amr sentence="Balıkçı , sandalı tumba etti .">
+<Word name="4/tumba 5/et" positionX="750" positionY="100"/>
+<Word name="1/balık" positionX="650" positionY="200"/>
+<Connection from="4/tumba 5/et" to="1/balık" with="ARG0"/>
+<Word name="3/sandal" positionX="750" positionY="200"/>
+<Connection from="4/tumba 5/et" to="3/sandal" with="ARG1"/>
+</Amr>

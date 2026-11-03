@@ -1,0 +1,9 @@
+<Amr sentence="arkadaşların alacakları televizyon">
+<Word name="3/televizyon" positionX="750" positionY="100"/>
+<Word name="2/al" positionX="650" positionY="200"/>
+<Connection from="3/televizyon" to="2/al"/>
+<Word name="onlar" positionX="550" positionY="300"/>
+<Connection from="2/al" to="onlar" with="poss"/>
+<Word name="1/arkadaş" positionX="650" positionY="300"/>
+<Connection from="2/al" to="1/arkadaş"/>
+</Amr>

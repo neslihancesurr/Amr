@@ -1,0 +1,11 @@
+<Amr sentence="Durduk yere bize ahkâm çıkardı .">
+<Word name="4/ahkâm 5/çık" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/ahkâm 5/çık" to="o" with="ARG0"/>
+<Word name="2/yer" positionX="750" positionY="200"/>
+<Connection from="4/ahkâm 5/çık" to="2/yer" with="mod"/>
+<Word name="1/dur" positionX="650" positionY="300"/>
+<Connection from="2/yer" to="1/dur"/>
+<Word name="3/biz" positionX="850" positionY="200"/>
+<Connection from="4/ahkâm 5/çık" to="3/biz" with="ARG1"/>
+</Amr>

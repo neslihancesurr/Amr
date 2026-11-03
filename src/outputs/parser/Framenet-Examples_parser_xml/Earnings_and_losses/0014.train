@@ -1,0 +1,17 @@
+<Amr sentence="Papaz , Trabzon'a sürülünce nasılsa tüyleniverdi .">
+<Word name="6/tüylen" positionX="750" positionY="100"/>
+<Word name="1/papaz" positionX="650" positionY="200"/>
+<Connection from="6/tüylen" to="1/papaz" with="ARG0"/>
+<Word name="4/sür" positionX="750" positionY="200"/>
+<Connection from="6/tüylen" to="4/sür"/>
+<Word name="city" positionX="650" positionY="300"/>
+<Connection from="4/sür" to="city" with="ARG2"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="3/trabzon" positionX="450" positionY="500"/>
+<Connection from="name" to="3/trabzon" with="op1"/>
+<Word name="trabzon" positionX="650" positionY="400"/>
+<Connection from="city" to="trabzon" with="wiki"/>
+<Word name="5/nasılsa" positionX="850" positionY="200"/>
+<Connection from="6/tüylen" to="5/nasılsa" with="manner"/>
+</Amr>

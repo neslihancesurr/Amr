@@ -1,0 +1,7 @@
+<Amr sentence="Ben şimdiden üşüyorum .">
+<Word name="3/üşü" positionX="750" positionY="100"/>
+<Word name="1/ben" positionX="650" positionY="200"/>
+<Connection from="3/üşü" to="1/ben" with="ARG0"/>
+<Word name="2/şimdiden" positionX="750" positionY="200"/>
+<Connection from="3/üşü" to="2/şimdiden" with="manner"/>
+</Amr>

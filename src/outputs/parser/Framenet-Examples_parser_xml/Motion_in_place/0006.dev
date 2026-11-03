@@ -1,0 +1,5 @@
+<Amr sentence="Sular indi .">
+<Word name="2/in" positionX="750" positionY="100"/>
+<Word name="1/sula" positionX="650" positionY="200"/>
+<Connection from="2/in" to="1/sula" with="ARG0"/>
+</Amr>

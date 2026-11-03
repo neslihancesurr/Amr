@@ -1,0 +1,9 @@
+<Amr sentence="Bu olaylar genellikle birbiriyle ilgili oluyor .">
+<Word name="5/ilgili 6/ol" positionX="750" positionY="100"/>
+<Word name="2/olay" positionX="650" positionY="200"/>
+<Connection from="5/ilgili 6/ol" to="2/olay" with="ARG0"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/olay" to="1/bu" with="mod"/>
+<Word name="3/genellikle" positionX="750" positionY="200"/>
+<Connection from="5/ilgili 6/ol" to="3/genellikle" with="manner"/>
+</Amr>

@@ -1,0 +1,19 @@
+<Amr sentence="Acımasızca oynuyordu , rakibini saniyeler içinde kaput etti .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/oyna" positionX="650" positionY="200"/>
+<Connection from="and" to="2/oyna" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/oyna" to="o" with="ARG0"/>
+<Word name="1/acımasız" positionX="650" positionY="300"/>
+<Connection from="2/oyna" to="1/acımasız" with="manner"/>
+<Word name="7/kaput 8/et" positionX="750" positionY="200"/>
+<Connection from="and" to="7/kaput 8/et" with="op2"/>
+<Connection from="7/kaput 8/et" to="o" with="ARG0"/>
+<Word name="4/rakip" positionX="750" positionY="300"/>
+<Connection from="7/kaput 8/et" to="4/rakip" with="ARG1"/>
+<Connection from="4/rakip" to="o" with="poss"/>
+<Word name="6/içinde" positionX="850" positionY="300"/>
+<Connection from="7/kaput 8/et" to="6/içinde" with="manner"/>
+<Word name="5/saniye" positionX="750" positionY="400"/>
+<Connection from="6/içinde" to="5/saniye" with="mod"/>
+</Amr>

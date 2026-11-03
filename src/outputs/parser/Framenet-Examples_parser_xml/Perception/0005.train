@@ -1,0 +1,14 @@
+<Amr sentence="Bu sorunun çıkacağını önceden sezmiştim .">
+<Word name="5/sez" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/sez" to="ben" with="ARG0"/>
+<Word name="2/sorun 3/çık" positionX="750" positionY="200"/>
+<Connection from="5/sez" to="2/sorun 3/çık" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/sorun 3/çık" to="o" with="ARG0"/>
+<Connection from="2/sorun 3/çık" to="o" with="poss"/>
+<Word name="1/bu" positionX="850" positionY="300"/>
+<Connection from="2/sorun 3/çık" to="1/bu" with="ARG1"/>
+<Word name="4/önceden" positionX="850" positionY="200"/>
+<Connection from="5/sez" to="4/önceden" with="manner"/>
+</Amr>

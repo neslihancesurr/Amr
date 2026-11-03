@@ -1,0 +1,14 @@
+<Amr sentence="Arkadaşlarıyla buluşup kahve içerken derdini döktü .">
+<Word name="5/dert 6/dök" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/dert 6/dök" to="o" with="ARG0"/>
+<Word name="4/iç" positionX="750" positionY="200"/>
+<Connection from="5/dert 6/dök" to="4/iç"/>
+<Word name="2/buluş" positionX="650" positionY="300"/>
+<Connection from="4/iç" to="2/buluş"/>
+<Word name="1/arkadaş" positionX="550" positionY="400"/>
+<Connection from="2/buluş" to="1/arkadaş" with="ARG1"/>
+<Connection from="1/arkadaş" to="o" with="poss"/>
+<Word name="3/kahve" positionX="750" positionY="300"/>
+<Connection from="4/iç" to="3/kahve" with="ARG1"/>
+</Amr>

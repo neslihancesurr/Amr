@@ -1,0 +1,7 @@
+<Amr sentence="beş metrelik bir kablo">
+<Word name="4/kablo" positionX="750" positionY="100"/>
+<Word name="2/metrelik" positionX="650" positionY="200"/>
+<Connection from="4/kablo" to="2/metrelik" with="mod"/>
+<Word name="1/beş" positionX="550" positionY="300"/>
+<Connection from="2/metrelik" to="1/beş"/>
+</Amr>

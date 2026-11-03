@@ -1,0 +1,17 @@
+<Amr sentence="Gece yanına gittiğimde alnı ateş gibi yanıyordu .">
+<Word name="5/ateş 6/gibi 7/yan" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/ateş 6/gibi 7/yan" to="o" with="ARG0"/>
+<Word name="3/git" positionX="750" positionY="200"/>
+<Connection from="5/ateş 6/gibi 7/yan" to="3/git"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="3/git" to="ben" with="ARG0"/>
+<Word name="1/gece" positionX="750" positionY="300"/>
+<Connection from="3/git" to="1/gece" with="mod"/>
+<Word name="2/yan" positionX="850" positionY="300"/>
+<Connection from="3/git" to="2/yan" with="ARG1"/>
+<Connection from="2/yan" to="o" with="poss"/>
+<Word name="4/alın" positionX="850" positionY="200"/>
+<Connection from="5/ateş 6/gibi 7/yan" to="4/alın" with="ARG1"/>
+<Connection from="4/alın" to="o" with="poss"/>
+</Amr>

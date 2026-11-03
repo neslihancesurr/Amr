@@ -1,0 +1,25 @@
+<Amr sentence="Muhtarla hiç aram yoktu , babamın sağlığından beri aramızda bir inatlaşma süregeliyordu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/yok" positionX="650" positionY="200"/>
+<Connection from="and" to="4/yok" with="op1"/>
+<Word name="1/muhtar" positionX="550" positionY="300"/>
+<Connection from="4/yok" to="1/muhtar" with="instrument"/>
+<Word name="2/hiç" positionX="650" positionY="300"/>
+<Connection from="4/yok" to="2/hiç" with="degree"/>
+<Word name="3/ara" positionX="750" positionY="300"/>
+<Connection from="4/yok" to="3/ara"/>
+<Word name="ben" positionX="650" positionY="400"/>
+<Connection from="3/ara" to="ben" with="poss"/>
+<Word name="12/süregel" positionX="750" positionY="200"/>
+<Connection from="and" to="12/süregel" with="op2"/>
+<Word name="7/sağlık" positionX="650" positionY="300"/>
+<Connection from="12/süregel" to="7/sağlık" with="mod"/>
+<Word name="6/baba" positionX="550" positionY="400"/>
+<Connection from="7/sağlık" to="6/baba" with="mod"/>
+<Word name="8/beri" positionX="650" positionY="400"/>
+<Connection from="7/sağlık" to="8/beri"/>
+<Word name="9/ara" positionX="750" positionY="300"/>
+<Connection from="12/süregel" to="9/ara" with="location"/>
+<Word name="11/inatlaşma" positionX="850" positionY="300"/>
+<Connection from="12/süregel" to="11/inatlaşma" with="ARG0"/>
+</Amr>

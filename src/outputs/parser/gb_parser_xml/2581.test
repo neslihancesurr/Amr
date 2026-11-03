@@ -1,0 +1,21 @@
+<Amr sentence="Bu resimlerden hangisini seçerseniz hemen çerçeveletiriz .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="6/çerçevele" positionX="650" positionY="200"/>
+<Connection from="yap" to="6/çerçevele"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="6/çerçevele" to="biz" with="ARG0"/>
+<Word name="4/seç" positionX="650" positionY="300"/>
+<Connection from="6/çerçevele" to="4/seç" with="cond"/>
+<Word name="siz" positionX="550" positionY="400"/>
+<Connection from="4/seç" to="siz" with="ARG0"/>
+<Word name="3/hangi" positionX="650" positionY="400"/>
+<Connection from="4/seç" to="3/hangi" with="ARG1"/>
+<Word name="o" positionX="550" positionY="500"/>
+<Connection from="3/hangi" to="o" with="poss"/>
+<Word name="2/resim" positionX="650" positionY="500"/>
+<Connection from="3/hangi" to="2/resim"/>
+<Word name="1/bu" positionX="550" positionY="600"/>
+<Connection from="2/resim" to="1/bu" with="mod"/>
+<Word name="5/hemen" positionX="750" positionY="300"/>
+<Connection from="6/çerçevele" to="5/hemen" with="manner"/>
+</Amr>

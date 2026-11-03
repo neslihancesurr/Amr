@@ -1,0 +1,12 @@
+<Amr sentence="Numarası aklında kalmamıştı .">
+<Word name="3/kal" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/kal" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="3/kal" to="o" with="ARG0"/>
+<Word name="1/numara" positionX="850" positionY="200"/>
+<Connection from="3/kal" to="1/numara" with="ARG1"/>
+<Connection from="1/numara" to="o" with="poss"/>
+<Word name="2/akıl" positionX="950" positionY="200"/>
+<Connection from="3/kal" to="2/akıl" with="location"/>
+</Amr>

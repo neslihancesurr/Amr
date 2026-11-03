@@ -1,0 +1,9 @@
+<Amr sentence="romandaki her önemli kişi">
+<Word name="4/kişi" positionX="750" positionY="100"/>
+<Word name="1/roman" positionX="650" positionY="200"/>
+<Connection from="4/kişi" to="1/roman" with="mod"/>
+<Word name="2/her" positionX="750" positionY="200"/>
+<Connection from="4/kişi" to="2/her" with="mod"/>
+<Word name="3/önemli" positionX="850" positionY="200"/>
+<Connection from="4/kişi" to="3/önemli" with="mod"/>
+</Amr>

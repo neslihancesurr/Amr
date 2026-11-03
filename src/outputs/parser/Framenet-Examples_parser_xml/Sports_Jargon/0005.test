@@ -1,0 +1,7 @@
+<Amr sentence="Jokey , yarışmada galop yaptı .">
+<Word name="4/galop 5/yap" positionX="750" positionY="100"/>
+<Word name="1/jokey" positionX="650" positionY="200"/>
+<Connection from="4/galop 5/yap" to="1/jokey" with="ARG0"/>
+<Word name="3/yarışma" positionX="750" positionY="200"/>
+<Connection from="4/galop 5/yap" to="3/yarışma" with="ARG1"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Reçel maalesef çok fazla yoğunlaşmış .">
+<Word name="5/yoğunlaş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/yoğunlaş" to="o" with="ARG0"/>
+<Word name="1/reçel" positionX="750" positionY="200"/>
+<Connection from="5/yoğunlaş" to="1/reçel" with="ARG1"/>
+<Word name="2/maalesef" positionX="850" positionY="200"/>
+<Connection from="5/yoğunlaş" to="2/maalesef" with="manner"/>
+<Word name="4/fazla" positionX="950" positionY="200"/>
+<Connection from="5/yoğunlaş" to="4/fazla" with="degree"/>
+<Word name="3/çok" positionX="850" positionY="300"/>
+<Connection from="4/fazla" to="3/çok" with="degree"/>
+</Amr>

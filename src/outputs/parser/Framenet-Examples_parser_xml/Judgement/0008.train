@@ -1,0 +1,11 @@
+<Amr sentence="Bu olaydan hepimizi şaşırtan bir mana çıkarmış .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="6/mana 7/çık" positionX="650" positionY="200"/>
+<Connection from="yap" to="6/mana 7/çık"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="6/mana 7/çık" to="o" with="ARG0"/>
+<Word name="2/olay" positionX="650" positionY="300"/>
+<Connection from="6/mana 7/çık" to="2/olay" with="ARG2"/>
+<Word name="1/bu" positionX="550" positionY="400"/>
+<Connection from="2/olay" to="1/bu" with="mod"/>
+</Amr>

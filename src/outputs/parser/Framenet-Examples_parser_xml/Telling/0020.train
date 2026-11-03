@@ -1,0 +1,9 @@
+<Amr sentence="Bütün cesaretini toplayıp ona yazdı .">
+<Word name="5/yaz" positionX="750" positionY="100"/>
+<Word name="2/cesaret 3/topla" positionX="650" positionY="200"/>
+<Connection from="5/yaz" to="2/cesaret 3/topla"/>
+<Word name="1/bütün" positionX="550" positionY="300"/>
+<Connection from="2/cesaret 3/topla" to="1/bütün" with="mod"/>
+<Word name="4/o" positionX="750" positionY="200"/>
+<Connection from="5/yaz" to="4/o"/>
+</Amr>

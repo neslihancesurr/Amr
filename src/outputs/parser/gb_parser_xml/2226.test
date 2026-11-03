@@ -1,0 +1,15 @@
+<Amr sentence="Fatma'nın dokuduğu halı">
+<Word name="3/halı" positionX="750" positionY="100"/>
+<Word name="2/doku" positionX="650" positionY="200"/>
+<Connection from="3/halı" to="2/doku"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/doku" to="o" with="poss"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="2/doku" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/fatma" positionX="450" positionY="500"/>
+<Connection from="name" to="1/fatma" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

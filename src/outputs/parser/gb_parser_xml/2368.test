@@ -1,0 +1,15 @@
+<Amr sentence="Sen o anda hayalet görmüş gibi sapsarı kesildin .">
+<Word name="7/sapsarı 8/kesil" positionX="750" positionY="100"/>
+<Word name="1/sen" positionX="650" positionY="200"/>
+<Connection from="7/sapsarı 8/kesil" to="1/sen"/>
+<Word name="3/an" positionX="750" positionY="200"/>
+<Connection from="7/sapsarı 8/kesil" to="3/an" with="location"/>
+<Word name="2/o" positionX="650" positionY="300"/>
+<Connection from="3/an" to="2/o" with="mod"/>
+<Word name="5/gör" positionX="850" positionY="200"/>
+<Connection from="7/sapsarı 8/kesil" to="5/gör"/>
+<Word name="4/hayalet" positionX="750" positionY="300"/>
+<Connection from="5/gör" to="4/hayalet"/>
+<Word name="6/gibi" positionX="850" positionY="300"/>
+<Connection from="5/gör" to="6/gibi"/>
+</Amr>

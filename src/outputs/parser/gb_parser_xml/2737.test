@@ -1,0 +1,18 @@
+<Amr sentence="Erol Semra'yı görmek istemiyor .">
+<Word name="4/iste" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/iste" to="-" with="polarity"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="4/iste" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/erol" positionX="550" positionY="400"/>
+<Connection from="name" to="1/erol" with="op1"/>
+<Word name="2/semra" positionX="650" positionY="400"/>
+<Connection from="name" to="2/semra" with="op2"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/gör" positionX="850" positionY="200"/>
+<Connection from="4/iste" to="3/gör" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="3/gör" to="o" with="ARG0"/>
+</Amr>

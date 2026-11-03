@@ -1,0 +1,17 @@
+<Amr sentence="Saatlerdir müzik , kafasının içinde çalıyor sanki , başı tuttu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/çal" positionX="650" positionY="200"/>
+<Connection from="and" to="6/çal" with="op1"/>
+<Word name="1/saat" positionX="550" positionY="300"/>
+<Connection from="6/çal" to="1/saat" with="mod"/>
+<Word name="2/müzik" positionX="650" positionY="300"/>
+<Connection from="6/çal" to="2/müzik" with="ARG0"/>
+<Word name="4/kafa 5/iç" positionX="750" positionY="300"/>
+<Connection from="6/çal" to="4/kafa 5/iç" with="mod"/>
+<Word name="7/sanki" positionX="850" positionY="300"/>
+<Connection from="6/çal" to="7/sanki" with="manner"/>
+<Word name="9/baş 10/tut" positionX="750" positionY="200"/>
+<Connection from="and" to="9/baş 10/tut" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="9/baş 10/tut" to="o" with="ARG0"/>
+</Amr>

@@ -1,0 +1,19 @@
+<Amr sentence="Ben bu metinden o ifadeyi çıkaramadım .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="yap" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="yap"/>
+<Word name="6/çık" positionX="550" positionY="300"/>
+<Connection from="yap" to="6/çık"/>
+<Word name="-" positionX="450" positionY="400"/>
+<Connection from="6/çık" to="-" with="polarity"/>
+<Word name="1/ben" positionX="550" positionY="400"/>
+<Connection from="6/çık" to="1/ben" with="ARG0"/>
+<Word name="3/metin" positionX="650" positionY="400"/>
+<Connection from="6/çık" to="3/metin"/>
+<Word name="2/bu" positionX="550" positionY="500"/>
+<Connection from="3/metin" to="2/bu" with="mod"/>
+<Word name="5/ifade" positionX="750" positionY="400"/>
+<Connection from="6/çık" to="5/ifade" with="ARG1"/>
+<Word name="4/o" positionX="650" positionY="500"/>
+<Connection from="5/ifade" to="4/o" with="mod"/>
+</Amr>

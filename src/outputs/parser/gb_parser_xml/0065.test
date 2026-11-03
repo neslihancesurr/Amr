@@ -1,0 +1,11 @@
+<Amr sentence="Yavaş yavaş gel .">
+<Word name="3/gel" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="3/gel" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="3/gel" to="imperative" with="mode"/>
+<Word name="2/yavaş" positionX="850" positionY="200"/>
+<Connection from="3/gel" to="2/yavaş" with="manner"/>
+<Word name="1/yavaş" positionX="750" positionY="300"/>
+<Connection from="2/yavaş" to="1/yavaş"/>
+</Amr>

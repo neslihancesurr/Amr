@@ -1,0 +1,11 @@
+<Amr sentence="İşte bu , filmde çok önemli bir ayrıntıydı .">
+<Word name="8/ayrıntı" positionX="750" positionY="100"/>
+<Word name="2/bu" positionX="650" positionY="200"/>
+<Connection from="8/ayrıntı" to="2/bu"/>
+<Word name="1/işte" positionX="550" positionY="300"/>
+<Connection from="2/bu" to="1/işte"/>
+<Word name="4/film" positionX="750" positionY="200"/>
+<Connection from="8/ayrıntı" to="4/film" with="location"/>
+<Word name="5/çok 6/önemli" positionX="850" positionY="200"/>
+<Connection from="8/ayrıntı" to="5/çok 6/önemli" with="manner"/>
+</Amr>

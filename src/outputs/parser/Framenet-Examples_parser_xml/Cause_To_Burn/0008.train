@@ -1,0 +1,16 @@
+<Amr sentence="İşin bittiğinde bu arabayı benzinle .">
+<Word name="5/benzinle" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="5/benzinle" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="5/benzinle" to="imperative" with="mode"/>
+<Word name="1/iş 2/bit" positionX="850" positionY="200"/>
+<Connection from="5/benzinle" to="1/iş 2/bit"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="1/iş 2/bit" to="o" with="ARG0"/>
+<Connection from="1/iş 2/bit" to="o" with="poss"/>
+<Word name="4/araba" positionX="950" positionY="200"/>
+<Connection from="5/benzinle" to="4/araba" with="ARG1"/>
+<Word name="3/bu" positionX="850" positionY="300"/>
+<Connection from="4/araba" to="3/bu" with="mod"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr sentence="Dolaş da arka kapıdan gel .">
+<Word name="5/gel" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="5/gel" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="5/gel" to="imperative" with="mode"/>
+<Word name="1/dolaş" positionX="850" positionY="200"/>
+<Connection from="5/gel" to="1/dolaş"/>
+<Connection from="1/dolaş" to="sen" with="ARG0"/>
+<Connection from="1/dolaş" to="imperative" with="mode"/>
+<Word name="2/da" positionX="950" positionY="300"/>
+<Connection from="1/dolaş" to="2/da"/>
+<Word name="4/kapı" positionX="950" positionY="200"/>
+<Connection from="5/gel" to="4/kapı" with="ARG2"/>
+<Word name="3/arka" positionX="850" positionY="300"/>
+<Connection from="4/kapı" to="3/arka" with="mod"/>
+</Amr>

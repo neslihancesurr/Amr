@@ -1,0 +1,11 @@
+<Amr sentence="Göstericiler caddenin girişine barikat kurdu .">
+<Word name="4/barikat 5/kur" positionX="750" positionY="100"/>
+<Word name="1/gösterici" positionX="650" positionY="200"/>
+<Connection from="4/barikat 5/kur" to="1/gösterici" with="ARG0"/>
+<Word name="3/gir" positionX="750" positionY="200"/>
+<Connection from="4/barikat 5/kur" to="3/gir" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/gir" to="o" with="ARG0"/>
+<Word name="2/cadde" positionX="750" positionY="300"/>
+<Connection from="3/gir" to="2/cadde" with="mod"/>
+</Amr>

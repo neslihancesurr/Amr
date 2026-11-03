@@ -1,0 +1,14 @@
+<Amr sentence="Çocuğun ağaçtan düştüğünü gördüm .">
+<Word name="4/gör" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/gör" to="ben" with="ARG0"/>
+<Word name="3/düş" positionX="750" positionY="200"/>
+<Connection from="4/gör" to="3/düş"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/düş" to="o" with="ARG0"/>
+<Connection from="3/düş" to="o" with="poss"/>
+<Word name="1/çocuk" positionX="850" positionY="300"/>
+<Connection from="3/düş" to="1/çocuk"/>
+<Word name="2/ağaç" positionX="950" positionY="300"/>
+<Connection from="3/düş" to="2/ağaç"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Firma olarak bu sene içeride olacağız .">
+<Word name="5/içeri 6/ol" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/içeri 6/ol" to="biz" with="ARG0"/>
+<Word name="2/ol" positionX="750" positionY="200"/>
+<Connection from="5/içeri 6/ol" to="2/ol"/>
+<Word name="1/firma" positionX="650" positionY="300"/>
+<Connection from="2/ol" to="1/firma" with="ARG0"/>
+<Word name="4/sene" positionX="850" positionY="200"/>
+<Connection from="5/içeri 6/ol" to="4/sene" with="mod"/>
+<Word name="3/bu" positionX="750" positionY="300"/>
+<Connection from="4/sene" to="3/bu" with="mod"/>
+</Amr>

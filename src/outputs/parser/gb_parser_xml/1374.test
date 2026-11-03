@@ -1,0 +1,13 @@
+<Amr sentence="En çok kimlerin çocukları okulda başarılı oluyormuş ?">
+<Word name="6/başarılı" positionX="750" positionY="100"/>
+<Word name="7/ol" positionX="650" positionY="200"/>
+<Connection from="6/başarılı" to="7/ol"/>
+<Word name="1/en 2/çok" positionX="550" positionY="300"/>
+<Connection from="7/ol" to="1/en 2/çok" with="degree"/>
+<Word name="4/çocuk" positionX="650" positionY="300"/>
+<Connection from="7/ol" to="4/çocuk"/>
+<Word name="3/kimler" positionX="550" positionY="400"/>
+<Connection from="4/çocuk" to="3/kimler" with="mod"/>
+<Word name="5/okul" positionX="750" positionY="300"/>
+<Connection from="7/ol" to="5/okul" with="location"/>
+</Amr>

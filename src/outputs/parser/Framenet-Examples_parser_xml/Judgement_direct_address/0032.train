@@ -1,0 +1,13 @@
+<Amr sentence="Ben de ona bu yüzden sert çıkıştım .">
+<Word name="7/çıkış" positionX="750" positionY="100"/>
+<Word name="1/ben" positionX="650" positionY="200"/>
+<Connection from="7/çıkış" to="1/ben" with="ARG0"/>
+<Word name="2/de" positionX="550" positionY="300"/>
+<Connection from="1/ben" to="2/de" with="manner"/>
+<Word name="3/o 4/bu" positionX="750" positionY="200"/>
+<Connection from="7/çıkış" to="3/o 4/bu"/>
+<Word name="5/yüzden" positionX="850" positionY="200"/>
+<Connection from="7/çıkış" to="5/yüzden" with="manner"/>
+<Word name="6/sert" positionX="950" positionY="200"/>
+<Connection from="7/çıkış" to="6/sert" with="manner"/>
+</Amr>

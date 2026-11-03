@@ -1,0 +1,26 @@
+<Amr sentence="Belki tramvayda , vapurda yan yana giderken , o ona için için gülmüştür , belki de alay etmiştir .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="11/için 12/için 13/gül" positionX="650" positionY="200"/>
+<Connection from="and" to="11/için 12/için 13/gül" with="op1"/>
+<Word name="1/belki" positionX="550" positionY="300"/>
+<Connection from="11/için 12/için 13/gül" to="1/belki" with="manner"/>
+<Word name="7/gider" positionX="650" positionY="300"/>
+<Connection from="11/için 12/için 13/gül" to="7/gider"/>
+<Connection from="7/gider" to="and"/>
+<Word name="4/vapur" positionX="450" positionY="500"/>
+<Connection from="and" to="4/vapur" with="location"/>
+<Word name="2/tramvay" positionX="550" positionY="500"/>
+<Connection from="and" to="2/tramvay" with="location"/>
+<Word name="5/yan 6/yan" positionX="650" positionY="400"/>
+<Connection from="7/gider" to="5/yan 6/yan"/>
+<Word name="9/o" positionX="750" positionY="300"/>
+<Connection from="11/için 12/için 13/gül" to="9/o" with="ARG0"/>
+<Word name="10/o" positionX="850" positionY="300"/>
+<Connection from="11/için 12/için 13/gül" to="10/o" with="ARG1"/>
+<Word name="17/alay 18/et" positionX="750" positionY="200"/>
+<Connection from="and" to="17/alay 18/et" with="op2"/>
+<Word name="15/belki" positionX="650" positionY="300"/>
+<Connection from="17/alay 18/et" to="15/belki" with="manner"/>
+<Word name="16/de" positionX="550" positionY="400"/>
+<Connection from="15/belki" to="16/de"/>
+</Amr>

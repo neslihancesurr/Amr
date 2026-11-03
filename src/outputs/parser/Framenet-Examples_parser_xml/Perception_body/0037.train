@@ -1,0 +1,27 @@
+<Amr sentence="Tam konuşmanın ortasında boğazım gıcıklandı , ara verip su içmek zorunda kaldım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/gıcıklan" positionX="650" positionY="200"/>
+<Connection from="and" to="5/gıcıklan" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="5/gıcıklan" to="o" with="ARG0"/>
+<Word name="3/orta" positionX="650" positionY="300"/>
+<Connection from="5/gıcıklan" to="3/orta" with="location"/>
+<Word name="1/tam" positionX="550" positionY="400"/>
+<Connection from="3/orta" to="1/tam" with="degree"/>
+<Word name="2/konuşma" positionX="650" positionY="400"/>
+<Connection from="3/orta" to="2/konuşma" with="mod"/>
+<Word name="4/boğaz" positionX="750" positionY="300"/>
+<Connection from="5/gıcıklan" to="4/boğaz" with="ARG1"/>
+<Word name="ben" positionX="650" positionY="400"/>
+<Connection from="4/boğaz" to="ben" with="poss"/>
+<Word name="11/zorun 12/kal" positionX="750" positionY="200"/>
+<Connection from="and" to="11/zorun 12/kal" with="op2"/>
+<Connection from="11/zorun 12/kal" to="ben" with="ARG0"/>
+<Word name="10/iç" positionX="750" positionY="300"/>
+<Connection from="11/zorun 12/kal" to="10/iç" with="ARG1"/>
+<Connection from="10/iç" to="o" with="ARG0"/>
+<Word name="7/ara 8/ver" positionX="750" positionY="400"/>
+<Connection from="10/iç" to="7/ara 8/ver"/>
+<Word name="9/su" positionX="850" positionY="400"/>
+<Connection from="10/iç" to="9/su"/>
+</Amr>

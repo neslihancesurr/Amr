@@ -1,0 +1,23 @@
+<Amr sentence="Her gece şölenler düzenliyor , çalgıcılar davet ediyor , millete hacıağalık ediyordu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/düzenle" positionX="650" positionY="200"/>
+<Connection from="and" to="4/düzenle" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/düzenle" to="o" with="ARG0"/>
+<Word name="2/gece" positionX="650" positionY="300"/>
+<Connection from="4/düzenle" to="2/gece" with="mod"/>
+<Word name="1/her" positionX="550" positionY="400"/>
+<Connection from="2/gece" to="1/her" with="mod"/>
+<Word name="3/şölen" positionX="750" positionY="300"/>
+<Connection from="4/düzenle" to="3/şölen" with="ARG1"/>
+<Word name="7/davet 8/et" positionX="750" positionY="200"/>
+<Connection from="and" to="7/davet 8/et" with="op2"/>
+<Connection from="7/davet 8/et" to="o" with="ARG0"/>
+<Word name="6/çalgıcı" positionX="750" positionY="300"/>
+<Connection from="7/davet 8/et" to="6/çalgıcı" with="ARG1"/>
+<Word name="11/hacıağalık 12/et" positionX="850" positionY="200"/>
+<Connection from="and" to="11/hacıağalık 12/et" with="op3"/>
+<Connection from="11/hacıağalık 12/et" to="o" with="ARG0"/>
+<Word name="10/millet" positionX="850" positionY="300"/>
+<Connection from="11/hacıağalık 12/et" to="10/millet"/>
+</Amr>

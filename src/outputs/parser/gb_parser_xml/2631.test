@@ -1,0 +1,27 @@
+<Amr sentence="Hep İzlanda'ya gitmek isterdi , sonunda gitti de .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="7/git" positionX="650" positionY="200"/>
+<Connection from="and" to="7/git" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="7/git" to="o" with="ARG0"/>
+<Word name="6/sonunda" positionX="650" positionY="300"/>
+<Connection from="7/git" to="6/sonunda" with="manner"/>
+<Word name="8/de" positionX="750" positionY="300"/>
+<Connection from="7/git" to="8/de"/>
+<Word name="4/iste" positionX="750" positionY="200"/>
+<Connection from="and" to="4/iste" with="op2"/>
+<Connection from="4/iste" to="o" with="ARG0"/>
+<Word name="3/git" positionX="750" positionY="300"/>
+<Connection from="4/iste" to="3/git" with="ARG1"/>
+<Connection from="3/git" to="o" with="ARG0"/>
+<Word name="1/hep" positionX="750" positionY="400"/>
+<Connection from="3/git" to="1/hep" with="frequency"/>
+<Word name="person" positionX="850" positionY="400"/>
+<Connection from="3/git" to="person" with="ARG1"/>
+<Word name="name" positionX="750" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/izlanda" positionX="650" positionY="600"/>
+<Connection from="name" to="2/izlanda" with="op1"/>
+<Word name="-" positionX="850" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

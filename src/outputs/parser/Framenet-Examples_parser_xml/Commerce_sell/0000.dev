@@ -1,0 +1,20 @@
+<Amr sentence="Erik çıkmış , çilek daha çıkmadı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/çık" positionX="650" positionY="200"/>
+<Connection from="and" to="2/çık" with="op1"/>
+<Word name="1/erik" positionX="550" positionY="300"/>
+<Connection from="2/çık" to="1/erik" with="ARG0"/>
+<Word name="6/çık" positionX="750" positionY="200"/>
+<Connection from="and" to="6/çık" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="6/çık" to="-" with="polarity"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="6/çık" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="4/çilek" positionX="550" positionY="500"/>
+<Connection from="name" to="4/çilek" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/daha" positionX="850" positionY="300"/>
+<Connection from="6/çık" to="5/daha" with="degree"/>
+</Amr>

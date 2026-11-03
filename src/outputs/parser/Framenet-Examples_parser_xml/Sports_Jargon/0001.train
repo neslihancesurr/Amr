@@ -1,0 +1,9 @@
+<Amr sentence="Sinirlenen hakem , kaleciye kart çıkardı .">
+<Word name="5/kart 6/çık" positionX="750" positionY="100"/>
+<Word name="2/hakem" positionX="650" positionY="200"/>
+<Connection from="5/kart 6/çık" to="2/hakem" with="ARG0"/>
+<Word name="1/sinirlen" positionX="550" positionY="300"/>
+<Connection from="2/hakem" to="1/sinirlen" with="mod"/>
+<Word name="4/kaleci" positionX="750" positionY="200"/>
+<Connection from="5/kart 6/çık" to="4/kaleci" with="ARG1"/>
+</Amr>

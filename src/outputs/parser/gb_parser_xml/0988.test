@@ -1,0 +1,17 @@
+<Amr sentence="Mektubu bir tek Mustafa'ya göstermiştim .">
+<Word name="5/göster" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/göster" to="ben" with="ARG0"/>
+<Word name="1/mektup" positionX="750" positionY="200"/>
+<Connection from="5/göster" to="1/mektup" with="ARG1"/>
+<Word name="2/bir 3/tek" positionX="850" positionY="200"/>
+<Connection from="5/göster" to="2/bir 3/tek" with="manner"/>
+<Word name="person" positionX="950" positionY="200"/>
+<Connection from="5/göster" to="person" with="ARG2"/>
+<Word name="name" positionX="850" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="4/mustafa" positionX="750" positionY="400"/>
+<Connection from="name" to="4/mustafa" with="op1"/>
+<Word name="-" positionX="950" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Artık bir şey söylemem gerekiyordu .">
+<Word name="5/gerek" positionX="750" positionY="100"/>
+<Word name="1/artık" positionX="650" positionY="200"/>
+<Connection from="5/gerek" to="1/artık" with="ARG0"/>
+<Word name="4/söyle" positionX="750" positionY="200"/>
+<Connection from="5/gerek" to="4/söyle" with="ARG0"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="4/söyle" to="ben" with="ARG0"/>
+</Amr>

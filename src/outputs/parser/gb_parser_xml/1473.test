@@ -1,0 +1,13 @@
+<Amr sentence="Bu yağmurda sokağa çıkmamış olduk .">
+<Word name="3/sokak 4/çık" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/sokak 4/çık" to="-" with="polarity"/>
+<Word name="2/yağmur" positionX="750" positionY="200"/>
+<Connection from="3/sokak 4/çık" to="2/yağmur" with="location"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/yağmur" to="1/bu" with="mod"/>
+<Word name="5/ol" positionX="850" positionY="200"/>
+<Connection from="3/sokak 4/çık" to="5/ol"/>
+<Word name="biz" positionX="750" positionY="300"/>
+<Connection from="5/ol" to="biz" with="ARG0"/>
+</Amr>

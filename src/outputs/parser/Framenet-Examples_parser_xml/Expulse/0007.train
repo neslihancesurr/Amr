@@ -1,0 +1,15 @@
+<Amr sentence="Onu uğrattım , herkes şaşırdı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/uğrat" positionX="650" positionY="200"/>
+<Connection from="and" to="2/uğrat" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="2/uğrat" to="ben" with="ARG0"/>
+<Word name="1/o" positionX="650" positionY="300"/>
+<Connection from="2/uğrat" to="1/o" with="ARG1"/>
+<Word name="5/şaşır" positionX="750" positionY="200"/>
+<Connection from="and" to="5/şaşır" with="op2"/>
+<Word name="4/herkes" positionX="650" positionY="300"/>
+<Connection from="5/şaşır" to="4/herkes" with="ARG0"/>
+<Word name="onlar" positionX="550" positionY="400"/>
+<Connection from="4/herkes" to="onlar" with="poss"/>
+</Amr>

@@ -1,0 +1,16 @@
+<Amr sentence="Anne tavşan yavrularını çaldığı marulla besledi .">
+<Word name="6/besle" positionX="750" positionY="100"/>
+<Word name="2/tavşan" positionX="650" positionY="200"/>
+<Connection from="6/besle" to="2/tavşan" with="ARG0"/>
+<Word name="1/anne" positionX="550" positionY="300"/>
+<Connection from="2/tavşan" to="1/anne" with="mod"/>
+<Word name="3/yavru" positionX="750" positionY="200"/>
+<Connection from="6/besle" to="3/yavru" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/yavru" to="o" with="poss"/>
+<Word name="5/marul" positionX="850" positionY="200"/>
+<Connection from="6/besle" to="5/marul" with="ARG2"/>
+<Word name="4/çal" positionX="750" positionY="300"/>
+<Connection from="5/marul" to="4/çal"/>
+<Connection from="4/çal" to="o" with="poss"/>
+</Amr>

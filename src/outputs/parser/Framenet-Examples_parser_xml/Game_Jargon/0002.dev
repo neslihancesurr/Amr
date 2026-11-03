@@ -1,0 +1,5 @@
+<Amr sentence="Kumarhane sahibinin restini gördü .">
+<Word name="3/rest 4/gör" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/rest 4/gör" to="o" with="ARG0"/>
+</Amr>

@@ -1,0 +1,29 @@
+<Amr sentence="Ahmet Türkiye'deyken Londra'daki evine hırsız girmiş .">
+<Word name="6/gir" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/gir" to="o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="6/gir" to="person" with="location"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/türkiye" positionX="550" positionY="400"/>
+<Connection from="name" to="2/türkiye" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="person" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ahmet" positionX="650" positionY="500"/>
+<Connection from="name" to="1/ahmet" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/ev" positionX="850" positionY="200"/>
+<Connection from="6/gir" to="4/ev"/>
+<Word name="city" positionX="750" positionY="300"/>
+<Connection from="4/ev" to="city" with="location"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="3/londra" positionX="550" positionY="500"/>
+<Connection from="name" to="3/londra" with="op1"/>
+<Word name="londra" positionX="750" positionY="400"/>
+<Connection from="city" to="londra" with="wiki"/>
+<Word name="5/hırsız" positionX="950" positionY="200"/>
+<Connection from="6/gir" to="5/hırsız"/>
+</Amr>

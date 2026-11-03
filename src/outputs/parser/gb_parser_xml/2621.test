@@ -1,0 +1,27 @@
+<Amr sentence="Paris'e gittiğine ve müzeleri gezdiğine çok seviniyor .">
+<Word name="7/sevin" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/sevin" to="o" with="ARG0"/>
+<Word name="and" positionX="750" positionY="200"/>
+<Connection from="7/sevin" to="and"/>
+<Word name="5/gez" positionX="650" positionY="300"/>
+<Connection from="and" to="5/gez" with="op1"/>
+<Connection from="5/gez" to="o" with="ARG0"/>
+<Connection from="5/gez" to="o" with="poss"/>
+<Word name="4/müze" positionX="750" positionY="400"/>
+<Connection from="5/gez" to="4/müze"/>
+<Word name="2/git" positionX="750" positionY="300"/>
+<Connection from="and" to="2/git" with="op2"/>
+<Connection from="2/git" to="o" with="ARG0"/>
+<Connection from="2/git" to="o" with="poss"/>
+<Word name="city" positionX="850" positionY="400"/>
+<Connection from="2/git" to="city"/>
+<Word name="name" positionX="750" positionY="500"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="1/paris" positionX="650" positionY="600"/>
+<Connection from="name" to="1/paris" with="op1"/>
+<Word name="paris" positionX="850" positionY="500"/>
+<Connection from="city" to="paris" with="wiki"/>
+<Word name="6/çok" positionX="850" positionY="200"/>
+<Connection from="7/sevin" to="6/çok" with="degree"/>
+</Amr>

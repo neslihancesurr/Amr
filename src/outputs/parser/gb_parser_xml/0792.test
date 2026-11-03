@@ -1,0 +1,5 @@
+<Amr sentence="çok önemli bir sorun">
+<Word name="4/sorun" positionX="750" positionY="100"/>
+<Word name="1/çok 2/önemli" positionX="650" positionY="200"/>
+<Connection from="4/sorun" to="1/çok 2/önemli" with="manner"/>
+</Amr>

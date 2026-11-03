@@ -1,0 +1,17 @@
+<Amr sentence="İçerdekileri kapı deliğinden gözetliyordu .">
+<Word name="4/gözetle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/gözetle" to="o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="4/gözetle" to="person" with="ARG1"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/İçerdekileri" positionX="550" positionY="400"/>
+<Connection from="name" to="1/İçerdekileri" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/delik" positionX="850" positionY="200"/>
+<Connection from="4/gözetle" to="3/delik"/>
+<Word name="2/kapı" positionX="750" positionY="300"/>
+<Connection from="3/delik" to="2/kapı" with="mod"/>
+</Amr>

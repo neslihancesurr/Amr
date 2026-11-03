@@ -1,0 +1,24 @@
+<Amr sentence="Yaptıkları hiç hoş değil , anaforlamış diye duydum .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/hoş" positionX="650" positionY="200"/>
+<Connection from="and" to="3/hoş" with="op1"/>
+<Word name="1/yap" positionX="550" positionY="300"/>
+<Connection from="3/hoş" to="1/yap"/>
+<Word name="onlar" positionX="450" positionY="400"/>
+<Connection from="1/yap" to="onlar" with="ARG0"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="1/yap" to="o" with="poss"/>
+<Word name="2/hiç" positionX="650" positionY="300"/>
+<Connection from="3/hoş" to="2/hiç" with="degree"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="3/hoş" to="-" with="polarity"/>
+<Word name="8/duy" positionX="750" positionY="200"/>
+<Connection from="and" to="8/duy" with="op2"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="8/duy" to="ben" with="ARG0"/>
+<Word name="6/anaforla" positionX="750" positionY="300"/>
+<Connection from="8/duy" to="6/anaforla" with="ARG1"/>
+<Connection from="6/anaforla" to="o" with="ARG0"/>
+<Word name="7/diye" positionX="750" positionY="400"/>
+<Connection from="6/anaforla" to="7/diye"/>
+</Amr>

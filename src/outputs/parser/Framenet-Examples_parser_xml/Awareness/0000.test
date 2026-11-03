@@ -1,0 +1,9 @@
+<Amr sentence="Bebekler bu yaşlarda bilinçlenir .">
+<Word name="4/bilinçlen" positionX="750" positionY="100"/>
+<Word name="1/bebek" positionX="650" positionY="200"/>
+<Connection from="4/bilinçlen" to="1/bebek" with="ARG0"/>
+<Word name="3/yaş" positionX="750" positionY="200"/>
+<Connection from="4/bilinçlen" to="3/yaş" with="location"/>
+<Word name="2/bu" positionX="650" positionY="300"/>
+<Connection from="3/yaş" to="2/bu" with="mod"/>
+</Amr>

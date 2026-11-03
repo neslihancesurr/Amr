@@ -1,0 +1,23 @@
+<Amr sentence="şu anda Erol'a mektup yazmakta olan kız">
+<Word name="7/kız" positionX="750" positionY="100"/>
+<Word name="6/ol" positionX="650" positionY="200"/>
+<Connection from="7/kız" to="6/ol"/>
+<Word name="5/yaz" positionX="550" positionY="300"/>
+<Connection from="6/ol" to="5/yaz"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="5/yaz" to="o" with="ARG0"/>
+<Word name="2/an" positionX="550" positionY="400"/>
+<Connection from="5/yaz" to="2/an" with="location"/>
+<Word name="1/şu" positionX="450" positionY="500"/>
+<Connection from="2/an" to="1/şu" with="mod"/>
+<Word name="person" positionX="650" positionY="400"/>
+<Connection from="5/yaz" to="person"/>
+<Word name="name" positionX="550" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/erol" positionX="450" positionY="600"/>
+<Connection from="name" to="3/erol" with="op1"/>
+<Word name="-" positionX="650" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/mektup" positionX="750" positionY="400"/>
+<Connection from="5/yaz" to="4/mektup"/>
+</Amr>

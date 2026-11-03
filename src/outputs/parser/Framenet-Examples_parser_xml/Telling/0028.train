@@ -1,0 +1,19 @@
+<Amr sentence="Bundan sonra ona asla güvenemeyeceğini kaydetti .">
+<Word name="6/kaydet" positionX="750" positionY="100"/>
+<Word name="mümkün" positionX="650" positionY="200"/>
+<Connection from="6/kaydet" to="mümkün"/>
+<Word name="5/güven" positionX="550" positionY="300"/>
+<Connection from="mümkün" to="5/güven" with="ARG1"/>
+<Word name="-" positionX="450" positionY="400"/>
+<Connection from="5/güven" to="-" with="polarity"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="5/güven" to="o" with="poss"/>
+<Word name="1/bu" positionX="650" positionY="400"/>
+<Connection from="5/güven" to="1/bu"/>
+<Word name="2/sonra" positionX="550" positionY="500"/>
+<Connection from="1/bu" to="2/sonra"/>
+<Word name="3/o" positionX="750" positionY="400"/>
+<Connection from="5/güven" to="3/o" with="ARG1"/>
+<Word name="4/asla" positionX="850" positionY="400"/>
+<Connection from="5/güven" to="4/asla" with="manner"/>
+</Amr>

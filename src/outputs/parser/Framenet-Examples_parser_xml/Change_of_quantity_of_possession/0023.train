@@ -1,0 +1,11 @@
+<Amr sentence="Bugün tamirat yapmayı öğrendim .">
+<Word name="4/öğren" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/öğren" to="ben" with="ARG0"/>
+<Word name="1/bugün" positionX="750" positionY="200"/>
+<Connection from="4/öğren" to="1/bugün"/>
+<Word name="3/yapma" positionX="850" positionY="200"/>
+<Connection from="4/öğren" to="3/yapma" with="ARG1"/>
+<Word name="2/tamirat" positionX="750" positionY="300"/>
+<Connection from="3/yapma" to="2/tamirat"/>
+</Amr>

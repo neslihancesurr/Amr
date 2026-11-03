@@ -1,0 +1,12 @@
+<Amr sentence="Zengin olduğu için paraya para demiyor .">
+<Word name="4/para 5/para 6/de" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/para 5/para 6/de" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="4/para 5/para 6/de" to="o" with="ARG0"/>
+<Word name="2/ol" positionX="850" positionY="200"/>
+<Connection from="4/para 5/para 6/de" to="2/ol" with="cause"/>
+<Connection from="2/ol" to="o" with="ARG0"/>
+<Word name="1/zengin" positionX="850" positionY="300"/>
+<Connection from="2/ol" to="1/zengin" with="mod"/>
+</Amr>

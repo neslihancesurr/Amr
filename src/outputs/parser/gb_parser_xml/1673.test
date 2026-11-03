@@ -1,0 +1,21 @@
+<Amr sentence="Bu saatte Ali'nin işte olması lazım .">
+<Word name="6/lazım" positionX="750" positionY="100"/>
+<Word name="5/olma" positionX="650" positionY="200"/>
+<Connection from="6/lazım" to="5/olma"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="5/olma" to="o" with="poss"/>
+<Word name="2/saat" positionX="650" positionY="300"/>
+<Connection from="5/olma" to="2/saat" with="location"/>
+<Word name="1/bu" positionX="550" positionY="400"/>
+<Connection from="2/saat" to="1/bu" with="mod"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="5/olma" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/ali" positionX="550" positionY="500"/>
+<Connection from="name" to="3/ali" with="op1"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/iş" positionX="850" positionY="300"/>
+<Connection from="5/olma" to="4/iş" with="ARG1"/>
+</Amr>

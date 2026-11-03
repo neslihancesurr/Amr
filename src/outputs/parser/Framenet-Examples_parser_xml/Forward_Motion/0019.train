@@ -1,0 +1,28 @@
+<Amr sentence="Kalem Şakir düştü peşine , öylesine pergelleri açmıştı ki , koridorun ortasında yakaladı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/düş" positionX="650" positionY="200"/>
+<Connection from="and" to="3/düş" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/düş" to="o" with="ARG0"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="3/düş" to="person" with="ARG1"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/Şakir" positionX="450" positionY="500"/>
+<Connection from="name" to="2/Şakir" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="1/kalem" positionX="750" positionY="400"/>
+<Connection from="person" to="1/kalem" with="mod"/>
+<Word name="4/peş" positionX="750" positionY="300"/>
+<Connection from="3/düş" to="4/peş"/>
+<Connection from="4/peş" to="o" with="poss"/>
+<Word name="13/yakala" positionX="750" positionY="200"/>
+<Connection from="and" to="13/yakala" with="op2"/>
+<Word name="7/pergel 8/aç" positionX="650" positionY="300"/>
+<Connection from="13/yakala" to="7/pergel 8/aç"/>
+<Word name="12/orta" positionX="750" positionY="300"/>
+<Connection from="13/yakala" to="12/orta" with="location"/>
+<Word name="11/koridor" positionX="650" positionY="400"/>
+<Connection from="12/orta" to="11/koridor" with="mod"/>
+</Amr>

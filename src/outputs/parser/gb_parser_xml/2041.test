@@ -1,0 +1,24 @@
+<Amr sentence="Anlaşılıyor ki Fransızca'ya olan talep iyice azalmış .">
+<Word name="1/anlaşıl" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="1/anlaşıl" to="o" with="ARG0"/>
+<Word name="7/azal" positionX="750" positionY="200"/>
+<Connection from="1/anlaşıl" to="7/azal"/>
+<Connection from="7/azal" to="o" with="ARG0"/>
+<Word name="2/ki" positionX="750" positionY="300"/>
+<Connection from="7/azal" to="2/ki"/>
+<Word name="5/talep" positionX="850" positionY="300"/>
+<Connection from="7/azal" to="5/talep"/>
+<Word name="4/ol" positionX="750" positionY="400"/>
+<Connection from="5/talep" to="4/ol"/>
+<Word name="person" positionX="650" positionY="500"/>
+<Connection from="4/ol" to="person"/>
+<Word name="name" positionX="550" positionY="600"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/fransızca" positionX="450" positionY="700"/>
+<Connection from="name" to="3/fransızca" with="op1"/>
+<Word name="-" positionX="650" positionY="600"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="6/iyice" positionX="950" positionY="300"/>
+<Connection from="7/azal" to="6/iyice" with="manner"/>
+</Amr>

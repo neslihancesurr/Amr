@@ -1,0 +1,9 @@
+<Amr sentence="Domatesler için güzelce seçim yaptı .">
+<Word name="4/seçim 5/yap" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/seçim 5/yap" to="o" with="ARG0"/>
+<Word name="1/domates" positionX="750" positionY="200"/>
+<Connection from="4/seçim 5/yap" to="1/domates" with="cause"/>
+<Word name="3/güzel" positionX="850" positionY="200"/>
+<Connection from="4/seçim 5/yap" to="3/güzel" with="manner"/>
+</Amr>

@@ -1,0 +1,30 @@
+<Amr sentence="Yeni evi hakkında pek çok tasarısı var , bunları gerçekleştirmek için de adeta para saçıyor .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="7/var" positionX="650" positionY="200"/>
+<Connection from="and" to="7/var" with="op1"/>
+<Word name="6/tasarı" positionX="550" positionY="300"/>
+<Connection from="7/var" to="6/tasarı"/>
+<Word name="2/ev" positionX="450" positionY="400"/>
+<Connection from="6/tasarı" to="2/ev" with="mod"/>
+<Word name="1/yeni" positionX="350" positionY="500"/>
+<Connection from="2/ev" to="1/yeni" with="mod"/>
+<Word name="3/hakkında" positionX="450" positionY="500"/>
+<Connection from="2/ev" to="3/hakkında"/>
+<Word name="4/pek 5/çok" positionX="550" positionY="400"/>
+<Connection from="6/tasarı" to="4/pek 5/çok" with="degree"/>
+<Word name="14/para 15/saç" positionX="750" positionY="200"/>
+<Connection from="and" to="14/para 15/saç" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="14/para 15/saç" to="o" with="ARG0"/>
+<Word name="yap" positionX="750" positionY="300"/>
+<Connection from="14/para 15/saç" to="yap"/>
+<Word name="10/gerçekleş" positionX="650" positionY="400"/>
+<Connection from="yap" to="10/gerçekleş" with="cause"/>
+<Connection from="10/gerçekleş" to="o" with="ARG0"/>
+<Word name="9/bu" positionX="650" positionY="500"/>
+<Connection from="10/gerçekleş" to="9/bu" with="ARG1"/>
+<Word name="12/de" positionX="750" positionY="500"/>
+<Connection from="10/gerçekleş" to="12/de" with="manner"/>
+<Word name="13/adeta" positionX="850" positionY="300"/>
+<Connection from="14/para 15/saç" to="13/adeta" with="manner"/>
+</Amr>

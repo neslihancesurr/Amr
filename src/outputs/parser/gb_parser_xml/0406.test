@@ -1,0 +1,21 @@
+<Amr sentence="Karısı için bir ev yaptırtmış bir İngiliz mimarına .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="5/yap" positionX="650" positionY="200"/>
+<Connection from="yap" to="5/yap"/>
+<Word name="1/karı" positionX="550" positionY="300"/>
+<Connection from="5/yap" to="1/karı" with="cause"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="1/karı" to="o" with="poss"/>
+<Word name="4/ev" positionX="650" positionY="300"/>
+<Connection from="5/yap" to="4/ev" with="ARG1"/>
+<Word name="8/mimar" positionX="750" positionY="300"/>
+<Connection from="5/yap" to="8/mimar"/>
+<Word name="person" positionX="650" positionY="400"/>
+<Connection from="8/mimar" to="person"/>
+<Word name="name" positionX="550" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="7/ingiliz" positionX="450" positionY="600"/>
+<Connection from="name" to="7/ingiliz" with="op1"/>
+<Word name="-" positionX="650" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

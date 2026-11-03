@@ -1,0 +1,15 @@
+<Amr sentence="Bazı günler her şey zor geliyor insana .">
+<Word name="5/zor 6/gel" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/zor 6/gel" to="o" with="ARG0"/>
+<Word name="2/gün" positionX="750" positionY="200"/>
+<Connection from="5/zor 6/gel" to="2/gün"/>
+<Word name="1/bazı" positionX="650" positionY="300"/>
+<Connection from="2/gün" to="1/bazı" with="mod"/>
+<Word name="4/şey" positionX="850" positionY="200"/>
+<Connection from="5/zor 6/gel" to="4/şey" with="ARG1"/>
+<Word name="3/her" positionX="750" positionY="300"/>
+<Connection from="4/şey" to="3/her" with="mod"/>
+<Word name="7/insan" positionX="950" positionY="200"/>
+<Connection from="5/zor 6/gel" to="7/insan" with="ARG2"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Pelin o şarkıyı papağan gibi ezberlemişti .">
+<Word name="4/papağan 5/gibi 6/ezberle" positionX="750" positionY="100"/>
+<Word name="1/pelin" positionX="650" positionY="200"/>
+<Connection from="4/papağan 5/gibi 6/ezberle" to="1/pelin" with="ARG0"/>
+<Word name="3/şarkı" positionX="750" positionY="200"/>
+<Connection from="4/papağan 5/gibi 6/ezberle" to="3/şarkı" with="ARG1"/>
+<Word name="2/o" positionX="650" positionY="300"/>
+<Connection from="3/şarkı" to="2/o" with="mod"/>
+</Amr>

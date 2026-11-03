@@ -1,0 +1,7 @@
+<Amr sentence="Gemi sabaha karşı saldırdı .">
+<Word name="4/saldır" positionX="750" positionY="100"/>
+<Word name="1/gemi" positionX="650" positionY="200"/>
+<Connection from="4/saldır" to="1/gemi" with="ARG0"/>
+<Word name="2/sabaha 3/karşı" positionX="750" positionY="200"/>
+<Connection from="4/saldır" to="2/sabaha 3/karşı" with="manner"/>
+</Amr>

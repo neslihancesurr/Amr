@@ -1,0 +1,17 @@
+<Amr sentence="Sakin ol , itidalini kaybetme .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/ol" positionX="650" positionY="200"/>
+<Connection from="and" to="2/ol" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="2/ol" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="650" positionY="300"/>
+<Connection from="2/ol" to="imperative" with="mode"/>
+<Word name="1/sakin" positionX="750" positionY="300"/>
+<Connection from="2/ol" to="1/sakin"/>
+<Word name="4/itidal 5/kaybet" positionX="750" positionY="200"/>
+<Connection from="and" to="4/itidal 5/kaybet" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="4/itidal 5/kaybet" to="-" with="polarity"/>
+<Connection from="4/itidal 5/kaybet" to="sen" with="ARG0"/>
+<Connection from="4/itidal 5/kaybet" to="imperative" with="mode"/>
+</Amr>

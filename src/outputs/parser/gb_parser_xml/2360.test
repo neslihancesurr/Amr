@@ -1,0 +1,21 @@
+<Amr sentence="Öylesine şaşırdım ki ne söyleyeceğimi bilemedim .">
+<Word name="2/şaşır" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="2/şaşır" to="ben" with="ARG0"/>
+<Word name="1/öylesine" positionX="750" positionY="200"/>
+<Connection from="2/şaşır" to="1/öylesine" with="manner"/>
+<Word name="mümkün" positionX="850" positionY="200"/>
+<Connection from="2/şaşır" to="mümkün"/>
+<Word name="6/bil" positionX="750" positionY="300"/>
+<Connection from="mümkün" to="6/bil"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="6/bil" to="-" with="polarity"/>
+<Connection from="6/bil" to="ben" with="ARG0"/>
+<Word name="3/ki" positionX="850" positionY="400"/>
+<Connection from="6/bil" to="3/ki"/>
+<Word name="5/söyle" positionX="950" positionY="400"/>
+<Connection from="6/bil" to="5/söyle"/>
+<Connection from="5/söyle" to="ben" with="ARG0"/>
+<Word name="4/ne" positionX="950" positionY="500"/>
+<Connection from="5/söyle" to="4/ne"/>
+</Amr>

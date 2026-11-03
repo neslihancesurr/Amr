@@ -1,0 +1,26 @@
+<Amr sentence="Kayseri'yi görmüş olmalıyım ama hiç hatırlamıyorum .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/hatırla" positionX="650" positionY="200"/>
+<Connection from="and" to="6/hatırla" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="6/hatırla" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="6/hatırla" to="ben" with="ARG0"/>
+<Word name="5/hiç" positionX="750" positionY="300"/>
+<Connection from="6/hatırla" to="5/hiç" with="degree"/>
+<Word name="2/gör" positionX="750" positionY="200"/>
+<Connection from="and" to="2/gör" with="op2"/>
+<Word name="city" positionX="650" positionY="300"/>
+<Connection from="2/gör" to="city" with="ARG1"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="1/kayseri" positionX="450" positionY="500"/>
+<Connection from="name" to="1/kayseri" with="op1"/>
+<Word name="kayseri" positionX="650" positionY="400"/>
+<Connection from="city" to="kayseri" with="wiki"/>
+<Word name="gerek" positionX="750" positionY="300"/>
+<Connection from="2/gör" to="gerek"/>
+<Word name="3/ol" positionX="650" positionY="400"/>
+<Connection from="gerek" to="3/ol"/>
+<Connection from="3/ol" to="ben" with="ARG0"/>
+</Amr>

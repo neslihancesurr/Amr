@@ -1,0 +1,25 @@
+<Amr sentence="Bana genellikle deniyordu ki : “ Sen küçüksün , gelemezsin ” .">
+<Word name="3/de" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/de" to="o" with="ARG0"/>
+<Word name="1/ben" positionX="750" positionY="200"/>
+<Connection from="3/de" to="1/ben"/>
+<Word name="2/genellikle" positionX="850" positionY="200"/>
+<Connection from="3/de" to="2/genellikle" with="manner"/>
+<Word name="and" positionX="950" positionY="200"/>
+<Connection from="3/de" to="and"/>
+<Word name="10/gel" positionX="850" positionY="300"/>
+<Connection from="and" to="10/gel" with="op1"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="10/gel" to="-" with="polarity"/>
+<Word name="8/küçük" positionX="950" positionY="300"/>
+<Connection from="and" to="8/küçük" with="op2"/>
+<Word name="sen" positionX="850" positionY="400"/>
+<Connection from="8/küçük" to="sen" with="poss"/>
+<Word name="4/ki" positionX="950" positionY="400"/>
+<Connection from="8/küçük" to="4/ki"/>
+<Word name="7/sen" positionX="1050" positionY="400"/>
+<Connection from="8/küçük" to="7/sen"/>
+<Word name="mümkün" positionX="1150" positionY="400"/>
+<Connection from="8/küçük" to="mümkün"/>
+</Amr>

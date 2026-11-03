@@ -1,0 +1,22 @@
+<Amr sentence="En son bütün bu olanlar yüzünden ablasına demediğini bırakmadı .">
+<Word name="8/de 9/bırak" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="8/de 9/bırak" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="8/de 9/bırak" to="o" with="ARG0"/>
+<Word name="2/son" positionX="850" positionY="200"/>
+<Connection from="8/de 9/bırak" to="2/son" with="mod"/>
+<Word name="1/en" positionX="750" positionY="300"/>
+<Connection from="2/son" to="1/en" with="manner"/>
+<Word name="6/yüzünden" positionX="950" positionY="200"/>
+<Connection from="8/de 9/bırak" to="6/yüzünden" with="ARG2"/>
+<Word name="5/ol" positionX="850" positionY="300"/>
+<Connection from="6/yüzünden" to="5/ol" with="mod"/>
+<Word name="3/bütün" positionX="750" positionY="400"/>
+<Connection from="5/ol" to="3/bütün" with="mod"/>
+<Word name="4/bu" positionX="850" positionY="400"/>
+<Connection from="5/ol" to="4/bu" with="mod"/>
+<Word name="7/abla" positionX="1050" positionY="200"/>
+<Connection from="8/de 9/bırak" to="7/abla" with="ARG1"/>
+<Connection from="7/abla" to="o" with="poss"/>
+</Amr>

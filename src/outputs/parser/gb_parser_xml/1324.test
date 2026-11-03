@@ -1,0 +1,13 @@
+<Amr sentence="Kediler iki konserveyi de bitirmişler mi ?">
+<Word name="5/bitir" positionX="750" positionY="100"/>
+<Word name="1/kedi" positionX="650" positionY="200"/>
+<Connection from="5/bitir" to="1/kedi" with="ARG0"/>
+<Word name="3/konserve" positionX="750" positionY="200"/>
+<Connection from="5/bitir" to="3/konserve" with="ARG1"/>
+<Word name="2/iki" positionX="650" positionY="300"/>
+<Connection from="3/konserve" to="2/iki"/>
+<Word name="4/de" positionX="750" positionY="300"/>
+<Connection from="3/konserve" to="4/de"/>
+<Word name="6/mi" positionX="850" positionY="200"/>
+<Connection from="5/bitir" to="6/mi"/>
+</Amr>

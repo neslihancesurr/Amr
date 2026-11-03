@@ -1,0 +1,17 @@
+<Amr sentence="Tüm birimlerde çalışan sayılarını ciddi anlamda artırdık .">
+<Word name="7/artır" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="7/artır" to="biz" with="ARG0"/>
+<Word name="2/birim" positionX="750" positionY="200"/>
+<Connection from="7/artır" to="2/birim" with="ARG1"/>
+<Word name="1/tüm" positionX="650" positionY="300"/>
+<Connection from="2/birim" to="1/tüm" with="mod"/>
+<Word name="4/sayı" positionX="850" positionY="200"/>
+<Connection from="7/artır" to="4/sayı" with="ARG1"/>
+<Word name="3/çalış" positionX="750" positionY="300"/>
+<Connection from="4/sayı" to="3/çalış" with="mod"/>
+<Word name="6/anlam" positionX="950" positionY="200"/>
+<Connection from="7/artır" to="6/anlam" with="mod"/>
+<Word name="5/ciddi" positionX="850" positionY="300"/>
+<Connection from="6/anlam" to="5/ciddi" with="mod"/>
+</Amr>

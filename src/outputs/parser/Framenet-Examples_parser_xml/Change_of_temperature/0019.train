@@ -1,0 +1,11 @@
+<Amr sentence="Çorba ona çok iyi geldi , iliği kemiği ısındı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/iyi 5/gel" positionX="650" positionY="200"/>
+<Connection from="and" to="4/iyi 5/gel" with="op1"/>
+<Word name="1/çorba" positionX="550" positionY="300"/>
+<Connection from="4/iyi 5/gel" to="1/çorba" with="ARG1"/>
+<Word name="2/o" positionX="650" positionY="300"/>
+<Connection from="4/iyi 5/gel" to="2/o" with="ARG2"/>
+<Word name="7/ilik 8/kemik 9/ısın" positionX="750" positionY="200"/>
+<Connection from="and" to="7/ilik 8/kemik 9/ısın" with="op2"/>
+</Amr>

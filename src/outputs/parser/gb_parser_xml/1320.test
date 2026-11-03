@@ -1,0 +1,19 @@
+<Amr sentence="Ziya'nın lafları biraz şeysiz kaçtı .">
+<Word name="5/kaç" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/kaç" to="o" with="ARG0"/>
+<Word name="2/laf" positionX="750" positionY="200"/>
+<Connection from="5/kaç" to="2/laf" with="ARG1"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="2/laf" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ziya" positionX="450" positionY="500"/>
+<Connection from="name" to="1/ziya" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/şey" positionX="850" positionY="200"/>
+<Connection from="5/kaç" to="4/şey"/>
+<Word name="3/biraz" positionX="750" positionY="300"/>
+<Connection from="4/şey" to="3/biraz" with="manner"/>
+</Amr>

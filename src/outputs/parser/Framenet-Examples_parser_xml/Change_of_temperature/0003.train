@@ -1,0 +1,15 @@
+<Amr sentence="Sonunda ısındım , donacağım sanıyordum .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/ısın" positionX="650" positionY="200"/>
+<Connection from="and" to="2/ısın" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="2/ısın" to="ben" with="ARG0"/>
+<Word name="1/sonunda" positionX="650" positionY="300"/>
+<Connection from="2/ısın" to="1/sonunda"/>
+<Word name="5/san" positionX="750" positionY="200"/>
+<Connection from="and" to="5/san" with="op2"/>
+<Connection from="5/san" to="ben" with="ARG0"/>
+<Word name="4/don" positionX="750" positionY="300"/>
+<Connection from="5/san" to="4/don" with="ARG1"/>
+<Connection from="4/don" to="ben" with="ARG0"/>
+</Amr>

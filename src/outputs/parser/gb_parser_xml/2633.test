@@ -1,0 +1,7 @@
+<Amr sentence="Bebek ne tatlı .">
+<Word name="3/tatlı" positionX="750" positionY="100"/>
+<Word name="1/bebek" positionX="650" positionY="200"/>
+<Connection from="3/tatlı" to="1/bebek"/>
+<Word name="2/ne" positionX="750" positionY="200"/>
+<Connection from="3/tatlı" to="2/ne" with="manner"/>
+</Amr>

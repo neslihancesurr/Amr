@@ -1,0 +1,14 @@
+<Amr sentence="Hepimizin gözünde çat diye sönmüştü .">
+<Word name="5/sön" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/sön" to="o" with="ARG0"/>
+<Word name="2/gözünde" positionX="750" positionY="200"/>
+<Connection from="5/sön" to="2/gözünde"/>
+<Word name="1/hep" positionX="650" positionY="300"/>
+<Connection from="2/gözünde" to="1/hep" with="frequency"/>
+<Word name="3/çat" positionX="850" positionY="200"/>
+<Connection from="5/sön" to="3/çat"/>
+<Word name="4/de" positionX="750" positionY="300"/>
+<Connection from="3/çat" to="4/de"/>
+<Connection from="4/de" to="o" with="ARG0"/>
+</Amr>

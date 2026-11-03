@@ -1,0 +1,15 @@
+<Amr sentence="Hemen ayaklandınız , halbuki erkendi daha .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/ayaklan" positionX="650" positionY="200"/>
+<Connection from="and" to="2/ayaklan" with="op1"/>
+<Word name="siz" positionX="550" positionY="300"/>
+<Connection from="2/ayaklan" to="siz" with="ARG0"/>
+<Word name="1/hemen" positionX="650" positionY="300"/>
+<Connection from="2/ayaklan" to="1/hemen" with="manner"/>
+<Word name="5/erken" positionX="750" positionY="200"/>
+<Connection from="and" to="5/erken" with="op2"/>
+<Word name="4/halbuki" positionX="650" positionY="300"/>
+<Connection from="5/erken" to="4/halbuki"/>
+<Word name="6/daha" positionX="750" positionY="300"/>
+<Connection from="5/erken" to="6/daha" with="degree"/>
+</Amr>

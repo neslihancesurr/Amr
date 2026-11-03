@@ -1,0 +1,15 @@
+<Amr sentence="Konuyu daha detaylı işlemek adına yeni bir defter açtık .">
+<Word name="8/defter 9/aç" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="8/defter 9/aç" to="biz" with="ARG0"/>
+<Word name="5/adına" positionX="750" positionY="200"/>
+<Connection from="8/defter 9/aç" to="5/adına" with="mod"/>
+<Word name="4/işle" positionX="650" positionY="300"/>
+<Connection from="5/adına" to="4/işle" with="mod"/>
+<Word name="1/konu" positionX="550" positionY="400"/>
+<Connection from="4/işle" to="1/konu" with="ARG1"/>
+<Word name="3/detaylı" positionX="650" positionY="400"/>
+<Connection from="4/işle" to="3/detaylı" with="manner"/>
+<Word name="2/daha" positionX="550" positionY="500"/>
+<Connection from="3/detaylı" to="2/daha" with="degree"/>
+</Amr>

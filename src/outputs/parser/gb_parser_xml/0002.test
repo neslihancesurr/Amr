@@ -1,0 +1,9 @@
+<Amr sentence="Her gün nereye gidiyorsun ?">
+<Word name="4/git" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="4/git" to="sen" with="ARG0"/>
+<Word name="1/her 2/gün" positionX="750" positionY="200"/>
+<Connection from="4/git" to="1/her 2/gün" with="mod"/>
+<Word name="3/nere" positionX="850" positionY="200"/>
+<Connection from="4/git" to="3/nere" with="ARG1"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Onunla birlikte seyahate çıkmak gönlünden geçiyordu .">
+<Word name="5/gönül 6/geç" positionX="750" positionY="100"/>
+<Word name="4/çık" positionX="650" positionY="200"/>
+<Connection from="5/gönül 6/geç" to="4/çık" with="ARG1"/>
+<Word name="1/o" positionX="550" positionY="300"/>
+<Connection from="4/çık" to="1/o" with="instrument"/>
+<Word name="2/birlikte" positionX="450" positionY="400"/>
+<Connection from="1/o" to="2/birlikte"/>
+<Word name="3/seyahat" positionX="650" positionY="300"/>
+<Connection from="4/çık" to="3/seyahat" with="ARG1"/>
+</Amr>

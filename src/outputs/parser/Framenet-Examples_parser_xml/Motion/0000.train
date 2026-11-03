@@ -1,0 +1,17 @@
+<Amr sentence="Arkadaş çalgısını bir iki defa üfledikten sonra döndü .">
+<Word name="8/dön" positionX="750" positionY="100"/>
+<Word name="1/arkadaş" positionX="650" positionY="200"/>
+<Connection from="8/dön" to="1/arkadaş" with="ARG0"/>
+<Word name="6/üfle" positionX="750" positionY="200"/>
+<Connection from="8/dön" to="6/üfle"/>
+<Word name="2/çalgı" positionX="650" positionY="300"/>
+<Connection from="6/üfle" to="2/çalgı"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="2/çalgı" to="o" with="poss"/>
+<Word name="5/defa" positionX="750" positionY="300"/>
+<Connection from="6/üfle" to="5/defa" with="mod"/>
+<Word name="3/bir" positionX="650" positionY="400"/>
+<Connection from="5/defa" to="3/bir"/>
+<Word name="7/sonra" positionX="850" positionY="300"/>
+<Connection from="6/üfle" to="7/sonra"/>
+</Amr>

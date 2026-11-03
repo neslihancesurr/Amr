@@ -1,0 +1,15 @@
+<Amr sentence="Annenin getireceği pasta yetecek mi ?">
+<Word name="4/yet" positionX="750" positionY="100"/>
+<Word name="3/pasta" positionX="650" positionY="200"/>
+<Connection from="4/yet" to="3/pasta" with="ARG1"/>
+<Word name="2/getir" positionX="550" positionY="300"/>
+<Connection from="3/pasta" to="2/getir"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="2/getir" to="o" with="poss"/>
+<Word name="1/anne" positionX="550" positionY="400"/>
+<Connection from="2/getir" to="1/anne" with="ARG0"/>
+<Word name="sen" positionX="450" positionY="500"/>
+<Connection from="1/anne" to="sen" with="poss"/>
+<Word name="5/mi" positionX="750" positionY="200"/>
+<Connection from="4/yet" to="5/mi"/>
+</Amr>

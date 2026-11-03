@@ -1,0 +1,21 @@
+<Amr sentence="Tarih anlatırken konu ne zaman sakıncalı bir yere gitse lafı çeviriyordu .">
+<Word name="10/laf 11/çevir" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="10/laf 11/çevir" to="o" with="ARG0"/>
+<Word name="9/git" positionX="750" positionY="200"/>
+<Connection from="10/laf 11/çevir" to="9/git"/>
+<Word name="2/anlat" positionX="650" positionY="300"/>
+<Connection from="9/git" to="2/anlat"/>
+<Word name="1/tarih" positionX="550" positionY="400"/>
+<Connection from="2/anlat" to="1/tarih" with="ARG1"/>
+<Word name="3/konu" positionX="750" positionY="300"/>
+<Connection from="9/git" to="3/konu" with="ARG0"/>
+<Word name="5/zaman" positionX="850" positionY="300"/>
+<Connection from="9/git" to="5/zaman" with="mod"/>
+<Word name="4/ne" positionX="750" positionY="400"/>
+<Connection from="5/zaman" to="4/ne"/>
+<Word name="8/yer" positionX="950" positionY="300"/>
+<Connection from="9/git" to="8/yer" with="ARG1"/>
+<Word name="6/sakıncalı" positionX="850" positionY="400"/>
+<Connection from="8/yer" to="6/sakıncalı" with="mod"/>
+</Amr>

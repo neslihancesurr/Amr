@@ -1,0 +1,16 @@
+<Amr sentence="Saçlarımı kısaltmak beni çok sevindirdi .">
+<Word name="5/sevindir" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/sevindir" to="o" with="ARG0"/>
+<Word name="2/kısalt" positionX="750" positionY="200"/>
+<Connection from="5/sevindir" to="2/kısalt"/>
+<Connection from="2/kısalt" to="o" with="ARG0"/>
+<Word name="1/saç" positionX="750" positionY="300"/>
+<Connection from="2/kısalt" to="1/saç" with="ARG1"/>
+<Word name="ben" positionX="650" positionY="400"/>
+<Connection from="1/saç" to="ben" with="poss"/>
+<Word name="3/ben" positionX="850" positionY="200"/>
+<Connection from="5/sevindir" to="3/ben" with="ARG1"/>
+<Word name="4/çok" positionX="950" positionY="200"/>
+<Connection from="5/sevindir" to="4/çok" with="degree"/>
+</Amr>

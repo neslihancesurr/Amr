@@ -1,0 +1,19 @@
+<Amr sentence="Ben makarnaları haşlıyordum , o da sos hazırlıyordu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/haşla" positionX="650" positionY="200"/>
+<Connection from="and" to="3/haşla" with="op1"/>
+<Word name="1/ben" positionX="550" positionY="300"/>
+<Connection from="3/haşla" to="1/ben" with="ARG0"/>
+<Word name="2/makarna" positionX="650" positionY="300"/>
+<Connection from="3/haşla" to="2/makarna" with="ARG1"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="2/makarna" to="o" with="poss"/>
+<Word name="8/hazırla" positionX="750" positionY="200"/>
+<Connection from="and" to="8/hazırla" with="op2"/>
+<Word name="5/o" positionX="650" positionY="300"/>
+<Connection from="8/hazırla" to="5/o" with="ARG0"/>
+<Word name="6/da" positionX="550" positionY="400"/>
+<Connection from="5/o" to="6/da" with="manner"/>
+<Word name="7/sos" positionX="750" positionY="300"/>
+<Connection from="8/hazırla" to="7/sos" with="ARG1"/>
+</Amr>

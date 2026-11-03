@@ -1,0 +1,17 @@
+<Amr sentence="Fazlasına gerek yok , tava getir yeter .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/yok" positionX="650" positionY="200"/>
+<Connection from="and" to="3/yok" with="op1"/>
+<Word name="1/fazla" positionX="550" positionY="300"/>
+<Connection from="3/yok" to="1/fazla" with="degree"/>
+<Word name="2/gerek" positionX="650" positionY="300"/>
+<Connection from="3/yok" to="2/gerek"/>
+<Word name="5/tava 6/getir" positionX="750" positionY="200"/>
+<Connection from="and" to="5/tava 6/getir" with="op2"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="5/tava 6/getir" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="300"/>
+<Connection from="5/tava 6/getir" to="imperative" with="mode"/>
+<Word name="7/yeter" positionX="850" positionY="300"/>
+<Connection from="5/tava 6/getir" to="7/yeter" with="manner"/>
+</Amr>

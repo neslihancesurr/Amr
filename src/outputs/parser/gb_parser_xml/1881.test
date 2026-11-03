@@ -1,0 +1,7 @@
+<Amr sentence="Hırsız pencereden girer .">
+<Word name="3/gir" positionX="750" positionY="100"/>
+<Word name="1/hırsız" positionX="650" positionY="200"/>
+<Connection from="3/gir" to="1/hırsız" with="ARG0"/>
+<Word name="2/pencere" positionX="750" positionY="200"/>
+<Connection from="3/gir" to="2/pencere"/>
+</Amr>

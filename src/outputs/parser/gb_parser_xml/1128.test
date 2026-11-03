@@ -1,0 +1,13 @@
+<Amr sentence="Harun'la aramızdaki gerginlik">
+<Word name="3/gerginlik" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="3/gerginlik" to="person" with="instrument"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/harun" positionX="450" positionY="400"/>
+<Connection from="name" to="1/harun" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/ara" positionX="750" positionY="200"/>
+<Connection from="3/gerginlik" to="2/ara" with="mod"/>
+</Amr>

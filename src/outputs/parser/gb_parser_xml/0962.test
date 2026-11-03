@@ -1,0 +1,18 @@
+<Amr sentence="Selim'in Berlin'de kızkardeşi varmış .">
+<Word name="4/var" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/var" to="o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="4/var" to="person"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/selim" positionX="550" positionY="400"/>
+<Connection from="name" to="1/selim" with="op1"/>
+<Word name="2/berlin" positionX="650" positionY="400"/>
+<Connection from="name" to="2/berlin" with="op2"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/kızkardeş" positionX="850" positionY="200"/>
+<Connection from="4/var" to="3/kızkardeş"/>
+<Connection from="3/kızkardeş" to="o" with="poss"/>
+</Amr>

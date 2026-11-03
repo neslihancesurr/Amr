@@ -1,0 +1,17 @@
+<Amr sentence="Senin yazdığın mektup daha ellerine geçmemiş .">
+<Word name="5/el 6/geç" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/el 6/geç" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="5/el 6/geç" to="o" with="ARG0"/>
+<Word name="3/mektup" positionX="850" positionY="200"/>
+<Connection from="5/el 6/geç" to="3/mektup" with="ARG1"/>
+<Word name="2/yaz" positionX="750" positionY="300"/>
+<Connection from="3/mektup" to="2/yaz"/>
+<Word name="sen" positionX="650" positionY="400"/>
+<Connection from="2/yaz" to="sen" with="poss"/>
+<Word name="1/sen" positionX="750" positionY="400"/>
+<Connection from="2/yaz" to="1/sen" with="ARG0"/>
+<Word name="4/daha" positionX="950" positionY="200"/>
+<Connection from="5/el 6/geç" to="4/daha" with="degree"/>
+</Amr>

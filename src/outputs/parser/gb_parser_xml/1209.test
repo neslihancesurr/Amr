@@ -1,0 +1,27 @@
+<Amr sentence="Ayşe'yle Semra birbirlerinden hiç hoşlanmıyor .">
+<Word name="5/hoşlan" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/hoşlan" to="-" with="polarity"/>
+<Word name="and" positionX="750" positionY="200"/>
+<Connection from="5/hoşlan" to="and"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="and" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/semra" positionX="450" positionY="500"/>
+<Connection from="name" to="2/semra" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="and" to="person" with="ARG0"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ayşe" positionX="550" positionY="500"/>
+<Connection from="name" to="1/ayşe" with="op1"/>
+<Connection from="name" to="2/semra" with="op2"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="person" to="and"/>
+<Word name="3/birbirleri" positionX="850" positionY="200"/>
+<Connection from="5/hoşlan" to="3/birbirleri" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="3/birbirleri" to="o" with="poss"/>
+<Word name="4/hiç" positionX="950" positionY="200"/>
+<Connection from="5/hoşlan" to="4/hiç" with="degree"/>
+</Amr>

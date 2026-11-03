@@ -1,0 +1,12 @@
+<Amr sentence="Tüm gün arkadaşlarını çekiştirdi .">
+<Word name="4/çekiştir" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/çekiştir" to="o" with="ARG0"/>
+<Word name="2/gün" positionX="750" positionY="200"/>
+<Connection from="4/çekiştir" to="2/gün" with="mod"/>
+<Word name="1/tüm" positionX="650" positionY="300"/>
+<Connection from="2/gün" to="1/tüm" with="mod"/>
+<Word name="3/arkadaş" positionX="850" positionY="200"/>
+<Connection from="4/çekiştir" to="3/arkadaş" with="ARG1"/>
+<Connection from="3/arkadaş" to="o" with="poss"/>
+</Amr>

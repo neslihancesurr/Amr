@@ -1,0 +1,18 @@
+<Amr sentence="Ayaklarını boşluğa savururken küçük dolap gürültüyle yıkıldı .">
+<Word name="7/yık" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/yık" to="o" with="ARG0"/>
+<Word name="3/savur" positionX="750" positionY="200"/>
+<Connection from="7/yık" to="3/savur"/>
+<Word name="1/ayak" positionX="650" positionY="300"/>
+<Connection from="3/savur" to="1/ayak"/>
+<Connection from="1/ayak" to="o" with="poss"/>
+<Word name="2/boşluk" positionX="750" positionY="300"/>
+<Connection from="3/savur" to="2/boşluk"/>
+<Word name="5/dolap" positionX="850" positionY="200"/>
+<Connection from="7/yık" to="5/dolap" with="ARG1"/>
+<Word name="4/küçük" positionX="750" positionY="300"/>
+<Connection from="5/dolap" to="4/küçük" with="mod"/>
+<Word name="6/gürültü" positionX="950" positionY="200"/>
+<Connection from="7/yık" to="6/gürültü" with="instrument"/>
+</Amr>

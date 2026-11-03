@@ -1,0 +1,11 @@
+<Amr sentence="Senin arkadaşlarına soralım .">
+<Word name="3/sor" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="3/sor" to="biz" with="ARG0"/>
+<Word name="2/arkadaş" positionX="750" positionY="200"/>
+<Connection from="3/sor" to="2/arkadaş" with="ARG2"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="2/arkadaş" to="sen" with="poss"/>
+<Word name="1/sen" positionX="750" positionY="300"/>
+<Connection from="2/arkadaş" to="1/sen" with="mod"/>
+</Amr>

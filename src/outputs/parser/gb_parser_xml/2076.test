@@ -1,0 +1,23 @@
+<Amr sentence="Ayten'i eski bilgisayarını bana vermekle suçluyorlar .">
+<Word name="6/suçla" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="6/suçla" to="onlar" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="6/suçla" to="person"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ayten" positionX="550" positionY="400"/>
+<Connection from="name" to="1/ayten" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/ver" positionX="850" positionY="200"/>
+<Connection from="6/suçla" to="5/ver"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="5/ver" to="o" with="ARG0"/>
+<Word name="3/bilgisayar" positionX="850" positionY="300"/>
+<Connection from="5/ver" to="3/bilgisayar"/>
+<Word name="2/eski" positionX="750" positionY="400"/>
+<Connection from="3/bilgisayar" to="2/eski" with="mod"/>
+<Word name="4/ben" positionX="950" positionY="300"/>
+<Connection from="5/ver" to="4/ben"/>
+</Amr>

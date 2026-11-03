@@ -1,0 +1,17 @@
+<Amr sentence="Yarın pikniğe gideceğiz , hazırlan !">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/git" positionX="650" positionY="200"/>
+<Connection from="and" to="3/git" with="op1"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="3/git" to="biz" with="ARG0"/>
+<Word name="1/yarın" positionX="650" positionY="300"/>
+<Connection from="3/git" to="1/yarın" with="mod"/>
+<Word name="2/piknik" positionX="750" positionY="300"/>
+<Connection from="3/git" to="2/piknik" with="ARG1"/>
+<Word name="5/hazırlan" positionX="750" positionY="200"/>
+<Connection from="and" to="5/hazırlan" with="op2"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="5/hazırlan" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="300"/>
+<Connection from="5/hazırlan" to="imperative" with="mode"/>
+</Amr>

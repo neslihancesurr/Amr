@@ -1,0 +1,13 @@
+<Amr sentence="Her söylediğimden bir mana çıkarıyordu .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="4/mana 5/çık" positionX="650" positionY="200"/>
+<Connection from="yap" to="4/mana 5/çık"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/mana 5/çık" to="o" with="ARG0"/>
+<Word name="2/söyle" positionX="650" positionY="300"/>
+<Connection from="4/mana 5/çık" to="2/söyle" with="ARG2"/>
+<Word name="ben" positionX="550" positionY="400"/>
+<Connection from="2/söyle" to="ben" with="ARG0"/>
+<Word name="1/her" positionX="650" positionY="400"/>
+<Connection from="2/söyle" to="1/her" with="mod"/>
+</Amr>

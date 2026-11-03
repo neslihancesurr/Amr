@@ -1,0 +1,20 @@
+<Amr sentence="Gösterişli bir hayat yaşıyor , her gece pavyonlarda para saçıyordu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/yaşa" positionX="650" positionY="200"/>
+<Connection from="and" to="4/yaşa" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/yaşa" to="o" with="ARG0"/>
+<Word name="3/hayat" positionX="650" positionY="300"/>
+<Connection from="4/yaşa" to="3/hayat"/>
+<Word name="1/gösterişli" positionX="550" positionY="400"/>
+<Connection from="3/hayat" to="1/gösterişli" with="mod"/>
+<Word name="9/para 10/saç" positionX="750" positionY="200"/>
+<Connection from="and" to="9/para 10/saç" with="op2"/>
+<Connection from="9/para 10/saç" to="o" with="ARG0"/>
+<Word name="7/gece" positionX="750" positionY="300"/>
+<Connection from="9/para 10/saç" to="7/gece" with="mod"/>
+<Word name="6/her" positionX="650" positionY="400"/>
+<Connection from="7/gece" to="6/her" with="mod"/>
+<Word name="8/pavyon" positionX="850" positionY="300"/>
+<Connection from="9/para 10/saç" to="8/pavyon" with="location"/>
+</Amr>

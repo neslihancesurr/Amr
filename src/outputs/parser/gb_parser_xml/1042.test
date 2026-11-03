@@ -1,0 +1,17 @@
+<Amr sentence="Şebnem hastalığına rağmen çalışmaya devam ediyor .">
+<Word name="5/devam 6/et" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="5/devam 6/et" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/şebnem" positionX="450" positionY="400"/>
+<Connection from="name" to="1/şebnem" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/hastalık" positionX="750" positionY="200"/>
+<Connection from="5/devam 6/et" to="2/hastalık" with="concession"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/hastalık" to="o" with="poss"/>
+<Word name="4/çalışma" positionX="850" positionY="200"/>
+<Connection from="5/devam 6/et" to="4/çalışma" with="ARG1"/>
+</Amr>

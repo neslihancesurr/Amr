@@ -1,0 +1,7 @@
+<Amr sentence="sekiz bardak su">
+<Word name="3/su" positionX="750" positionY="100"/>
+<Word name="2/bardak" positionX="650" positionY="200"/>
+<Connection from="3/su" to="2/bardak" with="mod"/>
+<Word name="1/sekiz" positionX="550" positionY="300"/>
+<Connection from="2/bardak" to="1/sekiz"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Dün bana başka bir telefon numarası vermiştin .">
+<Word name="7/ver" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="7/ver" to="sen" with="ARG0"/>
+<Word name="1/dün" positionX="750" positionY="200"/>
+<Connection from="7/ver" to="1/dün"/>
+<Word name="2/ben" positionX="850" positionY="200"/>
+<Connection from="7/ver" to="2/ben" with="ARG2"/>
+<Word name="5/telefon 6/numara" positionX="950" positionY="200"/>
+<Connection from="7/ver" to="5/telefon 6/numara" with="ARG1"/>
+<Word name="3/başka" positionX="850" positionY="300"/>
+<Connection from="5/telefon 6/numara" to="3/başka" with="mod"/>
+</Amr>

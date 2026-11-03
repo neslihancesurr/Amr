@@ -1,0 +1,5 @@
+<Amr sentence="Okulun başına geldi .">
+<Word name="2/baş 3/gel" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="2/baş 3/gel" to="o" with="ARG0"/>
+</Amr>

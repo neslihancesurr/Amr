@@ -1,0 +1,14 @@
+<Amr sentence="Yarım bıraktığım işe artık döneceğim .">
+<Word name="5/dön" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/dön" to="ben" with="ARG0"/>
+<Word name="3/iş" positionX="750" positionY="200"/>
+<Connection from="5/dön" to="3/iş" with="ARG1"/>
+<Word name="2/bırak" positionX="650" positionY="300"/>
+<Connection from="3/iş" to="2/bırak"/>
+<Connection from="2/bırak" to="ben" with="poss"/>
+<Word name="1/yarım" positionX="650" positionY="400"/>
+<Connection from="2/bırak" to="1/yarım"/>
+<Word name="4/artık" positionX="850" positionY="200"/>
+<Connection from="5/dön" to="4/artık" with="manner"/>
+</Amr>

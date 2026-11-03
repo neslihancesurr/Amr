@@ -1,0 +1,17 @@
+<Amr sentence="Ihlamur soğumuş , sana yenisini yapayım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/soğu" positionX="650" positionY="200"/>
+<Connection from="and" to="2/soğu" with="op1"/>
+<Word name="1/ıhlamur" positionX="550" positionY="300"/>
+<Connection from="2/soğu" to="1/ıhlamur" with="ARG1"/>
+<Word name="6/yap" positionX="750" positionY="200"/>
+<Connection from="and" to="6/yap" with="op2"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="6/yap" to="ben" with="ARG0"/>
+<Word name="4/sana" positionX="750" positionY="300"/>
+<Connection from="6/yap" to="4/sana"/>
+<Word name="5/yeni" positionX="850" positionY="300"/>
+<Connection from="6/yap" to="5/yeni"/>
+<Word name="o" positionX="750" positionY="400"/>
+<Connection from="5/yeni" to="o" with="poss"/>
+</Amr>

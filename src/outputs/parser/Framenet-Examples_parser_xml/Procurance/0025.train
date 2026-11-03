@@ -1,0 +1,7 @@
+<Amr sentence="Böyle insanlar etrafımdayken yardım görmek ne mümkündü .">
+<Word name="6/ne 7/mümkün" positionX="750" positionY="100"/>
+<Word name="4/yardım 5/gör" positionX="650" positionY="200"/>
+<Connection from="6/ne 7/mümkün" to="4/yardım 5/gör"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/yardım 5/gör" to="o" with="ARG0"/>
+</Amr>

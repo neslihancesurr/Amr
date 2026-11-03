@@ -1,0 +1,14 @@
+<Amr sentence="Bildiği her şeyi polislere anlattı .">
+<Word name="5/anlat" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/anlat" to="o" with="ARG0"/>
+<Word name="3/şey" positionX="750" positionY="200"/>
+<Connection from="5/anlat" to="3/şey" with="ARG1"/>
+<Word name="1/bil" positionX="650" positionY="300"/>
+<Connection from="3/şey" to="1/bil"/>
+<Connection from="1/bil" to="o" with="poss"/>
+<Word name="2/her" positionX="750" positionY="300"/>
+<Connection from="3/şey" to="2/her" with="mod"/>
+<Word name="4/polis" positionX="850" positionY="200"/>
+<Connection from="5/anlat" to="4/polis" with="ARG2"/>
+</Amr>

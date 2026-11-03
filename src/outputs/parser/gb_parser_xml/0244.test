@@ -1,0 +1,11 @@
+<Amr sentence="Buzdolabında iki şişe bira var .">
+<Word name="5/var" positionX="750" positionY="100"/>
+<Word name="1/buzdolabı" positionX="650" positionY="200"/>
+<Connection from="5/var" to="1/buzdolabı" with="location"/>
+<Word name="4/bira" positionX="750" positionY="200"/>
+<Connection from="5/var" to="4/bira"/>
+<Word name="3/şişe" positionX="650" positionY="300"/>
+<Connection from="4/bira" to="3/şişe" with="mod"/>
+<Word name="2/iki" positionX="550" positionY="400"/>
+<Connection from="3/şişe" to="2/iki"/>
+</Amr>

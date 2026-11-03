@@ -1,0 +1,7 @@
+<Amr sentence="paramızın % 95'i">
+<Word name="3/95" positionX="750" positionY="100"/>
+<Word name="1/para" positionX="650" positionY="200"/>
+<Connection from="3/95" to="1/para"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="1/para" to="biz" with="poss"/>
+</Amr>

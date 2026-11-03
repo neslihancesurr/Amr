@@ -1,0 +1,15 @@
+<Amr sentence="İstihsal etmek istediğim çok şey var .">
+<Word name="6/var" positionX="750" positionY="100"/>
+<Word name="5/şey" positionX="650" positionY="200"/>
+<Connection from="6/var" to="5/şey"/>
+<Word name="3/iste" positionX="550" positionY="300"/>
+<Connection from="5/şey" to="3/iste"/>
+<Word name="ben" positionX="450" positionY="400"/>
+<Connection from="3/iste" to="ben" with="poss"/>
+<Word name="1/istihsal 2/et" positionX="550" positionY="400"/>
+<Connection from="3/iste" to="1/istihsal 2/et" with="ARG1"/>
+<Word name="o" positionX="450" positionY="500"/>
+<Connection from="1/istihsal 2/et" to="o" with="ARG0"/>
+<Word name="4/çok" positionX="650" positionY="300"/>
+<Connection from="5/şey" to="4/çok" with="degree"/>
+</Amr>

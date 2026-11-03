@@ -1,0 +1,23 @@
+<Amr sentence="Karşı takımın santraforuna faul yapan Mustafa'ya hakem sarı kart gösterdi .">
+<Word name="8/sarı 9/kart 10/göster" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="8/sarı 9/kart 10/göster" to="person" with="ARG1"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="6/mustafa" positionX="450" positionY="400"/>
+<Connection from="name" to="6/mustafa" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/yap" positionX="750" positionY="300"/>
+<Connection from="person" to="5/yap"/>
+<Word name="3/santraforuna" positionX="650" positionY="400"/>
+<Connection from="5/yap" to="3/santraforuna"/>
+<Word name="2/takım" positionX="550" positionY="500"/>
+<Connection from="3/santraforuna" to="2/takım" with="mod"/>
+<Word name="1/karşı" positionX="450" positionY="600"/>
+<Connection from="2/takım" to="1/karşı" with="mod"/>
+<Word name="4/faul" positionX="750" positionY="400"/>
+<Connection from="5/yap" to="4/faul" with="ARG1"/>
+<Word name="7/hakem" positionX="750" positionY="200"/>
+<Connection from="8/sarı 9/kart 10/göster" to="7/hakem" with="ARG0"/>
+</Amr>

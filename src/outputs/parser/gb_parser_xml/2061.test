@@ -1,0 +1,22 @@
+<Amr sentence="Ev taşımak Nevin'e çok kolay geldi .">
+<Word name="6/gel" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/gel" to="o" with="ARG0"/>
+<Word name="2/taşı" positionX="750" positionY="200"/>
+<Connection from="6/gel" to="2/taşı"/>
+<Connection from="2/taşı" to="o" with="ARG0"/>
+<Word name="1/ev" positionX="750" positionY="300"/>
+<Connection from="2/taşı" to="1/ev"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="6/gel" to="person"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/nevin" positionX="650" positionY="400"/>
+<Connection from="name" to="3/nevin" with="op1"/>
+<Word name="-" positionX="850" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/kolay" positionX="950" positionY="200"/>
+<Connection from="6/gel" to="5/kolay"/>
+<Word name="4/çok" positionX="850" positionY="300"/>
+<Connection from="5/kolay" to="4/çok" with="degree"/>
+</Amr>

@@ -1,0 +1,20 @@
+<Amr sentence="Hocası ona o tip soruları nasıl çözeceğini gösterdi .">
+<Word name="8/göster" positionX="750" positionY="100"/>
+<Word name="1/hoca" positionX="650" positionY="200"/>
+<Connection from="8/göster" to="1/hoca" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/hoca" to="o" with="poss"/>
+<Word name="2/o" positionX="750" positionY="200"/>
+<Connection from="8/göster" to="2/o" with="ARG2"/>
+<Word name="7/çöz" positionX="850" positionY="200"/>
+<Connection from="8/göster" to="7/çöz" with="ARG1"/>
+<Connection from="7/çöz" to="o" with="poss"/>
+<Word name="5/soru" positionX="850" positionY="300"/>
+<Connection from="7/çöz" to="5/soru"/>
+<Word name="4/tip" positionX="750" positionY="400"/>
+<Connection from="5/soru" to="4/tip" with="mod"/>
+<Word name="3/o" positionX="650" positionY="500"/>
+<Connection from="4/tip" to="3/o" with="mod"/>
+<Word name="6/nasıl" positionX="950" positionY="300"/>
+<Connection from="7/çöz" to="6/nasıl" with="manner"/>
+</Amr>

@@ -1,0 +1,7 @@
+<Amr sentence="Kampta hep beraber kuzu çevirecekler .">
+<Word name="4/kuzu 5/çevir" positionX="750" positionY="100"/>
+<Word name="1/kamp" positionX="650" positionY="200"/>
+<Connection from="4/kuzu 5/çevir" to="1/kamp" with="location"/>
+<Word name="2/hep 3/beraber" positionX="750" positionY="200"/>
+<Connection from="4/kuzu 5/çevir" to="2/hep 3/beraber" with="ARG0"/>
+</Amr>

@@ -1,0 +1,24 @@
+<Amr sentence="Tarık Bey'e karşı büyük saygım var .">
+<Word name="6/var" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="6/var" to="person"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/bey" positionX="450" positionY="400"/>
+<Connection from="name" to="2/bey" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="person" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/tarık" positionX="550" positionY="500"/>
+<Connection from="name" to="1/tarık" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/karşı" positionX="850" positionY="300"/>
+<Connection from="person" to="3/karşı"/>
+<Word name="5/saygı" positionX="750" positionY="200"/>
+<Connection from="6/var" to="5/saygı"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="5/saygı" to="ben" with="poss"/>
+<Word name="4/büyük" positionX="750" positionY="300"/>
+<Connection from="5/saygı" to="4/büyük" with="mod"/>
+</Amr>

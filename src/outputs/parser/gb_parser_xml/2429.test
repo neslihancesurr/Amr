@@ -1,0 +1,7 @@
+<Amr sentence="Sadece yürüyüş yapmakla kilo verilmez .">
+<Word name="4/kilo 5/ver" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/kilo 5/ver" to="-" with="polarity"/>
+<Word name="2/yürüyüş 3/yap" positionX="750" positionY="200"/>
+<Connection from="4/kilo 5/ver" to="2/yürüyüş 3/yap"/>
+</Amr>

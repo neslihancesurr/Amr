@@ -1,0 +1,20 @@
+<Amr sentence="Köyü sular altında kalmaktan kurtarmak için nehri aktaracağız .">
+<Word name="8/aktar" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="8/aktar" to="biz" with="ARG0"/>
+<Word name="5/kurtar" positionX="750" positionY="200"/>
+<Connection from="8/aktar" to="5/kurtar" with="cause"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/kurtar" to="o" with="ARG0"/>
+<Word name="1/köy" positionX="750" positionY="300"/>
+<Connection from="5/kurtar" to="1/köy" with="ARG2"/>
+<Word name="4/kal" positionX="850" positionY="300"/>
+<Connection from="5/kurtar" to="4/kal" with="ARG2"/>
+<Connection from="4/kal" to="o" with="ARG0"/>
+<Word name="3/alt" positionX="850" positionY="400"/>
+<Connection from="4/kal" to="3/alt" with="location"/>
+<Word name="2/su" positionX="750" positionY="500"/>
+<Connection from="3/alt" to="2/su" with="mod"/>
+<Word name="7/nehir" positionX="850" positionY="200"/>
+<Connection from="8/aktar" to="7/nehir" with="ARG1"/>
+</Amr>

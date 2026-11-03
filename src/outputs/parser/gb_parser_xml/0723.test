@@ -1,0 +1,13 @@
+<Amr sentence="Beni son gördüğünüzden daha iyiyim .">
+<Word name="5/iyi" positionX="750" positionY="100"/>
+<Word name="3/gör" positionX="650" positionY="200"/>
+<Connection from="5/iyi" to="3/gör"/>
+<Word name="siz" positionX="550" positionY="300"/>
+<Connection from="3/gör" to="siz" with="ARG0"/>
+<Word name="1/ben" positionX="650" positionY="300"/>
+<Connection from="3/gör" to="1/ben" with="ARG1"/>
+<Word name="2/son" positionX="750" positionY="300"/>
+<Connection from="3/gör" to="2/son" with="manner"/>
+<Word name="4/daha" positionX="750" positionY="200"/>
+<Connection from="5/iyi" to="4/daha" with="degree"/>
+</Amr>

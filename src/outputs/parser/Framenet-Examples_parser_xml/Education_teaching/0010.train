@@ -1,0 +1,20 @@
+<Amr sentence="Arsen Hanım o okulda takrir ediyor .">
+<Word name="5/takrir 6/et" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="5/takrir 6/et" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/hanım" positionX="450" positionY="400"/>
+<Connection from="name" to="2/hanım" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="person" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/Arsen" positionX="550" positionY="500"/>
+<Connection from="name" to="1/Arsen" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/okul" positionX="750" positionY="200"/>
+<Connection from="5/takrir 6/et" to="4/okul" with="location"/>
+<Word name="3/o" positionX="650" positionY="300"/>
+<Connection from="4/okul" to="3/o" with="mod"/>
+</Amr>

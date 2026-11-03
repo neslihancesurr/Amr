@@ -1,0 +1,11 @@
+<Amr sentence="Ağaçlar artık yapraklarını döküyorlardı .">
+<Word name="4/dök" positionX="750" positionY="100"/>
+<Word name="1/ağaç" positionX="650" positionY="200"/>
+<Connection from="4/dök" to="1/ağaç" with="ARG0"/>
+<Word name="2/artık" positionX="750" positionY="200"/>
+<Connection from="4/dök" to="2/artık" with="manner"/>
+<Word name="3/yaprak" positionX="850" positionY="200"/>
+<Connection from="4/dök" to="3/yaprak" with="ARG1"/>
+<Word name="onlar" positionX="750" positionY="300"/>
+<Connection from="3/yaprak" to="onlar" with="poss"/>
+</Amr>

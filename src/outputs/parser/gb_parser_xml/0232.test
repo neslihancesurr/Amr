@@ -1,0 +1,7 @@
+<Amr sentence="Bu çocuk hasta .">
+<Word name="3/hasta" positionX="750" positionY="100"/>
+<Word name="2/çocuk" positionX="650" positionY="200"/>
+<Connection from="3/hasta" to="2/çocuk"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/çocuk" to="1/bu" with="mod"/>
+</Amr>

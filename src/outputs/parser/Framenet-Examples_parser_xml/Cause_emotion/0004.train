@@ -1,0 +1,14 @@
+<Amr sentence="Okuduğu şiirle annesini çok duygulandırdı .">
+<Word name="5/duygulandır" positionX="750" positionY="100"/>
+<Word name="2/şiir" positionX="650" positionY="200"/>
+<Connection from="5/duygulandır" to="2/şiir" with="instrument"/>
+<Word name="1/oku" positionX="550" positionY="300"/>
+<Connection from="2/şiir" to="1/oku"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="1/oku" to="o" with="poss"/>
+<Word name="3/anne" positionX="750" positionY="200"/>
+<Connection from="5/duygulandır" to="3/anne" with="ARG0"/>
+<Connection from="3/anne" to="o" with="poss"/>
+<Word name="4/çok" positionX="850" positionY="200"/>
+<Connection from="5/duygulandır" to="4/çok" with="degree"/>
+</Amr>

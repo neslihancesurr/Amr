@@ -1,0 +1,17 @@
+<Amr sentence="Evde meyva ya da tatlı var mı ?">
+<Word name="6/var" positionX="750" positionY="100"/>
+<Word name="1/ev" positionX="650" positionY="200"/>
+<Connection from="6/var" to="1/ev" with="location"/>
+<Word name="and" positionX="750" positionY="200"/>
+<Connection from="6/var" to="and"/>
+<Word name="5/tatlı" positionX="650" positionY="300"/>
+<Connection from="and" to="5/tatlı" with="op1"/>
+<Word name="3/ya" positionX="550" positionY="400"/>
+<Connection from="5/tatlı" to="3/ya"/>
+<Word name="4/da" positionX="650" positionY="400"/>
+<Connection from="5/tatlı" to="4/da"/>
+<Word name="2/meyva" positionX="750" positionY="300"/>
+<Connection from="and" to="2/meyva" with="op2"/>
+<Word name="7/mi" positionX="850" positionY="200"/>
+<Connection from="6/var" to="7/mi"/>
+</Amr>

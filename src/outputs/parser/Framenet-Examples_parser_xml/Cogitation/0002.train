@@ -1,0 +1,17 @@
+<Amr sentence="Geçen gün mağazada gördüğü fuşya gömlekte aklı kaldı .">
+<Word name="7/akıl 8/kal" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/akıl 8/kal" to="o" with="ARG0"/>
+<Word name="6/gömlek" positionX="750" positionY="200"/>
+<Connection from="7/akıl 8/kal" to="6/gömlek" with="ARG1"/>
+<Word name="4/gör" positionX="650" positionY="300"/>
+<Connection from="6/gömlek" to="4/gör"/>
+<Word name="2/gün" positionX="550" positionY="400"/>
+<Connection from="4/gör" to="2/gün" with="mod"/>
+<Word name="1/geçen" positionX="450" positionY="500"/>
+<Connection from="2/gün" to="1/geçen"/>
+<Word name="3/mağaza" positionX="650" positionY="400"/>
+<Connection from="4/gör" to="3/mağaza" with="location"/>
+<Word name="5/fuşya" positionX="750" positionY="300"/>
+<Connection from="6/gömlek" to="5/fuşya" with="mod"/>
+</Amr>

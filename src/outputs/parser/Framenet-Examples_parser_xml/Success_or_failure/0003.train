@@ -1,0 +1,14 @@
+<Amr sentence="Partiyi kaybetmiş , para kazanamamıştı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/parti 2/kaybet" positionX="650" positionY="200"/>
+<Connection from="and" to="1/parti 2/kaybet" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/parti 2/kaybet" to="o" with="ARG0"/>
+<Word name="5/kazan" positionX="750" positionY="200"/>
+<Connection from="and" to="5/kazan" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="5/kazan" to="-" with="polarity"/>
+<Connection from="5/kazan" to="o" with="ARG0"/>
+<Word name="4/para" positionX="850" positionY="300"/>
+<Connection from="5/kazan" to="4/para" with="ARG1"/>
+</Amr>

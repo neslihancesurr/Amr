@@ -1,0 +1,13 @@
+<Amr sentence="Evi çoktandır boyatmadık .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="3/boya" positionX="650" positionY="200"/>
+<Connection from="yap" to="3/boya"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="3/boya" to="-" with="polarity"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="3/boya" to="biz" with="ARG0"/>
+<Word name="1/ev" positionX="750" positionY="300"/>
+<Connection from="3/boya" to="1/ev" with="ARG1"/>
+<Word name="2/çoktandır" positionX="850" positionY="300"/>
+<Connection from="3/boya" to="2/çoktandır" with="manner"/>
+</Amr>

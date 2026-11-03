@@ -1,0 +1,19 @@
+<Amr sentence="Orta sahayı boş bırakmayın , baskı yapın !">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/bırak" positionX="650" positionY="200"/>
+<Connection from="and" to="4/bırak" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="4/bırak" to="-" with="polarity"/>
+<Word name="siz" positionX="650" positionY="300"/>
+<Connection from="4/bırak" to="siz" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="300"/>
+<Connection from="4/bırak" to="imperative" with="mode"/>
+<Word name="1/orta 2/saha" positionX="850" positionY="300"/>
+<Connection from="4/bırak" to="1/orta 2/saha" with="ARG1"/>
+<Word name="3/boş" positionX="950" positionY="300"/>
+<Connection from="4/bırak" to="3/boş" with="manner"/>
+<Word name="6/baskı 7/yap" positionX="750" positionY="200"/>
+<Connection from="and" to="6/baskı 7/yap" with="op2"/>
+<Connection from="6/baskı 7/yap" to="siz" with="ARG0"/>
+<Connection from="6/baskı 7/yap" to="imperative" with="mode"/>
+</Amr>

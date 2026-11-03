@@ -1,0 +1,9 @@
+<Amr sentence="Doktorlar hastanın durumunu açıkladı .">
+<Word name="4/açıkla" positionX="750" positionY="100"/>
+<Word name="1/doktor" positionX="650" positionY="200"/>
+<Connection from="4/açıkla" to="1/doktor" with="ARG0"/>
+<Word name="3/durum" positionX="750" positionY="200"/>
+<Connection from="4/açıkla" to="3/durum" with="ARG1"/>
+<Word name="2/hasta" positionX="650" positionY="300"/>
+<Connection from="3/durum" to="2/hasta" with="mod"/>
+</Amr>

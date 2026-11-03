@@ -1,0 +1,17 @@
+<Amr sentence="Gençlerde uyuşturucu kullanımı üzerine araştırma yapıyor .">
+<Word name="6/yap" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/yap" to="o" with="ARG0"/>
+<Word name="4/üzerine" positionX="750" positionY="200"/>
+<Connection from="6/yap" to="4/üzerine" with="ARG1"/>
+<Word name="3/kullanım" positionX="650" positionY="300"/>
+<Connection from="4/üzerine" to="3/kullanım" with="mod"/>
+<Word name="1/genç" positionX="550" positionY="400"/>
+<Connection from="3/kullanım" to="1/genç" with="mod"/>
+<Word name="yap" positionX="650" positionY="400"/>
+<Connection from="3/kullanım" to="yap"/>
+<Word name="2/uyu" positionX="550" positionY="500"/>
+<Connection from="yap" to="2/uyu" with="mod"/>
+<Word name="5/araştırma" positionX="850" positionY="200"/>
+<Connection from="6/yap" to="5/araştırma" with="ARG1"/>
+</Amr>

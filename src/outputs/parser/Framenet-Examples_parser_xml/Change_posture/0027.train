@@ -1,0 +1,13 @@
+<Amr sentence="Çocuğu kucaklayıp yatağına götürdü .">
+<Word name="4/götür" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/götür" to="o" with="ARG0"/>
+<Word name="2/kucakla" positionX="750" positionY="200"/>
+<Connection from="4/götür" to="2/kucakla"/>
+<Word name="1/çocuk" positionX="650" positionY="300"/>
+<Connection from="2/kucakla" to="1/çocuk" with="ARG1"/>
+<Connection from="1/çocuk" to="o" with="poss"/>
+<Word name="3/yatak" positionX="850" positionY="200"/>
+<Connection from="4/götür" to="3/yatak"/>
+<Connection from="3/yatak" to="o" with="poss"/>
+</Amr>

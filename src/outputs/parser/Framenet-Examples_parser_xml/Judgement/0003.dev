@@ -1,0 +1,27 @@
+<Amr sentence="Her söylediğimize armudun sapı var , üzümün çöpü var dedi .">
+<Word name="10/de" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="10/de" to="o" with="ARG0"/>
+<Word name="2/söyle" positionX="750" positionY="200"/>
+<Connection from="10/de" to="2/söyle"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="2/söyle" to="biz" with="ARG0"/>
+<Word name="1/her" positionX="750" positionY="300"/>
+<Connection from="2/söyle" to="1/her" with="mod"/>
+<Word name="9/var" positionX="850" positionY="200"/>
+<Connection from="10/de" to="9/var" with="ARG1"/>
+<Word name="8/çöp" positionX="750" positionY="300"/>
+<Connection from="9/var" to="8/çöp"/>
+<Connection from="8/çöp" to="o" with="poss"/>
+<Word name="7/üzüm" positionX="750" positionY="400"/>
+<Connection from="8/çöp" to="7/üzüm"/>
+<Word name="sen" positionX="650" positionY="500"/>
+<Connection from="7/üzüm" to="sen" with="poss"/>
+<Word name="5/var" positionX="750" positionY="500"/>
+<Connection from="7/üzüm" to="5/var"/>
+<Word name="4/sap" positionX="650" positionY="600"/>
+<Connection from="5/var" to="4/sap"/>
+<Connection from="4/sap" to="o" with="poss"/>
+<Word name="3/armut" positionX="650" positionY="700"/>
+<Connection from="4/sap" to="3/armut"/>
+</Amr>

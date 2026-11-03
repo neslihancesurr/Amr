@@ -1,0 +1,13 @@
+<Amr sentence="Sistem değişimiyle yönetim aniden başsız bırakıldı .">
+<Word name="5/başsız 6/bırak" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/başsız 6/bırak" to="o" with="ARG0"/>
+<Word name="2/değişim" positionX="750" positionY="200"/>
+<Connection from="5/başsız 6/bırak" to="2/değişim" with="instrument"/>
+<Word name="1/sistem" positionX="650" positionY="300"/>
+<Connection from="2/değişim" to="1/sistem" with="mod"/>
+<Word name="3/yönetim" positionX="850" positionY="200"/>
+<Connection from="5/başsız 6/bırak" to="3/yönetim" with="ARG1"/>
+<Word name="4/aniden" positionX="950" positionY="200"/>
+<Connection from="5/başsız 6/bırak" to="4/aniden" with="manner"/>
+</Amr>

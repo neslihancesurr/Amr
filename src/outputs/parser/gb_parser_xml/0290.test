@@ -1,0 +1,7 @@
+<Amr sentence="Dün çok yorgundular .">
+<Word name="3/yorgun" positionX="750" positionY="100"/>
+<Word name="1/dün" positionX="650" positionY="200"/>
+<Connection from="3/yorgun" to="1/dün"/>
+<Word name="2/çok" positionX="750" positionY="200"/>
+<Connection from="3/yorgun" to="2/çok" with="degree"/>
+</Amr>

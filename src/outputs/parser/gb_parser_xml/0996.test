@@ -1,0 +1,15 @@
+<Amr sentence="Buraya daha çok üniversite öğrencileri geliyor .">
+<Word name="6/gel" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/gel" to="o" with="ARG0"/>
+<Word name="1/bura" positionX="750" positionY="200"/>
+<Connection from="6/gel" to="1/bura"/>
+<Word name="2/daha" positionX="850" positionY="200"/>
+<Connection from="6/gel" to="2/daha" with="degree"/>
+<Word name="3/çok" positionX="750" positionY="300"/>
+<Connection from="2/daha" to="3/çok" with="degree"/>
+<Word name="5/öğrenci" positionX="950" positionY="200"/>
+<Connection from="6/gel" to="5/öğrenci"/>
+<Word name="4/üniversite" positionX="850" positionY="300"/>
+<Connection from="5/öğrenci" to="4/üniversite" with="mod"/>
+</Amr>

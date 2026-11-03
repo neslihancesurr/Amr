@@ -1,0 +1,20 @@
+<Amr sentence="1923'te Türkiye ve Yunanistan , mübadele etti .">
+<Word name="6/mübadele 7/et" positionX="750" positionY="100"/>
+<Word name="1/1923" positionX="650" positionY="200"/>
+<Connection from="6/mübadele 7/et" to="1/1923"/>
+<Word name="and" positionX="750" positionY="200"/>
+<Connection from="6/mübadele 7/et" to="and"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="and" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="4/yunanistan" positionX="450" positionY="500"/>
+<Connection from="name" to="4/yunanistan" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="and" to="person" with="ARG0"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/türkiye" positionX="550" positionY="500"/>
+<Connection from="name" to="2/türkiye" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

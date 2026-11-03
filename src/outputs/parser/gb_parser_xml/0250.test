@@ -1,0 +1,19 @@
+<Amr sentence="Aytenin İstanbul'da iki arkadaşı var .">
+<Word name="5/var" positionX="750" positionY="100"/>
+<Word name="1/Ayten" positionX="650" positionY="200"/>
+<Connection from="5/var" to="1/Ayten"/>
+<Word name="city" positionX="750" positionY="200"/>
+<Connection from="5/var" to="city" with="location"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="2/istanbul" positionX="550" positionY="400"/>
+<Connection from="name" to="2/istanbul" with="op1"/>
+<Word name="istanbul" positionX="750" positionY="300"/>
+<Connection from="city" to="istanbul" with="wiki"/>
+<Word name="4/arkadaş" positionX="850" positionY="200"/>
+<Connection from="5/var" to="4/arkadaş"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="4/arkadaş" to="o" with="poss"/>
+<Word name="3/iki" positionX="850" positionY="300"/>
+<Connection from="4/arkadaş" to="3/iki"/>
+</Amr>

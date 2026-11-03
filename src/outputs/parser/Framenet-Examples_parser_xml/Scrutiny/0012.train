@@ -1,0 +1,13 @@
+<Amr sentence="Konuyla ilgili bütün kaynakları didikledi .">
+<Word name="5/didikle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/didikle" to="o" with="ARG0"/>
+<Word name="4/kaynak" positionX="750" positionY="200"/>
+<Connection from="5/didikle" to="4/kaynak" with="ARG1"/>
+<Word name="2/ilgili" positionX="650" positionY="300"/>
+<Connection from="4/kaynak" to="2/ilgili" with="mod"/>
+<Word name="1/konu" positionX="550" positionY="400"/>
+<Connection from="2/ilgili" to="1/konu" with="mod"/>
+<Word name="3/bütün" positionX="750" positionY="300"/>
+<Connection from="4/kaynak" to="3/bütün" with="mod"/>
+</Amr>

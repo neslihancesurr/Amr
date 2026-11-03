@@ -1,0 +1,7 @@
+<Amr sentence="Gerginlik gittikçe tırmanıyordu .">
+<Word name="3/tırman" positionX="750" positionY="100"/>
+<Word name="1/gerginlik" positionX="650" positionY="200"/>
+<Connection from="3/tırman" to="1/gerginlik" with="ARG0"/>
+<Word name="2/gittikçe" positionX="750" positionY="200"/>
+<Connection from="3/tırman" to="2/gittikçe"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Dolapta hiçbir şey yok .">
+<Word name="4/yok" positionX="750" positionY="100"/>
+<Word name="1/dolap" positionX="650" positionY="200"/>
+<Connection from="4/yok" to="1/dolap" with="location"/>
+<Word name="3/şey" positionX="750" positionY="200"/>
+<Connection from="4/yok" to="3/şey"/>
+<Word name="2/hiçbir" positionX="650" positionY="300"/>
+<Connection from="3/şey" to="2/hiçbir" with="mod"/>
+</Amr>

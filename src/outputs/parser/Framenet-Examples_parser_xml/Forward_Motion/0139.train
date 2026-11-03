@@ -1,0 +1,11 @@
+<Amr sentence="Koliyi odaya doğru sürüdüm .">
+<Word name="4/sürü" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/sürü" to="ben" with="ARG0"/>
+<Word name="1/koli" positionX="750" positionY="200"/>
+<Connection from="4/sürü" to="1/koli" with="ARG1"/>
+<Word name="2/oda" positionX="850" positionY="200"/>
+<Connection from="4/sürü" to="2/oda"/>
+<Word name="3/doğru" positionX="750" positionY="300"/>
+<Connection from="2/oda" to="3/doğru"/>
+</Amr>

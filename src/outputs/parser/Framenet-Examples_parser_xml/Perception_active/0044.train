@@ -1,0 +1,13 @@
+<Amr sentence="Bir ara karşıdaki salaş birahanenin penceresine göz atıyorum .">
+<Word name="7/göz 8/at" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="7/göz 8/at" to="ben" with="ARG0"/>
+<Word name="6/pencere" positionX="750" positionY="200"/>
+<Connection from="7/göz 8/at" to="6/pencere" with="ARG1"/>
+<Word name="5/birahane" positionX="650" positionY="300"/>
+<Connection from="6/pencere" to="5/birahane" with="mod"/>
+<Word name="3/karşı" positionX="550" positionY="400"/>
+<Connection from="5/birahane" to="3/karşı" with="mod"/>
+<Word name="4/salaş" positionX="650" positionY="400"/>
+<Connection from="5/birahane" to="4/salaş" with="mod"/>
+</Amr>

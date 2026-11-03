@@ -1,0 +1,15 @@
+<Amr sentence="Kültürel kargaşayı oldukça başarılı bir şekilde çözümledi .">
+<Word name="7/çözümle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/çözümle" to="o" with="ARG0"/>
+<Word name="2/kargaşa" positionX="750" positionY="200"/>
+<Connection from="7/çözümle" to="2/kargaşa" with="ARG1"/>
+<Word name="1/kültürel" positionX="650" positionY="300"/>
+<Connection from="2/kargaşa" to="1/kültürel" with="mod"/>
+<Word name="6/şekil" positionX="850" positionY="200"/>
+<Connection from="7/çözümle" to="6/şekil" with="location"/>
+<Word name="4/başarılı" positionX="750" positionY="300"/>
+<Connection from="6/şekil" to="4/başarılı" with="mod"/>
+<Word name="3/oldukça" positionX="650" positionY="400"/>
+<Connection from="4/başarılı" to="3/oldukça" with="manner"/>
+</Amr>

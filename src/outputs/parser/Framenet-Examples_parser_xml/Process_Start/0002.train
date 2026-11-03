@@ -1,0 +1,11 @@
+<Amr sentence="Hızlıca tasarlayıp hemen eyleme geçtik .">
+<Word name="4/eylem 5/geç" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="4/eylem 5/geç" to="biz" with="ARG0"/>
+<Word name="2/tasarla" positionX="750" positionY="200"/>
+<Connection from="4/eylem 5/geç" to="2/tasarla"/>
+<Word name="1/hızlıca" positionX="650" positionY="300"/>
+<Connection from="2/tasarla" to="1/hızlıca" with="manner"/>
+<Word name="3/hemen" positionX="850" positionY="200"/>
+<Connection from="4/eylem 5/geç" to="3/hemen" with="manner"/>
+</Amr>

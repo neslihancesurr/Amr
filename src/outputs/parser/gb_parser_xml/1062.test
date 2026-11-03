@@ -1,0 +1,7 @@
+<Amr sentence="İdam cezasından yana değilim .">
+<Word name="1/idam 2/ceza" positionX="750" positionY="100"/>
+<Word name="3/yana" positionX="650" positionY="200"/>
+<Connection from="1/idam 2/ceza" to="3/yana"/>
+<Word name="-" positionX="750" positionY="200"/>
+<Connection from="1/idam 2/ceza" to="-" with="polarity"/>
+</Amr>

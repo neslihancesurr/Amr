@@ -1,0 +1,11 @@
+<Amr sentence="Kariyer basamaklarında hızlı çıkmıştı .">
+<Word name="4/çık" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/çık" to="o" with="ARG0"/>
+<Word name="2/basamak" positionX="750" positionY="200"/>
+<Connection from="4/çık" to="2/basamak" with="location"/>
+<Word name="1/kariyer" positionX="650" positionY="300"/>
+<Connection from="2/basamak" to="1/kariyer" with="mod"/>
+<Word name="3/hızlı" positionX="850" positionY="200"/>
+<Connection from="4/çık" to="3/hızlı" with="ARG2"/>
+</Amr>

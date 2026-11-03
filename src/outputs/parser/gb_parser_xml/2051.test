@@ -1,0 +1,27 @@
+<Amr sentence="Meryem yeni işine pek ısınamadı gibi geliyor bana .">
+<Word name="6/gibi 7/gel" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/gibi 7/gel" to="o" with="ARG0"/>
+<Word name="mümkün" positionX="750" positionY="200"/>
+<Connection from="6/gibi 7/gel" to="mümkün"/>
+<Word name="5/ısın" positionX="650" positionY="300"/>
+<Connection from="mümkün" to="5/ısın"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="5/ısın" to="-" with="polarity"/>
+<Connection from="5/ısın" to="o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="400"/>
+<Connection from="5/ısın" to="person"/>
+<Word name="name" positionX="650" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/meryem" positionX="550" positionY="600"/>
+<Connection from="name" to="1/meryem" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/iş" positionX="850" positionY="400"/>
+<Connection from="5/ısın" to="3/iş"/>
+<Word name="2/yeni" positionX="750" positionY="500"/>
+<Connection from="3/iş" to="2/yeni" with="mod"/>
+<Word name="4/pek" positionX="950" positionY="400"/>
+<Connection from="5/ısın" to="4/pek" with="manner"/>
+<Word name="8/ben" positionX="850" positionY="200"/>
+<Connection from="6/gibi 7/gel" to="8/ben"/>
+</Amr>

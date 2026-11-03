@@ -1,0 +1,13 @@
+<Amr sentence="O konuşmadan pek bir şey hatırlamıyorum .">
+<Word name="6/hatırla" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="6/hatırla" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="6/hatırla" to="ben" with="ARG0"/>
+<Word name="2/konuşma" positionX="850" positionY="200"/>
+<Connection from="6/hatırla" to="2/konuşma" with="ARG1"/>
+<Word name="1/o" positionX="750" positionY="300"/>
+<Connection from="2/konuşma" to="1/o" with="mod"/>
+<Word name="3/pek" positionX="950" positionY="200"/>
+<Connection from="6/hatırla" to="3/pek" with="manner"/>
+</Amr>

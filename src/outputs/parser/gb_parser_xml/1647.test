@@ -1,0 +1,7 @@
+<Amr sentence="Kaplumbağa yavaş yürür .">
+<Word name="3/yürü" positionX="750" positionY="100"/>
+<Word name="1/kaplumbağa" positionX="650" positionY="200"/>
+<Connection from="3/yürü" to="1/kaplumbağa" with="ARG0"/>
+<Word name="2/yavaş" positionX="750" positionY="200"/>
+<Connection from="3/yürü" to="2/yavaş" with="manner"/>
+</Amr>

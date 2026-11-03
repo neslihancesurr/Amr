@@ -1,0 +1,13 @@
+<Amr sentence="Kalorifersiz evler nispeten ucuz oluyor .">
+<Word name="5/ol" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/ol" to="o" with="ARG0"/>
+<Word name="2/ev" positionX="750" positionY="200"/>
+<Connection from="5/ol" to="2/ev"/>
+<Word name="1/kalorifersiz" positionX="650" positionY="300"/>
+<Connection from="2/ev" to="1/kalorifersiz" with="mod"/>
+<Word name="4/ucuz" positionX="850" positionY="200"/>
+<Connection from="5/ol" to="4/ucuz" with="manner"/>
+<Word name="3/nispeten" positionX="750" positionY="300"/>
+<Connection from="4/ucuz" to="3/nispeten" with="manner"/>
+</Amr>

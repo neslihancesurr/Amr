@@ -1,0 +1,7 @@
+<Amr sentence="Nasıl bu haberi atladılar .">
+<Word name="3/haber 4/atla" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="3/haber 4/atla" to="onlar" with="ARG0"/>
+<Word name="1/nasıl" positionX="750" positionY="200"/>
+<Connection from="3/haber 4/atla" to="1/nasıl" with="manner"/>
+</Amr>

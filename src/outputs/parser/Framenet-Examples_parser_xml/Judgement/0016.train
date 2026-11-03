@@ -1,0 +1,22 @@
+<Amr sentence="Kimseleri beğenmedi bu yüzden çok geç evlendi .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/beğen" positionX="650" positionY="200"/>
+<Connection from="and" to="2/beğen" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="2/beğen" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/beğen" to="o" with="ARG0"/>
+<Word name="1/kimse" positionX="750" positionY="300"/>
+<Connection from="2/beğen" to="1/kimse" with="ARG1"/>
+<Word name="onlar" positionX="650" positionY="400"/>
+<Connection from="1/kimse" to="onlar" with="poss"/>
+<Word name="7/evlen" positionX="750" positionY="200"/>
+<Connection from="and" to="7/evlen" with="op2"/>
+<Connection from="7/evlen" to="o" with="ARG0"/>
+<Word name="3/bu 4/yüzden" positionX="750" positionY="300"/>
+<Connection from="7/evlen" to="3/bu 4/yüzden" with="mod"/>
+<Word name="6/geç" positionX="850" positionY="300"/>
+<Connection from="7/evlen" to="6/geç" with="manner"/>
+<Word name="5/çok" positionX="750" positionY="400"/>
+<Connection from="6/geç" to="5/çok" with="degree"/>
+</Amr>

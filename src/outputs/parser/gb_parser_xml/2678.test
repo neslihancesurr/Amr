@@ -1,0 +1,13 @@
+<Amr sentence="Sonbahar geldi ama ağaçlar hâlâ yeşil .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/yeşil" positionX="650" positionY="200"/>
+<Connection from="and" to="6/yeşil" with="op1"/>
+<Word name="4/ağaç" positionX="550" positionY="300"/>
+<Connection from="6/yeşil" to="4/ağaç"/>
+<Word name="5/hâlâ" positionX="650" positionY="300"/>
+<Connection from="6/yeşil" to="5/hâlâ" with="manner"/>
+<Word name="2/gel" positionX="750" positionY="200"/>
+<Connection from="and" to="2/gel" with="op2"/>
+<Word name="1/sonbahar" positionX="650" positionY="300"/>
+<Connection from="2/gel" to="1/sonbahar" with="ARG0"/>
+</Amr>

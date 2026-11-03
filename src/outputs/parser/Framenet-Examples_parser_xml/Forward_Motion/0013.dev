@@ -1,0 +1,9 @@
+<Amr sentence="Küçük kedi birden tun tun kaçtı .">
+<Word name="4/tun 5/tun 6/kaç" positionX="750" positionY="100"/>
+<Word name="2/kedi" positionX="650" positionY="200"/>
+<Connection from="4/tun 5/tun 6/kaç" to="2/kedi" with="ARG0"/>
+<Word name="1/küçük" positionX="550" positionY="300"/>
+<Connection from="2/kedi" to="1/küçük" with="mod"/>
+<Word name="3/birden" positionX="750" positionY="200"/>
+<Connection from="4/tun 5/tun 6/kaç" to="3/birden" with="manner"/>
+</Amr>

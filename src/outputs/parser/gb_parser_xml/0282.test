@@ -1,0 +1,7 @@
+<Amr sentence="Annem yorgun .">
+<Word name="2/yorgun" positionX="750" positionY="100"/>
+<Word name="1/anne" positionX="650" positionY="200"/>
+<Connection from="2/yorgun" to="1/anne"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="1/anne" to="ben" with="poss"/>
+</Amr>

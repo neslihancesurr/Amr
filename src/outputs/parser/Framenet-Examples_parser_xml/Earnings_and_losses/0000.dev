@@ -1,0 +1,9 @@
+<Amr sentence="Bütün kazancını faize yatırdı .">
+<Word name="3/faiz 4/yatır" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/faiz 4/yatır" to="o" with="ARG0"/>
+<Word name="2/kazanç" positionX="750" positionY="200"/>
+<Connection from="3/faiz 4/yatır" to="2/kazanç" with="ARG1"/>
+<Word name="1/bütün" positionX="650" positionY="300"/>
+<Connection from="2/kazanç" to="1/bütün" with="mod"/>
+</Amr>

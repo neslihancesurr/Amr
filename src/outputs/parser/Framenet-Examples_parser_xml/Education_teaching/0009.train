@@ -1,0 +1,23 @@
+<Amr sentence="Nihal uzun zamandır daha iyi piyano çalmak için ders alıyor .">
+<Word name="9/ders 10/al" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="9/ders 10/al" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/nihal" positionX="450" positionY="400"/>
+<Connection from="name" to="1/nihal" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/zaman" positionX="750" positionY="200"/>
+<Connection from="9/ders 10/al" to="3/zaman" with="mod"/>
+<Word name="2/uzun" positionX="650" positionY="300"/>
+<Connection from="3/zaman" to="2/uzun" with="mod"/>
+<Word name="7/çal" positionX="850" positionY="200"/>
+<Connection from="9/ders 10/al" to="7/çal" with="cause"/>
+<Word name="5/iyi" positionX="750" positionY="300"/>
+<Connection from="7/çal" to="5/iyi" with="manner"/>
+<Word name="4/daha" positionX="650" positionY="400"/>
+<Connection from="5/iyi" to="4/daha" with="degree"/>
+<Word name="6/piyano" positionX="850" positionY="300"/>
+<Connection from="7/çal" to="6/piyano" with="ARG1"/>
+</Amr>

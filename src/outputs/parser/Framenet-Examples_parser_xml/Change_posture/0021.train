@@ -1,0 +1,11 @@
+<Amr sentence="Küçük çocuk sınıfın köşesine kalktı .">
+<Word name="5/kalk" positionX="750" positionY="100"/>
+<Word name="2/çocuk" positionX="650" positionY="200"/>
+<Connection from="5/kalk" to="2/çocuk" with="ARG0"/>
+<Word name="1/küçük" positionX="550" positionY="300"/>
+<Connection from="2/çocuk" to="1/küçük" with="mod"/>
+<Word name="4/köşe" positionX="750" positionY="200"/>
+<Connection from="5/kalk" to="4/köşe"/>
+<Word name="3/sınıf" positionX="650" positionY="300"/>
+<Connection from="4/köşe" to="3/sınıf" with="mod"/>
+</Amr>

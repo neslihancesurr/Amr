@@ -1,0 +1,11 @@
+<Amr sentence="Geceleri tatlı tatlı hikayeler boylardı .">
+<Word name="5/boyla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/boyla" to="o" with="ARG0"/>
+<Word name="1/geceleri" positionX="750" positionY="200"/>
+<Connection from="5/boyla" to="1/geceleri" with="manner"/>
+<Word name="4/hikaye" positionX="850" positionY="200"/>
+<Connection from="5/boyla" to="4/hikaye" with="ARG1"/>
+<Word name="2/tatlı 3/tatlı" positionX="750" positionY="300"/>
+<Connection from="4/hikaye" to="2/tatlı 3/tatlı"/>
+</Amr>

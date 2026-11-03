@@ -1,0 +1,14 @@
+<Amr sentence="Evden hiç çıkmak istemiyor .">
+<Word name="4/iste" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/iste" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="4/iste" to="o" with="ARG0"/>
+<Word name="3/çık" positionX="850" positionY="200"/>
+<Connection from="4/iste" to="3/çık" with="ARG1"/>
+<Connection from="3/çık" to="o" with="ARG0"/>
+<Word name="1/ev" positionX="850" positionY="300"/>
+<Connection from="3/çık" to="1/ev" with="ARG2"/>
+<Word name="2/hiç" positionX="950" positionY="300"/>
+<Connection from="3/çık" to="2/hiç" with="degree"/>
+</Amr>

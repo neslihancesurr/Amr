@@ -1,0 +1,12 @@
+<Amr sentence="Babası zengindi , hazırdan yiyordu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/zengin" positionX="650" positionY="200"/>
+<Connection from="and" to="2/zengin" with="op1"/>
+<Word name="1/baba" positionX="550" positionY="300"/>
+<Connection from="2/zengin" to="1/baba"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="1/baba" to="o" with="poss"/>
+<Word name="4/hazır 5/ye" positionX="750" positionY="200"/>
+<Connection from="and" to="4/hazır 5/ye" with="op2"/>
+<Connection from="4/hazır 5/ye" to="o" with="ARG0"/>
+</Amr>

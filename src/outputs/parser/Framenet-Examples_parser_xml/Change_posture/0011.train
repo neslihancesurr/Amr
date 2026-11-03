@@ -1,0 +1,9 @@
+<Amr sentence="Elektrik direği eğilmiş , sorun çıkarabilir .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/eğ" positionX="650" positionY="200"/>
+<Connection from="and" to="3/eğ" with="op1"/>
+<Word name="1/elektrik 2/direk" positionX="550" positionY="300"/>
+<Connection from="3/eğ" to="1/elektrik 2/direk" with="ARG0"/>
+<Word name="5/sorun 6/çık" positionX="750" positionY="200"/>
+<Connection from="and" to="5/sorun 6/çık" with="op2"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Bu durumdan onun kesesine bir şey girmiyor .">
+<Word name="4/kese 5/bir 6/şey 7/gir" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/kese 5/bir 6/şey 7/gir" to="-" with="polarity"/>
+<Word name="2/durum" positionX="750" positionY="200"/>
+<Connection from="4/kese 5/bir 6/şey 7/gir" to="2/durum" with="ARG0"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/durum" to="1/bu" with="mod"/>
+</Amr>

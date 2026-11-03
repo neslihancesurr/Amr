@@ -1,0 +1,9 @@
+<Amr sentence="Yine azara başladı .">
+<Word name="3/başla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/başla" to="o" with="ARG0"/>
+<Word name="1/yine" positionX="750" positionY="200"/>
+<Connection from="3/başla" to="1/yine" with="manner"/>
+<Word name="2/azar" positionX="850" positionY="200"/>
+<Connection from="3/başla" to="2/azar" with="ARG1"/>
+</Amr>

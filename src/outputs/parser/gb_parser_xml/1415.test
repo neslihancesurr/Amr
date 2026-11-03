@@ -1,0 +1,19 @@
+<Amr sentence="Yemeğin altını , kaynadıktan ne kadar zaman sonra kapatıyorsunuz ?">
+<Word name="9/kapat" positionX="750" positionY="100"/>
+<Word name="siz" positionX="650" positionY="200"/>
+<Connection from="9/kapat" to="siz" with="ARG0"/>
+<Word name="2/alt" positionX="750" positionY="200"/>
+<Connection from="9/kapat" to="2/alt" with="ARG1"/>
+<Word name="1/yemek" positionX="650" positionY="300"/>
+<Connection from="2/alt" to="1/yemek" with="mod"/>
+<Word name="7/zaman" positionX="850" positionY="200"/>
+<Connection from="9/kapat" to="7/zaman"/>
+<Word name="5/ne" positionX="750" positionY="300"/>
+<Connection from="7/zaman" to="5/ne" with="mod"/>
+<Word name="4/kayna" positionX="650" positionY="400"/>
+<Connection from="5/ne" to="4/kayna"/>
+<Word name="6/kadar" positionX="750" positionY="400"/>
+<Connection from="5/ne" to="6/kadar"/>
+<Word name="8/sonra" positionX="850" positionY="300"/>
+<Connection from="7/zaman" to="8/sonra"/>
+</Amr>

@@ -1,0 +1,5 @@
+<Amr sentence="Ona kardeş gözüyle bakıyor .">
+<Word name="3/göz 4/bak" positionX="750" positionY="100"/>
+<Word name="1/o" positionX="650" positionY="200"/>
+<Connection from="3/göz 4/bak" to="1/o" with="ARG1"/>
+</Amr>

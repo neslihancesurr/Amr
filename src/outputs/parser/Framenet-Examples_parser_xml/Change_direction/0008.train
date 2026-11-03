@@ -1,0 +1,13 @@
+<Amr sentence="Uyku tutmayınca sabaha kadar yatakta döndüm .">
+<Word name="6/dön" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="6/dön" to="ben" with="ARG0"/>
+<Word name="1/uyku 2/tut" positionX="750" positionY="200"/>
+<Connection from="6/dön" to="1/uyku 2/tut"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="1/uyku 2/tut" to="-" with="polarity"/>
+<Word name="3/sabah 4/kadar" positionX="850" positionY="200"/>
+<Connection from="6/dön" to="3/sabah 4/kadar" with="extent"/>
+<Word name="5/yatak" positionX="950" positionY="200"/>
+<Connection from="6/dön" to="5/yatak" with="ARG1"/>
+</Amr>

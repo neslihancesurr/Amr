@@ -1,0 +1,24 @@
+<Amr sentence="Kömür başa vurur bu kadar yanarsa , söndürün artık şu sobayı !">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/kömür 2/baş 3/vur" positionX="650" positionY="200"/>
+<Connection from="and" to="1/kömür 2/baş 3/vur" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/kömür 2/baş 3/vur" to="o" with="ARG0"/>
+<Word name="6/yan" positionX="650" positionY="300"/>
+<Connection from="1/kömür 2/baş 3/vur" to="6/yan" with="cond"/>
+<Connection from="6/yan" to="o" with="ARG0"/>
+<Word name="4/bu 5/kadar" positionX="650" positionY="400"/>
+<Connection from="6/yan" to="4/bu 5/kadar" with="manner"/>
+<Word name="8/söndür" positionX="750" positionY="200"/>
+<Connection from="and" to="8/söndür" with="op2"/>
+<Word name="siz" positionX="650" positionY="300"/>
+<Connection from="8/söndür" to="siz" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="300"/>
+<Connection from="8/söndür" to="imperative" with="mode"/>
+<Word name="9/artık" positionX="850" positionY="300"/>
+<Connection from="8/söndür" to="9/artık" with="manner"/>
+<Word name="11/soba" positionX="950" positionY="300"/>
+<Connection from="8/söndür" to="11/soba" with="ARG1"/>
+<Word name="10/şu" positionX="850" positionY="400"/>
+<Connection from="11/soba" to="10/şu" with="mod"/>
+</Amr>

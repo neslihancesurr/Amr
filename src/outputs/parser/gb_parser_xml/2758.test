@@ -1,0 +1,13 @@
+<Amr sentence="Haydi ceketini giy .">
+<Word name="3/giy" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="3/giy" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="3/giy" to="imperative" with="mode"/>
+<Word name="1/haydi" positionX="850" positionY="200"/>
+<Connection from="3/giy" to="1/haydi"/>
+<Word name="2/ceket" positionX="950" positionY="200"/>
+<Connection from="3/giy" to="2/ceket" with="ARG1"/>
+<Word name="o" positionX="850" positionY="300"/>
+<Connection from="2/ceket" to="o" with="poss"/>
+</Amr>

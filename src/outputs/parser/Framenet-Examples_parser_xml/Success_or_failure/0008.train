@@ -1,0 +1,15 @@
+<Amr sentence="O kadar çalışma hiçbir işe yaramadı , yenildim .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/iş 6/yara" positionX="650" positionY="200"/>
+<Connection from="and" to="5/iş 6/yara" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="5/iş 6/yara" to="-" with="polarity"/>
+<Word name="3/çalış" positionX="650" positionY="300"/>
+<Connection from="5/iş 6/yara" to="3/çalış" with="ARG0"/>
+<Word name="1/o 2/kadar" positionX="550" positionY="400"/>
+<Connection from="3/çalış" to="1/o 2/kadar" with="mod"/>
+<Word name="8/yenil" positionX="750" positionY="200"/>
+<Connection from="and" to="8/yenil" with="op2"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="8/yenil" to="ben" with="ARG0"/>
+</Amr>

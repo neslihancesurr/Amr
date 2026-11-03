@@ -1,0 +1,9 @@
+<Amr sentence="Adamla kadını evlendirdiler .">
+<Word name="3/evlendir" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="3/evlendir" to="onlar" with="ARG0"/>
+<Word name="1/adam" positionX="750" positionY="200"/>
+<Connection from="3/evlendir" to="1/adam" with="ARG1"/>
+<Word name="2/kadın" positionX="850" positionY="200"/>
+<Connection from="3/evlendir" to="2/kadın" with="ARG1"/>
+</Amr>

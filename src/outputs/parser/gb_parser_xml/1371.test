@@ -1,0 +1,7 @@
+<Amr sentence="Resimleri kim değerlendirecek ?">
+<Word name="3/değerlendir" positionX="750" positionY="100"/>
+<Word name="1/resim" positionX="650" positionY="200"/>
+<Connection from="3/değerlendir" to="1/resim" with="ARG1"/>
+<Word name="2/kim" positionX="750" positionY="200"/>
+<Connection from="3/değerlendir" to="2/kim" with="ARG0"/>
+</Amr>

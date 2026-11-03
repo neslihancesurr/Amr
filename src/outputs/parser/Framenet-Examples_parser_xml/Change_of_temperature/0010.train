@@ -1,0 +1,11 @@
+<Amr sentence="Sınıfa girince biraz sıcaklaştım .">
+<Word name="4/sıcaklaş" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/sıcaklaş" to="ben" with="ARG0"/>
+<Word name="2/gir" positionX="750" positionY="200"/>
+<Connection from="4/sıcaklaş" to="2/gir"/>
+<Word name="1/sınıf" positionX="650" positionY="300"/>
+<Connection from="2/gir" to="1/sınıf" with="ARG1"/>
+<Word name="3/biraz" positionX="850" positionY="200"/>
+<Connection from="4/sıcaklaş" to="3/biraz" with="manner"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Alkolün etkisiyle eve kadar zikzak yaptı .">
+<Word name="5/zikzak 6/yap" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/zikzak 6/yap" to="o" with="ARG0"/>
+<Word name="2/etki" positionX="750" positionY="200"/>
+<Connection from="5/zikzak 6/yap" to="2/etki" with="instrument"/>
+<Word name="1/alkol" positionX="650" positionY="300"/>
+<Connection from="2/etki" to="1/alkol" with="mod"/>
+<Word name="3/ev" positionX="850" positionY="200"/>
+<Connection from="5/zikzak 6/yap" to="3/ev" with="extent"/>
+</Amr>

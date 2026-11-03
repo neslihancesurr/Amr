@@ -1,0 +1,21 @@
+<Amr sentence="Okul bitince , durmadan orası senin , burası benim dolaştı .">
+<Word name="10/dolaş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="10/dolaş" to="o" with="ARG0"/>
+<Word name="2/bit" positionX="750" positionY="200"/>
+<Connection from="10/dolaş" to="2/bit"/>
+<Word name="1/okul" positionX="650" positionY="300"/>
+<Connection from="2/bit" to="1/okul"/>
+<Word name="4/dur" positionX="850" positionY="200"/>
+<Connection from="10/dolaş" to="4/dur"/>
+<Word name="9/ben" positionX="950" positionY="200"/>
+<Connection from="10/dolaş" to="9/ben"/>
+<Word name="6/sen" positionX="850" positionY="300"/>
+<Connection from="9/ben" to="6/sen"/>
+<Word name="5/ora" positionX="750" positionY="400"/>
+<Connection from="6/sen" to="5/ora"/>
+<Connection from="5/ora" to="o" with="poss"/>
+<Word name="8/bura" positionX="950" positionY="300"/>
+<Connection from="9/ben" to="8/bura"/>
+<Connection from="8/bura" to="o" with="poss"/>
+</Amr>

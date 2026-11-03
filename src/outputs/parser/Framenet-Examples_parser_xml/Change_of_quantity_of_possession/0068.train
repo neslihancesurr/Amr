@@ -1,0 +1,15 @@
+<Amr sentence="Daha fazla devam etme , boynuz isterken kulaktan olacaksın .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/devam 4/et" positionX="650" positionY="200"/>
+<Connection from="and" to="3/devam 4/et" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/devam 4/et" to="o" with="ARG0"/>
+<Word name="2/fazla" positionX="650" positionY="300"/>
+<Connection from="3/devam 4/et" to="2/fazla" with="degree"/>
+<Word name="1/daha" positionX="550" positionY="400"/>
+<Connection from="2/fazla" to="1/daha" with="degree"/>
+<Word name="6/boynuz 7/iste 8/kulak 9/ol" positionX="750" positionY="200"/>
+<Connection from="and" to="6/boynuz 7/iste 8/kulak 9/ol" with="op2"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="6/boynuz 7/iste 8/kulak 9/ol" to="sen" with="ARG0"/>
+</Amr>

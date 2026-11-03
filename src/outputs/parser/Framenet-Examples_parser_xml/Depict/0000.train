@@ -1,0 +1,15 @@
+<Amr sentence="Masadaki vazoyu görmeyen birine tasvir etti .">
+<Word name="5/tasvir 6/et" positionX="750" positionY="100"/>
+<Word name="2/vazo" positionX="650" positionY="200"/>
+<Connection from="5/tasvir 6/et" to="2/vazo" with="ARG1"/>
+<Word name="1/masa" positionX="550" positionY="300"/>
+<Connection from="2/vazo" to="1/masa" with="mod"/>
+<Word name="4/biri" positionX="750" positionY="200"/>
+<Connection from="5/tasvir 6/et" to="4/biri"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="4/biri" to="o" with="poss"/>
+<Word name="3/gör" positionX="750" positionY="300"/>
+<Connection from="4/biri" to="3/gör"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="3/gör" to="-" with="polarity"/>
+</Amr>

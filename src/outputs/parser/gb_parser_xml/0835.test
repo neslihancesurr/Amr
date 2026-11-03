@@ -1,0 +1,9 @@
+<Amr sentence="Ben zor dikiş dikiyorum .">
+<Word name="4/dik" positionX="750" positionY="100"/>
+<Word name="1/ben" positionX="650" positionY="200"/>
+<Connection from="4/dik" to="1/ben" with="ARG0"/>
+<Word name="2/zor" positionX="750" positionY="200"/>
+<Connection from="4/dik" to="2/zor" with="manner"/>
+<Word name="3/dikiş" positionX="850" positionY="200"/>
+<Connection from="4/dik" to="3/dikiş" with="ARG2"/>
+</Amr>

@@ -1,0 +1,19 @@
+<Amr sentence="Temiz suyu borular ile şehrin öbür ucuna taşıyoruz .">
+<Word name="8/taşı" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="8/taşı" to="biz" with="ARG0"/>
+<Word name="2/su" positionX="750" positionY="200"/>
+<Connection from="8/taşı" to="2/su" with="ARG1"/>
+<Word name="1/temiz" positionX="650" positionY="300"/>
+<Connection from="2/su" to="1/temiz" with="mod"/>
+<Word name="3/boru" positionX="850" positionY="200"/>
+<Connection from="8/taşı" to="3/boru"/>
+<Word name="4/ile" positionX="750" positionY="300"/>
+<Connection from="3/boru" to="4/ile"/>
+<Word name="7/uç" positionX="950" positionY="200"/>
+<Connection from="8/taşı" to="7/uç"/>
+<Word name="5/şehir" positionX="850" positionY="300"/>
+<Connection from="7/uç" to="5/şehir" with="mod"/>
+<Word name="6/öbür" positionX="950" positionY="300"/>
+<Connection from="7/uç" to="6/öbür" with="mod"/>
+</Amr>

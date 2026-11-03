@@ -1,0 +1,13 @@
+<Amr sentence="Demek sen de kaza yerindeydin !">
+<Word name="5/yer:location" positionX="750" positionY="100"/>
+<Word name="1/de" positionX="650" positionY="200"/>
+<Connection from="5/yer:location" to="1/de"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/de" to="o" with="ARG0"/>
+<Word name="2/sen" positionX="750" positionY="200"/>
+<Connection from="5/yer:location" to="2/sen"/>
+<Word name="3/de" positionX="650" positionY="300"/>
+<Connection from="2/sen" to="3/de"/>
+<Word name="4/kaza" positionX="850" positionY="200"/>
+<Connection from="5/yer:location" to="4/kaza" with="mod"/>
+</Amr>

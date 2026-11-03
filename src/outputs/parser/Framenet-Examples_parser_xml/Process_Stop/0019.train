@@ -1,0 +1,15 @@
+<Amr sentence="Kontak kapadık , yolun açılmasını bekledik .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/kontak 2/kapa" positionX="650" positionY="200"/>
+<Connection from="and" to="1/kontak 2/kapa" with="op1"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="1/kontak 2/kapa" to="biz" with="ARG0"/>
+<Word name="6/bekle" positionX="750" positionY="200"/>
+<Connection from="and" to="6/bekle" with="op2"/>
+<Connection from="6/bekle" to="biz" with="ARG0"/>
+<Word name="4/yol 5/aç" positionX="750" positionY="300"/>
+<Connection from="6/bekle" to="4/yol 5/aç" with="ARG1"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="4/yol 5/aç" to="o" with="ARG0"/>
+<Connection from="4/yol 5/aç" to="o" with="poss"/>
+</Amr>

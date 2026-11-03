@@ -1,0 +1,22 @@
+<Amr sentence="Herhangi bir milletten bir elçilik memuru görsem derhâl mesleğini tahmin ederim .">
+<Word name="10/tahmin 11/et" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="10/tahmin 11/et" to="ben" with="ARG0"/>
+<Word name="7/gör" positionX="750" positionY="200"/>
+<Connection from="10/tahmin 11/et" to="7/gör"/>
+<Connection from="7/gör" to="ben" with="ARG0"/>
+<Word name="6/memur" positionX="750" positionY="300"/>
+<Connection from="7/gör" to="6/memur" with="ARG1"/>
+<Word name="3/millet" positionX="650" positionY="400"/>
+<Connection from="6/memur" to="3/millet" with="mod"/>
+<Word name="1/herhangi 2/bir" positionX="550" positionY="500"/>
+<Connection from="3/millet" to="1/herhangi 2/bir" with="mod"/>
+<Word name="5/elçilik" positionX="750" positionY="400"/>
+<Connection from="6/memur" to="5/elçilik" with="mod"/>
+<Word name="8/derhâl" positionX="850" positionY="200"/>
+<Connection from="10/tahmin 11/et" to="8/derhâl" with="manner"/>
+<Word name="9/meslek" positionX="950" positionY="200"/>
+<Connection from="10/tahmin 11/et" to="9/meslek" with="ARG1"/>
+<Word name="o" positionX="850" positionY="300"/>
+<Connection from="9/meslek" to="o" with="poss"/>
+</Amr>

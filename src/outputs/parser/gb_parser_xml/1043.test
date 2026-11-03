@@ -1,0 +1,5 @@
+<Amr sentence="Bundan başka bir şey var mı ?">
+<Word name="5/var" positionX="750" positionY="100"/>
+<Word name="6/mi" positionX="650" positionY="200"/>
+<Connection from="5/var" to="6/mi"/>
+</Amr>

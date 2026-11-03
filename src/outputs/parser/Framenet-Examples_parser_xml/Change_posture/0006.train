@@ -1,0 +1,13 @@
+<Amr sentence="Eşeğe binerek köye doğru yöneldi .">
+<Word name="5/yönel" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/yönel" to="o" with="ARG0"/>
+<Word name="2/bin" positionX="750" positionY="200"/>
+<Connection from="5/yönel" to="2/bin"/>
+<Word name="1/eşek" positionX="650" positionY="300"/>
+<Connection from="2/bin" to="1/eşek" with="ARG1"/>
+<Word name="3/köy" positionX="850" positionY="200"/>
+<Connection from="5/yönel" to="3/köy"/>
+<Word name="4/doğru" positionX="750" positionY="300"/>
+<Connection from="3/köy" to="4/doğru"/>
+</Amr>

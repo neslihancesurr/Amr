@@ -1,0 +1,11 @@
+<Amr sentence="Öğretmen misiniz öğrenci mi ?">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/öğrenci" positionX="650" positionY="200"/>
+<Connection from="and" to="3/öğrenci" with="op1"/>
+<Word name="4/mi" positionX="550" positionY="300"/>
+<Connection from="3/öğrenci" to="4/mi"/>
+<Word name="1/öğretmen" positionX="750" positionY="200"/>
+<Connection from="and" to="1/öğretmen" with="op2"/>
+<Word name="2/mi" positionX="650" positionY="300"/>
+<Connection from="1/öğretmen" to="2/mi"/>
+</Amr>

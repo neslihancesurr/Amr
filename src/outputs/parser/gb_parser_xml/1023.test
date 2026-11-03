@@ -1,0 +1,9 @@
+<Amr sentence="Size memnuniyetle yardım ederim .">
+<Word name="3/yardım 4/et" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/yardım 4/et" to="ben" with="ARG0"/>
+<Word name="1/siz" positionX="750" positionY="200"/>
+<Connection from="3/yardım 4/et" to="1/siz" with="ARG1"/>
+<Word name="2/memnuniyetle" positionX="850" positionY="200"/>
+<Connection from="3/yardım 4/et" to="2/memnuniyetle"/>
+</Amr>

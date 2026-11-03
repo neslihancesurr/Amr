@@ -1,0 +1,15 @@
+<Amr sentence="Kendinden başkasına güvenemiyor musun ?">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="3/güven" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="3/güven"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="3/güven" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/güven" to="o" with="ARG0"/>
+<Word name="2/başkası" positionX="750" positionY="300"/>
+<Connection from="3/güven" to="2/başkası" with="ARG1"/>
+<Word name="1/kendi" positionX="650" positionY="400"/>
+<Connection from="2/başkası" to="1/kendi" with="mod"/>
+<Word name="4/mi" positionX="850" positionY="300"/>
+<Connection from="3/güven" to="4/mi"/>
+</Amr>

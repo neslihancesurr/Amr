@@ -1,0 +1,14 @@
+<Amr sentence="Bıçak körelmiş , bileylemek gerek .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/körel" positionX="650" positionY="200"/>
+<Connection from="and" to="2/körel" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/körel" to="o" with="ARG0"/>
+<Word name="1/bıçak" positionX="650" positionY="300"/>
+<Connection from="2/körel" to="1/bıçak" with="ARG1"/>
+<Word name="5/gerek" positionX="750" positionY="200"/>
+<Connection from="and" to="5/gerek" with="op2"/>
+<Word name="4/bileyle" positionX="650" positionY="300"/>
+<Connection from="5/gerek" to="4/bileyle"/>
+<Connection from="4/bileyle" to="o" with="ARG0"/>
+</Amr>

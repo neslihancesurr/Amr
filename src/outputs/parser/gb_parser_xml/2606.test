@@ -1,0 +1,28 @@
+<Amr sentence="Ziya pabuçlarını , paltosunu giydi , eline şemsiyesini aldı , işe gitti .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="9/al" positionX="650" positionY="200"/>
+<Connection from="and" to="9/al" with="op1"/>
+<Word name="7/el" positionX="550" positionY="300"/>
+<Connection from="9/al" to="7/el"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="7/el" to="o" with="poss"/>
+<Word name="8/şemsiye" positionX="650" positionY="300"/>
+<Connection from="9/al" to="8/şemsiye" with="ARG1"/>
+<Connection from="8/şemsiye" to="o" with="poss"/>
+<Word name="12/git" positionX="750" positionY="300"/>
+<Connection from="9/al" to="12/git"/>
+<Word name="11/iş" positionX="650" positionY="400"/>
+<Connection from="12/git" to="11/iş" with="ARG1"/>
+<Word name="5/giy" positionX="750" positionY="200"/>
+<Connection from="and" to="5/giy" with="op2"/>
+<Word name="1/ziya" positionX="650" positionY="300"/>
+<Connection from="5/giy" to="1/ziya" with="ARG0"/>
+<Connection from="5/giy" to="and"/>
+<Word name="4/palto" positionX="650" positionY="400"/>
+<Connection from="and" to="4/palto" with="ARG1"/>
+<Connection from="4/palto" to="o" with="poss"/>
+<Word name="2/pabuç" positionX="750" positionY="400"/>
+<Connection from="and" to="2/pabuç" with="ARG1"/>
+<Connection from="2/pabuç" to="o" with="poss"/>
+<Connection from="5/giy" to="and"/>
+</Amr>

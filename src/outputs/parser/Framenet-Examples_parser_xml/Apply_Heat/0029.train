@@ -1,0 +1,13 @@
+<Amr sentence="Çabuk ol , cezveyi sür .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/çabuk 2/ol" positionX="650" positionY="200"/>
+<Connection from="and" to="1/çabuk 2/ol" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="1/çabuk 2/ol" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="650" positionY="300"/>
+<Connection from="1/çabuk 2/ol" to="imperative" with="mode"/>
+<Word name="4/cezve 5/sür" positionX="750" positionY="200"/>
+<Connection from="and" to="4/cezve 5/sür" with="op2"/>
+<Connection from="4/cezve 5/sür" to="sen" with="ARG0"/>
+<Connection from="4/cezve 5/sür" to="imperative" with="mode"/>
+</Amr>

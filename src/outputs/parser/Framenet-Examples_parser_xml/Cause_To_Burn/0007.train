@@ -1,0 +1,13 @@
+<Amr sentence="Bütün kanıtları hemen yak .">
+<Word name="4/yak" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="4/yak" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="4/yak" to="imperative" with="mode"/>
+<Word name="2/kanıt" positionX="850" positionY="200"/>
+<Connection from="4/yak" to="2/kanıt" with="ARG1"/>
+<Word name="1/bütün" positionX="750" positionY="300"/>
+<Connection from="2/kanıt" to="1/bütün" with="mod"/>
+<Word name="3/hemen" positionX="950" positionY="200"/>
+<Connection from="4/yak" to="3/hemen" with="manner"/>
+</Amr>

@@ -1,0 +1,5 @@
+<Amr sentence="saat altıda">
+<Word name="2/altı:location" positionX="750" positionY="100"/>
+<Word name="1/saat" positionX="650" positionY="200"/>
+<Connection from="2/altı:location" to="1/saat" with="mod"/>
+</Amr>

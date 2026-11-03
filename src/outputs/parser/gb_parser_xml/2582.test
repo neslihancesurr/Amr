@@ -1,0 +1,7 @@
+<Amr sentence="Necla ne zaman sınava girse heyecan çekiyor .">
+<Word name="7/çek" positionX="750" positionY="100"/>
+<Word name="4/sınav 5/gir" positionX="650" positionY="200"/>
+<Connection from="7/çek" to="4/sınav 5/gir"/>
+<Word name="6/heyecan" positionX="750" positionY="200"/>
+<Connection from="7/çek" to="6/heyecan" with="ARG1"/>
+</Amr>

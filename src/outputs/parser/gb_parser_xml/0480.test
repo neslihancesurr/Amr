@@ -1,0 +1,22 @@
+<Amr sentence="Bu memleketin en az beş altı müziği var .">
+<Word name="8/var" positionX="750" positionY="100"/>
+<Word name="2/memleket" positionX="650" positionY="200"/>
+<Connection from="8/var" to="2/memleket" with="mod"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/memleket" to="1/bu" with="mod"/>
+<Word name="7/müzik" positionX="750" positionY="200"/>
+<Connection from="8/var" to="7/müzik"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="7/müzik" to="o" with="poss"/>
+<Word name="and" positionX="750" positionY="300"/>
+<Connection from="7/müzik" to="and"/>
+<Word name="6/altı" positionX="650" positionY="400"/>
+<Connection from="and" to="6/altı" with="op1"/>
+<Word name="5/beş" positionX="750" positionY="400"/>
+<Connection from="and" to="5/beş" with="op2"/>
+<Word name="4/az" positionX="650" positionY="500"/>
+<Connection from="5/beş" to="4/az" with="manner"/>
+<Word name="3/en" positionX="550" positionY="600"/>
+<Connection from="4/az" to="3/en" with="manner"/>
+<Connection from="5/beş" to="and"/>
+</Amr>

@@ -1,0 +1,12 @@
+<Amr sentence="Beşlik simit gibi kurulması öğretmenini kızdırdı .">
+<Word name="6/kızdır" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/kızdır" to="o" with="ARG0"/>
+<Word name="1/beşlik 2/simit 3/gibi 4/kur" positionX="750" positionY="200"/>
+<Connection from="6/kızdır" to="1/beşlik 2/simit 3/gibi 4/kur" with="ARG2"/>
+<Connection from="1/beşlik 2/simit 3/gibi 4/kur" to="o" with="ARG0"/>
+<Connection from="1/beşlik 2/simit 3/gibi 4/kur" to="o" with="poss"/>
+<Word name="5/öğretmen" positionX="850" positionY="200"/>
+<Connection from="6/kızdır" to="5/öğretmen" with="ARG1"/>
+<Connection from="5/öğretmen" to="o" with="poss"/>
+</Amr>

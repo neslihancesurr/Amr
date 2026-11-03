@@ -1,0 +1,11 @@
+<Amr sentence="Çocuklar , bağırmadan oynayın !">
+<Word name="4/oyna" positionX="750" positionY="100"/>
+<Word name="siz" positionX="650" positionY="200"/>
+<Connection from="4/oyna" to="siz" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="4/oyna" to="imperative" with="mode"/>
+<Word name="1/çocuk" positionX="850" positionY="200"/>
+<Connection from="4/oyna" to="1/çocuk"/>
+<Word name="3/bağır" positionX="950" positionY="200"/>
+<Connection from="4/oyna" to="3/bağır"/>
+</Amr>

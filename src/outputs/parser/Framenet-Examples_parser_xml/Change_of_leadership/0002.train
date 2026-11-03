@@ -1,0 +1,9 @@
+<Amr sentence="Öfkeli halk , diktatörü düşürdü .">
+<Word name="5/düşür" positionX="750" positionY="100"/>
+<Word name="2/halk" positionX="650" positionY="200"/>
+<Connection from="5/düşür" to="2/halk" with="ARG0"/>
+<Word name="1/öfkeli" positionX="550" positionY="300"/>
+<Connection from="2/halk" to="1/öfkeli" with="mod"/>
+<Word name="4/diktatör" positionX="750" positionY="200"/>
+<Connection from="5/düşür" to="4/diktatör" with="ARG1"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Bu adam hiç uyanık değil .">
+<Word name="4/uyanık" positionX="750" positionY="100"/>
+<Word name="2/adam" positionX="650" positionY="200"/>
+<Connection from="4/uyanık" to="2/adam"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/adam" to="1/bu" with="mod"/>
+<Word name="3/hiç" positionX="750" positionY="200"/>
+<Connection from="4/uyanık" to="3/hiç" with="degree"/>
+<Word name="-" positionX="850" positionY="200"/>
+<Connection from="4/uyanık" to="-" with="polarity"/>
+</Amr>

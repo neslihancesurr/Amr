@@ -1,0 +1,5 @@
+<Amr sentence="bilgisayar ve yazıcınınki">
+<Word name="3/yazıcı" positionX="750" positionY="100"/>
+<Word name="1/bilgisayar" positionX="650" positionY="200"/>
+<Connection from="3/yazıcı" to="1/bilgisayar"/>
+</Amr>

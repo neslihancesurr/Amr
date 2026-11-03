@@ -1,0 +1,19 @@
+<Amr sentence="Yazların sıcaklığı nedeniyle bu bölgede muz ve hurma yetişmektedir .">
+<Word name="9/yetiş" positionX="750" positionY="100"/>
+<Word name="3/nedeniyle" positionX="650" positionY="200"/>
+<Connection from="9/yetiş" to="3/nedeniyle"/>
+<Word name="2/sıcaklık" positionX="550" positionY="300"/>
+<Connection from="3/nedeniyle" to="2/sıcaklık" with="mod"/>
+<Word name="1/yaz" positionX="450" positionY="400"/>
+<Connection from="2/sıcaklık" to="1/yaz" with="mod"/>
+<Word name="5/bölge" positionX="750" positionY="200"/>
+<Connection from="9/yetiş" to="5/bölge" with="ARG2"/>
+<Word name="4/bu" positionX="650" positionY="300"/>
+<Connection from="5/bölge" to="4/bu" with="mod"/>
+<Word name="and" positionX="850" positionY="200"/>
+<Connection from="9/yetiş" to="and"/>
+<Word name="8/hurma" positionX="750" positionY="300"/>
+<Connection from="and" to="8/hurma" with="ARG0"/>
+<Word name="6/muz" positionX="850" positionY="300"/>
+<Connection from="and" to="6/muz" with="ARG0"/>
+</Amr>

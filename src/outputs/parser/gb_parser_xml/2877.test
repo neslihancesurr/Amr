@@ -1,0 +1,5 @@
+<Amr sentence="İnsanlar tembeldir .">
+<Word name="2/tembel" positionX="750" positionY="100"/>
+<Word name="1/insan" positionX="650" positionY="200"/>
+<Connection from="2/tembel" to="1/insan"/>
+</Amr>

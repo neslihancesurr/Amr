@@ -1,0 +1,20 @@
+<Amr sentence="Resimleri albüme yapıştırırken kocası da radyonun düğmesini çevirdi .">
+<Word name="8/çevir" positionX="750" positionY="100"/>
+<Word name="yap" positionX="650" positionY="200"/>
+<Connection from="8/çevir" to="yap"/>
+<Word name="3/yapış" positionX="550" positionY="300"/>
+<Connection from="yap" to="3/yapış"/>
+<Word name="1/resim" positionX="450" positionY="400"/>
+<Connection from="3/yapış" to="1/resim"/>
+<Word name="o" positionX="350" positionY="500"/>
+<Connection from="1/resim" to="o" with="poss"/>
+<Word name="2/albüm" positionX="550" positionY="400"/>
+<Connection from="3/yapış" to="2/albüm"/>
+<Word name="4/koca" positionX="750" positionY="200"/>
+<Connection from="8/çevir" to="4/koca" with="ARG0"/>
+<Connection from="4/koca" to="o" with="poss"/>
+<Word name="5/da" positionX="750" positionY="300"/>
+<Connection from="4/koca" to="5/da"/>
+<Word name="6/radyo 7/düğme" positionX="850" positionY="200"/>
+<Connection from="8/çevir" to="6/radyo 7/düğme" with="ARG1"/>
+</Amr>

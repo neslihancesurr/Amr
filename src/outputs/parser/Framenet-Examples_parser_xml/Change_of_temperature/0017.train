@@ -1,0 +1,13 @@
+<Amr sentence="Üşütmüş , üstüne bir de ateşi çıktı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/üşüt" positionX="650" positionY="200"/>
+<Connection from="and" to="1/üşüt" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/üşüt" to="o" with="ARG0"/>
+<Word name="6/ateş 7/çık" positionX="750" positionY="200"/>
+<Connection from="and" to="6/ateş 7/çık" with="op2"/>
+<Connection from="6/ateş 7/çık" to="o" with="ARG0"/>
+<Word name="3/üst" positionX="750" positionY="300"/>
+<Connection from="6/ateş 7/çık" to="3/üst"/>
+<Connection from="3/üst" to="o" with="poss"/>
+</Amr>

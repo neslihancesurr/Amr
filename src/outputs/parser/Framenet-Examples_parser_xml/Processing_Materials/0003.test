@@ -1,0 +1,13 @@
+<Amr sentence="Kesilen hayvanların postları burada tabaklanır .">
+<Word name="5/tabaklan" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/tabaklan" to="o" with="ARG0"/>
+<Word name="3/post" positionX="750" positionY="200"/>
+<Connection from="5/tabaklan" to="3/post"/>
+<Word name="2/hayvan" positionX="650" positionY="300"/>
+<Connection from="3/post" to="2/hayvan" with="mod"/>
+<Word name="1/kes" positionX="550" positionY="400"/>
+<Connection from="2/hayvan" to="1/kes"/>
+<Word name="4/burada" positionX="850" positionY="200"/>
+<Connection from="5/tabaklan" to="4/burada" with="manner"/>
+</Amr>

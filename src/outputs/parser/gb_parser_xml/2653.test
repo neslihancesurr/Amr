@@ -1,0 +1,27 @@
+<Amr sentence="Diplomasını almak şöyle dursun , tezini bile daha yazmamış .">
+<Word name="9/yaz" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="9/yaz" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="9/yaz" to="o" with="ARG0"/>
+<Word name="2/al" positionX="850" positionY="200"/>
+<Connection from="9/yaz" to="2/al"/>
+<Connection from="2/al" to="o" with="ARG0"/>
+<Word name="1/diploma" positionX="850" positionY="300"/>
+<Connection from="2/al" to="1/diploma" with="ARG1"/>
+<Connection from="1/diploma" to="o" with="poss"/>
+<Word name="4/dur" positionX="950" positionY="300"/>
+<Connection from="2/al" to="4/dur"/>
+<Connection from="4/dur" to="o" with="ARG0"/>
+<Word name="imperative" positionX="950" positionY="400"/>
+<Connection from="4/dur" to="imperative" with="mode"/>
+<Word name="3/şöyle" positionX="1050" positionY="400"/>
+<Connection from="4/dur" to="3/şöyle" with="manner"/>
+<Word name="6/tez" positionX="950" positionY="200"/>
+<Connection from="9/yaz" to="6/tez" with="ARG1"/>
+<Connection from="6/tez" to="o" with="poss"/>
+<Word name="7/bile" positionX="950" positionY="300"/>
+<Connection from="6/tez" to="7/bile"/>
+<Word name="8/daha" positionX="1050" positionY="200"/>
+<Connection from="9/yaz" to="8/daha" with="degree"/>
+</Amr>

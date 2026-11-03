@@ -1,0 +1,15 @@
+<Amr sentence="Arabayı servise götürdüm , usta segman atacak .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/götür" positionX="650" positionY="200"/>
+<Connection from="and" to="3/götür" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="3/götür" to="ben" with="ARG0"/>
+<Word name="1/araba" positionX="650" positionY="300"/>
+<Connection from="3/götür" to="1/araba" with="ARG1"/>
+<Word name="2/servis" positionX="750" positionY="300"/>
+<Connection from="3/götür" to="2/servis"/>
+<Word name="6/segman 7/at" positionX="750" positionY="200"/>
+<Connection from="and" to="6/segman 7/at" with="op2"/>
+<Word name="5/usta" positionX="650" positionY="300"/>
+<Connection from="6/segman 7/at" to="5/usta" with="ARG0"/>
+</Amr>

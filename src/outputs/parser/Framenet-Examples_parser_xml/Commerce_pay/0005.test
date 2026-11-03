@@ -1,0 +1,9 @@
+<Amr sentence="Madam , tablo için pey sürdü .">
+<Word name="5/pey 6/sür" positionX="750" positionY="100"/>
+<Word name="1/madam" positionX="650" positionY="200"/>
+<Connection from="5/pey 6/sür" to="1/madam" with="ARG0"/>
+<Word name="3/tablo" positionX="750" positionY="200"/>
+<Connection from="5/pey 6/sür" to="3/tablo" with="ARG1"/>
+<Word name="4/için" positionX="650" positionY="300"/>
+<Connection from="3/tablo" to="4/için"/>
+</Amr>

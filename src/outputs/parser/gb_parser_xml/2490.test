@@ -1,0 +1,23 @@
+<Amr sentence="Amerika'ya giderse Jale onunla gitmeyebilirdi .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="5/git" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="5/git"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="5/git" to="-" with="polarity"/>
+<Word name="2/git" positionX="650" positionY="300"/>
+<Connection from="5/git" to="2/git" with="cond"/>
+<Word name="person" positionX="550" positionY="400"/>
+<Connection from="2/git" to="person"/>
+<Word name="name" positionX="450" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/amerika" positionX="350" positionY="600"/>
+<Connection from="name" to="1/amerika" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="5/git" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/jale" positionX="550" positionY="500"/>
+<Connection from="name" to="3/jale" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/o" positionX="850" positionY="300"/>
+<Connection from="5/git" to="4/o" with="instrument"/>
+</Amr>

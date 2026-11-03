@@ -1,0 +1,7 @@
+<Amr sentence="Adamlar resmen para basıyor .">
+<Word name="3/para 4/bas" positionX="750" positionY="100"/>
+<Word name="1/adam" positionX="650" positionY="200"/>
+<Connection from="3/para 4/bas" to="1/adam" with="ARG0"/>
+<Word name="2/resmen" positionX="750" positionY="200"/>
+<Connection from="3/para 4/bas" to="2/resmen" with="manner"/>
+</Amr>

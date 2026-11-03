@@ -1,0 +1,14 @@
+<Amr sentence="Tedirginlikle kıpırdanıyordu , sakinleşemiyordu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/kıpırdan" positionX="650" positionY="200"/>
+<Connection from="and" to="2/kıpırdan" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/kıpırdan" to="o" with="ARG0"/>
+<Word name="1/tedirginlik" positionX="650" positionY="300"/>
+<Connection from="2/kıpırdan" to="1/tedirginlik" with="instrument"/>
+<Word name="4/sakinleş" positionX="750" positionY="200"/>
+<Connection from="and" to="4/sakinleş" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="4/sakinleş" to="-" with="polarity"/>
+<Connection from="4/sakinleş" to="o" with="ARG0"/>
+</Amr>

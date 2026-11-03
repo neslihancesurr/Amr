@@ -1,0 +1,9 @@
+<Amr sentence="Bu yıl bol misafirimiz oldu .">
+<Word name="4/misafir 5/ol" positionX="750" positionY="100"/>
+<Word name="2/yıl" positionX="650" positionY="200"/>
+<Connection from="4/misafir 5/ol" to="2/yıl"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/yıl" to="1/bu" with="mod"/>
+<Word name="3/bol" positionX="750" positionY="200"/>
+<Connection from="4/misafir 5/ol" to="3/bol" with="ARG0"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Merak etme , bu paranın eline geçmesini sağlayacağım .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/merak 2/et" positionX="650" positionY="200"/>
+<Connection from="and" to="1/merak 2/et" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/merak 2/et" to="o" with="ARG0"/>
+<Word name="8/sağla" positionX="750" positionY="200"/>
+<Connection from="and" to="8/sağla" with="op2"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="8/sağla" to="ben" with="ARG0"/>
+<Word name="6/el 7/geç" positionX="750" positionY="300"/>
+<Connection from="8/sağla" to="6/el 7/geç" with="ARG1"/>
+<Connection from="6/el 7/geç" to="o" with="ARG0"/>
+<Connection from="6/el 7/geç" to="o" with="poss"/>
+</Amr>

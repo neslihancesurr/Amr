@@ -1,0 +1,13 @@
+<Amr sentence="Geldiğiniz zaman anahtar kapıcıda olacak .">
+<Word name="4/kapıcı:location" positionX="750" positionY="100"/>
+<Word name="2/zaman" positionX="650" positionY="200"/>
+<Connection from="4/kapıcı:location" to="2/zaman"/>
+<Word name="1/gel" positionX="550" positionY="300"/>
+<Connection from="2/zaman" to="1/gel"/>
+<Word name="siz" positionX="450" positionY="400"/>
+<Connection from="1/gel" to="siz" with="poss"/>
+<Word name="3/anahtar" positionX="750" positionY="200"/>
+<Connection from="4/kapıcı:location" to="3/anahtar"/>
+<Word name="5/ol" positionX="850" positionY="200"/>
+<Connection from="4/kapıcı:location" to="5/ol"/>
+</Amr>

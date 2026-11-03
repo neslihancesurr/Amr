@@ -1,0 +1,15 @@
+<Amr sentence="Hiçbir şey anlamamış gibi konuşuyorsun .">
+<Word name="5/konuş" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="5/konuş" to="sen" with="ARG0"/>
+<Word name="3/anla" positionX="750" positionY="200"/>
+<Connection from="5/konuş" to="3/anla"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="3/anla" to="-" with="polarity"/>
+<Word name="2/şey" positionX="750" positionY="300"/>
+<Connection from="3/anla" to="2/şey"/>
+<Word name="1/hiçbir" positionX="650" positionY="400"/>
+<Connection from="2/şey" to="1/hiçbir" with="mod"/>
+<Word name="4/gibi" positionX="850" positionY="300"/>
+<Connection from="3/anla" to="4/gibi"/>
+</Amr>

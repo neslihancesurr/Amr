@@ -1,0 +1,16 @@
+<Amr sentence="Terfi aldıktan sonra bütün birime ulufe dağıttı .">
+<Word name="6/ulufe 7/dağıt" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/ulufe 7/dağıt" to="o" with="ARG0"/>
+<Word name="2/al" positionX="750" positionY="200"/>
+<Connection from="6/ulufe 7/dağıt" to="2/al"/>
+<Connection from="2/al" to="o" with="ARG0"/>
+<Word name="1/terfi" positionX="750" positionY="300"/>
+<Connection from="2/al" to="1/terfi" with="ARG1"/>
+<Word name="3/sonra" positionX="850" positionY="300"/>
+<Connection from="2/al" to="3/sonra"/>
+<Word name="5/birim" positionX="850" positionY="200"/>
+<Connection from="6/ulufe 7/dağıt" to="5/birim"/>
+<Word name="4/bütün" positionX="750" positionY="300"/>
+<Connection from="5/birim" to="4/bütün" with="mod"/>
+</Amr>

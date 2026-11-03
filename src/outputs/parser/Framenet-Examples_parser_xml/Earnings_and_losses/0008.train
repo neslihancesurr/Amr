@@ -1,0 +1,17 @@
+<Amr sentence="Köyden kopup , yabancı işçi olup , beş altı yılda sermayeyi doğrulttu .">
+<Word name="11/sermaye 12/doğrult" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="11/sermaye 12/doğrult" to="o" with="ARG0"/>
+<Word name="2/kop" positionX="750" positionY="200"/>
+<Connection from="11/sermaye 12/doğrult" to="2/kop"/>
+<Word name="1/köy" positionX="650" positionY="300"/>
+<Connection from="2/kop" to="1/köy"/>
+<Word name="6/ol" positionX="850" positionY="200"/>
+<Connection from="11/sermaye 12/doğrult" to="6/ol"/>
+<Word name="4/yabancı 5/işçi" positionX="750" positionY="300"/>
+<Connection from="6/ol" to="4/yabancı 5/işçi" with="mod"/>
+<Word name="10/yıl" positionX="950" positionY="200"/>
+<Connection from="11/sermaye 12/doğrult" to="10/yıl" with="location"/>
+<Word name="8/beş" positionX="850" positionY="300"/>
+<Connection from="10/yıl" to="8/beş"/>
+</Amr>

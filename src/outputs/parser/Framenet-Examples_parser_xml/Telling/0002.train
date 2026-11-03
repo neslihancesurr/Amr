@@ -1,0 +1,15 @@
+<Amr sentence="Çekirdek bizim yörede çiğdem diye tabir edilir .">
+<Word name="6/tabir 7/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/tabir 7/et" to="o" with="ARG0"/>
+<Word name="1/çekirdek" positionX="750" positionY="200"/>
+<Connection from="6/tabir 7/et" to="1/çekirdek" with="ARG1"/>
+<Word name="3/yöre" positionX="850" positionY="200"/>
+<Connection from="6/tabir 7/et" to="3/yöre" with="location"/>
+<Word name="2/biz" positionX="750" positionY="300"/>
+<Connection from="3/yöre" to="2/biz" with="mod"/>
+<Word name="4/çiğdem" positionX="950" positionY="200"/>
+<Connection from="6/tabir 7/et" to="4/çiğdem" with="ARG2"/>
+<Word name="5/diye" positionX="850" positionY="300"/>
+<Connection from="4/çiğdem" to="5/diye"/>
+</Amr>

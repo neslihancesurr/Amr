@@ -1,0 +1,22 @@
+<Amr sentence="Amma çok binmiş bu fiyatlara , artık alınmaz .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/bin" positionX="650" positionY="200"/>
+<Connection from="and" to="3/bin" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/bin" to="o" with="ARG0"/>
+<Word name="2/çok" positionX="650" positionY="300"/>
+<Connection from="3/bin" to="2/çok" with="degree"/>
+<Word name="1/amma" positionX="550" positionY="400"/>
+<Connection from="2/çok" to="1/amma"/>
+<Word name="5/fiyat" positionX="750" positionY="300"/>
+<Connection from="3/bin" to="5/fiyat"/>
+<Word name="4/bu" positionX="650" positionY="400"/>
+<Connection from="5/fiyat" to="4/bu" with="mod"/>
+<Word name="8/al" positionX="750" positionY="200"/>
+<Connection from="and" to="8/al" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="8/al" to="-" with="polarity"/>
+<Connection from="8/al" to="o" with="ARG0"/>
+<Word name="7/artık" positionX="850" positionY="300"/>
+<Connection from="8/al" to="7/artık" with="manner"/>
+</Amr>

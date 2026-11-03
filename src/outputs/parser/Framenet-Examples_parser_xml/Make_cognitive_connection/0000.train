@@ -1,0 +1,14 @@
+<Amr sentence="Duyduklarımı ona konduramadım .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="3/kondur" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="3/kondur"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="3/kondur" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="3/kondur" to="ben" with="ARG0"/>
+<Word name="1/duy" positionX="750" positionY="300"/>
+<Connection from="3/kondur" to="1/duy" with="ARG1"/>
+<Connection from="1/duy" to="ben" with="ARG0"/>
+<Word name="2/o" positionX="850" positionY="300"/>
+<Connection from="3/kondur" to="2/o" with="ARG0"/>
+</Amr>

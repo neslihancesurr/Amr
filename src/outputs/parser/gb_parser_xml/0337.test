@@ -1,0 +1,21 @@
+<Amr sentence="Füsun'un bu kitapları kullandığını duyan kişiler">
+<Word name="6/kişi" positionX="750" positionY="100"/>
+<Word name="5/duy" positionX="650" positionY="200"/>
+<Connection from="6/kişi" to="5/duy"/>
+<Word name="4/kullan" positionX="550" positionY="300"/>
+<Connection from="5/duy" to="4/kullan"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="4/kullan" to="o" with="poss"/>
+<Word name="person" positionX="550" positionY="400"/>
+<Connection from="4/kullan" to="person" with="ARG0"/>
+<Word name="name" positionX="450" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/füsun" positionX="350" positionY="600"/>
+<Connection from="name" to="1/füsun" with="op1"/>
+<Word name="-" positionX="550" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/kitap" positionX="650" positionY="400"/>
+<Connection from="4/kullan" to="3/kitap" with="ARG1"/>
+<Word name="2/bu" positionX="550" positionY="500"/>
+<Connection from="3/kitap" to="2/bu" with="mod"/>
+</Amr>

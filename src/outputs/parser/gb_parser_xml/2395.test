@@ -1,0 +1,34 @@
+<Amr sentence="Sen cumartesi burada olmayacağın için Mehmet pazar günü gelmeyi kabul etti .">
+<Word name="10/kabul 11/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="10/kabul 11/et" to="o" with="ARG0"/>
+<Word name="4/ol" positionX="750" positionY="200"/>
+<Connection from="10/kabul 11/et" to="4/ol" with="cause"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="4/ol" to="-" with="polarity"/>
+<Word name="sen" positionX="750" positionY="300"/>
+<Connection from="4/ol" to="sen" with="poss"/>
+<Word name="1/sen" positionX="850" positionY="300"/>
+<Connection from="4/ol" to="1/sen"/>
+<Word name="date-entity" positionX="950" positionY="300"/>
+<Connection from="4/ol" to="date-entity" with="date"/>
+<Word name="2/cumartesi" positionX="850" positionY="400"/>
+<Connection from="date-entity" to="2/cumartesi" with="weekday"/>
+<Word name="3/burada" positionX="1050" positionY="300"/>
+<Connection from="4/ol" to="3/burada" with="manner"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="10/kabul 11/et" to="person"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="6/mehmet" positionX="650" positionY="400"/>
+<Connection from="name" to="6/mehmet" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="9/gel" positionX="950" positionY="200"/>
+<Connection from="10/kabul 11/et" to="9/gel"/>
+<Connection from="9/gel" to="o" with="ARG0"/>
+<Word name="8/gün" positionX="950" positionY="300"/>
+<Connection from="9/gel" to="8/gün"/>
+<Connection from="8/gün" to="date-entity" with="date"/>
+<Word name="7/pazar" positionX="750" positionY="500"/>
+<Connection from="date-entity" to="7/pazar" with="weekday"/>
+</Amr>

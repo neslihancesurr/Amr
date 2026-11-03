@@ -1,0 +1,11 @@
+<Amr sentence="Günde kaç çay içiyorsun ?">
+<Word name="4/iç" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="4/iç" to="sen" with="ARG0"/>
+<Word name="1/gün" positionX="750" positionY="200"/>
+<Connection from="4/iç" to="1/gün" with="location"/>
+<Word name="3/çay" positionX="850" positionY="200"/>
+<Connection from="4/iç" to="3/çay" with="ARG1"/>
+<Word name="2/kaç" positionX="750" positionY="300"/>
+<Connection from="3/çay" to="2/kaç" with="mod"/>
+</Amr>

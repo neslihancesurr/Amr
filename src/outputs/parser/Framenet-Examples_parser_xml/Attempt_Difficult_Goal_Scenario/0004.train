@@ -1,0 +1,11 @@
+<Amr sentence="Kurumsal hayattan sıkılan ikili , dev bir maceraya atıldı .">
+<Word name="8/macera 9/at" positionX="750" positionY="100"/>
+<Word name="4/ikili" positionX="650" positionY="200"/>
+<Connection from="8/macera 9/at" to="4/ikili" with="ARG0"/>
+<Word name="3/sıkıl" positionX="550" positionY="300"/>
+<Connection from="4/ikili" to="3/sıkıl"/>
+<Word name="2/hayat" positionX="450" positionY="400"/>
+<Connection from="3/sıkıl" to="2/hayat"/>
+<Word name="1/kurumsal" positionX="350" positionY="500"/>
+<Connection from="2/hayat" to="1/kurumsal" with="mod"/>
+</Amr>

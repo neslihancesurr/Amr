@@ -1,0 +1,17 @@
+<Amr sentence="Horoz sesini fark ettiği sırada sessizce duvarın gölgesinde yürüyordu .">
+<Word name="9/yürü" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="9/yürü" to="o" with="ARG0"/>
+<Word name="5/sıra" positionX="750" positionY="200"/>
+<Connection from="9/yürü" to="5/sıra" with="mod"/>
+<Word name="3/fark 4/et" positionX="650" positionY="300"/>
+<Connection from="5/sıra" to="3/fark 4/et"/>
+<Connection from="3/fark 4/et" to="o" with="ARG0"/>
+<Connection from="3/fark 4/et" to="o" with="poss"/>
+<Word name="6/sessizce" positionX="850" positionY="200"/>
+<Connection from="9/yürü" to="6/sessizce" with="manner"/>
+<Word name="8/gölge" positionX="950" positionY="200"/>
+<Connection from="9/yürü" to="8/gölge" with="ARG1"/>
+<Word name="7/duvar" positionX="850" positionY="300"/>
+<Connection from="8/gölge" to="7/duvar" with="mod"/>
+</Amr>

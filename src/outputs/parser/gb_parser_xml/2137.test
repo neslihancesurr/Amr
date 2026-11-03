@@ -1,0 +1,16 @@
+<Amr sentence="Hediyelerini beğenmememizden korkuyorlardı galiba .">
+<Word name="3/kork" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="3/kork" to="onlar" with="ARG0"/>
+<Word name="2/beğen" positionX="750" positionY="200"/>
+<Connection from="3/kork" to="2/beğen"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="2/beğen" to="-" with="polarity"/>
+<Word name="biz" positionX="750" positionY="300"/>
+<Connection from="2/beğen" to="biz" with="ARG0"/>
+<Word name="1/hediye" positionX="850" positionY="300"/>
+<Connection from="2/beğen" to="1/hediye"/>
+<Connection from="1/hediye" to="onlar" with="poss"/>
+<Word name="4/galiba" positionX="850" positionY="200"/>
+<Connection from="3/kork" to="4/galiba" with="manner"/>
+</Amr>

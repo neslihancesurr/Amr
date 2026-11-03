@@ -1,0 +1,15 @@
+<Amr sentence="Bunu zimmetine geçiriyorum , bir şekilde ödenir .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/zimmet 3/geçir" positionX="650" positionY="200"/>
+<Connection from="and" to="2/zimmet 3/geçir" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="2/zimmet 3/geçir" to="ben" with="ARG0"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/zimmet 3/geçir" to="1/bu" with="ARG1"/>
+<Word name="7/öde" positionX="750" positionY="200"/>
+<Connection from="and" to="7/öde" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="7/öde" to="o" with="ARG0"/>
+<Word name="6/şekil" positionX="750" positionY="300"/>
+<Connection from="7/öde" to="6/şekil" with="location"/>
+</Amr>

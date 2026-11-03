@@ -1,0 +1,13 @@
+<Amr sentence="Hiç binmedin mi uçağa ?">
+<Word name="2/bin" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="2/bin" to="-" with="polarity"/>
+<Word name="sen" positionX="750" positionY="200"/>
+<Connection from="2/bin" to="sen" with="ARG0"/>
+<Word name="1/hiç" positionX="850" positionY="200"/>
+<Connection from="2/bin" to="1/hiç" with="degree"/>
+<Word name="3/mi" positionX="950" positionY="200"/>
+<Connection from="2/bin" to="3/mi"/>
+<Word name="4/uçak" positionX="1050" positionY="200"/>
+<Connection from="2/bin" to="4/uçak" with="ARG1"/>
+</Amr>

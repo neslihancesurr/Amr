@@ -1,0 +1,9 @@
+<Amr sentence="Sen çocuk sevmezsin .">
+<Word name="3/sev" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/sev" to="-" with="polarity"/>
+<Word name="1/sen" positionX="750" positionY="200"/>
+<Connection from="3/sev" to="1/sen" with="ARG0"/>
+<Word name="2/çocuk" positionX="850" positionY="200"/>
+<Connection from="3/sev" to="2/çocuk" with="ARG1"/>
+</Amr>

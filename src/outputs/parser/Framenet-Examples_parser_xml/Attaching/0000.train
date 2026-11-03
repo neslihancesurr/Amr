@@ -1,0 +1,9 @@
+<Amr sentence="Rüzgardan açılıp duran kapıyı mandalladım .">
+<Word name="5/mandalla" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/mandalla" to="ben" with="ARG0"/>
+<Word name="4/kapı" positionX="750" positionY="200"/>
+<Connection from="5/mandalla" to="4/kapı" with="ARG1"/>
+<Word name="2/aç 3/dur" positionX="650" positionY="300"/>
+<Connection from="4/kapı" to="2/aç 3/dur"/>
+</Amr>

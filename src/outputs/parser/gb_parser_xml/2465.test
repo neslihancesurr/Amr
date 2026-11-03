@@ -1,0 +1,17 @@
+<Amr sentence="Bu haber mektupların postalanmasından önce gelmişti .">
+<Word name="6/gel" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/gel" to="o" with="ARG0"/>
+<Word name="2/haber" positionX="750" positionY="200"/>
+<Connection from="6/gel" to="2/haber"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/haber" to="1/bu" with="mod"/>
+<Word name="4/postala" positionX="850" positionY="200"/>
+<Connection from="6/gel" to="4/postala"/>
+<Connection from="4/postala" to="o" with="ARG0"/>
+<Connection from="4/postala" to="o" with="poss"/>
+<Word name="3/mektup" positionX="950" positionY="300"/>
+<Connection from="4/postala" to="3/mektup"/>
+<Word name="5/önce" positionX="1050" positionY="300"/>
+<Connection from="4/postala" to="5/önce"/>
+</Amr>

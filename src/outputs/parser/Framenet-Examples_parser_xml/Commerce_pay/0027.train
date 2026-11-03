@@ -1,0 +1,13 @@
+<Amr sentence="Hep para yiyor , bu yüzden fakir .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/para 3/ye" positionX="650" positionY="200"/>
+<Connection from="and" to="2/para 3/ye" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/para 3/ye" to="o" with="ARG0"/>
+<Word name="1/hep" positionX="650" positionY="300"/>
+<Connection from="2/para 3/ye" to="1/hep" with="frequency"/>
+<Word name="7/fakir" positionX="750" positionY="200"/>
+<Connection from="and" to="7/fakir" with="op2"/>
+<Word name="5/bu 6/yüzden" positionX="650" positionY="300"/>
+<Connection from="7/fakir" to="5/bu 6/yüzden" with="mod"/>
+</Amr>

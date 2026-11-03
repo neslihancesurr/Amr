@@ -1,0 +1,20 @@
+<Amr sentence="Ersin , Karabükspor'da futbol oynuyor .">
+<Word name="5/oyna" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/oyna" to="o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="5/oyna" to="person"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ersin" positionX="550" positionY="400"/>
+<Connection from="name" to="1/ersin" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="5/oyna" to="person" with="location"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/karabükspor" positionX="650" positionY="400"/>
+<Connection from="name" to="3/karabükspor" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/futbol" positionX="950" positionY="200"/>
+<Connection from="5/oyna" to="4/futbol" with="ARG1"/>
+</Amr>

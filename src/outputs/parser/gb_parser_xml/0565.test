@@ -1,0 +1,13 @@
+<Amr sentence="O adam para için her şeyi yapar .">
+<Word name="7/yap" positionX="750" positionY="100"/>
+<Word name="2/adam" positionX="650" positionY="200"/>
+<Connection from="7/yap" to="2/adam" with="ARG0"/>
+<Word name="1/o" positionX="550" positionY="300"/>
+<Connection from="2/adam" to="1/o" with="mod"/>
+<Word name="3/para" positionX="750" positionY="200"/>
+<Connection from="7/yap" to="3/para" with="cause"/>
+<Word name="6/şey" positionX="850" positionY="200"/>
+<Connection from="7/yap" to="6/şey" with="ARG1"/>
+<Word name="5/her" positionX="750" positionY="300"/>
+<Connection from="6/şey" to="5/her" with="mod"/>
+</Amr>

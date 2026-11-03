@@ -1,0 +1,15 @@
+<Amr sentence="Ben o günden beri iletişim konusuna kafa patlatıyorum .">
+<Word name="7/kafa 8/patlat" positionX="750" positionY="100"/>
+<Word name="1/ben" positionX="650" positionY="200"/>
+<Connection from="7/kafa 8/patlat" to="1/ben" with="ARG0"/>
+<Word name="3/gün" positionX="750" positionY="200"/>
+<Connection from="7/kafa 8/patlat" to="3/gün"/>
+<Word name="2/o" positionX="650" positionY="300"/>
+<Connection from="3/gün" to="2/o" with="mod"/>
+<Word name="4/beri" positionX="750" positionY="300"/>
+<Connection from="3/gün" to="4/beri"/>
+<Word name="6/konu" positionX="850" positionY="200"/>
+<Connection from="7/kafa 8/patlat" to="6/konu"/>
+<Word name="5/iletişim" positionX="750" positionY="300"/>
+<Connection from="6/konu" to="5/iletişim" with="mod"/>
+</Amr>

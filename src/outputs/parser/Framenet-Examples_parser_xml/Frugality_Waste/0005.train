@@ -1,0 +1,17 @@
+<Amr sentence="Piyangodan kazandığı parayı 2 sene içinde gâvur etti .">
+<Word name="7/gâvur 8/et" positionX="750" positionY="100"/>
+<Word name="3/para" positionX="650" positionY="200"/>
+<Connection from="7/gâvur 8/et" to="3/para" with="ARG1"/>
+<Word name="2/kazan" positionX="550" positionY="300"/>
+<Connection from="3/para" to="2/kazan"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="2/kazan" to="o" with="poss"/>
+<Word name="1/piyango" positionX="550" positionY="400"/>
+<Connection from="2/kazan" to="1/piyango"/>
+<Word name="6/içinde" positionX="750" positionY="200"/>
+<Connection from="7/gâvur 8/et" to="6/içinde" with="manner"/>
+<Word name="5/sene" positionX="650" positionY="300"/>
+<Connection from="6/içinde" to="5/sene" with="mod"/>
+<Word name="4/2" positionX="550" positionY="400"/>
+<Connection from="5/sene" to="4/2"/>
+</Amr>

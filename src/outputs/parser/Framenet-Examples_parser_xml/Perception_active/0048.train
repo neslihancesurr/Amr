@@ -1,0 +1,9 @@
+<Amr sentence="Evin güzelliğine baygın baygın bakıyor .">
+<Word name="3/baygın 4/baygın 5/bak" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/baygın 4/baygın 5/bak" to="o" with="ARG0"/>
+<Word name="2/güzellik" positionX="750" positionY="200"/>
+<Connection from="3/baygın 4/baygın 5/bak" to="2/güzellik" with="ARG1"/>
+<Word name="1/ev" positionX="650" positionY="300"/>
+<Connection from="2/güzellik" to="1/ev" with="mod"/>
+</Amr>

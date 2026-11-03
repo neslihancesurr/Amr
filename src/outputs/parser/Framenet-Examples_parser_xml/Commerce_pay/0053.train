@@ -1,0 +1,11 @@
+<Amr sentence="Dükkandan gelen kira parası ziyan zebil oldu .">
+<Word name="5/ziyan 6/zebil 7/ol" positionX="750" positionY="100"/>
+<Word name="4/para" positionX="650" positionY="200"/>
+<Connection from="5/ziyan 6/zebil 7/ol" to="4/para" with="ARG0"/>
+<Word name="2/gelen" positionX="550" positionY="300"/>
+<Connection from="4/para" to="2/gelen"/>
+<Word name="1/dükkan" positionX="450" positionY="400"/>
+<Connection from="2/gelen" to="1/dükkan"/>
+<Word name="3/kira" positionX="650" positionY="300"/>
+<Connection from="4/para" to="3/kira" with="mod"/>
+</Amr>

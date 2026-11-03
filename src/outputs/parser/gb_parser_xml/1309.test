@@ -1,0 +1,26 @@
+<Amr sentence="Ayşe'nin arabası Ahmet'inkiyle karşılaştırılınca çok yeni duruyor .">
+<Word name="7/dur" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/dur" to="o" with="ARG0"/>
+<Word name="2/araba" positionX="750" positionY="200"/>
+<Connection from="7/dur" to="2/araba"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="2/araba" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ayşe" positionX="450" positionY="500"/>
+<Connection from="name" to="1/ayşe" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="2/araba" to="person" with="instrument"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/ahmet" positionX="550" positionY="500"/>
+<Connection from="name" to="3/ahmet" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/karşılaştır" positionX="850" positionY="200"/>
+<Connection from="7/dur" to="4/karşılaştır"/>
+<Word name="6/yeni" positionX="950" positionY="200"/>
+<Connection from="7/dur" to="6/yeni"/>
+<Word name="5/çok" positionX="850" positionY="300"/>
+<Connection from="6/yeni" to="5/çok" with="degree"/>
+</Amr>

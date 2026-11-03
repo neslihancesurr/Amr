@@ -1,0 +1,15 @@
+<Amr sentence="Dünkü toplantıda bu konuyu konuşmamız gerekiyordu .">
+<Word name="6/gerek" positionX="750" positionY="100"/>
+<Word name="5/konuşma" positionX="650" positionY="200"/>
+<Connection from="6/gerek" to="5/konuşma" with="ARG0"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="5/konuşma" to="biz" with="poss"/>
+<Word name="2/toplantı" positionX="650" positionY="300"/>
+<Connection from="5/konuşma" to="2/toplantı" with="location"/>
+<Word name="1/dünkü" positionX="550" positionY="400"/>
+<Connection from="2/toplantı" to="1/dünkü" with="mod"/>
+<Word name="4/konu" positionX="750" positionY="300"/>
+<Connection from="5/konuşma" to="4/konu"/>
+<Word name="3/bu" positionX="650" positionY="400"/>
+<Connection from="4/konu" to="3/bu" with="mod"/>
+</Amr>

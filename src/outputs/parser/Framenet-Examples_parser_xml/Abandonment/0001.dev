@@ -1,0 +1,15 @@
+<Amr sentence="Ne yardan geçer ne de serden .">
+<Word name="6/ser" positionX="750" positionY="100"/>
+<Word name="5/de" positionX="650" positionY="200"/>
+<Connection from="6/ser" to="5/de"/>
+<Word name="4/ne" positionX="550" positionY="300"/>
+<Connection from="5/de" to="4/ne"/>
+<Word name="3/geç" positionX="450" positionY="400"/>
+<Connection from="4/ne" to="3/geç"/>
+<Word name="o" positionX="350" positionY="500"/>
+<Connection from="3/geç" to="o" with="ARG0"/>
+<Word name="2/yar" positionX="450" positionY="500"/>
+<Connection from="3/geç" to="2/yar" with="ARG1"/>
+<Word name="1/ne" positionX="350" positionY="600"/>
+<Connection from="2/yar" to="1/ne"/>
+</Amr>

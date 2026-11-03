@@ -1,0 +1,9 @@
+<Amr sentence="Küçük çocuklar , derste harmanladılar .">
+<Word name="5/harmanla" positionX="750" positionY="100"/>
+<Word name="2/çocuk" positionX="650" positionY="200"/>
+<Connection from="5/harmanla" to="2/çocuk" with="ARG0"/>
+<Word name="1/küçük" positionX="550" positionY="300"/>
+<Connection from="2/çocuk" to="1/küçük" with="mod"/>
+<Word name="4/ders" positionX="750" positionY="200"/>
+<Connection from="5/harmanla" to="4/ders" with="location"/>
+</Amr>

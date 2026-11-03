@@ -1,0 +1,19 @@
+<Amr sentence="Tiyatroya gitmeden önce yer ayırtmak lazım değil mi ?">
+<Word name="6/lazım" positionX="750" positionY="100"/>
+<Word name="2/git" positionX="650" positionY="200"/>
+<Connection from="6/lazım" to="2/git"/>
+<Word name="1/tiyatro" positionX="550" positionY="300"/>
+<Connection from="2/git" to="1/tiyatro" with="ARG1"/>
+<Word name="3/önce" positionX="650" positionY="300"/>
+<Connection from="2/git" to="3/önce"/>
+<Word name="yap" positionX="750" positionY="200"/>
+<Connection from="6/lazım" to="yap"/>
+<Word name="5/ayır" positionX="650" positionY="300"/>
+<Connection from="yap" to="5/ayır"/>
+<Word name="4/yer" positionX="550" positionY="400"/>
+<Connection from="5/ayır" to="4/yer"/>
+<Word name="-" positionX="850" positionY="200"/>
+<Connection from="6/lazım" to="-" with="polarity"/>
+<Word name="8/mi" positionX="950" positionY="200"/>
+<Connection from="6/lazım" to="8/mi"/>
+</Amr>

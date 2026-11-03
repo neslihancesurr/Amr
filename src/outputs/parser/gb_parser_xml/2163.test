@@ -1,0 +1,9 @@
+<Amr sentence="Delikanlıyı yakışıklı buldum .">
+<Word name="3/bul" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/bul" to="ben" with="ARG0"/>
+<Word name="1/delikanlı" positionX="750" positionY="200"/>
+<Connection from="3/bul" to="1/delikanlı"/>
+<Word name="2/yakışıklı" positionX="850" positionY="200"/>
+<Connection from="3/bul" to="2/yakışıklı"/>
+</Amr>

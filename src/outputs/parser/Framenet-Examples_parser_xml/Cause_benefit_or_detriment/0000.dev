@@ -1,0 +1,12 @@
+<Amr sentence="Amcasından kalan mirastan ziftlendi .">
+<Word name="4/ziftlen" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/ziftlen" to="o" with="ARG0"/>
+<Word name="3/miras" positionX="750" positionY="200"/>
+<Connection from="4/ziftlen" to="3/miras" with="ARG1"/>
+<Word name="2/kal" positionX="650" positionY="300"/>
+<Connection from="3/miras" to="2/kal"/>
+<Word name="1/amca" positionX="550" positionY="400"/>
+<Connection from="2/kal" to="1/amca"/>
+<Connection from="1/amca" to="o" with="poss"/>
+</Amr>

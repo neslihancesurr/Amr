@@ -1,0 +1,27 @@
+<Amr sentence="Adaylardan hiçbiri çoğunluk sağlayamadığı takdirde ikinci tura geçilecektir .">
+<Word name="8/geç" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="8/geç" to="o" with="ARG0"/>
+<Word name="mümkün" positionX="750" positionY="200"/>
+<Connection from="8/geç" to="mümkün"/>
+<Word name="4/sağla" positionX="650" positionY="300"/>
+<Connection from="mümkün" to="4/sağla"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="4/sağla" to="-" with="polarity"/>
+<Connection from="4/sağla" to="o" with="poss"/>
+<Word name="2/hiçbiri" positionX="750" positionY="400"/>
+<Connection from="4/sağla" to="2/hiçbiri" with="ARG0"/>
+<Connection from="2/hiçbiri" to="o" with="poss"/>
+<Word name="1/aday" positionX="750" positionY="500"/>
+<Connection from="2/hiçbiri" to="1/aday"/>
+<Word name="3/çoğunluk" positionX="850" positionY="400"/>
+<Connection from="4/sağla" to="3/çoğunluk" with="ARG1"/>
+<Word name="5/takdirde" positionX="950" positionY="400"/>
+<Connection from="4/sağla" to="5/takdirde"/>
+<Word name="7/tur" positionX="850" positionY="200"/>
+<Connection from="8/geç" to="7/tur"/>
+<Word name="ordinal-entity" positionX="750" positionY="300"/>
+<Connection from="7/tur" to="ordinal-entity" with="ord"/>
+<Word name="2" positionX="650" positionY="400"/>
+<Connection from="ordinal-entity" to="2" with="value"/>
+</Amr>

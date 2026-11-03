@@ -1,0 +1,10 @@
+<Amr sentence="Kızını ata bindirdi .">
+<Word name="3/bindir" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/bindir" to="o" with="ARG0"/>
+<Word name="1/kız" positionX="750" positionY="200"/>
+<Connection from="3/bindir" to="1/kız" with="ARG1"/>
+<Connection from="1/kız" to="o" with="poss"/>
+<Word name="2/at" positionX="850" positionY="200"/>
+<Connection from="3/bindir" to="2/at" with="ARG2"/>
+</Amr>

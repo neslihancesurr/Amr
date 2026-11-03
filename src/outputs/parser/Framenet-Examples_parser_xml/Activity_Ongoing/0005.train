@@ -1,0 +1,29 @@
+<Amr sentence="Bu zor mesleğe ilk başladığımız zamanlardan beri bu iş yıllardır böyle sürüp gelmiştir .">
+<Word name="12/sür 13/gel" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="12/sür 13/gel" to="o" with="ARG0"/>
+<Word name="6/zaman" positionX="750" positionY="200"/>
+<Connection from="12/sür 13/gel" to="6/zaman" with="mod"/>
+<Word name="5/başla" positionX="650" positionY="300"/>
+<Connection from="6/zaman" to="5/başla"/>
+<Word name="biz" positionX="550" positionY="400"/>
+<Connection from="5/başla" to="biz" with="poss"/>
+<Word name="4/ilk" positionX="650" positionY="400"/>
+<Connection from="5/başla" to="4/ilk" with="manner"/>
+<Word name="3/meslek" positionX="550" positionY="500"/>
+<Connection from="4/ilk" to="3/meslek"/>
+<Word name="1/bu" positionX="450" positionY="600"/>
+<Connection from="3/meslek" to="1/bu" with="mod"/>
+<Word name="2/zor" positionX="550" positionY="600"/>
+<Connection from="3/meslek" to="2/zor" with="mod"/>
+<Word name="7/beri" positionX="750" positionY="300"/>
+<Connection from="6/zaman" to="7/beri"/>
+<Word name="9/iş" positionX="850" positionY="200"/>
+<Connection from="12/sür 13/gel" to="9/iş" with="ARG1"/>
+<Word name="8/bu" positionX="750" positionY="300"/>
+<Connection from="9/iş" to="8/bu" with="mod"/>
+<Word name="10/yıl" positionX="950" positionY="200"/>
+<Connection from="12/sür 13/gel" to="10/yıl" with="mod"/>
+<Word name="11/böyle" positionX="1050" positionY="200"/>
+<Connection from="12/sür 13/gel" to="11/böyle" with="manner"/>
+</Amr>

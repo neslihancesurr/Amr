@@ -1,0 +1,9 @@
+<Amr sentence="Aşağısı çok dağınık .">
+<Word name="3/dağınık" positionX="750" positionY="100"/>
+<Word name="1/aşağı" positionX="650" positionY="200"/>
+<Connection from="3/dağınık" to="1/aşağı"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/aşağı" to="o" with="poss"/>
+<Word name="2/çok" positionX="750" positionY="200"/>
+<Connection from="3/dağınık" to="2/çok" with="degree"/>
+</Amr>

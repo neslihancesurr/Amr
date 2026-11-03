@@ -1,0 +1,17 @@
+<Amr sentence="Hülya Yücel kadar öksürmüyordu .">
+<Word name="4/öksür" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/öksür" to="-" with="polarity"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="4/öksür" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/hülya" positionX="550" positionY="400"/>
+<Connection from="name" to="1/hülya" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="4/öksür" to="person" with="extent"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/yücel" positionX="650" positionY="400"/>
+<Connection from="name" to="2/yücel" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

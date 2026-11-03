@@ -1,0 +1,15 @@
+<Amr sentence="Bir kuruş bile vermem diye veto etti .">
+<Word name="6/veto 7/et" positionX="750" positionY="100"/>
+<Word name="4/ver" positionX="650" positionY="200"/>
+<Connection from="6/veto 7/et" to="4/ver"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="4/ver" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="4/ver" to="ben" with="ARG0"/>
+<Word name="2/kuruş" positionX="750" positionY="300"/>
+<Connection from="4/ver" to="2/kuruş" with="ARG1"/>
+<Word name="3/bile" positionX="650" positionY="400"/>
+<Connection from="2/kuruş" to="3/bile" with="manner"/>
+<Word name="5/diye" positionX="850" positionY="300"/>
+<Connection from="4/ver" to="5/diye"/>
+</Amr>

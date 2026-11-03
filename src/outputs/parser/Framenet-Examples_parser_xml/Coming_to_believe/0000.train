@@ -1,0 +1,15 @@
+<Amr sentence="Burada okuyabileceğimi aklı kesmemişti .">
+<Word name="3/akıl 4/kes" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/akıl 4/kes" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="3/akıl 4/kes" to="o" with="ARG0"/>
+<Word name="mümkün" positionX="850" positionY="200"/>
+<Connection from="3/akıl 4/kes" to="mümkün"/>
+<Word name="2/oku" positionX="750" positionY="300"/>
+<Connection from="mümkün" to="2/oku" with="ARG1"/>
+<Word name="ben" positionX="650" positionY="400"/>
+<Connection from="2/oku" to="ben" with="ARG0"/>
+<Word name="1/burada" positionX="750" positionY="400"/>
+<Connection from="2/oku" to="1/burada"/>
+</Amr>

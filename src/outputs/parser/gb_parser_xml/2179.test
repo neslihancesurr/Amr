@@ -1,0 +1,19 @@
+<Amr sentence="Herkesin kafasında seçimler ne zaman yapılacak sorusu var .">
+<Word name="8/var" positionX="750" positionY="100"/>
+<Word name="2/kafa" positionX="650" positionY="200"/>
+<Connection from="8/var" to="2/kafa" with="location"/>
+<Word name="1/herkes" positionX="550" positionY="300"/>
+<Connection from="2/kafa" to="1/herkes" with="mod"/>
+<Word name="7/soru" positionX="750" positionY="200"/>
+<Connection from="8/var" to="7/soru"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="7/soru" to="o" with="poss"/>
+<Word name="6/yap" positionX="750" positionY="300"/>
+<Connection from="7/soru" to="6/yap"/>
+<Word name="3/seçim" positionX="650" positionY="400"/>
+<Connection from="6/yap" to="3/seçim"/>
+<Word name="4/ne" positionX="750" positionY="400"/>
+<Connection from="6/yap" to="4/ne"/>
+<Word name="5/zaman" positionX="650" positionY="500"/>
+<Connection from="4/ne" to="5/zaman"/>
+</Amr>

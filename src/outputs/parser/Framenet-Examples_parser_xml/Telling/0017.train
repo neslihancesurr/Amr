@@ -1,0 +1,12 @@
+<Amr sentence="Pozisyon için aradığı kişiyi tavsif etti .">
+<Word name="5/tavsif 6/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/tavsif 6/et" to="o" with="ARG0"/>
+<Word name="4/kişi" positionX="750" positionY="200"/>
+<Connection from="5/tavsif 6/et" to="4/kişi" with="ARG1"/>
+<Word name="3/ara" positionX="650" positionY="300"/>
+<Connection from="4/kişi" to="3/ara"/>
+<Connection from="3/ara" to="o" with="poss"/>
+<Word name="1/pozisyon" positionX="650" positionY="400"/>
+<Connection from="3/ara" to="1/pozisyon" with="cause"/>
+</Amr>

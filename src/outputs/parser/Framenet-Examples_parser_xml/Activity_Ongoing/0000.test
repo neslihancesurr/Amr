@@ -1,0 +1,11 @@
+<Amr sentence="Beş dakikalık işi uzun etti .">
+<Word name="4/uzun 5/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/uzun 5/et" to="o" with="ARG0"/>
+<Word name="3/iş" positionX="750" positionY="200"/>
+<Connection from="4/uzun 5/et" to="3/iş" with="ARG1"/>
+<Word name="2/dakikalık" positionX="650" positionY="300"/>
+<Connection from="3/iş" to="2/dakikalık" with="mod"/>
+<Word name="1/beş" positionX="550" positionY="400"/>
+<Connection from="2/dakikalık" to="1/beş"/>
+</Amr>

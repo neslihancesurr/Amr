@@ -1,0 +1,7 @@
+<Amr sentence="İnşallah hasta değilimdir .">
+<Word name="2/hasta" positionX="750" positionY="100"/>
+<Word name="1/inşallah" positionX="650" positionY="200"/>
+<Connection from="2/hasta" to="1/inşallah"/>
+<Word name="-" positionX="750" positionY="200"/>
+<Connection from="2/hasta" to="-" with="polarity"/>
+</Amr>

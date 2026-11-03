@@ -1,0 +1,22 @@
+<Amr sentence="Yok eğer o saate kadar gelmemişse daha fazla bekleyemeyiz .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="9/bekle" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="9/bekle"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="9/bekle" to="-" with="polarity"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="9/bekle" to="biz" with="ARG0"/>
+<Word name="6/gel" positionX="750" positionY="300"/>
+<Connection from="9/bekle" to="6/gel" with="cond"/>
+<Connection from="6/gel" to="-" with="polarity"/>
+<Word name="1/yok" positionX="750" positionY="400"/>
+<Connection from="6/gel" to="1/yok"/>
+<Word name="2/eğer" positionX="850" positionY="400"/>
+<Connection from="6/gel" to="2/eğer"/>
+<Word name="3/o 4/saat" positionX="950" positionY="400"/>
+<Connection from="6/gel" to="3/o 4/saat" with="mod"/>
+<Word name="8/fazla" positionX="850" positionY="300"/>
+<Connection from="9/bekle" to="8/fazla" with="degree"/>
+<Word name="7/daha" positionX="750" positionY="400"/>
+<Connection from="8/fazla" to="7/daha" with="degree"/>
+</Amr>

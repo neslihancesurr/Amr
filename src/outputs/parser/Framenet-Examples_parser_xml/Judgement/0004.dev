@@ -1,0 +1,11 @@
+<Amr sentence="Bugünkü çalışmalarımızı noksan buldu .">
+<Word name="3/noksan 4/bul" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/noksan 4/bul" to="o" with="ARG0"/>
+<Word name="2/çalışma" positionX="750" positionY="200"/>
+<Connection from="3/noksan 4/bul" to="2/çalışma" with="ARG1"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="2/çalışma" to="biz" with="poss"/>
+<Word name="1/bugünkü" positionX="750" positionY="300"/>
+<Connection from="2/çalışma" to="1/bugünkü" with="mod"/>
+</Amr>

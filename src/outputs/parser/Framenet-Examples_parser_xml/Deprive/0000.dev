@@ -1,0 +1,15 @@
+<Amr sentence="Ameliyat öncesi doktorlar onu bir gün boyunca aç bıraktı .">
+<Word name="8/aç 9/bırak" positionX="750" positionY="100"/>
+<Word name="2/önce" positionX="650" positionY="200"/>
+<Connection from="8/aç 9/bırak" to="2/önce" with="mod"/>
+<Word name="1/ameliyat" positionX="550" positionY="300"/>
+<Connection from="2/önce" to="1/ameliyat" with="mod"/>
+<Word name="3/doktor" positionX="750" positionY="200"/>
+<Connection from="8/aç 9/bırak" to="3/doktor" with="ARG0"/>
+<Word name="4/o" positionX="850" positionY="200"/>
+<Connection from="8/aç 9/bırak" to="4/o" with="ARG1"/>
+<Word name="6/gün" positionX="950" positionY="200"/>
+<Connection from="8/aç 9/bırak" to="6/gün" with="mod"/>
+<Word name="7/boyunca" positionX="850" positionY="300"/>
+<Connection from="6/gün" to="7/boyunca"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Tüm kargoları özenle ambalajladık .">
+<Word name="4/ambalajla" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="4/ambalajla" to="biz" with="ARG0"/>
+<Word name="2/kargo" positionX="750" positionY="200"/>
+<Connection from="4/ambalajla" to="2/kargo" with="ARG1"/>
+<Word name="1/tüm" positionX="650" positionY="300"/>
+<Connection from="2/kargo" to="1/tüm" with="mod"/>
+<Word name="3/özenle" positionX="850" positionY="200"/>
+<Connection from="4/ambalajla" to="3/özenle" with="manner"/>
+</Amr>

@@ -1,0 +1,21 @@
+<Amr sentence="Bizim mahallede Güneş Gıda diye bir market var .">
+<Word name="8/var" positionX="750" positionY="100"/>
+<Word name="2/mahalle" positionX="650" positionY="200"/>
+<Connection from="8/var" to="2/mahalle" with="location"/>
+<Word name="1/biz" positionX="550" positionY="300"/>
+<Connection from="2/mahalle" to="1/biz" with="mod"/>
+<Word name="7/market" positionX="750" positionY="200"/>
+<Connection from="8/var" to="7/market"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="7/market" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/güneş" positionX="450" positionY="500"/>
+<Connection from="name" to="3/güneş" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/gıda" positionX="750" positionY="400"/>
+<Connection from="person" to="4/gıda"/>
+<Word name="5/diye" positionX="650" positionY="500"/>
+<Connection from="4/gıda" to="5/diye"/>
+</Amr>

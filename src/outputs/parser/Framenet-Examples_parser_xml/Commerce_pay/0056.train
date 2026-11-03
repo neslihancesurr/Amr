@@ -1,0 +1,11 @@
+<Amr sentence="Bu adam bütün kazandığını sokağa atıyor .">
+<Word name="5/sokak 6/at" positionX="750" positionY="100"/>
+<Word name="2/adam" positionX="650" positionY="200"/>
+<Connection from="5/sokak 6/at" to="2/adam" with="ARG0"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/adam" to="1/bu" with="mod"/>
+<Word name="4/kazan" positionX="750" positionY="200"/>
+<Connection from="5/sokak 6/at" to="4/kazan" with="ARG1"/>
+<Word name="3/bütün" positionX="650" positionY="300"/>
+<Connection from="4/kazan" to="3/bütün" with="mod"/>
+</Amr>

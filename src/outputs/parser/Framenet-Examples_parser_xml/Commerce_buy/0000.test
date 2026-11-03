@@ -1,0 +1,22 @@
+<Amr sentence="Almazlandım gerçi ama üsteleyip elime para bile sıkıştırdı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="8/sıkıştır" positionX="650" positionY="200"/>
+<Connection from="and" to="8/sıkıştır" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="8/sıkıştır" to="o" with="ARG0"/>
+<Word name="4/üstele" positionX="650" positionY="300"/>
+<Connection from="8/sıkıştır" to="4/üstele"/>
+<Word name="5/el" positionX="750" positionY="300"/>
+<Connection from="8/sıkıştır" to="5/el"/>
+<Word name="ben" positionX="650" positionY="400"/>
+<Connection from="5/el" to="ben" with="poss"/>
+<Word name="6/para" positionX="850" positionY="300"/>
+<Connection from="8/sıkıştır" to="6/para" with="ARG1"/>
+<Word name="7/bile" positionX="750" positionY="400"/>
+<Connection from="6/para" to="7/bile" with="manner"/>
+<Word name="1/almazlan" positionX="750" positionY="200"/>
+<Connection from="and" to="1/almazlan" with="op2"/>
+<Connection from="1/almazlan" to="ben" with="ARG0"/>
+<Word name="2/gerçi" positionX="750" positionY="300"/>
+<Connection from="1/almazlan" to="2/gerçi" with="manner"/>
+</Amr>

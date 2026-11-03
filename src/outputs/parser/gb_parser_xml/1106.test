@@ -1,0 +1,32 @@
+<Amr sentence="Diyarbakır , Urfa , Gaziantep arasında otobüs işletiyordu .">
+<Word name="8/işlet" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="8/işlet" to="o" with="ARG0"/>
+<Word name="and" positionX="750" positionY="200"/>
+<Connection from="8/işlet" to="and"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="and" to="person" with="ARG1"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/urfa" positionX="450" positionY="500"/>
+<Connection from="name" to="3/urfa" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="city" positionX="750" positionY="300"/>
+<Connection from="and" to="city" with="ARG1"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="5/gaziantep" positionX="550" positionY="500"/>
+<Connection from="name" to="5/gaziantep" with="op1"/>
+<Word name="gaziantep" positionX="750" positionY="400"/>
+<Connection from="city" to="gaziantep" with="wiki"/>
+<Word name="6/ara" positionX="850" positionY="400"/>
+<Connection from="city" to="6/ara" with="location"/>
+<Connection from="and" to="city" with="ARG1"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="1/diyarbakır" positionX="650" positionY="500"/>
+<Connection from="name" to="1/diyarbakır" with="op1"/>
+<Word name="diyarbakır" positionX="850" positionY="400"/>
+<Connection from="city" to="diyarbakır" with="wiki"/>
+<Word name="7/otobüs" positionX="850" positionY="200"/>
+<Connection from="8/işlet" to="7/otobüs" with="ARG1"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Dolabın arkasında bir şey var mı ?">
+<Word name="5/var" positionX="750" positionY="100"/>
+<Word name="2/arka" positionX="650" positionY="200"/>
+<Connection from="5/var" to="2/arka" with="location"/>
+<Word name="1/dolap" positionX="550" positionY="300"/>
+<Connection from="2/arka" to="1/dolap" with="mod"/>
+<Word name="6/mi" positionX="750" positionY="200"/>
+<Connection from="5/var" to="6/mi"/>
+</Amr>

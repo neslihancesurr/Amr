@@ -1,0 +1,13 @@
+<Amr sentence="Benim manevi değerlerimi tezyif ediyorsun .">
+<Word name="4/tezyif 5/et" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="4/tezyif 5/et" to="sen" with="ARG0"/>
+<Word name="3/değer" positionX="750" positionY="200"/>
+<Connection from="4/tezyif 5/et" to="3/değer" with="ARG1"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="3/değer" to="ben" with="poss"/>
+<Word name="1/ben" positionX="750" positionY="300"/>
+<Connection from="3/değer" to="1/ben" with="mod"/>
+<Word name="2/manevi" positionX="850" positionY="300"/>
+<Connection from="3/değer" to="2/manevi" with="mod"/>
+</Amr>

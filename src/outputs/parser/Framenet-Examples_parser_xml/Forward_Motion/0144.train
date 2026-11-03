@@ -1,0 +1,11 @@
+<Amr sentence="Kömürleri madenin çıkışında yastıkladım .">
+<Word name="4/yastıkla" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/yastıkla" to="ben" with="ARG0"/>
+<Word name="1/kömür" positionX="750" positionY="200"/>
+<Connection from="4/yastıkla" to="1/kömür" with="ARG1"/>
+<Word name="3/çıkış" positionX="850" positionY="200"/>
+<Connection from="4/yastıkla" to="3/çıkış" with="location"/>
+<Word name="2/maden" positionX="750" positionY="300"/>
+<Connection from="3/çıkış" to="2/maden" with="mod"/>
+</Amr>

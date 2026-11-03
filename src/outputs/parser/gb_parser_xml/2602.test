@@ -1,0 +1,9 @@
+<Amr sentence="siyah beyaz bir film">
+<Word name="4/film" positionX="750" positionY="100"/>
+<Word name="and" positionX="650" positionY="200"/>
+<Connection from="4/film" to="and"/>
+<Word name="2/beyaz" positionX="550" positionY="300"/>
+<Connection from="and" to="2/beyaz" with="mod"/>
+<Word name="1/siyah" positionX="650" positionY="300"/>
+<Connection from="and" to="1/siyah" with="mod"/>
+</Amr>

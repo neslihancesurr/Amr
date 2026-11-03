@@ -1,0 +1,39 @@
+<Amr sentence="Sen bütün duvarların düz beyaz kalmasını istersin , oysa ben bazı odalarda değişik renkler olsun isterim .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="7/iste" positionX="650" positionY="200"/>
+<Connection from="and" to="7/iste" with="op1"/>
+<Word name="1/sen" positionX="550" positionY="300"/>
+<Connection from="7/iste" to="1/sen"/>
+<Word name="6/kal" positionX="650" positionY="300"/>
+<Connection from="7/iste" to="6/kal"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="6/kal" to="o" with="ARG0"/>
+<Connection from="6/kal" to="o" with="poss"/>
+<Word name="3/duvar" positionX="750" positionY="400"/>
+<Connection from="6/kal" to="3/duvar"/>
+<Word name="2/bütün" positionX="650" positionY="500"/>
+<Connection from="3/duvar" to="2/bütün" with="mod"/>
+<Word name="5/beyaz" positionX="850" positionY="400"/>
+<Connection from="6/kal" to="5/beyaz"/>
+<Word name="4/düz" positionX="750" positionY="500"/>
+<Connection from="5/beyaz" to="4/düz" with="manner"/>
+<Word name="16/iste" positionX="750" positionY="200"/>
+<Connection from="and" to="16/iste" with="op2"/>
+<Word name="10/ben" positionX="650" positionY="300"/>
+<Connection from="16/iste" to="10/ben" with="ARG0"/>
+<Word name="9/oy" positionX="550" positionY="400"/>
+<Connection from="10/ben" to="9/oy" with="mod"/>
+<Word name="15/ol" positionX="750" positionY="300"/>
+<Connection from="16/iste" to="15/ol" with="ARG1"/>
+<Connection from="15/ol" to="o" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="400"/>
+<Connection from="15/ol" to="imperative" with="mode"/>
+<Word name="12/oda" positionX="850" positionY="400"/>
+<Connection from="15/ol" to="12/oda" with="location"/>
+<Word name="11/bazı" positionX="750" positionY="500"/>
+<Connection from="12/oda" to="11/bazı" with="mod"/>
+<Word name="14/renk" positionX="950" positionY="400"/>
+<Connection from="15/ol" to="14/renk"/>
+<Word name="13/değişik" positionX="850" positionY="500"/>
+<Connection from="14/renk" to="13/değişik" with="mod"/>
+</Amr>

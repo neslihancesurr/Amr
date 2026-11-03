@@ -1,0 +1,21 @@
+<Amr sentence="Geçen hafta Handan bana verince yeniden okudum .">
+<Word name="7/oku" positionX="750" positionY="100"/>
+<Word name="5/ver" positionX="650" positionY="200"/>
+<Connection from="7/oku" to="5/ver"/>
+<Word name="2/hafta" positionX="550" positionY="300"/>
+<Connection from="5/ver" to="2/hafta"/>
+<Word name="1/geç" positionX="450" positionY="400"/>
+<Connection from="2/hafta" to="1/geç"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="5/ver" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/handan" positionX="450" positionY="500"/>
+<Connection from="name" to="3/handan" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/ben" positionX="750" positionY="300"/>
+<Connection from="5/ver" to="4/ben" with="ARG2"/>
+<Word name="6/yeniden" positionX="750" positionY="200"/>
+<Connection from="7/oku" to="6/yeniden"/>
+</Amr>

@@ -1,0 +1,7 @@
+<Amr sentence="beklediğimiz kadar temiz">
+<Word name="3/temiz" positionX="750" positionY="100"/>
+<Word name="1/bekle" positionX="650" positionY="200"/>
+<Connection from="3/temiz" to="1/bekle" with="extent"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="1/bekle" to="biz" with="poss"/>
+</Amr>

@@ -1,0 +1,27 @@
+<Amr sentence="Çocukluğunda Atatürk'ü görmüş olmak kendisi için bir gurur kaynağı idi .">
+<Word name="9/kaynak" positionX="750" positionY="100"/>
+<Word name="4/ol" positionX="650" positionY="200"/>
+<Connection from="9/kaynak" to="4/ol"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/ol" to="o" with="ARG0"/>
+<Word name="3/gör" positionX="650" positionY="300"/>
+<Connection from="4/ol" to="3/gör"/>
+<Word name="1/çocukluk" positionX="550" positionY="400"/>
+<Connection from="3/gör" to="1/çocukluk" with="location"/>
+<Word name="person" positionX="650" positionY="400"/>
+<Connection from="3/gör" to="person"/>
+<Word name="name" positionX="550" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/atatürk" positionX="450" positionY="600"/>
+<Connection from="name" to="2/atatürk" with="op1"/>
+<Word name="-" positionX="650" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/kendi" positionX="750" positionY="200"/>
+<Connection from="9/kaynak" to="5/kendi" with="cause"/>
+<Connection from="5/kendi" to="o" with="poss"/>
+<Word name="8/gurur" positionX="850" positionY="200"/>
+<Connection from="9/kaynak" to="8/gurur" with="mod"/>
+<Word name="10/i" positionX="950" positionY="200"/>
+<Connection from="9/kaynak" to="10/i"/>
+<Connection from="10/i" to="o" with="ARG0"/>
+</Amr>

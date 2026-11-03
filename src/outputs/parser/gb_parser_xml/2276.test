@@ -1,0 +1,20 @@
+<Amr sentence="Bugün yurda dönen Cumhurbaşkanı , saat 16'da bir basın toplantısı düzenleyecek .">
+<Word name="11/düzenle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="11/düzenle" to="o" with="ARG0"/>
+<Word name="4/cumhurbaşkan" positionX="750" positionY="200"/>
+<Connection from="11/düzenle" to="4/cumhurbaşkan"/>
+<Connection from="4/cumhurbaşkan" to="o" with="poss"/>
+<Word name="3/dön" positionX="750" positionY="300"/>
+<Connection from="4/cumhurbaşkan" to="3/dön"/>
+<Word name="1/bugün" positionX="650" positionY="400"/>
+<Connection from="3/dön" to="1/bugün"/>
+<Word name="2/yurt" positionX="750" positionY="400"/>
+<Connection from="3/dön" to="2/yurt"/>
+<Word name="7/16" positionX="850" positionY="200"/>
+<Connection from="11/düzenle" to="7/16"/>
+<Word name="6/saat" positionX="750" positionY="300"/>
+<Connection from="7/16" to="6/saat" with="mod"/>
+<Word name="9/basın 10/toplantı" positionX="950" positionY="200"/>
+<Connection from="11/düzenle" to="9/basın 10/toplantı" with="mod"/>
+</Amr>

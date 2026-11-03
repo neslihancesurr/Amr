@@ -1,0 +1,13 @@
+<Amr sentence="Bir gün , genç bir çocuk onun bakışlarına aldırmadan ıslık çalarak , neşeyle önü sıra gidiyordu .">
+<Word name="14/ön 15/sıra 16/git" positionX="750" positionY="100"/>
+<Word name="2/gün" positionX="650" positionY="200"/>
+<Connection from="14/ön 15/sıra 16/git" to="2/gün" with="mod"/>
+<Word name="6/çocuk" positionX="750" positionY="200"/>
+<Connection from="14/ön 15/sıra 16/git" to="6/çocuk" with="ARG0"/>
+<Word name="4/genç" positionX="650" positionY="300"/>
+<Connection from="6/çocuk" to="4/genç" with="mod"/>
+<Word name="10/ıslık 11/çal" positionX="850" positionY="200"/>
+<Connection from="14/ön 15/sıra 16/git" to="10/ıslık 11/çal"/>
+<Word name="13/neşe" positionX="950" positionY="200"/>
+<Connection from="14/ön 15/sıra 16/git" to="13/neşe" with="instrument"/>
+</Amr>

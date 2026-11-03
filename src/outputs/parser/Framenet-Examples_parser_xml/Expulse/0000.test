@@ -1,0 +1,14 @@
+<Amr sentence="Çok kızgındı , çalışanını kovdu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/kızgın" positionX="650" positionY="200"/>
+<Connection from="and" to="2/kızgın" with="op1"/>
+<Word name="1/çok" positionX="550" positionY="300"/>
+<Connection from="2/kızgın" to="1/çok" with="degree"/>
+<Word name="5/kov" positionX="750" positionY="200"/>
+<Connection from="and" to="5/kov" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/kov" to="o" with="ARG0"/>
+<Word name="4/çalışan" positionX="750" positionY="300"/>
+<Connection from="5/kov" to="4/çalışan" with="ARG1"/>
+<Connection from="4/çalışan" to="o" with="poss"/>
+</Amr>

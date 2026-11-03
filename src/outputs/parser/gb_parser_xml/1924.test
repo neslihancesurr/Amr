@@ -1,0 +1,9 @@
+<Amr sentence="Eve gitmedim .">
+<Word name="2/git" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="2/git" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="2/git" to="ben" with="ARG0"/>
+<Word name="1/ev" positionX="850" positionY="200"/>
+<Connection from="2/git" to="1/ev" with="ARG1"/>
+</Amr>

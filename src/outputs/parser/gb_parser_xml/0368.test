@@ -1,0 +1,19 @@
+<Amr sentence="Nermin kazadan sonra evinden soğudu .">
+<Word name="5/soğu" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="5/soğu" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/nermin" positionX="450" positionY="400"/>
+<Connection from="name" to="1/nermin" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/kaza" positionX="750" positionY="200"/>
+<Connection from="5/soğu" to="2/kaza"/>
+<Word name="3/sonra" positionX="650" positionY="300"/>
+<Connection from="2/kaza" to="3/sonra"/>
+<Word name="4/ev" positionX="850" positionY="200"/>
+<Connection from="5/soğu" to="4/ev" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="4/ev" to="o" with="poss"/>
+</Amr>

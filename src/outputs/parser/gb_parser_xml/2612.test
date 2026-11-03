@@ -1,0 +1,12 @@
+<Amr sentence="Konuyu bilip fark ettirmediğini tahmin ediyorum .">
+<Word name="5/tahmin 6/et" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/tahmin 6/et" to="ben" with="ARG0"/>
+<Word name="3/fark 4/et" positionX="750" positionY="200"/>
+<Connection from="5/tahmin 6/et" to="3/fark 4/et" with="ARG1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="3/fark 4/et" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="3/fark 4/et" to="o" with="ARG0"/>
+<Connection from="3/fark 4/et" to="o" with="poss"/>
+</Amr>

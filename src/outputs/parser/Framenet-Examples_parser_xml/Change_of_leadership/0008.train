@@ -1,0 +1,9 @@
+<Amr sentence="Anahtarı beline takma işi kadınındır .">
+<Word name="5/kadın" positionX="750" positionY="100"/>
+<Word name="4/iş" positionX="650" positionY="200"/>
+<Connection from="5/kadın" to="4/iş"/>
+<Word name="1/anahtar 2/bel 3/tak" positionX="550" positionY="300"/>
+<Connection from="4/iş" to="1/anahtar 2/bel 3/tak"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="1/anahtar 2/bel 3/tak" to="o" with="ARG0"/>
+</Amr>

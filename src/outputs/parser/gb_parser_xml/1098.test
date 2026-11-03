@@ -1,0 +1,9 @@
+<Amr sentence="Ayşeyle senin aranda">
+<Word name="3/ara:location" positionX="750" positionY="100"/>
+<Word name="and" positionX="650" positionY="200"/>
+<Connection from="3/ara:location" to="and"/>
+<Word name="2/sen" positionX="550" positionY="300"/>
+<Connection from="and" to="2/sen" with="mod"/>
+<Word name="1/Ayşe" positionX="650" positionY="300"/>
+<Connection from="and" to="1/Ayşe" with="mod"/>
+</Amr>

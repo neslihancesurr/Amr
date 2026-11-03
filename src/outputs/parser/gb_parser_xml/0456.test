@@ -1,0 +1,27 @@
+<Amr sentence="Semra'yla konuşuyor olduğun sırada bütün sırlarını anlatmıştın .">
+<Word name="7/anlat" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="7/anlat" to="sen" with="ARG0"/>
+<Word name="4/sıra" positionX="750" positionY="200"/>
+<Connection from="7/anlat" to="4/sıra" with="location"/>
+<Word name="3/ol" positionX="650" positionY="300"/>
+<Connection from="4/sıra" to="3/ol"/>
+<Connection from="3/ol" to="sen" with="poss"/>
+<Word name="2/konuş" positionX="650" positionY="400"/>
+<Connection from="3/ol" to="2/konuş"/>
+<Word name="o" positionX="550" positionY="500"/>
+<Connection from="2/konuş" to="o" with="ARG0"/>
+<Word name="person" positionX="650" positionY="500"/>
+<Connection from="2/konuş" to="person" with="instrument"/>
+<Word name="name" positionX="550" positionY="600"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/semra" positionX="450" positionY="700"/>
+<Connection from="name" to="1/semra" with="op1"/>
+<Word name="-" positionX="650" positionY="600"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="6/sır" positionX="850" positionY="200"/>
+<Connection from="7/anlat" to="6/sır" with="ARG1"/>
+<Connection from="6/sır" to="sen" with="poss"/>
+<Word name="5/bütün" positionX="850" positionY="300"/>
+<Connection from="6/sır" to="5/bütün" with="mod"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Avukat hanım sorunu mahkemeye şerh etti .">
+<Word name="5/şerh 6/et" positionX="750" positionY="100"/>
+<Word name="2/hanım" positionX="650" positionY="200"/>
+<Connection from="5/şerh 6/et" to="2/hanım" with="ARG0"/>
+<Word name="1/avukat" positionX="550" positionY="300"/>
+<Connection from="2/hanım" to="1/avukat" with="mod"/>
+<Word name="3/sorun" positionX="750" positionY="200"/>
+<Connection from="5/şerh 6/et" to="3/sorun" with="ARG1"/>
+<Word name="4/mahkeme" positionX="850" positionY="200"/>
+<Connection from="5/şerh 6/et" to="4/mahkeme" with="ARG2"/>
+</Amr>

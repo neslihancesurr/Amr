@@ -1,0 +1,19 @@
+<Amr sentence="Karanlık adamlar , toprak ağalarının rahatını bozan korkusuz kaymakama komplo kurdular .">
+<Word name="10/komplo 11/kur" positionX="750" positionY="100"/>
+<Word name="2/adam" positionX="650" positionY="200"/>
+<Connection from="10/komplo 11/kur" to="2/adam" with="ARG0"/>
+<Word name="1/karanlık" positionX="550" positionY="300"/>
+<Connection from="2/adam" to="1/karanlık" with="mod"/>
+<Word name="9/kaymakam" positionX="750" positionY="200"/>
+<Connection from="10/komplo 11/kur" to="9/kaymakam" with="ARG1"/>
+<Word name="7/boz" positionX="650" positionY="300"/>
+<Connection from="9/kaymakam" to="7/boz"/>
+<Word name="6/rahat" positionX="550" positionY="400"/>
+<Connection from="7/boz" to="6/rahat" with="ARG1"/>
+<Word name="5/ağa" positionX="450" positionY="500"/>
+<Connection from="6/rahat" to="5/ağa" with="mod"/>
+<Word name="4/toprak" positionX="350" positionY="600"/>
+<Connection from="5/ağa" to="4/toprak" with="mod"/>
+<Word name="8/korkusuz" positionX="750" positionY="300"/>
+<Connection from="9/kaymakam" to="8/korkusuz" with="mod"/>
+</Amr>

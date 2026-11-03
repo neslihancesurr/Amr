@@ -1,0 +1,23 @@
+<Amr sentence="Şöyle bir arşınladı iskeleyi , sonra cebinden bir düdük çıkarıp öttürdü .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/arşınla" positionX="650" positionY="200"/>
+<Connection from="and" to="3/arşınla" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/arşınla" to="o" with="ARG0"/>
+<Word name="1/şöyle" positionX="650" positionY="300"/>
+<Connection from="3/arşınla" to="1/şöyle" with="manner"/>
+<Word name="4/iskele" positionX="750" positionY="300"/>
+<Connection from="3/arşınla" to="4/iskele" with="ARG1"/>
+<Word name="11/öt" positionX="750" positionY="200"/>
+<Connection from="and" to="11/öt" with="op2"/>
+<Word name="6/sonra" positionX="650" positionY="300"/>
+<Connection from="11/öt" to="6/sonra" with="manner"/>
+<Word name="yap" positionX="750" positionY="300"/>
+<Connection from="11/öt" to="yap"/>
+<Word name="10/çık" positionX="650" positionY="400"/>
+<Connection from="yap" to="10/çık"/>
+<Word name="7/cebin" positionX="550" positionY="500"/>
+<Connection from="10/çık" to="7/cebin"/>
+<Word name="9/düdük" positionX="650" positionY="500"/>
+<Connection from="10/çık" to="9/düdük"/>
+</Amr>

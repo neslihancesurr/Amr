@@ -1,0 +1,7 @@
+<Amr sentence="Herkes bahçedeydi .">
+<Word name="2/bahçe:location" positionX="750" positionY="100"/>
+<Word name="1/herkes" positionX="650" positionY="200"/>
+<Connection from="2/bahçe:location" to="1/herkes"/>
+<Word name="onlar" positionX="550" positionY="300"/>
+<Connection from="1/herkes" to="onlar" with="poss"/>
+</Amr>

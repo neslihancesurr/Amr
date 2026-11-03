@@ -1,0 +1,9 @@
+<Amr sentence="Meteorologlar , hava değişikliklerini gözler .">
+<Word name="5/gözle" positionX="750" positionY="100"/>
+<Word name="1/meteorolog" positionX="650" positionY="200"/>
+<Connection from="5/gözle" to="1/meteorolog" with="ARG0"/>
+<Word name="4/değişiklik" positionX="750" positionY="200"/>
+<Connection from="5/gözle" to="4/değişiklik" with="ARG1"/>
+<Word name="3/hava" positionX="650" positionY="300"/>
+<Connection from="4/değişiklik" to="3/hava" with="mod"/>
+</Amr>

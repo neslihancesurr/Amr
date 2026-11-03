@@ -1,0 +1,11 @@
+<Amr sentence="Onlar o kadar varlıklı değillermiş .">
+<Word name="4/varlıklı" positionX="750" positionY="100"/>
+<Word name="1/o" positionX="650" positionY="200"/>
+<Connection from="4/varlıklı" to="1/o"/>
+<Word name="2/o" positionX="750" positionY="200"/>
+<Connection from="4/varlıklı" to="2/o" with="mod"/>
+<Word name="3/kadar" positionX="650" positionY="300"/>
+<Connection from="2/o" to="3/kadar"/>
+<Word name="-" positionX="850" positionY="200"/>
+<Connection from="4/varlıklı" to="-" with="polarity"/>
+</Amr>

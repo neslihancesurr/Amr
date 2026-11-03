@@ -1,0 +1,16 @@
+<Amr sentence="Hızlı yürüseydik 19.10'daki trene yetişebilirdik .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="5/yetiş" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="5/yetiş"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="5/yetiş" to="biz" with="ARG0"/>
+<Word name="2/yürü" positionX="650" positionY="300"/>
+<Connection from="5/yetiş" to="2/yürü"/>
+<Connection from="2/yürü" to="biz" with="ARG0"/>
+<Word name="1/hızlı" positionX="650" positionY="400"/>
+<Connection from="2/yürü" to="1/hızlı" with="manner"/>
+<Word name="4/tren" positionX="750" positionY="300"/>
+<Connection from="5/yetiş" to="4/tren" with="ARG1"/>
+<Word name="3/19.10'daki" positionX="650" positionY="400"/>
+<Connection from="4/tren" to="3/19.10'daki" with="quant"/>
+</Amr>

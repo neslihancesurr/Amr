@@ -1,0 +1,17 @@
+<Amr sentence="Sonra elinde boş tasla çeşmeye doğru bir koşu koparıyor .">
+<Word name="8/koşu 9/kopar" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="8/koşu 9/kopar" to="o" with="ARG0"/>
+<Word name="1/sonra" positionX="750" positionY="200"/>
+<Connection from="8/koşu 9/kopar" to="1/sonra" with="manner"/>
+<Word name="4/tas" positionX="850" positionY="200"/>
+<Connection from="8/koşu 9/kopar" to="4/tas" with="instrument"/>
+<Word name="2/el" positionX="750" positionY="300"/>
+<Connection from="4/tas" to="2/el" with="mod"/>
+<Word name="3/boş" positionX="850" positionY="300"/>
+<Connection from="4/tas" to="3/boş" with="mod"/>
+<Word name="5/çeşme" positionX="950" positionY="200"/>
+<Connection from="8/koşu 9/kopar" to="5/çeşme" with="ARG1"/>
+<Word name="6/doğru" positionX="850" positionY="300"/>
+<Connection from="5/çeşme" to="6/doğru"/>
+</Amr>

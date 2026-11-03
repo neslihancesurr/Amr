@@ -1,0 +1,11 @@
+<Amr sentence="çocukların evde olacağı bir gün">
+<Word name="5/gün" positionX="750" positionY="100"/>
+<Word name="3/ol" positionX="650" positionY="200"/>
+<Connection from="5/gün" to="3/ol"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/ol" to="o" with="poss"/>
+<Word name="1/çocuk" positionX="650" positionY="300"/>
+<Connection from="3/ol" to="1/çocuk"/>
+<Word name="2/ev" positionX="750" positionY="300"/>
+<Connection from="3/ol" to="2/ev" with="location"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Kimse onu dinlemiyor , ikinci plana düştü .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/dinle" positionX="650" positionY="200"/>
+<Connection from="and" to="3/dinle" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="3/dinle" to="-" with="polarity"/>
+<Word name="1/kimse" positionX="650" positionY="300"/>
+<Connection from="3/dinle" to="1/kimse" with="ARG0"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="1/kimse" to="o" with="poss"/>
+<Word name="2/o" positionX="750" positionY="300"/>
+<Connection from="3/dinle" to="2/o" with="ARG1"/>
+<Word name="5/ikinci 6/plan 7/düş" positionX="750" positionY="200"/>
+<Connection from="and" to="5/ikinci 6/plan 7/düş" with="op2"/>
+</Amr>

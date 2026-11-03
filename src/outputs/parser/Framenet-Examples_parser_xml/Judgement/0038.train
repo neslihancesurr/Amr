@@ -1,0 +1,17 @@
+<Amr sentence="Senin bu şirkete katkılarını daima takdir ettik .">
+<Word name="6/takdir 7/et" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="6/takdir 7/et" to="biz" with="ARG0"/>
+<Word name="4/katkı" positionX="750" positionY="200"/>
+<Connection from="6/takdir 7/et" to="4/katkı" with="ARG1"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="4/katkı" to="sen" with="poss"/>
+<Word name="1/sen" positionX="750" positionY="300"/>
+<Connection from="4/katkı" to="1/sen" with="mod"/>
+<Word name="3/şirket" positionX="850" positionY="300"/>
+<Connection from="4/katkı" to="3/şirket" with="mod"/>
+<Word name="2/bu" positionX="750" positionY="400"/>
+<Connection from="3/şirket" to="2/bu" with="mod"/>
+<Word name="5/daima" positionX="850" positionY="200"/>
+<Connection from="6/takdir 7/et" to="5/daima" with="manner"/>
+</Amr>

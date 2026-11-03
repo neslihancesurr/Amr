@@ -1,0 +1,13 @@
+<Amr sentence="Hep babasının etkisi altında yaşadı .">
+<Word name="5/yaşa" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/yaşa" to="o" with="ARG0"/>
+<Word name="1/hep" positionX="750" positionY="200"/>
+<Connection from="5/yaşa" to="1/hep" with="frequency"/>
+<Word name="4/alt" positionX="850" positionY="200"/>
+<Connection from="5/yaşa" to="4/alt" with="location"/>
+<Word name="3/etki" positionX="750" positionY="300"/>
+<Connection from="4/alt" to="3/etki" with="mod"/>
+<Word name="2/baba" positionX="650" positionY="400"/>
+<Connection from="3/etki" to="2/baba" with="mod"/>
+</Amr>

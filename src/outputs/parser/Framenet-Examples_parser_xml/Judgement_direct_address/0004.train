@@ -1,0 +1,13 @@
+<Amr sentence="Onu hiç tahmin etmediğim bir konuyla itham etti .">
+<Word name="7/itham 8/et" positionX="750" positionY="100"/>
+<Word name="1/o" positionX="650" positionY="200"/>
+<Connection from="7/itham 8/et" to="1/o" with="ARG1"/>
+<Word name="6/konu" positionX="750" positionY="200"/>
+<Connection from="7/itham 8/et" to="6/konu" with="instrument"/>
+<Word name="3/tahmin 4/et" positionX="650" positionY="300"/>
+<Connection from="6/konu" to="3/tahmin 4/et"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="3/tahmin 4/et" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="400"/>
+<Connection from="3/tahmin 4/et" to="ben" with="poss"/>
+</Amr>

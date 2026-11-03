@@ -1,0 +1,24 @@
+<Amr sentence="O gün Suzan bana demişti ki : “ Artık dayanamıyorum ” .">
+<Word name="5/de 6/ki" positionX="750" positionY="100"/>
+<Word name="2/gün" positionX="650" positionY="200"/>
+<Connection from="5/de 6/ki" to="2/gün"/>
+<Word name="1/o" positionX="550" positionY="300"/>
+<Connection from="2/gün" to="1/o" with="mod"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="5/de 6/ki" to="person"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/suzan" positionX="550" positionY="400"/>
+<Connection from="name" to="3/suzan" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/ben" positionX="850" positionY="200"/>
+<Connection from="5/de 6/ki" to="4/ben"/>
+<Word name="mümkün" positionX="950" positionY="200"/>
+<Connection from="5/de 6/ki" to="mümkün"/>
+<Word name="10/dayan" positionX="850" positionY="300"/>
+<Connection from="mümkün" to="10/dayan"/>
+<Connection from="10/dayan" to="-" with="polarity"/>
+<Word name="9/artık" positionX="850" positionY="400"/>
+<Connection from="10/dayan" to="9/artık" with="manner"/>
+</Amr>

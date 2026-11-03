@@ -1,0 +1,11 @@
+<Amr sentence="Kurabiyeleri sosun içine gömdük .">
+<Word name="4/göm" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="4/göm" to="biz" with="ARG0"/>
+<Word name="1/kurabiye" positionX="750" positionY="200"/>
+<Connection from="4/göm" to="1/kurabiye"/>
+<Word name="3/iç" positionX="850" positionY="200"/>
+<Connection from="4/göm" to="3/iç"/>
+<Word name="2/sos" positionX="750" positionY="300"/>
+<Connection from="3/iç" to="2/sos" with="mod"/>
+</Amr>

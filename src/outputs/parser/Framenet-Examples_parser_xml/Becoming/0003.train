@@ -1,0 +1,9 @@
+<Amr sentence="Ellerim nasırlaştı .">
+<Word name="2/nasırlaş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="2/nasırlaş" to="o" with="ARG0"/>
+<Word name="1/el" positionX="750" positionY="200"/>
+<Connection from="2/nasırlaş" to="1/el" with="ARG1"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="1/el" to="ben" with="poss"/>
+</Amr>

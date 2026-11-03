@@ -1,0 +1,13 @@
+<Amr sentence="Bu ay üç anlaşmayı sonlandırdık .">
+<Word name="5/sonlandır" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/sonlandır" to="biz" with="ARG0"/>
+<Word name="2/ay" positionX="750" positionY="200"/>
+<Connection from="5/sonlandır" to="2/ay" with="mod"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/ay" to="1/bu" with="mod"/>
+<Word name="4/anlaşma" positionX="850" positionY="200"/>
+<Connection from="5/sonlandır" to="4/anlaşma" with="ARG1"/>
+<Word name="3/üç" positionX="750" positionY="300"/>
+<Connection from="4/anlaşma" to="3/üç"/>
+</Amr>

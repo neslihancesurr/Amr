@@ -1,0 +1,19 @@
+<Amr sentence="Nuri geldi ve karşıma oturdu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/otur" positionX="650" positionY="200"/>
+<Connection from="and" to="5/otur" with="op1"/>
+<Word name="4/karşı" positionX="550" positionY="300"/>
+<Connection from="5/otur" to="4/karşı" with="ARG1"/>
+<Word name="ben" positionX="450" positionY="400"/>
+<Connection from="4/karşı" to="ben" with="poss"/>
+<Word name="2/gel" positionX="750" positionY="200"/>
+<Connection from="and" to="2/gel" with="op2"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="2/gel" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/nuri" positionX="450" positionY="500"/>
+<Connection from="name" to="1/nuri" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

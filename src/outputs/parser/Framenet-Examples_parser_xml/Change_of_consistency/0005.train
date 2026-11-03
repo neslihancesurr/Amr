@@ -1,0 +1,9 @@
+<Amr sentence="Yaram kabuklaştı .">
+<Word name="2/kabuklaş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="2/kabuklaş" to="o" with="ARG0"/>
+<Word name="1/yara" positionX="750" positionY="200"/>
+<Connection from="2/kabuklaş" to="1/yara" with="ARG1"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="1/yara" to="ben" with="poss"/>
+</Amr>

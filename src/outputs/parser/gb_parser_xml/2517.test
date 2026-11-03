@@ -1,0 +1,19 @@
+<Amr sentence="9'daki otobüse binsek uçağa yetişir miyiz acaba ?">
+<Word name="5/yetiş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/yetiş" to="o" with="ARG0"/>
+<Word name="3/bin" positionX="750" positionY="200"/>
+<Connection from="5/yetiş" to="3/bin"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="3/bin" to="biz" with="ARG0"/>
+<Word name="2/otobüs" positionX="750" positionY="300"/>
+<Connection from="3/bin" to="2/otobüs"/>
+<Word name="1/9'daki" positionX="650" positionY="400"/>
+<Connection from="2/otobüs" to="1/9'daki" with="mod"/>
+<Word name="4/uçak" positionX="850" positionY="200"/>
+<Connection from="5/yetiş" to="4/uçak"/>
+<Word name="6/mi" positionX="950" positionY="200"/>
+<Connection from="5/yetiş" to="6/mi"/>
+<Word name="7/acaba" positionX="1050" positionY="200"/>
+<Connection from="5/yetiş" to="7/acaba" with="manner"/>
+</Amr>

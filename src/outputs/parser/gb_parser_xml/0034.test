@@ -1,0 +1,7 @@
+<Amr sentence="Yıkılmamıştı .">
+<Word name="1/yıkıl" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="1/yıkıl" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="1/yıkıl" to="o" with="ARG0"/>
+</Amr>

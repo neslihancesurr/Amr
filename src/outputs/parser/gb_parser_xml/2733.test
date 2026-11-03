@@ -1,0 +1,19 @@
+<Amr sentence="Bence başkanlığı en iyi Osman yapar .">
+<Word name="6/yap" positionX="750" positionY="100"/>
+<Word name="1/ben" positionX="650" positionY="200"/>
+<Connection from="6/yap" to="1/ben"/>
+<Word name="2/başkanlık" positionX="750" positionY="200"/>
+<Connection from="6/yap" to="2/başkanlık" with="ARG1"/>
+<Word name="4/iyi" positionX="850" positionY="200"/>
+<Connection from="6/yap" to="4/iyi" with="manner"/>
+<Word name="3/en" positionX="750" positionY="300"/>
+<Connection from="4/iyi" to="3/en" with="manner"/>
+<Word name="person" positionX="950" positionY="200"/>
+<Connection from="6/yap" to="person" with="ARG0"/>
+<Word name="name" positionX="850" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="5/osman" positionX="750" positionY="400"/>
+<Connection from="name" to="5/osman" with="op1"/>
+<Word name="-" positionX="950" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

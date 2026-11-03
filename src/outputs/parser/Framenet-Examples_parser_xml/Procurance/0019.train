@@ -1,0 +1,13 @@
+<Amr sentence="İşi resmen koparmış , büyük çaba göstermiş .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/kopar" positionX="650" positionY="200"/>
+<Connection from="and" to="3/kopar" with="op1"/>
+<Word name="1/iş" positionX="550" positionY="300"/>
+<Connection from="3/kopar" to="1/iş" with="ARG1"/>
+<Word name="2/resmen" positionX="650" positionY="300"/>
+<Connection from="3/kopar" to="2/resmen" with="manner"/>
+<Word name="6/çaba 7/göster" positionX="750" positionY="200"/>
+<Connection from="and" to="6/çaba 7/göster" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="6/çaba 7/göster" to="o" with="ARG0"/>
+</Amr>

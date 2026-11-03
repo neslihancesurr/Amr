@@ -1,0 +1,7 @@
+<Amr sentence="Uçurtmayı uçurmak .">
+<Word name="2/uçur" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="2/uçur" to="o" with="ARG0"/>
+<Word name="1/uçurtma" positionX="750" positionY="200"/>
+<Connection from="2/uçur" to="1/uçurtma" with="ARG1"/>
+</Amr>

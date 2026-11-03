@@ -1,0 +1,14 @@
+<Amr sentence="Bu kokuların her birini birer defa denemiş olayım demiştim .">
+<Word name="9/de" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="9/de" to="ben" with="ARG0"/>
+<Word name="8/ol" positionX="750" positionY="200"/>
+<Connection from="9/de" to="8/ol"/>
+<Connection from="8/ol" to="ben" with="ARG0"/>
+<Word name="7/dene" positionX="750" positionY="300"/>
+<Connection from="8/ol" to="7/dene"/>
+<Word name="3/her 4/biri" positionX="650" positionY="400"/>
+<Connection from="7/dene" to="3/her 4/biri" with="mod"/>
+<Word name="5/bir" positionX="750" positionY="400"/>
+<Connection from="7/dene" to="5/bir"/>
+</Amr>

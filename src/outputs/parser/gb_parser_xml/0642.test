@@ -1,0 +1,9 @@
+<Amr sentence="erkek öğrencilerden bir tanesi">
+<Word name="3/bir 4/tane" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/bir 4/tane" to="o" with="poss"/>
+<Word name="2/öğrenci" positionX="750" positionY="200"/>
+<Connection from="3/bir 4/tane" to="2/öğrenci"/>
+<Word name="1/erkek" positionX="650" positionY="300"/>
+<Connection from="2/öğrenci" to="1/erkek"/>
+</Amr>

@@ -1,0 +1,5 @@
+<Amr sentence="Bohçasını koltuğuna verdim .">
+<Word name="1/bohça 2/koltuk 3/ver" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="1/bohça 2/koltuk 3/ver" to="ben" with="ARG0"/>
+</Amr>

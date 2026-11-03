@@ -1,0 +1,24 @@
+<Amr sentence="Bizim koğuşta bazısı ağır olmak üzere on beş kadar hasta yatıyordu .">
+<Word name="11/yat" positionX="750" positionY="100"/>
+<Word name="2/koğuş" positionX="650" positionY="200"/>
+<Connection from="11/yat" to="2/koğuş" with="location"/>
+<Word name="1/biz" positionX="550" positionY="300"/>
+<Connection from="2/koğuş" to="1/biz" with="mod"/>
+<Word name="5/ol" positionX="750" positionY="200"/>
+<Connection from="11/yat" to="5/ol"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/ol" to="o" with="ARG0"/>
+<Word name="4/ağır" positionX="750" positionY="300"/>
+<Connection from="5/ol" to="4/ağır" with="manner"/>
+<Word name="3/bazı" positionX="650" positionY="400"/>
+<Connection from="4/ağır" to="3/bazı"/>
+<Connection from="3/bazı" to="o" with="poss"/>
+<Word name="6/üzere" positionX="850" positionY="300"/>
+<Connection from="5/ol" to="6/üzere"/>
+<Word name="10/hasta" positionX="850" positionY="200"/>
+<Connection from="11/yat" to="10/hasta" with="ARG0"/>
+<Word name="8/beş" positionX="750" positionY="300"/>
+<Connection from="10/hasta" to="8/beş" with="extent"/>
+<Word name="7/on" positionX="650" positionY="400"/>
+<Connection from="8/beş" to="7/on"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Babam yıllardır bu dükkan için sermaye yapıyor .">
+<Word name="6/sermaye 7/yap" positionX="750" positionY="100"/>
+<Word name="1/baba" positionX="650" positionY="200"/>
+<Connection from="6/sermaye 7/yap" to="1/baba" with="ARG0"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="1/baba" to="ben" with="poss"/>
+<Word name="2/yıl" positionX="750" positionY="200"/>
+<Connection from="6/sermaye 7/yap" to="2/yıl" with="mod"/>
+<Word name="4/dükkan" positionX="850" positionY="200"/>
+<Connection from="6/sermaye 7/yap" to="4/dükkan" with="cause"/>
+<Word name="3/bu" positionX="750" positionY="300"/>
+<Connection from="4/dükkan" to="3/bu" with="mod"/>
+</Amr>

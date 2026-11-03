@@ -1,0 +1,13 @@
+<Amr sentence="Yarışmacı hap kullanarak diğer yarışmacıları aldattı .">
+<Word name="6/aldat" positionX="750" positionY="100"/>
+<Word name="1/yarışmacı" positionX="650" positionY="200"/>
+<Connection from="6/aldat" to="1/yarışmacı" with="ARG0"/>
+<Word name="3/kullan" positionX="750" positionY="200"/>
+<Connection from="6/aldat" to="3/kullan"/>
+<Word name="2/hap" positionX="650" positionY="300"/>
+<Connection from="3/kullan" to="2/hap" with="ARG0"/>
+<Word name="5/yarışmacı" positionX="850" positionY="200"/>
+<Connection from="6/aldat" to="5/yarışmacı" with="ARG1"/>
+<Word name="4/diğer" positionX="750" positionY="300"/>
+<Connection from="5/yarışmacı" to="4/diğer" with="mod"/>
+</Amr>

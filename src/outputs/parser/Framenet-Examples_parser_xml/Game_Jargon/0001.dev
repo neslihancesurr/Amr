@@ -1,0 +1,17 @@
+<Amr sentence="Eline güvenen Mişa , rest çekti .">
+<Word name="5/rest 6/çek" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="5/rest 6/çek" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/Mişa" positionX="450" positionY="400"/>
+<Connection from="name" to="3/Mişa" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/güven" positionX="750" positionY="300"/>
+<Connection from="person" to="2/güven"/>
+<Word name="1/el" positionX="650" positionY="400"/>
+<Connection from="2/güven" to="1/el"/>
+<Word name="o" positionX="550" positionY="500"/>
+<Connection from="1/el" to="o" with="poss"/>
+</Amr>

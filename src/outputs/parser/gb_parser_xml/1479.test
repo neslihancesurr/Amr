@@ -1,0 +1,22 @@
+<Amr sentence="Hem onları fazla meşgul etmemiş oluruz hem de ziyaretlerine gitmemiş olmayız .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="10/git" positionX="650" positionY="200"/>
+<Connection from="and" to="10/git" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="10/git" to="-" with="polarity"/>
+<Word name="9/ziyaret" positionX="650" positionY="300"/>
+<Connection from="10/git" to="9/ziyaret"/>
+<Word name="onlar" positionX="550" positionY="400"/>
+<Connection from="9/ziyaret" to="onlar" with="poss"/>
+<Word name="11/ol" positionX="750" positionY="300"/>
+<Connection from="10/git" to="11/ol"/>
+<Connection from="11/ol" to="-" with="polarity"/>
+<Word name="biz" positionX="750" positionY="400"/>
+<Connection from="11/ol" to="biz" with="ARG0"/>
+<Word name="4/meşgul 5/et" positionX="750" positionY="200"/>
+<Connection from="and" to="4/meşgul 5/et" with="op2"/>
+<Connection from="4/meşgul 5/et" to="-" with="polarity"/>
+<Word name="6/ol" positionX="750" positionY="300"/>
+<Connection from="4/meşgul 5/et" to="6/ol"/>
+<Connection from="6/ol" to="biz" with="ARG0"/>
+</Amr>

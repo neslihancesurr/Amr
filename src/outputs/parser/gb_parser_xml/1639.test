@@ -1,0 +1,13 @@
+<Amr sentence="İki , iki daha dört eder .">
+<Word name="5/dört" positionX="750" positionY="100"/>
+<Word name="and" positionX="650" positionY="200"/>
+<Connection from="5/dört" to="and"/>
+<Word name="3/iki" positionX="550" positionY="300"/>
+<Connection from="and" to="3/iki" with="op1"/>
+<Word name="4/daha" positionX="450" positionY="400"/>
+<Connection from="3/iki" to="4/daha" with="degree"/>
+<Word name="1/iki" positionX="650" positionY="300"/>
+<Connection from="and" to="1/iki" with="op2"/>
+<Word name="6/et" positionX="750" positionY="200"/>
+<Connection from="5/dört" to="6/et"/>
+</Amr>

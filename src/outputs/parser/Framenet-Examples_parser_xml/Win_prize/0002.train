@@ -1,0 +1,7 @@
+<Amr sentence="Bütün ciroyu mideye indirmiş .">
+<Word name="3/mide 4/indir" positionX="750" positionY="100"/>
+<Word name="2/ciro" positionX="650" positionY="200"/>
+<Connection from="3/mide 4/indir" to="2/ciro" with="ARG1"/>
+<Word name="1/bütün" positionX="550" positionY="300"/>
+<Connection from="2/ciro" to="1/bütün" with="mod"/>
+</Amr>

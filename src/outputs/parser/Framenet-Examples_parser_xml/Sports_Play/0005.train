@@ -1,0 +1,20 @@
+<Amr sentence="Aylardır ortalarda görünmeyen Burak meğer vücut yapmış .">
+<Word name="6/vücut 7/yap" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="6/vücut 7/yap" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="4/burak" positionX="450" positionY="400"/>
+<Connection from="name" to="4/burak" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/görün" positionX="750" positionY="300"/>
+<Connection from="person" to="3/görün"/>
+<Connection from="3/görün" to="-" with="polarity"/>
+<Word name="1/ay" positionX="750" positionY="400"/>
+<Connection from="3/görün" to="1/ay" with="mod"/>
+<Word name="2/orta" positionX="850" positionY="400"/>
+<Connection from="3/görün" to="2/orta" with="location"/>
+<Word name="5/meğer" positionX="750" positionY="200"/>
+<Connection from="6/vücut 7/yap" to="5/meğer"/>
+</Amr>

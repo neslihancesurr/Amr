@@ -1,0 +1,15 @@
+<Amr sentence="Kursa gelen öğrencilerin sayısı epey arttı .">
+<Word name="6/art" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/art" to="o" with="ARG0"/>
+<Word name="4/sayı" positionX="750" positionY="200"/>
+<Connection from="6/art" to="4/sayı" with="ARG1"/>
+<Word name="3/öğrenci" positionX="650" positionY="300"/>
+<Connection from="4/sayı" to="3/öğrenci" with="mod"/>
+<Word name="2/gelen" positionX="550" positionY="400"/>
+<Connection from="3/öğrenci" to="2/gelen"/>
+<Word name="1/kurs" positionX="450" positionY="500"/>
+<Connection from="2/gelen" to="1/kurs"/>
+<Word name="5/epey" positionX="850" positionY="200"/>
+<Connection from="6/art" to="5/epey" with="manner"/>
+</Amr>

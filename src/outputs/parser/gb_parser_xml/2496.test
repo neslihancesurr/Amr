@@ -1,0 +1,21 @@
+<Amr sentence="Sınavdaki puan ortalaması düşük çıkarsa bir ayarlama yapılabiliyordu .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="8/yap" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="8/yap"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="8/yap" to="o" with="ARG0"/>
+<Word name="5/çık" positionX="650" positionY="300"/>
+<Connection from="8/yap" to="5/çık" with="cond"/>
+<Connection from="5/çık" to="o" with="ARG0"/>
+<Word name="3/ortalama" positionX="650" positionY="400"/>
+<Connection from="5/çık" to="3/ortalama"/>
+<Word name="1/sınav" positionX="550" positionY="500"/>
+<Connection from="3/ortalama" to="1/sınav" with="mod"/>
+<Word name="2/puan" positionX="650" positionY="500"/>
+<Connection from="3/ortalama" to="2/puan" with="mod"/>
+<Word name="4/düşük" positionX="750" positionY="400"/>
+<Connection from="5/çık" to="4/düşük"/>
+<Word name="7/ayarla" positionX="750" positionY="300"/>
+<Connection from="8/yap" to="7/ayarla"/>
+<Connection from="7/ayarla" to="o" with="ARG0"/>
+</Amr>

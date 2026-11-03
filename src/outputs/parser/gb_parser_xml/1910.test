@@ -1,0 +1,11 @@
+<Amr sentence="Bilgisayar hepimizin işini kolaylaştırdı .">
+<Word name="4/kolaylaştır" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/kolaylaştır" to="o" with="ARG0"/>
+<Word name="1/bilgisayar" positionX="750" positionY="200"/>
+<Connection from="4/kolaylaştır" to="1/bilgisayar"/>
+<Word name="3/iş" positionX="850" positionY="200"/>
+<Connection from="4/kolaylaştır" to="3/iş"/>
+<Word name="2/hep" positionX="750" positionY="300"/>
+<Connection from="3/iş" to="2/hep" with="frequency"/>
+</Amr>

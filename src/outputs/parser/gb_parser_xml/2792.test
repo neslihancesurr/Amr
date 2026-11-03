@@ -1,0 +1,14 @@
+<Amr sentence="Neyse , okuduğum romanı bitirebildim .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="5/bitir" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="5/bitir"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="5/bitir" to="ben" with="ARG0"/>
+<Word name="1/neyse" positionX="650" positionY="300"/>
+<Connection from="5/bitir" to="1/neyse"/>
+<Word name="4/roman" positionX="750" positionY="300"/>
+<Connection from="5/bitir" to="4/roman" with="ARG1"/>
+<Word name="3/oku" positionX="650" positionY="400"/>
+<Connection from="4/roman" to="3/oku"/>
+<Connection from="3/oku" to="ben" with="poss"/>
+</Amr>

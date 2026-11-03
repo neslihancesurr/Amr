@@ -1,0 +1,15 @@
+<Amr sentence="Kızın ailesi okulu önemsemiyor görünüyor .">
+<Word name="5/görün" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/görün" to="o" with="ARG0"/>
+<Word name="4/önemse" positionX="750" positionY="200"/>
+<Connection from="5/görün" to="4/önemse"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="4/önemse" to="-" with="polarity"/>
+<Word name="2/aile" positionX="750" positionY="300"/>
+<Connection from="4/önemse" to="2/aile" with="ARG0"/>
+<Word name="1/kız" positionX="650" positionY="400"/>
+<Connection from="2/aile" to="1/kız" with="mod"/>
+<Word name="3/okul" positionX="850" positionY="300"/>
+<Connection from="4/önemse" to="3/okul" with="ARG1"/>
+</Amr>

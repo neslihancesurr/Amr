@@ -1,0 +1,11 @@
+<Amr sentence="Ne zaman eve gidiyorsun ?">
+<Word name="4/git" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="4/git" to="sen" with="ARG0"/>
+<Word name="1/ne" positionX="750" positionY="200"/>
+<Connection from="4/git" to="1/ne"/>
+<Word name="2/zaman" positionX="650" positionY="300"/>
+<Connection from="1/ne" to="2/zaman"/>
+<Word name="3/ev" positionX="850" positionY="200"/>
+<Connection from="4/git" to="3/ev" with="ARG1"/>
+</Amr>

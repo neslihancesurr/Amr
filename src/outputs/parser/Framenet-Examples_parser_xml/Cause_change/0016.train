@@ -1,0 +1,9 @@
+<Amr sentence="Çocuk oyun hamuruna kuş şekli verdi .">
+<Word name="5/şekil 6/ver" positionX="750" positionY="100"/>
+<Word name="1/çocuk" positionX="650" positionY="200"/>
+<Connection from="5/şekil 6/ver" to="1/çocuk" with="ARG0"/>
+<Word name="3/hamur" positionX="750" positionY="200"/>
+<Connection from="5/şekil 6/ver" to="3/hamur" with="ARG2"/>
+<Word name="2/oyun" positionX="650" positionY="300"/>
+<Connection from="3/hamur" to="2/oyun" with="mod"/>
+</Amr>

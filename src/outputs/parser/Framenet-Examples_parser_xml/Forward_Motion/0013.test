@@ -1,0 +1,22 @@
+<Amr sentence="Hızla içeri daldı , mumun başında duran adama doğru iki adım attı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/dal" positionX="650" positionY="200"/>
+<Connection from="and" to="3/dal" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/dal" to="o" with="ARG0"/>
+<Word name="1/hızla" positionX="650" positionY="300"/>
+<Connection from="3/dal" to="1/hızla" with="manner"/>
+<Word name="2/içeri" positionX="750" positionY="300"/>
+<Connection from="3/dal" to="2/içeri" with="ARG1"/>
+<Word name="11/adım 12/at" positionX="750" positionY="200"/>
+<Connection from="and" to="11/adım 12/at" with="op2"/>
+<Connection from="11/adım 12/at" to="o" with="ARG0"/>
+<Word name="8/adam" positionX="750" positionY="300"/>
+<Connection from="11/adım 12/at" to="8/adam"/>
+<Word name="6/baş 7/dur" positionX="650" positionY="400"/>
+<Connection from="8/adam" to="6/baş 7/dur"/>
+<Word name="5/mum" positionX="550" positionY="500"/>
+<Connection from="6/baş 7/dur" to="5/mum" with="ARG2"/>
+<Word name="9/doğru" positionX="750" positionY="400"/>
+<Connection from="8/adam" to="9/doğru"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Ben böyle şeyleri unuturum hep …">
+<Word name="4/unut" positionX="750" positionY="100"/>
+<Word name="1/ben" positionX="650" positionY="200"/>
+<Connection from="4/unut" to="1/ben" with="ARG0"/>
+<Word name="3/şey" positionX="750" positionY="200"/>
+<Connection from="4/unut" to="3/şey" with="ARG1"/>
+<Word name="2/böyle" positionX="650" positionY="300"/>
+<Connection from="3/şey" to="2/böyle" with="mod"/>
+<Word name="5/hep" positionX="850" positionY="200"/>
+<Connection from="4/unut" to="5/hep" with="frequency"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr sentence="Karşılıklı konuşurken , istemeden elindeki pırlanta yüzüğe gözü gitti .">
+<Word name="8/göz 9/git" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="8/göz 9/git" to="o" with="ARG0"/>
+<Word name="2/konuş" positionX="750" positionY="200"/>
+<Connection from="8/göz 9/git" to="2/konuş"/>
+<Word name="1/karşılıklı" positionX="650" positionY="300"/>
+<Connection from="2/konuş" to="1/karşılıklı" with="manner"/>
+<Word name="4/istemeden" positionX="850" positionY="200"/>
+<Connection from="8/göz 9/git" to="4/istemeden" with="manner"/>
+<Word name="7/yüzük" positionX="950" positionY="200"/>
+<Connection from="8/göz 9/git" to="7/yüzük" with="ARG1"/>
+<Word name="5/el" positionX="850" positionY="300"/>
+<Connection from="7/yüzük" to="5/el" with="mod"/>
+<Word name="6/pırlanta" positionX="950" positionY="300"/>
+<Connection from="7/yüzük" to="6/pırlanta" with="mod"/>
+</Amr>

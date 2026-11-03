@@ -1,0 +1,13 @@
+<Amr sentence="Eski anılarımız hatırında kalmamış .">
+<Word name="3/hatır 4/kal" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/hatır 4/kal" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="3/hatır 4/kal" to="o" with="ARG0"/>
+<Word name="2/anı" positionX="850" positionY="200"/>
+<Connection from="3/hatır 4/kal" to="2/anı" with="ARG1"/>
+<Word name="biz" positionX="750" positionY="300"/>
+<Connection from="2/anı" to="biz" with="poss"/>
+<Word name="1/eski" positionX="850" positionY="300"/>
+<Connection from="2/anı" to="1/eski" with="mod"/>
+</Amr>

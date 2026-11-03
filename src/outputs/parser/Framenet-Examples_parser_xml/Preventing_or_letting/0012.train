@@ -1,0 +1,16 @@
+<Amr sentence="Şansı yaver gittiği için attığı her zarla kapı aldı .">
+<Word name="8/kapı 9/al" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="8/kapı 9/al" to="o" with="ARG0"/>
+<Word name="1/şans 2/yaver 3/git" positionX="750" positionY="200"/>
+<Connection from="8/kapı 9/al" to="1/şans 2/yaver 3/git"/>
+<Connection from="1/şans 2/yaver 3/git" to="o" with="ARG0"/>
+<Connection from="1/şans 2/yaver 3/git" to="o" with="poss"/>
+<Word name="7/zar" positionX="850" positionY="200"/>
+<Connection from="8/kapı 9/al" to="7/zar" with="instrument"/>
+<Word name="5/at" positionX="750" positionY="300"/>
+<Connection from="7/zar" to="5/at"/>
+<Connection from="5/at" to="o" with="poss"/>
+<Word name="6/her" positionX="850" positionY="300"/>
+<Connection from="7/zar" to="6/her" with="mod"/>
+</Amr>

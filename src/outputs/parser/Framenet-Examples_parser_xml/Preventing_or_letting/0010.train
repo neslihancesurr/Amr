@@ -1,0 +1,11 @@
+<Amr sentence="Bu gecikme yatırım konusunda hevesini kırdı .">
+<Word name="5/heves 6/kır" positionX="750" positionY="100"/>
+<Word name="2/gecikme" positionX="650" positionY="200"/>
+<Connection from="5/heves 6/kır" to="2/gecikme" with="ARG0"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/gecikme" to="1/bu" with="mod"/>
+<Word name="4/konu" positionX="750" positionY="200"/>
+<Connection from="5/heves 6/kır" to="4/konu" with="location"/>
+<Word name="3/yatırım" positionX="650" positionY="300"/>
+<Connection from="4/konu" to="3/yatırım" with="mod"/>
+</Amr>

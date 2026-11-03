@@ -1,0 +1,18 @@
+<Amr sentence="Üst üste yanlış şifre girdiğim için banka kartımı bloke etmiş .">
+<Word name="9/bloke 10/et" positionX="750" positionY="100"/>
+<Word name="5/gir" positionX="650" positionY="200"/>
+<Connection from="9/bloke 10/et" to="5/gir" with="cause"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="5/gir" to="ben" with="ARG0"/>
+<Word name="1/üst 2/üst" positionX="650" positionY="300"/>
+<Connection from="5/gir" to="1/üst 2/üst"/>
+<Word name="4/şifre" positionX="750" positionY="300"/>
+<Connection from="5/gir" to="4/şifre" with="ARG1"/>
+<Word name="3/yanlış" positionX="650" positionY="400"/>
+<Connection from="4/şifre" to="3/yanlış" with="mod"/>
+<Word name="8/kart" positionX="750" positionY="200"/>
+<Connection from="9/bloke 10/et" to="8/kart" with="ARG1"/>
+<Connection from="8/kart" to="ben" with="poss"/>
+<Word name="7/banka" positionX="750" positionY="300"/>
+<Connection from="8/kart" to="7/banka" with="mod"/>
+</Amr>

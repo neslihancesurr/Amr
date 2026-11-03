@@ -1,0 +1,15 @@
+<Amr sentence="Balıkları fırınladım , böyle daha sağlıklı oluyor .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/fırınla" positionX="650" positionY="200"/>
+<Connection from="and" to="2/fırınla" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="2/fırınla" to="ben" with="ARG0"/>
+<Word name="1/balık" positionX="650" positionY="300"/>
+<Connection from="2/fırınla" to="1/balık" with="ARG1"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="1/balık" to="o" with="poss"/>
+<Word name="6/sağlıklı 7/ol" positionX="750" positionY="200"/>
+<Connection from="and" to="6/sağlıklı 7/ol" with="op2"/>
+<Word name="4/böyle" positionX="650" positionY="300"/>
+<Connection from="6/sağlıklı 7/ol" to="4/böyle" with="manner"/>
+</Amr>

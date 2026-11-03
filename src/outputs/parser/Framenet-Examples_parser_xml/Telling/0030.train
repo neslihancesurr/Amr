@@ -1,0 +1,5 @@
+<Amr sentence="Gördüğü bildiği her şeyi ifham etti .">
+<Word name="5/ifham 6/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/ifham 6/et" to="o" with="ARG0"/>
+</Amr>

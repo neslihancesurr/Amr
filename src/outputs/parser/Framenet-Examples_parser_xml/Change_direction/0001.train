@@ -1,0 +1,14 @@
+<Amr sentence="İstediğini bulamayınca memleketin yolunu tuttu .">
+<Word name="4/yol 5/tut" positionX="750" positionY="100"/>
+<Word name="mümkün" positionX="650" positionY="200"/>
+<Connection from="4/yol 5/tut" to="mümkün"/>
+<Word name="2/bul" positionX="550" positionY="300"/>
+<Connection from="mümkün" to="2/bul"/>
+<Word name="-" positionX="450" positionY="400"/>
+<Connection from="2/bul" to="-" with="polarity"/>
+<Word name="1/iste" positionX="550" positionY="400"/>
+<Connection from="2/bul" to="1/iste"/>
+<Word name="o" positionX="450" positionY="500"/>
+<Connection from="1/iste" to="o" with="ARG0"/>
+<Connection from="1/iste" to="o" with="poss"/>
+</Amr>

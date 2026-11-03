@@ -1,0 +1,19 @@
+<Amr sentence="Bugün Demet kadar hızlı koşabildim .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="5/koş" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="5/koş"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="5/koş" to="ben" with="ARG0"/>
+<Word name="1/bugün" positionX="650" positionY="300"/>
+<Connection from="5/koş" to="1/bugün"/>
+<Word name="4/hızlı" positionX="750" positionY="300"/>
+<Connection from="5/koş" to="4/hızlı" with="manner"/>
+<Word name="person" positionX="650" positionY="400"/>
+<Connection from="4/hızlı" to="person" with="extent"/>
+<Word name="name" positionX="550" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/demet" positionX="450" positionY="600"/>
+<Connection from="name" to="2/demet" with="op1"/>
+<Word name="-" positionX="650" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

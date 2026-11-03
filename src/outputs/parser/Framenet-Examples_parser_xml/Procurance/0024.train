@@ -1,0 +1,11 @@
+<Amr sentence="Biz de nasip alırız ücretinden .">
+<Word name="3/nasip 4/al" positionX="750" positionY="100"/>
+<Word name="1/biz" positionX="650" positionY="200"/>
+<Connection from="3/nasip 4/al" to="1/biz" with="ARG0"/>
+<Word name="2/de" positionX="550" positionY="300"/>
+<Connection from="1/biz" to="2/de" with="manner"/>
+<Word name="5/ücret" positionX="750" positionY="200"/>
+<Connection from="3/nasip 4/al" to="5/ücret" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/ücret" to="o" with="poss"/>
+</Amr>

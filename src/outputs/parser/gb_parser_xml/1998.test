@@ -1,0 +1,32 @@
+<Amr sentence="Kimse Semra'ya gel dememiş , o da evde oturacakmış .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/de" positionX="650" positionY="200"/>
+<Connection from="and" to="4/de" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="4/de" to="-" with="polarity"/>
+<Word name="1/kimse" positionX="650" positionY="300"/>
+<Connection from="4/de" to="1/kimse" with="ARG0"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="1/kimse" to="o" with="poss"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="4/de" to="person" with="ARG1"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/semra" positionX="550" positionY="500"/>
+<Connection from="name" to="2/semra" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/gel" positionX="850" positionY="300"/>
+<Connection from="4/de" to="3/gel" with="ARG1"/>
+<Word name="sen" positionX="750" positionY="400"/>
+<Connection from="3/gel" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="850" positionY="400"/>
+<Connection from="3/gel" to="imperative" with="mode"/>
+<Word name="9/otur" positionX="750" positionY="200"/>
+<Connection from="and" to="9/otur" with="op2"/>
+<Word name="6/o" positionX="650" positionY="300"/>
+<Connection from="9/otur" to="6/o" with="ARG0"/>
+<Word name="7/da" positionX="550" positionY="400"/>
+<Connection from="6/o" to="7/da"/>
+<Word name="8/ev" positionX="750" positionY="300"/>
+<Connection from="9/otur" to="8/ev" with="location"/>
+</Amr>

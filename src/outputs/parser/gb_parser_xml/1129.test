@@ -1,0 +1,11 @@
+<Amr sentence="sendikacılık tarihi konusundaki araştırmalarınız">
+<Word name="4/araştırma" positionX="750" positionY="100"/>
+<Word name="siz" positionX="650" positionY="200"/>
+<Connection from="4/araştırma" to="siz" with="poss"/>
+<Word name="3/konu" positionX="750" positionY="200"/>
+<Connection from="4/araştırma" to="3/konu" with="mod"/>
+<Word name="2/tarih" positionX="650" positionY="300"/>
+<Connection from="3/konu" to="2/tarih" with="mod"/>
+<Word name="1/sendikacılık" positionX="550" positionY="400"/>
+<Connection from="2/tarih" to="1/sendikacılık" with="mod"/>
+</Amr>

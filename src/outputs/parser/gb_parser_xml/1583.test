@@ -1,0 +1,15 @@
+<Amr sentence="Önümüzdeki yıl yeni bir öğretmenimiz olacaktı .">
+<Word name="6/ol" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/ol" to="o" with="ARG0"/>
+<Word name="2/yıl" positionX="750" positionY="200"/>
+<Connection from="6/ol" to="2/yıl"/>
+<Word name="1/ön" positionX="650" positionY="300"/>
+<Connection from="2/yıl" to="1/ön" with="mod"/>
+<Word name="5/öğretmen" positionX="850" positionY="200"/>
+<Connection from="6/ol" to="5/öğretmen" with="ARG1"/>
+<Word name="biz" positionX="750" positionY="300"/>
+<Connection from="5/öğretmen" to="biz" with="poss"/>
+<Word name="3/yeni" positionX="850" positionY="300"/>
+<Connection from="5/öğretmen" to="3/yeni" with="mod"/>
+</Amr>

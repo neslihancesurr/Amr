@@ -1,0 +1,17 @@
+<Amr sentence="Borca girecek olsam bile o arsayı almaya kararlıyım .">
+<Word name="8/kararlı" positionX="750" positionY="100"/>
+<Word name="3/ol" positionX="650" positionY="200"/>
+<Connection from="8/kararlı" to="3/ol"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="3/ol" to="ben" with="ARG0"/>
+<Word name="1/borç 2/gir" positionX="650" positionY="300"/>
+<Connection from="3/ol" to="1/borç 2/gir"/>
+<Word name="4/bile" positionX="750" positionY="300"/>
+<Connection from="3/ol" to="4/bile" with="manner"/>
+<Word name="7/al" positionX="750" positionY="200"/>
+<Connection from="8/kararlı" to="7/al"/>
+<Word name="6/arsa" positionX="650" positionY="300"/>
+<Connection from="7/al" to="6/arsa"/>
+<Word name="5/o" positionX="550" positionY="400"/>
+<Connection from="6/arsa" to="5/o" with="mod"/>
+</Amr>

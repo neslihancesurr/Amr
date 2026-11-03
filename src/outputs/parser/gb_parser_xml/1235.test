@@ -1,0 +1,16 @@
+<Amr sentence="- Bu filmi seyretmek isteyen var mı ?">
+<Word name="6/var" positionX="750" positionY="100"/>
+<Word name="5/iste" positionX="650" positionY="200"/>
+<Connection from="6/var" to="5/iste"/>
+<Word name="4/seyret" positionX="550" positionY="300"/>
+<Connection from="5/iste" to="4/seyret"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="4/seyret" to="o" with="ARG0"/>
+<Word name="3/film" positionX="550" positionY="400"/>
+<Connection from="4/seyret" to="3/film" with="ARG1"/>
+<Connection from="3/film" to="o" with="poss"/>
+<Word name="2/bu" positionX="550" positionY="500"/>
+<Connection from="3/film" to="2/bu" with="mod"/>
+<Word name="7/mi" positionX="750" positionY="200"/>
+<Connection from="6/var" to="7/mi"/>
+</Amr>

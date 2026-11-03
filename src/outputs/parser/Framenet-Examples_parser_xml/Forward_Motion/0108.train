@@ -1,0 +1,15 @@
+<Amr sentence="Eliyle camı vurarak gözünde yaşlarla avdet etti .">
+<Word name="6/avdet 7/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/avdet 7/et" to="o" with="ARG0"/>
+<Word name="3/vur" positionX="750" positionY="200"/>
+<Connection from="6/avdet 7/et" to="3/vur"/>
+<Word name="1/el" positionX="650" positionY="300"/>
+<Connection from="3/vur" to="1/el" with="instrument"/>
+<Word name="2/cam" positionX="750" positionY="300"/>
+<Connection from="3/vur" to="2/cam" with="ARG1"/>
+<Word name="5/yaş" positionX="850" positionY="200"/>
+<Connection from="6/avdet 7/et" to="5/yaş" with="instrument"/>
+<Word name="4/göz" positionX="750" positionY="300"/>
+<Connection from="5/yaş" to="4/göz" with="mod"/>
+</Amr>

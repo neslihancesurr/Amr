@@ -1,0 +1,14 @@
+<Amr sentence="Yürürken zorlanıyordu , sürekli dengesini kaybediyordu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/zorlan" positionX="650" positionY="200"/>
+<Connection from="and" to="2/zorlan" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/zorlan" to="o" with="ARG0"/>
+<Word name="1/yürü" positionX="650" positionY="300"/>
+<Connection from="2/zorlan" to="1/yürü" with="ARG1"/>
+<Word name="5/denge 6/kaybet" positionX="750" positionY="200"/>
+<Connection from="and" to="5/denge 6/kaybet" with="op2"/>
+<Connection from="5/denge 6/kaybet" to="o" with="ARG0"/>
+<Word name="4/sürekli" positionX="750" positionY="300"/>
+<Connection from="5/denge 6/kaybet" to="4/sürekli" with="frequency"/>
+</Amr>

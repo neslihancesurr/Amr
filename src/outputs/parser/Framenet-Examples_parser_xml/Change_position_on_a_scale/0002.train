@@ -1,0 +1,19 @@
+<Amr sentence="Bunlar çok çabuk artmış , sonuca sevindim .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/art" positionX="650" positionY="200"/>
+<Connection from="and" to="4/art" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/art" to="o" with="ARG0"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="4/art" to="1/bu" with="ARG1"/>
+<Word name="3/çabuk" positionX="750" positionY="300"/>
+<Connection from="4/art" to="3/çabuk" with="manner"/>
+<Word name="2/çok" positionX="650" positionY="400"/>
+<Connection from="3/çabuk" to="2/çok" with="degree"/>
+<Word name="7/sevin" positionX="750" positionY="200"/>
+<Connection from="and" to="7/sevin" with="op2"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="7/sevin" to="ben" with="ARG0"/>
+<Word name="6/sonuç" positionX="750" positionY="300"/>
+<Connection from="7/sevin" to="6/sonuç"/>
+</Amr>

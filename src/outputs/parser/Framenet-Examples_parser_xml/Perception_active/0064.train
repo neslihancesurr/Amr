@@ -1,0 +1,9 @@
+<Amr sentence="Kulakları dikilmiş , bizi dinliyor .">
+<Word name="5/dinle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/dinle" to="o" with="ARG0"/>
+<Word name="1/kulak 2/dikil" positionX="750" positionY="200"/>
+<Connection from="5/dinle" to="1/kulak 2/dikil"/>
+<Word name="4/biz" positionX="850" positionY="200"/>
+<Connection from="5/dinle" to="4/biz" with="ARG1"/>
+</Amr>

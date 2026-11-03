@@ -1,0 +1,15 @@
+<Amr sentence="Zayıflayınca tüm pantolonlarını kendi daralttı .">
+<Word name="5/daralt" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/daralt" to="o" with="ARG0"/>
+<Word name="1/zayıfla" positionX="750" positionY="200"/>
+<Connection from="5/daralt" to="1/zayıfla"/>
+<Word name="3/pantolon" positionX="850" positionY="200"/>
+<Connection from="5/daralt" to="3/pantolon" with="ARG1"/>
+<Connection from="3/pantolon" to="o" with="poss"/>
+<Word name="2/tüm" positionX="850" positionY="300"/>
+<Connection from="3/pantolon" to="2/tüm" with="mod"/>
+<Word name="4/kendi" positionX="950" positionY="200"/>
+<Connection from="5/daralt" to="4/kendi"/>
+<Connection from="4/kendi" to="o" with="poss"/>
+</Amr>

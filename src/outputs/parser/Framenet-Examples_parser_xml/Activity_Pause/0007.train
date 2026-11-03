@@ -1,0 +1,17 @@
+<Amr sentence="Ailevi sebeplerle okulu bir dönem dondurmuştum .">
+<Word name="6/dondur" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="6/dondur" to="ben" with="ARG0"/>
+<Word name="2/sebep" positionX="750" positionY="200"/>
+<Connection from="6/dondur" to="2/sebep" with="instrument"/>
+<Word name="1/ailevi" positionX="650" positionY="300"/>
+<Connection from="2/sebep" to="1/ailevi" with="mod"/>
+<Word name="3/okul" positionX="850" positionY="200"/>
+<Connection from="6/dondur" to="3/okul" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="3/okul" to="o" with="poss"/>
+<Word name="5/dönem" positionX="950" positionY="200"/>
+<Connection from="6/dondur" to="5/dönem" with="mod"/>
+<Word name="4/bir" positionX="850" positionY="300"/>
+<Connection from="5/dönem" to="4/bir" with="mod"/>
+</Amr>

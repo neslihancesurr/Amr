@@ -1,0 +1,9 @@
+<Amr sentence="Bunlardan bizde de var .">
+<Word name="4/var" positionX="750" positionY="100"/>
+<Word name="1/bu" positionX="650" positionY="200"/>
+<Connection from="4/var" to="1/bu"/>
+<Word name="2/biz" positionX="750" positionY="200"/>
+<Connection from="4/var" to="2/biz" with="mod"/>
+<Word name="3/de" positionX="650" positionY="300"/>
+<Connection from="2/biz" to="3/de"/>
+</Amr>

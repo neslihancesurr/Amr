@@ -1,0 +1,11 @@
+<Amr sentence="Marketteki ürünlerin çoğu işlenmiş .">
+<Word name="4/işle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/işle" to="o" with="ARG0"/>
+<Word name="3/çok" positionX="750" positionY="200"/>
+<Connection from="4/işle" to="3/çok" with="degree"/>
+<Word name="2/ürün" positionX="650" positionY="300"/>
+<Connection from="3/çok" to="2/ürün" with="mod"/>
+<Word name="1/market" positionX="550" positionY="400"/>
+<Connection from="2/ürün" to="1/market" with="mod"/>
+</Amr>

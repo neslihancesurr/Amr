@@ -1,0 +1,9 @@
+<Amr sentence="Tavşanlar güzelim havuçları yolmuş .">
+<Word name="4/yol" positionX="750" positionY="100"/>
+<Word name="1/tavşan" positionX="650" positionY="200"/>
+<Connection from="4/yol" to="1/tavşan" with="ARG0"/>
+<Word name="3/havuç" positionX="750" positionY="200"/>
+<Connection from="4/yol" to="3/havuç" with="ARG1"/>
+<Word name="2/güzel" positionX="650" positionY="300"/>
+<Connection from="3/havuç" to="2/güzel" with="mod"/>
+</Amr>

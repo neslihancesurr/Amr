@@ -1,0 +1,11 @@
+<Amr sentence="Ailesi her konuda ayağına bağ oldu .">
+<Word name="4/ayak 5/bağ 6/ol" positionX="750" positionY="100"/>
+<Word name="1/aile" positionX="650" positionY="200"/>
+<Connection from="4/ayak 5/bağ 6/ol" to="1/aile" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/aile" to="o" with="poss"/>
+<Word name="3/konu" positionX="750" positionY="200"/>
+<Connection from="4/ayak 5/bağ 6/ol" to="3/konu" with="mod"/>
+<Word name="2/her" positionX="650" positionY="300"/>
+<Connection from="3/konu" to="2/her" with="mod"/>
+</Amr>

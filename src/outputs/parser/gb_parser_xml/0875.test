@@ -1,0 +1,9 @@
+<Amr sentence="saat dörde yirmi kala">
+<Word name="3/yirmi" positionX="750" positionY="100"/>
+<Word name="1/saat" positionX="650" positionY="200"/>
+<Connection from="3/yirmi" to="1/saat" with="mod"/>
+<Word name="2/dörd" positionX="750" positionY="200"/>
+<Connection from="3/yirmi" to="2/dörd" with="quant"/>
+<Word name="4/kala" positionX="850" positionY="200"/>
+<Connection from="3/yirmi" to="4/kala"/>
+</Amr>

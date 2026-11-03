@@ -1,0 +1,15 @@
+<Amr sentence="Beni aldattı diye onu kalbimden silip attım .">
+<Word name="6/sil 7/at" positionX="750" positionY="100"/>
+<Word name="2/aldat" positionX="650" positionY="200"/>
+<Connection from="6/sil 7/at" to="2/aldat"/>
+<Word name="1/ben" positionX="550" positionY="300"/>
+<Connection from="2/aldat" to="1/ben" with="ARG1"/>
+<Word name="3/diye" positionX="650" positionY="300"/>
+<Connection from="2/aldat" to="3/diye"/>
+<Word name="4/o" positionX="750" positionY="200"/>
+<Connection from="6/sil 7/at" to="4/o" with="ARG1"/>
+<Word name="5/kalp" positionX="850" positionY="200"/>
+<Connection from="6/sil 7/at" to="5/kalp"/>
+<Word name="ben" positionX="750" positionY="300"/>
+<Connection from="5/kalp" to="ben" with="poss"/>
+</Amr>

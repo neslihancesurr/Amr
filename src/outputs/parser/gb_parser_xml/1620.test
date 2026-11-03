@@ -1,0 +1,21 @@
+<Amr sentence="Gürkan bana bu olaydan bahseden üçüncü kişi oldu .">
+<Word name="6/üçüncü 7/kişi" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="6/üçüncü 7/kişi" to="person"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/gürkan" positionX="450" positionY="400"/>
+<Connection from="name" to="1/gürkan" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/bahset" positionX="750" positionY="200"/>
+<Connection from="6/üçüncü 7/kişi" to="5/bahset"/>
+<Word name="2/ben" positionX="650" positionY="300"/>
+<Connection from="5/bahset" to="2/ben"/>
+<Word name="4/olay" positionX="750" positionY="300"/>
+<Connection from="5/bahset" to="4/olay"/>
+<Word name="3/bu" positionX="650" positionY="400"/>
+<Connection from="4/olay" to="3/bu" with="mod"/>
+<Word name="8/ol" positionX="850" positionY="200"/>
+<Connection from="6/üçüncü 7/kişi" to="8/ol"/>
+</Amr>

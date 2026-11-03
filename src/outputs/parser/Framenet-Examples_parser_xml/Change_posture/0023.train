@@ -1,0 +1,11 @@
+<Amr sentence="Yatakta kaykılarak oturur pozisyona geldi .">
+<Word name="5/gel" positionX="750" positionY="100"/>
+<Word name="2/kaykıl" positionX="650" positionY="200"/>
+<Connection from="5/gel" to="2/kaykıl" with="ARG1"/>
+<Word name="1/yatak" positionX="550" positionY="300"/>
+<Connection from="2/kaykıl" to="1/yatak" with="location"/>
+<Word name="4/pozisyon" positionX="750" positionY="200"/>
+<Connection from="5/gel" to="4/pozisyon" with="ARG0"/>
+<Word name="3/otur" positionX="650" positionY="300"/>
+<Connection from="4/pozisyon" to="3/otur"/>
+</Amr>

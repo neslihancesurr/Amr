@@ -1,0 +1,28 @@
+<Amr sentence="Ekme dedim ama dinlemedi , bütün parasını kaybetmiş .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/de" positionX="650" positionY="200"/>
+<Connection from="and" to="2/de" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="2/de" to="ben" with="ARG0"/>
+<Word name="1/ek" positionX="650" positionY="300"/>
+<Connection from="2/de" to="1/ek"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="1/ek" to="-" with="polarity"/>
+<Word name="sen" positionX="650" positionY="400"/>
+<Connection from="1/ek" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="400"/>
+<Connection from="1/ek" to="imperative" with="mode"/>
+<Word name="4/dinle" positionX="750" positionY="300"/>
+<Connection from="2/de" to="4/dinle"/>
+<Connection from="4/dinle" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="400"/>
+<Connection from="4/dinle" to="o" with="ARG0"/>
+<Word name="8/kaybet" positionX="750" positionY="200"/>
+<Connection from="and" to="8/kaybet" with="op2"/>
+<Connection from="8/kaybet" to="o" with="ARG0"/>
+<Connection from="8/kaybet" to="and"/>
+<Word name="7/para" positionX="850" positionY="300"/>
+<Connection from="8/kaybet" to="7/para" with="ARG1"/>
+<Word name="6/bütün" positionX="750" positionY="400"/>
+<Connection from="7/para" to="6/bütün" with="mod"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Her gün 14.30'da uçak kalkıyormuş .">
+<Word name="5/kalk" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/kalk" to="o" with="ARG0"/>
+<Word name="3/14.30" positionX="750" positionY="200"/>
+<Connection from="5/kalk" to="3/14.30" with="location"/>
+<Word name="1/her 2/gün" positionX="650" positionY="300"/>
+<Connection from="3/14.30" to="1/her 2/gün" with="mod"/>
+<Word name="4/uçak" positionX="850" positionY="200"/>
+<Connection from="5/kalk" to="4/uçak" with="ARG1"/>
+</Amr>

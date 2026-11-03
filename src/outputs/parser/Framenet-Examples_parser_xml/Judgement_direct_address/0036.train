@@ -1,0 +1,27 @@
+<Amr sentence="Kimi Alman eleştirmenler , ' Dilimizi tazeledi ' diye Özdamar'ı övdü .">
+<Word name="11/öv" positionX="750" positionY="100"/>
+<Word name="3/eleştirmen" positionX="650" positionY="200"/>
+<Connection from="11/öv" to="3/eleştirmen" with="ARG0"/>
+<Word name="1/kim" positionX="550" positionY="300"/>
+<Connection from="3/eleştirmen" to="1/kim" with="mod"/>
+<Word name="2/alman" positionX="650" positionY="300"/>
+<Connection from="3/eleştirmen" to="2/alman" with="mod"/>
+<Word name="7/tazele" positionX="750" positionY="200"/>
+<Connection from="11/öv" to="7/tazele"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="7/tazele" to="o" with="ARG0"/>
+<Word name="6/dil" positionX="750" positionY="300"/>
+<Connection from="7/tazele" to="6/dil"/>
+<Word name="biz" positionX="650" positionY="400"/>
+<Connection from="6/dil" to="biz" with="poss"/>
+<Word name="9/diye" positionX="850" positionY="300"/>
+<Connection from="7/tazele" to="9/diye"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="11/öv" to="person" with="ARG1"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="10/özdamar" positionX="650" positionY="400"/>
+<Connection from="name" to="10/özdamar" with="op1"/>
+<Word name="-" positionX="850" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

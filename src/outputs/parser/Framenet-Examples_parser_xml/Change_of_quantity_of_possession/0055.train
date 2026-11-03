@@ -1,0 +1,11 @@
+<Amr sentence="Küçük kız mutfakta oldukça maharet kazanmış .">
+<Word name="5/maharet 6/kazan" positionX="750" positionY="100"/>
+<Word name="3/mutfak" positionX="650" positionY="200"/>
+<Connection from="5/maharet 6/kazan" to="3/mutfak" with="ARG2"/>
+<Word name="1/küçük" positionX="550" positionY="300"/>
+<Connection from="3/mutfak" to="1/küçük" with="mod"/>
+<Word name="2/kız" positionX="650" positionY="300"/>
+<Connection from="3/mutfak" to="2/kız" with="mod"/>
+<Word name="4/oldukça" positionX="750" positionY="200"/>
+<Connection from="5/maharet 6/kazan" to="4/oldukça" with="manner"/>
+</Amr>

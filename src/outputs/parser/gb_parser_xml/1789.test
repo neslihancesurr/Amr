@@ -1,0 +1,24 @@
+<Amr sentence="Ayşe bu fotoğrafı Hatice'ye göstermiş olabilir .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="6/ol" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="6/ol"/>
+<Word name="5/göster" positionX="550" positionY="300"/>
+<Connection from="6/ol" to="5/göster"/>
+<Word name="person" positionX="450" positionY="400"/>
+<Connection from="5/göster" to="person" with="ARG0"/>
+<Word name="name" positionX="350" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ayşe" positionX="250" positionY="600"/>
+<Connection from="name" to="1/ayşe" with="op1"/>
+<Word name="-" positionX="450" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/fotoğraf" positionX="550" positionY="400"/>
+<Connection from="5/göster" to="3/fotoğraf" with="ARG1"/>
+<Word name="2/bu" positionX="450" positionY="500"/>
+<Connection from="3/fotoğraf" to="2/bu" with="mod"/>
+<Connection from="5/göster" to="person" with="ARG2"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="4/hatice" positionX="450" positionY="600"/>
+<Connection from="name" to="4/hatice" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

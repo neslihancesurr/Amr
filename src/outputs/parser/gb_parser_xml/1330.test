@@ -1,0 +1,19 @@
+<Amr sentence="Esra Handan'ın ablasıymış , öyle mi ?">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/öyle" positionX="650" positionY="200"/>
+<Connection from="and" to="5/öyle" with="op1"/>
+<Word name="6/mi" positionX="550" positionY="300"/>
+<Connection from="5/öyle" to="6/mi"/>
+<Word name="3/abla" positionX="750" positionY="200"/>
+<Connection from="and" to="3/abla" with="op2"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="3/abla" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/esra" positionX="450" positionY="500"/>
+<Connection from="name" to="1/esra" with="op1"/>
+<Word name="2/handan" positionX="550" positionY="500"/>
+<Connection from="name" to="2/handan" with="op2"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

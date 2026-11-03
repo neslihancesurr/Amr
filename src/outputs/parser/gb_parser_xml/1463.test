@@ -1,0 +1,17 @@
+<Amr sentence="Dersini zamanında bitirebilecek misin bakalım .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="3/bitir" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="3/bitir"/>
+<Word name="1/ders" positionX="550" positionY="300"/>
+<Connection from="3/bitir" to="1/ders" with="ARG1"/>
+<Word name="sen" positionX="450" positionY="400"/>
+<Connection from="1/ders" to="sen" with="poss"/>
+<Word name="2/zamanında" positionX="650" positionY="300"/>
+<Connection from="3/bitir" to="2/zamanında"/>
+<Word name="4/mi" positionX="750" positionY="300"/>
+<Connection from="3/bitir" to="4/mi"/>
+<Word name="5/bak" positionX="850" positionY="300"/>
+<Connection from="3/bitir" to="5/bak"/>
+<Word name="biz" positionX="750" positionY="400"/>
+<Connection from="5/bak" to="biz" with="ARG0"/>
+</Amr>

@@ -1,0 +1,27 @@
+<Amr sentence="O konuyu Ahmet ya da karısıyla konuşabilirsin .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="7/konuş" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="7/konuş"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="7/konuş" to="sen" with="ARG0"/>
+<Word name="2/konu" positionX="650" positionY="300"/>
+<Connection from="7/konuş" to="2/konu" with="ARG1"/>
+<Word name="1/o" positionX="550" positionY="400"/>
+<Connection from="2/konu" to="1/o" with="mod"/>
+<Word name="and" positionX="750" positionY="300"/>
+<Connection from="7/konuş" to="and"/>
+<Word name="6/karı" positionX="650" positionY="400"/>
+<Connection from="and" to="6/karı" with="instrument"/>
+<Word name="4/ya" positionX="550" positionY="500"/>
+<Connection from="6/karı" to="4/ya"/>
+<Word name="5/da" positionX="450" positionY="600"/>
+<Connection from="4/ya" to="5/da"/>
+<Word name="person" positionX="750" positionY="400"/>
+<Connection from="and" to="person" with="op2"/>
+<Word name="name" positionX="650" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/ahmet" positionX="550" positionY="600"/>
+<Connection from="name" to="3/ahmet" with="op1"/>
+<Word name="-" positionX="750" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

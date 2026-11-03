@@ -1,0 +1,22 @@
+<Amr sentence="Hafta sonlarında çocuklarından bazen biri , bazen iki tanesi geliyor .">
+<Word name="10/gel" positionX="750" positionY="100"/>
+<Word name="1/hafta 2/son" positionX="650" positionY="200"/>
+<Connection from="10/gel" to="1/hafta 2/son" with="mod"/>
+<Word name="and" positionX="750" positionY="200"/>
+<Connection from="10/gel" to="and"/>
+<Word name="9/tane" positionX="650" positionY="300"/>
+<Connection from="and" to="9/tane" with="ARG0"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="9/tane" to="o" with="poss"/>
+<Word name="3/çocuk" positionX="650" positionY="400"/>
+<Connection from="9/tane" to="3/çocuk"/>
+<Connection from="3/çocuk" to="o" with="poss"/>
+<Word name="7/bazen" positionX="750" positionY="400"/>
+<Connection from="9/tane" to="7/bazen" with="manner"/>
+<Word name="8/iki" positionX="850" positionY="400"/>
+<Connection from="9/tane" to="8/iki"/>
+<Word name="5/bir" positionX="750" positionY="300"/>
+<Connection from="and" to="5/bir" with="op2"/>
+<Word name="4/bazen" positionX="650" positionY="400"/>
+<Connection from="5/bir" to="4/bazen" with="manner"/>
+</Amr>

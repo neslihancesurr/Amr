@@ -1,0 +1,11 @@
+<Amr sentence="Deve öyle susamıştı ki bir anda ıhtı .">
+<Word name="7/ıh" positionX="750" positionY="100"/>
+<Word name="3/susa" positionX="650" positionY="200"/>
+<Connection from="7/ıh" to="3/susa"/>
+<Word name="1/deve" positionX="550" positionY="300"/>
+<Connection from="3/susa" to="1/deve" with="ARG0"/>
+<Word name="2/öyle" positionX="650" positionY="300"/>
+<Connection from="3/susa" to="2/öyle" with="manner"/>
+<Word name="4/ki" positionX="750" positionY="300"/>
+<Connection from="3/susa" to="4/ki"/>
+</Amr>

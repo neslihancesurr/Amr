@@ -1,0 +1,13 @@
+<Amr sentence="Ellerim çamur içinde kalmıştı .">
+<Word name="4/kal" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/kal" to="o" with="ARG0"/>
+<Word name="1/el" positionX="750" positionY="200"/>
+<Connection from="4/kal" to="1/el"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="1/el" to="ben" with="poss"/>
+<Word name="3/iç" positionX="850" positionY="200"/>
+<Connection from="4/kal" to="3/iç" with="location"/>
+<Word name="2/çamur" positionX="750" positionY="300"/>
+<Connection from="3/iç" to="2/çamur" with="mod"/>
+</Amr>

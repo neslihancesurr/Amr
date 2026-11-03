@@ -1,0 +1,12 @@
+<Amr sentence="Çocuğumu , okuldaki başarısından dolayı ödüllendirdim .">
+<Word name="6/ödüllendir" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="6/ödüllendir" to="ben" with="ARG0"/>
+<Word name="1/çocuk" positionX="750" positionY="200"/>
+<Connection from="6/ödüllendir" to="1/çocuk" with="ARG0"/>
+<Connection from="1/çocuk" to="ben" with="poss"/>
+<Word name="4/başarı" positionX="850" positionY="200"/>
+<Connection from="6/ödüllendir" to="4/başarı" with="cause"/>
+<Word name="3/okul" positionX="750" positionY="300"/>
+<Connection from="4/başarı" to="3/okul" with="mod"/>
+</Amr>

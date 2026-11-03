@@ -1,0 +1,9 @@
+<Amr sentence="Eskici , bizim sokakta tezgâh açtı .">
+<Word name="5/tezgâh 6/aç" positionX="750" positionY="100"/>
+<Word name="1/eskici" positionX="650" positionY="200"/>
+<Connection from="5/tezgâh 6/aç" to="1/eskici" with="ARG0"/>
+<Word name="4/sokak" positionX="750" positionY="200"/>
+<Connection from="5/tezgâh 6/aç" to="4/sokak" with="ARG1"/>
+<Word name="3/biz" positionX="650" positionY="300"/>
+<Connection from="4/sokak" to="3/biz" with="mod"/>
+</Amr>

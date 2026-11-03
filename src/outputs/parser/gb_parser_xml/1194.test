@@ -1,0 +1,24 @@
+<Amr sentence="Ahmet kendisine hediye vermeyenleri sevmiyor .">
+<Word name="5/sev" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/sev" to="-" with="polarity"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="5/sev" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ahmet" positionX="550" positionY="400"/>
+<Connection from="name" to="1/ahmet" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/ver" positionX="850" positionY="200"/>
+<Connection from="5/sev" to="4/ver" with="ARG1"/>
+<Connection from="4/ver" to="-" with="polarity"/>
+<Word name="onlar" positionX="850" positionY="300"/>
+<Connection from="4/ver" to="onlar" with="ARG0"/>
+<Word name="o" positionX="950" positionY="300"/>
+<Connection from="4/ver" to="o" with="poss"/>
+<Word name="2/kendi" positionX="1050" positionY="300"/>
+<Connection from="4/ver" to="2/kendi" with="ARG2"/>
+<Connection from="2/kendi" to="o" with="poss"/>
+<Word name="3/hediye" positionX="1150" positionY="300"/>
+<Connection from="4/ver" to="3/hediye" with="ARG1"/>
+</Amr>

@@ -1,0 +1,10 @@
+<Amr sentence="İnanılmaz bir çalım yedi , morali bozuldu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/çalım 4/ye" positionX="650" positionY="200"/>
+<Connection from="and" to="3/çalım 4/ye" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/çalım 4/ye" to="o" with="ARG0"/>
+<Word name="6/moral 7/boz" positionX="750" positionY="200"/>
+<Connection from="and" to="6/moral 7/boz" with="op2"/>
+<Connection from="6/moral 7/boz" to="o" with="ARG0"/>
+</Amr>

@@ -1,0 +1,21 @@
+<Amr sentence="Başa geçince şirketin bütün parasını boş işler peşinde har vurup harman savurdu .">
+<Word name="9/har 10/vur 11/harman 12/savur" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="9/har 10/vur 11/harman 12/savur" to="o" with="ARG0"/>
+<Word name="2/geç" positionX="750" positionY="200"/>
+<Connection from="9/har 10/vur 11/harman 12/savur" to="2/geç"/>
+<Word name="1/baş" positionX="650" positionY="300"/>
+<Connection from="2/geç" to="1/baş"/>
+<Word name="5/para" positionX="850" positionY="200"/>
+<Connection from="9/har 10/vur 11/harman 12/savur" to="5/para" with="ARG1"/>
+<Word name="3/şirket" positionX="750" positionY="300"/>
+<Connection from="5/para" to="3/şirket" with="mod"/>
+<Word name="4/bütün" positionX="850" positionY="300"/>
+<Connection from="5/para" to="4/bütün" with="mod"/>
+<Word name="8/peş" positionX="950" positionY="200"/>
+<Connection from="9/har 10/vur 11/harman 12/savur" to="8/peş" with="location"/>
+<Word name="7/iş" positionX="850" positionY="300"/>
+<Connection from="8/peş" to="7/iş" with="mod"/>
+<Word name="6/boş" positionX="750" positionY="400"/>
+<Connection from="7/iş" to="6/boş" with="mod"/>
+</Amr>

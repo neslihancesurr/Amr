@@ -1,0 +1,18 @@
+<Amr sentence="Söylediklerime kulak ver ki aynı hataları bir daha yapmayasın .">
+<Word name="9/yap" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="9/yap" to="-" with="polarity"/>
+<Word name="sen" positionX="750" positionY="200"/>
+<Connection from="9/yap" to="sen" with="ARG0"/>
+<Word name="2/kulak 3/ver" positionX="850" positionY="200"/>
+<Connection from="9/yap" to="2/kulak 3/ver"/>
+<Connection from="2/kulak 3/ver" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="850" positionY="300"/>
+<Connection from="2/kulak 3/ver" to="imperative" with="mode"/>
+<Word name="6/hata" positionX="950" positionY="200"/>
+<Connection from="9/yap" to="6/hata" with="ARG1"/>
+<Word name="5/aynı" positionX="850" positionY="300"/>
+<Connection from="6/hata" to="5/aynı" with="mod"/>
+<Word name="8/daha" positionX="1050" positionY="200"/>
+<Connection from="9/yap" to="8/daha" with="degree"/>
+</Amr>

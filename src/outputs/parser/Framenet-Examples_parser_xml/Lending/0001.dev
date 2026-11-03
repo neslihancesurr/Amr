@@ -1,0 +1,7 @@
+<Amr sentence="Uzun vadeli ödünç aldı .">
+<Word name="3/ödünç 4/al" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/ödünç 4/al" to="o" with="ARG0"/>
+<Word name="1/uzun 2/vade" positionX="750" positionY="200"/>
+<Connection from="3/ödünç 4/al" to="1/uzun 2/vade" with="manner"/>
+</Amr>

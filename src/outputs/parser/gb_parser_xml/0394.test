@@ -1,0 +1,20 @@
+<Amr sentence="Nuran Deniz'e kapıyı açtırdı .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="4/aç" positionX="650" positionY="200"/>
+<Connection from="yap" to="4/aç"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="4/aç" to="person" with="ARG0"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/nuran" positionX="350" positionY="500"/>
+<Connection from="name" to="1/nuran" with="op1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="4/aç" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/deniz" positionX="450" positionY="500"/>
+<Connection from="name" to="2/deniz" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/kapı" positionX="750" positionY="300"/>
+<Connection from="4/aç" to="3/kapı" with="ARG1"/>
+</Amr>

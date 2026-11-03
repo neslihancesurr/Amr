@@ -1,0 +1,13 @@
+<Amr sentence="Yolda kaldık , meğer akü deşarj olmuş .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/yol 2/kal" positionX="650" positionY="200"/>
+<Connection from="and" to="1/yol 2/kal" with="op1"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="1/yol 2/kal" to="biz" with="ARG0"/>
+<Word name="6/deşarj 7/ol" positionX="750" positionY="200"/>
+<Connection from="and" to="6/deşarj 7/ol" with="op2"/>
+<Word name="4/meğer" positionX="650" positionY="300"/>
+<Connection from="6/deşarj 7/ol" to="4/meğer"/>
+<Word name="5/akü" positionX="750" positionY="300"/>
+<Connection from="6/deşarj 7/ol" to="5/akü" with="ARG0"/>
+</Amr>

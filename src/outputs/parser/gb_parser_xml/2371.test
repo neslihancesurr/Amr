@@ -1,0 +1,16 @@
+<Amr sentence="Kapılar açıldı mı kalabalık içeri dalar .">
+<Word name="6/dal" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/dal" to="o" with="ARG0"/>
+<Word name="2/aç" positionX="750" positionY="200"/>
+<Connection from="6/dal" to="2/aç"/>
+<Connection from="2/aç" to="o" with="ARG0"/>
+<Word name="1/kapı" positionX="750" positionY="300"/>
+<Connection from="2/aç" to="1/kapı"/>
+<Word name="3/mi" positionX="850" positionY="300"/>
+<Connection from="2/aç" to="3/mi"/>
+<Word name="4/kalabalık" positionX="850" positionY="200"/>
+<Connection from="6/dal" to="4/kalabalık"/>
+<Word name="5/içeri" positionX="950" positionY="200"/>
+<Connection from="6/dal" to="5/içeri"/>
+</Amr>

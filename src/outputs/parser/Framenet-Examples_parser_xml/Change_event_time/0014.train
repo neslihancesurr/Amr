@@ -1,0 +1,9 @@
+<Amr sentence="Okul nihayet tatile girdi .">
+<Word name="3/tatil 4/gir" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/tatil 4/gir" to="o" with="ARG0"/>
+<Word name="1/okul" positionX="750" positionY="200"/>
+<Connection from="3/tatil 4/gir" to="1/okul" with="ARG1"/>
+<Word name="2/nihayet" positionX="850" positionY="200"/>
+<Connection from="3/tatil 4/gir" to="2/nihayet" with="manner"/>
+</Amr>

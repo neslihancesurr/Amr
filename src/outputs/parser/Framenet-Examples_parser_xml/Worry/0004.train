@@ -1,0 +1,18 @@
+<Amr sentence="Nihal üniversite sınavına çalışmaktan kafasını kaldırmıyordu .">
+<Word name="5/kafa 6/kaldır" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/kafa 6/kaldır" to="-" with="polarity"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="5/kafa 6/kaldır" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/nihal" positionX="550" positionY="400"/>
+<Connection from="name" to="1/nihal" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/çalış" positionX="850" positionY="200"/>
+<Connection from="5/kafa 6/kaldır" to="4/çalış" with="ARG1"/>
+<Word name="3/sınav" positionX="750" positionY="300"/>
+<Connection from="4/çalış" to="3/sınav" with="ARG1"/>
+<Word name="2/üniversite" positionX="650" positionY="400"/>
+<Connection from="3/sınav" to="2/üniversite" with="mod"/>
+</Amr>

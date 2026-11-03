@@ -1,0 +1,17 @@
+<Amr sentence="Fakat geçim durumunu az çok düzene sokmuş ve biti kanlanmış">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="9/bit 10/kanlan" positionX="650" positionY="200"/>
+<Connection from="and" to="9/bit 10/kanlan" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="9/bit 10/kanlan" to="o" with="ARG0"/>
+<Word name="6/düzen 7/sok" positionX="750" positionY="200"/>
+<Connection from="and" to="6/düzen 7/sok" with="op2"/>
+<Word name="1/fakat" positionX="650" positionY="300"/>
+<Connection from="6/düzen 7/sok" to="1/fakat"/>
+<Word name="3/durum" positionX="750" positionY="300"/>
+<Connection from="6/düzen 7/sok" to="3/durum" with="ARG1"/>
+<Word name="2/geçim" positionX="650" positionY="400"/>
+<Connection from="3/durum" to="2/geçim" with="mod"/>
+<Word name="4/az 5/çok" positionX="850" positionY="300"/>
+<Connection from="6/düzen 7/sok" to="4/az 5/çok" with="degree"/>
+</Amr>

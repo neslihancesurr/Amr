@@ -1,0 +1,9 @@
+<Amr sentence="Para mutluluk getirmiyor .">
+<Word name="3/getir" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/getir" to="-" with="polarity"/>
+<Word name="1/para" positionX="750" positionY="200"/>
+<Connection from="3/getir" to="1/para" with="ARG0"/>
+<Word name="2/mutluluk" positionX="850" positionY="200"/>
+<Connection from="3/getir" to="2/mutluluk" with="ARG1"/>
+</Amr>

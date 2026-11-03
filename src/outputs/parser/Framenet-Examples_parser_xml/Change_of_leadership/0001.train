@@ -1,0 +1,17 @@
+<Amr sentence="Venezuela'da askeriye devleti devirdi .">
+<Word name="4/devir" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="4/devir" to="person" with="location"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/venezuela" positionX="450" positionY="400"/>
+<Connection from="name" to="1/venezuela" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/askeriye" positionX="750" positionY="200"/>
+<Connection from="4/devir" to="2/askeriye" with="ARG0"/>
+<Word name="3/devlet" positionX="850" positionY="200"/>
+<Connection from="4/devir" to="3/devlet" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="3/devlet" to="o" with="poss"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Bahçeyi çamlarla ağaçlandırdık .">
+<Word name="3/ağaçlandır" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="3/ağaçlandır" to="biz" with="ARG0"/>
+<Word name="1/bahçe" positionX="750" positionY="200"/>
+<Connection from="3/ağaçlandır" to="1/bahçe" with="ARG1"/>
+<Word name="2/çam" positionX="850" positionY="200"/>
+<Connection from="3/ağaçlandır" to="2/çam" with="instrument"/>
+</Amr>

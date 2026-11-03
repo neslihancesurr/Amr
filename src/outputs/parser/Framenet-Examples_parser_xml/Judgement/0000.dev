@@ -1,0 +1,15 @@
+<Amr sentence="Onun yaptıklarını durmadan över , göklere çıkarırdı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/öv" positionX="650" positionY="200"/>
+<Connection from="and" to="4/öv" with="op1"/>
+<Word name="2/yap" positionX="550" positionY="300"/>
+<Connection from="4/öv" to="2/yap" with="ARG1"/>
+<Word name="onlar" positionX="450" positionY="400"/>
+<Connection from="2/yap" to="onlar" with="ARG0"/>
+<Word name="1/o" positionX="550" positionY="400"/>
+<Connection from="2/yap" to="1/o" with="mod"/>
+<Word name="3/durmadan" positionX="650" positionY="300"/>
+<Connection from="4/öv" to="3/durmadan" with="manner"/>
+<Word name="6/gök 7/çık" positionX="750" positionY="200"/>
+<Connection from="and" to="6/gök 7/çık" with="op2"/>
+</Amr>

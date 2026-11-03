@@ -1,0 +1,9 @@
+<Amr sentence="Şirketin yönetimini kendi eline almıştı .">
+<Word name="4/el 5/al" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/el 5/al" to="o" with="ARG0"/>
+<Word name="2/yönetim" positionX="750" positionY="200"/>
+<Connection from="4/el 5/al" to="2/yönetim" with="ARG1"/>
+<Word name="1/şirket" positionX="650" positionY="300"/>
+<Connection from="2/yönetim" to="1/şirket" with="mod"/>
+</Amr>

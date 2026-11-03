@@ -1,0 +1,27 @@
+<Amr sentence="Babam o yaz sonunda Çardak'a gidip her sabah avlandı .">
+<Word name="9/avlan" positionX="750" positionY="100"/>
+<Word name="1/baba" positionX="650" positionY="200"/>
+<Connection from="9/avlan" to="1/baba" with="ARG0"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="1/baba" to="ben" with="poss"/>
+<Word name="6/git" positionX="750" positionY="200"/>
+<Connection from="9/avlan" to="6/git"/>
+<Word name="4/sonunda" positionX="650" positionY="300"/>
+<Connection from="6/git" to="4/sonunda" with="mod"/>
+<Word name="3/yaz" positionX="550" positionY="400"/>
+<Connection from="4/sonunda" to="3/yaz" with="mod"/>
+<Word name="2/o" positionX="450" positionY="500"/>
+<Connection from="3/yaz" to="2/o" with="mod"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="6/git" to="person"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="5/çardak" positionX="550" positionY="500"/>
+<Connection from="name" to="5/çardak" with="op1"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="8/sabah" positionX="850" positionY="200"/>
+<Connection from="9/avlan" to="8/sabah" with="mod"/>
+<Word name="7/her" positionX="750" positionY="300"/>
+<Connection from="8/sabah" to="7/her" with="mod"/>
+</Amr>

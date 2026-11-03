@@ -1,0 +1,9 @@
+<Amr sentence="Çeşit çeşit yiyecek getirdiler .">
+<Word name="4/getir" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/getir" to="onlar" with="ARG0"/>
+<Word name="3/yiyecek" positionX="750" positionY="200"/>
+<Connection from="4/getir" to="3/yiyecek" with="ARG1"/>
+<Word name="1/çeşit 2/çeşit" positionX="650" positionY="300"/>
+<Connection from="3/yiyecek" to="1/çeşit 2/çeşit"/>
+</Amr>

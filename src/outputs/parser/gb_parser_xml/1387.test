@@ -1,0 +1,15 @@
+<Amr sentence="En çok nereleri görmek istiyorsun ?">
+<Word name="5/iste" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="5/iste" to="sen" with="ARG0"/>
+<Word name="1/en 2/çok" positionX="750" positionY="200"/>
+<Connection from="5/iste" to="1/en 2/çok" with="degree"/>
+<Word name="4/gör" positionX="850" positionY="200"/>
+<Connection from="5/iste" to="4/gör"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="4/gör" to="o" with="ARG0"/>
+<Word name="3/nere" positionX="850" positionY="300"/>
+<Connection from="4/gör" to="3/nere" with="ARG1"/>
+<Word name="onlar" positionX="750" positionY="400"/>
+<Connection from="3/nere" to="onlar" with="poss"/>
+</Amr>

@@ -1,0 +1,28 @@
+<Amr sentence="Ayşe , ki şu anda mutfakta yemek pişiriyor , birazdan ortaya çıkacak .">
+<Word name="11/orta 12/çık" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="11/orta 12/çık" to="o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="11/orta 12/çık" to="person"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ayşe" positionX="550" positionY="400"/>
+<Connection from="name" to="1/ayşe" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="8/pişir" positionX="850" positionY="300"/>
+<Connection from="person" to="8/pişir"/>
+<Connection from="8/pişir" to="o" with="ARG0"/>
+<Word name="3/ki" positionX="850" positionY="400"/>
+<Connection from="8/pişir" to="3/ki"/>
+<Word name="5/an" positionX="950" positionY="400"/>
+<Connection from="8/pişir" to="5/an" with="location"/>
+<Word name="4/şu" positionX="850" positionY="500"/>
+<Connection from="5/an" to="4/şu" with="mod"/>
+<Word name="6/mutfak" positionX="1050" positionY="400"/>
+<Connection from="8/pişir" to="6/mutfak" with="location"/>
+<Word name="7/yemek" positionX="1150" positionY="400"/>
+<Connection from="8/pişir" to="7/yemek"/>
+<Word name="10/birazdan" positionX="850" positionY="200"/>
+<Connection from="11/orta 12/çık" to="10/birazdan" with="manner"/>
+</Amr>

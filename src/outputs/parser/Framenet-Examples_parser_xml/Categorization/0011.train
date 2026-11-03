@@ -1,0 +1,25 @@
+<Amr sentence="Kelimelerin manalarını dili en iyi kullanan yazarlara dayanarak tayin etmeliyiz .">
+<Word name="gerek" positionX="750" positionY="100"/>
+<Word name="9/tayin 10/et" positionX="650" positionY="200"/>
+<Connection from="gerek" to="9/tayin 10/et"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="9/tayin 10/et" to="biz" with="ARG0"/>
+<Word name="8/dayan" positionX="650" positionY="300"/>
+<Connection from="9/tayin 10/et" to="8/dayan"/>
+<Word name="7/yazar" positionX="550" positionY="400"/>
+<Connection from="8/dayan" to="7/yazar" with="ARG1"/>
+<Word name="6/kullan" positionX="450" positionY="500"/>
+<Connection from="7/yazar" to="6/kullan"/>
+<Word name="and" positionX="350" positionY="600"/>
+<Connection from="6/kullan" to="and"/>
+<Word name="3/dil" positionX="250" positionY="700"/>
+<Connection from="and" to="3/dil" with="op1"/>
+<Word name="2/mana" positionX="350" positionY="700"/>
+<Connection from="and" to="2/mana" with="op2"/>
+<Word name="1/kelime" positionX="250" positionY="800"/>
+<Connection from="2/mana" to="1/kelime" with="mod"/>
+<Word name="5/iyi" positionX="450" positionY="600"/>
+<Connection from="6/kullan" to="5/iyi" with="manner"/>
+<Word name="4/en" positionX="350" positionY="700"/>
+<Connection from="5/iyi" to="4/en" with="manner"/>
+</Amr>

@@ -1,0 +1,20 @@
+<Amr sentence="Kediyle köpek bir arada büyütülürlerse dövüşmezler .">
+<Word name="6/dövüş" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="6/dövüş" to="-" with="polarity"/>
+<Word name="onlar" positionX="750" positionY="200"/>
+<Connection from="6/dövüş" to="onlar" with="ARG0"/>
+<Word name="and" positionX="850" positionY="200"/>
+<Connection from="6/dövüş" to="and"/>
+<Word name="2/köpek" positionX="750" positionY="300"/>
+<Connection from="and" to="2/köpek" with="op1"/>
+<Word name="1/kedi" positionX="850" positionY="300"/>
+<Connection from="and" to="1/kedi" with="instrument"/>
+<Word name="5/büyütül" positionX="950" positionY="200"/>
+<Connection from="6/dövüş" to="5/büyütül" with="cond"/>
+<Connection from="5/büyütül" to="onlar" with="ARG0"/>
+<Word name="3/bir" positionX="950" positionY="300"/>
+<Connection from="5/büyütül" to="3/bir" with="manner"/>
+<Word name="4/ara" positionX="850" positionY="400"/>
+<Connection from="3/bir" to="4/ara" with="location"/>
+</Amr>

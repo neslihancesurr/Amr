@@ -1,0 +1,7 @@
+<Amr sentence="Hızlıca öne düştüm .">
+<Word name="2/ön 3/düş" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="2/ön 3/düş" to="ben" with="ARG0"/>
+<Word name="1/hızlıca" positionX="750" positionY="200"/>
+<Connection from="2/ön 3/düş" to="1/hızlıca" with="manner"/>
+</Amr>

@@ -1,0 +1,21 @@
+<Amr sentence="Bir şeye ad koymak , satışa çıkarılan malın üzerine yafta asmaya benzetilebilir .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="12/benzet" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="12/benzet"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="12/benzet" to="o" with="ARG0"/>
+<Word name="3/ad 4/koy" positionX="650" positionY="300"/>
+<Connection from="12/benzet" to="3/ad 4/koy"/>
+<Connection from="3/ad 4/koy" to="o" with="ARG0"/>
+<Word name="11/as" positionX="750" positionY="300"/>
+<Connection from="12/benzet" to="11/as" with="ARG1"/>
+<Connection from="11/as" to="o" with="ARG0"/>
+<Word name="9/üzerine" positionX="750" positionY="400"/>
+<Connection from="11/as" to="9/üzerine" with="manner"/>
+<Word name="8/mal" positionX="650" positionY="500"/>
+<Connection from="9/üzerine" to="8/mal" with="mod"/>
+<Word name="6/sat 7/çık" positionX="550" positionY="600"/>
+<Connection from="8/mal" to="6/sat 7/çık"/>
+<Word name="10/yafta" positionX="850" positionY="400"/>
+<Connection from="11/as" to="10/yafta"/>
+</Amr>

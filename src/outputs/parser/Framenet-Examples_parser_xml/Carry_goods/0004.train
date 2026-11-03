@@ -1,0 +1,13 @@
+<Amr sentence="Soğancılar bu yaz da mahsulü stokluyor .">
+<Word name="6/stokla" positionX="750" positionY="100"/>
+<Word name="1/soğancı" positionX="650" positionY="200"/>
+<Connection from="6/stokla" to="1/soğancı" with="ARG0"/>
+<Word name="3/yaz" positionX="750" positionY="200"/>
+<Connection from="6/stokla" to="3/yaz" with="mod"/>
+<Word name="2/bu" positionX="650" positionY="300"/>
+<Connection from="3/yaz" to="2/bu" with="mod"/>
+<Word name="4/da" positionX="750" positionY="300"/>
+<Connection from="3/yaz" to="4/da"/>
+<Word name="5/mahsul" positionX="850" positionY="200"/>
+<Connection from="6/stokla" to="5/mahsul" with="ARG1"/>
+</Amr>

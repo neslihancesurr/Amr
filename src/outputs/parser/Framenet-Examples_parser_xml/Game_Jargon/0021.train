@@ -1,0 +1,15 @@
+<Amr sentence="Sakallı adamı sadece 3 hamlede mat etti .">
+<Word name="6/mat 7/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/mat 7/et" to="o" with="ARG0"/>
+<Word name="2/adam" positionX="750" positionY="200"/>
+<Connection from="6/mat 7/et" to="2/adam" with="ARG1"/>
+<Word name="1/sakallı" positionX="650" positionY="300"/>
+<Connection from="2/adam" to="1/sakallı" with="mod"/>
+<Word name="5/hamle" positionX="850" positionY="200"/>
+<Connection from="6/mat 7/et" to="5/hamle" with="location"/>
+<Word name="3/sadece" positionX="750" positionY="300"/>
+<Connection from="5/hamle" to="3/sadece" with="manner"/>
+<Word name="4/3" positionX="850" positionY="300"/>
+<Connection from="5/hamle" to="4/3"/>
+</Amr>

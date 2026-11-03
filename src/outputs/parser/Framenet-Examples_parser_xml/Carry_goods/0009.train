@@ -1,0 +1,13 @@
+<Amr sentence="Ne isterseniz bulurum , beyefendi .">
+<Word name="3/bul" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/bul" to="ben" with="ARG0"/>
+<Word name="2/iste" positionX="750" positionY="200"/>
+<Connection from="3/bul" to="2/iste" with="ARG1"/>
+<Word name="siz" positionX="650" positionY="300"/>
+<Connection from="2/iste" to="siz" with="ARG0"/>
+<Word name="1/ne" positionX="750" positionY="300"/>
+<Connection from="2/iste" to="1/ne"/>
+<Word name="5/beyefendi" positionX="850" positionY="200"/>
+<Connection from="3/bul" to="5/beyefendi"/>
+</Amr>

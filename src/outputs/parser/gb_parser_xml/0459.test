@@ -1,0 +1,12 @@
+<Amr sentence="Görülmüş olabilir miyiz ?">
+<Word name="1/gör" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="1/gör" to="o" with="ARG0"/>
+<Word name="mümkün" positionX="750" positionY="200"/>
+<Connection from="1/gör" to="mümkün"/>
+<Word name="2/ol" positionX="650" positionY="300"/>
+<Connection from="mümkün" to="2/ol"/>
+<Connection from="2/ol" to="o" with="ARG0"/>
+<Word name="3/mi" positionX="850" positionY="200"/>
+<Connection from="1/gör" to="3/mi"/>
+</Amr>

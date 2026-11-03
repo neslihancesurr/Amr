@@ -1,0 +1,11 @@
+<Amr sentence="Tekli koltuğa kıvrılarak uyukladı .">
+<Word name="4/uyukla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/uyukla" to="o" with="ARG0"/>
+<Word name="3/kıvrıl" positionX="750" positionY="200"/>
+<Connection from="4/uyukla" to="3/kıvrıl"/>
+<Word name="2/koltuk" positionX="650" positionY="300"/>
+<Connection from="3/kıvrıl" to="2/koltuk"/>
+<Word name="1/tekli" positionX="550" positionY="400"/>
+<Connection from="2/koltuk" to="1/tekli" with="mod"/>
+</Amr>

@@ -1,0 +1,7 @@
+<Amr sentence="Ben takım tutmuyorum .">
+<Word name="2/takım 3/tut" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="2/takım 3/tut" to="-" with="polarity"/>
+<Word name="1/ben" positionX="750" positionY="200"/>
+<Connection from="2/takım 3/tut" to="1/ben" with="ARG0"/>
+</Amr>

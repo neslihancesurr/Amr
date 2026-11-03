@@ -1,0 +1,17 @@
+<Amr sentence="Hava artık ılındı , dışarı rahat çıkabilirsin .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/ılın" positionX="650" positionY="200"/>
+<Connection from="and" to="3/ılın" with="op1"/>
+<Word name="1/hava" positionX="550" positionY="300"/>
+<Connection from="3/ılın" to="1/hava" with="ARG0"/>
+<Word name="2/artık" positionX="650" positionY="300"/>
+<Connection from="3/ılın" to="2/artık" with="manner"/>
+<Word name="7/çık" positionX="750" positionY="200"/>
+<Connection from="and" to="7/çık" with="op2"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="7/çık" to="sen" with="ARG0"/>
+<Word name="5/dışarı" positionX="750" positionY="300"/>
+<Connection from="7/çık" to="5/dışarı" with="ARG1"/>
+<Word name="6/rahat" positionX="850" positionY="300"/>
+<Connection from="7/çık" to="6/rahat"/>
+</Amr>

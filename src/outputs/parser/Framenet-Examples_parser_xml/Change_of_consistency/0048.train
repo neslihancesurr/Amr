@@ -1,0 +1,9 @@
+<Amr sentence="Bu ağaç tahtalaşmış .">
+<Word name="3/tahtalaş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/tahtalaş" to="o" with="ARG0"/>
+<Word name="2/ağaç" positionX="750" positionY="200"/>
+<Connection from="3/tahtalaş" to="2/ağaç" with="ARG1"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/ağaç" to="1/bu" with="mod"/>
+</Amr>

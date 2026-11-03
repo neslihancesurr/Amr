@@ -1,0 +1,17 @@
+<Amr sentence="Onunla hiçbir zaman görüşüp konuşamadık .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="5/konuş" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="5/konuş"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="5/konuş" to="-" with="polarity"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="5/konuş" to="biz" with="ARG0"/>
+<Word name="4/görüş" positionX="750" positionY="300"/>
+<Connection from="5/konuş" to="4/görüş"/>
+<Word name="1/o" positionX="650" positionY="400"/>
+<Connection from="4/görüş" to="1/o" with="instrument"/>
+<Word name="3/zaman" positionX="750" positionY="400"/>
+<Connection from="4/görüş" to="3/zaman"/>
+<Word name="2/hiçbir" positionX="650" positionY="500"/>
+<Connection from="3/zaman" to="2/hiçbir" with="mod"/>
+</Amr>

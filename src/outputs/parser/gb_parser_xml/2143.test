@@ -1,0 +1,24 @@
+<Amr sentence="Filiz'in odasında yeşil perdeler olduğunu hatırlıyorum .">
+<Word name="6/hatırla" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="6/hatırla" to="ben" with="ARG0"/>
+<Word name="5/ol" positionX="750" positionY="200"/>
+<Connection from="6/hatırla" to="5/ol"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/ol" to="o" with="ARG0"/>
+<Connection from="5/ol" to="o" with="poss"/>
+<Word name="2/oda" positionX="850" positionY="300"/>
+<Connection from="5/ol" to="2/oda" with="location"/>
+<Word name="person" positionX="750" positionY="400"/>
+<Connection from="2/oda" to="person"/>
+<Word name="name" positionX="650" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/filiz" positionX="550" positionY="600"/>
+<Connection from="name" to="1/filiz" with="op1"/>
+<Word name="-" positionX="750" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/perde" positionX="950" positionY="300"/>
+<Connection from="5/ol" to="4/perde"/>
+<Word name="3/yeşil" positionX="850" positionY="400"/>
+<Connection from="4/perde" to="3/yeşil" with="mod"/>
+</Amr>

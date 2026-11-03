@@ -1,0 +1,15 @@
+<Amr sentence="Kızının düğünü için çok para harcadı .">
+<Word name="6/harca" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/harca" to="o" with="ARG0"/>
+<Word name="2/düğün" positionX="750" positionY="200"/>
+<Connection from="6/harca" to="2/düğün" with="cause"/>
+<Connection from="2/düğün" to="o" with="poss"/>
+<Word name="1/kız" positionX="750" positionY="300"/>
+<Connection from="2/düğün" to="1/kız"/>
+<Connection from="1/kız" to="o" with="poss"/>
+<Word name="4/çok" positionX="850" positionY="200"/>
+<Connection from="6/harca" to="4/çok" with="degree"/>
+<Word name="5/para" positionX="950" positionY="200"/>
+<Connection from="6/harca" to="5/para" with="ARG1"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Arabayı Erol'un kendisi yıkayacak .">
+<Word name="4/yıka" positionX="750" positionY="100"/>
+<Word name="1/araba" positionX="650" positionY="200"/>
+<Connection from="4/yıka" to="1/araba" with="ARG1"/>
+<Word name="3/kendi" positionX="750" positionY="200"/>
+<Connection from="4/yıka" to="3/kendi" with="ARG0"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="3/kendi" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/erol" positionX="450" positionY="500"/>
+<Connection from="name" to="2/erol" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

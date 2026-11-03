@@ -1,0 +1,11 @@
+<Amr sentence="Her şeyi gözden geçirip böyle bir sonuç çıkardım .">
+<Word name="8/çık" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="8/çık" to="ben" with="ARG0"/>
+<Word name="3/göz 4/geçir" positionX="750" positionY="200"/>
+<Connection from="8/çık" to="3/göz 4/geçir"/>
+<Word name="7/sonuç" positionX="850" positionY="200"/>
+<Connection from="8/çık" to="7/sonuç"/>
+<Word name="5/böyle" positionX="750" positionY="300"/>
+<Connection from="7/sonuç" to="5/böyle" with="mod"/>
+</Amr>

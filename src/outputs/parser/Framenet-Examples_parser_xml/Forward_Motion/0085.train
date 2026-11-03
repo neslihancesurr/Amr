@@ -1,0 +1,9 @@
+<Amr sentence="Tarihi bölgeyi karış karış dolaştım .">
+<Word name="3/karış 4/karış 5/dolaş" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/karış 4/karış 5/dolaş" to="ben" with="ARG0"/>
+<Word name="2/bölge" positionX="750" positionY="200"/>
+<Connection from="3/karış 4/karış 5/dolaş" to="2/bölge" with="ARG1"/>
+<Word name="1/tarihi" positionX="650" positionY="300"/>
+<Connection from="2/bölge" to="1/tarihi" with="mod"/>
+</Amr>

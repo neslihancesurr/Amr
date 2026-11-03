@@ -1,0 +1,18 @@
+<Amr sentence="Erol'un konuşabileceği birisi">
+<Word name="3/biri" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/biri" to="o" with="poss"/>
+<Word name="mümkün" positionX="750" positionY="200"/>
+<Connection from="3/biri" to="mümkün"/>
+<Word name="2/konuş" positionX="650" positionY="300"/>
+<Connection from="mümkün" to="2/konuş"/>
+<Connection from="2/konuş" to="o" with="poss"/>
+<Word name="person" positionX="650" positionY="400"/>
+<Connection from="2/konuş" to="person"/>
+<Word name="name" positionX="550" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/erol" positionX="450" positionY="600"/>
+<Connection from="name" to="1/erol" with="op1"/>
+<Word name="-" positionX="650" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

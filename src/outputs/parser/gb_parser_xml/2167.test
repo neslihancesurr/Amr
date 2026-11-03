@@ -1,0 +1,15 @@
+<Amr sentence="Mehmet iyi görünüyordu .">
+<Word name="3/görün" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/görün" to="o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="3/görün" to="person"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/mehmet" positionX="550" positionY="400"/>
+<Connection from="name" to="1/mehmet" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/iyi" positionX="850" positionY="200"/>
+<Connection from="3/görün" to="2/iyi"/>
+</Amr>

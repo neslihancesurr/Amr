@@ -1,0 +1,18 @@
+<Amr sentence="Markete gittiğimde gördüm , etin fiyatı pahalılanmış .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/gör" positionX="650" positionY="200"/>
+<Connection from="and" to="3/gör" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="3/gör" to="ben" with="ARG0"/>
+<Word name="2/git" positionX="650" positionY="300"/>
+<Connection from="3/gör" to="2/git"/>
+<Connection from="2/git" to="ben" with="ARG0"/>
+<Word name="1/market" positionX="650" positionY="400"/>
+<Connection from="2/git" to="1/market" with="ARG1"/>
+<Word name="7/pahalılan" positionX="750" positionY="200"/>
+<Connection from="and" to="7/pahalılan" with="op2"/>
+<Word name="6/fiyat" positionX="650" positionY="300"/>
+<Connection from="7/pahalılan" to="6/fiyat" with="ARG0"/>
+<Word name="5/et" positionX="550" positionY="400"/>
+<Connection from="6/fiyat" to="5/et" with="mod"/>
+</Amr>

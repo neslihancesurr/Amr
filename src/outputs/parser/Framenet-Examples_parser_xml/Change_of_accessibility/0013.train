@@ -1,0 +1,22 @@
+<Amr sentence="Amerika Irak'ın tüm ticari operasyonlarını bloke etti .">
+<Word name="6/bloke 7/et" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="6/bloke 7/et" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/amerika" positionX="450" positionY="400"/>
+<Connection from="name" to="1/amerika" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/operasyon" positionX="750" positionY="200"/>
+<Connection from="6/bloke 7/et" to="5/operasyon"/>
+<Connection from="5/operasyon" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/ırak" positionX="450" positionY="500"/>
+<Connection from="name" to="2/ırak" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/tüm" positionX="750" positionY="300"/>
+<Connection from="5/operasyon" to="3/tüm" with="mod"/>
+<Word name="4/ticari" positionX="850" positionY="300"/>
+<Connection from="5/operasyon" to="4/ticari" with="mod"/>
+</Amr>

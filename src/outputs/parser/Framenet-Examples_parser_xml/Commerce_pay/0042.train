@@ -1,0 +1,20 @@
+<Amr sentence="Paramı devlet denen haramilere vermemek için vergi kaçırırım .">
+<Word name="7/vergi 8/kaçır" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="7/vergi 8/kaçır" to="ben" with="ARG0"/>
+<Word name="5/ver" positionX="750" positionY="200"/>
+<Connection from="7/vergi 8/kaçır" to="5/ver" with="cause"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="5/ver" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="5/ver" to="o" with="ARG0"/>
+<Word name="1/para" positionX="850" positionY="300"/>
+<Connection from="5/ver" to="1/para" with="ARG1"/>
+<Connection from="1/para" to="ben" with="poss"/>
+<Word name="4/harami" positionX="950" positionY="300"/>
+<Connection from="5/ver" to="4/harami" with="ARG2"/>
+<Word name="3/de" positionX="850" positionY="400"/>
+<Connection from="4/harami" to="3/de"/>
+<Word name="2/devlet" positionX="750" positionY="500"/>
+<Connection from="3/de" to="2/devlet"/>
+</Amr>

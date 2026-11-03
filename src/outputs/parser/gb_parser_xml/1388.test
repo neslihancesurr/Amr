@@ -1,0 +1,9 @@
+<Amr sentence="İğneyi nerenden yapacaklar ?">
+<Word name="3/yap" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="3/yap" to="onlar" with="ARG0"/>
+<Word name="1/iğne" positionX="750" positionY="200"/>
+<Connection from="3/yap" to="1/iğne" with="ARG1"/>
+<Word name="2/nere" positionX="850" positionY="200"/>
+<Connection from="3/yap" to="2/nere"/>
+</Amr>

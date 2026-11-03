@@ -1,0 +1,17 @@
+<Amr sentence="Bu krizden olabilecek zararı asgariye indirdik .">
+<Word name="5/asgari 6/indir" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/asgari 6/indir" to="biz" with="ARG0"/>
+<Word name="4/zarar" positionX="750" positionY="200"/>
+<Connection from="5/asgari 6/indir" to="4/zarar" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="4/zarar" to="o" with="poss"/>
+<Word name="mümkün" positionX="750" positionY="300"/>
+<Connection from="4/zarar" to="mümkün"/>
+<Word name="3/ol" positionX="650" positionY="400"/>
+<Connection from="mümkün" to="3/ol"/>
+<Word name="2/kriz" positionX="550" positionY="500"/>
+<Connection from="3/ol" to="2/kriz"/>
+<Word name="1/bu" positionX="450" positionY="600"/>
+<Connection from="2/kriz" to="1/bu" with="mod"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Artık biz de şeytanın bacağını kıralım .">
+<Word name="4/şeytan 5/bacak 6/kır" positionX="750" positionY="100"/>
+<Word name="1/artık" positionX="650" positionY="200"/>
+<Connection from="4/şeytan 5/bacak 6/kır" to="1/artık" with="manner"/>
+<Word name="2/biz" positionX="750" positionY="200"/>
+<Connection from="4/şeytan 5/bacak 6/kır" to="2/biz" with="ARG0"/>
+<Word name="3/de" positionX="650" positionY="300"/>
+<Connection from="2/biz" to="3/de" with="manner"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Eve doğru hızla kıvradı .">
+<Word name="4/kıvra" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/kıvra" to="o" with="ARG0"/>
+<Word name="1/ev" positionX="750" positionY="200"/>
+<Connection from="4/kıvra" to="1/ev"/>
+<Word name="2/doğru" positionX="650" positionY="300"/>
+<Connection from="1/ev" to="2/doğru"/>
+<Word name="3/hızla" positionX="850" positionY="200"/>
+<Connection from="4/kıvra" to="3/hızla" with="manner"/>
+</Amr>

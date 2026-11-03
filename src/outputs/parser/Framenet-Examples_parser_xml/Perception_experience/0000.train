@@ -1,0 +1,23 @@
+<Amr sentence="O kadar sis içinde bir adım ilerisini bile seçemiyorduk .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="9/seç" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="9/seç"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="9/seç" to="-" with="polarity"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="9/seç" to="biz" with="ARG0"/>
+<Word name="4/iç" positionX="750" positionY="300"/>
+<Connection from="9/seç" to="4/iç" with="location"/>
+<Word name="3/sis" positionX="650" positionY="400"/>
+<Connection from="4/iç" to="3/sis" with="mod"/>
+<Word name="1/o" positionX="550" positionY="500"/>
+<Connection from="3/sis" to="1/o" with="mod"/>
+<Word name="2/kadar" positionX="450" positionY="600"/>
+<Connection from="1/o" to="2/kadar"/>
+<Word name="7/ileri" positionX="850" positionY="300"/>
+<Connection from="9/seç" to="7/ileri" with="ARG1"/>
+<Word name="6/adım" positionX="750" positionY="400"/>
+<Connection from="7/ileri" to="6/adım" with="mod"/>
+<Word name="8/bile" positionX="850" positionY="400"/>
+<Connection from="7/ileri" to="8/bile" with="manner"/>
+</Amr>

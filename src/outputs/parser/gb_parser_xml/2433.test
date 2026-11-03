@@ -1,0 +1,16 @@
+<Amr sentence="İnsanlar sağlıklarına dikkat ettikleri oranda uzun yaşarlar .">
+<Word name="7/yaşa" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="7/yaşa" to="onlar" with="ARG0"/>
+<Word name="1/insan" positionX="750" positionY="200"/>
+<Connection from="7/yaşa" to="1/insan"/>
+<Word name="6/uzun" positionX="850" positionY="200"/>
+<Connection from="7/yaşa" to="6/uzun" with="manner"/>
+<Word name="5/oran" positionX="750" positionY="300"/>
+<Connection from="6/uzun" to="5/oran" with="mod"/>
+<Word name="3/dikkat 4/et" positionX="650" positionY="400"/>
+<Connection from="5/oran" to="3/dikkat 4/et"/>
+<Connection from="3/dikkat 4/et" to="onlar" with="poss"/>
+<Word name="2/sağlık" positionX="650" positionY="500"/>
+<Connection from="3/dikkat 4/et" to="2/sağlık" with="mod"/>
+</Amr>

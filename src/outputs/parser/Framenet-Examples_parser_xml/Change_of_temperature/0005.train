@@ -1,0 +1,13 @@
+<Amr sentence="Şu tavayı biraz daha kızdırsana .">
+<Word name="5/kızdır" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="5/kızdır" to="sen" with="ARG0"/>
+<Word name="2/tava" positionX="750" positionY="200"/>
+<Connection from="5/kızdır" to="2/tava" with="ARG1"/>
+<Word name="1/şu" positionX="650" positionY="300"/>
+<Connection from="2/tava" to="1/şu" with="mod"/>
+<Word name="4/daha" positionX="850" positionY="200"/>
+<Connection from="5/kızdır" to="4/daha" with="degree"/>
+<Word name="3/biraz" positionX="750" positionY="300"/>
+<Connection from="4/daha" to="3/biraz" with="manner"/>
+</Amr>

@@ -1,0 +1,16 @@
+<Amr sentence="O kadar dibime girdi ki , kolu koluma değiyordu .">
+<Word name="9/değ" positionX="750" positionY="100"/>
+<Word name="4/gir" positionX="650" positionY="200"/>
+<Connection from="9/değ" to="4/gir"/>
+<Word name="3/dip" positionX="550" positionY="300"/>
+<Connection from="4/gir" to="3/dip" with="ARG1"/>
+<Word name="ben" positionX="450" positionY="400"/>
+<Connection from="3/dip" to="ben" with="poss"/>
+<Word name="1/o 2/kadar" positionX="550" positionY="400"/>
+<Connection from="3/dip" to="1/o 2/kadar" with="mod"/>
+<Word name="5/ki" positionX="650" positionY="300"/>
+<Connection from="4/gir" to="5/ki"/>
+<Word name="7/kol 8/kol" positionX="750" positionY="200"/>
+<Connection from="9/değ" to="7/kol 8/kol" with="ARG1"/>
+<Connection from="7/kol 8/kol" to="ben" with="poss"/>
+</Amr>

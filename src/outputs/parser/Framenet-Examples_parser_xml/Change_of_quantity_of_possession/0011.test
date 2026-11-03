@@ -1,0 +1,5 @@
+<Amr sentence="Sattıklarından oldukça büyük bir kar elde etmişti .">
+<Word name="5/kar 6/elde 7/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/kar 6/elde 7/et" to="o" with="ARG0"/>
+</Amr>

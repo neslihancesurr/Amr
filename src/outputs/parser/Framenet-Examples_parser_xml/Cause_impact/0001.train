@@ -1,0 +1,10 @@
+<Amr sentence="Çocuğu okumaya heveslendirdi .">
+<Word name="3/heveslendir" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/heveslendir" to="o" with="ARG0"/>
+<Word name="1/çocuk" positionX="750" positionY="200"/>
+<Connection from="3/heveslendir" to="1/çocuk" with="ARG1"/>
+<Connection from="1/çocuk" to="o" with="poss"/>
+<Word name="2/okuma" positionX="850" positionY="200"/>
+<Connection from="3/heveslendir" to="2/okuma" with="ARG2"/>
+</Amr>

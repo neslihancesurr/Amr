@@ -1,0 +1,26 @@
+<Amr sentence="Kışın ortasında Bodrum'a gitti , denize de girdi .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="8/gir" positionX="650" positionY="200"/>
+<Connection from="and" to="8/gir" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="8/gir" to="o" with="ARG0"/>
+<Word name="6/deniz" positionX="650" positionY="300"/>
+<Connection from="8/gir" to="6/deniz"/>
+<Word name="7/de" positionX="550" positionY="400"/>
+<Connection from="6/deniz" to="7/de"/>
+<Word name="4/git" positionX="750" positionY="200"/>
+<Connection from="and" to="4/git" with="op2"/>
+<Connection from="4/git" to="o" with="ARG0"/>
+<Word name="2/orta" positionX="750" positionY="300"/>
+<Connection from="4/git" to="2/orta" with="location"/>
+<Word name="1/kış" positionX="650" positionY="400"/>
+<Connection from="2/orta" to="1/kış" with="mod"/>
+<Word name="person" positionX="850" positionY="300"/>
+<Connection from="4/git" to="person"/>
+<Word name="name" positionX="750" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/bodrum" positionX="650" positionY="500"/>
+<Connection from="name" to="3/bodrum" with="op1"/>
+<Word name="-" positionX="850" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

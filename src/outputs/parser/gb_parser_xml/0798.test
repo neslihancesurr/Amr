@@ -1,0 +1,9 @@
+<Amr sentence="ilk yüzme havuzlu villa">
+<Word name="4/villa" positionX="750" positionY="100"/>
+<Word name="1/ilk" positionX="650" positionY="200"/>
+<Connection from="4/villa" to="1/ilk" with="mod"/>
+<Word name="3/havuzlu" positionX="750" positionY="200"/>
+<Connection from="4/villa" to="3/havuzlu" with="mod"/>
+<Word name="2/yüzme" positionX="650" positionY="300"/>
+<Connection from="3/havuzlu" to="2/yüzme" with="mod"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Bunun sırrını bir tek sen biliyorsun .">
+<Word name="6/bil" positionX="750" positionY="100"/>
+<Word name="2/sır" positionX="650" positionY="200"/>
+<Connection from="6/bil" to="2/sır" with="ARG1"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/sır" to="1/bu" with="mod"/>
+<Word name="5/sen" positionX="750" positionY="200"/>
+<Connection from="6/bil" to="5/sen" with="ARG0"/>
+<Word name="3/bir 4/tek" positionX="650" positionY="300"/>
+<Connection from="5/sen" to="3/bir 4/tek" with="manner"/>
+</Amr>

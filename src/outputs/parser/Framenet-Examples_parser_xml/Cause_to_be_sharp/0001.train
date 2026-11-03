@@ -1,0 +1,9 @@
+<Amr sentence="Keserleri zağladık bugün .">
+<Word name="2/zağla" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="2/zağla" to="biz" with="ARG0"/>
+<Word name="1/keser" positionX="750" positionY="200"/>
+<Connection from="2/zağla" to="1/keser" with="ARG1"/>
+<Word name="3/bugün" positionX="850" positionY="200"/>
+<Connection from="2/zağla" to="3/bugün" with="manner"/>
+</Amr>

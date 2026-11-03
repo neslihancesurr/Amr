@@ -1,0 +1,37 @@
+<Amr sentence="Ali Antalya'ya gitmek istemediğine göre başka bir yer düşünmeliyiz .">
+<Word name="gerek" positionX="750" positionY="100"/>
+<Word name="9/düşün" positionX="650" positionY="200"/>
+<Connection from="gerek" to="9/düşün"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="9/düşün" to="biz" with="ARG0"/>
+<Word name="4/iste" positionX="650" positionY="300"/>
+<Connection from="9/düşün" to="4/iste"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="4/iste" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="4/iste" to="o" with="ARG0"/>
+<Connection from="4/iste" to="o" with="poss"/>
+<Word name="person" positionX="850" positionY="400"/>
+<Connection from="4/iste" to="person"/>
+<Word name="name" positionX="750" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ali" positionX="650" positionY="600"/>
+<Connection from="name" to="1/ali" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/git" positionX="950" positionY="400"/>
+<Connection from="4/iste" to="3/git"/>
+<Connection from="3/git" to="o" with="ARG0"/>
+<Word name="city" positionX="950" positionY="500"/>
+<Connection from="3/git" to="city"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="2/antalya" positionX="750" positionY="700"/>
+<Connection from="name" to="2/antalya" with="op1"/>
+<Word name="antalya" positionX="950" positionY="600"/>
+<Connection from="city" to="antalya" with="wiki"/>
+<Word name="5/göre" positionX="1050" positionY="400"/>
+<Connection from="4/iste" to="5/göre"/>
+<Word name="8/yer" positionX="750" positionY="300"/>
+<Connection from="9/düşün" to="8/yer"/>
+<Word name="6/başka" positionX="650" positionY="400"/>
+<Connection from="8/yer" to="6/başka" with="mod"/>
+</Amr>

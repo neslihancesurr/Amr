@@ -1,0 +1,15 @@
+<Amr sentence="Borçlarını kapatması için sürekli baskı altında tutuyorlardı .">
+<Word name="5/baskı 6/alt 7/tut" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="5/baskı 6/alt 7/tut" to="onlar" with="ARG0"/>
+<Word name="2/kapat" positionX="750" positionY="200"/>
+<Connection from="5/baskı 6/alt 7/tut" to="2/kapat" with="cause"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/kapat" to="o" with="ARG0"/>
+<Connection from="2/kapat" to="o" with="poss"/>
+<Word name="1/borç" positionX="850" positionY="300"/>
+<Connection from="2/kapat" to="1/borç"/>
+<Connection from="1/borç" to="o" with="poss"/>
+<Word name="4/sürekli" positionX="850" positionY="200"/>
+<Connection from="5/baskı 6/alt 7/tut" to="4/sürekli" with="frequency"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Yeter artık uzatma">
+<Word name="3/uzat" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/uzat" to="-" with="polarity"/>
+<Word name="sen" positionX="750" positionY="200"/>
+<Connection from="3/uzat" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="850" positionY="200"/>
+<Connection from="3/uzat" to="imperative" with="mode"/>
+<Word name="1/yeter" positionX="950" positionY="200"/>
+<Connection from="3/uzat" to="1/yeter" with="manner"/>
+<Word name="2/artık" positionX="1050" positionY="200"/>
+<Connection from="3/uzat" to="2/artık" with="manner"/>
+</Amr>

@@ -1,0 +1,18 @@
+<Amr sentence="Kocası öldüğünden beri ablasının yanında kalıyor .">
+<Word name="6/kal" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/kal" to="o" with="ARG0"/>
+<Word name="2/öl" positionX="750" positionY="200"/>
+<Connection from="6/kal" to="2/öl"/>
+<Connection from="2/öl" to="o" with="ARG0"/>
+<Connection from="2/öl" to="o" with="poss"/>
+<Word name="1/koca" positionX="850" positionY="300"/>
+<Connection from="2/öl" to="1/koca"/>
+<Connection from="1/koca" to="o" with="poss"/>
+<Word name="3/beri" positionX="950" positionY="300"/>
+<Connection from="2/öl" to="3/beri"/>
+<Word name="5/yan" positionX="850" positionY="200"/>
+<Connection from="6/kal" to="5/yan" with="location"/>
+<Word name="4/abla" positionX="750" positionY="300"/>
+<Connection from="5/yan" to="4/abla" with="mod"/>
+</Amr>

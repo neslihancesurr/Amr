@@ -1,0 +1,13 @@
+<Amr sentence="Usta çamaşır makinasının kapısını değiştirecek .">
+<Word name="5/değiştir" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/değiştir" to="o" with="ARG0"/>
+<Word name="1/usta" positionX="750" positionY="200"/>
+<Connection from="5/değiştir" to="1/usta"/>
+<Word name="4/kapı" positionX="850" positionY="200"/>
+<Connection from="5/değiştir" to="4/kapı"/>
+<Word name="3/makina" positionX="750" positionY="300"/>
+<Connection from="4/kapı" to="3/makina" with="mod"/>
+<Word name="2/çamaşır" positionX="650" positionY="400"/>
+<Connection from="3/makina" to="2/çamaşır" with="mod"/>
+</Amr>

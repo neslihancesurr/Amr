@@ -1,0 +1,15 @@
+<Amr sentence="Küçük köpek yerinden kalkarak uzağa gitti .">
+<Word name="6/git" positionX="750" positionY="100"/>
+<Word name="2/köpek" positionX="650" positionY="200"/>
+<Connection from="6/git" to="2/köpek" with="ARG0"/>
+<Word name="1/küçük" positionX="550" positionY="300"/>
+<Connection from="2/köpek" to="1/küçük" with="mod"/>
+<Word name="4/kalk" positionX="750" positionY="200"/>
+<Connection from="6/git" to="4/kalk"/>
+<Word name="3/yer" positionX="650" positionY="300"/>
+<Connection from="4/kalk" to="3/yer"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="3/yer" to="o" with="poss"/>
+<Word name="5/uzak" positionX="850" positionY="200"/>
+<Connection from="6/git" to="5/uzak" with="ARG1"/>
+</Amr>

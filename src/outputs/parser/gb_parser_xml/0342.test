@@ -1,0 +1,11 @@
+<Amr sentence="Bu akşam dışarıda yiyelim .">
+<Word name="4/ye" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="4/ye" to="biz" with="ARG0"/>
+<Word name="2/akşam" positionX="750" positionY="200"/>
+<Connection from="4/ye" to="2/akşam"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/akşam" to="1/bu" with="mod"/>
+<Word name="3/dışarı" positionX="850" positionY="200"/>
+<Connection from="4/ye" to="3/dışarı" with="location"/>
+</Amr>

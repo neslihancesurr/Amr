@@ -1,0 +1,11 @@
+<Amr sentence="Bu konuda kitaplar okumuş .">
+<Word name="4/oku" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/oku" to="o" with="ARG0"/>
+<Word name="2/konu" positionX="750" positionY="200"/>
+<Connection from="4/oku" to="2/konu" with="location"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/konu" to="1/bu" with="mod"/>
+<Word name="3/kitap" positionX="850" positionY="200"/>
+<Connection from="4/oku" to="3/kitap" with="ARG1"/>
+</Amr>

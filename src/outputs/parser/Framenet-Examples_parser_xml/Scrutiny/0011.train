@@ -1,0 +1,15 @@
+<Amr sentence="Bu konuda bütün kaynakları araştırarak derine indi .">
+<Word name="6/derin 7/in" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/derin 7/in" to="o" with="ARG0"/>
+<Word name="5/araştır" positionX="750" positionY="200"/>
+<Connection from="6/derin 7/in" to="5/araştır"/>
+<Word name="2/konu" positionX="650" positionY="300"/>
+<Connection from="5/araştır" to="2/konu" with="ARG1"/>
+<Word name="1/bu" positionX="550" positionY="400"/>
+<Connection from="2/konu" to="1/bu" with="mod"/>
+<Word name="4/kaynak" positionX="750" positionY="300"/>
+<Connection from="5/araştır" to="4/kaynak" with="ARG1"/>
+<Word name="3/bütün" positionX="650" positionY="400"/>
+<Connection from="4/kaynak" to="3/bütün" with="mod"/>
+</Amr>

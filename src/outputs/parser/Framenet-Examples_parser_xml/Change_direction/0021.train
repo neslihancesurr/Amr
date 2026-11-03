@@ -1,0 +1,8 @@
+<Amr sentence="Temizlemek için gemiyi yatırdı .">
+<Word name="3/gemi 4/yatır" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/gemi 4/yatır" to="o" with="ARG0"/>
+<Word name="1/temizle" positionX="750" positionY="200"/>
+<Connection from="3/gemi 4/yatır" to="1/temizle" with="cause"/>
+<Connection from="1/temizle" to="o" with="ARG0"/>
+</Amr>

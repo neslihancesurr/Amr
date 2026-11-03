@@ -1,0 +1,11 @@
+<Amr sentence="Yavaş mı yavaş okuyor .">
+<Word name="4/oku" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/oku" to="o" with="ARG0"/>
+<Word name="3/yavaş" positionX="750" positionY="200"/>
+<Connection from="4/oku" to="3/yavaş" with="manner"/>
+<Word name="1/yavaş" positionX="650" positionY="300"/>
+<Connection from="3/yavaş" to="1/yavaş"/>
+<Word name="2/mi" positionX="550" positionY="400"/>
+<Connection from="1/yavaş" to="2/mi"/>
+</Amr>

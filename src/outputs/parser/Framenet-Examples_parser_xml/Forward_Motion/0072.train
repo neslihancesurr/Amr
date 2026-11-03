@@ -1,0 +1,9 @@
+<Amr sentence="Genç polisler akşamları devriye geziyorlar .">
+<Word name="4/devriye 5/gez" positionX="750" positionY="100"/>
+<Word name="2/polis" positionX="650" positionY="200"/>
+<Connection from="4/devriye 5/gez" to="2/polis" with="ARG0"/>
+<Word name="1/genç" positionX="550" positionY="300"/>
+<Connection from="2/polis" to="1/genç" with="mod"/>
+<Word name="3/akşamları" positionX="750" positionY="200"/>
+<Connection from="4/devriye 5/gez" to="3/akşamları" with="manner"/>
+</Amr>

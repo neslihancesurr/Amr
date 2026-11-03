@@ -1,0 +1,11 @@
+<Amr sentence="Şu lambayı biraz dinlendirelim .">
+<Word name="4/dinlendir" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="4/dinlendir" to="biz" with="ARG0"/>
+<Word name="2/lamba" positionX="750" positionY="200"/>
+<Connection from="4/dinlendir" to="2/lamba" with="ARG1"/>
+<Word name="1/şu" positionX="650" positionY="300"/>
+<Connection from="2/lamba" to="1/şu" with="mod"/>
+<Word name="3/biraz" positionX="850" positionY="200"/>
+<Connection from="4/dinlendir" to="3/biraz" with="manner"/>
+</Amr>

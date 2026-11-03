@@ -1,0 +1,15 @@
+<Amr sentence="Yenilenen bir heyecanla tarlayı sürmeye giriştiler .">
+<Word name="6/giriş" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="6/giriş" to="onlar" with="ARG0"/>
+<Word name="3/heyecanla" positionX="750" positionY="200"/>
+<Connection from="6/giriş" to="3/heyecanla" with="manner"/>
+<Word name="1/yenilen" positionX="650" positionY="300"/>
+<Connection from="3/heyecanla" to="1/yenilen"/>
+<Word name="5/sür" positionX="850" positionY="200"/>
+<Connection from="6/giriş" to="5/sür" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="5/sür" to="o" with="ARG0"/>
+<Word name="4/tarla" positionX="850" positionY="300"/>
+<Connection from="5/sür" to="4/tarla"/>
+</Amr>

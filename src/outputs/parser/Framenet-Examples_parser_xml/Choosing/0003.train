@@ -1,0 +1,11 @@
+<Amr sentence="Sen de bu iş için tam adamını bulmuşsun .">
+<Word name="6/tam 7/adam 8/bul" positionX="750" positionY="100"/>
+<Word name="1/sen" positionX="650" positionY="200"/>
+<Connection from="6/tam 7/adam 8/bul" to="1/sen" with="ARG0"/>
+<Word name="2/de" positionX="550" positionY="300"/>
+<Connection from="1/sen" to="2/de"/>
+<Word name="4/iş" positionX="750" positionY="200"/>
+<Connection from="6/tam 7/adam 8/bul" to="4/iş" with="cause"/>
+<Word name="3/bu" positionX="650" positionY="300"/>
+<Connection from="4/iş" to="3/bu" with="mod"/>
+</Amr>

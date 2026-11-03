@@ -1,0 +1,27 @@
+<Amr sentence="Herkes Nazlı'nın son resimlerine bayılırken ben onları ruhsuz buldum .">
+<Word name="9/bul" positionX="750" positionY="100"/>
+<Word name="5/bayıl" positionX="650" positionY="200"/>
+<Connection from="9/bul" to="5/bayıl"/>
+<Word name="1/herkes" positionX="550" positionY="300"/>
+<Connection from="5/bayıl" to="1/herkes"/>
+<Word name="onlar" positionX="450" positionY="400"/>
+<Connection from="1/herkes" to="onlar" with="poss"/>
+<Word name="4/resim" positionX="650" positionY="300"/>
+<Connection from="5/bayıl" to="4/resim"/>
+<Word name="person" positionX="550" positionY="400"/>
+<Connection from="4/resim" to="person"/>
+<Word name="name" positionX="450" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/nazlı" positionX="350" positionY="600"/>
+<Connection from="name" to="2/nazlı" with="op1"/>
+<Word name="-" positionX="550" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/son" positionX="650" positionY="400"/>
+<Connection from="4/resim" to="3/son" with="mod"/>
+<Word name="6/ben" positionX="750" positionY="200"/>
+<Connection from="9/bul" to="6/ben"/>
+<Word name="7/o" positionX="850" positionY="200"/>
+<Connection from="9/bul" to="7/o"/>
+<Word name="8/ruhsuz" positionX="950" positionY="200"/>
+<Connection from="9/bul" to="8/ruhsuz"/>
+</Amr>

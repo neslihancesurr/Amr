@@ -1,0 +1,9 @@
+<Amr sentence="Yemleri elde tutmalıydı .">
+<Word name="gerek" positionX="750" positionY="100"/>
+<Word name="2/el 3/tut" positionX="650" positionY="200"/>
+<Connection from="gerek" to="2/el 3/tut"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/el 3/tut" to="o" with="ARG0"/>
+<Word name="1/yem" positionX="650" positionY="300"/>
+<Connection from="2/el 3/tut" to="1/yem" with="ARG1"/>
+</Amr>

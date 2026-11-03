@@ -1,0 +1,11 @@
+<Amr sentence="Kırılacakları da kağıtladık .">
+<Word name="3/kağıtla" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="3/kağıtla" to="biz" with="ARG0"/>
+<Word name="1/kır" positionX="750" positionY="200"/>
+<Connection from="3/kağıtla" to="1/kır" with="ARG1"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="1/kır" to="onlar" with="ARG0"/>
+<Word name="2/da" positionX="750" positionY="300"/>
+<Connection from="1/kır" to="2/da" with="mod"/>
+</Amr>

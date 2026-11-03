@@ -1,0 +1,17 @@
+<Amr sentence="Bir magazin dergisi bu ayki sayısında onun yaşamını mercek altına alıyor .">
+<Word name="9/mercek 10/alt 11/al" positionX="750" positionY="100"/>
+<Word name="3/dergi" positionX="650" positionY="200"/>
+<Connection from="9/mercek 10/alt 11/al" to="3/dergi" with="ARG0"/>
+<Word name="2/magazin" positionX="550" positionY="300"/>
+<Connection from="3/dergi" to="2/magazin" with="mod"/>
+<Word name="6/sayı" positionX="750" positionY="200"/>
+<Connection from="9/mercek 10/alt 11/al" to="6/sayı" with="location"/>
+<Word name="5/ay" positionX="650" positionY="300"/>
+<Connection from="6/sayı" to="5/ay" with="mod"/>
+<Word name="4/bu" positionX="550" positionY="400"/>
+<Connection from="5/ay" to="4/bu" with="mod"/>
+<Word name="8/yaşam" positionX="850" positionY="200"/>
+<Connection from="9/mercek 10/alt 11/al" to="8/yaşam" with="ARG1"/>
+<Word name="7/o" positionX="750" positionY="300"/>
+<Connection from="8/yaşam" to="7/o" with="mod"/>
+</Amr>

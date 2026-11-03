@@ -1,0 +1,17 @@
+<Amr sentence="Daha hiçbir şey belli değildi ama o dereyi görmeden paçaları sıvamıştı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="8/dere 9/gör 10/paça 11/sıva" positionX="650" positionY="200"/>
+<Connection from="and" to="8/dere 9/gör 10/paça 11/sıva" with="op1"/>
+<Word name="7/o" positionX="550" positionY="300"/>
+<Connection from="8/dere 9/gör 10/paça 11/sıva" to="7/o" with="ARG0"/>
+<Word name="4/belli" positionX="750" positionY="200"/>
+<Connection from="and" to="4/belli" with="op2"/>
+<Word name="1/daha" positionX="650" positionY="300"/>
+<Connection from="4/belli" to="1/daha" with="degree"/>
+<Word name="3/şey" positionX="750" positionY="300"/>
+<Connection from="4/belli" to="3/şey"/>
+<Word name="2/hiçbir" positionX="650" positionY="400"/>
+<Connection from="3/şey" to="2/hiçbir" with="mod"/>
+<Word name="-" positionX="850" positionY="300"/>
+<Connection from="4/belli" to="-" with="polarity"/>
+</Amr>

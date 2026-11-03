@@ -1,0 +1,13 @@
+<Amr sentence="Gördüklerim binbir çeşit uğursuzluğa delalet ediyormuş .">
+<Word name="5/delalet 6/et" positionX="750" positionY="100"/>
+<Word name="1/gör" positionX="650" positionY="200"/>
+<Connection from="5/delalet 6/et" to="1/gör" with="ARG0"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="1/gör" to="ben" with="ARG0"/>
+<Word name="4/uğursuz" positionX="750" positionY="200"/>
+<Connection from="5/delalet 6/et" to="4/uğursuz" with="ARG1"/>
+<Word name="3/çeşit" positionX="650" positionY="300"/>
+<Connection from="4/uğursuz" to="3/çeşit" with="mod"/>
+<Word name="2/binbir" positionX="550" positionY="400"/>
+<Connection from="3/çeşit" to="2/binbir"/>
+</Amr>

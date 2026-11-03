@@ -1,0 +1,23 @@
+<Amr sentence="Küçük kardeşi bile Ayşe'yi bu tavrı yüzünden aşağıladı .">
+<Word name="8/aşağıla" positionX="750" positionY="100"/>
+<Word name="2/kardeş" positionX="650" positionY="200"/>
+<Connection from="8/aşağıla" to="2/kardeş" with="ARG0"/>
+<Word name="1/küçük" positionX="550" positionY="300"/>
+<Connection from="2/kardeş" to="1/küçük" with="mod"/>
+<Word name="3/bile" positionX="650" positionY="300"/>
+<Connection from="2/kardeş" to="3/bile" with="manner"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="8/aşağıla" to="person" with="ARG1"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="4/ayşe" positionX="550" positionY="400"/>
+<Connection from="name" to="4/ayşe" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="7/yüzünden" positionX="850" positionY="200"/>
+<Connection from="8/aşağıla" to="7/yüzünden" with="ARG2"/>
+<Word name="6/tavır" positionX="750" positionY="300"/>
+<Connection from="7/yüzünden" to="6/tavır" with="mod"/>
+<Word name="5/bu" positionX="650" positionY="400"/>
+<Connection from="6/tavır" to="5/bu" with="mod"/>
+</Amr>

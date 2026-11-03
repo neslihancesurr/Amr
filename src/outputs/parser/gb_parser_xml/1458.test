@@ -1,0 +1,11 @@
+<Amr sentence="Acaba misafirler saat kaçta gelecek ?">
+<Word name="5/gel" positionX="750" positionY="100"/>
+<Word name="1/acaba" positionX="650" positionY="200"/>
+<Connection from="5/gel" to="1/acaba" with="manner"/>
+<Word name="2/misafir" positionX="750" positionY="200"/>
+<Connection from="5/gel" to="2/misafir" with="ARG0"/>
+<Word name="4/kaç" positionX="850" positionY="200"/>
+<Connection from="5/gel" to="4/kaç" with="location"/>
+<Word name="3/saat" positionX="750" positionY="300"/>
+<Connection from="4/kaç" to="3/saat" with="mod"/>
+</Amr>

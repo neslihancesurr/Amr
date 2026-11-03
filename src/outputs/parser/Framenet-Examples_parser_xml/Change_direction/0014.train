@@ -1,0 +1,7 @@
+<Amr sentence="Gemi kendiliğinden saldı .">
+<Word name="3/sal" positionX="750" positionY="100"/>
+<Word name="1/gemi" positionX="650" positionY="200"/>
+<Connection from="3/sal" to="1/gemi" with="ARG0"/>
+<Word name="2/kendiliğinden" positionX="750" positionY="200"/>
+<Connection from="3/sal" to="2/kendiliğinden" with="manner"/>
+</Amr>

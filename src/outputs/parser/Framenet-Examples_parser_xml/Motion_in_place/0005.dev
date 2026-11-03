@@ -1,0 +1,9 @@
+<Amr sentence="İpek gibi saçları birdenbire yelelenirdi .">
+<Word name="5/yelelen" positionX="750" positionY="100"/>
+<Word name="3/saç" positionX="650" positionY="200"/>
+<Connection from="5/yelelen" to="3/saç" with="ARG0"/>
+<Word name="1/ipek 2/gibi" positionX="550" positionY="300"/>
+<Connection from="3/saç" to="1/ipek 2/gibi" with="mod"/>
+<Word name="4/birdenbire" positionX="750" positionY="200"/>
+<Connection from="5/yelelen" to="4/birdenbire" with="manner"/>
+</Amr>

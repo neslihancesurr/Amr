@@ -1,0 +1,14 @@
+<Amr sentence="Sizin kendinizi eleştirmeniz ne kadar kolaymış !">
+<Word name="6/kolay" positionX="750" positionY="100"/>
+<Word name="3/eleştirme" positionX="650" positionY="200"/>
+<Connection from="6/kolay" to="3/eleştirme"/>
+<Word name="siz" positionX="550" positionY="300"/>
+<Connection from="3/eleştirme" to="siz" with="poss"/>
+<Word name="1/siz" positionX="650" positionY="300"/>
+<Connection from="3/eleştirme" to="1/siz"/>
+<Word name="2/kendi" positionX="750" positionY="300"/>
+<Connection from="3/eleştirme" to="2/kendi"/>
+<Connection from="2/kendi" to="siz" with="poss"/>
+<Word name="4/ne" positionX="750" positionY="200"/>
+<Connection from="6/kolay" to="4/ne" with="extent"/>
+</Amr>

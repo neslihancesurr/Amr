@@ -1,0 +1,15 @@
+<Amr sentence="Vehibe benden önce zihnini topladı .">
+<Word name="4/zihin 5/topla" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="4/zihin 5/topla" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/Vehibe" positionX="450" positionY="400"/>
+<Connection from="name" to="1/Vehibe" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/ben" positionX="750" positionY="200"/>
+<Connection from="4/zihin 5/topla" to="2/ben"/>
+<Word name="3/önce" positionX="650" positionY="300"/>
+<Connection from="2/ben" to="3/önce"/>
+</Amr>

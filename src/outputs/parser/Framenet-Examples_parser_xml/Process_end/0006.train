@@ -1,0 +1,9 @@
+<Amr sentence="O çocukluk yılları küf bağladı .">
+<Word name="4/küf 5/bağla" positionX="750" positionY="100"/>
+<Word name="3/yıl" positionX="650" positionY="200"/>
+<Connection from="4/küf 5/bağla" to="3/yıl" with="ARG1"/>
+<Word name="1/o" positionX="550" positionY="300"/>
+<Connection from="3/yıl" to="1/o" with="mod"/>
+<Word name="2/çocukluk" positionX="650" positionY="300"/>
+<Connection from="3/yıl" to="2/çocukluk" with="mod"/>
+</Amr>

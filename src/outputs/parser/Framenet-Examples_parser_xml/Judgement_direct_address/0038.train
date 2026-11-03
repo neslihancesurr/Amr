@@ -1,0 +1,12 @@
+<Amr sentence="Kayınvalidesini her yerde keser .">
+<Word name="4/kes" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/kes" to="o" with="ARG0"/>
+<Word name="1/kayınvalide" positionX="750" positionY="200"/>
+<Connection from="4/kes" to="1/kayınvalide" with="ARG1"/>
+<Connection from="1/kayınvalide" to="o" with="poss"/>
+<Word name="3/yer" positionX="850" positionY="200"/>
+<Connection from="4/kes" to="3/yer" with="location"/>
+<Word name="2/her" positionX="750" positionY="300"/>
+<Connection from="3/yer" to="2/her" with="mod"/>
+</Amr>

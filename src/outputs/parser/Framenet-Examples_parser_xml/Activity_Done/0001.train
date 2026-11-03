@@ -1,0 +1,15 @@
+<Amr sentence="Bu işi de böyle alelacele bağlayıverdik .">
+<Word name="6/bağla" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="6/bağla" to="biz" with="ARG0"/>
+<Word name="2/iş" positionX="750" positionY="200"/>
+<Connection from="6/bağla" to="2/iş" with="ARG1"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/iş" to="1/bu" with="mod"/>
+<Word name="3/de" positionX="750" positionY="300"/>
+<Connection from="2/iş" to="3/de" with="manner"/>
+<Word name="4/böyle" positionX="850" positionY="200"/>
+<Connection from="6/bağla" to="4/böyle" with="manner"/>
+<Word name="5/alelacele" positionX="950" positionY="200"/>
+<Connection from="6/bağla" to="5/alelacele" with="manner"/>
+</Amr>

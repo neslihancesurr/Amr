@@ -1,0 +1,9 @@
+<Amr sentence="Kavga ettikten sonra yürüdüm gittim .">
+<Word name="4/yürü 5/git" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/yürü 5/git" to="ben" with="ARG0"/>
+<Word name="1/kavga 2/et" positionX="750" positionY="200"/>
+<Connection from="4/yürü 5/git" to="1/kavga 2/et"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="1/kavga 2/et" to="o" with="ARG0"/>
+</Amr>

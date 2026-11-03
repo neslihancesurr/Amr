@@ -1,0 +1,13 @@
+<Amr sentence="yeşil bir atkı ya da şapka">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/şapka" positionX="650" positionY="200"/>
+<Connection from="and" to="6/şapka" with="op1"/>
+<Word name="4/ya" positionX="550" positionY="300"/>
+<Connection from="6/şapka" to="4/ya"/>
+<Word name="5/da" positionX="450" positionY="400"/>
+<Connection from="4/ya" to="5/da"/>
+<Word name="3/atkı" positionX="750" positionY="200"/>
+<Connection from="and" to="3/atkı" with="op2"/>
+<Word name="1/yeşil" positionX="650" positionY="300"/>
+<Connection from="3/atkı" to="1/yeşil" with="mod"/>
+</Amr>

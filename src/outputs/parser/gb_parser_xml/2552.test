@@ -1,0 +1,17 @@
+<Amr sentence="Vaktiniz varsa biraz deniz kenarında yürüyelim .">
+<Word name="6/yürü" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="6/yürü" to="biz" with="ARG0"/>
+<Word name="2/var" positionX="750" positionY="200"/>
+<Connection from="6/yürü" to="2/var" with="cond"/>
+<Word name="1/vakit" positionX="650" positionY="300"/>
+<Connection from="2/var" to="1/vakit"/>
+<Word name="siz" positionX="550" positionY="400"/>
+<Connection from="1/vakit" to="siz" with="poss"/>
+<Word name="3/biraz" positionX="850" positionY="200"/>
+<Connection from="6/yürü" to="3/biraz" with="manner"/>
+<Word name="5/kenar" positionX="950" positionY="200"/>
+<Connection from="6/yürü" to="5/kenar" with="location"/>
+<Word name="4/deniz" positionX="850" positionY="300"/>
+<Connection from="5/kenar" to="4/deniz" with="mod"/>
+</Amr>

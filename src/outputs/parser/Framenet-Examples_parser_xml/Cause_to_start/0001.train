@@ -1,0 +1,22 @@
+<Amr sentence="Oğlunun tüm istediklerini aynı sene içinde oldurttu .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="7/ol" positionX="650" positionY="200"/>
+<Connection from="yap" to="7/ol"/>
+<Word name="3/iste" positionX="550" positionY="300"/>
+<Connection from="7/ol" to="3/iste" with="ARG0"/>
+<Word name="onlar" positionX="450" positionY="400"/>
+<Connection from="3/iste" to="onlar" with="ARG0"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="3/iste" to="o" with="poss"/>
+<Word name="1/oğul" positionX="650" positionY="400"/>
+<Connection from="3/iste" to="1/oğul"/>
+<Connection from="1/oğul" to="o" with="poss"/>
+<Word name="2/tüm" positionX="750" positionY="400"/>
+<Connection from="3/iste" to="2/tüm" with="mod"/>
+<Word name="6/içinde" positionX="650" positionY="300"/>
+<Connection from="7/ol" to="6/içinde"/>
+<Word name="5/sene" positionX="550" positionY="400"/>
+<Connection from="6/içinde" to="5/sene" with="mod"/>
+<Word name="4/aynı" positionX="450" positionY="500"/>
+<Connection from="5/sene" to="4/aynı" with="mod"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Sen güneşte fazla kalmışa benziyorsun .">
+<Word name="5/benze" positionX="750" positionY="100"/>
+<Word name="1/sen" positionX="650" positionY="200"/>
+<Connection from="5/benze" to="1/sen"/>
+<Word name="4/kalmış" positionX="750" positionY="200"/>
+<Connection from="5/benze" to="4/kalmış"/>
+<Word name="2/güneş" positionX="650" positionY="300"/>
+<Connection from="4/kalmış" to="2/güneş" with="location"/>
+<Word name="3/fazla" positionX="750" positionY="300"/>
+<Connection from="4/kalmış" to="3/fazla" with="degree"/>
+</Amr>

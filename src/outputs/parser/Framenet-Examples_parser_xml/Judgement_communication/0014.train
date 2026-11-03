@@ -1,0 +1,16 @@
+<Amr sentence="Babam kardeşimi yanına çağırıp künyesini okudu .">
+<Word name="5/künye 6/oku" positionX="750" positionY="100"/>
+<Word name="1/baba" positionX="650" positionY="200"/>
+<Connection from="5/künye 6/oku" to="1/baba" with="ARG0"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="1/baba" to="ben" with="poss"/>
+<Word name="4/çağır" positionX="750" positionY="200"/>
+<Connection from="5/künye 6/oku" to="4/çağır"/>
+<Word name="2/kardeş" positionX="650" positionY="300"/>
+<Connection from="4/çağır" to="2/kardeş" with="ARG1"/>
+<Connection from="2/kardeş" to="ben" with="poss"/>
+<Word name="3/yan" positionX="750" positionY="300"/>
+<Connection from="4/çağır" to="3/yan"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="3/yan" to="o" with="poss"/>
+</Amr>

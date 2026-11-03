@@ -1,0 +1,9 @@
+<Amr sentence="Süzüldü açıktan iki sandal .">
+<Word name="1/süzül" positionX="750" positionY="100"/>
+<Word name="2/açık" positionX="650" positionY="200"/>
+<Connection from="1/süzül" to="2/açık"/>
+<Word name="4/sandal" positionX="750" positionY="200"/>
+<Connection from="1/süzül" to="4/sandal" with="ARG0"/>
+<Word name="3/iki" positionX="650" positionY="300"/>
+<Connection from="4/sandal" to="3/iki"/>
+</Amr>

@@ -1,0 +1,22 @@
+<Amr sentence="Ben diyorum ki herkes kendi yiyeceklerini kendi getirsin .">
+<Word name="2/de 3/ki" positionX="750" positionY="100"/>
+<Word name="1/ben" positionX="650" positionY="200"/>
+<Connection from="2/de 3/ki" to="1/ben"/>
+<Word name="8/getir" positionX="750" positionY="200"/>
+<Connection from="2/de 3/ki" to="8/getir"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="8/getir" to="o" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="300"/>
+<Connection from="8/getir" to="imperative" with="mode"/>
+<Word name="4/herkes" positionX="850" positionY="300"/>
+<Connection from="8/getir" to="4/herkes"/>
+<Word name="onlar" positionX="750" positionY="400"/>
+<Connection from="4/herkes" to="onlar" with="poss"/>
+<Word name="6/yiyecek" positionX="950" positionY="300"/>
+<Connection from="8/getir" to="6/yiyecek"/>
+<Word name="5/kendi" positionX="850" positionY="400"/>
+<Connection from="6/yiyecek" to="5/kendi" with="mod"/>
+<Word name="7/kendi" positionX="1050" positionY="300"/>
+<Connection from="8/getir" to="7/kendi"/>
+<Connection from="7/kendi" to="o" with="poss"/>
+</Amr>

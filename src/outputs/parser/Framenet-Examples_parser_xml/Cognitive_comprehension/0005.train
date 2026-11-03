@@ -1,0 +1,11 @@
+<Amr sentence="Onun bildiklerini de ağzından kaptım .">
+<Word name="4/ağız 5/kap" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/ağız 5/kap" to="ben" with="ARG0"/>
+<Word name="2/bildik" positionX="750" positionY="200"/>
+<Connection from="4/ağız 5/kap" to="2/bildik" with="ARG1"/>
+<Word name="1/o" positionX="650" positionY="300"/>
+<Connection from="2/bildik" to="1/o" with="mod"/>
+<Word name="3/de" positionX="750" positionY="300"/>
+<Connection from="2/bildik" to="3/de"/>
+</Amr>

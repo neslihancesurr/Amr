@@ -1,0 +1,25 @@
+<Amr sentence="Sen acemisin , Ayşe ile oynarsan seni mars eder .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/acem" positionX="650" positionY="200"/>
+<Connection from="and" to="2/acem" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/acem" to="o" with="poss"/>
+<Word name="1/sen" positionX="650" positionY="300"/>
+<Connection from="2/acem" to="1/sen"/>
+<Word name="8/mars 9/et" positionX="750" positionY="200"/>
+<Connection from="and" to="8/mars 9/et" with="op2"/>
+<Word name="6/oyna" positionX="650" positionY="300"/>
+<Connection from="8/mars 9/et" to="6/oyna" with="cond"/>
+<Word name="person" positionX="550" positionY="400"/>
+<Connection from="6/oyna" to="person"/>
+<Word name="name" positionX="450" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="4/ayşe" positionX="350" positionY="600"/>
+<Connection from="name" to="4/ayşe" with="op1"/>
+<Word name="-" positionX="550" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/ile" positionX="650" positionY="500"/>
+<Connection from="person" to="5/ile"/>
+<Word name="7/sen" positionX="750" positionY="300"/>
+<Connection from="8/mars 9/et" to="7/sen" with="ARG1"/>
+</Amr>

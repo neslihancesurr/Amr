@@ -1,0 +1,11 @@
+<Amr sentence="Uzun süre sonra afiyet buldum .">
+<Word name="4/afiyet 5/bul" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/afiyet 5/bul" to="ben" with="ARG0"/>
+<Word name="2/süre" positionX="750" positionY="200"/>
+<Connection from="4/afiyet 5/bul" to="2/süre"/>
+<Word name="1/uzun" positionX="650" positionY="300"/>
+<Connection from="2/süre" to="1/uzun" with="mod"/>
+<Word name="3/sonra" positionX="750" positionY="300"/>
+<Connection from="2/süre" to="3/sonra"/>
+</Amr>

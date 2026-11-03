@@ -1,0 +1,15 @@
+<Amr sentence="Bu yaşta seni anlayamaz .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="4/anla" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="4/anla"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="4/anla" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="4/anla" to="o" with="ARG0"/>
+<Word name="2/yaş" positionX="750" positionY="300"/>
+<Connection from="4/anla" to="2/yaş" with="location"/>
+<Word name="1/bu" positionX="650" positionY="400"/>
+<Connection from="2/yaş" to="1/bu" with="mod"/>
+<Word name="3/sen" positionX="850" positionY="300"/>
+<Connection from="4/anla" to="3/sen"/>
+</Amr>

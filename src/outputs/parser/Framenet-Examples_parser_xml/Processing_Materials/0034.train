@@ -1,0 +1,9 @@
+<Amr sentence="Levhaları bugün kaplayacağız .">
+<Word name="3/kapla" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="3/kapla" to="biz" with="ARG0"/>
+<Word name="1/levha" positionX="750" positionY="200"/>
+<Connection from="3/kapla" to="1/levha" with="ARG1"/>
+<Word name="2/bugün" positionX="850" positionY="200"/>
+<Connection from="3/kapla" to="2/bugün" with="manner"/>
+</Amr>

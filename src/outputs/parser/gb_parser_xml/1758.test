@@ -1,0 +1,15 @@
+<Amr sentence="Bu parayı babana verin .">
+<Word name="4/ver" positionX="750" positionY="100"/>
+<Word name="siz" positionX="650" positionY="200"/>
+<Connection from="4/ver" to="siz" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="4/ver" to="imperative" with="mode"/>
+<Word name="2/para" positionX="850" positionY="200"/>
+<Connection from="4/ver" to="2/para" with="ARG1"/>
+<Word name="1/bu" positionX="750" positionY="300"/>
+<Connection from="2/para" to="1/bu" with="mod"/>
+<Word name="3/baba" positionX="950" positionY="200"/>
+<Connection from="4/ver" to="3/baba" with="ARG2"/>
+<Word name="sen" positionX="850" positionY="300"/>
+<Connection from="3/baba" to="sen" with="poss"/>
+</Amr>

@@ -1,0 +1,20 @@
+<Amr sentence="Ali'nin patronu onu sevmiyor olabilir .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="5/ol" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="5/ol"/>
+<Word name="4/sev" positionX="550" positionY="300"/>
+<Connection from="5/ol" to="4/sev"/>
+<Word name="-" positionX="450" positionY="400"/>
+<Connection from="4/sev" to="-" with="polarity"/>
+<Word name="2/patron" positionX="550" positionY="400"/>
+<Connection from="4/sev" to="2/patron" with="ARG0"/>
+<Word name="person" positionX="450" positionY="500"/>
+<Connection from="2/patron" to="person"/>
+<Word name="name" positionX="350" positionY="600"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ali" positionX="250" positionY="700"/>
+<Connection from="name" to="1/ali" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/o" positionX="650" positionY="400"/>
+<Connection from="4/sev" to="3/o"/>
+</Amr>

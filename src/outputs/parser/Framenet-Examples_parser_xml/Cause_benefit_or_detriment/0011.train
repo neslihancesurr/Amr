@@ -1,0 +1,14 @@
+<Amr sentence="Kardeşi miraslar konusunda abisini aldattı .">
+<Word name="5/aldat" positionX="750" positionY="100"/>
+<Word name="1/kardeş" positionX="650" positionY="200"/>
+<Connection from="5/aldat" to="1/kardeş" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/kardeş" to="o" with="poss"/>
+<Word name="3/konu" positionX="750" positionY="200"/>
+<Connection from="5/aldat" to="3/konu" with="location"/>
+<Word name="2/miras" positionX="650" positionY="300"/>
+<Connection from="3/konu" to="2/miras" with="mod"/>
+<Word name="4/abi" positionX="850" positionY="200"/>
+<Connection from="5/aldat" to="4/abi" with="ARG1"/>
+<Connection from="4/abi" to="o" with="poss"/>
+</Amr>

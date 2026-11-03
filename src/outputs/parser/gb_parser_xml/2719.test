@@ -1,0 +1,25 @@
+<Amr sentence="Koşmakmış , yüzmekmiş , hiç öyle sporla filan uğraştığı yok .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/koş" positionX="650" positionY="200"/>
+<Connection from="and" to="1/koş" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/koş" to="o" with="ARG0"/>
+<Word name="3/yüz" positionX="650" positionY="300"/>
+<Connection from="1/koş" to="3/yüz"/>
+<Connection from="3/yüz" to="o" with="ARG0"/>
+<Word name="10/yok" positionX="750" positionY="200"/>
+<Connection from="and" to="10/yok" with="op2"/>
+<Connection from="10/yok" to="and"/>
+<Word name="5/hiç" positionX="750" positionY="300"/>
+<Connection from="10/yok" to="5/hiç" with="degree"/>
+<Word name="6/öyle" positionX="850" positionY="300"/>
+<Connection from="10/yok" to="6/öyle" with="manner"/>
+<Word name="9/uğraş" positionX="950" positionY="300"/>
+<Connection from="10/yok" to="9/uğraş"/>
+<Connection from="9/uğraş" to="o" with="ARG0"/>
+<Connection from="9/uğraş" to="o" with="poss"/>
+<Word name="7/spor" positionX="1050" positionY="400"/>
+<Connection from="9/uğraş" to="7/spor" with="instrument"/>
+<Word name="8/filan" positionX="950" positionY="500"/>
+<Connection from="7/spor" to="8/filan" with="mod"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Genç adam , iskeleden zamkinos etmişti .">
+<Word name="5/zamkinos 6/et" positionX="750" positionY="100"/>
+<Word name="2/adam" positionX="650" positionY="200"/>
+<Connection from="5/zamkinos 6/et" to="2/adam" with="ARG0"/>
+<Word name="1/genç" positionX="550" positionY="300"/>
+<Connection from="2/adam" to="1/genç" with="mod"/>
+<Word name="4/iskele" positionX="750" positionY="200"/>
+<Connection from="5/zamkinos 6/et" to="4/iskele" with="ARG1"/>
+</Amr>

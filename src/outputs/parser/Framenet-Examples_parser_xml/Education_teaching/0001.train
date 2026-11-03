@@ -1,0 +1,11 @@
+<Amr sentence="Matematiği bana babam öğretti .">
+<Word name="4/öğret" positionX="750" positionY="100"/>
+<Word name="1/matematik" positionX="650" positionY="200"/>
+<Connection from="4/öğret" to="1/matematik" with="ARG1"/>
+<Word name="2/ben" positionX="750" positionY="200"/>
+<Connection from="4/öğret" to="2/ben" with="ARG2"/>
+<Word name="3/baba" positionX="850" positionY="200"/>
+<Connection from="4/öğret" to="3/baba" with="ARG0"/>
+<Word name="ben" positionX="750" positionY="300"/>
+<Connection from="3/baba" to="ben" with="poss"/>
+</Amr>

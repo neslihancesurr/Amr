@@ -1,0 +1,11 @@
+<Amr sentence="Ne diye karıştırıyorsun o çekmeceyi ?">
+<Word name="3/karıştır" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="3/karıştır" to="sen" with="ARG0"/>
+<Word name="1/ne 2/diye" positionX="750" positionY="200"/>
+<Connection from="3/karıştır" to="1/ne 2/diye"/>
+<Word name="5/çekmece" positionX="850" positionY="200"/>
+<Connection from="3/karıştır" to="5/çekmece" with="ARG1"/>
+<Word name="4/o" positionX="750" positionY="300"/>
+<Connection from="5/çekmece" to="4/o" with="mod"/>
+</Amr>

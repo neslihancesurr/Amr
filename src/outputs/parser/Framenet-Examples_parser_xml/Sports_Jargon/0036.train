@@ -1,0 +1,25 @@
+<Amr sentence="Melisa'nın atağına Aysu ve Ceyda blok yaptı .">
+<Word name="6/blok 7/yap" positionX="750" positionY="100"/>
+<Word name="2/atak" positionX="650" positionY="200"/>
+<Connection from="6/blok 7/yap" to="2/atak" with="ARG1"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="2/atak" to="person"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/melisa" positionX="350" positionY="500"/>
+<Connection from="name" to="1/melisa" with="op1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="and" positionX="750" positionY="200"/>
+<Connection from="6/blok 7/yap" to="and"/>
+<Connection from="and" to="person" with="ARG0"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="5/ceyda" positionX="450" positionY="500"/>
+<Connection from="name" to="5/ceyda" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="and" to="person" with="ARG0"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/aysu" positionX="550" positionY="500"/>
+<Connection from="name" to="3/aysu" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

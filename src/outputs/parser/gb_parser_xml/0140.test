@@ -1,0 +1,5 @@
+<Amr sentence="Yunan müziği">
+<Word name="2/müzik" positionX="750" positionY="100"/>
+<Word name="1/yunan" positionX="650" positionY="200"/>
+<Connection from="2/müzik" to="1/yunan" with="mod"/>
+</Amr>

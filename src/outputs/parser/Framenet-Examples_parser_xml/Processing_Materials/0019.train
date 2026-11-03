@@ -1,0 +1,11 @@
+<Amr sentence="Tüm mobilyaları gümüşletti .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="3/gümüşle" positionX="650" positionY="200"/>
+<Connection from="yap" to="3/gümüşle"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/gümüşle" to="o" with="ARG0"/>
+<Word name="2/mobilya" positionX="650" positionY="300"/>
+<Connection from="3/gümüşle" to="2/mobilya" with="ARG1"/>
+<Word name="1/tüm" positionX="550" positionY="400"/>
+<Connection from="2/mobilya" to="1/tüm" with="mod"/>
+</Amr>

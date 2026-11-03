@@ -1,0 +1,5 @@
+<Amr sentence="Okul yüzüne hasret kaldık .">
+<Word name="2/yüz 3/hasret 4/kal" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="2/yüz 3/hasret 4/kal" to="biz" with="ARG0"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Kardeşi gitmek istediğinde önüne dikildi .">
+<Word name="4/ön 5/dikil" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/ön 5/dikil" to="o" with="ARG0"/>
+<Word name="3/iste" positionX="750" positionY="200"/>
+<Connection from="4/ön 5/dikil" to="3/iste"/>
+<Connection from="3/iste" to="o" with="poss"/>
+<Word name="1/kardeş" positionX="750" positionY="300"/>
+<Connection from="3/iste" to="1/kardeş" with="ARG0"/>
+<Connection from="1/kardeş" to="o" with="poss"/>
+<Word name="2/git" positionX="850" positionY="300"/>
+<Connection from="3/iste" to="2/git" with="ARG1"/>
+</Amr>

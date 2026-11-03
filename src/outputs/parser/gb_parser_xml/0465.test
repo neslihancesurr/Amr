@@ -1,0 +1,12 @@
+<Amr sentence="Beni anlamamakta inat ediyor .">
+<Word name="3/inat 4/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/inat 4/et" to="o" with="ARG0"/>
+<Word name="2/anla" positionX="750" positionY="200"/>
+<Connection from="3/inat 4/et" to="2/anla"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="2/anla" to="-" with="polarity"/>
+<Connection from="2/anla" to="o" with="ARG0"/>
+<Word name="1/ben" positionX="850" positionY="300"/>
+<Connection from="2/anla" to="1/ben" with="ARG1"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Boğazım gıcıklanıyor .">
+<Word name="2/gıcıklan" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="2/gıcıklan" to="o" with="ARG0"/>
+<Word name="1/boğaz" positionX="750" positionY="200"/>
+<Connection from="2/gıcıklan" to="1/boğaz" with="ARG1"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="1/boğaz" to="ben" with="poss"/>
+</Amr>

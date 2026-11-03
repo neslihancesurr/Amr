@@ -1,0 +1,11 @@
+<Amr sentence="Anlayamıyorum ki !">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="1/anla" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="1/anla"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="1/anla" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="1/anla" to="ben" with="ARG0"/>
+<Word name="2/ki" positionX="750" positionY="300"/>
+<Connection from="1/anla" to="2/ki"/>
+</Amr>

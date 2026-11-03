@@ -1,0 +1,13 @@
+<Amr sentence="Dün otuz üç mektup geldi .">
+<Word name="5/gel" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/gel" to="o" with="ARG0"/>
+<Word name="1/dün" positionX="750" positionY="200"/>
+<Connection from="5/gel" to="1/dün"/>
+<Word name="4/mektup" positionX="850" positionY="200"/>
+<Connection from="5/gel" to="4/mektup"/>
+<Word name="3/üç" positionX="750" positionY="300"/>
+<Connection from="4/mektup" to="3/üç"/>
+<Word name="2/otuz" positionX="650" positionY="400"/>
+<Connection from="3/üç" to="2/otuz"/>
+</Amr>

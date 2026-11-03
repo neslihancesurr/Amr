@@ -1,0 +1,17 @@
+<Amr sentence="Selim Bey evdeler mi acaba ?">
+<Word name="3/ev:location" positionX="750" positionY="100"/>
+<Word name="2/bey" positionX="650" positionY="200"/>
+<Connection from="3/ev:location" to="2/bey"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="2/bey" to="person"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/selim" positionX="350" positionY="500"/>
+<Connection from="name" to="1/selim" with="op1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/mi" positionX="750" positionY="200"/>
+<Connection from="3/ev:location" to="4/mi"/>
+<Word name="5/acaba" positionX="850" positionY="200"/>
+<Connection from="3/ev:location" to="5/acaba" with="manner"/>
+</Amr>

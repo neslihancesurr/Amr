@@ -1,0 +1,7 @@
+<Amr sentence="Körler parmaklarıyla görürler .">
+<Word name="3/gör" positionX="750" positionY="100"/>
+<Word name="1/kör" positionX="650" positionY="200"/>
+<Connection from="3/gör" to="1/kör" with="ARG0"/>
+<Word name="2/parmak" positionX="750" positionY="200"/>
+<Connection from="3/gör" to="2/parmak" with="instrument"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Biz seni okulu bitirdin addediyoruz .">
+<Word name="5/addet" positionX="750" positionY="100"/>
+<Word name="1/biz" positionX="650" positionY="200"/>
+<Connection from="5/addet" to="1/biz"/>
+<Word name="2/sen" positionX="750" positionY="200"/>
+<Connection from="5/addet" to="2/sen"/>
+<Word name="4/bitir" positionX="850" positionY="200"/>
+<Connection from="5/addet" to="4/bitir"/>
+<Word name="3/okul" positionX="750" positionY="300"/>
+<Connection from="4/bitir" to="3/okul"/>
+</Amr>

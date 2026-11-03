@@ -1,0 +1,18 @@
+<Amr sentence="Nefes nefese koşan anneme , başını çevirmeden cevap verdi .">
+<Word name="8/cevap 9/ver" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="8/cevap 9/ver" to="o" with="ARG0"/>
+<Word name="4/anne" positionX="750" positionY="200"/>
+<Connection from="8/cevap 9/ver" to="4/anne" with="ARG1"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="4/anne" to="ben" with="poss"/>
+<Word name="3/koş" positionX="750" positionY="300"/>
+<Connection from="4/anne" to="3/koş"/>
+<Word name="1/nefes 2/nefes" positionX="650" positionY="400"/>
+<Connection from="3/koş" to="1/nefes 2/nefes"/>
+<Word name="7/çevir" positionX="850" positionY="200"/>
+<Connection from="8/cevap 9/ver" to="7/çevir"/>
+<Word name="6/baş" positionX="750" positionY="300"/>
+<Connection from="7/çevir" to="6/baş" with="ARG1"/>
+<Connection from="6/baş" to="o" with="poss"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Görevli , her sabah servise çıkar .">
+<Word name="5/servis 6/çık" positionX="750" positionY="100"/>
+<Word name="1/görevli" positionX="650" positionY="200"/>
+<Connection from="5/servis 6/çık" to="1/görevli" with="ARG0"/>
+<Word name="4/sabah" positionX="750" positionY="200"/>
+<Connection from="5/servis 6/çık" to="4/sabah" with="mod"/>
+<Word name="3/her" positionX="650" positionY="300"/>
+<Connection from="4/sabah" to="3/her" with="mod"/>
+</Amr>

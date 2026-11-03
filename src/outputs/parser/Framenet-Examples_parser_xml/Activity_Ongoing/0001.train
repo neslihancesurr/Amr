@@ -1,0 +1,29 @@
+<Amr sentence="Çocuklar ne kadar yorulduysa da umursamadı , dersi birkaç saat daha sürüdü .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/umursa" positionX="650" positionY="200"/>
+<Connection from="and" to="6/umursa" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="6/umursa" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="6/umursa" to="o" with="ARG0"/>
+<Word name="4/yorul" positionX="750" positionY="300"/>
+<Connection from="6/umursa" to="4/yorul" with="ARG1"/>
+<Connection from="4/yorul" to="o" with="ARG0"/>
+<Word name="1/çocuk" positionX="750" positionY="400"/>
+<Connection from="4/yorul" to="1/çocuk"/>
+<Word name="2/ne 3/kadar" positionX="850" positionY="400"/>
+<Connection from="4/yorul" to="2/ne 3/kadar"/>
+<Word name="5/da" positionX="950" positionY="400"/>
+<Connection from="4/yorul" to="5/da"/>
+<Word name="12/sürü" positionX="750" positionY="200"/>
+<Connection from="and" to="12/sürü" with="op2"/>
+<Word name="8/ders" positionX="650" positionY="300"/>
+<Connection from="12/sürü" to="8/ders" with="ARG0"/>
+<Connection from="8/ders" to="o" with="poss"/>
+<Word name="10/saat" positionX="750" positionY="300"/>
+<Connection from="12/sürü" to="10/saat" with="mod"/>
+<Word name="9/birkaç" positionX="650" positionY="400"/>
+<Connection from="10/saat" to="9/birkaç" with="mod"/>
+<Word name="11/daha" positionX="750" positionY="400"/>
+<Connection from="10/saat" to="11/daha" with="degree"/>
+</Amr>

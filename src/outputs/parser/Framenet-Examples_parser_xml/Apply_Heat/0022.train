@@ -1,0 +1,21 @@
+<Amr sentence="Her gün birkaç ev kadını orada çamaşır yıkamak için çalı çırpıyla su ısıtıyor .">
+<Word name="13/ısıt" positionX="750" positionY="100"/>
+<Word name="2/gün" positionX="650" positionY="200"/>
+<Connection from="13/ısıt" to="2/gün" with="mod"/>
+<Word name="1/her" positionX="550" positionY="300"/>
+<Connection from="2/gün" to="1/her" with="mod"/>
+<Word name="4/ev 5/kadın" positionX="750" positionY="200"/>
+<Connection from="13/ısıt" to="4/ev 5/kadın" with="ARG0"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="4/ev 5/kadın" to="o" with="poss"/>
+<Word name="6/orada" positionX="850" positionY="200"/>
+<Connection from="13/ısıt" to="6/orada" with="manner"/>
+<Word name="8/yıka" positionX="950" positionY="200"/>
+<Connection from="13/ısıt" to="8/yıka" with="cause"/>
+<Word name="7/çamaşır" positionX="850" positionY="300"/>
+<Connection from="8/yıka" to="7/çamaşır" with="ARG1"/>
+<Word name="10/çalı 11/çırpı" positionX="1050" positionY="200"/>
+<Connection from="13/ısıt" to="10/çalı 11/çırpı" with="instrument"/>
+<Word name="12/su" positionX="1150" positionY="200"/>
+<Connection from="13/ısıt" to="12/su" with="ARG1"/>
+</Amr>

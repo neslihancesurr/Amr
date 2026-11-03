@@ -1,0 +1,9 @@
+<Amr sentence="Fırtına bütün evleri yıktı .">
+<Word name="4/yık" positionX="750" positionY="100"/>
+<Word name="1/fırtına" positionX="650" positionY="200"/>
+<Connection from="4/yık" to="1/fırtına" with="ARG0"/>
+<Word name="3/ev" positionX="750" positionY="200"/>
+<Connection from="4/yık" to="3/ev" with="ARG1"/>
+<Word name="2/bütün" positionX="650" positionY="300"/>
+<Connection from="3/ev" to="2/bütün" with="mod"/>
+</Amr>

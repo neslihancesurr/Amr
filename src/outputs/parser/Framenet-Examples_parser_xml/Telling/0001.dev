@@ -1,0 +1,12 @@
+<Amr sentence="Annesi ona nerede hata yaptığını gösterdi .">
+<Word name="6/göster" positionX="750" positionY="100"/>
+<Word name="1/anne" positionX="650" positionY="200"/>
+<Connection from="6/göster" to="1/anne" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/anne" to="o" with="poss"/>
+<Word name="2/o" positionX="750" positionY="200"/>
+<Connection from="6/göster" to="2/o"/>
+<Word name="4/hata 5/yap" positionX="850" positionY="200"/>
+<Connection from="6/göster" to="4/hata 5/yap" with="ARG1"/>
+<Connection from="4/hata 5/yap" to="o" with="poss"/>
+</Amr>

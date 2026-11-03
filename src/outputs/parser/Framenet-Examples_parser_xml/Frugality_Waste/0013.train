@@ -1,0 +1,11 @@
+<Amr sentence="Binlerce lirayı düşüncesizce ekti .">
+<Word name="4/ek" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/ek" to="o" with="ARG0"/>
+<Word name="2/lira" positionX="750" positionY="200"/>
+<Connection from="4/ek" to="2/lira" with="ARG1"/>
+<Word name="1/binlerce" positionX="650" positionY="300"/>
+<Connection from="2/lira" to="1/binlerce" with="mod"/>
+<Word name="3/düşüncesizce" positionX="850" positionY="200"/>
+<Connection from="4/ek" to="3/düşüncesizce" with="manner"/>
+</Amr>

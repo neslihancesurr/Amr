@@ -1,0 +1,13 @@
+<Amr sentence="Yüzüne bakarak onun bir portresini resmetti .">
+<Word name="6/resmet" positionX="750" positionY="100"/>
+<Word name="2/bakarak" positionX="650" positionY="200"/>
+<Connection from="6/resmet" to="2/bakarak"/>
+<Word name="1/yüz" positionX="550" positionY="300"/>
+<Connection from="2/bakarak" to="1/yüz"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="1/yüz" to="o" with="poss"/>
+<Word name="5/portre" positionX="750" positionY="200"/>
+<Connection from="6/resmet" to="5/portre" with="ARG1"/>
+<Word name="3/o" positionX="650" positionY="300"/>
+<Connection from="5/portre" to="3/o" with="mod"/>
+</Amr>

@@ -1,0 +1,24 @@
+<Amr sentence="Biçimli yerlerde durup paslar alır , ofsayt durumlarında beleş goller çıkarırdı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/pas 5/al" positionX="650" positionY="200"/>
+<Connection from="and" to="4/pas 5/al" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/pas 5/al" to="o" with="ARG0"/>
+<Word name="3/dur" positionX="650" positionY="300"/>
+<Connection from="4/pas 5/al" to="3/dur"/>
+<Word name="2/yer" positionX="550" positionY="400"/>
+<Connection from="3/dur" to="2/yer" with="location"/>
+<Word name="1/biçimli" positionX="450" positionY="500"/>
+<Connection from="2/yer" to="1/biçimli" with="mod"/>
+<Word name="11/çık" positionX="750" positionY="200"/>
+<Connection from="and" to="11/çık" with="op2"/>
+<Connection from="11/çık" to="o" with="ARG0"/>
+<Word name="8/durum" positionX="750" positionY="300"/>
+<Connection from="11/çık" to="8/durum" with="location"/>
+<Word name="7/ofsayt" positionX="650" positionY="400"/>
+<Connection from="8/durum" to="7/ofsayt" with="mod"/>
+<Word name="10/gol" positionX="850" positionY="300"/>
+<Connection from="11/çık" to="10/gol" with="ARG1"/>
+<Word name="9/beleş" positionX="750" positionY="400"/>
+<Connection from="10/gol" to="9/beleş" with="mod"/>
+</Amr>

@@ -1,0 +1,19 @@
+<Amr sentence="Beşir serada olanları fark etti .">
+<Word name="4/fark 5/et" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="4/fark 5/et" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/beşir" positionX="450" positionY="400"/>
+<Connection from="name" to="1/beşir" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/ol" positionX="750" positionY="200"/>
+<Connection from="4/fark 5/et" to="3/ol" with="ARG1"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="3/ol" to="onlar" with="ARG0"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="3/ol" to="o" with="poss"/>
+<Word name="2/sera" positionX="850" positionY="300"/>
+<Connection from="3/ol" to="2/sera" with="location"/>
+</Amr>

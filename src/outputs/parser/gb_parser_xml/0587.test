@@ -1,0 +1,11 @@
+<Amr sentence="Okula yakın bir ev arıyorlar .">
+<Word name="5/ara" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="5/ara" to="onlar" with="ARG0"/>
+<Word name="4/ev" positionX="750" positionY="200"/>
+<Connection from="5/ara" to="4/ev"/>
+<Word name="2/yakın" positionX="650" positionY="300"/>
+<Connection from="4/ev" to="2/yakın" with="mod"/>
+<Word name="1/okul" positionX="550" positionY="400"/>
+<Connection from="2/yakın" to="1/okul" with="mod"/>
+</Amr>

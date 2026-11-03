@@ -1,0 +1,16 @@
+<Amr sentence="Yan yatıp durma , bir yerini inciteceksin .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/dur" positionX="650" positionY="200"/>
+<Connection from="and" to="3/dur" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="3/dur" to="o" with="ARG0"/>
+<Word name="1/yan 2/yat" positionX="650" positionY="300"/>
+<Connection from="3/dur" to="1/yan 2/yat"/>
+<Word name="7/incit" positionX="750" positionY="200"/>
+<Connection from="and" to="7/incit" with="op2"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="7/incit" to="sen" with="ARG0"/>
+<Word name="6/yer" positionX="750" positionY="300"/>
+<Connection from="7/incit" to="6/yer"/>
+<Connection from="6/yer" to="o" with="poss"/>
+</Amr>

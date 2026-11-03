@@ -1,0 +1,11 @@
+<Amr sentence="Raporu yazılı olarak sunmuşlardı .">
+<Word name="4/sun" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/sun" to="onlar" with="ARG0"/>
+<Word name="1/rapor" positionX="750" positionY="200"/>
+<Connection from="4/sun" to="1/rapor" with="ARG1"/>
+<Word name="3/ol" positionX="850" positionY="200"/>
+<Connection from="4/sun" to="3/ol"/>
+<Word name="2/yazılı" positionX="750" positionY="300"/>
+<Connection from="3/ol" to="2/yazılı"/>
+</Amr>

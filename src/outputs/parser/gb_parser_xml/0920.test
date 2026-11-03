@@ -1,0 +1,9 @@
+<Amr sentence="Filiz Hanım yalnız yaşıyordu .">
+<Word name="4/yaşa" positionX="750" positionY="100"/>
+<Word name="1/filiz" positionX="650" positionY="200"/>
+<Connection from="4/yaşa" to="1/filiz" with="ARG0"/>
+<Word name="2/hanım" positionX="550" positionY="300"/>
+<Connection from="1/filiz" to="2/hanım" with="mod"/>
+<Word name="3/yalnız" positionX="750" positionY="200"/>
+<Connection from="4/yaşa" to="3/yalnız" with="manner"/>
+</Amr>

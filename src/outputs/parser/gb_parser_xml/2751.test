@@ -1,0 +1,9 @@
+<Amr sentence="Derken saat beş olmuş .">
+<Word name="4/ol" positionX="750" positionY="100"/>
+<Word name="1/derken" positionX="650" positionY="200"/>
+<Connection from="4/ol" to="1/derken" with="manner"/>
+<Word name="2/saat" positionX="750" positionY="200"/>
+<Connection from="4/ol" to="2/saat" with="ARG0"/>
+<Word name="3/beş" positionX="850" positionY="200"/>
+<Connection from="4/ol" to="3/beş"/>
+</Amr>

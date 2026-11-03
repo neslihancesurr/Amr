@@ -1,0 +1,13 @@
+<Amr sentence="Hatta kilise yetkilileri onun sağlığından endişeye düştüler .">
+<Word name="6/endişe 7/düş" positionX="750" positionY="100"/>
+<Word name="1/hatta" positionX="650" positionY="200"/>
+<Connection from="6/endişe 7/düş" to="1/hatta" with="manner"/>
+<Word name="3/yetkili" positionX="750" positionY="200"/>
+<Connection from="6/endişe 7/düş" to="3/yetkili" with="ARG0"/>
+<Word name="2/kilise" positionX="650" positionY="300"/>
+<Connection from="3/yetkili" to="2/kilise" with="mod"/>
+<Word name="5/sağlık" positionX="850" positionY="200"/>
+<Connection from="6/endişe 7/düş" to="5/sağlık" with="ARG1"/>
+<Word name="4/o" positionX="750" positionY="300"/>
+<Connection from="5/sağlık" to="4/o" with="mod"/>
+</Amr>

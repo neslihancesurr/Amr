@@ -1,0 +1,21 @@
+<Amr sentence="Ahmet'le çocukların arasında bir sorun mu var ?">
+<Word name="7/var" positionX="750" positionY="100"/>
+<Word name="and" positionX="650" positionY="200"/>
+<Connection from="7/var" to="and"/>
+<Word name="2/çocuk" positionX="550" positionY="300"/>
+<Connection from="and" to="2/çocuk" with="op1"/>
+<Word name="3/ara" positionX="450" positionY="400"/>
+<Connection from="2/çocuk" to="3/ara" with="location"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="and" to="person" with="instrument"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ahmet" positionX="450" positionY="500"/>
+<Connection from="name" to="1/ahmet" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/sorun" positionX="750" positionY="200"/>
+<Connection from="7/var" to="5/sorun"/>
+<Word name="6/mi" positionX="650" positionY="300"/>
+<Connection from="5/sorun" to="6/mi"/>
+</Amr>

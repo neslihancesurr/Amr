@@ -1,0 +1,15 @@
+<Amr sentence="Yoksa bu soğukta sokağa çıkmazdı .">
+<Word name="5/çık" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/çık" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="5/çık" to="o" with="ARG0"/>
+<Word name="1/yoksa" positionX="850" positionY="200"/>
+<Connection from="5/çık" to="1/yoksa"/>
+<Word name="3/soğuk" positionX="950" positionY="200"/>
+<Connection from="5/çık" to="3/soğuk" with="location"/>
+<Word name="2/bu" positionX="850" positionY="300"/>
+<Connection from="3/soğuk" to="2/bu" with="mod"/>
+<Word name="4/sokak" positionX="1050" positionY="200"/>
+<Connection from="5/çık" to="4/sokak"/>
+</Amr>

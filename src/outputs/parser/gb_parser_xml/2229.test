@@ -1,0 +1,7 @@
+<Amr sentence="gönderecekleri temsilci">
+<Word name="2/temsilci" positionX="750" positionY="100"/>
+<Word name="1/gönder" positionX="650" positionY="200"/>
+<Connection from="2/temsilci" to="1/gönder"/>
+<Word name="onlar" positionX="550" positionY="300"/>
+<Connection from="1/gönder" to="onlar" with="poss"/>
+</Amr>

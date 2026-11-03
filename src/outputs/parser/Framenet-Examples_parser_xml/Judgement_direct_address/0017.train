@@ -1,0 +1,15 @@
+<Amr sentence="Ne söylesem olur olmadık tersledi .">
+<Word name="5/tersle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/tersle" to="o" with="ARG0"/>
+<Word name="2/söyle" positionX="750" positionY="200"/>
+<Connection from="5/tersle" to="2/söyle"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="2/söyle" to="ben" with="ARG0"/>
+<Word name="1/ne" positionX="750" positionY="300"/>
+<Connection from="2/söyle" to="1/ne" with="manner"/>
+<Word name="3/ol 4/ol" positionX="850" positionY="200"/>
+<Connection from="5/tersle" to="3/ol 4/ol"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="3/ol 4/ol" to="-" with="polarity"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Arkadaşları onu kötü yola saptırdı .">
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="3/kötü 4/yol 5/sap" positionX="650" positionY="200"/>
+<Connection from="yap" to="3/kötü 4/yol 5/sap"/>
+<Word name="1/arkadaş" positionX="550" positionY="300"/>
+<Connection from="3/kötü 4/yol 5/sap" to="1/arkadaş" with="ARG0"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="1/arkadaş" to="o" with="poss"/>
+<Word name="2/o" positionX="650" positionY="300"/>
+<Connection from="3/kötü 4/yol 5/sap" to="2/o" with="ARG1"/>
+</Amr>

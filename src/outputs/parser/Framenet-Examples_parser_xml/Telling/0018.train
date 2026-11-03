@@ -1,0 +1,17 @@
+<Amr sentence="En yakınları bile onu yalancı diye niteledi .">
+<Word name="7/nitele" positionX="750" positionY="100"/>
+<Word name="2/yakın" positionX="650" positionY="200"/>
+<Connection from="7/nitele" to="2/yakın" with="ARG0"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/yakın" to="o" with="poss"/>
+<Word name="1/en" positionX="650" positionY="300"/>
+<Connection from="2/yakın" to="1/en" with="manner"/>
+<Word name="3/bile" positionX="750" positionY="300"/>
+<Connection from="2/yakın" to="3/bile"/>
+<Word name="4/o" positionX="750" positionY="200"/>
+<Connection from="7/nitele" to="4/o" with="ARG1"/>
+<Word name="5/yalancı" positionX="850" positionY="200"/>
+<Connection from="7/nitele" to="5/yalancı"/>
+<Word name="6/diye" positionX="750" positionY="300"/>
+<Connection from="5/yalancı" to="6/diye"/>
+</Amr>

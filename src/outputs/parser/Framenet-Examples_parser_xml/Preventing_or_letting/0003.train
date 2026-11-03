@@ -1,0 +1,13 @@
+<Amr sentence="Sanatçılar arasındaki tatsız olayı kapattı .">
+<Word name="5/kapat" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/kapat" to="o" with="ARG0"/>
+<Word name="4/olay" positionX="750" positionY="200"/>
+<Connection from="5/kapat" to="4/olay" with="ARG1"/>
+<Word name="2/ara" positionX="650" positionY="300"/>
+<Connection from="4/olay" to="2/ara" with="mod"/>
+<Word name="1/sanatçı" positionX="550" positionY="400"/>
+<Connection from="2/ara" to="1/sanatçı" with="mod"/>
+<Word name="3/tatsız" positionX="750" positionY="300"/>
+<Connection from="4/olay" to="3/tatsız" with="mod"/>
+</Amr>

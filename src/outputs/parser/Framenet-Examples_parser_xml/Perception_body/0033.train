@@ -1,0 +1,17 @@
+<Amr sentence="Etinden et kopuyor sanki , bas bas bağırıyor .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/kop" positionX="650" positionY="200"/>
+<Connection from="and" to="3/kop" with="op1"/>
+<Word name="1/et 2/et" positionX="550" positionY="300"/>
+<Connection from="3/kop" to="1/et 2/et" with="ARG0"/>
+<Word name="4/sanki" positionX="650" positionY="300"/>
+<Connection from="3/kop" to="4/sanki" with="manner"/>
+<Word name="8/bağır" positionX="750" positionY="200"/>
+<Connection from="and" to="8/bağır" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="8/bağır" to="o" with="ARG0"/>
+<Word name="7/bas" positionX="750" positionY="300"/>
+<Connection from="8/bağır" to="7/bas"/>
+<Word name="6/bas" positionX="650" positionY="400"/>
+<Connection from="7/bas" to="6/bas"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Bütün içindekileri reddeyledi .">
+<Word name="3/reddeyle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/reddeyle" to="o" with="ARG0"/>
+<Word name="2/içindekiler" positionX="750" positionY="200"/>
+<Connection from="3/reddeyle" to="2/içindekiler" with="ARG1"/>
+<Word name="1/bütün" positionX="650" positionY="300"/>
+<Connection from="2/içindekiler" to="1/bütün" with="mod"/>
+</Amr>

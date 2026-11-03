@@ -1,0 +1,13 @@
+<Amr sentence="Çocuklar evde değilse sütü kim içti ?">
+<Word name="6/iç" positionX="750" positionY="100"/>
+<Word name="2/ev" positionX="650" positionY="200"/>
+<Connection from="6/iç" to="2/ev" with="location"/>
+<Word name="1/çocuk" positionX="550" positionY="300"/>
+<Connection from="2/ev" to="1/çocuk"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="2/ev" to="-" with="polarity"/>
+<Word name="4/süt" positionX="750" positionY="200"/>
+<Connection from="6/iç" to="4/süt" with="ARG1"/>
+<Word name="5/kim" positionX="850" positionY="200"/>
+<Connection from="6/iç" to="5/kim" with="ARG0"/>
+</Amr>

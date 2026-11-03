@@ -1,0 +1,28 @@
+<Amr sentence="Ayağını denk al yavrum , ateşle oyun olmaz diye öğüt verdi .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/ayak 2/denk 3/al" positionX="650" positionY="200"/>
+<Connection from="and" to="1/ayak 2/denk 3/al" with="op1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="1/ayak 2/denk 3/al" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="650" positionY="300"/>
+<Connection from="1/ayak 2/denk 3/al" to="imperative" with="mode"/>
+<Word name="4/yavru" positionX="750" positionY="300"/>
+<Connection from="1/ayak 2/denk 3/al" to="4/yavru" with="ARG0"/>
+<Word name="ben" positionX="650" positionY="400"/>
+<Connection from="4/yavru" to="ben" with="poss"/>
+<Word name="10/öğüt 11/ver" positionX="750" positionY="200"/>
+<Connection from="and" to="10/öğüt 11/ver" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="10/öğüt 11/ver" to="o" with="ARG0"/>
+<Word name="8/ol" positionX="750" positionY="300"/>
+<Connection from="10/öğüt 11/ver" to="8/ol" with="ARG1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="8/ol" to="-" with="polarity"/>
+<Connection from="8/ol" to="o" with="ARG0"/>
+<Word name="6/ateş" positionX="850" positionY="400"/>
+<Connection from="8/ol" to="6/ateş" with="instrument"/>
+<Word name="7/oyun" positionX="950" positionY="400"/>
+<Connection from="8/ol" to="7/oyun"/>
+<Word name="9/diye" positionX="1050" positionY="400"/>
+<Connection from="8/ol" to="9/diye"/>
+</Amr>

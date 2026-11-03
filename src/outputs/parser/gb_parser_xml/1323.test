@@ -1,0 +1,7 @@
+<Amr sentence="Otobüs durağı nerede ?">
+<Word name="3/nere:location" positionX="750" positionY="100"/>
+<Word name="2/durak" positionX="650" positionY="200"/>
+<Connection from="3/nere:location" to="2/durak"/>
+<Word name="1/otobüs" positionX="550" positionY="300"/>
+<Connection from="2/durak" to="1/otobüs" with="mod"/>
+</Amr>

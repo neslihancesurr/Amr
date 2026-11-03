@@ -1,0 +1,12 @@
+<Amr sentence="Karısından asla özür dilemez .">
+<Word name="3/özür 4/dile" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/özür 4/dile" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="3/özür 4/dile" to="o" with="ARG0"/>
+<Word name="1/karı" positionX="850" positionY="200"/>
+<Connection from="3/özür 4/dile" to="1/karı"/>
+<Connection from="1/karı" to="o" with="poss"/>
+<Word name="2/asla" positionX="950" positionY="200"/>
+<Connection from="3/özür 4/dile" to="2/asla" with="manner"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Ahmet hangi doktora güveniyor ?">
+<Word name="4/güven" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="4/güven" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ahmet" positionX="450" positionY="400"/>
+<Connection from="name" to="1/ahmet" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/doktor" positionX="750" positionY="200"/>
+<Connection from="4/güven" to="3/doktor" with="ARG1"/>
+<Word name="2/hangi" positionX="650" positionY="300"/>
+<Connection from="3/doktor" to="2/hangi" with="mod"/>
+</Amr>

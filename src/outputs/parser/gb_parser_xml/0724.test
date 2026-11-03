@@ -1,0 +1,17 @@
+<Amr sentence="Size daha uygun bir ev düşünemiyorum .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="6/düşün" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="6/düşün"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="6/düşün" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="6/düşün" to="ben" with="ARG0"/>
+<Word name="5/ev" positionX="750" positionY="300"/>
+<Connection from="6/düşün" to="5/ev" with="ARG1"/>
+<Word name="3/uygun" positionX="650" positionY="400"/>
+<Connection from="5/ev" to="3/uygun" with="mod"/>
+<Word name="1/siz" positionX="550" positionY="500"/>
+<Connection from="3/uygun" to="1/siz" with="mod"/>
+<Word name="2/daha" positionX="650" positionY="500"/>
+<Connection from="3/uygun" to="2/daha" with="degree"/>
+</Amr>

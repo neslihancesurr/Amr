@@ -1,0 +1,13 @@
+<Amr sentence="Bu işin ilerlemesini darbelediler .">
+<Word name="4/darbele" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/darbele" to="onlar" with="ARG0"/>
+<Word name="3/ilerleme" positionX="750" positionY="200"/>
+<Connection from="4/darbele" to="3/ilerleme" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/ilerleme" to="o" with="poss"/>
+<Word name="2/iş" positionX="750" positionY="300"/>
+<Connection from="3/ilerleme" to="2/iş"/>
+<Word name="1/bu" positionX="650" positionY="400"/>
+<Connection from="2/iş" to="1/bu" with="mod"/>
+</Amr>

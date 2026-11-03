@@ -1,0 +1,16 @@
+<Amr sentence="Yabancı bir dil öğrenirseniz dünyanız genişler .">
+<Word name="6/genişle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/genişle" to="o" with="ARG0"/>
+<Word name="4/öğren" positionX="750" positionY="200"/>
+<Connection from="6/genişle" to="4/öğren" with="cond"/>
+<Word name="siz" positionX="650" positionY="300"/>
+<Connection from="4/öğren" to="siz" with="ARG0"/>
+<Word name="3/dil" positionX="750" positionY="300"/>
+<Connection from="4/öğren" to="3/dil" with="ARG1"/>
+<Word name="1/yabancı" positionX="650" positionY="400"/>
+<Connection from="3/dil" to="1/yabancı" with="mod"/>
+<Word name="5/dünya" positionX="850" positionY="200"/>
+<Connection from="6/genişle" to="5/dünya" with="ARG1"/>
+<Connection from="5/dünya" to="siz" with="poss"/>
+</Amr>

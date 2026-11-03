@@ -1,0 +1,11 @@
+<Amr sentence="Bu saati alarak parasını sokağa atıyor .">
+<Word name="4/para 5/sokak 6/at" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/para 5/sokak 6/at" to="o" with="ARG0"/>
+<Word name="3/al" positionX="750" positionY="200"/>
+<Connection from="4/para 5/sokak 6/at" to="3/al"/>
+<Word name="2/saat" positionX="650" positionY="300"/>
+<Connection from="3/al" to="2/saat" with="ARG1"/>
+<Word name="1/bu" positionX="550" positionY="400"/>
+<Connection from="2/saat" to="1/bu" with="mod"/>
+</Amr>

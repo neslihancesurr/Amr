@@ -1,0 +1,17 @@
+<Amr sentence="Bu beş lirayı bitirmeden ben para kazanmalıyım .">
+<Word name="gerek" positionX="750" positionY="100"/>
+<Word name="7/kazan" positionX="650" positionY="200"/>
+<Connection from="gerek" to="7/kazan"/>
+<Word name="4/bitir" positionX="550" positionY="300"/>
+<Connection from="7/kazan" to="4/bitir"/>
+<Word name="3/lira" positionX="450" positionY="400"/>
+<Connection from="4/bitir" to="3/lira" with="ARG1"/>
+<Word name="1/bu" positionX="350" positionY="500"/>
+<Connection from="3/lira" to="1/bu" with="mod"/>
+<Word name="2/beş" positionX="450" positionY="500"/>
+<Connection from="3/lira" to="2/beş"/>
+<Word name="5/ben" positionX="650" positionY="300"/>
+<Connection from="7/kazan" to="5/ben" with="ARG0"/>
+<Word name="6/para" positionX="750" positionY="300"/>
+<Connection from="7/kazan" to="6/para"/>
+</Amr>

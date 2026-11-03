@@ -1,0 +1,9 @@
+<Amr sentence="Ham maddeler burada işleniyor .">
+<Word name="4/işle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/işle" to="o" with="ARG0"/>
+<Word name="1/ham 2/madde" positionX="750" positionY="200"/>
+<Connection from="4/işle" to="1/ham 2/madde" with="ARG1"/>
+<Word name="3/burada" positionX="850" positionY="200"/>
+<Connection from="4/işle" to="3/burada" with="manner"/>
+</Amr>

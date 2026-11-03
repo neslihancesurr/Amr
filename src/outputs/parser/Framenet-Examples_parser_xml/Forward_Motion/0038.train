@@ -1,0 +1,7 @@
+<Amr sentence="Üzüntüyle peşinden yürüdü .">
+<Word name="2/peş 3/yürü" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="2/peş 3/yürü" to="o" with="ARG0"/>
+<Word name="1/üzüntü" positionX="750" positionY="200"/>
+<Connection from="2/peş 3/yürü" to="1/üzüntü" with="instrument"/>
+</Amr>

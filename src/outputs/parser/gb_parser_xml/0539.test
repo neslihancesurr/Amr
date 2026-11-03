@@ -1,0 +1,13 @@
+<Amr sentence="Evini daha görmedim .">
+<Word name="3/gör" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/gör" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="3/gör" to="ben" with="ARG0"/>
+<Word name="1/ev" positionX="850" positionY="200"/>
+<Connection from="3/gör" to="1/ev" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="1/ev" to="o" with="poss"/>
+<Word name="2/daha" positionX="950" positionY="200"/>
+<Connection from="3/gör" to="2/daha" with="degree"/>
+</Amr>

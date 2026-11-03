@@ -1,0 +1,12 @@
+<Amr sentence="Bana kızdığın için öyle söylüyorsun .">
+<Word name="5/söyle" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="5/söyle" to="sen" with="ARG0"/>
+<Word name="2/kız" positionX="750" positionY="200"/>
+<Connection from="5/söyle" to="2/kız" with="cause"/>
+<Connection from="2/kız" to="sen" with="poss"/>
+<Word name="1/ben" positionX="750" positionY="300"/>
+<Connection from="2/kız" to="1/ben"/>
+<Word name="4/öyle" positionX="850" positionY="200"/>
+<Connection from="5/söyle" to="4/öyle" with="manner"/>
+</Amr>

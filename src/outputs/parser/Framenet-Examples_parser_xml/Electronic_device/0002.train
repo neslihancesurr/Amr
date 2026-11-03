@@ -1,0 +1,18 @@
+<Amr sentence="Şu yazıyı tarayalım , sonra mail atarız .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/tara" positionX="650" positionY="200"/>
+<Connection from="and" to="3/tara" with="op1"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="3/tara" to="biz" with="ARG0"/>
+<Word name="2/yazı" positionX="650" positionY="300"/>
+<Connection from="3/tara" to="2/yazı"/>
+<Word name="1/şu" positionX="550" positionY="400"/>
+<Connection from="2/yazı" to="1/şu" with="mod"/>
+<Word name="7/at" positionX="750" positionY="200"/>
+<Connection from="and" to="7/at" with="op2"/>
+<Connection from="7/at" to="biz" with="ARG0"/>
+<Word name="5/sonra" positionX="750" positionY="300"/>
+<Connection from="7/at" to="5/sonra" with="manner"/>
+<Word name="6/mail" positionX="850" positionY="300"/>
+<Connection from="7/at" to="6/mail" with="ARG1"/>
+</Amr>

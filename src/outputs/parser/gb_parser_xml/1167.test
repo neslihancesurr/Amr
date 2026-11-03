@@ -1,0 +1,16 @@
+<Amr sentence="kendimin bile anlayamadığım bir yazı">
+<Word name="5/yazı" positionX="750" positionY="100"/>
+<Word name="mümkün" positionX="650" positionY="200"/>
+<Connection from="5/yazı" to="mümkün"/>
+<Word name="3/anla" positionX="550" positionY="300"/>
+<Connection from="mümkün" to="3/anla"/>
+<Word name="-" positionX="450" positionY="400"/>
+<Connection from="3/anla" to="-" with="polarity"/>
+<Word name="ben" positionX="550" positionY="400"/>
+<Connection from="3/anla" to="ben" with="poss"/>
+<Word name="1/kendi" positionX="650" positionY="400"/>
+<Connection from="3/anla" to="1/kendi" with="ARG0"/>
+<Connection from="1/kendi" to="ben" with="poss"/>
+<Word name="2/bile" positionX="650" positionY="500"/>
+<Connection from="1/kendi" to="2/bile"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr sentence="Bu kez işine gümrükte çelme taktılar .">
+<Word name="5/çelme 6/tak" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="5/çelme 6/tak" to="onlar" with="ARG0"/>
+<Word name="2/kez" positionX="750" positionY="200"/>
+<Connection from="5/çelme 6/tak" to="2/kez" with="mod"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/kez" to="1/bu" with="mod"/>
+<Word name="3/iş" positionX="850" positionY="200"/>
+<Connection from="5/çelme 6/tak" to="3/iş" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="3/iş" to="o" with="poss"/>
+<Word name="4/gümrük" positionX="950" positionY="200"/>
+<Connection from="5/çelme 6/tak" to="4/gümrük" with="location"/>
+</Amr>

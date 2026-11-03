@@ -1,0 +1,11 @@
+<Amr sentence="Gelen misafirler her şeye kem gözle bakıyordu .">
+<Word name="5/kem 6/göz 7/bak" positionX="750" positionY="100"/>
+<Word name="2/misafir" positionX="650" positionY="200"/>
+<Connection from="5/kem 6/göz 7/bak" to="2/misafir" with="ARG0"/>
+<Word name="1/gel" positionX="550" positionY="300"/>
+<Connection from="2/misafir" to="1/gel"/>
+<Word name="4/şey" positionX="750" positionY="200"/>
+<Connection from="5/kem 6/göz 7/bak" to="4/şey" with="ARG1"/>
+<Word name="3/her" positionX="650" positionY="300"/>
+<Connection from="4/şey" to="3/her" with="mod"/>
+</Amr>

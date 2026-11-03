@@ -1,0 +1,7 @@
+<Amr sentence="Buzlar sıvılaştı .">
+<Word name="2/sıvılaş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="2/sıvılaş" to="o" with="ARG0"/>
+<Word name="1/buz" positionX="750" positionY="200"/>
+<Connection from="2/sıvılaş" to="1/buz" with="ARG1"/>
+</Amr>

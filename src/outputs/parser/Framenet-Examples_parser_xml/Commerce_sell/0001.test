@@ -1,0 +1,9 @@
+<Amr sentence="Altın , 100 liradan gidiyor .">
+<Word name="5/git" positionX="750" positionY="100"/>
+<Word name="1/altın" positionX="650" positionY="200"/>
+<Connection from="5/git" to="1/altın" with="ARG0"/>
+<Word name="4/lira" positionX="750" positionY="200"/>
+<Connection from="5/git" to="4/lira"/>
+<Word name="3/100" positionX="650" positionY="300"/>
+<Connection from="4/lira" to="3/100"/>
+</Amr>

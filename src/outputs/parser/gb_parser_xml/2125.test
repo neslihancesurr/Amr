@@ -1,0 +1,11 @@
+<Amr sentence="Bunu konuşmamız iyi oldu .">
+<Word name="3/iyi 4/ol" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/iyi 4/ol" to="o" with="ARG0"/>
+<Word name="2/konuş" positionX="750" positionY="200"/>
+<Connection from="3/iyi 4/ol" to="2/konuş"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="2/konuş" to="biz" with="ARG0"/>
+<Word name="1/bu" positionX="750" positionY="300"/>
+<Connection from="2/konuş" to="1/bu"/>
+</Amr>

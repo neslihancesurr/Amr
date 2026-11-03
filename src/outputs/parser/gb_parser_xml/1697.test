@@ -1,0 +1,25 @@
+<Amr sentence="Selim'in neden bunu anlayamadığını bilmiyordum .">
+<Word name="5/bil" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/bil" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="5/bil" to="ben" with="ARG0"/>
+<Word name="mümkün" positionX="850" positionY="200"/>
+<Connection from="5/bil" to="mümkün"/>
+<Word name="4/anla" positionX="750" positionY="300"/>
+<Connection from="mümkün" to="4/anla"/>
+<Connection from="4/anla" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="400"/>
+<Connection from="4/anla" to="o" with="poss"/>
+<Word name="person" positionX="850" positionY="400"/>
+<Connection from="4/anla" to="person" with="ARG0"/>
+<Word name="name" positionX="750" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/selim" positionX="650" positionY="600"/>
+<Connection from="name" to="1/selim" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/neden" positionX="950" positionY="400"/>
+<Connection from="4/anla" to="2/neden" with="manner"/>
+<Word name="3/bu" positionX="1050" positionY="400"/>
+<Connection from="4/anla" to="3/bu" with="ARG1"/>
+</Amr>

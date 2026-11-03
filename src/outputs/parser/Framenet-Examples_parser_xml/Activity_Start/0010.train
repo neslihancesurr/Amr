@@ -1,0 +1,17 @@
+<Amr sentence="Sen önce ilgili bir makaleyi dikkatle okuyarak kapıyı aç .">
+<Word name="8/kapı 9/aç" positionX="750" positionY="100"/>
+<Word name="imperative" positionX="650" positionY="200"/>
+<Connection from="8/kapı 9/aç" to="imperative" with="mode"/>
+<Word name="1/sen" positionX="750" positionY="200"/>
+<Connection from="8/kapı 9/aç" to="1/sen" with="ARG0"/>
+<Word name="7/oku" positionX="850" positionY="200"/>
+<Connection from="8/kapı 9/aç" to="7/oku"/>
+<Word name="2/önce" positionX="750" positionY="300"/>
+<Connection from="7/oku" to="2/önce" with="manner"/>
+<Word name="5/makale" positionX="850" positionY="300"/>
+<Connection from="7/oku" to="5/makale" with="ARG1"/>
+<Word name="3/ilgili" positionX="750" positionY="400"/>
+<Connection from="5/makale" to="3/ilgili" with="mod"/>
+<Word name="6/dikkatle" positionX="950" positionY="300"/>
+<Connection from="7/oku" to="6/dikkatle" with="manner"/>
+</Amr>

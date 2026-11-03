@@ -1,0 +1,9 @@
+<Amr sentence="Küçük çocuk , prenses kılığındaki genç kıza hayranlıkla bakıyordu .">
+<Word name="8/hayranlıkla 9/bak" positionX="750" positionY="100"/>
+<Word name="2/çocuk" positionX="650" positionY="200"/>
+<Connection from="8/hayranlıkla 9/bak" to="2/çocuk" with="ARG0"/>
+<Word name="1/küçük" positionX="550" positionY="300"/>
+<Connection from="2/çocuk" to="1/küçük" with="mod"/>
+<Word name="6/genç 7/kız" positionX="750" positionY="200"/>
+<Connection from="8/hayranlıkla 9/bak" to="6/genç 7/kız" with="ARG1"/>
+</Amr>

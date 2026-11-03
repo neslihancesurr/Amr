@@ -1,0 +1,13 @@
+<Amr sentence="Ekmek katılaşmış , yenilmiyor .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/katı" positionX="650" positionY="200"/>
+<Connection from="and" to="2/katı" with="op1"/>
+<Word name="1/ekmek" positionX="550" positionY="300"/>
+<Connection from="2/katı" to="1/ekmek" with="ARG1"/>
+<Word name="4/yenil" positionX="750" positionY="200"/>
+<Connection from="and" to="4/yenil" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="4/yenil" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="4/yenil" to="o" with="ARG0"/>
+</Amr>

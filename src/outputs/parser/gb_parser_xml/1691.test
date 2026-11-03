@@ -1,0 +1,15 @@
+<Amr sentence="Bu evler birkaç yıl sonra yıkılabilecek .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="6/yıkıl" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="6/yıkıl"/>
+<Word name="2/ev" positionX="550" positionY="300"/>
+<Connection from="6/yıkıl" to="2/ev" with="ARG0"/>
+<Word name="1/bu" positionX="450" positionY="400"/>
+<Connection from="2/ev" to="1/bu" with="mod"/>
+<Word name="4/yıl" positionX="650" positionY="300"/>
+<Connection from="6/yıkıl" to="4/yıl"/>
+<Word name="3/birkaç" positionX="550" positionY="400"/>
+<Connection from="4/yıl" to="3/birkaç" with="mod"/>
+<Word name="5/sonra" positionX="650" positionY="400"/>
+<Connection from="4/yıl" to="5/sonra"/>
+</Amr>

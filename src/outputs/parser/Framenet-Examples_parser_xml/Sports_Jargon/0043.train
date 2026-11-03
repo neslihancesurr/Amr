@@ -1,0 +1,11 @@
+<Amr sentence="Sinirlenen çocuk var gücüyle topu dikti birden .">
+<Word name="5/top 6/dik" positionX="750" positionY="100"/>
+<Word name="2/çocuk" positionX="650" positionY="200"/>
+<Connection from="5/top 6/dik" to="2/çocuk" with="ARG0"/>
+<Word name="1/sinirlen" positionX="550" positionY="300"/>
+<Connection from="2/çocuk" to="1/sinirlen"/>
+<Word name="3/var 4/güç" positionX="750" positionY="200"/>
+<Connection from="5/top 6/dik" to="3/var 4/güç" with="instrument"/>
+<Word name="7/birden" positionX="850" positionY="200"/>
+<Connection from="5/top 6/dik" to="7/birden" with="manner"/>
+</Amr>

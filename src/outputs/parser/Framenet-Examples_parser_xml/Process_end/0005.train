@@ -1,0 +1,21 @@
+<Amr sentence="Vaktiyle yaşamış olan büyük musiki ustalarının nesilleri artık tükendi .">
+<Word name="9/tüken" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="9/tüken" to="o" with="ARG0"/>
+<Word name="7/nesil" positionX="750" positionY="200"/>
+<Connection from="9/tüken" to="7/nesil" with="ARG1"/>
+<Word name="6/usta" positionX="650" positionY="300"/>
+<Connection from="7/nesil" to="6/usta" with="mod"/>
+<Word name="3/ol" positionX="550" positionY="400"/>
+<Connection from="6/usta" to="3/ol"/>
+<Word name="2/yaşa" positionX="450" positionY="500"/>
+<Connection from="3/ol" to="2/yaşa"/>
+<Word name="1/vaktiyle" positionX="350" positionY="600"/>
+<Connection from="2/yaşa" to="1/vaktiyle" with="manner"/>
+<Word name="4/büyük" positionX="650" positionY="400"/>
+<Connection from="6/usta" to="4/büyük" with="mod"/>
+<Word name="5/musiki" positionX="750" positionY="400"/>
+<Connection from="6/usta" to="5/musiki" with="mod"/>
+<Word name="8/artık" positionX="850" positionY="200"/>
+<Connection from="9/tüken" to="8/artık" with="manner"/>
+</Amr>

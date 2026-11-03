@@ -1,0 +1,27 @@
+<Amr sentence="Siz herkesin konuştuğu şu İran filmini gördünüz mü ?">
+<Word name="7/gör" positionX="750" positionY="100"/>
+<Word name="1/siz" positionX="650" positionY="200"/>
+<Connection from="7/gör" to="1/siz" with="ARG0"/>
+<Word name="6/film" positionX="750" positionY="200"/>
+<Connection from="7/gör" to="6/film" with="ARG1"/>
+<Word name="3/konuş" positionX="650" positionY="300"/>
+<Connection from="6/film" to="3/konuş"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="3/konuş" to="o" with="poss"/>
+<Word name="2/herkes" positionX="650" positionY="400"/>
+<Connection from="3/konuş" to="2/herkes" with="ARG0"/>
+<Word name="onlar" positionX="550" positionY="500"/>
+<Connection from="2/herkes" to="onlar" with="poss"/>
+<Word name="4/şu" positionX="750" positionY="300"/>
+<Connection from="6/film" to="4/şu" with="mod"/>
+<Word name="person" positionX="850" positionY="300"/>
+<Connection from="6/film" to="person"/>
+<Word name="name" positionX="750" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="5/iran" positionX="650" positionY="500"/>
+<Connection from="name" to="5/iran" with="op1"/>
+<Word name="-" positionX="850" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="8/mi" positionX="850" positionY="200"/>
+<Connection from="7/gör" to="8/mi"/>
+</Amr>

@@ -1,0 +1,7 @@
+<Amr sentence="Balığı kızarttım .">
+<Word name="2/kızart" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="2/kızart" to="ben" with="ARG0"/>
+<Word name="1/balık" positionX="750" positionY="200"/>
+<Connection from="2/kızart" to="1/balık"/>
+</Amr>

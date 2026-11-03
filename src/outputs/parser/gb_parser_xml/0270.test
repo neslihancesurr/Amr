@@ -1,0 +1,13 @@
+<Amr sentence="Daha büyük bir arabamız olsa keşke .">
+<Word name="5/ol" positionX="750" positionY="100"/>
+<Word name="4/araba" positionX="650" positionY="200"/>
+<Connection from="5/ol" to="4/araba" with="ARG0"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="4/araba" to="biz" with="poss"/>
+<Word name="2/büyük" positionX="650" positionY="300"/>
+<Connection from="4/araba" to="2/büyük" with="mod"/>
+<Word name="1/daha" positionX="550" positionY="400"/>
+<Connection from="2/büyük" to="1/daha" with="degree"/>
+<Word name="6/keşke" positionX="750" positionY="200"/>
+<Connection from="5/ol" to="6/keşke" with="manner"/>
+</Amr>

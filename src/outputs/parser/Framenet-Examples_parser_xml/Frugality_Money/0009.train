@@ -1,0 +1,9 @@
+<Amr sentence="Dalkavuklar çok parasını yemişler .">
+<Word name="4/ye" positionX="750" positionY="100"/>
+<Word name="1/dalkavuk" positionX="650" positionY="200"/>
+<Connection from="4/ye" to="1/dalkavuk" with="ARG0"/>
+<Word name="3/para" positionX="750" positionY="200"/>
+<Connection from="4/ye" to="3/para" with="ARG1"/>
+<Word name="2/çok" positionX="650" positionY="300"/>
+<Connection from="3/para" to="2/çok" with="degree"/>
+</Amr>

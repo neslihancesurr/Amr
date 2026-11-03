@@ -1,0 +1,5 @@
+<Amr sentence="Sevgililer bakışıyorlardı .">
+<Word name="2/bakış" positionX="750" positionY="100"/>
+<Word name="1/sevgili" positionX="650" positionY="200"/>
+<Connection from="2/bakış" to="1/sevgili" with="ARG0"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr sentence="Jale'nin sevdiği iki yer">
+<Word name="4/yer" positionX="750" positionY="100"/>
+<Word name="2/sev" positionX="650" positionY="200"/>
+<Connection from="4/yer" to="2/sev"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/sev" to="o" with="poss"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="2/sev" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/jale" positionX="450" positionY="500"/>
+<Connection from="name" to="1/jale" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/iki" positionX="750" positionY="200"/>
+<Connection from="4/yer" to="3/iki"/>
+</Amr>

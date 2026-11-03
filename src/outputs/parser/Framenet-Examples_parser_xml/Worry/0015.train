@@ -1,0 +1,15 @@
+<Amr sentence="Küçük çocuk giderken haber vermeyerek ailesini merakta bıraktı .">
+<Word name="7/merak 8/bırak" positionX="750" positionY="100"/>
+<Word name="2/çocuk" positionX="650" positionY="200"/>
+<Connection from="7/merak 8/bırak" to="2/çocuk" with="ARG0"/>
+<Word name="1/küçük" positionX="550" positionY="300"/>
+<Connection from="2/çocuk" to="1/küçük" with="mod"/>
+<Word name="4/haber 5/ver" positionX="750" positionY="200"/>
+<Connection from="7/merak 8/bırak" to="4/haber 5/ver"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="4/haber 5/ver" to="-" with="polarity"/>
+<Word name="6/aile" positionX="850" positionY="200"/>
+<Connection from="7/merak 8/bırak" to="6/aile" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="6/aile" to="o" with="poss"/>
+</Amr>

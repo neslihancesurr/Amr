@@ -1,0 +1,11 @@
+<Amr sentence="Maç başlayınca herkes ayağa fırladı .">
+<Word name="4/ayak 5/fırla" positionX="750" positionY="100"/>
+<Word name="2/başla" positionX="650" positionY="200"/>
+<Connection from="4/ayak 5/fırla" to="2/başla"/>
+<Word name="1/maç" positionX="550" positionY="300"/>
+<Connection from="2/başla" to="1/maç" with="ARG1"/>
+<Word name="3/herkes" positionX="750" positionY="200"/>
+<Connection from="4/ayak 5/fırla" to="3/herkes" with="ARG0"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="3/herkes" to="onlar" with="poss"/>
+</Amr>

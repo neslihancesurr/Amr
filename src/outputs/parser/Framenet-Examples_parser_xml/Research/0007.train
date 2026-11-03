@@ -1,0 +1,11 @@
+<Amr sentence="Trigonometriyi iyice etüt etmelisiniz .">
+<Word name="gerek" positionX="750" positionY="100"/>
+<Word name="3/etüt 4/et" positionX="650" positionY="200"/>
+<Connection from="gerek" to="3/etüt 4/et"/>
+<Word name="siz" positionX="550" positionY="300"/>
+<Connection from="3/etüt 4/et" to="siz" with="ARG0"/>
+<Word name="1/trigonometri" positionX="650" positionY="300"/>
+<Connection from="3/etüt 4/et" to="1/trigonometri" with="ARG1"/>
+<Word name="2/iyi" positionX="750" positionY="300"/>
+<Connection from="3/etüt 4/et" to="2/iyi" with="manner"/>
+</Amr>

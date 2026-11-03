@@ -1,0 +1,18 @@
+<Amr sentence="Eski sevgilisini unutamamıştı , peşinde dolaşıyordu .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/unut" positionX="650" positionY="200"/>
+<Connection from="and" to="3/unut" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="3/unut" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="3/unut" to="o" with="ARG0"/>
+<Word name="2/sevgili" positionX="750" positionY="300"/>
+<Connection from="3/unut" to="2/sevgili" with="ARG1"/>
+<Word name="1/eski" positionX="650" positionY="400"/>
+<Connection from="2/sevgili" to="1/eski" with="mod"/>
+<Word name="5/peşinde 6/dolaş" positionX="750" positionY="200"/>
+<Connection from="and" to="5/peşinde 6/dolaş" with="op2"/>
+<Connection from="5/peşinde 6/dolaş" to="o" with="ARG0"/>
+<Word name="mümkün" positionX="750" positionY="300"/>
+<Connection from="5/peşinde 6/dolaş" to="mümkün"/>
+</Amr>

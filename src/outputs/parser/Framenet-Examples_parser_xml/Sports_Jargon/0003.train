@@ -1,0 +1,17 @@
+<Amr sentence="Ali kasti faul yaptıktan sonra hakem ona kırmızı kart gösterdi .">
+<Word name="8/kırmızı 9/kart 10/göster" positionX="750" positionY="100"/>
+<Word name="4/yap" positionX="650" positionY="200"/>
+<Connection from="8/kırmızı 9/kart 10/göster" to="4/yap"/>
+<Word name="1/ali" positionX="550" positionY="300"/>
+<Connection from="4/yap" to="1/ali" with="ARG0"/>
+<Word name="2/kasti" positionX="650" positionY="300"/>
+<Connection from="4/yap" to="2/kasti" with="ARG1"/>
+<Word name="3/faul" positionX="750" positionY="300"/>
+<Connection from="4/yap" to="3/faul" with="ARG1"/>
+<Word name="5/sonra" positionX="850" positionY="300"/>
+<Connection from="4/yap" to="5/sonra"/>
+<Word name="6/hakem" positionX="750" positionY="200"/>
+<Connection from="8/kırmızı 9/kart 10/göster" to="6/hakem" with="ARG0"/>
+<Word name="7/o" positionX="850" positionY="200"/>
+<Connection from="8/kırmızı 9/kart 10/göster" to="7/o" with="ARG1"/>
+</Amr>

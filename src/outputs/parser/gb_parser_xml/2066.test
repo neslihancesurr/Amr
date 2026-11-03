@@ -1,0 +1,15 @@
+<Amr sentence="Amacım , beş yıl içinde zengin olmaktı .">
+<Word name="6/zengin 7/ol" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/zengin 7/ol" to="o" with="ARG0"/>
+<Word name="1/amaç" positionX="750" positionY="200"/>
+<Connection from="6/zengin 7/ol" to="1/amaç"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="1/amaç" to="ben" with="poss"/>
+<Word name="5/iç" positionX="850" positionY="200"/>
+<Connection from="6/zengin 7/ol" to="5/iç" with="location"/>
+<Word name="4/yıl" positionX="750" positionY="300"/>
+<Connection from="5/iç" to="4/yıl" with="mod"/>
+<Word name="3/beş" positionX="650" positionY="400"/>
+<Connection from="4/yıl" to="3/beş"/>
+</Amr>

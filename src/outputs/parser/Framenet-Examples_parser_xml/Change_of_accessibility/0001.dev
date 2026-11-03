@@ -1,0 +1,31 @@
+<Amr sentence="Araplar İstanbul'u birkaç kez kuşattıysa da şehri almayı başaramadı .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="9/başar" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="9/başar"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="9/başar" to="-" with="polarity"/>
+<Word name="5/kuşat" positionX="650" positionY="300"/>
+<Connection from="9/başar" to="5/kuşat" with="cond"/>
+<Word name="1/arap" positionX="550" positionY="400"/>
+<Connection from="5/kuşat" to="1/arap" with="ARG0"/>
+<Word name="city" positionX="650" positionY="400"/>
+<Connection from="5/kuşat" to="city" with="ARG1"/>
+<Word name="name" positionX="550" positionY="500"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="2/istanbul" positionX="450" positionY="600"/>
+<Connection from="name" to="2/istanbul" with="op1"/>
+<Word name="istanbul" positionX="650" positionY="500"/>
+<Connection from="city" to="istanbul" with="wiki"/>
+<Word name="4/kez" positionX="750" positionY="400"/>
+<Connection from="5/kuşat" to="4/kez"/>
+<Word name="3/birkaç" positionX="650" positionY="500"/>
+<Connection from="4/kez" to="3/birkaç" with="mod"/>
+<Word name="6/da" positionX="850" positionY="400"/>
+<Connection from="5/kuşat" to="6/da"/>
+<Word name="8/al" positionX="750" positionY="300"/>
+<Connection from="9/başar" to="8/al" with="ARG1"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="8/al" to="o" with="ARG0"/>
+<Word name="7/şehir" positionX="750" positionY="400"/>
+<Connection from="8/al" to="7/şehir"/>
+</Amr>

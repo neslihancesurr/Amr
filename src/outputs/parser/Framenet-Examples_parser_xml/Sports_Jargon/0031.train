@@ -1,0 +1,11 @@
+<Amr sentence="Çok beklenmedik bir anda gol oldu .">
+<Word name="5/gol 6/ol" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/gol 6/ol" to="o" with="ARG0"/>
+<Word name="4/an" positionX="750" positionY="200"/>
+<Connection from="5/gol 6/ol" to="4/an" with="location"/>
+<Word name="2/beklenmedik" positionX="650" positionY="300"/>
+<Connection from="4/an" to="2/beklenmedik" with="mod"/>
+<Word name="1/çok" positionX="550" positionY="400"/>
+<Connection from="2/beklenmedik" to="1/çok" with="degree"/>
+</Amr>

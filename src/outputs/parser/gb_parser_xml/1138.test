@@ -1,0 +1,13 @@
+<Amr sentence="Bizler kırık not alınca çok üzülürdük .">
+<Word name="6/üzül" positionX="750" positionY="100"/>
+<Word name="1/biz" positionX="650" positionY="200"/>
+<Connection from="6/üzül" to="1/biz" with="ARG1"/>
+<Word name="4/al" positionX="750" positionY="200"/>
+<Connection from="6/üzül" to="4/al"/>
+<Word name="3/not" positionX="650" positionY="300"/>
+<Connection from="4/al" to="3/not"/>
+<Word name="2/kırık" positionX="550" positionY="400"/>
+<Connection from="3/not" to="2/kırık" with="mod"/>
+<Word name="5/çok" positionX="850" positionY="200"/>
+<Connection from="6/üzül" to="5/çok" with="degree"/>
+</Amr>

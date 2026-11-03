@@ -1,0 +1,15 @@
+<Amr sentence="Çok rüzgar vardı , gemi gezmişti .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="3/var" positionX="650" positionY="200"/>
+<Connection from="and" to="3/var" with="op1"/>
+<Word name="1/çok" positionX="550" positionY="300"/>
+<Connection from="3/var" to="1/çok" with="degree"/>
+<Word name="2/rüzgar" positionX="650" positionY="300"/>
+<Connection from="3/var" to="2/rüzgar"/>
+<Word name="6/gez" positionX="750" positionY="200"/>
+<Connection from="and" to="6/gez" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="6/gez" to="o" with="ARG0"/>
+<Word name="5/gemi" positionX="750" positionY="300"/>
+<Connection from="6/gez" to="5/gemi"/>
+</Amr>

@@ -1,0 +1,14 @@
+<Amr sentence="Araba virajları hızla döndükçe içi bulanıyordu .">
+<Word name="5/iç 6/bulan" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/iç 6/bulan" to="o" with="ARG0"/>
+<Word name="4/dön" positionX="750" positionY="200"/>
+<Connection from="5/iç 6/bulan" to="4/dön"/>
+<Word name="1/araba" positionX="650" positionY="300"/>
+<Connection from="4/dön" to="1/araba" with="ARG0"/>
+<Word name="2/viraj" positionX="750" positionY="300"/>
+<Connection from="4/dön" to="2/viraj" with="ARG1"/>
+<Connection from="2/viraj" to="o" with="poss"/>
+<Word name="3/hızla" positionX="850" positionY="300"/>
+<Connection from="4/dön" to="3/hızla" with="manner"/>
+</Amr>

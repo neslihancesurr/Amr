@@ -1,0 +1,26 @@
+<Amr sentence="Ceyda da artık gezip tozmayı bıraksın , tezinin başına otursun .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/bırak" positionX="650" positionY="200"/>
+<Connection from="and" to="6/bırak" with="op1"/>
+<Word name="imperative" positionX="550" positionY="300"/>
+<Connection from="6/bırak" to="imperative" with="mode"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="6/bırak" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ceyda" positionX="450" positionY="500"/>
+<Connection from="name" to="1/ceyda" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/da" positionX="750" positionY="400"/>
+<Connection from="person" to="2/da" with="manner"/>
+<Word name="3/artık" positionX="750" positionY="300"/>
+<Connection from="6/bırak" to="3/artık" with="manner"/>
+<Word name="4/gez 5/toz" positionX="850" positionY="300"/>
+<Connection from="6/bırak" to="4/gez 5/toz" with="ARG1"/>
+<Word name="o" positionX="750" positionY="400"/>
+<Connection from="4/gez 5/toz" to="o" with="ARG0"/>
+<Word name="9/baş 10/otur" positionX="750" positionY="200"/>
+<Connection from="and" to="9/baş 10/otur" with="op2"/>
+<Connection from="9/baş 10/otur" to="imperative" with="mode"/>
+</Amr>

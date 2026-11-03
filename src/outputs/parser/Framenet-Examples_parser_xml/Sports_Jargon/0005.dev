@@ -1,0 +1,14 @@
+<Amr sentence="Rakibine salto attı , gol atacağı kesindi .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/salto 3/at" positionX="650" positionY="200"/>
+<Connection from="and" to="2/salto 3/at" with="op1"/>
+<Word name="1/rakip" positionX="550" positionY="300"/>
+<Connection from="2/salto 3/at" to="1/rakip" with="ARG1"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="1/rakip" to="o" with="poss"/>
+<Word name="7/kesin" positionX="750" positionY="200"/>
+<Connection from="and" to="7/kesin" with="op2"/>
+<Word name="5/gol 6/at" positionX="650" positionY="300"/>
+<Connection from="7/kesin" to="5/gol 6/at"/>
+<Connection from="5/gol 6/at" to="o" with="poss"/>
+</Amr>

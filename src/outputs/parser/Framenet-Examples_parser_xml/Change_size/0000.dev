@@ -1,0 +1,12 @@
+<Amr sentence="Tüm tekerler sonuna kadar şişti .">
+<Word name="5/şiş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/şiş" to="o" with="ARG0"/>
+<Word name="2/teker" positionX="750" positionY="200"/>
+<Connection from="5/şiş" to="2/teker" with="ARG1"/>
+<Word name="1/tüm" positionX="650" positionY="300"/>
+<Connection from="2/teker" to="1/tüm" with="mod"/>
+<Word name="3/son" positionX="850" positionY="200"/>
+<Connection from="5/şiş" to="3/son" with="extent"/>
+<Connection from="3/son" to="o" with="poss"/>
+</Amr>

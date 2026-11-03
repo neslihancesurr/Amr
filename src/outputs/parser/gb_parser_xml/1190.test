@@ -1,0 +1,9 @@
+<Amr sentence="O bu günlerde çok yorgun .">
+<Word name="5/yorgun" positionX="750" positionY="100"/>
+<Word name="1/o 2/bu" positionX="650" positionY="200"/>
+<Connection from="5/yorgun" to="1/o 2/bu"/>
+<Word name="3/gün" positionX="750" positionY="200"/>
+<Connection from="5/yorgun" to="3/gün" with="location"/>
+<Word name="4/çok" positionX="850" positionY="200"/>
+<Connection from="5/yorgun" to="4/çok" with="degree"/>
+</Amr>

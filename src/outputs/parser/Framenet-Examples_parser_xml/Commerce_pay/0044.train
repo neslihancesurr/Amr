@@ -1,0 +1,12 @@
+<Amr sentence="Karım ağlayınca parayı söküldüm .">
+<Word name="4/sökül" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/sökül" to="ben" with="ARG0"/>
+<Word name="2/ağla" positionX="750" positionY="200"/>
+<Connection from="4/sökül" to="2/ağla"/>
+<Word name="1/karı" positionX="650" positionY="300"/>
+<Connection from="2/ağla" to="1/karı" with="ARG0"/>
+<Connection from="1/karı" to="ben" with="poss"/>
+<Word name="3/para" positionX="850" positionY="200"/>
+<Connection from="4/sökül" to="3/para" with="ARG1"/>
+</Amr>

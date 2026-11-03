@@ -1,0 +1,7 @@
+<Amr sentence="Bugünlük kepenkleri indirdik .">
+<Word name="2/kepenk 3/indir" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="2/kepenk 3/indir" to="biz" with="ARG0"/>
+<Word name="1/bugünlük" positionX="750" positionY="200"/>
+<Connection from="2/kepenk 3/indir" to="1/bugünlük" with="manner"/>
+</Amr>

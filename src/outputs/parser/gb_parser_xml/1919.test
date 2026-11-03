@@ -1,0 +1,9 @@
+<Amr sentence="1920'lerde otomobil yaygın değildi .">
+<Word name="3/yaygın" positionX="750" positionY="100"/>
+<Word name="1/1920" positionX="650" positionY="200"/>
+<Connection from="3/yaygın" to="1/1920"/>
+<Word name="2/otomobil" positionX="750" positionY="200"/>
+<Connection from="3/yaygın" to="2/otomobil"/>
+<Word name="-" positionX="850" positionY="200"/>
+<Connection from="3/yaygın" to="-" with="polarity"/>
+</Amr>

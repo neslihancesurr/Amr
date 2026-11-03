@@ -1,0 +1,11 @@
+<Amr sentence="Ayağa kalkarak içeriye doğru yöneldi .">
+<Word name="5/yönel" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/yönel" to="o" with="ARG0"/>
+<Word name="1/ayak 2/kalk" positionX="750" positionY="200"/>
+<Connection from="5/yönel" to="1/ayak 2/kalk"/>
+<Word name="3/içeri" positionX="850" positionY="200"/>
+<Connection from="5/yönel" to="3/içeri" with="ARG2"/>
+<Word name="4/doğru" positionX="750" positionY="300"/>
+<Connection from="3/içeri" to="4/doğru"/>
+</Amr>

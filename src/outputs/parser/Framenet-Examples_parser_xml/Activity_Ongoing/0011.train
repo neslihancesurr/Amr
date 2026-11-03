@@ -1,0 +1,24 @@
+<Amr sentence="Devlet kurumlarına işin düşmeyegörsün , işte böyle sürüncemede bırakırlar her şeyi !">
+<Word name="8/sürünceme 9/bırak" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="8/sürünceme 9/bırak" to="onlar" with="ARG0"/>
+<Word name="4/düşmeyegörsün" positionX="750" positionY="200"/>
+<Connection from="8/sürünceme 9/bırak" to="4/düşmeyegörsün"/>
+<Word name="2/kurum" positionX="650" positionY="300"/>
+<Connection from="4/düşmeyegörsün" to="2/kurum"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="2/kurum" to="o" with="poss"/>
+<Word name="1/devlet" positionX="650" positionY="400"/>
+<Connection from="2/kurum" to="1/devlet"/>
+<Word name="3/iş" positionX="750" positionY="300"/>
+<Connection from="4/düşmeyegörsün" to="3/iş"/>
+<Word name="7/böyle" positionX="850" positionY="200"/>
+<Connection from="8/sürünceme 9/bırak" to="7/böyle" with="manner"/>
+<Word name="6/iş" positionX="750" positionY="300"/>
+<Connection from="7/böyle" to="6/iş" with="location"/>
+<Word name="11/şey" positionX="950" positionY="200"/>
+<Connection from="8/sürünceme 9/bırak" to="11/şey" with="ARG1"/>
+<Connection from="11/şey" to="o" with="poss"/>
+<Word name="10/her" positionX="950" positionY="300"/>
+<Connection from="11/şey" to="10/her" with="mod"/>
+</Amr>

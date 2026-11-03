@@ -1,0 +1,13 @@
+<Amr sentence="Her gün oraya gidip gelmek zor .">
+<Word name="6/zor" positionX="750" positionY="100"/>
+<Word name="5/gel" positionX="650" positionY="200"/>
+<Connection from="6/zor" to="5/gel"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="5/gel" to="o" with="ARG0"/>
+<Word name="1/her 2/gün" positionX="650" positionY="300"/>
+<Connection from="5/gel" to="1/her 2/gün" with="mod"/>
+<Word name="4/git" positionX="750" positionY="300"/>
+<Connection from="5/gel" to="4/git"/>
+<Word name="3/ora" positionX="650" positionY="400"/>
+<Connection from="4/git" to="3/ora" with="ARG1"/>
+</Amr>

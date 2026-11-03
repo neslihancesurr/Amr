@@ -1,0 +1,9 @@
+<Amr sentence="Tatildeyken beni arı soktu .">
+<Word name="4/sok" positionX="750" positionY="100"/>
+<Word name="1/tatil" positionX="650" positionY="200"/>
+<Connection from="4/sok" to="1/tatil" with="location"/>
+<Word name="2/ben" positionX="750" positionY="200"/>
+<Connection from="4/sok" to="2/ben" with="ARG1"/>
+<Word name="3/arı" positionX="850" positionY="200"/>
+<Connection from="4/sok" to="3/arı" with="ARG0"/>
+</Amr>

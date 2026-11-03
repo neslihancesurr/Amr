@@ -1,0 +1,14 @@
+<Amr sentence="Bu yapılanı doğru bulmadım .">
+<Word name="3/doğru 4/bul" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/doğru 4/bul" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="3/doğru 4/bul" to="ben" with="ARG0"/>
+<Word name="2/yap" positionX="850" positionY="200"/>
+<Connection from="3/doğru 4/bul" to="2/yap" with="ARG1"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="2/yap" to="o" with="ARG0"/>
+<Connection from="2/yap" to="o" with="poss"/>
+<Word name="1/bu" positionX="950" positionY="300"/>
+<Connection from="2/yap" to="1/bu" with="mod"/>
+</Amr>

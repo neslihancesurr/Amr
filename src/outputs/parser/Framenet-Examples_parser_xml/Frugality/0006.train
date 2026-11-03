@@ -1,0 +1,14 @@
+<Amr sentence="Harçlığını faydasız şeyler alarak çarçur ediyor .">
+<Word name="5/çarçur 6/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/çarçur 6/et" to="o" with="ARG0"/>
+<Word name="1/harçlık" positionX="750" positionY="200"/>
+<Connection from="5/çarçur 6/et" to="1/harçlık" with="ARG1"/>
+<Connection from="1/harçlık" to="o" with="poss"/>
+<Word name="4/al" positionX="850" positionY="200"/>
+<Connection from="5/çarçur 6/et" to="4/al"/>
+<Word name="3/şey" positionX="750" positionY="300"/>
+<Connection from="4/al" to="3/şey" with="ARG1"/>
+<Word name="2/faydasız" positionX="650" positionY="400"/>
+<Connection from="3/şey" to="2/faydasız" with="mod"/>
+</Amr>

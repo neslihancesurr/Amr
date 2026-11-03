@@ -1,0 +1,22 @@
+<Amr sentence="Bu denklemi çözmek için 2'yi 3 ile yükseltmelisin .">
+<Word name="gerek" positionX="750" positionY="100"/>
+<Word name="8/yükselt" positionX="650" positionY="200"/>
+<Connection from="gerek" to="8/yükselt"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="8/yükselt" to="sen" with="ARG0"/>
+<Word name="3/çöz" positionX="650" positionY="300"/>
+<Connection from="8/yükselt" to="3/çöz" with="cause"/>
+<Word name="o" positionX="550" positionY="400"/>
+<Connection from="3/çöz" to="o" with="ARG0"/>
+<Word name="2/denklem" positionX="650" positionY="400"/>
+<Connection from="3/çöz" to="2/denklem" with="ARG1"/>
+<Connection from="2/denklem" to="o" with="poss"/>
+<Word name="1/bu" positionX="650" positionY="500"/>
+<Connection from="2/denklem" to="1/bu" with="mod"/>
+<Word name="5/2" positionX="750" positionY="300"/>
+<Connection from="8/yükselt" to="5/2"/>
+<Word name="6/3" positionX="850" positionY="300"/>
+<Connection from="8/yükselt" to="6/3"/>
+<Word name="7/ile" positionX="750" positionY="400"/>
+<Connection from="6/3" to="7/ile"/>
+</Amr>

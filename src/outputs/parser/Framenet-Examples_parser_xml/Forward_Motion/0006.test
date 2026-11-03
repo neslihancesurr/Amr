@@ -1,0 +1,16 @@
+<Amr sentence="Takla attım hemen belim ağrıdı .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/takla 2/at" positionX="650" positionY="200"/>
+<Connection from="and" to="1/takla 2/at" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="1/takla 2/at" to="ben" with="ARG0"/>
+<Word name="5/ağrı" positionX="750" positionY="200"/>
+<Connection from="and" to="5/ağrı" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/ağrı" to="o" with="ARG0"/>
+<Word name="3/hemen" positionX="750" positionY="300"/>
+<Connection from="5/ağrı" to="3/hemen" with="manner"/>
+<Word name="4/bel" positionX="850" positionY="300"/>
+<Connection from="5/ağrı" to="4/bel" with="ARG1"/>
+<Connection from="4/bel" to="ben" with="poss"/>
+</Amr>

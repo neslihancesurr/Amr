@@ -1,0 +1,24 @@
+<Amr sentence="Bir şöför ki park etmeyi bilmesin , ona güvenip arabasına binilmez .">
+<Word name="11/bin" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="11/bin" to="-" with="polarity"/>
+<Word name="2/şöför" positionX="750" positionY="200"/>
+<Connection from="11/bin" to="2/şöför"/>
+<Word name="6/bil" positionX="650" positionY="300"/>
+<Connection from="2/şöför" to="6/bil"/>
+<Connection from="6/bil" to="-" with="polarity"/>
+<Word name="imperative" positionX="650" positionY="400"/>
+<Connection from="6/bil" to="imperative" with="mode"/>
+<Word name="3/ki" positionX="750" positionY="400"/>
+<Connection from="6/bil" to="3/ki"/>
+<Word name="4/park 5/et" positionX="850" positionY="400"/>
+<Connection from="6/bil" to="4/park 5/et" with="ARG1"/>
+<Word name="9/güven" positionX="850" positionY="200"/>
+<Connection from="11/bin" to="9/güven"/>
+<Word name="8/o" positionX="750" positionY="300"/>
+<Connection from="9/güven" to="8/o" with="ARG1"/>
+<Word name="10/araba" positionX="950" positionY="200"/>
+<Connection from="11/bin" to="10/araba" with="ARG1"/>
+<Word name="o" positionX="850" positionY="300"/>
+<Connection from="10/araba" to="o" with="poss"/>
+</Amr>

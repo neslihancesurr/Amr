@@ -1,0 +1,9 @@
+<Amr sentence="Yapraklarını dökmüş iki söğüt ağacı .">
+<Word name="2/dök" positionX="750" positionY="100"/>
+<Word name="1/yaprak" positionX="650" positionY="200"/>
+<Connection from="2/dök" to="1/yaprak" with="ARG1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/yaprak" to="o" with="poss"/>
+<Word name="4/söğüt 5/ağaç" positionX="750" positionY="200"/>
+<Connection from="2/dök" to="4/söğüt 5/ağaç" with="ARG0"/>
+</Amr>

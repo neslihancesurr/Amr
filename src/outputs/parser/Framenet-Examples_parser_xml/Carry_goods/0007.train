@@ -1,0 +1,11 @@
+<Amr sentence="Bu senenin mahsüllerini ambarlayacağız .">
+<Word name="4/ambarla" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="4/ambarla" to="biz" with="ARG0"/>
+<Word name="3/mahsüllerini" positionX="750" positionY="200"/>
+<Connection from="4/ambarla" to="3/mahsüllerini" with="ARG1"/>
+<Word name="2/sene" positionX="650" positionY="300"/>
+<Connection from="3/mahsüllerini" to="2/sene" with="mod"/>
+<Word name="1/bu" positionX="550" positionY="400"/>
+<Connection from="2/sene" to="1/bu" with="mod"/>
+</Amr>

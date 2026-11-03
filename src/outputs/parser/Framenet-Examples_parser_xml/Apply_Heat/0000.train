@@ -1,0 +1,23 @@
+<Amr sentence="Ailemizin emektar Arap halayıklarından biri de bize aşçılık etmekteydi .">
+<Word name="8/aşçılık 9/et" positionX="750" positionY="100"/>
+<Word name="5/biri" positionX="650" positionY="200"/>
+<Connection from="8/aşçılık 9/et" to="5/biri" with="ARG0"/>
+<Word name="4/halayık" positionX="550" positionY="300"/>
+<Connection from="5/biri" to="4/halayık" with="mod"/>
+<Word name="1/aile" positionX="450" positionY="400"/>
+<Connection from="4/halayık" to="1/aile" with="mod"/>
+<Word name="2/emektar" positionX="550" positionY="400"/>
+<Connection from="4/halayık" to="2/emektar" with="mod"/>
+<Word name="person" positionX="650" positionY="400"/>
+<Connection from="4/halayık" to="person"/>
+<Word name="name" positionX="550" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/arap" positionX="450" positionY="600"/>
+<Connection from="name" to="3/arap" with="op1"/>
+<Word name="-" positionX="650" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="6/de" positionX="650" positionY="300"/>
+<Connection from="5/biri" to="6/de" with="manner"/>
+<Word name="7/biz" positionX="750" positionY="200"/>
+<Connection from="8/aşçılık 9/et" to="7/biz"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Sana iş bulacağım .">
+<Word name="3/bul" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/bul" to="ben" with="ARG0"/>
+<Word name="1/sen" positionX="750" positionY="200"/>
+<Connection from="3/bul" to="1/sen"/>
+<Word name="2/iş" positionX="850" positionY="200"/>
+<Connection from="3/bul" to="2/iş" with="ARG1"/>
+</Amr>

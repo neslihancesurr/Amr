@@ -1,0 +1,9 @@
+<Amr sentence="Eski günler hep gözünün önüne geldi .">
+<Word name="4/göz 5/ön 6/gel" positionX="750" positionY="100"/>
+<Word name="2/gün" positionX="650" positionY="200"/>
+<Connection from="4/göz 5/ön 6/gel" to="2/gün" with="ARG0"/>
+<Word name="1/eski" positionX="550" positionY="300"/>
+<Connection from="2/gün" to="1/eski" with="mod"/>
+<Word name="3/hep" positionX="750" positionY="200"/>
+<Connection from="4/göz 5/ön 6/gel" to="3/hep" with="frequency"/>
+</Amr>

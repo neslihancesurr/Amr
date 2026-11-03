@@ -1,0 +1,9 @@
+<Amr sentence="manzarası olan bir ev">
+<Word name="4/ev" positionX="750" positionY="100"/>
+<Word name="2/ol" positionX="650" positionY="200"/>
+<Connection from="4/ev" to="2/ol"/>
+<Word name="1/manzara" positionX="550" positionY="300"/>
+<Connection from="2/ol" to="1/manzara"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="1/manzara" to="o" with="poss"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="Ona kötülük etmeyi hatırımdan bile geçirmiyordum .">
+<Word name="6/hatır" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/hatır" to="o" with="poss"/>
+<Word name="2/kötülük 3/et" positionX="750" positionY="200"/>
+<Connection from="6/hatır" to="2/kötülük 3/et" with="ARG1"/>
+<Word name="4/hatır" positionX="850" positionY="200"/>
+<Connection from="6/hatır" to="4/hatır"/>
+<Word name="ben" positionX="750" positionY="300"/>
+<Connection from="4/hatır" to="ben" with="poss"/>
+<Word name="5/bile" positionX="850" positionY="300"/>
+<Connection from="4/hatır" to="5/bile" with="manner"/>
+</Amr>

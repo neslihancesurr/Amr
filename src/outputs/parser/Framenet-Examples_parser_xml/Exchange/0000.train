@@ -1,0 +1,9 @@
+<Amr sentence="Kitapları değiştirelim mi ?">
+<Word name="2/değiştir" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="2/değiştir" to="biz" with="ARG0"/>
+<Word name="1/kitap" positionX="750" positionY="200"/>
+<Connection from="2/değiştir" to="1/kitap" with="ARG1"/>
+<Word name="3/mi" positionX="850" positionY="200"/>
+<Connection from="2/değiştir" to="3/mi"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr sentence="Oyuncu topu penaltı noktasına dikti .">
+<Word name="5/dik" positionX="750" positionY="100"/>
+<Word name="1/oyuncu" positionX="650" positionY="200"/>
+<Connection from="5/dik" to="1/oyuncu" with="ARG0"/>
+<Word name="2/top" positionX="750" positionY="200"/>
+<Connection from="5/dik" to="2/top" with="ARG1"/>
+<Word name="3/penaltı 4/nokta" positionX="850" positionY="200"/>
+<Connection from="5/dik" to="3/penaltı 4/nokta" with="ARG2"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="3/penaltı 4/nokta" to="o" with="poss"/>
+</Amr>

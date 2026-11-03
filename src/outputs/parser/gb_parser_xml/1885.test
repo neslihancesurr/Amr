@@ -1,0 +1,25 @@
+<Amr sentence="Elli yaşını geçmiş bir insanın bu memlekette iş bulması kolay değil .">
+<Word name="10/kolay" positionX="750" positionY="100"/>
+<Word name="9/bul" positionX="650" positionY="200"/>
+<Connection from="10/kolay" to="9/bul"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="9/bul" to="o" with="ARG0"/>
+<Connection from="9/bul" to="o" with="poss"/>
+<Word name="5/insan" positionX="750" positionY="300"/>
+<Connection from="9/bul" to="5/insan"/>
+<Word name="3/geçmiş" positionX="650" positionY="400"/>
+<Connection from="5/insan" to="3/geçmiş"/>
+<Word name="2/yaş" positionX="550" positionY="500"/>
+<Connection from="3/geçmiş" to="2/yaş"/>
+<Connection from="2/yaş" to="o" with="poss"/>
+<Word name="1/elli" positionX="550" positionY="600"/>
+<Connection from="2/yaş" to="1/elli"/>
+<Word name="7/memleket" positionX="850" positionY="300"/>
+<Connection from="9/bul" to="7/memleket" with="location"/>
+<Word name="6/bu" positionX="750" positionY="400"/>
+<Connection from="7/memleket" to="6/bu" with="mod"/>
+<Word name="8/iş" positionX="950" positionY="300"/>
+<Connection from="9/bul" to="8/iş"/>
+<Word name="-" positionX="750" positionY="200"/>
+<Connection from="10/kolay" to="-" with="polarity"/>
+</Amr>

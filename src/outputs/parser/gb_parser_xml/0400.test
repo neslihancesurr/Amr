@@ -1,0 +1,13 @@
+<Amr sentence="Adamı üç bıçak darbesiyle öldürdüler .">
+<Word name="5/öldür" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="5/öldür" to="onlar" with="ARG0"/>
+<Word name="1/adam" positionX="750" positionY="200"/>
+<Connection from="5/öldür" to="1/adam" with="ARG1"/>
+<Word name="4/darbe" positionX="850" positionY="200"/>
+<Connection from="5/öldür" to="4/darbe" with="instrument"/>
+<Word name="2/üç" positionX="750" positionY="300"/>
+<Connection from="4/darbe" to="2/üç"/>
+<Word name="3/bıçak" positionX="850" positionY="300"/>
+<Connection from="4/darbe" to="3/bıçak" with="mod"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr sentence="Bu yaptığın çocukluk değil de nedir ?">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/ne" positionX="650" positionY="200"/>
+<Connection from="and" to="6/ne" with="op1"/>
+<Word name="5/de" positionX="550" positionY="300"/>
+<Connection from="6/ne" to="5/de"/>
+<Word name="3/çocukluk" positionX="750" positionY="200"/>
+<Connection from="and" to="3/çocukluk" with="op2"/>
+<Word name="2/yap" positionX="650" positionY="300"/>
+<Connection from="3/çocukluk" to="2/yap"/>
+<Word name="sen" positionX="550" positionY="400"/>
+<Connection from="2/yap" to="sen" with="poss"/>
+<Word name="1/bu" positionX="650" positionY="400"/>
+<Connection from="2/yap" to="1/bu" with="mod"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="3/çocukluk" to="-" with="polarity"/>
+</Amr>

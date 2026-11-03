@@ -1,0 +1,17 @@
+<Amr sentence="Ben adam tarih hocasıymış marih hocasıymış anlamam .">
+<Word name="7/anla" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="7/anla" to="-" with="polarity"/>
+<Word name="1/ben" positionX="750" positionY="200"/>
+<Connection from="7/anla" to="1/ben" with="ARG0"/>
+<Word name="4/hoca" positionX="850" positionY="200"/>
+<Connection from="7/anla" to="4/hoca" with="ARG1"/>
+<Word name="2/adam" positionX="750" positionY="300"/>
+<Connection from="4/hoca" to="2/adam"/>
+<Word name="3/tarih" positionX="850" positionY="300"/>
+<Connection from="4/hoca" to="3/tarih" with="mod"/>
+<Word name="6/hoca" positionX="950" positionY="300"/>
+<Connection from="4/hoca" to="6/hoca"/>
+<Word name="5/marih" positionX="850" positionY="400"/>
+<Connection from="6/hoca" to="5/marih" with="mod"/>
+</Amr>

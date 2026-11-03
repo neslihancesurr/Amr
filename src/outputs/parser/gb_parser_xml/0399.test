@@ -1,0 +1,11 @@
+<Amr sentence="Bütün atık suları denize akıttılar .">
+<Word name="5/akıt" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="5/akıt" to="onlar" with="ARG0"/>
+<Word name="2/atık 3/su" positionX="750" positionY="200"/>
+<Connection from="5/akıt" to="2/atık 3/su" with="ARG1"/>
+<Word name="1/bütün" positionX="650" positionY="300"/>
+<Connection from="2/atık 3/su" to="1/bütün" with="mod"/>
+<Word name="4/deniz" positionX="850" positionY="200"/>
+<Connection from="5/akıt" to="4/deniz"/>
+</Amr>

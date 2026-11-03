@@ -1,0 +1,9 @@
+<Amr sentence="Matmazel olaylara önceden aymıştı .">
+<Word name="4/ay" positionX="750" positionY="100"/>
+<Word name="1/matmazel" positionX="650" positionY="200"/>
+<Connection from="4/ay" to="1/matmazel" with="ARG0"/>
+<Word name="2/olay" positionX="750" positionY="200"/>
+<Connection from="4/ay" to="2/olay" with="ARG1"/>
+<Word name="3/önceden" positionX="850" positionY="200"/>
+<Connection from="4/ay" to="3/önceden" with="manner"/>
+</Amr>

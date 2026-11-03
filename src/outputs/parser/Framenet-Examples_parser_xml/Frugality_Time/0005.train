@@ -1,0 +1,25 @@
+<Amr sentence="Vakit saat aramaz ; gecenin körü de olsa çıkar gelir .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="1/vakit 2/saat 3/ara" positionX="650" positionY="200"/>
+<Connection from="and" to="1/vakit 2/saat 3/ara" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="1/vakit 2/saat 3/ara" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="1/vakit 2/saat 3/ara" to="o" with="ARG0"/>
+<Word name="10/gel" positionX="750" positionY="200"/>
+<Connection from="and" to="10/gel" with="op2"/>
+<Connection from="10/gel" to="o" with="ARG0"/>
+<Word name="8/ol" positionX="750" positionY="300"/>
+<Connection from="10/gel" to="8/ol"/>
+<Connection from="8/ol" to="o" with="ARG0"/>
+<Word name="6/kör" positionX="750" positionY="400"/>
+<Connection from="8/ol" to="6/kör"/>
+<Connection from="6/kör" to="o" with="poss"/>
+<Word name="5/gece" positionX="750" positionY="500"/>
+<Connection from="6/kör" to="5/gece"/>
+<Word name="7/de" positionX="850" positionY="500"/>
+<Connection from="6/kör" to="7/de" with="manner"/>
+<Word name="9/çık" positionX="850" positionY="300"/>
+<Connection from="10/gel" to="9/çık"/>
+<Connection from="9/çık" to="o" with="ARG0"/>
+</Amr>

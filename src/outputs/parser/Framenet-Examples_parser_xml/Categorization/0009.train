@@ -1,0 +1,12 @@
+<Amr sentence="Rüyasında gördüklerini iyiye yordu .">
+<Word name="4/yor" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/yor" to="o" with="ARG0"/>
+<Word name="1/rüya 2/gör" positionX="750" positionY="200"/>
+<Connection from="4/yor" to="1/rüya 2/gör" with="ARG1"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="1/rüya 2/gör" to="onlar" with="ARG0"/>
+<Connection from="1/rüya 2/gör" to="o" with="poss"/>
+<Word name="3/iyi" positionX="850" positionY="200"/>
+<Connection from="4/yor" to="3/iyi"/>
+</Amr>

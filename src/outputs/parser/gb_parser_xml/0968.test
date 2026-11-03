@@ -1,0 +1,9 @@
+<Amr sentence="İçeri girelim mi ?">
+<Word name="2/gir" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="2/gir" to="biz" with="ARG0"/>
+<Word name="1/içeri" positionX="750" positionY="200"/>
+<Connection from="2/gir" to="1/içeri" with="ARG1"/>
+<Word name="3/mi" positionX="850" positionY="200"/>
+<Connection from="2/gir" to="3/mi"/>
+</Amr>

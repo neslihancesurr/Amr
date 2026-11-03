@@ -1,0 +1,9 @@
+<Amr sentence="Kapının kilidi aşınmış .">
+<Word name="3/aşın" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/aşın" to="o" with="ARG0"/>
+<Word name="2/kilit" positionX="750" positionY="200"/>
+<Connection from="3/aşın" to="2/kilit" with="ARG1"/>
+<Word name="1/kapı" positionX="650" positionY="300"/>
+<Connection from="2/kilit" to="1/kapı" with="mod"/>
+</Amr>

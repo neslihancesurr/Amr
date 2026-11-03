@@ -1,0 +1,25 @@
+<Amr sentence="Dersini çalışmış ve odanı toplamışsan bile sokağa çıkamazsın .">
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="7/sokak 8/çık" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="7/sokak 8/çık"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="7/sokak 8/çık" to="-" with="polarity"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="7/sokak 8/çık" to="sen" with="ARG0"/>
+<Word name="and" positionX="750" positionY="300"/>
+<Connection from="7/sokak 8/çık" to="and"/>
+<Word name="5/topla" positionX="650" positionY="400"/>
+<Connection from="and" to="5/topla" with="op1"/>
+<Connection from="5/topla" to="sen" with="ARG0"/>
+<Word name="4/oda" positionX="650" positionY="500"/>
+<Connection from="5/topla" to="4/oda" with="ARG1"/>
+<Connection from="4/oda" to="sen" with="poss"/>
+<Word name="6/bile" positionX="750" positionY="500"/>
+<Connection from="5/topla" to="6/bile"/>
+<Word name="2/çalış" positionX="750" positionY="400"/>
+<Connection from="and" to="2/çalış" with="op2"/>
+<Word name="1/ders" positionX="650" positionY="500"/>
+<Connection from="2/çalış" to="1/ders"/>
+<Word name="o" positionX="550" positionY="600"/>
+<Connection from="1/ders" to="o" with="poss"/>
+</Amr>

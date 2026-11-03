@@ -1,0 +1,14 @@
+<Amr sentence="Yanlış insanlar peşinde koşarak gençliğini piç etti .">
+<Word name="6/piç 7/et" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/piç 7/et" to="o" with="ARG0"/>
+<Word name="3/peş 4/koş" positionX="750" positionY="200"/>
+<Connection from="6/piç 7/et" to="3/peş 4/koş"/>
+<Word name="2/insan" positionX="650" positionY="300"/>
+<Connection from="3/peş 4/koş" to="2/insan" with="ARG1"/>
+<Word name="1/yanlış" positionX="550" positionY="400"/>
+<Connection from="2/insan" to="1/yanlış" with="mod"/>
+<Word name="5/gençlik" positionX="850" positionY="200"/>
+<Connection from="6/piç 7/et" to="5/gençlik" with="ARG1"/>
+<Connection from="5/gençlik" to="o" with="poss"/>
+</Amr>

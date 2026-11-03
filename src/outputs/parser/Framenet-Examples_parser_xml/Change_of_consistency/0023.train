@@ -1,0 +1,9 @@
+<Amr sentence="Sabaha doğru ateş közleşmiş .">
+<Word name="4/közleş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/közleş" to="o" with="ARG0"/>
+<Word name="1/sabaha 2/doğru" positionX="750" positionY="200"/>
+<Connection from="4/közleş" to="1/sabaha 2/doğru" with="mod"/>
+<Word name="3/ateş" positionX="850" positionY="200"/>
+<Connection from="4/közleş" to="3/ateş" with="ARG1"/>
+</Amr>

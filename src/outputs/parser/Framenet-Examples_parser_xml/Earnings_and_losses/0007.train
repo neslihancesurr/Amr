@@ -1,0 +1,11 @@
+<Amr sentence="Atılgan genç , tımarlı olup pul tuttu .">
+<Word name="6/pul 7/tut" positionX="750" positionY="100"/>
+<Word name="2/genç" positionX="650" positionY="200"/>
+<Connection from="6/pul 7/tut" to="2/genç" with="ARG0"/>
+<Word name="1/atılgan" positionX="550" positionY="300"/>
+<Connection from="2/genç" to="1/atılgan" with="mod"/>
+<Word name="5/ol" positionX="750" positionY="200"/>
+<Connection from="6/pul 7/tut" to="5/ol"/>
+<Word name="4/tımar" positionX="650" positionY="300"/>
+<Connection from="5/ol" to="4/tımar" with="mod"/>
+</Amr>

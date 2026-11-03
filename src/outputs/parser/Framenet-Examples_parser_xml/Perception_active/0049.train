@@ -1,0 +1,11 @@
+<Amr sentence="Çocuk , vitrinin arkasındaki bisiklete kedi ciğere bakar gibi bakıyor .">
+<Word name="7/ciğer 8/bak 9/gibi 10/bak" positionX="750" positionY="100"/>
+<Word name="1/çocuk" positionX="650" positionY="200"/>
+<Connection from="7/ciğer 8/bak 9/gibi 10/bak" to="1/çocuk" with="ARG0"/>
+<Word name="5/bisiklet" positionX="750" positionY="200"/>
+<Connection from="7/ciğer 8/bak 9/gibi 10/bak" to="5/bisiklet" with="ARG1"/>
+<Word name="4/arka" positionX="650" positionY="300"/>
+<Connection from="5/bisiklet" to="4/arka" with="mod"/>
+<Word name="3/vitrin" positionX="550" positionY="400"/>
+<Connection from="4/arka" to="3/vitrin" with="mod"/>
+</Amr>

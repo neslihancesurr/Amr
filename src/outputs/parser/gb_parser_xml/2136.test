@@ -1,0 +1,18 @@
+<Amr sentence="Hepimiz çocuğun öyle bir suç işlemesine üzüldük .">
+<Word name="7/üzül" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="7/üzül" to="biz" with="ARG0"/>
+<Word name="1/hep" positionX="750" positionY="200"/>
+<Connection from="7/üzül" to="1/hep" with="frequency"/>
+<Word name="6/işle" positionX="850" positionY="200"/>
+<Connection from="7/üzül" to="6/işle"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="6/işle" to="o" with="ARG0"/>
+<Connection from="6/işle" to="o" with="poss"/>
+<Word name="5/suç" positionX="950" positionY="300"/>
+<Connection from="6/işle" to="5/suç"/>
+<Word name="2/çocuk" positionX="850" positionY="400"/>
+<Connection from="5/suç" to="2/çocuk"/>
+<Word name="3/öyle" positionX="950" positionY="400"/>
+<Connection from="5/suç" to="3/öyle" with="mod"/>
+</Amr>

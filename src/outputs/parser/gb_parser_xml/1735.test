@@ -1,0 +1,13 @@
+<Amr sentence="Sen bir meşe ağacı dikmişsin , bana göstersene .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="5/dik" positionX="650" positionY="200"/>
+<Connection from="and" to="5/dik" with="op1"/>
+<Word name="1/sen" positionX="550" positionY="300"/>
+<Connection from="5/dik" to="1/sen"/>
+<Word name="3/meşe 4/ağaç" positionX="650" positionY="300"/>
+<Connection from="5/dik" to="3/meşe 4/ağaç" with="mod"/>
+<Word name="8/göster" positionX="750" positionY="200"/>
+<Connection from="and" to="8/göster" with="op2"/>
+<Word name="7/ben" positionX="650" positionY="300"/>
+<Connection from="8/göster" to="7/ben"/>
+</Amr>

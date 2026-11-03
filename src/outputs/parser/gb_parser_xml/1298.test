@@ -1,0 +1,19 @@
+<Amr sentence="İçlerinden en zor okunanı bana düşmüş .">
+<Word name="6/düş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/düş" to="o" with="ARG0"/>
+<Word name="4/oku" positionX="750" positionY="200"/>
+<Connection from="6/düş" to="4/oku" with="ARG1"/>
+<Connection from="4/oku" to="o" with="ARG0"/>
+<Connection from="4/oku" to="o" with="poss"/>
+<Word name="1/iç" positionX="850" positionY="300"/>
+<Connection from="4/oku" to="1/iç"/>
+<Word name="onlar" positionX="750" positionY="400"/>
+<Connection from="1/iç" to="onlar" with="poss"/>
+<Word name="3/zor" positionX="950" positionY="300"/>
+<Connection from="4/oku" to="3/zor" with="manner"/>
+<Word name="2/en" positionX="850" positionY="400"/>
+<Connection from="3/zor" to="2/en" with="manner"/>
+<Word name="5/ben" positionX="850" positionY="200"/>
+<Connection from="6/düş" to="5/ben"/>
+</Amr>

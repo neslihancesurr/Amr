@@ -1,0 +1,9 @@
+<Amr sentence="Kayıtları inceleyerek olayın kökünü kazıdı .">
+<Word name="4/kök 5/kazı" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/kök 5/kazı" to="o" with="ARG0"/>
+<Word name="2/incele" positionX="750" positionY="200"/>
+<Connection from="4/kök 5/kazı" to="2/incele"/>
+<Word name="1/kayıt" positionX="650" positionY="300"/>
+<Connection from="2/incele" to="1/kayıt" with="ARG1"/>
+</Amr>

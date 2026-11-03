@@ -1,0 +1,17 @@
+<Amr sentence="bin dokuz yüz seksen dört yılının sekiz kasımında">
+<Word name="date-entity:date" positionX="750" positionY="100"/>
+<Word name="8/kasım" positionX="650" positionY="200"/>
+<Connection from="date-entity:date" to="8/kasım" with="month"/>
+<Word name="6/yıl" positionX="750" positionY="200"/>
+<Connection from="date-entity:date" to="6/yıl" with="mod"/>
+<Word name="5/dört" positionX="650" positionY="300"/>
+<Connection from="6/yıl" to="5/dört"/>
+<Word name="1/bin" positionX="550" positionY="400"/>
+<Connection from="5/dört" to="1/bin"/>
+<Word name="2/dokuz" positionX="650" positionY="400"/>
+<Connection from="5/dört" to="2/dokuz"/>
+<Word name="3/yüz" positionX="750" positionY="400"/>
+<Connection from="5/dört" to="3/yüz"/>
+<Word name="4/seksen" positionX="850" positionY="400"/>
+<Connection from="5/dört" to="4/seksen"/>
+</Amr>

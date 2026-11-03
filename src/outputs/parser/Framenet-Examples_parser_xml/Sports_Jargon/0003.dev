@@ -1,0 +1,28 @@
+<Amr sentence="Kaleci , serbest atış yapacak oyuncuyu gördü ve sol üst köşeye doğru hamle etti .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="13/hamle 14/et" positionX="650" positionY="200"/>
+<Connection from="and" to="13/hamle 14/et" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="13/hamle 14/et" to="o" with="ARG0"/>
+<Word name="11/köşe" positionX="650" positionY="300"/>
+<Connection from="13/hamle 14/et" to="11/köşe"/>
+<Word name="9/sol" positionX="550" positionY="400"/>
+<Connection from="11/köşe" to="9/sol" with="mod"/>
+<Word name="10/üst" positionX="650" positionY="400"/>
+<Connection from="11/köşe" to="10/üst" with="mod"/>
+<Word name="12/doğru" positionX="750" positionY="400"/>
+<Connection from="11/köşe" to="12/doğru"/>
+<Word name="7/gör" positionX="750" positionY="200"/>
+<Connection from="and" to="7/gör" with="op2"/>
+<Word name="1/kaleci" positionX="650" positionY="300"/>
+<Connection from="7/gör" to="1/kaleci" with="ARG0"/>
+<Word name="6/oyuncu" positionX="750" positionY="300"/>
+<Connection from="7/gör" to="6/oyuncu" with="ARG1"/>
+<Word name="5/yap" positionX="650" positionY="400"/>
+<Connection from="6/oyuncu" to="5/yap"/>
+<Word name="4/at" positionX="550" positionY="500"/>
+<Connection from="5/yap" to="4/at"/>
+<Connection from="4/at" to="o" with="ARG0"/>
+<Word name="3/serbest" positionX="550" positionY="600"/>
+<Connection from="4/at" to="3/serbest" with="mod"/>
+</Amr>

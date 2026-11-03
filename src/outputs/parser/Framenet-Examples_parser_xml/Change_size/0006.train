@@ -1,0 +1,13 @@
+<Amr sentence="Şişmanladın ya kıyafetlerin hep derekeye düştü .">
+<Word name="5/dereke 6/düş" positionX="750" positionY="100"/>
+<Word name="1/şişmanla" positionX="650" positionY="200"/>
+<Connection from="5/dereke 6/düş" to="1/şişmanla"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="1/şişmanla" to="sen" with="ARG0"/>
+<Word name="2/ya" positionX="650" positionY="300"/>
+<Connection from="1/şişmanla" to="2/ya"/>
+<Word name="3/kıyafet" positionX="750" positionY="200"/>
+<Connection from="5/dereke 6/düş" to="3/kıyafet" with="ARG0"/>
+<Word name="4/hep" positionX="850" positionY="200"/>
+<Connection from="5/dereke 6/düş" to="4/hep" with="frequency"/>
+</Amr>

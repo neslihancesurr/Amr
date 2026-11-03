@@ -1,0 +1,5 @@
+<Amr sentence="odanın kapısı">
+<Word name="2/kapı" positionX="750" positionY="100"/>
+<Word name="1/oda" positionX="650" positionY="200"/>
+<Connection from="2/kapı" to="1/oda" with="mod"/>
+</Amr>

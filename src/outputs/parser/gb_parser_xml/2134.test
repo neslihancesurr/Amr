@@ -1,0 +1,21 @@
+<Amr sentence="Hakan annesini sevmememizi anlıyordu .">
+<Word name="4/anla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/anla" to="o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="4/anla" to="person"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/hakan" positionX="550" positionY="400"/>
+<Connection from="name" to="1/hakan" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/sev" positionX="850" positionY="200"/>
+<Connection from="4/anla" to="3/sev"/>
+<Connection from="3/sev" to="-" with="polarity"/>
+<Word name="biz" positionX="850" positionY="300"/>
+<Connection from="3/sev" to="biz" with="ARG0"/>
+<Word name="2/anne" positionX="950" positionY="300"/>
+<Connection from="3/sev" to="2/anne"/>
+<Connection from="2/anne" to="o" with="poss"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Dokununca dağılıp tozlaştı .">
+<Word name="3/tozlaş" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/tozlaş" to="o" with="ARG0"/>
+<Word name="1/dokun" positionX="750" positionY="200"/>
+<Connection from="3/tozlaş" to="1/dokun"/>
+<Word name="2/dağıl" positionX="850" positionY="200"/>
+<Connection from="3/tozlaş" to="2/dağıl"/>
+</Amr>

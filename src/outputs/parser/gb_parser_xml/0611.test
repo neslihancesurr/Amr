@@ -1,0 +1,29 @@
+<Amr sentence="Ahmet Vefik Paşa'yı ilk Türk milliyetçilerinden biri addetmek">
+<Word name="8/addet" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="8/addet" to="o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="8/addet" to="person"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/paşa" positionX="550" positionY="400"/>
+<Connection from="name" to="3/paşa" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="person" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ahmet" positionX="650" positionY="500"/>
+<Connection from="name" to="1/ahmet" with="op1"/>
+<Word name="2/vefik" positionX="750" positionY="500"/>
+<Connection from="name" to="2/vefik" with="op2"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="7/biri" positionX="850" positionY="200"/>
+<Connection from="8/addet" to="7/biri" with="ARG1"/>
+<Connection from="7/biri" to="o" with="poss"/>
+<Word name="6/milliyetçi" positionX="850" positionY="300"/>
+<Connection from="7/biri" to="6/milliyetçi"/>
+<Word name="4/ilk" positionX="750" positionY="400"/>
+<Connection from="6/milliyetçi" to="4/ilk" with="mod"/>
+<Word name="5/türk" positionX="850" positionY="400"/>
+<Connection from="6/milliyetçi" to="5/türk" with="mod"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr sentence="Semra Elif'e onun anahtarlarını vermiş .">
+<Word name="5/ver" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="5/ver" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/semra" positionX="450" positionY="400"/>
+<Connection from="name" to="1/semra" with="op1"/>
+<Word name="2/elif" positionX="550" positionY="400"/>
+<Connection from="name" to="2/elif" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/anahtar" positionX="750" positionY="200"/>
+<Connection from="5/ver" to="4/anahtar" with="ARG1"/>
+<Word name="3/o" positionX="650" positionY="300"/>
+<Connection from="4/anahtar" to="3/o" with="mod"/>
+</Amr>

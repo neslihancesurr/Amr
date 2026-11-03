@@ -1,0 +1,12 @@
+<Amr sentence="Birikimini saf gibi araya verdi .">
+<Word name="4/ara 5/ver" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/ara 5/ver" to="o" with="ARG0"/>
+<Word name="1/birikim" positionX="750" positionY="200"/>
+<Connection from="4/ara 5/ver" to="1/birikim" with="ARG1"/>
+<Connection from="1/birikim" to="o" with="poss"/>
+<Word name="2/saf" positionX="850" positionY="200"/>
+<Connection from="4/ara 5/ver" to="2/saf"/>
+<Word name="3/gibi" positionX="750" positionY="300"/>
+<Connection from="2/saf" to="3/gibi"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr sentence="Kardeşiniz var mı ?">
+<Word name="2/var" positionX="750" positionY="100"/>
+<Word name="1/kardeş" positionX="650" positionY="200"/>
+<Connection from="2/var" to="1/kardeş"/>
+<Word name="siz" positionX="550" positionY="300"/>
+<Connection from="1/kardeş" to="siz" with="poss"/>
+<Word name="3/mi" positionX="750" positionY="200"/>
+<Connection from="2/var" to="3/mi"/>
+</Amr>

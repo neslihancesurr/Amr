@@ -1,0 +1,31 @@
+<Amr sentence="Remziye işten sonra arkadaşlarıyla buluşacak olursa yanına başka giysiler alıyor .">
+<Word name="10/al" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="10/al" to="o" with="ARG0"/>
+<Word name="6/ol" positionX="750" positionY="200"/>
+<Connection from="10/al" to="6/ol" with="cond"/>
+<Connection from="6/ol" to="o" with="ARG0"/>
+<Word name="5/buluş" positionX="750" positionY="300"/>
+<Connection from="6/ol" to="5/buluş"/>
+<Word name="person" positionX="650" positionY="400"/>
+<Connection from="5/buluş" to="person"/>
+<Word name="name" positionX="550" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/remziye" positionX="450" positionY="600"/>
+<Connection from="name" to="1/remziye" with="op1"/>
+<Word name="-" positionX="650" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/iş" positionX="750" positionY="400"/>
+<Connection from="5/buluş" to="2/iş"/>
+<Word name="3/sonra" positionX="650" positionY="500"/>
+<Connection from="2/iş" to="3/sonra"/>
+<Word name="4/arkadaş" positionX="850" positionY="400"/>
+<Connection from="5/buluş" to="4/arkadaş" with="instrument"/>
+<Word name="7/yan" positionX="850" positionY="200"/>
+<Connection from="10/al" to="7/yan"/>
+<Connection from="7/yan" to="o" with="poss"/>
+<Word name="9/giysi" positionX="950" positionY="200"/>
+<Connection from="10/al" to="9/giysi"/>
+<Word name="8/başka" positionX="850" positionY="300"/>
+<Connection from="9/giysi" to="8/başka" with="mod"/>
+</Amr>

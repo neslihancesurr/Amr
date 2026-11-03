@@ -1,0 +1,16 @@
+<Amr sentence="Semeri devirmiş gibi yatması hiç uygun gözükmüyor .">
+<Word name="7/gözük" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="7/gözük" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="7/gözük" to="o" with="ARG0"/>
+<Word name="4/yatma" positionX="850" positionY="200"/>
+<Connection from="7/gözük" to="4/yatma" with="ARG1"/>
+<Connection from="4/yatma" to="o" with="poss"/>
+<Word name="1/semer 2/devir" positionX="850" positionY="300"/>
+<Connection from="4/yatma" to="1/semer 2/devir"/>
+<Word name="5/hiç" positionX="950" positionY="200"/>
+<Connection from="7/gözük" to="5/hiç" with="degree"/>
+<Word name="6/uygun" positionX="1050" positionY="200"/>
+<Connection from="7/gözük" to="6/uygun" with="ARG1"/>
+</Amr>

@@ -1,0 +1,7 @@
+<Amr sentence="Sarman durmadan yalanıyordu .">
+<Word name="3/yala" positionX="750" positionY="100"/>
+<Word name="1/sarman" positionX="650" positionY="200"/>
+<Connection from="3/yala" to="1/sarman" with="ARG0"/>
+<Word name="2/durmadan" positionX="750" positionY="200"/>
+<Connection from="3/yala" to="2/durmadan" with="manner"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr sentence="O kadın bu tür şeyleri sezinliyor .">
+<Word name="6/sezinle" positionX="750" positionY="100"/>
+<Word name="2/kadın" positionX="650" positionY="200"/>
+<Connection from="6/sezinle" to="2/kadın" with="ARG0"/>
+<Word name="1/o" positionX="550" positionY="300"/>
+<Connection from="2/kadın" to="1/o" with="mod"/>
+<Word name="5/şey" positionX="750" positionY="200"/>
+<Connection from="6/sezinle" to="5/şey" with="ARG1"/>
+<Word name="4/tür" positionX="650" positionY="300"/>
+<Connection from="5/şey" to="4/tür" with="mod"/>
+<Word name="3/bu" positionX="550" positionY="400"/>
+<Connection from="4/tür" to="3/bu" with="mod"/>
+</Amr>

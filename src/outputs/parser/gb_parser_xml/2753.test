@@ -1,0 +1,15 @@
+<Amr sentence="Yeter ki sen bulduğum işi beğen .">
+<Word name="6/beğen" positionX="750" positionY="100"/>
+<Word name="imperative" positionX="650" positionY="200"/>
+<Connection from="6/beğen" to="imperative" with="mode"/>
+<Word name="1/yeter 2/ki" positionX="750" positionY="200"/>
+<Connection from="6/beğen" to="1/yeter 2/ki"/>
+<Word name="3/sen" positionX="850" positionY="200"/>
+<Connection from="6/beğen" to="3/sen" with="ARG0"/>
+<Word name="5/iş" positionX="950" positionY="200"/>
+<Connection from="6/beğen" to="5/iş" with="ARG1"/>
+<Word name="4/bul" positionX="850" positionY="300"/>
+<Connection from="5/iş" to="4/bul"/>
+<Word name="ben" positionX="750" positionY="400"/>
+<Connection from="4/bul" to="ben" with="poss"/>
+</Amr>

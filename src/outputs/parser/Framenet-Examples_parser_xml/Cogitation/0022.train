@@ -1,0 +1,18 @@
+<Amr sentence="Eğer yakalanırsa olabilecekleri bir bir tarttı .">
+<Word name="6/tart" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="6/tart" to="o" with="ARG0"/>
+<Word name="2/yakalan" positionX="750" positionY="200"/>
+<Connection from="6/tart" to="2/yakalan" with="cond"/>
+<Connection from="2/yakalan" to="o" with="ARG0"/>
+<Word name="1/eğer" positionX="750" positionY="300"/>
+<Connection from="2/yakalan" to="1/eğer"/>
+<Word name="mümkün" positionX="850" positionY="200"/>
+<Connection from="6/tart" to="mümkün"/>
+<Word name="3/ol" positionX="750" positionY="300"/>
+<Connection from="mümkün" to="3/ol" with="ARG1"/>
+<Word name="onlar" positionX="650" positionY="400"/>
+<Connection from="3/ol" to="onlar" with="ARG0"/>
+<Word name="4/bir 5/bir" positionX="950" positionY="200"/>
+<Connection from="6/tart" to="4/bir 5/bir"/>
+</Amr>

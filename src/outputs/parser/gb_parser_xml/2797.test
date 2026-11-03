@@ -1,0 +1,25 @@
+<Amr sentence="Ziya her sabah paltosunu giyer , şemsiyesini alır ve işe giderdi .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="8/al" positionX="650" positionY="200"/>
+<Connection from="and" to="8/al" with="op1"/>
+<Word name="7/şemsiye" positionX="550" positionY="300"/>
+<Connection from="8/al" to="7/şemsiye" with="ARG1"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="7/şemsiye" to="o" with="poss"/>
+<Word name="11/git" positionX="650" positionY="300"/>
+<Connection from="8/al" to="11/git"/>
+<Word name="10/iş" positionX="550" positionY="400"/>
+<Connection from="11/git" to="10/iş" with="ARG1"/>
+<Word name="5/giy" positionX="750" positionY="200"/>
+<Connection from="and" to="5/giy" with="op2"/>
+<Word name="1/ziya" positionX="650" positionY="300"/>
+<Connection from="5/giy" to="1/ziya" with="ARG0"/>
+<Word name="3/sabah" positionX="750" positionY="300"/>
+<Connection from="5/giy" to="3/sabah"/>
+<Word name="2/her" positionX="650" positionY="400"/>
+<Connection from="3/sabah" to="2/her" with="mod"/>
+<Word name="4/palto" positionX="850" positionY="300"/>
+<Connection from="5/giy" to="4/palto" with="ARG1"/>
+<Connection from="4/palto" to="o" with="poss"/>
+<Connection from="5/giy" to="and"/>
+</Amr>

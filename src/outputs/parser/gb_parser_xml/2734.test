@@ -1,0 +1,24 @@
+<Amr sentence="Bir kere herkes ona güveniyor , sonra bilgi ve deneyimi var .">
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="11/var" positionX="650" positionY="200"/>
+<Connection from="and" to="11/var" with="op1"/>
+<Word name="7/sonra" positionX="550" positionY="300"/>
+<Connection from="11/var" to="7/sonra" with="manner"/>
+<Connection from="11/var" to="and"/>
+<Word name="10/deneyim" positionX="550" positionY="400"/>
+<Connection from="and" to="10/deneyim" with="op1"/>
+<Word name="o" positionX="450" positionY="500"/>
+<Connection from="10/deneyim" to="o" with="poss"/>
+<Word name="8/bilgi" positionX="650" positionY="400"/>
+<Connection from="and" to="8/bilgi" with="op2"/>
+<Word name="5/güven" positionX="750" positionY="200"/>
+<Connection from="and" to="5/güven" with="op2"/>
+<Word name="2/kere" positionX="650" positionY="300"/>
+<Connection from="5/güven" to="2/kere"/>
+<Word name="3/herkes" positionX="750" positionY="300"/>
+<Connection from="5/güven" to="3/herkes" with="ARG0"/>
+<Word name="onlar" positionX="650" positionY="400"/>
+<Connection from="3/herkes" to="onlar" with="poss"/>
+<Word name="4/o" positionX="850" positionY="300"/>
+<Connection from="5/güven" to="4/o" with="ARG1"/>
+</Amr>
